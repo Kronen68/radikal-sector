@@ -1,9 +1,16 @@
 #
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2026-07-30 08:36+0000\n"
+"Last-Translator: 土豆老年人 <2685455659@qq.com>\n"
+"Language-Team: Chinese (Simplified Han script) <https://weblate.hyperq.be/"
+"projects/radikal-sector/datablueprintsxmlappend/zh_Hans/>\n"
+"Language: zh_Hans\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.17.1\n"
 
 #: src-en/data/blueprints.xml.append:39
 msgid ""
@@ -222,10 +229,12 @@ msgid ""
 msgstr "噬舰冲击"
 
 #: src-en/data/blueprints.xml.append:229
+#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"DJMOD_COMBAT_SHIPVORE_RAM\"]/desc"
 msgstr ""
-"（RK 巴姆装备）反复冲撞敌人，必定造成伤害，通常还能获得免费维修，有时还有其他好处。\n"
+"（RK 巴姆装备）反复冲撞敌人，必定造成伤害，通常还能获得免费维修，有时还有其他"
+"好处。\n"
 "\t\t[在切换菜单中查看多效/组合]\n"
 "\n"
 "\t\t普通冲撞：（消耗 {）\n"
@@ -626,11 +635,14 @@ msgid ""
 msgstr "灼烧装填器"
 
 #: src-en/data/blueprints.xml.append:654
+#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_WEAPONS_ON_FIRE\"]/desc"
 msgstr ""
 "（RK 灼烧装备）你的武器和巨炮的射速提升 25%。\n"
-"\t\t每次发射射弹或光束时，额外获得 1% 的射速加成（最高 10% —— 多个“灼烧装填器”效果不可叠加），但同时有 [style[color:ff3377]]15% 的几率在武器控制和任何巨炮舱室引发火灾[[/style]]。\n"
+"\t\t每次发射射弹或光束时，额外获得 1% 的射速加成（最高 10% —— 多个“灼烧装填器"
+"”效果不可叠加），但同时有 [style[color:ff3377]]15% 的几率在武器控制和任何巨炮"
+"舱室引发火灾[[/style]]。\n"
 "\t\t额外加成在跃迁时重置。\n"
 "\n"
 "\t\t组合：灼烧预燃器将最大额外加成提升至 20%"
@@ -946,6 +958,7 @@ msgid ""
 msgstr "重型爆裂 I"
 
 #: src-en/data/blueprints.xml.append:1288
+#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_HEAVY_POPPER_1\"]/desc"
 msgstr ""
@@ -964,6 +977,7 @@ msgid ""
 msgstr "重型爆裂 II"
 
 #: src-en/data/blueprints.xml.append:1346
+#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_HEAVY_POPPER_2\"]/desc"
 msgstr ""
@@ -982,6 +996,7 @@ msgid ""
 msgstr "重型爆裂 III"
 
 #: src-en/data/blueprints.xml.append:1446
+#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_HEAVY_POPPER_3\"]/desc"
 msgstr ""
