@@ -54,18 +54,31 @@ These help fill in any gaps and are usually just very generic all-purpose events
 -->
 
 
-<!-- Fix custom gear showing up in ancient (true ending) sectors. 
-REFS
 
+<FTL>
+
+<!-- Add single RK beacon to sectors 2, 4, and 6 to punish RK users or supply Anti-RK playthroughs. 
+
+REF: Lily's Beam Emporium v1.6.3:
+<mod:findLike type="sectorDescription">
+    <mod-append:priorityEvent name="LILY_EMPORIUM_QUEST_START" min="1" max="1" priority="1" req="LILY_EMPORIUM_SPAWN_CHECK" lvl="1"/>
+</mod:findLike>
+-->
+<mod:findLike type="sectorDescription">
+    <!-- <mod-append:priorityEvent name="RK_A_OUTSIDE_POLICE_INTRO_QUEST_START" min="1" max="1" priority="1" req="RK_A_INTRO_SHIP_REQS" lvl="1"/> -->
+	<mod-append:priorityEvent name="RK_A_OUTSIDE_POLICE_INTRO_QUEST_START_SWITCHER" min="1" max="1" priority="1" req="RK_A_INTRO_SHIP_REQS" lvl="1"/>
+	<mod-append:priorityEvent name="RK_A_OUTSIDE_POLICE_NUMBER2_QUEST_START" min="1" max="1" priority="1" req="RK_A_POLICE_NUMBER2_REQS" lvl="1"/>
+	<mod-append:priorityEvent name="RK_A_OUTSIDE_POLICE_NUMBER3_QUEST_START" min="1" max="1" priority="1" req="RK_A_POLICE_NUMBER3_REQS" lvl="1"/>
+</mod:findLike>
+
+<!-- Fix custom gear showing up in ancient (true ending) sectors. 
+REFS: TRC
 <mod:findName type="sectorDescription" name="STANDARD_SPACE">
 	<mod:findLike type="rarityList">
 		<mod-append:blueprint name="EE_MISSILES_INSTANT" rarity="0" />
-		<mod-append:blueprint name="EE_MISSILES_FROST" rarity="0" />
 		<mod-append:blueprint name="EE_SHOTGUN_TRIFECTA" rarity="0" />
 	</mod:findLike>
 </mod:findName>-->
-<FTL>
-
 <mod:findName type="sectorDescription" name="SECRET_ANCIENT">
 	<mod:findLike type="rarityList">
 		<mod-append:blueprint name="RK_BAM_DIVINE_ARMOR" rarity="0"/>
@@ -333,6 +346,8 @@ TODO:
 		<!-- <track>wasteland</track> -->
 	</trackList>
 	<rarityList>
+		<blueprint name="RK_BPS_SHIELD_OVER_MATTER" rarity="5"/>
+
 		<!--
 		\\\\\\\\\\\
 		CREW - Lost Suns, Duskbringers, Shells, Soldiers, special Ghosts, special slugs, and rarely,
@@ -473,20 +488,17 @@ TODO:
 	-->
 	<event name="NEBULA_RKS_HIDEOUT_SWITCHER" min="1" max="1"/>
 	<event name="NEBULA_EMPTY_RADIKAL" min="1" max="1"/>
-	<!-- HOSTILE RK -->
+	<!-- HOSTILE RK (NEBULA) -->
 	<event name="NEBULA_LIGHT_RKS_FIGHT_LEAD_TITANS" min="1" max="1"/>
 
 	<event name="RADIKAL_PHILO" min="1" max="1"/>
 	<event name="ZOLTAN_POLICECHECK_RK" min="1" max="1"/>		<!-- Counts for 2, may spawn quest. -->
-	<event name="RADIKAL_ENSLAVED" min="1" max="1"/>
-	<event name="THIEVES_RK_LASERS" min="1" max="1"/>
-	<event name="RK_GEAR_BUYERS" min="1" max="2"/>
-
 	<event name="RKS_QUEST_DEFROMORIUS" min="1" max="1"/>
-	
+
 	<event name="RKS_STORE_SNIPER_SIEGED" min="1" max="1"/>
 	<event name="EVENT_STORE_RADIKAL" min="2" max="2"/>
 
+	<event name="RKS_BIL_BAM_SYSTEMS" min="1" max="1"/>
 	<event name="RKS_BIL_SCORCH_REACTOR" min="1" max="1"/>
 
 	<event name="RKS_SUSPICIOUS_SMUGGLER" min="2" max="2"/>		<!-- for Zoltan Police Warrant -->
@@ -494,16 +506,21 @@ TODO:
 	<!-- HOSTILE RK -->
 	<event name="RKS_FIGHT_GRAVESPRED" min="1" max="1"/>
 	<event name="RKS_FIGHT_WOF" min="1" max="1"/>
-	<!-- HOSTILE vanilla MV-->
+	<!-- HOSTILE base MV-->
 	<event name="RKS_FIGHT_ELITE_COALITION" min="1" max="1"/>
+	<event name="RK_MV_TRAVELER" min="1" max="1"/>
 	
-	<!-- EMPTY -->
-	<event name="EMPTY_RADIKAL" min="1" max="2"/>
+	<!-- OVERWRITABLE BY QUESTS -->
+	<event name="RADIKAL_ENSLAVED" min="1" max="1"/>
+	<event name="RK_GEAR_BUYERS" min="1" max="2"/>
+	<event name="THIEVES_RK_LASERS" min="1" max="1"/>
 
-	<event name="MV_TRAVELER" min="2" max="2"/>
+	<!-- EMPTY -->
+	<event name="EMPTY_RADIKAL" min="1" max="1"/>
+	<!-- <event name="MV_TRAVELER" min="1" max="1"/> -->
 	
 	<!-- Mercs, Slavers, Smugglers. They can give bad rep (or good with Piracy is Poggers) or threaten. Accepts 999 instances. -->
-	<event name="PIRACY_LIST" min="2" max="4"/> 
+	<event name="PIRACY_LIST" min="2" max="3"/> 
 
 	<!--
 	<event name="THIEVES_RK_MISSILES" min="0" max="1"/>

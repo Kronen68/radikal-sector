@@ -74,6 +74,22 @@ Store Events - in vanilla, these are just extremely generic beacons with a store
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 -->
 
+<!-- console "aug UPG_AETHER_SCANNERS" to test. -->
+<event name="RK_MV_TRAVELER">
+	<preventQuest/>
+	<beaconType id="map_icon_traveler" global="true" req="UPG_AETHER_SCANNERS">
+		<color r="25" g="205" b="150" a="1.0"/>
+		<unvisitedTooltip>This is the location of abnormal energy signatures.</unvisitedTooltip>
+		<visitedTooltip>Explored location. Nothing left of interest.</visitedTooltip>
+	</beaconType>
+	<text>You've arrived at a seemingly ordinary beacon, but scans show a slip-tunnel opening. Someone with an MV drive is jumping in nearby!</text>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<!-- <event load="MV_TRAVELER_LOAD"/> 		Default, can give blue rebels. -->
+		<event load="MV_TRAVELER_SPAWN"/>
+	</choice>
+</event>
+
 <!--//////////////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////////////////////////////////
 					    DISTRESS EVENTS
@@ -376,8 +392,8 @@ To make normal nebula instead (debugging?), disable all that and make prefix "NE
 <!-- Hardly skippable fight with "Gravespred" RK Punk ship -->
 <event name="RKS_FIGHT_GRAVESPRED" unique="true">
 	<preventQuest/>
-	<text>This beacon is unpopulated, save for a RK Punk auto-ship that immediately maneuvers towards you!
-		"#--Lifeforms detected: Resuming purge."
+	<text>This beacon is unpopulated, save for a RK Punk auto-ship that immediately maneuvers towards you.
+		"#--LIFEFORMS DETECTED: RESUMING PURGE."
 		
 		Against such weaponry, your defenses will soon become useless, and your crew will be in grave danger!
 
@@ -390,7 +406,7 @@ To make normal nebula instead (debugging?), disable all that and make prefix "NE
 		<event>
 			<text>"--NEW OBJECTIVE: DEFUSE SITUATION-- Admin command: abort hunt; jettison cargo; return to base."
 
-				"Admin command received. Executing."</text>
+				"#--ADMIN COMMAND RECEIVED AND AUTHENTICATED. EXECUTING."</text>
 			<item_modify>
 				<item type="scrap" min="15" max="25"/>
 			</item_modify>
@@ -757,11 +773,11 @@ To make normal nebula instead (debugging?), disable all that and make prefix "NE
 		</choice>
 	</deadCrew>
 	<crew>
-		<crewMember type="rock_commando" prop="0.25"/>
-		<crewMember type="phantom" prop="0.25"/>
-		<crewMember type="human_technician" prop="0.25"/>
-		<crewMember type="engi_defender" prop="0.25"/>
-		<crewMember type="lizard" prop="0.25"/>
+		<crewMember type="rock_commando" prop="0.20"/>
+		<crewMember type="phantom" prop="0.20"/>
+		<crewMember type="human_technician" prop="0.20"/>
+		<crewMember type="engi_defender" prop="0.20"/>
+		<crewMember type="lizard" prop="0.20"/>
 	</crew>
 </ship>
 
@@ -1568,24 +1584,172 @@ To make normal nebula instead (debugging?), disable all that and make prefix "NE
 
 <!-- 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////
 ////////		BRUTAL IMPROVEMENT LABS ("B.I.L.s")
+//////////////////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////////////////////////////////
 -->
 
+<event name="RKS_BIL_BAM_SYSTEMS">
+	<preventQuest/>
+    <environment type="asteroid"/>
+	<text>Inside this asteroid belt, you stumble upon a strange workshop manned by Vexopaths.
+
+		"*Grumble* This is the RK Bam 'Brutal Improvement Lab'. Welcome."
+		You already knew Vexopaths are not the life of the party. This one's tone manages to make you feel guilty and threatened before you've even said or done anything.
+		
+		"Your ship, we can improve it. Brutally, in case you missed that part. For low scrap.
+		First, we [style[color:ff3377]]remove any unnecessary hull.[[/style]] Then you choose a system to receive 2 power level upgrades, even beyond your sorry ship's normal limits if applicable.
+		Systems we deal with: Drones, Shields, Weapons. In alphabetical order, to avoid confusing your flesh brain.
+		
+		Then you go away. Or get some repairs from the Aftercare ship before you go away. Statistically recommended.
+		State your approval. Or go away, which is 100% fine by me."
+		
+		The place has security and your scanners didn't detect any other ships. This should be safe.
+		Well, other than the "almost be destroyed in the middle of an asteroid belt" bit. And the pricing seems a bit too good.</text>
+	<ship load="SHIP_LANIUS_STATION" hostile="false"/>
+	
+	<choice hidden="false">
+		<text>What could go wrong? Screw it, I'm game!</text>
+		<event>
+			<text>"*Grumble* Proceed to the spot with the big tethering cables and mechanical arms." There is no emotion other than anger in the Vexo's reply. You figure even if you chose to leave, it would be the same.
+
+				You pay the scrap, exit your ship and as soon as you're one step away from its entrance, you watch in horror: they're already tearing it apart with great speed and precision.
+				Armor panels are mercilessly ripped out, alloy beams are bended or cut with high-powered tools, and softer elements are either smashed with giant hammers or turned to shreds.
+				
+				All of the machinery suddenly freezes just short of complete structural failure.
+			</text>
+			<item_modify>
+				<item type="scrap" min="-60" max="-60"/>
+			</item_modify>
+			<damage amount="999"/>
+			<damage amount="-1"/>
+
+			<choice hidden="false">
+				<text>...What have I just done?...</text>
+				<event>
+					<text>Completely unfazed by any of this (in fact it never even turned its gaze away from you to watch the carnage), the Vexopath addresses you again, sounding like Old Earth vending machines.
+						"Preparation complete. Select your system."</text>
+					
+					<choice req="drones" lvl="1" blue="false" hidden="false">
+						<text>Upgrade my Drone Control</text>
+						<event load="RKS_UPGRADE_DRONES_BY_2"/>
+					</choice>
+					
+					<!-- <choice req="engines" lvl="1" blue="false" hidden="false">
+						<text>Upgrade my Engines</text>
+						<event load="RKS_UPGRADE_ENGINES_BY_2"/>
+					</choice> -->
+
+					<choice req="shields" lvl="1" blue="false" hidden="false">
+						<text>Upgrade my Shields</text>
+						<event load="RKS_UPGRADE_SHIELDS_BY_2"/>
+					</choice>
+
+					<choice req="weapons" lvl="1" blue="false" hidden="false">
+						<text>Upgrade my Weapon Control</text>
+						<event load="RKS_UPGRADE_WEAPONS_BY_2"/>
+					</choice>
+
+					<choice hidden="true">
+						<text>Wait a minute... we don't even have applicable systems!</text>
+						<event>
+							<text>"Typical decision skill issue. Report dismissed. See you never."</text>
+
+							<!-- <choice>
+								<text>Continue...</text>
+								<event/>
+							</choice> -->
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+
+	<choice hidden="false">
+		<text>No thanks, but how about we hire a couple of you?</text>
+		<event>
+			<text>"Acceptance stated. Who cares, existence is pain anyway. You would do well to find us stuff to destroy. Else, your own stuff will do."</text>
+			<item_modify>
+				<item type="scrap" min="-60" max="-80"/>
+			</item_modify>
+			<crewMember amount="2" all_skills="1" class="rk_weaponlike"/>
+
+			<choice>
+				<text>Continue...</text>
+				<event/>
+			</choice>
+		</event>
+	</choice>
+
+	<choice hidden="true">
+		<text>We could unburden you of some of those spare parts instead?</text>
+		<event>
+			<text>"Did we fail to identify you as the new garbage disposal ship? Unlikely. But proceed. I do not care."
+				Not one to pass up free scrap, you take your pick of what's left of previous customers.</text>
+			<autoReward level="LOW">standard</autoReward>
+
+			<!-- <choice>
+				<text>Continue...</text>
+				<event/>
+			</choice> -->
+		</event>
+	</choice>
+
+	<choice>
+		<text>No thanks, do something onboard the ship.</text>
+		<event load="STORAGE_CHECK"/>
+	</choice>
+
+	<choice hidden="true">
+		<text>No way in hell, don't even let them hope, jump!</text>
+		<event/>
+	</choice>
+</event>
+
+
+<!-- Lua-powered -->
+<event name="RKS_UPGRADE_DRONES_BY_2">
+	<text load="RKS_BIL_BAM_FINISHED_TEXT"/>
+	<store>STORE_RKS_BIL_BAM</store>
+</event>
+<!-- <event name="RKS_UPGRADE_ENGINES_BY_2">
+	<text load="RKS_BIL_BAM_FINISHED_TEXT"/>
+	<store>STORE_RKS_BIL_BAM</store>
+</event> -->
+<event name="RKS_UPGRADE_SHIELDS_BY_2">
+	<text load="RKS_BIL_BAM_FINISHED_TEXT"/>
+	<store>STORE_RKS_BIL_BAM</store>
+</event>
+<event name="RKS_UPGRADE_WEAPONS_BY_2">
+	<text load="RKS_BIL_BAM_FINISHED_TEXT"/>
+	<store>STORE_RKS_BIL_BAM</store>
+</event>
+<textList name="RKS_BIL_BAM_FINISHED_TEXT">
+	<text>Rather quickly, they finish adding components you don't recognize to your system, then your ship is basically dumped on the side of the workshop.
+	At first you're worried, but the upgrades did work!
+	
+	"Procedure 100% complete. Automated Aftercare ship deployed. Goodbye."
+	Now that you can see the egregious price of the repairs, you understand how this business can stay afloat...</text>
+</textList>
+
+<!-- Uses Multi-ship -->
 <event name="RKS_BIL_SCORCH_REACTOR">
 	<preventQuest/>
-	<text>You stumble upon a strange workshop manned by Uptors.
+    <environment type="sun"/>
+	<text>Next to this sun, you stumble upon a strange workshop manned by Uptors.
 
 		"You have found the RK Scorch 'Brutal Improvement Lab', welcome!
-		For a fee, we can greatly improve the potential of your ship, while gathering data about the side-effects of the procedure.
+		For a fee, we can mightily improve the potential of your ship, while gathering data about the side-effects of the procedure.
 		The benefits are massive: your reactor would be improved by 5 whole levels, including beyond its normal maximum.
 
-		However even with the latest protocol, after looking at our quick scans of your ship, we expect it to [style[color:ff3377]]take a measly 3 total hull damage spread around, and also... catch fire quite spectacularly[[/style]].
+		However even with the latest protocol, after looking at our hasty scans of your ship, we expect it to [style[color:ff3377]]take a measly 3 total hull damage spread around, and also... catch fire quite spectacularly[[/style]].
 		Interested?"
 		
 		It would be a shame if you were attacked in these conditions, but you did not notice any other ships at this beacon on the way in...</text>
+	<ship load="SHIP_LOSTSUN_STATION" hostile="false"/>
 	
-	<!-- <choice req="reactor" lvl="10" blue="false" hidden="true"> -->
 	<choice req="reactor" lvl="0" blue="false" hidden="false">
 		<text>Sure, no pain no gain!</text>
 		<event>
@@ -1605,8 +1769,24 @@ To make normal nebula instead (debugging?), disable all that and make prefix "NE
 		</event>
 	</choice>
 
+	<choice hidden="false">
+		<text>No thanks, but how about we hire one of you?</text>
+		<event>
+			<text>"Huh? Do you often answer offers with your own offers? Were you like, a CEO or politician before the whole Renegade gig? I- ... You know what? That's a lot of scrap, and we've been waiting for someone to take the deal forever. I want to see some other stars for once. Should do me some good."</text>
+			<item_modify>
+				<item type="scrap" min="-60" max="-80"/>
+			</item_modify>
+			<crewMember amount="1" all_skills="1" class="rk_fireghost"/>
+
+			<choice>
+				<text>Continue...</text>
+				<event/>
+			</choice>
+		</event>
+	</choice>
+
 	<choice hidden="true">
-		<text>Forget this and carefully search around the beacon instead.</text>
+		<text>Forget all that. Carefully search around the beacon instead.</text>
 		<event>
 			<text>Your gut is telling you to not take the risk, so you take a look around the beacon to be sure.
 
@@ -1691,11 +1871,15 @@ To make normal nebula instead (debugging?), disable all that and make prefix "NE
 	</crew>
 </ship>
 
-<!--//////////////////////////////////////////////////////////////////////////////////////////////////////
+<!--
+//////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////////////////////////////////
 					    QUEST EVENTS
 //////////////////////////////////////////////////////////////////////////////////////////////////////////
-//////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+//////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////
+-->
 
 <!-- unique_rk_engilanius_rockmorph "Defromorius" Quest
 It needs air but constantly drains it, so play on that:
@@ -1821,7 +2005,7 @@ it was interested in their O2 and medical rooms, they said they bring it back to
 				<event>
 					<text>"The Feds are here for revenge! I told you we should have jumped away, Lisa."
 						
-						"But why? We're innocent! Why else would we still be here, just tell them that you numbnut!"
+						"But why? Just say that we're innocent, you numbnut! Otherwise we would have left, just tell them that!"
 
 						"Hah! Like they would believe us, why are you always so naive? Charge the jump drive already!"
 
@@ -3480,14 +3664,12 @@ REF MV v5.5.1:
 </event>
 -->
 <event name="RKS_PIRATE_TRINITY_CHOOSE_LOADER">
-	<!-- <event load="RKS_PIRATE_TRINITY_CHOOSE"/> 	CRASH -->
 	<loadEvent seeded="false">RKS_PIRATE_TRINITY_CHOOSE</loadEvent>
 </event>
-
 <event name="RKS_PIRATE_TRINITY_CHOOSE">
 	<text>The pirates are all looking at you expectantly.</text>
 
-	<!-- Now the exit ambush won't happen. Maybe move this to when player completes all deals? -->
+	<!-- Exit ambush handled when player completes all deals, this is now just to keep track. -->
 	<variable name="rks_pirate_trinity_visited" op="add" val="1"/>
 	
 	<choice req="rks_pirate_trinity_met_slaver" lvl="0" max_lvl="0" hidden="true" blue="false">
@@ -3532,6 +3714,7 @@ REF MV v5.5.1:
 				They let you leave with a little gift and big smiles on their faces. Congratulations, you have just made the galaxy a worse place.
 			</text>
 			<autoReward level="MED">stuff</autoReward>
+			<variable name="rks_pirate_trinity_prevent_exit_ambush" op="add" val="1"/>
 			
 			<choice hidden="true">
 				<text>Continue...</text>
@@ -3540,9 +3723,9 @@ REF MV v5.5.1:
 		</event>
 	</choice>
 
-	<!-- Kind of a failsafe. -->
+	<!-- Way for player to do the trades AND fight exit boss. Also req-less failsafe. -->
 	<choice>
-		<text>We won't actually do business with all of you. We're leaving.</text>
+		<text>Actually, screw you all.</text>
 		<event load="RKS_PIRATE_TRINITY_FIGHT_CURRENT_PIRATE"/>
 	</choice>
 </event>
@@ -3746,7 +3929,7 @@ REF MV v5.5.1:
 				<event>
 					<text>"Use with caution!"</text>
 					<item_modify>
-						<item type="scrap" min="-70" max="-40"/>
+						<item type="scrap" min="-90" max="-60"/>
 					</item_modify>
 					<augment name="SHOP_ITEM_RARE_RK_AUGMENTS_2"/>
 					<variable name="rks_pirate_trinity_count" op="add" val="1"/>
@@ -3779,7 +3962,7 @@ REF MV v5.5.1:
 
 
 <event name="RKS_PIRATE_TRINITY_FIGHT_CURRENT_PIRATE">
-	<text>"Of coursssse you are. Told you Kurt, hand over my sssscrap, you lossst the bet. Let'ssss kill these damn clownssss."
+	<text>"Of coursssse. Told you we couldn't trussst them Kurt, hand over my sssscrap, you lossst the bet. Let'ssss kill these damn clownssss."
 		Looks like you'll have to fight your way out!
 	</text>
 	<ship hostile="true"/>

@@ -81,6 +81,114 @@ function Add_to_LaunchOrder(ev_name_loc)
 end ]]
 
 
+script.on_internal_event(Defines.InternalEvents.PROJECTILE_FIRE, function(projectile, weapon)
+    -- "Decency" Anti-RK laser: +1 hull damage for each RK weapon/augment the enemy has.
+    --WORKS (against weapons only for now)
+
+    --print("rk_a_hull start")
+
+    if weapon.blueprint and weapon.blueprint.name == "RK_A_LASER_1" then
+        --print("Decency detected")    --WORKS
+    else 
+        return Defines.Chain.CONTINUE
+    end
+
+    if projectile then
+        --local projectileOwner = Hyperspace.ships(projectile.ownerId)
+        local otherShip = Hyperspace.ships(1 - projectile.ownerId)
+
+        --print("rk_a_hull otherShip " .. otherShip)      --error attempt to concatenate a userdata table
+        --print("rk_a_hull otherShip " .. otherShip.name)     --error attempt to concatenate a nil value (field 'name')
+        --Just dont try to print here.
+        local bonusValue = 0
+
+        --local projectileReceiverCrew = {}
+        --local projectileReceiverAugments = {}     --TODO
+        --mods.rk.augmentsAntiRKWeaponsShouldReactTo
+        
+        local projectileReceiverWeapons =  otherShip:GetWeaponList()    --WORKS
+        
+        --local index = math.random(0, projectileReceiverWeapons:size()-1)
+        for i = 0, projectileReceiverWeapons:size()-1, 1 do
+            local enemyWeapon = nil
+            enemyWeapon = projectileReceiverWeapons[i]
+            if enemyWeapon then
+                --print("rk_a_hull eneWeap " .. tostring(i) .. " = " .. tostring(enemyWeapon))
+                
+                local enemyWeaponName = nil
+                --pcall(function() weaponName = projectileReceiverWeapons[i].name end)    --Name in UI, not ID
+                enemyWeaponName = enemyWeapon.blueprint.name
+
+                if enemyWeapon.blueprint then
+                    enemyWeaponName = enemyWeapon.blueprint.name
+                end
+                --print("rk_a_hull WeapName " .. tostring(i) .. " = " .. enemyWeaponName)
+
+                if has_value(mods.rk.weaponsAntiRKWeaponsShouldReactTo, enemyWeaponName) then
+                    bonusValue = bonusValue + 1
+                end
+            end
+        end
+        
+        --print("rk_a_hull bonus " .. bonusValue)
+        --Add the damage then CONTINUE if needed. (Not needed)
+        projectile.damage.iDamage = bonusValue + projectile.damage.iDamage
+    end
+    -- return Defines.Chain.CONTINUE
+end)
+
+script.on_internal_event(Defines.InternalEvents.PROJECTILE_FIRE, function(projectile, weapon)
+    -- "Measure" Anti-RK missile: +1 system damage for each RK weapon/augment the enemy has.
+    --(against weapons only for now)
+
+    --print("rk_a_sys start")
+
+    if weapon.blueprint and weapon.blueprint.name == "RK_A_MISSLAUNCHER" then
+        --print("Measure detected")    --WORKS
+    else 
+        return Defines.Chain.CONTINUE
+    end
+
+    if projectile then
+        --local projectileOwner = Hyperspace.ships(projectile.ownerId)
+        local otherShip = Hyperspace.ships(1 - projectile.ownerId)
+        --Just dont try to print here.
+        local bonusValue = 0
+
+        --local projectileReceiverCrew = {}
+        --local projectileReceiverAugments = {}     --TODO
+        --mods.rk.augmentsAntiRKWeaponsShouldReactTo
+        
+        local projectileReceiverWeapons =  otherShip:GetWeaponList()    --WORKS
+        
+        --local index = math.random(0, projectileReceiverWeapons:size()-1)
+        for i = 0, projectileReceiverWeapons:size()-1, 1 do
+            local enemyWeapon = nil
+            enemyWeapon = projectileReceiverWeapons[i]
+            if enemyWeapon then
+                --print("rk_a_sys eneWeap " .. tostring(i) .. " = " .. tostring(enemyWeapon))
+                
+                local enemyWeaponName = nil
+                --pcall(function() weaponName = projectileReceiverWeapons[i].name end)    --Name in UI, not ID
+                enemyWeaponName = enemyWeapon.blueprint.name
+
+                if enemyWeapon.blueprint then
+                    enemyWeaponName = enemyWeapon.blueprint.name
+                end
+                --print("rk_a_hull WeapName " .. tostring(i) .. " = " .. enemyWeaponName)
+
+                if has_value(mods.rk.weaponsAntiRKWeaponsShouldReactTo, enemyWeaponName) then
+                    bonusValue = bonusValue + 1
+                end
+            end
+        end
+        
+        --print("rk_a_sys bonus " .. bonusValue)
+        --Add the damage
+        projectile.damage.iSystemDamage = bonusValue + projectile.damage.iSystemDamage
+    end
+end)
+
 
 script.on_internal_event(Defines.InternalEvents.PROJECTILE_FIRE, function(projectile, weapon)
 
@@ -151,7 +259,7 @@ end, 64) ]]
             sysDmg.iSystemDamage = 1
 
             -- Chance system dmg - WORKS
-            if math.random() < 0.04 then        --intended: 0.04
+            if math.random() < 0.05 then        --intended: 0.05
                 -- print("heavy popper self-dmg triggered")
                 shipManager:DamageArea(location, sysDmg, true)
             end
@@ -166,12 +274,12 @@ end, 64) ]]
             local sysDmg = Hyperspace.Damage()
             sysDmg.iSystemDamage = 1
             -- Chance system dmg
-            if math.random() < 0.03 then        --intended: 0.03
+            if math.random() < 0.04 then        --intended: 0.04
                 shipManager:DamageArea(location, sysDmg, true)
             end
         end
     end
-    -- Heavy Popper MK III. UNCOMMENT when ready.
+    -- Heavy Popper MK III.
     if weapon.blueprint and weapon.blueprint.name == "RK_HEAVY_POPPER_3" then
         -- Systems self-damage
         for system in vter(shipManager.vSystemList) do
@@ -180,7 +288,7 @@ end, 64) ]]
             local sysDmg = Hyperspace.Damage()
             sysDmg.iSystemDamage = 1
             -- Chance system dmg
-            if math.random() < 0.02 then        --intended: 0.02
+            if math.random() < 0.03 then        --intended: 0.03
                 shipManager:DamageArea(location, sysDmg, true)
             end
         end
@@ -278,10 +386,10 @@ end, 64) ]]
     local comboAugName = "RK_SCORCH_PREIGNITER"
     if shipManager:HasAugmentation(augName) > 0 then
         -- Chance fire - WORKS.
+        
         -- Make it stack with >1 "Weapons On Fire": turns out shipManager:GetAugmentationValue(augName) ALREADY stacks,
         -- most likely because the augment has <stackable>true</stackable>.
         if math.random() < shipManager:GetAugmentationValue(augName) then
-
         --[[ local baseAugCount = shipManager:HasAugmentation(augName)
         local realFireChance = shipManager:GetAugmentationValue(augName) * baseAugCount
         print("baseAugCount:"..baseAugCount)
@@ -320,12 +428,64 @@ end, 64) ]]
             -- WORKS
             -- intended: 10
             if augCount < 10 then
-                -- Arc technique: pure Lua. WORKS
+                -- Arc's technique: pure Lua. WORKS
                 shipManager:AddAugmentation("HIDDEN " .. stackAugName)
             end
         end
 
     end
+end)
+
+--[[ Should prob modify damage value when projectile is shot instead,
+there seems to be no Defines.Chain.CONTINUE after DAMAGE_AREA_HIT.
+So must hit again and then prevent loop, which is suboptimal. ]]
+script.on_internal_event(Defines.InternalEvents.DAMAGE_AREA_HIT, function(shipManager, projectile, location, damage, shipFriendlyFire)
+
+    --[[ -- "Decency" Anti-RK laser: extra damage vs RK.
+
+    --local table_to_list_string = mods.multiverse.table_to_list_string
+
+    -- local function rk_a_extra_hull_damage(shipManager, projectile, location)
+    print("rk_a_hull start")
+    if projectile then
+        local projectileOwner = Hyperspace.ships(projectile.ownerId)
+        local bonusValue = 0
+
+        --local projectileReceiverCrew = {}
+
+        local projectileReceiverAugments = {}
+        --mods.rk.augmentsAntiRKWeaponsShouldReactTo
+
+        local projectileReceiverWeapons =  shipManager:GetWeaponList()
+        --local index = math.random(0, projectileReceiverWeapons:size()-1)
+        for i = 0, projectileReceiverWeapons:size()-1, 1 do
+            print("rk_a_hull weap Loop " .. tostring(i))
+            
+            local weaponName = nil
+            --pcall(function() weaponName = Hyperspace.Get_Projectile_Extend(projectile).name end)
+            --pcall(function() weaponName = projectileReceiverWeapons[i].name end)    --not the ID
+            --pcall(function() weaponName = projectileReceiverWeapons[i] end)         --code seems to fail here.
+            weaponName = Hyperspace.Blueprints:GetWeaponBlueprint(projectileReceiverWeapons[i]) 
+
+            if weaponName then
+                print("rk_a_hull weap " .. tostring(i) .. " = " .. weaponName)
+                --print("rk_a_hull weap " .. projectileReceiverWeapons[i])
+
+                -- if has_value(mods.rk.weaponsAntiRKWeaponsShouldReactTo, weaponName) then
+                if has_value(mods.rk.weaponsAntiRKWeaponsShouldReactTo, weaponName) then
+                    bonusValue = bonusValue + 1
+                end
+            end
+            
+        end
+        
+        --bonusValue = shipManager:HasAugmentation(comboAugName)
+        print("rk_a_hull bonus " .. bonusValue)
+    end
+        
+    --end
+    --script.on_internal_event(Defines.InternalEvents.DAMAGE_BEAM, rk_a_extra_hull_damage)
+    --script.on_internal_event(Defines.InternalEvents.DAMAGE_AREA_HIT, rk_a_extra_hull_damage) ]]
 end)
 
 
@@ -384,16 +544,6 @@ script.on_internal_event(Defines.InternalEvents.DAMAGE_BEAM, function(shipManage
             end
         else
             -- Room had no fire. Manually fire-fill. Default fire-fill makes fire detection always true.
-            --manually_firefill(shipManager, roomId)
-            --[[ shipManager:StartFire(roomId)
-            shipManager:StartFire(roomId)
-            shipManager:StartFire(roomId)
-            shipManager:StartFire(roomId)
-            shipManager:StartFire(roomId)
-            shipManager:StartFire(roomId)
-            shipManager:StartFire(roomId)
-            shipManager:StartFire(roomId)
-            shipManager:StartFire(roomId) ]]
         end
         manually_firefill(shipManager, roomId)
     end
@@ -508,3 +658,5 @@ do
     -- script.on_internal_event(Defines.InternalEvents.DAMAGE_BEAM, breach_extra)
     script.on_internal_event(Defines.InternalEvents.DAMAGE_AREA_HIT, breach_extra)
 end
+
+

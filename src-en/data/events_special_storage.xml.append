@@ -553,7 +553,7 @@ No longer LIST_CHECK_TOGGLES_AND_AMPS in autoblueprints.xml.append with blueprin
 </mod:findName>
 
 <mod:findName type = "event" name = "COMBAT_CHECK_TOGGLE">
-	<mod-append:choice req="DJMOD_COMBAT_SELF_FIRE" blue="true">		<!-- A req list takes less maintenance than doing 1 block for each. -->
+	<mod-append:choice req="DJMOD_COMBAT_SELF_FIRE_ANY" blue="true">		<!-- A req list takes less maintenance than doing 1 block for each. -->
 		<text>(Scorched Earth series) Select what part of your ship to set on fire!</text> 
 		<event load="DJMOD_TOGGLEMENU_SCORCH_SELF"/>
 	</mod-append:choice>
@@ -565,6 +565,7 @@ No longer LIST_CHECK_TOGGLES_AND_AMPS in autoblueprints.xml.append with blueprin
 /////////////////////////////////////////////////////////////////////////////////////////////////////////
 -->
 
+<!-- aka Synergies -->
 <mod:findName type = "event" name = "COMBAT_CHECK_TOGGLE">
 	<mod-append:choice req="DJMOD_COMBAT_SHIPVORE_RAM_ANY" blue="true">
 		<text>(Shipvore Ram) See current bonuses and Combos</text> 
@@ -625,7 +626,7 @@ No longer LIST_CHECK_TOGGLES_AND_AMPS in autoblueprints.xml.append with blueprin
 	</choice>
 
 	<choice req="DJMOD_ANY_RESCUE_ARM" hidden="true">
-		<text>(Ship Arm) Can retrieve ejected crew.</text>
+		<text>(Magnetic/Drone Arm) Can use scrap to retrieve ejected crew.</text>
 		<event load="OPTION_INVALID"/>
 	</choice>
 
@@ -4027,7 +4028,7 @@ REF (Hyperspace 1.0 changelog) : -Events: <choiceRequiresCrew/> to make a choice
 	<text>Are you sure you want to do this? (Requires a source of fire)
 	[Starts a fire in your Life Support (O2) room if you have one, and more random fires in the enemy ship (mostly systems). Uses {]</text>
 	
-	<choice req="DJMOD_COMBAT_SELF_FIRE" lvl="0" max_lvl="0" hidden="true" blue="false">
+	<choice req="DJMOD_COMBAT_SELF_FIRE_ANY" lvl="0" max_lvl="0" hidden="true" blue="false">
 		<text>You do not have any tier of the Scorched Earth augment for free activation.</text>
 		<event load="OPTION_INVALID"/>
 	</choice>

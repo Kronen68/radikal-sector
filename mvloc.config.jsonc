@@ -113,10 +113,10 @@
     "packaging": {
         "fullOriginal": [
 		    //assets1
-            "https://github.com/ftl-mv-translation/radikal-sector/raw/radikal-sector-english/RadiKal_Sector_v6.15b.zip",
+            "https://github.com/ftl-mv-translation/radikal-sector/raw/radikal-sector-english/RadiKal_Sector_v6.18c.zip",
 
         ],
         "prefix": "Radikal-sector",
-        "version": "6.15b"
+        "version": "6.18c"
     }
 }

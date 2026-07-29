@@ -1147,7 +1147,9 @@ Scorch
 
 <!-- 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
 BPS
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////////////////////////////////////
 -->
 
@@ -1182,6 +1184,84 @@ BPS
 	<chargeImage>weapon_radikal/djmod_laser_bps_glow.png</chargeImage>
 	<boost>djmod_laser_bps_charge</boost>
 </weaponAnim>
+
+<!-- 
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
+ANTI-RK
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
+-->
+
+<animSheet name="rk_laser_longthin" w="60" h="15" fw="60" fh="15">projectiles/rk_laser_longthin.png</animSheet>
+<anim name="rk_laser_longthin">
+	<sheet>rk_laser_longthin</sheet>
+	<desc length="1" x="0" y="0"/>
+	<time>0.3</time>
+</anim>
+<!-- <animSheet name="laser_burst" w="60" h="20" fw="60" fh="20">projectiles/laser_burst.png</animSheet>
+<anim name="laser_burst">
+	<sheet>laser_burst</sheet>
+	<desc length="1" x="0" y="0"/>
+	<time>0.3</time>
+</anim> -->
+
+<animSheet name="rk_a_laser_1_charge" w="330" h="44" fw="22" fh="44">weapon_radikal/rk_a_laser_1_chargeglow.png</animSheet>
+<anim name="rk_a_laser_1_charge">
+	<sheet>rk_a_laser_1_charge</sheet>
+	<desc length="15" x="0" y="0"/>
+	<time>1.0</time>
+</anim>
+<animSheet name="rk_a_laser_1" w="198" h="44" fw="22" fh="44">weapon_radikal/rk_a_laser_1.png</animSheet>
+<weaponAnim name="rk_a_laser_1">
+	<sheet>rk_a_laser_1</sheet>
+	<desc length="9" x="0" y="0"/>
+	<chargedFrame>1</chargedFrame>
+	<fireFrame>2</fireFrame>
+	<firePoint  x="10" y="6"/>
+	<mountPoint x="1" y="32"/>
+	<chargeImage>weapon_radikal/rk_a_laser_1_glow.png</chargeImage>
+	<boost>rk_a_laser_1_charge</boost>
+</weaponAnim>
+
+<animSheet name="rk_a_missile" w="32" h="80" fw="32" fh="80">projectiles/rk_a_missile.png</animSheet>
+<anim name="rk_a_missile">
+	<sheet>rk_a_missile</sheet>
+	<desc length="1" x="0" y="0"/>
+	<time>1</time>
+</anim>
+<!-- <animSheet name="missile_heavy_1" w="32" h="80" fw="32" fh="80">projectiles/missile_heavy_1.png</animSheet>
+<anim name="missile_heavy_1">
+	<sheet>missile_heavy_1</sheet>
+	<desc length="1" x="0" y="0"/>
+	<time>1</time>
+</anim> -->
+
+<animSheet name="rk_a_misslauncher_charge" w="495" h="56" fw="33" fh="56">weapon_radikal/rk_a_misslauncher_chargeglow.png</animSheet>
+<anim name="rk_a_misslauncher_charge">
+	<sheet>rk_a_misslauncher_charge</sheet>
+	<desc length="15" x="0" y="0"/>
+	<time>1.0</time>
+</anim>
+<animSheet name="rk_a_misslauncher" w="165" h="56" fw="33" fh="56">weapon_radikal/rk_a_misslauncher.png</animSheet>
+<weaponAnim name="rk_a_misslauncher">
+	<sheet>rk_a_misslauncher</sheet>
+	<desc length="5" x="0" y="0"/>
+	<chargedFrame>3</chargedFrame>
+	<fireFrame>4</fireFrame>
+	<firePoint  x="19" y="27"/>
+	<mountPoint x="9" y="42"/>
+	<boost>rk_a_misslauncher_charge</boost>
+</weaponAnim>
+<!-- <animSheet name="missiles_free" w="155" h="56" fw="31" fh="56">weapon_missile/missiles_free.png</animSheet>
+<weaponAnim name="missiles_free">
+	<sheet>missiles_free</sheet>
+	<desc length="5" x="0" y="0"/>
+	<chargedFrame>3</chargedFrame>
+	<fireFrame>4</fireFrame>
+	<firePoint  x="19" y="27"/>
+	<mountPoint x="9" y="38"/>
+</weaponAnim> -->
 
 </FTL>
 

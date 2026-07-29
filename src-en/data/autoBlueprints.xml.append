@@ -830,7 +830,7 @@ For Demicloners End.
 </blueprintList>
 
 <!-- ============================================================
-RK-thematic WEAPON lists 
+RK and RK-thematic WEAPON lists 
 ============================================================= -->
 <blueprintList name="LIST_WEAPONS_RADIKAL">
 	<name>DJMOD_BAM_FISSUREBEAM</name>
@@ -1088,26 +1088,42 @@ RK-thematic WEAPON lists
 <blueprintList name="RK_LIST_HIDEOUT_RECRUITS_BASIC">
 	<name>crystal</name>
 	<name>crystal</name>
+	<name>crystal</name>
+	<name>crystal</name>
 
 	<name>engi</name>
+	<name>engi</name>
+	<name>engi_separatist</name>
 	<name>engi_separatist</name>
 
 	<name>human</name>
 	<name>human</name>
+	<name>human_medic</name>
+	<name>human_medic</name>
 
+	<name>lanius</name>
+	<name>lanius</name>
 	<name>lanius</name>
 	<name>lanius</name>
 
 	<name>leech</name>
 	<name>leech</name>
+	<name>leech</name>
+	<name>leech</name>
 
+	<name>lizard</name>
+	<name>lizard</name>
 	<name>lizard</name>
 	<name>lizard</name>
 
 	<name>mantis</name>
+	<name>mantis</name>
+	<name>mantis_free</name>
 	<name>mantis_free</name>
 
 	<name>orchid</name>
+	<name>orchid</name>
+	<name>orchid_vampweed</name>
 	<name>orchid_vampweed</name>
 
 	<name>phantom</name>
@@ -1116,17 +1132,25 @@ RK-thematic WEAPON lists
 	<name>phantom_wraith</name>
 
 	<name>rock</name>
+	<name>rock</name>
+	<name>rock_outcast</name>
 	<name>rock_outcast</name>
 
 	<name>shell</name>
 	<name>shell</name>
+	<name>shell</name>
+	<name>shell</name>
 
+	<name>siren</name>
+	<name>siren</name>
 	<name>siren</name>
 
 	<name>slug</name>
 	<name>slug_clansman</name>
 	<name>slug_hektar</name>
 	
+	<name>spider</name>
+	<name>spider</name>
 	<name>spider</name>
 	<name>spider</name>
 
@@ -1140,11 +1164,270 @@ RK-thematic WEAPON lists
 ==================================================================================================================================
 ==================================================================================================================================
  =================================================================================================================================
-/////////// SHIPS /////////// In MV this would go below the Appends & Blue options. Try that in case of crash.
+//////// SHIPS - OUTSIDE RKS //////// In MV this would go below the Appends & Blue options. In case of issue, try that.
 ==================================================================================================================================
 ==================================================================================================================================
 ==================================================================================================================================
- -->
+-->
+
+<!-- RK Sector Police that introduces the ARKSS to you and sells RK_A weapons. -->
+<shipBlueprint name="RK_A_ZOLTAN_POLICE_INTRO" layout="mu_zoltan_scout" img="mu_zoltan_scout_elite">
+	<class>A-RK.S.S. Peace-Keeping Mandator</class>
+	<systemList>
+		<engines power="1" max="2" room="1" start="true" />
+		<mind power="1" max="2" room="6" start="false" />
+		<oxygen power="1" max="1" room="3" start="true" />
+		<pilot power="1" max="1" room="2" start="true" />
+		<shields power="3" max="6" room="0" start="true" />
+		<weapons power="2" max="3" room="5" start="true" />
+
+		<clonebay power="1" max="2" room="7" start="false" />
+		<medbay power="1" max="2" room="7" start="false" />
+		<drones power="2" max="3" room="4" start="true" />
+		<!-- <doors power="2" max="2" room="6" start="true" />
+		<teleporter power="1" max="2" room="5" start="false" /> -->
+	</systemList>
+	<weaponSlots>3</weaponSlots>
+	<droneSlots>4</droneSlots>
+	<!-- Weapon powercosts: 0, 1, ? -->
+	<weaponList missiles="8" count="3">
+		<weapon name="RK_A_LASER_1" />
+		<weapon name="ENERGY_2_PLAYER" />
+		<weapon name="LIST_WEAPONS_ZOLTAN" />
+	</weaponList>
+	<!-- Drone powercosts: 1, 2, 3, ? -->
+	<droneList drones="6" count="2">
+		<drone name="REPAIR" />
+		<drone name="COMBAT_1_LASER" />
+		<!-- <drone name="BATTLETOG2_BOARDER" />
+		<drone name="LIST_DRONES_ZOLTAN" /> -->
+	</droneList>
+	<health amount="10" />
+	<maxPower amount="10" />
+	<crewCount amount="4" max="6" class="zoltan" />
+	<boardingAI>sabotage</boardingAI>
+	<aug name="ANCIENT_SHIELD" />
+	<aug name="RK_A_STANDARD_SUITE" />
+	<!-- Apparently FTL_JAMMER does not work against the player. No enemies in base MV have it. -->
+</shipBlueprint>
+<!-- <shipBlueprint name="MU_ZOLTAN_SCOUT_ELITE" layout="mu_zoltan_scout" img="mu_zoltan_scout_elite">
+	<class>Peace-Keeping Scout</class>
+	<maxSector>4</maxSector>
+	<systemList>
+		<engines power="1" max="2" room="1" start="true" />
+		<mind power="1" max="2" room="6" start="false" />
+		<oxygen power="1" max="2" room="3" start="true" />
+		<pilot power="1" max="2" room="2" start="true" />
+		<shields power="4" max="8" room="0" start="true" />
+		<weapons power="3" max="6" room="5" start="true" />
+	</systemList>
+	<weaponSlots>3</weaponSlots>
+	<droneSlots>0</droneSlots>
+	<weaponList missiles="10" count="3" load="LIST_WEAPONS_ZOLTAN" />
+	<droneList drones="0" count="0" />
+	<health amount="8" />
+	<maxPower amount="9" />
+	<crewCount amount="3" max="6" class="zoltan" />
+	<boardingAI>sabotage</boardingAI>
+	<aug name="ANCIENT_SHIELD" />
+</shipBlueprint> -->
+
+<shipBlueprint name="RK_A_ZOLTAN_POLICE_NUMBER2" layout="mu_zoltan_investigator" img="mu_zoltan_investigator_elite">
+	<class>A-RK.S.S. Peace-Keeping Quartermaster</class>
+	<systemList>
+		<engines power="2" max="4" room="4" start="true" />
+		<oxygen power="1" max="2" room="3" start="true" />
+		<pilot power="1" max="3" room="1" start="true" />
+			<shields power="4" max="7" room="5" start="true" />
+		<weapons power="2" max="6" room="2" start="true" />
+
+		<cloaking power="1" max="2" room="0" start="true" />
+		<drones power="3" max="4" room="6" start="true" />
+		<mind power="1" max="2" room="7" start="false" />
+	</systemList>
+	<weaponSlots>4</weaponSlots>
+	<droneSlots>4</droneSlots>
+	<!-- Weapon powercosts: 0, 1, 1, ? -->
+	<weaponList missiles="4" count="4">
+		<weapon name="RK_A_LASER_1" />
+		<weapon name="RK_A_MISSLAUNCHER" />
+		<weapon name="ENERGY_2_PLAYER" />
+		<weapon name="LIST_WEAPONS_ZOLTAN" />
+	</weaponList>
+	<!-- Drone powercosts: 1, 2, 3, ? -->
+	<droneList drones="3" count="2">
+		<drone name="REPAIR" />
+		<drone name="COMBAT_1_BEAM" />
+		<!-- <drone name="BATTLETOG2_BOARDER" />
+		<drone name="LIST_DRONES_ZOLTAN" /> -->
+	</droneList>
+	<health amount="16" />
+	<maxPower amount="13" />
+	<crewCount amount="5" max="7" class="zoltan" />
+	<boardingAI>sabotage</boardingAI>
+	<aug name="ANCIENT_SHIELD" />
+	<aug name="RK_A_STANDARD_SUITE" />
+</shipBlueprint>
+<!-- <shipBlueprint name="MU_ZOLTAN_INVESTIGATOR_ELITE" layout="mu_zoltan_investigator" img="mu_zoltan_investigator_elite">
+	<class>Peace-Keeping Investigator</class>
+	<systemList>
+		<engines power="1" max="2" room="4" start="true" />
+		<hacking power="1" max="1" room="0" start="false" />
+		<oxygen power="1" max="3" room="3" start="true" />
+		<pilot power="1" max="3" room="1" start="true" />
+		<shields power="4" max="8" room="6" start="true" />
+		<teleporter power="1" max="2" room="7" start="false" />
+		<weapons power="3" max="6" room="2" start="true" />
+	</systemList>
+	<weaponSlots>4</weaponSlots>
+	<droneSlots>0</droneSlots>
+	<weaponList missiles="10" count="4" load="LIST_WEAPONS_ZOLTAN" />
+	<droneList drones="3" count="0" />
+	<health amount="11" />
+	<maxPower amount="10" />
+	<crewCount amount="3" max="7" class="zoltan" />
+	<boardingAI>sabotage</boardingAI>
+	<aug name="ANCIENT_SHIELD" />
+</shipBlueprint> -->
+
+
+<shipBlueprint name="RK_A_ZOLTAN_POLICE_NUMBER3" layout="mu_zoltan_enforcer" img="mu_zoltan_enforcer_elite">
+	<class>A-RK.S.S. Peace-Keeping Inquisitor</class>
+	<systemList>
+		<doors power="2" max="3" room="8" start="true" />
+		<engines power="3" max="4" room="6" start="true" />
+		<medbay power="1" max="3" room="4" start="true" />
+		<oxygen power="1" max="2" room="2" start="true" />
+		<pilot power="1" max="2" room="3" start="true" />
+			<shields power="5" max="8" room="0" start="true" />
+		<teleporter power="1" max="3" room="1" start="false" />
+		<weapons power="4" max="7" room="7" start="true" />
+
+		<clonebay power="1" max="2" room="4" start="true" />
+		<drones power="5" max="8" room="5" start="true" />
+
+		<!-- <mind power="1" max="3" room="0" start="false" /> 		It's Shields, Not enough rooms -->
+	</systemList>
+	<weaponSlots>4</weaponSlots>
+	<droneSlots>4</droneSlots>
+	<!-- Weapon powercosts: 0, 1, 2, ? -->
+	<weaponList missiles="14" count="4">
+		<weapon name="RK_A_LASER_1" />
+		<weapon name="ENERGY_2_PLAYER" />
+		<weapon name="MISSILES_2" />
+		<weapon name="LIST_WEAPONS_ZOLTAN" />
+	</weaponList>
+	<!-- Drone powercosts: 1, 2, 2, 3 -->
+	<droneList drones="12" count="4">
+		<drone name="REPAIR" />
+		<drone name="ENERGY_1_AMP2" />
+		<drone name="COMBAT_1_BEAM" />
+		<drone name="BATTLETOG2_BOARDER" />
+		<!-- <drone name="LIST_DRONES_ZOLTAN" /> -->
+	</droneList>
+	<health amount="22" />
+	<maxPower amount="18" />
+	<crewCount amount="8" max="12" class="zoltan" />
+	<boardingAI>sabotage</boardingAI>
+	<aug name="ANCIENT_SHIELD" />
+	<aug name="RK_A_STANDARD_SUITE" />
+</shipBlueprint>
+<!-- <shipBlueprint name="MU_ZOLTAN_ENFORCER_ELITE" layout="mu_zoltan_enforcer" img="mu_zoltan_enforcer_elite">
+	<class>Peace-Keeping Enforcer</class>
+	<systemList>
+		<doors power="1" max="3" room="8" start="false" />
+		<engines power="1" max="2" room="6" start="true" />
+		<medbay power="1" max="3" room="4" start="false" />
+		<mind power="1" max="3" room="0" start="false" />
+		<oxygen power="1" max="2" room="2" start="true" />
+		<pilot power="1" max="2" room="3" start="true" />
+		<shields power="4" max="8" room="5" start="true" />
+		<teleporter power="1" max="3" room="1" start="false" />
+		<weapons power="3" max="6" room="7" start="true" />
+	</systemList>
+	<weaponSlots>4</weaponSlots>
+	<droneSlots>0</droneSlots>
+	<weaponList missiles="9" count="4" load="LIST_WEAPONS_ZOLTAN" />
+	<droneList drones="0" count="0" />
+	<health amount="12" />
+	<maxPower amount="11" />
+	<crewCount amount="4" max="8" class="zoltan" />
+	<boardingAI>sabotage</boardingAI>
+	<aug name="ANCIENT_SHIELD" />
+</shipBlueprint> -->
+
+<shipBlueprint name="RK_A_ZOLTAN_POLICE_NUMBER_4" layout="mu_zoltan_instigator" img="mu_zoltan_instigator_elite">
+	<class>A-RK.S.S. Peace-Keeping Executioner</class>
+	<systemList>
+		<drones power="2" max="6" room="5" start="true" />
+		<engines power="1" max="2" room="6" start="true" />
+		<hacking power="1" max="1" room="10" start="false" />
+		<mind power="1" max="3" room="2" start="false" />
+		<oxygen power="1" max="2" room="3" start="true" />
+		<pilot power="1" max="3" room="0" start="true" />
+		<shields power="4" max="8" room="8" start="true" />
+		<weapons power="4" max="9" room="9" start="true" />
+
+		<cloaking power="2" max="3" room="4" start="true" />
+		<doors power="1" max="3" room="7" start="true" />
+		<teleporter power="1" max="3" room="1" start="false" />
+	</systemList>
+	<weaponSlots>4</weaponSlots>
+	<droneSlots>4</droneSlots>
+	<!-- Weapon powercosts: 0, 1, 2, ? -->
+	<weaponList missiles="14" count="4">
+		<weapon name="RK_A_MISSLAUNCHER" />
+		<weapon name="SHOTGUN_TOXIC_PLAYER" />
+		<weapon name="MISSILES_BURST_2" />
+		<weapon name="LIST_WEAPONS_ZOLTAN" />
+	</weaponList>
+	<!-- Drone powercosts: 1, 2, 2, 3 -->
+	<droneList drones="12" count="4">
+		<drone name="REPAIR" />
+		<drone name="ENERGY_1_AMP2" />
+		<drone name="COMBAT_1_BEAM" />
+		<drone name="BATTLETOG2_BOARDER" />
+		<!-- <drone name="LIST_DRONES_ZOLTAN" /> -->
+	</droneList>
+	<health amount="10" />
+	<maxPower amount="13" />
+	<crewCount amount="4" max="8" class="zoltan" />
+	<boardingAI>sabotage</boardingAI>
+	<aug name="ANCIENT_SHIELD" />
+	<aug name="RK_A_STANDARD_SUITE" />
+</shipBlueprint>
+<!-- <shipBlueprint name="MU_ZOLTAN_INSTIGATOR_ELITE" layout="mu_zoltan_instigator" img="mu_zoltan_instigator_elite">
+	<class>Peace-Keeping Instigator</class>
+	<systemList>
+		<drones power="2" max="6" room="5" start="false" />
+		<engines power="1" max="2" room="6" start="true" />
+		<hacking power="1" max="1" room="10" start="false" />
+		<mind power="1" max="3" room="2" start="false" />
+		<oxygen power="1" max="2" room="3" start="true" />
+		<pilot power="1" max="3" room="0" start="true" />
+		<shields power="4" max="8" room="8" start="true" />
+		<weapons power="3" max="7" room="9" start="true" />
+	</systemList>
+	<weaponSlots>4</weaponSlots>
+	<droneSlots>2</droneSlots>
+	<weaponList missiles="10" count="4" load="LIST_WEAPONS_ZOLTAN" />
+	<droneList drones="10" count="2" load="LIST_DRONES_ZOLTAN" />
+	<health amount="10" />
+	<maxPower amount="13" />
+	<crewCount amount="4" max="8" class="zoltan" />
+	<boardingAI>sabotage</boardingAI>
+	<aug name="ANCIENT_SHIELD" />
+</shipBlueprint> -->
+
+<!-- 
+==================================================================================================================================
+==================================================================================================================================
+ =================================================================================================================================
+//////// SHIPS - RK SECTOR GUARD & REINFORCEMENTS ////////
+==================================================================================================================================
+==================================================================================================================================
+==================================================================================================================================
+-->
 
 <!-- See LIST_SHIPS_GUARD_ALL in/after the Appends & Blue options. -->
 <!-- <shipBlueprint name="MU_RADIKAL_GUARD" layout="mu_hektar_guard" img="mu_hektar_guard"> -->
@@ -1160,7 +1443,7 @@ RK-thematic WEAPON lists
 		<pilot power="2" max="2" room="0" start="true" />
 		<shields power="4" max="9" room="6" start="true" />
 		<teleporter power="1" max="2" room="7" start="false" />
-		<weapons power="6" max="8" room="5" start="true" />
+		<weapons power="3" max="8" room="5" start="true" />
 	</systemList>
 	<weaponSlots>4</weaponSlots>
 	<droneSlots>0</droneSlots>
@@ -1174,6 +1457,251 @@ RK-thematic WEAPON lists
 	<aug name="ROCK_ARMOR" />
 	<aug name="RK_COMBAT_SCORCH_ENEMY" />	<!-- Last one shows up topmost ingame. -->
 </shipBlueprint>
+
+<!-- REINFORCEMENTS on guard kill. General formula (compared to MV ref):
+* +1 system set to start=true. (If clonebay/medbay, do both)
+* Add the required power for said system
+* +1 min Weapons power
+* Half of the weapons are random generically-usable RK, alternating with ref's list.
+* +2 missiles
+* +2 hull
+* +2 min crew (or however many to reach 5), +2 max crew -->
+
+<shipBlueprint name="RKS_REINFORCEMENT_DUSK_FIGHTER" layout="mu_dusk_fighter" img="mu_dusk_fighter">
+	<class>RK Associate Duskbringer Fighter</class>
+	<systemList>
+		<clonebay power="1" max="2" room="0" start="true" />
+		<engines power="1" max="2" room="3" start="true" />
+		<oxygen power="1" max="2" room="4" start="true" />
+		<pilot power="1" max="2" room="6" start="true" />
+		<shields power="2" max="6" room="1" start="false" />
+		<teleporter power="1" max="2" room="2" start="false" />
+		<weapons power="3" max="8" room="5" start="true" />
+	</systemList>
+	<weaponSlots>4</weaponSlots>
+	<droneSlots>0</droneSlots>
+	<!-- Weapon powercosts: ? x4 -->
+	<weaponList missiles="8" count="4">
+		<weapon name="LIST_RK_WEAPONS_ENEMIES_CAN_USE_GENERICALLY" />
+		<weapon name="LIST_WEAPONS_DUSKBRINGER" />
+		<weapon name="LIST_RK_WEAPONS_ENEMIES_CAN_USE_GENERICALLY" />
+		<weapon name="LIST_WEAPONS_DUSKBRINGER" />
+	</weaponList>
+	<droneList drones="0" count="0" />
+	<health amount="10" />
+	<maxPower amount="8" />
+	<crewCount amount="5" max="7" class="zoltan_devotee" />
+	<boardingAI>sabotage</boardingAI>
+	<aug name="ENERGY_SHIELD" />
+</shipBlueprint>
+<!-- <shipBlueprint name="MU_DUSK_FIGHTER" layout="mu_dusk_fighter" img="mu_dusk_fighter">
+	<class>Duskbringer Fighter</class>
+	<systemList>
+		<clonebay power="1" max="2" room="0" start="false" />
+		<engines power="1" max="2" room="3" start="true" />
+		<oxygen power="1" max="2" room="4" start="true" />
+		<pilot power="1" max="2" room="6" start="true" />
+		<shields power="2" max="6" room="1" start="false" />
+		<teleporter power="1" max="2" room="2" start="false" />
+		<weapons power="2" max="8" room="5" start="true" />
+	</systemList>
+	<weaponSlots>4</weaponSlots>
+	<droneSlots>0</droneSlots>
+	<weaponList missiles="8" count="4" load="LIST_WEAPONS_DUSKBRINGER" />
+	<droneList drones="0" count="0" />
+	<health amount="8" />
+	<maxPower amount="8" />
+	<crewCount amount="2" max="5" class="zoltan_devotee" />
+	<boardingAI>sabotage</boardingAI>
+	<aug name="ENERGY_SHIELD" />
+</shipBlueprint> -->
+
+<shipBlueprint name="RKS_REINFORCEMENT_LOSTSUN_PATROL" layout="mu_lostsun_patrol" img="mu_lostsun_patrol">
+	<class>RK Associate Lost Sun Patrol-Ship</class>
+	<systemList>
+		<cloaking power="1" max="1" room="5" start="false" />
+		<clonebay power="1" max="3" room="1" start="false" />
+		<drones power="2" max="5" room="3" start="true" />
+		<engines power="1" max="2" room="4" start="true" />
+		<medbay power="1" max="3" room="1" start="false" />
+		<oxygen power="2" max="3" room="2" start="true" />
+		<pilot power="1" max="3" room="0" start="true" />
+		<shields power="2" max="8" room="7" start="true" />
+		<teleporter power="1" max="2" room="10" start="false" />
+		<weapons power="3" max="6" room="6" start="true" />
+	</systemList>
+	<weaponSlots>4</weaponSlots>
+	<droneSlots>2</droneSlots>
+	<!-- Weapon powercosts: ? x4 -->
+	<weaponList missiles="10" count="4">
+		<weapon name="LIST_RK_WEAPONS_ENEMIES_CAN_USE_GENERICALLY" />
+		<weapon name="LIST_WEAPONS_LOSTSUN" />
+		<weapon name="LIST_RK_WEAPONS_ENEMIES_CAN_USE_GENERICALLY" />
+		<weapon name="LIST_WEAPONS_LOSTSUN" />
+	</weaponList>
+	<droneList drones="10" count="2" load="LIST_DRONES_LOSTSUN" />
+	<health amount="9" />
+	<maxPower amount="12" />
+	<crewCount amount="5" max="7" class="rock_commando" />
+	<boardingAI>sabotage</boardingAI>
+	<aug name="REGEN_ARMOR" />
+	<aug name="UPG_TECH_EXTINGUISHERS" />
+</shipBlueprint>
+<!-- <shipBlueprint name="MU_LOSTSUN_PATROL" layout="mu_lostsun_patrol" img="mu_lostsun_patrol">
+	<class>Lost Sun Patrol-Ship</class>
+	<systemList>
+		<cloaking power="1" max="1" room="5" start="false" />
+		<clonebay power="1" max="3" room="1" start="false" />
+		<drones power="2" max="5" room="3" start="false" />
+		<engines power="1" max="2" room="4" start="true" />
+		<medbay power="1" max="3" room="1" start="false" />
+		<oxygen power="2" max="3" room="2" start="true" />
+		<pilot power="1" max="3" room="0" start="true" />
+		<shields power="2" max="8" room="7" start="true" />
+		<teleporter power="1" max="2" room="10" start="false" />
+		<weapons power="2" max="6" room="6" start="true" />
+	</systemList>
+	<weaponSlots>4</weaponSlots>
+	<droneSlots>2</droneSlots>
+	<weaponList missiles="10" count="4" load="LIST_WEAPONS_LOSTSUN" />
+	<droneList drones="10" count="2" load="LIST_DRONES_LOSTSUN" />
+	<health amount="7" />
+	<maxPower amount="10" />
+	<crewCount amount="2" max="5" class="rock_commando" />
+	<boardingAI>sabotage</boardingAI>
+	<aug name="REGEN_ARMOR" />
+	<aug name="UPG_TECH_EXTINGUISHERS" />
+</shipBlueprint> -->
+
+<shipBlueprint name="RKS_REINFORCEMENT_HACKER_MANIPULATOR" layout="mu_hacker_manipulator" img="mu_hacker_manipulator">
+	<class>RK Associate Hacker Manipulator</class>
+	<systemList>
+		<cloaking power="1" max="3" room="8" start="false" />
+		<clonebay power="1" max="2" room="7" start="false" />
+		<engines power="1" max="2" room="1" start="true" />
+		<hacking power="1" max="3" room="5" start="true" />
+		<mind power="1" max="3" room="2" start="true" />
+		<oxygen power="1" max="3" room="3" start="true" />
+		<pilot power="1" max="3" room="0" start="true" />
+		<shields power="2" max="8" room="4" start="true" />
+		<teleporter power="1" max="1" room="9" start="true" />
+		<weapons power="3" max="8" room="6" start="true" />
+	</systemList>
+	<weaponSlots>4</weaponSlots>
+	<droneSlots>0</droneSlots>
+	<!-- Weapon powercosts: ? x4 -->
+	<weaponList missiles="9" count="4">
+		<weapon name="LIST_RK_WEAPONS_ENEMIES_CAN_USE_GENERICALLY" />
+		<weapon name="LIST_WEAPONS_HACKER" />
+		<weapon name="LIST_RK_WEAPONS_ENEMIES_CAN_USE_GENERICALLY" />
+		<weapon name="LIST_WEAPONS_HACKER" />
+	</weaponList>
+	<droneList drones="4" count="0" />
+	<health amount="10" />
+	<maxPower amount="10" />
+	<crewCount amount="5" max="11" class="slug" />
+	<boardingAI>sabotage</boardingAI>
+	<aug name="UPG_HACK_STUN" />
+	<aug name="SLUG_GEL" />
+</shipBlueprint>
+<!-- <shipBlueprint name="MU_HACKER_MANIPULATOR" layout="mu_hacker_manipulator" img="mu_hacker_manipulator">
+	<class>Hacker Manipulator</class>
+	<systemList>
+		<cloaking power="1" max="3" room="8" start="false" />
+		<clonebay power="1" max="2" room="7" start="false" />
+		<engines power="1" max="2" room="1" start="true" />
+		<hacking power="1" max="3" room="5" start="true" />
+		<mind power="1" max="3" room="2" start="true" />
+		<oxygen power="1" max="3" room="3" start="true" />
+		<pilot power="1" max="3" room="0" start="true" />
+		<shields power="2" max="8" room="4" start="true" />
+		<teleporter power="1" max="1" room="9" start="false" />
+		<weapons power="2" max="8" room="6" start="true" />
+	</systemList>
+	<weaponSlots>4</weaponSlots>
+	<droneSlots>0</droneSlots>
+	<weaponList missiles="7" count="4" load="LIST_WEAPONS_HACKER" />
+	<droneList drones="4" count="0" />
+	<health amount="8" />
+	<maxPower amount="9" />
+	<crewCount amount="3" max="9" class="slug" />
+	<boardingAI>sabotage</boardingAI>
+	<aug name="UPG_HACK_STUN" />
+	<aug name="SLUG_GEL" />
+</shipBlueprint> -->
+
+<!-- 
+==================================================================================================================================
+==================================================================================================================================
+ =================================================================================================================================
+//////// SHIPS - RK SECTOR NOT-GUARD-RELATED ////////
+==================================================================================================================================
+==================================================================================================================================
+==================================================================================================================================
+-->
+
+<!-- RK Sector Police that tries to fine you for RK gear. -->
+<shipBlueprint name="RKS_ZOLTAN_POLICE" layout="mu_zoltan_dropship" img="mu_zoltan_dropship_elite">
+	<class>A-RK.S.S. Peace-Keeping Invader</class>
+	<systemList>
+		<clonebay power="1" max="3" room="2" start="false" />
+		<doors power="1" max="3" room="6" start="true" />
+		<engines power="1" max="3" room="4" start="true" />
+		<medbay power="1" max="3" room="2" start="false" />
+		<oxygen power="1" max="3" room="1" start="true" />
+		<pilot power="1" max="3" room="3" start="true" />
+		<shields power="4" max="8" room="0" start="true" />
+		<teleporter power="2" max="3" room="5" start="true" />
+		<weapons power="2" max="6" room="7" start="true" />
+
+		<drones power="3" max="8" room="8" start="true" />
+	</systemList>
+	<weaponSlots>3</weaponSlots>
+	<droneSlots>4</droneSlots>
+	<!-- Weapon powercosts: 0, 1, ? -->
+	<weaponList missiles="10" count="3">
+		<weapon name="RK_A_LASER_1" />
+		<weapon name="ENERGY_2_PLAYER" />
+		<weapon name="LIST_WEAPONS_ZOLTAN" />
+	</weaponList>
+	<!-- Drone powercosts: 1, 2, 3, ? -->
+	<droneList drones="8" count="4">
+		<drone name="REPAIR" />
+		<drone name="COMBAT_1_BEAM" />
+		<drone name="BATTLETOG2_BOARDER" />
+		<drone name="LIST_DRONES_ZOLTAN" />
+	</droneList>
+	<health amount="16" />
+	<maxPower amount="14" />
+	<crewCount amount="6" max="14" class="zoltan" />
+	<boardingAI>sabotage</boardingAI>
+	<aug name="ANCIENT_SHIELD" />
+	<aug name="RK_A_STANDARD_SUITE" />
+	<!-- Apparently FTL_JAMMER does not work against the player. No enemies in base MV have it. -->
+</shipBlueprint>
+<!-- <shipBlueprint name="MU_ZOLTAN_DROPSHIP_ELITE" layout="mu_zoltan_dropship" img="mu_zoltan_dropship_elite">
+	<class>Peace-Keeping Dropship</class>
+	<systemList>
+		<clonebay power="1" max="3" room="2" start="false" />
+		<doors power="1" max="3" room="6" start="false" />
+		<engines power="1" max="2" room="4" start="true" />
+		<medbay power="1" max="3" room="2" start="false" />
+		<oxygen power="1" max="3" room="1" start="true" />
+		<pilot power="1" max="3" room="8" start="true" />
+		<shields power="4" max="8" room="0" start="true" />
+		<teleporter power="2" max="3" room="5" start="true" />
+		<weapons power="3" max="5" room="7" start="true" />
+	</systemList>
+	<weaponSlots>3</weaponSlots>
+	<droneSlots>0</droneSlots>
+	<weaponList missiles="10" count="3" load="LIST_WEAPONS_ZOLTAN" />
+	<droneList drones="0" count="0" />
+	<health amount="13" />
+	<maxPower amount="12" />
+	<crewCount amount="4" max="10" class="zoltan" />
+	<boardingAI>sabotage</boardingAI>
+	<aug name="ANCIENT_SHIELD" />
+</shipBlueprint> -->
 
 <!-- Random beacon hardly skippable fight based on MU_SLUG_ABDUCTOR, changed most room spots & added/removed some -->
 <shipBlueprint name="RKS_LEAD_TITANS_USER_SLUG" layout="mu_slug_abductor_a" img="djmode_rk_lead_titans_user">
@@ -1305,17 +1833,18 @@ RK-thematic WEAPON lists
 		<oxygen power="2" max="2" room="6" start="true" />
 		<pilot power="1" max="3" room="2" start="true" />
 		<shields power="4" max="7" room="0" start="true" />
-		<weapons power="3" max="8" room="1" start="true" />
+		<weapons power="2" max="8" room="1" start="true" />
 
 		<drones power="4" max="7" room="4" start="true" />
 	</systemList>
 	<weaponSlots>4</weaponSlots>
 	<droneSlots>3</droneSlots>
-	<!-- Weapon powercosts: 2, 1, 1, 2 -->
+	<!-- Weapon powercosts: 2, 1, 2, 2 -->
 	<weaponList missiles="0" count="4">
 		<weapon name="DJMOD_LASER_BPS" />
 		<weapon name="LASER_CHAINGUN" />
-		<weapon name="LASER_FIRE_PLAYER" />
+		<!-- <weapon name="LASER_FIRE_PLAYER" /> 	Loadout reaches 4 weapons as early as S3! -->
+		<weapon name="LASER_FIRE" />
 		<weapon name="LASER_FIRE_SPECIAL" />
 		<!-- <weapon name="MODULAR_LASER_FIRE_BIO" />	Can't pop shields -->
 
@@ -1323,7 +1852,7 @@ RK-thematic WEAPON lists
 	<!-- Drone powercosts: 1, 2, 3 -->
 	<droneList drones="5" count="3">
 		<drone name="REPAIR" />
-		<drone name="BATTLETOG_DEFEND" />				<!-- THAT's the default defense crewdrone -->
+		<drone name="BATTLETOG_DEFEND" />			<!-- THAT's the default defense crewdrone -->
 		<drone name="DEFENSE_2" />
 	</droneList>
 	<health amount="12" />
@@ -1769,13 +2298,13 @@ TODO: Add hacking somewhere (via custom event-aug probably). -->
 		<pilot power="1" max="3" room="0" start="true" />
 		<shields power="3" max="10" room="12" start="true" />
 		<teleporter power="1" max="2" room="14" start="true" />
-		<weapons power="4" max="12" room="7" start="true" />
+		<weapons power="3" max="12" room="7" start="true" />
 		
 		<cloaking power="1" max="2" room="2" start="true" />
-		<drones power="3" max="8" room="1" start="true" />
+		<drones power="2" max="8" room="1" start="true" />
 	</systemList>
 	<weaponSlots>6</weaponSlots>
-	<droneSlots>0</droneSlots>
+	<droneSlots>4</droneSlots>
 	<!-- <weaponList missiles="12" count="6" load="LIST_WEAPONS_FED" /> -->
 	<!-- Weapon powercosts: 3, 2, 1, 2, ?, ? -->
 	<weaponList missiles="12" count="6">
@@ -1794,11 +2323,12 @@ TODO: Add hacking somewhere (via custom event-aug probably). -->
 		<drone name="COMBAT_1_BEAM" />
 	</droneList>
 	<health amount="20" />
-	<maxPower amount="16" />
+	<maxPower amount="14" />
 	<crewCount amount="6" max="12" class="LIST_CREW_PIRATE_ELITE_RANDOM" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="SPORE_AIR_BUFF" />
 	<aug name="ANCIENT_SHIELD" />
+	<aug name="SYSTEM_CASING_NEW" />
 </shipBlueprint>
 <!-- <shipBlueprint name="MU_PIRATE_FED_BATTLESHIP" layout="mu_fed_battleship" img="mu_pirate_fed_battleship">
 	<class>Pirate Battleship</class>
@@ -1852,7 +2382,7 @@ ENIGMASHIN BOSS based on MU_MFK_GUNBOAT.
 		<weapon name="ION_TRI" />
 		<weapon name="BEAM_HACK" />				<!-- Has hull damage. -->
 		<weapon name="MISSILES_BURST_2" />
-		<weapon name="LASER_BURST_2" />			<!-- That's a BL1, not BL2 nor Defense Laser. -->
+		<weapon name="LASER_BURST_2" />			<!-- That's a BL1, not BL2(3shots) nor Defense Laser. -->
 	</weaponList>
 	<droneList drones="0" count="0" />
 	<health amount="14" />
@@ -1902,26 +2432,33 @@ ENIGMASHIN BOSS based on MU_MFK_GUNBOAT.
 ================================================================================================================
 TODO: Update.
 -->
-<blueprintList name="LIST_SHIPS_RADIKAL_ALL">
-	<name>MU_HEKTAR_MERCHANDISER</name>
-	<name>MU_HEKTAR_CLERK</name>
-	<name>MU_HEKTAR_HAULER</name>
-	<name>MU_HEKTAR_SUPPORT</name>
-	<name>MU_HEKTAR_DELIVERY</name>
-	<name>MU_HEKTAR_LOYAL</name>
-	<name>MU_HEKTAR_SUPERVISOR</name>
-	<name>MU_HEKTAR_MANAGER</name>
-	<name>MU_HEKTAR_HR</name>
+
+<!-- Ships that show up in "revenge for guard kill" fights. TODO: Expand and diversify. -->
+<blueprintList name="LIST_SHIPS_RADIKAL_FIGHT">
+	<name>RKS_REINFORCEMENT_DUSK_FIGHTER</name>
+	<name>RKS_REINFORCEMENT_LOSTSUN_PATROL</name>
+	<name>RKS_REINFORCEMENT_HACKER_MANIPULATOR</name>
 	
-	<name>MU_HEKTAR_TRANSPORT</name>
+	<!-- <name>DJMOD_RADIKAL_BOSS_BAM</name>
+	<name>DJMOD_RADIKAL_BOSS_PUNK</name>
+	<name>DJMOD_RADIKAL_BOSS_SCORCH</name> -->
+</blueprintList>
+
+<!-- Unused. TODO: Populate to keep track easier, no need to uncomment.
+<blueprintList name="LIST_SHIPS_RADIKAL_ALL">
+	
 	
 	<name>DJMOD_RADIKAL_GUARD</name>
+
+
 	
 	<name>DJMOD_RADIKAL_BOSS_BAM</name>
 	<name>DJMOD_RADIKAL_BOSS_PUNK</name>
 	<name>DJMOD_RADIKAL_BOSS_SCORCH</name>
-</blueprintList>
 
+</blueprintList> -->
+
+<!-- Unused.
 <blueprintList name="LIST_SHIPS_RADIKAL_GENERIC">
 	<name>MU_HEKTAR_MERCHANDISER</name>
 	<name>MU_HEKTAR_CLERK</name>
@@ -1931,30 +2468,16 @@ TODO: Update.
 	<name>MU_HEKTAR_SUPERVISOR</name>
 	<name>MU_HEKTAR_HR</name>
 	<name>MU_HEKTAR_TRANSPORT</name>
-</blueprintList>
-<!-- I think these guys can just show up in any "revenge for guard kill" fight? -->
-<blueprintList name="LIST_SHIPS_RADIKAL_FIGHT">
-	<name>MU_HEKTAR_MERCHANDISER</name>
-	<name>MU_HEKTAR_CLERK</name>
-	<name>MU_HEKTAR_HAULER</name>
-	<name>MU_HEKTAR_SUPPORT</name>
-	<name>MU_HEKTAR_DELIVERY</name>
-	<name>MU_HEKTAR_LOYAL</name>
-	<name>MU_HEKTAR_SUPERVISOR</name>
-	<name>MU_HEKTAR_MANAGER</name>
-	<name>MU_HEKTAR_HR</name>
-	
-	<!-- <name>DJMOD_RADIKAL_BOSS_BAM</name>
-	<name>DJMOD_RADIKAL_BOSS_PUNK</name>
-	<name>DJMOD_RADIKAL_BOSS_SCORCH</name> -->
-</blueprintList>
+</blueprintList> -->
+
+<!-- Unused.
 <blueprintList name="LIST_SHIPS_RADIKAL_SHOP">
 	<name>MU_HEKTAR_MERCHANDISER</name>
 	<name>MU_HEKTAR_CLERK</name>
 	<name>MU_HEKTAR_HAULER</name>
 	<name>MU_HEKTAR_SUPPORT</name>
 	<name>MU_HEKTAR_DELIVERY</name>
-</blueprintList>
+</blueprintList> -->
 </FTL>
 <!-- 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////

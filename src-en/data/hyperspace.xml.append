@@ -720,6 +720,18 @@ NOTE: FIRE_IMMUNITY in fire_common.lua is really SHIP SYSTEM FIRE RESISTANCE PER
 			Probably dangerous, maybe also to itself and/or its crew.
 			Probably has lootable RadiKal gear: unlocks internal upgrades and RK sector blue options or coordinates.</tooltip>
 		</mod-append:shipIcon>
+		<mod-append:shipIcon>
+			<name>rk_icon_anti_radikal_ship</name>
+			<!-- Red text icon WORKS. -->
+			<tooltip>ANTI-RK STANDARD SUITE:
+			Hunting RadiKals is not safe. Zealous hunters are given this to increase their survival rates... and force them to do the job.
+			
+			15% chance to resist Hull, System and Ion damage.
+			Slowly fixes breaches and fires automatically.
+			Crew have 40% more health.
+			[style[color:ff3377]]FTL charge speed reduced by 90%.
+			Cannot surrender, negotiate, or disobey.[[/style]]</tooltip>
+		</mod-append:shipIcon>
 	</mod:findLike>
 
 	<mod:findLike type="shipIcons">
@@ -767,7 +779,7 @@ NOTE: FIRE_IMMUNITY in fire_common.lua is really SHIP SYSTEM FIRE RESISTANCE PER
 			<name>rk_icon_arrogance_shield</name>
 			<tooltip>ARROGANCE SHIELD:
 			This enemy is protected by an Energy Shield. Hacking, Mind Control, Teleportation, Boarding Drones, and all hull-damaging or ion weapons will all be blocked until disabled.
-			This specific shield also makes shield recharge and  weapon charge worse, but heals friendly drones and damages enemy drones.</tooltip>
+			This specific shield also makes shield recharge and weapon charge worse, but heals friendly drones and damages enemy drones.</tooltip>
 		</mod-append:shipIcon>
 		<mod-append:shipIcon>
 			<name>icon_rk_dread_deck</name>
@@ -929,20 +941,14 @@ JUDGE STUFF (NON-APPEND)
 //////////////////////////////////////////////////////////////////////////////////////////////
 -->
 
-<!--
-REF: Bag of Dumb Fixed:
-<mod:findLike type="events" limit="1">
-	<mod-append:eventFile>mithra</mod-append:eventFile>
--->
 <mod:findLike type="events" limit="1">
 	<!-- 
 	******************************************************************************************************************
-	Sector stuff - start
+	RK Sector stuff - start
 	******************************************************************************************************************
 	-->
 
-	<!-- REF MV v5.5.1:
-	<eventFile>sector_hektar</eventFile> -->
+	<!-- REF MV v5.5.1: <eventFile>sector_hektar</eventFile> -->
 	<mod-append:eventFile>sector_radikal</mod-append:eventFile>	
 
 	<!-- (As in) REF: Bag of Dumb Fixed for MV 5.5.1 -->
@@ -972,13 +978,8 @@ REF: Bag of Dumb Fixed:
 	</mod:findName>
 	
 	<!-- COORDS_BOSS & COORDS_BOSS_TOOLATE are new in v5.5.1 (or at least, after v5.2.3) and in a sub-tag,
-	  not directly in the coords block.
-	UNNECESSARY - Bag Of Dumb Fixed (for MV 5.5.1) only does the name="COORDS" block above.
-	
-	Uncomment this to see if fixes S7 end reroute needing 2+ coords? I expect it to say you can't reroute instead.
-	<mod:findName type="req" name="COORDS_BOSS_TOOLATE">
-		<mod-append:name>coords_radikal</mod-append:name>
-	</mod:findName>
+	not directly in the coords block.
+	Bag Of Dumb Fixed (for MV 5.5.1) only does the name="COORDS" block above.
 	-->
 
 	<!-- REF: Darkest Desire v4.1.4 for MV v5.5.1:
@@ -998,6 +999,9 @@ REF: Bag of Dumb Fixed:
 		</mod:findLike>
 	</mod:findName> -->
 
+	<!-- Outside RKS Anti-RK police introduction. -->
+	<mod-append:variable name="rk_a_outside_police_intro_done" op="set" val="0"/>
+
 	<!-- Prevent return to sector to avoid crash. -->
 	<mod-append:variable name="visited_radikal_sector" op="set" val="0"/>
 
@@ -1013,6 +1017,7 @@ REF: Bag of Dumb Fixed:
 	<mod-append:variable name="rks_pirate_trinity_met_slaver" op="set" val="0"/>
 	<mod-append:variable name="rks_pirate_trinity_met_mercenary" op="set" val="0"/>
 	<mod-append:variable name="rks_pirate_trinity_met_smuggler" op="set" val="0"/>
+	<mod-append:variable name="rks_pirate_trinity_prevent_exit_ambush" op="set" val="0"/>
 
 	<!-- v5.5.1 Now useless.
 	<mod-append:event name="JUMP_TO_RADIKAL" recursive="true">
@@ -1047,8 +1052,151 @@ REF: Bag of Dumb Fixed:
 	<mod-append:metaVariable name="juke_rktrackradikal" op="set" val="0"/>
 	<!-- 
 	******************************************************************************************************************
-	Sector stuff - end
+	RK Sector stuff - end
+	
+	Outside-RK-Sector stuff - start
+	******************************************************************************************************************
+	-->
 
+	<!-- 
+	////////////////////////////////////////////
+	Anti-RK punishment fights or gear sellers
+	////////////////////////////////////////////
+	-->
+
+	<!-- It's been 3... 4 days? I give up. Spawn in sector 3 you stupid fucking shit.
+	loc_sector_count = 1 should mean sector 2 (two) - TESTS INDICATE SECTOR 3 WTH.
+	Also, loc_sector_count = 0 should mean sector 2 based on test above,
+	BUT it's DROP POINT SECTOR, and ALSO SECTOR 2. 
+	Zuggo says: loc_sector_count is incremented AFTER spawn conditions for the sector were checked. 
+	So, it lags behind. Making it bad at its ENTIRE BLOODY PURPOSE -->
+	<mod-append:req name="RK_A_INTRO_SHIP_REQS" type="all">
+		<req type="any">
+			<req lvl="1" max_lvl="1">
+				<name>loc_sector_count</name>
+			</req>
+		</req>
+	</mod-append:req>
+
+	<!-- Unused. This should ACTUALLY mean "sector 2 only": NOPE, BOTH S1 & S2 AGAIN -->
+	<mod-append:req name="RK_A_INTRO_SHIP_REQS_NOWORK" type="all">
+		<req lvl="0" max_lvl="0">
+			<name>loc_sector_count</name>
+		</req>
+		<req type="max" max_lvl="0">
+			<!-- That's DROP POINT = S0 internally = S1 in-game -->
+			<name>SEC STANDARD_SPACE</name>
+		</req>
+	</mod-append:req>
+
+	<!-- Unused. Reference. -->
+	<mod-append:req name="RK_A_INTRO_SHIP_REQS_TEMPWIP" type="max" max_lvl="0">
+		<!-- That's DROP POINT = S0 internally = S1 in-game -->
+		<name>SEC STANDARD_SPACE</name>		
+
+		<!-- Forgemaster sector -->
+		<name>SEC SECRET_TWISTED</name>
+
+		<!-- Justifiable.
+		<name>SEC SECTOR_SPIDER</name>
+		<name>SEC SECTOR_NIGHTS</name>
+		<name>SEC SECTOR_AUGMENTED</name>
+		<name>SEC SECTOR_ORIGINS</name>
+		<name>SEC SECTOR_ORIGINS_RUWEN</name> -->
+
+		<name>SEC SECRET_SYLVAN</name>
+		<name>SEC SECRET_HER</name>
+		<name>SEC SECRET_DYLAN</name>
+		<name>SEC SECRET_RHYME</name>
+		<name>SEC SECRET_RHYME_CHAOS</name>
+
+		<!-- True Ending (TE). Showdowns are the Vance fights but they might technically be sectors. -->
+		<name>SEC SECRET_ANCIENT</name>
+		<name>SEC SECRET_ROYAL</name>
+		<name>SEC SHOWDOWN_CASUAL</name>
+		<name>SEC SHOWDOWN_NORMAL</name>
+		<name>SEC SHOWDOWN_CHALLENGE</name>
+		<name>SEC SHOWDOWN_EXTREME</name>
+	</mod-append:req>
+
+	<mod-append:req name="RK_A_POLICE_NUMBER2_REQS" type="all">
+		<req type="any">
+			<!-- Should mean sector 4 (four) - TESTS INDICATE SECTOR 5, WTH!!
+			<req lvl="3" max_lvl="3">
+				<name>loc_sector_count</name>
+			</req> -->
+			<!-- Means sector 4. -->
+			<req lvl="2" max_lvl="2">
+				<name>loc_sector_count</name>
+			</req>
+		</req>
+	</mod-append:req>
+	
+	<mod-append:req name="RK_A_POLICE_NUMBER3_REQS" type="all">
+		<req type="any">
+			<!-- Means sector 6 (six) - TESTS INDICATE SECTOR 7, WTH!!
+			<req lvl="5" max_lvl="5">
+				<name>loc_sector_count</name>
+			</req> -->
+			<!-- Means sector 6. -->
+			<req lvl="4" max_lvl="4">
+				<name>loc_sector_count</name>
+			</req>
+		</req>
+	</mod-append:req>
+	<!-- REF: Lily's Beam Emporium v1.6.3 (NOTE: apparently the first LBE actually spawns in S3, not S2!) :
+	<mod-append:req name="LILY_EMPORIUM_SPAWN_CHECK" type="all">
+		<req lvl="1">
+			<name>prof_siren_encounter</name>
+		</req>
+		<req lvl="-999" max_lvl="0">
+			<name>LILY_PATRONAGE</name>
+		</req>
+		<req type="any">
+			<req lvl="1" max_lvl="1">
+				<name>loc_sector_count</name>
+			</req>
+			<req lvl="4" max_lvl="4">
+				<name>loc_sector_count</name>
+			</req>
+		</req>
+	</mod-append:req> -->
+	<!-- REF: Forgemaster v0.6.1.2.2 (spawns every sector until one of these conditions stops it,
+	 including going there once, which gives the phone number to call the guy):
+	<req name="FMSPAWN_FIRSTMEET" type="max" max_lvl="0">
+		<name>fm_forgemaster_phone</name>
+		<name>fm_forgemaster_dead</name>
+		<name>forgemaster_spawntriggered</name>
+		<name>SEC SECRET_TWISTED</name>
+		<name>SEC SECTOR_SPIDER</name>
+		<name>SEC SECTOR_NIGHTS</name>
+		<name>SEC SECTOR_AUGMENTED</name>
+		<name>SEC SECTOR_ORIGINS</name>
+		<name>SEC SECTOR_ORIGINS_RUWEN</name>
+		<name>SEC SECRET_ANCIENT</name>
+		<name>SEC SECRET_ROYAL</name>
+		<name>SEC SECRET_SYLVAN</name>
+		<name>SEC SECRET_HER</name>
+		<name>SEC SECRET_DYLAN</name>
+		<name>SEC SECRET_RHYME</name>
+		<name>SEC SECRET_RHYME_CHAOS</name>
+		<name>SEC SHOWDOWN_CASUAL</name>
+		<name>SEC SHOWDOWN_NORMAL</name>
+		<name>SEC SHOWDOWN_CHALLENGE</name>
+		<name>SEC SHOWDOWN_EXTREME</name>
+		<name>SEC STANDARD_SPACE</name>
+		<req type="all">
+			<name>SEC FINAL</name>
+			<req type="sum" lvl="2">
+				<name>loc_laststand</name>
+			</req>
+		</req>
+	</req> -->
+
+	<!-- 
+	******************************************************************************************************************
+	Outside-RK-Sector stuff - end
+	
 	JUDGES STUFF - start
 	******************************************************************************************************************
 	-->
@@ -1076,7 +1224,7 @@ REF: Bag of Dumb Fixed:
 
 	<!-- 
 	********************************************************************************
-	Judge Blue Options QoL - TODO: Disable if it breaks Pepper's JudgeBoonUltimate 
+	Judge Blue Options QoL
 	********************************************************************************
 	-->
 <!-- REF: Judge.Blue.Options v1.14 for MV v5.5.1:
@@ -1230,7 +1378,7 @@ REF: Bag of Dumb Fixed:
 		
 		<mod-append:name>RK_OWN_HARMONY_ANY</mod-append:name>
 
-		<mod-append:name>DJMOD_COMBAT_SELF_FIRE_UPGRADABLE</mod-append:name>
+		<mod-append:name>DJMOD_COMBAT_SELF_FIRE_ANY_UPGRADABLE</mod-append:name>
 
 		<mod-append:name>RK_BPS_SURVEYOR</mod-append:name>
     </mod:findName>
@@ -2644,7 +2792,7 @@ I assume the same goes for these lists.
 </req>
  <req name="DJMOD_SUFFICIENT_PILOTING_AND_SENSORS" type="all">
 	<req lvl="3">
-		<name>pilot</name>		<!-- not "pilotING"! -->
+		<name>pilot</name>		<!-- not "pilot-ING"! -->
 	</req>
 	<req lvl="2">
 		<name>sensors</name>
@@ -2745,19 +2893,19 @@ I assume the same goes for these lists.
 		RK SCORCH
 /////////////////////////////////////////////
  -->
-<req name="DJMOD_COMBAT_SELF_FIRE" type="any">
+<req name="DJMOD_COMBAT_SELF_FIRE_ANY" type="any">
     <name>RK_SCORCH_SELF</name>
     <name>RK_SCORCH_SELF_2</name>
 	<name>RK_SCORCH_SELF_3</name>
 </req>
-<req name="DJMOD_COMBAT_SELF_FIRE_UPGRADABLE" type="any">
+<req name="DJMOD_COMBAT_SELF_FIRE_ANY_UPGRADABLE" type="any">
     <name>RK_SCORCH_SELF</name>
     <name>RK_SCORCH_SELF_2</name>
 </req>
 
 <!-- 2-combat-augments combo to set the enemy ship on fire for free. -->
 <req name="DJMOD_SELF_SCORCH_MOVER_COMBO" type="all">
-    <name>DJMOD_COMBAT_SELF_FIRE</name>
+    <name>DJMOD_COMBAT_SELF_FIRE_ANY</name>
     <name>RK_COMBAT_SCORCH_ENEMY</name>
 </req>
 
@@ -2856,7 +3004,7 @@ For unique sector 'membership' and other gear checks like Judges.
 	<name>IS_RK_SCORCH_GEAR</name>
 </req>
 <req name="DJMOD_HAS_RADIKAL_SCORCH_EQUIPMENT" type="any">
-	<name>DJMOD_COMBAT_SELF_FIRE</name>
+	<name>DJMOD_COMBAT_SELF_FIRE_ANY</name>
     <name>RK_COMBAT_SCORCH_ENEMY</name>
     <name>DJMOD_FLAMMABILIZER_ANY</name>
 	<name>RK_COMBAT_OXYGENIZER</name>
@@ -3056,8 +3204,11 @@ Other RKSector checks
 <req name="RKS_TRYING_TO_SKIP_TRINITY" type="all">
 	<name>rks_pirate_trinity_active</name>
 	<req lvl="0" max_lvl="0">
-		<name>rks_pirate_trinity_visited</name>
+		<name>rks_pirate_trinity_prevent_exit_ambush</name>
 	</req>
+	<!-- <req lvl="0" max_lvl="0">
+		<name>rks_pirate_trinity_visited</name>
+	</req> -->
 </req>
 
 <!-- Better than checking for coords only. -->
@@ -3286,6 +3437,75 @@ REFS: MV v5.5.1; The Outer Expansion for that MV (STORE_SYLVAN_AEA_WEAPONS)
             </item>    
         </category>
     </mod-append:customStore>
+
+	<!-- Aka "RK_A". First one allows 1 pick, second allows 2. -->
+	<mod-append:customStore id="STORE_ANTI_RADIKAL">
+		
+		<!-- Limit because helps farm RK gear. Applies to all non-resource items. -->
+		<itemPurchaseLimit>1</itemPurchaseLimit>
+		
+		<!-- Great quantities because hungry augments. Cheap repairs. -->
+		<!-- <hullRepair>
+			<price>2</price>
+		</hullRepair>
+		<resource>
+			<type>fuel</type>
+			<count min="10" max="20"/>
+		</resource>
+		<resource>
+			<type>missiles</type>
+			<count min="10" max="12"/>
+		</resource>
+		<resource>
+			<type>drones</type>
+			<count min="10" max="12"/>
+		</resource> -->
+				
+		<category type="WEAPONS">
+			<customTitle>ANTI-RADIKAL WEAPONS</customTitle>
+			<item>
+				<blueprint>RK_A_LASER_1</blueprint>
+			</item>
+			<item>
+				<blueprint>RK_A_MISSLAUNCHER</blueprint>
+			</item>
+			<chance>100</chance>
+		</category>
+	</mod-append:customStore>
+	<!-- Aka "RK_A". First one allows 1 pick, second allows 2. -->
+	<mod-append:customStore id="STORE_ANTI_RADIKAL_2">
+		
+		<!-- Limit because helps farm RK gear. Applies to all non-resource items. -->
+		<itemPurchaseLimit>2</itemPurchaseLimit>
+		
+		<!-- Good quantities. -->
+		<hullRepair>
+			<price>3</price>
+		</hullRepair>
+		<resource>
+			<type>fuel</type>
+			<count min="5" max="15"/>
+		</resource>
+		<resource>
+			<type>missiles</type>
+			<count min="5" max="10"/>
+		</resource>
+		<resource>
+			<type>drones</type>
+			<count min="5" max="10"/>
+		</resource>
+				
+		<category type="WEAPONS">
+			<customTitle>ANTI-RADIKAL WEAPONS</customTitle>
+			<item>
+				<blueprint>RK_A_LASER_1</blueprint>
+			</item>
+			<item>
+				<blueprint>RK_A_MISSLAUNCHER</blueprint>
+			</item>
+			<chance>100</chance>
+		</category>
+	</mod-append:customStore>
 
 	<mod-append:customStore id="STORE_RADIKAL">
 		
@@ -3757,6 +3977,7 @@ REFS: MV v5.5.1; The Outer Expansion for that MV (STORE_SYLVAN_AEA_WEAPONS)
 			<item>
 				<blueprint>human_legion</blueprint>
 				<modifier min="0.7" max="0.95" flat="false"/>
+				<!-- 195 base x0.7 = 137 scrap, 195 x0.95 = 185. -->
 			</item>
 			<chance>100</chance>
 		</category>
@@ -4431,18 +4652,18 @@ plus any cloak-friendly/cloak-like augs. -->
 		</category>
 		
 		<category type="SYSTEMS">
-			<customTitle>SNIPER SYSTEMS (30% OFF)</customTitle>
+			<customTitle>SNIPER SYSTEMS (25% OFF)</customTitle>
 			<item>
 				<blueprint>cloaking</blueprint>
-				<modifier flat="false">0.7</modifier>
+				<modifier flat="false">0.75</modifier>
 			</item>
 			<item>
 				<blueprint>weapons</blueprint>
-				<modifier flat="false">0.7</modifier>
+				<modifier flat="false">0.75</modifier>
 			</item>
 			<item>
 				<blueprint>sensors</blueprint>
-				<modifier flat="false">0.7</modifier>
+				<modifier flat="false">0.75</modifier>
 			</item>
 			<chance>100</chance>
 		</category>
@@ -4478,6 +4699,28 @@ plus any cloak-friendly/cloak-like augs. -->
             </item>
 			<chance>100</chance>
         </category>
+	</mod-append:customStore>
+</mod:findLike>
+
+<mod:findLike type="store">
+	<mod-append:customStore id="STORE_RKS_BIL_BAM">
+		
+		<!-- Egregiously expensive repairs. Still great quantities because hungry augments.-->
+		<hullRepair>
+			<price>10</price>
+		</hullRepair>
+		<resource>
+			<type>fuel</type>
+			<count min="10" max="20"/>
+		</resource>
+		<resource>
+			<type>missiles</type>
+			<count min="10" max="12"/>
+		</resource>
+		<resource>
+			<type>drones</type>
+			<count min="10" max="12"/>
+		</resource>
 	</mod-append:customStore>
 </mod:findLike>
 
@@ -5616,7 +5859,7 @@ plus any cloak-friendly/cloak-like augs. -->
     </aug>
 
 
-	<!-- Demicloners aka half-cloner aka demoting-cloner. (about 3100 lines, minimize if not interested).
+	<!-- Demicloners aka half-cloner aka demoting-cloner. (about 3300 lines, minimize if not interested).
 	Instantly spawn non-temporary, clonable crew on-death. WORKS
 	Crew has 1 less "training tier". WORKS
 	Anywhere on player ship, not just inside that medbay. WORKS
@@ -8799,7 +9042,6 @@ plus any cloak-friendly/cloak-like augs. -->
 
 	TODO: 
 	-add upgrade that makes it work on both ships, needs Sensors 3.
-	-make all Separatists event-traitor you unless you have Mind Control?
 	-->
 	<aug name="RK_OWN_HARMONY_ON">
 		<statBoosts>
@@ -8814,7 +9056,7 @@ plus any cloak-friendly/cloak-like augs. -->
 				<priority>0</priority>
 				<whiteList load="LIST_CREW_ENGI"/>
 				<!-- <whiteList load="LIST_CREW_ENGI_EXCEPT_NANO"/> This was the bug, the whitelist doesn't work properly. -->
-				<!-- Defro is in LIST_CREW_ENGI, does the blackList override? -->
+				<!-- Defro is in LIST_CREW_ENGI, does the blackList override? YES -->
 				<blackList>
 					<unique_rk_defromorius/>
 				</blackList>
@@ -9087,6 +9329,39 @@ plus any cloak-friendly/cloak-like augs. -->
 		</superShield>
 		<icon>rk_icon_persistence_shield</icon>
 	</aug>
+
+	<!-- 
+	//////////////////////////////////////////////////////////////////////////////////////////////////
+	//////////////////////////////////////////////////////////////////////////////////////////////////
+	////////////////		FACTIONLESS augments 
+	//////////////////////////////////////////////////////////////////////////////////////////////////
+	//////////////////////////////////////////////////////////////////////////////////////////////////
+	-->
+	<aug name="RK_A_STANDARD_SUITE">
+		<function name="ROCK_ARMOR" value="0.15" useForReqs="false" warning="false"/>
+		<function name="SYSTEM_CASING" value="0.15" useForReqs="false" warning="false"/>
+    	<function name="ION_ARMOR" value="0.15" useForReqs="false" warning="false"/>
+
+		<!-- REF lowest base MV values:
+		<function name="SLUG_GEL" value="0.25" useForReqs="false"/>
+		<function name="FIRE_EXTINGUISHERS" value="2" useForReqs="false" warning="false"/> -->
+		<function name="SLUG_GEL" value="0.20" useForReqs="false"/>
+		<function name="FIRE_EXTINGUISHERS" value="1.6" useForReqs="false" warning="false"/>
+
+		<!-- REF: <function name="FTL_BOOSTER" value="0.30" useForReqs="true"/> -->
+		<function name="FTL_BOOSTER" value="-0.90" useForReqs="false"/>
+    	<statBoosts>
+			<statBoost name="maxHealth">
+				<boostType>MULT</boostType>
+				<amount>1.4</amount>
+				<shipTarget>ALL</shipTarget>
+				<crewTarget>ALLIES</crewTarget>
+				<priority>10</priority>
+				<!-- <blackList load="RK_LIST_CREW_RADIKALS"/> -->
+			</statBoost>
+		</statBoosts>
+		<icon>rk_icon_anti_radikal_ship</icon>		<!-- This how to automate the augment icons now! -->
+    </aug>
 
 <!-- 
 [[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
@@ -9484,7 +9759,7 @@ TODO:
 		<section text="RadiKal Boons" hidden="false">
 			<achievement name="ACH_BOON_RK_BAM_CREW">
 				<secretName>Boon of ???</secretName>
-				<secretDescription>Receive the Boon of ??? from Thest.</secretDescription>
+				<secretDescription>Receive the Boon of The RadiKal Bam from Thest.</secretDescription>
 				<name>Boon of The RadiKal Bam</name>
 				<description>Show a RK Bam crew to Thest.
 				While in effect, your RadiKals gain 29 more health and 1.1x combat damage.</description>
@@ -9495,7 +9770,7 @@ TODO:
 			</achievement>
 			<achievement name="ACH_BOON_RK_PUNK_CREW">
 				<secretName>Boon of ???</secretName>
-				<secretDescription>Receive the Boon of ??? from Thest.</secretDescription>
+				<secretDescription>Receive the Boon of The RadiKal Punk from Thest.</secretDescription>
 				<name>Boon of The RadiKal Punk</name>
 				<description>Show a RK Punk crew to Thest.
 				While in effect, your RadiKals heal and are cloned 40% faster.</description>
@@ -9506,7 +9781,7 @@ TODO:
 			</achievement>
 			<achievement name="ACH_BOON_RK_SCORCH_CREW">
 				<secretName>Boon of ???</secretName>
-				<secretDescription>Receive the Boon of ??? from Thest.</secretDescription>
+				<secretDescription>Receive the Boon of The RadiKal Scorch from Thest.</secretDescription>
 				<name>Boon of The RadiKal Scorch</name>
 				<description>Show a RK Scorch crew to Thest.
 				While in effect, in fire, your RadiKals gain 1.3x movement speed and combat damage.</description>

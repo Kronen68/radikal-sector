@@ -69,3 +69,6 @@ Flavor texts
 <text name="RK_lore_RK_FOCUS_FIRE">Quality stamp: "Once elected 'Weapon of the cycle' by 'INFERNAL NEWS' and 'SCORCHING STONES'!"</text>
 <text name="RK_lore_DJMOD_RAIN_OF_FIRE">Quality stamp: "Fueled by liquefied ELITE Orchids! Burned down Ghost AND Rockman ships!"</text>
 <text name="RK_lore_DJMOD_LASER_BPS">Quality stamp: "Showcased RK performance by eliminating a manned ship of EACH natural and unnatural faction!"</text>
+
+<text name="lore_RK_A_HULL_DAMAGE">The finest Defense Lasers, with high-precision enhancements tailored for RadiKal-gear-specific weaknesses.</text>
+<text name="lore_RK_A_SYSTEM_DAMAGE">The finest Momus Launchers, with high-precision enhancements tailored for RadiKal-gear-specific weaknesses.</text>

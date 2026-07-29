@@ -43,7 +43,8 @@
 
 <!-- . -->
 <event name="GUARD_RADIKAL">
-	<text>The beacon is guarded by a well armed vessel but it's not hostile just yet. In the distance you see pirate ship jumping away. From what you can tell, they're loaded with cargo and the guard just let them through, with no recent signs of battle.
+	<text>The beacon is guarded by a well armed vessel but it's not hostile just yet. In the distance you a see pirate ship jumping away.
+		From what you can tell, they're loaded with cargo and the guard just let them through, with no recent signs of battle.
 		
 		The guard is hailing you.</text>
 	<choice hidden="true">
@@ -326,15 +327,16 @@
 	</choice>
 </event>
 
+<!-- Console "aug LOOT_COMPASS" to test. Apparently, only 1 beacon spawns, not sure why. -->
 <ship name="SHIP_RADIKAL_REINFORCEMENTS" auto_blueprint="LIST_SHIPS_RADIKAL_FIGHT">
 	<destroyed load="DESTROYED_REINFORCEMENTS"/>
 	<deadCrew load="DEADCREW_REINFORCEMENTS"/>
 	<crew>
-		<crewMember type="rock_commando" prop="0.20"/>  
-		<crewMember type="phantom_goul" prop="0.20"/>
-		<crewMember type="shell" prop="0.20"/>
+		<crewMember type="rk_weaponlike" prop="0.20"/>
 		<crewMember type="slug_clansman" prop="0.20"/>
-		<crewMember type="zoltan_devotee" prop="0.20"/>
+		<crewMember type="zoltan_devotee" prop="0.20"/>  
+		<crewMember type="rk_fireghost" prop="0.20"/>
+		<crewMember type="rock_commando" prop="0.20"/>
 	</crew>
 </ship>
 <event name="GUARD_RADIKAL_FOLLOWUP">
@@ -366,7 +368,8 @@
 		<visitedTooltip>Explored location. Nothing left of interest.</visitedTooltip>
 		<undiscoveredTooltip>An unvisited location.</undiscoveredTooltip>
 	</beaconType>
-	<text>"Someone has to be the guard. They were just doing their job, and knew the risks. But so did you!" The RadiKal ship attacks!</text>
+	<text>You easily understand this ship's general message: Someone has to be the guard, they were just doing their job, and knew the risks. But so did you!
+		The RadiKal reinforcement attacks!</text>
 	<ship load="SHIP_RADIKAL_REINFORCEMENTS" hostile="true"/>
 	<environment type="PDS" target="player"/>
 	<choice hidden="true">
@@ -382,7 +385,8 @@
 		<visitedTooltip>Explored location. Nothing left of interest.</visitedTooltip>
 		<undiscoveredTooltip>An unvisited location.</undiscoveredTooltip>
 	</beaconType>
-	<text>"Someone has to be the guard, they were just doing their job and knew the risks. But so did you!" The RadiKal ship attacks!</text>
+	<text>You easily understand this ship's general message: Someone has to be the guard, they were just doing their job, and knew the risks. But so did you!
+		The RadiKal reinforcement attacks!</text>
 	<ship load="SHIP_RADIKAL_REINFORCEMENTS" hostile="true"/>
 	<img back="BACK_EVENT_LIGHTNEBULA"/>
 	<status type="loss" target="player" system="sensors" amount="1"/>

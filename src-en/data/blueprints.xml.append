@@ -229,7 +229,7 @@ Fake / dummy crew
     <desc>(RK Bam gear) Repeatedly ram the enemy for guaranteed damage, often free repairs, and sometimes other things.
 		[See bonuses/combos in the Toggle Menu]
 
-		Normal ramming: (cost {)
+		Normal ramming: (cost 1{)
 		2-3 damage, [style[color:ff3377]]25% bad outcomes![[/style]]
 
 		Full Power: (cost 4{, [style[color:ff3377]]destroys the augment[[/style]]) 
@@ -652,6 +652,7 @@ The first one allows widespread own ship fire control (removal and creation) and
 <augBlueprint name="RK_WEAPONS_ON_FIRE">
 	<title>Weapons On Fire</title>
 	<desc>(RK Scorch gear) The fire rate of your Weapons and Artilleries is improved by 25%.
+		
 		Gain an extra 1% fire rate every time they shoot a projectile or beam (up to 10% - does not stack with multiple Weapons On Fire), but at the same time there's a [style[color:ff3377]]15% chance to light a fire in your Weapon Control and any Artillery rooms[[/style]].
 		The extra bonus is reset on jump.
 
@@ -697,7 +698,7 @@ RadiKal Bam+Punk+Scorch ( = BPS)
 		
 		Whenever you take hull damage, it has a 50% chance to restore 1 layer of Energy Shields but when that happens, [style[color:ff3377]]the room that was hit catches fire (on top of any fire chance from the weapon that did the damage)[[/style]].</desc>
     <cost>200</cost>
-    <rarity>5</rarity>
+    <rarity>0</rarity>
 	<value>0.5</value>		<!-- Chance of re-shield. intended: 0.5 -->
     <stackable>false</stackable>
 </augBlueprint>
@@ -734,11 +735,31 @@ RadiKal Bam+Punk+Scorch ( = BPS)
     <stackable>false</stackable>
 </augBlueprint>
 
-<!-- 
-[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
-				Factionless 
-[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+<!--
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+					FACTIONLESS
+				"RK_A_" shall mean RK-Anti to denote specialized anti-RK ships and such,
+				like Zoltan Police.
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
 -->
+
+
+<augBlueprint name="RK_A_STANDARD_SUITE">
+    <title>Anti-RK Standard Issue</title>
+    <desc>Hunting down RadiKals is not a safe occupation, so the most zealous hunters are granted this to increase their survival rates... and force them to do the job.
+		
+		15% chance to resist Hull, System and Ion damage.
+		Slowly fixes breaches and fires automatically.
+		Crew have 50% more health.
+		[style[color:ff3377]]FTL charge speed reduced by 90%.
+		Cannot surrender, negotiate, or disobey.[[/style]]</desc>
+    <cost>250</cost>
+    <rarity>0</rarity>
+    <stackable>false</stackable>
+	<value>0</value>			<!-- THIS IS THE CHANCE TO NEGATE 1-DAMAGE HITS via the Lua!!! -->
+</augBlueprint>
 
 <augBlueprint name="RKS_POLICE_WARRANT">
 	<title>Z. Police Warrant</title>
@@ -785,6 +806,14 @@ RadiKal Bam+Punk+Scorch ( = BPS)
 </augBlueprint>
 <augBlueprint name="IS_RK_SCORCH_GEAR">
 	<title>Scorch Cruiser and gear</title>
+	<desc>YOU SHOULD NEVER SEE THIS</desc>
+	<cost>0</cost>
+	<rarity>0</rarity>
+	<stackable>false</stackable>
+	<bp>0</bp>
+</augBlueprint>
+<augBlueprint name="IS_RK_BPS_GEAR">
+	<title>BPS Cruiser and gear</title>
 	<desc>YOU SHOULD NEVER SEE THIS</desc>
 	<cost>0</cost>
 	<rarity>0</rarity>
@@ -1106,7 +1135,10 @@ REF Darkest Desires for MV 5.5.1
 **************************************************************************************************************
 [[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
 				WEAPONS (see TOOLBOX at the end of this file for details on each field)
+
 				NB: if a <tip> is set, <tooltip> field does NOT show! Neither does any other <tip> above in same weap.
+
+				Some hidden weapon stats can be seen here: https://ftl.fandom.com/wiki/Weapons_(tables)
 [[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
 **************************************************************************************************************
 [[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
@@ -1241,7 +1273,7 @@ REFS (TRC v2.6 for MV v5.5.1) Fangtian, and Goedendag (and it's the art size bas
 	<weaponArt>djmod_bam_fissurebeam</weaponArt>
 	<iconImage>beamH</iconImage>
 
-	<iconScale>0.9</iconScale>		<!-- Scales the weapon icon in equipment/store/hangar screens. Smaller numbers mean the image will be smaller there. -->
+	<iconScale>0.8</iconScale>		<!-- Scales the weapon icon in equipment/store/hangar screens. Smaller numbers mean the image will be smaller there. -->
 </weaponBlueprint>
 
 <!-- Based on RK_HEAVY_POPPER_2 below. See its refs -->
@@ -1254,7 +1286,7 @@ REFS (TRC v2.6 for MV v5.5.1) Fangtian, and Goedendag (and it's the art size bas
 	<title>Heavy Popper MK I</title>
 	<short>He. Pop. I</short>
 	<desc>(RK Bam gear) The damage-per-second of a Burst Laser 3, at 1 power!
-		[style[color:ff3377]]Your systems have 4% chance to take 1 damage each shot![[/style]]
+		[style[color:ff3377]]Each of your systems has 5% chance to take 1 system damage each shot![[/style]]
 		Heavy Poppers are inaccurate and slow but pop 2 shields and can breach extra.</desc>
 	<tip>RK_lore_RK_HEAVY_POPPER_1</tip>
 	
@@ -1268,10 +1300,10 @@ REFS (TRC v2.6 for MV v5.5.1) Fangtian, and Goedendag (and it's the art size bas
 
 	<mv-aiSystemTarget system="any"/>
 
-	<speed>42</speed>				<!-- ref speeds: mine=15 ion=30 missile=50, laser probably 50. -->
+	<speed>42</speed>
 	<shots>1</shots>
 
-	<fireTime>0.45</fireTime>		<!-- Default is 1.0: bombs & charge weapons. 0.25: other weapons. Beams unaffected --> 
+	<fireTime>0.40</fireTime> 
 	<sp>0</sp>
 	<fireChance>5</fireChance>
 	<breachChance>10</breachChance>
@@ -1312,7 +1344,7 @@ REFS (TRC v2.6 for MV v5.5.1) Fangtian, and Goedendag (and it's the art size bas
 	<title>Heavy Popper MK II</title>
 	<short>He. Pop. II</short>
 	<desc>(RK Bam gear) Enough strength to unshield most enemies, and/or hurt badly.
-		[style[color:ff3377]]Your systems have 3% chance to take 1 damage each shot![[/style]]
+		[style[color:ff3377]]Each of your systems has 4% chance to take 1 system damage each shot![[/style]]
 		Heavy Poppers are inaccurate and slow but pop 2 shields and can breach extra.</desc>
 	<tip>RK_lore_RK_HEAVY_POPPER_2</tip>
 	
@@ -1326,10 +1358,10 @@ REFS (TRC v2.6 for MV v5.5.1) Fangtian, and Goedendag (and it's the art size bas
 
 	<mv-aiSystemTarget system="any"/>
 
-	<speed>42</speed>				<!-- ref speeds: mine=15 ion=30 missile=50, laser probably 50. -->
+	<speed>42</speed>				<!-- ref speeds: mine=15 ion=30 missile=50, lasers 60, Hull 75, Hull2 90. -->
 	<shots>2</shots>
 
-	<fireTime>0.45</fireTime>		<!-- Default is 1.0: bombs & charge weapons. 0.25: other weapons. Beams unaffected --> 
+	<fireTime>0.40</fireTime>		<!-- Default is 1.0: bombs & charge weapons. 0.25: other weapons. Beams unaffected --> 
 	<sp>0</sp>
 	<fireChance>5</fireChance>
 	<breachChance>10</breachChance>
@@ -1412,7 +1444,7 @@ REFS (TRC v2.6 for MV v5.5.1) Fangtian, and Goedendag (and it's the art size bas
 	<title>Heavy Popper MK III</title>
 	<short>He. Pop. III</short>
 	<desc>(RK Bam gear) Fleetgun-like power to smash Shields and crush. Kill. Destroy.
-		[style[color:ff3377]]Your systems have 2% chance to take 1 damage each shot![[/style]]
+		[style[color:ff3377]]Each of your systems has 3% chance to take 1 system damage each shot![[/style]]
 		Heavy Poppers are inaccurate and slow but pop 2 shields and can breach extra.</desc>
 	<tip>RK_lore_RK_HEAVY_POPPER_3</tip>
 	
@@ -1426,16 +1458,16 @@ REFS (TRC v2.6 for MV v5.5.1) Fangtian, and Goedendag (and it's the art size bas
 
 	<mv-aiSystemTarget system="any"/>
 
-	<speed>42</speed>				<!-- ref speeds: mine=15 ion=30 missile=50, laser probably 50. -->
+	<speed>42</speed>
 	<shots>4</shots>
 
-	<fireTime>0.45</fireTime>		<!-- Default is 1.0: bombs & charge weapons. 0.25: other weapons. Beams unaffected --> 
+	<fireTime>0.40</fireTime>
 	<sp>0</sp>
 	<fireChance>5</fireChance>
 	<breachChance>10</breachChance>
 
 	<stun>7</stun>
-	<cooldown>19</cooldown>		<!-- REFS: Heavy3 17s, BL-5shots 17s (3pow) BL-8shots 18s (4pow) -->
+	<cooldown>20</cooldown>		<!-- REFS: Heavy3 17s, BL3-shots5(3pow) 17s, BL4-shots8(4pow) 18s, Voulge(5pow) 25s -->
 	<power>4</power>
 	<cost>140</cost>
 	<bp>6</bp>
@@ -2031,7 +2063,8 @@ Targeting specific systems, even has conditions:
     <mv-aiSystemTarget system="weapons"/>
 
 	<!-- Non-stun Heavy Ion & Fire Ion 40 speed. Others 30. Default Phase Ion is slowest at 25.
-	OTHER REFS: Most lasers & missiles have no speed field (so they have the same default speed). Hull laser II has 75. -->
+	OTHER REFS: Most missiles have no speed field (so they have the same default speed) -->
+	<!-- ref speeds: mine=15 ion=30 missile=50, lasers 60, Hull 75, Hull2 90. -->
 	<speed>55</speed>
 	<shots>1</shots>
 	<sp>10</sp>
@@ -2103,6 +2136,7 @@ Targeting specific systems, even has conditions:
 	<mv-aiSystemTarget system="any"/>
 
 	<!-- Default Phase Ion is slowest ion at 25 speed. -->
+	<!-- ref speeds: mine=15 ion=30 missile=50, lasers 60, Hull 75, Hull2 90. -->
 	<speed>75</speed>
 	<shots>1</shots>
 	<sp>10</sp>
@@ -2278,7 +2312,8 @@ Targeting specific systems, even has conditions:
 
 	<accuracyMod>20</accuracyMod>
 	<missiles>2</missiles>
-	
+
+	<!-- ref speeds: mine=15 ion=30 missile=50, lasers 60, Hull 75, Hull2 90. -->
     <speed>27</speed>		<!-- REFS: Mines = 15 speed. Phase ion (the slowest) = 25. Flak = 26 -->
 	<shots>1</shots>
 	<sp>10</sp>
@@ -2582,6 +2617,7 @@ DO NOT remove the EnemyFix version, they shoot multiple rooms with each cooldown
 	<ion>1</ion>						<!-- ION_1: 1ion/9s, ION_3: 1ion/5s (2pow), Heavy Ion: 3ion/15s -->
 	<persDamage>2</persDamage>
 	<hullBust>1</hullBust>
+	<!-- ref speeds: mine=15 ion=30 missile=50, lasers 60, Hull 75, Hull2 90. -->
 	<speed>45</speed>					<!-- ref speeds: mine=15 ion=30 missile=50 -->
 
 	<mv-stealth/>
@@ -2632,6 +2668,201 @@ DO NOT remove the EnemyFix version, they shoot multiple rooms with each cooldown
 	<weaponArt>djmod_laser_bps</weaponArt>
 	<iconImage>heavyL</iconImage>
 </weaponBlueprint>
+
+<!-- 
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
+			ANTI-RADIKAL weapons
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
+-->
+
+<weaponBlueprint name="RK_A_LASER_1">
+	<type>LASER</type>
+	<title>"Decency" Anti-RK Laser</title>
+	<short>"Decency"</short>
+	<desc>(Anti-RK gear) Chains cooldown a lot but slowly, and deals +1 damage for each RK weapon on the target.
+		'May Order Prevail.'
+		
+		Conservative weapons use no power on their own but require the system itself to be powered.</desc>
+	<!-- <tooltip>Anti-RK weaponry deals extra damage to ships with anything RadiKal, and chain cooldown.</tooltip> -->
+	<tip>lore_RK_A_HULL_DAMAGE</tip>
+	<damage>1</damage>
+
+	<speed>75</speed>					<!-- ref speeds: mine=15 ion=30 missile=50 -->
+	<shots>1</shots>
+	<sp>0</sp>
+	<fireChance>0</fireChance>
+	<breachChance>0</breachChance>
+	<cooldown>9</cooldown>
+	
+	<power>0</power>
+    <mv-conservative/>
+
+	<cost>45</cost>
+	<bp>2</bp>
+	<rarity>0</rarity>
+
+	<boost>
+		<type>cooldown</type>
+		<amount>0.5</amount>
+		<count>15</count>
+	</boost>
+
+	<image>rk_laser_longthin</image>
+	<launchSounds>
+		<sound>lightLaser1</sound>
+		<sound>lightLaser2</sound>
+		<sound>lightLaser3</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>hitHull2</sound>
+		<sound>hitHull3</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>hitShield1</sound>
+		<sound>hitShield2</sound>
+		<sound>hitShield3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>rk_a_laser_1</weaponArt>
+	<iconImage>laser</iconImage>
+</weaponBlueprint>
+<!-- <weaponBlueprint name="LASER_BURST_1">		MV SAYS: ".11 DPS"
+	<type>LASER</type>
+	<title>Defense Laser</title>
+	<short>Defense Laser</short>
+	<tip>tip_laser</tip>
+	<desc>Standard issue defense Laser. Typically used only as a replacement when more expensive weapons aren't available.</desc>
+	<tooltip>Defense laser; 1 damage, 1 shot. 9 second cooldown.</tooltip>
+	<damage>1</damage>
+	<shots>1</shots>
+	<sp>0</sp>
+	<fireChance>1</fireChance>
+	<breachChance>0</breachChance>
+	<cooldown>9</cooldown>
+	<power>1</power>
+	<cost>30</cost>
+	<bp>2</bp>
+	<rarity>0</rarity>
+	<image>laser_burst</image>
+	<launchSounds>
+		<sound>lightLaser1</sound>
+		<sound>lightLaser2</sound>
+		<sound>lightLaser3</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>hitHull2</sound>
+		<sound>hitHull3</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>hitShield1</sound>
+		<sound>hitShield2</sound>
+		<sound>hitShield3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>laser_burst_1</weaponArt>
+	<iconImage>laser</iconImage>
+</weaponBlueprint> -->
+
+<weaponBlueprint name="RK_A_MISSLAUNCHER">
+	<type>MISSILES</type>
+	<title>'Measure' Anti-RK Missiles</title>
+	<short>'Measure'</short>
+	<desc>(Anti-RK gear) Chains cooldown a lot but slowly, and deals +1 system damage for each RK weapon on the target.
+		'May Order Prevail.'
+
+		This specialized Launcher converts useless resources into missiles. However, it can only fire a limited number of times each fight.</desc>
+	<tip>lore_RK_A_SYSTEM_DAMAGE</tip>
+	<damage>2</damage>
+	<missiles>0</missiles>
+	<shotLimit>16</shotLimit>
+	<speed>50</speed>				<!-- ref speeds: mine=15 ion=30 missile=50, lasers 60, Hull 75, Hull2 90. -->
+	<accuracyMod>10</accuracyMod>
+	<shots>1</shots>
+	<sp>10</sp>
+	<fireChance>2</fireChance>
+	<breachChance>2</breachChance>
+	<stunChance>3</stunChance>
+	
+	<mv-aiSystemTarget system="any"/>
+	<cooldown>17</cooldown>
+	<power>1</power>
+	<cost>80</cost>
+	<bp>2</bp>
+
+	<rarity>0</rarity>
+
+	<boost>
+		<type>cooldown</type>
+		<amount>1</amount>
+		<count>15</count>
+	</boost>
+
+	<image>rk_a_missile</image>
+	<launchSounds>
+		<sound>smallMissile1</sound>
+		<sound>smallMissile2</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>smallExplosion</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>hitShield1</sound>
+		<sound>hitShield2</sound>
+		<sound>hitShield3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>rk_a_misslauncher</weaponArt>
+	<iconImage>missile</iconImage>
+</weaponBlueprint>
+<!-- <weaponBlueprint name="MISSILES_FREE">
+	<type>MISSILES</type>
+	<tip>tip_missiles_recycler</tip>
+	<title>'Momus' Missiles</title>
+	<short>'Momus'</short>
+	<desc>This specialized Launcher converts useless resources into missiles. However, it has a much longer charge time, and can only fire a limited number of times each fight.</desc>
+	<tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
+	<damage>2</damage>
+	<missiles>0</missiles>
+	<shotLimit>6</shotLimit>
+	<speed>50</speed>
+	<accuracyMod>10</accuracyMod>
+	<shots>1</shots>
+	<sp>10</sp>
+	<fireChance>2</fireChance>
+	<breachChance>2</breachChance>
+	<stunChance>3</stunChance>
+	<cooldown>17</cooldown>
+	<power>1</power>
+	<cost>55</cost>
+	<bp>2</bp>
+	<rarity>5</rarity>
+	<image>missile_1</image>
+	<launchSounds>
+		<sound>smallMissile1</sound>
+		<sound>smallMissile2</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>smallExplosion</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>hitShield1</sound>
+		<sound>hitShield2</sound>
+		<sound>hitShield3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>missiles_free</weaponArt>
+	<iconImage>missile</iconImage>
+</weaponBlueprint> -->
 
 <!-- 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -3483,7 +3714,7 @@ DO NOT remove the EnemyFix version, they shoot multiple rooms with each cooldown
 			</slot>
 		</medbay>
 		<mind power="1" room="16" start="false" img="room_mind_rk_1x1" />
-		<oxygen power="1" room="13" start="true" img="room_oxygen_21" />
+		<oxygen power="1" room="13" start="false" img="room_oxygen_21" />
 		<pilot power="2" room="8" start="true" img="room_pilot_3">
 			<slot>
 				<direction>right</direction>
@@ -3513,10 +3744,10 @@ DO NOT remove the EnemyFix version, they shoot multiple rooms with each cooldown
 	</systemList>
 	<weaponSlots>4</weaponSlots>
 	<droneSlots>2</droneSlots>
-	<weaponList missiles="10" count="4">
+	<weaponList missiles="12" count="4">
 		<weapon name="MISSILES_CLOAK_PLAYER" />
 	</weaponList>
-	<droneList drones="5" count="2">
+	<droneList drones="10" count="2">
 		<drone name="REPAIR" />
 	</droneList>
 	<health amount="25" />

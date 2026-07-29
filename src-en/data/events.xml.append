@@ -244,7 +244,7 @@ REF MV v5.5.1: <transformRace class="leech">leech_ampere</transformRace>
 </event>
 
 <event name="RKDEV">
-	<text>Testing. Other events: DJFLEET, RKSHOP, RKSHOP_SCORCH, RKSHOP_SNIPER, RKSHOP_SYLVAN, RK_DEMI, DJCOORDS, DJNOHAZARDS.</text>
+	<text>Testing. Other events: DJFLEET, RKSHOP, RKSHOP_B, RKSHOP_P, RKSHOP_S, RKSHOP_SNIPER, RKSHOP_SYLVAN, RK_DEMI, DJCOORDS, DJNOHAZARDS.</text>
 	
 	<weapon name="GATLING_ANCIENT"/>
 	<crewMember amount="1" class="unique_billy" all_skills="2">Billy</crewMember>
@@ -327,7 +327,7 @@ REF MV v5.5.1: <transformRace class="leech">leech_ampere</transformRace>
 	<removeHazards/>
 </event>
 
-<!-- Console: "ACH_LOCK ACH_BOON_RK_BAM_CREW" in ALLCAPS even if the variable is NOT CAPITALIZED!!! -->
+<!-- Console: "ACH_LOCK ACH_BOON_RK_BAM_CREW" in ALLCAPS, even if the variable is NOT CAPITALIZED!!! -->
 <event name="RESET_RK_BOONS">
 	<text>DEBUG: Re-locking all RK Judge Boons.</text>
 	<metaVariable name="prof_z_boon_rk_bam_crew" op="set" val="0"/>
@@ -425,9 +425,7 @@ REF MV v5.5.1: <transformRace class="leech">leech_ampere</transformRace>
  -->
 
 
-<!--  MV v5.2.3 COMMENTS
-Do NOT move to events_radikal or any other dedicated events file. <== OUTDATED
-/////////////////////////////////////////////////////////////////////////////////////////////////////////
+<!--  
 Clean choice-event template for copy-paste:
 
 <choice hidden="true">
@@ -438,6 +436,486 @@ Clean choice-event template for copy-paste:
 	</event>
 </choice>
  -->
+
+<!-- 
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
+*********************************************************************************************************
+				OUTSIDE OF RK SECTOR EVENTS
+				Mostly for Anti-RK content, adding lore and the risk to having RK gear.
+*********************************************************************************************************
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
+-->
+<!-- Using a switcher because loc_sector_count is dumb for S1 and S2. NOT REALLY WORKING. CONSOLES FINE THOUGH.
+ Leaving for when i try to fix this again, and just in case. -->
+<event name="RK_A_OUTSIDE_POLICE_INTRO_QUEST_START_SWITCHER">
+	<!-- <loadEventList seeded="false" first="false" generate="false"> 	generate=true needed to spawn the map marker. -->
+	<loadEventList seeded="false" first="false" generate="true">
+		<event name="RK_A_OUTSIDE_POLICE_INTRO_QUEST_START" req="rk_a_outside_police_intro_done" lvl="0" max_lvl="0"/>
+		<!-- unique="true" for beacons is only within the sector, not the run!
+		<event name="RK_A_OUTSIDE_POLICE_INTRO_QUEST_START"/> -->
+		
+		<event name="FILLER_LIST" req="rk_a_outside_police_intro_done" lvl="1"/>
+		<!-- <event name="FILLER_LIST"/> -->
+	</loadEventList>
+</event>
+
+<!-- <event name="RK_A_OUTSIDE_POLICE_INTRO_QUEST_START"> -->
+<event name="RK_A_OUTSIDE_POLICE_INTRO_QUEST_START" unique="true">
+	<!-- No beacon marker, police checks must be ambushes. TEMP FOR DEBUGGING-->
+	<!-- <beaconType id="map_icon_task" global="true">
+		<color r="255" g="255" b="140" a="1.0"/>
+		<unvisitedTooltip>RK_A POLICE INTRO</unvisitedTooltip>
+		<visitedTooltip>Explored location. Nothing left of interest.</visitedTooltip>
+		<undiscoveredTooltip>An unvisited location.</undiscoveredTooltip>
+	</beaconType> -->
+
+	<preventQuest />
+    <quest>
+        <removeNebula>true</removeNebula>
+        <nextSector>true</nextSector>
+        <aggressive>2</aggressive>
+    </quest>
+	<text>A ship with very special offensive, defensive and intelligence equipment in Elite colors is here.
+		They must be on high alert judging by how fast they hail you.</text>
+	<ship load="SHIP_RK_A_ZOLTAN_POLICE_INTRO" hostile="false"/>
+
+	<metaVariable name="rk_a_outside_police_intro_done" op="add" val="1"/>
+
+	<choice req="DJMOD_HAS_RADIKAL_GEAR" lvl="0" max_lvl="0" hidden="true" blue="false">
+		<text>You do not have any RadiKal (RK) gear at all. That might have just saved you.</text>
+		<event load="OPTION_INVALID"/>
+	</choice>
+	
+	<choice req="DJMOD_HAS_RADIKAL_GEAR" lvl="0" max_lvl="0" hidden="true" blue="false">
+		<text>Take the hail</text>
+		<event>
+			<text>"Hello citizens. Do you know anything about the RadiKals? Also known as 'RK'."</text>
+
+			<choice hidden="true">
+				<text>Do we know any radicals? I wouldn't say so.</text>
+				<event>
+					<text>"That's not quite what I mean. Then allow me to educate you on this matter of public safety.
+						
+						RK is a semi-secret group of bad people who do bad things, and incite others do the same by selling them the bad things they made.
+						You look like an upstanding citizen since you don't have anything RadiKal. Yes, we have deep-scanned your ship, twice for good measure.</text>
+					
+					<choice hidden="true">
+						<text>Whoa OK, respecting privacy much?</text>
+						<event>
+							<text>"Don't be a hipster, everybody knows 'privacy' died sometime around the early 21st century. Back to the topic.
+						
+							We are proudly part of the Anti-RadiKal Secret Service (ARKSS). We wouldn't normally tell you this, but we ne- ... could use more hands, and you look capable.
+							If you wish to ensure your own safety, or even join the good fight against them, we sell the right tools that you won't find anywhere else."</text>
+							
+							<choice hidden="true">
+								<text>Hmmm fine, let's see.</text>
+								<event>
+									<text>"Good. Don't let it fall into the wrong hands.
+										
+										And if you encounter any of that scum afterwards: do not take their hails, aim for the head, and 'May Order Prevail'."</text>
+									<store>STORE_ANTI_RADIKAL</store>
+								</event>
+							</choice>
+						</event>
+					</choice>
+				</event>
+			</choice>
+
+			<choice hidden="true">
+				<text>They went that way.</text>
+				<event>
+					<text>"Thank you for your cooperation." They immediately throw a reward package through an airlock and depart. Hopefully, by some odds there actually are RadiKals that way, or you better hope you never see this ship again.</text>
+					<autoReward level="LOW">standard_no_item</autoReward>
+					
+					<!-- <choice hidden="true">
+						<text>Continue...</text>
+						</event>
+					</choice> -->
+				</event>
+			</choice>
+
+			<choice hidden="true">
+				<text>Maybe, maybe not, but we're attacking you!</text>
+				<event>
+					<text>"Hmpf! You don't have the gear, but you must be sympathisers. Same scum, different tools. Albrecht?"
+						"Ready, sir."
+						"Deploy!"
+
+						They power up their weapons and simultaneously eject an auxiliary ship with big engines and cannons, which quickly goes some distance away to provide artillery support.
+						Whoever they are, these guys don't mess around!</text>
+					<environment type="PDS" target="player"/>
+					<ship hostile="true"/>
+					
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="COMBAT_CHECK"/>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	
+	<choice req="DJMOD_HAS_RADIKAL_GEAR" lvl="1" hidden="true" blue="false">
+		<text>You have RadiKal (RK) gear, which by definition is illegal almost everywhere.
+			Right now, that could cost you dearly, as that ship seems to be scanning it specifically!</text>
+		<event load="OPTION_INVALID"/>
+	</choice>
+
+	<choice req="DJMOD_HAS_RADIKAL_GEAR" lvl="1" hidden="true" blue="true">
+		<text>...I don't like this one bit. Attack!</text>
+		<event name="RK_A_OUTSIDE_POLICE_RK_DETECTED_ATTACK">
+			<text>You don't even have time to give the order. That ship must have been scanning you since the moment you jumped in. And they have already decided to eliminate you!
+				
+				"Judgement be passed on you, despicable Chaos sympathising terrorists. I never could find the ones directly responsible, but at least you will pay for Zeta-708T56-C Secundus's Northern Moonbase!"
+			
+			They power up their weapons (which seem tailored to destroy RK ships) and simultaneously eject an auxiliary ship with big engines and cannons, which quickly goes some distance away to provide artillery support.
+			Whoever they are, these guys don't mess around!</text>
+			<environment type="PDS" target="player"/>
+			<ship hostile="true"/>
+
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<text>A sudden explosion also makes your ears ring. They must have used some sort of combat augment on your Engines!</text>
+					<damage amount="1" system="engines" effect="all" force="true"/>
+					<damage amount="-1"/>
+					
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="COMBAT_CHECK"/>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice req="DJMOD_HAS_RADIKAL_GEAR" lvl="1" hidden="true" blue="true">
+		<text>...I don't like this one bit. Try to run!</text>
+		<event><loadEvent>RK_A_OUTSIDE_POLICE_RK_DETECTED_ATTACK</loadEvent></event>
+	</choice>
+</event>
+<ship name="SHIP_RK_A_ZOLTAN_POLICE_INTRO" auto_blueprint="RK_A_ZOLTAN_POLICE_INTRO">
+	<destroyed load="DEFEAT_RK_A_POLICE_INTRO"/>
+	<deadCrew load="DEFEAT_RK_A_POLICE_INTRO"/>
+	<crew>
+		<crewMember type="human" prop="0.10"/>
+		<crewMember type="engi" prop="0.10"/>
+		<crewMember type="zoltan_peacekeeper" prop="0.40"/>
+		<crewMember type="zoltan" prop="0.40"/>
+	</crew>
+</ship>
+
+<event name="RK_A_OUTSIDE_POLICE_NUMBER2_QUEST_START">
+	<!-- No beacon marker, police checks must be ambushes. TEMP FOR DEBUGGING-->
+	<!-- <beaconType id="map_icon_task" global="true">
+		<color r="255" g="255" b="140" a="1.0"/>
+		<unvisitedTooltip>RK_A POLICE 2</unvisitedTooltip>
+		<visitedTooltip>Explored location. Nothing left of interest.</visitedTooltip>
+		<undiscoveredTooltip>An unvisited location.</undiscoveredTooltip>
+	</beaconType> -->
+
+	<preventQuest />
+    <quest>
+        <removeNebula>true</removeNebula>
+        <nextSector>true</nextSector>
+        <aggressive>2</aggressive>
+    </quest>
+	<text>A ship with very special equipment is here, apparently on high alert judging by how fast they hail you.</text>
+	<ship load="SHIP_RK_A_ZOLTAN_POLICE_NUMBER2" hostile="false"/>
+
+	<choice req="DJMOD_HAS_RADIKAL_GEAR" lvl="0" max_lvl="0" hidden="true" blue="false">
+		<text>You do not have any RadiKal (RK) gear at all. That might have just saved you.</text>
+		<event load="OPTION_INVALID"/>
+	</choice>
+
+	<choice req="DJMOD_HAS_RADIKAL_GEAR" lvl="0" max_lvl="0" hidden="true" blue="false">
+		<text>Take the hail</text>
+		<event>
+			<text>"Citizen, have you seen any RadiKals in this sector?"</text>
+
+			<choice hidden="true">
+				<text>I don't think I have.</text>
+				<event>
+					<text>"Good."</text>
+					
+					<choice hidden="true">
+						<text>Uh, was that all?</text>
+						<event>
+							<text>"Oh, did you want something? We only sell Anti-RK equipment. Feel free to gear up, we are the only organization authorized to sell it.
+								'May Order Prevail'."</text>
+							<store>STORE_ANTI_RADIKAL_2</store>
+						</event>
+					</choice>
+				</event>
+			</choice>
+
+			<choice hidden="true">
+				<text>They went that way.</text>
+				<event>
+					<text>"Thank you for your cooperation." They immediately throw a reward package through an airlock and depart. Hopefully, by some odds there actually are RadiKals that way, or you better hope you never see this ship again.</text>
+					<autoReward level="LOW">standard_no_item</autoReward>
+					
+					<!-- <choice hidden="true">
+						<text>Continue...</text>
+						</event>
+					</choice> -->
+				</event>
+			</choice>
+
+			<choice hidden="true">
+				<text>Maybe, maybe not, but we're attacking you!</text>
+				<event>
+					<text>"Hmpf! You don't have the gear, but you must be sympathisers. Same scum, different tools. Herbert?"
+						"Ready, sir."
+						"Deploy!"
+
+						They power up their weapons and simultaneously eject an auxiliary ship with big engines and cannons, which quickly goes some distance away to provide artillery support.
+						Whoever they are, these guys don't mess around!</text>
+					<environment type="PDS" target="player"/>
+					<ship hostile="true"/>
+					
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="COMBAT_CHECK"/>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	
+	<choice req="DJMOD_HAS_RADIKAL_GEAR" lvl="1" hidden="true" blue="false">
+		<text>You have RadiKal (RK) gear, which by definition is illegal almost everywhere.
+			Right now, that could cost you dearly, as that ship seems to be scanning it specifically!</text>
+		<event load="OPTION_INVALID"/>
+	</choice>
+	<choice req="DJMOD_HAS_RADIKAL_GEAR" lvl="1" hidden="true" blue="true">
+		<text>...I don't like this one bit. Attack!</text>
+		<event name="RK_A_OUTSIDE_POLICE_NUMBER2_RK_DETECTED_ATTACK">
+			<text>You don't even have time to give the order. That ship must have been scanning you since the moment you jumped in. And they have already decided to eliminate you!
+				
+				"Judgement be passed on you, despicable Chaos sympathising terrorists. I never could find the ones directly responsible, but at least you will pay for what happend to MY squad!"
+			
+			They power up their weapons and simultaneously eject an auxiliary ship with big engines and cannons, which quickly goes some distance away to provide artillery support.
+			Whoever they are, these guys don't mess around!</text>
+			<environment type="PDS" target="player"/>
+			<ship hostile="true"/>
+
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<text>A sudden explosion also makes your ears ring. They must have used some sort of combat augment on your Engines!</text>
+					<damage amount="3" system="engines" effect="all" force="true"/>
+					<damage amount="-3"/>
+					
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="COMBAT_CHECK"/>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice req="DJMOD_HAS_RADIKAL_GEAR" lvl="1" hidden="true" blue="true">
+		<text>...I don't like this one bit. Try to run!</text>
+		<event><loadEvent>RK_A_OUTSIDE_POLICE_NUMBER2_RK_DETECTED_ATTACK</loadEvent></event>
+	</choice>
+</event>
+<ship name="SHIP_RK_A_ZOLTAN_POLICE_NUMBER2" auto_blueprint="RK_A_ZOLTAN_POLICE_NUMBER2">
+	<destroyed load="DEFEAT_RK_A_POLICE"/>
+	<deadCrew load="DEFEAT_RK_A_POLICE"/>
+	<crew>
+		<crewMember type="human_soldier" prop="0.20"/>
+		<crewMember type="engi" prop="0.20"/>
+		<crewMember type="zoltan_peacekeeper" prop="0.40"/>
+		<crewMember type="zoltan" prop="0.20"/>
+	</crew>
+</ship>
+
+<event name="RK_A_OUTSIDE_POLICE_NUMBER3_QUEST_START">
+	<!-- No beacon marker, police checks must be ambushes. TEMP FOR DEBUGGING-->
+	<!-- <beaconType id="map_icon_task" global="true">
+		<color r="255" g="255" b="140" a="1.0"/>
+		<unvisitedTooltip>RK_A POLICE 3</unvisitedTooltip>
+		<visitedTooltip>Explored location. Nothing left of interest.</visitedTooltip>
+		<undiscoveredTooltip>An unvisited location.</undiscoveredTooltip>
+	</beaconType> -->
+
+	<preventQuest />
+    <quest>
+        <removeNebula>true</removeNebula>
+        <nextSector>true</nextSector>
+        <aggressive>2</aggressive>
+    </quest>
+	<text>A ship with very special equipment is here, apparently on high alert judging by how fast they hail you.</text>
+	<ship load="SHIP_RK_A_ZOLTAN_POLICE_NUMBER3" hostile="false"/>
+	
+	<choice req="DJMOD_HAS_RADIKAL_GEAR" lvl="0" max_lvl="0" hidden="true" blue="false">
+		<text>You do not have any RadiKal (RK) gear at all. That might have just saved you.</text>
+		<event load="OPTION_INVALID"/>
+	</choice>
+
+	<choice req="DJMOD_HAS_RADIKAL_GEAR" lvl="0" max_lvl="0" hidden="true" blue="false">
+		<text>Take the hail</text>
+		<event>
+			<text>"You there. Where are the RK hiding in this sector?"</text>
+			
+			<choice hidden="true">
+				<text>I don't know</text>
+				<event>
+					<text>"Yes. Right. Nobody ever does. Just remember, the A-RK.S.S. is ever watchful.
+						Why don't you prove your innocence by buying some of this exclusive Anti-RK equipment, hmm?"</text>
+					
+					<choice hidden="true">
+						<text>Worth a look.</text>
+						<event>
+							<text>"Good. 'May Order Prevail'."</text>
+							<store>STORE_ANTI_RADIKAL_2</store>
+						</event>
+					</choice>
+				</event>
+			</choice>
+
+			<choice hidden="true">
+				<text>They went that way.</text>
+				<event>
+					<text>"Thank you for your cooperation." They immediately throw a reward package through an airlock and depart. Hopefully, by some odds there actually are RadiKals that way, or you better hope you never see this ship again.</text>
+					<autoReward level="LOW">standard_no_item</autoReward>
+					
+					<!-- <choice hidden="true">
+						<text>Continue...</text>
+						</event>
+					</choice> -->
+				</event>
+			</choice>
+
+			<choice hidden="true">
+				<text>Never mind them, we're attacking you!</text>
+				<event>
+					<text>"Hmpf! You don't have the gear, but you must be sympathisers. Same scum, different tools. Mordred?"
+						"Ready, sir."
+						"Deploy!"
+
+						They power up their weapons and simultaneously eject an auxiliary ship with big engines and cannons, which quickly goes some distance away to provide artillery support.
+						Whoever they are, these guys don't mess around!</text>
+					<environment type="PDS" target="player"/>
+					<ship hostile="true"/>
+					
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="COMBAT_CHECK"/>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	
+	<choice req="DJMOD_HAS_RADIKAL_GEAR" lvl="1" hidden="true" blue="false">
+		<text>You have RadiKal (RK) gear, which by definition is illegal almost everywhere.
+			Right now, that could cost you dearly, as that ship seems to be scanning it specifically!</text>
+		<event load="OPTION_INVALID"/>
+	</choice>
+	<choice req="DJMOD_HAS_RADIKAL_GEAR" lvl="1" hidden="true" blue="true">
+		<text>...I don't like this one bit. Attack!</text>
+		<event name="RK_A_OUTSIDE_POLICE_NUMBER3_RK_DETECTED_ATTACK">
+			<text>You don't even have time to give the order. That ship must have been scanning you since the moment you jumped in. And they have already decided to eliminate you!
+				
+				"Judgement be passed on you, despicable Chaos sympathising terrorists. I never could find the ones directly responsible, but at least you will pay for MY FAMILY YOU SICK FU-"
+			
+			You cut comms as they power up their weapons and simultaneously eject an auxiliary ship with big engines and cannons, which quickly goes some distance away to provide artillery support.
+			Whoever they are, these guys don't mess around!</text>
+			<environment type="PDS" target="player"/>
+			<ship hostile="true"/>
+			
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<text>A sudden explosion also makes your ears ring. They must have used some sort of combat augment on your Engines!</text>
+					<damage amount="5" system="engines" effect="all" force="true"/>
+					<damage amount="-5"/>
+					
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="COMBAT_CHECK"/>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice req="DJMOD_HAS_RADIKAL_GEAR" lvl="1" hidden="true" blue="true">
+		<text>...I don't like this one bit. Try to run!</text>
+		<event><loadEvent>RK_A_OUTSIDE_POLICE_NUMBER3_RK_DETECTED_ATTACK</loadEvent></event>
+	</choice>
+</event>
+<ship name="SHIP_RK_A_ZOLTAN_POLICE_NUMBER3" auto_blueprint="RK_A_ZOLTAN_POLICE_NUMBER3">
+	<destroyed load="DEFEAT_RK_A_POLICE"/>
+	<deadCrew load="DEFEAT_RK_A_POLICE"/>
+	<crew>
+		<crewMember type="human_soldier" prop="0.20"/>
+		<crewMember type="engi_defender" prop="0.20"/>
+		<crewMember type="orchid_praetor" prop="0.20"/>
+		<crewMember type="zoltan_peacekeeper" prop="0.40"/>
+	</crew>
+</ship>
+
+<event name="DEFEAT_RK_A_POLICE_INTRO">
+	<text>As soon as the ship is defeated, your scanners detect multiple micro-charges detonating inside it, ruining most of the salvage. Whatever control freak supervises these guys doesn't leave much to chance.
+		
+		With the auxiliary ship way out of your range and still firing, you grab some meager scrap.</text>
+	<autoReward level="LOW">scrap_only</autoReward>
+	
+	<choice hidden="true">
+		<text>What a punishing fight. Is that the real cost of using RadiKal gear? No matter, take a quick look around, then let's move!</text>
+		<event load="DEFEAT_RK_A_POLICE_LOOT_CHANCE"/>
+	</choice>
+	<!-- <choice hidden="true">
+		<text>What a punishing fight. Is that the real cost of using RadiKal gear? No matter, let's move!</text>
+		<event/>
+	</choice> -->
+</event>
+<event name="DEFEAT_RK_A_POLICE">
+	<text>As soon as the ship is defeated, your scanners detect multiple micro-charges detonating inside it, ruining most of the salvage. Whatever control freak supervises these guys doesn't leave much to chance.
+		
+		With the auxiliary ship way out of your range and still firing, you grab some meager scrap.</text>
+	<autoReward level="LOW">scrap_only</autoReward>
+	<!-- <weapon name="RK_A_LASER_1"/> -->
+	
+	<choice hidden="true">
+		<text>Just the cost of being outlaws. Take a quick look around, then let's move!</text>
+		<event load="DEFEAT_RK_A_POLICE_LOOT_CHANCE"/>
+	</choice>
+	<!-- <choice hidden="true">
+		<text>Just the cost of being outlaws. Let's move!</text>
+		<event/>
+	</choice> -->
+</event>
+
+<eventList name="DEFEAT_RK_A_POLICE_LOOT_CHANCE">
+    <event>
+        <text>There is nothing worth taking left.
+			It's time to jump away from the artillery fire.</text>
+        <!-- <choice hidden="true">
+            <text>Continue...</text>
+            <event load="MORALITY_REMOVE_ZOLTAN"/>
+        </choice> -->
+    </event>
+    <event>
+        <text>You notice a weapon that's somehow still intact and bring it onboard.
+			It's time to jump away from the artillery fire.</text>
+		<weapon name="RK_A_LASER_1"/>
+        <!-- <choice hidden="true">
+            <text>Continue...</text>
+            <event load="MORALITY_REMOVE_ZOLTAN"/>
+        </choice> -->
+    </event>
+    <event>
+        <text>You notice a weapon that's somehow still intact and bring it onboard.
+			It's time to jump away from the artillery fire.</text>
+		<weapon name="RK_A_MISSLAUNCHER"/>
+        <!-- <choice hidden="true">
+            <text>Continue...</text>
+            <event load="MORALITY_REMOVE_ZOLTAN"/>
+        </choice> -->
+    </event>
+</eventList>
 
 <!-- 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -481,13 +959,15 @@ Clean choice-event template for copy-paste:
 If used in eventList, list must have a non-unique option!-->
 <FTL>
 <event name="RADIKAL_ENSLAVED">
-	<preventQuest/>
+	<!-- <preventQuest/> -->
 	<text>Slavers are quite comfortably installed in this sector, in great part due to the lack of regulation. You stumble upon one.</text>
 	<ship load="SHIP_SLAVER_ALL" hostile="false"/>
+	
 	<choice>
 		<text>See who they might have for sale.</text>
 		<event>
 			<text>"Feds here? You're surely in need of some muscle, and this might just be your lucky day! We have an elite warrior to do the heavy lifting for you, greatly discounted because we must trade fast and leave for... reasons. What say you?" You notice that the discount is pretty solid indeed, maybe too good.</text> 
+			
 			<choice hidden="false">
 				<text>Purchase the elite slave.</text>
 				<event>
@@ -502,6 +982,7 @@ If used in eventList, list must have a non-unique option!-->
 					</choice>
 				</event>
 			</choice>
+			
 			<choice hidden="true">
 				<text>Decline.</text>
 				<event/>
@@ -514,6 +995,7 @@ If used in eventList, list must have a non-unique option!-->
 		<event>
 			<text>Slavery is despicable! You prepare for combat, knowing the elite slave will probably not survive it.</text>
 			<ship hostile="true"/>
+			
 			<choice hidden="true">
 				<text>Continue...</text>
 				<event load="COMBAT_CHECK"/>
@@ -526,6 +1008,7 @@ If used in eventList, list must have a non-unique option!-->
 		<event>
 			<text>Another ship comes in and buys the slave shortly afterwards. Then it starts going up in flames. Maybe you chose wisely.
 			You have some time to yourself.</text>
+			
 			<choice>
 				<text>Do something onboard the ship.</text>
 				<event load="STORAGE_CHECK"/>
@@ -543,13 +1026,16 @@ If used in eventList, list must have a non-unique option!-->
 	<event load="RADIKAL_ENSLAVED_GOODEND_DUSKBRINGER"/>
 	<event load="RADIKAL_ENSLAVED_GOODEND_GOUL"/>
 	<event load="RADIKAL_ENSLAVED_GOODEND_MANTIS"/>
-	<!-- Don't give rk_weaponlike, half crew slot isn't on the same level -->
+	<!-- Give 2 Vexos WORKS -->
+	<event load="RADIKAL_ENSLAVED_GOODEND_RK_WEAPONLIKE"/>
 	<event load="RADIKAL_ENSLAVED_GOODEND_RK_FIREGHOST"/>
-	
+
 	<event load="RADIKAL_ENSLAVED_BADEND_LOSTSUN"/>
 	<event load="RADIKAL_ENSLAVED_BADEND_DUSKBRINGER"/>
 	<event load="RADIKAL_ENSLAVED_BADEND_GOUL"/>
 	<event load="RADIKAL_ENSLAVED_BADEND_MANTIS"/>
+
+	<event load="RADIKAL_ENSLAVED_BADEND_RK_WEAPONLIKE"/>
 	<event load="RADIKAL_ENSLAVED_BADEND_RK_FIREGHOST"/>
 </eventList>
 
@@ -580,6 +1066,14 @@ If used in eventList, list must have a non-unique option!-->
 <event name="RADIKAL_ENSLAVED_GOODEND_MANTIS">
 	<text>They bring you the slave and remove his restraints, apparently relieved to get rid of him. "I wasn't stuck in there with them. They were stuck in there with me." says the freshly freed troublesome slave. You diplomatically nod and welcome them aboard.</text> 
 	<crewMember amount="1" combat="2" class="mantis_bishop"/>
+	<choice>
+		<text>I think they'll fit right in.</text>
+		<event load="REPUTATION_UPDATE_SLAVER"/>
+	</choice>
+</event>
+<event name="RADIKAL_ENSLAVED_GOODEND_RK_WEAPONLIKE">
+	<text>They bring you the slave (actually a pair of them) and remove their restraints, apparently relieved to get rid of him. "Drive." is all they say. You diplomatically nod and welcome them aboard.</text> 
+	<crewMember amount="2" combat="2" class="rk_weaponlike"/>
 	<choice>
 		<text>I think they'll fit right in.</text>
 		<event load="REPUTATION_UPDATE_SLAVER"/>
@@ -650,6 +1144,20 @@ If used in eventList, list must have a non-unique option!-->
 		<event load="REPUTATION_UPDATE_SLAVER"/>
 	</choice>
 </event>
+<event name="RADIKAL_ENSLAVED_BADEND_RK_WEAPONLIKE">
+	<text>They bring you the slave (actually a pair of them) and remove their restraints so quickly that you haven't even transferred all the scrap yet. Unfortunately the troublemakers don't seem to like the way some of your crew look at them, and start blasting! 
+	You interrupt the scrap transfer and watch the slavers immediately jump away, leaving you to deal with him.</text>
+	<item_modify>
+		<item type="scrap" min="10" max="20"/>
+	</item_modify>
+	<instantEscape/>
+	
+	<boarders min="2" max="2" class="rk_weaponlike"/>
+	<choice>
+		<text>So that's why this was so cheap.</text>
+		<event load="REPUTATION_UPDATE_SLAVER"/>
+	</choice>
+</event>
 <event name="RADIKAL_ENSLAVED_BADEND_RK_FIREGHOST">
 	<text>They bring you the slave and remove his restraints so quickly that you haven't even transferred all the scrap yet. Unfortunately the troublemaker doesn't seem to like the way some of your crew look at him, and starts punching! 
 	You interrupt the scrap transfer and watch the slavers immediately jump away, leaving you to deal with him.</text>
@@ -667,7 +1175,7 @@ If used in eventList, list must have a non-unique option!-->
 </FTL>
 
 <!--
-		BUYERS
+		BUYERS - MAX 2 BEACONS, else could crash because uniques.
 	Events that can remove gear and add resources.
 -->
 <eventList name="RK_GEAR_BUYERS">
@@ -677,7 +1185,7 @@ If used in eventList, list must have a non-unique option!-->
 
 <event name="RK_GEAR_BUYER_ROCKMAN" unique="true">
 <!-- <event name="RK_GEAR_BUYER_ROCKMAN"> -->
-	<preventQuest/>
+	<!-- <preventQuest/> -->
 	<text>You notice a Theocracy ship nearby, they immediately hail you.</text>
 	<!-- <ship load="SHIP_ROCK_ESCORT_LARGE" hostile="false"/> Has a whole questline triggering mid-fight... -->
 	<ship load="SHIP_ROCK_ELITE_GENERIC" hostile="false"/>
@@ -915,7 +1423,7 @@ If used in eventList, list must have a non-unique option!-->
 </event>
 
 <event name="RK_GEAR_BUYER_ZOLTAN" unique="true">
-	<preventQuest/>
+	<!-- <preventQuest/> -->
 	<text>Another ship, seemingly foreign, arrives at the beacon shortly after you do, looking uneasy. You could hail them and ask what's going on.</text>
 	<ship load="SHIP_RK_GEAR_BUYER_ZOLTAN" hostile="false"/>
 	<choice hidden="true">
@@ -1445,21 +1953,23 @@ About 900 lines, minimize if not interested. -->
 	<text>As soon as you get here, you notice that you're surrounded by a small Zoltan fleet intercepting every ship passing through here. An urgent hail from a heavily armed Zoltan Elite comes through. 
 		Needless to say, it would look suspicious not to take the hail.
 	</text>
-	<ship load="SHIP_ZOLTAN_POLICE_RK" hostile="false"/>
+	<ship load="SHIP_RKS_ZOLTAN_POLICE" hostile="false"/>
 	<!-- <customFleet right="false" firing="false" autoDarkening="true">CUSTOM_FLEET_ZOLTAN</customFleet> 	Also CRASH below <text> -->
 	<!-- <customFleet right="false" firing="true" autoDarkening="true">CUSTOM_FLEET_ENGINEER</customFleet> 	Also CRASH below <text> -->
 	
 	<choice hidden="true">
 		<text>Answer it.</text>
-		<event>
+		<event name="ZOLTAN_POLICECHECK_RK_MENU">
 			<text>"As you may know if you're not a brainless savage, this sector has been providing armament to the Duskbringers. We have recently started tackling this problem.
-				Like any vessel in transit in a lawless armament-manufacturing area like this one, you will be subjected to the mandatory thorough search for said armament. The fight against illegal weapon proliferation starts with you. Do not resist."
+				Like any vessel in transit in a lawless armament-manufacturing area like this one, you will be subjected to the mandatory thorough search for said armament.
+				
+				The fight against illegal weapon proliferation starts with you. Do not resist."
 				
 				The Zoltan Ministry considers this area a very serious issue. If they find any RadiKal equipment a fine must be paid, based on how many you're carrying.
 			</text>
 
 			<choice req="zoltan_peacekeeper" hidden="true">
-				<text>(Zoltan Peacekeeper) We were sent to help you.</text>
+				<text>(Zoltan Peacekeeper) The Ministry sent us.</text>
 				<event>
 					<text>"At last, the reinforcements. Here is your warrant. You'll find criminals in this sector, usually hiding in hazardous beacons. Seize their illegal gear and drop it off at the station. The coordinates are on the back."
 						
@@ -1477,9 +1987,46 @@ About 900 lines, minimize if not interested. -->
 					</choice>
 				</event>
 			</choice>
-
 			<choice req="human_soldier" hidden="true">
-				<text>(Human Soldier) We were sent to help you.</text>
+				<text>(Human Soldier) The Federation sends their help.</text>
+				<event>
+					<text>"At last, the reinforcements. Here is your warrant. You'll find criminals in this sector, usually hiding in hazardous beacons. Seize their illegal gear and drop it off at the station. The coordinates are on the back."
+						
+						It's safe to assume that not every "criminal" will relinquish their RK gear without a fight, but this could greatly benefit your mission.</text>
+
+					<augment name="RKS_POLICE_WARRANT"/>
+					
+					<choice>
+						<text>Do something onboard the ship.</text>
+						<event load="STORAGE_CHECK"/>
+					</choice>
+					<choice>
+						<text>Do nothing.</text>
+						<event/>
+					</choice>
+				</event>
+			</choice>
+			<choice req="engi_defender" hidden="true">
+				<text>(Engi Defender) For the Harmony's prosperity, let us help.</text>
+				<event>
+					<text>"At last, the reinforcements. Here is your warrant. You'll find criminals in this sector, usually hiding in hazardous beacons. Seize their illegal gear and drop it off at the station. The coordinates are on the back."
+						
+						It's safe to assume that not every "criminal" will relinquish their RK gear without a fight, but this could greatly benefit your mission.</text>
+
+					<augment name="RKS_POLICE_WARRANT"/>
+					
+					<choice>
+						<text>Do something onboard the ship.</text>
+						<event load="STORAGE_CHECK"/>
+					</choice>
+					<choice>
+						<text>Do nothing.</text>
+						<event/>
+					</choice>
+				</event>
+			</choice>
+			<choice req="orchid_praetor" hidden="true">
+				<text>(Orchid Praetor) Gesture "We come to help".</text>
 				<event>
 					<text>"At last, the reinforcements. Here is your warrant. You'll find criminals in this sector, usually hiding in hazardous beacons. Seize their illegal gear and drop it off at the station. The coordinates are on the back."
 						
@@ -1507,8 +2054,7 @@ About 900 lines, minimize if not interested. -->
 				<text>Ask what happens if you refuse.</text>
 				<event>
 					<text>"Thanks to the merciful recent amendment 3473-B delta, captains may choose to participate in the funding of control vessels like this one, and report to the closest Zoltan police station within 72 cycles instead of immediately submitting to the search."
-						Even though you have no intention of taking that detour, they would leave you alone for now.
-					</text>
+						Even though you have no intention of taking that detour, they would leave you alone for now.</text>
 					
 					<choice>
 						<text>Pay up.</text>
@@ -1532,9 +2078,8 @@ About 900 lines, minimize if not interested. -->
 	<choice hidden="true">
 		<text>Try to ignore it and just pass through.</text>
 		<event>
-			<text>"You admission of guilt in facilitating terrorist operations has been recorded and filed for the trial of any surviving spouse(s) and/or heir(s). You will not escape the law."
-				Sounds like you'll have to fight your way through. You wonder whether having an insider in your crew could have changed this outcome.
-			</text>
+			<text>"Your admission of guilt in facilitating terrorist operations has been recorded and filed for the trial of any surviving spouse(s) and/or heir(s). You will not escape the law."
+				Sounds like you'll have to fight your way through. You wonder whether having an insider in your crew could have changed this outcome.</text>
 			<ship hostile="true"/>
 			
 			<choice hidden="true">
@@ -1546,7 +2091,8 @@ About 900 lines, minimize if not interested. -->
 	</choice>
 		
 </event>
-<ship name="SHIP_ZOLTAN_POLICE_RK" auto_blueprint="LIST_SHIPS_ZOLTAN_ELITE_GENERIC">
+<!-- <ship name="SHIP_RKS_ZOLTAN_POLICE" auto_blueprint="LIST_SHIPS_ZOLTAN_ELITE_GENERIC"> -->
+<ship name="SHIP_RKS_ZOLTAN_POLICE" auto_blueprint="RKS_ZOLTAN_POLICE">
 	<destroyed load="DEFEAT_ZOLTAN_ELITE"/>
 	<deadCrew load="DEFEAT_ZOLTAN_ELITE"/>
 	<!-- THIS CRASHES THE GAME upon JUMPING TO THE BEACON! Maybe because of the "count" ?
@@ -1588,6 +2134,7 @@ About 900 lines, minimize if not interested. -->
 
 <event name="ZOLTAN_POLICECHECK_RK_FINED">
 	<text>Maybe you forgot you were carrying RadiKal gear, or maybe you just didn't find a way to avoid the search. Regardless, they are now fining you for each piece!</text>
+	
 	<choice req="DJMOD_SUM_RADIKAL_EQUIPMENT" lvl="1" max_lvl="1" hidden="true">
 		<text>Let them calculate your total fine.</text>
 		<event>
@@ -1599,6 +2146,7 @@ About 900 lines, minimize if not interested. -->
 			<quest event="ZOLTAN_POLICESTATION_RK"/>
 		</event>
 	</choice>
+	
 	<!-- From here, unlocks police station quest. MAKE THIS START AT ... one piece!? -->
 	<choice req="DJMOD_SUM_RADIKAL_EQUIPMENT" lvl="2" max_lvl="2" hidden="true">
 		<text>Let them calculate your total fine.</text>
@@ -1613,6 +2161,7 @@ About 900 lines, minimize if not interested. -->
 			<quest event="ZOLTAN_POLICESTATION_RK"/>
 		</event>
 	</choice>
+	
 	<choice req="DJMOD_SUM_RADIKAL_EQUIPMENT" lvl="3" max_lvl="3" hidden="true">
 		<text>Let them calculate your total fine.</text>
 		<event>
@@ -1627,12 +2176,12 @@ About 900 lines, minimize if not interested. -->
 			<quest event="ZOLTAN_POLICESTATION_RK"/>
 		</event>
 	</choice>
+	
 	<choice req="DJMOD_SUM_RADIKAL_EQUIPMENT" lvl="4" hidden="true">
 		<text>Let them calculate your total fine.</text>
 		<event>
 			<text>"AT LEAST FOUR illegal pieces of gear! What th-... I do not even wish to know. What a horrible person you must be. Luckily for you, this is the maximum fine stipulated in the applicable regulation. I suppose nobody foresaw that anyone would make themselves any more of a wretched menace to society than that."
-				Supposedly you can get some of your scrap back by surrendering your illegal gear at the Police Station, but somehow you doubt that. It might be worth it to pay them a visit regardless.
-			</text>
+				Supposedly you can get some of your scrap back by surrendering your illegal gear at the Police Station, but somehow you doubt that. It might be worth it to pay them a visit regardless.</text>
 			<item_modify steal="true">
 				<item type="scrap" min="-60" max="-60"/>
 			</item_modify>
@@ -1650,8 +2199,10 @@ About 900 lines, minimize if not interested. -->
 		<text>Surprise headshot that nosy lightbulb. (Risky)</text>
 		<event>
 			<text>Quickly but accurately aiming through the hardlight, you splatter the chief inspector with your blaster, right before taking cover for the explosion! 
-			Very satisfying ... but can you deal with the rest of them?</text>
+			Very satisfying, and his badge will sell for some scrap... but can you deal with the rest of the squad?</text>
 			<ship hostile="true"/>
+			<!-- Can't remember why, but DO NOT MAKE IT MORE THAN 6 MAX -->
+			<autoReward level="low">scrap_only</autoReward>
 			<boarders min="4" max="6" class="zoltan_peacekeeper"/>
 			
 			<choice>
@@ -2404,207 +2955,9 @@ Empty beacons
 				QUESTS (move to sector file eventually)
 *********************************************************************************************************
 *********************************************************************************************************
- -->
-<FTL>
-<!-- <event name="RK_QUEST_LAB_BAM" unique="true">
-	<preventQuest/>
-	<preventFleet/>
-	<quest>
-		<nebulaBeacon>false</nebulaBeacon>
-		<aggressive>2</aggressive>
-	</quest>
-	<beaconType id="map_icon_radikal_bam" global="true">
-		<color r="150" g="150" b="150" a="1.0"/>
-		<unvisitedTooltip>You were told you can get great RadiKal Bam gear at this beacon, if you can prove you're a customer.</unvisitedTooltip>
-	</beaconType>
+-->
 
-	<text>[PLACEHOLDER QUEST] There is no ship here but someone from the nearby planet is hailing you. "You who dare come here, are you one of us RadiKals?"</text>
-	<img planet="PLANET_RINGS"/>
-	
-	<choice req="DJMOD_HAS_RADIKAL_GEAR" hidden="true">
-		<text>(any piece of RK gear) Yes</text>
-		<event>
-			<text>You receive a delivery. "Good. Do you support the Bam?"</text>
-			<autoReward level="MED">standard</autoReward>
-			
-			<choice req="DJMOD_HAS_RADIKAL_BAM_GEAR" hidden="true">
-				<text>(RK Bam equipment) Yes</text>
-				<event>
-					<text>You receive another, larger delivery and a very rare augment. "Excellent. Hit hard, homie."
-					You would have asked for an explanation but they've blocked your hails. That went well enough overall.</text>
-					<autoReward level="HIGH">stuff</autoReward>
-					
-					<store>STORE_RADIKAL_BAM</store>
-
-					<choice>
-						<text>Do something onboard the ship.</text>
-						<event load="STORAGE_CHECK"/>
-					</choice>
-					<choice>
-						<text>Do nothing.</text>
-						<event/>
-					</choice>
-				</event>
-			</choice>
-
-			<choice req="DJMOD_HAS_RADIKAL_BAM_GEAR" lvl="0" max_lvl="0" hidden="true" blue="false">
-				<text>You do not have any RK Bam gear.</text>
-				<event load="OPTION_INVALID"/>
-			</choice>
-			
-			<choice hidden="true">
-				<text>No</text>
-				<event>
-					<text>"Then move along." Your hails are now blocked.</text>
-					
-					<choice>
-						<text>Do something onboard the ship.</text>
-						<event load="STORAGE_CHECK"/>
-					</choice>
-					<choice>
-						<text>Do nothing.</text>
-						<event/>
-					</choice>
-				</event>
-			</choice>
-		</event>
-	</choice>
-	
-	<choice hidden="true">
-		<text>Uhm... I don't know, maybe?</text>
-		<event>
-			<text>Your ship soon takes damage from a source you cannot identify. "Begone, tourist. You had been warned."</text>
-			<damage amount="3" system="room" effect="breach"/>
-			
-			<choice>
-				<text>Do something onboard the ship.</text>
-				<event load="STORAGE_CHECK"/>
-			</choice>
-			<choice>
-				<text>Do nothing.</text>
-				<event/>
-			</choice>
-		</event>
-	</choice>
-	
-	<choice hidden="true">
-		<text>No. Sorry for the intrusion. We're leaving.</text>
-		<event>
-			<text>There is no answer. You figure you didn't give the worst possible answer but it's still best not to stick around.</text>
-			
-			<choice>
-				<text>Do something onboard the ship.</text>
-				<event load="STORAGE_CHECK"/>
-			</choice>
-			<choice>
-				<text>Do nothing.</text>
-				<event/>
-			</choice>
-		</event>
-	</choice>
-</event> -->
-
-<event name="RK_QUEST_LAB_PUNK" unique="true">
-	<preventQuest/>
-	<preventFleet/>
-	<quest>
-		<nebulaBeacon>false</nebulaBeacon>
-		<aggressive>2</aggressive>
-	</quest>
-	<beaconType id="map_icon_radikal_punk" global="true">
-		<color r="255" g="150" b="255" a="1.0"/>
-		<unvisitedTooltip>You were told you can get great RadiKal Punk gear at this beacon, if you can prove you're a customer.</unvisitedTooltip>
-	</beaconType>
-
-	<text>[PLACEHOLDER QUEST] There is no ship here but someone from the nearby planet is hailing you. "You who dare come here, are you one of us RadiKals?"</text>
-	<img planet="PLANET_WATER"/>
-	
-	<choice req="DJMOD_HAS_RADIKAL_GEAR" hidden="true">
-		<text>(any piece of RK gear) Yes</text>
-		<event>
-			<text>You receive a delivery. "Good. Do you support the Punk?"</text>
-			<autoReward level="MED">standard</autoReward>
-			
-			<choice req="DJMOD_HAS_RADIKAL_PUNK_GEAR" hidden="true">
-				<text>(RK Punk equipment) Yes</text>
-				<event>
-					<text>You receive another, larger delivery and a very rare augment. "Excellent. Stay smart, captain."
-					You would have asked for an explanation but they've blocked your hails. That went well enough overall.</text>
-					<autoReward level="HIGH">stuff</autoReward>
-					
-					<store>STORE_RADIKAL_PUNK</store>
-					
-					<choice>
-						<text>Do something onboard the ship.</text>
-						<event load="STORAGE_CHECK"/>
-					</choice>
-					<choice>
-						<text>Do nothing.</text>
-						<event/>
-					</choice>
-				</event>
-			</choice>
-
-			<choice req="DJMOD_HAS_RADIKAL_PUNK_GEAR" lvl="0" max_lvl="0" hidden="true" blue="false">
-				<text>You do not have any RK Punk gear.</text>
-				<event load="OPTION_INVALID"/>
-			</choice>
-			
-			<choice hidden="true">
-				<text>No</text>
-				<event>
-					<text>"Then move along." Your hails are now blocked.</text>
-					
-					<choice>
-						<text>Do something onboard the ship.</text>
-						<event load="STORAGE_CHECK"/>
-					</choice>
-					<choice>
-						<text>Do nothing.</text>
-						<event/>
-					</choice>
-				</event>
-			</choice>
-		</event>
-	</choice>
-	
-	<choice hidden="true">
-		<text>Uhm... I don't know, maybe?</text>
-		<event>
-			<text>Your ship soon takes damage from a source you cannot identify. "Begone, tourist. You had been warned."</text>
-			<damage amount="2" system="room" effect="all"/>
-			
-			<choice>
-				<text>Do something onboard the ship.</text>
-				<event load="STORAGE_CHECK"/>
-			</choice>
-			<choice>
-				<text>Do nothing.</text>
-				<event/>
-			</choice>
-		</event>
-	</choice>
-	
-	<choice hidden="true">
-		<text>No. Sorry for the intrusion. We're leaving.</text>
-		<event>
-			<text>There is no answer. You figure you didn't give the worst possible answer but it's still best not to stick around.</text>
-			
-			<choice>
-				<text>Do something onboard the ship.</text>
-				<event load="STORAGE_CHECK"/>
-			</choice>
-			<choice>
-				<text>Do nothing.</text>
-				<event/>
-			</choice>
-		</event>
-	</choice>
-</event>
-
-</FTL>
-
-<!-- Add an event based on this, free upgrade reward.
+<!-- Add an event based on this, upgrade reward.
 <upgrade amount="2" system="weapons"/> -->
 
 <!-- Crash WAS from here. All events of the chain were crashless when consoled, so _LOADER technique once again fixed.
@@ -2831,7 +3184,7 @@ REFS MV v5.5.1:
 
 		<choice hidden="true">
 			<text>Time to leave before they change their minds.</text>
-			<event load="MORALITY_REMOVE_GENERAL"/>
+			<event load="RK_MORALITY_REMOVE_GENERAL_DOUBLE"/>
 		</choice>
 	</destroyed>
 	<deadCrew>
@@ -2849,7 +3202,7 @@ REFS MV v5.5.1:
 
 		<choice hidden="true">
 			<text>Time to leave before they change their minds.</text>
-			<event load="MORALITY_REMOVE_GENERAL"/>
+			<event load="RK_MORALITY_REMOVE_GENERAL_DOUBLE"/>
 		</choice>
 	</deadCrew>
 	<!-- <crew>
