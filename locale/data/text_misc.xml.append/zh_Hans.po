@@ -1,16 +1,9 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-07-22 17:36+0000\n"
-"Last-Translator: 土豆老年人 <2685455659@qq.com>\n"
-"Language-Team: Chinese (Simplified Han script) <https://weblate.hyperq.be/"
-"projects/radikal-sector/datatext_miscxmlappend/zh_Hans/>\n"
-"Language: zh_Hans\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.17.1\n"
 
 #: src-en/data/text_misc.xml.append:22
 msgid "data/text_misc.xml.append$//text[@name=\"map_icon_rks_defromorius\"]"
@@ -66,9 +59,7 @@ msgstr "品质印章：“一发击碎联邦隐形舰的隐形系统！之后轻
 
 #: src-en/data/text_misc.xml.append:57
 msgid "data/text_misc.xml.append$//text[@name=\"RK_lore_RK_HEAVY_POPPER_2\"]"
-msgstr ""
-"品质印章：“网红‘BL2Forever420’对她数以百万计的粉丝说‘与爆裂激光的友谊已经结束"
-"’！”"
+msgstr "品质印章：“网红‘BL2Forever420’对她数以百万计的粉丝说‘与爆裂激光的友谊已经结束’！”"
 
 #: src-en/data/text_misc.xml.append:58
 msgid "data/text_misc.xml.append$//text[@name=\"RK_lore_RK_HEAVY_POPPER_3\"]"
@@ -76,9 +67,7 @@ msgstr "品质印章：“军阀们人手一个，用来表明他们‘是认真
 
 #: src-en/data/text_misc.xml.append:59
 msgid "data/text_misc.xml.append$//text[@name=\"lore_RK_UNLOADER\"]"
-msgstr ""
-"品质印章：“摧毁了所有缺乏强力防御无人机且不愿配合的测试飞船！以及所有用户的财"
-"务状况。”"
+msgstr "品质印章：“摧毁了所有缺乏强力防御无人机且不愿配合的测试飞船！以及所有用户的财务状况。”"
 
 #: src-en/data/text_misc.xml.append:61
 msgid ""
@@ -91,9 +80,7 @@ msgstr "品质印章：“在当局试图解除杀手李的武器时力挽狂澜
 
 #: src-en/data/text_misc.xml.append:63
 msgid "data/text_misc.xml.append$//text[@name=\"lore_RK_KILLALL_BEAM\"]"
-msgstr ""
-"品质印章：“外包的测试舰长们报告了无数的击杀！但兵变夺去了他们中 89% 的人的生"
-"命。”"
+msgstr "品质印章：“外包的测试舰长们报告了无数的击杀！但兵变夺去了他们中 89% 的人的生命。”"
 
 #: src-en/data/text_misc.xml.append:64
 msgid "data/text_misc.xml.append$//text[@name=\"lore_RK_RAIN_OF_ION\"]"
@@ -110,9 +97,7 @@ msgstr "品质印章：“帮助被通缉的奴隶贩子避免了窒息，并对
 #: src-en/data/text_misc.xml.append:68
 msgid ""
 "data/text_misc.xml.append$//text[@name=\"RK_lore_RK_OXY_FIREFILL_MISSILES\"]"
-msgstr ""
-"品质印章：“许多人宣称这是‘滔天战争罪行’。而其他人——主要是岩石族——则与他们的那"
-"一位喜结连理！”"
+msgstr "品质印章：“许多人宣称这是‘滔天战争罪行’。而其他人——主要是岩石族——则与他们的那一位喜结连理！”"
 
 #: src-en/data/text_misc.xml.append:69
 msgid "data/text_misc.xml.append$//text[@name=\"RK_lore_RK_FOCUS_FIRE\"]"
@@ -125,3 +110,11 @@ msgstr "品质印章：“以液化的精英兰花为燃料！烧毁了魂灵族
 #: src-en/data/text_misc.xml.append:71
 msgid "data/text_misc.xml.append$//text[@name=\"RK_lore_DJMOD_LASER_BPS\"]"
 msgstr "品质印章：“通过消灭每个EACH自然与非自然派系的一艘有人飞船，展示 RK 的性能”"
+
+#: src-en/data/text_misc.xml.append:73
+msgid "data/text_misc.xml.append$//text[@name=\"lore_RK_A_HULL_DAMAGE\"]"
+msgstr ""
+
+#: src-en/data/text_misc.xml.append:74
+msgid "data/text_misc.xml.append$//text[@name=\"lore_RK_A_SYSTEM_DAMAGE\"]"
+msgstr ""

@@ -5,3289 +5,3416 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: src-en/data/events_sector_radikal.xml:89
+#: src-en/data/events_sector_radikal.xml:82
+msgid ""
+"data/events_sector_radikal.xml$//event[@name=\"RK_MV_TRAVELER\"]/beaconType/unvisitedTooltip"
+msgstr ""
+
+#: src-en/data/events_sector_radikal.xml:83
+#, fuzzy
+msgid ""
+"data/events_sector_radikal.xml$//event[@name=\"RK_MV_TRAVELER\"]/beaconType/visitedTooltip"
+msgstr "已探索的信标，没什么值得注意。"
+
+#: src-en/data/events_sector_radikal.xml:85
+msgid "data/events_sector_radikal.xml$//event[@name=\"RK_MV_TRAVELER\"]/text"
+msgstr ""
+
+#: src-en/data/events_sector_radikal.xml:87
+#, fuzzy
+msgid ""
+"data/events_sector_radikal.xml$//event[@name=\"RK_MV_TRAVELER\"]/choice/text"
+msgstr "继续。"
+
+#: src-en/data/events_sector_radikal.xml:105
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_STORE_SNIPER_SIEGED\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:94
+#: src-en/data/events_sector_radikal.xml:110
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_STORE_SNIPER_SIEGED\"]/choice[1]/text"
 msgstr "援救商店。"
 
-#: src-en/data/events_sector_radikal.xml:96
+#: src-en/data/events_sector_radikal.xml:112
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_STORE_SNIPER_SIEGED\"]/choice[1]/event/text"
 msgstr "你准备作战。"
 
-#: src-en/data/events_sector_radikal.xml:100
+#: src-en/data/events_sector_radikal.xml:116
 #, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_STORE_SNIPER_SIEGED\"]/choice[1]/event/choice/text"
 msgstr "继续。"
 
-#: src-en/data/events_sector_radikal.xml:106
+#: src-en/data/events_sector_radikal.xml:122
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_STORE_SNIPER_SIEGED\"]/choice[2]/text"
 msgstr "无视商人。"
 
-#: src-en/data/events_sector_radikal.xml:108
+#: src-en/data/events_sector_radikal.xml:124
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_STORE_SNIPER_SIEGED\"]/choice[2]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:110
+#: src-en/data/events_sector_radikal.xml:126
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_STORE_SNIPER_SIEGED\"]/choice[2]/event/choice[1]/text"
 msgstr "星舰管理。"
 
-#: src-en/data/events_sector_radikal.xml:114
+#: src-en/data/events_sector_radikal.xml:130
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_STORE_SNIPER_SIEGED\"]/choice[2]/event/choice[2]/text"
 msgstr "跳过。"
 
-#: src-en/data/events_sector_radikal.xml:124
+#: src-en/data/events_sector_radikal.xml:140
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_STORE_SNIPER_EXTREME\"]/destroyed/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:127
+#: src-en/data/events_sector_radikal.xml:143
 #, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_STORE_SNIPER_EXTREME\"]/destroyed/choice/text"
 msgstr "继续。"
 
-#: src-en/data/events_sector_radikal.xml:132
+#: src-en/data/events_sector_radikal.xml:148
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_STORE_SNIPER_EXTREME\"]/deadCrew/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:135
+#: src-en/data/events_sector_radikal.xml:151
 #, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_STORE_SNIPER_EXTREME\"]/deadCrew/choice/text"
 msgstr "继续。"
 
-#: src-en/data/events_sector_radikal.xml:142
+#: src-en/data/events_sector_radikal.xml:158
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_STORE_SNIPER_WIN\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:156
+#: src-en/data/events_sector_radikal.xml:172
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_STORE_SNIPER_WIN\"]/choice/text"
 msgstr "好吧。"
 
-#: src-en/data/events_sector_radikal.xml:180
+#: src-en/data/events_sector_radikal.xml:196
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"NEBULA_LIGHT_RKS_FIGHT_LEAD_TITANS\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:198
+#: src-en/data/events_sector_radikal.xml:214
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"NEBULA_LIGHT_RKS_FIGHT_LEAD_TITANS\"]/choice[@req=\"unique_rk_defromorius\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:200
+#: src-en/data/events_sector_radikal.xml:216
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"NEBULA_LIGHT_RKS_FIGHT_LEAD_TITANS\"]/choice[@req=\"unique_rk_defromorius\"]/event/text"
-msgstr ""
-
-#: src-en/data/events_sector_radikal.xml:210
-#, fuzzy
-msgid ""
-"data/events_sector_radikal.xml$//event[@name=\"NEBULA_LIGHT_RKS_FIGHT_LEAD_TITANS\"]/choice[@req=\"unique_rk_defromorius\"]/event/choice/text"
-msgstr "继续。"
-
-#: src-en/data/events_sector_radikal.xml:217
-msgid ""
-"data/events_sector_radikal.xml$//event[@name=\"NEBULA_LIGHT_RKS_FIGHT_LEAD_TITANS\"]/choice[2]/text"
-msgstr ""
-
-#: src-en/data/events_sector_radikal.xml:219
-msgid ""
-"data/events_sector_radikal.xml$//event[@name=\"NEBULA_LIGHT_RKS_FIGHT_LEAD_TITANS\"]/choice[2]/event/text"
 msgstr ""
 
 #: src-en/data/events_sector_radikal.xml:226
 #, fuzzy
 msgid ""
+"data/events_sector_radikal.xml$//event[@name=\"NEBULA_LIGHT_RKS_FIGHT_LEAD_TITANS\"]/choice[@req=\"unique_rk_defromorius\"]/event/choice/text"
+msgstr "继续。"
+
+#: src-en/data/events_sector_radikal.xml:233
+msgid ""
+"data/events_sector_radikal.xml$//event[@name=\"NEBULA_LIGHT_RKS_FIGHT_LEAD_TITANS\"]/choice[2]/text"
+msgstr ""
+
+#: src-en/data/events_sector_radikal.xml:235
+msgid ""
+"data/events_sector_radikal.xml$//event[@name=\"NEBULA_LIGHT_RKS_FIGHT_LEAD_TITANS\"]/choice[2]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_radikal.xml:242
+#, fuzzy
+msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"NEBULA_LIGHT_RKS_FIGHT_LEAD_TITANS\"]/choice[2]/event/choice/text"
 msgstr "继续。"
 
-#: src-en/data/events_sector_radikal.xml:246
+#: src-en/data/events_sector_radikal.xml:262
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"NEBULA_LIGHT_RKS_FIGHT_LEAD_TITANS\"]/choice[@req=\"cloaking\""
 " and not(@lvl)]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:251
+#: src-en/data/events_sector_radikal.xml:267
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"NEBULA_LIGHT_RKS_FIGHT_LEAD_TITANS\"]/choice[@req=\"cloaking\""
 " and @lvl=\"3\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:256
+#: src-en/data/events_sector_radikal.xml:272
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"NEBULA_LIGHT_RKS_FIGHT_LEAD_TITANS\"]/choice[@req=\"engines\""
 " and @lvl=\"3\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:260
+#: src-en/data/events_sector_radikal.xml:276
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"NEBULA_LIGHT_RKS_FIGHT_LEAD_TITANS\"]/choice[@req=\"engines\""
 " and @lvl=\"5\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:266
+#: src-en/data/events_sector_radikal.xml:282
 msgid ""
 "data/events_sector_radikal.xml$//eventList[@name=\"RKS_FIGHT_LEAD_TITANS_CLOAK\"]/event[1]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:269
+#: src-en/data/events_sector_radikal.xml:285
 msgid ""
 "data/events_sector_radikal.xml$//eventList[@name=\"RKS_FIGHT_LEAD_TITANS_CLOAK\"]/event[2]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:274
+#: src-en/data/events_sector_radikal.xml:290
 #, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//eventList[@name=\"RKS_FIGHT_LEAD_TITANS_CLOAK\"]/event[2]/choice/text"
 msgstr "继续。"
 
-#: src-en/data/events_sector_radikal.xml:281
+#: src-en/data/events_sector_radikal.xml:297
 msgid ""
 "data/events_sector_radikal.xml$//eventList[@name=\"RKS_FIGHT_LEAD_TITANS_ENGINES\"]/event[1]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:284
+#: src-en/data/events_sector_radikal.xml:300
 msgid ""
 "data/events_sector_radikal.xml$//eventList[@name=\"RKS_FIGHT_LEAD_TITANS_ENGINES\"]/event[2]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:289
+#: src-en/data/events_sector_radikal.xml:305
 #, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//eventList[@name=\"RKS_FIGHT_LEAD_TITANS_ENGINES\"]/event[2]/choice/text"
 msgstr "继续。"
 
-#: src-en/data/events_sector_radikal.xml:297
+#: src-en/data/events_sector_radikal.xml:313
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_LEAD_TITANS_USER_SLUG\"]/destroyed/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:301
+#: src-en/data/events_sector_radikal.xml:317
 #, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_LEAD_TITANS_USER_SLUG\"]/destroyed/choice/text"
 msgstr "继续。"
 
-#: src-en/data/events_sector_radikal.xml:303
+#: src-en/data/events_sector_radikal.xml:319
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_LEAD_TITANS_USER_SLUG\"]/destroyed/choice/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:307
+#: src-en/data/events_sector_radikal.xml:323
 #, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_LEAD_TITANS_USER_SLUG\"]/destroyed/choice/event/choice/text"
 msgstr "继续。"
 
-#: src-en/data/events_sector_radikal.xml:314
+#: src-en/data/events_sector_radikal.xml:330
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_LEAD_TITANS_USER_SLUG\"]/deadCrew/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:322
+#: src-en/data/events_sector_radikal.xml:338
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_LEAD_TITANS_USER_SLUG\"]/deadCrew/choice[1]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:324
+#: src-en/data/events_sector_radikal.xml:340
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_LEAD_TITANS_USER_SLUG\"]/deadCrew/choice[1]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:328
+#: src-en/data/events_sector_radikal.xml:344
 #, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_LEAD_TITANS_USER_SLUG\"]/deadCrew/choice[1]/event/choice/text"
 msgstr "继续。"
 
-#: src-en/data/events_sector_radikal.xml:335
+#: src-en/data/events_sector_radikal.xml:351
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_LEAD_TITANS_USER_SLUG\"]/deadCrew/choice[2]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:337
+#: src-en/data/events_sector_radikal.xml:353
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_LEAD_TITANS_USER_SLUG\"]/deadCrew/choice[2]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:341
+#: src-en/data/events_sector_radikal.xml:357
 #, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_LEAD_TITANS_USER_SLUG\"]/deadCrew/choice[2]/event/choice/text"
 msgstr "继续。"
 
-#: src-en/data/events_sector_radikal.xml:348
+#: src-en/data/events_sector_radikal.xml:364
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_LEAD_TITANS_USER_SLUG\"]/deadCrew/choice[3]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:350
+#: src-en/data/events_sector_radikal.xml:366
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_LEAD_TITANS_USER_SLUG\"]/deadCrew/choice[3]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:354
+#: src-en/data/events_sector_radikal.xml:370
 #, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_LEAD_TITANS_USER_SLUG\"]/deadCrew/choice[3]/event/choice/text"
 msgstr "继续。"
 
-#: src-en/data/events_sector_radikal.xml:361
+#: src-en/data/events_sector_radikal.xml:377
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_LEAD_TITANS_USER_SLUG\"]/deadCrew/choice[4]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:379
+#: src-en/data/events_sector_radikal.xml:395
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_FIGHT_GRAVESPRED\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:389
+#: src-en/data/events_sector_radikal.xml:405
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_FIGHT_GRAVESPRED\"]/choice[@req=\"unique_rk_defromorius\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:391
+#: src-en/data/events_sector_radikal.xml:407
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_FIGHT_GRAVESPRED\"]/choice[@req=\"unique_rk_defromorius\"]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:400
+#: src-en/data/events_sector_radikal.xml:416
 #, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_FIGHT_GRAVESPRED\"]/choice[@req=\"unique_rk_defromorius\"]/event/choice/text"
 msgstr "继续。"
 
-#: src-en/data/events_sector_radikal.xml:407
+#: src-en/data/events_sector_radikal.xml:423
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_FIGHT_GRAVESPRED\"]/choice[2]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:409
+#: src-en/data/events_sector_radikal.xml:425
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_FIGHT_GRAVESPRED\"]/choice[2]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:413
+#: src-en/data/events_sector_radikal.xml:429
 #, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_FIGHT_GRAVESPRED\"]/choice[2]/event/choice/text"
 msgstr "继续。"
 
-#: src-en/data/events_sector_radikal.xml:420
+#: src-en/data/events_sector_radikal.xml:436
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_FIGHT_GRAVESPRED\"]/choice[@req=\"cloaking\""
 " and not(@lvl)]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:424
+#: src-en/data/events_sector_radikal.xml:440
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_FIGHT_GRAVESPRED\"]/choice[@req=\"cloaking\""
 " and @lvl=\"3\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:429
+#: src-en/data/events_sector_radikal.xml:445
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_FIGHT_GRAVESPRED\"]/choice[@req=\"engines\""
 " and @lvl=\"4\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:433
+#: src-en/data/events_sector_radikal.xml:449
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_FIGHT_GRAVESPRED\"]/choice[@req=\"engines\""
 " and @lvl=\"6\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:439
+#: src-en/data/events_sector_radikal.xml:455
 msgid ""
 "data/events_sector_radikal.xml$//eventList[@name=\"RKS_FIGHT_GRAVESPRED_CLOAK\"]/event[1]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:442
+#: src-en/data/events_sector_radikal.xml:458
 msgid ""
 "data/events_sector_radikal.xml$//eventList[@name=\"RKS_FIGHT_GRAVESPRED_CLOAK\"]/event[2]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:447
+#: src-en/data/events_sector_radikal.xml:463
 #, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//eventList[@name=\"RKS_FIGHT_GRAVESPRED_CLOAK\"]/event[2]/choice/text"
 msgstr "继续。"
 
-#: src-en/data/events_sector_radikal.xml:454
+#: src-en/data/events_sector_radikal.xml:470
 msgid ""
 "data/events_sector_radikal.xml$//eventList[@name=\"RKS_FIGHT_GRAVESPRED_ENGINES\"]/event[1]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:457
+#: src-en/data/events_sector_radikal.xml:473
 msgid ""
 "data/events_sector_radikal.xml$//eventList[@name=\"RKS_FIGHT_GRAVESPRED_ENGINES\"]/event[2]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:462
+#: src-en/data/events_sector_radikal.xml:478
 #, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//eventList[@name=\"RKS_FIGHT_GRAVESPRED_ENGINES\"]/event[2]/choice/text"
 msgstr "继续。"
 
-#: src-en/data/events_sector_radikal.xml:469
+#: src-en/data/events_sector_radikal.xml:485
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_GRAVESPRED_USER_REBELAUTO\"]/destroyed/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:476
+#: src-en/data/events_sector_radikal.xml:492
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_GRAVESPRED_USER_REBELAUTO\"]/destroyed/choice[1]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:478
+#: src-en/data/events_sector_radikal.xml:494
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_GRAVESPRED_USER_REBELAUTO\"]/destroyed/choice[1]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:482
+#: src-en/data/events_sector_radikal.xml:498
 #, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_GRAVESPRED_USER_REBELAUTO\"]/destroyed/choice[1]/event/choice/text"
 msgstr "继续。"
 
-#: src-en/data/events_sector_radikal.xml:489
+#: src-en/data/events_sector_radikal.xml:505
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_GRAVESPRED_USER_REBELAUTO\"]/destroyed/choice[2]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:491
+#: src-en/data/events_sector_radikal.xml:507
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_GRAVESPRED_USER_REBELAUTO\"]/destroyed/choice[2]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:495
+#: src-en/data/events_sector_radikal.xml:511
 #, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_GRAVESPRED_USER_REBELAUTO\"]/destroyed/choice[2]/event/choice/text"
 msgstr "继续。"
 
-#: src-en/data/events_sector_radikal.xml:502
+#: src-en/data/events_sector_radikal.xml:518
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_GRAVESPRED_USER_REBELAUTO\"]/destroyed/choice[3]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:504
+#: src-en/data/events_sector_radikal.xml:520
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_GRAVESPRED_USER_REBELAUTO\"]/destroyed/choice[3]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:508
+#: src-en/data/events_sector_radikal.xml:524
 #, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_GRAVESPRED_USER_REBELAUTO\"]/destroyed/choice[3]/event/choice/text"
 msgstr "继续。"
 
-#: src-en/data/events_sector_radikal.xml:515
+#: src-en/data/events_sector_radikal.xml:531
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_GRAVESPRED_USER_REBELAUTO\"]/destroyed/choice[4]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:525
+#: src-en/data/events_sector_radikal.xml:541
 msgid "data/events_sector_radikal.xml$//event[@name=\"RKS_FIGHT_WOF\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:535
+#: src-en/data/events_sector_radikal.xml:551
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_FIGHT_WOF\"]/choice[@req=\"unique_rk_defromorius\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:537
+#: src-en/data/events_sector_radikal.xml:553
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_FIGHT_WOF\"]/choice[@req=\"unique_rk_defromorius\"]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:547
+#: src-en/data/events_sector_radikal.xml:563
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_FIGHT_WOF\"]/choice[@req=\"unique_rk_defromorius\"]/event/choice/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:554
+#: src-en/data/events_sector_radikal.xml:570
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_FIGHT_WOF\"]/choice[2]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:556
+#: src-en/data/events_sector_radikal.xml:572
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_FIGHT_WOF\"]/choice[2]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:560
+#: src-en/data/events_sector_radikal.xml:576
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_FIGHT_WOF\"]/choice[2]/event/choice/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:567
+#: src-en/data/events_sector_radikal.xml:583
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_FIGHT_WOF\"]/choice[@req=\"cloaking\""
 " and not(@lvl)]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:571
+#: src-en/data/events_sector_radikal.xml:587
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_FIGHT_WOF\"]/choice[@req=\"cloaking\""
 " and @lvl=\"3\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:576
+#: src-en/data/events_sector_radikal.xml:592
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_FIGHT_WOF\"]/choice[@req=\"engines\""
 " and @lvl=\"4\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:580
+#: src-en/data/events_sector_radikal.xml:596
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_FIGHT_WOF\"]/choice[@req=\"engines\""
 " and @lvl=\"6\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:586
+#: src-en/data/events_sector_radikal.xml:602
 msgid ""
 "data/events_sector_radikal.xml$//eventList[@name=\"RKS_FIGHT_WOF_CLOAK\"]/event[1]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:589
+#: src-en/data/events_sector_radikal.xml:605
 msgid ""
 "data/events_sector_radikal.xml$//eventList[@name=\"RKS_FIGHT_WOF_CLOAK\"]/event[2]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:594
+#: src-en/data/events_sector_radikal.xml:610
 #, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//eventList[@name=\"RKS_FIGHT_WOF_CLOAK\"]/event[2]/choice/text"
 msgstr "继续。"
 
-#: src-en/data/events_sector_radikal.xml:601
+#: src-en/data/events_sector_radikal.xml:617
 msgid ""
 "data/events_sector_radikal.xml$//eventList[@name=\"RKS_FIGHT_WOF_ENGINES\"]/event[1]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:604
+#: src-en/data/events_sector_radikal.xml:620
 msgid ""
 "data/events_sector_radikal.xml$//eventList[@name=\"RKS_FIGHT_WOF_ENGINES\"]/event[2]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:609
+#: src-en/data/events_sector_radikal.xml:625
 #, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//eventList[@name=\"RKS_FIGHT_WOF_ENGINES\"]/event[2]/choice/text"
 msgstr "继续。"
 
-#: src-en/data/events_sector_radikal.xml:691
+#: src-en/data/events_sector_radikal.xml:707
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_WOF_USER_UNION\"]/destroyed/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:695
+#: src-en/data/events_sector_radikal.xml:711
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_WOF_USER_UNION\"]/destroyed/choice/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:697
+#: src-en/data/events_sector_radikal.xml:713
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_WOF_USER_UNION\"]/destroyed/choice/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:701
+#: src-en/data/events_sector_radikal.xml:717
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_WOF_USER_UNION\"]/destroyed/choice/event/choice/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:708
+#: src-en/data/events_sector_radikal.xml:724
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_WOF_USER_UNION\"]/deadCrew/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:715
+#: src-en/data/events_sector_radikal.xml:731
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_WOF_USER_UNION\"]/deadCrew/choice[1]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:717
+#: src-en/data/events_sector_radikal.xml:733
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_WOF_USER_UNION\"]/deadCrew/choice[1]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:722
+#: src-en/data/events_sector_radikal.xml:738
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_WOF_USER_UNION\"]/deadCrew/choice[1]/event/choice/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:729
+#: src-en/data/events_sector_radikal.xml:745
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_WOF_USER_UNION\"]/deadCrew/choice[2]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:731
+#: src-en/data/events_sector_radikal.xml:747
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_WOF_USER_UNION\"]/deadCrew/choice[2]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:735
+#: src-en/data/events_sector_radikal.xml:751
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_WOF_USER_UNION\"]/deadCrew/choice[2]/event/choice/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:742
+#: src-en/data/events_sector_radikal.xml:758
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_WOF_USER_UNION\"]/deadCrew/choice[3]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:744
+#: src-en/data/events_sector_radikal.xml:760
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_WOF_USER_UNION\"]/deadCrew/choice[3]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:748
+#: src-en/data/events_sector_radikal.xml:764
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_WOF_USER_UNION\"]/deadCrew/choice[3]/event/choice/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:755
+#: src-en/data/events_sector_radikal.xml:771
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_WOF_USER_UNION\"]/deadCrew/choice[4]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:770
+#: src-en/data/events_sector_radikal.xml:786
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_FIGHT_ELITE_COALITION\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:776
+#: src-en/data/events_sector_radikal.xml:792
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_FIGHT_ELITE_COALITION\"]/choice[@req=\"unique_nights\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:778
+#: src-en/data/events_sector_radikal.xml:794
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_FIGHT_ELITE_COALITION\"]/choice[@req=\"unique_nights\"]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:783
+#: src-en/data/events_sector_radikal.xml:799
 #, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_FIGHT_ELITE_COALITION\"]/choice[@req=\"unique_nights\"]/event/choice/text"
 msgstr "继续。"
 
-#: src-en/data/events_sector_radikal.xml:790
+#: src-en/data/events_sector_radikal.xml:806
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_FIGHT_ELITE_COALITION\"]/choice[@req=\"unique_tyrdeo\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:792
+#: src-en/data/events_sector_radikal.xml:808
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_FIGHT_ELITE_COALITION\"]/choice[@req=\"unique_tyrdeo\"]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:797
+#: src-en/data/events_sector_radikal.xml:813
 #, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_FIGHT_ELITE_COALITION\"]/choice[@req=\"unique_tyrdeo\"]/event/choice/text"
 msgstr "继续。"
 
-#: src-en/data/events_sector_radikal.xml:804
+#: src-en/data/events_sector_radikal.xml:820
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_FIGHT_ELITE_COALITION\"]/choice[3]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:806
+#: src-en/data/events_sector_radikal.xml:822
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_FIGHT_ELITE_COALITION\"]/choice[3]/event/text"
 msgstr "你准备作战。"
 
-#: src-en/data/events_sector_radikal.xml:810
+#: src-en/data/events_sector_radikal.xml:826
 #, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_FIGHT_ELITE_COALITION\"]/choice[3]/event/choice/text"
 msgstr "继续。"
 
-#: src-en/data/events_sector_radikal.xml:849
+#: src-en/data/events_sector_radikal.xml:865
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_RKS_HIDEOUT_UNLOCK\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:862
+#: src-en/data/events_sector_radikal.xml:878
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_RKS_HIDEOUT_UNLOCK\"]/choice[@req=\"rks_hideout_unlocked\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:864
+#: src-en/data/events_sector_radikal.xml:880
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_RKS_HIDEOUT_UNLOCK\"]/choice[@req=\"rks_hideout_unlocked\"]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:868
+#: src-en/data/events_sector_radikal.xml:884
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_RKS_HIDEOUT_UNLOCK\"]/choice[@req=\"rks_hideout_unlocked\"]/event/choice/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:870
+#: src-en/data/events_sector_radikal.xml:886
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_RKS_HIDEOUT_UNLOCK\"]/choice[@req=\"rks_hideout_unlocked\"]/event/choice/event/text"
 msgstr "你准备作战。"
 
-#: src-en/data/events_sector_radikal.xml:873
+#: src-en/data/events_sector_radikal.xml:889
 #, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_RKS_HIDEOUT_UNLOCK\"]/choice[@req=\"rks_hideout_unlocked\"]/event/choice/event/choice/text"
 msgstr "继续。"
 
-#: src-en/data/events_sector_radikal.xml:882
+#: src-en/data/events_sector_radikal.xml:898
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_RKS_HIDEOUT_UNLOCK\"]/choice[2]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:884
+#: src-en/data/events_sector_radikal.xml:900
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_RKS_HIDEOUT_UNLOCK\"]/choice[2]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:887
+#: src-en/data/events_sector_radikal.xml:903
 #, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_RKS_HIDEOUT_UNLOCK\"]/choice[2]/event/choice/text"
 msgstr "继续。"
 
-#: src-en/data/events_sector_radikal.xml:900
+#: src-en/data/events_sector_radikal.xml:916
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_HIDEOUT_UNLOCKER\"]/surrender/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:904
+#: src-en/data/events_sector_radikal.xml:920
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_HIDEOUT_UNLOCKER\"]/surrender/choice[1]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:909
+#: src-en/data/events_sector_radikal.xml:925
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_HIDEOUT_UNLOCKER\"]/surrender/choice[2]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:914
+#: src-en/data/events_sector_radikal.xml:930
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_HIDEOUT_UNLOCKER\"]/destroyed/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:919
+#: src-en/data/events_sector_radikal.xml:935
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_HIDEOUT_UNLOCKER\"]/destroyed/choice/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:922
+#: src-en/data/events_sector_radikal.xml:938
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_HIDEOUT_UNLOCK_SUCCESS\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:929
+#: src-en/data/events_sector_radikal.xml:945
 #, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_HIDEOUT_UNLOCK_SUCCESS\"]/choice/text"
 msgstr "继续。"
 
-#: src-en/data/events_sector_radikal.xml:936
+#: src-en/data/events_sector_radikal.xml:952
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_HIDEOUT_UNLOCKER\"]/deadCrew/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:941
+#: src-en/data/events_sector_radikal.xml:957
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_HIDEOUT_UNLOCKER\"]/deadCrew/choice/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:959
+#: src-en/data/events_sector_radikal.xml:975
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/beaconType/unvisitedTooltip"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:962
+#: src-en/data/events_sector_radikal.xml:978
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:972
+#: src-en/data/events_sector_radikal.xml:988
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"rks_hideout_instabenefit\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:974
+#: src-en/data/events_sector_radikal.xml:990
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"rks_hideout_instabenefit\"]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:987
+#: src-en/data/events_sector_radikal.xml:1003
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"rks_hideout_instabenefit\"]/event/choice[@req=\"rks_hideout_instabenefit\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:992
+#: src-en/data/events_sector_radikal.xml:1008
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"rks_hideout_instabenefit\"]/event/choice[2]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:999
+#: src-en/data/events_sector_radikal.xml:1015
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"rks_hideout_multibenefit\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1001
+#: src-en/data/events_sector_radikal.xml:1017
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"rks_hideout_multibenefit\"]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1013
+#: src-en/data/events_sector_radikal.xml:1029
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"rks_hideout_multibenefit\"]/event/choice[@req=\"rks_hideout_instabenefit\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1018
+#: src-en/data/events_sector_radikal.xml:1034
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"rks_hideout_multibenefit\"]/event/choice[2]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1025
+#: src-en/data/events_sector_radikal.xml:1041
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"rks_hideout_morechoices_1\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1027
+#: src-en/data/events_sector_radikal.xml:1043
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"rks_hideout_morechoices_1\"]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1039
+#: src-en/data/events_sector_radikal.xml:1055
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"rks_hideout_morechoices_1\"]/event/choice[@req=\"rks_hideout_instabenefit\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1044
+#: src-en/data/events_sector_radikal.xml:1060
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"rks_hideout_morechoices_1\"]/event/choice[2]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1050
+#: src-en/data/events_sector_radikal.xml:1066
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"rks_hideout_morechoices_2\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1052
+#: src-en/data/events_sector_radikal.xml:1068
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"rks_hideout_morechoices_2\"]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1064
+#: src-en/data/events_sector_radikal.xml:1080
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"rks_hideout_morechoices_2\"]/event/choice[@req=\"rks_hideout_instabenefit\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1069
+#: src-en/data/events_sector_radikal.xml:1085
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"rks_hideout_morechoices_2\"]/event/choice[2]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1076
+#: src-en/data/events_sector_radikal.xml:1092
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"rks_hideout_repairs\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1078
+#: src-en/data/events_sector_radikal.xml:1094
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"rks_hideout_repairs\"]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1089
+#: src-en/data/events_sector_radikal.xml:1105
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"rks_hideout_repairs\"]/event/choice[@req=\"rks_hideout_instabenefit\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1094
+#: src-en/data/events_sector_radikal.xml:1110
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"rks_hideout_repairs\"]/event/choice[2]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1100
+#: src-en/data/events_sector_radikal.xml:1116
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"RKS_HIDEOUT_CAN_REPAIR\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1102
+#: src-en/data/events_sector_radikal.xml:1118
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"RKS_HIDEOUT_CAN_REPAIR\"]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1107
+#: src-en/data/events_sector_radikal.xml:1123
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"RKS_HIDEOUT_CAN_REPAIR\"]/event/choice[@req=\"rks_hideout_multibenefit\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1112
+#: src-en/data/events_sector_radikal.xml:1128
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"RKS_HIDEOUT_CAN_REPAIR\"]/event/choice[2]/text"
 msgstr "星舰管理。"
 
-#: src-en/data/events_sector_radikal.xml:1116
+#: src-en/data/events_sector_radikal.xml:1132
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"RKS_HIDEOUT_CAN_REPAIR\"]/event/choice[3]/text"
 msgstr "离开。"
 
-#: src-en/data/events_sector_radikal.xml:1123
+#: src-en/data/events_sector_radikal.xml:1139
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"rks_hideout_scavenge\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1125
+#: src-en/data/events_sector_radikal.xml:1141
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"rks_hideout_scavenge\"]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1137
+#: src-en/data/events_sector_radikal.xml:1153
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"rks_hideout_scavenge\"]/event/choice/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1143
+#: src-en/data/events_sector_radikal.xml:1159
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"RKS_HIDEOUT_CAN_SCAVENGE\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1145
+#: src-en/data/events_sector_radikal.xml:1161
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"RKS_HIDEOUT_CAN_SCAVENGE\"]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1156
+#: src-en/data/events_sector_radikal.xml:1172
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"RKS_HIDEOUT_CAN_SCAVENGE\"]/event/choice[@req=\"rks_hideout_multibenefit\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1161
+#: src-en/data/events_sector_radikal.xml:1177
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"RKS_HIDEOUT_CAN_SCAVENGE\"]/event/choice[2]/text"
 msgstr "星舰管理。"
 
-#: src-en/data/events_sector_radikal.xml:1165
+#: src-en/data/events_sector_radikal.xml:1181
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"RKS_HIDEOUT_CAN_SCAVENGE\"]/event/choice[3]/text"
 msgstr "离开。"
 
-#: src-en/data/events_sector_radikal.xml:1172
+#: src-en/data/events_sector_radikal.xml:1188
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"rks_hideout_recruit\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1174
+#: src-en/data/events_sector_radikal.xml:1190
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"rks_hideout_recruit\"]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1186
+#: src-en/data/events_sector_radikal.xml:1202
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"rks_hideout_recruit\"]/event/choice[@req=\"rks_hideout_instabenefit\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1191
+#: src-en/data/events_sector_radikal.xml:1207
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"rks_hideout_recruit\"]/event/choice[2]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1197
+#: src-en/data/events_sector_radikal.xml:1213
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"RKS_HIDEOUT_CAN_RECRUIT\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1199
+#: src-en/data/events_sector_radikal.xml:1215
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"RKS_HIDEOUT_CAN_RECRUIT\"]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1203
+#: src-en/data/events_sector_radikal.xml:1219
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"RKS_HIDEOUT_CAN_RECRUIT\"]/event/choice[1]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1205
+#: src-en/data/events_sector_radikal.xml:1221
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"RKS_HIDEOUT_CAN_RECRUIT\"]/event/choice[1]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1210
+#: src-en/data/events_sector_radikal.xml:1226
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"RKS_HIDEOUT_CAN_RECRUIT\"]/event/choice[1]/event/choice[@req=\"rks_hideout_multibenefit\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1214
+#: src-en/data/events_sector_radikal.xml:1230
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"RKS_HIDEOUT_CAN_RECRUIT\"]/event/choice[1]/event/choice[2]/text"
 msgstr "离开。"
 
-#: src-en/data/events_sector_radikal.xml:1220
+#: src-en/data/events_sector_radikal.xml:1236
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"RKS_HIDEOUT_CAN_RECRUIT\"]/event/choice[2]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1222
+#: src-en/data/events_sector_radikal.xml:1238
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"RKS_HIDEOUT_CAN_RECRUIT\"]/event/choice[2]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1226
+#: src-en/data/events_sector_radikal.xml:1242
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"RKS_HIDEOUT_CAN_RECRUIT\"]/event/choice[2]/event/choice[@req=\"rks_hideout_multibenefit\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1230
+#: src-en/data/events_sector_radikal.xml:1246
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"RKS_HIDEOUT_CAN_RECRUIT\"]/event/choice[2]/event/choice[2]/text"
 msgstr "离开。"
 
-#: src-en/data/events_sector_radikal.xml:1236
+#: src-en/data/events_sector_radikal.xml:1252
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"RKS_HIDEOUT_CAN_RECRUIT\"]/event/choice[@req=\"rks_hideout_morechoices_1\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1238
+#: src-en/data/events_sector_radikal.xml:1254
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"RKS_HIDEOUT_CAN_RECRUIT\"]/event/choice[@req=\"rks_hideout_morechoices_1\"]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1242
+#: src-en/data/events_sector_radikal.xml:1258
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"RKS_HIDEOUT_CAN_RECRUIT\"]/event/choice[@req=\"rks_hideout_morechoices_1\"]/event/choice[@req=\"rks_hideout_multibenefit\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1246
+#: src-en/data/events_sector_radikal.xml:1262
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"RKS_HIDEOUT_CAN_RECRUIT\"]/event/choice[@req=\"rks_hideout_morechoices_1\"]/event/choice[2]/text"
 msgstr "离开。"
 
-#: src-en/data/events_sector_radikal.xml:1252
+#: src-en/data/events_sector_radikal.xml:1268
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"RKS_HIDEOUT_CAN_RECRUIT\"]/event/choice[@req=\"rks_hideout_morechoices_2\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1254
+#: src-en/data/events_sector_radikal.xml:1270
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"RKS_HIDEOUT_CAN_RECRUIT\"]/event/choice[@req=\"rks_hideout_morechoices_2\"]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1258
+#: src-en/data/events_sector_radikal.xml:1274
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"RKS_HIDEOUT_CAN_RECRUIT\"]/event/choice[@req=\"rks_hideout_morechoices_2\"]/event/choice[@req=\"rks_hideout_multibenefit\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1262
+#: src-en/data/events_sector_radikal.xml:1278
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"RKS_HIDEOUT_CAN_RECRUIT\"]/event/choice[@req=\"rks_hideout_morechoices_2\"]/event/choice[2]/text"
 msgstr "离开。"
 
-#: src-en/data/events_sector_radikal.xml:1269
+#: src-en/data/events_sector_radikal.xml:1285
 #, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"RKS_HIDEOUT_CAN_RECRUIT\"]/event/choice[5]/text"
 msgstr "离开。"
 
-#: src-en/data/events_sector_radikal.xml:1274
+#: src-en/data/events_sector_radikal.xml:1290
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"RKS_HIDEOUT_CAN_RECRUIT\"]/event/choice[6]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1278
+#: src-en/data/events_sector_radikal.xml:1294
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"RKS_HIDEOUT_CAN_RECRUIT\"]/event/choice[7]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1285
+#: src-en/data/events_sector_radikal.xml:1301
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"rks_hideout_getweapon\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1287
+#: src-en/data/events_sector_radikal.xml:1303
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"rks_hideout_getweapon\"]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1299
+#: src-en/data/events_sector_radikal.xml:1315
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"rks_hideout_getweapon\"]/event/choice[@req=\"rks_hideout_instabenefit\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1304
+#: src-en/data/events_sector_radikal.xml:1320
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"rks_hideout_getweapon\"]/event/choice[2]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1310
+#: src-en/data/events_sector_radikal.xml:1326
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"RKS_HIDEOUT_CAN_GETWEAPON\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1312
+#: src-en/data/events_sector_radikal.xml:1328
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"RKS_HIDEOUT_CAN_GETWEAPON\"]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1316
+#: src-en/data/events_sector_radikal.xml:1332
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"RKS_HIDEOUT_CAN_GETWEAPON\"]/event/choice[1]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1318
+#: src-en/data/events_sector_radikal.xml:1334
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"RKS_HIDEOUT_CAN_GETWEAPON\"]/event/choice[1]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1323
+#: src-en/data/events_sector_radikal.xml:1339
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"RKS_HIDEOUT_CAN_GETWEAPON\"]/event/choice[1]/event/choice[@req=\"rks_hideout_multibenefit\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1327
+#: src-en/data/events_sector_radikal.xml:1343
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"RKS_HIDEOUT_CAN_GETWEAPON\"]/event/choice[1]/event/choice[2]/text"
 msgstr "离开。"
 
-#: src-en/data/events_sector_radikal.xml:1333
+#: src-en/data/events_sector_radikal.xml:1349
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"RKS_HIDEOUT_CAN_GETWEAPON\"]/event/choice[2]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1335
+#: src-en/data/events_sector_radikal.xml:1351
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"RKS_HIDEOUT_CAN_GETWEAPON\"]/event/choice[2]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1339
+#: src-en/data/events_sector_radikal.xml:1355
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"RKS_HIDEOUT_CAN_GETWEAPON\"]/event/choice[2]/event/choice[@req=\"rks_hideout_multibenefit\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1343
+#: src-en/data/events_sector_radikal.xml:1359
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"RKS_HIDEOUT_CAN_GETWEAPON\"]/event/choice[2]/event/choice[2]/text"
 msgstr "离开。"
 
-#: src-en/data/events_sector_radikal.xml:1349
+#: src-en/data/events_sector_radikal.xml:1365
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"RKS_HIDEOUT_CAN_GETWEAPON\"]/event/choice[@req=\"rks_hideout_morechoices_1\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1351
+#: src-en/data/events_sector_radikal.xml:1367
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"RKS_HIDEOUT_CAN_GETWEAPON\"]/event/choice[@req=\"rks_hideout_morechoices_1\"]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1355
+#: src-en/data/events_sector_radikal.xml:1371
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"RKS_HIDEOUT_CAN_GETWEAPON\"]/event/choice[@req=\"rks_hideout_morechoices_1\"]/event/choice[@req=\"rks_hideout_multibenefit\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1359
+#: src-en/data/events_sector_radikal.xml:1375
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"RKS_HIDEOUT_CAN_GETWEAPON\"]/event/choice[@req=\"rks_hideout_morechoices_1\"]/event/choice[2]/text"
 msgstr "离开。"
 
-#: src-en/data/events_sector_radikal.xml:1365
+#: src-en/data/events_sector_radikal.xml:1381
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"RKS_HIDEOUT_CAN_GETWEAPON\"]/event/choice[@req=\"rks_hideout_morechoices_2\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1367
+#: src-en/data/events_sector_radikal.xml:1383
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"RKS_HIDEOUT_CAN_GETWEAPON\"]/event/choice[@req=\"rks_hideout_morechoices_2\"]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1372
+#: src-en/data/events_sector_radikal.xml:1388
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"RKS_HIDEOUT_CAN_GETWEAPON\"]/event/choice[@req=\"rks_hideout_morechoices_2\"]/event/choice[@req=\"rks_hideout_multibenefit\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1376
+#: src-en/data/events_sector_radikal.xml:1392
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"RKS_HIDEOUT_CAN_GETWEAPON\"]/event/choice[@req=\"rks_hideout_morechoices_2\"]/event/choice[2]/text"
 msgstr "离开。"
 
-#: src-en/data/events_sector_radikal.xml:1383
+#: src-en/data/events_sector_radikal.xml:1399
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"RKS_HIDEOUT_CAN_GETWEAPON\"]/event/choice[5]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1388
+#: src-en/data/events_sector_radikal.xml:1404
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"RKS_HIDEOUT_CAN_GETWEAPON\"]/event/choice[6]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1392
+#: src-en/data/events_sector_radikal.xml:1408
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"RKS_HIDEOUT_CAN_GETWEAPON\"]/event/choice[7]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1415
+#: src-en/data/events_sector_radikal.xml:1431
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[13]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1417
+#: src-en/data/events_sector_radikal.xml:1433
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[13]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1423
+#: src-en/data/events_sector_radikal.xml:1439
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[13]/event/choice[1]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1425
+#: src-en/data/events_sector_radikal.xml:1441
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[13]/event/choice[1]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1440
+#: src-en/data/events_sector_radikal.xml:1456
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[13]/event/choice[1]/event/choice[1]/text"
 msgstr "星舰管理。"
 
-#: src-en/data/events_sector_radikal.xml:1445
+#: src-en/data/events_sector_radikal.xml:1461
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[13]/event/choice[1]/event/choice[2]/text"
 msgstr "离开。"
 
-#: src-en/data/events_sector_radikal.xml:1452
+#: src-en/data/events_sector_radikal.xml:1468
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[13]/event/choice[2]/text"
 msgstr "算了，做点别的。"
 
-#: src-en/data/events_sector_radikal.xml:1459
+#: src-en/data/events_sector_radikal.xml:1475
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[14]/text"
 msgstr "星舰管理。"
 
-#: src-en/data/events_sector_radikal.xml:1464
+#: src-en/data/events_sector_radikal.xml:1480
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[15]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1477
+#: src-en/data/events_sector_radikal.xml:1493
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_SUSPICIOUS_SMUGGLER\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1482
+#: src-en/data/events_sector_radikal.xml:1498
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_SUSPICIOUS_SMUGGLER\"]/choice[@req=\"RKS_POLICE_WARRANT\""
 " and @lvl=\"0\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1487
+#: src-en/data/events_sector_radikal.xml:1503
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_SUSPICIOUS_SMUGGLER\"]/choice[@req=\"RKS_POLICE_WARRANT\""
 " and not(@lvl)]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1490
+#: src-en/data/events_sector_radikal.xml:1506
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_SUSPICIOUS_SMUGGLER\"]/choice[@req=\"RKS_POLICE_WARRANT\""
 " and not(@lvl)]/event[1]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1497
+#: src-en/data/events_sector_radikal.xml:1513
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_SUSPICIOUS_SMUGGLER\"]/choice[@req=\"RKS_POLICE_WARRANT\""
 " and not(@lvl)]/event[1]/choice/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1502
+#: src-en/data/events_sector_radikal.xml:1518
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_SUSPICIOUS_SMUGGLER\"]/choice[@req=\"RKS_POLICE_WARRANT\""
 " and not(@lvl)]/event[2]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1509
+#: src-en/data/events_sector_radikal.xml:1525
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_SUSPICIOUS_SMUGGLER\"]/choice[@req=\"RKS_POLICE_WARRANT\""
 " and not(@lvl)]/event[2]/choice/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1515
+#: src-en/data/events_sector_radikal.xml:1531
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_SUSPICIOUS_SMUGGLER\"]/choice[@req=\"RKS_POLICE_WARRANT\""
 " and not(@lvl)]/event[3]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1518
+#: src-en/data/events_sector_radikal.xml:1534
 #, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_SUSPICIOUS_SMUGGLER\"]/choice[@req=\"RKS_POLICE_WARRANT\""
 " and not(@lvl)]/event[3]/choice/text"
 msgstr "继续。"
 
-#: src-en/data/events_sector_radikal.xml:1525
+#: src-en/data/events_sector_radikal.xml:1541
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_SUSPICIOUS_SMUGGLER\"]/choice[3]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1527
+#: src-en/data/events_sector_radikal.xml:1543
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_SUSPICIOUS_SMUGGLER\"]/choice[3]/event/text"
 msgstr "你准备作战。"
 
-#: src-en/data/events_sector_radikal.xml:1530
+#: src-en/data/events_sector_radikal.xml:1546
 #, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_SUSPICIOUS_SMUGGLER\"]/choice[3]/event/choice/text"
 msgstr "继续。"
 
-#: src-en/data/events_sector_radikal.xml:1537
+#: src-en/data/events_sector_radikal.xml:1553
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_SUSPICIOUS_SMUGGLER\"]/choice[4]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1539
+#: src-en/data/events_sector_radikal.xml:1555
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_SUSPICIOUS_SMUGGLER\"]/choice[4]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1541
+#: src-en/data/events_sector_radikal.xml:1557
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_SUSPICIOUS_SMUGGLER\"]/choice[4]/event/choice/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1543
+#: src-en/data/events_sector_radikal.xml:1559
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_SUSPICIOUS_SMUGGLER\"]/choice[4]/event/choice/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1545
+#: src-en/data/events_sector_radikal.xml:1561
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_SUSPICIOUS_SMUGGLER\"]/choice[4]/event/choice/event/choice[1]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1547
+#: src-en/data/events_sector_radikal.xml:1563
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_SUSPICIOUS_SMUGGLER\"]/choice[4]/event/choice/event/choice[1]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1552
+#: src-en/data/events_sector_radikal.xml:1568
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_SUSPICIOUS_SMUGGLER\"]/choice[4]/event/choice/event/choice[2]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1554
+#: src-en/data/events_sector_radikal.xml:1570
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_SUSPICIOUS_SMUGGLER\"]/choice[4]/event/choice/event/choice[2]/event/text"
 msgstr "你准备作战。"
 
-#: src-en/data/events_sector_radikal.xml:1557
+#: src-en/data/events_sector_radikal.xml:1573
 #, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_SUSPICIOUS_SMUGGLER\"]/choice[4]/event/choice/event/choice[2]/event/choice/text"
 msgstr "继续。"
 
-#: src-en/data/events_sector_radikal.xml:1577
+#: src-en/data/events_sector_radikal.xml:1596
+msgid "data/events_sector_radikal.xml$//event[@name=\"RKS_BIL_BAM_SYSTEMS\"]/text"
+msgstr ""
+
+#: src-en/data/events_sector_radikal.xml:1613
+msgid ""
+"data/events_sector_radikal.xml$//event[@name=\"RKS_BIL_BAM_SYSTEMS\"]/choice[1]/text"
+msgstr ""
+
+#: src-en/data/events_sector_radikal.xml:1615
+msgid ""
+"data/events_sector_radikal.xml$//event[@name=\"RKS_BIL_BAM_SYSTEMS\"]/choice[1]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_radikal.xml:1629
+msgid ""
+"data/events_sector_radikal.xml$//event[@name=\"RKS_BIL_BAM_SYSTEMS\"]/choice[1]/event/choice/text"
+msgstr ""
+
+#: src-en/data/events_sector_radikal.xml:1631
+msgid ""
+"data/events_sector_radikal.xml$//event[@name=\"RKS_BIL_BAM_SYSTEMS\"]/choice[1]/event/choice/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_radikal.xml:1635
+msgid ""
+"data/events_sector_radikal.xml$//event[@name=\"RKS_BIL_BAM_SYSTEMS\"]/choice[1]/event/choice/event/choice[@req=\"drones\"]/text"
+msgstr ""
+
+#: src-en/data/events_sector_radikal.xml:1645
+msgid ""
+"data/events_sector_radikal.xml$//event[@name=\"RKS_BIL_BAM_SYSTEMS\"]/choice[1]/event/choice/event/choice[@req=\"shields\"]/text"
+msgstr ""
+
+#: src-en/data/events_sector_radikal.xml:1650
+msgid ""
+"data/events_sector_radikal.xml$//event[@name=\"RKS_BIL_BAM_SYSTEMS\"]/choice[1]/event/choice/event/choice[@req=\"weapons\"]/text"
+msgstr ""
+
+#: src-en/data/events_sector_radikal.xml:1655
+msgid ""
+"data/events_sector_radikal.xml$//event[@name=\"RKS_BIL_BAM_SYSTEMS\"]/choice[1]/event/choice/event/choice[4]/text"
+msgstr ""
+
+#: src-en/data/events_sector_radikal.xml:1657
+msgid ""
+"data/events_sector_radikal.xml$//event[@name=\"RKS_BIL_BAM_SYSTEMS\"]/choice[1]/event/choice/event/choice[4]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_radikal.xml:1671
+msgid ""
+"data/events_sector_radikal.xml$//event[@name=\"RKS_BIL_BAM_SYSTEMS\"]/choice[2]/text"
+msgstr ""
+
+#: src-en/data/events_sector_radikal.xml:1673
+msgid ""
+"data/events_sector_radikal.xml$//event[@name=\"RKS_BIL_BAM_SYSTEMS\"]/choice[2]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_radikal.xml:1680
+#, fuzzy
+msgid ""
+"data/events_sector_radikal.xml$//event[@name=\"RKS_BIL_BAM_SYSTEMS\"]/choice[2]/event/choice/text"
+msgstr "继续。"
+
+#: src-en/data/events_sector_radikal.xml:1687
+msgid ""
+"data/events_sector_radikal.xml$//event[@name=\"RKS_BIL_BAM_SYSTEMS\"]/choice[3]/text"
+msgstr ""
+
+#: src-en/data/events_sector_radikal.xml:1689
+msgid ""
+"data/events_sector_radikal.xml$//event[@name=\"RKS_BIL_BAM_SYSTEMS\"]/choice[3]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_radikal.xml:1701
+msgid ""
+"data/events_sector_radikal.xml$//event[@name=\"RKS_BIL_BAM_SYSTEMS\"]/choice[4]/text"
+msgstr ""
+
+#: src-en/data/events_sector_radikal.xml:1706
+msgid ""
+"data/events_sector_radikal.xml$//event[@name=\"RKS_BIL_BAM_SYSTEMS\"]/choice[5]/text"
+msgstr ""
+
+#: src-en/data/events_sector_radikal.xml:1730
+msgid ""
+"data/events_sector_radikal.xml$//textList[@name=\"RKS_BIL_BAM_FINISHED_TEXT\"]/text"
+msgstr ""
+
+#: src-en/data/events_sector_radikal.xml:1741
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_BIL_SCORCH_REACTOR\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1590
+#: src-en/data/events_sector_radikal.xml:1754
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_BIL_SCORCH_REACTOR\"]/choice[@req=\"reactor\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1592
+#: src-en/data/events_sector_radikal.xml:1756
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_BIL_SCORCH_REACTOR\"]/choice[@req=\"reactor\"]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1602
+#: src-en/data/events_sector_radikal.xml:1766
 #, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_BIL_SCORCH_REACTOR\"]/choice[@req=\"reactor\"]/event/choice/text"
 msgstr "继续。"
 
-#: src-en/data/events_sector_radikal.xml:1609
+#: src-en/data/events_sector_radikal.xml:1773
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_BIL_SCORCH_REACTOR\"]/choice[2]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1611
+#: src-en/data/events_sector_radikal.xml:1775
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_BIL_SCORCH_REACTOR\"]/choice[2]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1619
+#: src-en/data/events_sector_radikal.xml:1782
 #, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_BIL_SCORCH_REACTOR\"]/choice[2]/event/choice/text"
 msgstr "继续。"
 
-#: src-en/data/events_sector_radikal.xml:1626
+#: src-en/data/events_sector_radikal.xml:1789
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_BIL_SCORCH_REACTOR\"]/choice[3]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1631
+#: src-en/data/events_sector_radikal.xml:1791
+msgid ""
+"data/events_sector_radikal.xml$//event[@name=\"RKS_BIL_SCORCH_REACTOR\"]/choice[3]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_radikal.xml:1799
+#, fuzzy
+msgid ""
+"data/events_sector_radikal.xml$//event[@name=\"RKS_BIL_SCORCH_REACTOR\"]/choice[3]/event/choice/text"
+msgstr "继续。"
+
+#: src-en/data/events_sector_radikal.xml:1806
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_BIL_SCORCH_REACTOR\"]/choice[4]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1638
+#: src-en/data/events_sector_radikal.xml:1811
+msgid ""
+"data/events_sector_radikal.xml$//event[@name=\"RKS_BIL_SCORCH_REACTOR\"]/choice[5]/text"
+msgstr ""
+
+#: src-en/data/events_sector_radikal.xml:1818
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_UPGRADE_REACTOR_BY_5\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1671
+#: src-en/data/events_sector_radikal.xml:1851
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_UPGRADE_REACTOR_BY_5\"]/choice/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1722
+#: src-en/data/events_sector_radikal.xml:1906
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1727
+#: src-en/data/events_sector_radikal.xml:1911
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS\"]/choice[@req=\"temporal\""
 " and @lvl=\"0\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1731
+#: src-en/data/events_sector_radikal.xml:1915
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS\"]/choice[@req=\"temporal\""
 " and @lvl=\"1\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1733
+#: src-en/data/events_sector_radikal.xml:1917
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS\"]/choice[@req=\"temporal\""
 " and @lvl=\"1\"]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1737
+#: src-en/data/events_sector_radikal.xml:1921
 #, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS\"]/choice[@req=\"temporal\""
 " and @lvl=\"1\"]/event/choice/text"
 msgstr "继续。"
 
-#: src-en/data/events_sector_radikal.xml:1744
+#: src-en/data/events_sector_radikal.xml:1928
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS\"]/choice[@req=\"RKS_HAS_HIGH_SENSORS_AND_HACKING\""
 " and @lvl=\"0\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1748
+#: src-en/data/events_sector_radikal.xml:1932
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS\"]/choice[@req=\"RKS_HAS_HIGH_SENSORS_AND_HACKING\""
 " and not(@lvl)]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1750
+#: src-en/data/events_sector_radikal.xml:1934
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS\"]/choice[@req=\"RKS_HAS_HIGH_SENSORS_AND_HACKING\""
 " and not(@lvl)]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1754
+#: src-en/data/events_sector_radikal.xml:1938
 #, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS\"]/choice[@req=\"RKS_HAS_HIGH_SENSORS_AND_HACKING\""
 " and not(@lvl)]/event/choice/text"
 msgstr "继续。"
 
-#: src-en/data/events_sector_radikal.xml:1761
+#: src-en/data/events_sector_radikal.xml:1945
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS\"]/choice[@req=\"RKS_HAS_ENGI_AND_LANIUS\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1763
+#: src-en/data/events_sector_radikal.xml:1947
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS\"]/choice[@req=\"RKS_HAS_ENGI_AND_LANIUS\"]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1771
+#: src-en/data/events_sector_radikal.xml:1955
 #, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS\"]/choice[@req=\"RKS_HAS_ENGI_AND_LANIUS\"]/event/choice/text"
 msgstr "继续。"
 
-#: src-en/data/events_sector_radikal.xml:1778
+#: src-en/data/events_sector_radikal.xml:1962
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS\"]/choice[6]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1780
+#: src-en/data/events_sector_radikal.xml:1964
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS\"]/choice[6]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1784
+#: src-en/data/events_sector_radikal.xml:1968
 #, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS\"]/choice[6]/event/choice/text"
 msgstr "继续。"
 
-#: src-en/data/events_sector_radikal.xml:1792
+#: src-en/data/events_sector_radikal.xml:1976
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS_2\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1798
+#: src-en/data/events_sector_radikal.xml:1982
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS_2\"]/choice[1]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1800
+#: src-en/data/events_sector_radikal.xml:1984
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS_2\"]/choice[1]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1804
+#: src-en/data/events_sector_radikal.xml:1988
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS_2\"]/choice[1]/event/choice[@req=\"mind\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1806
+#: src-en/data/events_sector_radikal.xml:1990
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS_2\"]/choice[1]/event/choice[@req=\"mind\"]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1813
+#: src-en/data/events_sector_radikal.xml:1997
 #, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS_2\"]/choice[1]/event/choice[@req=\"mind\"]/event/choice/text"
 msgstr "继续。"
 
-#: src-en/data/events_sector_radikal.xml:1820
+#: src-en/data/events_sector_radikal.xml:2004
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS_2\"]/choice[1]/event/choice[2]/text"
 msgstr "联系他们。"
 
-#: src-en/data/events_sector_radikal.xml:1822
+#: src-en/data/events_sector_radikal.xml:2006
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS_2\"]/choice[1]/event/choice[2]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1832
+#: src-en/data/events_sector_radikal.xml:2016
 #, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS_2\"]/choice[1]/event/choice[2]/event/choice/text"
 msgstr "继续。"
 
-#: src-en/data/events_sector_radikal.xml:1839
+#: src-en/data/events_sector_radikal.xml:2023
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS_2\"]/choice[1]/event/choice[3]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1846
+#: src-en/data/events_sector_radikal.xml:2030
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS_2\"]/choice[2]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1848
+#: src-en/data/events_sector_radikal.xml:2032
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS_2\"]/choice[2]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1852
+#: src-en/data/events_sector_radikal.xml:2036
 #, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS_2\"]/choice[2]/event/choice/text"
 msgstr "继续。"
 
-#: src-en/data/events_sector_radikal.xml:1861
+#: src-en/data/events_sector_radikal.xml:2045
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_DEFROMORIUS_SUSPICIOUS\"]/gotaway/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1865
+#: src-en/data/events_sector_radikal.xml:2049
 #, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_DEFROMORIUS_SUSPICIOUS\"]/gotaway/choice/text"
 msgstr "继续。"
 
-#: src-en/data/events_sector_radikal.xml:1870
+#: src-en/data/events_sector_radikal.xml:2054
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_DEFROMORIUS_SUSPICIOUS\"]/surrender/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1876
+#: src-en/data/events_sector_radikal.xml:2060
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_DEFROMORIUS_SUSPICIOUS\"]/surrender/choice[1]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1878
+#: src-en/data/events_sector_radikal.xml:2062
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_DEFROMORIUS_SUSPICIOUS\"]/surrender/choice[1]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1891
+#: src-en/data/events_sector_radikal.xml:2075
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_DEFROMORIUS_SUSPICIOUS\"]/surrender/choice[1]/event/choice/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1893
+#: src-en/data/events_sector_radikal.xml:2077
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_DEFROMORIUS_SUSPICIOUS\"]/surrender/choice[1]/event/choice/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1899
+#: src-en/data/events_sector_radikal.xml:2083
 #, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_DEFROMORIUS_SUSPICIOUS\"]/surrender/choice[1]/event/choice/event/choice/text"
 msgstr "继续。"
 
-#: src-en/data/events_sector_radikal.xml:1908
+#: src-en/data/events_sector_radikal.xml:2092
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_DEFROMORIUS_SUSPICIOUS\"]/surrender/choice[2]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1913
+#: src-en/data/events_sector_radikal.xml:2097
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_DEFROMORIUS_SUSPICIOUS\"]/destroyed/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1916
+#: src-en/data/events_sector_radikal.xml:2100
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_DEFROMORIUS_SUSPICIOUS\"]/destroyed/choice/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1921
+#: src-en/data/events_sector_radikal.xml:2105
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_DEFROMORIUS_SUSPICIOUS\"]/deadCrew/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1924
+#: src-en/data/events_sector_radikal.xml:2108
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_DEFROMORIUS_SUSPICIOUS\"]/deadCrew/choice/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1947
+#: src-en/data/events_sector_radikal.xml:2131
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS_SHUTTLE\"]/beaconType/unvisitedTooltip"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1950
+#: src-en/data/events_sector_radikal.xml:2134
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS_SHUTTLE\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1956
+#: src-en/data/events_sector_radikal.xml:2140
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS_SHUTTLE\"]/choice[1]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1958
+#: src-en/data/events_sector_radikal.xml:2142
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS_SHUTTLE\"]/choice[1]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1964
+#: src-en/data/events_sector_radikal.xml:2148
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS_SHUTTLE\"]/choice[1]/event/choice/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1966
+#: src-en/data/events_sector_radikal.xml:2150
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS_SHUTTLE\"]/choice[1]/event/choice/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1975
+#: src-en/data/events_sector_radikal.xml:2159
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS_SHUTTLE\"]/choice[1]/event/choice/event/choice[1]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1977
+#: src-en/data/events_sector_radikal.xml:2161
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS_SHUTTLE\"]/choice[1]/event/choice/event/choice[1]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1982
+#: src-en/data/events_sector_radikal.xml:2166
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS_SHUTTLE\"]/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_COMBAT_OXYGENIZER\""
 " and @lvl=\"0\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1987
+#: src-en/data/events_sector_radikal.xml:2171
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS_SHUTTLE\"]/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_COMBAT_OXYGENIZER\""
 " and not(@lvl)]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1992
+#: src-en/data/events_sector_radikal.xml:2176
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS_SHUTTLE\"]/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"NANO_MEDBAY\""
 " and @lvl=\"0\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:1997
+#: src-en/data/events_sector_radikal.xml:2181
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS_SHUTTLE\"]/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"NANO_MEDBAY\""
 " and not(@lvl)]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:2002
+#: src-en/data/events_sector_radikal.xml:2186
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS_SHUTTLE\"]/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_BOMBLAUNCHER_OXYBOTTLE\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:2004
+#: src-en/data/events_sector_radikal.xml:2188
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS_SHUTTLE\"]/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_BOMBLAUNCHER_OXYBOTTLE\"]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:2007
+#: src-en/data/events_sector_radikal.xml:2191
 #, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS_SHUTTLE\"]/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_BOMBLAUNCHER_OXYBOTTLE\"]/event/choice/text"
 msgstr "继续。"
 
-#: src-en/data/events_sector_radikal.xml:2014
+#: src-en/data/events_sector_radikal.xml:2198
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS_SHUTTLE\"]/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"BLUELIST_BOMBS_HEAL\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:2017
+#: src-en/data/events_sector_radikal.xml:2201
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS_SHUTTLE\"]/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"BLUELIST_BOMBS_HEAL\"]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:2023
+#: src-en/data/events_sector_radikal.xml:2207
 #, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS_SHUTTLE\"]/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"BLUELIST_BOMBS_HEAL\"]/event/choice/text"
 msgstr "继续。"
 
-#: src-en/data/events_sector_radikal.xml:2030
+#: src-en/data/events_sector_radikal.xml:2214
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS_SHUTTLE\"]/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"oxygen\""
 " and not(@lvl)]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:2035
+#: src-en/data/events_sector_radikal.xml:2219
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS_SHUTTLE\"]/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"oxygen\""
 " and @lvl=\"3\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:2037
+#: src-en/data/events_sector_radikal.xml:2221
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS_SHUTTLE\"]/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"oxygen\""
 " and @lvl=\"3\"]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:2044
+#: src-en/data/events_sector_radikal.xml:2228
 #, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS_SHUTTLE\"]/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"oxygen\""
 " and @lvl=\"3\"]/event/choice/text"
 msgstr "继续。"
 
-#: src-en/data/events_sector_radikal.xml:2051
+#: src-en/data/events_sector_radikal.xml:2235
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS_SHUTTLE\"]/choice[1]/event/choice/event/choice[1]/event/choice[9]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:2053
+#: src-en/data/events_sector_radikal.xml:2237
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS_SHUTTLE\"]/choice[1]/event/choice/event/choice[1]/event/choice[9]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:2058
+#: src-en/data/events_sector_radikal.xml:2242
 #, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS_SHUTTLE\"]/choice[1]/event/choice/event/choice[1]/event/choice[9]/event/choice/text"
 msgstr "继续。"
 
-#: src-en/data/events_sector_radikal.xml:2067
+#: src-en/data/events_sector_radikal.xml:2251
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS_SHUTTLE\"]/choice[1]/event/choice/event/choice[2]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:2069
+#: src-en/data/events_sector_radikal.xml:2253
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS_SHUTTLE\"]/choice[1]/event/choice/event/choice[2]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:2076
+#: src-en/data/events_sector_radikal.xml:2260
 #, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS_SHUTTLE\"]/choice[1]/event/choice/event/choice[2]/event/choice/text"
 msgstr "继续。"
 
-#: src-en/data/events_sector_radikal.xml:2087
+#: src-en/data/events_sector_radikal.xml:2271
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS_SHUTTLE\"]/choice[2]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:2093
+#: src-en/data/events_sector_radikal.xml:2277
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS_OFFER\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:2103
+#: src-en/data/events_sector_radikal.xml:2287
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS_OFFER\"]/crewMember"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:2107
+#: src-en/data/events_sector_radikal.xml:2291
 #, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS_OFFER\"]/choice/text"
 msgstr "继续。"
 
-#: src-en/data/events_sector_radikal.xml:2139
+#: src-en/data/events_sector_radikal.xml:2323
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM\"]/beaconType/unvisitedTooltip"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:2142
+#: src-en/data/events_sector_radikal.xml:2326
 msgid "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:2151
+#: src-en/data/events_sector_radikal.xml:2335
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM\"]/choice[@req=\"DJMOD_HAS_RADIKAL_BAM_GEAR\""
 " and @lvl=\"0\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:2156
+#: src-en/data/events_sector_radikal.xml:2340
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM\"]/choice[@req=\"DJMOD_HAS_RADIKAL_BAM_GEAR\""
 " and not(@lvl)]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:2158
+#: src-en/data/events_sector_radikal.xml:2342
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM\"]/choice[@req=\"DJMOD_HAS_RADIKAL_BAM_GEAR\""
 " and not(@lvl)]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:2162
+#: src-en/data/events_sector_radikal.xml:2346
 #, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM\"]/choice[@req=\"DJMOD_HAS_RADIKAL_BAM_GEAR\""
 " and not(@lvl)]/event/choice/text"
 msgstr "继续。"
 
-#: src-en/data/events_sector_radikal.xml:2169
+#: src-en/data/events_sector_radikal.xml:2353
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM\"]/choice[@req=\"DJMOD_HAS_RADIKAL_GEAR\""
 " and @lvl=\"0\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:2174
+#: src-en/data/events_sector_radikal.xml:2358
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM\"]/choice[@req=\"DJMOD_HAS_RADIKAL_GEAR\""
 " and not(@lvl)]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:2176
+#: src-en/data/events_sector_radikal.xml:2360
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM\"]/choice[@req=\"DJMOD_HAS_RADIKAL_GEAR\""
 " and not(@lvl)]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:2179
+#: src-en/data/events_sector_radikal.xml:2363
 #, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM\"]/choice[@req=\"DJMOD_HAS_RADIKAL_GEAR\""
 " and not(@lvl)]/event/choice/text"
 msgstr "继续。"
 
-#: src-en/data/events_sector_radikal.xml:2186
+#: src-en/data/events_sector_radikal.xml:2370
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM\"]/choice[@req=\"RKS_HAS_ANY_SACRIFICEABLE_MANTIS\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:2188
+#: src-en/data/events_sector_radikal.xml:2372
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM\"]/choice[@req=\"RKS_HAS_ANY_SACRIFICEABLE_MANTIS\"]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:2193
+#: src-en/data/events_sector_radikal.xml:2377
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM\"]/choice[@req=\"RKS_HAS_ANY_SACRIFICEABLE_MANTIS\"]/event/choice[@req=\"rks_lab_coords_punk\""
 " and @lvl=\"0\"]/text"
 msgstr "好吧。"
 
-#: src-en/data/events_sector_radikal.xml:2195
+#: src-en/data/events_sector_radikal.xml:2379
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM\"]/choice[@req=\"RKS_HAS_ANY_SACRIFICEABLE_MANTIS\"]/event/choice[@req=\"rks_lab_coords_punk\""
 " and @lvl=\"0\"]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:2204
+#: src-en/data/events_sector_radikal.xml:2388
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM\"]/choice[@req=\"RKS_HAS_ANY_SACRIFICEABLE_MANTIS\"]/event/choice[@req=\"rks_lab_coords_punk\""
 " and @lvl=\"0\"]/event/choice[1]/text"
 msgstr "星舰管理。"
 
-#: src-en/data/events_sector_radikal.xml:2208
+#: src-en/data/events_sector_radikal.xml:2392
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM\"]/choice[@req=\"RKS_HAS_ANY_SACRIFICEABLE_MANTIS\"]/event/choice[@req=\"rks_lab_coords_punk\""
 " and @lvl=\"0\"]/event/choice[2]/text"
 msgstr "跳过。"
 
-#: src-en/data/events_sector_radikal.xml:2215
+#: src-en/data/events_sector_radikal.xml:2399
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM\"]/choice[@req=\"RKS_HAS_ANY_SACRIFICEABLE_MANTIS\"]/event/choice[@req=\"rks_lab_coords_punk\""
 " and @lvl=\"1\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:2220
+#: src-en/data/events_sector_radikal.xml:2404
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM\"]/choice[@req=\"RKS_HAS_ANY_SACRIFICEABLE_MANTIS\"]/event/choice[3]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:2228
+#: src-en/data/events_sector_radikal.xml:2412
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM\"]/choice[@req=\"RKS_HAS_ANY_SACRIFICEABLE_ORCHID\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:2230
+#: src-en/data/events_sector_radikal.xml:2414
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM\"]/choice[@req=\"RKS_HAS_ANY_SACRIFICEABLE_ORCHID\"]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:2234
+#: src-en/data/events_sector_radikal.xml:2418
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM\"]/choice[@req=\"RKS_HAS_ANY_SACRIFICEABLE_ORCHID\"]/event/choice[@req=\"rks_lab_coords_scorch\""
 " and @lvl=\"0\"]/text"
 msgstr "好吧。"
 
-#: src-en/data/events_sector_radikal.xml:2236
+#: src-en/data/events_sector_radikal.xml:2420
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM\"]/choice[@req=\"RKS_HAS_ANY_SACRIFICEABLE_ORCHID\"]/event/choice[@req=\"rks_lab_coords_scorch\""
 " and @lvl=\"0\"]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:2243
+#: src-en/data/events_sector_radikal.xml:2427
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM\"]/choice[@req=\"RKS_HAS_ANY_SACRIFICEABLE_ORCHID\"]/event/choice[@req=\"rks_lab_coords_scorch\""
 " and @lvl=\"0\"]/event/choice[1]/text"
 msgstr "星舰管理。"
 
-#: src-en/data/events_sector_radikal.xml:2247
+#: src-en/data/events_sector_radikal.xml:2431
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM\"]/choice[@req=\"RKS_HAS_ANY_SACRIFICEABLE_ORCHID\"]/event/choice[@req=\"rks_lab_coords_scorch\""
 " and @lvl=\"0\"]/event/choice[2]/text"
 msgstr "跳过。"
 
-#: src-en/data/events_sector_radikal.xml:2254
+#: src-en/data/events_sector_radikal.xml:2438
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM\"]/choice[@req=\"RKS_HAS_ANY_SACRIFICEABLE_ORCHID\"]/event/choice[@req=\"rks_lab_coords_scorch\""
 " and @lvl=\"1\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:2259
+#: src-en/data/events_sector_radikal.xml:2443
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM\"]/choice[@req=\"RKS_HAS_ANY_SACRIFICEABLE_ORCHID\"]/event/choice[3]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:2267
+#: src-en/data/events_sector_radikal.xml:2451
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM\"]/choice[7]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:2269
+#: src-en/data/events_sector_radikal.xml:2453
 #, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM\"]/choice[7]/event/text"
 msgstr "你的飞船很快被不知来源的攻击击中。“滚开，游客。你已经被警告过了。”"
 
-#: src-en/data/events_sector_radikal.xml:2273
+#: src-en/data/events_sector_radikal.xml:2457
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM\"]/choice[7]/event/choice[1]/text"
 msgstr "星舰管理。"
 
-#: src-en/data/events_sector_radikal.xml:2277
+#: src-en/data/events_sector_radikal.xml:2461
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM\"]/choice[7]/event/choice[2]/text"
 msgstr "跳过。"
 
-#: src-en/data/events_sector_radikal.xml:2284
+#: src-en/data/events_sector_radikal.xml:2468
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM\"]/choice[8]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:2286
+#: src-en/data/events_sector_radikal.xml:2470
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM\"]/choice[8]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:2291
+#: src-en/data/events_sector_radikal.xml:2475
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM\"]/choice[8]/event/choice[1]/text"
 msgstr "星舰管理。"
 
-#: src-en/data/events_sector_radikal.xml:2295
+#: src-en/data/events_sector_radikal.xml:2479
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM\"]/choice[8]/event/choice[2]/text"
 msgstr "跳过。"
 
-#: src-en/data/events_sector_radikal.xml:2303
+#: src-en/data/events_sector_radikal.xml:2487
 msgid "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM_2\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:2310
+#: src-en/data/events_sector_radikal.xml:2494
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM_2\"]/choice[@req=\"RKS_HAS_ANY_SACRIFICEABLE_LANIUS\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:2315
+#: src-en/data/events_sector_radikal.xml:2499
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM_2\"]/choice[@req=\"lanius\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:2317
+#: src-en/data/events_sector_radikal.xml:2501
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM_2\"]/choice[@req=\"lanius\"]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:2327
+#: src-en/data/events_sector_radikal.xml:2511
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM_2\"]/choice[@req=\"lanius\"]/event/removeCrew/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:2331
+#: src-en/data/events_sector_radikal.xml:2515
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM_2\"]/choice[@req=\"lanius\"]/event/choice/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:2340
+#: src-en/data/events_sector_radikal.xml:2524
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM_2\"]/choice[@req=\"lanius_welder\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:2342
+#: src-en/data/events_sector_radikal.xml:2526
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM_2\"]/choice[@req=\"lanius_welder\"]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:2353
+#: src-en/data/events_sector_radikal.xml:2537
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM_2\"]/choice[@req=\"lanius_welder\"]/event/removeCrew/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:2357
+#: src-en/data/events_sector_radikal.xml:2541
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM_2\"]/choice[@req=\"lanius_welder\"]/event/choice/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:2363
+#: src-en/data/events_sector_radikal.xml:2547
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM_2\"]/choice[@req=\"lanius_augmented\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:2365
+#: src-en/data/events_sector_radikal.xml:2549
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM_2\"]/choice[@req=\"lanius_augmented\"]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:2378
+#: src-en/data/events_sector_radikal.xml:2562
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM_2\"]/choice[@req=\"lanius_augmented\"]/event/removeCrew/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:2382
+#: src-en/data/events_sector_radikal.xml:2566
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM_2\"]/choice[@req=\"lanius_augmented\"]/event/choice/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:2390
+#: src-en/data/events_sector_radikal.xml:2574
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM_2\"]/choice[@req=\"RKS_HAS_ANY_SACRIFICEABLE_SHELL\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:2395
+#: src-en/data/events_sector_radikal.xml:2579
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM_2\"]/choice[@req=\"shell\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:2397
+#: src-en/data/events_sector_radikal.xml:2581
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM_2\"]/choice[@req=\"shell\"]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:2407
+#: src-en/data/events_sector_radikal.xml:2591
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM_2\"]/choice[@req=\"shell\"]/event/removeCrew/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:2411
+#: src-en/data/events_sector_radikal.xml:2595
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM_2\"]/choice[@req=\"shell\"]/event/choice/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:2418
+#: src-en/data/events_sector_radikal.xml:2602
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM_2\"]/choice[@req=\"shell_guardian\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:2420
+#: src-en/data/events_sector_radikal.xml:2604
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM_2\"]/choice[@req=\"shell_guardian\"]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:2431
+#: src-en/data/events_sector_radikal.xml:2615
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM_2\"]/choice[@req=\"shell_guardian\"]/event/removeCrew/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:2435
+#: src-en/data/events_sector_radikal.xml:2619
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM_2\"]/choice[@req=\"shell_guardian\"]/event/choice/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:2441
+#: src-en/data/events_sector_radikal.xml:2625
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM_2\"]/choice[@req=\"shell_scientist\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:2443
+#: src-en/data/events_sector_radikal.xml:2627
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM_2\"]/choice[@req=\"shell_scientist\"]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:2454
+#: src-en/data/events_sector_radikal.xml:2638
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM_2\"]/choice[@req=\"shell_scientist\"]/event/removeCrew/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:2458
+#: src-en/data/events_sector_radikal.xml:2642
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM_2\"]/choice[@req=\"shell_scientist\"]/event/choice/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:2464
+#: src-en/data/events_sector_radikal.xml:2648
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM_2\"]/choice[@req=\"shell_mechanic\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:2466
+#: src-en/data/events_sector_radikal.xml:2650
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM_2\"]/choice[@req=\"shell_mechanic\"]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:2477
+#: src-en/data/events_sector_radikal.xml:2661
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM_2\"]/choice[@req=\"shell_mechanic\"]/event/removeCrew/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:2481
+#: src-en/data/events_sector_radikal.xml:2665
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM_2\"]/choice[@req=\"shell_mechanic\"]/event/choice/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:2488
+#: src-en/data/events_sector_radikal.xml:2672
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM_2\"]/choice[@req=\"shell_radiant\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:2490
+#: src-en/data/events_sector_radikal.xml:2674
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM_2\"]/choice[@req=\"shell_radiant\"]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:2500
+#: src-en/data/events_sector_radikal.xml:2684
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM_2\"]/choice[@req=\"shell_radiant\"]/event/removeCrew/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:2504
+#: src-en/data/events_sector_radikal.xml:2688
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM_2\"]/choice[@req=\"shell_radiant\"]/event/choice/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:2511
+#: src-en/data/events_sector_radikal.xml:2695
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM_2\"]/choice[11]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:2516
+#: src-en/data/events_sector_radikal.xml:2700
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM_2\"]/choice[12]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:2522
+#: src-en/data/events_sector_radikal.xml:2706
 msgid "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM_3\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:2530
+#: src-en/data/events_sector_radikal.xml:2714
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM_3\"]/choice[1]/text"
 msgstr "星舰管理。"
 
-#: src-en/data/events_sector_radikal.xml:2534
+#: src-en/data/events_sector_radikal.xml:2718
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM_3\"]/choice[2]/text"
 msgstr "跳过。"
 
-#: src-en/data/events_sector_radikal.xml:2540
+#: src-en/data/events_sector_radikal.xml:2724
 msgid "data/events_sector_radikal.xml$//event[@name=\"RKS_LAB_BAM_AMBUSH\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:2555
+#: src-en/data/events_sector_radikal.xml:2739
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_LAB_BAM_AMBUSH\"]/choice[@req=\"unique_alkali\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:2560
+#: src-en/data/events_sector_radikal.xml:2744
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_LAB_BAM_AMBUSH\"]/choice[2]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:2562
+#: src-en/data/events_sector_radikal.xml:2746
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_LAB_BAM_AMBUSH\"]/choice[2]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:2571
+#: src-en/data/events_sector_radikal.xml:2755
 #, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_LAB_BAM_AMBUSH\"]/choice[2]/event/choice/text"
 msgstr "继续。"
 
-#: src-en/data/events_sector_radikal.xml:2580
+#: src-en/data/events_sector_radikal.xml:2764
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_LAB_BAM_ATTACKER\"]/destroyed/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:2583
+#: src-en/data/events_sector_radikal.xml:2767
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_LAB_BAM_ATTACKER\"]/destroyed/choice/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:2588
+#: src-en/data/events_sector_radikal.xml:2772
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_LAB_BAM_ATTACKER\"]/deadCrew/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:2591
+#: src-en/data/events_sector_radikal.xml:2775
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_LAB_BAM_ATTACKER\"]/deadCrew/choice/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:2619
+#: src-en/data/events_sector_radikal.xml:2803
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK\"]/beaconType/unvisitedTooltip"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:2622
+#: src-en/data/events_sector_radikal.xml:2806
 msgid "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK\"]/text"
-msgstr ""
-
-#: src-en/data/events_sector_radikal.xml:2630
-msgid ""
-"data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK\"]/choice[@req=\"DJMOD_HAS_RADIKAL_PUNK_GEAR\""
-" and @lvl=\"0\"]/text"
-msgstr ""
-
-#: src-en/data/events_sector_radikal.xml:2635
-msgid ""
-"data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK\"]/choice[@req=\"DJMOD_HAS_RADIKAL_PUNK_GEAR\""
-" and not(@lvl)]/text"
-msgstr ""
-
-#: src-en/data/events_sector_radikal.xml:2637
-msgid ""
-"data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK\"]/choice[@req=\"DJMOD_HAS_RADIKAL_PUNK_GEAR\""
-" and not(@lvl)]/event/text"
-msgstr ""
-
-#: src-en/data/events_sector_radikal.xml:2641
-#, fuzzy
-msgid ""
-"data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK\"]/choice[@req=\"DJMOD_HAS_RADIKAL_PUNK_GEAR\""
-" and not(@lvl)]/event/choice/text"
-msgstr "继续。"
-
-#: src-en/data/events_sector_radikal.xml:2648
-msgid ""
-"data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK\"]/choice[@req=\"DJMOD_HAS_RADIKAL_GEAR\""
-" and @lvl=\"0\"]/text"
-msgstr ""
-
-#: src-en/data/events_sector_radikal.xml:2653
-msgid ""
-"data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK\"]/choice[@req=\"DJMOD_HAS_RADIKAL_GEAR\""
-" and not(@lvl)]/text"
-msgstr ""
-
-#: src-en/data/events_sector_radikal.xml:2655
-msgid ""
-"data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK\"]/choice[@req=\"DJMOD_HAS_RADIKAL_GEAR\""
-" and not(@lvl)]/event/text"
-msgstr ""
-
-#: src-en/data/events_sector_radikal.xml:2658
-#, fuzzy
-msgid ""
-"data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK\"]/choice[@req=\"DJMOD_HAS_RADIKAL_GEAR\""
-" and not(@lvl)]/event/choice/text"
-msgstr "继续。"
-
-#: src-en/data/events_sector_radikal.xml:2665
-msgid ""
-"data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK\"]/choice[5]/text"
-msgstr ""
-
-#: src-en/data/events_sector_radikal.xml:2667
-msgid ""
-"data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK\"]/choice[5]/event/text"
-msgstr ""
-
-#: src-en/data/events_sector_radikal.xml:2671
-msgid ""
-"data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK\"]/choice[5]/event/choice[1]/text"
-msgstr "星舰管理。"
-
-#: src-en/data/events_sector_radikal.xml:2675
-msgid ""
-"data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK\"]/choice[5]/event/choice[2]/text"
-msgstr "跳过。"
-
-#: src-en/data/events_sector_radikal.xml:2682
-msgid ""
-"data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK\"]/choice[6]/text"
-msgstr ""
-
-#: src-en/data/events_sector_radikal.xml:2684
-msgid ""
-"data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK\"]/choice[6]/event/text"
-msgstr ""
-
-#: src-en/data/events_sector_radikal.xml:2689
-msgid ""
-"data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK\"]/choice[6]/event/choice[1]/text"
-msgstr "星舰管理。"
-
-#: src-en/data/events_sector_radikal.xml:2693
-msgid ""
-"data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK\"]/choice[6]/event/choice[2]/text"
-msgstr "跳过。"
-
-#: src-en/data/events_sector_radikal.xml:2701
-msgid ""
-"data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/text"
-msgstr ""
-
-#: src-en/data/events_sector_radikal.xml:2708
-msgid ""
-"data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[@req=\"RKS_HAS_ANY_SACRIFICEABLE_LEECH\"]/text"
-msgstr ""
-
-#: src-en/data/events_sector_radikal.xml:2713
-msgid ""
-"data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[@req=\"leech\"]/text"
-msgstr ""
-
-#: src-en/data/events_sector_radikal.xml:2715
-msgid ""
-"data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[@req=\"leech\"]/event/text"
-msgstr ""
-
-#: src-en/data/events_sector_radikal.xml:2725
-msgid ""
-"data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[@req=\"leech\"]/event/removeCrew/text"
-msgstr ""
-
-#: src-en/data/events_sector_radikal.xml:2729
-msgid ""
-"data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[@req=\"leech\"]/event/choice/text"
-msgstr ""
-
-#: src-en/data/events_sector_radikal.xml:2737
-msgid ""
-"data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[@req=\"leech_ampere\"]/text"
-msgstr ""
-
-#: src-en/data/events_sector_radikal.xml:2739
-msgid ""
-"data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[@req=\"leech_ampere\"]/event/text"
-msgstr ""
-
-#: src-en/data/events_sector_radikal.xml:2750
-msgid ""
-"data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[@req=\"leech_ampere\"]/event/removeCrew/text"
-msgstr ""
-
-#: src-en/data/events_sector_radikal.xml:2754
-msgid ""
-"data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[@req=\"leech_ampere\"]/event/choice/text"
-msgstr ""
-
-#: src-en/data/events_sector_radikal.xml:2762
-msgid ""
-"data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[@req=\"RKS_HAS_ANY_SACRIFICEABLE_MANTIS\"]/text"
-msgstr ""
-
-#: src-en/data/events_sector_radikal.xml:2767
-msgid ""
-"data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[@req=\"mantis\"]/text"
-msgstr ""
-
-#: src-en/data/events_sector_radikal.xml:2769
-msgid ""
-"data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[@req=\"mantis\"]/event/text"
-msgstr ""
-
-#: src-en/data/events_sector_radikal.xml:2779
-msgid ""
-"data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[@req=\"mantis\"]/event/removeCrew/text"
-msgstr ""
-
-#: src-en/data/events_sector_radikal.xml:2783
-msgid ""
-"data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[@req=\"mantis\"]/event/choice/text"
-msgstr ""
-
-#: src-en/data/events_sector_radikal.xml:2789
-msgid ""
-"data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[@req=\"mantis_free\"]/text"
-msgstr ""
-
-#: src-en/data/events_sector_radikal.xml:2791
-msgid ""
-"data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[@req=\"mantis_free\"]/event/text"
-msgstr ""
-
-#: src-en/data/events_sector_radikal.xml:2801
-msgid ""
-"data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[@req=\"mantis_free\"]/event/removeCrew/text"
-msgstr ""
-
-#: src-en/data/events_sector_radikal.xml:2805
-msgid ""
-"data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[@req=\"mantis_free\"]/event/choice/text"
-msgstr ""
-
-#: src-en/data/events_sector_radikal.xml:2812
-msgid ""
-"data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[@req=\"mantis_warlord\"]/text"
 msgstr ""
 
 #: src-en/data/events_sector_radikal.xml:2814
 msgid ""
-"data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[@req=\"mantis_warlord\"]/event/text"
+"data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK\"]/choice[@req=\"DJMOD_HAS_RADIKAL_PUNK_GEAR\""
+" and @lvl=\"0\"]/text"
+msgstr ""
+
+#: src-en/data/events_sector_radikal.xml:2819
+msgid ""
+"data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK\"]/choice[@req=\"DJMOD_HAS_RADIKAL_PUNK_GEAR\""
+" and not(@lvl)]/text"
+msgstr ""
+
+#: src-en/data/events_sector_radikal.xml:2821
+msgid ""
+"data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK\"]/choice[@req=\"DJMOD_HAS_RADIKAL_PUNK_GEAR\""
+" and not(@lvl)]/event/text"
 msgstr ""
 
 #: src-en/data/events_sector_radikal.xml:2825
+#, fuzzy
 msgid ""
-"data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[@req=\"mantis_warlord\"]/event/removeCrew/text"
-msgstr ""
+"data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK\"]/choice[@req=\"DJMOD_HAS_RADIKAL_PUNK_GEAR\""
+" and not(@lvl)]/event/choice/text"
+msgstr "继续。"
 
-#: src-en/data/events_sector_radikal.xml:2829
+#: src-en/data/events_sector_radikal.xml:2832
 msgid ""
-"data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[@req=\"mantis_warlord\"]/event/choice/text"
-msgstr ""
-
-#: src-en/data/events_sector_radikal.xml:2835
-msgid ""
-"data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[@req=\"mantis_suzerain\"]/text"
+"data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK\"]/choice[@req=\"DJMOD_HAS_RADIKAL_GEAR\""
+" and @lvl=\"0\"]/text"
 msgstr ""
 
 #: src-en/data/events_sector_radikal.xml:2837
 msgid ""
-"data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[@req=\"mantis_suzerain\"]/event/text"
+"data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK\"]/choice[@req=\"DJMOD_HAS_RADIKAL_GEAR\""
+" and not(@lvl)]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:2848
+#: src-en/data/events_sector_radikal.xml:2839
 msgid ""
-"data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[@req=\"mantis_suzerain\"]/event/removeCrew/text"
+"data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK\"]/choice[@req=\"DJMOD_HAS_RADIKAL_GEAR\""
+" and not(@lvl)]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:2852
+#: src-en/data/events_sector_radikal.xml:2842
+#, fuzzy
 msgid ""
-"data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[@req=\"mantis_suzerain\"]/event/choice/text"
+"data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK\"]/choice[@req=\"DJMOD_HAS_RADIKAL_GEAR\""
+" and not(@lvl)]/event/choice/text"
+msgstr "继续。"
+
+#: src-en/data/events_sector_radikal.xml:2849
+msgid ""
+"data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK\"]/choice[5]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:2858
+#: src-en/data/events_sector_radikal.xml:2851
 msgid ""
-"data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[@req=\"mantis_bishop\"]/text"
+"data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK\"]/choice[5]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:2860
+#: src-en/data/events_sector_radikal.xml:2855
 msgid ""
-"data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[@req=\"mantis_bishop\"]/event/text"
+"data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK\"]/choice[5]/event/choice[1]/text"
+msgstr "星舰管理。"
+
+#: src-en/data/events_sector_radikal.xml:2859
+msgid ""
+"data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK\"]/choice[5]/event/choice[2]/text"
+msgstr "跳过。"
+
+#: src-en/data/events_sector_radikal.xml:2866
+msgid ""
+"data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK\"]/choice[6]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:2870
+#: src-en/data/events_sector_radikal.xml:2868
 msgid ""
-"data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[@req=\"mantis_bishop\"]/event/removeCrew/text"
+"data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK\"]/choice[6]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:2874
+#: src-en/data/events_sector_radikal.xml:2873
 msgid ""
-"data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[@req=\"mantis_bishop\"]/event/choice/text"
-msgstr ""
+"data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK\"]/choice[6]/event/choice[1]/text"
+msgstr "星舰管理。"
 
-#: src-en/data/events_sector_radikal.xml:2881
+#: src-en/data/events_sector_radikal.xml:2877
 msgid ""
-"data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[10]/text"
-msgstr ""
+"data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK\"]/choice[6]/event/choice[2]/text"
+msgstr "跳过。"
 
-#: src-en/data/events_sector_radikal.xml:2886
+#: src-en/data/events_sector_radikal.xml:2885
 msgid ""
-"data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[11]/text"
+"data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/text"
 msgstr ""
 
 #: src-en/data/events_sector_radikal.xml:2892
 msgid ""
-"data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_3\"]/text"
+"data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[@req=\"RKS_HAS_ANY_SACRIFICEABLE_LEECH\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:2900
+#: src-en/data/events_sector_radikal.xml:2897
 msgid ""
-"data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_3\"]/choice[1]/text"
-msgstr "星舰管理。"
+"data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[@req=\"leech\"]/text"
+msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:2904
+#: src-en/data/events_sector_radikal.xml:2899
 msgid ""
-"data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_3\"]/choice[2]/text"
-msgstr "跳过。"
+"data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[@req=\"leech\"]/event/text"
+msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:2910
-msgid "data/events_sector_radikal.xml$//event[@name=\"RKS_LAB_PUNK_AMBUSH\"]/text"
+#: src-en/data/events_sector_radikal.xml:2909
+msgid ""
+"data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[@req=\"leech\"]/event/removeCrew/text"
+msgstr ""
+
+#: src-en/data/events_sector_radikal.xml:2913
+msgid ""
+"data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[@req=\"leech\"]/event/choice/text"
 msgstr ""
 
 #: src-en/data/events_sector_radikal.xml:2921
 msgid ""
+"data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[@req=\"leech_ampere\"]/text"
+msgstr ""
+
+#: src-en/data/events_sector_radikal.xml:2923
+msgid ""
+"data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[@req=\"leech_ampere\"]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_radikal.xml:2934
+msgid ""
+"data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[@req=\"leech_ampere\"]/event/removeCrew/text"
+msgstr ""
+
+#: src-en/data/events_sector_radikal.xml:2938
+msgid ""
+"data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[@req=\"leech_ampere\"]/event/choice/text"
+msgstr ""
+
+#: src-en/data/events_sector_radikal.xml:2946
+msgid ""
+"data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[@req=\"RKS_HAS_ANY_SACRIFICEABLE_MANTIS\"]/text"
+msgstr ""
+
+#: src-en/data/events_sector_radikal.xml:2951
+msgid ""
+"data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[@req=\"mantis\"]/text"
+msgstr ""
+
+#: src-en/data/events_sector_radikal.xml:2953
+msgid ""
+"data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[@req=\"mantis\"]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_radikal.xml:2963
+msgid ""
+"data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[@req=\"mantis\"]/event/removeCrew/text"
+msgstr ""
+
+#: src-en/data/events_sector_radikal.xml:2967
+msgid ""
+"data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[@req=\"mantis\"]/event/choice/text"
+msgstr ""
+
+#: src-en/data/events_sector_radikal.xml:2973
+msgid ""
+"data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[@req=\"mantis_free\"]/text"
+msgstr ""
+
+#: src-en/data/events_sector_radikal.xml:2975
+msgid ""
+"data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[@req=\"mantis_free\"]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_radikal.xml:2985
+msgid ""
+"data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[@req=\"mantis_free\"]/event/removeCrew/text"
+msgstr ""
+
+#: src-en/data/events_sector_radikal.xml:2989
+msgid ""
+"data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[@req=\"mantis_free\"]/event/choice/text"
+msgstr ""
+
+#: src-en/data/events_sector_radikal.xml:2996
+msgid ""
+"data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[@req=\"mantis_warlord\"]/text"
+msgstr ""
+
+#: src-en/data/events_sector_radikal.xml:2998
+msgid ""
+"data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[@req=\"mantis_warlord\"]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_radikal.xml:3009
+msgid ""
+"data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[@req=\"mantis_warlord\"]/event/removeCrew/text"
+msgstr ""
+
+#: src-en/data/events_sector_radikal.xml:3013
+msgid ""
+"data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[@req=\"mantis_warlord\"]/event/choice/text"
+msgstr ""
+
+#: src-en/data/events_sector_radikal.xml:3019
+msgid ""
+"data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[@req=\"mantis_suzerain\"]/text"
+msgstr ""
+
+#: src-en/data/events_sector_radikal.xml:3021
+msgid ""
+"data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[@req=\"mantis_suzerain\"]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_radikal.xml:3032
+msgid ""
+"data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[@req=\"mantis_suzerain\"]/event/removeCrew/text"
+msgstr ""
+
+#: src-en/data/events_sector_radikal.xml:3036
+msgid ""
+"data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[@req=\"mantis_suzerain\"]/event/choice/text"
+msgstr ""
+
+#: src-en/data/events_sector_radikal.xml:3042
+msgid ""
+"data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[@req=\"mantis_bishop\"]/text"
+msgstr ""
+
+#: src-en/data/events_sector_radikal.xml:3044
+msgid ""
+"data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[@req=\"mantis_bishop\"]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_radikal.xml:3054
+msgid ""
+"data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[@req=\"mantis_bishop\"]/event/removeCrew/text"
+msgstr ""
+
+#: src-en/data/events_sector_radikal.xml:3058
+msgid ""
+"data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[@req=\"mantis_bishop\"]/event/choice/text"
+msgstr ""
+
+#: src-en/data/events_sector_radikal.xml:3065
+msgid ""
+"data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[10]/text"
+msgstr ""
+
+#: src-en/data/events_sector_radikal.xml:3070
+msgid ""
+"data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[11]/text"
+msgstr ""
+
+#: src-en/data/events_sector_radikal.xml:3076
+msgid ""
+"data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_3\"]/text"
+msgstr ""
+
+#: src-en/data/events_sector_radikal.xml:3084
+msgid ""
+"data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_3\"]/choice[1]/text"
+msgstr "星舰管理。"
+
+#: src-en/data/events_sector_radikal.xml:3088
+msgid ""
+"data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_3\"]/choice[2]/text"
+msgstr "跳过。"
+
+#: src-en/data/events_sector_radikal.xml:3094
+msgid "data/events_sector_radikal.xml$//event[@name=\"RKS_LAB_PUNK_AMBUSH\"]/text"
+msgstr ""
+
+#: src-en/data/events_sector_radikal.xml:3105
+msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_LAB_PUNK_AMBUSH\"]/choice[@req=\"RKS_HAS_MANTIS_UNIQUE\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:2926
+#: src-en/data/events_sector_radikal.xml:3110
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_LAB_PUNK_AMBUSH\"]/choice[2]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:2928
+#: src-en/data/events_sector_radikal.xml:3112
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_LAB_PUNK_AMBUSH\"]/choice[2]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:2937
+#: src-en/data/events_sector_radikal.xml:3121
 #, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_LAB_PUNK_AMBUSH\"]/choice[2]/event/choice/text"
 msgstr "继续。"
 
-#: src-en/data/events_sector_radikal.xml:2945
+#: src-en/data/events_sector_radikal.xml:3129
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_LAB_PUNK_ATTACKER\"]/destroyed/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:2948
+#: src-en/data/events_sector_radikal.xml:3132
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_LAB_PUNK_ATTACKER\"]/destroyed/choice/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:2953
+#: src-en/data/events_sector_radikal.xml:3137
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_LAB_PUNK_ATTACKER\"]/deadCrew/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:2956
+#: src-en/data/events_sector_radikal.xml:3140
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_LAB_PUNK_ATTACKER\"]/deadCrew/choice/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:2982
+#: src-en/data/events_sector_radikal.xml:3166
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH\"]/beaconType/unvisitedTooltip"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:2985
+#: src-en/data/events_sector_radikal.xml:3169
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:2994
+#: src-en/data/events_sector_radikal.xml:3178
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH\"]/choice[@req=\"DJMOD_HAS_RADIKAL_SCORCH_GEAR\""
 " and @lvl=\"0\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:2999
+#: src-en/data/events_sector_radikal.xml:3183
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH\"]/choice[@req=\"DJMOD_HAS_RADIKAL_SCORCH_GEAR\""
 " and not(@lvl)]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:3001
+#: src-en/data/events_sector_radikal.xml:3185
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH\"]/choice[@req=\"DJMOD_HAS_RADIKAL_SCORCH_GEAR\""
 " and not(@lvl)]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:3005
+#: src-en/data/events_sector_radikal.xml:3189
 #, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH\"]/choice[@req=\"DJMOD_HAS_RADIKAL_SCORCH_GEAR\""
 " and not(@lvl)]/event/choice/text"
 msgstr "继续。"
 
-#: src-en/data/events_sector_radikal.xml:3012
+#: src-en/data/events_sector_radikal.xml:3196
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH\"]/choice[@req=\"DJMOD_HAS_RADIKAL_GEAR\""
 " and @lvl=\"0\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:3017
+#: src-en/data/events_sector_radikal.xml:3201
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH\"]/choice[@req=\"DJMOD_HAS_RADIKAL_GEAR\""
 " and not(@lvl)]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:3019
+#: src-en/data/events_sector_radikal.xml:3203
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH\"]/choice[@req=\"DJMOD_HAS_RADIKAL_GEAR\""
 " and not(@lvl)]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:3022
+#: src-en/data/events_sector_radikal.xml:3206
 #, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH\"]/choice[@req=\"DJMOD_HAS_RADIKAL_GEAR\""
 " and not(@lvl)]/event/choice/text"
 msgstr "继续。"
 
-#: src-en/data/events_sector_radikal.xml:3029
+#: src-en/data/events_sector_radikal.xml:3213
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH\"]/choice[5]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:3031
+#: src-en/data/events_sector_radikal.xml:3215
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH\"]/choice[5]/event/text"
 msgstr "你的飞船很快被不知来源的攻击击中。“滚开，游客。你已经被警告过了。”"
 
-#: src-en/data/events_sector_radikal.xml:3035
+#: src-en/data/events_sector_radikal.xml:3219
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH\"]/choice[5]/event/choice[1]/text"
 msgstr "星舰管理。"
 
-#: src-en/data/events_sector_radikal.xml:3039
+#: src-en/data/events_sector_radikal.xml:3223
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH\"]/choice[5]/event/choice[2]/text"
 msgstr "跳过。"
 
-#: src-en/data/events_sector_radikal.xml:3046
+#: src-en/data/events_sector_radikal.xml:3230
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH\"]/choice[6]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:3048
+#: src-en/data/events_sector_radikal.xml:3232
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH\"]/choice[6]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:3053
+#: src-en/data/events_sector_radikal.xml:3237
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH\"]/choice[6]/event/choice[1]/text"
 msgstr "星舰管理。"
 
-#: src-en/data/events_sector_radikal.xml:3057
+#: src-en/data/events_sector_radikal.xml:3241
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH\"]/choice[6]/event/choice[2]/text"
 msgstr "跳过。"
 
-#: src-en/data/events_sector_radikal.xml:3065
+#: src-en/data/events_sector_radikal.xml:3249
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:3072
+#: src-en/data/events_sector_radikal.xml:3256
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"RKS_HAS_ANY_SACRIFICEABLE_ORCHID\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:3077
+#: src-en/data/events_sector_radikal.xml:3261
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"RKS_HAS_ANY_SACRIFICEABLE_ZOLTAN\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:3082
+#: src-en/data/events_sector_radikal.xml:3266
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"orchid\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:3084
+#: src-en/data/events_sector_radikal.xml:3268
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"orchid\"]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:3094
+#: src-en/data/events_sector_radikal.xml:3278
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"orchid\"]/event/removeCrew/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:3098
+#: src-en/data/events_sector_radikal.xml:3282
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"orchid\"]/event/choice/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:3105
+#: src-en/data/events_sector_radikal.xml:3289
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"orchid_vampweed\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:3107
+#: src-en/data/events_sector_radikal.xml:3291
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"orchid_vampweed\"]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:3117
+#: src-en/data/events_sector_radikal.xml:3301
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"orchid_vampweed\"]/event/removeCrew/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:3121
+#: src-en/data/events_sector_radikal.xml:3305
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"orchid_vampweed\"]/event/choice/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:3128
+#: src-en/data/events_sector_radikal.xml:3312
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"orchid_caretaker\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:3130
+#: src-en/data/events_sector_radikal.xml:3314
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"orchid_caretaker\"]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:3141
+#: src-en/data/events_sector_radikal.xml:3325
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"orchid_caretaker\"]/event/removeCrew/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:3145
+#: src-en/data/events_sector_radikal.xml:3329
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"orchid_caretaker\"]/event/choice/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:3151
+#: src-en/data/events_sector_radikal.xml:3335
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"orchid_praetor\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:3153
+#: src-en/data/events_sector_radikal.xml:3337
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"orchid_praetor\"]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:3164
+#: src-en/data/events_sector_radikal.xml:3348
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"orchid_praetor\"]/event/removeCrew/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:3168
+#: src-en/data/events_sector_radikal.xml:3352
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"orchid_praetor\"]/event/choice/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:3174
+#: src-en/data/events_sector_radikal.xml:3358
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"orchid_cultivator\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:3176
+#: src-en/data/events_sector_radikal.xml:3360
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"orchid_cultivator\"]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:3187
+#: src-en/data/events_sector_radikal.xml:3371
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"orchid_cultivator\"]/event/removeCrew/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:3191
+#: src-en/data/events_sector_radikal.xml:3375
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"orchid_cultivator\"]/event/choice/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:3198
+#: src-en/data/events_sector_radikal.xml:3382
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"ORCHID_KIDS\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:3200
+#: src-en/data/events_sector_radikal.xml:3384
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"ORCHID_KIDS\"]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:3214
+#: src-en/data/events_sector_radikal.xml:3398
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"ORCHID_KIDS\"]/event/choice/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:3222
+#: src-en/data/events_sector_radikal.xml:3406
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"zoltan\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:3224
+#: src-en/data/events_sector_radikal.xml:3408
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"zoltan\"]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:3234
+#: src-en/data/events_sector_radikal.xml:3418
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"zoltan\"]/event/removeCrew/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:3238
+#: src-en/data/events_sector_radikal.xml:3422
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"zoltan\"]/event/choice/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:3244
+#: src-en/data/events_sector_radikal.xml:3428
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"zoltan_devotee\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:3246
+#: src-en/data/events_sector_radikal.xml:3430
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"zoltan_devotee\"]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:3256
+#: src-en/data/events_sector_radikal.xml:3440
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"zoltan_devotee\"]/event/removeCrew/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:3260
+#: src-en/data/events_sector_radikal.xml:3444
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"zoltan_devotee\"]/event/choice/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:3266
+#: src-en/data/events_sector_radikal.xml:3450
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"zoltan_monk\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:3268
+#: src-en/data/events_sector_radikal.xml:3452
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"zoltan_monk\"]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:3278
+#: src-en/data/events_sector_radikal.xml:3462
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"zoltan_monk\"]/event/removeCrew/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:3282
+#: src-en/data/events_sector_radikal.xml:3466
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"zoltan_monk\"]/event/choice/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:3289
+#: src-en/data/events_sector_radikal.xml:3473
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"zoltan_peacekeeper\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:3291
+#: src-en/data/events_sector_radikal.xml:3475
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"zoltan_peacekeeper\"]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:3302
+#: src-en/data/events_sector_radikal.xml:3486
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"zoltan_peacekeeper\"]/event/removeCrew/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:3306
+#: src-en/data/events_sector_radikal.xml:3490
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"zoltan_peacekeeper\"]/event/choice/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:3313
+#: src-en/data/events_sector_radikal.xml:3497
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"zoltan_martyr\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:3315
+#: src-en/data/events_sector_radikal.xml:3499
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"zoltan_martyr\"]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:3326
+#: src-en/data/events_sector_radikal.xml:3510
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"zoltan_martyr\"]/event/removeCrew/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:3330
+#: src-en/data/events_sector_radikal.xml:3514
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"zoltan_martyr\"]/event/choice/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:3338
+#: src-en/data/events_sector_radikal.xml:3522
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[14]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:3343
+#: src-en/data/events_sector_radikal.xml:3527
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[15]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:3349
+#: src-en/data/events_sector_radikal.xml:3533
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_3\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:3357
+#: src-en/data/events_sector_radikal.xml:3541
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_3\"]/choice[1]/text"
 msgstr "星舰管理。"
 
-#: src-en/data/events_sector_radikal.xml:3361
+#: src-en/data/events_sector_radikal.xml:3545
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_3\"]/choice[2]/text"
 msgstr "跳过。"
 
-#: src-en/data/events_sector_radikal.xml:3369
+#: src-en/data/events_sector_radikal.xml:3553
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_LAB_SCORCH_AMBUSH\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:3380
+#: src-en/data/events_sector_radikal.xml:3564
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_LAB_SCORCH_AMBUSH\"]/choice[@req=\"RKS_HAS_ORCHID_UNIQUE\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:3385
+#: src-en/data/events_sector_radikal.xml:3569
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_LAB_SCORCH_AMBUSH\"]/choice[2]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:3387
+#: src-en/data/events_sector_radikal.xml:3571
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_LAB_SCORCH_AMBUSH\"]/choice[2]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:3396
+#: src-en/data/events_sector_radikal.xml:3580
 #, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_LAB_SCORCH_AMBUSH\"]/choice[2]/event/choice/text"
 msgstr "继续。"
 
-#: src-en/data/events_sector_radikal.xml:3405
+#: src-en/data/events_sector_radikal.xml:3589
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_LAB_SCORCH_ATTACKER\"]/destroyed/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:3408
+#: src-en/data/events_sector_radikal.xml:3592
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_LAB_SCORCH_ATTACKER\"]/destroyed/choice/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:3413
+#: src-en/data/events_sector_radikal.xml:3597
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_LAB_SCORCH_ATTACKER\"]/deadCrew/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:3416
+#: src-en/data/events_sector_radikal.xml:3600
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_LAB_SCORCH_ATTACKER\"]/deadCrew/choice/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:3448
+#: src-en/data/events_sector_radikal.xml:3632
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY\"]/beaconType/unvisitedTooltip"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:3451
+#: src-en/data/events_sector_radikal.xml:3635
 msgid "data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:3463
+#: src-en/data/events_sector_radikal.xml:3647
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY\"]/choice[1]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:3471
+#: src-en/data/events_sector_radikal.xml:3655
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY\"]/choice[2]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:3488
+#: src-en/data/events_sector_radikal.xml:3670
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:3494
+#: src-en/data/events_sector_radikal.xml:3676
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE\"]/choice[@req=\"rks_pirate_trinity_met_slaver\""
 " and @lvl=\"0\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:3504
+#: src-en/data/events_sector_radikal.xml:3686
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE\"]/choice[@req=\"rks_pirate_trinity_met_slaver\""
 " and @lvl=\"1\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:3509
+#: src-en/data/events_sector_radikal.xml:3691
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE\"]/choice[@req=\"rks_pirate_trinity_met_mercenary\""
 " and @lvl=\"0\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:3513
+#: src-en/data/events_sector_radikal.xml:3695
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE\"]/choice[@req=\"rks_pirate_trinity_met_mercenary\""
 " and @lvl=\"1\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:3518
+#: src-en/data/events_sector_radikal.xml:3700
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE\"]/choice[@req=\"rks_pirate_trinity_met_smuggler\""
 " and @lvl=\"0\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:3522
+#: src-en/data/events_sector_radikal.xml:3704
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE\"]/choice[@req=\"rks_pirate_trinity_met_smuggler\""
 " and @lvl=\"1\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:3528
+#: src-en/data/events_sector_radikal.xml:3710
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE\"]/choice[@req=\"rks_pirate_trinity_count\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:3530
+#: src-en/data/events_sector_radikal.xml:3712
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE\"]/choice[@req=\"rks_pirate_trinity_count\"]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:3537
+#: src-en/data/events_sector_radikal.xml:3720
 #, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE\"]/choice[@req=\"rks_pirate_trinity_count\"]/event/choice/text"
 msgstr "继续。"
 
-#: src-en/data/events_sector_radikal.xml:3545
+#: src-en/data/events_sector_radikal.xml:3728
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE\"]/choice[8]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:3551
+#: src-en/data/events_sector_radikal.xml:3734
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_SLAVER\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:3556
+#: src-en/data/events_sector_radikal.xml:3739
 #, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_SLAVER\"]/choice/text"
 msgstr "继续。"
 
-#: src-en/data/events_sector_radikal.xml:3558
+#: src-en/data/events_sector_radikal.xml:3741
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_SLAVER\"]/choice/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:3562
+#: src-en/data/events_sector_radikal.xml:3745
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_SLAVER\"]/choice/event/choice[1]/text"
 msgstr "购买一名奴隶。"
 
-#: src-en/data/events_sector_radikal.xml:3564
+#: src-en/data/events_sector_radikal.xml:3747
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_SLAVER\"]/choice/event/choice[1]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:3573
+#: src-en/data/events_sector_radikal.xml:3756
 #, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_SLAVER\"]/choice/event/choice[1]/event/choice/text"
 msgstr "继续。"
 
-#: src-en/data/events_sector_radikal.xml:3582
+#: src-en/data/events_sector_radikal.xml:3765
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_SLAVER\"]/choice/event/choice[2]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:3584
+#: src-en/data/events_sector_radikal.xml:3767
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_SLAVER\"]/choice/event/choice[2]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:3592
+#: src-en/data/events_sector_radikal.xml:3775
 #, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_SLAVER\"]/choice/event/choice[2]/event/choice/text"
 msgstr "继续。"
 
-#: src-en/data/events_sector_radikal.xml:3599
+#: src-en/data/events_sector_radikal.xml:3782
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_SLAVER\"]/choice/event/choice[3]/text"
 msgstr "购买一名精英奴隶。"
 
-#: src-en/data/events_sector_radikal.xml:3601
+#: src-en/data/events_sector_radikal.xml:3784
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_SLAVER\"]/choice/event/choice[3]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:3609
+#: src-en/data/events_sector_radikal.xml:3792
 #, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_SLAVER\"]/choice/event/choice[3]/event/choice/text"
 msgstr "继续。"
 
-#: src-en/data/events_sector_radikal.xml:3616
+#: src-en/data/events_sector_radikal.xml:3799
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_SLAVER\"]/choice/event/choice[4]/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:3618
+#: src-en/data/events_sector_radikal.xml:3801
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_SLAVER\"]/choice/event/choice[4]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:3625
+#: src-en/data/events_sector_radikal.xml:3808
 #, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_SLAVER\"]/choice/event/choice[4]/event/choice/text"
 msgstr "继续。"
 
-#: src-en/data/events_sector_radikal.xml:3636
-msgid ""
-"data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_MERCENARY\"]/text"
-msgstr ""
-
-#: src-en/data/events_sector_radikal.xml:3641
-#, fuzzy
-msgid ""
-"data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_MERCENARY\"]/choice/text"
-msgstr "继续。"
-
-#: src-en/data/events_sector_radikal.xml:3643
-msgid ""
-"data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_MERCENARY\"]/choice/event/text"
-msgstr ""
-
-#: src-en/data/events_sector_radikal.xml:3647
-msgid ""
-"data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_MERCENARY\"]/choice/event/choice[1]/text"
-msgstr "购买本星区星图。"
-
-#: src-en/data/events_sector_radikal.xml:3649
-msgid ""
-"data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_MERCENARY\"]/choice/event/choice[1]/event/text"
-msgstr ""
-
-#: src-en/data/events_sector_radikal.xml:3657
-#, fuzzy
-msgid ""
-"data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_MERCENARY\"]/choice/event/choice[1]/event/choice/text"
-msgstr "继续。"
-
-#: src-en/data/events_sector_radikal.xml:3664
-msgid ""
-"data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_MERCENARY\"]/choice/event/choice[2]/text"
-msgstr ""
-
-#: src-en/data/events_sector_radikal.xml:3666
-msgid ""
-"data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_MERCENARY\"]/choice/event/choice[2]/event/text"
-msgstr ""
-
-#: src-en/data/events_sector_radikal.xml:3674
-#, fuzzy
-msgid ""
-"data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_MERCENARY\"]/choice/event/choice[2]/event/choice/text"
-msgstr "继续。"
-
-#: src-en/data/events_sector_radikal.xml:3681
-msgid ""
-"data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_MERCENARY\"]/choice/event/choice[3]/text"
-msgstr ""
-
-#: src-en/data/events_sector_radikal.xml:3683
-msgid ""
-"data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_MERCENARY\"]/choice/event/choice[3]/event/text"
-msgstr ""
-
-#: src-en/data/events_sector_radikal.xml:3690
-#, fuzzy
-msgid ""
-"data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_MERCENARY\"]/choice/event/choice[3]/event/choice/text"
-msgstr "继续。"
-
-#: src-en/data/events_sector_radikal.xml:3700
-msgid ""
-"data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_SMUGGLER\"]/text"
-msgstr ""
-
-#: src-en/data/events_sector_radikal.xml:3705
-#, fuzzy
-msgid ""
-"data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_SMUGGLER\"]/choice/text"
-msgstr "继续。"
-
-#: src-en/data/events_sector_radikal.xml:3707
-msgid ""
-"data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_SMUGGLER\"]/choice/event/text"
-msgstr ""
-
-#: src-en/data/events_sector_radikal.xml:3711
-msgid ""
-"data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_SMUGGLER\"]/choice/event/choice[1]/text"
-msgstr ""
-
-#: src-en/data/events_sector_radikal.xml:3713
-msgid ""
-"data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_SMUGGLER\"]/choice/event/choice[1]/event/text"
-msgstr ""
-
-#: src-en/data/events_sector_radikal.xml:3721
-#, fuzzy
-msgid ""
-"data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_SMUGGLER\"]/choice/event/choice[1]/event/choice/text"
-msgstr "继续。"
-
-#: src-en/data/events_sector_radikal.xml:3728
-msgid ""
-"data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_SMUGGLER\"]/choice/event/choice[2]/text"
-msgstr ""
-
-#: src-en/data/events_sector_radikal.xml:3730
-msgid ""
-"data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_SMUGGLER\"]/choice/event/choice[2]/event/text"
-msgstr ""
-
-#: src-en/data/events_sector_radikal.xml:3738
-#, fuzzy
-msgid ""
-"data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_SMUGGLER\"]/choice/event/choice[2]/event/choice/text"
-msgstr "继续。"
-
-#: src-en/data/events_sector_radikal.xml:3745
-msgid ""
-"data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_SMUGGLER\"]/choice/event/choice[3]/text"
-msgstr ""
-
-#: src-en/data/events_sector_radikal.xml:3747
-msgid ""
-"data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_SMUGGLER\"]/choice/event/choice[3]/event/text"
-msgstr ""
-
-#: src-en/data/events_sector_radikal.xml:3755
-#, fuzzy
-msgid ""
-"data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_SMUGGLER\"]/choice/event/choice[3]/event/choice/text"
-msgstr "继续。"
-
-#: src-en/data/events_sector_radikal.xml:3762
-msgid ""
-"data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_SMUGGLER\"]/choice/event/choice[4]/text"
-msgstr ""
-
-#: src-en/data/events_sector_radikal.xml:3764
-msgid ""
-"data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_SMUGGLER\"]/choice/event/choice[4]/event/text"
-msgstr ""
-
-#: src-en/data/events_sector_radikal.xml:3771
-#, fuzzy
-msgid ""
-"data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_SMUGGLER\"]/choice/event/choice[4]/event/choice/text"
-msgstr "继续。"
-
-#: src-en/data/events_sector_radikal.xml:3782
-msgid ""
-"data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_FIGHT_CURRENT_PIRATE\"]/text"
-msgstr ""
-
-#: src-en/data/events_sector_radikal.xml:3789
-#, fuzzy
-msgid ""
-"data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_FIGHT_CURRENT_PIRATE\"]/choice/text"
-msgstr "继续。"
-
-#: src-en/data/events_sector_radikal.xml:3796
-msgid ""
-"data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_TRINITY_SLAVER\"]/destroyed/text"
-msgstr ""
-
-#: src-en/data/events_sector_radikal.xml:3801
-#, fuzzy
-msgid ""
-"data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_TRINITY_SLAVER\"]/destroyed/choice/text"
-msgstr "继续。"
-
-#: src-en/data/events_sector_radikal.xml:3806
-msgid ""
-"data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_TRINITY_SLAVER\"]/deadCrew/text"
-msgstr ""
-
-#: src-en/data/events_sector_radikal.xml:3812
-#, fuzzy
-msgid ""
-"data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_TRINITY_SLAVER\"]/deadCrew/choice/text"
-msgstr "继续。"
-
 #: src-en/data/events_sector_radikal.xml:3819
 msgid ""
-"data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_TRINITY_MERCENARY\"]/destroyed/text"
+"data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_MERCENARY\"]/text"
 msgstr ""
 
 #: src-en/data/events_sector_radikal.xml:3824
 #, fuzzy
 msgid ""
+"data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_MERCENARY\"]/choice/text"
+msgstr "继续。"
+
+#: src-en/data/events_sector_radikal.xml:3826
+msgid ""
+"data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_MERCENARY\"]/choice/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_radikal.xml:3830
+msgid ""
+"data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_MERCENARY\"]/choice/event/choice[1]/text"
+msgstr "购买本星区星图。"
+
+#: src-en/data/events_sector_radikal.xml:3832
+msgid ""
+"data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_MERCENARY\"]/choice/event/choice[1]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_radikal.xml:3840
+#, fuzzy
+msgid ""
+"data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_MERCENARY\"]/choice/event/choice[1]/event/choice/text"
+msgstr "继续。"
+
+#: src-en/data/events_sector_radikal.xml:3847
+msgid ""
+"data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_MERCENARY\"]/choice/event/choice[2]/text"
+msgstr ""
+
+#: src-en/data/events_sector_radikal.xml:3849
+msgid ""
+"data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_MERCENARY\"]/choice/event/choice[2]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_radikal.xml:3857
+#, fuzzy
+msgid ""
+"data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_MERCENARY\"]/choice/event/choice[2]/event/choice/text"
+msgstr "继续。"
+
+#: src-en/data/events_sector_radikal.xml:3864
+msgid ""
+"data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_MERCENARY\"]/choice/event/choice[3]/text"
+msgstr ""
+
+#: src-en/data/events_sector_radikal.xml:3866
+msgid ""
+"data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_MERCENARY\"]/choice/event/choice[3]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_radikal.xml:3873
+#, fuzzy
+msgid ""
+"data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_MERCENARY\"]/choice/event/choice[3]/event/choice/text"
+msgstr "继续。"
+
+#: src-en/data/events_sector_radikal.xml:3883
+msgid ""
+"data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_SMUGGLER\"]/text"
+msgstr ""
+
+#: src-en/data/events_sector_radikal.xml:3888
+#, fuzzy
+msgid ""
+"data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_SMUGGLER\"]/choice/text"
+msgstr "继续。"
+
+#: src-en/data/events_sector_radikal.xml:3890
+msgid ""
+"data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_SMUGGLER\"]/choice/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_radikal.xml:3894
+msgid ""
+"data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_SMUGGLER\"]/choice/event/choice[1]/text"
+msgstr ""
+
+#: src-en/data/events_sector_radikal.xml:3896
+msgid ""
+"data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_SMUGGLER\"]/choice/event/choice[1]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_radikal.xml:3904
+#, fuzzy
+msgid ""
+"data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_SMUGGLER\"]/choice/event/choice[1]/event/choice/text"
+msgstr "继续。"
+
+#: src-en/data/events_sector_radikal.xml:3911
+msgid ""
+"data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_SMUGGLER\"]/choice/event/choice[2]/text"
+msgstr ""
+
+#: src-en/data/events_sector_radikal.xml:3913
+msgid ""
+"data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_SMUGGLER\"]/choice/event/choice[2]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_radikal.xml:3921
+#, fuzzy
+msgid ""
+"data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_SMUGGLER\"]/choice/event/choice[2]/event/choice/text"
+msgstr "继续。"
+
+#: src-en/data/events_sector_radikal.xml:3928
+msgid ""
+"data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_SMUGGLER\"]/choice/event/choice[3]/text"
+msgstr ""
+
+#: src-en/data/events_sector_radikal.xml:3930
+msgid ""
+"data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_SMUGGLER\"]/choice/event/choice[3]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_radikal.xml:3938
+#, fuzzy
+msgid ""
+"data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_SMUGGLER\"]/choice/event/choice[3]/event/choice/text"
+msgstr "继续。"
+
+#: src-en/data/events_sector_radikal.xml:3945
+msgid ""
+"data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_SMUGGLER\"]/choice/event/choice[4]/text"
+msgstr ""
+
+#: src-en/data/events_sector_radikal.xml:3947
+msgid ""
+"data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_SMUGGLER\"]/choice/event/choice[4]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_radikal.xml:3954
+#, fuzzy
+msgid ""
+"data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_SMUGGLER\"]/choice/event/choice[4]/event/choice/text"
+msgstr "继续。"
+
+#: src-en/data/events_sector_radikal.xml:3965
+msgid ""
+"data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_FIGHT_CURRENT_PIRATE\"]/text"
+msgstr ""
+
+#: src-en/data/events_sector_radikal.xml:3972
+#, fuzzy
+msgid ""
+"data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_FIGHT_CURRENT_PIRATE\"]/choice/text"
+msgstr "继续。"
+
+#: src-en/data/events_sector_radikal.xml:3979
+msgid ""
+"data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_TRINITY_SLAVER\"]/destroyed/text"
+msgstr ""
+
+#: src-en/data/events_sector_radikal.xml:3984
+#, fuzzy
+msgid ""
+"data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_TRINITY_SLAVER\"]/destroyed/choice/text"
+msgstr "继续。"
+
+#: src-en/data/events_sector_radikal.xml:3989
+msgid ""
+"data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_TRINITY_SLAVER\"]/deadCrew/text"
+msgstr ""
+
+#: src-en/data/events_sector_radikal.xml:3995
+#, fuzzy
+msgid ""
+"data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_TRINITY_SLAVER\"]/deadCrew/choice/text"
+msgstr "继续。"
+
+#: src-en/data/events_sector_radikal.xml:4002
+msgid ""
+"data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_TRINITY_MERCENARY\"]/destroyed/text"
+msgstr ""
+
+#: src-en/data/events_sector_radikal.xml:4007
+#, fuzzy
+msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_TRINITY_MERCENARY\"]/destroyed/choice/text"
 msgstr "继续。"
 
-#: src-en/data/events_sector_radikal.xml:3829
+#: src-en/data/events_sector_radikal.xml:4012
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_TRINITY_MERCENARY\"]/deadCrew/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:3835
+#: src-en/data/events_sector_radikal.xml:4018
 #, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_TRINITY_MERCENARY\"]/deadCrew/choice/text"
 msgstr "继续。"
 
-#: src-en/data/events_sector_radikal.xml:3842
+#: src-en/data/events_sector_radikal.xml:4025
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_TRINITY_SMUGGLER\"]/destroyed/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:3847
+#: src-en/data/events_sector_radikal.xml:4030
 #, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_TRINITY_SMUGGLER\"]/destroyed/choice/text"
 msgstr "继续。"
 
-#: src-en/data/events_sector_radikal.xml:3852
+#: src-en/data/events_sector_radikal.xml:4035
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_TRINITY_SMUGGLER\"]/deadCrew/text"
 msgstr ""
 
-#: src-en/data/events_sector_radikal.xml:3858
+#: src-en/data/events_sector_radikal.xml:4041
 #, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_TRINITY_SMUGGLER\"]/deadCrew/choice/text"

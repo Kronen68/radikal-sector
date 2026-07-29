@@ -7,5 +7,10 @@ msgstr ""
 
 #: src-en/data/events_special_morality.xml.append:6
 msgid ""
+"data/events_special_morality.xml.append$//event[@name=\"RK_MORALITY_REMOVE_GENERAL_DOUBLE\"]/text"
+msgstr ""
+
+#: src-en/data/events_special_morality.xml.append:19
+msgid ""
 "data/events_special_morality.xml.append$//event[@name=\"DJMOD_REPUTATION_UPDATE_PIRATES_DOUBLE\"]/text"
 msgstr ""

@@ -9,167 +9,173 @@ msgstr ""
 msgid ""
 "data/events_special_lightspeed.xml.append$//mod:findName[@name=\"ATLAS_MENU\"]/mod-"
 "append:choice/text"
-msgstr "前往拉迪卡尔星区。"
+msgstr "Proceed to the RadiKal Sector."
 
 #: src-en/data/events_special_lightspeed.xml.append:43
 msgid ""
 "data/events_special_lightspeed.xml.append$//mod:findName[@name=\"ATLAS_MENU_NOEQUIPMENT\"]/mod-"
 "append:choice/text"
-msgstr "前往拉迪卡尔星区。"
+msgstr "Proceed to the RadiKal Sector."
 
 #: src-en/data/events_special_lightspeed.xml.append:142
 msgid ""
 "data/events_special_lightspeed.xml.append$//event[@name=\"ENTER_RADIKAL\"]/choice/text"
-msgstr "继续。"
+msgstr "Continue..."
 
 #: src-en/data/events_special_lightspeed.xml.append:176
 msgid ""
 "data/events_special_lightspeed.xml.append$//event[@name=\"RADIKAL_WARP\"]/text"
 msgstr ""
-"名称：拉迪卡尔星区\n"
-"\t类型：中立\n"
-"\t主导派系：RK 巴姆、RK 朋克、RK 灼烧\n"
-"\t叛军威胁等级：非常低\n"
-"\t标记点：RK 实验室、灼烧 BIL、海盗三合一、藏身处\n"
+"Name: RadiKal Sector\n"
+"\tType: Neutral\n"
+"\tDominant Faction: RK Bam, RK Punk, RK Scorch\n"
+"\tRebel Threat Level: Very Low\n"
+"\tLocations of Interest: RK Labs, Scorch BIL, Pirate Trinity, Hideout\n"
 "\t\n"
-"\t拉迪卡尔子派系在此开发非法装备的 [style[color:ff3377]]危险[[/style]] 星区。来自各地的专家秘密前来跟上技术发展、监管其贸易或进行窃取。小心你拥有的任何拉迪卡尔（RK）装备！\n"
-"\t[有反馈？请在 Discord 上联系 @Dj0z。]"
+"\tThe [style[color:ff3377]]dangerous[[/style]] sector where RadiKal subfactions develop illegal equipment. Specialists from everywhere secretly come to keep up with the tech, regulate its trade or steal it. Mind whatever Radikal (RK) equipment you have in there!\n"
+"\t[Feedback? @Dj0z on discord.]"
 
 #: src-en/data/events_special_lightspeed.xml.append:185
 msgid ""
 "data/events_special_lightspeed.xml.append$//event[@name=\"RADIKAL_WARP\"]/choice[1]/text"
-msgstr "退出超高速。"
+msgstr "Exit hyperspeed."
 
 #: src-en/data/events_special_lightspeed.xml.append:189
 msgid ""
 "data/events_special_lightspeed.xml.append$//event[@name=\"RADIKAL_WARP\"]/choice[@req=\"COORDS\"]/text"
-msgstr "调整航径。"
+msgstr "Reroute."
 
 #: src-en/data/events_special_lightspeed.xml.append:271
 msgid ""
 "data/events_special_lightspeed.xml.append$//mod:findName[@name=\"REROUTE_MENU\"]/mod-"
 "append:choice/text"
-msgstr "跃迁到拉迪卡尔星区。"
+msgstr "Jump to the RadiKal Sector."
 
 #: src-en/data/events_special_lightspeed.xml.append:278
 msgid ""
 "data/events_special_lightspeed.xml.append$//mod:findName[@name=\"REROUTE_MENU_LASTSTAND\"]/mod-"
 "append:choice/text"
-msgstr "跃迁到拉迪卡尔星区。"
+msgstr "Jump to the RadiKal Sector."
 
 #: src-en/data/events_special_lightspeed.xml.append:314
 msgid ""
 "data/events_special_lightspeed.xml.append$//mod:findName[@name=\"REROUTE_MENU_HAT\"]/mod-"
 "append:choice[1]/text"
-msgstr "前往拉迪卡尔星区。"
+msgstr "Go to the RadiKal Sector."
 
 #: src-en/data/events_special_lightspeed.xml.append:318
 msgid ""
 "data/events_special_lightspeed.xml.append$//mod:findName[@name=\"REROUTE_MENU_HAT\"]/mod-"
 "append:choice[2]/text"
-msgstr "拉迪卡尔星区已被你抛在身后。"
+msgstr "The RadiKal Sector is behind you."
 
 #: src-en/data/events_special_lightspeed.xml.append:403
 msgid ""
 "data/events_special_lightspeed.xml.append$//event[@name=\"LIGHTSPEED_SECTOR_WARP_RADIKAL\"]/text"
 msgstr ""
-"你即将调整航径。以下是该星区数据集条目。\n"
-"\t名称：拉迪卡尔星区\n"
-"\t类型：中立\n"
-"\t主导派系：RK 巴姆、RK 朋克、RK 灼烧\n"
-"\t叛军威胁等级：非常低\n"
-"\t标记点：RK 实验室、灼烧 BIL、海盗三合一、藏身处\n"
+"You are about to reroute. Below is the Atlas entry for this sector.\n"
+"\tName: RadiKal Sector\n"
+"\tType: Neutral\n"
+"\tDominant Faction: RK Bam, RK Punk, RK Scorch\n"
+"\tRebel Threat Level: Very Low\n"
+"\tLocations of Interest: RK Labs, Scorch BIL, Pirate Trinity, Hideout\n"
 "\t\n"
-"\t拉迪卡尔子派系在此开发非法装备的 [style[color:ff3377]]危险[[/style]] 星区。有传言称其中可能涉及邪异力量。尽管如此，来自各地的专家仍会秘密前来，以跟上技术发展、尝试监管其贸易，或进行窃取。\n"
-"\t小心你拥有的任何拉迪卡尔（RK）装备！\n"
-"\t[想反馈？请在 Discord 上联系 @Dj0z。]"
+"\tThe [style[color:ff3377]]dangerous[[/style]] sector where RadiKal subfactions develop illegal equipment. Rumors say eldritch forces might be involved. Still, specialists from everywhere secretly come to keep up with the tech, attempt to regulate its trade, or steal it.\n"
+"\tMind whatever Radikal (RK) equipment you have in there!\n"
+"\t[Feedback? @Dj0z on discord.]"
 
 #: src-en/data/events_special_lightspeed.xml.append:414
 msgid ""
 "data/events_special_lightspeed.xml.append$//event[@name=\"LIGHTSPEED_SECTOR_WARP_RADIKAL\"]/choice[1]/text"
-msgstr "确定调整航径。"
+msgstr "Continue with the jump."
 
 #: src-en/data/events_special_lightspeed.xml.append:416
 msgid ""
 "data/events_special_lightspeed.xml.append$//event[@name=\"LIGHTSPEED_SECTOR_WARP_RADIKAL\"]/choice[1]/event/text"
-msgstr "你准备跃迁至新坐标处，并相应地调整航径。"
+msgstr ""
+"You prepare to jump to the new co-ordinates, and change your flight path "
+"accordingly."
 
 #: src-en/data/events_special_lightspeed.xml.append:423
 msgid ""
 "data/events_special_lightspeed.xml.append$//event[@name=\"LIGHTSPEED_SECTOR_WARP_RADIKAL\"]/choice[1]/event/choice/text"
-msgstr "继续。"
+msgstr "Continue..."
 
 #: src-en/data/events_special_lightspeed.xml.append:429
 msgid ""
 "data/events_special_lightspeed.xml.append$//event[@name=\"LIGHTSPEED_SECTOR_WARP_RADIKAL\"]/choice[2]/text"
-msgstr "算了。"
+msgstr "Nevermind."
 
 #: src-en/data/events_special_lightspeed.xml.append:497
 msgid ""
 "data/events_special_lightspeed.xml.append$//event[@name=\"LIGHTSPEED_SECTOR_WARP_RADIKAL_BOSS\"]/text"
 msgstr ""
-"你即将调整航径。以下是该星区数据集条目。\n"
-"\t名称：拉迪卡尔星区\n"
-"\t类型：中立\n"
-"\t主导派系：RK 巴姆、RK 朋克、RK 灼烧\n"
-"\t叛军威胁等级：非常低\n"
-"\t标记点：RK 实验室、灼烧 BIL、海盗三合一、藏身处\n"
+"You are about to reroute. Below is the Atlas entry for this sector.\n"
+"\tName: RadiKal Sector\n"
+"\tType: Neutral\n"
+"\tDominant Faction: RK Bam, RK Punk, RK Scorch\n"
+"\tRebel Threat Level: Very Low\n"
+"\tLocations of Interest: RK Labs, Scorch BIL, Pirate Trinity, Hideout\n"
 "\t\n"
-"\t拉迪卡尔子派系在此开发非法装备的 [style[color:ff3377]]危险[[/style]] 星区。有传言称其中可能涉及邪异力量。尽管如此，来自各地的专家仍会秘密前来，以跟上技术发展、尝试监管其贸易，或进行窃取。\n"
-"\t小心你拥有的任何拉迪卡尔（RK）装备！\n"
-"\t[想反馈？请在 Discord 上联系 @Dj0z。]"
+"\tThe [style[color:ff3377]]dangerous[[/style]] sector where RadiKal subfactions develop illegal equipment. Rumors say eldritch forces might be involved. Still, specialists from everywhere secretly come to keep up with the tech, attempt to regulate its trade, or steal it.\n"
+"\tMind whatever Radikal (RK) equipment you have in there!\n"
+"\t[Feedback? @Dj0z on discord.]"
 
 #: src-en/data/events_special_lightspeed.xml.append:508
 msgid ""
 "data/events_special_lightspeed.xml.append$//event[@name=\"LIGHTSPEED_SECTOR_WARP_RADIKAL_BOSS\"]/choice[1]/text"
-msgstr "确定调整航径。"
+msgstr "Continue with the jump."
 
 #: src-en/data/events_special_lightspeed.xml.append:510
 msgid ""
 "data/events_special_lightspeed.xml.append$//event[@name=\"LIGHTSPEED_SECTOR_WARP_RADIKAL_BOSS\"]/choice[1]/event/text"
-msgstr "你准备跃迁至新坐标处，并相应地调整航径。"
+msgstr ""
+"You prepare to jump to the new co-ordinates, and change your flight path "
+"accordingly."
 
 #: src-en/data/events_special_lightspeed.xml.append:517
 msgid ""
 "data/events_special_lightspeed.xml.append$//event[@name=\"LIGHTSPEED_SECTOR_WARP_RADIKAL_BOSS\"]/choice[1]/event/choice/text"
-msgstr "继续。"
+msgstr "Continue..."
 
 #: src-en/data/events_special_lightspeed.xml.append:523
 msgid ""
 "data/events_special_lightspeed.xml.append$//event[@name=\"LIGHTSPEED_SECTOR_WARP_RADIKAL_BOSS\"]/choice[2]/text"
-msgstr "算了。"
+msgstr "Nevermind."
 
 #: src-en/data/events_special_lightspeed.xml.append:590
 msgid ""
 "data/events_special_lightspeed.xml.append$//event[@name=\"LIGHTSPEED_SECTOR_WARP_RADIKAL_HAT\"]/text"
 msgstr ""
-"你即将调整航径。以下是该星区的航图集条目。\n"
-"\t名称：拉迪卡尔星区\n"
-"\t类型：中立\n"
-"\t主导派系：RK 巴姆、RK 朋克、RK 灼烧\n"
-"\t叛军威胁等级：非常低\n"
-"\t标记点：RK 实验室、灼烧 BIL、海盗三合一、藏身处\n"
+"You are about to reroute. Below is the Atlas entry for this sector.\n"
+"\tName: RadiKal Sector\n"
+"\tType: Neutral\n"
+"\tDominant Faction: RK Bam, RK Punk, RK Scorch\n"
+"\tRebel Threat Level: Very Low\n"
+"\tLocations of Interest: RK Labs, Scorch BIL, Pirate Trinity, Hideout\n"
 "\t\n"
-"\t拉迪卡尔子派系在此开发非法装备的 [style[color:ff3377]]危险[[/style]] 星区。有传言称其中可能涉及邪异力量。尽管如此，来自各地的专家仍会秘密前来，以跟上技术发展、尝试监管其贸易，或进行窃取。\n"
-"\t小心你拥有的任何拉迪卡尔（RK）装备！\n"
-"\t[有反馈？请在 Discord 上联系 @Dj0z。]"
+"\tThe [style[color:ff3377]]dangerous[[/style]] sector where RadiKal subfactions develop illegal equipment. Rumors say eldritch forces might be involved. Still, specialists from everywhere secretly come to keep up with the tech, attempt to regulate its trade, or steal it.\n"
+"\tMind whatever Radikal (RK) equipment you have in there!\n"
+"\t[Feedback? @Dj0z on discord.]"
 
 #: src-en/data/events_special_lightspeed.xml.append:601
 msgid ""
 "data/events_special_lightspeed.xml.append$//event[@name=\"LIGHTSPEED_SECTOR_WARP_RADIKAL_HAT\"]/choice[1]/text"
-msgstr "继续跳跃。"
+msgstr "Continue with the jump."
 
 #: src-en/data/events_special_lightspeed.xml.append:603
 msgid ""
 "data/events_special_lightspeed.xml.append$//event[@name=\"LIGHTSPEED_SECTOR_WARP_RADIKAL_HAT\"]/choice[1]/event/text"
-msgstr "你准备跳转到新的坐标，并相应改变了飞行航线。"
+msgstr ""
+"You prepare to jump to the new co-ordinates, and change your flight path "
+"accordingly."
 
 #: src-en/data/events_special_lightspeed.xml.append:610
 msgid ""
 "data/events_special_lightspeed.xml.append$//event[@name=\"LIGHTSPEED_SECTOR_WARP_RADIKAL_HAT\"]/choice[1]/event/choice/text"
-msgstr "继续..."
+msgstr "Continue..."
 
 #: src-en/data/events_special_lightspeed.xml.append:616
 msgid ""
 "data/events_special_lightspeed.xml.append$//event[@name=\"LIGHTSPEED_SECTOR_WARP_RADIKAL_HAT\"]/choice[2]/text"
-msgstr "算了。"
+msgstr "Nevermind."

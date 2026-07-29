@@ -1,0 +1,74 @@
+#
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src-en/data/events_special_filler.xml.append:22
+msgid ""
+"data/events_special_filler.xml.append$//mod:findName[@name=\"FILLER_DISTRESS_COMBAT\"]/mod-"
+"append:choice/text"
+msgstr ""
+"\"Wow, taking equipment by force from weaker ships. Such courage. So "
+"radical.\""
+
+#: src-en/data/events_special_filler.xml.append:28
+msgid ""
+"data/events_special_filler.xml.append$//event[@name=\"DISTRESS_PIRA_CIVI_COORDS_RK\"]/text"
+msgstr ""
+"They immediately turn their attention to you. \"Did you just say RadiKal?\" They seem alarmed and you hear some bickering in the back. \"See, Berna, I told you there was a witness, we shouldn't have robbed th-\" \"Shut up Bert. As for you feddy renegade scum, you should have stayed quiet too. RK gear is... wait who let you in this roo-\"\n"
+"\tYou suddenly hear brutal infighting on the pirate ship, and the comms cut for a moment... Then the ship recontacts you."
+
+#: src-en/data/events_special_filler.xml.append:32
+msgid ""
+"data/events_special_filler.xml.append$//event[@name=\"DISTRESS_PIRA_CIVI_COORDS_RK\"]/choice/text"
+msgstr "...what was that just now?"
+
+#: src-en/data/events_special_filler.xml.append:52
+msgid ""
+"data/events_special_filler.xml.append$//event[@name=\"DISTRESS_PIRA_CIVI_GIVECOORDS\"]/text"
+msgstr ""
+"A different, female MFK voice is now roaring at you. \"Captain. You appear to have guts.\" The RadiKal takes a second to catch her breath. \"This crew has been useful but I don't need to stay undercover any longer.\n"
+"\tThey've been blabbering about our operations, but they're not with us or even financing us. They only stole some gear from one of our customers. All of that is bad news, and also the reason why I just slew them all. Now, we need more captains like you. You should pay us a visit, which will be mutually beneficial if I'm not mistaken about your quality.\""
+
+#: src-en/data/events_special_filler.xml.append:56
+msgid ""
+"data/events_special_filler.xml.append$//event[@name=\"DISTRESS_PIRA_CIVI_GIVECOORDS\"]/choice/text"
+msgstr "We have a mission of our own"
+
+#: src-en/data/events_special_filler.xml.append:61
+msgid ""
+"data/events_special_filler.xml.append$//event[@name=\"DISTRESS_PIRA_CIVI_GIVECOORDS\"]/choice/event/text"
+msgstr ""
+"\"Yes yes I know, and that's no issue. In fact the detour might bring your ship up to speed for the challenge that is the Flagship. You will find that we RKs are very well informed people. I too have other missions to take care of rather urgently, farewell.\" She cuts comms.\n"
+"\t\t\t\tSector coordinates have been added to your atlas!"
+
+#: src-en/data/events_special_filler.xml.append:67
+msgid ""
+"data/events_special_filler.xml.append$//event[@name=\"DISTRESS_PIRA_CIVI_GIVECOORDS\"]/choice/event/choice/text"
+msgstr "Maybe we'll find out what this was about during the next sector jump."
+
+#: src-en/data/events_special_filler.xml.append:74
+msgid ""
+"data/events_special_filler.xml.append$//event[@name=\"DISTRESS_PIRA_CIVI_NOTCOORDS\"]/text"
+msgstr ""
+"\"Sorry about that interruption, one of my crew suddenly went rogue but we've dealt with it. \n"
+"\t\tAaanyways, now I have loyalty matters to take care of so take this gift and piss off, mmkay? We're leaving that ship alone, you won, enjoy it before our fleet turns your ship into raw scrap.\""
+
+#: src-en/data/events_special_filler.xml.append:81
+msgid ""
+"data/events_special_filler.xml.append$//event[@name=\"DISTRESS_PIRA_CIVI_NOTCOORDS\"]/choice/text"
+msgstr "Continue..."
+
+#: src-en/data/events_special_filler.xml.append:86
+msgid ""
+"data/events_special_filler.xml.append$//event[@name=\"DISTRESS_PIRA_CIVI_NOTCOORDS_BAD\"]/text"
+msgstr ""
+"\"Sorry about that interruption, a member of my crew suddenly went rogue but we've dealt with it. Anyways, we have something special I've been keeping for smartasses like you. Give me a sec.\"\n"
+"\tThey just threw a Magnetic Payload at your engines!"
+
+#: src-en/data/events_special_filler.xml.append:93
+msgid ""
+"data/events_special_filler.xml.append$//event[@name=\"DISTRESS_PIRA_CIVI_NOTCOORDS_BAD\"]/choice/text"
+msgstr "Continue..."

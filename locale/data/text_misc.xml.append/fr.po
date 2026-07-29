@@ -110,3 +110,11 @@ msgstr ""
 #: src-en/data/text_misc.xml.append:71
 msgid "data/text_misc.xml.append$//text[@name=\"RK_lore_DJMOD_LASER_BPS\"]"
 msgstr ""
+
+#: src-en/data/text_misc.xml.append:73
+msgid "data/text_misc.xml.append$//text[@name=\"lore_RK_A_HULL_DAMAGE\"]"
+msgstr ""
+
+#: src-en/data/text_misc.xml.append:74
+msgid "data/text_misc.xml.append$//text[@name=\"lore_RK_A_SYSTEM_DAMAGE\"]"
+msgstr ""

@@ -9,56 +9,59 @@ msgstr ""
 msgid ""
 "data/events_special_standard.xml.append$//mod:findName[@name=\"REVISIT\"]/mod-"
 "append:choice/text"
-msgstr "（重新访问的信标）花费 5 ~和 1} 建造一个靶标，用于在太空中练习射击。"
+msgstr ""
+"(Revisited beacon) Construct a dummy to practice shooting in space, for 5~, "
+"and 1}."
 
 #: src-en/data/events_special_standard.xml.append:40
 msgid ""
 "data/events_special_standard.xml.append$//event[@name=\"TRYGET_COORDS_RADIKAL\"]/text"
-msgstr "你制作了靶标，并命令你的船员轮流练习瞄准。"
+msgstr ""
+"You make the dummy and order your crew to take turns practicing their aim."
 
 #: src-en/data/events_special_standard.xml.append:47
 msgid ""
 "data/events_special_standard.xml.append$//event[@name=\"TRYGET_COORDS_RADIKAL\"]/choice/text"
-msgstr "他们该享有一些乐趣。"
+msgstr "They deserve some fun."
 
 #: src-en/data/events_special_standard.xml.append:59
 msgid ""
 "data/events_special_standard.xml.append$//event[@name=\"GET_COORDS_RADIKAL\"]/text"
 msgstr ""
-"突然，靶标在一次规避机动中击中了某个小东西，这东西太小而无法被探测到，你通过计算弹道并仔细环顾四周，最终找到了它。\n"
+"Suddenly, the dummy hits something small during an evasive maneuver, which you eventually find by calculating trajectories and carefully looking around since it's too small for detection.\n"
 "\t\n"
-"\t那只是一片撕破的衣物，可能属于最近死在这个信标附近的某个人。它有一个口袋。\n"
-"\t口袋里，封装在冻结的血液中的，是一张数据卡。你花不了多久就把它清理干净并解密了，里面包含了超光速跳跃坐标……"
+"\tIt's just a torn piece of clothing that probably belonged to someone who died near this beacon recently. There's a pocket.\n"
+"\tInside, encased in frozen blood, is a data card that you don't take long to clean up and decrypt, containing FTL jump coordinates..."
 
 #: src-en/data/events_special_standard.xml.append:67
 msgid ""
 "data/events_special_standard.xml.append$//event[@name=\"GET_COORDS_RADIKAL\"]/choice/text"
-msgstr "继续。"
+msgstr "Continue..."
 
 #: src-en/data/events_special_standard.xml.append:69
 msgid ""
 "data/events_special_standard.xml.append$//event[@name=\"GET_COORDS_RADIKAL\"]/choice/event/text"
 msgstr ""
-"目的地星区与你数据库中的任何内容都不匹配（这让人不安），并且没有标签（这是不合法的）。\n"
+"The destination sector doesn't match anything in your database (which isn't reassuring) and is unlabeled (which isn't legal).\n"
 "\t\t\t\n"
-"\t\t\t唯一的线索是卡片背面印有字母“RK”的标志。\n"
+"\t\t\tThe only clue is a logo with the letters \"RK\" on the back of the card.\n"
 "\t\t\t\n"
-"\t\t\t下次你更换星区时，将能够调整航径前往那里。要知道，不请自来地出现在一个你一无所知的地方，永远都是一步险棋。"
+"\t\t\tYou will be able to reroute to it the next time you change sectors, knowing that showing up uninvited somewhere you don't know is always a risky move."
 
 #: src-en/data/events_special_standard.xml.append:75
 msgid ""
 "data/events_special_standard.xml.append$//event[@name=\"GET_COORDS_RADIKAL\"]/choice/event/choice/text"
-msgstr "到时候再说。"
+msgstr "We'll see."
 
 #: src-en/data/events_special_standard.xml.append:83
 msgid ""
 "data/events_special_standard.xml.append$//event[@name=\"NOTGET_COORDS_RADIKAL\"]/text"
 msgstr ""
-"你的船员很喜欢这项练习，假装他们正在使用激进的战术与敌人作战。\n"
-"\t有那么一会儿，你心想，这项娱乐活动大概有 50% 的几率会产生什么特别的东西……\n"
-"\t然后你结束了这一天，重新开始专注于你的任务。"
+"Your crew enjoy the exercise, pretending they're using radical tactics to fight enemies. \n"
+"\tAt some point you think to yourself that there's probably a 50% chance anything special could have come out of this recreational activity...\n"
+"\tThen you call it a day and start focusing on your mission again."
 
 #: src-en/data/events_special_standard.xml.append:87
 msgid ""
 "data/events_special_standard.xml.append$//event[@name=\"NOTGET_COORDS_RADIKAL\"]/choice/text"
-msgstr "继续。"
+msgstr "Continue..."
