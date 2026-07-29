@@ -1,8 +1,8 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-07-18 21:36+0000\n"
-"Last-Translator: Ukn <bbg100bbg@gmail.com>\n"
+"PO-Revision-Date: 2026-07-29 07:37+0000\n"
+"Last-Translator: Aleev <aleev1414@gmail.com>\n"
 "Language-Team: Russian <https://weblate.hyperq.be/projects/radikal-sector/"
 "dataevents_sector_radikalxml/ru/>\n"
 "Language: ru\n"
@@ -3008,7 +3008,7 @@ msgstr ""
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH\"]/choice[@req=\"DJMOD_HAS_RADIKAL_SCORCH_GEAR\""
 " and @lvl=\"0\"]/text"
-msgstr "У вас нет снаряжения РК Сторч."
+msgstr "У вас нет снаряжения РК Скорч."
 
 #: src-en/data/events_sector_radikal.xml:2999
 msgid ""
