@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "PO-Revision-Date: 2026-07-30 08:36+0000\n"
-"Last-Translator: Ukn <bbg100bbg@gmail.com>\n"
+"Last-Translator: Aleev <aleev1414@gmail.com>\n"
 "Language-Team: Russian <https://weblate.hyperq.be/projects/radikal-sector/"
 "datatext_miscxmlappend/ru/>\n"
 "Language: ru\n"
@@ -51,7 +51,7 @@ msgstr "Нубы!!1![!]"
 
 #: src-en/data/text_misc.xml.append:44
 msgid "data/text_misc.xml.append$//text[@name=\"warning_offense_disabler_end\"]"
-msgstr "Усилить атаку!"
+msgstr "АТАКА ВОССТАНАВЛИВАЕТСЯ!"
 
 #: src-en/data/text_misc.xml.append:45
 msgid "data/text_misc.xml.append$//text[@name=\"warning_defense_remover_end\"]"
