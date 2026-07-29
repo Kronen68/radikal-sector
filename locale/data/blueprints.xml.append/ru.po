@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "PO-Revision-Date: 2026-07-30 08:36+0000\n"
-"Last-Translator: Ukn <bbg100bbg@gmail.com>\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Russian <https://weblate.hyperq.be/projects/radikal-sector/"
 "datablueprintsxmlappend/ru/>\n"
 "Language: ru\n"
@@ -778,6 +778,7 @@ msgid ""
 msgstr "ВЫ НИКОГДА НЕ ДОЛЖНЫ ЭТО ВИДЕТЬ"
 
 #: src-en/data/blueprints.xml.append:816
+#, fuzzy
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"IS_RK_BPS_GEAR\"]/title"
 msgstr "Крейсер Бам и оборуд."
 
