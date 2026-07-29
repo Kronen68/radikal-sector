@@ -204,7 +204,7 @@ msgstr "(Fuel Conserver) Normal ramming is free (initial and repeat strikes)."
 #: src-en/data/events_special_storage.xml.append:629
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"TOGGLEMENU_RK_SHIPVORE_RAM\"]/choice[@req=\"DJMOD_ANY_RESCUE_ARM\"]/text"
-msgstr "(Ship Arm) Can retrieve ejected crew."
+msgstr "(Magnetic/Drone Arm) Can use scrap to retrieve ejected crew."
 
 #: src-en/data/events_special_storage.xml.append:634
 msgid ""

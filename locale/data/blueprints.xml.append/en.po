@@ -239,7 +239,7 @@ msgstr ""
 "(RK Bam gear) Repeatedly ram the enemy for guaranteed damage, often free repairs, and sometimes other things.\n"
 "\t\t[See bonuses/combos in the Toggle Menu]\n"
 "\n"
-"\t\tNormal ramming: (cost {)\n"
+"\t\tNormal ramming: (cost 1{)\n"
 "\t\t2-3 damage, [style[color:ff3377]]25% bad outcomes![[/style]]\n"
 "\n"
 "\t\tFull Power: (cost 4{, [style[color:ff3377]]destroys the augment[[/style]]) \n"
@@ -641,6 +641,7 @@ msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_WEAPONS_ON_FIRE\"]/desc"
 msgstr ""
 "(RK Scorch gear) The fire rate of your Weapons and Artilleries is improved by 25%.\n"
+"\t\t\n"
 "\t\tGain an extra 1% fire rate every time they shoot a projectile or beam (up to 10% - does not stack with multiple Weapons On Fire), but at the same time there's a [style[color:ff3377]]15% chance to light a fire in your Weapon Control and any Artillery rooms[[/style]].\n"
 "\t\tThe extra bonus is reset on jump.\n"
 "\n"
@@ -762,7 +763,7 @@ msgstr "YOU SHOULD NEVER SEE THIS"
 
 #: src-en/data/blueprints.xml.append:816
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"IS_RK_BPS_GEAR\"]/title"
-msgstr "Bam Cruiser and gear"
+msgstr "BPS Cruiser and gear"
 
 #: src-en/data/blueprints.xml.append:817
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"IS_RK_BPS_GEAR\"]/desc"
@@ -978,7 +979,7 @@ msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_HEAVY_POPPER_1\"]/desc"
 msgstr ""
 "(RK Bam gear) The damage-per-second of a Burst Laser 3, at 1 power!\n"
-"\t\t[style[color:ff3377]]Your systems have 4% chance to take 1 damage each shot![[/style]]\n"
+"\t\t[style[color:ff3377]]Each of your systems has 5% chance to take 1 system damage each shot![[/style]]\n"
 "\t\tHeavy Poppers are inaccurate and slow but pop 2 shields and can breach extra."
 
 #: src-en/data/blueprints.xml.append:1344
@@ -996,7 +997,7 @@ msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_HEAVY_POPPER_2\"]/desc"
 msgstr ""
 "(RK Bam gear) Enough strength to unshield most enemies, and/or hurt badly.\n"
-"\t\t[style[color:ff3377]]Your systems have 3% chance to take 1 damage each shot![[/style]]\n"
+"\t\t[style[color:ff3377]]Each of your systems has 4% chance to take 1 system damage each shot![[/style]]\n"
 "\t\tHeavy Poppers are inaccurate and slow but pop 2 shields and can breach extra."
 
 #: src-en/data/blueprints.xml.append:1444
@@ -1014,7 +1015,7 @@ msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_HEAVY_POPPER_3\"]/desc"
 msgstr ""
 "(RK Bam gear) Fleetgun-like power to smash Shields and crush. Kill. Destroy.\n"
-"\t\t[style[color:ff3377]]Your systems have 2% chance to take 1 damage each shot![[/style]]\n"
+"\t\t[style[color:ff3377]]Each of your systems has 3% chance to take 1 system damage each shot![[/style]]\n"
 "\t\tHeavy Poppers are inaccurate and slow but pop 2 shields and can breach extra."
 
 #: src-en/data/blueprints.xml.append:1502

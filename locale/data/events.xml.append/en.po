@@ -44,8 +44,8 @@ msgstr "Fleet stopped for testing."
 #: src-en/data/events.xml.append:247
 msgid "data/events.xml.append$//event[@name=\"RKDEV\"]/text"
 msgstr ""
-"Testing. Other events: DJFLEET, RKSHOP, RKSHOP_SCORCH, RKSHOP_SNIPER, "
-"RKSHOP_SYLVAN, RK_DEMI, DJCOORDS, DJNOHAZARDS."
+"Testing. Other events: DJFLEET, RKSHOP, RKSHOP_B, RKSHOP_P, RKSHOP_S, "
+"RKSHOP_SNIPER, RKSHOP_SYLVAN, RK_DEMI, DJCOORDS, DJNOHAZARDS."
 
 #: src-en/data/events.xml.append:250
 msgid "data/events.xml.append$//event[@name=\"RKDEV\"]/crewMember"
@@ -191,7 +191,7 @@ msgstr ""
 #: src-en/data/events.xml.append:490
 msgid ""
 "data/events.xml.append$/dummyroot/event[@name=\"RK_A_OUTSIDE_POLICE_INTRO_QUEST_START\"]/choice[2]/text"
-msgstr "Take the hail."
+msgstr "Take the hail"
 
 #: src-en/data/events.xml.append:492
 msgid ""
@@ -337,7 +337,7 @@ msgstr ""
 #: src-en/data/events.xml.append:631
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER2_QUEST_START\"]/choice[2]/text"
-msgstr "Take the hail."
+msgstr "Take the hail"
 
 #: src-en/data/events.xml.append:633
 msgid ""
@@ -462,7 +462,7 @@ msgstr ""
 #: src-en/data/events.xml.append:757
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER3_QUEST_START\"]/choice[2]/text"
-msgstr "Take the hail."
+msgstr "Take the hail"
 
 #: src-en/data/events.xml.append:759
 msgid ""
@@ -885,13 +885,13 @@ msgstr "So that's why he was so cheap."
 msgid ""
 "data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED_BADEND_RK_WEAPONLIKE\"]/text"
 msgstr ""
-"They bring you the slave and remove his restraints so quickly that you haven't even transferred all the scrap yet. Unfortunately the troublemaker doesn't seem to like the way some of your crew look at him, and starts punching! \n"
+"They bring you the slave (actually a pair of them) and remove their restraints so quickly that you haven't even transferred all the scrap yet. Unfortunately the troublemakers don't seem to like the way some of your crew look at them, and start blasting! \n"
 "\tYou interrupt the scrap transfer and watch the slavers immediately jump away, leaving you to deal with him."
 
 #: src-en/data/events.xml.append:1157
 msgid ""
 "data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED_BADEND_RK_WEAPONLIKE\"]/choice/text"
-msgstr "So that's why he was so cheap."
+msgstr "So that's why this was so cheap."
 
 #: src-en/data/events.xml.append:1162
 msgid ""
@@ -1866,7 +1866,9 @@ msgstr "Answer it."
 msgid "data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_MENU\"]/text"
 msgstr ""
 "\"As you may know if you're not a brainless savage, this sector has been providing armament to the Duskbringers. We have recently started tackling this problem.\n"
-"\t\t\t\tLike any vessel in transit in a lawless armament-manufacturing area like this one, you will be subjected to the mandatory thorough search for said armament. The fight against illegal weapon proliferation starts with you. Do not resist.\"\n"
+"\t\t\t\tLike any vessel in transit in a lawless armament-manufacturing area like this one, you will be subjected to the mandatory thorough search for said armament.\n"
+"\t\t\t\t\n"
+"\t\t\t\tThe fight against illegal weapon proliferation starts with you. Do not resist.\"\n"
 "\t\t\t\t\n"
 "\t\t\t\tThe Zoltan Ministry considers this area a very serious issue. If they find any RadiKal equipment a fine must be paid, based on how many you're carrying."
 
@@ -2005,7 +2007,7 @@ msgstr "Try to ignore it and just pass through."
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK\"]/choice[2]/event/text"
 msgstr ""
-"\"You admission of guilt in facilitating terrorist operations has been recorded and filed for the trial of any surviving spouse(s) and/or heir(s). You will not escape the law.\"\n"
+"\"Your admission of guilt in facilitating terrorist operations has been recorded and filed for the trial of any surviving spouse(s) and/or heir(s). You will not escape the law.\"\n"
 "\t\t\t\tSounds like you'll have to fight your way through. You wonder whether having an insider in your crew could have changed this outcome."
 
 #: src-en/data/events.xml.append:2086
@@ -2142,7 +2144,7 @@ msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_FINED\"]/choice[6]/event/text"
 msgstr ""
 "Quickly but accurately aiming through the hardlight, you splatter the chief inspector with your blaster, right before taking cover for the explosion! \n"
-"\t\t\tVery satisfying ... but can you deal with the rest of them?"
+"\t\t\tVery satisfying, and his badge will sell for some scrap... but can you deal with the rest of the squad?"
 
 #: src-en/data/events.xml.append:2209
 msgid ""
