@@ -1,8 +1,8 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-07-18 21:36+0000\n"
-"Last-Translator: Ukn <bbg100bbg@gmail.com>\n"
+"PO-Revision-Date: 2026-07-29 07:37+0000\n"
+"Last-Translator: Aleev <aleev1414@gmail.com>\n"
 "Language-Team: Russian <https://weblate.hyperq.be/projects/radikal-sector/"
 "dataautoblueprintsxmlappend/ru/>\n"
 "Language: ru\n"
@@ -76,7 +76,7 @@ msgstr "Страж РК Панк"
 #: src-en/data/autoBlueprints.xml.append:1723
 msgid ""
 "data/autoBlueprints.xml.append$//shipBlueprint[@name=\"DJMOD_RADIKAL_BOSS_SCORCH\"]/class"
-msgstr "Страж РК Сторч"
+msgstr "Страж РК Скорч"
 
 #: src-en/data/autoBlueprints.xml.append:1759
 msgid ""
