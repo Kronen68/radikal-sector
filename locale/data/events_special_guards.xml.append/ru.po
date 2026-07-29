@@ -1,9 +1,17 @@
 #
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2026-07-30 08:36+0000\n"
+"Last-Translator: Ukn <bbg100bbg@gmail.com>\n"
+"Language-Team: Russian <https://weblate.hyperq.be/projects/radikal-sector/"
+"dataevents_special_guardsxmlappend/ru/>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.17.1\n"
 
 #: src-en/data/events_special_guards.xml.append:6
 msgid ""
@@ -38,10 +46,14 @@ msgid ""
 msgstr "Продолжить..."
 
 #: src-en/data/events_special_guards.xml.append:46
+#, fuzzy
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"GUARD_RADIKAL\"]/text"
 msgstr ""
-"Маяк охраняет хорошо вооруженное судно, но пока оно не проявляет враждебности. Вдали виден удаляющийся пиратский корабль. Насколько можно судить, он загружен товаром, и охрана просто пропустила его, при этом никаких свежих следов сражения не наблюдается.\n"
+"Маяк охраняет хорошо вооруженное судно, но пока оно не проявляет "
+"враждебности. Вдали виден удаляющийся пиратский корабль. Насколько можно "
+"судить, он загружен товаром, и охрана просто пропустила его, при этом "
+"никаких свежих следов сражения не наблюдается.\n"
 "\t\t\n"
 "\t\tОхрана вызывает вас."
 
@@ -404,6 +416,7 @@ msgid ""
 msgstr "Непосещенное место."
 
 #: src-en/data/events_special_guards.xml.append:371
+#, fuzzy
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"REINFORCEMENTS_RADIKAL\"]/text"
 msgstr ""
@@ -431,6 +444,7 @@ msgid ""
 msgstr "Непосещенное место."
 
 #: src-en/data/events_special_guards.xml.append:388
+#, fuzzy
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"NEBULA_REINFORCEMENTS_RADIKAL\"]/text"
 msgstr ""
