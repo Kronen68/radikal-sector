@@ -1,9 +1,16 @@
 #
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2026-07-30 08:36+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: Chinese (Simplified Han script) <https://weblate.hyperq.be/"
+"projects/radikal-sector/dataeventsxmlappend/zh_Hans/>\n"
+"Language: zh_Hans\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.17.1\n"
 
 #: src-en/data/events.xml.append:208
 msgid "data/events.xml.append$//event[@name=\"RKSHOP\"]/text"
@@ -42,9 +49,11 @@ msgid "data/events.xml.append$//event[@name=\"DJFLEET\"]/text"
 msgstr "舰队已停止，用于测试。"
 
 #: src-en/data/events.xml.append:247
+#, fuzzy
 msgid "data/events.xml.append$//event[@name=\"RKDEV\"]/text"
 msgstr ""
-"快速测试。其他命令：DJFLEET、TEST_RKSHOP、RKSHOP_SCORCH、RKSHOP_SNIPER、RK_DEMI、DJCOORDS、DJNOHAZARDS。"
+"快速测试。其他命令：DJFLEET、TEST_RKSHOP、RKSHOP_SCORCH、RKSHOP_SNIPER、"
+"RK_DEMI、DJCOORDS、DJNOHAZARDS。"
 
 #: src-en/data/events.xml.append:250
 msgid "data/events.xml.append$//event[@name=\"RKDEV\"]/crewMember"
@@ -180,6 +189,7 @@ msgid ""
 msgstr ""
 
 #: src-en/data/events.xml.append:490
+#, fuzzy
 msgid ""
 "data/events.xml.append$/dummyroot/event[@name=\"RK_A_OUTSIDE_POLICE_INTRO_QUEST_START\"]/choice[2]/text"
 msgstr "回应呼叫。"
@@ -290,6 +300,7 @@ msgid ""
 msgstr ""
 
 #: src-en/data/events.xml.append:631
+#, fuzzy
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER2_QUEST_START\"]/choice[2]/text"
 msgstr "回应呼叫。"
@@ -390,6 +401,7 @@ msgid ""
 msgstr ""
 
 #: src-en/data/events.xml.append:757
+#, fuzzy
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER3_QUEST_START\"]/choice[2]/text"
 msgstr "回应呼叫。"
@@ -726,13 +738,16 @@ msgid ""
 msgstr "难怪他那么便宜。"
 
 #: src-en/data/events.xml.append:1148
+#, fuzzy
 msgid ""
 "data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED_BADEND_RK_WEAPONLIKE\"]/text"
 msgstr ""
-"他们把那奴隶带过来，解开镣铐的速度之快，你甚至都还没把废料全部移交过去。不幸的是，这个麻烦制造者似乎不喜欢你某些船员看他的眼神，于是开始挥拳打人！\n"
+"他们把那奴隶带过来，解开镣铐的速度之快，你甚至都还没把废料全部移交过去。不幸"
+"的是，这个麻烦制造者似乎不喜欢你某些船员看他的眼神，于是开始挥拳打人！\n"
 " 你中断了废料转移，眼睁睁看着奴隶贩子立刻跃迁离去，留下你来对付他。"
 
 #: src-en/data/events.xml.append:1157
+#, fuzzy
 msgid ""
 "data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED_BADEND_RK_WEAPONLIKE\"]/choice/text"
 msgstr "难怪他那么便宜。"
