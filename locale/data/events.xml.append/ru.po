@@ -1,8 +1,8 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-07-18 21:36+0000\n"
-"Last-Translator: Ukn <bbg100bbg@gmail.com>\n"
+"PO-Revision-Date: 2026-07-29 07:37+0000\n"
+"Last-Translator: Aleev <aleev1414@gmail.com>\n"
 "Language-Team: Russian <https://weblate.hyperq.be/projects/radikal-sector/"
 "dataeventsxmlappend/ru/>\n"
 "Language: ru\n"
@@ -2796,7 +2796,7 @@ msgid ""
 msgstr ""
 "К счастью, проходит всего несколько минут, и Ариадна возвращается, после "
 "чего вам разрешают уйти. Похоже, не зря на борту вашего корабля находится "
-"уважаемый адмирал, тесно связанный с РК Сторч."
+"уважаемый адмирал, тесно связанный с РК Скорч."
 
 #: src-en/data/events.xml.append:2722
 msgid ""
