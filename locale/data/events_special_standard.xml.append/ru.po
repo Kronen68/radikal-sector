@@ -1,17 +1,25 @@
 #
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2026-07-31 17:36+0000\n"
+"Last-Translator: Ukn <bbg100bbg@gmail.com>\n"
+"Language-Team: Russian <https://weblate.hyperq.be/projects/radikal-sector/"
+"dataevents_special_standardxmlappend/ru/>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.17.1\n"
 
 #: src-en/data/events_special_standard.xml.append:34
 msgid ""
 "data/events_special_standard.xml.append$//mod:findName[@name=\"REVISIT\"]/mod-"
 "append:choice/text"
 msgstr ""
-"(Обновленный маяк) Сконструировать муляж для отработки стрельбы в "
-"пространстве за 5~ и 1}."
+"(Обновленный маяк) Сконструировать муляж для отработки стрельбы в космосе за "
+"5~ и 1}."
 
 #: src-en/data/events_special_standard.xml.append:40
 msgid ""
