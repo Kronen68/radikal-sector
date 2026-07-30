@@ -9,8 +9,8 @@ msgstr ""
 msgid ""
 "data/events_ships.xml.append$//ship[@name=\"SHIP_RK_BAM_EXIT_BOSS\"]/surrender/text"
 msgstr ""
-"Tout d'un coup, l'ennemi restaure complètement ses Super boucliers ! C'est "
-"probablement un cas unique."
+"Soudain, l'ennemi restaure entièrement ses Super Boucliers ! C'est "
+"probablement un événement isolé."
 
 #: src-en/data/events_ships.xml.append:32
 msgid ""
@@ -21,52 +21,82 @@ msgstr ""
 msgid ""
 "data/events_ships.xml.append$//ship[@name=\"SHIP_RK_BAM_EXIT_BOSS\"]/destroyed/text"
 msgstr ""
-"Le vaisseau est détruit. Les autres gardiens font un signe de tête solennel."
-" \"Celui qui vous a transmis nos coordonnées a fait un bon choix, et vous "
-"aussi en venant ici. Vous êtes libre de partir ! Prenez aussi quelques "
-"réparations gratuites.\""
+"Le vaisseau est détruit. Les autres gardiens des portes font un signe de "
+"tête solennel. \"Quiconque vous a transmis nos coordonnées a fait un bon "
+"choix, et vous aussi en venant ici. Vous êtes libre de partir ! Prenez aussi"
+" quelques réparations gratuites.\""
 
 #: src-en/data/events_ships.xml.append:43
 msgid ""
 "data/events_ships.xml.append$//ship[@name=\"SHIP_RK_BAM_EXIT_BOSS\"]/deadCrew/text"
 msgstr ""
-"Maintenant que vous avez réussi le test, les autres gardiens vous autorisent"
-" à quitter le secteur et laissent entendre que, puisque vous avez même "
-"réussi à quitter le vaisseau en un seul morceau, vous obtenez un matelot "
-"aléatoire gratuit !"
+"Maintenant que vous avez réussi le test, les autres gardiens des portes vous"
+" autorisent à quitter le secteur et vous laissent entendre que puisque vous "
+"avez même réussi à quitter le vaisseau en un seul morceau, vous obtenez un "
+"membre d'équipage aléatoire gratuit !"
 
-#: src-en/data/events_ships.xml.append:64
+#: src-en/data/events_ships.xml.append:63
+msgid ""
+"data/events_ships.xml.append$//ship[@name=\"SHIP_RK_BAM_EXIT_BOSS_CHALLENGE\"]/surrender/text"
+msgstr ""
+"Soudain, l'ennemi restaure entièrement ses Super Boucliers ! C'est "
+"probablement un événement isolé."
+
+#: src-en/data/events_ships.xml.append:67
+msgid ""
+"data/events_ships.xml.append$//ship[@name=\"SHIP_RK_BAM_EXIT_BOSS_CHALLENGE\"]/surrender/choice/text"
+msgstr ""
+
+#: src-en/data/events_ships.xml.append:72
+msgid ""
+"data/events_ships.xml.append$//ship[@name=\"SHIP_RK_BAM_EXIT_BOSS_CHALLENGE\"]/destroyed/text"
+msgstr ""
+"Le vaisseau est détruit. Les autres gardiens des portes font un signe de "
+"tête solennel. \"Quiconque vous a transmis nos coordonnées a fait un bon "
+"choix, et vous aussi en venant ici. Vous êtes libre de partir ! Prenez aussi"
+" quelques réparations gratuites.\""
+
+#: src-en/data/events_ships.xml.append:78
+msgid ""
+"data/events_ships.xml.append$//ship[@name=\"SHIP_RK_BAM_EXIT_BOSS_CHALLENGE\"]/deadCrew/text"
+msgstr ""
+"Maintenant que vous avez réussi le test, les autres gardiens des portes vous"
+" autorisent à quitter le secteur et vous laissent entendre que puisque vous "
+"avez même réussi à quitter le vaisseau en un seul morceau, vous obtenez un "
+"membre d'équipage aléatoire gratuit !"
+
+#: src-en/data/events_ships.xml.append:99
 msgid ""
 "data/events_ships.xml.append$//ship[@name=\"SHIP_RK_PUNK_EXIT_BOSS\"]/destroyed/text"
 msgstr ""
-"Le vaisseau est détruit. Les autres gardiens font un signe de tête solennel."
-" \"Celui qui vous a transmis nos coordonnées a fait un bon choix, et vous "
-"aussi en venant ici. Vous êtes libre de partir ! Prenez aussi quelques "
-"réparations gratuites.\""
+"Le vaisseau est détruit. Les autres gardiens des portes font un signe de "
+"tête solennel. \"Quiconque vous a transmis nos coordonnées a fait un bon "
+"choix, et vous aussi en venant ici. Vous êtes libre de partir ! Prenez aussi"
+" quelques réparations gratuites.\""
 
-#: src-en/data/events_ships.xml.append:70
+#: src-en/data/events_ships.xml.append:105
 msgid ""
 "data/events_ships.xml.append$//ship[@name=\"SHIP_RK_PUNK_EXIT_BOSS\"]/deadCrew/text"
 msgstr ""
-"Maintenant que vous avez réussi le test, les autres gardiens vous autorisent"
-" à quitter le secteur et laissent entendre que, puisque vous avez même "
-"réussi à quitter le vaisseau en un seul morceau, vous obtenez un matelot "
-"aléatoire gratuit !"
+"Maintenant que vous avez réussi le test, les autres gardiens des portes vous"
+" autorisent à quitter le secteur et vous laissent entendre que puisque vous "
+"avez même réussi à quitter le vaisseau en un seul morceau, vous obtenez un "
+"membre d'équipage aléatoire gratuit !"
 
-#: src-en/data/events_ships.xml.append:87
+#: src-en/data/events_ships.xml.append:122
 msgid ""
 "data/events_ships.xml.append$//ship[@name=\"SHIP_RK_SCORCH_EXIT_BOSS\"]/destroyed/text"
 msgstr ""
-"Le vaisseau est détruit. Les autres gardiens font un signe de tête solennel."
-" \"Celui qui vous a transmis nos coordonnées a fait un bon choix, et vous "
-"aussi en venant ici. Vous êtes libre de partir ! Prenez aussi quelques "
-"réparations gratuites.\""
+"Le vaisseau est détruit. Les autres gardiens des portes font un signe de "
+"tête solennel. \"Quiconque vous a transmis nos coordonnées a fait un bon "
+"choix, et vous aussi en venant ici. Vous êtes libre de partir ! Prenez aussi"
+" quelques réparations gratuites.\""
 
-#: src-en/data/events_ships.xml.append:93
+#: src-en/data/events_ships.xml.append:128
 msgid ""
 "data/events_ships.xml.append$//ship[@name=\"SHIP_RK_SCORCH_EXIT_BOSS\"]/deadCrew/text"
 msgstr ""
-"Maintenant que vous avez réussi le test, les autres gardiens vous autorisent"
-" à quitter le secteur et laissent entendre que, puisque vous avez même "
-"réussi à quitter le vaisseau en un seul morceau, vous pouvez récupérer un "
-"plan de croiseur spécial dans l'épave !"
+"Maintenant que vous avez réussi le test, les autres gardiens des portes vous"
+" autorisent à quitter le secteur et vous laissent entendre que puisque vous "
+"avez même réussi à quitter le vaisseau en un seul morceau, vous pouvez "
+"récupérer un plan de croiseur spécial dans l'épave !"

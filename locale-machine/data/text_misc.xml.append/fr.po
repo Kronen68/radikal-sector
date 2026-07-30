@@ -11,11 +11,11 @@ msgstr "NAVETTE"
 
 #: src-en/data/text_misc.xml.append:24
 msgid "data/text_misc.xml.append$//text[@name=\"map_icon_rks_pirate_trinity\"]"
-msgstr "P TRINITÉ [!]"
+msgstr "TRINITÉ P [!]"
 
 #: src-en/data/text_misc.xml.append:26
 msgid "data/text_misc.xml.append$//text[@name=\"map_icon_rk_player_hideout\"]"
-msgstr "VOTRE MAISON [!]"
+msgstr "VOTRE DOMICILE [!]"
 
 #: src-en/data/text_misc.xml.append:28
 msgid "data/text_misc.xml.append$//text[@name=\"map_icon_radikal_bam\"]"
@@ -43,84 +43,114 @@ msgstr "N00bs!!1![!]"
 
 #: src-en/data/text_misc.xml.append:44
 msgid "data/text_misc.xml.append$//text[@name=\"warning_offense_disabler_end\"]"
-msgstr "Récupération offensive !"
+msgstr "Offensive en récupération !"
 
 #: src-en/data/text_misc.xml.append:45
 msgid "data/text_misc.xml.append$//text[@name=\"warning_defense_remover_end\"]"
-msgstr "Récupération défensive !"
+msgstr "Défense en récupération !"
 
 #: src-en/data/text_misc.xml.append:55
 msgid "data/text_misc.xml.append$//text[@name=\"RK_lore_DJMOD_BAM_FISSUREBEAM\"]"
 msgstr ""
-"Tampon de qualité : \"A réussi à abattre en un coup un transport civil "
-"ÉLÉPHANT-CLASS complet !\""
+"Tampon de qualité : \"One-shot réussi d'un transport civil de CLASSE "
+"ÉLÉPHANT complet !\""
 
 #: src-en/data/text_misc.xml.append:56
+msgid "data/text_misc.xml.append$//text[@name=\"RK_lore_RK_HEAVY_POPPER_1\"]"
+msgstr ""
+"Tampon de qualité : \"Ravage du Camouflage des Stealths de la Fédé en UN tir"
+" ! Proie FACILE après ça.\""
+
+#: src-en/data/text_misc.xml.append:57
 msgid "data/text_misc.xml.append$//text[@name=\"RK_lore_RK_HEAVY_POPPER_2\"]"
 msgstr ""
 "Tampon de qualité : \"L'influenceuse 'BL2Forever420' a dit 'Amitié TERMINÉE "
-"avec les lasers rafale' à ses MILLIARDS d'abonnés !\""
+"avec les Lasers Rafale' à ses MILLIARDS d'abonnés !\""
 
-#: src-en/data/text_misc.xml.append:57
-msgid "data/text_misc.xml.append$//text[@name=\"lore_RK_UNLOADER\"]"
+#: src-en/data/text_misc.xml.append:58
+msgid "data/text_misc.xml.append$//text[@name=\"RK_lore_RK_HEAVY_POPPER_3\"]"
 msgstr ""
-"Tampon de qualité : \"A démoli TOUS les vaisseaux de test récalcitrants qui "
-"manquaient de drones de défense puissants ! Et les finances de tous les "
-"utilisateurs.\""
+"Tampon de qualité : \"Les Seigneurs de guerre en ont TOUS un, pour quand il "
+"est temps de faire comprendre qu'ils SONT SÉRIEUX !\""
 
 #: src-en/data/text_misc.xml.append:59
-msgid ""
-"data/text_misc.xml.append$//text[@name=\"RK_lore_RK_MISSLAUNCHER_2_BATTERY\"]"
+msgid "data/text_misc.xml.append$//text[@name=\"lore_RK_UNLOADER\"]"
 msgstr ""
-"Tampon de qualité : \"A SAUVÉ la mise quand les autorités ont tenté de "
-"neutraliser les armes de KILLER LEE. Ils sont morts à la place !\""
-
-#: src-en/data/text_misc.xml.append:60
-msgid "data/text_misc.xml.append$//text[@name=\"lore_RK_KILLALL_BEAM\"]"
-msgstr ""
-"Tampon de qualité : \"Les capitaines de test sous-traités ont rapporté "
-"d'INNOMBRABLES victimes ! Mais les mutineries ont coûté la vie à 89% d'entre"
-" eux.\""
+"Tampon de qualité : \"Démolition de TOUS les vaisseaux tests réticents qui "
+"manquaient de solides drones de défense ! Et de toutes les finances des "
+"utilisateurs.\""
 
 #: src-en/data/text_misc.xml.append:61
-msgid "data/text_misc.xml.append$//text[@name=\"lore_RK_RAIN_OF_ION\"]"
+msgid ""
+"data/text_misc.xml.append$//text[@name=\"lore_RK_BOMBLAUNCHER_ANTIBIO_REPAIR\"]"
 msgstr ""
-"Tampon de qualité : \"42 VICTIMES CONFIRMÉES des races de la Fédération par "
-"asphyxie, crises et autres causes !\""
+"Tampon de qualité : \"Flexibilité permettant aux auto-vaisseaux de caser "
+"plus de MEURTRE dans leurs emplacements d'armes !\""
 
 #: src-en/data/text_misc.xml.append:62
-msgid "data/text_misc.xml.append$//text[@name=\"lore_RK_SHOTPHASER\"]"
+msgid "data/text_misc.xml.append$//text[@name=\"lore_RK_MISSLAUNCHER_2_BATTERY\"]"
 msgstr ""
-"Tampon de qualité : \"A aidé à la pacification d'un ancien concurrent Limace"
-" EXTRÊMEMENT BLINDÉ !\""
+"Tampon de qualité : \"A SAUVÉ la mise quand les autorités ont essayé de "
+"neutraliser les armes de KILLER LEE. Ils sont morts à la place !\""
+
+#: src-en/data/text_misc.xml.append:63
+msgid "data/text_misc.xml.append$//text[@name=\"lore_RK_KILLALL_BEAM\"]"
+msgstr ""
+"Tampon de qualité : \"Des capitaines de tests externalisés ont rapporté "
+"d'INNOMBRABLES éliminations ! Mais les mutineries ont coûté la vie à 89% "
+"d'entre eux.\""
 
 #: src-en/data/text_misc.xml.append:64
-msgid "data/text_misc.xml.append$//text[@name=\"lore_RK_BOMBLAUNCHER_OXYBOTTLE\"]"
+msgid "data/text_misc.xml.append$//text[@name=\"lore_RK_RAIN_OF_ION\"]"
 msgstr ""
-"Tampon de qualité : \"A aidé des esclavagistes recherchés à éviter "
-"l'asphyxie ET à se venger des Lanius qui en étaient la cause !\""
+"Tampon de qualité : \"42 ÉLIMINATIONS CONFIRMÉES de races de la Fédération "
+"par suffocation, crises et autres causes !\""
 
 #: src-en/data/text_misc.xml.append:65
+msgid "data/text_misc.xml.append$//text[@name=\"lore_RK_SHOTPHASER\"]"
+msgstr ""
+"Tampon de qualité : \"DÉSACTIVATION de tous les Défenseurs d'orphelinats sur"
+" le chemin de l'ESCLAVAGISTE KURT. Des redditions très lucratives !\""
+
+#: src-en/data/text_misc.xml.append:67
+msgid "data/text_misc.xml.append$//text[@name=\"lore_RK_BOMBLAUNCHER_OXYBOTTLE\"]"
+msgstr ""
+"Tampon de qualité : \"A aidé les esclaves recherchés à éviter la suffocation"
+" ET à exercer leur vengeance sur les Lanius qui l'ont causée !\""
+
+#: src-en/data/text_misc.xml.append:68
 msgid ""
 "data/text_misc.xml.append$//text[@name=\"RK_lore_RK_OXY_FIREFILL_MISSILES\"]"
 msgstr ""
 "Tampon de qualité : \"Beaucoup ont déclaré que c'était un 'CRIME DE GUERRE "
 "ODIEUX'. D'autres, principalement des Rocailleux, ont épousé les leurs !\""
 
-#: src-en/data/text_misc.xml.append:66
+#: src-en/data/text_misc.xml.append:69
 msgid "data/text_misc.xml.append$//text[@name=\"RK_lore_RK_FOCUS_FIRE\"]"
 msgstr ""
 "Tampon de qualité : \"Élue 'Arme du cycle' par 'INFERNAL NEWS' et 'SCORCHING"
 " STONES' !\""
 
-#: src-en/data/text_misc.xml.append:67
+#: src-en/data/text_misc.xml.append:70
 msgid "data/text_misc.xml.append$//text[@name=\"RK_lore_DJMOD_RAIN_OF_FIRE\"]"
 msgstr ""
-"Tampon de qualité : \"Propulsé par des Orchidées d'ÉLITE liquéfiées ! A "
-"brûlé des vaisseaux Fantômes ET Rocailleux !\""
+"Tampon de qualité : \"Propulsé par des Orchidées ÉLITE liquéfiées ! A brûlé "
+"des vaisseaux Fantômes ET Rocailleux !\""
 
-#: src-en/data/text_misc.xml.append:68
+#: src-en/data/text_misc.xml.append:71
 msgid "data/text_misc.xml.append$//text[@name=\"RK_lore_DJMOD_LASER_BPS\"]"
 msgstr ""
-"Tampon de qualité : \"A démontré la performance RK en éliminant un vaisseau "
-"piloté de CHAQUE faction naturelle et surnaturelle !\""
+"Tampon de qualité : \"Démonstration de performance RK en éliminant un "
+"vaisseau habité de CHAQUE faction naturelle et non naturelle !\""
+
+#: src-en/data/text_misc.xml.append:73
+msgid "data/text_misc.xml.append$//text[@name=\"lore_RK_A_HULL_DAMAGE\"]"
+msgstr ""
+"Les meilleurs Lasers de défense, avec des améliorations de haute précision "
+"adaptées aux faiblesses spécifiques de l'équipement RadiKal."
+
+#: src-en/data/text_misc.xml.append:74
+msgid "data/text_misc.xml.append$//text[@name=\"lore_RK_A_SYSTEM_DAMAGE\"]"
+msgstr ""
+"Les meilleurs Lanceurs Momus, avec des améliorations de haute précision "
+"adaptées aux faiblesses spécifiques de l'équipement RadiKal."
