@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-07-30 08:36+0000\n"
+"PO-Revision-Date: 2026-07-31 17:36+0000\n"
 "Last-Translator: Ukn <bbg100bbg@gmail.com>\n"
 "Language-Team: Russian <https://weblate.hyperq.be/projects/radikal-sector/"
 "datahyperspace-xml-append/ru/>\n"
@@ -153,6 +153,16 @@ msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[3]/mod:findLike[1]/mod-"
 "append:shipIcon[2]/tooltip"
 msgstr ""
+"СТАНДАРТНЫЙ АНТИ-РК КОМПЛЕКТ:\n"
+"\t\t\tОхота на РадиКалов - дело небезопасное. Этот комплект выдают особо "
+"рьяным охотникам, чтобы повысить их шансы на выживание... и заставить их "
+"выполнять свою работу.\n"
+"\t\t\t\n"
+"\t\t\t15% шанс противостоять урону корпусу, системам и ионному урону.\n"
+"\t\t\tМедленно устраняет пробоины и пожар автоматически.\n"
+"\t\t\tЗдоровье экипажа увеличено на 40%.\n"
+"\t\t\t[style[color:ff3377]]Скорость зарядки ССД уменьшена на 90%.\n"
+"\t\t\tНевозможно сдаться, вести переговоры или ослушаться.[[/style]]"
 
 #: src-en/data/hyperspace.xml.append:740
 msgid ""
@@ -210,7 +220,6 @@ msgstr ""
 "\t\t\tНе действует на членов экипажа, обладающих иммунитетом к удушью."
 
 #: src-en/data/hyperspace.xml.append:780
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[3]/mod:findLike[3]/mod-"
 "append:shipIcon[1]/tooltip"
@@ -544,13 +553,13 @@ msgstr "РАДИКАЛЫ"
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[2]/category/customTitle"
-msgstr ""
+msgstr "АНТИ-РАДИКАЛ ОРУЖИЕ"
 
 #: src-en/data/hyperspace.xml.append:3499
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[3]/category/customTitle"
-msgstr ""
+msgstr "АНТИ-РАДИКАЛ ОРУЖИЕ"
 
 #: src-en/data/hyperspace.xml.append:3533
 msgid ""
@@ -853,11 +862,10 @@ msgid ""
 msgstr "СНАЙПЕРСКОЕ ОРУЖИЕ"
 
 #: src-en/data/hyperspace.xml.append:4655
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[10]/mod-"
 "append:customStore/category[5]/customTitle"
-msgstr "СНАЙПЕРСКИЕ СИСТЕМЫ (СКИДКА 30%)"
+msgstr "СНАЙПЕРСКИЕ СИСТЕМЫ (СКИДКА 25%)"
 
 #: src-en/data/hyperspace.xml.append:4672
 msgid ""
@@ -1573,10 +1581,9 @@ msgid ""
 msgstr "Благо ???"
 
 #: src-en/data/hyperspace.xml.append:9762
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_BAM_CREW\"]/secretDescription"
-msgstr "Получите благо ??? от Сеста."
+msgstr "Получите благо РадиКал Бам от Сеста."
 
 #: src-en/data/hyperspace.xml.append:9763
 msgid ""
@@ -1601,10 +1608,9 @@ msgid ""
 msgstr "Благо ???"
 
 #: src-en/data/hyperspace.xml.append:9773
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_PUNK_CREW\"]/secretDescription"
-msgstr "Получите благо ??? от Сеста."
+msgstr "Получите благо РадиКал Панк от Сеста."
 
 #: src-en/data/hyperspace.xml.append:9774
 msgid ""
@@ -1629,10 +1635,9 @@ msgid ""
 msgstr "Благо ???"
 
 #: src-en/data/hyperspace.xml.append:9784
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_SCORCH_CREW\"]/secretDescription"
-msgstr "Получите благо ??? от Сеста."
+msgstr "Получите благо РадиКал Скорч от Сеста."
 
 #: src-en/data/hyperspace.xml.append:9785
 msgid ""
