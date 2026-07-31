@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-07-30 08:36+0000\n"
+"PO-Revision-Date: 2026-07-31 17:36+0000\n"
 "Last-Translator: Ukn <bbg100bbg@gmail.com>\n"
 "Language-Team: Russian <https://weblate.hyperq.be/projects/radikal-sector/"
 "dataevents_special_guardsxmlappend/ru/>\n"
@@ -46,14 +46,13 @@ msgid ""
 msgstr "Продолжить..."
 
 #: src-en/data/events_special_guards.xml.append:46
-#, fuzzy
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"GUARD_RADIKAL\"]/text"
 msgstr ""
 "Маяк охраняет хорошо вооруженное судно, но пока оно не проявляет "
-"враждебности. Вдали виден удаляющийся пиратский корабль. Насколько можно "
-"судить, он загружен товаром, и охрана просто пропустила его, при этом "
-"никаких свежих следов сражения не наблюдается.\n"
+"враждебности. Вдали виден удаляющийся пиратский корабль. \n"
+"\t\tНасколько можно судить, он загружен товаром, и охрана просто пропустила "
+"его, при этом никаких свежих следов сражения не наблюдается.\n"
 "\t\t\n"
 "\t\tОхрана вызывает вас."
 
@@ -416,12 +415,13 @@ msgid ""
 msgstr "Непосещенное место."
 
 #: src-en/data/events_special_guards.xml.append:371
-#, fuzzy
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"REINFORCEMENTS_RADIKAL\"]/text"
 msgstr ""
-"\"Кто-то же должен был охранять. Они просто выполняли свою работу и знали о "
-"рисках. Так же как и ты!\" Корабль РадиКалов атакует!"
+"Вы легко понимаете общий смысл этого сообщения: кто-то же должен был "
+"охранять, они просто выполняли свою работу и знали о рисках. Так же как и "
+"ты!\" \n"
+"\t\tПрибывшее подкрепление РадиКалов атакует!"
 
 #: src-en/data/events_special_guards.xml.append:376
 msgid ""
@@ -444,12 +444,13 @@ msgid ""
 msgstr "Непосещенное место."
 
 #: src-en/data/events_special_guards.xml.append:388
-#, fuzzy
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"NEBULA_REINFORCEMENTS_RADIKAL\"]/text"
 msgstr ""
-"\"Кто-то же должен был охранять. Они просто выполняли свою работу и знали о "
-"рисках. Так же как и ты!\" Корабль РадиКалов атакует!"
+"Вы легко понимаете общий смысл этого сообщения: кто-то же должен был "
+"охранять, они просто выполняли свою работу и знали о рисках. Так же как и "
+"ты!\" \n"
+"\t\tПрибывшее подкрепление РадиКалов атакует!"
 
 #: src-en/data/events_special_guards.xml.append:395
 msgid ""
