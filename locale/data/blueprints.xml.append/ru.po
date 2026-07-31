@@ -1,8 +1,8 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-07-30 08:36+0000\n"
-"Last-Translator: Aleev <aleev1414@gmail.com>\n"
+"PO-Revision-Date: 2026-07-31 17:36+0000\n"
+"Last-Translator: Ukn <bbg100bbg@gmail.com>\n"
 "Language-Team: Russian <https://weblate.hyperq.be/projects/radikal-sector/"
 "datablueprintsxmlappend/ru/>\n"
 "Language: ru\n"
@@ -245,7 +245,6 @@ msgid ""
 msgstr "Кораблепожиратель"
 
 #: src-en/data/blueprints.xml.append:229
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"DJMOD_COMBAT_SHIPVORE_RAM\"]/desc"
 msgstr ""
@@ -254,7 +253,7 @@ msgstr ""
 "другие выгоды.\n"
 "\t\t[Смотрите бонусы/комбинации в меню переключения]\n"
 "\n"
-"\t\tОбычный таран: (цена {)\n"
+"\t\tОбычный таран: (цена 1{)\n"
 "\t\t2-3 урона, [style[color:ff3377]]25% вероятность неудачного исхода![[/"
 "style]]\n"
 "\n"
@@ -667,12 +666,12 @@ msgid ""
 msgstr "Орудия на пределе"
 
 #: src-en/data/blueprints.xml.append:654
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_WEAPONS_ON_FIRE\"]/desc"
 msgstr ""
 "(Оборудование РК Скорч) Скорострельность вашего оружия и артиллерии "
 "повышается на 25%.\n"
+"\t\t\n"
 "\t\tКаждый раз при выстреле снарядом или лучем скорострельность "
 "увеличивается на 1% (максимум до 10%, не суммируется с несколькими эффектами "
 "\"Орудия на пределе\"), но при этом [style[color:ff3377]]с вероятностью 15% "
@@ -737,12 +736,21 @@ msgstr ""
 #: src-en/data/blueprints.xml.append:750
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_A_STANDARD_SUITE\"]/title"
-msgstr ""
+msgstr "Станд. Анти-РК компл."
 
 #: src-en/data/blueprints.xml.append:751
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_A_STANDARD_SUITE\"]/desc"
 msgstr ""
+"Охота на РадиКалов - дело небезопасное. Этот комплект выдают особо рьяным "
+"охотникам, чтобы повысить их шансы на выживание... и заставить их выполнять "
+"свою работу.\n"
+"\t\t\n"
+"\t\t15% шанс противостоять урону корпусу, системам и ионному урону.\n"
+"\t\tМедленно устраняет пробоины и пожары автоматически.\n"
+"\t\tЗдоровье экипажа увеличено на 50%.\n"
+"\t\t[style[color:ff3377]]Скорость зарядки ССД уменьшена на 90%.\n"
+"\t\tНевозможно сдаться, вести переговоры или ослушаться.[[/style]]"
 
 #: src-en/data/blueprints.xml.append:765
 msgid ""
@@ -791,9 +799,8 @@ msgid ""
 msgstr "ВЫ НИКОГДА НЕ ДОЛЖНЫ ЭТО ВИДЕТЬ"
 
 #: src-en/data/blueprints.xml.append:816
-#, fuzzy
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"IS_RK_BPS_GEAR\"]/title"
-msgstr "Крейсер Бам и оборуд."
+msgstr "Крейсер БПС и оборуд."
 
 #: src-en/data/blueprints.xml.append:817
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"IS_RK_BPS_GEAR\"]/desc"
@@ -1011,14 +1018,13 @@ msgid ""
 msgstr "Тяж. поп. I"
 
 #: src-en/data/blueprints.xml.append:1288
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_HEAVY_POPPER_1\"]/desc"
 msgstr ""
 "(Оборудование РК Бам) Урон в секунду от Импульсного лазера мод. III при "
 "мощности 1!\n"
-"\t\t[style[color:ff3377]]Ваши системы имеют 4% вероятность получить 1 урон "
-"при каждом выстреле![[/style]]\n"
+"\t\t[style[color:ff3377]]Каждая из ваших систем имеет 5% шанс получить 1 "
+"урон системы при каждом выстреле![[/style]]\n"
 "\t\tТяжелые попперы неточны и медлительны, но пробивают 2 щита и могут "
 "создавать пробоину."
 
@@ -1033,14 +1039,13 @@ msgid ""
 msgstr "Тяж. поп. II"
 
 #: src-en/data/blueprints.xml.append:1346
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_HEAVY_POPPER_2\"]/desc"
 msgstr ""
 "(Оборудование РК Бам) Достаточная мощность, чтобы убрать щиты у большинства "
 "врагов и/или нанести им серьезный урон.\n"
-"\t\t[style[color:ff3377]]Ваши системы имеют 3% шанс получить 1 урон при "
-"каждом выстреле![[/style]]\n"
+"\t\t[style[color:ff3377]]Каждая из ваших систем имеет 4% шанс получить 1 "
+"урон системы при каждом выстреле![[/style]]\n"
 "\t\tТяжелые попперы неточны и медлительны, но пробивают сразу 2 щита и могут "
 "создавать пробоины."
 
@@ -1055,14 +1060,13 @@ msgid ""
 msgstr "Тяж. Поп. III"
 
 #: src-en/data/blueprints.xml.append:1446
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_HEAVY_POPPER_3\"]/desc"
 msgstr ""
 "(Оборудование РК Бам) Мощь, подобная артиллерии флота, чтобы разбивать щиты "
 "и сокрушать. Убивать. Уничтожать.\n"
-"\t\t[style[color:ff3377]]Ваши системы имеют 2% вероятность получить 1 урон "
-"при каждом выстреле![[/style]]\n"
+"\t\t[style[color:ff3377]]Каждая из ваших систем имеет 3% шанс получить 1 "
+"урон системы при каждом выстреле![[/style]]\n"
 "\t\tТяжелые попперы неточны и медлительны, но пробивают 2 щита и могут "
 "создавать пробоину."
 
@@ -1289,30 +1293,44 @@ msgstr ""
 
 #: src-en/data/blueprints.xml.append:2682
 msgid "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_A_LASER_1\"]/title"
-msgstr ""
+msgstr "Анти-РК лазер \"Приличие\""
 
 #: src-en/data/blueprints.xml.append:2683
 msgid "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_A_LASER_1\"]/short"
-msgstr ""
+msgstr "Приличие"
 
 #: src-en/data/blueprints.xml.append:2684
 msgid "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_A_LASER_1\"]/desc"
 msgstr ""
+"(Анти-РК оборудование) Перезарядка цепей довольно медленная, но каждая цепь "
+"наносит на 1 урона больше за каждое оружие РК, имеющееся у противника.\n"
+"\t\t\"Да восторжествует порядок\".\n"
+"\t\t\n"
+"\t\tКонсервативное оружие само по себе не потребляет энергии, но требует "
+"питания от самой системы."
 
 #: src-en/data/blueprints.xml.append:2774
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_A_MISSLAUNCHER\"]/title"
-msgstr ""
+msgstr "Анти-РК ракетница \"Мера\""
 
 #: src-en/data/blueprints.xml.append:2775
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_A_MISSLAUNCHER\"]/short"
-msgstr ""
+msgstr "Мера"
 
 #: src-en/data/blueprints.xml.append:2776
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_A_MISSLAUNCHER\"]/desc"
 msgstr ""
+"(Анти-РК оборудование) Перезарядка цепей довольно медленная, но каждая цепь "
+"наносит на 1 системного урона больше за каждое оружие РК, имеющееся у "
+"противника.\n"
+"\t\t\"Да восторжествует порядок\".\n"
+"\n"
+"\t\tЭта особая пусковая установка преобразует бесполезные ресурсы в "
+"боеголовки. Однако в каждом бою она может выстрелить лишь ограниченное "
+"количество раз."
 
 #: src-en/data/blueprints.xml.append:2880
 msgid ""
