@@ -1,8 +1,8 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-07-30 08:36+0000\n"
-"Last-Translator: Aleev <aleev1414@gmail.com>\n"
+"PO-Revision-Date: 2026-07-31 17:36+0000\n"
+"Last-Translator: Ukn <bbg100bbg@gmail.com>\n"
 "Language-Team: Russian <https://weblate.hyperq.be/projects/radikal-sector/"
 "dataevents_sector_radikalxml/ru/>\n"
 "Language: ru\n"
@@ -16,7 +16,7 @@ msgstr ""
 #: src-en/data/events_sector_radikal.xml:82
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RK_MV_TRAVELER\"]/beaconType/unvisitedTooltip"
-msgstr ""
+msgstr "Здесь зафиксированы аномальные энергетические сигнатуры."
 
 #: src-en/data/events_sector_radikal.xml:83
 msgid ""
@@ -26,6 +26,9 @@ msgstr "Посещенное место. Ничего интересного."
 #: src-en/data/events_sector_radikal.xml:85
 msgid "data/events_sector_radikal.xml$//event[@name=\"RK_MV_TRAVELER\"]/text"
 msgstr ""
+"Вы прибыли к, казалось бы, обычному маяку, но сканеры обнаружили "
+"открывающийся пространственный тоннель. Неподалеку совершает прыжок кто-то с "
+"МВ-приводом!"
 
 #: src-en/data/events_sector_radikal.xml:87
 msgid ""
@@ -332,13 +335,12 @@ msgid ""
 msgstr "Ничего."
 
 #: src-en/data/events_sector_radikal.xml:395
-#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_FIGHT_GRAVESPRED\"]/text"
 msgstr ""
 "На этом маяке никого нет, за исключением автоматического корабля РК Панк, "
-"который тут же направляется к вам!\n"
-"        \"#--Обнаружены формы жизни: возобновляю очистку\".\n"
+"который тут же направляется к вам.\n"
+"\t\t \"#--ОБНАРУЖЕНЫ ФОРМЫ ЖИЗНИ: ПРОДОЛЖАЕМ ОЧИСТКУ\".\n"
 "\t\t\n"
 "\t\tПеред таким оружием ваша защита вскоре станет бесполезной, и ваш экипаж "
 "окажется в смертельной опасности!\n"
@@ -352,14 +354,13 @@ msgid ""
 msgstr "(Дефромориус) Перепрограммировать его."
 
 #: src-en/data/events_sector_radikal.xml:407
-#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_FIGHT_GRAVESPRED\"]/choice[@req=\"unique_rk_defromorius\"]/event/text"
 msgstr ""
 "\"--НОВАЯ ЗАДАЧА: РАЗРЯДИТЬ СИТУАЦИЮ-- Команда администрации: прекратить "
 "охоту; сбросить груз; вернуться на базу\".\n"
 "\n"
-"\t\t\t\t\"Команда администрации получена. Выполняется\"."
+"\t\t\t\t\"#--КОМАНДА АДМИНИСТРАТОРА ПОЛУЧЕНА И ПРОШЛА ПРОВЕРКУ. ВЫПОЛНЕНИЕ\"."
 
 #: src-en/data/events_sector_radikal.xml:416
 msgid ""
@@ -1529,61 +1530,110 @@ msgstr "Продолжить..."
 #: src-en/data/events_sector_radikal.xml:1596
 msgid "data/events_sector_radikal.xml$//event[@name=\"RKS_BIL_BAM_SYSTEMS\"]/text"
 msgstr ""
+"Внутри этого астероидного пояса вы натыкаетесь на странную мастерскую, в "
+"которой работают Вексопаты.\n"
+"\n"
+"\t\t\"*Ворчит* Это \"Лаборатория брутального усовершенствования\" РК Бам. "
+"Добро пожаловать\".\n"
+"\t\tВы и так знали, что Вексопаты - не самая веселая компания. Тон этого "
+"Вексопата заставляет вас почувствовать вину и угрозу, даже не успев ничего "
+"сказать или сделать.\n"
+"\t\t\n"
+"\t\t\"Ваш корабль - мы можем его усовершенствовать. Брутально, если вы "
+"пропустили эту часть. За небольшую плату в виде лома.\n"
+"\t\tСначала мы [style[color:ff3377]]удаляем весь лишний корпус.[[/style]] "
+"Затем вы выбираете систему, которая получит 2 повышения уровня мощности, "
+"даже за пределами нормальных ограничений вашего жалкого корабля, если это "
+"необходимо.\n"
+"\t\tСистемы, с которыми мы работаем: Дроны, Щиты, Оружие. В алфавитном "
+"порядке, чтобы не запутать ваш плотский мозг.\n"
+"        \n"
+"\t\tЗатем вы уйдете. Или перед уходом проведите послеремонтное обслуживание "
+"на корабле. Рекомендуется на основании статистических данных.\n"
+"\t\tПодтвердите свое согласие. Или уходите - меня это на 100% устроит\".\n"
+"\t\t\n"
+"\t\tЗдесь есть охрана, и ваши сканеры не обнаружили никаких других кораблей. "
+"Здесь должно быть безопасно.\n"
+"Ну, если не считать того момента, что \"вас чуть не уничтожили посреди "
+"астероидного пояса\". И цены кажутся слишком заманчивыми."
 
 #: src-en/data/events_sector_radikal.xml:1613
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_BIL_BAM_SYSTEMS\"]/choice[1]/text"
-msgstr ""
+msgstr "Что может пойти не так? Да какого черта, я в деле!"
 
 #: src-en/data/events_sector_radikal.xml:1615
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_BIL_BAM_SYSTEMS\"]/choice[1]/event/text"
 msgstr ""
+"\"*Ворчит* Пройдите к месту, где находятся большие крепежные тросы и "
+"механические манипуляторы\". В ответе Вексо нет никаких эмоций, кроме гнева. "
+"Вы понимаете, что даже если бы вы решили уйти, ничего бы не изменилось.\n"
+"\n"
+"\t\t\t\tВы расплачиваетесь ломом, выходите из корабля и, едва отступив на "
+"шаг от входа, с ужасом наблюдаете: ваш корабль уже разрывают на части с "
+"огромной скоростью и точностью.\n"
+"\t\t\t\tБронированную обшивку безжалостно вырывают, балки из сплава гнут или "
+"разрезают мощными инструментами, а более мягкие элементы либо крушат "
+"гигантскими молотами, либо превращают в клочья.\n"
+"\t\t\t\t\n"
+"\t\t\t\tВся техника внезапно останавливается, не дойдя до полного разрушения "
+"конструкции."
 
 #: src-en/data/events_sector_radikal.xml:1629
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_BIL_BAM_SYSTEMS\"]/choice[1]/event/choice/text"
-msgstr ""
+msgstr "...Что я только что наделал?..."
 
 #: src-en/data/events_sector_radikal.xml:1631
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_BIL_BAM_SYSTEMS\"]/choice[1]/event/choice/event/text"
 msgstr ""
+"Совершенно не обращая внимания на происходящее (более того, он даже не отвел "
+"взгляд от вас, чтобы понаблюдать за этим разгромом), Вексопат вновь "
+"обращается к вам голосом, напоминающим звук автоматов по продаже напитков на "
+"Старой Земле.\n"
+"\t\t\t\t\t\t\"Подготовка завершена. Выберите систему\"."
 
 #: src-en/data/events_sector_radikal.xml:1635
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_BIL_BAM_SYSTEMS\"]/choice[1]/event/choice/event/choice[@req=\"drones\"]/text"
-msgstr ""
+msgstr "Улучшить мой блок Контроля дронов."
 
 #: src-en/data/events_sector_radikal.xml:1645
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_BIL_BAM_SYSTEMS\"]/choice[1]/event/choice/event/choice[@req=\"shields\"]/text"
-msgstr ""
+msgstr "Улучшить мои Щиты."
 
 #: src-en/data/events_sector_radikal.xml:1650
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_BIL_BAM_SYSTEMS\"]/choice[1]/event/choice/event/choice[@req=\"weapons\"]/text"
-msgstr ""
+msgstr "Улучшить мое Оружие."
 
 #: src-en/data/events_sector_radikal.xml:1655
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_BIL_BAM_SYSTEMS\"]/choice[1]/event/choice/event/choice[4]/text"
-msgstr ""
+msgstr "Подождите-ка... у нас же даже нет подходящих систем!"
 
 #: src-en/data/events_sector_radikal.xml:1657
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_BIL_BAM_SYSTEMS\"]/choice[1]/event/choice/event/choice[4]/event/text"
 msgstr ""
+"\"Типичная проблема с умением принимать решения. Прием окончен. До свидания "
+"навсегда\"."
 
 #: src-en/data/events_sector_radikal.xml:1671
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_BIL_BAM_SYSTEMS\"]/choice[2]/text"
-msgstr ""
+msgstr "Нет, спасибо, а как насчет того, чтобы мы наняли пару из вас?"
 
 #: src-en/data/events_sector_radikal.xml:1673
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_BIL_BAM_SYSTEMS\"]/choice[2]/event/text"
 msgstr ""
+"Согласие получено. Неважно. Само существование - уже страдание. Вам стоит "
+"позаботиться о том, чтобы найти нам что-нибудь для уничтожения. Иначе мы "
+"займёмся вашими вещами."
 
 #: src-en/data/events_sector_radikal.xml:1680
 msgid ""
@@ -1593,12 +1643,16 @@ msgstr "Продолжить..."
 #: src-en/data/events_sector_radikal.xml:1687
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_BIL_BAM_SYSTEMS\"]/choice[3]/text"
-msgstr ""
+msgstr "Может, вместо этого мы могли бы избавить вас от части этих запчастей?"
 
 #: src-en/data/events_sector_radikal.xml:1689
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_BIL_BAM_SYSTEMS\"]/choice[3]/event/text"
 msgstr ""
+"\"Неужели мы не смогли опознать вас как новое судно для вывоза мусора? Вряд "
+"ли. Но действуйте. Мне все равно\".\n"
+"\t\t\t\tНе желая упускать возможность получить бесплатный лом, вы собираете "
+"то, что осталось от предыдущих клиентов."
 
 #: src-en/data/events_sector_radikal.xml:1701
 msgid ""
@@ -1614,13 +1668,22 @@ msgstr "Ни за что на свете, не дать им даже попыт
 msgid ""
 "data/events_sector_radikal.xml$//textList[@name=\"RKS_BIL_BAM_FINISHED_TEXT\"]/text"
 msgstr ""
+"Довольно быстро они заканчивают устанавливать в вашу систему неизвестные вам "
+"компоненты, после чего ваш корабль просто выталкивают на обочину "
+"мастерской.\n"
+"\tСначала вы начинаете беспокоиться, но улучшения действительно работают!\n"
+"\t\n"
+"\t\"Процедура завершена на 100%. Автоматический корабль послеремонтного "
+"обслуживания развернут. Прощайте\".\n"
+"\tТеперь, когда вы видите чудовищную стоимость ремонта, вы понимаете, как "
+"этому бизнесу удается оставаться на плаву..."
 
 #: src-en/data/events_sector_radikal.xml:1741
-#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_BIL_SCORCH_REACTOR\"]/text"
 msgstr ""
-"Вы наткнулись на странную мастерскую, в которой работают апторы.\n"
+"Рядом с этим солнцем вы натыкаетесь на странную мастерскую, в которой "
+"работают апторы.\n"
 "\n"
 "\t\t\"Вы нашли \"Лабораторию жестоких усовершенствований\" РК Скорч, добро "
 "пожаловать!\n"
@@ -1629,10 +1692,11 @@ msgstr ""
 "\t\tПреимущества огромны: мощность вашего реактора будет увеличена на целых "
 "5 уровней, в том числе за пределы его обычного максимума.\n"
 "\n"
-"\t\tОднако даже с учетом новейшего протокола, судя по результатам быстрого "
-"сканирования вашего корабля, мы ожидаем, что он [style[color:ff3377]]получит "
-"в общей сложности всего 3 урона по корпусу, распределенного по разным "
-"участкам, а также... загорится весьма эффектно[[/style]].\n"
+"\t\tОднако даже с учетом новейшего протокола, после изучения наших "
+"предварительных сканов вашего корабля, мы ожидаем, что он "
+"[style[color:ff3377]]получит в общей сложности всего 3 урона по корпусу, "
+"распределенного по разным участкам, а также... загорится весьма эффектно[[/"
+"style]].\n"
 "\t\tЗаинтересованы?\"\n"
 "        \n"
 "\t\tБыло бы плохо, если бы вас атаковали в таких условиях, но по пути сюда "
@@ -1657,25 +1721,19 @@ msgid ""
 msgstr "Продолжить..."
 
 #: src-en/data/events_sector_radikal.xml:1773
-#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_BIL_SCORCH_REACTOR\"]/choice[2]/text"
-msgstr "Забыть об этом и вместо этого тщательно осмотреть окрестности маяка."
+msgstr "Нет, спасибо, а как насчет того, чтобы мы наняли кого-нибудь из вас?"
 
 #: src-en/data/events_sector_radikal.xml:1775
-#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_BIL_SCORCH_REACTOR\"]/choice[2]/event/text"
 msgstr ""
-"Ваше чутье подсказывает вам не рисковать, поэтому вы осматриваетесь вокруг "
-"маяка, чтобы убедиться в этом.\n"
-"\n"
-"\t\t\tЧерез некоторое время вы действительно обнаруживаете странный объект, "
-"парящий поблизости, по-видимому, оснащенный каким-то детектором и сенсором "
-"дальнего действия. Вы сообщаете об этом Скорч.\n"
-"\t\t\n"
-"\t\t\t\"Мы уверяем вас, что понятия не имеем, для чего это было нужно. Это "
-"не наше, можете смело разобрать его\"."
+"\"А? Вы часто отвечаете на предложения своими собственными предложениями? Вы "
+"что, до того, как присоединились к Ренегадам, были генеральным директором "
+"или политиком? Я... Знаете что? Это же куча хлама, а мы уже целую вечность "
+"ждем, когда кто-нибудь согласится на эту сделку. Хочу хоть раз увидеть "
+"другие звезды. Мне это, наверное, пойдет на пользу\"."
 
 #: src-en/data/events_sector_radikal.xml:1782
 msgid ""
@@ -1683,10 +1741,9 @@ msgid ""
 msgstr "Продолжить..."
 
 #: src-en/data/events_sector_radikal.xml:1789
-#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_BIL_SCORCH_REACTOR\"]/choice[3]/text"
-msgstr "Нет, спасибо. Заняться чем-нибудь на корабле."
+msgstr "Забыть об этом. Вместо этого тщательно осмотреть окрестности маяка."
 
 #: src-en/data/events_sector_radikal.xml:1791
 msgid ""
@@ -1874,14 +1931,13 @@ msgid ""
 msgstr "Выйти с ними на связь."
 
 #: src-en/data/events_sector_radikal.xml:2006
-#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS_2\"]/choice[1]/event/choice[2]/event/text"
 msgstr ""
 "\"Федералы пришли мстить! Я же говорил, что нам нужно было улетать, Лиза\".\n"
 "\t\t\t\t\t\t\n"
-"\"Но почему? Мы же невиновны! Иначе зачем нам до сих пор быть здесь? Просто "
-"скажи им это, ты, тупица!\"\n"
+"\t\t\t\t\t\t\"Но почему? Просто скажи, что мы невиновны, ты, тупица! Иначе "
+"мы бы уже ушли, просто скажи им это!\"\n"
 "\n"
 "\t\t\t\t\t\t\"Ха! Как будто они нам поверят, почему ты всегда такая наивная? "
 "Заряжай уже прыжковый двигатель!\"\n"
@@ -3706,10 +3762,9 @@ msgid ""
 msgstr "Продолжить..."
 
 #: src-en/data/events_sector_radikal.xml:3728
-#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE\"]/choice[8]/text"
-msgstr "Мы не будем вести дела со всеми вами. Мы уходим."
+msgstr "Вообще-то, пошли вы все к черту."
 
 #: src-en/data/events_sector_radikal.xml:3734
 msgid ""
@@ -3945,12 +4000,11 @@ msgid ""
 msgstr "Продолжить..."
 
 #: src-en/data/events_sector_radikal.xml:3965
-#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_FIGHT_CURRENT_PIRATE\"]/text"
 msgstr ""
-"\"Конечно же, ты такой. Я же тебе говорил, Курт, гони мне мой лом, ты "
-"проиграл ссспор. Давай-ка прикончим этих чертовых клоунов\".\n"
+"\"Конечно. Я же тебе говорил, что им нельзя доверять, Курт, гони мне мой "
+"лом, ты проиграл ссспор. Давай-ка прикончим этих чертовых клоунов\".\n"
 "\t\tПохоже, вам придется пробивать себе путь!"
 
 #: src-en/data/events_sector_radikal.xml:3972
