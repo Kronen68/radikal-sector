@@ -1,8 +1,8 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-07-30 08:36+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2026-08-03 00:36+0000\n"
+"Last-Translator: 土豆老年人 <2685455659@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://weblate.hyperq.be/"
 "projects/radikal-sector/datablueprintsxmlappend/zh_Hans/>\n"
 "Language: zh_Hans\n"
@@ -229,7 +229,6 @@ msgid ""
 msgstr "噬舰冲击"
 
 #: src-en/data/blueprints.xml.append:229
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"DJMOD_COMBAT_SHIPVORE_RAM\"]/desc"
 msgstr ""
@@ -237,7 +236,7 @@ msgstr ""
 "好处。\n"
 "\t\t[在切换菜单中查看多效/组合]\n"
 "\n"
-"\t\t普通冲撞：（消耗 {）\n"
+"\t\t普通冲撞：（消耗1 {）\n"
 "\t\t2-3 点伤害，[style[color:ff3377]]25% 坏结果！[[/style]]\n"
 "\n"
 "\t\t满功率：（消耗 4{，[style[color:ff3377]]摧毁增强部件[[/style]]）\n"
@@ -635,11 +634,11 @@ msgid ""
 msgstr "灼烧装填器"
 
 #: src-en/data/blueprints.xml.append:654
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_WEAPONS_ON_FIRE\"]/desc"
 msgstr ""
 "（RK 灼烧装备）你的武器和巨炮的射速提升 25%。\n"
+"\t\t\n"
 "\t\t每次发射射弹或光束时，额外获得 1% 的射速加成（最高 10% —— 多个“灼烧装填器"
 "”效果不可叠加），但同时有 [style[color:ff3377]]15% 的几率在武器控制和任何巨炮"
 "舱室引发火灾[[/style]]。\n"
@@ -701,12 +700,20 @@ msgstr ""
 #: src-en/data/blueprints.xml.append:750
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_A_STANDARD_SUITE\"]/title"
-msgstr ""
+msgstr "标准制式反RK装备"
 
 #: src-en/data/blueprints.xml.append:751
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_A_STANDARD_SUITE\"]/desc"
 msgstr ""
+"追捕拉迪卡尔成员并非安全的营生，因此最狂热的猎手们会被授予此物以提高其生存率…"
+"…并强迫他们完成任务。\n"
+"\t\t\n"
+"\t\t15% 几率抵抗船体、系统和离子伤害。\n"
+"\t\t缓慢自动修复破舱和火灾。\n"
+"\t\t船员生命值提高 50%。\n"
+"\t\t[style[color:ff3377]]超光速引擎充能速度降低 90%。\n"
+"\t\t无法投降、谈判或违抗命令。[[/style]]"
 
 #: src-en/data/blueprints.xml.append:765
 msgid ""
@@ -755,9 +762,8 @@ msgid ""
 msgstr "你永远不应该看到这条信息"
 
 #: src-en/data/blueprints.xml.append:816
-#, fuzzy
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"IS_RK_BPS_GEAR\"]/title"
-msgstr "巴姆星舰及装备"
+msgstr "BPS星舰及装备"
 
 #: src-en/data/blueprints.xml.append:817
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"IS_RK_BPS_GEAR\"]/desc"
@@ -959,13 +965,13 @@ msgid ""
 msgstr "重型爆裂 I"
 
 #: src-en/data/blueprints.xml.append:1288
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_HEAVY_POPPER_1\"]/desc"
 msgstr ""
-"（RK 巴姆装备）每秒伤害相当于爆裂激光 III，仅需 1 电力！\n"
-"[style[color:ff3377]]你的系统每次射击有 4% 几率受到 1 点伤害！[[/style]]\n"
-"重型爆裂虽然不精准且射速慢，但能击穿 2 层护盾并有额外破舱几率。"
+"（RK 巴姆装备）每秒伤害相当于爆裂激光 III，仅需 1 能量！\n"
+"\t\t[style[color:ff3377]]你的每个系统每次射击有 5% 几率受到 1 点系统伤害！[[/"
+"style]]\n"
+"\t\t重型爆裂虽然不精准且射速慢，但能击穿 2 层护盾并有额外破舱几率。"
 
 #: src-en/data/blueprints.xml.append:1344
 msgid ""
@@ -978,13 +984,13 @@ msgid ""
 msgstr "重型爆裂 II"
 
 #: src-en/data/blueprints.xml.append:1346
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_HEAVY_POPPER_2\"]/desc"
 msgstr ""
-"（RK 巴姆装备）足以击穿大多数敌人的护盾，造成严重伤害。\n"
-"[style[color:ff3377]]你的系统每次射击有 3% 几率受到 1 点伤害！[[/style]]\n"
-"重型爆裂虽然不精准且射速慢，但能击穿 2 层护盾并有额外破舱几率。"
+"（RK 巴姆装备）足以击穿大多数敌人的护盾，和/或造成严重伤害。\n"
+"\t\t[style[color:ff3377]]你的每个系统每次射击有 4% 几率受到 1 点系统伤害！[[/"
+"style]]\n"
+"\t\t重型爆裂虽然不精准且射速慢，但能击穿 2 层护盾并有额外破舱几率。"
 
 #: src-en/data/blueprints.xml.append:1444
 msgid ""
@@ -997,13 +1003,13 @@ msgid ""
 msgstr "重型爆裂 III"
 
 #: src-en/data/blueprints.xml.append:1446
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_HEAVY_POPPER_3\"]/desc"
 msgstr ""
-"（RK 巴姆装备）犹如巨炮般的威力，粉碎护盾，碾压、杀戮、毁灭。\n"
-"[style[color:ff3377]]你的系统每次射击有 2% 几率受到 1 点伤害！[[/style]]\n"
-"重型爆裂虽然不精准且射速慢，但能击穿 2 层护盾并有额外破舱几率。"
+"（RK 巴姆装备）犹如舰队炮般的威力，粉碎护盾，碾压、杀戮、毁灭。\n"
+"\t\t[style[color:ff3377]]你的每个系统每次射击有 3% 几率受到 1 点系统伤害！[[/"
+"style]]\n"
+"\t\t重型爆裂虽然不精准且射速慢，但能击穿 2 层护盾并有额外破舱几率。"
 
 #: src-en/data/blueprints.xml.append:1502
 msgid "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_UNLOADER\"]/title"
@@ -1216,30 +1222,40 @@ msgstr ""
 
 #: src-en/data/blueprints.xml.append:2682
 msgid "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_A_LASER_1\"]/title"
-msgstr ""
+msgstr "“体面”反 RK 激光"
 
 #: src-en/data/blueprints.xml.append:2683
 msgid "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_A_LASER_1\"]/short"
-msgstr ""
+msgstr "“体面”"
 
 #: src-en/data/blueprints.xml.append:2684
 msgid "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_A_LASER_1\"]/desc"
 msgstr ""
+"（反 RK 装备）链式冷却次数多但速度慢，且目标身上每有一件 RK 武器，就额外造成 "
+"1 点伤害。\n"
+"\t\t“愿秩序永存。”\n"
+"\t\t\n"
+"\t\t集能武器本身不消耗能量，但需要系统本身有能量供应。"
 
 #: src-en/data/blueprints.xml.append:2774
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_A_MISSLAUNCHER\"]/title"
-msgstr ""
+msgstr "“度量”反 RK 导弹"
 
 #: src-en/data/blueprints.xml.append:2775
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_A_MISSLAUNCHER\"]/short"
-msgstr ""
+msgstr "“度量”"
 
 #: src-en/data/blueprints.xml.append:2776
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_A_MISSLAUNCHER\"]/desc"
 msgstr ""
+"（反 RK 装备）链式冷却次数多但速度慢，且目标身上每有一件 RK 武器，就额外造成 "
+"1 点系统伤害。\n"
+"\t\t“愿秩序永存。”\n"
+"\n"
+"\t\t这款专用发射器能将无用资源转化为导弹。然而，每场战斗只能发射有限次数。"
 
 #: src-en/data/blueprints.xml.append:2880
 msgid ""
