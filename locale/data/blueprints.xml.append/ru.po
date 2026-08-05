@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-07-31 17:36+0000\n"
+"PO-Revision-Date: 2026-08-06 18:36+0000\n"
 "Last-Translator: Ukn <bbg100bbg@gmail.com>\n"
 "Language-Team: Russian <https://weblate.hyperq.be/projects/radikal-sector/"
 "datablueprintsxmlappend/ru/>\n"
@@ -761,7 +761,9 @@ msgstr "З. ордер на обыск"
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RKS_POLICE_WARRANT\"]/desc"
 msgstr ""
-"Благодаря опорному пункту полиции золтан в секторе РадиКалов вы получили разрешение на досмотр подозрительных прохожих с целью конфискации их оборудования РК. Вы также можете продать его.\n"
+"Благодаря опорному пункту полиции золтан в секторе РадиКалов вы получили "
+"разрешение на досмотр подозрительных кораблей с целью конфискации их "
+"оборудования РК. Вы также можете продать его.\n"
 "\t[Открывает доступ к синим вариантам в некоторых маяках сектора РадиКалов]"
 
 #: src-en/data/blueprints.xml.append:783
