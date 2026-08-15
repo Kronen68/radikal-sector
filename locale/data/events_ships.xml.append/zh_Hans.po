@@ -1,17 +1,23 @@
 #
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2026-08-15 03:11+0000\n"
+"Last-Translator: 土豆老年人 <2685455659@qq.com>\n"
+"Language-Team: Chinese (Simplified Han script) <https://weblate.hyperq.be/"
+"projects/radikal-sector/dataevents_shipsxmlappend/zh_Hans/>\n"
+"Language: zh_Hans\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.17.1\n"
 
 #: src-en/data/events_ships.xml.append:28
 msgid ""
 "data/events_ships.xml.append$//ship[@name=\"SHIP_RK_BAM_EXIT_BOSS\"]/surrender/text"
-msgstr ""
+msgstr "突然间，敌人完全恢复了他们的超级护盾！这可能是一次性的。"
 
 #: src-en/data/events_ships.xml.append:32
-#, fuzzy
 msgid ""
 "data/events_ships.xml.append$//ship[@name=\"SHIP_RK_BAM_EXIT_BOSS\"]/surrender/choice/text"
 msgstr "继续。"
@@ -30,10 +36,9 @@ msgstr "既然你已经通过了测试，其他的守卫允许你离开这个星
 #: src-en/data/events_ships.xml.append:63
 msgid ""
 "data/events_ships.xml.append$//ship[@name=\"SHIP_RK_BAM_EXIT_BOSS_CHALLENGE\"]/surrender/text"
-msgstr ""
+msgstr "突然间，敌人完全恢复了他们的超级护盾！这可能是一次性的。"
 
 #: src-en/data/events_ships.xml.append:67
-#, fuzzy
 msgid ""
 "data/events_ships.xml.append$//ship[@name=\"SHIP_RK_BAM_EXIT_BOSS_CHALLENGE\"]/surrender/choice/text"
 msgstr "继续。"
@@ -42,6 +47,8 @@ msgstr "继续。"
 msgid ""
 "data/events_ships.xml.append$//ship[@name=\"SHIP_RK_BAM_EXIT_BOSS_CHALLENGE\"]/destroyed/text"
 msgstr ""
+"飞船被摧毁了。其他守卫肃然点头。“无论谁把我们的坐标传递给你们，都做出了正确的"
+"选择，你们来到这里也是如此。你们可以自由离开了！再免费给你们修修船。”"
 
 #: src-en/data/events_ships.xml.append:78
 msgid ""
