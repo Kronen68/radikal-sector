@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-08-03 00:36+0000\n"
+"PO-Revision-Date: 2026-08-16 03:36+0000\n"
 "Last-Translator: 土豆老年人 <2685455659@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://weblate.hyperq.be/"
 "projects/radikal-sector/datablueprintsxmlappend/zh_Hans/>\n"
@@ -1062,7 +1062,7 @@ msgstr ""
 #: src-en/data/blueprints.xml.append:1848
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_MISSLAUNCHER_2_BATTERY\"]/title"
-msgstr "'月神电池' 导弹"
+msgstr "'月神'电池导弹"
 
 #: src-en/data/blueprints.xml.append:1849
 msgid ""
