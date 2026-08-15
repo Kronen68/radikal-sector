@@ -1,8 +1,8 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-07-30 08:36+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2026-08-15 03:11+0000\n"
+"Last-Translator: 土豆老年人 <2685455659@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://weblate.hyperq.be/"
 "projects/radikal-sector/dataeventsxmlappend/zh_Hans/>\n"
 "Language: zh_Hans\n"
@@ -49,11 +49,10 @@ msgid "data/events.xml.append$//event[@name=\"DJFLEET\"]/text"
 msgstr "舰队已停止，用于测试。"
 
 #: src-en/data/events.xml.append:247
-#, fuzzy
 msgid "data/events.xml.append$//event[@name=\"RKDEV\"]/text"
 msgstr ""
-"快速测试。其他命令：DJFLEET、TEST_RKSHOP、RKSHOP_SCORCH、RKSHOP_SNIPER、"
-"RK_DEMI、DJCOORDS、DJNOHAZARDS。"
+"测试中。其他事件：DJFLEET、RKSHOP、RKSHOP_B、RKSHOP_P、RKSHOP_S、"
+"RKSHOP_SNIPER、RKSHOP_SYLVAN、RK_DEMI、DJCOORDS、DJNOHAZARDS。"
 
 #: src-en/data/events.xml.append:250
 msgid "data/events.xml.append$//event[@name=\"RKDEV\"]/crewMember"
@@ -92,21 +91,21 @@ msgid ""
 msgstr "继续。"
 
 #: src-en/data/events.xml.append:304
-#, fuzzy
 msgid "data/events.xml.append$//event[@name=\"DJCOORDS\"]/text"
 msgstr "获得拉迪卡尔星区坐标。"
 
 #: src-en/data/events.xml.append:308
+#, fuzzy
 msgid "data/events.xml.append$//event[@name=\"DJCOORDS_E\"]/text"
-msgstr ""
+msgstr "Estate/WentworthInnovationsHQ coordinates get."
 
 #: src-en/data/events.xml.append:312
 msgid "data/events.xml.append$//event[@name=\"DJCOORDS_J\"]/text"
-msgstr ""
+msgstr "杰瑞/杰罗姆受保护地坐标。"
 
 #: src-en/data/events.xml.append:316
 msgid "data/events.xml.append$//event[@name=\"DJCOORDS_N\"]/text"
-msgstr ""
+msgstr "七夜/王家蛞蝓星云坐标。"
 
 #: src-en/data/events.xml.append:322
 msgid "data/events.xml.append$//event[@name=\"DJSECTOR\"]/text"
@@ -114,7 +113,7 @@ msgstr "正在打开调整航径菜单。"
 
 #: src-en/data/events.xml.append:332
 msgid "data/events.xml.append$//event[@name=\"RESET_RK_BOONS\"]/text"
-msgstr ""
+msgstr "调试：重新锁定所有 RK 评判者恩惠。"
 
 #: src-en/data/events.xml.append:361
 msgid "data/events.xml.append$//event[@name=\"DJMOD_OPERATIVE_DIES\"]/text"
@@ -140,7 +139,6 @@ msgid ""
 msgstr "这执着的奉献精神真是奇怪，内容看起来不过是个暗域黑市广告而已。"
 
 #: src-en/data/events.xml.append:384
-#, fuzzy
 msgid ""
 "data/events.xml.append$//event[@name=\"DJMOD_OPERATIVE_DIES\"]/choice[@req=\"visited_radikal_sector\"]/text"
 msgstr "我们已经去过拉迪卡尔星区了。安息吧，士兵。"
@@ -164,24 +162,28 @@ msgid ""
 msgstr "什么？当然不是。抓紧了！"
 
 #: src-en/data/events.xml.append:403
-#, fuzzy
 msgid ""
 "data/events.xml.append$//event[@name=\"DJMOD_OPERATIVE_DIES\"]/choice[3]/event/text"
 msgstr ""
-"“我……失……失败了。”他一脸羞愧地碾碎了一个刻有几个大写字母的小芯片，芯片短暂而剧烈地燃烧起来。然后他死了。\n"
+"“别白费……咳嗽……力气了，对我来说……太晚了……我……失……失败了。”他一脸羞愧地碾碎了"
+"一个刻有几个大写字母的小芯片，芯片短暂而剧烈地燃烧起来。然后他死了。\n"
 "\t\t\t\n"
-"\t\t\t\t你接着扒掉了尸体上的衣物，注意到了肿胀和坏死的痕迹，心里纳闷，对那个人来说，把非法装备卖给你怎么会比他即将到来的死亡更重要。你也怀疑店主是否知情，只是骗了你而已。\n"
+"\t\t\t\t你接着扒掉了尸体上的衣物，注意到了肿胀和坏死的痕迹，心里纳闷，对那个"
+"人来说，把非法装备卖给你怎么会比他即将到来的死亡更重要。你也怀疑店主是否知情"
+"，只是骗了你而已。\n"
 "\t\t\t至少死去士兵的口袋里有一些贵重技术，能帮你挽回损失。"
 
 #: src-en/data/events.xml.append:412
 msgid ""
 "data/events.xml.append$//event[@name=\"DJMOD_OPERATIVE_DIES\"]/choice[3]/event/choice/text"
-msgstr ""
+msgstr "肯定还有其他方式可以重新探索这个谜团，并去到它原本指向的地方。继续前进吧。"
 
 #: src-en/data/events.xml.append:478
 msgid ""
 "data/events.xml.append$/dummyroot/event[@name=\"RK_A_OUTSIDE_POLICE_INTRO_QUEST_START\"]/text"
 msgstr ""
+"一艘拥有非常特殊的进攻、防御和情报装备的精英飞船在此处。\n"
+"\t\t从他们呼叫你的速度来看，他们一定处于高度戒备状态。"
 
 #: src-en/data/events.xml.append:485
 msgid ""
