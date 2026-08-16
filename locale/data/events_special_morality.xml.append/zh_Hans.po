@@ -1,14 +1,26 @@
 #
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2026-08-16 03:36+0000\n"
+"Last-Translator: 土豆老年人 <2685455659@qq.com>\n"
+"Language-Team: Chinese (Simplified Han script) <https://weblate.hyperq.be/"
+"projects/radikal-sector/dataevents_special_moralityxmlappend/zh_Hans/>\n"
+"Language: zh_Hans\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.17.1\n"
 
 #: src-en/data/events_special_morality.xml.append:6
 msgid ""
 "data/events_special_morality.xml.append$//event[@name=\"RK_MORALITY_REMOVE_GENERAL_DOUBLE\"]/text"
 msgstr ""
+"[恶名降低 - 全体] x2\n"
+"…你在联邦眼中做了一件好事。如果你过去因其他行为获得了恶名，现在你更有可能被原"
+"谅。\n"
+"…\n"
+"……鉴于你额外的英勇行为，你的声誉提升了两次。"
 
 #: src-en/data/events_special_morality.xml.append:19
 msgid ""
