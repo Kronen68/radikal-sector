@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-08-15 03:11+0000\n"
+"PO-Revision-Date: 2026-08-16 03:36+0000\n"
 "Last-Translator: 土豆老年人 <2685455659@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://weblate.hyperq.be/"
 "projects/radikal-sector/dataeventsxmlappend/zh_Hans/>\n"
@@ -188,68 +188,92 @@ msgstr ""
 #: src-en/data/events.xml.append:485
 msgid ""
 "data/events.xml.append$/dummyroot/event[@name=\"RK_A_OUTSIDE_POLICE_INTRO_QUEST_START\"]/choice[1]/text"
-msgstr ""
+msgstr "你没有任何拉迪卡尔（RK）装备。这或许恰好救了你。"
 
 #: src-en/data/events.xml.append:490
-#, fuzzy
 msgid ""
 "data/events.xml.append$/dummyroot/event[@name=\"RK_A_OUTSIDE_POLICE_INTRO_QUEST_START\"]/choice[2]/text"
-msgstr "回应呼叫。"
+msgstr "回应呼叫"
 
 #: src-en/data/events.xml.append:492
 msgid ""
 "data/events.xml.append$/dummyroot/event[@name=\"RK_A_OUTSIDE_POLICE_INTRO_QUEST_START\"]/choice[2]/event/text"
-msgstr ""
+msgstr "“你好，公民们。你们知道关于拉迪卡尔的事吗？也就是‘RK’。”"
 
 #: src-en/data/events.xml.append:495
 msgid ""
 "data/events.xml.append$/dummyroot/event[@name=\"RK_A_OUTSIDE_POLICE_INTRO_QUEST_START\"]/choice[2]/event/choice[1]/text"
-msgstr ""
+msgstr "我们认识什么激进分子吗？我想并不认识。"
 
 #: src-en/data/events.xml.append:497
 msgid ""
 "data/events.xml.append$/dummyroot/event[@name=\"RK_A_OUTSIDE_POLICE_INTRO_QUEST_START\"]/choice[2]/event/choice[1]/event/text"
 msgstr ""
+"“这不是我的意思。那么请允许我向你普及一下这个关乎公共安全的事项。\n"
+"\t\t\t\t\t\t\n"
+"\t\t\t\t\t\tRK 是一个半秘密的坏人组织，他们做坏事，并通过出售他们制造的坏东西"
+"来煽动他人也这么做。\n"
+"\t\t\t\t\t\t你看起来像是个正直的公民，因为你没有任何拉迪卡尔的东西。没错，我"
+"们已经深度扫描过你的飞船了，为了保险还扫了两次。"
 
 #: src-en/data/events.xml.append:503
 msgid ""
 "data/events.xml.append$/dummyroot/event[@name=\"RK_A_OUTSIDE_POLICE_INTRO_QUEST_START\"]/choice[2]/event/choice[1]/event/choice/text"
-msgstr ""
+msgstr "哇哦好吧，还真是尊重隐私啊？"
 
 #: src-en/data/events.xml.append:505
 msgid ""
 "data/events.xml.append$/dummyroot/event[@name=\"RK_A_OUTSIDE_POLICE_INTRO_QUEST_START\"]/choice[2]/event/choice[1]/event/choice/event/text"
 msgstr ""
+"“别装时髦了，谁都知道‘隐私’这种东西早在21世纪初就消亡了。回到正题。\n"
+"\t\t\t\t\t\t\n"
+"\t\t\t\t\t\t\t我们很自豪地隶属于反拉迪卡尔秘密特勤局（ARKSS）。通常我们不会告"
+"诉你这些，但我们需——……可以用上更多人手，而你看起来很有能力。\n"
+"\t\t\t\t\t\t\t如果你想确保自身安全，甚至加入对抗他们的正义之战，我们会出售你"
+"感兴趣的东西。”"
 
 #: src-en/data/events.xml.append:511
 msgid ""
 "data/events.xml.append$/dummyroot/event[@name=\"RK_A_OUTSIDE_POLICE_INTRO_QUEST_START\"]/choice[2]/event/choice[1]/event/choice/event/choice/text"
-msgstr ""
+msgstr "嗯……好吧，让我们看看。"
 
 #: src-en/data/events.xml.append:513
 msgid ""
 "data/events.xml.append$/dummyroot/event[@name=\"RK_A_OUTSIDE_POLICE_INTRO_QUEST_START\"]/choice[2]/event/choice[1]/event/choice/event/choice/event/text"
 msgstr ""
+"“很好。别让它落入坏人手中。\n"
+"\t\t\t\t\t\t\t\t\t\t\n"
+"\t\t\t\t\t\t\t\t\t\t如果你之后遇到那些渣滓：别接他们的通讯，瞄准头部，并且‘愿"
+"秩序永存’。”"
 
 #: src-en/data/events.xml.append:525
 msgid ""
 "data/events.xml.append$/dummyroot/event[@name=\"RK_A_OUTSIDE_POLICE_INTRO_QUEST_START\"]/choice[2]/event/choice[2]/text"
-msgstr ""
+msgstr "他们往那个方向去了。"
 
 #: src-en/data/events.xml.append:527
 msgid ""
 "data/events.xml.append$/dummyroot/event[@name=\"RK_A_OUTSIDE_POLICE_INTRO_QUEST_START\"]/choice[2]/event/choice[2]/event/text"
 msgstr ""
+"“感谢你的配合。”他们立刻通过气闸扔了一个奖励包裹过来，然后离开了。希望那里真"
+"的有拉迪卡尔的成员，否则你最好祈祷再也别见到这艘船。"
 
 #: src-en/data/events.xml.append:538
 msgid ""
 "data/events.xml.append$/dummyroot/event[@name=\"RK_A_OUTSIDE_POLICE_INTRO_QUEST_START\"]/choice[2]/event/choice[3]/text"
-msgstr ""
+msgstr "也许有，也许没有，但我们就是要攻击你！"
 
 #: src-en/data/events.xml.append:540
 msgid ""
 "data/events.xml.append$/dummyroot/event[@name=\"RK_A_OUTSIDE_POLICE_INTRO_QUEST_START\"]/choice[2]/event/choice[3]/event/text"
 msgstr ""
+"“哼！你没有装备，但你一定是同情者。同样的渣滓，不同的工具。阿尔布雷希特？”\n"
+"“准备好了，长官。”\n"
+"“部署！”\n"
+"\n"
+"他们给武器充能，同时弹射出一艘带有大型引擎和加农炮的辅助舰船，迅速驶到一定距"
+"离外提供巨炮支援。\n"
+"不管他们是谁，这些家伙可不是闹着玩的！"
 
 #: src-en/data/events.xml.append:550
 msgid ""
@@ -260,16 +284,27 @@ msgstr "继续。"
 msgid ""
 "data/events.xml.append$/dummyroot/event[@name=\"RK_A_OUTSIDE_POLICE_INTRO_QUEST_START\"]/choice[3]/text"
 msgstr ""
+"你有拉迪卡尔（RK）装备，这在几乎所有地方都是非法的。\n"
+"现在，这可能会让你付出惨重代价，因为那艘船似乎在专门扫描它！"
 
 #: src-en/data/events.xml.append:565
 msgid ""
 "data/events.xml.append$/dummyroot/event[@name=\"RK_A_OUTSIDE_POLICE_INTRO_QUEST_START\"]/choice[4]/text"
-msgstr ""
+msgstr "……我一点都不喜欢这样。攻击！"
 
 #: src-en/data/events.xml.append:567
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_RK_DETECTED_ATTACK\"]/text"
 msgstr ""
+"你甚至没有时间下达命令。那艘船一定从你跃迁进来的那一刻起就在扫描你了。而且他"
+"们已经决定要消灭你！\n"
+"\t\t\t\n"
+"\t\t\t“对你的判决已经下达，卑鄙的混沌恐怖分子。我始终找不到那些直接责任人，但"
+"至少你会为泽塔-708T56-C 塞昆杜斯的北部月球基地付出代价！”\n"
+"\t\t\t\n"
+"\t\t\t他们给武器充能（这些武器似乎是专门为摧毁 RK 飞船而定制的），同时弹射出"
+"一艘带有大型引擎和加农炮的辅助舰船，迅速驶到一定距离外提供巨炮支援。\n"
+"\t\t\t不管他们是谁，这些家伙可不是闹着玩的！"
 
 #: src-en/data/events.xml.append:577
 msgid ""
@@ -279,7 +314,7 @@ msgstr "继续。"
 #: src-en/data/events.xml.append:579
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_RK_DETECTED_ATTACK\"]/choice/event/text"
-msgstr ""
+msgstr "突然的爆炸也让你的耳朵嗡嗡作响。他们一定对你的引擎使用了某种战斗增强部件！"
 
 #: src-en/data/events.xml.append:584
 msgid ""
@@ -289,68 +324,81 @@ msgstr "继续。"
 #: src-en/data/events.xml.append:592
 msgid ""
 "data/events.xml.append$/dummyroot/event[@name=\"RK_A_OUTSIDE_POLICE_INTRO_QUEST_START\"]/choice[5]/text"
-msgstr ""
+msgstr "……我一点都不喜欢这样。试着逃跑！"
 
 #: src-en/data/events.xml.append:622
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER2_QUEST_START\"]/text"
 msgstr ""
+"一艘拥有非常特殊装备的飞船在此处，从他们呼叫你的速度来看，显然处于高度戒备状"
+"态。"
 
 #: src-en/data/events.xml.append:626
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER2_QUEST_START\"]/choice[1]/text"
-msgstr ""
+msgstr "你没有任何拉迪卡尔（RK）装备。这或许恰好救了你。"
 
 #: src-en/data/events.xml.append:631
-#, fuzzy
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER2_QUEST_START\"]/choice[2]/text"
-msgstr "回应呼叫。"
+msgstr "回应呼叫"
 
 #: src-en/data/events.xml.append:633
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER2_QUEST_START\"]/choice[2]/event/text"
-msgstr ""
+msgstr "“公民，你在这个星区见过任何拉迪卡尔成员吗？”"
 
 #: src-en/data/events.xml.append:636
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER2_QUEST_START\"]/choice[2]/event/choice[1]/text"
-msgstr ""
+msgstr "我想我没见过。"
 
 #: src-en/data/events.xml.append:638
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER2_QUEST_START\"]/choice[2]/event/choice[1]/event/text"
-msgstr ""
+msgstr "“很好。”"
 
 #: src-en/data/events.xml.append:641
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER2_QUEST_START\"]/choice[2]/event/choice[1]/event/choice/text"
-msgstr ""
+msgstr "呃，就这些吗？"
 
 #: src-en/data/events.xml.append:643
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER2_QUEST_START\"]/choice[2]/event/choice[1]/event/choice/event/text"
 msgstr ""
+"“哦，你想要点什么？我们只卖反 RK 装备。尽管采购吧，我们是唯一被授权销售这些装"
+"备的组织。\n"
+"‘愿秩序永存’。”"
 
 #: src-en/data/events.xml.append:652
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER2_QUEST_START\"]/choice[2]/event/choice[2]/text"
-msgstr ""
+msgstr "他们往那个方向去了。"
 
 #: src-en/data/events.xml.append:654
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER2_QUEST_START\"]/choice[2]/event/choice[2]/event/text"
 msgstr ""
+"“感谢你的配合。”他们立刻通过气闸扔了一个奖励包裹过来，然后离开了。希望那里真"
+"的有拉迪卡尔成员，否则你最好祈祷再也别见到这艘船。"
 
 #: src-en/data/events.xml.append:665
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER2_QUEST_START\"]/choice[2]/event/choice[3]/text"
-msgstr ""
+msgstr "也许有，也许没有，但我们就是要攻击你！"
 
 #: src-en/data/events.xml.append:667
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER2_QUEST_START\"]/choice[2]/event/choice[3]/event/text"
 msgstr ""
+"“哼！你没有装备，但你一定是反抗者。同样的渣滓，不同的工具。赫伯特？”\n"
+"\t\t\t\t\t\t“准备好了，长官。”\n"
+"\t\t\t\t\t\t“部署！”\n"
+"\n"
+"\t\t\t\t\t\t他们给武器充能，同时弹射出一艘带有大型引擎和加农炮的辅助舰船，迅"
+"速驶到一定距离外提供巨炮支援。\n"
+"\t\t\t\t\t\t不管他们是谁，这些家伙可不是闹着玩的！"
 
 #: src-en/data/events.xml.append:677
 msgid ""
@@ -361,16 +409,27 @@ msgstr "继续。"
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER2_QUEST_START\"]/choice[3]/text"
 msgstr ""
+"你有拉迪卡尔（RK）装备，这在几乎所有地方都是非法的。\n"
+"现在，这可能会让你付出惨重代价，因为那艘船似乎在专门扫描它！"
 
 #: src-en/data/events.xml.append:691
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER2_QUEST_START\"]/choice[4]/text"
-msgstr ""
+msgstr "……我一点都不喜欢这样。攻击！"
 
 #: src-en/data/events.xml.append:693
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER2_RK_DETECTED_ATTACK\"]/text"
 msgstr ""
+"你甚至没有时间下达命令。那艘船一定从你跃迁进来的那一刻起就在扫描你了。而且他"
+"们已经决定要消灭你！\n"
+"\t\t\t\t\n"
+"\t\t\t\t“对你的判决已经下达，卑鄙的混沌恐怖分子。我始终找不到那些直接责任人，"
+"但至少你会为发生在我小队身上的事付出代价！”\n"
+"\t\t\t\t\n"
+"\t\t\t\t他们给武器充能，同时弹射出一艘带有大型引擎和加农炮的辅助舰船，迅速驶"
+"到一定距离外提供巨炮支援。\n"
+"\t\t\t\t不管他们是谁，这些家伙可不是闹着玩的！"
 
 #: src-en/data/events.xml.append:703
 msgid ""
@@ -380,7 +439,7 @@ msgstr "继续。"
 #: src-en/data/events.xml.append:705
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER2_RK_DETECTED_ATTACK\"]/choice/event/text"
-msgstr ""
+msgstr "突然的爆炸也让你的耳朵嗡嗡作响。他们一定对你的引擎使用了某种战斗增强部件！"
 
 #: src-en/data/events.xml.append:710
 msgid ""
@@ -390,68 +449,81 @@ msgstr "继续。"
 #: src-en/data/events.xml.append:718
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER2_QUEST_START\"]/choice[5]/text"
-msgstr ""
+msgstr "……我一点都不喜欢这样。试着逃跑！"
 
 #: src-en/data/events.xml.append:748
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER3_QUEST_START\"]/text"
 msgstr ""
+"一艘拥有非常特殊装备的飞船在此处，从他们呼叫你的速度来看，显然处于高度戒备状"
+"态。"
 
 #: src-en/data/events.xml.append:752
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER3_QUEST_START\"]/choice[1]/text"
-msgstr ""
+msgstr "你没有任何拉迪卡尔（RK）装备。这或许恰好救了你。"
 
 #: src-en/data/events.xml.append:757
-#, fuzzy
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER3_QUEST_START\"]/choice[2]/text"
-msgstr "回应呼叫。"
+msgstr "回应呼叫"
 
 #: src-en/data/events.xml.append:759
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER3_QUEST_START\"]/choice[2]/event/text"
-msgstr ""
+msgstr "“喂，你。RK藏在这个星区哪里？”"
 
 #: src-en/data/events.xml.append:762
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER3_QUEST_START\"]/choice[2]/event/choice[1]/text"
-msgstr ""
+msgstr "我不知道"
 
 #: src-en/data/events.xml.append:764
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER3_QUEST_START\"]/choice[2]/event/choice[1]/event/text"
 msgstr ""
+"“是的。没错。从来没人知道。你只需记住，反拉迪卡尔秘密特勤局（A-RK.S.S.）时刻"
+"都在监视着。\n"
+"你为什么不买一些我们独家销售的反 RK 装备，来证明你的清白呢，嗯？”"
 
 #: src-en/data/events.xml.append:768
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER3_QUEST_START\"]/choice[2]/event/choice[1]/event/choice/text"
-msgstr ""
+msgstr "值得一看。"
 
 #: src-en/data/events.xml.append:770
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER3_QUEST_START\"]/choice[2]/event/choice[1]/event/choice/event/text"
-msgstr ""
+msgstr "“很好。‘愿秩序永存’。”"
 
 #: src-en/data/events.xml.append:778
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER3_QUEST_START\"]/choice[2]/event/choice[2]/text"
-msgstr ""
+msgstr "他们往那个方向去了。"
 
 #: src-en/data/events.xml.append:780
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER3_QUEST_START\"]/choice[2]/event/choice[2]/event/text"
 msgstr ""
+"“感谢你的配合。”他们立刻通过气闸扔了一个奖励包裹过来，然后离开了。希望那里真"
+"的有拉迪卡尔成员，否则你最好祈祷再也别见到这艘船。"
 
 #: src-en/data/events.xml.append:791
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER3_QUEST_START\"]/choice[2]/event/choice[3]/text"
-msgstr ""
+msgstr "别管他们了，我们就是要攻击你！"
 
 #: src-en/data/events.xml.append:793
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER3_QUEST_START\"]/choice[2]/event/choice[3]/event/text"
 msgstr ""
+"“哼！你没有装备，但你一定是反抗者。同样的渣滓，不同的工具。莫德雷德？”\n"
+"\t\t\t\t\t\t“准备好了，长官。”\n"
+"\t\t\t\t\t\t“部署！”\n"
+"\n"
+"\t\t\t\t\t\t他们给武器充能，同时弹射出一艘带有大型引擎和加农炮的辅助舰船，迅"
+"速驶到一定距离外提供巨炮支援。\n"
+"\t\t\t\t\t\t不管他们是谁，这些家伙可不是闹着玩的！"
 
 #: src-en/data/events.xml.append:803
 msgid ""
@@ -462,16 +534,27 @@ msgstr "继续。"
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER3_QUEST_START\"]/choice[3]/text"
 msgstr ""
+"你有拉迪卡尔（RK）装备，这在几乎所有地方都是非法的。\n"
+"现在，这可能会让你付出惨重代价，因为那艘船似乎在专门扫描它！"
 
 #: src-en/data/events.xml.append:817
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER3_QUEST_START\"]/choice[4]/text"
-msgstr ""
+msgstr "……我一点都不喜欢这样。攻击！"
 
 #: src-en/data/events.xml.append:819
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER3_RK_DETECTED_ATTACK\"]/text"
 msgstr ""
+"你甚至没有时间下达命令。那艘船一定从你跃迁进来的那一刻起就在扫描你了。而且他"
+"们已经决定要消灭你！\n"
+"\t\t\t\n"
+"\t\t\t“对你的判决已经下达，卑鄙的混沌同情者恐怖分子。我始终找不到那些直接责任"
+"人，但至少你会为我的家人付出代价，你们这些该死的……”\n"
+"\t\t\t\n"
+"\t\t\t你切断了通讯，与此同时他们给武器充能，并弹射出一艘带有大型引擎和加农炮"
+"的辅助舰船，迅速驶到一定距离外提供巨炮支援。\n"
+"\t\t\t不管他们是谁，这些家伙可不是闹着玩的！"
 
 #: src-en/data/events.xml.append:829
 msgid ""
@@ -481,7 +564,7 @@ msgstr "继续。"
 #: src-en/data/events.xml.append:831
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER3_RK_DETECTED_ATTACK\"]/choice/event/text"
-msgstr ""
+msgstr "突然的爆炸也让你的耳朵嗡嗡作响。他们一定对你的引擎使用了某种战斗增强部件！"
 
 #: src-en/data/events.xml.append:836
 msgid ""
@@ -491,78 +574,123 @@ msgstr "继续。"
 #: src-en/data/events.xml.append:844
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER3_QUEST_START\"]/choice[5]/text"
-msgstr ""
+msgstr "……我一点都不喜欢这样。试着逃跑！"
 
 #: src-en/data/events.xml.append:860
 msgid "data/events.xml.append$//event[@name=\"DEFEAT_RK_A_POLICE_INTRO\"]/text"
 msgstr ""
+"飞船刚一被击败，你的扫描仪就探测到其内部多处微型炸药被引爆，毁掉了大部分可打"
+"捞物。不管是谁在控制这些家伙，他都不会留下太多机会。\n"
+"\t\t\n"
+"\t\t辅助舰船远远超出你的射程，仍在开火，你只能抓起一些微薄的废料。"
 
 #: src-en/data/events.xml.append:866
 msgid ""
 "data/events.xml.append$//event[@name=\"DEFEAT_RK_A_POLICE_INTRO\"]/choice/text"
 msgstr ""
+"真是一场艰苦的战斗。这就是使用拉迪卡尔装备的真实代价吗？不管了，快速查看一下"
+"四周，然后我们出发！"
 
 #: src-en/data/events.xml.append:875
 msgid "data/events.xml.append$//event[@name=\"DEFEAT_RK_A_POLICE\"]/text"
 msgstr ""
+"飞船刚一被击败，你的扫描仪就探测到其内部多处微型炸药被引爆，毁掉了大部分可打"
+"捞物。不管是谁在控制这些家伙，他都不会留下太多机会。\n"
+"\t\t\n"
+"\t\t辅助舰船远远超出你的射程，仍在开火，你只能抓起一些微薄的废料。"
 
 #: src-en/data/events.xml.append:882
 msgid "data/events.xml.append$//event[@name=\"DEFEAT_RK_A_POLICE\"]/choice/text"
-msgstr ""
+msgstr "这就是当不法之徒的代价。快速查看一下四周，然后我们出发！"
 
 #: src-en/data/events.xml.append:893
 msgid ""
 "data/events.xml.append$//eventList[@name=\"DEFEAT_RK_A_POLICE_LOOT_CHANCE\"]/event[1]/text"
 msgstr ""
+"没有什么值得拿的东西了。\n"
+"是时候跳离巨炮射程了。"
 
 #: src-en/data/events.xml.append:901
 msgid ""
 "data/events.xml.append$//eventList[@name=\"DEFEAT_RK_A_POLICE_LOOT_CHANCE\"]/event[2]/text"
 msgstr ""
+"你注意到一件武器，不知为何仍然完好无损，于是把它搬上了船。\n"
+"是时候跳离巨炮射程了。"
 
 #: src-en/data/events.xml.append:910
 msgid ""
 "data/events.xml.append$//eventList[@name=\"DEFEAT_RK_A_POLICE_LOOT_CHANCE\"]/event[3]/text"
 msgstr ""
+"你注意到一件武器，不知为何仍然完好无损，于是把它搬上了船。\n"
+"是时候跳离巨炮射程了。"
 
 #: src-en/data/events.xml.append:934
 msgid ""
 "data/events.xml.append$//textList[@name=\"TEXT_EVENT_STORE_RADIKAL\"]/text[1]"
 msgstr ""
+"你的传感器停止工作，视野突然变得模糊，但这显然只是一群非常谨慎且装备精良的商"
+"贩所为。难怪，毕竟这附近有那么多见不得光的交易。\n"
+"\t\t\n"
+"\t\t[警告：购买数量有限]"
 
 #: src-en/data/events.xml.append:937
 msgid ""
 "data/events.xml.append$//textList[@name=\"TEXT_EVENT_STORE_RADIKAL\"]/text[2]"
 msgstr ""
+"你看不到附近有任何商店，但很快一艘伪装极佳的飞船派出的无人机接下了你的订单"
+"。\n"
+"\t\t\n"
+"\t\t[警告：购买数量有限]"
 
 #: src-en/data/events.xml.append:940
 msgid ""
 "data/events.xml.append$//textList[@name=\"TEXT_EVENT_STORE_RADIKAL\"]/text[3]"
 msgstr ""
+"你被快速扫描了一下，并被要求待在原地，与此同时，一家远到看不见的商店老板正在"
+"安排远程配送你的购买品。\n"
+"\t\t\n"
+"\t\t[警告：购买数量有限]"
 
 #: src-en/data/events.xml.append:943
 msgid ""
 "data/events.xml.append$//textList[@name=\"TEXT_EVENT_STORE_RADIKAL\"]/text[4]"
 msgstr ""
+"当你在交易点等待时，一个小型无人机用源源不断的有趣视频为你解闷。\n"
+"\t\t\n"
+"\t\t[警告：购买数量有限]"
 
 #: src-en/data/events.xml.append:946
 msgid ""
 "data/events.xml.append$//textList[@name=\"TEXT_EVENT_STORE_RADIKAL\"]/text[5]"
 msgstr ""
+"你被迫将飞船停在外面，然后在严密护送下进入一个看似普通小行星的内部进行购物"
+"。\n"
+"\t\t\n"
+"\t\t[警告：购买数量有限]"
 
 #: src-en/data/events.xml.append:949
 msgid ""
 "data/events.xml.append$//textList[@name=\"TEXT_EVENT_STORE_RADIKAL\"]/text[6]"
 msgstr ""
+"这里的店员非常安静。一旦你将货物安装到飞船上，按照约定，你需清除近期记录，以"
+"使商人的飞船看起来从未到过此地。\n"
+"\t\t\n"
+"\t\t[警告：购买数量有限]"
 
 #: src-en/data/events.xml.append:952
 msgid ""
 "data/events.xml.append$//textList[@name=\"TEXT_EVENT_STORE_RADIKAL\"]/text[7]"
 msgstr ""
+"你勉强同意将飞船留在一个空旷的空间矩阵中，随后他们才允许你进入商店。而当你出"
+"来时，这里除了你的飞船之外，没有其他任何飞船。\n"
+"\t\t\n"
+"\t\t[警告：购买数量有限]"
 
 #: src-en/data/events.xml.append:963
 msgid "data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED\"]/text"
 msgstr ""
+"奴隶贩子在这个星区过得相当安逸，很大程度上是因为这里缺乏管制。你偶然遇到了一"
+"个。"
 
 #: src-en/data/events.xml.append:967
 msgid "data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED\"]/choice[1]/text"
@@ -572,16 +700,19 @@ msgstr "看看是否有打折中的奴隶。"
 msgid ""
 "data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED\"]/choice[1]/event/text"
 msgstr ""
+"“联邦的人？你肯定需要一些武力支援，今天可能正是你的幸运日！我们有一个精英战士"
+"可以帮你干重活，而且价格大跳水，因为我们得赶紧交易然后离开，原因嘛……你懂的。"
+"怎么说？”你注意到折扣确实很实在，也许好得过分了。"
 
 #: src-en/data/events.xml.append:972
 msgid ""
 "data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED\"]/choice[1]/event/choice[1]/text"
-msgstr ""
+msgstr "购买精英奴隶。"
 
 #: src-en/data/events.xml.append:974
 msgid ""
 "data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED\"]/choice[1]/event/choice[1]/event/text"
-msgstr ""
+msgstr "你把废料交给了奴隶贩子……"
 
 #: src-en/data/events.xml.append:980
 msgid ""
@@ -600,7 +731,7 @@ msgstr "无视对方。"
 #: src-en/data/events.xml.append:996
 msgid ""
 "data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED\"]/choice[2]/event/text"
-msgstr ""
+msgstr "奴隶制是卑鄙的！你准备好战斗，知道那个精英奴隶可能活不下来。"
 
 #: src-en/data/events.xml.append:1000
 msgid ""
@@ -615,6 +746,9 @@ msgstr "无视对方。"
 msgid ""
 "data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED\"]/choice[3]/event/text"
 msgstr ""
+"另一艘船不久后进来买下了那个奴隶。然后它开始起火燃烧。也许你做了明智的选择"
+"。\n"
+"你有一些自己的时间。"
 
 #: src-en/data/events.xml.append:1013
 msgid ""
@@ -674,6 +808,8 @@ msgstr "我想他们会很适应的。"
 msgid ""
 "data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED_GOODEND_RK_WEAPONLIKE\"]/text"
 msgstr ""
+"他们把这个奴隶（实际上是一对）带给你，解除了他们的束缚，显然为摆脱了他而感到"
+"如释重负。“启动！”他们只说了这么一句。你巧妙地点头示意，并欢迎他们登上飞船。"
 
 #: src-en/data/events.xml.append:1078
 msgid ""
@@ -740,7 +876,6 @@ msgid ""
 msgstr "难怪他那么便宜。"
 
 #: src-en/data/events.xml.append:1148
-#, fuzzy
 msgid ""
 "data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED_BADEND_RK_WEAPONLIKE\"]/text"
 msgstr ""
@@ -749,7 +884,6 @@ msgstr ""
 " 你中断了废料转移，眼睁睁看着奴隶贩子立刻跃迁离去，留下你来对付他。"
 
 #: src-en/data/events.xml.append:1157
-#, fuzzy
 msgid ""
 "data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED_BADEND_RK_WEAPONLIKE\"]/choice/text"
 msgstr "难怪他那么便宜。"
@@ -768,22 +902,22 @@ msgstr "难怪他那么便宜。"
 
 #: src-en/data/events.xml.append:1189
 msgid "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/text"
-msgstr ""
+msgstr "你注意到附近有一艘神权国飞船，他们立刻呼叫了你。"
 
 #: src-en/data/events.xml.append:1193
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/text"
-msgstr ""
+msgstr "接听通讯。"
 
 #: src-en/data/events.xml.append:1195
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/text"
-msgstr ""
+msgstr "“你好，我们收购拉迪卡尔武器，相信你有一些。我们出的价比通常的收购价还要高。”"
 
 #: src-en/data/events.xml.append:1198
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/text"
-msgstr ""
+msgstr "“是这样吗？”"
 
 #: src-en/data/events.xml.append:1200
 msgid ""
@@ -798,22 +932,22 @@ msgstr "\"...\""
 #: src-en/data/events.xml.append:1205
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/text"
-msgstr ""
+msgstr "\"... ...\""
 
 #: src-en/data/events.xml.append:1208
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/text"
-msgstr ""
+msgstr "\"... ... ...\""
 
 #: src-en/data/events.xml.append:1210
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/text"
-msgstr ""
+msgstr "你意识到他们不会多做解释，于是开始考虑这件事。你决定怎么做？"
 
 #: src-en/data/events.xml.append:1214
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"DJMOD_BAM_FISSUREBEAM\"]/text"
-msgstr ""
+msgstr "把你的 巴达光束 卖给他们，得 165 ~。"
 
 #: src-en/data/events.xml.append:1216
 msgid ""
@@ -823,7 +957,7 @@ msgstr "当他们转移过量的报酬时，你试图掩饰自己的满足感，
 #: src-en/data/events.xml.append:1224
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"RK_HEAVY_POPPER_1\"]/text"
-msgstr ""
+msgstr "把你的 重型爆裂 I 卖给他们，得 90 ~。"
 
 #: src-en/data/events.xml.append:1226
 msgid ""
@@ -833,7 +967,7 @@ msgstr "当他们转移过量的报酬时，你试图掩饰自己的满足感，
 #: src-en/data/events.xml.append:1234
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"RK_HEAVY_POPPER_2\"]/text"
-msgstr ""
+msgstr "把你的 重型爆裂 II 卖给他们，得 91 ~。"
 
 #: src-en/data/events.xml.append:1236
 msgid ""
@@ -843,7 +977,7 @@ msgstr "当他们转移过量的报酬时，你试图掩饰自己的满足感，
 #: src-en/data/events.xml.append:1244
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"RK_HEAVY_POPPER_3\"]/text"
-msgstr ""
+msgstr "把你的重型爆裂 III 卖给他们，得 92 ~。"
 
 #: src-en/data/events.xml.append:1246
 msgid ""
@@ -853,7 +987,7 @@ msgstr "当他们转移过量的报酬时，你试图掩饰自己的满足感，
 #: src-en/data/events.xml.append:1254
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"RK_UNLOADER\"]/text"
-msgstr ""
+msgstr "把你的 卸载器导弹 卖给他们，得 105 ~。"
 
 #: src-en/data/events.xml.append:1256
 msgid ""
@@ -863,7 +997,7 @@ msgstr "当他们转移过量的报酬时，你试图掩饰自己的满足感，
 #: src-en/data/events.xml.append:1265
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"RK_BOMBLAUNCHER_ANTIBIO_REPAIR\"]/text"
-msgstr ""
+msgstr "把你的 辐射修复炸弹 卖给他们，得 75 ~。"
 
 #: src-en/data/events.xml.append:1267
 msgid ""
@@ -873,7 +1007,7 @@ msgstr "当他们转移过量的报酬时，你试图掩饰自己的满足感，
 #: src-en/data/events.xml.append:1275
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"RK_KILLALL_BEAM\"]/text"
-msgstr ""
+msgstr "把你的 墓志铭光束 卖给他们，得 135 ~。"
 
 #: src-en/data/events.xml.append:1277
 msgid ""
@@ -883,7 +1017,7 @@ msgstr "当他们转移过量的报酬时，你试图掩饰自己的满足感，
 #: src-en/data/events.xml.append:1285
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"RK_MISSLAUNCHER_2_BATTERY\"]/text"
-msgstr ""
+msgstr "把你的 月神电池导弹 卖给他们，得 120 ~。"
 
 #: src-en/data/events.xml.append:1287
 msgid ""
@@ -893,7 +1027,7 @@ msgstr "当他们转移过量的报酬时，你试图掩饰自己的满足感，
 #: src-en/data/events.xml.append:1295
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"RK_RAIN_OF_ION\"]/text"
-msgstr ""
+msgstr "把你的 离子之雨 卖给他们，得 180 ~。"
 
 #: src-en/data/events.xml.append:1297
 msgid ""
@@ -903,7 +1037,7 @@ msgstr "当他们转移过量的报酬时，你试图掩饰自己的满足感，
 #: src-en/data/events.xml.append:1305
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"RK_SHOTPHASER\"]/text"
-msgstr ""
+msgstr "把你的 相位破片 卖给他们，得 120 ~。"
 
 #: src-en/data/events.xml.append:1307
 msgid ""
@@ -913,7 +1047,7 @@ msgstr "当他们转移过量的报酬时，你试图掩饰自己的满足感，
 #: src-en/data/events.xml.append:1316
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"RK_BOMBLAUNCHER_OXYBOTTLE\"]/text"
-msgstr ""
+msgstr "把你的 氧气炸弹 卖给他们，得 75 ~。"
 
 #: src-en/data/events.xml.append:1318
 msgid ""
@@ -923,7 +1057,7 @@ msgstr "当他们转移过量的报酬时，你试图掩饰自己的满足感，
 #: src-en/data/events.xml.append:1327
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"RK_OXY_FIREFILL_MISSILES\"]/text"
-msgstr ""
+msgstr "把你的 烟囱 卖给他们，得 120 ~。"
 
 #: src-en/data/events.xml.append:1329
 msgid ""
@@ -933,7 +1067,7 @@ msgstr "当他们转移过量的报酬时，你试图掩饰自己的满足感，
 #: src-en/data/events.xml.append:1338
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"RK_FOCUS_FIRE\"]/text"
-msgstr ""
+msgstr "把你的 热烙铁光点 卖给他们，得 135 ~。"
 
 #: src-en/data/events.xml.append:1340
 msgid ""
@@ -943,7 +1077,7 @@ msgstr "当他们转移过量的报酬时，你试图掩饰自己的满足感，
 #: src-en/data/events.xml.append:1349
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"DJMOD_RAIN_OF_FIRE\"]/text"
-msgstr ""
+msgstr "把你的 火雨 卖给他们，得 120 ~。"
 
 #: src-en/data/events.xml.append:1351
 msgid ""
@@ -953,7 +1087,7 @@ msgstr "当他们转移过量的报酬时，你试图掩饰自己的满足感，
 #: src-en/data/events.xml.append:1360
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"DJMOD_LASER_BPS\"]/text"
-msgstr ""
+msgstr "把你的 BPS 信使 激光卖给他们，得 200 ~。"
 
 #: src-en/data/events.xml.append:1362
 msgid ""
@@ -964,11 +1098,15 @@ msgstr "在他们支付那笔超额款项时，你试图掩饰自己的满足，
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"rock_commando\"]/text"
 msgstr ""
+"（烈阳突击兵船员）“那种装备不是给被洗脑的蠢货用的。你应该老老实实待在你那停滞"
+"与谎言交织的老巢里。”"
 
 #: src-en/data/events.xml.append:1373
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"rock_commando\"]/event/text"
 msgstr ""
+"飞船的船长突然恢复了说话能力。“哈！我看你和恐怖分子是一伙的。兄弟们，再次见证"
+"异端分子是多么自私和暴力吧。让我们来惩罚他们！”"
 
 #: src-en/data/events.xml.append:1376
 msgid ""
@@ -984,6 +1122,9 @@ msgstr "拒绝。"
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[17]/event/text"
 msgstr ""
+"你本可以从这次相遇中获利，但也想起把武器卖给随机路过的陌生人并不是一个很安全"
+"的策略。\n"
+"你还有时间在飞船附近做点别的事情。"
 
 #: src-en/data/events.xml.append:1390
 msgid ""
@@ -1003,7 +1144,7 @@ msgstr "无视对方。"
 #: src-en/data/events.xml.append:1412
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[2]/event/text"
-msgstr ""
+msgstr "你不知道他们想要什么，但你知道你现在对神权国的交易不感兴趣。"
 
 #: src-en/data/events.xml.append:1414
 msgid ""
@@ -1018,6 +1159,8 @@ msgstr "跳过。"
 #: src-en/data/events.xml.append:1427
 msgid "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/text"
 msgstr ""
+"另一艘看似陌生的飞船在你到达后不久也抵达了这个信标，看起来有些不安。你可以呼"
+"叫他们问问发生了什么事。"
 
 #: src-en/data/events.xml.append:1430
 msgid ""
@@ -1027,42 +1170,51 @@ msgstr "联系他们。"
 #: src-en/data/events.xml.append:1432
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/text"
-msgstr ""
+msgstr "“你好，军用飞船。呃……你看起来不像是拉迪卡尔本地人。”"
 
 #: src-en/data/events.xml.append:1435
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/text"
-msgstr ""
+msgstr "你看起来也不像。那又有什么关系呢？"
 
 #: src-en/data/events.xml.append:1437
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/text"
 msgstr ""
+"飞船的船长犹豫了片刻。“你看，我们是来执行……可以说是一项军备调查任务的。而且我"
+"们需要 RK 装备的样品。”\n"
+"你在心里记下，这一定是一项秘密任务，因为通常情况下，就算死，军部也不会被发现"
+"购买非法武器。"
 
 #: src-en/data/events.xml.append:1440
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/text"
-msgstr ""
+msgstr "那你为什么不去弄那些样品呢？"
 
 #: src-en/data/events.xml.append:1442
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/text"
 msgstr ""
+"也许你在那位船长眼中看起来足够值得信赖，因为他终于道出了实情。\n"
+"“那个星区的名声不太好，如果被看到和他们做生意，对我们来说会很遗憾。而且我们也"
+"没有被提供合适的装备，能从他们那里强取豪夺之后还能活着离开……”"
 
 #: src-en/data/events.xml.append:1445
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/text"
-msgstr ""
+msgstr "问他们为什么要告诉你这些。"
 
 #: src-en/data/events.xml.append:1447
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/text"
 msgstr ""
+"“嗯，如果你有的话，卖给我们一些。我们出的价甚至可能比你买的时候还高。拜托了？"
+"”"
 
 #: src-en/data/events.xml.append:1451
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"DJMOD_BAM_FISSUREBEAM\"]/text"
-msgstr ""
+msgstr "把你的 巴达光束 卖给他们，得 165 ~。"
 
 #: src-en/data/events.xml.append:1453
 msgid ""
@@ -1072,7 +1224,7 @@ msgstr "当他们转移过量的报酬时，你试图掩饰自己的满足感，
 #: src-en/data/events.xml.append:1461
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_HEAVY_POPPER_1\"]/text"
-msgstr ""
+msgstr "把你的 重型爆裂 I 卖给他们，得 90 ~。"
 
 #: src-en/data/events.xml.append:1463
 msgid ""
@@ -1082,7 +1234,7 @@ msgstr "当他们转移过量的报酬时，你试图掩饰自己的满足感，
 #: src-en/data/events.xml.append:1471
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_HEAVY_POPPER_2\"]/text"
-msgstr ""
+msgstr "把你的 重型爆裂 II 卖给他们，得 91 ~。"
 
 #: src-en/data/events.xml.append:1473
 msgid ""
@@ -1092,7 +1244,7 @@ msgstr "当他们转移过量的报酬时，你试图掩饰自己的满足感，
 #: src-en/data/events.xml.append:1481
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_HEAVY_POPPER_3\"]/text"
-msgstr ""
+msgstr "把你的重型爆裂 III 卖给他们，得 92 ~。"
 
 #: src-en/data/events.xml.append:1483
 msgid ""
@@ -1102,7 +1254,7 @@ msgstr "当他们转移过量的报酬时，你试图掩饰自己的满足感，
 #: src-en/data/events.xml.append:1491
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_UNLOADER\"]/text"
-msgstr ""
+msgstr "把你的 卸载器导弹 卖给他们，得 105 ~。"
 
 #: src-en/data/events.xml.append:1493
 msgid ""
@@ -1112,7 +1264,7 @@ msgstr "当他们转移过量的报酬时，你试图掩饰自己的满足感，
 #: src-en/data/events.xml.append:1502
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_BOMBLAUNCHER_ANTIBIO_REPAIR\"]/text"
-msgstr ""
+msgstr "把你的 辐射修复炸弹 卖给他们，得 75 ~。"
 
 #: src-en/data/events.xml.append:1504
 msgid ""
@@ -1122,7 +1274,7 @@ msgstr "当他们转移过量的报酬时，你试图掩饰自己的满足感，
 #: src-en/data/events.xml.append:1512
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_KILLALL_BEAM\"]/text"
-msgstr ""
+msgstr "把你的 墓志铭光束 卖给他们，得 135 ~。"
 
 #: src-en/data/events.xml.append:1514
 msgid ""
@@ -1132,7 +1284,7 @@ msgstr "当他们转移过量的报酬时，你试图掩饰自己的满足感，
 #: src-en/data/events.xml.append:1522
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_MISSLAUNCHER_2_BATTERY\"]/text"
-msgstr ""
+msgstr "把你的 月神电池导弹 卖给他们，得 120 ~。"
 
 #: src-en/data/events.xml.append:1524
 msgid ""
@@ -1142,7 +1294,7 @@ msgstr "当他们转移过量的报酬时，你试图掩饰自己的满足感，
 #: src-en/data/events.xml.append:1532
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_RAIN_OF_ION\"]/text"
-msgstr ""
+msgstr "把你的 离子之雨 卖给他们，得 180 ~。"
 
 #: src-en/data/events.xml.append:1534
 msgid ""
@@ -1152,7 +1304,7 @@ msgstr "当他们转移过量的报酬时，你试图掩饰自己的满足感，
 #: src-en/data/events.xml.append:1542
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_SHOTPHASER\"]/text"
-msgstr ""
+msgstr "把你的 相位破片 卖给他们，得 120 ~。"
 
 #: src-en/data/events.xml.append:1544
 msgid ""
@@ -1162,7 +1314,7 @@ msgstr "当他们转移过量的报酬时，你试图掩饰自己的满足感，
 #: src-en/data/events.xml.append:1553
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_BOMBLAUNCHER_OXYBOTTLE\"]/text"
-msgstr ""
+msgstr "把你的 氧气炸弹 卖给他们，得 75 ~。"
 
 #: src-en/data/events.xml.append:1555
 msgid ""
@@ -1172,7 +1324,7 @@ msgstr "当他们转移过量的报酬时，你试图掩饰自己的满足感，
 #: src-en/data/events.xml.append:1564
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_OXY_FIREFILL_MISSILES\"]/text"
-msgstr ""
+msgstr "把你的 烟囱 卖给他们，得 120 ~。"
 
 #: src-en/data/events.xml.append:1566
 msgid ""
@@ -1182,7 +1334,7 @@ msgstr "当他们转移过量的报酬时，你试图掩饰自己的满足感，
 #: src-en/data/events.xml.append:1575
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_FOCUS_FIRE\"]/text"
-msgstr ""
+msgstr "把你的 热烙铁光点 卖给他们，得 135 ~。"
 
 #: src-en/data/events.xml.append:1577
 msgid ""
@@ -1192,7 +1344,7 @@ msgstr "当他们转移过量的报酬时，你试图掩饰自己的满足感，
 #: src-en/data/events.xml.append:1586
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"DJMOD_RAIN_OF_FIRE\"]/text"
-msgstr ""
+msgstr "把你的 火雨 卖给他们，得 120 ~。"
 
 #: src-en/data/events.xml.append:1588
 msgid ""
@@ -1202,7 +1354,7 @@ msgstr "在他们支付那笔超额款项时，你试图掩饰自己的满足，
 #: src-en/data/events.xml.append:1597
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"DJMOD_LASER_BPS\"]/text"
-msgstr ""
+msgstr "把你的 BPS 信使 激光卖给他们，得 200 ~。"
 
 #: src-en/data/events.xml.append:1599
 msgid ""
@@ -1218,6 +1370,9 @@ msgstr "拒绝。"
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[16]/event/text"
 msgstr ""
+"你本可以从这次相遇中获利，但也想起把武器卖给随机路过的陌生人并不是一个很安全"
+"的策略。\n"
+"你还有时间在飞船附近做点别的事情。"
 
 #: src-en/data/events.xml.append:1615
 msgid ""
@@ -1232,22 +1387,25 @@ msgstr "跳过。"
 #: src-en/data/events.xml.append:1628
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[@req=\"DJMOD_HAS_RADIKAL_GEAR\"]/text"
-msgstr ""
+msgstr "（拉迪卡尔装备）在他们强行夺走你的装备之前，给你的武器充能。"
 
 #: src-en/data/events.xml.append:1630
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[@req=\"DJMOD_HAS_RADIKAL_GEAR\"]/event/text"
-msgstr ""
+msgstr "“好了好了，没必要诉诸暴力。我们这就走。”"
 
 #: src-en/data/events.xml.append:1633
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[@req=\"DJMOD_HAS_RADIKAL_GEAR\"]/event/choice[1]/text"
-msgstr ""
+msgstr "……嗯，那说明他们确实像自己说的那么弱，让我们轻松赚点废料吧！"
 
 #: src-en/data/events.xml.append:1635
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[@req=\"DJMOD_HAS_RADIKAL_GEAR\"]/event/choice[1]/event/text"
 msgstr ""
+"“等等……等等！这——这只是一个交易请求。怎么会变成这样？求你了！”\n"
+"正如你从他们任务的秘密性质中所推测的那样，他们没有发送任何信息来谴责你，只是"
+"启动引擎试图逃跑！看来你找到了一个犯罪可以不受惩罚的地方……"
 
 #: src-en/data/events.xml.append:1639
 msgid ""
@@ -1257,27 +1415,34 @@ msgstr "继续。"
 #: src-en/data/events.xml.append:1646
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[@req=\"DJMOD_HAS_RADIKAL_GEAR\"]/event/choice[2]/text"
-msgstr ""
+msgstr "别管他们了，他们显然没有威胁。"
 
 #: src-en/data/events.xml.append:1657
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[@req=\"DJMOD_HAS_RADIKAL_SHIP\"]/text"
-msgstr ""
+msgstr "真有趣。你是怎么到这儿来的却从没见过拉迪卡尔飞船？"
 
 #: src-en/data/events.xml.append:1659
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[@req=\"DJMOD_HAS_RADIKAL_SHIP\"]/event/text"
 msgstr ""
+"什么？等等，你怎么会知道这个的？……哦我明白了，这其实是一艘拉迪卡尔飞船！能……"
+"把它给我们吗？我们会给你丰厚的补偿。"
 
 #: src-en/data/events.xml.append:1662
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[@req=\"DJMOD_HAS_RADIKAL_SHIP\"]/event/choice/text"
-msgstr ""
+msgstr "嗯……不行。"
 
 #: src-en/data/events.xml.append:1664
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[@req=\"DJMOD_HAS_RADIKAL_SHIP\"]/event/choice/event/text"
 msgstr ""
+"“早就料到了……但你得明白，我当班的时候，我的全家都在一次拉迪卡尔袭击中丧生了。"
+"我不是随便接下这个任务的。我们需要准入权限来阻碍他们的行动，我真的不能错过这"
+"个机会。我希望你能合作，但事已至此，我别无选择！”\n"
+"\n"
+"他们的武器正在上线！"
 
 #: src-en/data/events.xml.append:1670
 msgid ""
@@ -1292,7 +1457,7 @@ msgstr "无视对方。"
 #: src-en/data/events.xml.append:1683
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[2]/event/text"
-msgstr ""
+msgstr "你把他们丢在一边，不管他们遇到了什么麻烦，转而考虑对你的飞船做一些维护。"
 
 #: src-en/data/events.xml.append:1685
 msgid ""
@@ -1308,6 +1473,8 @@ msgstr "跳过。"
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN_GOTAWAY\"]/text"
 msgstr ""
+"超能族在你还没来得及为了废料屠杀他们之前就逃走了，而且与你所想相反，他们确实"
+"举报了你。也算公平。"
 
 #: src-en/data/events.xml.append:1709
 msgid ""
@@ -1317,49 +1484,59 @@ msgstr "继续。"
 #: src-en/data/events.xml.append:1720
 msgid "data/events.xml.append$//event[@name=\"RADIKAL_PHILO\"]/text"
 msgstr ""
+"你发现一个热情好客、活泼开朗的年长隐士，她住在一个小型空间站里，里面塞满了民"
+"用和军用补给品，显然全都是给她自己用的。\n"
+"‘你好，外乡人，我对这个星区了如指掌，想听听故事，喝杯茶吗？’”"
 
 #: src-en/data/events.xml.append:1723
 msgid "data/events.xml.append$//event[@name=\"RADIKAL_PHILO\"]/choice[1]/text"
-msgstr ""
+msgstr "待一会儿。这可能会有帮助。"
 
 #: src-en/data/events.xml.append:1725
 msgid ""
 "data/events.xml.append$//event[@name=\"RADIKAL_PHILO\"]/choice[1]/event/text"
 msgstr ""
+"“我叫布伦蒂尔达。你肯定已经注意到了，这个星区被三个主要子派系占据，而且他们各"
+"有各的个性！”"
 
 #: src-en/data/events.xml.append:1727
 msgid ""
 "data/events.xml.append$//event[@name=\"RADIKAL_PHILO\"]/choice[1]/event/choice/text"
-msgstr ""
+msgstr "礼貌地打断她，问那些补给是从哪儿来的。"
 
 #: src-en/data/events.xml.append:1729
 msgid ""
 "data/events.xml.append$//event[@name=\"RADIKAL_PHILO\"]/choice[1]/event/choice/event/text"
 msgstr ""
+"“哦，你可真好奇！你看，亲爱的，我的儿子们在这个星区做‘管理’和‘市场’方面的工作"
+"。他们一度意识到自己既没有时间也没有耐心去评估新人，教他们我们的规矩。所以他"
+"们就想出了这个差事给他们亲爱的好妈妈，而且他们总是确保我得到很好的照料。”"
 
 #: src-en/data/events.xml.append:1731
 msgid ""
 "data/events.xml.append$//event[@name=\"RADIKAL_PHILO\"]/choice[1]/event/choice/event/choice/text"
-msgstr ""
+msgstr "明白了。很高兴认识你。"
 
 #: src-en/data/events.xml.append:1733
 msgid ""
 "data/events.xml.append$//event[@name=\"RADIKAL_PHILO\"]/choice[1]/event/choice/event/choice/event/text"
 msgstr ""
+"既然你已经能猜到为什么没人洗劫这个地方了，这里有些东西你可以了解一下。“你还想"
+"知道些什么，亲爱的？”"
 
 #: src-en/data/events.xml.append:1735
 msgid ""
 "data/events.xml.append$//event[@name=\"RADIKAL_PHILO\"]/choice[1]/event/choice/event/choice/event/choice/text"
-msgstr ""
+msgstr "想一些问题。"
 
 #: src-en/data/events.xml.append:1746
 msgid "data/events.xml.append$//event[@name=\"RADIKAL_PHILO\"]/choice[2]/text"
-msgstr ""
+msgstr "我们没时间跟某个老太太的‘情报’浪费时间。"
 
 #: src-en/data/events.xml.append:1748
 msgid ""
 "data/events.xml.append$//event[@name=\"RADIKAL_PHILO\"]/choice[2]/event/text"
-msgstr ""
+msgstr "你道了别，一无所获也一无所失，仔细想想其实也不算太糟。"
 
 #: src-en/data/events.xml.append:1751
 msgid ""
@@ -1373,17 +1550,33 @@ msgstr "跳过。"
 
 #: src-en/data/events.xml.append:1768
 msgid "data/events.xml.append$//event[@name=\"RADIKAL_PHILO_INTEL_REAL\"]/text"
-msgstr ""
+msgstr "问她……"
 
 #: src-en/data/events.xml.append:1771
 msgid ""
 "data/events.xml.append$//event[@name=\"RADIKAL_PHILO_INTEL_REAL\"]/choice[1]/text"
-msgstr ""
+msgstr "……关于门卫的事。"
 
 #: src-en/data/events.xml.append:1773
 msgid ""
 "data/events.xml.append$//event[@name=\"RADIKAL_PHILO_INTEL_REAL\"]/choice[1]/event/text"
 msgstr ""
+"“这本来应该算是个小惊喜，但我遇到过一些可爱的小伙子小姑娘，他们因为不知道这些"
+"而没能离开这个星区。所以我会告诉你：除非你正在运送我们的一位朋友（哈哈！），"
+"否则不经历一场战斗你是离不开这个星区的。在准备好之前，尽量避开他们。\n"
+"\t\t\t\t\n"
+"\t\t\t\t巴姆门卫会是一块难啃的硬骨头，但任何导弹防御和足够的护盾应该能保你安"
+"全。\n"
+"\n"
+"\t\t\t\t朋克门卫那边有点混乱不堪，但主要还是离子和反生物 辐射需要你当心。\n"
+"\n"
+"\t\t\t\t灼烧门卫会很快并反复让你着火，而且这对它也不太管用。不过你一定已经猜"
+"到这点了！\n"
+"\t\t\t\t\n"
+"\t\t\t\t别让我儿子们知道我把这些告诉了你，嘿嘿嘿！哦，如果你是个胆小鬼，你随"
+"时都可以逃跑……”\n"
+"\t\t\t\t你可以看出，如果你真的那样做了，甚至连她都不会再尊重你，但你也必须考"
+"虑你试图拯救的现实。"
 
 #: src-en/data/events.xml.append:1786
 msgid ""
@@ -1408,12 +1601,19 @@ msgstr "好了，我们这就上路。谢谢你的茶。"
 #: src-en/data/events.xml.append:1802
 msgid ""
 "data/events.xml.append$//event[@name=\"RADIKAL_PHILO_INTEL_REAL\"]/choice[2]/text"
-msgstr ""
+msgstr "……关于子派系的名称。"
 
 #: src-en/data/events.xml.append:1804
 msgid ""
 "data/events.xml.append$//event[@name=\"RADIKAL_PHILO_INTEL_REAL\"]/choice[2]/event/text"
 msgstr ""
+"“那些都是什么名字？拉迪卡尔·巴姆？朋克？灼烧？是来自什么儿童节目之类的吗？”你"
+"问道。\n"
+"\t\t\t\n"
+"\t\t\t“其实也没什么好说的。因为从一开始，就有很多人称他们为激进分子，我的儿子"
+"们和他们的小伙伴们干脆就接受了这个称呼。子派系们只是需要一点额外的区分来表明"
+"各自的不同，而且这里的人确实不太喜欢多说话。所以他们保持简短、直截了当。另外"
+"我还听说过什么变量之类的东西？我是个例外，聊天真是太愉快了！”"
 
 #: src-en/data/events.xml.append:1810
 msgid ""
@@ -1438,12 +1638,26 @@ msgstr "好了，我们这就上路。谢谢你的茶。"
 #: src-en/data/events.xml.append:1826
 msgid ""
 "data/events.xml.append$//event[@name=\"RADIKAL_PHILO_INTEL_REAL\"]/choice[3]/text"
-msgstr ""
+msgstr "……关于 RK 装备的设计理念。"
 
 #: src-en/data/events.xml.append:1828
 msgid ""
 "data/events.xml.append$//event[@name=\"RADIKAL_PHILO_INTEL_REAL\"]/choice[3]/event/text"
 msgstr ""
+"“也许你就是脑子有点迟钝，所以以防万一，让我给你掰开揉碎讲清楚。”你压住了回应"
+"这句侮辱的冲动。\n"
+"\t\t\t\n"
+"\t\t\t“巴姆的成员相信强有力、震撼性的打击或事件所带来的直接效率。比如像给我儿"
+"子们教的那样，当头一棒！\n"
+"\t\t\n"
+"\t\t\t朋克则偏爱技术优势、反情报之类的玩意儿。他们倾向于带上较少的火力，更多"
+"花哨的小装置。\n"
+"\t\t\n"
+"\t\t\t最后，灼烧人只想看着东西燃烧，而且他们有办法确保这一点。有些嫉妒的外地"
+"人喜欢散布一些关于与其他世界生物达成契约的无稽之谈，尤其是在灼烧成员中间。人"
+"们会变得如此卑劣，难道不令人悲哀吗？\n"
+"\t\t\n"
+"\t\t\t我希望这能给你们这些年轻人说清楚了！”"
 
 #: src-en/data/events.xml.append:1839
 msgid ""
@@ -1468,12 +1682,14 @@ msgstr "好了，我们这就上路。谢谢你的茶。"
 #: src-en/data/events.xml.append:1855
 msgid ""
 "data/events.xml.append$//event[@name=\"RADIKAL_PHILO_INTEL_REAL\"]/choice[4]/text"
-msgstr ""
+msgstr "……关于价格。"
 
 #: src-en/data/events.xml.append:1857
 msgid ""
 "data/events.xml.append$//event[@name=\"RADIKAL_PHILO_INTEL_REAL\"]/choice[4]/event/text"
 msgstr ""
+"“要把这么多制作材料悄悄地运进一个隐藏星区，需要很多专业设备，我儿子们是这么跟"
+"我说的。这就导致了高价格，当然，本地生产的就没那么贵了！”"
 
 #: src-en/data/events.xml.append:1860
 msgid ""
@@ -1498,32 +1714,40 @@ msgstr "好了，我们这就上路。谢谢你的茶。"
 #: src-en/data/events.xml.append:1899
 msgid ""
 "data/events.xml.append$//event[@name=\"RADIKAL_PHILO_INTEL_REAL\"]/choice[5]/text"
-msgstr ""
+msgstr "威胁她交出补给！"
 
 #: src-en/data/events.xml.append:1901
 msgid ""
 "data/events.xml.append$//event[@name=\"RADIKAL_PHILO_INTEL_REAL\"]/choice[5]/event/text"
-msgstr ""
+msgstr "被她的身体孱弱所鼓舞，你决定光靠聊天永远不如直接拿走你想要的东西来得有用。"
 
 #: src-en/data/events.xml.append:1903
 msgid ""
 "data/events.xml.append$//event[@name=\"RADIKAL_PHILO_INTEL_REAL\"]/choice[5]/event/choice/text"
-msgstr ""
+msgstr "你最好闭嘴，把所有的补给都给——"
 
 #: src-en/data/events.xml.append:1905
 msgid ""
 "data/events.xml.append$//event[@name=\"RADIKAL_PHILO_INTEL_REAL\"]/choice[5]/event/choice/event/text"
 msgstr ""
+"你还没说完你那卑鄙的威胁，就感觉到一把冰冷的匕首——属于一个隐形安保无人机——正"
+"抵着你的脖子，你意识到这个地方显然守卫森严。\n"
+"“没受过教育的无赖，嗯？又一个失望，但很明显，我们的小生意对这类人很有吸引力。"
+"真是浪费了好茶。现在给我出去。”"
 
 #: src-en/data/events.xml.append:1909
 msgid ""
 "data/events.xml.append$//event[@name=\"RADIKAL_PHILO_INTEL_REAL\"]/choice[5]/event/choice/event/choice/text"
-msgstr ""
+msgstr "等等！你可能不信，但这真的不是我们的本性……"
 
 #: src-en/data/events.xml.append:1911
 msgid ""
 "data/events.xml.append$//event[@name=\"RADIKAL_PHILO_INTEL_REAL\"]/choice[5]/event/choice/event/choice/event/text"
 msgstr ""
+"你羞愧地“提供”了一些补给作为道歉，弄清楚了为什么补给堆那么大，并用非常明确的"
+"措辞告诉你的船员，这件事永远不许再提起。\n"
+"你也觉得，尽管这件事发生在隐藏星区，但你缺乏道德的风声不知怎的可能会传到外面"
+"的世界。"
 
 #: src-en/data/events.xml.append:1929
 msgid ""
@@ -1533,6 +1757,11 @@ msgstr "好了，我们这就上路。谢谢你的茶。"
 #: src-en/data/events.xml.append:1934
 msgid "data/events.xml.append$//event[@name=\"RADIKAL_PHILO_GOODBYE\"]/text"
 msgstr ""
+"她看起来很高兴。“哎呀，谢谢你！你们这些年轻人中很少有愿意停下来听老太太说话的"
+"，尤其是在这地方。出于某种原因，他们似乎更喜欢……‘强化审讯’？我猜年轻人是这么"
+"叫的？好像是关于制造细节什么的。不管怎样，再会了！”\n"
+"你注意到一艘穿梭机被派来与你分享一点她的补给。这份工作可能比看起来要孤独得多"
+"，你想知道她的儿子们多久来看她一次。"
 
 #: src-en/data/events.xml.append:1940
 msgid ""
@@ -1542,25 +1771,42 @@ msgstr "继续。"
 #: src-en/data/events.xml.append:1953
 msgid "data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK\"]/text"
 msgstr ""
+"你刚到这里，就注意到自己正被一支小型超能族舰队包围，他们正在拦截每一艘经过这"
+"里的飞船。一名全副武装的超能族精英发来了紧急通讯。\n"
+"不用说，不接听通讯看起来会很可疑。"
 
 #: src-en/data/events.xml.append:1961
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK\"]/choice[1]/text"
-msgstr ""
+msgstr "接听。"
 
 #: src-en/data/events.xml.append:1963
 msgid "data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_MENU\"]/text"
 msgstr ""
+"“如果你不是没头脑的野蛮人，应该知道这个星区一直在向暮临派提供武器装备。我们最"
+"近开始着手解决这个问题。\n"
+"\t\t\t\t就像任何在这样一个无法无天的武器制造区过境的船只一样，你将受到强制性"
+"的彻底搜查，以寻找上述武器。\n"
+"\t\t\t\t\n"
+"\t\t\t\t打击非法武器扩散的斗争从你开始。不要抵抗。”\n"
+"\t\t\t\t\n"
+"\t\t\t\t超能族牧师团认为这个区域是一个非常严重的问题。如果他们发现任何拉迪卡"
+"尔装备，将根据你携带的数量处以罚款。"
 
 #: src-en/data/events.xml.append:1972
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_MENU\"]/choice[@req=\"zoltan_peacekeeper\"]/text"
-msgstr ""
+msgstr "（超能族维和兵）牧师团派我们来的。"
 
 #: src-en/data/events.xml.append:1974
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_MENU\"]/choice[@req=\"zoltan_peacekeeper\"]/event/text"
 msgstr ""
+"“终于等到援军了。这是你的委任状。你会在这个星区找到罪犯，他们通常藏在危险的信"
+"标处。没收他们的非法装备，然后送到空间站。坐标在背面。”\n"
+"\n"
+"可以放心地假设，并非每个“罪犯”都会乖乖交出他们的 RK 装备，但这可能会极大地有"
+"利于你的任务。"
 
 #: src-en/data/events.xml.append:1981
 msgid ""
@@ -1575,12 +1821,17 @@ msgstr "跳过。"
 #: src-en/data/events.xml.append:1991
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_MENU\"]/choice[@req=\"human_soldier\"]/text"
-msgstr ""
+msgstr "（人类士兵）联邦派我们来协助。"
 
 #: src-en/data/events.xml.append:1993
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_MENU\"]/choice[@req=\"human_soldier\"]/event/text"
 msgstr ""
+"“终于等到援军了。这是你的委任状。你会在这个星区找到罪犯，他们通常藏在危险的信"
+"标处。没收他们的非法装备，然后送到空间站。坐标在背面。”\n"
+"\n"
+"可以放心地假设，并非每个“罪犯”都会乖乖交出他们的 RK 装备，但这可能会极大地有"
+"利于你的任务。"
 
 #: src-en/data/events.xml.append:2000
 msgid ""
@@ -1595,12 +1846,17 @@ msgstr "跳过。"
 #: src-en/data/events.xml.append:2010
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_MENU\"]/choice[@req=\"engi_defender\"]/text"
-msgstr ""
+msgstr "（半械保卫者）为了谐合的繁荣，让我们来帮忙。"
 
 #: src-en/data/events.xml.append:2012
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_MENU\"]/choice[@req=\"engi_defender\"]/event/text"
 msgstr ""
+"“终于等到援军了。这是你的委任状。你会在这个星区找到罪犯，他们通常藏在危险的信"
+"标处。没收他们的非法装备，然后送到空间站。坐标在背面。”\n"
+"\n"
+"可以放心地假设，并非每个“罪犯”都会乖乖交出他们的 RK 装备，但这可能会极大地有"
+"利于你的任务。"
 
 #: src-en/data/events.xml.append:2019
 msgid ""
@@ -1615,12 +1871,17 @@ msgstr "跳过。"
 #: src-en/data/events.xml.append:2029
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_MENU\"]/choice[@req=\"orchid_praetor\"]/text"
-msgstr ""
+msgstr "（兰花军政官）比划手势“我们是来帮忙的”。"
 
 #: src-en/data/events.xml.append:2031
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_MENU\"]/choice[@req=\"orchid_praetor\"]/event/text"
 msgstr ""
+"“终于等到援军了。这是你的委任状。你会在这个星区找到罪犯，他们通常藏在危险的信"
+"标处。没收他们的非法装备，然后送到空间站。坐标在背面。”\n"
+"\n"
+"可以放心地假设，并非每个“罪犯”都会乖乖交出他们的 RK 装备，但这可能会极大地有"
+"利于你的任务。"
 
 #: src-en/data/events.xml.append:2038
 msgid ""
@@ -1635,42 +1896,52 @@ msgstr "跳过。"
 #: src-en/data/events.xml.append:2049
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_MENU\"]/choice[5]/text"
-msgstr ""
+msgstr "同意搜查。"
 
 #: src-en/data/events.xml.append:2054
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_MENU\"]/choice[6]/text"
-msgstr ""
+msgstr "问问如果拒绝会怎样。"
 
 #: src-en/data/events.xml.append:2056
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_MENU\"]/choice[6]/event/text"
 msgstr ""
+"“感谢仁慈的近期修正案 3473-B delta，船长们可以选择参与资助像这样的管制船只，"
+"并在 72 个周期内前往最近的超能族警察局报到，而不是立即接受搜查。”\n"
+"\n"
+"尽管你完全没有打算绕那个弯，但他们暂时不会打扰你了。"
 
 #: src-en/data/events.xml.append:2060
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_MENU\"]/choice[6]/event/choice[1]/text"
-msgstr ""
+msgstr "付钱。"
 
 #: src-en/data/events.xml.append:2062
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_MENU\"]/choice[6]/event/choice[1]/event/text"
 msgstr ""
+"你不情愿地转了废料，但尽量不表现出愤怒的样子，庆幸你的装备暂时……至少目前是安"
+"全的。"
 
 #: src-en/data/events.xml.append:2070
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_MENU\"]/choice[6]/event/choice[2]/text"
-msgstr ""
+msgstr "同意搜查。"
 
 #: src-en/data/events.xml.append:2079
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK\"]/choice[2]/text"
-msgstr ""
+msgstr "试着无视它，直接通过。"
 
 #: src-en/data/events.xml.append:2081
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK\"]/choice[2]/event/text"
 msgstr ""
+"“你协助恐怖活动的认罪供词已被记录并归档，用于审判任何尚存的配偶及/或继承人。"
+"你逃不过法律的制裁。”\n"
+"\t\t\t\t听起来你只能杀出一条血路了。你不禁想，如果船员里有个内应，结局会不会"
+"有所不同。"
 
 #: src-en/data/events.xml.append:2086
 msgid ""
@@ -1680,7 +1951,7 @@ msgstr "继续。"
 #: src-en/data/events.xml.append:2110
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_ACCEPT\"]/text"
-msgstr ""
+msgstr "他们登上你的舰船并进行搜查……"
 
 #: src-en/data/events.xml.append:2113
 msgid ""
@@ -1693,6 +1964,9 @@ msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_ACCEPT\"]/choice[@req=\"DJMOD_HAS_RADIKAL_GEAR\""
 " and @lvl=\"0\"]/event/text"
 msgstr ""
+"幸运的是，你没什么好担心的。离开你的竞技场后，超能族们一言不发地切断了通讯，"
+"转而专注于另一艘飞船。你不知道发生了什么事。无论如何，这花了一段时间，长得没"
+"法在飞船上做任何特别的事了。"
 
 #: src-en/data/events.xml.append:2117
 msgid ""
@@ -1711,6 +1985,9 @@ msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_ACCEPT\"]/choice[@req=\"DJMOD_HAS_RADIKAL_GEAR\""
 " and @lvl=\"1\"]/event/text"
 msgstr ""
+"没过多久，他们确实发现了什么东西。“请明白，如果你无法提供正当理由（你现在仍然"
+"可以提供），我们将采取必要的制裁措施，可能是罚款，或者直接没收违规装备。如果"
+"你自愿留下一个人给我们审讯，这两者都可以避免。”"
 
 #: src-en/data/events.xml.append:2128
 msgid ""
@@ -1721,6 +1998,8 @@ msgstr "继续。"
 #: src-en/data/events.xml.append:2136
 msgid "data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_FINED\"]/text"
 msgstr ""
+"也许你忘了自己携带了拉迪卡尔装备，也许你只是没能找到避开搜查的办法。无论如何"
+"，他们现在要对你携带的每一件装备罚款！"
 
 #: src-en/data/events.xml.append:2139
 msgid ""
@@ -1733,6 +2012,8 @@ msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_FINED\"]/choice[@req=\"DJMOD_SUM_RADIKAL_EQUIPMENT\""
 " and @lvl=\"1\"]/event/text"
 msgstr ""
+"“一件非法装备，收下这笔最低罚款作为警告。如果你有比这更多的‘拉迪卡尔’装备，我"
+"们将被迫将你移交当地警察局处理。”"
 
 #: src-en/data/events.xml.append:2152
 msgid ""
@@ -1745,6 +2026,9 @@ msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_FINED\"]/choice[@req=\"DJMOD_SUM_RADIKAL_EQUIPMENT\""
 " and @lvl=\"2\"]/event/text"
 msgstr ""
+"“两件非法装备。你真应该明白，为了力量放弃道德是不明智的。”\n"
+"\t\t\t\t据说你可以通过去警察局交出非法装备来拿回部分废料，但不知怎的你对此表"
+"示怀疑。不过，去拜访一下他们或许还是值得的。"
 
 #: src-en/data/events.xml.append:2166
 msgid ""
@@ -1757,6 +2041,9 @@ msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_FINED\"]/choice[@req=\"DJMOD_SUM_RADIKAL_EQUIPMENT\""
 " and @lvl=\"3\"]/event/text"
 msgstr ""
+"“三件非法装备……联邦如今真是随便什么渣滓都雇。”\n"
+"\t\t\t\t据说你可以通过去警察局交出非法装备来拿回部分废料，但不知怎的你对此表"
+"示怀疑。不过，去拜访一下他们或许还是值得的。"
 
 #: src-en/data/events.xml.append:2181
 msgid ""
@@ -1769,35 +2056,44 @@ msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_FINED\"]/choice[@req=\"DJMOD_SUM_RADIKAL_EQUIPMENT\""
 " and @lvl=\"4\"]/event/text"
 msgstr ""
+"“至少四件非法装备！搞什么——……我甚至不想知道。你一定是个多么可怕的人。算你走运"
+"，这是适用条例规定的最高罚款。我想没人会料到有你能变的如此威胁。”\n"
+"\t\t\t\t据说你可以通过去警察局交出非法装备来拿回部分废料，但不知怎的你对此表"
+"示怀疑。不过，去拜访一下他们或许还是值得的。"
 
 #: src-en/data/events.xml.append:2194
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_FINED\"]/choice[@req=\"LIST_CHECK_ANY_CREW\"]/text"
-msgstr ""
+msgstr "交出某人去接受审讯。"
 
 #: src-en/data/events.xml.append:2199
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_FINED\"]/choice[6]/text"
-msgstr ""
+msgstr "出其不意地爆掉那个多管闲事的。（冒险）"
 
 #: src-en/data/events.xml.append:2201
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_FINED\"]/choice[6]/event/text"
 msgstr ""
+"你快速而准确地透过瞄准镜，用你的爆裂手枪把首席检查官打得稀烂，然后在爆炸前恰"
+"好找到掩体躲了起来！\n"
+"非常解气，而且他的徽章能卖些废料……但你能应付剩下的队员吗？"
 
 #: src-en/data/events.xml.append:2209
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_FINED\"]/choice[6]/event/choice/text"
-msgstr ""
+msgstr "把他们全干掉！"
 
 #: src-en/data/events.xml.append:2217
 msgid "data/events.xml.append$//event[@name=\"RK_INTERROGATED_CREW\"]/text"
 msgstr ""
+"你们达成了一项协议，他们扣留你的一名船员，这样他们就可以解释你在这个星区做什"
+"么。这是一个漫长的过程，你再见他们之前，肯定会先完成你的任务（或者死掉）。"
 
 #: src-en/data/events.xml.append:2220
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_INTERROGATED_CREW\"]/removeCrew/text"
-msgstr ""
+msgstr "你的船员无法被克隆，因为他并没有死，不过他可能很快就会发疯。"
 
 #: src-en/data/events.xml.append:2224
 msgid "data/events.xml.append$//event[@name=\"RK_INTERROGATED_CREW\"]/choice/text"
@@ -1806,11 +2102,18 @@ msgstr "继续。"
 #: src-en/data/events.xml.append:2242
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICESTATION_RK\"]/beaconType/unvisitedTooltip"
-msgstr ""
+msgstr "超能族警察存放没收的拉迪卡尔装备的地方。"
 
 #: src-en/data/events.xml.append:2244
 msgid "data/events.xml.append$//event[@name=\"ZOLTAN_POLICESTATION_RK\"]/text"
 msgstr ""
+"你想知道超能族究竟是如何在这片区域毫不动摇地建立了一个坚固的警察局，但这证明"
+"了他们的决心。\n"
+"“欢迎你，舰长。既然你能找到这个地方，你一定隶属于参与这项管制工作的特殊联邦部"
+"队。”\n"
+"\n"
+"这可能与事实相去甚远，但你决定将计就计。\n"
+"“我们能为你做些什么？”"
 
 #: src-en/data/events.xml.append:2253
 msgid ""
@@ -1821,51 +2124,65 @@ msgstr "请求物资。"
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICESTATION_RK\"]/choice[1]/event/text"
 msgstr ""
+"“我们以巨大的代价从这伙罪犯手中缴获了大量物资。但作为联邦的一员，你是我们这次"
+"行动中的盟友。当然，在联盟供应与后勤法案的允许范围内，请自便。”"
 
 #: src-en/data/events.xml.append:2261
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICESTATION_RK\"]/choice[2]/text"
-msgstr ""
+msgstr "请求拉迪卡尔装备。"
 
 #: src-en/data/events.xml.append:2263
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICESTATION_RK\"]/choice[2]/event/text"
 msgstr ""
+"在简短的破冰闲聊之后（那位军官几乎看起来还挺享受），你抓住机会索要一件免费装"
+"备。他脸上所谓的神情瞬间就变了。\n"
+"\t\t\t\t“你一定是搞错了。这些都是经过标记和分类的审判证据，属于非法武器，使用"
+"不安全、不道德，而且总体上对法律和秩序构成威胁。感谢你的到访，我现在还有工作"
+"要做。”"
 
 #: src-en/data/events.xml.append:2268
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICESTATION_RK\"]/choice[2]/event/choice[1]/text"
-msgstr ""
+msgstr "假装惊讶。"
 
 #: src-en/data/events.xml.append:2270
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICESTATION_RK\"]/choice[2]/event/choice[1]/event/text"
 msgstr ""
+"你早就料到会这样。“哦？我们没收到通知。抱歉问了，继续好好干吧。”\n"
+"那个超能族用怀疑的眼神看了你一眼，但他忙于处理文书工作，没空调查你。你毫发无"
+"损地离开了，但什么也没拿到。"
 
 #: src-en/data/events.xml.append:2275
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICESTATION_RK\"]/choice[2]/event/choice[1]/event/choice/text"
-msgstr ""
+msgstr "呃。"
 
 #: src-en/data/events.xml.append:2282
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICESTATION_RK\"]/choice[2]/event/choice[2]/text"
-msgstr ""
+msgstr "“我们也可以来硬的……”"
 
 #: src-en/data/events.xml.append:2284
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICESTATION_RK\"]/choice[2]/event/choice[2]/event/text"
 msgstr ""
+"现在他确信你根本不是来帮忙的，这个超能族拉响了警报，你冲回你的飞船。战斗在空"
+"间站防御炮塔的射程内爆发了！"
 
 #: src-en/data/events.xml.append:2295
 msgid ""
 "data/events.xml.append$//ship[@name=\"SHIP_ZOLTAN_POLICESTATION_RK\"]/destroyed/text"
-msgstr ""
+msgstr "警察局分崩离析，其没收的非法物品和大量行政备份数据都化作了你可以带走的废料。"
 
 #: src-en/data/events.xml.append:2299
 msgid ""
 "data/events.xml.append$//ship[@name=\"SHIP_ZOLTAN_POLICESTATION_RK\"]/deadCrew/text"
 msgstr ""
+"在杀光了船员之后，你设法在炮塔撕裂你的飞船之前，抢到了一些补给品和一个贴着标"
+"签的板条箱。"
 
 #: src-en/data/events.xml.append:2302
 msgid ""
@@ -1875,11 +2192,14 @@ msgstr "打开它。"
 #: src-en/data/events.xml.append:2304
 msgid ""
 "data/events.xml.append$//ship[@name=\"SHIP_ZOLTAN_POLICESTATION_RK\"]/deadCrew/choice/event/text"
-msgstr ""
+msgstr "正如标签所示，那是一个拉迪卡尔增强部件！官僚作风也有其好处。"
 
 #: src-en/data/events.xml.append:2329
 msgid "data/events.xml.append$//event[@name=\"THIEVES_RK_LASERS\"]/text"
 msgstr ""
+"一艘严重受损、装备激光武器的拉迪卡尔飞船似乎正受到一艘阿尔吉恩走私者的攻击，"
+"后者显然是想偷取他们的特殊技术。他们已濒临绝境，但他们的飞行轨迹迫使他们从你"
+"身边经过，以求一丝逃跑的机会。"
 
 #: src-en/data/events.xml.append:2333
 msgid "data/events.xml.append$//event[@name=\"THIEVES_RK_LASERS\"]/choice[1]/text"
@@ -1888,7 +2208,7 @@ msgstr "营救拉迪卡尔族人。"
 #: src-en/data/events.xml.append:2335
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_LASERS\"]/choice[1]/event/text"
-msgstr ""
+msgstr "你挡在了走私船的去路上，让他们别无选择，只能与你战斗。"
 
 #: src-en/data/events.xml.append:2338
 msgid ""
@@ -1904,6 +2224,9 @@ msgstr "（高级武器）自己拿下猎物。"
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_LASERS\"]/choice[@req=\"weapons\"]/event/text"
 msgstr ""
+"“哇吼吼吼，嘿，等等，那是我们的——”在其余船员的施压下，他们迅速改变了主意。“你"
+"知道吗，去他的，拿着你的赃物玩去吧。”这话从一个走私者嘴里说出来，真是相当讽刺"
+"。幸存的拉迪卡尔人很容易就被解决掉了。"
 
 #: src-en/data/events.xml.append:2351
 msgid ""
@@ -1913,21 +2236,26 @@ msgstr "再在飞船上多搜寻一下。"
 #: src-en/data/events.xml.append:2353
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_LASERS\"]/choice[@req=\"weapons\"]/event/choice/event/text"
-msgstr ""
+msgstr "货物中有一个可用的拉迪卡尔增强部件！一定就是走私者们要找的东西。"
 
 #: src-en/data/events.xml.append:2357
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_LASERS\"]/choice[@req=\"weapons\"]/event/choice/event/choice/text"
-msgstr ""
+msgstr "我想我们现在是小偷了。"
 
 #: src-en/data/events.xml.append:2368
 msgid "data/events.xml.append$//event[@name=\"THIEVES_RK_LASERS\"]/choice[3]/text"
-msgstr ""
+msgstr "退后，看看事情会如何发展。"
 
 #: src-en/data/events.xml.append:2370
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_LASERS\"]/choice[3]/event/text"
 msgstr ""
+"拉迪卡尔飞船进行了一场还算不错但毫无胜算的战斗，很快就没了动静。海盗们短暂地"
+"处理了他们此行的目的，然后重新与你建立了通讯。“感谢您不干涉，好心的先生。想象"
+"一下，如果我们身边有更多像您这样……胆小的——我是说，善良的旁观者，生意该多好做"
+"啊？这些燃料是给您杰出行为的奖赏，我们庆祝去啦！”你收下了奖励，短暂地想了想，"
+"是什么让他们心情如此之好。"
 
 #: src-en/data/events.xml.append:2378
 msgid ""
@@ -1941,7 +2269,7 @@ msgstr "无视对方。"
 #: src-en/data/events.xml.append:2387
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_LASERS\"]/choice[4]/event/text"
-msgstr ""
+msgstr "你让这两艘船自己去打，然后考虑下一步该做什么。"
 
 #: src-en/data/events.xml.append:2390
 msgid ""
@@ -1961,7 +2289,7 @@ msgstr "接受他们的投降。"
 #: src-en/data/events.xml.append:2420
 msgid ""
 "data/events.xml.append$//event[@name=\"SHIP_SMUGGLER_RK_LASERS_SURRENDER\"]/choice[1]/event/choice/text"
-msgstr ""
+msgstr "去看看他们差点得手的猎物。"
 
 #: src-en/data/events.xml.append:2431
 msgid "data/events.xml.append$//event[@name=\"THIEVES_RK_LASERS_REWARD\"]/text"
@@ -1985,9 +2313,14 @@ msgstr "他们想从你这儿得到什么？"
 #: src-en/data/events.xml.append:2450
 msgid "data/events.xml.append$//event[@name=\"THIEVES_RK_LASERS_END\"]/text"
 msgstr ""
+"“老样子，本地技术。你肯定明白我们也不能就这样给你。”\n"
+"\t\t你脑海深处有个声音告诉你，当时就该杀了他们……但你抑制住了贪婪，打消了那些"
+"突然冒出来的念头。\n"
+"\t\t\n"
+"\t\t“不过，我们可以为你提供一把符合 RK 子派系风格的非拉迪卡尔激光武器，这样才"
+"公平。你想要哪种？”"
 
 #: src-en/data/events.xml.append:2457
-#, fuzzy
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_LASERS_END\"]/choice[1]/text"
 msgstr "砰！"
@@ -2003,7 +2336,6 @@ msgid ""
 msgstr "继续。"
 
 #: src-en/data/events.xml.append:2469
-#, fuzzy
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_LASERS_END\"]/choice[2]/text"
 msgstr "混蛋！"
@@ -2019,7 +2351,6 @@ msgid ""
 msgstr "继续。"
 
 #: src-en/data/events.xml.append:2481
-#, fuzzy
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_LASERS_END\"]/choice[3]/text"
 msgstr "灼烧！"
@@ -2037,6 +2368,9 @@ msgstr "继续。"
 #: src-en/data/events.xml.append:2497
 msgid "data/events.xml.append$//event[@name=\"THIEVES_RK_MISSILES\"]/text"
 msgstr ""
+"一艘严重受损、装备导弹武器的拉迪卡尔飞船似乎正受到一艘走私者的攻击，后者显然"
+"是想偷取他们的特殊技术。他们已濒临绝境，但他们的飞行轨迹迫使他们从你身边经过"
+"，以求一丝逃跑的机会。"
 
 #: src-en/data/events.xml.append:2501
 msgid ""
@@ -2127,9 +2461,10 @@ msgstr "他们想从你这儿得到什么？"
 #: src-en/data/events.xml.append:2591
 msgid "data/events.xml.append$//event[@name=\"THIEVES_RK_MISSILES_END\"]/text"
 msgstr ""
+"“老样子，本地技术。你肯定明白我们也不能就这样给你。不过，我们可以从货物中提供"
+"一件符合你偏好的拉迪卡尔子派系的导弹武器，这样才公平。你想要哪种？”"
 
 #: src-en/data/events.xml.append:2594
-#, fuzzy
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_MISSILES_END\"]/choice[1]/text"
 msgstr "砰！"
@@ -2145,7 +2480,6 @@ msgid ""
 msgstr "继续。"
 
 #: src-en/data/events.xml.append:2606
-#, fuzzy
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_MISSILES_END\"]/choice[2]/text"
 msgstr "混蛋！"
@@ -2161,7 +2495,6 @@ msgid ""
 msgstr "继续。"
 
 #: src-en/data/events.xml.append:2618
-#, fuzzy
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_MISSILES_END\"]/choice[3]/text"
 msgstr "灼烧！"
@@ -2179,6 +2512,9 @@ msgstr "继续。"
 #: src-en/data/events.xml.append:2634
 msgid "data/events.xml.append$//event[@name=\"THIEVES_RK_IONS\"]/text"
 msgstr ""
+"一艘严重受损、装备离子武器的拉迪卡尔飞船似乎正受到一艘走私者的攻击，后者显然"
+"是想偷取他们的特殊技术。他们已濒临绝境，但他们的飞行轨迹迫使他们从你身边经过"
+"，以求一丝逃跑的机会。"
 
 #: src-en/data/events.xml.append:2638
 msgid "data/events.xml.append$//event[@name=\"THIEVES_RK_IONS\"]/choice[1]/text"
@@ -2267,9 +2603,10 @@ msgstr "他们想从你这儿得到什么？"
 #: src-en/data/events.xml.append:2728
 msgid "data/events.xml.append$//event[@name=\"THIEVES_RK_IONS_END\"]/text"
 msgstr ""
+"“老样子，本地技术。你肯定明白我们也不能就这样给你。不过，我们可以从货物中提供"
+"一件符合你偏好的拉迪卡尔子派系的离子武器，这样才公平。你想要哪种？”"
 
 #: src-en/data/events.xml.append:2731
-#, fuzzy
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_IONS_END\"]/choice[1]/text"
 msgstr "砰！"
@@ -2285,7 +2622,6 @@ msgid ""
 msgstr "继续。"
 
 #: src-en/data/events.xml.append:2743
-#, fuzzy
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_IONS_END\"]/choice[2]/text"
 msgstr "混蛋！"
@@ -2301,7 +2637,6 @@ msgid ""
 msgstr "继续。"
 
 #: src-en/data/events.xml.append:2755
-#, fuzzy
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_IONS_END\"]/choice[3]/text"
 msgstr "灼烧！"
@@ -2319,6 +2654,9 @@ msgstr "继续。"
 #: src-en/data/events.xml.append:2771
 msgid "data/events.xml.append$//event[@name=\"THIEVES_RK_BEAMS\"]/text"
 msgstr ""
+"一艘严重受损、装备光束武器的拉迪卡尔飞船似乎正受到一艘走私者的攻击，后者显然"
+"是想偷取他们的特殊技术。他们已濒临绝境，但他们的飞行轨迹迫使他们从你身边经过"
+"，以求一丝逃跑的机会。"
 
 #: src-en/data/events.xml.append:2775
 msgid "data/events.xml.append$//event[@name=\"THIEVES_RK_BEAMS\"]/choice[1]/text"
@@ -2407,9 +2745,10 @@ msgstr "他们想从你这儿得到什么？"
 #: src-en/data/events.xml.append:2865
 msgid "data/events.xml.append$//event[@name=\"THIEVES_RK_BEAMS_END\"]/text"
 msgstr ""
+"“老样子，本地技术。你肯定明白我们也不能就这样给你。不过，我们可以从货物中提供"
+"一件符合你偏好的拉迪卡尔子派系的光束武器，这样才公平。你想要哪种？”"
 
 #: src-en/data/events.xml.append:2868
-#, fuzzy
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_BEAMS_END\"]/choice[1]/text"
 msgstr "砰！"
@@ -2425,7 +2764,6 @@ msgid ""
 msgstr "继续。"
 
 #: src-en/data/events.xml.append:2880
-#, fuzzy
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_BEAMS_END\"]/choice[2]/text"
 msgstr "混蛋！"
@@ -2441,7 +2779,6 @@ msgid ""
 msgstr "继续。"
 
 #: src-en/data/events.xml.append:2892
-#, fuzzy
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_BEAMS_END\"]/choice[3]/text"
 msgstr "灼烧！"
@@ -2466,23 +2803,25 @@ msgstr "跳过。"
 
 #: src-en/data/events.xml.append:2926
 msgid "data/events.xml.append$//textList[@name=\"EMPTY_RADIKAL\"]/text[1]"
-msgstr ""
+msgstr "你抵达了信标，庆幸能得到喘息，因为这里似乎没人关心你拥有或不拥有什么技术。"
 
 #: src-en/data/events.xml.append:2927
 msgid "data/events.xml.append$//textList[@name=\"EMPTY_RADIKAL\"]/text[2]"
 msgstr ""
+"这里找不到其他飞船或有趣的结构，是个在飞船上做些工作，或者和船员聊聊天（也许"
+"吧）的机会。"
 
 #: src-en/data/events.xml.append:2928
 msgid "data/events.xml.append$//textList[@name=\"EMPTY_RADIKAL\"]/text[3]"
-msgstr ""
+msgstr "这个星区算不上平静，但至少这里没有什么值得注意的事情发生。"
 
 #: src-en/data/events.xml.append:2929
 msgid "data/events.xml.append$//textList[@name=\"EMPTY_RADIKAL\"]/text[4]"
-msgstr ""
+msgstr "看来你找到了一个相对宁静的地方，在这个星区里实属罕见。"
 
 #: src-en/data/events.xml.append:2930
 msgid "data/events.xml.append$//textList[@name=\"EMPTY_RADIKAL\"]/text[5]"
-msgstr ""
+msgstr "最近这附近似乎有一次武器测试出了灾难性的问题，目前这个地方已被废弃。"
 
 #: src-en/data/events.xml.append:2936
 msgid ""
@@ -2497,22 +2836,28 @@ msgstr "跳过。"
 #: src-en/data/events.xml.append:2945
 msgid "data/events.xml.append$//textList[@name=\"NEBULA_EMPTY_RADIKAL\"]/text[1]"
 msgstr ""
+"这里没有活物，只有大型自动飞船在采集气体。大概是制造某种致命武器的原料，但与"
+"它们发生冲突不值得你浪费时间。"
 
 #: src-en/data/events.xml.append:2946
 msgid "data/events.xml.append$//textList[@name=\"NEBULA_EMPTY_RADIKAL\"]/text[2]"
-msgstr ""
+msgstr "你在这儿找不到任何特殊技术，但也没人来打扰你，甚至没有埋伏的海盗。"
 
 #: src-en/data/events.xml.append:2947
 msgid "data/events.xml.append$//textList[@name=\"NEBULA_EMPTY_RADIKAL\"]/text[3]"
 msgstr ""
+"这个信标因安全原因被关闭，但计算机只显示了这些信息。你或许可以在不被实验武器"
+"击中的情况下，欣赏这迷人的星云。"
 
 #: src-en/data/events.xml.append:2948
 msgid "data/events.xml.append$//textList[@name=\"NEBULA_EMPTY_RADIKAL\"]/text[4]"
-msgstr ""
+msgstr "看起来这片星云目前是个不错的藏身之处，没有探测到敌意信号。"
 
 #: src-en/data/events.xml.append:2975
 msgid "data/events.xml.append$//event[@name=\"EXIT_RADIKAL_PART2\"]/text"
 msgstr ""
+"你活着到达了出口，这可不是件小事，但三艘狰狞的飞船已经在那里等着你了。\n"
+"你准确地猜到别无选择，于是接听了通讯。"
 
 #: src-en/data/events.xml.append:2980
 msgid ""
@@ -2529,7 +2874,7 @@ msgstr "继续。"
 #: src-en/data/events.xml.append:2990
 msgid ""
 "data/events.xml.append$//event[@name=\"EXIT_RADIKAL_ACTIVATE_PIRATE_AMBUSH\"]/text"
-msgstr ""
+msgstr "你有种奇怪的感觉，好像忘了做什么重要的事……但你还是继续前行。"
 
 #: src-en/data/events.xml.append:2994
 msgid ""
@@ -2539,18 +2884,28 @@ msgstr "继续。"
 #: src-en/data/events.xml.append:3000
 msgid "data/events.xml.append$//event[@name=\"EXIT_RADIKAL_MAIN\"]/text"
 msgstr ""
+"“我简单跟你说吧，我们是有声誉要维护的。如果你连我们的一个门卫都打不过，那我们"
+"可不能让你离开，免得因为你的无能而让拉迪卡尔装备蒙羞。\n"
+"\t想想看。你觉得人们为什么会资助这一切？那是因为你从未听说过劣质的拉迪卡尔装"
+"备，而这就是我们进行质量控制的一种方式。\n"
+"\t\n"
+"\t你可以选择你的对手，所以明智地选择吧……没错，这也是技能测试的一部分。\n"
+"\t哦，还有，不用担心杀死这些飞船上的船员，他们全都是为特定目的培育的非法克隆"
+"体。事实上，我们很乐意看到你干净利落地干掉他们。\n"
+"\t\n"
+"\t那么，你选择哪位门卫？”"
 
 #: src-en/data/events.xml.append:3010
 msgid ""
 "data/events.xml.append$//event[@name=\"EXIT_RADIKAL_MAIN\"]/choice[@req=\"challenge_level\""
 " and @lvl=\"0\"]/text"
-msgstr ""
+msgstr "巴姆，拥有原始的直接伤害和增援能力。"
 
 #: src-en/data/events.xml.append:3012
 msgid ""
 "data/events.xml.append$//event[@name=\"EXIT_RADIKAL_MAIN\"]/choice[@req=\"challenge_level\""
 " and @lvl=\"0\"]/event/text"
-msgstr ""
+msgstr "你被带到巴姆竞技场来证明你的价值。准备好！"
 
 #: src-en/data/events.xml.append:3016
 msgid ""
@@ -2562,13 +2917,13 @@ msgstr "继续。"
 msgid ""
 "data/events.xml.append$//event[@name=\"EXIT_RADIKAL_MAIN\"]/choice[@req=\"challenge_level\""
 " and @lvl=\"3\"]/text"
-msgstr ""
+msgstr "巴姆，拥有原始的直接伤害和增援能力。"
 
 #: src-en/data/events.xml.append:3024
 msgid ""
 "data/events.xml.append$//event[@name=\"EXIT_RADIKAL_MAIN\"]/choice[@req=\"challenge_level\""
 " and @lvl=\"3\"]/event/text"
-msgstr ""
+msgstr "你被带到巴姆竞技场来证明你的价值。准备好！"
 
 #: src-en/data/events.xml.append:3028
 msgid ""
@@ -2578,12 +2933,12 @@ msgstr "继续。"
 
 #: src-en/data/events.xml.append:3036
 msgid "data/events.xml.append$//event[@name=\"EXIT_RADIKAL_MAIN\"]/choice[3]/text"
-msgstr ""
+msgstr "朋克，拥有花哨的招式和船员恶作剧。"
 
 #: src-en/data/events.xml.append:3038
 msgid ""
 "data/events.xml.append$//event[@name=\"EXIT_RADIKAL_MAIN\"]/choice[3]/event/text"
-msgstr ""
+msgstr "你被带到朋克竞技场来证明你的价值。准备好！"
 
 #: src-en/data/events.xml.append:3042
 msgid ""
@@ -2592,12 +2947,12 @@ msgstr "继续。"
 
 #: src-en/data/events.xml.append:3048
 msgid "data/events.xml.append$//event[@name=\"EXIT_RADIKAL_MAIN\"]/choice[4]/text"
-msgstr ""
+msgstr "灼烧，拥有火焰武器和加速特性。"
 
 #: src-en/data/events.xml.append:3050
 msgid ""
 "data/events.xml.append$//event[@name=\"EXIT_RADIKAL_MAIN\"]/choice[4]/event/text"
-msgstr ""
+msgstr "你被带到灼烧竞技场来证明你的价值。准备好！"
 
 #: src-en/data/events.xml.append:3054
 msgid ""
@@ -2607,99 +2962,146 @@ msgstr "继续。"
 #: src-en/data/events.xml.append:3061
 msgid ""
 "data/events.xml.append$//event[@name=\"EXIT_RADIKAL_MAIN\"]/choice[@req=\"unique_alkali\"]/text"
-msgstr ""
+msgstr "（阿尔科莱）让阿尔科莱为你放行。"
 
 #: src-en/data/events.xml.append:3063
 msgid ""
 "data/events.xml.append$//event[@name=\"EXIT_RADIKAL_MAIN\"]/choice[@req=\"unique_alkali\"]/event/text"
 msgstr ""
+"幸运的是，只过了几分钟，阿尔科莱就回来了，你被允许离开了。看来舰船上有一位秘"
+"密与 RK 朋克合作的科学家还是有好处的。"
 
 #: src-en/data/events.xml.append:3068
 msgid ""
 "data/events.xml.append$//event[@name=\"EXIT_RADIKAL_MAIN\"]/choice[@req=\"unique_ariadne\"]/text"
-msgstr ""
+msgstr "（阿里阿德涅）让阿里阿德涅为你放行。"
 
 #: src-en/data/events.xml.append:3070
 msgid ""
 "data/events.xml.append$//event[@name=\"EXIT_RADIKAL_MAIN\"]/choice[@req=\"unique_ariadne\"]/event/text"
 msgstr ""
+"幸运的是，只过了几分钟，阿里阿德涅就回来了，你被允许离开了。看来舰船上有一位"
+"与 RK 灼烧有深层业务往来的受人尊敬的上将还是有好处的。"
 
 #: src-en/data/events.xml.append:3075
 msgid ""
 "data/events.xml.append$//event[@name=\"EXIT_RADIKAL_MAIN\"]/choice[@req=\"LIST_VARIANT_BILLY\"]/text"
-msgstr "(比利)让比利给你清场，以便离开。"
+msgstr "(比利)让比利为你放行。"
 
 #: src-en/data/events.xml.append:3077
 msgid ""
 "data/events.xml.append$//event[@name=\"EXIT_RADIKAL_MAIN\"]/choice[@req=\"LIST_VARIANT_BILLY\"]/event/text"
 msgstr ""
+"幸运的是，只过了几分钟，比利就回来了，你被允许离开了。看来舰船上有一家军事科"
+"技公司的首席执行官还是有好处的。"
 
 #: src-en/data/events.xml.append:3083
 msgid ""
 "data/events.xml.append$//event[@name=\"EXIT_RADIKAL_MAIN\"]/choice[@req=\"unique_dessius\"]/text"
-msgstr ""
+msgstr "（德修斯）让德修斯涅为你放行。"
 
 #: src-en/data/events.xml.append:3085
 msgid ""
 "data/events.xml.append$//event[@name=\"EXIT_RADIKAL_MAIN\"]/choice[@req=\"unique_dessius\"]/event/text"
 msgstr ""
+"幸运的是，只过了几分钟，德修斯就回来了，你被允许离开了。看来舰船上有一位向 "
+"RK 输送大量人力的世袭领袖还是有好处的。"
 
 #: src-en/data/events.xml.append:3090
 msgid ""
 "data/events.xml.append$//event[@name=\"EXIT_RADIKAL_MAIN\"]/choice[@req=\"unique_devorak\"]/text"
-msgstr ""
+msgstr "（德沃拉克）让德沃拉克为你放行。"
 
 #: src-en/data/events.xml.append:3092
 msgid ""
 "data/events.xml.append$//event[@name=\"EXIT_RADIKAL_MAIN\"]/choice[@req=\"unique_devorak\"]/event/text"
 msgstr ""
+"幸运的是，只过了几分钟，德沃拉克就回来了，你被允许离开了。看来飞船上有一位拥"
+"有无尽爆炸记录、被 RK 巴姆研究的战士还是有好处的。"
 
 #: src-en/data/events.xml.append:3097
 msgid ""
 "data/events.xml.append$//event[@name=\"EXIT_RADIKAL_MAIN\"]/choice[@req=\"traitor\"]/text"
-msgstr "(梅特恩特)让梅特恩特给你清场，以便离开。"
+msgstr "(梅特恩特)让梅特恩特为你放行。"
 
 #: src-en/data/events.xml.append:3099
 msgid ""
 "data/events.xml.append$//event[@name=\"EXIT_RADIKAL_MAIN\"]/choice[@req=\"traitor\"]/event/text"
 msgstr ""
+"幸运的是，只过了几分钟，梅特恩特就回来了，你被允许离开了。看来飞船上有一家军"
+"事科技公司的人事经理还是有好处的。"
 
 #: src-en/data/events.xml.append:3134
 msgid ""
 "data/events.xml.append$//event[@name=\"RKS_EXIT_PIRATE_TRINITY_AMBUSH\"]/text"
 msgstr ""
+"就在你准备跳跃时，一艘涂着海盗颜色的严肃战舰从隐藏处驶出，后面跟着更多的海盗"
+"。\n"
+"“忘了点什么？也许是你要求的一次小小的商业会面？你还有没有荣誉感？？！你不能让"
+"一群亡命徒白白浪费时间。现在去死吧，蠢货！”"
 
 #: src-en/data/events.xml.append:3146
 msgid ""
 "data/events.xml.append$//event[@name=\"RKS_EXIT_PIRATE_TRINITY_AMBUSH\"]/choice/text"
-msgstr ""
+msgstr "哦，原来那奇怪的感觉是这个意思啊。"
 
 #: src-en/data/events.xml.append:3148
 msgid ""
 "data/events.xml.append$//event[@name=\"RKS_EXIT_PIRATE_TRINITY_AMBUSH\"]/choice/event/text"
 msgstr ""
+"看来海盗们真的很不乐意你没来参加你自己的海盗三合一聚会。他们不知怎么的还干扰"
+"了你的跃迁引擎！你只能靠战斗才能离开这里，而拉迪卡尔成员似乎不愿在此事上选边"
+"站。"
 
 #: src-en/data/events.xml.append:3152
 msgid ""
 "data/events.xml.append$//event[@name=\"RKS_EXIT_PIRATE_TRINITY_AMBUSH\"]/choice/event/choice/text"
-msgstr ""
+msgstr "这里除了战斗没什么可做的！"
 
 #: src-en/data/events.xml.append:3173
 msgid ""
 "data/events.xml.append$//ship[@name=\"SHIP_RKS_EXIT_PIRATE_AMBUSHER\"]/destroyed/text"
 msgstr ""
+"“不——”海盗船长的话语被他们飞船的爆炸声打断了。\n"
+"\n"
+"\t\t\t大多数拉迪卡尔成员对此并不太高兴。\n"
+"\t\t\t“我们不是告诉过你，如果你答应了就得付钱给那些家伙吗？现在我们会有段时间"
+"要面临交货问题了。”\n"
+"\t\t\t\n"
+"\t\t\t其他人则露出赞许的神情，但脸上依然不满。\n"
+"\t\t\t“哈，我的意思是，这确实是一场错过了会很可惜的战斗，但代价是什么？” “是—"
+"—的，这——个混蛋是活该，但他也做了很多好事。”\n"
+"\t\t\t\n"
+"\t\t\t“这样吧，你赢得了那堆残骸，那就把它清理干净吧。这是你收拾这个烂摊子的一"
+"部分。如果你能在这件事平息之前消失一段时间，剩下的我们来处理。”\n"
+"\t\t\t很明显，消息无论如何都会传开，但拉迪卡尔成员似乎准备以中立的角度来讲述"
+"这件事。你在海盗中的声誉应该不会受损。"
 
 #: src-en/data/events.xml.append:3186
 msgid ""
 "data/events.xml.append$//ship[@name=\"SHIP_RKS_EXIT_PIRATE_AMBUSHER\"]/destroyed/choice/text"
-msgstr ""
+msgstr "趁他们还没改变主意，该走了。"
 
 #: src-en/data/events.xml.append:3191
 msgid ""
 "data/events.xml.append$//ship[@name=\"SHIP_RKS_EXIT_PIRATE_AMBUSHER\"]/deadCrew/text"
 msgstr ""
+"“不——”海盗船长还没说完就死了。\n"
+"\n"
+"\t\t\t大多数拉迪卡尔成员对此并不太高兴。\n"
+"\t\t\t“我们不是告诉过你，如果你答应了就得付钱给那些家伙吗？现在我们会有段时间"
+"要面临交货问题了。”\n"
+"\t\t\t\n"
+"\t\t\t其他人则露出赞许的神情，但脸上依然不满。\n"
+"\t\t\t“哈，我的意思是，这确实是一场错过了会很可惜的战斗，但代价是什么？” “是—"
+"—的，这——个混蛋是活该，但他也做了很多好事。”\n"
+"\t\t\t\n"
+"\t\t\t“这样吧，你赢得了那堆残骸，那就把它清理干净吧。这是你收拾这个烂摊子的一"
+"部分。如果你能在这件事平息之前消失一段时间，剩下的我们来处理。”\n"
+"\t\t\t很明显，消息无论如何都会传开，但拉迪卡尔成员似乎准备以中立的角度来讲述"
+"这件事。你在海盗中的声誉应该不会受损。"
 
 #: src-en/data/events.xml.append:3204
 msgid ""
 "data/events.xml.append$//ship[@name=\"SHIP_RKS_EXIT_PIRATE_AMBUSHER\"]/deadCrew/choice/text"
-msgstr ""
+msgstr "趁他们还没改变主意，该走了。"
