@@ -1,9 +1,16 @@
 #
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2026-08-17 08:36+0000\n"
+"Last-Translator: 土豆老年人 <2685455659@qq.com>\n"
+"Language-Team: Chinese (Simplified Han script) <https://weblate.hyperq.be/"
+"projects/radikal-sector/dataevents_sector_radikalxml/zh_Hans/>\n"
+"Language: zh_Hans\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.17.1\n"
 
 #: src-en/data/events_sector_radikal.xml:82
 msgid ""
@@ -270,7 +277,7 @@ msgstr "继续。"
 #: src-en/data/events_sector_radikal.xml:377
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_LEAD_TITANS_USER_SLUG\"]/deadCrew/choice[4]/text"
-msgstr ""
+msgstr "什么都不拿"
 
 #: src-en/data/events_sector_radikal.xml:395
 msgid ""
@@ -378,7 +385,7 @@ msgstr ""
 #: src-en/data/events_sector_radikal.xml:494
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_GRAVESPRED_USER_REBELAUTO\"]/destroyed/choice[1]/event/text"
-msgstr ""
+msgstr "你提取了武器，并在一切爆炸之前离开了。"
 
 #: src-en/data/events_sector_radikal.xml:498
 #, fuzzy
@@ -410,7 +417,7 @@ msgstr ""
 #: src-en/data/events_sector_radikal.xml:520
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_GRAVESPRED_USER_REBELAUTO\"]/destroyed/choice[3]/event/text"
-msgstr ""
+msgstr "你提取了增强部件，并在一切爆炸之前离开了。"
 
 #: src-en/data/events_sector_radikal.xml:524
 #, fuzzy
