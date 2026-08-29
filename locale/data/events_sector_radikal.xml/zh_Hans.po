@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-08-17 08:36+0000\n"
+"PO-Revision-Date: 2026-08-29 05:36+0000\n"
 "Last-Translator: 土豆老年人 <2685455659@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://weblate.hyperq.be/"
 "projects/radikal-sector/dataevents_sector_radikalxml/zh_Hans/>\n"
@@ -15,10 +15,9 @@ msgstr ""
 #: src-en/data/events_sector_radikal.xml:82
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RK_MV_TRAVELER\"]/beaconType/unvisitedTooltip"
-msgstr ""
+msgstr "这里是异常能量信号的所在地。"
 
 #: src-en/data/events_sector_radikal.xml:83
-#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RK_MV_TRAVELER\"]/beaconType/visitedTooltip"
 msgstr "已探索的信标，没什么值得注意。"
@@ -26,9 +25,10 @@ msgstr "已探索的信标，没什么值得注意。"
 #: src-en/data/events_sector_radikal.xml:85
 msgid "data/events_sector_radikal.xml$//event[@name=\"RK_MV_TRAVELER\"]/text"
 msgstr ""
+"你抵达了一处看似普通的信标，但扫描显示有一条滑流隧道正在开启。有人正装备着MV"
+"驱动器在附近跃迁进入！"
 
 #: src-en/data/events_sector_radikal.xml:87
-#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RK_MV_TRAVELER\"]/choice/text"
 msgstr "继续。"
@@ -37,6 +37,10 @@ msgstr "继续。"
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_STORE_SNIPER_SIEGED\"]/text"
 msgstr ""
+"看起来一艘极其致命的隐形舰船正在攻击附近某位“狙击女孩”拥有的市场。如果你能阻"
+"止他们，你应该就能进入那家商店。\n"
+"\n"
+"这家专业商店看起来已准备好提供火力支援。"
 
 #: src-en/data/events_sector_radikal.xml:110
 msgid ""
@@ -49,7 +53,6 @@ msgid ""
 msgstr "你准备作战。"
 
 #: src-en/data/events_sector_radikal.xml:116
-#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_STORE_SNIPER_SIEGED\"]/choice[1]/event/choice/text"
 msgstr "继续。"
@@ -62,7 +65,7 @@ msgstr "无视商人。"
 #: src-en/data/events_sector_radikal.xml:124
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_STORE_SNIPER_SIEGED\"]/choice[2]/event/text"
-msgstr ""
+msgstr "你相当确定他们注意到了你的存在，但他们似乎太忙了，无暇顾及。"
 
 #: src-en/data/events_sector_radikal.xml:126
 msgid ""
@@ -77,10 +80,9 @@ msgstr "跳过。"
 #: src-en/data/events_sector_radikal.xml:140
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_STORE_SNIPER_EXTREME\"]/destroyed/text"
-msgstr ""
+msgstr "隐形舰船解体了，你迅速打捞了你能带走的一切。"
 
 #: src-en/data/events_sector_radikal.xml:143
-#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_STORE_SNIPER_EXTREME\"]/destroyed/choice/text"
 msgstr "继续。"
@@ -88,10 +90,9 @@ msgstr "继续。"
 #: src-en/data/events_sector_radikal.xml:148
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_STORE_SNIPER_EXTREME\"]/deadCrew/text"
-msgstr ""
+msgstr "船员死亡后，你迅速从隐形舰船上打捞了你能带走的一切。"
 
 #: src-en/data/events_sector_radikal.xml:151
-#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_STORE_SNIPER_EXTREME\"]/deadCrew/choice/text"
 msgstr "继续。"
@@ -122,7 +123,6 @@ msgid ""
 msgstr ""
 
 #: src-en/data/events_sector_radikal.xml:226
-#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"NEBULA_LIGHT_RKS_FIGHT_LEAD_TITANS\"]/choice[@req=\"unique_rk_defromorius\"]/event/choice/text"
 msgstr "继续。"
@@ -130,15 +130,14 @@ msgstr "继续。"
 #: src-en/data/events_sector_radikal.xml:233
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"NEBULA_LIGHT_RKS_FIGHT_LEAD_TITANS\"]/choice[2]/text"
-msgstr ""
+msgstr "自卫！"
 
 #: src-en/data/events_sector_radikal.xml:235
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"NEBULA_LIGHT_RKS_FIGHT_LEAD_TITANS\"]/choice[2]/event/text"
-msgstr ""
+msgstr "你准备战斗，但你的甲板立刻被一个非常庞大的敌人传送进来破坏了……"
 
 #: src-en/data/events_sector_radikal.xml:242
-#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"NEBULA_LIGHT_RKS_FIGHT_LEAD_TITANS\"]/choice[2]/event/choice/text"
 msgstr "继续。"
@@ -147,38 +146,39 @@ msgstr "继续。"
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"NEBULA_LIGHT_RKS_FIGHT_LEAD_TITANS\"]/choice[@req=\"cloaking\""
 " and not(@lvl)]/text"
-msgstr ""
+msgstr "（隐形）尝试启动隐形并在他们锁定前飞离。"
 
 #: src-en/data/events_sector_radikal.xml:267
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"NEBULA_LIGHT_RKS_FIGHT_LEAD_TITANS\"]/choice[@req=\"cloaking\""
 " and @lvl=\"3\"]/text"
-msgstr ""
+msgstr "（先进隐形）启动隐形并在他们锁定前飞离。"
 
 #: src-en/data/events_sector_radikal.xml:272
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"NEBULA_LIGHT_RKS_FIGHT_LEAD_TITANS\"]/choice[@req=\"engines\""
 " and @lvl=\"3\"]/text"
-msgstr ""
+msgstr "（引擎）尝试尽可能快地飞离。"
 
 #: src-en/data/events_sector_radikal.xml:276
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"NEBULA_LIGHT_RKS_FIGHT_LEAD_TITANS\"]/choice[@req=\"engines\""
 " and @lvl=\"5\"]/text"
-msgstr ""
+msgstr "（先进引擎）尽可能快地飞离。"
 
 #: src-en/data/events_sector_radikal.xml:282
 msgid ""
 "data/events_sector_radikal.xml$//eventList[@name=\"RKS_FIGHT_LEAD_TITANS_CLOAK\"]/event[1]/text"
-msgstr ""
+msgstr "你隐形得够快，他们跟丢了你的踪迹。"
 
 #: src-en/data/events_sector_radikal.xml:285
 msgid ""
 "data/events_sector_radikal.xml$//eventList[@name=\"RKS_FIGHT_LEAD_TITANS_CLOAK\"]/event[2]/text"
 msgstr ""
+"不幸的是，他们还是找到了你，而且不会放弃！\n"
+"你正准备战斗，地板立刻被一个非常笨重的敌人传送进来砸烂了……"
 
 #: src-en/data/events_sector_radikal.xml:290
-#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//eventList[@name=\"RKS_FIGHT_LEAD_TITANS_CLOAK\"]/event[2]/choice/text"
 msgstr "继续。"
@@ -186,15 +186,16 @@ msgstr "继续。"
 #: src-en/data/events_sector_radikal.xml:297
 msgid ""
 "data/events_sector_radikal.xml$//eventList[@name=\"RKS_FIGHT_LEAD_TITANS_ENGINES\"]/event[1]/text"
-msgstr ""
+msgstr "他们肯定还想置你于死地，但你在他们采取任何行动之前就已经离开了。"
 
 #: src-en/data/events_sector_radikal.xml:300
 msgid ""
 "data/events_sector_radikal.xml$//eventList[@name=\"RKS_FIGHT_LEAD_TITANS_ENGINES\"]/event[2]/text"
 msgstr ""
+"他们不断逼近你。现在无法逃脱，你被迫应战！\n"
+"你正准备战斗，地板立刻被一个非常笨重的敌人传送进来砸烂了……"
 
 #: src-en/data/events_sector_radikal.xml:305
-#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//eventList[@name=\"RKS_FIGHT_LEAD_TITANS_ENGINES\"]/event[2]/choice/text"
 msgstr "继续。"
@@ -202,10 +203,9 @@ msgstr "继续。"
 #: src-en/data/events_sector_radikal.xml:313
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_LEAD_TITANS_USER_SLUG\"]/destroyed/text"
-msgstr ""
+msgstr "RK 巴姆飞船解体了，你快速打捞到了大量物品。"
 
 #: src-en/data/events_sector_radikal.xml:317
-#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_LEAD_TITANS_USER_SLUG\"]/destroyed/choice/text"
 msgstr "继续。"
@@ -214,9 +214,10 @@ msgstr "继续。"
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_LEAD_TITANS_USER_SLUG\"]/destroyed/choice/event/text"
 msgstr ""
+"你还发现了他们被拆散的增强部件，上面还残留着一些奇怪机制的碎片。不管它本可以"
+"做什么，它已不再具有功能，不过这倒是额外的废料。"
 
 #: src-en/data/events_sector_radikal.xml:323
-#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_LEAD_TITANS_USER_SLUG\"]/destroyed/choice/event/choice/text"
 msgstr "继续。"
@@ -229,15 +230,14 @@ msgstr ""
 #: src-en/data/events_sector_radikal.xml:338
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_LEAD_TITANS_USER_SLUG\"]/deadCrew/choice[1]/text"
-msgstr ""
+msgstr "\"再生镀层\""
 
 #: src-en/data/events_sector_radikal.xml:340
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_LEAD_TITANS_USER_SLUG\"]/deadCrew/choice[1]/event/text"
-msgstr ""
+msgstr "你提取了增强部件，并在飞船炸成碎片之前离开了。"
 
 #: src-en/data/events_sector_radikal.xml:344
-#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_LEAD_TITANS_USER_SLUG\"]/deadCrew/choice[1]/event/choice/text"
 msgstr "继续。"
@@ -245,15 +245,14 @@ msgstr "继续。"
 #: src-en/data/events_sector_radikal.xml:351
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_LEAD_TITANS_USER_SLUG\"]/deadCrew/choice[2]/text"
-msgstr ""
+msgstr "\"憋气冠军\""
 
 #: src-en/data/events_sector_radikal.xml:353
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_LEAD_TITANS_USER_SLUG\"]/deadCrew/choice[2]/event/text"
-msgstr ""
+msgstr "你提取了增强部件，并在飞船炸成碎片之前离开了。"
 
 #: src-en/data/events_sector_radikal.xml:357
-#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_LEAD_TITANS_USER_SLUG\"]/deadCrew/choice[2]/event/choice/text"
 msgstr "继续。"
@@ -261,15 +260,14 @@ msgstr "继续。"
 #: src-en/data/events_sector_radikal.xml:364
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_LEAD_TITANS_USER_SLUG\"]/deadCrew/choice[3]/text"
-msgstr ""
+msgstr "\"铅之泰坦\""
 
 #: src-en/data/events_sector_radikal.xml:366
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_LEAD_TITANS_USER_SLUG\"]/deadCrew/choice[3]/event/text"
-msgstr ""
+msgstr "你提取了增强部件，并在飞船炸成碎片之前离开了。"
 
 #: src-en/data/events_sector_radikal.xml:370
-#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_LEAD_TITANS_USER_SLUG\"]/deadCrew/choice[3]/event/choice/text"
 msgstr "继续。"
@@ -295,7 +293,6 @@ msgid ""
 msgstr ""
 
 #: src-en/data/events_sector_radikal.xml:416
-#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_FIGHT_GRAVESPRED\"]/choice[@req=\"unique_rk_defromorius\"]/event/choice/text"
 msgstr "继续。"
@@ -303,15 +300,14 @@ msgstr "继续。"
 #: src-en/data/events_sector_radikal.xml:423
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_FIGHT_GRAVESPRED\"]/choice[2]/text"
-msgstr ""
+msgstr "自卫！"
 
 #: src-en/data/events_sector_radikal.xml:425
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_FIGHT_GRAVESPRED\"]/choice[2]/event/text"
-msgstr ""
+msgstr "你准备战斗，同时忧心忡忡地盯着敌人的武器充能状态。"
 
 #: src-en/data/events_sector_radikal.xml:429
-#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_FIGHT_GRAVESPRED\"]/choice[2]/event/choice/text"
 msgstr "继续。"
@@ -320,38 +316,39 @@ msgstr "继续。"
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_FIGHT_GRAVESPRED\"]/choice[@req=\"cloaking\""
 " and not(@lvl)]/text"
-msgstr ""
+msgstr "（隐形）尝试在他们锁定之前启动隐形并飞走。"
 
 #: src-en/data/events_sector_radikal.xml:440
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_FIGHT_GRAVESPRED\"]/choice[@req=\"cloaking\""
 " and @lvl=\"3\"]/text"
-msgstr ""
+msgstr "（先进隐形）尝试在他们锁定之前启动隐形并飞走。"
 
 #: src-en/data/events_sector_radikal.xml:445
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_FIGHT_GRAVESPRED\"]/choice[@req=\"engines\""
 " and @lvl=\"4\"]/text"
-msgstr ""
+msgstr "（引擎）尝试尽快飞走。"
 
 #: src-en/data/events_sector_radikal.xml:449
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_FIGHT_GRAVESPRED\"]/choice[@req=\"engines\""
 " and @lvl=\"6\"]/text"
-msgstr ""
+msgstr "（先进引擎）尝试尽快飞走。"
 
 #: src-en/data/events_sector_radikal.xml:455
 msgid ""
 "data/events_sector_radikal.xml$//eventList[@name=\"RKS_FIGHT_GRAVESPRED_CLOAK\"]/event[1]/text"
-msgstr ""
+msgstr "你隐形得足够快，他们失去了你的踪迹。"
 
 #: src-en/data/events_sector_radikal.xml:458
 msgid ""
 "data/events_sector_radikal.xml$//eventList[@name=\"RKS_FIGHT_GRAVESPRED_CLOAK\"]/event[2]/text"
 msgstr ""
+"不幸的是，他们找到了你，而且不会放弃！\n"
+"你准备战斗，同时忧心忡忡地盯着敌人的武器充能状态。"
 
 #: src-en/data/events_sector_radikal.xml:463
-#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//eventList[@name=\"RKS_FIGHT_GRAVESPRED_CLOAK\"]/event[2]/choice/text"
 msgstr "继续。"
@@ -359,7 +356,7 @@ msgstr "继续。"
 #: src-en/data/events_sector_radikal.xml:470
 msgid ""
 "data/events_sector_radikal.xml$//eventList[@name=\"RKS_FIGHT_GRAVESPRED_ENGINES\"]/event[1]/text"
-msgstr ""
+msgstr "他肯定还想让你死，但你刚好及时离开了。"
 
 #: src-en/data/events_sector_radikal.xml:473
 msgid ""
@@ -367,7 +364,6 @@ msgid ""
 msgstr ""
 
 #: src-en/data/events_sector_radikal.xml:478
-#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//eventList[@name=\"RKS_FIGHT_GRAVESPRED_ENGINES\"]/event[2]/choice/text"
 msgstr "继续。"
@@ -380,7 +376,7 @@ msgstr ""
 #: src-en/data/events_sector_radikal.xml:492
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_GRAVESPRED_USER_REBELAUTO\"]/destroyed/choice[1]/text"
-msgstr ""
+msgstr "\"墓志铭\""
 
 #: src-en/data/events_sector_radikal.xml:494
 msgid ""
@@ -388,7 +384,6 @@ msgid ""
 msgstr "你提取了武器，并在一切爆炸之前离开了。"
 
 #: src-en/data/events_sector_radikal.xml:498
-#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_GRAVESPRED_USER_REBELAUTO\"]/destroyed/choice[1]/event/choice/text"
 msgstr "继续。"
@@ -396,15 +391,14 @@ msgstr "继续。"
 #: src-en/data/events_sector_radikal.xml:505
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_GRAVESPRED_USER_REBELAUTO\"]/destroyed/choice[2]/text"
-msgstr ""
+msgstr "\"电池月神\""
 
 #: src-en/data/events_sector_radikal.xml:507
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_GRAVESPRED_USER_REBELAUTO\"]/destroyed/choice[2]/event/text"
-msgstr ""
+msgstr "你提取了武器，并在一切爆炸之前离开了。"
 
 #: src-en/data/events_sector_radikal.xml:511
-#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_GRAVESPRED_USER_REBELAUTO\"]/destroyed/choice[2]/event/choice/text"
 msgstr "继续。"
@@ -412,7 +406,7 @@ msgstr "继续。"
 #: src-en/data/events_sector_radikal.xml:518
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_GRAVESPRED_USER_REBELAUTO\"]/destroyed/choice[3]/text"
-msgstr ""
+msgstr "\"傲慢护盾\""
 
 #: src-en/data/events_sector_radikal.xml:520
 msgid ""
@@ -420,7 +414,6 @@ msgid ""
 msgstr "你提取了增强部件，并在一切爆炸之前离开了。"
 
 #: src-en/data/events_sector_radikal.xml:524
-#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_GRAVESPRED_USER_REBELAUTO\"]/destroyed/choice[3]/event/choice/text"
 msgstr "继续。"
@@ -428,7 +421,7 @@ msgstr "继续。"
 #: src-en/data/events_sector_radikal.xml:531
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_GRAVESPRED_USER_REBELAUTO\"]/destroyed/choice[4]/text"
-msgstr ""
+msgstr "什么都不做"
 
 #: src-en/data/events_sector_radikal.xml:541
 msgid "data/events_sector_radikal.xml$//event[@name=\"RKS_FIGHT_WOF\"]/text"
@@ -447,59 +440,60 @@ msgstr ""
 #: src-en/data/events_sector_radikal.xml:563
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_FIGHT_WOF\"]/choice[@req=\"unique_rk_defromorius\"]/event/choice/text"
-msgstr ""
+msgstr "继续。"
 
 #: src-en/data/events_sector_radikal.xml:570
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_FIGHT_WOF\"]/choice[2]/text"
-msgstr ""
+msgstr "自卫！"
 
 #: src-en/data/events_sector_radikal.xml:572
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_FIGHT_WOF\"]/choice[2]/event/text"
-msgstr ""
+msgstr "你准备战斗，同时忧心忡忡地盯着敌人的武器充能状态。"
 
 #: src-en/data/events_sector_radikal.xml:576
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_FIGHT_WOF\"]/choice[2]/event/choice/text"
-msgstr ""
+msgstr "继续。"
 
 #: src-en/data/events_sector_radikal.xml:583
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_FIGHT_WOF\"]/choice[@req=\"cloaking\""
 " and not(@lvl)]/text"
-msgstr ""
+msgstr "（隐形）尝试在他们锁定之前启动隐形并飞走。"
 
 #: src-en/data/events_sector_radikal.xml:587
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_FIGHT_WOF\"]/choice[@req=\"cloaking\""
 " and @lvl=\"3\"]/text"
-msgstr ""
+msgstr "（先进隐形）尝试在他们锁定之前启动隐形并飞走。"
 
 #: src-en/data/events_sector_radikal.xml:592
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_FIGHT_WOF\"]/choice[@req=\"engines\""
 " and @lvl=\"4\"]/text"
-msgstr ""
+msgstr "（引擎）尝试尽快飞走。"
 
 #: src-en/data/events_sector_radikal.xml:596
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_FIGHT_WOF\"]/choice[@req=\"engines\""
 " and @lvl=\"6\"]/text"
-msgstr ""
+msgstr "（先进引擎）尝试尽快飞走。"
 
 #: src-en/data/events_sector_radikal.xml:602
 msgid ""
 "data/events_sector_radikal.xml$//eventList[@name=\"RKS_FIGHT_WOF_CLOAK\"]/event[1]/text"
-msgstr ""
+msgstr "你隐形得足够快，他们失去了你的踪迹。"
 
 #: src-en/data/events_sector_radikal.xml:605
 msgid ""
 "data/events_sector_radikal.xml$//eventList[@name=\"RKS_FIGHT_WOF_CLOAK\"]/event[2]/text"
 msgstr ""
+"不幸的是，他们找到了你，而且不会放弃！\n"
+"你准备战斗，同时忧心忡忡地盯着敌人的武器充能状态。"
 
 #: src-en/data/events_sector_radikal.xml:610
-#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//eventList[@name=\"RKS_FIGHT_WOF_CLOAK\"]/event[2]/choice/text"
 msgstr "继续。"
@@ -507,15 +501,16 @@ msgstr "继续。"
 #: src-en/data/events_sector_radikal.xml:617
 msgid ""
 "data/events_sector_radikal.xml$//eventList[@name=\"RKS_FIGHT_WOF_ENGINES\"]/event[1]/text"
-msgstr ""
+msgstr "它们肯定还想让你死，但你在它们采取任何行动之前就已经离开了。"
 
 #: src-en/data/events_sector_radikal.xml:620
 msgid ""
 "data/events_sector_radikal.xml$//eventList[@name=\"RKS_FIGHT_WOF_ENGINES\"]/event[2]/text"
 msgstr ""
+"它们继续逼近你。现在无法逃脱，你被迫应战！\n"
+"你准备战斗，同时忧心忡忡地盯着敌人的武器充能状态。"
 
 #: src-en/data/events_sector_radikal.xml:625
-#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//eventList[@name=\"RKS_FIGHT_WOF_ENGINES\"]/event[2]/choice/text"
 msgstr "继续。"
@@ -523,22 +518,24 @@ msgstr "继续。"
 #: src-en/data/events_sector_radikal.xml:707
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_WOF_USER_UNION\"]/destroyed/text"
-msgstr ""
+msgstr "灼烧飞船解体了，你快速打捞到了大量物品。"
 
 #: src-en/data/events_sector_radikal.xml:711
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_WOF_USER_UNION\"]/destroyed/choice/text"
-msgstr ""
+msgstr "继续。"
 
 #: src-en/data/events_sector_radikal.xml:713
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_WOF_USER_UNION\"]/destroyed/choice/event/text"
 msgstr ""
+"你还发现了他们被拆散的增强部件，上面还残留着一些奇怪机制的碎片。不管它本可以"
+"做什么，它已不再具有功能，不过这倒是额外的废料。"
 
 #: src-en/data/events_sector_radikal.xml:717
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_WOF_USER_UNION\"]/destroyed/choice/event/choice/text"
-msgstr ""
+msgstr "继续。"
 
 #: src-en/data/events_sector_radikal.xml:724
 msgid ""
@@ -553,65 +550,69 @@ msgstr ""
 #: src-en/data/events_sector_radikal.xml:733
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_WOF_USER_UNION\"]/deadCrew/choice[1]/event/text"
-msgstr ""
+msgstr "你提取了增强部件，并在飞船炸成碎片之前离开了。"
 
 #: src-en/data/events_sector_radikal.xml:738
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_WOF_USER_UNION\"]/deadCrew/choice[1]/event/choice/text"
-msgstr ""
+msgstr "继续。"
 
 #: src-en/data/events_sector_radikal.xml:745
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_WOF_USER_UNION\"]/deadCrew/choice[2]/text"
-msgstr ""
+msgstr "\"烈焰大地\""
 
 #: src-en/data/events_sector_radikal.xml:747
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_WOF_USER_UNION\"]/deadCrew/choice[2]/event/text"
-msgstr ""
+msgstr "你提取了增强部件，并在飞船炸成碎片之前离开了。"
 
 #: src-en/data/events_sector_radikal.xml:751
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_WOF_USER_UNION\"]/deadCrew/choice[2]/event/choice/text"
-msgstr ""
+msgstr "继续。"
 
 #: src-en/data/events_sector_radikal.xml:758
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_WOF_USER_UNION\"]/deadCrew/choice[3]/text"
-msgstr ""
+msgstr "\"灼烧装填器\""
 
 #: src-en/data/events_sector_radikal.xml:760
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_WOF_USER_UNION\"]/deadCrew/choice[3]/event/text"
-msgstr ""
+msgstr "你提取了增强部件，并在飞船炸成碎片之前离开了。"
 
 #: src-en/data/events_sector_radikal.xml:764
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_WOF_USER_UNION\"]/deadCrew/choice[3]/event/choice/text"
-msgstr ""
+msgstr "继续。"
 
 #: src-en/data/events_sector_radikal.xml:771
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_WOF_USER_UNION\"]/deadCrew/choice[4]/text"
-msgstr ""
+msgstr "什么都不做"
 
 #: src-en/data/events_sector_radikal.xml:786
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_FIGHT_ELITE_COALITION\"]/text"
 msgstr ""
+"这里的一艘精英联盟飞船正在远离一艘不幸的走私者的新鲜残骸。他们在公共频道上听"
+"起来非常兴奋。\n"
+"‘好了，我们偷到了好武器。现在，必须测试！我看到这里有猎物，上上上！’"
 
 #: src-en/data/events_sector_radikal.xml:792
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_FIGHT_ELITE_COALITION\"]/choice[@req=\"unique_nights\"]/text"
-msgstr ""
+msgstr "(七夜)让他们滚开."
 
 #: src-en/data/events_sector_radikal.xml:794
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_FIGHT_ELITE_COALITION\"]/choice[@req=\"unique_nights\"]/event/text"
 msgstr ""
+"“滚去找别的船测试那玩意儿吧，蠢货！”\n"
+"“哦靠，那船上有七夜？呿呿呿。启动引擎，必须找到猎物！”"
 
 #: src-en/data/events_sector_radikal.xml:799
-#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_FIGHT_ELITE_COALITION\"]/choice[@req=\"unique_nights\"]/event/choice/text"
 msgstr "继续。"
@@ -619,15 +620,16 @@ msgstr "继续。"
 #: src-en/data/events_sector_radikal.xml:806
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_FIGHT_ELITE_COALITION\"]/choice[@req=\"unique_tyrdeo\"]/text"
-msgstr ""
+msgstr "(泰迪奥)让他们滚开."
 
 #: src-en/data/events_sector_radikal.xml:808
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_FIGHT_ELITE_COALITION\"]/choice[@req=\"unique_tyrdeo\"]/event/text"
 msgstr ""
+"“请去找别的船测试那玩意儿吧！”\n"
+"“哦靠，那船上有泰迪奥？呿呿呿。启动引擎，必须找到猎物！”"
 
 #: src-en/data/events_sector_radikal.xml:813
-#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_FIGHT_ELITE_COALITION\"]/choice[@req=\"unique_tyrdeo\"]/event/choice/text"
 msgstr "继续。"
@@ -635,7 +637,7 @@ msgstr "继续。"
 #: src-en/data/events_sector_radikal.xml:820
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_FIGHT_ELITE_COALITION\"]/choice[3]/text"
-msgstr ""
+msgstr "自卫！"
 
 #: src-en/data/events_sector_radikal.xml:822
 msgid ""
@@ -643,7 +645,6 @@ msgid ""
 msgstr "你准备作战。"
 
 #: src-en/data/events_sector_radikal.xml:826
-#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_FIGHT_ELITE_COALITION\"]/choice[3]/event/choice/text"
 msgstr "继续。"
@@ -656,17 +657,19 @@ msgstr ""
 #: src-en/data/events_sector_radikal.xml:878
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_RKS_HIDEOUT_UNLOCK\"]/choice[@req=\"rks_hideout_unlocked\"]/text"
-msgstr ""
+msgstr "寻找最弱的居民。"
 
 #: src-en/data/events_sector_radikal.xml:880
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_RKS_HIDEOUT_UNLOCK\"]/choice[@req=\"rks_hideout_unlocked\"]/event/text"
 msgstr ""
+"你很快找到了一个倒霉的屋主来驱逐。也许你不会感到任何愧疚，毕竟他们可能是个坏"
+"人，对吧？谁接了这个在这里建前哨站的活儿，肯定不是什么好人。"
 
 #: src-en/data/events_sector_radikal.xml:884
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_RKS_HIDEOUT_UNLOCK\"]/choice[@req=\"rks_hideout_unlocked\"]/event/choice/text"
-msgstr ""
+msgstr "攻击!"
 
 #: src-en/data/events_sector_radikal.xml:886
 msgid ""
@@ -674,7 +677,6 @@ msgid ""
 msgstr "你准备作战。"
 
 #: src-en/data/events_sector_radikal.xml:889
-#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_RKS_HIDEOUT_UNLOCK\"]/choice[@req=\"rks_hideout_unlocked\"]/event/choice/event/choice/text"
 msgstr "继续。"
@@ -682,15 +684,16 @@ msgstr "继续。"
 #: src-en/data/events_sector_radikal.xml:898
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_RKS_HIDEOUT_UNLOCK\"]/choice[2]/text"
-msgstr ""
+msgstr "冷血杀戮只为取悦疯狂的神祇？才不。"
 
 #: src-en/data/events_sector_radikal.xml:900
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_RKS_HIDEOUT_UNLOCK\"]/choice[2]/event/text"
 msgstr ""
+"你凝聚意志力挣脱了那股影响，然后离开。你希望自己不会感到任何遗憾，尽管你知道"
+"这原本可以帮助其他现实世界击败叛军。"
 
 #: src-en/data/events_sector_radikal.xml:903
-#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_RKS_HIDEOUT_UNLOCK\"]/choice[2]/event/choice/text"
 msgstr "继续。"
@@ -704,21 +707,27 @@ msgstr ""
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_HIDEOUT_UNLOCKER\"]/surrender/choice[1]/text"
 msgstr ""
+"中止行动，这里有些非常不对劲！这就是那些在入侵者想要占领时试图投降的藏身处主"
+"人会遇到的下场吗？下一个是不是轮到我们了？……"
 
 #: src-en/data/events_sector_radikal.xml:925
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_HIDEOUT_UNLOCKER\"]/surrender/choice[2]/text"
-msgstr ""
+msgstr "无视这令人不安的事件，继续攻击……"
 
 #: src-en/data/events_sector_radikal.xml:930
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_HIDEOUT_UNLOCKER\"]/destroyed/text"
 msgstr ""
+"那块地的前任主人——那艘精英联邦舰船——解体了，你迅速打捞了你能带走的一切。\n"
+"\n"
+"某种冲动驱使你前往星云中隐藏的一颗小卫星上的特定区域，你在那里发现了几座建筑"
+"，毫不犹豫地将其摧毁并烧毁。随后那股狂热才消退下去。"
 
 #: src-en/data/events_sector_radikal.xml:935
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_HIDEOUT_UNLOCKER\"]/destroyed/choice/text"
-msgstr ""
+msgstr "聆听神祇的声音。"
 
 #: src-en/data/events_sector_radikal.xml:938
 msgid ""
@@ -726,7 +735,6 @@ msgid ""
 msgstr ""
 
 #: src-en/data/events_sector_radikal.xml:945
-#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_HIDEOUT_UNLOCK_SUCCESS\"]/choice/text"
 msgstr "继续。"
@@ -739,12 +747,12 @@ msgstr ""
 #: src-en/data/events_sector_radikal.xml:957
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_HIDEOUT_UNLOCKER\"]/deadCrew/choice/text"
-msgstr ""
+msgstr "聆听神祇的声音。"
 
 #: src-en/data/events_sector_radikal.xml:975
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/beaconType/unvisitedTooltip"
-msgstr ""
+msgstr "在一个宇宙中，你与一位异界神祇达成了一笔交易，换来了这个舒适的休整补给点。"
 
 #: src-en/data/events_sector_radikal.xml:978
 msgid ""
@@ -755,116 +763,120 @@ msgstr ""
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"rks_hideout_instabenefit\"]/text"
 msgstr ""
+"建造一个加速器。[建造不会结束该信标，让你可以继续建造更多或收获收益，适用于任"
+"何流程]"
 
 #: src-en/data/events_sector_radikal.xml:990
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"rks_hideout_instabenefit\"]/event/text"
-msgstr ""
+msgstr "你的无人机开始工作，建造旋转轮和时流舱室。"
 
 #: src-en/data/events_sector_radikal.xml:1003
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"rks_hideout_instabenefit\"]/event/choice[@req=\"rks_hideout_instabenefit\"]/text"
-msgstr ""
+msgstr "（加速器）做点别的事。"
 
 #: src-en/data/events_sector_radikal.xml:1008
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"rks_hideout_instabenefit\"]/event/choice[2]/text"
-msgstr ""
+msgstr "透过窗户看着你的无人机工作，然后离开。"
 
 #: src-en/data/events_sector_radikal.xml:1015
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"rks_hideout_multibenefit\"]/text"
 msgstr ""
+"建造一个速行者。[收获藏身处收益不会结束该信标，让你可以继续建造更多或收获收益"
+"，适用于任何流程]"
 
 #: src-en/data/events_sector_radikal.xml:1017
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"rks_hideout_multibenefit\"]/event/text"
-msgstr ""
+msgstr "你的无人机开始工作，建造F1稳定器和分配器。"
 
 #: src-en/data/events_sector_radikal.xml:1029
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"rks_hideout_multibenefit\"]/event/choice[@req=\"rks_hideout_instabenefit\"]/text"
-msgstr ""
+msgstr "（加速器）做点别的事。"
 
 #: src-en/data/events_sector_radikal.xml:1034
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"rks_hideout_multibenefit\"]/event/choice[2]/text"
-msgstr ""
+msgstr "透过窗户看着你的无人机工作，然后离开。"
 
 #: src-en/data/events_sector_radikal.xml:1041
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"rks_hideout_morechoices_1\"]/text"
-msgstr ""
+msgstr "建造 1 级藏身处扩建。[舰队加速 1 ] [具有多个选项的服务将增加 1 个]"
 
 #: src-en/data/events_sector_radikal.xml:1043
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"rks_hideout_morechoices_1\"]/event/text"
-msgstr ""
+msgstr "你的无人机开始重建安全边界并扩展你的领土。"
 
 #: src-en/data/events_sector_radikal.xml:1055
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"rks_hideout_morechoices_1\"]/event/choice[@req=\"rks_hideout_instabenefit\"]/text"
-msgstr ""
+msgstr "（加速器）做点别的事。"
 
 #: src-en/data/events_sector_radikal.xml:1060
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"rks_hideout_morechoices_1\"]/event/choice[2]/text"
-msgstr ""
+msgstr "透过窗户看着你的无人机工作，然后离开。"
 
 #: src-en/data/events_sector_radikal.xml:1066
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"rks_hideout_morechoices_2\"]/text"
-msgstr ""
+msgstr "建造 2 级藏身处扩建。[舰队加速 1 ] [具有多个选项的服务将增加 1 个]"
 
 #: src-en/data/events_sector_radikal.xml:1068
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"rks_hideout_morechoices_2\"]/event/text"
-msgstr ""
+msgstr "你的无人机开始重建安全边界并进一步扩展你的领土。"
 
 #: src-en/data/events_sector_radikal.xml:1080
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"rks_hideout_morechoices_2\"]/event/choice[@req=\"rks_hideout_instabenefit\"]/text"
-msgstr ""
+msgstr "（加速器）做点别的事。"
 
 #: src-en/data/events_sector_radikal.xml:1085
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"rks_hideout_morechoices_2\"]/event/choice[2]/text"
-msgstr ""
+msgstr "透过窗户看着你的无人机工作，然后离开。"
 
 #: src-en/data/events_sector_radikal.xml:1092
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"rks_hideout_repairs\"]/text"
-msgstr ""
+msgstr "建造一座维修平台。[舰队加速 1 ] [在任何旅途中修复 15 点船体]"
 
 #: src-en/data/events_sector_radikal.xml:1094
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"rks_hideout_repairs\"]/event/text"
-msgstr ""
+msgstr "你的无人机开始搭建脚手架、机械臂和备件箱，以便维修你的飞船。"
 
 #: src-en/data/events_sector_radikal.xml:1105
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"rks_hideout_repairs\"]/event/choice[@req=\"rks_hideout_instabenefit\"]/text"
-msgstr ""
+msgstr "（加速器）做点别的事。"
 
 #: src-en/data/events_sector_radikal.xml:1110
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"rks_hideout_repairs\"]/event/choice[2]/text"
-msgstr ""
+msgstr "透过窗户看着你的无人机工作，然后离开。"
 
 #: src-en/data/events_sector_radikal.xml:1116
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"RKS_HIDEOUT_CAN_REPAIR\"]/text"
-msgstr ""
+msgstr "（维修平台）给你的飞船做些保养。"
 
 #: src-en/data/events_sector_radikal.xml:1118
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"RKS_HIDEOUT_CAN_REPAIR\"]/event/text"
-msgstr ""
+msgstr "你获得了一些免费维修。嗯，其实是你已经付过钱的维修。"
 
 #: src-en/data/events_sector_radikal.xml:1123
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"RKS_HIDEOUT_CAN_REPAIR\"]/event/choice[@req=\"rks_hideout_multibenefit\"]/text"
-msgstr ""
+msgstr "（速行者）做点别的事。"
 
 #: src-en/data/events_sector_radikal.xml:1128
 msgid ""
@@ -880,31 +892,33 @@ msgstr "离开。"
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"rks_hideout_scavenge\"]/text"
 msgstr ""
+"建造一座自动回收综合体。[舰队加速 1 ] [在任何旅途中提供废料、燃料、导弹和无人"
+"机零件]"
 
 #: src-en/data/events_sector_radikal.xml:1141
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"rks_hideout_scavenge\"]/event/text"
-msgstr ""
+msgstr "你的无人机开始建造传感器阵列、中央协调器、回收无人机舱和长期储存容器。"
 
 #: src-en/data/events_sector_radikal.xml:1153
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"rks_hideout_scavenge\"]/event/choice/text"
-msgstr ""
+msgstr "做点别的事。"
 
 #: src-en/data/events_sector_radikal.xml:1159
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"RKS_HIDEOUT_CAN_SCAVENGE\"]/text"
-msgstr ""
+msgstr "（自动回收综合体）收取你的收获。"
 
 #: src-en/data/events_sector_radikal.xml:1161
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"RKS_HIDEOUT_CAN_SCAVENGE\"]/event/text"
-msgstr ""
+msgstr "你的回收者在这个宇宙中一直在辛勤工作。"
 
 #: src-en/data/events_sector_radikal.xml:1172
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"RKS_HIDEOUT_CAN_SCAVENGE\"]/event/choice[@req=\"rks_hideout_multibenefit\"]/text"
-msgstr ""
+msgstr "（速行者）做点别的事。"
 
 #: src-en/data/events_sector_radikal.xml:1177
 msgid ""
@@ -919,47 +933,47 @@ msgstr "离开。"
 #: src-en/data/events_sector_radikal.xml:1188
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"rks_hideout_recruit\"]/text"
-msgstr ""
+msgstr "建造一座招募中心。[舰队加速 1 ] [在任何旅途中将有一些船员免费可用。]"
 
 #: src-en/data/events_sector_radikal.xml:1190
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"rks_hideout_recruit\"]/event/text"
-msgstr ""
+msgstr "你的无人机开始建造加密招聘广播器、水培农场、小酒馆和船员宿舍。"
 
 #: src-en/data/events_sector_radikal.xml:1202
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"rks_hideout_recruit\"]/event/choice[@req=\"rks_hideout_instabenefit\"]/text"
-msgstr ""
+msgstr "（加速器）做点别的事。"
 
 #: src-en/data/events_sector_radikal.xml:1207
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"rks_hideout_recruit\"]/event/choice[2]/text"
-msgstr ""
+msgstr "透过窗户看着你的无人机工作，然后离开。"
 
 #: src-en/data/events_sector_radikal.xml:1213
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"RKS_HIDEOUT_CAN_RECRUIT\"]/text"
-msgstr ""
+msgstr "（招募中心）获得一名免费甲板水手。"
 
 #: src-en/data/events_sector_radikal.xml:1215
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"RKS_HIDEOUT_CAN_RECRUIT\"]/event/text"
-msgstr ""
+msgstr "你的招聘启事在这个宇宙中引起了兴趣。"
 
 #: src-en/data/events_sector_radikal.xml:1219
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"RKS_HIDEOUT_CAN_RECRUIT\"]/event/choice[1]/text"
-msgstr ""
+msgstr "选择船员 #1（基础）"
 
 #: src-en/data/events_sector_radikal.xml:1221
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"RKS_HIDEOUT_CAN_RECRUIT\"]/event/choice[1]/event/text"
-msgstr ""
+msgstr "你欢迎他们登舰。"
 
 #: src-en/data/events_sector_radikal.xml:1226
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"RKS_HIDEOUT_CAN_RECRUIT\"]/event/choice[1]/event/choice[@req=\"rks_hideout_multibenefit\"]/text"
-msgstr ""
+msgstr "（速行者）做点别的事。"
 
 #: src-en/data/events_sector_radikal.xml:1230
 msgid ""
@@ -969,17 +983,17 @@ msgstr "离开。"
 #: src-en/data/events_sector_radikal.xml:1236
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"RKS_HIDEOUT_CAN_RECRUIT\"]/event/choice[2]/text"
-msgstr ""
+msgstr "选择船员 #2（拉迪卡尔）"
 
 #: src-en/data/events_sector_radikal.xml:1238
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"RKS_HIDEOUT_CAN_RECRUIT\"]/event/choice[2]/event/text"
-msgstr ""
+msgstr "你欢迎他们登舰。"
 
 #: src-en/data/events_sector_radikal.xml:1242
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"RKS_HIDEOUT_CAN_RECRUIT\"]/event/choice[2]/event/choice[@req=\"rks_hideout_multibenefit\"]/text"
-msgstr ""
+msgstr "（速行者）做点别的事。"
 
 #: src-en/data/events_sector_radikal.xml:1246
 msgid ""
@@ -989,17 +1003,17 @@ msgstr "离开。"
 #: src-en/data/events_sector_radikal.xml:1252
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"RKS_HIDEOUT_CAN_RECRUIT\"]/event/choice[@req=\"rks_hideout_morechoices_1\"]/text"
-msgstr ""
+msgstr "选择船员 #3"
 
 #: src-en/data/events_sector_radikal.xml:1254
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"RKS_HIDEOUT_CAN_RECRUIT\"]/event/choice[@req=\"rks_hideout_morechoices_1\"]/event/text"
-msgstr ""
+msgstr "你欢迎他们登舰。"
 
 #: src-en/data/events_sector_radikal.xml:1258
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"RKS_HIDEOUT_CAN_RECRUIT\"]/event/choice[@req=\"rks_hideout_morechoices_1\"]/event/choice[@req=\"rks_hideout_multibenefit\"]/text"
-msgstr ""
+msgstr "（速行者）做点别的事。"
 
 #: src-en/data/events_sector_radikal.xml:1262
 msgid ""
@@ -1009,17 +1023,17 @@ msgstr "离开。"
 #: src-en/data/events_sector_radikal.xml:1268
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"RKS_HIDEOUT_CAN_RECRUIT\"]/event/choice[@req=\"rks_hideout_morechoices_2\"]/text"
-msgstr ""
+msgstr "选择船员 #4"
 
 #: src-en/data/events_sector_radikal.xml:1270
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"RKS_HIDEOUT_CAN_RECRUIT\"]/event/choice[@req=\"rks_hideout_morechoices_2\"]/event/text"
-msgstr ""
+msgstr "你欢迎他们登舰。"
 
 #: src-en/data/events_sector_radikal.xml:1274
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"RKS_HIDEOUT_CAN_RECRUIT\"]/event/choice[@req=\"rks_hideout_morechoices_2\"]/event/choice[@req=\"rks_hideout_multibenefit\"]/text"
-msgstr ""
+msgstr "（速行者）做点别的事。"
 
 #: src-en/data/events_sector_radikal.xml:1278
 msgid ""
@@ -1027,7 +1041,6 @@ msgid ""
 msgstr "离开。"
 
 #: src-en/data/events_sector_radikal.xml:1285
-#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"RKS_HIDEOUT_CAN_RECRUIT\"]/event/choice[5]/text"
 msgstr "离开。"
@@ -1035,57 +1048,57 @@ msgstr "离开。"
 #: src-en/data/events_sector_radikal.xml:1290
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"RKS_HIDEOUT_CAN_RECRUIT\"]/event/choice[6]/text"
-msgstr ""
+msgstr "我们这次旅途的藏身处已经处理完了。在舰船上做点别的事。"
 
 #: src-en/data/events_sector_radikal.xml:1294
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"RKS_HIDEOUT_CAN_RECRUIT\"]/event/choice[7]/text"
-msgstr ""
+msgstr "我们这次旅途的藏身处已经处理完了。离开。"
 
 #: src-en/data/events_sector_radikal.xml:1301
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"rks_hideout_getweapon\"]/text"
-msgstr ""
+msgstr "建造一座武器回收中心。[舰队加速 1 ] [在任何旅途中将有一些武器免费可用。]"
 
 #: src-en/data/events_sector_radikal.xml:1303
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"rks_hideout_getweapon\"]/event/text"
-msgstr ""
+msgstr "你的无人机开始建造多用途机械臂、自动侦察机和武器架。"
 
 #: src-en/data/events_sector_radikal.xml:1315
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"rks_hideout_getweapon\"]/event/choice[@req=\"rks_hideout_instabenefit\"]/text"
-msgstr ""
+msgstr "（加速器）做点别的事。"
 
 #: src-en/data/events_sector_radikal.xml:1320
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"rks_hideout_getweapon\"]/event/choice[2]/text"
-msgstr ""
+msgstr "透过窗户看着你的无人机工作，然后离开。"
 
 #: src-en/data/events_sector_radikal.xml:1326
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"RKS_HIDEOUT_CAN_GETWEAPON\"]/text"
-msgstr ""
+msgstr "（武器回收中心）获得一件免费武器。"
 
 #: src-en/data/events_sector_radikal.xml:1328
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"RKS_HIDEOUT_CAN_GETWEAPON\"]/event/text"
-msgstr ""
+msgstr "已定位到漂浮的受损武器，但时间只够修复并将其中一件装载到你的飞船上。"
 
 #: src-en/data/events_sector_radikal.xml:1332
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"RKS_HIDEOUT_CAN_GETWEAPON\"]/event/choice[1]/text"
-msgstr ""
+msgstr "选择武器 #1"
 
 #: src-en/data/events_sector_radikal.xml:1334
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"RKS_HIDEOUT_CAN_GETWEAPON\"]/event/choice[1]/event/text"
-msgstr ""
+msgstr "你抓住了武器。"
 
 #: src-en/data/events_sector_radikal.xml:1339
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"RKS_HIDEOUT_CAN_GETWEAPON\"]/event/choice[1]/event/choice[@req=\"rks_hideout_multibenefit\"]/text"
-msgstr ""
+msgstr "（速行者）做点别的事。"
 
 #: src-en/data/events_sector_radikal.xml:1343
 msgid ""
@@ -1095,17 +1108,17 @@ msgstr "离开。"
 #: src-en/data/events_sector_radikal.xml:1349
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"RKS_HIDEOUT_CAN_GETWEAPON\"]/event/choice[2]/text"
-msgstr ""
+msgstr "选择武器 #2（拉迪卡尔）"
 
 #: src-en/data/events_sector_radikal.xml:1351
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"RKS_HIDEOUT_CAN_GETWEAPON\"]/event/choice[2]/event/text"
-msgstr ""
+msgstr "你抓住了武器。"
 
 #: src-en/data/events_sector_radikal.xml:1355
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"RKS_HIDEOUT_CAN_GETWEAPON\"]/event/choice[2]/event/choice[@req=\"rks_hideout_multibenefit\"]/text"
-msgstr ""
+msgstr "（速行者）做点别的事。"
 
 #: src-en/data/events_sector_radikal.xml:1359
 msgid ""
@@ -1115,17 +1128,17 @@ msgstr "离开。"
 #: src-en/data/events_sector_radikal.xml:1365
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"RKS_HIDEOUT_CAN_GETWEAPON\"]/event/choice[@req=\"rks_hideout_morechoices_1\"]/text"
-msgstr ""
+msgstr "选择武器 #3（节能型）"
 
 #: src-en/data/events_sector_radikal.xml:1367
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"RKS_HIDEOUT_CAN_GETWEAPON\"]/event/choice[@req=\"rks_hideout_morechoices_1\"]/event/text"
-msgstr ""
+msgstr "你抓住了武器。"
 
 #: src-en/data/events_sector_radikal.xml:1371
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"RKS_HIDEOUT_CAN_GETWEAPON\"]/event/choice[@req=\"rks_hideout_morechoices_1\"]/event/choice[@req=\"rks_hideout_multibenefit\"]/text"
-msgstr ""
+msgstr "（速行者）做点别的事。"
 
 #: src-en/data/events_sector_radikal.xml:1375
 msgid ""
@@ -1135,17 +1148,17 @@ msgstr "离开。"
 #: src-en/data/events_sector_radikal.xml:1381
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"RKS_HIDEOUT_CAN_GETWEAPON\"]/event/choice[@req=\"rks_hideout_morechoices_2\"]/text"
-msgstr ""
+msgstr "选择武器 #4（精英）"
 
 #: src-en/data/events_sector_radikal.xml:1383
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"RKS_HIDEOUT_CAN_GETWEAPON\"]/event/choice[@req=\"rks_hideout_morechoices_2\"]/event/text"
-msgstr ""
+msgstr "你抓住了武器。"
 
 #: src-en/data/events_sector_radikal.xml:1388
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"RKS_HIDEOUT_CAN_GETWEAPON\"]/event/choice[@req=\"rks_hideout_morechoices_2\"]/event/choice[@req=\"rks_hideout_multibenefit\"]/text"
-msgstr ""
+msgstr "（速行者）做点别的事。"
 
 #: src-en/data/events_sector_radikal.xml:1392
 msgid ""
@@ -1155,22 +1168,22 @@ msgstr "离开。"
 #: src-en/data/events_sector_radikal.xml:1399
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"RKS_HIDEOUT_CAN_GETWEAPON\"]/event/choice[5]/text"
-msgstr ""
+msgstr "放弃，做点别的事。"
 
 #: src-en/data/events_sector_radikal.xml:1404
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"RKS_HIDEOUT_CAN_GETWEAPON\"]/event/choice[6]/text"
-msgstr ""
+msgstr "我们这次旅途的藏身处已经处理完了。在飞船上做点别的事。"
 
 #: src-en/data/events_sector_radikal.xml:1408
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"RKS_HIDEOUT_CAN_GETWEAPON\"]/event/choice[7]/text"
-msgstr ""
+msgstr "我们这次旅途的藏身处已经处理完了。离开。"
 
 #: src-en/data/events_sector_radikal.xml:1431
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[13]/text"
-msgstr ""
+msgstr "[style[color:ff3377]]重置你的藏身处进度。 /!\\ [[/style]]"
 
 #: src-en/data/events_sector_radikal.xml:1433
 msgid ""
@@ -1180,7 +1193,7 @@ msgstr ""
 #: src-en/data/events_sector_radikal.xml:1439
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[13]/event/choice[1]/text"
-msgstr ""
+msgstr "是的。动手吧！"
 
 #: src-en/data/events_sector_radikal.xml:1441
 msgid ""
@@ -1210,7 +1223,7 @@ msgstr "星舰管理。"
 #: src-en/data/events_sector_radikal.xml:1480
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[15]/text"
-msgstr ""
+msgstr "离开藏身处相对舒适的环境，回到任务中去！"
 
 #: src-en/data/events_sector_radikal.xml:1493
 msgid ""
@@ -1221,13 +1234,13 @@ msgstr ""
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_SUSPICIOUS_SMUGGLER\"]/choice[@req=\"RKS_POLICE_WARRANT\""
 " and @lvl=\"0\"]/text"
-msgstr ""
+msgstr "没有警方搜查令，你无法对他们进行搜查。"
 
 #: src-en/data/events_sector_radikal.xml:1503
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_SUSPICIOUS_SMUGGLER\"]/choice[@req=\"RKS_POLICE_WARRANT\""
 " and not(@lvl)]/text"
-msgstr ""
+msgstr "（警方搜查令）要求搜查他们"
 
 #: src-en/data/events_sector_radikal.xml:1506
 msgid ""
@@ -1239,7 +1252,7 @@ msgstr ""
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_SUSPICIOUS_SMUGGLER\"]/choice[@req=\"RKS_POLICE_WARRANT\""
 " and not(@lvl)]/event[1]/choice/text"
-msgstr ""
+msgstr "漂亮！"
 
 #: src-en/data/events_sector_radikal.xml:1518
 msgid ""
@@ -1251,16 +1264,15 @@ msgstr ""
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_SUSPICIOUS_SMUGGLER\"]/choice[@req=\"RKS_POLICE_WARRANT\""
 " and not(@lvl)]/event[2]/choice/text"
-msgstr ""
+msgstr "漂亮！"
 
 #: src-en/data/events_sector_radikal.xml:1531
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_SUSPICIOUS_SMUGGLER\"]/choice[@req=\"RKS_POLICE_WARRANT\""
 " and not(@lvl)]/event[3]/text"
-msgstr ""
+msgstr "他们立即开始为武器充能！"
 
 #: src-en/data/events_sector_radikal.xml:1534
-#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_SUSPICIOUS_SMUGGLER\"]/choice[@req=\"RKS_POLICE_WARRANT\""
 " and not(@lvl)]/event[3]/choice/text"
@@ -1269,7 +1281,7 @@ msgstr "继续。"
 #: src-en/data/events_sector_radikal.xml:1541
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_SUSPICIOUS_SMUGGLER\"]/choice[3]/text"
-msgstr ""
+msgstr "攻击他们！"
 
 #: src-en/data/events_sector_radikal.xml:1543
 msgid ""
@@ -1277,7 +1289,6 @@ msgid ""
 msgstr "你准备作战。"
 
 #: src-en/data/events_sector_radikal.xml:1546
-#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_SUSPICIOUS_SMUGGLER\"]/choice[3]/event/choice/text"
 msgstr "继续。"
@@ -1285,37 +1296,37 @@ msgstr "继续。"
 #: src-en/data/events_sector_radikal.xml:1553
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_SUSPICIOUS_SMUGGLER\"]/choice[4]/text"
-msgstr ""
+msgstr "什么都不做。"
 
 #: src-en/data/events_sector_radikal.xml:1555
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_SUSPICIOUS_SMUGGLER\"]/choice[4]/event/text"
-msgstr ""
+msgstr "你没有靠近，但那艘船似乎知道你注意到了它们。“嘿，呃，你在看什么？”"
 
 #: src-en/data/events_sector_radikal.xml:1557
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_SUSPICIOUS_SMUGGLER\"]/choice[4]/event/choice/text"
-msgstr ""
+msgstr "哦，你知道的……"
 
 #: src-en/data/events_sector_radikal.xml:1559
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_SUSPICIOUS_SMUGGLER\"]/choice[4]/event/choice/event/text"
-msgstr ""
+msgstr "“是——是吗？那又怎么样？”"
 
 #: src-en/data/events_sector_radikal.xml:1561
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_SUSPICIOUS_SMUGGLER\"]/choice[4]/event/choice/event/choice[1]/text"
-msgstr ""
+msgstr "你有什么可以交易的吗？"
 
 #: src-en/data/events_sector_radikal.xml:1563
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_SUSPICIOUS_SMUGGLER\"]/choice[4]/event/choice/event/choice[1]/event/text"
-msgstr ""
+msgstr "“哦——哦。当然有。上来吧！”"
 
 #: src-en/data/events_sector_radikal.xml:1568
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_SUSPICIOUS_SMUGGLER\"]/choice[4]/event/choice/event/choice[2]/text"
-msgstr ""
+msgstr "攻击他们！"
 
 #: src-en/data/events_sector_radikal.xml:1570
 msgid ""
@@ -1323,7 +1334,6 @@ msgid ""
 msgstr "你准备作战。"
 
 #: src-en/data/events_sector_radikal.xml:1573
-#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_SUSPICIOUS_SMUGGLER\"]/choice[4]/event/choice/event/choice[2]/event/choice/text"
 msgstr "继续。"
@@ -1335,7 +1345,7 @@ msgstr ""
 #: src-en/data/events_sector_radikal.xml:1613
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_BIL_BAM_SYSTEMS\"]/choice[1]/text"
-msgstr ""
+msgstr "能出什么差错呢？管他呢，我奉陪！"
 
 #: src-en/data/events_sector_radikal.xml:1615
 msgid ""
@@ -1345,7 +1355,7 @@ msgstr ""
 #: src-en/data/events_sector_radikal.xml:1629
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_BIL_BAM_SYSTEMS\"]/choice[1]/event/choice/text"
-msgstr ""
+msgstr "……我刚刚做了什么？……"
 
 #: src-en/data/events_sector_radikal.xml:1631
 msgid ""
@@ -1355,40 +1365,41 @@ msgstr ""
 #: src-en/data/events_sector_radikal.xml:1635
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_BIL_BAM_SYSTEMS\"]/choice[1]/event/choice/event/choice[@req=\"drones\"]/text"
-msgstr ""
+msgstr "升级我的无人机控制"
 
 #: src-en/data/events_sector_radikal.xml:1645
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_BIL_BAM_SYSTEMS\"]/choice[1]/event/choice/event/choice[@req=\"shields\"]/text"
-msgstr ""
+msgstr "升级我的护盾"
 
 #: src-en/data/events_sector_radikal.xml:1650
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_BIL_BAM_SYSTEMS\"]/choice[1]/event/choice/event/choice[@req=\"weapons\"]/text"
-msgstr ""
+msgstr "升级我的武器控制"
 
 #: src-en/data/events_sector_radikal.xml:1655
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_BIL_BAM_SYSTEMS\"]/choice[1]/event/choice/event/choice[4]/text"
-msgstr ""
+msgstr "等等……我们甚至没有适用的系统！"
 
 #: src-en/data/events_sector_radikal.xml:1657
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_BIL_BAM_SYSTEMS\"]/choice[1]/event/choice/event/choice[4]/event/text"
-msgstr ""
+msgstr "“典型的决策技能问题。报告已驳回。再也不见。”"
 
 #: src-en/data/events_sector_radikal.xml:1671
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_BIL_BAM_SYSTEMS\"]/choice[2]/text"
-msgstr ""
+msgstr "不了，谢谢，但我们能不能雇用你们中的几个？"
 
 #: src-en/data/events_sector_radikal.xml:1673
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_BIL_BAM_SYSTEMS\"]/choice[2]/event/text"
 msgstr ""
+"“接受已表明。管他呢，反正存在即是痛苦。你最好给我们找点东西来摧毁。否则，你自"
+"己的东西也行。”"
 
 #: src-en/data/events_sector_radikal.xml:1680
-#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_BIL_BAM_SYSTEMS\"]/choice[2]/event/choice/text"
 msgstr "继续。"
@@ -1396,22 +1407,24 @@ msgstr "继续。"
 #: src-en/data/events_sector_radikal.xml:1687
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_BIL_BAM_SYSTEMS\"]/choice[3]/text"
-msgstr ""
+msgstr "我们也许可以帮你们处理掉一些多余的零件？"
 
 #: src-en/data/events_sector_radikal.xml:1689
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_BIL_BAM_SYSTEMS\"]/choice[3]/event/text"
 msgstr ""
+"“难道我们会认不出你是新来的垃圾处理船吗？不太可能。但继续吧。我不在乎。”\n"
+"你不愿放过免费废料，于是从之前顾客留下的东西中挑选了一些。"
 
 #: src-en/data/events_sector_radikal.xml:1701
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_BIL_BAM_SYSTEMS\"]/choice[4]/text"
-msgstr ""
+msgstr "不了，谢谢，在飞船上做点别的事。"
 
 #: src-en/data/events_sector_radikal.xml:1706
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_BIL_BAM_SYSTEMS\"]/choice[5]/text"
-msgstr ""
+msgstr "绝不可能，别给他们任何希望，跃迁！"
 
 #: src-en/data/events_sector_radikal.xml:1730
 msgid ""
@@ -1426,7 +1439,7 @@ msgstr ""
 #: src-en/data/events_sector_radikal.xml:1754
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_BIL_SCORCH_REACTOR\"]/choice[@req=\"reactor\"]/text"
-msgstr ""
+msgstr "当然，不劳无获嘛！"
 
 #: src-en/data/events_sector_radikal.xml:1756
 msgid ""
@@ -1434,7 +1447,6 @@ msgid ""
 msgstr ""
 
 #: src-en/data/events_sector_radikal.xml:1766
-#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_BIL_SCORCH_REACTOR\"]/choice[@req=\"reactor\"]/event/choice/text"
 msgstr "继续。"
@@ -1442,7 +1454,7 @@ msgstr "继续。"
 #: src-en/data/events_sector_radikal.xml:1773
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_BIL_SCORCH_REACTOR\"]/choice[2]/text"
-msgstr ""
+msgstr "不了，不过要不我们雇你们其中一位？"
 
 #: src-en/data/events_sector_radikal.xml:1775
 msgid ""
@@ -1450,7 +1462,6 @@ msgid ""
 msgstr ""
 
 #: src-en/data/events_sector_radikal.xml:1782
-#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_BIL_SCORCH_REACTOR\"]/choice[2]/event/choice/text"
 msgstr "继续。"
@@ -1458,7 +1469,7 @@ msgstr "继续。"
 #: src-en/data/events_sector_radikal.xml:1789
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_BIL_SCORCH_REACTOR\"]/choice[3]/text"
-msgstr ""
+msgstr "不管那些。改为在信标周围仔细搜索。"
 
 #: src-en/data/events_sector_radikal.xml:1791
 msgid ""
@@ -1466,7 +1477,6 @@ msgid ""
 msgstr ""
 
 #: src-en/data/events_sector_radikal.xml:1799
-#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_BIL_SCORCH_REACTOR\"]/choice[3]/event/choice/text"
 msgstr "继续。"
@@ -1474,12 +1484,12 @@ msgstr "继续。"
 #: src-en/data/events_sector_radikal.xml:1806
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_BIL_SCORCH_REACTOR\"]/choice[4]/text"
-msgstr ""
+msgstr "不了，还是在舰上做点什么吧。"
 
 #: src-en/data/events_sector_radikal.xml:1811
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_BIL_SCORCH_REACTOR\"]/choice[5]/text"
-msgstr ""
+msgstr "想都别想，连希望都别给他们，跃迁！"
 
 #: src-en/data/events_sector_radikal.xml:1818
 msgid ""
@@ -1489,7 +1499,7 @@ msgstr ""
 #: src-en/data/events_sector_radikal.xml:1851
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_UPGRADE_REACTOR_BY_5\"]/choice/text"
-msgstr ""
+msgstr "真是完全意想不到啊！"
 
 #: src-en/data/events_sector_radikal.xml:1906
 msgid ""
@@ -1500,22 +1510,21 @@ msgstr ""
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS\"]/choice[@req=\"temporal\""
 " and @lvl=\"0\"]/text"
-msgstr ""
+msgstr "时流系统本可以在这里派上用场。"
 
 #: src-en/data/events_sector_radikal.xml:1915
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS\"]/choice[@req=\"temporal\""
 " and @lvl=\"1\"]/text"
-msgstr ""
+msgstr "（时流系统）放慢黑匣子区域的时间并取回它。"
 
 #: src-en/data/events_sector_radikal.xml:1917
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS\"]/choice[@req=\"temporal\""
 " and @lvl=\"1\"]/event/text"
-msgstr ""
+msgstr "你的时流系统让你从容取回了黑匣子。你在解码期间开始拆解残骸。"
 
 #: src-en/data/events_sector_radikal.xml:1921
-#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS\"]/choice[@req=\"temporal\""
 " and @lvl=\"1\"]/event/choice/text"
@@ -1525,22 +1534,23 @@ msgstr "继续。"
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS\"]/choice[@req=\"RKS_HAS_HIGH_SENSORS_AND_HACKING\""
 " and @lvl=\"0\"]/text"
-msgstr ""
+msgstr "如果有好的传感器和一些黑客手段，我们本可以解码它。"
 
 #: src-en/data/events_sector_radikal.xml:1932
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS\"]/choice[@req=\"RKS_HAS_HIGH_SENSORS_AND_HACKING\""
 " and not(@lvl)]/text"
-msgstr ""
+msgstr "（传感器 2级 + 黑客）远程解码它。"
 
 #: src-en/data/events_sector_radikal.xml:1934
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS\"]/choice[@req=\"RKS_HAS_HIGH_SENSORS_AND_HACKING\""
 " and not(@lvl)]/event/text"
 msgstr ""
+"你的黑客无人机只花了一会儿就到达了黑匣子并查明了发生了什么。你也开始拆解残骸"
+"。"
 
 #: src-en/data/events_sector_radikal.xml:1938
-#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS\"]/choice[@req=\"RKS_HAS_HIGH_SENSORS_AND_HACKING\""
 " and not(@lvl)]/event/choice/text"
@@ -1549,7 +1559,7 @@ msgstr "继续。"
 #: src-en/data/events_sector_radikal.xml:1945
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS\"]/choice[@req=\"RKS_HAS_ENGI_AND_LANIUS\"]/text"
-msgstr ""
+msgstr "你的半械找到了黑匣子，并说你的食铁族可以在为时已晚之前抓住它。"
 
 #: src-en/data/events_sector_radikal.xml:1947
 msgid ""
@@ -1557,7 +1567,6 @@ msgid ""
 msgstr ""
 
 #: src-en/data/events_sector_radikal.xml:1955
-#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS\"]/choice[@req=\"RKS_HAS_ENGI_AND_LANIUS\"]/event/choice/text"
 msgstr "继续。"
@@ -1565,15 +1574,14 @@ msgstr "继续。"
 #: src-en/data/events_sector_radikal.xml:1962
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS\"]/choice[6]/text"
-msgstr ""
+msgstr "我们无能为力，只能把剩下的东西拆解成废料。"
 
 #: src-en/data/events_sector_radikal.xml:1964
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS\"]/choice[6]/event/text"
-msgstr ""
+msgstr "你等待飞船爆炸完毕，然后享受免费的废料。"
 
 #: src-en/data/events_sector_radikal.xml:1968
-#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS\"]/choice[6]/event/choice/text"
 msgstr "继续。"
@@ -1586,17 +1594,17 @@ msgstr ""
 #: src-en/data/events_sector_radikal.xml:1982
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS_2\"]/choice[1]/text"
-msgstr ""
+msgstr "追上那艘船！"
 
 #: src-en/data/events_sector_radikal.xml:1984
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS_2\"]/choice[1]/event/text"
-msgstr ""
+msgstr "你轻松地追上了它们，而它们还没有注意到你。"
 
 #: src-en/data/events_sector_radikal.xml:1988
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS_2\"]/choice[1]/event/choice[@req=\"mind\"]/text"
-msgstr ""
+msgstr "（心灵控制）查明发生了什么。"
 
 #: src-en/data/events_sector_radikal.xml:1990
 msgid ""
@@ -1604,7 +1612,6 @@ msgid ""
 msgstr ""
 
 #: src-en/data/events_sector_radikal.xml:1997
-#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS_2\"]/choice[1]/event/choice[@req=\"mind\"]/event/choice/text"
 msgstr "继续。"
@@ -1620,7 +1627,6 @@ msgid ""
 msgstr ""
 
 #: src-en/data/events_sector_radikal.xml:2016
-#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS_2\"]/choice[1]/event/choice[2]/event/choice/text"
 msgstr "继续。"
@@ -1628,20 +1634,19 @@ msgstr "继续。"
 #: src-en/data/events_sector_radikal.xml:2023
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS_2\"]/choice[1]/event/choice[3]/text"
-msgstr ""
+msgstr "算了，我们走吧。"
 
 #: src-en/data/events_sector_radikal.xml:2030
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS_2\"]/choice[2]/text"
-msgstr ""
+msgstr "不了，谢谢，等拆解完这里我们就走。"
 
 #: src-en/data/events_sector_radikal.xml:2032
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS_2\"]/choice[2]/event/text"
-msgstr ""
+msgstr "当这里有废料可拿且有更重要的事情要做时，为什么要冒险呢？"
 
 #: src-en/data/events_sector_radikal.xml:2036
-#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS_2\"]/choice[2]/event/choice/text"
 msgstr "继续。"
@@ -1650,9 +1655,10 @@ msgstr "继续。"
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_DEFROMORIUS_SUSPICIOUS\"]/gotaway/text"
 msgstr ""
+"当那艘舰船逃跑后，你在码头四处打听，但没人告诉你任何事。\n"
+"你在这个谜团中的唯一线索就这样断了。回到任务中去。"
 
 #: src-en/data/events_sector_radikal.xml:2049
-#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_DEFROMORIUS_SUSPICIOUS\"]/gotaway/choice/text"
 msgstr "继续。"
@@ -1675,15 +1681,14 @@ msgstr ""
 #: src-en/data/events_sector_radikal.xml:2075
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_DEFROMORIUS_SUSPICIOUS\"]/surrender/choice[1]/event/choice/text"
-msgstr ""
+msgstr "我们相信你。那艘穿梭机去哪儿了？"
 
 #: src-en/data/events_sector_radikal.xml:2077
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_DEFROMORIUS_SUSPICIOUS\"]/surrender/choice[1]/event/choice/event/text"
-msgstr ""
+msgstr "作为安全措施，他们在货物中放置了追踪器。这给了你穿梭机的目的地。"
 
 #: src-en/data/events_sector_radikal.xml:2083
-#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_DEFROMORIUS_SUSPICIOUS\"]/surrender/choice[1]/event/choice/event/choice/text"
 msgstr "继续。"
@@ -1691,32 +1696,32 @@ msgstr "继续。"
 #: src-en/data/events_sector_radikal.xml:2092
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_DEFROMORIUS_SUSPICIOUS\"]/surrender/choice[2]/text"
-msgstr ""
+msgstr "那很可能是个谎言，继续战斗！"
 
 #: src-en/data/events_sector_radikal.xml:2097
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_DEFROMORIUS_SUSPICIOUS\"]/destroyed/text"
-msgstr ""
+msgstr "飞船解体了，你尽可能地进行打捞。也许正义得到了伸张，你无法确定。"
 
 #: src-en/data/events_sector_radikal.xml:2100
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_DEFROMORIUS_SUSPICIOUS\"]/destroyed/choice/text"
-msgstr ""
+msgstr "即使不是他们，废料就是废料。"
 
 #: src-en/data/events_sector_radikal.xml:2105
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_DEFROMORIUS_SUSPICIOUS\"]/deadCrew/text"
-msgstr ""
+msgstr "船员都死了，你尽可能地进行打捞。也许正义得到了伸张，你无法确定。"
 
 #: src-en/data/events_sector_radikal.xml:2108
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_DEFROMORIUS_SUSPICIOUS\"]/deadCrew/choice/text"
-msgstr ""
+msgstr "即使不是他们，废料就是废料。"
 
 #: src-en/data/events_sector_radikal.xml:2131
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS_SHUTTLE\"]/beaconType/unvisitedTooltip"
-msgstr ""
+msgstr "那个很可能是造成半械伤亡的生物的去向。"
 
 #: src-en/data/events_sector_radikal.xml:2134
 msgid ""
@@ -1726,7 +1731,7 @@ msgstr ""
 #: src-en/data/events_sector_radikal.xml:2140
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS_SHUTTLE\"]/choice[1]/text"
-msgstr ""
+msgstr "尝试与它沟通。"
 
 #: src-en/data/events_sector_radikal.xml:2142
 msgid ""
@@ -1736,7 +1741,7 @@ msgstr ""
 #: src-en/data/events_sector_radikal.xml:2148
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS_SHUTTLE\"]/choice[1]/event/choice/text"
-msgstr ""
+msgstr "你杀了那些半械保卫者吗？"
 
 #: src-en/data/events_sector_radikal.xml:2150
 msgid ""
@@ -1746,7 +1751,7 @@ msgstr ""
 #: src-en/data/events_sector_radikal.xml:2159
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS_SHUTTLE\"]/choice[1]/event/choice/event/choice[1]/text"
-msgstr ""
+msgstr "我们可以保护你免受谐合的侵害。"
 
 #: src-en/data/events_sector_radikal.xml:2161
 msgid ""
@@ -1757,38 +1762,37 @@ msgstr ""
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS_SHUTTLE\"]/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_COMBAT_OXYGENIZER\""
 " and @lvl=\"0\"]/text"
-msgstr ""
+msgstr "你没有足够的方法在飞船外提供氧气。"
 
 #: src-en/data/events_sector_radikal.xml:2171
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS_SHUTTLE\"]/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_COMBAT_OXYGENIZER\""
 " and not(@lvl)]/text"
-msgstr ""
+msgstr "（增氧器）帮助它呼吸"
 
 #: src-en/data/events_sector_radikal.xml:2176
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS_SHUTTLE\"]/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"NANO_MEDBAY\""
 " and @lvl=\"0\"]/text"
-msgstr ""
+msgstr "你无法在医疗舱外散布治疗效果。"
 
 #: src-en/data/events_sector_radikal.xml:2181
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS_SHUTTLE\"]/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"NANO_MEDBAY\""
 " and not(@lvl)]/text"
-msgstr ""
+msgstr "(纳米医疗机) 给它送去一些医疗帮助"
 
 #: src-en/data/events_sector_radikal.xml:2186
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS_SHUTTLE\"]/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_BOMBLAUNCHER_OXYBOTTLE\"]/text"
-msgstr ""
+msgstr "（氧气炸弹）帮助它呼吸"
 
 #: src-en/data/events_sector_radikal.xml:2188
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS_SHUTTLE\"]/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_BOMBLAUNCHER_OXYBOTTLE\"]/event/text"
-msgstr ""
+msgstr "有了你合适的武器，你在千钧一发之际救下了这个生物。"
 
 #: src-en/data/events_sector_radikal.xml:2191
-#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS_SHUTTLE\"]/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_BOMBLAUNCHER_OXYBOTTLE\"]/event/choice/text"
 msgstr "继续。"
@@ -1796,15 +1800,14 @@ msgstr "继续。"
 #: src-en/data/events_sector_radikal.xml:2198
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS_SHUTTLE\"]/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"BLUELIST_BOMBS_HEAL\"]/text"
-msgstr ""
+msgstr "（治疗炸弹）复活它"
 
 #: src-en/data/events_sector_radikal.xml:2201
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS_SHUTTLE\"]/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"BLUELIST_BOMBS_HEAL\"]/event/text"
-msgstr ""
+msgstr "有了你合适的武器，你在千钧一发之际救下了这个生物。"
 
 #: src-en/data/events_sector_radikal.xml:2207
-#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS_SHUTTLE\"]/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"BLUELIST_BOMBS_HEAL\"]/event/choice/text"
 msgstr "继续。"
@@ -1813,22 +1816,21 @@ msgstr "继续。"
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS_SHUTTLE\"]/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"oxygen\""
 " and not(@lvl)]/text"
-msgstr ""
+msgstr "你的生命维持（氧气）系统太弱了。"
 
 #: src-en/data/events_sector_radikal.xml:2219
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS_SHUTTLE\"]/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"oxygen\""
 " and @lvl=\"3\"]/text"
-msgstr ""
+msgstr "（先进氧气系统）让无人机快速给它送去氧气！"
 
 #: src-en/data/events_sector_radikal.xml:2221
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS_SHUTTLE\"]/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"oxygen\""
 " and @lvl=\"3\"]/event/text"
-msgstr ""
+msgstr "凭借你强大的氧气持系统和无人机，你在千钧一发之际救下了这个生物。"
 
 #: src-en/data/events_sector_radikal.xml:2228
-#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS_SHUTTLE\"]/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"oxygen\""
 " and @lvl=\"3\"]/event/choice/text"
@@ -1837,15 +1839,16 @@ msgstr "继续。"
 #: src-en/data/events_sector_radikal.xml:2235
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS_SHUTTLE\"]/choice[1]/event/choice/event/choice[1]/event/choice[9]/text"
-msgstr ""
+msgstr "让它去死吧，它罪有应得。"
 
 #: src-en/data/events_sector_radikal.xml:2237
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS_SHUTTLE\"]/choice[1]/event/choice/event/choice[1]/event/choice[9]/event/text"
 msgstr ""
+"你等着那个生物窒息而死，它在这个过程中在穿梭机里挣扎，然后拆解了穿梭机的残骸"
+"。"
 
 #: src-en/data/events_sector_radikal.xml:2242
-#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS_SHUTTLE\"]/choice[1]/event/choice/event/choice[1]/event/choice[9]/event/choice/text"
 msgstr "继续。"
@@ -1853,7 +1856,7 @@ msgstr "继续。"
 #: src-en/data/events_sector_radikal.xml:2251
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS_SHUTTLE\"]/choice[1]/event/choice/event/choice[2]/text"
-msgstr ""
+msgstr "我们会为我们的盟友复仇！"
 
 #: src-en/data/events_sector_radikal.xml:2253
 msgid ""
@@ -1861,7 +1864,6 @@ msgid ""
 msgstr ""
 
 #: src-en/data/events_sector_radikal.xml:2260
-#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS_SHUTTLE\"]/choice[1]/event/choice/event/choice[2]/event/choice/text"
 msgstr "继续。"
@@ -1869,7 +1871,7 @@ msgstr "继续。"
 #: src-en/data/events_sector_radikal.xml:2271
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS_SHUTTLE\"]/choice[2]/text"
-msgstr ""
+msgstr "我可不想被撕碎，最好现在就走。"
 
 #: src-en/data/events_sector_radikal.xml:2277
 msgid ""
@@ -1882,7 +1884,6 @@ msgid ""
 msgstr ""
 
 #: src-en/data/events_sector_radikal.xml:2291
-#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS_OFFER\"]/choice/text"
 msgstr "继续。"
@@ -1900,22 +1901,21 @@ msgstr ""
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM\"]/choice[@req=\"DJMOD_HAS_RADIKAL_BAM_GEAR\""
 " and @lvl=\"0\"]/text"
-msgstr ""
+msgstr "你没有任何 RK 巴姆装备。"
 
 #: src-en/data/events_sector_radikal.xml:2340
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM\"]/choice[@req=\"DJMOD_HAS_RADIKAL_BAM_GEAR\""
 " and not(@lvl)]/text"
-msgstr ""
+msgstr "（RK 巴姆装备）猛击……"
 
 #: src-en/data/events_sector_radikal.xml:2342
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM\"]/choice[@req=\"DJMOD_HAS_RADIKAL_BAM_GEAR\""
 " and not(@lvl)]/event/text"
-msgstr ""
+msgstr "“……好打，兄弟，好打。这是给你的欢迎礼物。快点过来，这样我们就可以交易了！”"
 
 #: src-en/data/events_sector_radikal.xml:2346
-#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM\"]/choice[@req=\"DJMOD_HAS_RADIKAL_BAM_GEAR\""
 " and not(@lvl)]/event/choice/text"
@@ -1925,22 +1925,23 @@ msgstr "继续。"
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM\"]/choice[@req=\"DJMOD_HAS_RADIKAL_GEAR\""
 " and @lvl=\"0\"]/text"
-msgstr ""
+msgstr "你没有任何拉迪卡尔装备。"
 
 #: src-en/data/events_sector_radikal.xml:2358
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM\"]/choice[@req=\"DJMOD_HAS_RADIKAL_GEAR\""
 " and not(@lvl)]/text"
-msgstr ""
+msgstr "（任何一件 RK 装备）生意"
 
 #: src-en/data/events_sector_radikal.xml:2360
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM\"]/choice[@req=\"DJMOD_HAS_RADIKAL_GEAR\""
 " and not(@lvl)]/event/text"
 msgstr ""
+"“不错。希望你能给我们带点东西来。我们有装备。快点过来，这样我们就可以交易了！"
+"”"
 
 #: src-en/data/events_sector_radikal.xml:2363
-#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM\"]/choice[@req=\"DJMOD_HAS_RADIKAL_GEAR\""
 " and not(@lvl)]/event/choice/text"
@@ -1949,12 +1950,14 @@ msgstr "继续。"
 #: src-en/data/events_sector_radikal.xml:2370
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM\"]/choice[@req=\"RKS_HAS_ANY_SACRIFICEABLE_MANTIS\"]/text"
-msgstr ""
+msgstr "（非独特螳螂族）我们有‘工件’要出售，我们该去哪儿？"
 
 #: src-en/data/events_sector_radikal.xml:2372
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM\"]/choice[@req=\"RKS_HAS_ANY_SACRIFICEABLE_MANTIS\"]/event/text"
 msgstr ""
+"“好的，那你要去的是朋克实验室。我可以送你去那里。准备好展示你的拉迪卡尔装备。"
+"”"
 
 #: src-en/data/events_sector_radikal.xml:2377
 msgid ""
@@ -1966,7 +1969,7 @@ msgstr "好吧。"
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM\"]/choice[@req=\"RKS_HAS_ANY_SACRIFICEABLE_MANTIS\"]/event/choice[@req=\"rks_lab_coords_punk\""
 " and @lvl=\"0\"]/event/text"
-msgstr ""
+msgstr "“顺便告诉他们他们臭烘烘的。哈！那些自大的怪胎。”"
 
 #: src-en/data/events_sector_radikal.xml:2388
 msgid ""
@@ -1984,22 +1987,24 @@ msgstr "跳过。"
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM\"]/choice[@req=\"RKS_HAS_ANY_SACRIFICEABLE_MANTIS\"]/event/choice[@req=\"rks_lab_coords_punk\""
 " and @lvl=\"1\"]/text"
-msgstr ""
+msgstr "我们已经有了那个 RK 实验室的坐标。"
 
 #: src-en/data/events_sector_radikal.xml:2404
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM\"]/choice[@req=\"RKS_HAS_ANY_SACRIFICEABLE_MANTIS\"]/event/choice[3]/text"
-msgstr ""
+msgstr "算了。回到我们刚才说的……"
 
 #: src-en/data/events_sector_radikal.xml:2412
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM\"]/choice[@req=\"RKS_HAS_ANY_SACRIFICEABLE_ORCHID\"]/text"
-msgstr ""
+msgstr "（非独特兰花）我们有‘易燃材料’要出售，我们该去哪儿？"
 
 #: src-en/data/events_sector_radikal.xml:2414
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM\"]/choice[@req=\"RKS_HAS_ANY_SACRIFICEABLE_ORCHID\"]/event/text"
 msgstr ""
+"“好的，那你要去的是朋克实验室。我可以送你去那里。准备好展示你的拉迪卡尔装备。"
+"”"
 
 #: src-en/data/events_sector_radikal.xml:2418
 msgid ""
@@ -2011,7 +2016,7 @@ msgstr "好吧。"
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM\"]/choice[@req=\"RKS_HAS_ANY_SACRIFICEABLE_ORCHID\"]/event/choice[@req=\"rks_lab_coords_scorch\""
 " and @lvl=\"0\"]/event/text"
-msgstr ""
+msgstr "“顺便告诉他们他们臭烘烘的。哈！那会让他们热血沸腾的。”"
 
 #: src-en/data/events_sector_radikal.xml:2427
 msgid ""
@@ -2029,20 +2034,19 @@ msgstr "跳过。"
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM\"]/choice[@req=\"RKS_HAS_ANY_SACRIFICEABLE_ORCHID\"]/event/choice[@req=\"rks_lab_coords_scorch\""
 " and @lvl=\"1\"]/text"
-msgstr ""
+msgstr "我们已经有了那个 RK 实验室的坐标。"
 
 #: src-en/data/events_sector_radikal.xml:2443
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM\"]/choice[@req=\"RKS_HAS_ANY_SACRIFICEABLE_ORCHID\"]/event/choice[3]/text"
-msgstr ""
+msgstr "算了。回到我们刚才说的……"
 
 #: src-en/data/events_sector_radikal.xml:2451
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM\"]/choice[7]/text"
-msgstr ""
+msgstr "这是巨型旋转木马吗？"
 
 #: src-en/data/events_sector_radikal.xml:2453
-#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM\"]/choice[7]/event/text"
 msgstr "你的飞船很快被不知来源的攻击击中。“滚开，游客。你已经被警告过了。”"
@@ -2060,7 +2064,7 @@ msgstr "跳过。"
 #: src-en/data/events_sector_radikal.xml:2468
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM\"]/choice[8]/text"
-msgstr ""
+msgstr "我们只是路过这里，不用管我们。"
 
 #: src-en/data/events_sector_radikal.xml:2470
 msgid ""
@@ -2084,182 +2088,199 @@ msgstr ""
 #: src-en/data/events_sector_radikal.xml:2494
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM_2\"]/choice[@req=\"RKS_HAS_ANY_SACRIFICEABLE_LANIUS\"]/text"
-msgstr ""
+msgstr "你没有适合此事的食铁族（独特食铁族宁愿杀了你然后自杀）"
 
 #: src-en/data/events_sector_radikal.xml:2499
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM_2\"]/choice[@req=\"lanius\"]/text"
-msgstr ""
+msgstr "一个食铁。"
 
 #: src-en/data/events_sector_radikal.xml:2501
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM_2\"]/choice[@req=\"lanius\"]/event/text"
 msgstr ""
+"“活的柔性金属，总是很不错。这是你的钱。”\n"
+"你能感觉到其余船员正在对你侧目而视。"
 
 #: src-en/data/events_sector_radikal.xml:2511
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM_2\"]/choice[@req=\"lanius\"]/event/removeCrew/text"
-msgstr ""
+msgstr "你无法克隆因被你卖去而痛苦死去的船员。"
 
 #: src-en/data/events_sector_radikal.xml:2515
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM_2\"]/choice[@req=\"lanius\"]/event/choice/text"
-msgstr ""
+msgstr "继续前进……"
 
 #: src-en/data/events_sector_radikal.xml:2524
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM_2\"]/choice[@req=\"lanius_welder\"]/text"
-msgstr ""
+msgstr "一个熔铁者"
 
 #: src-en/data/events_sector_radikal.xml:2526
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM_2\"]/choice[@req=\"lanius_welder\"]/event/text"
 msgstr ""
+"“活的柔性锈金属！给你大笔钱！”\n"
+"你能感觉到其余船员正在对你侧目而视。"
 
 #: src-en/data/events_sector_radikal.xml:2537
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM_2\"]/choice[@req=\"lanius_welder\"]/event/removeCrew/text"
-msgstr ""
+msgstr "你无法克隆因被你卖去而痛苦死去的船员。"
 
 #: src-en/data/events_sector_radikal.xml:2541
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM_2\"]/choice[@req=\"lanius_welder\"]/event/choice/text"
-msgstr ""
+msgstr "继续前进……"
 
 #: src-en/data/events_sector_radikal.xml:2547
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM_2\"]/choice[@req=\"lanius_augmented\"]/text"
-msgstr ""
+msgstr "一个强铁"
 
 #: src-en/data/events_sector_radikal.xml:2549
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM_2\"]/choice[@req=\"lanius_augmented\"]/event/text"
 msgstr ""
+"“哦，你抓到了一个花哨的金属！给你一大笔钱！！”\n"
+"你能感觉到其余船员正在对你侧目而视。"
 
 #: src-en/data/events_sector_radikal.xml:2562
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM_2\"]/choice[@req=\"lanius_augmented\"]/event/removeCrew/text"
-msgstr ""
+msgstr "你无法克隆因被你卖去而痛苦死去的船员。"
 
 #: src-en/data/events_sector_radikal.xml:2566
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM_2\"]/choice[@req=\"lanius_augmented\"]/event/choice/text"
-msgstr ""
+msgstr "继续前进……"
 
 #: src-en/data/events_sector_radikal.xml:2574
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM_2\"]/choice[@req=\"RKS_HAS_ANY_SACRIFICEABLE_SHELL\"]/text"
-msgstr ""
+msgstr "你没有适合此事的甲壳族（独特甲壳族宁愿杀了你然后自杀）"
 
 #: src-en/data/events_sector_radikal.xml:2579
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM_2\"]/choice[@req=\"shell\"]/text"
-msgstr ""
+msgstr "一个甲壳族。"
 
 #: src-en/data/events_sector_radikal.xml:2581
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM_2\"]/choice[@req=\"shell\"]/event/text"
 msgstr ""
+"“会爆炸的球，总是很不错。这是你的钱。”\n"
+"你能感觉到其余船员正在对你侧目而视。"
 
 #: src-en/data/events_sector_radikal.xml:2591
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM_2\"]/choice[@req=\"shell\"]/event/removeCrew/text"
-msgstr ""
+msgstr "你无法克隆因被你卖去而痛苦死去的船员。"
 
 #: src-en/data/events_sector_radikal.xml:2595
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM_2\"]/choice[@req=\"shell\"]/event/choice/text"
-msgstr ""
+msgstr "继续前进……"
 
 #: src-en/data/events_sector_radikal.xml:2602
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM_2\"]/choice[@req=\"shell_guardian\"]/text"
-msgstr ""
+msgstr "一个甲壳守护者"
 
 #: src-en/data/events_sector_radikal.xml:2604
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM_2\"]/choice[@req=\"shell_guardian\"]/event/text"
 msgstr ""
+"“更会爆炸的球！给你一大笔钱！”\n"
+"你能感觉到其余船员正在对你侧目而视。"
 
 #: src-en/data/events_sector_radikal.xml:2615
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM_2\"]/choice[@req=\"shell_guardian\"]/event/removeCrew/text"
-msgstr ""
+msgstr "你无法克隆因被你卖去而痛苦死去的船员。"
 
 #: src-en/data/events_sector_radikal.xml:2619
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM_2\"]/choice[@req=\"shell_guardian\"]/event/choice/text"
-msgstr ""
+msgstr "继续前进……"
 
 #: src-en/data/events_sector_radikal.xml:2625
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM_2\"]/choice[@req=\"shell_scientist\"]/text"
-msgstr ""
+msgstr "一个甲壳科学家"
 
 #: src-en/data/events_sector_radikal.xml:2627
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM_2\"]/choice[@req=\"shell_scientist\"]/event/text"
 msgstr ""
+"“即愈的爆炸球！给你一大笔钱！”\n"
+"\t\t\t\n"
+"\t\t\t\t你能感觉到其余船员正在对你侧目而视。"
 
 #: src-en/data/events_sector_radikal.xml:2638
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM_2\"]/choice[@req=\"shell_scientist\"]/event/removeCrew/text"
-msgstr ""
+msgstr "你无法克隆因被你卖去而痛苦死去的船员。"
 
 #: src-en/data/events_sector_radikal.xml:2642
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM_2\"]/choice[@req=\"shell_scientist\"]/event/choice/text"
-msgstr ""
+msgstr "继续前进……"
 
 #: src-en/data/events_sector_radikal.xml:2648
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM_2\"]/choice[@req=\"shell_mechanic\"]/text"
-msgstr ""
+msgstr "一个甲壳机械师"
 
 #: src-en/data/events_sector_radikal.xml:2650
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM_2\"]/choice[@req=\"shell_mechanic\"]/event/text"
 msgstr ""
+"“会维修的爆炸球！非常适合 A.E.R.A.，给你一大笔钱！’”\n"
+"你能感觉到其余船员正在对你侧目而视。"
 
 #: src-en/data/events_sector_radikal.xml:2661
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM_2\"]/choice[@req=\"shell_mechanic\"]/event/removeCrew/text"
-msgstr ""
+msgstr "你无法克隆因被你卖去而痛苦死去的船员。"
 
 #: src-en/data/events_sector_radikal.xml:2665
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM_2\"]/choice[@req=\"shell_mechanic\"]/event/choice/text"
-msgstr ""
+msgstr "继续前进……"
 
 #: src-en/data/events_sector_radikal.xml:2672
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM_2\"]/choice[@req=\"shell_radiant\"]/text"
-msgstr ""
+msgstr "一个甲壳辐射体"
 
 #: src-en/data/events_sector_radikal.xml:2674
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM_2\"]/choice[@req=\"shell_radiant\"]/event/text"
 msgstr ""
+"“多重爆炸球！你带来了一个稀罕货，给你超级大笔钱！！”\n"
+"你能感觉到其余船员正在对你侧目而视。"
 
 #: src-en/data/events_sector_radikal.xml:2684
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM_2\"]/choice[@req=\"shell_radiant\"]/event/removeCrew/text"
-msgstr ""
+msgstr "你无法克隆因被你卖去而痛苦死去的船员。"
 
 #: src-en/data/events_sector_radikal.xml:2688
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM_2\"]/choice[@req=\"shell_radiant\"]/event/choice/text"
-msgstr ""
+msgstr "继续前进……"
 
 #: src-en/data/events_sector_radikal.xml:2695
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM_2\"]/choice[11]/text"
-msgstr ""
+msgstr "让我们看看你这里有什么。"
 
 #: src-en/data/events_sector_radikal.xml:2700
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM_2\"]/choice[12]/text"
-msgstr ""
+msgstr "实际上……我们有紧急情况，再见！"
 
 #: src-en/data/events_sector_radikal.xml:2706
 msgid "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM_3\"]/text"
@@ -2282,12 +2303,12 @@ msgstr ""
 #: src-en/data/events_sector_radikal.xml:2739
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_LAB_BAM_AMBUSH\"]/choice[@req=\"unique_alkali\"]/text"
-msgstr ""
+msgstr "（阿尔科莱）说到这个，给白痴们让路。秘密任务。"
 
 #: src-en/data/events_sector_radikal.xml:2744
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_LAB_BAM_AMBUSH\"]/choice[2]/text"
-msgstr ""
+msgstr "……看来这就是做生意的代价。"
 
 #: src-en/data/events_sector_radikal.xml:2746
 msgid ""
@@ -2295,7 +2316,6 @@ msgid ""
 msgstr ""
 
 #: src-en/data/events_sector_radikal.xml:2755
-#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_LAB_BAM_AMBUSH\"]/choice[2]/event/choice/text"
 msgstr "继续。"
@@ -2303,27 +2323,31 @@ msgstr "继续。"
 #: src-en/data/events_sector_radikal.xml:2764
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_LAB_BAM_ATTACKER\"]/destroyed/text"
-msgstr ""
+msgstr "精英甲壳族飞船解体了，你在舰队其他成员反应过来之前快速打捞了你能带走的东西。"
 
 #: src-en/data/events_sector_radikal.xml:2767
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_LAB_BAM_ATTACKER\"]/destroyed/choice/text"
-msgstr ""
+msgstr "甲壳族惨了，但我们可能更糟。"
 
 #: src-en/data/events_sector_radikal.xml:2772
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_LAB_BAM_ATTACKER\"]/deadCrew/text"
 msgstr ""
+"船员都死了，你在舰队其他成员反应过来之前快速从精英甲壳族飞船上打捞了你能带走"
+"的东西。"
 
 #: src-en/data/events_sector_radikal.xml:2775
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_LAB_BAM_ATTACKER\"]/deadCrew/choice/text"
-msgstr ""
+msgstr "甲壳族了，但我们可能更糟。"
 
 #: src-en/data/events_sector_radikal.xml:2803
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK\"]/beaconType/unvisitedTooltip"
 msgstr ""
+"有人告诉你，如果你能证明自己是顾客，就可以在这个信标获得很棒的拉迪卡尔·朋克装"
+"备。"
 
 #: src-en/data/events_sector_radikal.xml:2806
 msgid "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK\"]/text"
@@ -2333,22 +2357,21 @@ msgstr ""
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK\"]/choice[@req=\"DJMOD_HAS_RADIKAL_PUNK_GEAR\""
 " and @lvl=\"0\"]/text"
-msgstr ""
+msgstr "你没有任何 RK 朋克装备。"
 
 #: src-en/data/events_sector_radikal.xml:2819
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK\"]/choice[@req=\"DJMOD_HAS_RADIKAL_PUNK_GEAR\""
 " and not(@lvl)]/text"
-msgstr ""
+msgstr "（RK 朋克装备）保持理智……"
 
 #: src-en/data/events_sector_radikal.xml:2821
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK\"]/choice[@req=\"DJMOD_HAS_RADIKAL_PUNK_GEAR\""
 " and not(@lvl)]/event/text"
-msgstr ""
+msgstr "“……杀戮者。嘿嘿。无人机会把礼物送给你。我们等你来。”"
 
 #: src-en/data/events_sector_radikal.xml:2825
-#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK\"]/choice[@req=\"DJMOD_HAS_RADIKAL_PUNK_GEAR\""
 " and not(@lvl)]/event/choice/text"
@@ -2358,22 +2381,21 @@ msgstr "继续。"
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK\"]/choice[@req=\"DJMOD_HAS_RADIKAL_GEAR\""
 " and @lvl=\"0\"]/text"
-msgstr ""
+msgstr "你没有任何拉迪卡尔装备。"
 
 #: src-en/data/events_sector_radikal.xml:2837
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK\"]/choice[@req=\"DJMOD_HAS_RADIKAL_GEAR\""
 " and not(@lvl)]/text"
-msgstr ""
+msgstr "（任何一件 RK 装备）生意"
 
 #: src-en/data/events_sector_radikal.xml:2839
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK\"]/choice[@req=\"DJMOD_HAS_RADIKAL_GEAR\""
 " and not(@lvl)]/event/text"
-msgstr ""
+msgstr "“是是是……来做生意吧。我们正需要一些东西。我们等你来。”"
 
 #: src-en/data/events_sector_radikal.xml:2842
-#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK\"]/choice[@req=\"DJMOD_HAS_RADIKAL_GEAR\""
 " and not(@lvl)]/event/choice/text"
@@ -2382,12 +2404,14 @@ msgstr "继续。"
 #: src-en/data/events_sector_radikal.xml:2849
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK\"]/choice[5]/text"
-msgstr ""
+msgstr "这是水上乐园吗？"
 
 #: src-en/data/events_sector_radikal.xml:2851
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK\"]/choice[5]/event/text"
 msgstr ""
+"你的飞船很快被不知来源的攻击击中。“哈！不错的一击。也许对我们来说是。但你非常"
+"迷路。”"
 
 #: src-en/data/events_sector_radikal.xml:2855
 msgid ""
@@ -2402,7 +2426,7 @@ msgstr "跳过。"
 #: src-en/data/events_sector_radikal.xml:2866
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK\"]/choice[6]/text"
-msgstr ""
+msgstr "我们只是路过这里，不用管我们。"
 
 #: src-en/data/events_sector_radikal.xml:2868
 msgid ""
@@ -2427,162 +2451,177 @@ msgstr ""
 #: src-en/data/events_sector_radikal.xml:2892
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[@req=\"RKS_HAS_ANY_SACRIFICEABLE_LEECH\"]/text"
-msgstr ""
+msgstr "你没有适合此事的吸虫族（独特吸虫族宁愿杀了你然后自杀）"
 
 #: src-en/data/events_sector_radikal.xml:2897
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[@req=\"leech\"]/text"
-msgstr ""
+msgstr "一个吸虫。"
 
 #: src-en/data/events_sector_radikal.xml:2899
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[@req=\"leech\"]/event/text"
 msgstr ""
+"“吸能活性组织，没错，常见货。这是你的支票。”\n"
+"你能感觉到其余船员正在对你侧目而视。"
 
 #: src-en/data/events_sector_radikal.xml:2909
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[@req=\"leech\"]/event/removeCrew/text"
-msgstr ""
+msgstr "你无法克隆因被你卖去而痛苦死去的船员。"
 
 #: src-en/data/events_sector_radikal.xml:2913
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[@req=\"leech\"]/event/choice/text"
-msgstr ""
+msgstr "继续前进……"
 
 #: src-en/data/events_sector_radikal.xml:2921
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[@req=\"leech_ampere\"]/text"
-msgstr ""
+msgstr "一个电流吸虫。"
 
 #: src-en/data/events_sector_radikal.xml:2923
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[@req=\"leech_ampere\"]/event/text"
 msgstr ""
+"“极好的吸能活性组织，没错！这是一张丰厚的支票。”\n"
+"你能感觉到其余船员正在对你侧目而视。"
 
 #: src-en/data/events_sector_radikal.xml:2934
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[@req=\"leech_ampere\"]/event/removeCrew/text"
-msgstr ""
+msgstr "你无法克隆因被你卖去而痛苦死去的船员。"
 
 #: src-en/data/events_sector_radikal.xml:2938
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[@req=\"leech_ampere\"]/event/choice/text"
-msgstr ""
+msgstr "继续前进……"
 
 #: src-en/data/events_sector_radikal.xml:2946
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[@req=\"RKS_HAS_ANY_SACRIFICEABLE_MANTIS\"]/text"
-msgstr ""
+msgstr "你没有适合此事的螳螂族（独特螳螂族宁愿杀了你然后自杀）"
 
 #: src-en/data/events_sector_radikal.xml:2951
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[@req=\"mantis\"]/text"
-msgstr ""
+msgstr "一个螳螂。"
 
 #: src-en/data/events_sector_radikal.xml:2953
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[@req=\"mantis\"]/event/text"
 msgstr ""
+"“可靠的活力，没错，常见货。这是你的支票。”\n"
+"你能感觉到其余船员正在对你侧目而视。"
 
 #: src-en/data/events_sector_radikal.xml:2963
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[@req=\"mantis\"]/event/removeCrew/text"
-msgstr ""
+msgstr "你无法克隆因被你卖去而痛苦死去的船员。"
 
 #: src-en/data/events_sector_radikal.xml:2967
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[@req=\"mantis\"]/event/choice/text"
-msgstr ""
+msgstr "继续前进……"
 
 #: src-en/data/events_sector_radikal.xml:2973
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[@req=\"mantis_free\"]/text"
-msgstr ""
+msgstr "一个自由螳螂。"
 
 #: src-en/data/events_sector_radikal.xml:2975
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[@req=\"mantis_free\"]/event/text"
 msgstr ""
+"“有潜力的活力，没错，常见货。这是你的支票。”\n"
+"你能感觉到其余船员正在对你侧目而视。"
 
 #: src-en/data/events_sector_radikal.xml:2985
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[@req=\"mantis_free\"]/event/removeCrew/text"
-msgstr ""
+msgstr "你无法克隆因被你卖去而痛苦死去的船员。"
 
 #: src-en/data/events_sector_radikal.xml:2989
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[@req=\"mantis_free\"]/event/choice/text"
-msgstr ""
+msgstr "继续前进……"
 
 #: src-en/data/events_sector_radikal.xml:2996
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[@req=\"mantis_warlord\"]/text"
-msgstr ""
+msgstr "一个军阀螳螂。"
 
 #: src-en/data/events_sector_radikal.xml:2998
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[@req=\"mantis_warlord\"]/event/text"
 msgstr ""
+"“拥有巨大的潜力，充满了化学物质，没错！这是一张丰厚的支票。”\n"
+"你能感觉到其余船员正在对你侧目而视。"
 
 #: src-en/data/events_sector_radikal.xml:3009
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[@req=\"mantis_warlord\"]/event/removeCrew/text"
-msgstr ""
+msgstr "你无法克隆因被你卖去而痛苦死去的船员。"
 
 #: src-en/data/events_sector_radikal.xml:3013
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[@req=\"mantis_warlord\"]/event/choice/text"
-msgstr ""
+msgstr "继续前进……"
 
 #: src-en/data/events_sector_radikal.xml:3019
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[@req=\"mantis_suzerain\"]/text"
-msgstr ""
+msgstr "一个母巢螳螂"
 
 #: src-en/data/events_sector_radikal.xml:3021
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[@req=\"mantis_suzerain\"]/event/text"
 msgstr ""
+"“巨大的潜力，充满了有益分子，没错！这是一张丰厚的支票。”\n"
+"你能感觉到其余船员正在对你侧目而视。"
 
 #: src-en/data/events_sector_radikal.xml:3032
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[@req=\"mantis_suzerain\"]/event/removeCrew/text"
-msgstr ""
+msgstr "你无法克隆因被你卖去而痛苦死去的船员。"
 
 #: src-en/data/events_sector_radikal.xml:3036
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[@req=\"mantis_suzerain\"]/event/choice/text"
-msgstr ""
+msgstr "继续前进……"
 
 #: src-en/data/events_sector_radikal.xml:3042
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[@req=\"mantis_bishop\"]/text"
-msgstr ""
+msgstr "一个螳螂主教"
 
 #: src-en/data/events_sector_radikal.xml:3044
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[@req=\"mantis_bishop\"]/event/text"
 msgstr ""
+"“吼吼吼吼，这愤怒，这活力！你可真是个甜心！这是一张巨额支票，酬谢你的辛苦。"
+"”\n"
+"你能感觉到其余船员正在对你侧目而视。"
 
 #: src-en/data/events_sector_radikal.xml:3054
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[@req=\"mantis_bishop\"]/event/removeCrew/text"
-msgstr ""
+msgstr "你无法克隆因被你卖去而痛苦死去的船员。"
 
 #: src-en/data/events_sector_radikal.xml:3058
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[@req=\"mantis_bishop\"]/event/choice/text"
-msgstr ""
+msgstr "继续前进……"
 
 #: src-en/data/events_sector_radikal.xml:3065
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[10]/text"
-msgstr ""
+msgstr "让我们看看你这里有什么。"
 
 #: src-en/data/events_sector_radikal.xml:3070
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[11]/text"
-msgstr ""
+msgstr "实际上……我们有紧急情况，再见！"
 
 #: src-en/data/events_sector_radikal.xml:3076
 msgid ""
@@ -2606,7 +2645,7 @@ msgstr ""
 #: src-en/data/events_sector_radikal.xml:3105
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_LAB_PUNK_AMBUSH\"]/choice[@req=\"RKS_HAS_MANTIS_UNIQUE\"]/text"
-msgstr ""
+msgstr "（独特螳螂族）啧咔！让开！秘密任务。"
 
 #: src-en/data/events_sector_radikal.xml:3110
 msgid ""
@@ -2619,7 +2658,6 @@ msgid ""
 msgstr ""
 
 #: src-en/data/events_sector_radikal.xml:3121
-#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_LAB_PUNK_AMBUSH\"]/choice[2]/event/choice/text"
 msgstr "继续。"
@@ -2628,26 +2666,32 @@ msgstr "继续。"
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_LAB_PUNK_ATTACKER\"]/destroyed/text"
 msgstr ""
+"精英自由螳螂飞船解体了，你在舰队其他成员反应过来之前快速打捞了你能带走的东西"
+"。"
 
 #: src-en/data/events_sector_radikal.xml:3132
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_LAB_PUNK_ATTACKER\"]/destroyed/choice/text"
-msgstr ""
+msgstr "希望在这之后他们还能保持这么硬核的粉丝态度。"
 
 #: src-en/data/events_sector_radikal.xml:3137
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_LAB_PUNK_ATTACKER\"]/deadCrew/text"
 msgstr ""
+"船员都死了，你在舰队其他成员反应过来之前快速从精英自由螳螂族飞船上打捞了你能"
+"带走的东西。"
 
 #: src-en/data/events_sector_radikal.xml:3140
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_LAB_PUNK_ATTACKER\"]/deadCrew/choice/text"
-msgstr ""
+msgstr "希望在这之后他们还能保持这么硬核的粉丝态度。"
 
 #: src-en/data/events_sector_radikal.xml:3166
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH\"]/beaconType/unvisitedTooltip"
 msgstr ""
+"有人告诉你，如果你能证明自己是顾客，就可以在这个信标获得很棒的拉迪卡尔·灼烧装"
+"备。"
 
 #: src-en/data/events_sector_radikal.xml:3169
 msgid ""
@@ -2658,22 +2702,21 @@ msgstr ""
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH\"]/choice[@req=\"DJMOD_HAS_RADIKAL_SCORCH_GEAR\""
 " and @lvl=\"0\"]/text"
-msgstr ""
+msgstr "你没有任何 RK 灼烧装备。"
 
 #: src-en/data/events_sector_radikal.xml:3183
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH\"]/choice[@req=\"DJMOD_HAS_RADIKAL_SCORCH_GEAR\""
 " and not(@lvl)]/text"
-msgstr ""
+msgstr "（RK 灼烧装备）燃烧耀光……"
 
 #: src-en/data/events_sector_radikal.xml:3185
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH\"]/choice[@req=\"DJMOD_HAS_RADIKAL_SCORCH_GEAR\""
 " and not(@lvl)]/event/text"
-msgstr ""
+msgstr "“……宝贝。看到我们中的一员总是让人心头一暖。这是欢迎礼物。你获准降落。”"
 
 #: src-en/data/events_sector_radikal.xml:3189
-#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH\"]/choice[@req=\"DJMOD_HAS_RADIKAL_SCORCH_GEAR\""
 " and not(@lvl)]/event/choice/text"
@@ -2683,22 +2726,23 @@ msgstr "继续。"
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH\"]/choice[@req=\"DJMOD_HAS_RADIKAL_GEAR\""
 " and @lvl=\"0\"]/text"
-msgstr ""
+msgstr "“……宝贝。看到我们中的一员总是让人心头一暖。这是欢迎礼物。你获准降落。”"
 
 #: src-en/data/events_sector_radikal.xml:3201
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH\"]/choice[@req=\"DJMOD_HAS_RADIKAL_GEAR\""
 " and not(@lvl)]/text"
-msgstr ""
+msgstr "（任何一件 RK 装备）生意"
 
 #: src-en/data/events_sector_radikal.xml:3203
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH\"]/choice[@req=\"DJMOD_HAS_RADIKAL_GEAR\""
 " and not(@lvl)]/event/text"
 msgstr ""
+"“很好。我们一直在等一些货物，而且有一大批装备要出售。那我们来交易吧。你获准降"
+"落。”"
 
 #: src-en/data/events_sector_radikal.xml:3206
-#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH\"]/choice[@req=\"DJMOD_HAS_RADIKAL_GEAR\""
 " and not(@lvl)]/event/choice/text"
@@ -2707,7 +2751,7 @@ msgstr "继续。"
 #: src-en/data/events_sector_radikal.xml:3213
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH\"]/choice[5]/text"
-msgstr ""
+msgstr "这是烘焙星球吗？"
 
 #: src-en/data/events_sector_radikal.xml:3215
 msgid ""
@@ -2727,7 +2771,7 @@ msgstr "跳过。"
 #: src-en/data/events_sector_radikal.xml:3230
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH\"]/choice[6]/text"
-msgstr ""
+msgstr "我们只是路过这里，不用管我们。"
 
 #: src-en/data/events_sector_radikal.xml:3232
 msgid ""
@@ -2752,237 +2796,260 @@ msgstr ""
 #: src-en/data/events_sector_radikal.xml:3256
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"RKS_HAS_ANY_SACRIFICEABLE_ORCHID\"]/text"
-msgstr ""
+msgstr "你没有适合此事的兰花族（独特兰花族宁愿杀了你然后自杀）"
 
 #: src-en/data/events_sector_radikal.xml:3261
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"RKS_HAS_ANY_SACRIFICEABLE_ZOLTAN\"]/text"
-msgstr ""
+msgstr "你没有适合此事的超能族（独特超能族宁愿杀了你然后自杀）"
 
 #: src-en/data/events_sector_radikal.xml:3266
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"orchid\"]/text"
-msgstr ""
+msgstr "一个兰花族。"
 
 #: src-en/data/events_sector_radikal.xml:3268
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"orchid\"]/event/text"
 msgstr ""
+"“基础材料。总是有用。这是给你的报酬。”\n"
+"你能感觉到其余船员正在对你侧目而视。"
 
 #: src-en/data/events_sector_radikal.xml:3278
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"orchid\"]/event/removeCrew/text"
-msgstr ""
+msgstr "你无法克隆因被你卖去而痛苦死去的船员。"
 
 #: src-en/data/events_sector_radikal.xml:3282
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"orchid\"]/event/choice/text"
-msgstr ""
+msgstr "继续前进……"
 
 #: src-en/data/events_sector_radikal.xml:3289
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"orchid_vampweed\"]/text"
-msgstr ""
+msgstr "一个血草兰花。"
 
 #: src-en/data/events_sector_radikal.xml:3291
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"orchid_vampweed\"]/event/text"
 msgstr ""
+"“基础材料。总是有用。这是给你的报酬。”\n"
+"你能感觉到其余船员正在对你侧目而视。"
 
 #: src-en/data/events_sector_radikal.xml:3301
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"orchid_vampweed\"]/event/removeCrew/text"
-msgstr ""
+msgstr "你无法克隆因被你卖去而痛苦死去的船员。"
 
 #: src-en/data/events_sector_radikal.xml:3305
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"orchid_vampweed\"]/event/choice/text"
-msgstr ""
+msgstr "继续前进……"
 
 #: src-en/data/events_sector_radikal.xml:3312
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"orchid_caretaker\"]/text"
-msgstr ""
+msgstr "一个看护者。"
 
 #: src-en/data/events_sector_radikal.xml:3314
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"orchid_caretaker\"]/event/text"
 msgstr ""
+"“优质的材料，没错。给你更高的报酬。”\n"
+"你能感觉到其余船员正在对你侧目而视。"
 
 #: src-en/data/events_sector_radikal.xml:3325
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"orchid_caretaker\"]/event/removeCrew/text"
-msgstr ""
+msgstr "你无法克隆因被你卖去而痛苦死去的船员。"
 
 #: src-en/data/events_sector_radikal.xml:3329
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"orchid_caretaker\"]/event/choice/text"
-msgstr ""
+msgstr "继续前进……"
 
 #: src-en/data/events_sector_radikal.xml:3335
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"orchid_praetor\"]/text"
-msgstr ""
+msgstr "一个军政官。"
 
 #: src-en/data/events_sector_radikal.xml:3337
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"orchid_praetor\"]/event/text"
 msgstr ""
+"“优质的材料，没错。给你更高的报酬。”\n"
+"你能感觉到其余船员正在对你侧目而视。"
 
 #: src-en/data/events_sector_radikal.xml:3348
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"orchid_praetor\"]/event/removeCrew/text"
-msgstr ""
+msgstr "你无法克隆因被你卖去而痛苦死去的船员。"
 
 #: src-en/data/events_sector_radikal.xml:3352
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"orchid_praetor\"]/event/choice/text"
-msgstr ""
+msgstr "继续前进……"
 
 #: src-en/data/events_sector_radikal.xml:3358
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"orchid_cultivator\"]/text"
-msgstr ""
+msgstr "一个种植者。"
 
 #: src-en/data/events_sector_radikal.xml:3360
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"orchid_cultivator\"]/event/text"
 msgstr ""
+"“优质的材料，没错。给你更高的报酬。”\n"
+"你能感觉到其余船员正在对你侧目而视。"
 
 #: src-en/data/events_sector_radikal.xml:3371
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"orchid_cultivator\"]/event/removeCrew/text"
-msgstr ""
+msgstr "你无法克隆因被你卖去而痛苦死去的船员。"
 
 #: src-en/data/events_sector_radikal.xml:3375
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"orchid_cultivator\"]/event/choice/text"
-msgstr ""
+msgstr "继续前进……"
 
 #: src-en/data/events_sector_radikal.xml:3382
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"ORCHID_KIDS\"]/text"
-msgstr ""
+msgstr "兰花儿童。"
 
 #: src-en/data/events_sector_radikal.xml:3384
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"ORCHID_KIDS\"]/event/text"
 msgstr ""
+"“太棒了！这些东西越来越难搞到了，就好像兰花族随着时间的推移在加强安保一样。这"
+"是给你的丰厚报酬。”\n"
+"你能感觉到其余船员正厌恶地看着你，但没人敢说什么。"
 
 #: src-en/data/events_sector_radikal.xml:3398
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"ORCHID_KIDS\"]/event/choice/text"
-msgstr ""
+msgstr "继续前进……"
 
 #: src-en/data/events_sector_radikal.xml:3406
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"zoltan\"]/text"
-msgstr ""
+msgstr "一个超能族。"
 
 #: src-en/data/events_sector_radikal.xml:3408
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"zoltan\"]/event/text"
 msgstr ""
+"“给腿部通电。总是有用的。这是你的报酬。。”\n"
+"你能感觉到其余船员正在对你侧目而视。"
 
 #: src-en/data/events_sector_radikal.xml:3418
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"zoltan\"]/event/removeCrew/text"
-msgstr ""
+msgstr "你无法克隆因被你卖去而痛苦死去的船员。"
 
 #: src-en/data/events_sector_radikal.xml:3422
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"zoltan\"]/event/choice/text"
-msgstr ""
+msgstr "继续前进……"
 
 #: src-en/data/events_sector_radikal.xml:3428
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"zoltan_devotee\"]/text"
-msgstr ""
+msgstr "一个暮临投身者。"
 
 #: src-en/data/events_sector_radikal.xml:3430
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"zoltan_devotee\"]/event/text"
 msgstr ""
+"“移动电源，随时可用。这是给你的报酬。”\n"
+"你能感觉到其余船员正在对你侧目而视。"
 
 #: src-en/data/events_sector_radikal.xml:3440
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"zoltan_devotee\"]/event/removeCrew/text"
-msgstr ""
+msgstr "你无法克隆因被你卖去而痛苦死去的船员。"
 
 #: src-en/data/events_sector_radikal.xml:3444
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"zoltan_devotee\"]/event/choice/text"
-msgstr ""
+msgstr "继续前进……"
 
 #: src-en/data/events_sector_radikal.xml:3450
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"zoltan_monk\"]/text"
-msgstr ""
+msgstr "一个超能信道者。"
 
 #: src-en/data/events_sector_radikal.xml:3452
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"zoltan_monk\"]/event/text"
 msgstr ""
+"“不会反击的力量。总是有用。这是给你的报酬。”\n"
+"你能感觉到其余船员正在对你侧目而视。"
 
 #: src-en/data/events_sector_radikal.xml:3462
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"zoltan_monk\"]/event/removeCrew/text"
-msgstr ""
+msgstr "你无法克隆因被你卖去而痛苦死去的船员。"
 
 #: src-en/data/events_sector_radikal.xml:3466
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"zoltan_monk\"]/event/choice/text"
-msgstr ""
+msgstr "继续前进……"
 
 #: src-en/data/events_sector_radikal.xml:3473
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"zoltan_peacekeeper\"]/text"
-msgstr ""
+msgstr "一个维和兵。"
 
 #: src-en/data/events_sector_radikal.xml:3475
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"zoltan_peacekeeper\"]/event/text"
 msgstr ""
+"“优质的材料，没错。给你更高的报酬。”\n"
+"你能感觉到其余船员正在对你侧目而视。"
 
 #: src-en/data/events_sector_radikal.xml:3486
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"zoltan_peacekeeper\"]/event/removeCrew/text"
-msgstr ""
+msgstr "你无法克隆因被你卖去而痛苦死去的船员。"
 
 #: src-en/data/events_sector_radikal.xml:3490
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"zoltan_peacekeeper\"]/event/choice/text"
-msgstr ""
+msgstr "继续前进……"
 
 #: src-en/data/events_sector_radikal.xml:3497
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"zoltan_martyr\"]/text"
-msgstr ""
+msgstr "一个殉义者。"
 
 #: src-en/data/events_sector_radikal.xml:3499
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"zoltan_martyr\"]/event/text"
 msgstr ""
+"“优质的材料，没错。给你更高的报酬。”\n"
+"你能感觉到其余船员正在对你侧目而视。"
 
 #: src-en/data/events_sector_radikal.xml:3510
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"zoltan_martyr\"]/event/removeCrew/text"
-msgstr ""
+msgstr "你无法克隆因被你卖去而痛苦死去的船员。"
 
 #: src-en/data/events_sector_radikal.xml:3514
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"zoltan_martyr\"]/event/choice/text"
-msgstr ""
+msgstr "继续前进……"
 
 #: src-en/data/events_sector_radikal.xml:3522
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[14]/text"
-msgstr ""
+msgstr "让我们看看你这里有什么。"
 
 #: src-en/data/events_sector_radikal.xml:3527
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[15]/text"
-msgstr ""
+msgstr "实际上……我们有紧急情况，再见！"
 
 #: src-en/data/events_sector_radikal.xml:3533
 msgid ""
@@ -3007,12 +3074,12 @@ msgstr ""
 #: src-en/data/events_sector_radikal.xml:3564
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_LAB_SCORCH_AMBUSH\"]/choice[@req=\"RKS_HAS_ORCHID_UNIQUE\"]/text"
-msgstr ""
+msgstr "（独特兰花族）让我们过去。秘密任务。"
 
 #: src-en/data/events_sector_radikal.xml:3569
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_LAB_SCORCH_AMBUSH\"]/choice[2]/text"
-msgstr ""
+msgstr "……老实说，我料到会是这样。"
 
 #: src-en/data/events_sector_radikal.xml:3571
 msgid ""
@@ -3020,7 +3087,6 @@ msgid ""
 msgstr ""
 
 #: src-en/data/events_sector_radikal.xml:3580
-#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_LAB_SCORCH_AMBUSH\"]/choice[2]/event/choice/text"
 msgstr "继续。"
@@ -3028,27 +3094,29 @@ msgstr "继续。"
 #: src-en/data/events_sector_radikal.xml:3589
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_LAB_SCORCH_ATTACKER\"]/destroyed/text"
-msgstr ""
+msgstr "精英兰花族飞船解体了，你在舰队其他成员反应过来之前快速打捞了你能带走的东西。"
 
 #: src-en/data/events_sector_radikal.xml:3592
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_LAB_SCORCH_ATTACKER\"]/destroyed/choice/text"
-msgstr ""
+msgstr "现在我们为了给军火商撑腰而杀死精英盟友。好吧。"
 
 #: src-en/data/events_sector_radikal.xml:3597
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_LAB_SCORCH_ATTACKER\"]/deadCrew/text"
 msgstr ""
+"船员都死了，你在舰队其他成员反应过来之前快速从精英兰花族飞船上打捞了你能带走"
+"的东西。"
 
 #: src-en/data/events_sector_radikal.xml:3600
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_LAB_SCORCH_ATTACKER\"]/deadCrew/choice/text"
-msgstr ""
+msgstr "现在我们为了给军火商撑腰而杀死精英盟友。好吧。"
 
 #: src-en/data/events_sector_radikal.xml:3632
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY\"]/beaconType/unvisitedTooltip"
-msgstr ""
+msgstr "海盗们在等着你的废料。任何让他们失望的行为都需自担风险！"
 
 #: src-en/data/events_sector_radikal.xml:3635
 msgid "data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY\"]/text"
@@ -3057,58 +3125,58 @@ msgstr ""
 #: src-en/data/events_sector_radikal.xml:3647
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY\"]/choice[1]/text"
-msgstr ""
+msgstr "没错，就是我。闲话少说，给我们看看货。"
 
 #: src-en/data/events_sector_radikal.xml:3655
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY\"]/choice[2]/text"
-msgstr ""
+msgstr "不是我们，只是路过。"
 
 #: src-en/data/events_sector_radikal.xml:3670
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE\"]/text"
-msgstr ""
+msgstr "海盗们都满怀期待地看着你。"
 
 #: src-en/data/events_sector_radikal.xml:3676
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE\"]/choice[@req=\"rks_pirate_trinity_met_slaver\""
 " and @lvl=\"0\"]/text"
-msgstr ""
+msgstr "与提卡卡奴隶贩子会面"
 
 #: src-en/data/events_sector_radikal.xml:3686
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE\"]/choice[@req=\"rks_pirate_trinity_met_slaver\""
 " and @lvl=\"1\"]/text"
-msgstr ""
+msgstr "那个奴隶贩子正坐在一个奴隶的脸上数着他们的废料。"
 
 #: src-en/data/events_sector_radikal.xml:3691
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE\"]/choice[@req=\"rks_pirate_trinity_met_mercenary\""
 " and @lvl=\"0\"]/text"
-msgstr ""
+msgstr "与雇佣兵会面"
 
 #: src-en/data/events_sector_radikal.xml:3695
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE\"]/choice[@req=\"rks_pirate_trinity_met_mercenary\""
 " and @lvl=\"1\"]/text"
-msgstr ""
+msgstr "那个雇佣兵正在抛接废料块、刀子和上了膛的枪。"
 
 #: src-en/data/events_sector_radikal.xml:3700
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE\"]/choice[@req=\"rks_pirate_trinity_met_smuggler\""
 " and @lvl=\"0\"]/text"
-msgstr ""
+msgstr "与阿尔吉恩走私者会面"
 
 #: src-en/data/events_sector_radikal.xml:3704
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE\"]/choice[@req=\"rks_pirate_trinity_met_smuggler\""
 " and @lvl=\"1\"]/text"
-msgstr ""
+msgstr "那个走私者正在告诉他的第三任妻子她可以买下那个管家。"
 
 #: src-en/data/events_sector_radikal.xml:3710
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE\"]/choice[@req=\"rks_pirate_trinity_count\"]/text"
-msgstr ""
+msgstr "感谢他们的生意并告别。"
 
 #: src-en/data/events_sector_radikal.xml:3712
 msgid ""
@@ -3116,7 +3184,6 @@ msgid ""
 msgstr ""
 
 #: src-en/data/events_sector_radikal.xml:3720
-#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE\"]/choice[@req=\"rks_pirate_trinity_count\"]/event/choice/text"
 msgstr "继续。"
@@ -3124,15 +3191,17 @@ msgstr "继续。"
 #: src-en/data/events_sector_radikal.xml:3728
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE\"]/choice[8]/text"
-msgstr ""
+msgstr "实际上，去你们所有人的。"
 
 #: src-en/data/events_sector_radikal.xml:3734
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_SLAVER\"]/text"
 msgstr ""
+"“从战舰、采矿营地、托儿所、前哨站，我们带来最好最聪明的奴隶！肯定有一个是你需"
+"要的……\n"
+"除非你不想付钱。那我们也会给你戴上奴隶项圈。”"
 
 #: src-en/data/events_sector_radikal.xml:3739
-#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_SLAVER\"]/choice/text"
 msgstr "继续。"
@@ -3140,7 +3209,7 @@ msgstr "继续。"
 #: src-en/data/events_sector_radikal.xml:3741
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_SLAVER\"]/choice/event/text"
-msgstr ""
+msgstr "那个奴隶贩子得意地展示着那些可怜的灵魂供你购买。"
 
 #: src-en/data/events_sector_radikal.xml:3745
 msgid ""
@@ -3150,10 +3219,9 @@ msgstr "购买一名奴隶。"
 #: src-en/data/events_sector_radikal.xml:3747
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_SLAVER\"]/choice/event/choice[1]/event/text"
-msgstr ""
+msgstr "“好买卖。他们肯定能好好服务，船长！”"
 
 #: src-en/data/events_sector_radikal.xml:3756
-#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_SLAVER\"]/choice/event/choice[1]/event/choice/text"
 msgstr "继续。"
@@ -3161,15 +3229,14 @@ msgstr "继续。"
 #: src-en/data/events_sector_radikal.xml:3765
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_SLAVER\"]/choice/event/choice[2]/text"
-msgstr ""
+msgstr "买一个更好的奴隶。"
 
 #: src-en/data/events_sector_radikal.xml:3767
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_SLAVER\"]/choice/event/choice[2]/event/text"
-msgstr ""
+msgstr "“好买卖。他们肯定能好好服务，船长！”"
 
 #: src-en/data/events_sector_radikal.xml:3775
-#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_SLAVER\"]/choice/event/choice[2]/event/choice/text"
 msgstr "继续。"
@@ -3183,9 +3250,10 @@ msgstr "购买一名精英奴隶。"
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_SLAVER\"]/choice/event/choice[3]/event/text"
 msgstr ""
+"啊，我看得出来，船长，你只看得上最好的奴隶。这是有史以来最优秀的奴隶之一。他"
+"们肯定能好好服务，船长！”"
 
 #: src-en/data/events_sector_radikal.xml:3792
-#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_SLAVER\"]/choice/event/choice[3]/event/choice/text"
 msgstr "继续。"
@@ -3193,7 +3261,7 @@ msgstr "继续。"
 #: src-en/data/events_sector_radikal.xml:3799
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_SLAVER\"]/choice/event/choice[4]/text"
-msgstr ""
+msgstr "你知道吗，好笑的是，我们身无分文……"
 
 #: src-en/data/events_sector_radikal.xml:3801
 msgid ""
@@ -3201,7 +3269,6 @@ msgid ""
 msgstr ""
 
 #: src-en/data/events_sector_radikal.xml:3808
-#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_SLAVER\"]/choice/event/choice[4]/event/choice/text"
 msgstr "继续。"
@@ -3212,7 +3279,6 @@ msgid ""
 msgstr ""
 
 #: src-en/data/events_sector_radikal.xml:3824
-#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_MERCENARY\"]/choice/text"
 msgstr "继续。"
@@ -3220,7 +3286,7 @@ msgstr "继续。"
 #: src-en/data/events_sector_radikal.xml:3826
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_MERCENARY\"]/choice/event/text"
-msgstr ""
+msgstr "雇佣兵等待着你的命令。"
 
 #: src-en/data/events_sector_radikal.xml:3830
 msgid ""
@@ -3230,10 +3296,9 @@ msgstr "购买本星区星图。"
 #: src-en/data/events_sector_radikal.xml:3832
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_MERCENARY\"]/choice/event/choice[1]/event/text"
-msgstr ""
+msgstr "“明白了，船长！”"
 
 #: src-en/data/events_sector_radikal.xml:3840
-#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_MERCENARY\"]/choice/event/choice[1]/event/choice/text"
 msgstr "继续。"
@@ -3241,15 +3306,14 @@ msgstr "继续。"
 #: src-en/data/events_sector_radikal.xml:3847
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_MERCENARY\"]/choice/event/choice[2]/text"
-msgstr ""
+msgstr "延迟叛军舰队 2 次。"
 
 #: src-en/data/events_sector_radikal.xml:3849
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_MERCENARY\"]/choice/event/choice[2]/event/text"
-msgstr ""
+msgstr "“我们正在处理，船长！”"
 
 #: src-en/data/events_sector_radikal.xml:3857
-#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_MERCENARY\"]/choice/event/choice[2]/event/choice/text"
 msgstr "继续。"
@@ -3257,7 +3321,7 @@ msgstr "继续。"
 #: src-en/data/events_sector_radikal.xml:3864
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_MERCENARY\"]/choice/event/choice[3]/text"
-msgstr ""
+msgstr "你知道吗，好笑的是，我们身无分文……"
 
 #: src-en/data/events_sector_radikal.xml:3866
 msgid ""
@@ -3265,7 +3329,6 @@ msgid ""
 msgstr ""
 
 #: src-en/data/events_sector_radikal.xml:3873
-#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_MERCENARY\"]/choice/event/choice[3]/event/choice/text"
 msgstr "继续。"
@@ -3276,7 +3339,6 @@ msgid ""
 msgstr ""
 
 #: src-en/data/events_sector_radikal.xml:3888
-#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_SMUGGLER\"]/choice/text"
 msgstr "继续。"
@@ -3284,20 +3346,19 @@ msgstr "继续。"
 #: src-en/data/events_sector_radikal.xml:3890
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_SMUGGLER\"]/choice/event/text"
-msgstr ""
+msgstr "走私者等待着你的命令。"
 
 #: src-en/data/events_sector_radikal.xml:3894
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_SMUGGLER\"]/choice/event/choice[1]/text"
-msgstr ""
+msgstr "买一件备用武器。"
 
 #: src-en/data/events_sector_radikal.xml:3896
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_SMUGGLER\"]/choice/event/choice[1]/event/text"
-msgstr ""
+msgstr "“享受这点额外的火力吧！”"
 
 #: src-en/data/events_sector_radikal.xml:3904
-#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_SMUGGLER\"]/choice/event/choice[1]/event/choice/text"
 msgstr "继续。"
@@ -3305,15 +3366,14 @@ msgstr "继续。"
 #: src-en/data/events_sector_radikal.xml:3911
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_SMUGGLER\"]/choice/event/choice[2]/text"
-msgstr ""
+msgstr "买一件随机拉迪卡尔武器。"
 
 #: src-en/data/events_sector_radikal.xml:3913
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_SMUGGLER\"]/choice/event/choice[2]/event/text"
-msgstr ""
+msgstr "“享受那额外的火力吧！”"
 
 #: src-en/data/events_sector_radikal.xml:3921
-#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_SMUGGLER\"]/choice/event/choice[2]/event/choice/text"
 msgstr "继续。"
@@ -3321,15 +3381,14 @@ msgstr "继续。"
 #: src-en/data/events_sector_radikal.xml:3928
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_SMUGGLER\"]/choice/event/choice[3]/text"
-msgstr ""
+msgstr "买一个随机极其稀有的拉迪卡尔增强部件。"
 
 #: src-en/data/events_sector_radikal.xml:3930
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_SMUGGLER\"]/choice/event/choice[3]/event/text"
-msgstr ""
+msgstr "“谨慎使用！”"
 
 #: src-en/data/events_sector_radikal.xml:3938
-#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_SMUGGLER\"]/choice/event/choice[3]/event/choice/text"
 msgstr "继续。"
@@ -3337,7 +3396,7 @@ msgstr "继续。"
 #: src-en/data/events_sector_radikal.xml:3945
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_SMUGGLER\"]/choice/event/choice[4]/text"
-msgstr ""
+msgstr "你知道吗，好笑的是，我们身无分文……"
 
 #: src-en/data/events_sector_radikal.xml:3947
 msgid ""
@@ -3345,7 +3404,6 @@ msgid ""
 msgstr ""
 
 #: src-en/data/events_sector_radikal.xml:3954
-#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_SMUGGLER\"]/choice/event/choice[4]/event/choice/text"
 msgstr "继续。"
@@ -3354,9 +3412,11 @@ msgstr "继续。"
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_FIGHT_CURRENT_PIRATE\"]/text"
 msgstr ""
+"“当——然。我告诉过你不能相信他们，库尔特，把我的废料交出来，你打赌输了。让我们"
+"——杀了这些该死的小丑——。”\n"
+"看来你得杀出一条血路了！"
 
 #: src-en/data/events_sector_radikal.xml:3972
-#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_FIGHT_CURRENT_PIRATE\"]/choice/text"
 msgstr "继续。"
@@ -3367,7 +3427,6 @@ msgid ""
 msgstr ""
 
 #: src-en/data/events_sector_radikal.xml:3984
-#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_TRINITY_SLAVER\"]/destroyed/choice/text"
 msgstr "继续。"
@@ -3378,7 +3437,6 @@ msgid ""
 msgstr ""
 
 #: src-en/data/events_sector_radikal.xml:3995
-#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_TRINITY_SLAVER\"]/deadCrew/choice/text"
 msgstr "继续。"
@@ -3389,7 +3447,6 @@ msgid ""
 msgstr ""
 
 #: src-en/data/events_sector_radikal.xml:4007
-#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_TRINITY_MERCENARY\"]/destroyed/choice/text"
 msgstr "继续。"
@@ -3400,7 +3457,6 @@ msgid ""
 msgstr ""
 
 #: src-en/data/events_sector_radikal.xml:4018
-#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_TRINITY_MERCENARY\"]/deadCrew/choice/text"
 msgstr "继续。"
@@ -3411,7 +3467,6 @@ msgid ""
 msgstr ""
 
 #: src-en/data/events_sector_radikal.xml:4030
-#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_TRINITY_SMUGGLER\"]/destroyed/choice/text"
 msgstr "继续。"
@@ -3422,7 +3477,6 @@ msgid ""
 msgstr ""
 
 #: src-en/data/events_sector_radikal.xml:4041
-#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_TRINITY_SMUGGLER\"]/deadCrew/choice/text"
 msgstr "继续。"
