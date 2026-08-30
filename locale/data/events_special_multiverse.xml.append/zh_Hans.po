@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-08-29 05:36+0000\n"
+"PO-Revision-Date: 2026-08-30 11:36+0000\n"
 "Last-Translator: 土豆老年人 <2685455659@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://weblate.hyperq.be/"
 "projects/radikal-sector/dataevents_special_multiversexmlappend/zh_Hans/>\n"
@@ -36,6 +36,8 @@ msgstr "购买拉迪卡尔技术。"
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"SYLVAN_RK_ONE_LINE_EACH_CATEGORY\"]/text"
 msgstr ""
+"“陌生～～人 陌生～～人，别生气，但我正在卖给你非法、不道德的货——物，别被抓到"
+"带着这些东西！”"
 
 #: src-en/data/events_special_multiverse.xml.append:126
 msgid ""
@@ -77,6 +79,8 @@ msgstr "展示你的拉迪卡尔·灼烧船员。"
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"JUDGE_AWARD_RK_BAM_CREW\"]/text"
 msgstr ""
+"“表面上是……技术追求。底下，是暴力的生物……采用简单粗暴的方法。不过他们……高效且"
+"可靠。干得好。在你下一次旅程之前……期待报酬吧。”"
 
 #: src-en/data/events_special_multiverse.xml.append:172
 msgid ""
@@ -87,6 +91,8 @@ msgstr "继续。"
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"JUDGE_AWARD_RK_PUNK_CREW\"]/text"
 msgstr ""
+"“扭曲的思想，擅长……扰乱生命与能量。我不想遇到……他们中的任何一个。但他们的天赋"
+"……令我印象深刻。干得好。在你下一次旅程之前……期待报酬吧。”"
 
 #: src-en/data/events_special_multiverse.xml.append:182
 msgid ""
@@ -97,6 +103,8 @@ msgstr "继续。"
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"JUDGE_AWARD_RK_SCORCH_CREW\"]/text"
 msgstr ""
+"虐待狂……痴迷于热量与速度。不能信任他们……不会把一切都烧光。但成果……是有价值的"
+"。干得好。在你下一次旅程之前……期待报酬吧。”"
 
 #: src-en/data/events_special_multiverse.xml.append:192
 msgid ""
@@ -155,6 +163,9 @@ msgstr "展示拉迪卡尔 BPS 技术。"
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"JUDGE_AWARD_RK_BAM_EQUIPMENT\"]/text"
 msgstr ""
+"“哦，……拉迪卡尔·巴姆技术？当然。我想，这算是贡品。非常适合破坏！还有耐久，以"
+"及窒息。其他方面就不多了。你用了这项技术摧毁了多少艘原本会放过的舰船？……但我"
+"离题了。我将赐予你拉迪卡尔坚韧祝福。但要有耐心。不是现在，而是以后！”"
 
 #: src-en/data/events_special_multiverse.xml.append:258
 msgid ""
@@ -165,6 +176,9 @@ msgstr "继续。"
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"JUDGE_AWARD_RK_PUNK_EQUIPMENT\"]/text"
 msgstr ""
+"“哦，……拉迪卡尔·朋克技术？当然。我想，这算是贡品。智胜你的对手。把你自己的船"
+"员变成纯粹的谋杀工具。你用了这项技术杀死了多少原本会放过的生物？……但我离题了"
+"。我将赐予你拉迪卡尔狡黠祝福。但要有耐心。不是现在，而是以后！”"
 
 #: src-en/data/events_special_multiverse.xml.append:268
 msgid ""
@@ -175,6 +189,10 @@ msgstr "继续。"
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"JUDGE_AWARD_RK_SCORCH_EQUIPMENT\"]/text"
 msgstr ""
+"“哦……拉迪卡尔·灼烧技术？当然。我想，这算是贡品。我非常了解火焰的力量。所有的"
+"力量都会转化为热量，但这个东西，只会造成混乱。你身后有多少东西在燃烧，而如果"
+"没有这项技术，你本会让它们快速终结？……但我离题了。我将赐予你拉迪卡尔狂热祝福"
+"。但要有耐心。不是现在，而是以后！”"
 
 #: src-en/data/events_special_multiverse.xml.append:278
 msgid ""
@@ -185,6 +203,10 @@ msgstr "继续。"
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"JUDGE_AWARD_RK_BPS_EQUIPMENT\"]/text"
 msgstr ""
+"“哦……拉迪卡尔 BPS 技术？当然。我想，这算是贡品。多重优势，希望利用敌人的某个"
+"弱点。因为一次就够了。你甚至在乎由此造成的痛苦和破坏吗？为了你自己，你最好不"
+"在乎……但我离题了。我将赐予你拉迪卡尔工程祝福。但要有耐心。不是现在，而是以后"
+"！”"
 
 #: src-en/data/events_special_multiverse.xml.append:288
 msgid ""
