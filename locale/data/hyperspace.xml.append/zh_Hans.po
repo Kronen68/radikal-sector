@@ -1,8 +1,8 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-07-30 08:36+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2026-08-30 11:36+0000\n"
+"Last-Translator: 土豆老年人 <2685455659@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://weblate.hyperq.be/"
 "projects/radikal-sector/datahyperspace-xml-append/zh_Hans/>\n"
 "Language: zh_Hans\n"
@@ -18,19 +18,19 @@ msgstr "冲撞"
 
 #: src-en/data/hyperspace.xml.append:260
 msgid "data/hyperspace.xml.append$//rk_weaponlike[@name=\"Bomb-A\"]/@name"
-msgstr ""
+msgstr "炸弹-A"
 
 #: src-en/data/hyperspace.xml.append:261
 msgid "data/hyperspace.xml.append$//rk_weaponlike[@name=\"Bomb-B\"]/@name"
-msgstr ""
+msgstr "炸弹-B"
 
 #: src-en/data/hyperspace.xml.append:262
 msgid "data/hyperspace.xml.append$//rk_weaponlike[@name=\"Bomb-C\"]/@name"
-msgstr ""
+msgstr "炸弹-C"
 
 #: src-en/data/hyperspace.xml.append:263
 msgid "data/hyperspace.xml.append$//rk_weaponlike[@name=\"Bomb-D\"]/@name"
-msgstr ""
+msgstr "炸弹-D"
 
 #: src-en/data/hyperspace.xml.append:307
 msgid "data/hyperspace.xml.append$//engi_separatist[@name=\"Punkalot\"]/@name"
@@ -75,40 +75,40 @@ msgstr "日志"
 
 #: src-en/data/hyperspace.xml.append:404
 msgid "data/hyperspace.xml.append$//rk_fireghost[@name=\"Aldebaran\"]/@name"
-msgstr ""
+msgstr "毕宿五"
 
 #: src-en/data/hyperspace.xml.append:405
 msgid "data/hyperspace.xml.append$//rk_fireghost[@name=\"Betelgeuse\"]/@name"
-msgstr ""
+msgstr "参宿四"
 
 #: src-en/data/hyperspace.xml.append:406
 msgid "data/hyperspace.xml.append$//rk_fireghost[@name=\"Copernicus\"]/@name"
-msgstr ""
+msgstr "哥白尼"
 
 #: src-en/data/hyperspace.xml.append:407
 msgid ""
 "data/hyperspace.xml.append$//engi_separatist_nano[@name=\"Concierge\"]/@name"
-msgstr ""
+msgstr "礼宾员"
 
 #: src-en/data/hyperspace.xml.append:417
 msgid "data/hyperspace.xml.append$//human_rebel_medic[@name=\"Druidess\"]/@name"
-msgstr ""
+msgstr "德鲁伊女祭司"
 
 #: src-en/data/hyperspace.xml.append:418
 msgid "data/hyperspace.xml.append$//human_technician[@name=\"Summoner\"]/@name"
-msgstr ""
+msgstr "召唤师"
 
 #: src-en/data/hyperspace.xml.append:419
 msgid "data/hyperspace.xml.append$//human_legion_pyro[@name=\"Paladin\"]/@name"
-msgstr ""
+msgstr "圣骑士"
 
 #: src-en/data/hyperspace.xml.append:420
 msgid "data/hyperspace.xml.append$//rk_fireghost[@name=\"Fire Mage\"]/@name"
-msgstr ""
+msgstr "火焰法师"
 
 #: src-en/data/hyperspace.xml.append:421
 msgid "data/hyperspace.xml.append$//zoltan_infernum[@name=\"Rogue\"]/@name"
-msgstr ""
+msgstr "游荡者"
 
 #: src-en/data/hyperspace.xml.append:454
 msgid ""
@@ -124,19 +124,19 @@ msgstr "日志"
 
 #: src-en/data/hyperspace.xml.append:476
 msgid "data/hyperspace.xml.append$//phantom[@name=\"Pixis\"]/@name"
-msgstr ""
+msgstr "皮克西斯"
 
 #: src-en/data/hyperspace.xml.append:477
 msgid "data/hyperspace.xml.append$//crystal[@name=\"Eren\"]/@name"
-msgstr ""
+msgstr "艾伦"
 
 #: src-en/data/hyperspace.xml.append:478
 msgid "data/hyperspace.xml.append$//rk_weaponlike[@name=\"Connie\"]/@name"
-msgstr ""
+msgstr "康妮"
 
 #: src-en/data/hyperspace.xml.append:480
 msgid "data/hyperspace.xml.append$//rk_weaponlike[@name=\"Zoe\"]/@name"
-msgstr ""
+msgstr "佐伊"
 
 #: src-en/data/hyperspace.xml.append:719
 msgid ""
@@ -152,12 +152,26 @@ msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[3]/mod:findLike[1]/mod-"
 "append:shipIcon[2]/tooltip"
 msgstr ""
+"反 RK 标准套装：\n"
+"\t\t\t追捕拉迪卡尔成员并不安全。狂热的猎手们会被授予此物以提高其生存率……并强"
+"迫他们完成任务。\n"
+"\t\t\t\n"
+"\t\t\t15% 几率抵抗船体、系统和离子伤害。\n"
+"\t\t\t缓慢自动修复破舱和火灾。\n"
+"\t\t\t船员生命值提高 40%。\n"
+"\t\t\t[style[color:ff3377]]超光速引擎充能速度降低 90%。\n"
+"\t\t\t无法投降、谈判或违抗命令。[[/style]]"
 
 #: src-en/data/hyperspace.xml.append:740
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[3]/mod:findLike[2]/mod-"
 "append:shipIcon[1]/tooltip"
 msgstr ""
+"充能腰带：\n"
+"\t\t\t这艘飞船的船员 [style[color:ff3377]]生命值降低 10%[[/style]]，并在死亡"
+"时爆炸，在所处舱室和飞船内引发火灾并造成伤害，在无系统舱室中造成额外伤害"
+"。[style[color:ff3377]]有友军伤害。[[/style]]\n"
+"\t\t\t可与已有的死亡效果叠加"
 
 #: src-en/data/hyperspace.xml.append:746
 msgid ""
@@ -183,6 +197,9 @@ msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[3]/mod:findLike[2]/mod-"
 "append:shipIcon[4]/tooltip"
 msgstr ""
+"强化船体：\n"
+"\t\t\t[style[color:ff3377]]这艘飞船的武器充能速度降低 5%。[[/style]]\n"
+"\t\t\t对这艘飞船造成 1 点伤害的冲击有 40% 几率被抵消，所有其他伤害减少 1 点。"
 
 #: src-en/data/hyperspace.xml.append:765
 msgid ""
@@ -197,9 +214,12 @@ msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[3]/mod:findLike[2]/mod-"
 "append:shipIcon[6]/tooltip"
 msgstr ""
+"憋气冠军：\n"
+"\t\t\t这艘飞船的船员受到 0.75 倍的窒息伤害。\n"
+"\t\t\t窒息时，他们的移动、破坏、维修和战斗能力提升 1.4 倍。\n"
+"\t\t\t不影响免疫窒息的船员。"
 
 #: src-en/data/hyperspace.xml.append:780
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[3]/mod:findLike[3]/mod-"
 "append:shipIcon[1]/tooltip"
@@ -215,6 +235,13 @@ msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[3]/mod:findLike[3]/mod-"
 "append:shipIcon[2]/tooltip"
 msgstr ""
+"恐惧甲板：\n"
+"\t\t\t入侵这艘飞船的敌人受到的所有伤害提高 1.7 倍。\n"
+"\t\t\t这艘舰船的船员从大多数来源获得的治疗效果提高 2.5 倍，克隆速度提高 2 倍"
+"，且克隆不会失去技能。\n"
+"\t\t\t[style[color:ff3377]]警告：与这艘飞船的任意船员处于同一舱室的所有船员，"
+"治疗效果降低 0.5 倍（不可叠加）且无法被克隆！[[/style]] [此减益效果呈现为紫色"
+"烟雾]"
 
 #: src-en/data/hyperspace.xml.append:794
 msgid ""
@@ -247,9 +274,11 @@ msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[3]/mod:findLike[3]/mod-"
 "append:shipIcon[6]/tooltip"
 msgstr ""
+"冷静头脑：\n"
+"\t\t\t当受到心灵控制效果影响时，这艘飞船的船员无法战斗、破坏或传送离开。对双"
+"方飞船都有效。"
 
 #: src-en/data/hyperspace.xml.append:820
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[3]/mod:findLike[4]/mod-"
 "append:shipIcon[1]/tooltip"
@@ -270,42 +299,65 @@ msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[3]/mod:findLike[4]/mod-"
 "append:shipIcon[3]/tooltip"
 msgstr ""
+"焦土：\n"
+"\t\t\t这艘飞船的船员抵抗火焰，并在灭火时进行治疗。"
 
 #: src-en/data/hyperspace.xml.append:835
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[3]/mod:findLike[4]/mod-"
 "append:shipIcon[4]/tooltip"
 msgstr ""
+"烈焰大地：\n"
+"\t\t\t这艘飞船的船员抵抗火焰，在火焰中获得强化并产生氧气，并在灭火时进行治疗"
+"。"
 
 #: src-en/data/hyperspace.xml.append:840
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[3]/mod:findLike[4]/mod-"
 "append:shipIcon[5]/tooltip"
 msgstr ""
+"喷发大地：\n"
+"\t\t\t这艘飞船的船员抵抗火焰，在火焰中获得强化并产生大量氧气，并在灭火时进行"
+"治疗。"
 
 #: src-en/data/hyperspace.xml.append:845
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[3]/mod:findLike[4]/mod-"
 "append:shipIcon[6]/tooltip"
 msgstr ""
+"易燃器-I：\n"
+"\t\t\t你的船员的火焰免疫、火焰抗性或直接火焰治疗效果（不包括灭火）将被移除！"
+"你的船员在火焰中移动速度也会变慢，且这艘飞船的生命维持（氧气）系统每有一级活"
+"跃等级，减速效果更甚！"
 
 #: src-en/data/hyperspace.xml.append:850
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[3]/mod:findLike[4]/mod-"
 "append:shipIcon[7]/tooltip"
 msgstr ""
+"易燃器-D：\n"
+"\t\t\t你的船员受到更高的火焰伤害，并在火焰中移动速度变慢。这些效果随着这艘飞"
+"船的生命维持（氧气）系统每有一级活跃等级而增强！"
 
 #: src-en/data/hyperspace.xml.append:855
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[3]/mod:findLike[4]/mod-"
 "append:shipIcon[8]/tooltip"
 msgstr ""
+"灼烧装填器：\n"
+"\t\t\t这艘飞船的武器和巨炮的射速提升 25%。每次发射射弹或光束时，额外获得 1% "
+"的射速加成（最高 10%），但同时有 10% 的几率在武器控制和任何巨炮舱室引发火灾"
+"。\n"
+"\t\t\t组合：灼烧预燃器将最大额外加成提升至 20%。"
 
 #: src-en/data/hyperspace.xml.append:861
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[3]/mod:findLike[4]/mod-"
 "append:shipIcon[9]/tooltip"
 msgstr ""
+"浴火裹布：\n"
+"\t\t\t在火焰中，这艘飞船的船员移动和破坏速度为 1.75 倍，战斗和门伤害为 1.75 "
+"倍。对双方飞船都有效。"
 
 #: src-en/data/hyperspace.xml.append:1473
 msgid ""
@@ -386,21 +438,18 @@ msgid ""
 msgstr "炸弹出击"
 
 #: src-en/data/hyperspace.xml.append:1961
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:race[@name=\"rk_weaponlike\"]/powerEffect[1]/tooltip"
 msgstr "将炸弹传送到另一艘船上，造成 1 点伤害并造成一处破舱。每跳跃一次可执行一次。"
 
 #: src-en/data/hyperspace.xml.append:2005
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:race[@name=\"rk_weaponlike\"]/powerEffect[2]/buttonText"
 msgstr "炸弹注入"
 
 #: src-en/data/hyperspace.xml.append:2006
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:race[@name=\"rk_weaponlike\"]/powerEffect[2]/tooltip"
@@ -413,7 +462,6 @@ msgid ""
 msgstr "炸弹注入"
 
 #: src-en/data/hyperspace.xml.append:2053
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:race[@name=\"rk_weaponlike\"]/powerEffect[3]/tooltip"
@@ -423,13 +471,16 @@ msgstr "引爆炸弹，对当前舱室造成 1 点伤害并造成一处破舱。
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:race[@name=\"unique_rk_defromorius\"]/powerEffect/buttonText"
-msgstr ""
+msgstr "褥疮"
 
 #: src-en/data/hyperspace.xml.append:2171
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:race[@name=\"unique_rk_defromorius\"]/powerEffect/tooltip"
 msgstr ""
+"[冷却：10秒 持续时间：10秒]\n"
+"\t\t\t\t同一艘飞船上的友方船员（包括迪弗莫在内）受到的所有伤害降低 0.7 倍，并"
+"造成 1.5 倍伤害。"
 
 #: src-en/data/hyperspace.xml.append:2281
 msgid ""
@@ -449,67 +500,70 @@ msgstr ""
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:race[@name=\"rk_bottledoxygen\"]/powerEffect[1]/buttonText"
-msgstr ""
+msgstr "泄漏空气"
 
 #: src-en/data/hyperspace.xml.append:2360
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:race[@name=\"rk_bottledoxygen\"]/powerEffect[1]/tooltip"
-msgstr ""
+msgstr "不应被看到，显示一团云正在消散。"
 
 #: src-en/data/hyperspace.xml.append:2390
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:race[@name=\"rk_bottledoxygen\"]/powerEffect[2]/buttonText"
-msgstr ""
+msgstr "爆炸"
 
 #: src-en/data/hyperspace.xml.append:2391
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:race[@name=\"rk_bottledoxygen\"]/powerEffect[2]/tooltip"
 msgstr ""
+"[冷却：3秒]\n"
+"\t\t\t\t爆炸，对舱室内的所有船员造成 30 点船员伤害，并有 60% 几率引发火灾。\n"
+"\t\t\t\t传送期间或生命值低于 15 时无法激活。"
 
 #: src-en/data/hyperspace.xml.append:3364
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[1]/category[1]/customTitle"
-msgstr ""
+msgstr "拉迪卡尔 BPS 武器"
 
 #: src-en/data/hyperspace.xml.append:3372
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[1]/category[2]/customTitle"
-msgstr ""
+msgstr "拉迪卡尔武器"
 
 #: src-en/data/hyperspace.xml.append:3390
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[1]/category[3]/customTitle"
-msgstr ""
+msgstr "BPS 增强部件"
 
 #: src-en/data/hyperspace.xml.append:3403
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[1]/category[4]/customTitle"
-msgstr ""
+msgstr "拉迪卡尔增强部件"
 
 #: src-en/data/hyperspace.xml.append:3421
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[1]/category[5]/customTitle"
-msgstr ""
+msgstr "拉迪卡尔成员"
 
 #: src-en/data/hyperspace.xml.append:3465
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[2]/category/customTitle"
-msgstr ""
+msgstr "反拉迪卡尔武器"
 
 #: src-en/data/hyperspace.xml.append:3499
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[3]/category/customTitle"
-msgstr ""
+msgstr "反拉迪卡尔武器"
 
 #: src-en/data/hyperspace.xml.append:3533
 msgid ""
@@ -521,14 +575,13 @@ msgstr "基础拉迪卡尔武器"
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[4]/category[2]/customTitle"
-msgstr ""
+msgstr "拉迪卡尔武器"
 
 #: src-en/data/hyperspace.xml.append:3568
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[4]/category[3]/customTitle"
-msgstr "辅助系统"
+msgstr "拉迪卡尔 BPS 武器"
 
 #: src-en/data/hyperspace.xml.append:3585
 msgid ""
@@ -606,20 +659,19 @@ msgstr "今日特惠部件[优惠33%]"
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[5]/category[1]/customTitle"
-msgstr ""
+msgstr "拉迪卡尔巴姆武器"
 
 #: src-en/data/hyperspace.xml.append:3888
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[5]/category[2]/customTitle"
-msgstr ""
+msgstr "拉迪卡尔巴姆武器"
 
 #: src-en/data/hyperspace.xml.append:3918
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[5]/category[4]/customTitle"
-msgstr "辅助系统"
+msgstr "拉迪卡尔 BPS 武器"
 
 #: src-en/data/hyperspace.xml.append:3928
 msgid ""
@@ -634,18 +686,16 @@ msgid ""
 msgstr "辅助系统"
 
 #: src-en/data/hyperspace.xml.append:3968
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[5]/category[8]/customTitle"
 msgstr "RK 灼烧伙伴"
 
 #: src-en/data/hyperspace.xml.append:3985
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[5]/category[9]/customTitle"
-msgstr "基础拉迪卡尔增强部件"
+msgstr "拉迪卡尔·巴姆甲板水手"
 
 #: src-en/data/hyperspace.xml.append:4019
 msgid ""
@@ -654,14 +704,12 @@ msgid ""
 msgstr "基础拉迪卡尔增强部件"
 
 #: src-en/data/hyperspace.xml.append:4039
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[5]/category[12]/customTitle"
-msgstr "RK 灼烧增强部件"
+msgstr "RK 巴姆增强部件"
 
 #: src-en/data/hyperspace.xml.append:4058
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[5]/category[13]/customTitle"
@@ -671,20 +719,19 @@ msgstr "顶级 RK 灼烧增强部件"
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[6]/category[1]/customTitle"
-msgstr ""
+msgstr "拉迪卡尔朋克武器"
 
 #: src-en/data/hyperspace.xml.append:4118
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[6]/category[2]/customTitle"
-msgstr ""
+msgstr "拉迪卡尔朋克武器"
 
 #: src-en/data/hyperspace.xml.append:4148
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[6]/category[4]/customTitle"
-msgstr "辅助系统"
+msgstr "拉迪卡尔 BPS 武器"
 
 #: src-en/data/hyperspace.xml.append:4158
 msgid ""
@@ -699,11 +746,10 @@ msgid ""
 msgstr "辅助系统"
 
 #: src-en/data/hyperspace.xml.append:4198
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[6]/category[8]/customTitle"
-msgstr "基础拉迪卡尔增强部件"
+msgstr "RK 朋克伙伴"
 
 #: src-en/data/hyperspace.xml.append:4248
 msgid ""
@@ -715,34 +761,33 @@ msgstr "基础拉迪卡尔增强部件"
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[6]/category[11]/customTitle"
-msgstr ""
+msgstr "RK 朋克增强部件"
 
 #: src-en/data/hyperspace.xml.append:4287
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[6]/category[12]/customTitle"
-msgstr ""
+msgstr "套装朋克增强部件"
 
 #: src-en/data/hyperspace.xml.append:4306
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[6]/category[13]/customTitle"
-msgstr ""
+msgstr "顶级朋克增强部件"
 
 #: src-en/data/hyperspace.xml.append:4349
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[7]/category[1]/customTitle"
-msgstr ""
+msgstr "RK 灼烧武器"
 
 #: src-en/data/hyperspace.xml.append:4366
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[7]/category[2]/customTitle"
-msgstr ""
+msgstr "RK 灼烧武器"
 
 #: src-en/data/hyperspace.xml.append:4392
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[7]/category[4]/customTitle"
@@ -785,17 +830,16 @@ msgid ""
 msgstr "RK 灼烧增强部件"
 
 #: src-en/data/hyperspace.xml.append:4532
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[7]/category[13]/customTitle"
-msgstr "顶级 RK 灼烧增强部件"
+msgstr "套装灼烧增强部件"
 
 #: src-en/data/hyperspace.xml.append:4551
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[7]/category[14]/customTitle"
-msgstr ""
+msgstr "顶级灼烧增强部件"
 
 #: src-en/data/hyperspace.xml.append:4598
 msgid ""
@@ -822,11 +866,10 @@ msgid ""
 msgstr "高命中武器"
 
 #: src-en/data/hyperspace.xml.append:4655
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[10]/mod-"
 "append:customStore/category[5]/customTitle"
-msgstr "高命中武器 (30% 折扣)"
+msgstr "高命中系统（25% 折扣）"
 
 #: src-en/data/hyperspace.xml.append:4672
 msgid ""
@@ -841,10 +884,9 @@ msgid ""
 msgstr "RK 狙击增强部件（10-20% 折扣）"
 
 #: src-en/data/hyperspace.xml.append:4921
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//statBoost[@name=\"powerEffect\"]/powerEffect/buttonText"
-msgstr "移动破洞"
+msgstr "移动破舱"
 
 #: src-en/data/hyperspace.xml.append:4922
 msgid ""
@@ -1435,10 +1477,9 @@ msgstr "伪克隆"
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[12]/mod-"
 "append:page/section[1]/@text"
-msgstr ""
+msgstr "拉迪卡尔事件"
 
 #: src-en/data/hyperspace.xml.append:9693
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_RK_EVENT_HIDEOUT\"]/name"
 msgstr "拉迪卡尔藏身处"
@@ -1446,265 +1487,278 @@ msgstr "拉迪卡尔藏身处"
 #: src-en/data/hyperspace.xml.append:9694
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_RK_EVENT_HIDEOUT\"]/secretName"
-msgstr ""
+msgstr "???"
 
 #: src-en/data/hyperspace.xml.append:9695
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_RK_EVENT_HIDEOUT\"]/description"
-msgstr ""
+msgstr "与一个邪异神祇达成交易，在拉迪卡尔星区获得自己的地盘。"
 
 #: src-en/data/hyperspace.xml.append:9696
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_RK_EVENT_HIDEOUT\"]/secretDescription"
-msgstr ""
+msgstr "为了安逸与黑暗势力纠缠不清。"
 
 #: src-en/data/hyperspace.xml.append:9702
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_RK_EVENT_DEFROMORIUS\"]/name"
-msgstr ""
+msgstr "受折磨的融合体"
 
 #: src-en/data/hyperspace.xml.append:9703
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_RK_EVENT_DEFROMORIUS\"]/secretName"
-msgstr ""
+msgstr "???"
 
 #: src-en/data/hyperspace.xml.append:9704
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_RK_EVENT_DEFROMORIUS\"]/description"
-msgstr ""
+msgstr "从窒息死亡中救出 RK 迪弗莫。"
 
 #: src-en/data/hyperspace.xml.append:9705
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_RK_EVENT_DEFROMORIUS\"]/secretDescription"
-msgstr ""
+msgstr "救出一个奇怪的 RK 星区生物。"
 
 #: src-en/data/hyperspace.xml.append:9718
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_RK_EVENT_HACK_FLEET_BOSS_REBEL\"]/name"
-msgstr ""
+msgstr "舰队黑客"
 
 #: src-en/data/hyperspace.xml.append:9719
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_RK_EVENT_HACK_FLEET_BOSS_REBEL\"]/secretName"
-msgstr ""
+msgstr "???"
 
 #: src-en/data/hyperspace.xml.append:9720
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_RK_EVENT_HACK_FLEET_BOSS_REBEL\"]/description"
-msgstr ""
+msgstr "用谜团机引起黑客 MFK 的注意，然后击败它。"
 
 #: src-en/data/hyperspace.xml.append:9721
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_RK_EVENT_HACK_FLEET_BOSS_REBEL\"]/secretDescription"
-msgstr ""
+msgstr "滥用舰队并承担后果。"
 
 #: src-en/data/hyperspace.xml.append:9727
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_RK_EVENT_SHIPVORE_RAM_SCRAP\"]/name"
-msgstr ""
+msgstr "噬舰冲击"
 
 #: src-en/data/hyperspace.xml.append:9728
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_RK_EVENT_SHIPVORE_RAM_SCRAP\"]/secretName"
-msgstr ""
+msgstr "???"
 
 #: src-en/data/hyperspace.xml.append:9729
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_RK_EVENT_SHIPVORE_RAM_SCRAP\"]/description"
-msgstr ""
+msgstr "从噬舰冲击获得巨额且极其稀有的废料收益。"
 
 #: src-en/data/hyperspace.xml.append:9730
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_RK_EVENT_SHIPVORE_RAM_SCRAP\"]/secretDescription"
-msgstr ""
+msgstr "在吞噬飞船时获得真正的幸运。"
 
 #: src-en/data/hyperspace.xml.append:9737
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"MUSIC_RKTRACKRADIKAL\"]/name"
-msgstr ""
+msgstr "拉迪卡尔足迹"
 
 #: src-en/data/hyperspace.xml.append:9738
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"MUSIC_RKTRACKRADIKAL\"]/secretName"
-msgstr ""
+msgstr "???"
 
 #: src-en/data/hyperspace.xml.append:9759
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[12]/mod-"
 "append:page/section[2]/@text"
-msgstr ""
+msgstr "拉迪卡尔恩惠"
 
 #: src-en/data/hyperspace.xml.append:9761
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_BAM_CREW\"]/secretName"
-msgstr ""
+msgstr "???的恩惠"
 
 #: src-en/data/hyperspace.xml.append:9762
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_BAM_CREW\"]/secretDescription"
-msgstr ""
+msgstr "从塞斯特处获得拉迪卡尔·巴姆的恩惠。"
 
 #: src-en/data/hyperspace.xml.append:9763
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_BAM_CREW\"]/name"
-msgstr ""
+msgstr "拉迪卡尔·巴姆的恩惠"
 
 #: src-en/data/hyperspace.xml.append:9764
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_BAM_CREW\"]/description"
-msgstr ""
+msgstr "生效期间，你的拉迪卡尔成员额外获得 29 点生命值和 1.1 倍战斗伤害。"
 
 #: src-en/data/hyperspace.xml.append:9766
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_BAM_CREW\"]/header"
-msgstr ""
+msgstr "恩惠已获得"
 
 #: src-en/data/hyperspace.xml.append:9772
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_PUNK_CREW\"]/secretName"
-msgstr ""
+msgstr "???的恩惠"
 
 #: src-en/data/hyperspace.xml.append:9773
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_PUNK_CREW\"]/secretDescription"
-msgstr ""
+msgstr "从塞斯特处获得拉迪卡尔·朋克的恩惠。"
 
 #: src-en/data/hyperspace.xml.append:9774
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_PUNK_CREW\"]/name"
-msgstr ""
+msgstr "拉迪卡尔·朋克的恩惠"
 
 #: src-en/data/hyperspace.xml.append:9775
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_PUNK_CREW\"]/description"
 msgstr ""
+"向塞斯特展示一名 RK 朋克船员。\n"
+"生效期间，你的拉迪卡尔成员治疗和克隆速度提高 40%。"
 
 #: src-en/data/hyperspace.xml.append:9777
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_PUNK_CREW\"]/header"
-msgstr ""
+msgstr "恩惠已获得"
 
 #: src-en/data/hyperspace.xml.append:9783
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_SCORCH_CREW\"]/secretName"
-msgstr ""
+msgstr "???的恩惠"
 
 #: src-en/data/hyperspace.xml.append:9784
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_SCORCH_CREW\"]/secretDescription"
-msgstr ""
+msgstr "从塞斯特处获得拉迪卡尔·灼烧的恩惠。"
 
 #: src-en/data/hyperspace.xml.append:9785
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_SCORCH_CREW\"]/name"
-msgstr ""
+msgstr "拉迪卡尔·灼烧的恩惠"
 
 #: src-en/data/hyperspace.xml.append:9786
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_SCORCH_CREW\"]/description"
 msgstr ""
+"向塞斯特展示一名 RK 灼烧船员。\n"
+"生效期间，在火焰中，你的拉迪卡尔成员获得 1.3 倍移动速度和战斗伤害加成。"
 
 #: src-en/data/hyperspace.xml.append:9788
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_SCORCH_CREW\"]/header"
-msgstr ""
+msgstr "恩惠已获得"
 
 #: src-en/data/hyperspace.xml.append:9795
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_BAM_EQUIPMENT\"]/secretName"
-msgstr ""
+msgstr "???的祝福"
 
 #: src-en/data/hyperspace.xml.append:9796
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_BAM_EQUIPMENT\"]/secretDescription"
-msgstr ""
+msgstr "从威克森处获得 ???的祝福。"
 
 #: src-en/data/hyperspace.xml.append:9797
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_BAM_EQUIPMENT\"]/name"
-msgstr ""
+msgstr "拉迪卡尔坚韧祝福"
 
 #: src-en/data/hyperspace.xml.append:9798
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_BAM_EQUIPMENT\"]/description"
 msgstr ""
+"向威克森展示 RK 巴姆装备。\n"
+"生效期间，抵抗敌方武器造成的船体、系统和离子伤害的几率 +8%。"
 
 #: src-en/data/hyperspace.xml.append:9800
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_BAM_EQUIPMENT\"]/header"
-msgstr ""
+msgstr "祝福已获得"
 
 #: src-en/data/hyperspace.xml.append:9806
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_PUNK_EQUIPMENT\"]/secretName"
-msgstr ""
+msgstr "???的祝福"
 
 #: src-en/data/hyperspace.xml.append:9807
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_PUNK_EQUIPMENT\"]/secretDescription"
-msgstr ""
+msgstr "从威克森处获得 ???的祝福。"
 
 #: src-en/data/hyperspace.xml.append:9808
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_PUNK_EQUIPMENT\"]/name"
-msgstr ""
+msgstr "拉迪卡尔狡黠祝福"
 
 #: src-en/data/hyperspace.xml.append:9809
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_PUNK_EQUIPMENT\"]/description"
 msgstr ""
+"向威克森展示 RK 朋克装备。\n"
+"生效期间，你的系统维修速度为 1.3 倍。"
 
 #: src-en/data/hyperspace.xml.append:9811
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_PUNK_EQUIPMENT\"]/header"
-msgstr ""
+msgstr "祝福已获得"
 
 #: src-en/data/hyperspace.xml.append:9817
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_SCORCH_EQUIPMENT\"]/secretName"
-msgstr ""
+msgstr "???的祝福"
 
 #: src-en/data/hyperspace.xml.append:9818
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_SCORCH_EQUIPMENT\"]/secretDescription"
-msgstr ""
+msgstr "从威克森处获得 ???的祝福。"
 
 #: src-en/data/hyperspace.xml.append:9819
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_SCORCH_EQUIPMENT\"]/name"
-msgstr ""
+msgstr "拉迪卡尔狂热祝福"
 
 #: src-en/data/hyperspace.xml.append:9820
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_SCORCH_EQUIPMENT\"]/description"
 msgstr ""
+"向威克森展示 RK 灼烧装备。\n"
+"生效期间，武器充能速度和闪避率 +8%。"
 
 #: src-en/data/hyperspace.xml.append:9822
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_SCORCH_EQUIPMENT\"]/header"
-msgstr ""
+msgstr "祝福已获得"
 
 #: src-en/data/hyperspace.xml.append:9828
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_BPS_EQUIPMENT\"]/secretName"
-msgstr ""
+msgstr "???的祝福"
 
 #: src-en/data/hyperspace.xml.append:9829
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_BPS_EQUIPMENT\"]/secretDescription"
-msgstr ""
+msgstr "从威克森处获得 ???的祝福。"
 
 #: src-en/data/hyperspace.xml.append:9830
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_BPS_EQUIPMENT\"]/name"
-msgstr ""
+msgstr "拉迪卡尔工程祝福"
 
 #: src-en/data/hyperspace.xml.append:9831
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_BPS_EQUIPMENT\"]/description"
 msgstr ""
+"向威克森展示 RK BPS 装备。\n"
+"生效期间，抵抗敌方武器造成的船体、系统和离子伤害的几率 +4%，系统维修速度 "
+"1.15 倍，武器充能速度和闪避率 +4%。"
 
 #: src-en/data/hyperspace.xml.append:9833
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_BPS_EQUIPMENT\"]/header"
-msgstr ""
+msgstr "祝福已获得"
