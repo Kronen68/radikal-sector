@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-08-30 11:36+0000\n"
+"PO-Revision-Date: 2026-09-03 09:36+0000\n"
 "Last-Translator: 土豆老年人 <2685455659@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://weblate.hyperq.be/"
 "projects/radikal-sector/datahyperspace-xml-append/zh_Hans/>\n"
@@ -179,9 +179,10 @@ msgid ""
 "append:shipIcon[2]/tooltip"
 msgstr ""
 "铅之泰坦：\n"
-"\t\t\t这艘飞船的水晶、食铁、岩石和盐人获得：2.5 倍伤害抗性， 2.5 倍伤害加成，行走时造成破舱，且无法维修。\n"
+"\t\t\t这艘飞船的水晶、食铁、岩石和盐人获得：2.5 倍伤害抗性， 2.5 倍伤害加成，"
+"行走时造成破舱，且无法维修。\n"
 "\t\t\t其他船员获得固定 +75% 的维修速度。\n"
-"\t\t\t这艘飞船的所有船员获得固定 +40% 的移动速度。"
+"\t\t\t这艘飞船的所有船员获得固定 +40% 的移动速度"
 
 #: src-en/data/hyperspace.xml.append:753
 msgid ""
