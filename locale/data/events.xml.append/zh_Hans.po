@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-08-16 03:36+0000\n"
+"PO-Revision-Date: 2026-09-03 09:36+0000\n"
 "Last-Translator: 土豆老年人 <2685455659@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://weblate.hyperq.be/"
 "projects/radikal-sector/dataeventsxmlappend/zh_Hans/>\n"
@@ -95,7 +95,6 @@ msgid "data/events.xml.append$//event[@name=\"DJCOORDS\"]/text"
 msgstr "获得拉迪卡尔星区坐标。"
 
 #: src-en/data/events.xml.append:308
-#, fuzzy
 msgid "data/events.xml.append$//event[@name=\"DJCOORDS_E\"]/text"
 msgstr "Estate/WentworthInnovationsHQ coordinates get."
 
@@ -967,7 +966,7 @@ msgstr "当他们转移过量的报酬时，你试图掩饰自己的满足感，
 #: src-en/data/events.xml.append:1234
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"RK_HEAVY_POPPER_2\"]/text"
-msgstr "把你的 重型爆裂 II 卖给他们，得 91 ~。"
+msgstr "把你的 重型爆裂 II 卖给他们，得120 ~。"
 
 #: src-en/data/events.xml.append:1236
 msgid ""
@@ -977,7 +976,7 @@ msgstr "当他们转移过量的报酬时，你试图掩饰自己的满足感，
 #: src-en/data/events.xml.append:1244
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"RK_HEAVY_POPPER_3\"]/text"
-msgstr "把你的重型爆裂 III 卖给他们，得 92 ~。"
+msgstr "把你的重型爆裂 III 卖给他们，得 120 ~。"
 
 #: src-en/data/events.xml.append:1246
 msgid ""
@@ -1170,12 +1169,12 @@ msgstr "联系他们。"
 #: src-en/data/events.xml.append:1432
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/text"
-msgstr "“你好，军用飞船。呃……你看起来不像是拉迪卡尔本地人。”"
+msgstr "“你好，军用飞船。呃……你看起来不像是拉迪卡尔本地人”."
 
 #: src-en/data/events.xml.append:1435
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/text"
-msgstr "你看起来也不像。那又有什么关系呢？"
+msgstr "你看起来也不像。那又有什么关系呢？。"
 
 #: src-en/data/events.xml.append:1437
 msgid ""
@@ -1234,7 +1233,7 @@ msgstr "当他们转移过量的报酬时，你试图掩饰自己的满足感，
 #: src-en/data/events.xml.append:1471
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_HEAVY_POPPER_2\"]/text"
-msgstr "把你的 重型爆裂 II 卖给他们，得 91 ~。"
+msgstr "把你的 重型爆裂 II 卖给他们，得120 ~。"
 
 #: src-en/data/events.xml.append:1473
 msgid ""
@@ -1244,7 +1243,7 @@ msgstr "当他们转移过量的报酬时，你试图掩饰自己的满足感，
 #: src-en/data/events.xml.append:1481
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_HEAVY_POPPER_3\"]/text"
-msgstr "把你的重型爆裂 III 卖给他们，得 92 ~。"
+msgstr "把你的重型爆裂 III 卖给他们，得 120 ~。"
 
 #: src-en/data/events.xml.append:1483
 msgid ""
