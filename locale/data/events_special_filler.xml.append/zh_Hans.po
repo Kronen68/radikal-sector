@@ -54,11 +54,6 @@ msgstr ""
 "“抱歉刚才被打断了，我的一名船员突然叛变了，不过我们已经处理好了。\n"
 "\t\t总——而言之，我现在有忠诚问题要处理，所以拿着这份礼物滚蛋，好吗？我们不再动那艘船了，你赢了，趁我们的舰队还没把你的飞船变成废料之前享受它吧。”"
 
-#: src-en/data/events_special_filler.xml.append:81
-msgid ""
-"data/events_special_filler.xml.append$//event[@name=\"DISTRESS_PIRA_CIVI_NOTCOORDS\"]/choice/text"
-msgstr "继续。"
-
 #: src-en/data/events_special_filler.xml.append:86
 msgid ""
 "data/events_special_filler.xml.append$//event[@name=\"DISTRESS_PIRA_CIVI_NOTCOORDS_BAD\"]/text"

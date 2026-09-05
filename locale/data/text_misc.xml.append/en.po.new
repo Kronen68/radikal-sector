@@ -7,35 +7,35 @@ msgstr ""
 
 #: src-en/data/text_misc.xml.append:22
 msgid "data/text_misc.xml.append$//text[@name=\"map_icon_rks_defromorius\"]"
-msgstr "穿梭机"
+msgstr "SHUTTLE"
 
 #: src-en/data/text_misc.xml.append:24
 msgid "data/text_misc.xml.append$//text[@name=\"map_icon_rks_pirate_trinity\"]"
-msgstr "P 三合一 [!]"
+msgstr "P TRINITY [!]"
 
 #: src-en/data/text_misc.xml.append:26
 msgid "data/text_misc.xml.append$//text[@name=\"map_icon_rk_player_hideout\"]"
-msgstr "你的家 [!]"
+msgstr "YOUR HOME [!]"
 
 #: src-en/data/text_misc.xml.append:28
 msgid "data/text_misc.xml.append$//text[@name=\"map_icon_radikal_bam\"]"
-msgstr "RK 巴姆 [!]"
+msgstr "RK BAM [!]"
 
 #: src-en/data/text_misc.xml.append:29
 msgid "data/text_misc.xml.append$//text[@name=\"map_icon_radikal_punk\"]"
-msgstr "RK 朋克 [!]"
+msgstr "RK PUNK [!]"
 
 #: src-en/data/text_misc.xml.append:30
 msgid "data/text_misc.xml.append$//text[@name=\"map_icon_radikal_scorch\"]"
-msgstr "RK 灼烧 [!]"
+msgstr "RK SCORCH [!]"
 
 #: src-en/data/text_misc.xml.append:32
 msgid "data/text_misc.xml.append$//text[@name=\"map_icon_rk_policestation\"]"
-msgstr "警察 [!]"
+msgstr "POLICE [!]"
 
 #: src-en/data/text_misc.xml.append:35
 msgid "data/text_misc.xml.append$//text[@name=\"map_icon_radikal_lab\"]"
-msgstr "RK 物种实验室"
+msgstr "RK LAB"
 
 #: src-en/data/text_misc.xml.append:42
 msgid "data/text_misc.xml.append$//text[@name=\"map_icon_rk_hack_fleet_boss\"]"
@@ -43,78 +43,112 @@ msgstr "N00bs!!1![!]"
 
 #: src-en/data/text_misc.xml.append:44
 msgid "data/text_misc.xml.append$//text[@name=\"warning_offense_disabler_end\"]"
-msgstr "进攻能力正在恢复！"
+msgstr "Offense recovering!"
 
 #: src-en/data/text_misc.xml.append:45
 msgid "data/text_misc.xml.append$//text[@name=\"warning_defense_remover_end\"]"
-msgstr "防御能力正在恢复！"
+msgstr "Defense recovering!"
 
 #: src-en/data/text_misc.xml.append:55
 msgid "data/text_misc.xml.append$//text[@name=\"RK_lore_DJMOD_BAM_FISSUREBEAM\"]"
-msgstr "品质印章：“成功一击摧毁了一艘满员的巨象级民用运输船！”"
+msgstr ""
+"Quality stamp: \"Successfully one-shot a fully booked ELEPHANT-CLASS "
+"civilian transport!\""
 
 #: src-en/data/text_misc.xml.append:56
 msgid "data/text_misc.xml.append$//text[@name=\"RK_lore_RK_HEAVY_POPPER_1\"]"
-msgstr "品质印章：“一发击碎联邦隐形舰的隐形系统！之后轻松猎杀。”"
+msgstr ""
+"Quality stamp: \"Ravaged the Cloaking of Fed Stealths in ONE shot! EASY prey"
+" after that.\""
 
 #: src-en/data/text_misc.xml.append:57
 msgid "data/text_misc.xml.append$//text[@name=\"RK_lore_RK_HEAVY_POPPER_2\"]"
-msgstr "品质印章：“网红‘BL2Forever420’对她数以百万计的粉丝说‘与爆裂激光的友谊已经结束’！”"
+msgstr ""
+"Quality stamp: \"Influencer 'BL2Forever420' said 'Friendship ENDED with "
+"Burst Lasers' to her BILLIONS of followers!\""
 
 #: src-en/data/text_misc.xml.append:58
 msgid "data/text_misc.xml.append$//text[@name=\"RK_lore_RK_HEAVY_POPPER_3\"]"
-msgstr "品质印章：“军阀们人手一个，用来表明他们‘是认真的’的时候！”"
+msgstr ""
+"Quality stamp: \"Warlords ALL have one, for when it's time to make it clear "
+"they MEAN BUSINESS!\""
 
 #: src-en/data/text_misc.xml.append:59
 msgid "data/text_misc.xml.append$//text[@name=\"lore_RK_UNLOADER\"]"
-msgstr "品质印章：“摧毁了所有缺乏强力防御无人机且不愿配合的测试飞船！以及所有用户的财务状况。”"
+msgstr ""
+"Quality stamp: \"Demolished ALL unwilling test ships that lacked strong "
+"defense drones! And all users' finances.\""
 
 #: src-en/data/text_misc.xml.append:61
 msgid ""
 "data/text_misc.xml.append$//text[@name=\"lore_RK_BOMBLAUNCHER_ANTIBIO_REPAIR\"]"
-msgstr "品质印章：“灵活性允许自动船在周围的武器槽中安装更多的杀戮！”"
+msgstr ""
+"Quality stamp: \"Flexibility allowing auto-ships ALL around to fit more "
+"MURDER in their weapon slots!\""
 
 #: src-en/data/text_misc.xml.append:62
 msgid "data/text_misc.xml.append$//text[@name=\"lore_RK_MISSLAUNCHER_2_BATTERY\"]"
-msgstr "品质印章：“在当局试图解除杀手李的武器时力挽狂澜。他们反而被干掉了！”"
+msgstr ""
+"Quality stamp: \"SAVED the day when authorities tried to neutralize KILLER "
+"LEE's weapons. They died instead!\""
 
 #: src-en/data/text_misc.xml.append:63
 msgid "data/text_misc.xml.append$//text[@name=\"lore_RK_KILLALL_BEAM\"]"
-msgstr "品质印章：“外包的测试舰长们报告了无数的击杀！但兵变夺去了他们中 89% 的人的生命。”"
+msgstr ""
+"Quality stamp: \"Outsourced testing captains reported COUNTLESS kills! But "
+"mutinies costed 89% of them their life.\""
 
 #: src-en/data/text_misc.xml.append:64
 msgid "data/text_misc.xml.append$//text[@name=\"lore_RK_RAIN_OF_ION\"]"
-msgstr "品质印章：“通过窒息、癫痫发作及其他原因确认击杀联邦种族 42 次！”"
+msgstr ""
+"Quality stamp: \"42 CONFIRMED KILLS of Federation races through suffocation,"
+" seizures and other causes!\""
 
 #: src-en/data/text_misc.xml.append:65
 msgid "data/text_misc.xml.append$//text[@name=\"lore_RK_SHOTPHASER\"]"
-msgstr "品质印章：“剥除了奴隶贩库尔特路径上所有孤儿院守护者的护盾。丰厚的投降回报！”"
+msgstr ""
+"Quality stamp: \"UNSHIELDED all Orphanage Defenders on SLAVER KURT's path. "
+"Very lucrative surrenders!\""
 
 #: src-en/data/text_misc.xml.append:67
 msgid "data/text_misc.xml.append$//text[@name=\"lore_RK_BOMBLAUNCHER_OXYBOTTLE\"]"
-msgstr "品质印章：“帮助被通缉的奴隶贩子避免了窒息，并对造成此事的食铁族实施了复仇！”"
+msgstr ""
+"Quality stamp: \"Helped wanted Slavers avoid suffocation AND enact their "
+"revenge on the Lanius who caused it!\""
 
 #: src-en/data/text_misc.xml.append:68
 msgid ""
 "data/text_misc.xml.append$//text[@name=\"RK_lore_RK_OXY_FIREFILL_MISSILES\"]"
-msgstr "品质印章：“许多人宣称这是‘滔天战争罪行’。而其他人——主要是岩石族——则与他们的那一位喜结连理！”"
+msgstr ""
+"Quality stamp: \"Many declared this a 'HEINOUS WARCRIME'. Others, mostly "
+"Rockmen, married theirs!\""
 
 #: src-en/data/text_misc.xml.append:69
 msgid "data/text_misc.xml.append$//text[@name=\"RK_lore_RK_FOCUS_FIRE\"]"
-msgstr "品质印章：“曾当选‘地狱新闻’和‘灼热之石’评选的‘周期武器’！”"
+msgstr ""
+"Quality stamp: \"Once elected 'Weapon of the cycle' by 'INFERNAL NEWS' and "
+"'SCORCHING STONES'!\""
 
 #: src-en/data/text_misc.xml.append:70
 msgid "data/text_misc.xml.append$//text[@name=\"RK_lore_DJMOD_RAIN_OF_FIRE\"]"
-msgstr "品质印章：“以液化的精英兰花为燃料！烧毁了魂灵族和岩石族的飞船！”"
+msgstr ""
+"Quality stamp: \"Fueled by liquefied ELITE Orchids! Burned down Ghost AND "
+"Rockman ships!\""
 
 #: src-en/data/text_misc.xml.append:71
 msgid "data/text_misc.xml.append$//text[@name=\"RK_lore_DJMOD_LASER_BPS\"]"
-msgstr "品质印章：“通过消灭每个EACH自然与非自然派系的一艘有人飞船，展示 RK 的性能”"
+msgstr ""
+"Quality stamp: \"Showcased RK performance by eliminating a manned ship of "
+"EACH natural and unnatural faction!\""
 
 #: src-en/data/text_misc.xml.append:73
 msgid "data/text_misc.xml.append$//text[@name=\"lore_RK_A_HULL_DAMAGE\"]"
-msgstr "最精良的防御激光，带有专为针对拉迪卡尔装备弱点而定制的高精度增强组件。"
+msgstr ""
+"The finest Defense Lasers, with high-precision enhancements tailored for "
+"RadiKal-gear-specific weaknesses."
 
 #: src-en/data/text_misc.xml.append:74
 msgid "data/text_misc.xml.append$//text[@name=\"lore_RK_A_SYSTEM_DAMAGE\"]"
-msgstr "最精良的讽神导弹，带有专为针对拉迪卡尔装备弱点而定制的高精度增强组件。"
+msgstr ""
+"The finest Momus Launchers, with high-precision enhancements tailored for "
+"RadiKal-gear-specific weaknesses."

@@ -1,17 +1,9 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-07-30 08:36+0000\n"
-"Last-Translator: Ukn <bbg100bbg@gmail.com>\n"
-"Language-Team: Russian <https://weblate.hyperq.be/projects/radikal-sector/"
-"dataevents_special_storagexmlappend/ru/>\n"
-"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.17.1\n"
 
 #: src-en/data/events_special_storage.xml.append:396
 msgid ""
@@ -3375,303 +3367,303 @@ msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_DEFENSE_REMOVER_TIMER_START_HIGH\"]/choice/text"
 msgstr "Перейти к битве!"
 
-#: src-en/data/events_special_storage.xml.append:6356
+#: src-en/data/events_special_storage.xml.append:6372
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_FLAMMABILIZER_IMMUNE\"]/text"
 msgstr ""
 "Какую способность модуля вы хотите использовать?\n"
 "\tТекущий режим: снимает иммунитет к огню"
 
-#: src-en/data/events_special_storage.xml.append:6359
+#: src-en/data/events_special_storage.xml.append:6375
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_FLAMMABILIZER_IMMUNE\"]/choice[1]/text"
 msgstr ""
 "Настроить состояние модуля: Урон. [Враги получают больше урона от огня]"
 
-#: src-en/data/events_special_storage.xml.append:6361
+#: src-en/data/events_special_storage.xml.append:6377
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_FLAMMABILIZER_IMMUNE\"]/choice[1]/event/text"
 msgstr "Вы начинаете калибровку модуля..."
 
-#: src-en/data/events_special_storage.xml.append:6364
+#: src-en/data/events_special_storage.xml.append:6380
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_FLAMMABILIZER_IMMUNE\"]/choice[1]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_special_storage.xml.append:6366
+#: src-en/data/events_special_storage.xml.append:6382
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_FLAMMABILIZER_IMMUNE\"]/choice[1]/event/choice/event/text"
 msgstr "Вы успешно завершили калибровку орудия."
 
-#: src-en/data/events_special_storage.xml.append:6369
+#: src-en/data/events_special_storage.xml.append:6385
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_FLAMMABILIZER_IMMUNE\"]/choice[1]/event/choice/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_special_storage.xml.append:6377
+#: src-en/data/events_special_storage.xml.append:6393
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_FLAMMABILIZER_IMMUNE\"]/choice[2]/text"
 msgstr "Вернуться в меню переключения."
 
-#: src-en/data/events_special_storage.xml.append:6382
+#: src-en/data/events_special_storage.xml.append:6398
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_FLAMMABILIZER_DAMAGE\"]/text"
 msgstr ""
 "Какую способность модуля вы хотите использовать?\n"
 "\tТекущий режим: враги получают больше урона от огня"
 
-#: src-en/data/events_special_storage.xml.append:6385
+#: src-en/data/events_special_storage.xml.append:6401
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_FLAMMABILIZER_DAMAGE\"]/choice[1]/text"
 msgstr "Настроить состояние модуля: Иммунитет. [Снимает иммунитет к огню]"
 
-#: src-en/data/events_special_storage.xml.append:6387
+#: src-en/data/events_special_storage.xml.append:6403
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_FLAMMABILIZER_DAMAGE\"]/choice[1]/event/text"
 msgstr "Вы начинаете калибровку модуля..."
 
-#: src-en/data/events_special_storage.xml.append:6390
+#: src-en/data/events_special_storage.xml.append:6406
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_FLAMMABILIZER_DAMAGE\"]/choice[1]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_special_storage.xml.append:6392
+#: src-en/data/events_special_storage.xml.append:6408
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_FLAMMABILIZER_DAMAGE\"]/choice[1]/event/choice/event/text"
 msgstr "Вы успешно завершили калибровку орудия."
 
-#: src-en/data/events_special_storage.xml.append:6395
+#: src-en/data/events_special_storage.xml.append:6411
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_FLAMMABILIZER_DAMAGE\"]/choice[1]/event/choice/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_special_storage.xml.append:6403
+#: src-en/data/events_special_storage.xml.append:6419
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_FLAMMABILIZER_DAMAGE\"]/choice[2]/text"
 msgstr "Вернуться в меню переключения."
 
-#: src-en/data/events_special_storage.xml.append:6419
+#: src-en/data/events_special_storage.xml.append:6435
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_HARMONY_ON\"]/text"
 msgstr ""
 "Какую способность модуля вы хотите использовать?\n"
 "\tТекущий режим: Включено (Вкл)"
 
-#: src-en/data/events_special_storage.xml.append:6422
+#: src-en/data/events_special_storage.xml.append:6438
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_HARMONY_ON\"]/choice[1]/text"
 msgstr "Отключить модуль."
 
-#: src-en/data/events_special_storage.xml.append:6424
+#: src-en/data/events_special_storage.xml.append:6440
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_HARMONY_ON\"]/choice[1]/event/text"
 msgstr "Вы начинаете калибровку модуля..."
 
-#: src-en/data/events_special_storage.xml.append:6427
+#: src-en/data/events_special_storage.xml.append:6443
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_HARMONY_ON\"]/choice[1]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_special_storage.xml.append:6429
+#: src-en/data/events_special_storage.xml.append:6445
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_HARMONY_ON\"]/choice[1]/event/choice/event/text"
 msgstr "Вы успешно завершили калибровку орудия."
 
-#: src-en/data/events_special_storage.xml.append:6432
+#: src-en/data/events_special_storage.xml.append:6448
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_HARMONY_ON\"]/choice[1]/event/choice/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_special_storage.xml.append:6441
+#: src-en/data/events_special_storage.xml.append:6457
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_HARMONY_ON\"]/choice[2]/text"
 msgstr "Вернуться в меню переключения."
 
-#: src-en/data/events_special_storage.xml.append:6446
+#: src-en/data/events_special_storage.xml.append:6462
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_HARMONY_OFF\"]/text"
 msgstr ""
 "Какую способность модуля вы хотите использовать?\n"
 "\tТекущий режим: Выключено (Выкл)"
 
-#: src-en/data/events_special_storage.xml.append:6449
+#: src-en/data/events_special_storage.xml.append:6465
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_HARMONY_OFF\"]/choice[1]/text"
 msgstr "Включить модуль."
 
-#: src-en/data/events_special_storage.xml.append:6451
+#: src-en/data/events_special_storage.xml.append:6467
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_HARMONY_OFF\"]/choice[1]/event/text"
 msgstr "Вы начинаете калибровку модуля..."
 
-#: src-en/data/events_special_storage.xml.append:6454
+#: src-en/data/events_special_storage.xml.append:6470
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_HARMONY_OFF\"]/choice[1]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_special_storage.xml.append:6456
+#: src-en/data/events_special_storage.xml.append:6472
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_HARMONY_OFF\"]/choice[1]/event/choice/event/text"
 msgstr "Вы успешно завершили калибровку орудия."
 
-#: src-en/data/events_special_storage.xml.append:6459
+#: src-en/data/events_special_storage.xml.append:6475
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_HARMONY_OFF\"]/choice[1]/event/choice/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_special_storage.xml.append:6468
+#: src-en/data/events_special_storage.xml.append:6484
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_HARMONY_OFF\"]/choice[2]/text"
 msgstr "Вернуться в меню переключения."
 
-#: src-en/data/events_special_storage.xml.append:6475
+#: src-en/data/events_special_storage.xml.append:6491
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_OWN_HARMONY_GROW_ENGI_SEPARATIST\"]/text"
 msgstr ""
 "Вы уверены, что хотите вырастить Сепаратиста энджи?\n"
 "\t[Флот повстанцев ускоряется на 1 прыжок]"
 
-#: src-en/data/events_special_storage.xml.append:6479
+#: src-en/data/events_special_storage.xml.append:6495
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_OWN_HARMONY_GROW_ENGI_SEPARATIST\"]/choice[1]/text"
 msgstr "Да"
 
-#: src-en/data/events_special_storage.xml.append:6481
+#: src-en/data/events_special_storage.xml.append:6497
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_OWN_HARMONY_GROW_ENGI_SEPARATIST\"]/choice[1]/event/text"
 msgstr ""
 "Вы уделяете время ускоренному выращиванию своего нового члена экипажа, чтобы"
 " он был готов к автоматизации с помощью Гармонии на вашем корабле!"
 
-#: src-en/data/events_special_storage.xml.append:6490
+#: src-en/data/events_special_storage.xml.append:6506
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_OWN_HARMONY_GROW_ENGI_SEPARATIST\"]/choice[1]/event/crewMember"
 msgstr "Старбой"
 
-#: src-en/data/events_special_storage.xml.append:6493
+#: src-en/data/events_special_storage.xml.append:6509
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_OWN_HARMONY_GROW_ENGI_SEPARATIST\"]/choice[1]/event/choice/text"
 msgstr "Он отлично укрепит наши ряды."
 
-#: src-en/data/events_special_storage.xml.append:6511
+#: src-en/data/events_special_storage.xml.append:6527
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_OWN_HARMONY_GROW_ENGI_SEPARATIST\"]/choice[2]/text"
 msgstr "Пусть будет 2, ведь на это уходит столько же времени."
 
-#: src-en/data/events_special_storage.xml.append:6513
+#: src-en/data/events_special_storage.xml.append:6529
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_OWN_HARMONY_GROW_ENGI_SEPARATIST\"]/choice[2]/event/text"
 msgstr ""
 "Вы уделяете время ускоренному выращиванию своего нового члена экипажа, чтобы"
 " он был готов к автоматизации с помощью Гармонии на вашем корабле!"
 
-#: src-en/data/events_special_storage.xml.append:6522
+#: src-en/data/events_special_storage.xml.append:6538
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_OWN_HARMONY_GROW_ENGI_SEPARATIST\"]/choice[2]/event/crewMember"
 msgstr "МТФКН"
 
-#: src-en/data/events_special_storage.xml.append:6529
+#: src-en/data/events_special_storage.xml.append:6545
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_OWN_HARMONY_GROW_ENGI_SEPARATIST\"]/choice[2]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_special_storage.xml.append:6531
+#: src-en/data/events_special_storage.xml.append:6547
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_OWN_HARMONY_GROW_ENGI_SEPARATIST\"]/choice[2]/event/choice/event/text"
 msgstr "Оба ваших новых члена экипажа готовы!"
 
-#: src-en/data/events_special_storage.xml.append:6532
+#: src-en/data/events_special_storage.xml.append:6548
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_OWN_HARMONY_GROW_ENGI_SEPARATIST\"]/choice[2]/event/choice/event/crewMember"
 msgstr "Старбой"
 
-#: src-en/data/events_special_storage.xml.append:6535
+#: src-en/data/events_special_storage.xml.append:6551
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_OWN_HARMONY_GROW_ENGI_SEPARATIST\"]/choice[2]/event/choice/event/choice/text"
 msgstr "Автоматизация набирает обороты!"
 
-#: src-en/data/events_special_storage.xml.append:6544
+#: src-en/data/events_special_storage.xml.append:6560
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_OWN_HARMONY_GROW_ENGI_SEPARATIST\"]/choice[3]/text"
 msgstr "Неважно, заняться чем-то еще."
 
-#: src-en/data/events_special_storage.xml.append:6558
+#: src-en/data/events_special_storage.xml.append:6574
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_CREW_ARE_BOMBS_OFF\"]/text"
 msgstr ""
 "Вы действительно хотите включить этот модуль? ВНИМАНИЕ: его нельзя отключить, но он может самоуничтожиться у пустого маяка или быть продан обычным образом.\n"
 "\tТекущий режим: Выключено (Выкл)"
 
-#: src-en/data/events_special_storage.xml.append:6561
+#: src-en/data/events_special_storage.xml.append:6577
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_CREW_ARE_BOMBS_OFF\"]/choice[1]/text"
 msgstr "Включить модуль."
 
-#: src-en/data/events_special_storage.xml.append:6563
+#: src-en/data/events_special_storage.xml.append:6579
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_CREW_ARE_BOMBS_OFF\"]/choice[1]/event/text"
 msgstr "Вы начинаете калибровку модуля..."
 
-#: src-en/data/events_special_storage.xml.append:6566
+#: src-en/data/events_special_storage.xml.append:6582
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_CREW_ARE_BOMBS_OFF\"]/choice[1]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_special_storage.xml.append:6568
+#: src-en/data/events_special_storage.xml.append:6584
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_CREW_ARE_BOMBS_OFF\"]/choice[1]/event/choice/event/text"
 msgstr "Вы успешно завершили калибровку орудия."
 
-#: src-en/data/events_special_storage.xml.append:6571
+#: src-en/data/events_special_storage.xml.append:6587
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_CREW_ARE_BOMBS_OFF\"]/choice[1]/event/choice/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_special_storage.xml.append:6580
+#: src-en/data/events_special_storage.xml.append:6596
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_CREW_ARE_BOMBS_OFF\"]/choice[2]/text"
 msgstr "Вернуться в меню переключения."
 
-#: src-en/data/events_special_storage.xml.append:6586
+#: src-en/data/events_special_storage.xml.append:6602
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_CREW_ARE_BOMBS_ON_SELFSCRAP\"]/text"
 msgstr ""
 "Вы уверены, что хотите разобрать этот модуль за половину стоимости?\n"
 "\t[Единственный способ отключить его, если вы не можете продать или выбросить его прямо сейчас]"
 
-#: src-en/data/events_special_storage.xml.append:6590
+#: src-en/data/events_special_storage.xml.append:6606
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_CREW_ARE_BOMBS_ON_SELFSCRAP\"]/choice[1]/text"
 msgstr "Да, это слишком опасно."
 
-#: src-en/data/events_special_storage.xml.append:6601
+#: src-en/data/events_special_storage.xml.append:6617
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_CREW_ARE_BOMBS_ON_SELFSCRAP\"]/choice[2]/text"
 msgstr "Да, но превратить его во взрывчатку."
 
-#: src-en/data/events_special_storage.xml.append:6611
+#: src-en/data/events_special_storage.xml.append:6627
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_CREW_ARE_BOMBS_ON_SELFSCRAP\"]/choice[3]/text"
 msgstr "Неважно, заняться чем-то еще."
 
-#: src-en/data/events_special_storage.xml.append:6624
+#: src-en/data/events_special_storage.xml.append:6640
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_LEAD_TITANS_SELFSCRAP\"]/text"
 msgstr ""
 "Вы уверены, что хотите разобрать этот модуль за половину стоимости?\n"
 "\t[Единственный способ отключить его, если вы не можете продать или выбросить его прямо сейчас]"
 
-#: src-en/data/events_special_storage.xml.append:6628
+#: src-en/data/events_special_storage.xml.append:6644
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_LEAD_TITANS_SELFSCRAP\"]/choice[@req=\"RK_LEAD_TITANS\"]/text"
 msgstr "Да, это слишком опасно."
 
-#: src-en/data/events_special_storage.xml.append:6649
+#: src-en/data/events_special_storage.xml.append:6665
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_LEAD_TITANS_SELFSCRAP\"]/choice[2]/text"
 msgstr "Неважно, заняться чем-то еще."
 
-#: src-en/data/events_special_storage.xml.append:6664
+#: src-en/data/events_special_storage.xml.append:6680
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_BPS_SURVEYOR_ACTIVATE\"]/text"
 msgstr ""
@@ -3679,12 +3671,12 @@ msgstr ""
 "\t[Потратить ресурсы на отправку дронов-разведчиков для глубокой разведки. Они найдут случайное оружие и модуль.\n"
 "\tВы можете забрать только одну находку за 1 единицу ускорения флота или отказаться от них, получив небольшую компенсацию]"
 
-#: src-en/data/events_special_storage.xml.append:6669
+#: src-en/data/events_special_storage.xml.append:6685
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_BPS_SURVEYOR_ACTIVATE\"]/choice[@req=\"RK_BPS_SURVEYOR\"]/text"
 msgstr "Да"
 
-#: src-en/data/events_special_storage.xml.append:6671
+#: src-en/data/events_special_storage.xml.append:6687
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_BPS_SURVEYOR_ACTIVATE\"]/choice[@req=\"RK_BPS_SURVEYOR\"]/event/text"
 msgstr ""
@@ -3695,154 +3687,154 @@ msgstr ""
 "\t\t\t\t\n"
 "\t\t\t\tЕсли вы решите что-нибудь забрать, вы получите обратно то, что осталось от 1 дрона-разведчика, но флот ускорится на 1 прыжок."
 
-#: src-en/data/events_special_storage.xml.append:6686
+#: src-en/data/events_special_storage.xml.append:6702
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_BPS_SURVEYOR_ACTIVATE\"]/choice[@req=\"RK_BPS_SURVEYOR\"]/event/choice[1]/text"
 msgstr "Взять случайное оружие."
 
-#: src-en/data/events_special_storage.xml.append:6688
+#: src-en/data/events_special_storage.xml.append:6704
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_BPS_SURVEYOR_ACTIVATE\"]/choice[@req=\"RK_BPS_SURVEYOR\"]/event/choice[1]/event/text"
 msgstr ""
 "Вы тратите время, чтобы встретить к дрон на полпути и забрать находку."
 
-#: src-en/data/events_special_storage.xml.append:6698
+#: src-en/data/events_special_storage.xml.append:6714
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_BPS_SURVEYOR_ACTIVATE\"]/choice[@req=\"RK_BPS_SURVEYOR\"]/event/choice[1]/event/choice/text"
 msgstr "Отличная находка! Молодец, дронно, молодец!"
 
-#: src-en/data/events_special_storage.xml.append:6705
+#: src-en/data/events_special_storage.xml.append:6721
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_BPS_SURVEYOR_ACTIVATE\"]/choice[@req=\"RK_BPS_SURVEYOR\"]/event/choice[2]/text"
 msgstr "Взять случайный модуль."
 
-#: src-en/data/events_special_storage.xml.append:6707
+#: src-en/data/events_special_storage.xml.append:6723
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_BPS_SURVEYOR_ACTIVATE\"]/choice[@req=\"RK_BPS_SURVEYOR\"]/event/choice[2]/event/text"
 msgstr ""
 "Вы тратите время, чтобы встретить к дрон на полпути и забрать находку."
 
-#: src-en/data/events_special_storage.xml.append:6717
+#: src-en/data/events_special_storage.xml.append:6733
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_BPS_SURVEYOR_ACTIVATE\"]/choice[@req=\"RK_BPS_SURVEYOR\"]/event/choice[2]/event/choice/text"
 msgstr "Кто у нас хороший бип-буп? Да ты, именно ты!"
 
-#: src-en/data/events_special_storage.xml.append:6725
+#: src-en/data/events_special_storage.xml.append:6741
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_BPS_SURVEYOR_ACTIVATE\"]/choice[@req=\"RK_BPS_SURVEYOR\"]/event/choice[3]/text"
 msgstr "Удача нам не улыбнулась, забудьте об этом."
 
-#: src-en/data/events_special_storage.xml.append:6727
+#: src-en/data/events_special_storage.xml.append:6743
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_BPS_SURVEYOR_ACTIVATE\"]/choice[@req=\"RK_BPS_SURVEYOR\"]/event/choice[3]/event/text"
 msgstr "Следует минимизировать убытки, разобрав дроны и двигаться дальше."
 
-#: src-en/data/events_special_storage.xml.append:6734
+#: src-en/data/events_special_storage.xml.append:6750
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_BPS_SURVEYOR_ACTIVATE\"]/choice[@req=\"RK_BPS_SURVEYOR\"]/event/choice[3]/event/choice/text"
 msgstr "В следующий раз повезет больше."
 
-#: src-en/data/events_special_storage.xml.append:6742
+#: src-en/data/events_special_storage.xml.append:6758
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_BPS_SURVEYOR_ACTIVATE\"]/choice[2]/text"
 msgstr "Неважно, заняться чем-то еще."
 
-#: src-en/data/events_special_storage.xml.append:6896
+#: src-en/data/events_special_storage.xml.append:6912
 msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/mod:findName[26]/mod-"
 "append:choice/text"
 msgstr "Технология РадиКал. [У вас ее нет. Выберите, чтобы узнать требования]"
 
-#: src-en/data/events_special_storage.xml.append:6902
+#: src-en/data/events_special_storage.xml.append:6918
 msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/mod:findName[27]/mod-"
 "append:choice/text"
 msgstr "Технология РадиКал."
 
-#: src-en/data/events_special_storage.xml.append:6928
+#: src-en/data/events_special_storage.xml.append:6944
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_INVENTORY_UPGRADES\"]/mod-"
 "append:choice[1]/text"
 msgstr "Калибратор [2х]"
 
-#: src-en/data/events_special_storage.xml.append:6932
+#: src-en/data/events_special_storage.xml.append:6948
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_INVENTORY_UPGRADES\"]/mod-"
 "append:choice[2]/text"
 msgstr "Калибратор [1х]"
 
-#: src-en/data/events_special_storage.xml.append:6936
+#: src-en/data/events_special_storage.xml.append:6952
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_INVENTORY_UPGRADES\"]/mod-"
 "append:choice[3]/text"
 msgstr "Калибратор [Не установлено]"
 
-#: src-en/data/events_special_storage.xml.append:6941
+#: src-en/data/events_special_storage.xml.append:6957
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_INVENTORY_UPGRADES\"]/mod-"
 "append:choice[4]/text"
 msgstr "Удушонайзер Н.С.В.Ф.У. [Установлено]"
 
-#: src-en/data/events_special_storage.xml.append:6945
+#: src-en/data/events_special_storage.xml.append:6961
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_INVENTORY_UPGRADES\"]/mod-"
 "append:choice[5]/text"
 msgstr "Удушонайзер Н.С.В.Ф.У. [Не установлено]"
 
-#: src-en/data/events_special_storage.xml.append:6951
+#: src-en/data/events_special_storage.xml.append:6967
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_INVENTORY_UPGRADES\"]/mod-"
 "append:choice[6]/text"
 msgstr "Демиклонеры [Установлено]"
 
-#: src-en/data/events_special_storage.xml.append:6955
+#: src-en/data/events_special_storage.xml.append:6971
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_INVENTORY_UPGRADES\"]/mod-"
 "append:choice[7]/text"
 msgstr "Демиклонеры [Не установлено]"
 
-#: src-en/data/events_special_storage.xml.append:6960
+#: src-en/data/events_special_storage.xml.append:6976
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_INVENTORY_UPGRADES\"]/mod-"
 "append:choice[8]/text"
 msgstr "Успокоитель разума [Установлено]"
 
-#: src-en/data/events_special_storage.xml.append:6964
+#: src-en/data/events_special_storage.xml.append:6980
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_INVENTORY_UPGRADES\"]/mod-"
 "append:choice[9]/text"
 msgstr "Успокоитель разума [Не установлено]"
 
-#: src-en/data/events_special_storage.xml.append:6970
+#: src-en/data/events_special_storage.xml.append:6986
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_INVENTORY_UPGRADES\"]/mod-"
 "append:choice[10]/text"
 msgstr "Огненные повязки [Установлено]"
 
-#: src-en/data/events_special_storage.xml.append:6974
+#: src-en/data/events_special_storage.xml.append:6990
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_INVENTORY_UPGRADES\"]/mod-"
 "append:choice[11]/text"
 msgstr "Огненные повязки [Не установлено]"
 
-#: src-en/data/events_special_storage.xml.append:6979
+#: src-en/data/events_special_storage.xml.append:6995
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_INVENTORY_UPGRADES\"]/mod-"
 "append:choice[12]/text"
 msgstr "Разогреватель разума [Установлено]"
 
-#: src-en/data/events_special_storage.xml.append:6983
+#: src-en/data/events_special_storage.xml.append:6999
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_INVENTORY_UPGRADES\"]/mod-"
 "append:choice[13]/text"
 msgstr "Разогреватель разума [Не установлено]"
 
-#: src-en/data/events_special_storage.xml.append:6991
+#: src-en/data/events_special_storage.xml.append:7007
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL\"]/text"
 msgstr "Какое улучшение вы хотите установить?"
 
-#: src-en/data/events_special_storage.xml.append:7009
+#: src-en/data/events_special_storage.xml.append:7025
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL\"]/choice[@req=\"INTERNAL_RK_CALIBRATOR\""
 " and @lvl=\"2\"]/text"
@@ -3850,19 +3842,19 @@ msgstr ""
 "РК Бам \"Калибрато\": Ваши оружия получают +10% к точности и +4% к скорострельности.\n"
 "\t\t\tМожно установить дважды. [УЖЕ УСТАНОВЛЕНО: у вас уже установлено максимальное количество этого улучшения]"
 
-#: src-en/data/events_special_storage.xml.append:7014
+#: src-en/data/events_special_storage.xml.append:7030
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL\"]/choice[@req=\"INTERNAL_RK_CALIBRATOR\""
 " and @lvl=\"1\"]/text"
 msgstr "Калибратор 2-го уровня. [Цена: 45~, 1|]"
 
-#: src-en/data/events_special_storage.xml.append:7018
+#: src-en/data/events_special_storage.xml.append:7034
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL\"]/choice[@req=\"INTERNAL_RK_CALIBRATOR\""
 " and @lvl=\"0\"]/text"
 msgstr "Калибратор 1-го уровня. [Цена: 45~ 1|]"
 
-#: src-en/data/events_special_storage.xml.append:7023
+#: src-en/data/events_special_storage.xml.append:7039
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL\"]/choice[@req=\"INTERNAL_RK_CHOKING_IS_FINE\""
 " and @lvl=\"1\"]/text"
@@ -3870,13 +3862,13 @@ msgstr ""
 "РК Бам \"Удушонайзер Н.С.В.Ф.У.\": ваш экипаж получает 0.75х урон от удушья.\n"
 "\t\tВ состоянии удушья они передвигаются, саботируют, ремонтируют и сражаются в 1.4х эффективнее. Не влияет на экипаж, обладающий иммунитетом к удушью. [УЖЕ УСТАНОВЛЕНО]"
 
-#: src-en/data/events_special_storage.xml.append:7028
+#: src-en/data/events_special_storage.xml.append:7044
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL\"]/choice[@req=\"INTERNAL_RK_CHOKING_IS_FINE\""
 " and @lvl=\"0\"]/text"
 msgstr "Удушонайзер Н.С.В.Ф.У. [Цена: 55~, 1}, 1|]"
 
-#: src-en/data/events_special_storage.xml.append:7033
+#: src-en/data/events_special_storage.xml.append:7049
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL\"]/choice[@req=\"INTERNAL_DJMOD_DEMICLONER\""
 " and @lvl=\"1\"]/text"
@@ -3884,13 +3876,13 @@ msgstr ""
 "РК Панк \"Демиклонеры\": при отсутствии Клон-отсека погибшие члены экипажа воскрешаются в упрощенном виде (Солдат = человек по умолчанию и т. д.)\n"
 "\t\t\tЕсли таких персонажей нет, они превращаются в морфов. Когда морфы гибнут, ничего не происходит. Не работает при гибели в результате событий. [УЖЕ УСТАНОВЛЕНО]"
 
-#: src-en/data/events_special_storage.xml.append:7038
+#: src-en/data/events_special_storage.xml.append:7054
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL\"]/choice[@req=\"INTERNAL_DJMOD_DEMICLONER\""
 " and @lvl=\"0\"]/text"
 msgstr "Демиклонеры. [Цена: 35~, 2|]"
 
-#: src-en/data/events_special_storage.xml.append:7043
+#: src-en/data/events_special_storage.xml.append:7059
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL\"]/choice[@req=\"INTERNAL_DJMOD_MC_PARALYZER\""
 " and @lvl=\"1\"]/text"
@@ -3899,13 +3891,13 @@ msgstr ""
 "не может сражаться, саботировать или телепортироваться. Действует на обоих "
 "кораблях. [УЖЕ УСТАНОВЛЕНО]"
 
-#: src-en/data/events_special_storage.xml.append:7047
+#: src-en/data/events_special_storage.xml.append:7063
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL\"]/choice[@req=\"INTERNAL_DJMOD_MC_PARALYZER\""
 " and @lvl=\"0\"]/text"
 msgstr "Успокоитель разума. [Цена: 30~, 1|]"
 
-#: src-en/data/events_special_storage.xml.append:7053
+#: src-en/data/events_special_storage.xml.append:7069
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL\"]/choice[@req=\"INTERNAL_RK_IN_FIRE_CREWBOOSTS\""
 " and @lvl=\"1\"]/text"
@@ -3914,13 +3906,13 @@ msgstr ""
 "саботажа вашего экипажа в условиях пожар, а урон в бою и по дверям увеличен "
 "до 1.75x на обоих кораблях. [УЖЕ УСТАНОВЛЕНО]"
 
-#: src-en/data/events_special_storage.xml.append:7057
+#: src-en/data/events_special_storage.xml.append:7073
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL\"]/choice[@req=\"INTERNAL_RK_IN_FIRE_CREWBOOSTS\""
 " and @lvl=\"0\"]/text"
 msgstr "Огненные повязки [Цена: 55~, 1{, 1}]"
 
-#: src-en/data/events_special_storage.xml.append:7062
+#: src-en/data/events_special_storage.xml.append:7078
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL\"]/choice[@req=\"INTERNAL_DJMOD_MC_IMMUNE_FROM_FIRE\""
 " and @lvl=\"1\"]/text"
@@ -3930,18 +3922,18 @@ msgstr ""
 "воздействия, продолжительность оглушения сокращается на 50%, также вы "
 "начинаете видеть соседние помещения. [УЖЕ УСТАНОВЛЕНО]"
 
-#: src-en/data/events_special_storage.xml.append:7066
+#: src-en/data/events_special_storage.xml.append:7082
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL\"]/choice[@req=\"INTERNAL_DJMOD_MC_IMMUNE_FROM_FIRE\""
 " and @lvl=\"0\"]/text"
 msgstr "Разогреватель разума. [Цена: 30~, 1{]"
 
-#: src-en/data/events_special_storage.xml.append:7071
+#: src-en/data/events_special_storage.xml.append:7087
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL\"]/choice[14]/text"
 msgstr "Неважно."
 
-#: src-en/data/events_special_storage.xml.append:7112
+#: src-en/data/events_special_storage.xml.append:7128
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_RK_CALIBRATOR\"]/text"
 msgstr ""
@@ -3949,7 +3941,7 @@ msgstr ""
 "\t[Эффекты: Точность вашего оружия увеличивается на +10, а скорострельность - на 4%. \n"
 "\tМожно установить дважды]"
 
-#: src-en/data/events_special_storage.xml.append:7129
+#: src-en/data/events_special_storage.xml.append:7145
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_RK_CALIBRATOR\"]/choice[@req=\"DJMOD_HAS_RADIKAL_BAM_GEAR\""
 " and @lvl=\"0\"]/text"
@@ -3957,30 +3949,30 @@ msgstr ""
 "Улучшение недоступно. Вам необходимо любое оружие, модуль, экипаж или "
 "корабль РадиКал Бам (или БПС)."
 
-#: src-en/data/events_special_storage.xml.append:7134
+#: src-en/data/events_special_storage.xml.append:7150
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_RK_CALIBRATOR\"]/choice[@req=\"DJMOD_HAS_RADIKAL_BAM_GEAR\""
 " and @lvl=\"1\"]/text"
 msgstr "Установить улучшение. [Цена: 45~, 1|]"
 
-#: src-en/data/events_special_storage.xml.append:7136
+#: src-en/data/events_special_storage.xml.append:7152
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_RK_CALIBRATOR\"]/choice[@req=\"DJMOD_HAS_RADIKAL_BAM_GEAR\""
 " and @lvl=\"1\"]/event/text"
 msgstr "Вы устанавливаете улучшение."
 
-#: src-en/data/events_special_storage.xml.append:7142
+#: src-en/data/events_special_storage.xml.append:7158
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_RK_CALIBRATOR\"]/choice[@req=\"DJMOD_HAS_RADIKAL_BAM_GEAR\""
 " and @lvl=\"1\"]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_special_storage.xml.append:7149
+#: src-en/data/events_special_storage.xml.append:7165
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_RK_CALIBRATOR\"]/choice[@req=\"pilot\"]/text"
 msgstr "Неважно."
 
-#: src-en/data/events_special_storage.xml.append:7160
+#: src-en/data/events_special_storage.xml.append:7176
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_RK_CHOKING_IS_FINE\"]/text"
 msgstr ""
@@ -3988,22 +3980,22 @@ msgstr ""
 "\t[Эффекты: ваш экипаж получает 0.75х урон от удушья.\n"
 "\t\tВ состоянии удушья они передвигаются, саботируют, ремонтируют и сражаются в 1.4х эффективнее. Не влияет на экипаж, обладающий иммунитетом к удушению.]"
 
-#: src-en/data/events_special_storage.xml.append:7165
+#: src-en/data/events_special_storage.xml.append:7181
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_RK_CHOKING_IS_FINE\"]/choice[@req=\"EX_RK_CHOKING_IS_FINE\"]/text"
 msgstr "Преобразовать внешний модуль во внутренний."
 
-#: src-en/data/events_special_storage.xml.append:7167
+#: src-en/data/events_special_storage.xml.append:7183
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_RK_CHOKING_IS_FINE\"]/choice[@req=\"EX_RK_CHOKING_IS_FINE\"]/event/text"
 msgstr "Вы устанавливаете улучшение."
 
-#: src-en/data/events_special_storage.xml.append:7170
+#: src-en/data/events_special_storage.xml.append:7186
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_RK_CHOKING_IS_FINE\"]/choice[@req=\"EX_RK_CHOKING_IS_FINE\"]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_special_storage.xml.append:7177
+#: src-en/data/events_special_storage.xml.append:7193
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_RK_CHOKING_IS_FINE\"]/choice[@req=\"DJMOD_HAS_RADIKAL_BAM_GEAR\""
 " and @lvl=\"0\"]/text"
@@ -4011,30 +4003,30 @@ msgstr ""
 "Улучшение недоступно. Вам необходимо любое оружие, модуль, экипаж или "
 "корабль РадиКал Бам (или БПС)."
 
-#: src-en/data/events_special_storage.xml.append:7182
+#: src-en/data/events_special_storage.xml.append:7198
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_RK_CHOKING_IS_FINE\"]/choice[@req=\"DJMOD_HAS_RADIKAL_BAM_GEAR\""
 " and @lvl=\"1\"]/text"
 msgstr "Установить улучшение. [Цена: 55~, 1{, 1}]"
 
-#: src-en/data/events_special_storage.xml.append:7184
+#: src-en/data/events_special_storage.xml.append:7200
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_RK_CHOKING_IS_FINE\"]/choice[@req=\"DJMOD_HAS_RADIKAL_BAM_GEAR\""
 " and @lvl=\"1\"]/event/text"
 msgstr "Вы устанавливаете улучшение."
 
-#: src-en/data/events_special_storage.xml.append:7191
+#: src-en/data/events_special_storage.xml.append:7207
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_RK_CHOKING_IS_FINE\"]/choice[@req=\"DJMOD_HAS_RADIKAL_BAM_GEAR\""
 " and @lvl=\"1\"]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_special_storage.xml.append:7198
+#: src-en/data/events_special_storage.xml.append:7214
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_RK_CHOKING_IS_FINE\"]/choice[@req=\"pilot\"]/text"
 msgstr "Неважно."
 
-#: src-en/data/events_special_storage.xml.append:7209
+#: src-en/data/events_special_storage.xml.append:7225
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_DJMOD_DEMICLONER\"]/text"
 msgstr ""
@@ -4042,22 +4034,22 @@ msgstr ""
 "\t[Эффекты: РадиКал Панк наполнил эти прототипы клон-рюкзаков мрачной энергией. Они пытаются воскресить членов вашего экипажа, если те погибнут (за исключением событий), когда у вас нет настоящего Клон-отсека.\n"
 "\t\tВ лучшем случае члены экипажа воскрешаются в виде упрощенной версии самих себя (Солдат = человек по умолчанию и т. д.). Если упрощенной версии не существует, они превращаются в морфов. Когда морфы погибают, ничего не происходит."
 
-#: src-en/data/events_special_storage.xml.append:7215
+#: src-en/data/events_special_storage.xml.append:7231
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_DJMOD_DEMICLONER\"]/choice[@req=\"EX_DJMOD_DEMICLONER\"]/text"
 msgstr "Преобразовать внешний модуль во внутренний."
 
-#: src-en/data/events_special_storage.xml.append:7217
+#: src-en/data/events_special_storage.xml.append:7233
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_DJMOD_DEMICLONER\"]/choice[@req=\"EX_DJMOD_DEMICLONER\"]/event/text"
 msgstr "Вы устанавливаете улучшение."
 
-#: src-en/data/events_special_storage.xml.append:7220
+#: src-en/data/events_special_storage.xml.append:7236
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_DJMOD_DEMICLONER\"]/choice[@req=\"EX_DJMOD_DEMICLONER\"]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_special_storage.xml.append:7227
+#: src-en/data/events_special_storage.xml.append:7243
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_DJMOD_DEMICLONER\"]/choice[@req=\"DJMOD_HAS_RADIKAL_PUNK_GEAR\""
 " and @lvl=\"0\"]/text"
@@ -4065,37 +4057,37 @@ msgstr ""
 "Улучшение недоступно. Вам необходимо любое оружие, модуль, экипаж или "
 "корабль РадиКал Панк (или БПС)."
 
-#: src-en/data/events_special_storage.xml.append:7232
+#: src-en/data/events_special_storage.xml.append:7248
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_DJMOD_DEMICLONER\"]/choice[@req=\"DJMOD_HAS_RADIKAL_PUNK_GEAR\""
 " and @lvl=\"1\"]/text"
 msgstr "Установить улучшение. [Цена: 35~, 2|]"
 
-#: src-en/data/events_special_storage.xml.append:7234
+#: src-en/data/events_special_storage.xml.append:7250
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_DJMOD_DEMICLONER\"]/choice[@req=\"DJMOD_HAS_RADIKAL_PUNK_GEAR\""
 " and @lvl=\"1\"]/event/text"
 msgstr "Вы устанавливаете улучшение."
 
-#: src-en/data/events_special_storage.xml.append:7240
+#: src-en/data/events_special_storage.xml.append:7256
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_DJMOD_DEMICLONER\"]/choice[@req=\"DJMOD_HAS_RADIKAL_PUNK_GEAR\""
 " and @lvl=\"1\"]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_special_storage.xml.append:7248
+#: src-en/data/events_special_storage.xml.append:7264
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_DJMOD_DEMICLONER\"]/choice[@req=\"pilot\"]/text"
 msgstr "Неважно."
 
-#: src-en/data/events_special_storage.xml.append:7259
+#: src-en/data/events_special_storage.xml.append:7275
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_DJMOD_MC_PARALYZER\"]/text"
 msgstr ""
 "Вы хотите добавить Успокоитель разума.\n"
 "\t[Эффекты: Под воздействием контроля разума ваш экипаж не может сражаться, саботировать или телепортироваться. Действует на обоих кораблях]"
 
-#: src-en/data/events_special_storage.xml.append:7263
+#: src-en/data/events_special_storage.xml.append:7279
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_DJMOD_MC_PARALYZER\"]/choice[@req=\"DJMOD_HAS_RADIKAL_PUNK_GEAR\""
 " and @lvl=\"0\"]/text"
@@ -4103,37 +4095,37 @@ msgstr ""
 "Улучшение недоступно. Вам необходимо любое оружие, модуль, экипаж или "
 "корабль РадиКал Панк (или БПС)."
 
-#: src-en/data/events_special_storage.xml.append:7267
+#: src-en/data/events_special_storage.xml.append:7283
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_DJMOD_MC_PARALYZER\"]/choice[@req=\"DJMOD_HAS_RADIKAL_PUNK_GEAR\""
 " and @lvl=\"1\"]/text"
 msgstr "Установить улучшение. [Цена: 30~, 1|]"
 
-#: src-en/data/events_special_storage.xml.append:7269
+#: src-en/data/events_special_storage.xml.append:7285
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_DJMOD_MC_PARALYZER\"]/choice[@req=\"DJMOD_HAS_RADIKAL_PUNK_GEAR\""
 " and @lvl=\"1\"]/event/text"
 msgstr "Вы устанавливаете улучшение."
 
-#: src-en/data/events_special_storage.xml.append:7275
+#: src-en/data/events_special_storage.xml.append:7291
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_DJMOD_MC_PARALYZER\"]/choice[@req=\"DJMOD_HAS_RADIKAL_PUNK_GEAR\""
 " and @lvl=\"1\"]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_special_storage.xml.append:7283
+#: src-en/data/events_special_storage.xml.append:7299
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_DJMOD_MC_PARALYZER\"]/choice[@req=\"pilot\"]/text"
 msgstr "Неважно."
 
-#: src-en/data/events_special_storage.xml.append:7295
+#: src-en/data/events_special_storage.xml.append:7311
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_RK_IN_FIRE_CREWBOOSTS\"]/text"
 msgstr ""
 "Вы собираетесь установить Огненные повязки.\n"
 "\t[Эффекты: 1.75x скорость передвижения и скорость саботажа вашего экипажа в условиях пожара, а урон в бою и по дверям увеличен до 1.75x на обоих кораблях.]"
 
-#: src-en/data/events_special_storage.xml.append:7299
+#: src-en/data/events_special_storage.xml.append:7315
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_RK_IN_FIRE_CREWBOOSTS\"]/choice[@req=\"DJMOD_HAS_RADIKAL_SCORCH_GEAR\""
 " and @lvl=\"0\"]/text"
@@ -4141,37 +4133,37 @@ msgstr ""
 "Улучшение недоступно. Вам необходимо любое оружие, модуль, экипаж или "
 "корабль РадиКал Скорч (или БПС)."
 
-#: src-en/data/events_special_storage.xml.append:7303
+#: src-en/data/events_special_storage.xml.append:7319
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_RK_IN_FIRE_CREWBOOSTS\"]/choice[@req=\"DJMOD_HAS_RADIKAL_SCORCH_GEAR\""
 " and @lvl=\"1\"]/text"
 msgstr "Установить улучшение. [Цена: 55~, 1{, 1}]"
 
-#: src-en/data/events_special_storage.xml.append:7305
+#: src-en/data/events_special_storage.xml.append:7321
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_RK_IN_FIRE_CREWBOOSTS\"]/choice[@req=\"DJMOD_HAS_RADIKAL_SCORCH_GEAR\""
 " and @lvl=\"1\"]/event/text"
 msgstr "Вы устанавливаете улучшение."
 
-#: src-en/data/events_special_storage.xml.append:7312
+#: src-en/data/events_special_storage.xml.append:7328
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_RK_IN_FIRE_CREWBOOSTS\"]/choice[@req=\"DJMOD_HAS_RADIKAL_SCORCH_GEAR\""
 " and @lvl=\"1\"]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_special_storage.xml.append:7320
+#: src-en/data/events_special_storage.xml.append:7336
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_RK_IN_FIRE_CREWBOOSTS\"]/choice[@req=\"pilot\"]/text"
 msgstr "Неважно."
 
-#: src-en/data/events_special_storage.xml.append:7331
+#: src-en/data/events_special_storage.xml.append:7347
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_DJMOD_MC_IMMUNE_FROM_FIRE\"]/text"
 msgstr ""
 "Вы собираетесь добавить модификацию Разогреватель разума.\n"
 "\t[Эффекты: При наличии огня ваш экипаж на обоих кораблях становится невосприимчивым к Контролю разума и избавляется от его воздействия, продолжительность оглушения сокращается на 50%, также вы начинаете видеть соседние помещения]"
 
-#: src-en/data/events_special_storage.xml.append:7335
+#: src-en/data/events_special_storage.xml.append:7351
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_DJMOD_MC_IMMUNE_FROM_FIRE\"]/choice[@req=\"DJMOD_HAS_RADIKAL_SCORCH_GEAR\""
 " and @lvl=\"0\"]/text"
@@ -4179,25 +4171,25 @@ msgstr ""
 "Улучшение недоступно. Вам необходимо любое оружие, модуль, экипаж или "
 "корабль РадиКал Скорч (или БПС)."
 
-#: src-en/data/events_special_storage.xml.append:7339
+#: src-en/data/events_special_storage.xml.append:7355
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_DJMOD_MC_IMMUNE_FROM_FIRE\"]/choice[@req=\"DJMOD_HAS_RADIKAL_SCORCH_GEAR\""
 " and @lvl=\"1\"]/text"
 msgstr "Установить улучшение. [Цена: 30~, 1{]"
 
-#: src-en/data/events_special_storage.xml.append:7341
+#: src-en/data/events_special_storage.xml.append:7357
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_DJMOD_MC_IMMUNE_FROM_FIRE\"]/choice[@req=\"DJMOD_HAS_RADIKAL_SCORCH_GEAR\""
 " and @lvl=\"1\"]/event/text"
 msgstr "Вы устанавливаете улучшение."
 
-#: src-en/data/events_special_storage.xml.append:7348
+#: src-en/data/events_special_storage.xml.append:7364
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_DJMOD_MC_IMMUNE_FROM_FIRE\"]/choice[@req=\"DJMOD_HAS_RADIKAL_SCORCH_GEAR\""
 " and @lvl=\"1\"]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_special_storage.xml.append:7356
+#: src-en/data/events_special_storage.xml.append:7372
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_DJMOD_MC_IMMUNE_FROM_FIRE\"]/choice[@req=\"pilot\"]/text"
 msgstr "Неважно."

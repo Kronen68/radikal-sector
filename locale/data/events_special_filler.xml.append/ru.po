@@ -58,11 +58,6 @@ msgstr ""
 "\"Извини за перерыв, один из моих людей внезапно взбунтовался, но мы с этим разобрались. \n"
 "        Ну ладно, теперь мне нужно заняться вопросами лояльности, так что забирай этот приз и вали отсюда, ладно? Мы оставим твой корабль в покое, ты победил, наслаждайся, пока наш флот не превратил его в кучу металлолома\"."
 
-#: src-en/data/events_special_filler.xml.append:81
-msgid ""
-"data/events_special_filler.xml.append$//event[@name=\"DISTRESS_PIRA_CIVI_NOTCOORDS\"]/choice/text"
-msgstr "Продолжить..."
-
 #: src-en/data/events_special_filler.xml.append:86
 msgid ""
 "data/events_special_filler.xml.append$//event[@name=\"DISTRESS_PIRA_CIVI_NOTCOORDS_BAD\"]/text"

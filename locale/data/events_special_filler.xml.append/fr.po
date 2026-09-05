@@ -46,11 +46,6 @@ msgid ""
 "data/events_special_filler.xml.append$//event[@name=\"DISTRESS_PIRA_CIVI_NOTCOORDS\"]/text"
 msgstr ""
 
-#: src-en/data/events_special_filler.xml.append:81
-msgid ""
-"data/events_special_filler.xml.append$//event[@name=\"DISTRESS_PIRA_CIVI_NOTCOORDS\"]/choice/text"
-msgstr "Continuer..."
-
 #: src-en/data/events_special_filler.xml.append:86
 msgid ""
 "data/events_special_filler.xml.append$//event[@name=\"DISTRESS_PIRA_CIVI_NOTCOORDS_BAD\"]/text"

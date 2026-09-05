@@ -1,16 +1,9 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-08-15 03:11+0000\n"
-"Last-Translator: 土豆老年人 <2685455659@qq.com>\n"
-"Language-Team: Chinese (Simplified Han script) <https://weblate.hyperq.be/"
-"projects/radikal-sector/dataevents_shipsxmlappend/zh_Hans/>\n"
-"Language: zh_Hans\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.17.1\n"
 
 #: src-en/data/events_ships.xml.append:28
 msgid ""
@@ -47,8 +40,7 @@ msgstr "继续。"
 msgid ""
 "data/events_ships.xml.append$//ship[@name=\"SHIP_RK_BAM_EXIT_BOSS_CHALLENGE\"]/destroyed/text"
 msgstr ""
-"飞船被摧毁了。其他守卫肃然点头。“无论谁把我们的坐标传递给你们，都做出了正确的"
-"选择，你们来到这里也是如此。你们可以自由离开了！再免费给你们修修船。”"
+"飞船被摧毁了。其他守卫肃然点头。“无论谁把我们的坐标传递给你们，都做出了正确的选择，你们来到这里也是如此。你们可以自由离开了！再免费给你们修修船。”"
 
 #: src-en/data/events_ships.xml.append:78
 msgid ""

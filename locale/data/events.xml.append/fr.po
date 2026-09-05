@@ -159,2482 +159,3353 @@ msgid ""
 "data/events.xml.append$/dummyroot/event[@name=\"RK_A_OUTSIDE_POLICE_INTRO_QUEST_START\"]/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:485
+#: src-en/data/events.xml.append:486
 msgid ""
-"data/events.xml.append$/dummyroot/event[@name=\"RK_A_OUTSIDE_POLICE_INTRO_QUEST_START\"]/choice[1]/text"
+"data/events.xml.append$/dummyroot/event[@name=\"RK_A_OUTSIDE_POLICE_INTRO_QUEST_START\"]/choice[@req=\"RK_HAS_GEAR_SURRENDERABLE_TO_RK_A\""
+" and @lvl=\"0\"]/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:490
+#: src-en/data/events.xml.append:491
 msgid ""
-"data/events.xml.append$/dummyroot/event[@name=\"RK_A_OUTSIDE_POLICE_INTRO_QUEST_START\"]/choice[2]/text"
+"data/events.xml.append$/dummyroot/event[@name=\"RK_A_OUTSIDE_POLICE_INTRO_QUEST_START\"]/choice[@req=\"RK_HAS_GEAR_SURRENDERABLE_TO_RK_A\""
+" and @lvl=\"1\"]/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:492
-msgid ""
-"data/events.xml.append$/dummyroot/event[@name=\"RK_A_OUTSIDE_POLICE_INTRO_QUEST_START\"]/choice[2]/event/text"
-msgstr ""
-
-#: src-en/data/events.xml.append:495
-msgid ""
-"data/events.xml.append$/dummyroot/event[@name=\"RK_A_OUTSIDE_POLICE_INTRO_QUEST_START\"]/choice[2]/event/choice[1]/text"
-msgstr ""
-
-#: src-en/data/events.xml.append:497
-msgid ""
-"data/events.xml.append$/dummyroot/event[@name=\"RK_A_OUTSIDE_POLICE_INTRO_QUEST_START\"]/choice[2]/event/choice[1]/event/text"
-msgstr ""
-
-#: src-en/data/events.xml.append:503
-msgid ""
-"data/events.xml.append$/dummyroot/event[@name=\"RK_A_OUTSIDE_POLICE_INTRO_QUEST_START\"]/choice[2]/event/choice[1]/event/choice/text"
-msgstr ""
-
-#: src-en/data/events.xml.append:505
-msgid ""
-"data/events.xml.append$/dummyroot/event[@name=\"RK_A_OUTSIDE_POLICE_INTRO_QUEST_START\"]/choice[2]/event/choice[1]/event/choice/event/text"
-msgstr ""
-
-#: src-en/data/events.xml.append:511
-msgid ""
-"data/events.xml.append$/dummyroot/event[@name=\"RK_A_OUTSIDE_POLICE_INTRO_QUEST_START\"]/choice[2]/event/choice[1]/event/choice/event/choice/text"
-msgstr ""
-
-#: src-en/data/events.xml.append:513
-msgid ""
-"data/events.xml.append$/dummyroot/event[@name=\"RK_A_OUTSIDE_POLICE_INTRO_QUEST_START\"]/choice[2]/event/choice[1]/event/choice/event/choice/event/text"
-msgstr ""
-
-#: src-en/data/events.xml.append:525
-msgid ""
-"data/events.xml.append$/dummyroot/event[@name=\"RK_A_OUTSIDE_POLICE_INTRO_QUEST_START\"]/choice[2]/event/choice[2]/text"
-msgstr ""
-
-#: src-en/data/events.xml.append:527
-msgid ""
-"data/events.xml.append$/dummyroot/event[@name=\"RK_A_OUTSIDE_POLICE_INTRO_QUEST_START\"]/choice[2]/event/choice[2]/event/text"
-msgstr ""
-
-#: src-en/data/events.xml.append:538
-msgid ""
-"data/events.xml.append$/dummyroot/event[@name=\"RK_A_OUTSIDE_POLICE_INTRO_QUEST_START\"]/choice[2]/event/choice[3]/text"
-msgstr ""
-
-#: src-en/data/events.xml.append:540
-msgid ""
-"data/events.xml.append$/dummyroot/event[@name=\"RK_A_OUTSIDE_POLICE_INTRO_QUEST_START\"]/choice[2]/event/choice[3]/event/text"
-msgstr ""
-
-#: src-en/data/events.xml.append:550
-msgid ""
-"data/events.xml.append$/dummyroot/event[@name=\"RK_A_OUTSIDE_POLICE_INTRO_QUEST_START\"]/choice[2]/event/choice[3]/event/choice/text"
-msgstr "Continuer..."
-
-#: src-en/data/events.xml.append:559
+#: src-en/data/events.xml.append:498
 msgid ""
 "data/events.xml.append$/dummyroot/event[@name=\"RK_A_OUTSIDE_POLICE_INTRO_QUEST_START\"]/choice[3]/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:565
+#: src-en/data/events.xml.append:500
 msgid ""
-"data/events.xml.append$/dummyroot/event[@name=\"RK_A_OUTSIDE_POLICE_INTRO_QUEST_START\"]/choice[4]/text"
+"data/events.xml.append$/dummyroot/event[@name=\"RK_A_OUTSIDE_POLICE_INTRO_QUEST_START\"]/choice[3]/event/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:567
+#: src-en/data/events.xml.append:503
+msgid ""
+"data/events.xml.append$/dummyroot/event[@name=\"RK_A_OUTSIDE_POLICE_INTRO_QUEST_START\"]/choice[3]/event/choice/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:505
+msgid ""
+"data/events.xml.append$/dummyroot/event[@name=\"RK_A_OUTSIDE_POLICE_INTRO_QUEST_START\"]/choice[3]/event/choice/event/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:512
+msgid ""
+"data/events.xml.append$/dummyroot/event[@name=\"RK_A_OUTSIDE_POLICE_INTRO_QUEST_START\"]/choice[3]/event/choice/event/choice/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:514
+msgid ""
+"data/events.xml.append$/dummyroot/event[@name=\"RK_A_OUTSIDE_POLICE_INTRO_QUEST_START\"]/choice[3]/event/choice/event/choice/event/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:522
+msgid ""
+"data/events.xml.append$/dummyroot/event[@name=\"RK_A_OUTSIDE_POLICE_INTRO_QUEST_START\"]/choice[3]/event/choice/event/choice/event/choice[1]/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:528
+msgid ""
+"data/events.xml.append$/dummyroot/event[@name=\"RK_A_OUTSIDE_POLICE_INTRO_QUEST_START\"]/choice[3]/event/choice/event/choice/event/choice[2]/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:530
+msgid ""
+"data/events.xml.append$/dummyroot/event[@name=\"RK_A_OUTSIDE_POLICE_INTRO_QUEST_START\"]/choice[3]/event/choice/event/choice/event/choice[2]/event/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:535
+msgid ""
+"data/events.xml.append$/dummyroot/event[@name=\"RK_A_OUTSIDE_POLICE_INTRO_QUEST_START\"]/choice[3]/event/choice/event/choice/event/choice[2]/event/choice/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:537
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_RK_DETECTED_ATTACK\"]/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:577
+#: src-en/data/events.xml.append:547
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_RK_DETECTED_ATTACK\"]/choice/text"
 msgstr "Continuer..."
 
-#: src-en/data/events.xml.append:579
+#: src-en/data/events.xml.append:556
 msgid ""
-"data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_RK_DETECTED_ATTACK\"]/choice/event/text"
+"data/events.xml.append$/dummyroot/event[@name=\"RK_A_OUTSIDE_POLICE_INTRO_QUEST_START\"]/choice[3]/event/choice/event/choice/event/choice[@req=\"RK_HAS_GEAR_SURRENDERABLE_TO_RK_A\""
+" and @lvl=\"0\"]/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:558
+msgid ""
+"data/events.xml.append$/dummyroot/event[@name=\"RK_A_OUTSIDE_POLICE_INTRO_QUEST_START\"]/choice[3]/event/choice/event/choice/event/choice[@req=\"RK_HAS_GEAR_SURRENDERABLE_TO_RK_A\""
+" and @lvl=\"0\"]/event/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:561
+msgid ""
+"data/events.xml.append$/dummyroot/event[@name=\"RK_A_OUTSIDE_POLICE_INTRO_QUEST_START\"]/choice[3]/event/choice/event/choice/event/choice[@req=\"RK_HAS_GEAR_SURRENDERABLE_TO_RK_A\""
+" and @lvl=\"0\"]/event/choice[1]/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:563
+msgid ""
+"data/events.xml.append$/dummyroot/event[@name=\"RK_A_OUTSIDE_POLICE_INTRO_QUEST_START\"]/choice[3]/event/choice/event/choice/event/choice[@req=\"RK_HAS_GEAR_SURRENDERABLE_TO_RK_A\""
+" and @lvl=\"0\"]/event/choice[1]/event/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:572
+msgid ""
+"data/events.xml.append$/dummyroot/event[@name=\"RK_A_OUTSIDE_POLICE_INTRO_QUEST_START\"]/choice[3]/event/choice/event/choice/event/choice[@req=\"RK_HAS_GEAR_SURRENDERABLE_TO_RK_A\""
+" and @lvl=\"0\"]/event/choice[2]/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:574
+msgid ""
+"data/events.xml.append$/dummyroot/event[@name=\"RK_A_OUTSIDE_POLICE_INTRO_QUEST_START\"]/choice[3]/event/choice/event/choice/event/choice[@req=\"RK_HAS_GEAR_SURRENDERABLE_TO_RK_A\""
+" and @lvl=\"0\"]/event/choice[2]/event/text"
 msgstr ""
 
 #: src-en/data/events.xml.append:584
 msgid ""
-"data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_RK_DETECTED_ATTACK\"]/choice/event/choice/text"
-msgstr "Continuer..."
-
-#: src-en/data/events.xml.append:592
-msgid ""
-"data/events.xml.append$/dummyroot/event[@name=\"RK_A_OUTSIDE_POLICE_INTRO_QUEST_START\"]/choice[5]/text"
+"data/events.xml.append$/dummyroot/event[@name=\"RK_A_OUTSIDE_POLICE_INTRO_QUEST_START\"]/choice[3]/event/choice/event/choice/event/choice[@req=\"RK_HAS_GEAR_SURRENDERABLE_TO_RK_A\""
+" and @lvl=\"0\"]/event/choice[3]/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:622
+#: src-en/data/events.xml.append:586
 msgid ""
-"data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER2_QUEST_START\"]/text"
+"data/events.xml.append$/dummyroot/event[@name=\"RK_A_OUTSIDE_POLICE_INTRO_QUEST_START\"]/choice[3]/event/choice/event/choice/event/choice[@req=\"RK_HAS_GEAR_SURRENDERABLE_TO_RK_A\""
+" and @lvl=\"0\"]/event/choice[3]/event/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:626
+#: src-en/data/events.xml.append:591
 msgid ""
-"data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER2_QUEST_START\"]/choice[1]/text"
+"data/events.xml.append$/dummyroot/event[@name=\"RK_A_OUTSIDE_POLICE_INTRO_QUEST_START\"]/choice[3]/event/choice/event/choice/event/choice[@req=\"RK_HAS_GEAR_SURRENDERABLE_TO_RK_A\""
+" and @lvl=\"0\"]/event/choice[3]/event/choice/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:631
+#: src-en/data/events.xml.append:635
 msgid ""
-"data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER2_QUEST_START\"]/choice[2]/text"
-msgstr ""
-
-#: src-en/data/events.xml.append:633
-msgid ""
-"data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER2_QUEST_START\"]/choice[2]/event/text"
-msgstr ""
-
-#: src-en/data/events.xml.append:636
-msgid ""
-"data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER2_QUEST_START\"]/choice[2]/event/choice[1]/text"
-msgstr ""
-
-#: src-en/data/events.xml.append:638
-msgid ""
-"data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER2_QUEST_START\"]/choice[2]/event/choice[1]/event/text"
-msgstr ""
-
-#: src-en/data/events.xml.append:641
-msgid ""
-"data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER2_QUEST_START\"]/choice[2]/event/choice[1]/event/choice/text"
-msgstr ""
-
-#: src-en/data/events.xml.append:643
-msgid ""
-"data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER2_QUEST_START\"]/choice[2]/event/choice[1]/event/choice/event/text"
-msgstr ""
-
-#: src-en/data/events.xml.append:652
-msgid ""
-"data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER2_QUEST_START\"]/choice[2]/event/choice[2]/text"
-msgstr ""
-
-#: src-en/data/events.xml.append:654
-msgid ""
-"data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER2_QUEST_START\"]/choice[2]/event/choice[2]/event/text"
+"data/events.xml.append$/dummyroot/event[@name=\"RK_A_OUTSIDE_POLICE_INTRO_QUEST_START\"]/choice[4]/text"
 msgstr ""
 
 #: src-en/data/events.xml.append:665
 msgid ""
-"data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER2_QUEST_START\"]/choice[2]/event/choice[3]/text"
+"data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER2_QUEST_START\"]/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:667
+#: src-en/data/events.xml.append:673
 msgid ""
-"data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER2_QUEST_START\"]/choice[2]/event/choice[3]/event/text"
+"data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER2_QUEST_START\"]/choice[@req=\"RK_HAS_GEAR_SURRENDERABLE_TO_RK_A\""
+" and @lvl=\"0\"]/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:677
+#: src-en/data/events.xml.append:678
 msgid ""
-"data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER2_QUEST_START\"]/choice[2]/event/choice[3]/event/choice/text"
-msgstr "Continuer..."
+"data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER2_QUEST_START\"]/choice[@req=\"RK_HAS_GEAR_SURRENDERABLE_TO_RK_A\""
+" and @lvl=\"1\"]/text"
+msgstr ""
 
-#: src-en/data/events.xml.append:686
+#: src-en/data/events.xml.append:685
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER2_QUEST_START\"]/choice[3]/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:691
+#: src-en/data/events.xml.append:687
 msgid ""
-"data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER2_QUEST_START\"]/choice[4]/text"
+"data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER2_QUEST_START\"]/choice[3]/event/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:693
+#: src-en/data/events.xml.append:691
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER2_QUEST_START\"]/choice[3]/event/choice[1]/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:697
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER2_QUEST_START\"]/choice[3]/event/choice[2]/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:699
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER2_QUEST_START\"]/choice[3]/event/choice[2]/event/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:704
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER2_QUEST_START\"]/choice[3]/event/choice[2]/event/choice/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:706
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER2_RK_DETECTED_ATTACK\"]/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:703
+#: src-en/data/events.xml.append:716
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER2_RK_DETECTED_ATTACK\"]/choice/text"
 msgstr "Continuer..."
 
-#: src-en/data/events.xml.append:705
+#: src-en/data/events.xml.append:725
 msgid ""
-"data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER2_RK_DETECTED_ATTACK\"]/choice/event/text"
+"data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER2_QUEST_START\"]/choice[3]/event/choice[@req=\"RK_HAS_GEAR_SURRENDERABLE_TO_RK_A\""
+" and @lvl=\"0\"]/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:710
+#: src-en/data/events.xml.append:727
 msgid ""
-"data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER2_RK_DETECTED_ATTACK\"]/choice/event/choice/text"
+"data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER2_QUEST_START\"]/choice[3]/event/choice[@req=\"RK_HAS_GEAR_SURRENDERABLE_TO_RK_A\""
+" and @lvl=\"0\"]/event/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:730
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER2_QUEST_START\"]/choice[3]/event/choice[@req=\"RK_HAS_GEAR_SURRENDERABLE_TO_RK_A\""
+" and @lvl=\"0\"]/event/choice[1]/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:732
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER2_QUEST_START\"]/choice[3]/event/choice[@req=\"RK_HAS_GEAR_SURRENDERABLE_TO_RK_A\""
+" and @lvl=\"0\"]/event/choice[1]/event/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:740
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER2_QUEST_START\"]/choice[3]/event/choice[@req=\"RK_HAS_GEAR_SURRENDERABLE_TO_RK_A\""
+" and @lvl=\"0\"]/event/choice[2]/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:742
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER2_QUEST_START\"]/choice[3]/event/choice[@req=\"RK_HAS_GEAR_SURRENDERABLE_TO_RK_A\""
+" and @lvl=\"0\"]/event/choice[2]/event/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:749
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER2_QUEST_START\"]/choice[3]/event/choice[@req=\"RK_HAS_GEAR_SURRENDERABLE_TO_RK_A\""
+" and @lvl=\"0\"]/event/choice[3]/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:751
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER2_QUEST_START\"]/choice[3]/event/choice[@req=\"RK_HAS_GEAR_SURRENDERABLE_TO_RK_A\""
+" and @lvl=\"0\"]/event/choice[3]/event/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:761
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER2_QUEST_START\"]/choice[3]/event/choice[@req=\"RK_HAS_GEAR_SURRENDERABLE_TO_RK_A\""
+" and @lvl=\"0\"]/event/choice[3]/event/choice/text"
 msgstr "Continuer..."
 
-#: src-en/data/events.xml.append:718
+#: src-en/data/events.xml.append:805
 msgid ""
-"data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER2_QUEST_START\"]/choice[5]/text"
+"data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER2_QUEST_START\"]/choice[4]/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:748
+#: src-en/data/events.xml.append:835
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER3_QUEST_START\"]/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:752
+#: src-en/data/events.xml.append:843
 msgid ""
-"data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER3_QUEST_START\"]/choice[1]/text"
+"data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER3_QUEST_START\"]/choice[@req=\"RK_HAS_GEAR_SURRENDERABLE_TO_RK_A\""
+" and @lvl=\"0\"]/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:757
+#: src-en/data/events.xml.append:848
 msgid ""
-"data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER3_QUEST_START\"]/choice[2]/text"
+"data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER3_QUEST_START\"]/choice[@req=\"RK_HAS_GEAR_SURRENDERABLE_TO_RK_A\""
+" and @lvl=\"1\"]/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:759
-msgid ""
-"data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER3_QUEST_START\"]/choice[2]/event/text"
-msgstr ""
-
-#: src-en/data/events.xml.append:762
-msgid ""
-"data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER3_QUEST_START\"]/choice[2]/event/choice[1]/text"
-msgstr ""
-
-#: src-en/data/events.xml.append:764
-msgid ""
-"data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER3_QUEST_START\"]/choice[2]/event/choice[1]/event/text"
-msgstr ""
-
-#: src-en/data/events.xml.append:768
-msgid ""
-"data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER3_QUEST_START\"]/choice[2]/event/choice[1]/event/choice/text"
-msgstr ""
-
-#: src-en/data/events.xml.append:770
-msgid ""
-"data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER3_QUEST_START\"]/choice[2]/event/choice[1]/event/choice/event/text"
-msgstr ""
-
-#: src-en/data/events.xml.append:778
-msgid ""
-"data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER3_QUEST_START\"]/choice[2]/event/choice[2]/text"
-msgstr ""
-
-#: src-en/data/events.xml.append:780
-msgid ""
-"data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER3_QUEST_START\"]/choice[2]/event/choice[2]/event/text"
-msgstr ""
-
-#: src-en/data/events.xml.append:791
-msgid ""
-"data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER3_QUEST_START\"]/choice[2]/event/choice[3]/text"
-msgstr ""
-
-#: src-en/data/events.xml.append:793
-msgid ""
-"data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER3_QUEST_START\"]/choice[2]/event/choice[3]/event/text"
-msgstr ""
-
-#: src-en/data/events.xml.append:803
-msgid ""
-"data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER3_QUEST_START\"]/choice[2]/event/choice[3]/event/choice/text"
-msgstr "Continuer..."
-
-#: src-en/data/events.xml.append:812
+#: src-en/data/events.xml.append:855
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER3_QUEST_START\"]/choice[3]/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:817
+#: src-en/data/events.xml.append:857
 msgid ""
-"data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER3_QUEST_START\"]/choice[4]/text"
+"data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER3_QUEST_START\"]/choice[3]/event/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:819
+#: src-en/data/events.xml.append:861
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER3_QUEST_START\"]/choice[3]/event/choice[1]/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:867
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER3_QUEST_START\"]/choice[3]/event/choice[2]/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:869
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER3_QUEST_START\"]/choice[3]/event/choice[2]/event/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:874
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER3_QUEST_START\"]/choice[3]/event/choice[2]/event/choice/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:876
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER3_RK_DETECTED_ATTACK\"]/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:829
+#: src-en/data/events.xml.append:886
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER3_RK_DETECTED_ATTACK\"]/choice/text"
 msgstr "Continuer..."
 
-#: src-en/data/events.xml.append:831
+#: src-en/data/events.xml.append:895
 msgid ""
-"data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER3_RK_DETECTED_ATTACK\"]/choice/event/text"
+"data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER3_QUEST_START\"]/choice[3]/event/choice[@req=\"RK_HAS_GEAR_SURRENDERABLE_TO_RK_A\""
+" and @lvl=\"0\"]/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:836
+#: src-en/data/events.xml.append:897
 msgid ""
-"data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER3_RK_DETECTED_ATTACK\"]/choice/event/choice/text"
-msgstr "Continuer..."
-
-#: src-en/data/events.xml.append:844
-msgid ""
-"data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER3_QUEST_START\"]/choice[5]/text"
+"data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER3_QUEST_START\"]/choice[3]/event/choice[@req=\"RK_HAS_GEAR_SURRENDERABLE_TO_RK_A\""
+" and @lvl=\"0\"]/event/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:860
+#: src-en/data/events.xml.append:900
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER3_QUEST_START\"]/choice[3]/event/choice[@req=\"RK_HAS_GEAR_SURRENDERABLE_TO_RK_A\""
+" and @lvl=\"0\"]/event/choice[1]/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:902
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER3_QUEST_START\"]/choice[3]/event/choice[@req=\"RK_HAS_GEAR_SURRENDERABLE_TO_RK_A\""
+" and @lvl=\"0\"]/event/choice[1]/event/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:911
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER3_QUEST_START\"]/choice[3]/event/choice[@req=\"RK_HAS_GEAR_SURRENDERABLE_TO_RK_A\""
+" and @lvl=\"0\"]/event/choice[2]/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:913
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER3_QUEST_START\"]/choice[3]/event/choice[@req=\"RK_HAS_GEAR_SURRENDERABLE_TO_RK_A\""
+" and @lvl=\"0\"]/event/choice[2]/event/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:920
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER3_QUEST_START\"]/choice[3]/event/choice[@req=\"RK_HAS_GEAR_SURRENDERABLE_TO_RK_A\""
+" and @lvl=\"0\"]/event/choice[3]/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:922
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER3_QUEST_START\"]/choice[3]/event/choice[@req=\"RK_HAS_GEAR_SURRENDERABLE_TO_RK_A\""
+" and @lvl=\"0\"]/event/choice[3]/event/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:927
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER3_QUEST_START\"]/choice[3]/event/choice[@req=\"RK_HAS_GEAR_SURRENDERABLE_TO_RK_A\""
+" and @lvl=\"0\"]/event/choice[3]/event/choice/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:1042
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER3_QUEST_START\"]/choice[4]/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:1058
 msgid "data/events.xml.append$//event[@name=\"DEFEAT_RK_A_POLICE_INTRO\"]/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:866
+#: src-en/data/events.xml.append:1064
 msgid ""
 "data/events.xml.append$//event[@name=\"DEFEAT_RK_A_POLICE_INTRO\"]/choice/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:875
+#: src-en/data/events.xml.append:1069
 msgid "data/events.xml.append$//event[@name=\"DEFEAT_RK_A_POLICE\"]/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:882
+#: src-en/data/events.xml.append:1075
 msgid "data/events.xml.append$//event[@name=\"DEFEAT_RK_A_POLICE\"]/choice/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:893
+#: src-en/data/events.xml.append:1082
 msgid ""
 "data/events.xml.append$//eventList[@name=\"DEFEAT_RK_A_POLICE_LOOT_CHANCE\"]/event[1]/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:901
+#: src-en/data/events.xml.append:1086
+msgid ""
+"data/events.xml.append$//eventList[@name=\"DEFEAT_RK_A_POLICE_LOOT_CHANCE\"]/event[1]/choice/text"
+msgstr "Continuer..."
+
+#: src-en/data/events.xml.append:1091
 msgid ""
 "data/events.xml.append$//eventList[@name=\"DEFEAT_RK_A_POLICE_LOOT_CHANCE\"]/event[2]/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:910
+#: src-en/data/events.xml.append:1096
+msgid ""
+"data/events.xml.append$//eventList[@name=\"DEFEAT_RK_A_POLICE_LOOT_CHANCE\"]/event[2]/choice/text"
+msgstr "Continuer..."
+
+#: src-en/data/events.xml.append:1101
 msgid ""
 "data/events.xml.append$//eventList[@name=\"DEFEAT_RK_A_POLICE_LOOT_CHANCE\"]/event[3]/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:934
-msgid ""
-"data/events.xml.append$//textList[@name=\"TEXT_EVENT_STORE_RADIKAL\"]/text[1]"
-msgstr ""
-
-#: src-en/data/events.xml.append:937
-msgid ""
-"data/events.xml.append$//textList[@name=\"TEXT_EVENT_STORE_RADIKAL\"]/text[2]"
-msgstr ""
-
-#: src-en/data/events.xml.append:940
-msgid ""
-"data/events.xml.append$//textList[@name=\"TEXT_EVENT_STORE_RADIKAL\"]/text[3]"
-msgstr ""
-
-#: src-en/data/events.xml.append:943
-msgid ""
-"data/events.xml.append$//textList[@name=\"TEXT_EVENT_STORE_RADIKAL\"]/text[4]"
-msgstr ""
-
-#: src-en/data/events.xml.append:946
-msgid ""
-"data/events.xml.append$//textList[@name=\"TEXT_EVENT_STORE_RADIKAL\"]/text[5]"
-msgstr ""
-
-#: src-en/data/events.xml.append:949
-msgid ""
-"data/events.xml.append$//textList[@name=\"TEXT_EVENT_STORE_RADIKAL\"]/text[6]"
-msgstr ""
-
-#: src-en/data/events.xml.append:952
-msgid ""
-"data/events.xml.append$//textList[@name=\"TEXT_EVENT_STORE_RADIKAL\"]/text[7]"
-msgstr ""
-
-#: src-en/data/events.xml.append:963
-msgid "data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED\"]/text"
-msgstr ""
-
-#: src-en/data/events.xml.append:967
-#, fuzzy
-msgid "data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED\"]/choice[1]/text"
-msgstr "Regarder qui ils ont à vendre."
-
-#: src-en/data/events.xml.append:969
-msgid ""
-"data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED\"]/choice[1]/event/text"
-msgstr ""
-
-#: src-en/data/events.xml.append:972
-msgid ""
-"data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED\"]/choice[1]/event/choice[1]/text"
-msgstr ""
-
-#: src-en/data/events.xml.append:974
-msgid ""
-"data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED\"]/choice[1]/event/choice[1]/event/text"
-msgstr ""
-
-#: src-en/data/events.xml.append:980
-msgid ""
-"data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED\"]/choice[1]/event/choice[1]/event/choice/text"
-msgstr "Continuer..."
-
-#: src-en/data/events.xml.append:987
-msgid ""
-"data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED\"]/choice[1]/event/choice[2]/text"
-msgstr "Refuser."
-
-#: src-en/data/events.xml.append:994
-#, fuzzy
-msgid "data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED\"]/choice[2]/text"
-msgstr "Les ignorer."
-
-#: src-en/data/events.xml.append:996
-msgid ""
-"data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED\"]/choice[2]/event/text"
-msgstr ""
-
-#: src-en/data/events.xml.append:1000
-msgid ""
-"data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED\"]/choice[2]/event/choice/text"
-msgstr "Continuer..."
-
-#: src-en/data/events.xml.append:1007
-msgid "data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED\"]/choice[3]/text"
-msgstr "Les ignorer."
-
-#: src-en/data/events.xml.append:1009
-msgid ""
-"data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED\"]/choice[3]/event/text"
-msgstr ""
-
-#: src-en/data/events.xml.append:1013
-msgid ""
-"data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED\"]/choice[3]/event/choice[1]/text"
-msgstr "Faire quelque chose à bord du vaisseau."
-
-#: src-en/data/events.xml.append:1017
-msgid ""
-"data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED\"]/choice[3]/event/choice[2]/text"
-msgstr "Ne rien faire."
-
-#: src-en/data/events.xml.append:1043
-msgid ""
-"data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED_GOODEND_LOSTSUN\"]/text"
-msgstr ""
-
-#: src-en/data/events.xml.append:1046
-msgid ""
-"data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED_GOODEND_LOSTSUN\"]/choice/text"
-msgstr ""
-
-#: src-en/data/events.xml.append:1051
-msgid ""
-"data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED_GOODEND_DUSKBRINGER\"]/text"
-msgstr ""
-
-#: src-en/data/events.xml.append:1054
-msgid ""
-"data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED_GOODEND_DUSKBRINGER\"]/choice/text"
-msgstr ""
-
-#: src-en/data/events.xml.append:1059
-msgid ""
-"data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED_GOODEND_GOUL\"]/text"
-msgstr ""
-
-#: src-en/data/events.xml.append:1062
-msgid ""
-"data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED_GOODEND_GOUL\"]/choice/text"
-msgstr ""
-
-#: src-en/data/events.xml.append:1067
-msgid ""
-"data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED_GOODEND_MANTIS\"]/text"
-msgstr ""
-
-#: src-en/data/events.xml.append:1070
-msgid ""
-"data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED_GOODEND_MANTIS\"]/choice/text"
-msgstr ""
-
-#: src-en/data/events.xml.append:1075
-msgid ""
-"data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED_GOODEND_RK_WEAPONLIKE\"]/text"
-msgstr ""
-
-#: src-en/data/events.xml.append:1078
-msgid ""
-"data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED_GOODEND_RK_WEAPONLIKE\"]/choice/text"
-msgstr ""
-
-#: src-en/data/events.xml.append:1083
-msgid ""
-"data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED_GOODEND_RK_FIREGHOST\"]/text"
-msgstr ""
-
-#: src-en/data/events.xml.append:1086
-msgid ""
-"data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED_GOODEND_RK_FIREGHOST\"]/choice/text"
-msgstr ""
-
-#: src-en/data/events.xml.append:1092
-msgid ""
-"data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED_BADEND_LOSTSUN\"]/text"
-msgstr ""
-
-#: src-en/data/events.xml.append:1101
-msgid ""
-"data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED_BADEND_LOSTSUN\"]/choice/text"
-msgstr ""
-
 #: src-en/data/events.xml.append:1106
 msgid ""
-"data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED_BADEND_DUSKBRINGER\"]/text"
+"data/events.xml.append$//eventList[@name=\"DEFEAT_RK_A_POLICE_LOOT_CHANCE\"]/event[3]/choice/text"
+msgstr "Continuer..."
+
+#: src-en/data/events.xml.append:1117
+msgid "data/events.xml.append$//event[@name=\"RK_OUTSIDE_STORE\"]/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:1115
-msgid ""
-"data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED_BADEND_DUSKBRINGER\"]/choice/text"
+#: src-en/data/events.xml.append:1124
+msgid "data/events.xml.append$//event[@name=\"RK_OUTSIDE_STORE\"]/choice/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:1120
+#: src-en/data/events.xml.append:1126
 msgid ""
-"data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED_BADEND_GOUL\"]/text"
+"data/events.xml.append$//event[@name=\"RK_OUTSIDE_STORE\"]/choice/event/text"
 msgstr ""
 
 #: src-en/data/events.xml.append:1129
 msgid ""
-"data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED_BADEND_GOUL\"]/choice/text"
+"data/events.xml.append$//event[@name=\"RK_OUTSIDE_STORE\"]/choice/event/choice[1]/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:1134
+#: src-en/data/events.xml.append:1131
 msgid ""
-"data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED_BADEND_MANTIS\"]/text"
+"data/events.xml.append$//event[@name=\"RK_OUTSIDE_STORE\"]/choice/event/choice[1]/event/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:1143
+#: src-en/data/events.xml.append:1138
 msgid ""
-"data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED_BADEND_MANTIS\"]/choice/text"
+"data/events.xml.append$//event[@name=\"RK_OUTSIDE_STORE\"]/choice/event/choice[1]/event/choice/text"
+msgstr "Continuer..."
+
+#: src-en/data/events.xml.append:1145
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_OUTSIDE_STORE\"]/choice/event/choice[@req=\"DJMOD_NO_COORDS_NO_VISIT_RADIKAL_SECTOR\"]/text"
 msgstr ""
 
 #: src-en/data/events.xml.append:1148
 msgid ""
-"data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED_BADEND_RK_WEAPONLIKE\"]/text"
+"data/events.xml.append$//event[@name=\"RK_OUTSIDE_STORE\"]/choice/event/choice[@req=\"DJMOD_NO_COORDS_NO_VISIT_RADIKAL_SECTOR\"]/event/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:1157
+#: src-en/data/events.xml.append:1160
 msgid ""
-"data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED_BADEND_RK_WEAPONLIKE\"]/choice/text"
+"data/events.xml.append$//event[@name=\"RK_OUTSIDE_STORE\"]/choice/event/choice[3]/text"
 msgstr ""
 
 #: src-en/data/events.xml.append:1162
 msgid ""
-"data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED_BADEND_RK_FIREGHOST\"]/text"
+"data/events.xml.append$//event[@name=\"RK_OUTSIDE_STORE\"]/choice/event/choice[3]/event/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:1171
+#: src-en/data/events.xml.append:1178
+msgid "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:1190
 msgid ""
-"data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED_BADEND_RK_FIREGHOST\"]/choice/text"
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_BAM_DIVINE_ARMOR\"]/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:1189
-msgid "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/text"
-msgstr ""
-
-#: src-en/data/events.xml.append:1193
+#: src-en/data/events.xml.append:1192
 msgid ""
-"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/text"
-msgstr ""
-
-#: src-en/data/events.xml.append:1195
-msgid ""
-"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/text"
-msgstr ""
-
-#: src-en/data/events.xml.append:1198
-msgid ""
-"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/text"
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_BAM_DIVINE_ARMOR\"]/event/text"
 msgstr ""
 
 #: src-en/data/events.xml.append:1200
 msgid ""
-"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/text"
-msgstr ""
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_BAM_DIVINE_ARMOR\"]/event/choice/text"
+msgstr "Continuer..."
 
-#: src-en/data/events.xml.append:1203
+#: src-en/data/events.xml.append:1206
 msgid ""
-"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/text"
-msgstr ""
-
-#: src-en/data/events.xml.append:1205
-msgid ""
-"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/text"
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_COMBAT_AUTO_SYS_REPAIR\"]/text"
 msgstr ""
 
 #: src-en/data/events.xml.append:1208
 msgid ""
-"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/text"
-msgstr ""
-
-#: src-en/data/events.xml.append:1210
-msgid ""
-"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/text"
-msgstr ""
-
-#: src-en/data/events.xml.append:1214
-msgid ""
-"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"DJMOD_BAM_FISSUREBEAM\"]/text"
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_COMBAT_AUTO_SYS_REPAIR\"]/event/text"
 msgstr ""
 
 #: src-en/data/events.xml.append:1216
 msgid ""
-"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"DJMOD_BAM_FISSUREBEAM\"]/event/text"
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_COMBAT_AUTO_SYS_REPAIR\"]/event/choice/text"
+msgstr "Continuer..."
+
+#: src-en/data/events.xml.append:1222
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"DJMOD_COMBAT_SHIPVORE_RAM\"]/text"
 msgstr ""
 
 #: src-en/data/events.xml.append:1224
 msgid ""
-"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"RK_HEAVY_POPPER_1\"]/text"
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"DJMOD_COMBAT_SHIPVORE_RAM\"]/event/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:1226
+#: src-en/data/events.xml.append:1232
 msgid ""
-"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"RK_HEAVY_POPPER_1\"]/event/text"
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"DJMOD_COMBAT_SHIPVORE_RAM\"]/event/choice/text"
+msgstr "Continuer..."
+
+#: src-en/data/events.xml.append:1238
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_CREW_ARE_BOMBS_OFF\"]/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:1234
+#: src-en/data/events.xml.append:1240
 msgid ""
-"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"RK_HEAVY_POPPER_2\"]/text"
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_CREW_ARE_BOMBS_OFF\"]/event/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:1236
+#: src-en/data/events.xml.append:1248
 msgid ""
-"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"RK_HEAVY_POPPER_2\"]/event/text"
-msgstr ""
-
-#: src-en/data/events.xml.append:1244
-msgid ""
-"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"RK_HEAVY_POPPER_3\"]/text"
-msgstr ""
-
-#: src-en/data/events.xml.append:1246
-msgid ""
-"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"RK_HEAVY_POPPER_3\"]/event/text"
-msgstr ""
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_CREW_ARE_BOMBS_OFF\"]/event/choice/text"
+msgstr "Continuer..."
 
 #: src-en/data/events.xml.append:1254
 msgid ""
-"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"RK_UNLOADER\"]/text"
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_CREW_ARE_BOMBS_ON\"]/text"
 msgstr ""
 
 #: src-en/data/events.xml.append:1256
 msgid ""
-"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"RK_UNLOADER\"]/event/text"
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_CREW_ARE_BOMBS_ON\"]/event/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:1265
+#: src-en/data/events.xml.append:1264
 msgid ""
-"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"RK_BOMBLAUNCHER_ANTIBIO_REPAIR\"]/text"
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_CREW_ARE_BOMBS_ON\"]/event/choice/text"
+msgstr "Continuer..."
+
+#: src-en/data/events.xml.append:1270
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_LEAD_TITANS\"]/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:1267
+#: src-en/data/events.xml.append:1272
 msgid ""
-"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"RK_BOMBLAUNCHER_ANTIBIO_REPAIR\"]/event/text"
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_LEAD_TITANS\"]/event/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:1275
+#: src-en/data/events.xml.append:1280
 msgid ""
-"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"RK_KILLALL_BEAM\"]/text"
-msgstr "Leur vendre votre rayon Gravespred pour 135~."
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_LEAD_TITANS\"]/event/choice/text"
+msgstr "Continuer..."
 
-#: src-en/data/events.xml.append:1277
+#: src-en/data/events.xml.append:1286
 msgid ""
-"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"RK_KILLALL_BEAM\"]/event/text"
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_PERSISTENCE_SHIELD\"]/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:1285
+#: src-en/data/events.xml.append:1288
 msgid ""
-"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"RK_MISSLAUNCHER_2_BATTERY\"]/text"
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_PERSISTENCE_SHIELD\"]/event/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:1287
+#: src-en/data/events.xml.append:1296
 msgid ""
-"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"RK_MISSLAUNCHER_2_BATTERY\"]/event/text"
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_PERSISTENCE_SHIELD\"]/event/choice/text"
+msgstr "Continuer..."
+
+#: src-en/data/events.xml.append:1304
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_ARROGANCE_SHIELD\"]/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:1295
+#: src-en/data/events.xml.append:1306
 msgid ""
-"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"RK_RAIN_OF_ION\"]/text"
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_ARROGANCE_SHIELD\"]/event/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:1297
+#: src-en/data/events.xml.append:1314
 msgid ""
-"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"RK_RAIN_OF_ION\"]/event/text"
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_ARROGANCE_SHIELD\"]/event/choice/text"
+msgstr "Continuer..."
+
+#: src-en/data/events.xml.append:1320
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_COMBAT_DEFENSE_REMOVER\"]/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:1305
+#: src-en/data/events.xml.append:1322
 msgid ""
-"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"RK_SHOTPHASER\"]/text"
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_COMBAT_DEFENSE_REMOVER\"]/event/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:1307
+#: src-en/data/events.xml.append:1330
 msgid ""
-"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"RK_SHOTPHASER\"]/event/text"
-msgstr ""
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_COMBAT_DEFENSE_REMOVER\"]/event/choice/text"
+msgstr "Continuer..."
 
-#: src-en/data/events.xml.append:1316
+#: src-en/data/events.xml.append:1336
 msgid ""
-"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"RK_BOMBLAUNCHER_OXYBOTTLE\"]/text"
-msgstr ""
-
-#: src-en/data/events.xml.append:1318
-msgid ""
-"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"RK_BOMBLAUNCHER_OXYBOTTLE\"]/event/text"
-msgstr ""
-
-#: src-en/data/events.xml.append:1327
-msgid ""
-"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"RK_OXY_FIREFILL_MISSILES\"]/text"
-msgstr ""
-
-#: src-en/data/events.xml.append:1329
-msgid ""
-"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"RK_OXY_FIREFILL_MISSILES\"]/event/text"
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_COMBAT_OFFENSE_DISABLER\"]/text"
 msgstr ""
 
 #: src-en/data/events.xml.append:1338
 msgid ""
-"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"RK_FOCUS_FIRE\"]/text"
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_COMBAT_OFFENSE_DISABLER\"]/event/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:1340
+#: src-en/data/events.xml.append:1346
 msgid ""
-"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"RK_FOCUS_FIRE\"]/event/text"
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_COMBAT_OFFENSE_DISABLER\"]/event/choice/text"
+msgstr "Continuer..."
+
+#: src-en/data/events.xml.append:1352
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_COMBAT_HACK_FLEET\"]/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:1349
+#: src-en/data/events.xml.append:1354
 msgid ""
-"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"DJMOD_RAIN_OF_FIRE\"]/text"
-msgstr ""
-
-#: src-en/data/events.xml.append:1351
-msgid ""
-"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"DJMOD_RAIN_OF_FIRE\"]/event/text"
-msgstr ""
-
-#: src-en/data/events.xml.append:1360
-msgid ""
-"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"DJMOD_LASER_BPS\"]/text"
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_COMBAT_HACK_FLEET\"]/event/text"
 msgstr ""
 
 #: src-en/data/events.xml.append:1362
 msgid ""
-"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"DJMOD_LASER_BPS\"]/event/text"
-msgstr ""
-
-#: src-en/data/events.xml.append:1371
-msgid ""
-"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"rock_commando\"]/text"
-msgstr ""
-
-#: src-en/data/events.xml.append:1373
-msgid ""
-"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"rock_commando\"]/event/text"
-msgstr ""
-
-#: src-en/data/events.xml.append:1376
-msgid ""
-"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"rock_commando\"]/event/choice/text"
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_COMBAT_HACK_FLEET\"]/event/choice/text"
 msgstr "Continuer..."
 
-#: src-en/data/events.xml.append:1383
+#: src-en/data/events.xml.append:1368
 msgid ""
-"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[17]/text"
-msgstr "Refuser."
-
-#: src-en/data/events.xml.append:1385
-msgid ""
-"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[17]/event/text"
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_DREAD_DECK\"]/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:1390
+#: src-en/data/events.xml.append:1370
 msgid ""
-"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[17]/event/choice[1]/text"
-msgstr "Faire quelque chose à bord du vaisseau."
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_DREAD_DECK\"]/event/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:1378
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_DREAD_DECK\"]/event/choice/text"
+msgstr "Continuer..."
+
+#: src-en/data/events.xml.append:1384
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_SUPER_DEFENDERS\"]/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:1386
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_SUPER_DEFENDERS\"]/event/text"
+msgstr ""
 
 #: src-en/data/events.xml.append:1394
 msgid ""
-"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[17]/event/choice[2]/text"
-msgstr "Ne rien faire."
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_SUPER_DEFENDERS\"]/event/choice/text"
+msgstr "Continuer..."
+
+#: src-en/data/events.xml.append:1400
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_OWN_HARMONY_ON\"]/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:1402
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_OWN_HARMONY_ON\"]/event/text"
+msgstr ""
 
 #: src-en/data/events.xml.append:1410
 msgid ""
-"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[2]/text"
-msgstr "Les ignorer."
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_OWN_HARMONY_ON\"]/event/choice/text"
+msgstr "Continuer..."
 
-#: src-en/data/events.xml.append:1412
+#: src-en/data/events.xml.append:1416
 msgid ""
-"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[2]/event/text"
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_OWN_HARMONY_OFF\"]/text"
 msgstr ""
-
-#: src-en/data/events.xml.append:1414
-msgid ""
-"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[2]/event/choice[1]/text"
-msgstr "Faire quelque chose à bord du vaisseau."
 
 #: src-en/data/events.xml.append:1418
 msgid ""
-"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[2]/event/choice[2]/text"
-msgstr "Ne rien faire."
-
-#: src-en/data/events.xml.append:1427
-msgid "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/text"
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_OWN_HARMONY_OFF\"]/event/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:1430
+#: src-en/data/events.xml.append:1426
 msgid ""
-"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/text"
-msgstr "Les contacter."
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_OWN_HARMONY_OFF\"]/event/choice/text"
+msgstr "Continuer..."
 
-#: src-en/data/events.xml.append:1432
+#: src-en/data/events.xml.append:1434
 msgid ""
-"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/text"
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_SCORCH_SELF\"]/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:1435
+#: src-en/data/events.xml.append:1436
 msgid ""
-"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/text"
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_SCORCH_SELF\"]/event/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:1437
+#: src-en/data/events.xml.append:1444
 msgid ""
-"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/text"
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_SCORCH_SELF\"]/event/choice/text"
+msgstr "Continuer..."
+
+#: src-en/data/events.xml.append:1450
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_SCORCH_SELF_2\"]/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:1440
+#: src-en/data/events.xml.append:1452
 msgid ""
-"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/text"
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_SCORCH_SELF_2\"]/event/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:1442
+#: src-en/data/events.xml.append:1460
 msgid ""
-"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/text"
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_SCORCH_SELF_2\"]/event/choice/text"
+msgstr "Continuer..."
+
+#: src-en/data/events.xml.append:1466
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_SCORCH_SELF_3\"]/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:1445
+#: src-en/data/events.xml.append:1468
 msgid ""
-"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/text"
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_SCORCH_SELF_3\"]/event/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:1447
+#: src-en/data/events.xml.append:1476
 msgid ""
-"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/text"
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_SCORCH_SELF_3\"]/event/choice/text"
+msgstr "Continuer..."
+
+#: src-en/data/events.xml.append:1482
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_COMBAT_SCORCH_ENEMY\"]/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:1451
+#: src-en/data/events.xml.append:1484
 msgid ""
-"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"DJMOD_BAM_FISSUREBEAM\"]/text"
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_COMBAT_SCORCH_ENEMY\"]/event/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:1453
+#: src-en/data/events.xml.append:1492
 msgid ""
-"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"DJMOD_BAM_FISSUREBEAM\"]/event/text"
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_COMBAT_SCORCH_ENEMY\"]/event/choice/text"
+msgstr "Continuer..."
+
+#: src-en/data/events.xml.append:1498
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_ENEMIES_CAN_BURN\"]/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:1461
+#: src-en/data/events.xml.append:1500
 msgid ""
-"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_HEAVY_POPPER_1\"]/text"
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_ENEMIES_CAN_BURN\"]/event/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:1463
+#: src-en/data/events.xml.append:1508
 msgid ""
-"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_HEAVY_POPPER_1\"]/event/text"
-msgstr ""
-
-#: src-en/data/events.xml.append:1471
-msgid ""
-"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_HEAVY_POPPER_2\"]/text"
-msgstr ""
-
-#: src-en/data/events.xml.append:1473
-msgid ""
-"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_HEAVY_POPPER_2\"]/event/text"
-msgstr ""
-
-#: src-en/data/events.xml.append:1481
-msgid ""
-"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_HEAVY_POPPER_3\"]/text"
-msgstr ""
-
-#: src-en/data/events.xml.append:1483
-msgid ""
-"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_HEAVY_POPPER_3\"]/event/text"
-msgstr ""
-
-#: src-en/data/events.xml.append:1491
-msgid ""
-"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_UNLOADER\"]/text"
-msgstr ""
-
-#: src-en/data/events.xml.append:1493
-msgid ""
-"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_UNLOADER\"]/event/text"
-msgstr ""
-
-#: src-en/data/events.xml.append:1502
-msgid ""
-"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_BOMBLAUNCHER_ANTIBIO_REPAIR\"]/text"
-msgstr ""
-
-#: src-en/data/events.xml.append:1504
-msgid ""
-"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_BOMBLAUNCHER_ANTIBIO_REPAIR\"]/event/text"
-msgstr ""
-
-#: src-en/data/events.xml.append:1512
-msgid ""
-"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_KILLALL_BEAM\"]/text"
-msgstr "Leur vendre votre rayon Gravespred pour 135~."
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_ENEMIES_CAN_BURN\"]/event/choice/text"
+msgstr "Continuer..."
 
 #: src-en/data/events.xml.append:1514
 msgid ""
-"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_KILLALL_BEAM\"]/event/text"
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_ENEMIES_BURN_MORE\"]/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:1522
+#: src-en/data/events.xml.append:1516
 msgid ""
-"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_MISSLAUNCHER_2_BATTERY\"]/text"
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_ENEMIES_BURN_MORE\"]/event/text"
 msgstr ""
 
 #: src-en/data/events.xml.append:1524
 msgid ""
-"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_MISSLAUNCHER_2_BATTERY\"]/event/text"
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_ENEMIES_BURN_MORE\"]/event/choice/text"
+msgstr "Continuer..."
+
+#: src-en/data/events.xml.append:1530
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_COMBAT_OXYGENIZER\"]/text"
 msgstr ""
 
 #: src-en/data/events.xml.append:1532
 msgid ""
-"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_RAIN_OF_ION\"]/text"
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_COMBAT_OXYGENIZER\"]/event/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:1534
+#: src-en/data/events.xml.append:1540
 msgid ""
-"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_RAIN_OF_ION\"]/event/text"
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_COMBAT_OXYGENIZER\"]/event/choice/text"
+msgstr "Continuer..."
+
+#: src-en/data/events.xml.append:1546
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_SCORCH_PREIGNITER\"]/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:1542
+#: src-en/data/events.xml.append:1548
 msgid ""
-"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_SHOTPHASER\"]/text"
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_SCORCH_PREIGNITER\"]/event/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:1544
+#: src-en/data/events.xml.append:1556
 msgid ""
-"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_SHOTPHASER\"]/event/text"
-msgstr ""
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_SCORCH_PREIGNITER\"]/event/choice/text"
+msgstr "Continuer..."
 
-#: src-en/data/events.xml.append:1553
+#: src-en/data/events.xml.append:1562
 msgid ""
-"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_BOMBLAUNCHER_OXYBOTTLE\"]/text"
-msgstr ""
-
-#: src-en/data/events.xml.append:1555
-msgid ""
-"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_BOMBLAUNCHER_OXYBOTTLE\"]/event/text"
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_WEAPONS_ON_FIRE\"]/text"
 msgstr ""
 
 #: src-en/data/events.xml.append:1564
 msgid ""
-"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_OXY_FIREFILL_MISSILES\"]/text"
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_WEAPONS_ON_FIRE\"]/event/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:1566
+#: src-en/data/events.xml.append:1572
 msgid ""
-"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_OXY_FIREFILL_MISSILES\"]/event/text"
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_WEAPONS_ON_FIRE\"]/event/choice/text"
+msgstr "Continuer..."
+
+#: src-en/data/events.xml.append:1580
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_BPS_SURVEYOR\"]/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:1575
+#: src-en/data/events.xml.append:1582
 msgid ""
-"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_FOCUS_FIRE\"]/text"
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_BPS_SURVEYOR\"]/event/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:1577
+#: src-en/data/events.xml.append:1590
 msgid ""
-"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_FOCUS_FIRE\"]/event/text"
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_BPS_SURVEYOR\"]/event/choice/text"
+msgstr "Continuer..."
+
+#: src-en/data/events.xml.append:1596
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_BPS_SHIELD_OVER_MATTER\"]/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:1586
+#: src-en/data/events.xml.append:1598
 msgid ""
-"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"DJMOD_RAIN_OF_FIRE\"]/text"
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_BPS_SHIELD_OVER_MATTER\"]/event/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:1588
+#: src-en/data/events.xml.append:1606
 msgid ""
-"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"DJMOD_RAIN_OF_FIRE\"]/event/text"
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_BPS_SHIELD_OVER_MATTER\"]/event/choice/text"
+msgstr "Continuer..."
+
+#: src-en/data/events.xml.append:1617
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"DJMOD_BAM_FISSUREBEAM\"]/text"
 msgstr ""
-
-#: src-en/data/events.xml.append:1597
-msgid ""
-"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"DJMOD_LASER_BPS\"]/text"
-msgstr ""
-
-#: src-en/data/events.xml.append:1599
-msgid ""
-"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"DJMOD_LASER_BPS\"]/event/text"
-msgstr ""
-
-#: src-en/data/events.xml.append:1608
-msgid ""
-"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[16]/text"
-msgstr "Refuser."
-
-#: src-en/data/events.xml.append:1610
-msgid ""
-"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[16]/event/text"
-msgstr ""
-
-#: src-en/data/events.xml.append:1615
-msgid ""
-"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[16]/event/choice[1]/text"
-msgstr "Faire quelque chose à bord du vaisseau."
 
 #: src-en/data/events.xml.append:1619
 msgid ""
-"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[16]/event/choice[2]/text"
-msgstr "Ne rien faire."
-
-#: src-en/data/events.xml.append:1628
-msgid ""
-"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[@req=\"DJMOD_HAS_RADIKAL_GEAR\"]/text"
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"DJMOD_BAM_FISSUREBEAM\"]/event/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:1630
+#: src-en/data/events.xml.append:1627
 msgid ""
-"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[@req=\"DJMOD_HAS_RADIKAL_GEAR\"]/event/text"
-msgstr ""
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"DJMOD_BAM_FISSUREBEAM\"]/event/choice/text"
+msgstr "Continuer..."
 
 #: src-en/data/events.xml.append:1633
 msgid ""
-"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[@req=\"DJMOD_HAS_RADIKAL_GEAR\"]/event/choice[1]/text"
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_HEAVY_POPPER_1\"]/text"
 msgstr ""
 
 #: src-en/data/events.xml.append:1635
 msgid ""
-"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[@req=\"DJMOD_HAS_RADIKAL_GEAR\"]/event/choice[1]/event/text"
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_HEAVY_POPPER_1\"]/event/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:1639
+#: src-en/data/events.xml.append:1643
 msgid ""
-"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[@req=\"DJMOD_HAS_RADIKAL_GEAR\"]/event/choice[1]/event/choice/text"
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_HEAVY_POPPER_1\"]/event/choice/text"
 msgstr "Continuer..."
 
-#: src-en/data/events.xml.append:1646
+#: src-en/data/events.xml.append:1649
 msgid ""
-"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[@req=\"DJMOD_HAS_RADIKAL_GEAR\"]/event/choice[2]/text"
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_HEAVY_POPPER_2\"]/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:1657
+#: src-en/data/events.xml.append:1651
 msgid ""
-"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[@req=\"DJMOD_HAS_RADIKAL_SHIP\"]/text"
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_HEAVY_POPPER_2\"]/event/text"
 msgstr ""
 
 #: src-en/data/events.xml.append:1659
 msgid ""
-"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[@req=\"DJMOD_HAS_RADIKAL_SHIP\"]/event/text"
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_HEAVY_POPPER_2\"]/event/choice/text"
+msgstr "Continuer..."
+
+#: src-en/data/events.xml.append:1665
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_HEAVY_POPPER_3\"]/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:1662
+#: src-en/data/events.xml.append:1667
 msgid ""
-"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[@req=\"DJMOD_HAS_RADIKAL_SHIP\"]/event/choice/text"
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_HEAVY_POPPER_3\"]/event/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:1664
+#: src-en/data/events.xml.append:1675
 msgid ""
-"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[@req=\"DJMOD_HAS_RADIKAL_SHIP\"]/event/choice/event/text"
-msgstr ""
-
-#: src-en/data/events.xml.append:1670
-msgid ""
-"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[@req=\"DJMOD_HAS_RADIKAL_SHIP\"]/event/choice/event/choice/text"
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_HEAVY_POPPER_3\"]/event/choice/text"
 msgstr "Continuer..."
 
 #: src-en/data/events.xml.append:1681
 msgid ""
-"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[2]/text"
-msgstr "Les ignorer."
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_UNLOADER\"]/text"
+msgstr ""
 
 #: src-en/data/events.xml.append:1683
 msgid ""
-"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[2]/event/text"
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_UNLOADER\"]/event/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:1685
+#: src-en/data/events.xml.append:1691
 msgid ""
-"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[2]/event/choice[1]/text"
-msgstr "Faire quelque chose à bord du vaisseau."
-
-#: src-en/data/events.xml.append:1689
-msgid ""
-"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[2]/event/choice[2]/text"
-msgstr "Ne rien faire."
-
-#: src-en/data/events.xml.append:1707
-msgid ""
-"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN_GOTAWAY\"]/text"
-msgstr ""
-
-#: src-en/data/events.xml.append:1709
-msgid ""
-"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN_GOTAWAY\"]/choice/text"
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_UNLOADER\"]/event/choice/text"
 msgstr "Continuer..."
 
-#: src-en/data/events.xml.append:1720
-msgid "data/events.xml.append$//event[@name=\"RADIKAL_PHILO\"]/text"
-msgstr ""
-
-#: src-en/data/events.xml.append:1723
-msgid "data/events.xml.append$//event[@name=\"RADIKAL_PHILO\"]/choice[1]/text"
-msgstr ""
-
-#: src-en/data/events.xml.append:1725
+#: src-en/data/events.xml.append:1698
 msgid ""
-"data/events.xml.append$//event[@name=\"RADIKAL_PHILO\"]/choice[1]/event/text"
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_BOMBLAUNCHER_ANTIBIO_REPAIR\"]/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:1727
+#: src-en/data/events.xml.append:1700
 msgid ""
-"data/events.xml.append$//event[@name=\"RADIKAL_PHILO\"]/choice[1]/event/choice/text"
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_BOMBLAUNCHER_ANTIBIO_REPAIR\"]/event/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:1729
+#: src-en/data/events.xml.append:1708
 msgid ""
-"data/events.xml.append$//event[@name=\"RADIKAL_PHILO\"]/choice[1]/event/choice/event/text"
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_BOMBLAUNCHER_ANTIBIO_REPAIR\"]/event/choice/text"
+msgstr "Continuer..."
+
+#: src-en/data/events.xml.append:1714
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_KILLALL_BEAM\"]/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:1731
+#: src-en/data/events.xml.append:1716
 msgid ""
-"data/events.xml.append$//event[@name=\"RADIKAL_PHILO\"]/choice[1]/event/choice/event/choice/text"
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_KILLALL_BEAM\"]/event/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:1733
+#: src-en/data/events.xml.append:1724
 msgid ""
-"data/events.xml.append$//event[@name=\"RADIKAL_PHILO\"]/choice[1]/event/choice/event/choice/event/text"
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_KILLALL_BEAM\"]/event/choice/text"
+msgstr "Continuer..."
+
+#: src-en/data/events.xml.append:1730
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_MISSLAUNCHER_2_BATTERY\"]/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:1735
+#: src-en/data/events.xml.append:1732
 msgid ""
-"data/events.xml.append$//event[@name=\"RADIKAL_PHILO\"]/choice[1]/event/choice/event/choice/event/choice/text"
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_MISSLAUNCHER_2_BATTERY\"]/event/text"
 msgstr ""
+
+#: src-en/data/events.xml.append:1740
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_MISSLAUNCHER_2_BATTERY\"]/event/choice/text"
+msgstr "Continuer..."
 
 #: src-en/data/events.xml.append:1746
-msgid "data/events.xml.append$//event[@name=\"RADIKAL_PHILO\"]/choice[2]/text"
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_RAIN_OF_ION\"]/text"
 msgstr ""
 
 #: src-en/data/events.xml.append:1748
 msgid ""
-"data/events.xml.append$//event[@name=\"RADIKAL_PHILO\"]/choice[2]/event/text"
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_RAIN_OF_ION\"]/event/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:1751
+#: src-en/data/events.xml.append:1756
 msgid ""
-"data/events.xml.append$//event[@name=\"RADIKAL_PHILO\"]/choice[2]/event/choice[1]/text"
-msgstr "Faire quelque chose à bord du vaisseau."
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_RAIN_OF_ION\"]/event/choice/text"
+msgstr "Continuer..."
 
-#: src-en/data/events.xml.append:1755
+#: src-en/data/events.xml.append:1762
 msgid ""
-"data/events.xml.append$//event[@name=\"RADIKAL_PHILO\"]/choice[2]/event/choice[2]/text"
-msgstr "Ne rien faire."
-
-#: src-en/data/events.xml.append:1768
-msgid "data/events.xml.append$//event[@name=\"RADIKAL_PHILO_INTEL_REAL\"]/text"
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_SHOTPHASER\"]/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:1771
+#: src-en/data/events.xml.append:1764
 msgid ""
-"data/events.xml.append$//event[@name=\"RADIKAL_PHILO_INTEL_REAL\"]/choice[1]/text"
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_SHOTPHASER\"]/event/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:1773
+#: src-en/data/events.xml.append:1772
 msgid ""
-"data/events.xml.append$//event[@name=\"RADIKAL_PHILO_INTEL_REAL\"]/choice[1]/event/text"
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_SHOTPHASER\"]/event/choice/text"
+msgstr "Continuer..."
+
+#: src-en/data/events.xml.append:1779
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_BOMBLAUNCHER_OXYBOTTLE\"]/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:1786
+#: src-en/data/events.xml.append:1781
 msgid ""
-"data/events.xml.append$//event[@name=\"RADIKAL_PHILO_INTEL_REAL\"]/choice[1]/event/choice[1]/text"
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_BOMBLAUNCHER_OXYBOTTLE\"]/event/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:1790
+#: src-en/data/events.xml.append:1789
 msgid ""
-"data/events.xml.append$//event[@name=\"RADIKAL_PHILO_INTEL_REAL\"]/choice[1]/event/choice[2]/text"
-msgstr "Partir."
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_BOMBLAUNCHER_OXYBOTTLE\"]/event/choice/text"
+msgstr "Continuer..."
 
-#: src-en/data/events.xml.append:1792
+#: src-en/data/events.xml.append:1796
 msgid ""
-"data/events.xml.append$//event[@name=\"RADIKAL_PHILO_INTEL_REAL\"]/choice[1]/event/choice[2]/event/text"
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_OXY_FIREFILL_MISSILES\"]/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:1794
+#: src-en/data/events.xml.append:1798
 msgid ""
-"data/events.xml.append$//event[@name=\"RADIKAL_PHILO_INTEL_REAL\"]/choice[1]/event/choice[2]/event/choice/text"
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_OXY_FIREFILL_MISSILES\"]/event/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:1802
+#: src-en/data/events.xml.append:1806
 msgid ""
-"data/events.xml.append$//event[@name=\"RADIKAL_PHILO_INTEL_REAL\"]/choice[2]/text"
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_OXY_FIREFILL_MISSILES\"]/event/choice/text"
+msgstr "Continuer..."
+
+#: src-en/data/events.xml.append:1813
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_FOCUS_FIRE\"]/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:1804
+#: src-en/data/events.xml.append:1815
 msgid ""
-"data/events.xml.append$//event[@name=\"RADIKAL_PHILO_INTEL_REAL\"]/choice[2]/event/text"
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_FOCUS_FIRE\"]/event/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:1810
+#: src-en/data/events.xml.append:1823
 msgid ""
-"data/events.xml.append$//event[@name=\"RADIKAL_PHILO_INTEL_REAL\"]/choice[2]/event/choice[1]/text"
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_FOCUS_FIRE\"]/event/choice/text"
+msgstr "Continuer..."
+
+#: src-en/data/events.xml.append:1830
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"DJMOD_RAIN_OF_FIRE\"]/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:1814
+#: src-en/data/events.xml.append:1832
 msgid ""
-"data/events.xml.append$//event[@name=\"RADIKAL_PHILO_INTEL_REAL\"]/choice[2]/event/choice[2]/text"
-msgstr "Partir."
-
-#: src-en/data/events.xml.append:1816
-msgid ""
-"data/events.xml.append$//event[@name=\"RADIKAL_PHILO_INTEL_REAL\"]/choice[2]/event/choice[2]/event/text"
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"DJMOD_RAIN_OF_FIRE\"]/event/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:1818
+#: src-en/data/events.xml.append:1840
 msgid ""
-"data/events.xml.append$//event[@name=\"RADIKAL_PHILO_INTEL_REAL\"]/choice[2]/event/choice[2]/event/choice/text"
-msgstr ""
-
-#: src-en/data/events.xml.append:1826
-msgid ""
-"data/events.xml.append$//event[@name=\"RADIKAL_PHILO_INTEL_REAL\"]/choice[3]/text"
-msgstr ""
-
-#: src-en/data/events.xml.append:1828
-msgid ""
-"data/events.xml.append$//event[@name=\"RADIKAL_PHILO_INTEL_REAL\"]/choice[3]/event/text"
-msgstr ""
-
-#: src-en/data/events.xml.append:1839
-msgid ""
-"data/events.xml.append$//event[@name=\"RADIKAL_PHILO_INTEL_REAL\"]/choice[3]/event/choice[1]/text"
-msgstr ""
-
-#: src-en/data/events.xml.append:1843
-msgid ""
-"data/events.xml.append$//event[@name=\"RADIKAL_PHILO_INTEL_REAL\"]/choice[3]/event/choice[2]/text"
-msgstr "Partir."
-
-#: src-en/data/events.xml.append:1845
-msgid ""
-"data/events.xml.append$//event[@name=\"RADIKAL_PHILO_INTEL_REAL\"]/choice[3]/event/choice[2]/event/text"
-msgstr ""
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"DJMOD_RAIN_OF_FIRE\"]/event/choice/text"
+msgstr "Continuer..."
 
 #: src-en/data/events.xml.append:1847
 msgid ""
-"data/events.xml.append$//event[@name=\"RADIKAL_PHILO_INTEL_REAL\"]/choice[3]/event/choice[2]/event/choice/text"
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"DJMOD_LASER_BPS\"]/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:1855
+#: src-en/data/events.xml.append:1849
 msgid ""
-"data/events.xml.append$//event[@name=\"RADIKAL_PHILO_INTEL_REAL\"]/choice[4]/text"
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"DJMOD_LASER_BPS\"]/event/text"
 msgstr ""
 
 #: src-en/data/events.xml.append:1857
 msgid ""
-"data/events.xml.append$//event[@name=\"RADIKAL_PHILO_INTEL_REAL\"]/choice[4]/event/text"
-msgstr ""
-
-#: src-en/data/events.xml.append:1860
-msgid ""
-"data/events.xml.append$//event[@name=\"RADIKAL_PHILO_INTEL_REAL\"]/choice[4]/event/choice[1]/text"
-msgstr ""
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"DJMOD_LASER_BPS\"]/event/choice/text"
+msgstr "Continuer..."
 
 #: src-en/data/events.xml.append:1864
 msgid ""
-"data/events.xml.append$//event[@name=\"RADIKAL_PHILO_INTEL_REAL\"]/choice[4]/event/choice[2]/text"
-msgstr "Partir."
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"rk_a_outside_police_surrendered_gear\"]/text"
+msgstr ""
 
 #: src-en/data/events.xml.append:1866
 msgid ""
-"data/events.xml.append$//event[@name=\"RADIKAL_PHILO_INTEL_REAL\"]/choice[4]/event/choice[2]/event/text"
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"rk_a_outside_police_surrendered_gear\"]/event/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:1868
+#: src-en/data/events.xml.append:1881
 msgid ""
-"data/events.xml.append$//event[@name=\"RADIKAL_PHILO_INTEL_REAL\"]/choice[4]/event/choice[2]/event/choice/text"
-msgstr ""
-
-#: src-en/data/events.xml.append:1899
-msgid ""
-"data/events.xml.append$//event[@name=\"RADIKAL_PHILO_INTEL_REAL\"]/choice[5]/text"
-msgstr ""
-
-#: src-en/data/events.xml.append:1901
-msgid ""
-"data/events.xml.append$//event[@name=\"RADIKAL_PHILO_INTEL_REAL\"]/choice[5]/event/text"
-msgstr ""
-
-#: src-en/data/events.xml.append:1903
-msgid ""
-"data/events.xml.append$//event[@name=\"RADIKAL_PHILO_INTEL_REAL\"]/choice[5]/event/choice/text"
-msgstr ""
-
-#: src-en/data/events.xml.append:1905
-msgid ""
-"data/events.xml.append$//event[@name=\"RADIKAL_PHILO_INTEL_REAL\"]/choice[5]/event/choice/event/text"
-msgstr ""
-
-#: src-en/data/events.xml.append:1909
-msgid ""
-"data/events.xml.append$//event[@name=\"RADIKAL_PHILO_INTEL_REAL\"]/choice[5]/event/choice/event/choice/text"
-msgstr ""
-
-#: src-en/data/events.xml.append:1911
-msgid ""
-"data/events.xml.append$//event[@name=\"RADIKAL_PHILO_INTEL_REAL\"]/choice[5]/event/choice/event/choice/event/text"
-msgstr ""
-
-#: src-en/data/events.xml.append:1929
-msgid ""
-"data/events.xml.append$//event[@name=\"RADIKAL_PHILO_INTEL_REAL\"]/choice[6]/text"
-msgstr ""
-
-#: src-en/data/events.xml.append:1934
-msgid "data/events.xml.append$//event[@name=\"RADIKAL_PHILO_GOODBYE\"]/text"
-msgstr ""
-
-#: src-en/data/events.xml.append:1940
-msgid ""
-"data/events.xml.append$//event[@name=\"RADIKAL_PHILO_GOODBYE\"]/choice/text"
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"rk_a_outside_police_surrendered_gear\"]/event/choice/text"
 msgstr "Continuer..."
 
-#: src-en/data/events.xml.append:1953
-msgid "data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK\"]/text"
+#: src-en/data/events.xml.append:1883
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"rk_a_outside_police_surrendered_gear\"]/event/choice/event/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:1961
+#: src-en/data/events.xml.append:1888
 msgid ""
-"data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK\"]/choice[1]/text"
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"rk_a_outside_police_surrendered_gear\"]/event/choice/event/choice[@req=\"rk_a_outside_police_surrendered_gear\""
+" and @lvl=\"0\"]/text"
+msgstr "Continuer..."
+
+#: src-en/data/events.xml.append:1890
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"rk_a_outside_police_surrendered_gear\"]/event/choice/event/choice[@req=\"rk_a_outside_police_surrendered_gear\""
+" and @lvl=\"0\"]/event/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:1963
-msgid "data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_MENU\"]/text"
+#: src-en/data/events.xml.append:1898
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"rk_a_outside_police_surrendered_gear\"]/event/choice/event/choice[@req=\"rk_a_outside_police_surrendered_gear\""
+" and @lvl=\"0\"]/event/choice/text"
+msgstr "Continuer..."
+
+#: src-en/data/events.xml.append:1904
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"rk_a_outside_police_surrendered_gear\"]/event/choice/event/choice[@req=\"rk_a_outside_police_surrendered_gear\""
+" and @lvl=\"3\"]/text"
+msgstr "Continuer..."
+
+#: src-en/data/events.xml.append:1906
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"rk_a_outside_police_surrendered_gear\"]/event/choice/event/choice[@req=\"rk_a_outside_police_surrendered_gear\""
+" and @lvl=\"3\"]/event/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:1972
+#: src-en/data/events.xml.append:1916
 msgid ""
-"data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_MENU\"]/choice[@req=\"zoltan_peacekeeper\"]/text"
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"rk_a_outside_police_surrendered_gear\"]/event/choice/event/choice[@req=\"rk_a_outside_police_surrendered_gear\""
+" and @lvl=\"3\"]/event/choice/text"
+msgstr "Continuer..."
+
+#: src-en/data/events.xml.append:1926
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[43]/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:1974
+#: src-en/data/events.xml.append:1928
 msgid ""
-"data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_MENU\"]/choice[@req=\"zoltan_peacekeeper\"]/event/text"
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[43]/event/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:1981
+#: src-en/data/events.xml.append:1941
 msgid ""
-"data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_MENU\"]/choice[@req=\"zoltan_peacekeeper\"]/event/choice[1]/text"
-msgstr "Faire quelque chose à bord du vaisseau."
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[43]/event/choice/text"
+msgstr "Continuer..."
 
-#: src-en/data/events.xml.append:1985
+#: src-en/data/events.xml.append:1943
 msgid ""
-"data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_MENU\"]/choice[@req=\"zoltan_peacekeeper\"]/event/choice[2]/text"
-msgstr "Ne rien faire."
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[43]/event/choice/event/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:1948
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[43]/event/choice/event/choice/text"
+msgstr "Continuer..."
+
+#: src-en/data/events.xml.append:1957
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_HAS_GEAR_SURRENDERABLE_TO_RK_A\"]/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:1959
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_HAS_GEAR_SURRENDERABLE_TO_RK_A\"]/event/text"
+msgstr ""
 
 #: src-en/data/events.xml.append:1991
 msgid ""
-"data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_MENU\"]/choice[@req=\"human_soldier\"]/text"
+"data/events.xml.append$//textList[@name=\"TEXT_EVENT_STORE_RADIKAL\"]/text[1]"
 msgstr ""
 
-#: src-en/data/events.xml.append:1993
+#: src-en/data/events.xml.append:1994
 msgid ""
-"data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_MENU\"]/choice[@req=\"human_soldier\"]/event/text"
+"data/events.xml.append$//textList[@name=\"TEXT_EVENT_STORE_RADIKAL\"]/text[2]"
+msgstr ""
+
+#: src-en/data/events.xml.append:1997
+msgid ""
+"data/events.xml.append$//textList[@name=\"TEXT_EVENT_STORE_RADIKAL\"]/text[3]"
 msgstr ""
 
 #: src-en/data/events.xml.append:2000
 msgid ""
-"data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_MENU\"]/choice[@req=\"human_soldier\"]/event/choice[1]/text"
-msgstr "Faire quelque chose à bord du vaisseau."
-
-#: src-en/data/events.xml.append:2004
-msgid ""
-"data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_MENU\"]/choice[@req=\"human_soldier\"]/event/choice[2]/text"
-msgstr "Ne rien faire."
-
-#: src-en/data/events.xml.append:2010
-msgid ""
-"data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_MENU\"]/choice[@req=\"engi_defender\"]/text"
+"data/events.xml.append$//textList[@name=\"TEXT_EVENT_STORE_RADIKAL\"]/text[4]"
 msgstr ""
 
-#: src-en/data/events.xml.append:2012
+#: src-en/data/events.xml.append:2003
 msgid ""
-"data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_MENU\"]/choice[@req=\"engi_defender\"]/event/text"
+"data/events.xml.append$//textList[@name=\"TEXT_EVENT_STORE_RADIKAL\"]/text[5]"
+msgstr ""
+
+#: src-en/data/events.xml.append:2006
+msgid ""
+"data/events.xml.append$//textList[@name=\"TEXT_EVENT_STORE_RADIKAL\"]/text[6]"
+msgstr ""
+
+#: src-en/data/events.xml.append:2009
+msgid ""
+"data/events.xml.append$//textList[@name=\"TEXT_EVENT_STORE_RADIKAL\"]/text[7]"
 msgstr ""
 
 #: src-en/data/events.xml.append:2019
-msgid ""
-"data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_MENU\"]/choice[@req=\"engi_defender\"]/event/choice[1]/text"
-msgstr "Faire quelque chose à bord du vaisseau."
+msgid "data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED\"]/text"
+msgstr ""
 
 #: src-en/data/events.xml.append:2023
-msgid ""
-"data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_MENU\"]/choice[@req=\"engi_defender\"]/event/choice[2]/text"
-msgstr "Ne rien faire."
+#, fuzzy
+msgid "data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED\"]/choice[1]/text"
+msgstr "Regarder qui ils ont à vendre."
 
-#: src-en/data/events.xml.append:2029
+#: src-en/data/events.xml.append:2025
 msgid ""
-"data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_MENU\"]/choice[@req=\"orchid_praetor\"]/text"
+"data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED\"]/choice[1]/event/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2031
+#: src-en/data/events.xml.append:2028
 msgid ""
-"data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_MENU\"]/choice[@req=\"orchid_praetor\"]/event/text"
+"data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED\"]/choice[1]/event/choice[1]/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2038
+#: src-en/data/events.xml.append:2030
 msgid ""
-"data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_MENU\"]/choice[@req=\"orchid_praetor\"]/event/choice[1]/text"
-msgstr "Faire quelque chose à bord du vaisseau."
-
-#: src-en/data/events.xml.append:2042
-msgid ""
-"data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_MENU\"]/choice[@req=\"orchid_praetor\"]/event/choice[2]/text"
-msgstr "Ne rien faire."
-
-#: src-en/data/events.xml.append:2049
-msgid ""
-"data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_MENU\"]/choice[5]/text"
+"data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED\"]/choice[1]/event/choice[1]/event/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2054
+#: src-en/data/events.xml.append:2036
 msgid ""
-"data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_MENU\"]/choice[6]/text"
+"data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED\"]/choice[1]/event/choice[1]/event/choice/text"
+msgstr "Continuer..."
+
+#: src-en/data/events.xml.append:2043
+msgid ""
+"data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED\"]/choice[1]/event/choice[2]/text"
+msgstr "Refuser."
+
+#: src-en/data/events.xml.append:2050
+#, fuzzy
+msgid "data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED\"]/choice[2]/text"
+msgstr "Les ignorer."
+
+#: src-en/data/events.xml.append:2052
+msgid ""
+"data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED\"]/choice[2]/event/text"
 msgstr ""
 
 #: src-en/data/events.xml.append:2056
 msgid ""
+"data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED\"]/choice[2]/event/choice/text"
+msgstr "Continuer..."
+
+#: src-en/data/events.xml.append:2063
+msgid "data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED\"]/choice[3]/text"
+msgstr "Les ignorer."
+
+#: src-en/data/events.xml.append:2065
+msgid ""
+"data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED\"]/choice[3]/event/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2069
+msgid ""
+"data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED\"]/choice[3]/event/choice[1]/text"
+msgstr "Faire quelque chose à bord du vaisseau."
+
+#: src-en/data/events.xml.append:2073
+msgid ""
+"data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED\"]/choice[3]/event/choice[2]/text"
+msgstr "Ne rien faire."
+
+#: src-en/data/events.xml.append:2099
+msgid ""
+"data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED_GOODEND_LOSTSUN\"]/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2102
+msgid ""
+"data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED_GOODEND_LOSTSUN\"]/choice/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2107
+msgid ""
+"data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED_GOODEND_DUSKBRINGER\"]/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2110
+msgid ""
+"data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED_GOODEND_DUSKBRINGER\"]/choice/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2115
+msgid ""
+"data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED_GOODEND_GOUL\"]/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2118
+msgid ""
+"data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED_GOODEND_GOUL\"]/choice/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2123
+msgid ""
+"data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED_GOODEND_MANTIS\"]/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2126
+msgid ""
+"data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED_GOODEND_MANTIS\"]/choice/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2131
+msgid ""
+"data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED_GOODEND_RK_WEAPONLIKE\"]/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2134
+msgid ""
+"data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED_GOODEND_RK_WEAPONLIKE\"]/choice/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2139
+msgid ""
+"data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED_GOODEND_RK_FIREGHOST\"]/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2142
+msgid ""
+"data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED_GOODEND_RK_FIREGHOST\"]/choice/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2148
+msgid ""
+"data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED_BADEND_LOSTSUN\"]/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2157
+msgid ""
+"data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED_BADEND_LOSTSUN\"]/choice/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2162
+msgid ""
+"data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED_BADEND_DUSKBRINGER\"]/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2171
+msgid ""
+"data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED_BADEND_DUSKBRINGER\"]/choice/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2176
+msgid ""
+"data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED_BADEND_GOUL\"]/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2185
+msgid ""
+"data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED_BADEND_GOUL\"]/choice/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2190
+msgid ""
+"data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED_BADEND_MANTIS\"]/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2199
+msgid ""
+"data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED_BADEND_MANTIS\"]/choice/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2204
+msgid ""
+"data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED_BADEND_RK_WEAPONLIKE\"]/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2213
+msgid ""
+"data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED_BADEND_RK_WEAPONLIKE\"]/choice/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2218
+msgid ""
+"data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED_BADEND_RK_FIREGHOST\"]/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2227
+msgid ""
+"data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED_BADEND_RK_FIREGHOST\"]/choice/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2244
+msgid "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2248
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2250
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2253
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2255
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2258
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2260
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2263
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2265
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2269
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"DJMOD_BAM_FISSUREBEAM\"]/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2271
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"DJMOD_BAM_FISSUREBEAM\"]/event/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2279
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"RK_HEAVY_POPPER_1\"]/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2281
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"RK_HEAVY_POPPER_1\"]/event/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2289
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"RK_HEAVY_POPPER_2\"]/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2291
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"RK_HEAVY_POPPER_2\"]/event/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2299
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"RK_HEAVY_POPPER_3\"]/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2301
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"RK_HEAVY_POPPER_3\"]/event/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2309
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"RK_UNLOADER\"]/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2311
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"RK_UNLOADER\"]/event/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2320
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"RK_BOMBLAUNCHER_ANTIBIO_REPAIR\"]/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2322
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"RK_BOMBLAUNCHER_ANTIBIO_REPAIR\"]/event/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2330
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"RK_KILLALL_BEAM\"]/text"
+msgstr "Leur vendre votre rayon Gravespred pour 135~."
+
+#: src-en/data/events.xml.append:2332
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"RK_KILLALL_BEAM\"]/event/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2340
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"RK_MISSLAUNCHER_2_BATTERY\"]/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2342
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"RK_MISSLAUNCHER_2_BATTERY\"]/event/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2350
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"RK_RAIN_OF_ION\"]/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2352
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"RK_RAIN_OF_ION\"]/event/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2360
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"RK_SHOTPHASER\"]/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2362
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"RK_SHOTPHASER\"]/event/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2371
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"RK_BOMBLAUNCHER_OXYBOTTLE\"]/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2373
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"RK_BOMBLAUNCHER_OXYBOTTLE\"]/event/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2382
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"RK_OXY_FIREFILL_MISSILES\"]/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2384
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"RK_OXY_FIREFILL_MISSILES\"]/event/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2393
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"RK_FOCUS_FIRE\"]/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2395
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"RK_FOCUS_FIRE\"]/event/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2404
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"DJMOD_RAIN_OF_FIRE\"]/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2406
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"DJMOD_RAIN_OF_FIRE\"]/event/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2415
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"DJMOD_LASER_BPS\"]/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2417
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"DJMOD_LASER_BPS\"]/event/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2426
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"rock_commando\"]/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2428
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"rock_commando\"]/event/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2431
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"rock_commando\"]/event/choice/text"
+msgstr "Continuer..."
+
+#: src-en/data/events.xml.append:2438
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[17]/text"
+msgstr "Refuser."
+
+#: src-en/data/events.xml.append:2440
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[17]/event/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2445
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[17]/event/choice[1]/text"
+msgstr "Faire quelque chose à bord du vaisseau."
+
+#: src-en/data/events.xml.append:2449
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[17]/event/choice[2]/text"
+msgstr "Ne rien faire."
+
+#: src-en/data/events.xml.append:2465
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[2]/text"
+msgstr "Les ignorer."
+
+#: src-en/data/events.xml.append:2467
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[2]/event/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2469
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[2]/event/choice[1]/text"
+msgstr "Faire quelque chose à bord du vaisseau."
+
+#: src-en/data/events.xml.append:2473
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[2]/event/choice[2]/text"
+msgstr "Ne rien faire."
+
+#: src-en/data/events.xml.append:2481
+msgid "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2484
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/text"
+msgstr "Les contacter."
+
+#: src-en/data/events.xml.append:2486
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2489
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2491
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2494
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2496
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2499
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2501
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2505
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"DJMOD_BAM_FISSUREBEAM\"]/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2507
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"DJMOD_BAM_FISSUREBEAM\"]/event/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2515
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_HEAVY_POPPER_1\"]/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2517
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_HEAVY_POPPER_1\"]/event/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2525
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_HEAVY_POPPER_2\"]/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2527
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_HEAVY_POPPER_2\"]/event/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2535
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_HEAVY_POPPER_3\"]/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2537
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_HEAVY_POPPER_3\"]/event/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2545
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_UNLOADER\"]/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2547
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_UNLOADER\"]/event/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2556
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_BOMBLAUNCHER_ANTIBIO_REPAIR\"]/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2558
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_BOMBLAUNCHER_ANTIBIO_REPAIR\"]/event/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2566
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_KILLALL_BEAM\"]/text"
+msgstr "Leur vendre votre rayon Gravespred pour 135~."
+
+#: src-en/data/events.xml.append:2568
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_KILLALL_BEAM\"]/event/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2576
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_MISSLAUNCHER_2_BATTERY\"]/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2578
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_MISSLAUNCHER_2_BATTERY\"]/event/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2586
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_RAIN_OF_ION\"]/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2588
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_RAIN_OF_ION\"]/event/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2596
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_SHOTPHASER\"]/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2598
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_SHOTPHASER\"]/event/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2607
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_BOMBLAUNCHER_OXYBOTTLE\"]/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2609
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_BOMBLAUNCHER_OXYBOTTLE\"]/event/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2618
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_OXY_FIREFILL_MISSILES\"]/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2620
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_OXY_FIREFILL_MISSILES\"]/event/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2629
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_FOCUS_FIRE\"]/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2631
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_FOCUS_FIRE\"]/event/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2640
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"DJMOD_RAIN_OF_FIRE\"]/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2642
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"DJMOD_RAIN_OF_FIRE\"]/event/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2651
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"DJMOD_LASER_BPS\"]/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2653
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"DJMOD_LASER_BPS\"]/event/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2662
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[16]/text"
+msgstr "Refuser."
+
+#: src-en/data/events.xml.append:2664
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[16]/event/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2669
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[16]/event/choice[1]/text"
+msgstr "Faire quelque chose à bord du vaisseau."
+
+#: src-en/data/events.xml.append:2673
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[16]/event/choice[2]/text"
+msgstr "Ne rien faire."
+
+#: src-en/data/events.xml.append:2682
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[@req=\"DJMOD_HAS_RADIKAL_GEAR\"]/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2684
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[@req=\"DJMOD_HAS_RADIKAL_GEAR\"]/event/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2687
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[@req=\"DJMOD_HAS_RADIKAL_GEAR\"]/event/choice[1]/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2689
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[@req=\"DJMOD_HAS_RADIKAL_GEAR\"]/event/choice[1]/event/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2693
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[@req=\"DJMOD_HAS_RADIKAL_GEAR\"]/event/choice[1]/event/choice/text"
+msgstr "Continuer..."
+
+#: src-en/data/events.xml.append:2700
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[@req=\"DJMOD_HAS_RADIKAL_GEAR\"]/event/choice[2]/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2711
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[@req=\"DJMOD_HAS_RADIKAL_SHIP\"]/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2713
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[@req=\"DJMOD_HAS_RADIKAL_SHIP\"]/event/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2716
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[@req=\"DJMOD_HAS_RADIKAL_SHIP\"]/event/choice/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2718
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[@req=\"DJMOD_HAS_RADIKAL_SHIP\"]/event/choice/event/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2724
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[@req=\"DJMOD_HAS_RADIKAL_SHIP\"]/event/choice/event/choice/text"
+msgstr "Continuer..."
+
+#: src-en/data/events.xml.append:2735
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[2]/text"
+msgstr "Les ignorer."
+
+#: src-en/data/events.xml.append:2737
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[2]/event/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2739
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[2]/event/choice[1]/text"
+msgstr "Faire quelque chose à bord du vaisseau."
+
+#: src-en/data/events.xml.append:2743
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[2]/event/choice[2]/text"
+msgstr "Ne rien faire."
+
+#: src-en/data/events.xml.append:2761
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN_GOTAWAY\"]/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2763
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN_GOTAWAY\"]/choice/text"
+msgstr "Continuer..."
+
+#: src-en/data/events.xml.append:2774
+msgid "data/events.xml.append$//event[@name=\"RADIKAL_PHILO\"]/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2777
+msgid "data/events.xml.append$//event[@name=\"RADIKAL_PHILO\"]/choice[1]/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2779
+msgid ""
+"data/events.xml.append$//event[@name=\"RADIKAL_PHILO\"]/choice[1]/event/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2781
+msgid ""
+"data/events.xml.append$//event[@name=\"RADIKAL_PHILO\"]/choice[1]/event/choice/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2783
+msgid ""
+"data/events.xml.append$//event[@name=\"RADIKAL_PHILO\"]/choice[1]/event/choice/event/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2785
+msgid ""
+"data/events.xml.append$//event[@name=\"RADIKAL_PHILO\"]/choice[1]/event/choice/event/choice/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2787
+msgid ""
+"data/events.xml.append$//event[@name=\"RADIKAL_PHILO\"]/choice[1]/event/choice/event/choice/event/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2789
+msgid ""
+"data/events.xml.append$//event[@name=\"RADIKAL_PHILO\"]/choice[1]/event/choice/event/choice/event/choice/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2800
+msgid "data/events.xml.append$//event[@name=\"RADIKAL_PHILO\"]/choice[2]/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2802
+msgid ""
+"data/events.xml.append$//event[@name=\"RADIKAL_PHILO\"]/choice[2]/event/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2805
+msgid ""
+"data/events.xml.append$//event[@name=\"RADIKAL_PHILO\"]/choice[2]/event/choice[1]/text"
+msgstr "Faire quelque chose à bord du vaisseau."
+
+#: src-en/data/events.xml.append:2809
+msgid ""
+"data/events.xml.append$//event[@name=\"RADIKAL_PHILO\"]/choice[2]/event/choice[2]/text"
+msgstr "Ne rien faire."
+
+#: src-en/data/events.xml.append:2822
+msgid "data/events.xml.append$//event[@name=\"RADIKAL_PHILO_INTEL_REAL\"]/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2825
+msgid ""
+"data/events.xml.append$//event[@name=\"RADIKAL_PHILO_INTEL_REAL\"]/choice[1]/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2827
+msgid ""
+"data/events.xml.append$//event[@name=\"RADIKAL_PHILO_INTEL_REAL\"]/choice[1]/event/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2840
+msgid ""
+"data/events.xml.append$//event[@name=\"RADIKAL_PHILO_INTEL_REAL\"]/choice[1]/event/choice[1]/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2844
+msgid ""
+"data/events.xml.append$//event[@name=\"RADIKAL_PHILO_INTEL_REAL\"]/choice[1]/event/choice[2]/text"
+msgstr "Partir."
+
+#: src-en/data/events.xml.append:2846
+msgid ""
+"data/events.xml.append$//event[@name=\"RADIKAL_PHILO_INTEL_REAL\"]/choice[1]/event/choice[2]/event/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2848
+msgid ""
+"data/events.xml.append$//event[@name=\"RADIKAL_PHILO_INTEL_REAL\"]/choice[1]/event/choice[2]/event/choice/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2856
+msgid ""
+"data/events.xml.append$//event[@name=\"RADIKAL_PHILO_INTEL_REAL\"]/choice[2]/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2858
+msgid ""
+"data/events.xml.append$//event[@name=\"RADIKAL_PHILO_INTEL_REAL\"]/choice[2]/event/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2863
+msgid ""
+"data/events.xml.append$//event[@name=\"RADIKAL_PHILO_INTEL_REAL\"]/choice[2]/event/choice[1]/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2867
+msgid ""
+"data/events.xml.append$//event[@name=\"RADIKAL_PHILO_INTEL_REAL\"]/choice[2]/event/choice[2]/text"
+msgstr "Partir."
+
+#: src-en/data/events.xml.append:2869
+msgid ""
+"data/events.xml.append$//event[@name=\"RADIKAL_PHILO_INTEL_REAL\"]/choice[2]/event/choice[2]/event/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2871
+msgid ""
+"data/events.xml.append$//event[@name=\"RADIKAL_PHILO_INTEL_REAL\"]/choice[2]/event/choice[2]/event/choice/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2879
+msgid ""
+"data/events.xml.append$//event[@name=\"RADIKAL_PHILO_INTEL_REAL\"]/choice[3]/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2881
+msgid ""
+"data/events.xml.append$//event[@name=\"RADIKAL_PHILO_INTEL_REAL\"]/choice[3]/event/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2892
+msgid ""
+"data/events.xml.append$//event[@name=\"RADIKAL_PHILO_INTEL_REAL\"]/choice[3]/event/choice[1]/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2896
+msgid ""
+"data/events.xml.append$//event[@name=\"RADIKAL_PHILO_INTEL_REAL\"]/choice[3]/event/choice[2]/text"
+msgstr "Partir."
+
+#: src-en/data/events.xml.append:2898
+msgid ""
+"data/events.xml.append$//event[@name=\"RADIKAL_PHILO_INTEL_REAL\"]/choice[3]/event/choice[2]/event/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2900
+msgid ""
+"data/events.xml.append$//event[@name=\"RADIKAL_PHILO_INTEL_REAL\"]/choice[3]/event/choice[2]/event/choice/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2908
+msgid ""
+"data/events.xml.append$//event[@name=\"RADIKAL_PHILO_INTEL_REAL\"]/choice[4]/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2910
+msgid ""
+"data/events.xml.append$//event[@name=\"RADIKAL_PHILO_INTEL_REAL\"]/choice[4]/event/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2913
+msgid ""
+"data/events.xml.append$//event[@name=\"RADIKAL_PHILO_INTEL_REAL\"]/choice[4]/event/choice[1]/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2917
+msgid ""
+"data/events.xml.append$//event[@name=\"RADIKAL_PHILO_INTEL_REAL\"]/choice[4]/event/choice[2]/text"
+msgstr "Partir."
+
+#: src-en/data/events.xml.append:2919
+msgid ""
+"data/events.xml.append$//event[@name=\"RADIKAL_PHILO_INTEL_REAL\"]/choice[4]/event/choice[2]/event/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2921
+msgid ""
+"data/events.xml.append$//event[@name=\"RADIKAL_PHILO_INTEL_REAL\"]/choice[4]/event/choice[2]/event/choice/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2952
+msgid ""
+"data/events.xml.append$//event[@name=\"RADIKAL_PHILO_INTEL_REAL\"]/choice[5]/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2954
+msgid ""
+"data/events.xml.append$//event[@name=\"RADIKAL_PHILO_INTEL_REAL\"]/choice[5]/event/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2956
+msgid ""
+"data/events.xml.append$//event[@name=\"RADIKAL_PHILO_INTEL_REAL\"]/choice[5]/event/choice/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2958
+msgid ""
+"data/events.xml.append$//event[@name=\"RADIKAL_PHILO_INTEL_REAL\"]/choice[5]/event/choice/event/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2962
+msgid ""
+"data/events.xml.append$//event[@name=\"RADIKAL_PHILO_INTEL_REAL\"]/choice[5]/event/choice/event/choice/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2964
+msgid ""
+"data/events.xml.append$//event[@name=\"RADIKAL_PHILO_INTEL_REAL\"]/choice[5]/event/choice/event/choice/event/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2982
+msgid ""
+"data/events.xml.append$//event[@name=\"RADIKAL_PHILO_INTEL_REAL\"]/choice[6]/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2987
+msgid "data/events.xml.append$//event[@name=\"RADIKAL_PHILO_GOODBYE\"]/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2993
+msgid ""
+"data/events.xml.append$//event[@name=\"RADIKAL_PHILO_GOODBYE\"]/choice/text"
+msgstr "Continuer..."
+
+#: src-en/data/events.xml.append:3006
+msgid "data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK\"]/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:3014
+msgid ""
+"data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK\"]/choice[1]/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:3016
+msgid "data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_MENU\"]/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:3025
+msgid ""
+"data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_MENU\"]/choice[@req=\"zoltan_peacekeeper\"]/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:3027
+msgid ""
+"data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_MENU\"]/choice[@req=\"zoltan_peacekeeper\"]/event/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:3034
+msgid ""
+"data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_MENU\"]/choice[@req=\"zoltan_peacekeeper\"]/event/choice[1]/text"
+msgstr "Faire quelque chose à bord du vaisseau."
+
+#: src-en/data/events.xml.append:3038
+msgid ""
+"data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_MENU\"]/choice[@req=\"zoltan_peacekeeper\"]/event/choice[2]/text"
+msgstr "Ne rien faire."
+
+#: src-en/data/events.xml.append:3044
+msgid ""
+"data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_MENU\"]/choice[@req=\"human_soldier\"]/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:3046
+msgid ""
+"data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_MENU\"]/choice[@req=\"human_soldier\"]/event/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:3053
+msgid ""
+"data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_MENU\"]/choice[@req=\"human_soldier\"]/event/choice[1]/text"
+msgstr "Faire quelque chose à bord du vaisseau."
+
+#: src-en/data/events.xml.append:3057
+msgid ""
+"data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_MENU\"]/choice[@req=\"human_soldier\"]/event/choice[2]/text"
+msgstr "Ne rien faire."
+
+#: src-en/data/events.xml.append:3063
+msgid ""
+"data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_MENU\"]/choice[@req=\"engi_defender\"]/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:3065
+msgid ""
+"data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_MENU\"]/choice[@req=\"engi_defender\"]/event/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:3072
+msgid ""
+"data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_MENU\"]/choice[@req=\"engi_defender\"]/event/choice[1]/text"
+msgstr "Faire quelque chose à bord du vaisseau."
+
+#: src-en/data/events.xml.append:3076
+msgid ""
+"data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_MENU\"]/choice[@req=\"engi_defender\"]/event/choice[2]/text"
+msgstr "Ne rien faire."
+
+#: src-en/data/events.xml.append:3082
+msgid ""
+"data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_MENU\"]/choice[@req=\"orchid_praetor\"]/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:3084
+msgid ""
+"data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_MENU\"]/choice[@req=\"orchid_praetor\"]/event/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:3091
+msgid ""
+"data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_MENU\"]/choice[@req=\"orchid_praetor\"]/event/choice[1]/text"
+msgstr "Faire quelque chose à bord du vaisseau."
+
+#: src-en/data/events.xml.append:3095
+msgid ""
+"data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_MENU\"]/choice[@req=\"orchid_praetor\"]/event/choice[2]/text"
+msgstr "Ne rien faire."
+
+#: src-en/data/events.xml.append:3102
+msgid ""
+"data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_MENU\"]/choice[5]/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:3107
+msgid ""
+"data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_MENU\"]/choice[6]/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:3109
+msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_MENU\"]/choice[6]/event/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2060
+#: src-en/data/events.xml.append:3113
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_MENU\"]/choice[6]/event/choice[1]/text"
 msgstr "Payer."
 
-#: src-en/data/events.xml.append:2062
+#: src-en/data/events.xml.append:3115
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_MENU\"]/choice[6]/event/choice[1]/event/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2070
+#: src-en/data/events.xml.append:3123
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_MENU\"]/choice[6]/event/choice[2]/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2079
+#: src-en/data/events.xml.append:3132
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK\"]/choice[2]/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2081
+#: src-en/data/events.xml.append:3134
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK\"]/choice[2]/event/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2086
+#: src-en/data/events.xml.append:3139
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK\"]/choice[2]/event/choice/text"
 msgstr "Continuer..."
 
-#: src-en/data/events.xml.append:2110
+#: src-en/data/events.xml.append:3161
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_ACCEPT\"]/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2113
+#: src-en/data/events.xml.append:3164
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_ACCEPT\"]/choice[@req=\"DJMOD_HAS_RADIKAL_GEAR\""
 " and @lvl=\"0\"]/text"
 msgstr "Continuer..."
 
-#: src-en/data/events.xml.append:2115
+#: src-en/data/events.xml.append:3166
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_ACCEPT\"]/choice[@req=\"DJMOD_HAS_RADIKAL_GEAR\""
 " and @lvl=\"0\"]/event/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2117
+#: src-en/data/events.xml.append:3168
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_ACCEPT\"]/choice[@req=\"DJMOD_HAS_RADIKAL_GEAR\""
 " and @lvl=\"0\"]/event/choice/text"
 msgstr "Continuer..."
 
-#: src-en/data/events.xml.append:2124
+#: src-en/data/events.xml.append:3175
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_ACCEPT\"]/choice[@req=\"DJMOD_HAS_RADIKAL_GEAR\""
 " and @lvl=\"1\"]/text"
 msgstr "Continuer..."
 
-#: src-en/data/events.xml.append:2126
+#: src-en/data/events.xml.append:3177
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_ACCEPT\"]/choice[@req=\"DJMOD_HAS_RADIKAL_GEAR\""
 " and @lvl=\"1\"]/event/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2128
+#: src-en/data/events.xml.append:3179
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_ACCEPT\"]/choice[@req=\"DJMOD_HAS_RADIKAL_GEAR\""
 " and @lvl=\"1\"]/event/choice/text"
 msgstr "Continuer..."
 
-#: src-en/data/events.xml.append:2136
+#: src-en/data/events.xml.append:3187
 msgid "data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_FINED\"]/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2139
+#: src-en/data/events.xml.append:3190
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_FINED\"]/choice[@req=\"DJMOD_SUM_RADIKAL_EQUIPMENT\""
 " and @lvl=\"1\"]/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2141
+#: src-en/data/events.xml.append:3192
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_FINED\"]/choice[@req=\"DJMOD_SUM_RADIKAL_EQUIPMENT\""
 " and @lvl=\"1\"]/event/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2152
+#: src-en/data/events.xml.append:3203
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_FINED\"]/choice[@req=\"DJMOD_SUM_RADIKAL_EQUIPMENT\""
 " and @lvl=\"2\"]/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2154
+#: src-en/data/events.xml.append:3205
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_FINED\"]/choice[@req=\"DJMOD_SUM_RADIKAL_EQUIPMENT\""
 " and @lvl=\"2\"]/event/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2166
+#: src-en/data/events.xml.append:3216
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_FINED\"]/choice[@req=\"DJMOD_SUM_RADIKAL_EQUIPMENT\""
 " and @lvl=\"3\"]/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2168
+#: src-en/data/events.xml.append:3218
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_FINED\"]/choice[@req=\"DJMOD_SUM_RADIKAL_EQUIPMENT\""
 " and @lvl=\"3\"]/event/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2181
+#: src-en/data/events.xml.append:3231
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_FINED\"]/choice[@req=\"DJMOD_SUM_RADIKAL_EQUIPMENT\""
 " and @lvl=\"4\"]/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2183
+#: src-en/data/events.xml.append:3233
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_FINED\"]/choice[@req=\"DJMOD_SUM_RADIKAL_EQUIPMENT\""
 " and @lvl=\"4\"]/event/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2194
+#: src-en/data/events.xml.append:3244
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_FINED\"]/choice[@req=\"LIST_CHECK_ANY_CREW\"]/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2199
+#: src-en/data/events.xml.append:3249
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_FINED\"]/choice[6]/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2201
+#: src-en/data/events.xml.append:3251
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_FINED\"]/choice[6]/event/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2209
+#: src-en/data/events.xml.append:3259
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_FINED\"]/choice[6]/event/choice/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2217
+#: src-en/data/events.xml.append:3267
 msgid "data/events.xml.append$//event[@name=\"RK_INTERROGATED_CREW\"]/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2220
+#: src-en/data/events.xml.append:3270
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_INTERROGATED_CREW\"]/removeCrew/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2224
+#: src-en/data/events.xml.append:3274
 msgid "data/events.xml.append$//event[@name=\"RK_INTERROGATED_CREW\"]/choice/text"
 msgstr "Continuer..."
 
-#: src-en/data/events.xml.append:2242
+#: src-en/data/events.xml.append:3292
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICESTATION_RK\"]/beaconType/unvisitedTooltip"
 msgstr ""
 
-#: src-en/data/events.xml.append:2244
+#: src-en/data/events.xml.append:3294
 msgid "data/events.xml.append$//event[@name=\"ZOLTAN_POLICESTATION_RK\"]/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2253
+#: src-en/data/events.xml.append:3303
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICESTATION_RK\"]/choice[1]/text"
 msgstr "Demander des ressources."
 
-#: src-en/data/events.xml.append:2255
+#: src-en/data/events.xml.append:3305
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICESTATION_RK\"]/choice[1]/event/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2261
+#: src-en/data/events.xml.append:3311
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICESTATION_RK\"]/choice[2]/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2263
+#: src-en/data/events.xml.append:3313
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICESTATION_RK\"]/choice[2]/event/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2268
+#: src-en/data/events.xml.append:3318
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICESTATION_RK\"]/choice[2]/event/choice[1]/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2270
+#: src-en/data/events.xml.append:3320
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICESTATION_RK\"]/choice[2]/event/choice[1]/event/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2275
+#: src-en/data/events.xml.append:3325
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICESTATION_RK\"]/choice[2]/event/choice[1]/event/choice/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2282
+#: src-en/data/events.xml.append:3332
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICESTATION_RK\"]/choice[2]/event/choice[2]/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2284
+#: src-en/data/events.xml.append:3334
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICESTATION_RK\"]/choice[2]/event/choice[2]/event/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2295
+#: src-en/data/events.xml.append:3345
 msgid ""
 "data/events.xml.append$//ship[@name=\"SHIP_ZOLTAN_POLICESTATION_RK\"]/destroyed/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2299
+#: src-en/data/events.xml.append:3349
 msgid ""
 "data/events.xml.append$//ship[@name=\"SHIP_ZOLTAN_POLICESTATION_RK\"]/deadCrew/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2302
+#: src-en/data/events.xml.append:3352
 msgid ""
 "data/events.xml.append$//ship[@name=\"SHIP_ZOLTAN_POLICESTATION_RK\"]/deadCrew/choice/text"
 msgstr "L'ouvrir."
 
-#: src-en/data/events.xml.append:2304
+#: src-en/data/events.xml.append:3354
 msgid ""
 "data/events.xml.append$//ship[@name=\"SHIP_ZOLTAN_POLICESTATION_RK\"]/deadCrew/choice/event/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2329
+#: src-en/data/events.xml.append:3379
 msgid "data/events.xml.append$//event[@name=\"THIEVES_RK_LASERS\"]/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2333
+#: src-en/data/events.xml.append:3383
 msgid "data/events.xml.append$//event[@name=\"THIEVES_RK_LASERS\"]/choice[1]/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2335
+#: src-en/data/events.xml.append:3385
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_LASERS\"]/choice[1]/event/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2338
+#: src-en/data/events.xml.append:3388
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_LASERS\"]/choice[1]/event/choice/text"
 msgstr "Continuer..."
 
-#: src-en/data/events.xml.append:2345
+#: src-en/data/events.xml.append:3395
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_LASERS\"]/choice[@req=\"weapons\"]/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2347
+#: src-en/data/events.xml.append:3397
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_LASERS\"]/choice[@req=\"weapons\"]/event/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2351
+#: src-en/data/events.xml.append:3401
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_LASERS\"]/choice[@req=\"weapons\"]/event/choice/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2353
+#: src-en/data/events.xml.append:3403
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_LASERS\"]/choice[@req=\"weapons\"]/event/choice/event/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2357
+#: src-en/data/events.xml.append:3407
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_LASERS\"]/choice[@req=\"weapons\"]/event/choice/event/choice/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2368
+#: src-en/data/events.xml.append:3418
 msgid "data/events.xml.append$//event[@name=\"THIEVES_RK_LASERS\"]/choice[3]/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2370
+#: src-en/data/events.xml.append:3420
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_LASERS\"]/choice[3]/event/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2378
+#: src-en/data/events.xml.append:3428
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_LASERS\"]/choice[3]/event/choice/text"
 msgstr "Continuer..."
 
-#: src-en/data/events.xml.append:2385
+#: src-en/data/events.xml.append:3435
 msgid "data/events.xml.append$//event[@name=\"THIEVES_RK_LASERS\"]/choice[4]/text"
 msgstr "Les ignorer."
 
-#: src-en/data/events.xml.append:2387
+#: src-en/data/events.xml.append:3437
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_LASERS\"]/choice[4]/event/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2390
+#: src-en/data/events.xml.append:3440
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_LASERS\"]/choice[4]/event/choice[1]/text"
 msgstr "Faire quelque chose à bord du vaisseau."
 
-#: src-en/data/events.xml.append:2394
+#: src-en/data/events.xml.append:3444
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_LASERS\"]/choice[4]/event/choice[2]/text"
 msgstr "Ne rien faire."
 
-#: src-en/data/events.xml.append:2414
+#: src-en/data/events.xml.append:3464
 msgid ""
 "data/events.xml.append$//event[@name=\"SHIP_SMUGGLER_RK_LASERS_SURRENDER\"]/choice[1]/text"
 msgstr "Accepter leur reddition."
 
-#: src-en/data/events.xml.append:2420
+#: src-en/data/events.xml.append:3470
 msgid ""
 "data/events.xml.append$//event[@name=\"SHIP_SMUGGLER_RK_LASERS_SURRENDER\"]/choice[1]/event/choice/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2431
+#: src-en/data/events.xml.append:3481
 msgid "data/events.xml.append$//event[@name=\"THIEVES_RK_LASERS_REWARD\"]/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2435
+#: src-en/data/events.xml.append:3485
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_LASERS_REWARD\"]/choice/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2440
+#: src-en/data/events.xml.append:3490
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_LASERS_REWARD_CREWKILL\"]/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2444
+#: src-en/data/events.xml.append:3494
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_LASERS_REWARD_CREWKILL\"]/choice/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2450
+#: src-en/data/events.xml.append:3500
 msgid "data/events.xml.append$//event[@name=\"THIEVES_RK_LASERS_END\"]/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2457
+#: src-en/data/events.xml.append:3507
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_LASERS_END\"]/choice[1]/text"
 msgstr "Bam"
 
-#: src-en/data/events.xml.append:2459
+#: src-en/data/events.xml.append:3509
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_LASERS_END\"]/choice[1]/event/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2462
+#: src-en/data/events.xml.append:3512
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_LASERS_END\"]/choice[1]/event/choice/text"
 msgstr "Continuer..."
 
-#: src-en/data/events.xml.append:2469
+#: src-en/data/events.xml.append:3519
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_LASERS_END\"]/choice[2]/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2471
+#: src-en/data/events.xml.append:3521
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_LASERS_END\"]/choice[2]/event/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2474
+#: src-en/data/events.xml.append:3524
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_LASERS_END\"]/choice[2]/event/choice/text"
 msgstr "Continuer..."
 
-#: src-en/data/events.xml.append:2481
+#: src-en/data/events.xml.append:3531
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_LASERS_END\"]/choice[3]/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2483
+#: src-en/data/events.xml.append:3533
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_LASERS_END\"]/choice[3]/event/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2486
+#: src-en/data/events.xml.append:3536
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_LASERS_END\"]/choice[3]/event/choice/text"
 msgstr "Continuer..."
 
-#: src-en/data/events.xml.append:2497
+#: src-en/data/events.xml.append:3547
 msgid "data/events.xml.append$//event[@name=\"THIEVES_RK_MISSILES\"]/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2501
+#: src-en/data/events.xml.append:3551
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_MISSILES\"]/choice[1]/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2503
+#: src-en/data/events.xml.append:3553
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_MISSILES\"]/choice[1]/event/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2506
+#: src-en/data/events.xml.append:3556
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_MISSILES\"]/choice[1]/event/choice/text"
 msgstr "Continuer..."
 
-#: src-en/data/events.xml.append:2513
+#: src-en/data/events.xml.append:3563
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_MISSILES\"]/choice[@req=\"weapons\"]/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2515
+#: src-en/data/events.xml.append:3565
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_MISSILES\"]/choice[@req=\"weapons\"]/event/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2519
+#: src-en/data/events.xml.append:3569
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_MISSILES\"]/choice[@req=\"weapons\"]/event/choice/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2521
+#: src-en/data/events.xml.append:3571
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_MISSILES\"]/choice[@req=\"weapons\"]/event/choice/event/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2529
+#: src-en/data/events.xml.append:3579
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_MISSILES\"]/choice[3]/text"
 msgstr "Les ignorer."
 
-#: src-en/data/events.xml.append:2531
+#: src-en/data/events.xml.append:3581
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_MISSILES\"]/choice[3]/event/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2537
+#: src-en/data/events.xml.append:3587
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_MISSILES\"]/choice[3]/event/choice[1]/text"
 msgstr "Faire quelque chose à bord du vaisseau."
 
-#: src-en/data/events.xml.append:2541
+#: src-en/data/events.xml.append:3591
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_MISSILES\"]/choice[3]/event/choice[2]/text"
 msgstr "Ne rien faire."
 
-#: src-en/data/events.xml.append:2556
+#: src-en/data/events.xml.append:3606
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_MISSILES_REWARD_SURR\"]/choice[1]/text"
 msgstr "Accepter leur reddition."
 
-#: src-en/data/events.xml.append:2561
+#: src-en/data/events.xml.append:3611
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_MISSILES_REWARD_SURR\"]/choice[1]/event/choice/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2572
+#: src-en/data/events.xml.append:3622
 msgid "data/events.xml.append$//event[@name=\"THIEVES_RK_MISSILES_REWARD\"]/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2576
+#: src-en/data/events.xml.append:3626
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_MISSILES_REWARD\"]/choice/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2581
+#: src-en/data/events.xml.append:3631
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_MISSILES_REWARD_CREWKILL\"]/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2585
+#: src-en/data/events.xml.append:3635
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_MISSILES_REWARD_CREWKILL\"]/choice/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2591
+#: src-en/data/events.xml.append:3641
 msgid "data/events.xml.append$//event[@name=\"THIEVES_RK_MISSILES_END\"]/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2594
+#: src-en/data/events.xml.append:3644
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_MISSILES_END\"]/choice[1]/text"
 msgstr "Bam"
 
-#: src-en/data/events.xml.append:2596
+#: src-en/data/events.xml.append:3646
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_MISSILES_END\"]/choice[1]/event/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2599
+#: src-en/data/events.xml.append:3649
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_MISSILES_END\"]/choice[1]/event/choice/text"
 msgstr "Continuer..."
 
-#: src-en/data/events.xml.append:2606
+#: src-en/data/events.xml.append:3656
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_MISSILES_END\"]/choice[2]/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2608
+#: src-en/data/events.xml.append:3658
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_MISSILES_END\"]/choice[2]/event/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2611
+#: src-en/data/events.xml.append:3661
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_MISSILES_END\"]/choice[2]/event/choice/text"
 msgstr "Continuer..."
 
-#: src-en/data/events.xml.append:2618
+#: src-en/data/events.xml.append:3668
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_MISSILES_END\"]/choice[3]/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2620
+#: src-en/data/events.xml.append:3670
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_MISSILES_END\"]/choice[3]/event/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2623
+#: src-en/data/events.xml.append:3673
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_MISSILES_END\"]/choice[3]/event/choice/text"
 msgstr "Continuer..."
 
-#: src-en/data/events.xml.append:2634
+#: src-en/data/events.xml.append:3684
 msgid "data/events.xml.append$//event[@name=\"THIEVES_RK_IONS\"]/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2638
+#: src-en/data/events.xml.append:3688
 msgid "data/events.xml.append$//event[@name=\"THIEVES_RK_IONS\"]/choice[1]/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2640
+#: src-en/data/events.xml.append:3690
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_IONS\"]/choice[1]/event/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2643
+#: src-en/data/events.xml.append:3693
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_IONS\"]/choice[1]/event/choice/text"
 msgstr "Continuer..."
 
-#: src-en/data/events.xml.append:2650
+#: src-en/data/events.xml.append:3700
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_IONS\"]/choice[@req=\"weapons\"]/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2652
+#: src-en/data/events.xml.append:3702
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_IONS\"]/choice[@req=\"weapons\"]/event/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2656
+#: src-en/data/events.xml.append:3706
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_IONS\"]/choice[@req=\"weapons\"]/event/choice/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2658
+#: src-en/data/events.xml.append:3708
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_IONS\"]/choice[@req=\"weapons\"]/event/choice/event/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2666
+#: src-en/data/events.xml.append:3716
 msgid "data/events.xml.append$//event[@name=\"THIEVES_RK_IONS\"]/choice[3]/text"
 msgstr "Les ignorer."
 
-#: src-en/data/events.xml.append:2668
+#: src-en/data/events.xml.append:3718
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_IONS\"]/choice[3]/event/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2674
+#: src-en/data/events.xml.append:3724
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_IONS\"]/choice[3]/event/choice[1]/text"
 msgstr "Faire quelque chose à bord du vaisseau."
 
-#: src-en/data/events.xml.append:2678
+#: src-en/data/events.xml.append:3728
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_IONS\"]/choice[3]/event/choice[2]/text"
 msgstr "Ne rien faire."
 
-#: src-en/data/events.xml.append:2693
+#: src-en/data/events.xml.append:3743
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_IONS_REWARD_SURR\"]/choice[1]/text"
 msgstr "Accepter leur reddition."
 
-#: src-en/data/events.xml.append:2698
+#: src-en/data/events.xml.append:3748
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_IONS_REWARD_SURR\"]/choice[1]/event/choice/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2709
+#: src-en/data/events.xml.append:3759
 msgid "data/events.xml.append$//event[@name=\"THIEVES_RK_IONS_REWARD\"]/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2713
+#: src-en/data/events.xml.append:3763
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_IONS_REWARD\"]/choice/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2718
+#: src-en/data/events.xml.append:3768
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_IONS_REWARD_CREWKILL\"]/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2722
+#: src-en/data/events.xml.append:3772
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_IONS_REWARD_CREWKILL\"]/choice/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2728
+#: src-en/data/events.xml.append:3778
 msgid "data/events.xml.append$//event[@name=\"THIEVES_RK_IONS_END\"]/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2731
+#: src-en/data/events.xml.append:3781
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_IONS_END\"]/choice[1]/text"
 msgstr "Bam"
 
-#: src-en/data/events.xml.append:2733
+#: src-en/data/events.xml.append:3783
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_IONS_END\"]/choice[1]/event/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2736
+#: src-en/data/events.xml.append:3786
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_IONS_END\"]/choice[1]/event/choice/text"
 msgstr "Continuer..."
 
-#: src-en/data/events.xml.append:2743
+#: src-en/data/events.xml.append:3793
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_IONS_END\"]/choice[2]/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2745
+#: src-en/data/events.xml.append:3795
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_IONS_END\"]/choice[2]/event/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2748
+#: src-en/data/events.xml.append:3798
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_IONS_END\"]/choice[2]/event/choice/text"
 msgstr "Continuer..."
 
-#: src-en/data/events.xml.append:2755
+#: src-en/data/events.xml.append:3805
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_IONS_END\"]/choice[3]/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2757
+#: src-en/data/events.xml.append:3807
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_IONS_END\"]/choice[3]/event/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2760
+#: src-en/data/events.xml.append:3810
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_IONS_END\"]/choice[3]/event/choice/text"
 msgstr "Continuer..."
 
-#: src-en/data/events.xml.append:2771
+#: src-en/data/events.xml.append:3821
 msgid "data/events.xml.append$//event[@name=\"THIEVES_RK_BEAMS\"]/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2775
+#: src-en/data/events.xml.append:3825
 msgid "data/events.xml.append$//event[@name=\"THIEVES_RK_BEAMS\"]/choice[1]/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2777
+#: src-en/data/events.xml.append:3827
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_BEAMS\"]/choice[1]/event/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2780
+#: src-en/data/events.xml.append:3830
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_BEAMS\"]/choice[1]/event/choice/text"
 msgstr "Continuer..."
 
-#: src-en/data/events.xml.append:2787
+#: src-en/data/events.xml.append:3837
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_BEAMS\"]/choice[@req=\"weapons\"]/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2789
+#: src-en/data/events.xml.append:3839
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_BEAMS\"]/choice[@req=\"weapons\"]/event/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2793
+#: src-en/data/events.xml.append:3843
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_BEAMS\"]/choice[@req=\"weapons\"]/event/choice/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2795
+#: src-en/data/events.xml.append:3845
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_BEAMS\"]/choice[@req=\"weapons\"]/event/choice/event/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2803
+#: src-en/data/events.xml.append:3853
 msgid "data/events.xml.append$//event[@name=\"THIEVES_RK_BEAMS\"]/choice[3]/text"
 msgstr "Les ignorer."
 
-#: src-en/data/events.xml.append:2805
+#: src-en/data/events.xml.append:3855
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_BEAMS\"]/choice[3]/event/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2811
+#: src-en/data/events.xml.append:3861
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_BEAMS\"]/choice[3]/event/choice[1]/text"
 msgstr "Faire quelque chose à bord du vaisseau."
 
-#: src-en/data/events.xml.append:2815
+#: src-en/data/events.xml.append:3865
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_BEAMS\"]/choice[3]/event/choice[2]/text"
 msgstr "Ne rien faire."
 
-#: src-en/data/events.xml.append:2830
+#: src-en/data/events.xml.append:3880
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_BEAMS_REWARD_SURR\"]/choice[1]/text"
 msgstr "Accepter leur reddition."
 
-#: src-en/data/events.xml.append:2835
+#: src-en/data/events.xml.append:3885
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_BEAMS_REWARD_SURR\"]/choice[1]/event/choice/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2846
+#: src-en/data/events.xml.append:3896
 msgid "data/events.xml.append$//event[@name=\"THIEVES_RK_BEAMS_REWARD\"]/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2850
+#: src-en/data/events.xml.append:3900
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_BEAMS_REWARD\"]/choice/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2855
+#: src-en/data/events.xml.append:3905
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_BEAMS_REWARD_CREWKILL\"]/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2859
+#: src-en/data/events.xml.append:3909
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_BEAMS_REWARD_CREWKILL\"]/choice/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2865
+#: src-en/data/events.xml.append:3915
 msgid "data/events.xml.append$//event[@name=\"THIEVES_RK_BEAMS_END\"]/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2868
+#: src-en/data/events.xml.append:3918
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_BEAMS_END\"]/choice[1]/text"
 msgstr "Bam"
 
-#: src-en/data/events.xml.append:2870
+#: src-en/data/events.xml.append:3920
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_BEAMS_END\"]/choice[1]/event/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2873
+#: src-en/data/events.xml.append:3923
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_BEAMS_END\"]/choice[1]/event/choice/text"
 msgstr "Continuer..."
 
-#: src-en/data/events.xml.append:2880
+#: src-en/data/events.xml.append:3930
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_BEAMS_END\"]/choice[2]/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2882
+#: src-en/data/events.xml.append:3932
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_BEAMS_END\"]/choice[2]/event/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2885
+#: src-en/data/events.xml.append:3935
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_BEAMS_END\"]/choice[2]/event/choice/text"
 msgstr "Continuer..."
 
-#: src-en/data/events.xml.append:2892
+#: src-en/data/events.xml.append:3942
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_BEAMS_END\"]/choice[3]/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2894
+#: src-en/data/events.xml.append:3944
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_BEAMS_END\"]/choice[3]/event/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2897
+#: src-en/data/events.xml.append:3947
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_BEAMS_END\"]/choice[3]/event/choice/text"
 msgstr "Continuer..."
 
-#: src-en/data/events.xml.append:2917
+#: src-en/data/events.xml.append:3967
 msgid "data/events.xml.append$//event[@name=\"EMPTY_RADIKAL\"]/choice[1]/text"
 msgstr "Faire quelque chose à bord du vaisseau."
 
-#: src-en/data/events.xml.append:2921
+#: src-en/data/events.xml.append:3971
 msgid "data/events.xml.append$//event[@name=\"EMPTY_RADIKAL\"]/choice[2]/text"
 msgstr "Ne rien faire."
 
-#: src-en/data/events.xml.append:2926
+#: src-en/data/events.xml.append:3976
 msgid "data/events.xml.append$//textList[@name=\"EMPTY_RADIKAL\"]/text[1]"
 msgstr ""
 
-#: src-en/data/events.xml.append:2927
+#: src-en/data/events.xml.append:3977
 msgid "data/events.xml.append$//textList[@name=\"EMPTY_RADIKAL\"]/text[2]"
 msgstr ""
 
-#: src-en/data/events.xml.append:2928
+#: src-en/data/events.xml.append:3978
 msgid "data/events.xml.append$//textList[@name=\"EMPTY_RADIKAL\"]/text[3]"
 msgstr ""
 
-#: src-en/data/events.xml.append:2929
+#: src-en/data/events.xml.append:3979
 msgid "data/events.xml.append$//textList[@name=\"EMPTY_RADIKAL\"]/text[4]"
 msgstr ""
 
-#: src-en/data/events.xml.append:2930
+#: src-en/data/events.xml.append:3980
 msgid "data/events.xml.append$//textList[@name=\"EMPTY_RADIKAL\"]/text[5]"
 msgstr ""
 
-#: src-en/data/events.xml.append:2936
+#: src-en/data/events.xml.append:3986
 msgid ""
 "data/events.xml.append$//event[@name=\"NEBULA_EMPTY_RADIKAL\"]/choice[1]/text"
 msgstr "Faire quelque chose à bord du vaisseau."
 
-#: src-en/data/events.xml.append:2940
+#: src-en/data/events.xml.append:3990
 msgid ""
 "data/events.xml.append$//event[@name=\"NEBULA_EMPTY_RADIKAL\"]/choice[2]/text"
 msgstr "Ne rien faire."
 
-#: src-en/data/events.xml.append:2945
+#: src-en/data/events.xml.append:3995
 msgid "data/events.xml.append$//textList[@name=\"NEBULA_EMPTY_RADIKAL\"]/text[1]"
 msgstr ""
 
-#: src-en/data/events.xml.append:2946
+#: src-en/data/events.xml.append:3996
 msgid "data/events.xml.append$//textList[@name=\"NEBULA_EMPTY_RADIKAL\"]/text[2]"
 msgstr ""
 
-#: src-en/data/events.xml.append:2947
+#: src-en/data/events.xml.append:3997
 msgid "data/events.xml.append$//textList[@name=\"NEBULA_EMPTY_RADIKAL\"]/text[3]"
 msgstr ""
 
-#: src-en/data/events.xml.append:2948
+#: src-en/data/events.xml.append:3998
 msgid "data/events.xml.append$//textList[@name=\"NEBULA_EMPTY_RADIKAL\"]/text[4]"
 msgstr ""
 
-#: src-en/data/events.xml.append:2975
+#: src-en/data/events.xml.append:4038
 msgid "data/events.xml.append$//event[@name=\"EXIT_RADIKAL_PART2\"]/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2980
+#: src-en/data/events.xml.append:4042
 msgid ""
-"data/events.xml.append$//event[@name=\"EXIT_RADIKAL_PART2\"]/choice[@req=\"RKS_TRYING_TO_SKIP_TRINITY\""
+"data/events.xml.append$//event[@name=\"EXIT_RADIKAL_PART2\"]/choice[@req=\"loc_exit_radikal\""
 " and @lvl=\"0\"]/text"
 msgstr "Continuer..."
 
-#: src-en/data/events.xml.append:2984
+#: src-en/data/events.xml.append:4047
 msgid ""
-"data/events.xml.append$//event[@name=\"EXIT_RADIKAL_PART2\"]/choice[@req=\"RKS_TRYING_TO_SKIP_TRINITY\""
+"data/events.xml.append$//event[@name=\"EXIT_RADIKAL_PART2\"]/choice[@req=\"loc_exit_radikal\""
 " and @lvl=\"1\"]/text"
 msgstr "Continuer..."
 
-#: src-en/data/events.xml.append:2990
+#: src-en/data/events.xml.append:4049
+msgid ""
+"data/events.xml.append$//event[@name=\"EXIT_RADIKAL_PART2\"]/choice[@req=\"loc_exit_radikal\""
+" and @lvl=\"1\"]/event/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:4055
+msgid ""
+"data/events.xml.append$//event[@name=\"EXIT_RADIKAL_PART2\"]/choice[@req=\"loc_exit_radikal\""
+" and @lvl=\"1\"]/event/choice[1]/text"
+msgstr "Continuer..."
+
+#: src-en/data/events.xml.append:4059
+msgid ""
+"data/events.xml.append$//event[@name=\"EXIT_RADIKAL_PART2\"]/choice[@req=\"loc_exit_radikal\""
+" and @lvl=\"1\"]/event/choice[@req=\"engines\"]/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:4063
+msgid ""
+"data/events.xml.append$//event[@name=\"EXIT_RADIKAL_PART2\"]/choice[@req=\"loc_exit_radikal\""
+" and @lvl=\"1\"]/event/choice[@req=\"LIST_CREW_JERRY\"]/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:4073
+msgid "data/events.xml.append$//event[@name=\"EXIT_RADIKAL_PART3\"]/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:4078
+msgid ""
+"data/events.xml.append$//event[@name=\"EXIT_RADIKAL_PART3\"]/choice[@req=\"RKS_TRYING_TO_SKIP_TRINITY\""
+" and @lvl=\"0\"]/text"
+msgstr "Continuer..."
+
+#: src-en/data/events.xml.append:4082
+msgid ""
+"data/events.xml.append$//event[@name=\"EXIT_RADIKAL_PART3\"]/choice[@req=\"RKS_TRYING_TO_SKIP_TRINITY\""
+" and @lvl=\"1\"]/text"
+msgstr "Continuer..."
+
+#: src-en/data/events.xml.append:4134
 msgid ""
 "data/events.xml.append$//event[@name=\"EXIT_RADIKAL_ACTIVATE_PIRATE_AMBUSH\"]/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:2994
+#: src-en/data/events.xml.append:4138
 msgid ""
 "data/events.xml.append$//event[@name=\"EXIT_RADIKAL_ACTIVATE_PIRATE_AMBUSH\"]/choice/text"
 msgstr "Continuer..."
 
-#: src-en/data/events.xml.append:3000
+#: src-en/data/events.xml.append:4144
 msgid "data/events.xml.append$//event[@name=\"EXIT_RADIKAL_MAIN\"]/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:3010
+#: src-en/data/events.xml.append:4154
 msgid ""
 "data/events.xml.append$//event[@name=\"EXIT_RADIKAL_MAIN\"]/choice[@req=\"challenge_level\""
 " and @lvl=\"0\"]/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:3012
+#: src-en/data/events.xml.append:4156
 msgid ""
 "data/events.xml.append$//event[@name=\"EXIT_RADIKAL_MAIN\"]/choice[@req=\"challenge_level\""
 " and @lvl=\"0\"]/event/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:3016
+#: src-en/data/events.xml.append:4160
 msgid ""
 "data/events.xml.append$//event[@name=\"EXIT_RADIKAL_MAIN\"]/choice[@req=\"challenge_level\""
 " and @lvl=\"0\"]/event/choice/text"
 msgstr "Continuer..."
 
-#: src-en/data/events.xml.append:3022
+#: src-en/data/events.xml.append:4166
 msgid ""
 "data/events.xml.append$//event[@name=\"EXIT_RADIKAL_MAIN\"]/choice[@req=\"challenge_level\""
-" and @lvl=\"3\"]/text"
+" and @lvl=\"2\"]/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:3024
+#: src-en/data/events.xml.append:4168
 msgid ""
 "data/events.xml.append$//event[@name=\"EXIT_RADIKAL_MAIN\"]/choice[@req=\"challenge_level\""
-" and @lvl=\"3\"]/event/text"
+" and @lvl=\"2\"]/event/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:3028
+#: src-en/data/events.xml.append:4172
 msgid ""
 "data/events.xml.append$//event[@name=\"EXIT_RADIKAL_MAIN\"]/choice[@req=\"challenge_level\""
-" and @lvl=\"3\"]/event/choice/text"
+" and @lvl=\"2\"]/event/choice/text"
 msgstr "Continuer..."
 
-#: src-en/data/events.xml.append:3036
+#: src-en/data/events.xml.append:4180
 msgid "data/events.xml.append$//event[@name=\"EXIT_RADIKAL_MAIN\"]/choice[3]/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:3038
+#: src-en/data/events.xml.append:4182
 msgid ""
 "data/events.xml.append$//event[@name=\"EXIT_RADIKAL_MAIN\"]/choice[3]/event/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:3042
+#: src-en/data/events.xml.append:4186
 msgid ""
 "data/events.xml.append$//event[@name=\"EXIT_RADIKAL_MAIN\"]/choice[3]/event/choice/text"
 msgstr "Continuer..."
 
-#: src-en/data/events.xml.append:3048
+#: src-en/data/events.xml.append:4192
 msgid "data/events.xml.append$//event[@name=\"EXIT_RADIKAL_MAIN\"]/choice[4]/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:3050
+#: src-en/data/events.xml.append:4194
 msgid ""
 "data/events.xml.append$//event[@name=\"EXIT_RADIKAL_MAIN\"]/choice[4]/event/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:3054
+#: src-en/data/events.xml.append:4198
 msgid ""
 "data/events.xml.append$//event[@name=\"EXIT_RADIKAL_MAIN\"]/choice[4]/event/choice/text"
 msgstr "Continuer..."
 
-#: src-en/data/events.xml.append:3061
+#: src-en/data/events.xml.append:4205
 msgid ""
 "data/events.xml.append$//event[@name=\"EXIT_RADIKAL_MAIN\"]/choice[@req=\"unique_alkali\"]/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:3063
+#: src-en/data/events.xml.append:4207
 msgid ""
 "data/events.xml.append$//event[@name=\"EXIT_RADIKAL_MAIN\"]/choice[@req=\"unique_alkali\"]/event/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:3068
+#: src-en/data/events.xml.append:4212
 msgid ""
 "data/events.xml.append$//event[@name=\"EXIT_RADIKAL_MAIN\"]/choice[@req=\"unique_ariadne\"]/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:3070
+#: src-en/data/events.xml.append:4214
 msgid ""
 "data/events.xml.append$//event[@name=\"EXIT_RADIKAL_MAIN\"]/choice[@req=\"unique_ariadne\"]/event/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:3075
+#: src-en/data/events.xml.append:4219
 msgid ""
 "data/events.xml.append$//event[@name=\"EXIT_RADIKAL_MAIN\"]/choice[@req=\"LIST_VARIANT_BILLY\"]/text"
 msgstr "(Billy) Billy peut les convaincre de vous laisser partir."
 
-#: src-en/data/events.xml.append:3077
+#: src-en/data/events.xml.append:4221
 msgid ""
 "data/events.xml.append$//event[@name=\"EXIT_RADIKAL_MAIN\"]/choice[@req=\"LIST_VARIANT_BILLY\"]/event/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:3083
+#: src-en/data/events.xml.append:4227
 msgid ""
 "data/events.xml.append$//event[@name=\"EXIT_RADIKAL_MAIN\"]/choice[@req=\"unique_dessius\"]/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:3085
+#: src-en/data/events.xml.append:4229
 msgid ""
 "data/events.xml.append$//event[@name=\"EXIT_RADIKAL_MAIN\"]/choice[@req=\"unique_dessius\"]/event/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:3090
+#: src-en/data/events.xml.append:4234
 msgid ""
 "data/events.xml.append$//event[@name=\"EXIT_RADIKAL_MAIN\"]/choice[@req=\"unique_devorak\"]/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:3092
+#: src-en/data/events.xml.append:4236
 msgid ""
 "data/events.xml.append$//event[@name=\"EXIT_RADIKAL_MAIN\"]/choice[@req=\"unique_devorak\"]/event/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:3097
+#: src-en/data/events.xml.append:4241
 msgid ""
 "data/events.xml.append$//event[@name=\"EXIT_RADIKAL_MAIN\"]/choice[@req=\"traitor\"]/text"
 msgstr "(Metyunt) Metyunt peut les convaincre de vous laisser partir."
 
-#: src-en/data/events.xml.append:3099
+#: src-en/data/events.xml.append:4243
 msgid ""
 "data/events.xml.append$//event[@name=\"EXIT_RADIKAL_MAIN\"]/choice[@req=\"traitor\"]/event/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:3134
+#: src-en/data/events.xml.append:4278
 msgid ""
 "data/events.xml.append$//event[@name=\"RKS_EXIT_PIRATE_TRINITY_AMBUSH\"]/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:3146
+#: src-en/data/events.xml.append:4288
 msgid ""
 "data/events.xml.append$//event[@name=\"RKS_EXIT_PIRATE_TRINITY_AMBUSH\"]/choice/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:3148
+#: src-en/data/events.xml.append:4290
 msgid ""
 "data/events.xml.append$//event[@name=\"RKS_EXIT_PIRATE_TRINITY_AMBUSH\"]/choice/event/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:3152
+#: src-en/data/events.xml.append:4294
 msgid ""
 "data/events.xml.append$//event[@name=\"RKS_EXIT_PIRATE_TRINITY_AMBUSH\"]/choice/event/choice/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:3173
+#: src-en/data/events.xml.append:4315
 msgid ""
 "data/events.xml.append$//ship[@name=\"SHIP_RKS_EXIT_PIRATE_AMBUSHER\"]/destroyed/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:3186
+#: src-en/data/events.xml.append:4328
 msgid ""
 "data/events.xml.append$//ship[@name=\"SHIP_RKS_EXIT_PIRATE_AMBUSHER\"]/destroyed/choice/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:3191
+#: src-en/data/events.xml.append:4333
 msgid ""
 "data/events.xml.append$//ship[@name=\"SHIP_RKS_EXIT_PIRATE_AMBUSHER\"]/deadCrew/text"
 msgstr ""
 
-#: src-en/data/events.xml.append:3204
+#: src-en/data/events.xml.append:4346
 msgid ""
 "data/events.xml.append$//ship[@name=\"SHIP_RKS_EXIT_PIRATE_AMBUSHER\"]/deadCrew/choice/text"
 msgstr ""

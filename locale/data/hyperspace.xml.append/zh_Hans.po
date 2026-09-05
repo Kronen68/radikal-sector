@@ -1,16 +1,9 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-09-03 09:36+0000\n"
-"Last-Translator: 土豆老年人 <2685455659@qq.com>\n"
-"Language-Team: Chinese (Simplified Han script) <https://weblate.hyperq.be/"
-"projects/radikal-sector/datahyperspace-xml-append/zh_Hans/>\n"
-"Language: zh_Hans\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.17.1\n"
 
 #: src-en/data/hyperspace.xml.append:245
 msgid "data/hyperspace.xml.append$//human_soldier[@name=\"Rammerman\"]/@name"
@@ -138,7 +131,7 @@ msgstr "康妮"
 msgid "data/hyperspace.xml.append$//rk_weaponlike[@name=\"Zoe\"]/@name"
 msgstr "佐伊"
 
-#: src-en/data/hyperspace.xml.append:719
+#: src-en/data/hyperspace.xml.append:734
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[3]/mod:findLike[1]/mod-"
 "append:shipIcon[1]/tooltip"
@@ -147,14 +140,13 @@ msgstr ""
 "\t\t\t可能很危险，也可能对它自己和/或其船员构成威胁。\n"
 "\t\t\t可能拥有可掠夺的拉迪卡尔装备：解锁内置升级以及拉迪卡尔星区的蓝色选项或坐标。"
 
-#: src-en/data/hyperspace.xml.append:726
+#: src-en/data/hyperspace.xml.append:741
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[3]/mod:findLike[1]/mod-"
 "append:shipIcon[2]/tooltip"
 msgstr ""
 "反 RK 标准套装：\n"
-"\t\t\t追捕拉迪卡尔成员并不安全。狂热的猎手们会被授予此物以提高其生存率……并强"
-"迫他们完成任务。\n"
+"\t\t\t追捕拉迪卡尔成员并不安全。狂热的猎手们会被授予此物以提高其生存率……并强迫他们完成任务。\n"
 "\t\t\t\n"
 "\t\t\t15% 几率抵抗船体、系统和离子伤害。\n"
 "\t\t\t缓慢自动修复破舱和火灾。\n"
@@ -162,29 +154,26 @@ msgstr ""
 "\t\t\t[style[color:ff3377]]超光速引擎充能速度降低 90%。\n"
 "\t\t\t无法投降、谈判或违抗命令。[[/style]]"
 
-#: src-en/data/hyperspace.xml.append:740
+#: src-en/data/hyperspace.xml.append:755
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[3]/mod:findLike[2]/mod-"
 "append:shipIcon[1]/tooltip"
 msgstr ""
 "充能腰带：\n"
-"\t\t\t这艘飞船的船员 [style[color:ff3377]]生命值降低 10%[[/style]]，并在死亡"
-"时爆炸，在所处舱室和飞船内引发火灾并造成伤害，在无系统舱室中造成额外伤害"
-"。[style[color:ff3377]]有友军伤害。[[/style]]\n"
+"\t\t\t这艘飞船的船员 [style[color:ff3377]]生命值降低 10%[[/style]]，并在死亡时爆炸，在所处舱室和飞船内引发火灾并造成伤害，在无系统舱室中造成额外伤害。[style[color:ff3377]]有友军伤害。[[/style]]\n"
 "\t\t\t可与已有的死亡效果叠加"
 
-#: src-en/data/hyperspace.xml.append:746
+#: src-en/data/hyperspace.xml.append:761
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[3]/mod:findLike[2]/mod-"
 "append:shipIcon[2]/tooltip"
 msgstr ""
 "铅之泰坦：\n"
-"\t\t\t这艘飞船的水晶、食铁、岩石和盐人获得：2.5 倍伤害抗性， 2.5 倍伤害加成，"
-"行走时造成破舱，且无法维修。\n"
+"\t\t\t这艘飞船的水晶、食铁、岩石和盐人获得：2.5 倍伤害抗性， 2.5 倍伤害加成，行走时造成破舱，且无法维修。\n"
 "\t\t\t其他船员获得固定 +75% 的维修速度。\n"
 "\t\t\t这艘飞船的所有船员获得固定 +40% 的移动速度"
 
-#: src-en/data/hyperspace.xml.append:753
+#: src-en/data/hyperspace.xml.append:768
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[3]/mod:findLike[2]/mod-"
 "append:shipIcon[3]/tooltip"
@@ -193,7 +182,7 @@ msgstr ""
 "\t\t\t该敌人受到一层能量护盾的保护。在护盾被禁用之前，黑客、心灵控制、传送、登舰无人机以及所有造成舰体伤害或离子伤害的武器都将被阻挡。\n"
 "\t\t\t此特殊护盾还提高了护盾充能速度，且该敌人能够再生一次他们的能量护盾！"
 
-#: src-en/data/hyperspace.xml.append:759
+#: src-en/data/hyperspace.xml.append:774
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[3]/mod:findLike[2]/mod-"
 "append:shipIcon[4]/tooltip"
@@ -202,7 +191,7 @@ msgstr ""
 "\t\t\t[style[color:ff3377]]这艘飞船的武器充能速度降低 5%。[[/style]]\n"
 "\t\t\t对这艘飞船造成 1 点伤害的冲击有 40% 几率被抵消，所有其他伤害减少 1 点。"
 
-#: src-en/data/hyperspace.xml.append:765
+#: src-en/data/hyperspace.xml.append:780
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[3]/mod:findLike[2]/mod-"
 "append:shipIcon[5]/tooltip"
@@ -210,7 +199,7 @@ msgstr ""
 "校准器：\n"
 "\t\t\t这艘船的武器获得 +10% 命中加成与 4% 射速提升。"
 
-#: src-en/data/hyperspace.xml.append:770
+#: src-en/data/hyperspace.xml.append:785
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[3]/mod:findLike[2]/mod-"
 "append:shipIcon[6]/tooltip"
@@ -220,31 +209,26 @@ msgstr ""
 "\t\t\t窒息时，他们的移动、破坏、维修和战斗能力提升 1.4 倍。\n"
 "\t\t\t不影响免疫窒息的船员。"
 
-#: src-en/data/hyperspace.xml.append:780
+#: src-en/data/hyperspace.xml.append:795
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[3]/mod:findLike[3]/mod-"
 "append:shipIcon[1]/tooltip"
 msgstr ""
 "傲慢护盾：\n"
-"\t\t\t该敌人受到一层能量护盾的保护。在护盾被禁用之前，黑客、心灵控制、传送、"
-"登舰无人机以及所有造成舰体伤害或离子伤害的武器都将被阻挡。\n"
-"\t\t\t此特殊护盾还会降低护盾充能与武器充能速度，但会治疗友方无人机并伤害敌方"
-"无人机。"
+"\t\t\t该敌人受到一层能量护盾的保护。在护盾被禁用之前，黑客、心灵控制、传送、登舰无人机以及所有造成舰体伤害或离子伤害的武器都将被阻挡。\n"
+"\t\t\t此特殊护盾还会降低护盾充能与武器充能速度，但会治疗友方无人机并伤害敌方无人机。"
 
-#: src-en/data/hyperspace.xml.append:786
+#: src-en/data/hyperspace.xml.append:801
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[3]/mod:findLike[3]/mod-"
 "append:shipIcon[2]/tooltip"
 msgstr ""
 "恐惧甲板：\n"
 "\t\t\t入侵这艘飞船的敌人受到的所有伤害提高 1.7 倍。\n"
-"\t\t\t这艘舰船的船员从大多数来源获得的治疗效果提高 2.5 倍，克隆速度提高 2 倍"
-"，且克隆不会失去技能。\n"
-"\t\t\t[style[color:ff3377]]警告：与这艘飞船的任意船员处于同一舱室的所有船员，"
-"治疗效果降低 0.5 倍（不可叠加）且无法被克隆！[[/style]] [此减益效果呈现为紫色"
-"烟雾]"
+"\t\t\t这艘舰船的船员从大多数来源获得的治疗效果提高 2.5 倍，克隆速度提高 2 倍，且克隆不会失去技能。\n"
+"\t\t\t[style[color:ff3377]]警告：与这艘飞船的任意船员处于同一舱室的所有船员，治疗效果降低 0.5 倍（不可叠加）且无法被克隆！[[/style]] [此减益效果呈现为紫色烟雾]"
 
-#: src-en/data/hyperspace.xml.append:794
+#: src-en/data/hyperspace.xml.append:809
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[3]/mod:findLike[3]/mod-"
 "append:shipIcon[3]/tooltip"
@@ -253,7 +237,7 @@ msgstr ""
 "\t\t\t这艘飞船的半械族抵抗力更强，且免疫心灵控制。\n"
 "\t\t\t根据飞船上黑客和心灵控制的每个激活等级，他们的维修能力会呈指数级提升，速度更快，战斗力更强！"
 
-#: src-en/data/hyperspace.xml.append:801
+#: src-en/data/hyperspace.xml.append:816
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[3]/mod:findLike[3]/mod-"
 "append:shipIcon[4]/tooltip"
@@ -261,7 +245,7 @@ msgstr ""
 "防御套件：\n"
 "\t\t\t在自己的飞船上，船员拥有战斗伤害抗性，维修和移动速度更快，并且闲置时（无需操控系统）会随时间恢复生命值。"
 
-#: src-en/data/hyperspace.xml.append:806
+#: src-en/data/hyperspace.xml.append:821
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[3]/mod:findLike[3]/mod-"
 "append:shipIcon[5]/tooltip"
@@ -270,16 +254,15 @@ msgstr ""
 "\t\t\t当这艘飞船的船员在没有真正的克隆舱时死亡（非事件死亡），黑暗能量会尝试复活他们。\n"
 "\t\t\t最好的情况是，他们复活为自己较弱的版本（士兵 = 默认人类等）。如果没有较弱的版本存在，他们会变成模物族。当模物族死亡时，则无事发生。"
 
-#: src-en/data/hyperspace.xml.append:812
+#: src-en/data/hyperspace.xml.append:827
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[3]/mod:findLike[3]/mod-"
 "append:shipIcon[6]/tooltip"
 msgstr ""
 "冷静头脑：\n"
-"\t\t\t当受到心灵控制效果影响时，这艘飞船的船员无法战斗、破坏或传送离开。对双"
-"方飞船都有效。"
+"\t\t\t当受到心灵控制效果影响时，这艘飞船的船员无法战斗、破坏或传送离开。对双方飞船都有效。"
 
-#: src-en/data/hyperspace.xml.append:820
+#: src-en/data/hyperspace.xml.append:835
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[3]/mod:findLike[4]/mod-"
 "append:shipIcon[1]/tooltip"
@@ -287,7 +270,7 @@ msgstr ""
 "等离子传送器：\n"
 "\t\t\t这艘飞船可以在战斗开始时立即点燃敌人。当心！"
 
-#: src-en/data/hyperspace.xml.append:825
+#: src-en/data/hyperspace.xml.append:840
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[3]/mod:findLike[4]/mod-"
 "append:shipIcon[2]/tooltip"
@@ -295,7 +278,7 @@ msgstr ""
 "灼烧预热器：\n"
 "\t\t\t这艘舰船的武器在超光速跃迁后立即可用，但每次发射射弹或光束时，都会在武器舱引发火灾！"
 
-#: src-en/data/hyperspace.xml.append:830
+#: src-en/data/hyperspace.xml.append:845
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[3]/mod:findLike[4]/mod-"
 "append:shipIcon[3]/tooltip"
@@ -303,193 +286,184 @@ msgstr ""
 "焦土：\n"
 "\t\t\t这艘飞船的船员抵抗火焰，并在灭火时进行治疗。"
 
-#: src-en/data/hyperspace.xml.append:835
+#: src-en/data/hyperspace.xml.append:850
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[3]/mod:findLike[4]/mod-"
 "append:shipIcon[4]/tooltip"
 msgstr ""
 "烈焰大地：\n"
-"\t\t\t这艘飞船的船员抵抗火焰，在火焰中获得强化并产生氧气，并在灭火时进行治疗"
-"。"
+"\t\t\t这艘飞船的船员抵抗火焰，在火焰中获得强化并产生氧气，并在灭火时进行治疗。"
 
-#: src-en/data/hyperspace.xml.append:840
+#: src-en/data/hyperspace.xml.append:855
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[3]/mod:findLike[4]/mod-"
 "append:shipIcon[5]/tooltip"
 msgstr ""
 "喷发大地：\n"
-"\t\t\t这艘飞船的船员抵抗火焰，在火焰中获得强化并产生大量氧气，并在灭火时进行"
-"治疗。"
+"\t\t\t这艘飞船的船员抵抗火焰，在火焰中获得强化并产生大量氧气，并在灭火时进行治疗。"
 
-#: src-en/data/hyperspace.xml.append:845
+#: src-en/data/hyperspace.xml.append:860
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[3]/mod:findLike[4]/mod-"
 "append:shipIcon[6]/tooltip"
 msgstr ""
 "易燃器-I：\n"
-"\t\t\t你的船员的火焰免疫、火焰抗性或直接火焰治疗效果（不包括灭火）将被移除！"
-"你的船员在火焰中移动速度也会变慢，且这艘飞船的生命维持（氧气）系统每有一级活"
-"跃等级，减速效果更甚！"
+"\t\t\t你的船员的火焰免疫、火焰抗性或直接火焰治疗效果（不包括灭火）将被移除！你的船员在火焰中移动速度也会变慢，且这艘飞船的生命维持（氧气）系统每有一级活跃等级，减速效果更甚！"
 
-#: src-en/data/hyperspace.xml.append:850
+#: src-en/data/hyperspace.xml.append:865
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[3]/mod:findLike[4]/mod-"
 "append:shipIcon[7]/tooltip"
 msgstr ""
 "易燃器-D：\n"
-"\t\t\t你的船员受到更高的火焰伤害，并在火焰中移动速度变慢。这些效果随着这艘飞"
-"船的生命维持（氧气）系统每有一级活跃等级而增强！"
+"\t\t\t你的船员受到更高的火焰伤害，并在火焰中移动速度变慢。这些效果随着这艘飞船的生命维持（氧气）系统每有一级活跃等级而增强！"
 
-#: src-en/data/hyperspace.xml.append:855
+#: src-en/data/hyperspace.xml.append:870
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[3]/mod:findLike[4]/mod-"
 "append:shipIcon[8]/tooltip"
 msgstr ""
 "灼烧装填器：\n"
-"\t\t\t这艘飞船的武器和巨炮的射速提升 25%。每次发射射弹或光束时，额外获得 1% "
-"的射速加成（最高 10%），但同时有 10% 的几率在武器控制和任何巨炮舱室引发火灾"
-"。\n"
+"\t\t\t这艘飞船的武器和巨炮的射速提升 25%。每次发射射弹或光束时，额外获得 1% 的射速加成（最高 10%），但同时有 10% 的几率在武器控制和任何巨炮舱室引发火灾。\n"
 "\t\t\t组合：灼烧预燃器将最大额外加成提升至 20%。"
 
-#: src-en/data/hyperspace.xml.append:861
+#: src-en/data/hyperspace.xml.append:876
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[3]/mod:findLike[4]/mod-"
 "append:shipIcon[9]/tooltip"
 msgstr ""
 "浴火裹布：\n"
-"\t\t\t在火焰中，这艘飞船的船员移动和破坏速度为 1.75 倍，战斗和门伤害为 1.75 "
-"倍。对双方飞船都有效。"
+"\t\t\t在火焰中，这艘飞船的船员移动和破坏速度为 1.75 倍，战斗和门伤害为 1.75 倍。对双方飞船都有效。"
 
-#: src-en/data/hyperspace.xml.append:1473
+#: src-en/data/hyperspace.xml.append:1492
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[5]/mod:findLike[1]/mod-"
 "append:category/customTitle"
 msgstr "神秘船员"
 
-#: src-en/data/hyperspace.xml.append:1486
+#: src-en/data/hyperspace.xml.append:1505
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[5]/mod:findLike[2]/mod-"
 "append:category/customTitle"
 msgstr "神秘船员"
 
-#: src-en/data/hyperspace.xml.append:1499
+#: src-en/data/hyperspace.xml.append:1518
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[5]/mod:findLike[3]/mod-"
 "append:category/customTitle"
 msgstr "神秘船员"
 
-#: src-en/data/hyperspace.xml.append:1513
+#: src-en/data/hyperspace.xml.append:1532
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[5]/mod:findLike[4]/mod-"
 "append:category/customTitle"
 msgstr "神秘船员"
 
-#: src-en/data/hyperspace.xml.append:1526
+#: src-en/data/hyperspace.xml.append:1545
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[5]/mod:findLike[5]/mod-"
 "append:category/customTitle"
 msgstr "神秘船员"
 
-#: src-en/data/hyperspace.xml.append:1539
+#: src-en/data/hyperspace.xml.append:1558
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[5]/mod:findLike[6]/mod-"
 "append:category/customTitle"
 msgstr "神秘船员"
 
-#: src-en/data/hyperspace.xml.append:1552
+#: src-en/data/hyperspace.xml.append:1571
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[5]/mod:findLike[7]/mod-"
 "append:category/customTitle"
 msgstr "神秘船员"
 
-#: src-en/data/hyperspace.xml.append:1565
+#: src-en/data/hyperspace.xml.append:1584
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[5]/mod:findLike[8]/mod-"
 "append:category/customTitle"
 msgstr "神秘船员"
 
-#: src-en/data/hyperspace.xml.append:1578
+#: src-en/data/hyperspace.xml.append:1597
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[5]/mod:findLike[9]/mod-"
 "append:category/customTitle"
 msgstr "神秘船员"
 
-#: src-en/data/hyperspace.xml.append:1591
+#: src-en/data/hyperspace.xml.append:1610
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[5]/mod:findLike[10]/mod-"
 "append:category/customTitle"
 msgstr "神秘船员"
 
-#: src-en/data/hyperspace.xml.append:1604
+#: src-en/data/hyperspace.xml.append:1623
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[5]/mod:findLike[11]/mod-"
 "append:category/customTitle"
 msgstr "神秘船员"
 
-#: src-en/data/hyperspace.xml.append:1617
+#: src-en/data/hyperspace.xml.append:1636
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[5]/mod:findLike[12]/mod-"
 "append:category/customTitle"
 msgstr "神秘船员"
 
-#: src-en/data/hyperspace.xml.append:1960
+#: src-en/data/hyperspace.xml.append:1979
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:race[@name=\"rk_weaponlike\"]/powerEffect[1]/buttonText"
 msgstr "炸弹出击"
 
-#: src-en/data/hyperspace.xml.append:1961
+#: src-en/data/hyperspace.xml.append:1980
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:race[@name=\"rk_weaponlike\"]/powerEffect[1]/tooltip"
 msgstr "将炸弹传送到另一艘船上，造成 1 点伤害并造成一处破舱。每跳跃一次可执行一次。"
 
-#: src-en/data/hyperspace.xml.append:2005
+#: src-en/data/hyperspace.xml.append:2024
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:race[@name=\"rk_weaponlike\"]/powerEffect[2]/buttonText"
 msgstr "炸弹注入"
 
-#: src-en/data/hyperspace.xml.append:2006
+#: src-en/data/hyperspace.xml.append:2025
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:race[@name=\"rk_weaponlike\"]/powerEffect[2]/tooltip"
 msgstr "将炸弹传送到另一艘船上，造成 1 点伤害并造成一处破舱。每跳跃一次可执行一次。"
 
-#: src-en/data/hyperspace.xml.append:2052
+#: src-en/data/hyperspace.xml.append:2071
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:race[@name=\"rk_weaponlike\"]/powerEffect[3]/buttonText"
 msgstr "炸弹注入"
 
-#: src-en/data/hyperspace.xml.append:2053
+#: src-en/data/hyperspace.xml.append:2072
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:race[@name=\"rk_weaponlike\"]/powerEffect[3]/tooltip"
 msgstr "引爆炸弹，对当前舱室造成 1 点伤害并造成一处破舱。每跳跃一次可执行一次"
 
-#: src-en/data/hyperspace.xml.append:2170
+#: src-en/data/hyperspace.xml.append:2189
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:race[@name=\"unique_rk_defromorius\"]/powerEffect/buttonText"
 msgstr "褥疮"
 
-#: src-en/data/hyperspace.xml.append:2171
+#: src-en/data/hyperspace.xml.append:2190
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:race[@name=\"unique_rk_defromorius\"]/powerEffect/tooltip"
 msgstr ""
 "[冷却：10秒 持续时间：10秒]\n"
-"\t\t\t\t同一艘飞船上的友方船员（包括迪弗莫在内）受到的所有伤害降低 0.7 倍，并"
-"造成 1.5 倍伤害。"
+"\t\t\t\t同一艘飞船上的友方船员（包括迪弗莫在内）受到的所有伤害降低 0.7 倍，并造成 1.5 倍伤害。"
 
-#: src-en/data/hyperspace.xml.append:2281
+#: src-en/data/hyperspace.xml.append:2299
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:race[@name=\"rk_fireghost\"]/powerEffect/buttonText"
 msgstr "耀斑"
 
-#: src-en/data/hyperspace.xml.append:2282
+#: src-en/data/hyperspace.xml.append:2300
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:race[@name=\"rk_fireghost\"]/powerEffect/tooltip"
@@ -497,25 +471,25 @@ msgstr ""
 "[冷却：10秒 -20生命值]\n"
 "\t\t\t\t在双方飞船的随机舱室内引发火灾."
 
-#: src-en/data/hyperspace.xml.append:2359
+#: src-en/data/hyperspace.xml.append:2376
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:race[@name=\"rk_bottledoxygen\"]/powerEffect[1]/buttonText"
 msgstr "泄漏空气"
 
-#: src-en/data/hyperspace.xml.append:2360
+#: src-en/data/hyperspace.xml.append:2377
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:race[@name=\"rk_bottledoxygen\"]/powerEffect[1]/tooltip"
 msgstr "不应被看到，显示一团云正在消散。"
 
-#: src-en/data/hyperspace.xml.append:2390
+#: src-en/data/hyperspace.xml.append:2407
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:race[@name=\"rk_bottledoxygen\"]/powerEffect[2]/buttonText"
 msgstr "爆炸"
 
-#: src-en/data/hyperspace.xml.append:2391
+#: src-en/data/hyperspace.xml.append:2408
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:race[@name=\"rk_bottledoxygen\"]/powerEffect[2]/tooltip"
@@ -524,1242 +498,1325 @@ msgstr ""
 "\t\t\t\t爆炸，对舱室内的所有船员造成 30 点船员伤害，并有 60% 几率引发火灾。\n"
 "\t\t\t\t传送期间或生命值低于 15 时无法激活。"
 
-#: src-en/data/hyperspace.xml.append:3364
+#: src-en/data/hyperspace.xml.append:3480
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[1]/category[1]/customTitle"
 msgstr "拉迪卡尔 BPS 武器"
 
-#: src-en/data/hyperspace.xml.append:3372
+#: src-en/data/hyperspace.xml.append:3488
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[1]/category[2]/customTitle"
 msgstr "拉迪卡尔武器"
 
-#: src-en/data/hyperspace.xml.append:3390
+#: src-en/data/hyperspace.xml.append:3506
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[1]/category[3]/customTitle"
 msgstr "BPS 增强部件"
 
-#: src-en/data/hyperspace.xml.append:3403
+#: src-en/data/hyperspace.xml.append:3519
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[1]/category[4]/customTitle"
 msgstr "拉迪卡尔增强部件"
 
-#: src-en/data/hyperspace.xml.append:3421
+#: src-en/data/hyperspace.xml.append:3537
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[1]/category[5]/customTitle"
 msgstr "拉迪卡尔成员"
 
-#: src-en/data/hyperspace.xml.append:3465
+#: src-en/data/hyperspace.xml.append:3564
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[2]/category/customTitle"
 msgstr "反拉迪卡尔武器"
 
-#: src-en/data/hyperspace.xml.append:3499
+#: src-en/data/hyperspace.xml.append:3598
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[3]/category/customTitle"
 msgstr "反拉迪卡尔武器"
 
-#: src-en/data/hyperspace.xml.append:3533
+#: src-en/data/hyperspace.xml.append:3632
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[4]/category[1]/customTitle"
 msgstr "基础拉迪卡尔武器"
 
-#: src-en/data/hyperspace.xml.append:3550
+#: src-en/data/hyperspace.xml.append:3649
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[4]/category[2]/customTitle"
 msgstr "拉迪卡尔武器"
 
-#: src-en/data/hyperspace.xml.append:3568
+#: src-en/data/hyperspace.xml.append:3667
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[4]/category[3]/customTitle"
 msgstr "拉迪卡尔 BPS 武器"
 
-#: src-en/data/hyperspace.xml.append:3585
+#: src-en/data/hyperspace.xml.append:3677
+msgid ""
+"data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
+"append:customStore[4]/category[4]/customTitle"
+msgstr "辅助系统"
+
+#: src-en/data/hyperspace.xml.append:3693
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[4]/category[5]/customTitle"
-msgstr "重要系统"
+msgstr "RK 伙伴"
 
-#: src-en/data/hyperspace.xml.append:3603
+#: src-en/data/hyperspace.xml.append:3710
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[4]/category[6]/customTitle"
-msgstr "辅助系统"
+msgstr "RK 伙伴"
 
-#: src-en/data/hyperspace.xml.append:3626
+#: src-en/data/hyperspace.xml.append:3727
+msgid ""
+"data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
+"append:customStore[4]/category[7]/customTitle"
+msgstr "RK 伙伴"
+
+#: src-en/data/hyperspace.xml.append:3744
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[4]/category[8]/customTitle"
 msgstr "RK 伙伴"
 
-#: src-en/data/hyperspace.xml.append:3643
+#: src-en/data/hyperspace.xml.append:3761
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[4]/category[9]/customTitle"
 msgstr "RK 伙伴"
 
-#: src-en/data/hyperspace.xml.append:3660
+#: src-en/data/hyperspace.xml.append:3779
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[4]/category[10]/customTitle"
-msgstr "RK 伙伴"
+msgstr "拉迪卡尔成员"
 
-#: src-en/data/hyperspace.xml.append:3677
+#: src-en/data/hyperspace.xml.append:3798
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[4]/category[11]/customTitle"
-msgstr "RK 伙伴"
+msgstr "基础拉迪卡尔增强部件"
 
-#: src-en/data/hyperspace.xml.append:3694
+#: src-en/data/hyperspace.xml.append:3818
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[4]/category[12]/customTitle"
-msgstr "RK 伙伴"
-
-#: src-en/data/hyperspace.xml.append:3728
-msgid ""
-"data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
-"append:customStore[4]/category[14]/customTitle"
-msgstr "拉迪卡尔（10-20% 折扣）"
-
-#: src-en/data/hyperspace.xml.append:3747
-msgid ""
-"data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
-"append:customStore[4]/category[15]/customTitle"
-msgstr "基础拉迪卡尔增强部件"
-
-#: src-en/data/hyperspace.xml.append:3767
-msgid ""
-"data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
-"append:customStore[4]/category[16]/customTitle"
 msgstr "稀有拉迪卡尔增强部件"
 
-#: src-en/data/hyperspace.xml.append:3787
-msgid ""
-"data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
-"append:customStore[4]/category[17]/customTitle"
-msgstr "传奇拉迪卡尔增强部件"
-
-#: src-en/data/hyperspace.xml.append:3815
-msgid ""
-"data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
-"append:customStore[4]/category[19]/customTitle"
-msgstr "今日特惠部件[优惠33%]"
-
-#: src-en/data/hyperspace.xml.append:3871
+#: src-en/data/hyperspace.xml.append:3909
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[5]/category[1]/customTitle"
-msgstr "拉迪卡尔巴姆武器"
+msgstr "基础拉迪卡尔武器"
 
-#: src-en/data/hyperspace.xml.append:3888
+#: src-en/data/hyperspace.xml.append:3926
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[5]/category[2]/customTitle"
-msgstr "拉迪卡尔巴姆武器"
+msgstr "拉迪卡尔武器"
 
-#: src-en/data/hyperspace.xml.append:3918
+#: src-en/data/hyperspace.xml.append:3944
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
-"append:customStore[5]/category[4]/customTitle"
-msgstr "拉迪卡尔 BPS 武器"
+"append:customStore[5]/category[3]/customTitle"
+msgstr ""
 
-#: src-en/data/hyperspace.xml.append:3928
+#: src-en/data/hyperspace.xml.append:3961
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[5]/category[5]/customTitle"
 msgstr "重要系统"
 
-#: src-en/data/hyperspace.xml.append:3946
+#: src-en/data/hyperspace.xml.append:3979
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[5]/category[6]/customTitle"
 msgstr "辅助系统"
 
-#: src-en/data/hyperspace.xml.append:3968
+#: src-en/data/hyperspace.xml.append:4002
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[5]/category[8]/customTitle"
-msgstr "RK 灼烧伙伴"
-
-#: src-en/data/hyperspace.xml.append:3985
-msgid ""
-"data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
-"append:customStore[5]/category[9]/customTitle"
-msgstr "拉迪卡尔·巴姆甲板水手"
+msgstr "RK 伙伴"
 
 #: src-en/data/hyperspace.xml.append:4019
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
-"append:customStore[5]/category[11]/customTitle"
-msgstr "基础拉迪卡尔增强部件"
+"append:customStore[5]/category[9]/customTitle"
+msgstr "RK 伙伴"
 
-#: src-en/data/hyperspace.xml.append:4039
+#: src-en/data/hyperspace.xml.append:4036
+msgid ""
+"data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
+"append:customStore[5]/category[10]/customTitle"
+msgstr "RK 伙伴"
+
+#: src-en/data/hyperspace.xml.append:4053
+msgid ""
+"data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
+"append:customStore[5]/category[11]/customTitle"
+msgstr "RK 伙伴"
+
+#: src-en/data/hyperspace.xml.append:4070
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[5]/category[12]/customTitle"
-msgstr "RK 巴姆增强部件"
+msgstr "RK 伙伴"
 
-#: src-en/data/hyperspace.xml.append:4058
+#: src-en/data/hyperspace.xml.append:4104
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
-"append:customStore[5]/category[13]/customTitle"
-msgstr "顶级 RK 灼烧增强部件"
+"append:customStore[5]/category[14]/customTitle"
+msgstr "拉迪卡尔（10-20% 折扣）"
 
-#: src-en/data/hyperspace.xml.append:4101
+#: src-en/data/hyperspace.xml.append:4123
+msgid ""
+"data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
+"append:customStore[5]/category[15]/customTitle"
+msgstr "基础拉迪卡尔增强部件"
+
+#: src-en/data/hyperspace.xml.append:4143
+msgid ""
+"data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
+"append:customStore[5]/category[16]/customTitle"
+msgstr "稀有拉迪卡尔增强部件"
+
+#: src-en/data/hyperspace.xml.append:4163
+msgid ""
+"data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
+"append:customStore[5]/category[17]/customTitle"
+msgstr "传奇拉迪卡尔增强部件"
+
+#: src-en/data/hyperspace.xml.append:4191
+msgid ""
+"data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
+"append:customStore[5]/category[19]/customTitle"
+msgstr "今日特惠部件[优惠33%]"
+
+#: src-en/data/hyperspace.xml.append:4247
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[6]/category[1]/customTitle"
-msgstr "拉迪卡尔朋克武器"
+msgstr "拉迪卡尔巴姆武器"
 
-#: src-en/data/hyperspace.xml.append:4118
+#: src-en/data/hyperspace.xml.append:4264
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[6]/category[2]/customTitle"
-msgstr "拉迪卡尔朋克武器"
+msgstr "拉迪卡尔巴姆武器"
 
-#: src-en/data/hyperspace.xml.append:4148
+#: src-en/data/hyperspace.xml.append:4281
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
-"append:customStore[6]/category[4]/customTitle"
-msgstr "拉迪卡尔 BPS 武器"
+"append:customStore[6]/category[3]/customTitle"
+msgstr ""
 
-#: src-en/data/hyperspace.xml.append:4158
+#: src-en/data/hyperspace.xml.append:4304
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[6]/category[5]/customTitle"
 msgstr "重要系统"
 
-#: src-en/data/hyperspace.xml.append:4176
+#: src-en/data/hyperspace.xml.append:4322
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[6]/category[6]/customTitle"
 msgstr "辅助系统"
 
-#: src-en/data/hyperspace.xml.append:4198
+#: src-en/data/hyperspace.xml.append:4344
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[6]/category[8]/customTitle"
-msgstr "RK 朋克伙伴"
+msgstr "RK 灼烧伙伴"
 
-#: src-en/data/hyperspace.xml.append:4248
+#: src-en/data/hyperspace.xml.append:4361
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
-"append:customStore[6]/category[10]/customTitle"
-msgstr "基础拉迪卡尔增强部件"
+"append:customStore[6]/category[9]/customTitle"
+msgstr "拉迪卡尔·巴姆甲板水手"
 
-#: src-en/data/hyperspace.xml.append:4268
+#: src-en/data/hyperspace.xml.append:4395
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[6]/category[11]/customTitle"
-msgstr "RK 朋克增强部件"
+msgstr "基础拉迪卡尔增强部件"
 
-#: src-en/data/hyperspace.xml.append:4287
+#: src-en/data/hyperspace.xml.append:4415
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[6]/category[12]/customTitle"
-msgstr "套装朋克增强部件"
+msgstr "RK 巴姆增强部件"
 
-#: src-en/data/hyperspace.xml.append:4306
+#: src-en/data/hyperspace.xml.append:4434
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[6]/category[13]/customTitle"
-msgstr "顶级朋克增强部件"
+msgstr "顶级 RK 灼烧增强部件"
 
-#: src-en/data/hyperspace.xml.append:4349
+#: src-en/data/hyperspace.xml.append:4453
+msgid ""
+"data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
+"append:customStore[6]/category[14]/customTitle"
+msgstr ""
+
+#: src-en/data/hyperspace.xml.append:4486
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[7]/category[1]/customTitle"
-msgstr "RK 灼烧武器"
+msgstr "拉迪卡尔朋克武器"
 
-#: src-en/data/hyperspace.xml.append:4366
+#: src-en/data/hyperspace.xml.append:4503
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[7]/category[2]/customTitle"
-msgstr "RK 灼烧武器"
+msgstr "拉迪卡尔朋克武器"
 
-#: src-en/data/hyperspace.xml.append:4392
+#: src-en/data/hyperspace.xml.append:4520
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
-"append:customStore[7]/category[4]/customTitle"
-msgstr "辅助系统"
+"append:customStore[7]/category[3]/customTitle"
+msgstr ""
 
-#: src-en/data/hyperspace.xml.append:4402
+#: src-en/data/hyperspace.xml.append:4543
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[7]/category[5]/customTitle"
 msgstr "重要系统"
 
-#: src-en/data/hyperspace.xml.append:4420
+#: src-en/data/hyperspace.xml.append:4561
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[7]/category[6]/customTitle"
 msgstr "辅助系统"
 
-#: src-en/data/hyperspace.xml.append:4442
+#: src-en/data/hyperspace.xml.append:4583
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[7]/category[8]/customTitle"
-msgstr "RK 灼烧伙伴"
+msgstr "RK 朋克伙伴"
 
-#: src-en/data/hyperspace.xml.append:4458
+#: src-en/data/hyperspace.xml.append:4633
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
-"append:customStore[7]/category[9]/customTitle"
-msgstr "RK 灼烧甲板水手"
+"append:customStore[7]/category[10]/customTitle"
+msgstr "基础拉迪卡尔增强部件"
 
-#: src-en/data/hyperspace.xml.append:4492
+#: src-en/data/hyperspace.xml.append:4653
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[7]/category[11]/customTitle"
-msgstr "基础拉迪卡尔增强部件"
+msgstr "RK 朋克增强部件"
 
-#: src-en/data/hyperspace.xml.append:4513
+#: src-en/data/hyperspace.xml.append:4672
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[7]/category[12]/customTitle"
-msgstr "RK 灼烧增强部件"
+msgstr "套装朋克增强部件"
 
-#: src-en/data/hyperspace.xml.append:4532
+#: src-en/data/hyperspace.xml.append:4691
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[7]/category[13]/customTitle"
-msgstr "套装灼烧增强部件"
+msgstr "顶级朋克增强部件"
 
-#: src-en/data/hyperspace.xml.append:4551
+#: src-en/data/hyperspace.xml.append:4734
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
-"append:customStore[7]/category[14]/customTitle"
+"append:customStore[8]/category[1]/customTitle"
+msgstr "RK 灼烧武器"
+
+#: src-en/data/hyperspace.xml.append:4751
+msgid ""
+"data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
+"append:customStore[8]/category[2]/customTitle"
+msgstr "RK 灼烧武器"
+
+#: src-en/data/hyperspace.xml.append:4764
+msgid ""
+"data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
+"append:customStore[8]/category[3]/customTitle"
+msgstr ""
+
+#: src-en/data/hyperspace.xml.append:4787
+msgid ""
+"data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
+"append:customStore[8]/category[5]/customTitle"
+msgstr "重要系统"
+
+#: src-en/data/hyperspace.xml.append:4805
+msgid ""
+"data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
+"append:customStore[8]/category[6]/customTitle"
+msgstr "辅助系统"
+
+#: src-en/data/hyperspace.xml.append:4827
+msgid ""
+"data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
+"append:customStore[8]/category[8]/customTitle"
+msgstr "RK 灼烧伙伴"
+
+#: src-en/data/hyperspace.xml.append:4843
+msgid ""
+"data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
+"append:customStore[8]/category[9]/customTitle"
+msgstr "RK 灼烧甲板水手"
+
+#: src-en/data/hyperspace.xml.append:4877
+msgid ""
+"data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
+"append:customStore[8]/category[11]/customTitle"
+msgstr "基础拉迪卡尔增强部件"
+
+#: src-en/data/hyperspace.xml.append:4898
+msgid ""
+"data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
+"append:customStore[8]/category[12]/customTitle"
+msgstr "RK 灼烧增强部件"
+
+#: src-en/data/hyperspace.xml.append:4917
+msgid ""
+"data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
+"append:customStore[8]/category[13]/customTitle"
+msgstr "套装灼烧增强部件"
+
+#: src-en/data/hyperspace.xml.append:4936
+msgid ""
+"data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
+"append:customStore[8]/category[14]/customTitle"
 msgstr "顶级灼烧增强部件"
 
-#: src-en/data/hyperspace.xml.append:4598
+#: src-en/data/hyperspace.xml.append:4955
+msgid ""
+"data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
+"append:customStore[8]/category[15]/customTitle"
+msgstr ""
+
+#: src-en/data/hyperspace.xml.append:4992
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[10]/mod-"
 "append:customStore/category[1]/customTitle"
 msgstr "高命中武器"
 
-#: src-en/data/hyperspace.xml.append:4613
+#: src-en/data/hyperspace.xml.append:5007
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[10]/mod-"
 "append:customStore/category[2]/customTitle"
 msgstr "高命中武器"
 
-#: src-en/data/hyperspace.xml.append:4628
+#: src-en/data/hyperspace.xml.append:5022
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[10]/mod-"
 "append:customStore/category[3]/customTitle"
 msgstr "高命中武器"
 
-#: src-en/data/hyperspace.xml.append:4643
+#: src-en/data/hyperspace.xml.append:5037
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[10]/mod-"
 "append:customStore/category[4]/customTitle"
 msgstr "高命中武器"
 
-#: src-en/data/hyperspace.xml.append:4655
+#: src-en/data/hyperspace.xml.append:5049
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[10]/mod-"
 "append:customStore/category[5]/customTitle"
 msgstr "高命中系统（25% 折扣）"
 
-#: src-en/data/hyperspace.xml.append:4672
+#: src-en/data/hyperspace.xml.append:5066
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[10]/mod-"
 "append:customStore/category[6]/customTitle"
 msgstr "狙击增强部件"
 
-#: src-en/data/hyperspace.xml.append:4687
+#: src-en/data/hyperspace.xml.append:5081
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[10]/mod-"
 "append:customStore/category[7]/customTitle"
 msgstr "RK 狙击增强部件（10-20% 折扣）"
 
-#: src-en/data/hyperspace.xml.append:4921
+#: src-en/data/hyperspace.xml.append:5315
 msgid ""
 "data/hyperspace.xml.append$//statBoost[@name=\"powerEffect\"]/powerEffect/buttonText"
 msgstr "移动破舱"
 
-#: src-en/data/hyperspace.xml.append:4922
+#: src-en/data/hyperspace.xml.append:5316
 msgid ""
 "data/hyperspace.xml.append$//statBoost[@name=\"powerEffect\"]/powerEffect/tooltip"
 msgstr "不应被看到，行走时造成破舱。"
 
-#: src-en/data/hyperspace.xml.append:5960
+#: src-en/data/hyperspace.xml.append:6346
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"EX_DJMOD_DEMICLONER\"]/statBoosts/statBoost[1]/deathEffect/spawnCrew/name"
 msgstr "伪克隆"
 
-#: src-en/data/hyperspace.xml.append:5987
+#: src-en/data/hyperspace.xml.append:6373
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"EX_DJMOD_DEMICLONER\"]/statBoosts/statBoost[2]/deathEffect/spawnCrew/name"
 msgstr "伪克隆"
 
-#: src-en/data/hyperspace.xml.append:6013
+#: src-en/data/hyperspace.xml.append:6399
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"EX_DJMOD_DEMICLONER\"]/statBoosts/statBoost[3]/deathEffect/spawnCrew/name"
 msgstr "伪克隆"
 
-#: src-en/data/hyperspace.xml.append:6039
+#: src-en/data/hyperspace.xml.append:6425
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"EX_DJMOD_DEMICLONER\"]/statBoosts/statBoost[4]/deathEffect/spawnCrew/name"
 msgstr "伪克隆"
 
-#: src-en/data/hyperspace.xml.append:6066
+#: src-en/data/hyperspace.xml.append:6452
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"EX_DJMOD_DEMICLONER\"]/statBoosts/statBoost[5]/deathEffect/spawnCrew/name"
 msgstr "伪克隆"
 
-#: src-en/data/hyperspace.xml.append:6092
+#: src-en/data/hyperspace.xml.append:6478
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"EX_DJMOD_DEMICLONER\"]/statBoosts/statBoost[6]/deathEffect/spawnCrew/name"
 msgstr "伪克隆"
 
-#: src-en/data/hyperspace.xml.append:6119
+#: src-en/data/hyperspace.xml.append:6505
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"EX_DJMOD_DEMICLONER\"]/statBoosts/statBoost[7]/deathEffect/spawnCrew/name"
 msgstr "伪克隆"
 
-#: src-en/data/hyperspace.xml.append:6145
+#: src-en/data/hyperspace.xml.append:6531
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"EX_DJMOD_DEMICLONER\"]/statBoosts/statBoost[8]/deathEffect/spawnCrew/name"
 msgstr "伪克隆"
 
-#: src-en/data/hyperspace.xml.append:6171
+#: src-en/data/hyperspace.xml.append:6557
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"EX_DJMOD_DEMICLONER\"]/statBoosts/statBoost[9]/deathEffect/spawnCrew/name"
 msgstr "伪克隆"
 
-#: src-en/data/hyperspace.xml.append:6197
+#: src-en/data/hyperspace.xml.append:6583
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"EX_DJMOD_DEMICLONER\"]/statBoosts/statBoost[10]/deathEffect/spawnCrew/name"
 msgstr "伪克隆"
 
-#: src-en/data/hyperspace.xml.append:6224
+#: src-en/data/hyperspace.xml.append:6610
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"EX_DJMOD_DEMICLONER\"]/statBoosts/statBoost[11]/deathEffect/spawnCrew/name"
 msgstr "伪克隆"
 
-#: src-en/data/hyperspace.xml.append:6250
+#: src-en/data/hyperspace.xml.append:6636
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"EX_DJMOD_DEMICLONER\"]/statBoosts/statBoost[12]/deathEffect/spawnCrew/name"
 msgstr "伪克隆"
 
-#: src-en/data/hyperspace.xml.append:6276
+#: src-en/data/hyperspace.xml.append:6662
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"EX_DJMOD_DEMICLONER\"]/statBoosts/statBoost[13]/deathEffect/spawnCrew/name"
 msgstr "伪克隆"
 
-#: src-en/data/hyperspace.xml.append:6303
+#: src-en/data/hyperspace.xml.append:6689
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"EX_DJMOD_DEMICLONER\"]/statBoosts/statBoost[14]/deathEffect/spawnCrew/name"
 msgstr "伪克隆"
 
-#: src-en/data/hyperspace.xml.append:6329
+#: src-en/data/hyperspace.xml.append:6715
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"EX_DJMOD_DEMICLONER\"]/statBoosts/statBoost[15]/deathEffect/spawnCrew/name"
 msgstr "伪克隆"
 
-#: src-en/data/hyperspace.xml.append:6356
+#: src-en/data/hyperspace.xml.append:6742
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"EX_DJMOD_DEMICLONER\"]/statBoosts/statBoost[16]/deathEffect/spawnCrew/name"
 msgstr "伪克隆"
 
-#: src-en/data/hyperspace.xml.append:6382
+#: src-en/data/hyperspace.xml.append:6768
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"EX_DJMOD_DEMICLONER\"]/statBoosts/statBoost[17]/deathEffect/spawnCrew/name"
 msgstr "伪克隆"
 
-#: src-en/data/hyperspace.xml.append:6409
+#: src-en/data/hyperspace.xml.append:6795
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"EX_DJMOD_DEMICLONER\"]/statBoosts/statBoost[18]/deathEffect/spawnCrew/name"
 msgstr "伪克隆"
 
-#: src-en/data/hyperspace.xml.append:6436
+#: src-en/data/hyperspace.xml.append:6822
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"EX_DJMOD_DEMICLONER\"]/statBoosts/statBoost[19]/deathEffect/spawnCrew/name"
 msgstr "伪克隆"
 
-#: src-en/data/hyperspace.xml.append:6462
+#: src-en/data/hyperspace.xml.append:6848
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"EX_DJMOD_DEMICLONER\"]/statBoosts/statBoost[20]/deathEffect/spawnCrew/name"
 msgstr "伪克隆"
 
-#: src-en/data/hyperspace.xml.append:6489
+#: src-en/data/hyperspace.xml.append:6875
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"EX_DJMOD_DEMICLONER\"]/statBoosts/statBoost[21]/deathEffect/spawnCrew/name"
 msgstr "伪克隆"
 
-#: src-en/data/hyperspace.xml.append:6516
+#: src-en/data/hyperspace.xml.append:6902
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"EX_DJMOD_DEMICLONER\"]/statBoosts/statBoost[22]/deathEffect/spawnCrew/name"
 msgstr "伪克隆"
 
-#: src-en/data/hyperspace.xml.append:6543
+#: src-en/data/hyperspace.xml.append:6929
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"EX_DJMOD_DEMICLONER\"]/statBoosts/statBoost[23]/deathEffect/spawnCrew/name"
 msgstr "伪克隆"
 
-#: src-en/data/hyperspace.xml.append:6569
+#: src-en/data/hyperspace.xml.append:6955
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"EX_DJMOD_DEMICLONER\"]/statBoosts/statBoost[24]/deathEffect/spawnCrew/name"
 msgstr "伪克隆"
 
-#: src-en/data/hyperspace.xml.append:6596
+#: src-en/data/hyperspace.xml.append:6982
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"EX_DJMOD_DEMICLONER\"]/statBoosts/statBoost[25]/deathEffect/spawnCrew/name"
 msgstr "伪克隆"
 
-#: src-en/data/hyperspace.xml.append:6623
+#: src-en/data/hyperspace.xml.append:7009
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"EX_DJMOD_DEMICLONER\"]/statBoosts/statBoost[26]/deathEffect/spawnCrew/name"
 msgstr "伪克隆"
 
-#: src-en/data/hyperspace.xml.append:6649
+#: src-en/data/hyperspace.xml.append:7035
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"EX_DJMOD_DEMICLONER\"]/statBoosts/statBoost[27]/deathEffect/spawnCrew/name"
 msgstr "伪克隆"
 
-#: src-en/data/hyperspace.xml.append:6675
+#: src-en/data/hyperspace.xml.append:7061
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"EX_DJMOD_DEMICLONER\"]/statBoosts/statBoost[28]/deathEffect/spawnCrew/name"
 msgstr "伪克隆"
 
-#: src-en/data/hyperspace.xml.append:6702
+#: src-en/data/hyperspace.xml.append:7088
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"EX_DJMOD_DEMICLONER\"]/statBoosts/statBoost[29]/deathEffect/spawnCrew/name"
 msgstr "伪克隆"
 
-#: src-en/data/hyperspace.xml.append:6728
+#: src-en/data/hyperspace.xml.append:7114
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"EX_DJMOD_DEMICLONER\"]/statBoosts/statBoost[30]/deathEffect/spawnCrew/name"
 msgstr "伪克隆"
 
-#: src-en/data/hyperspace.xml.append:6756
+#: src-en/data/hyperspace.xml.append:7142
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"EX_DJMOD_DEMICLONER\"]/statBoosts/statBoost[31]/deathEffect/spawnCrew/name"
 msgstr "伪克隆"
 
-#: src-en/data/hyperspace.xml.append:6782
+#: src-en/data/hyperspace.xml.append:7168
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"EX_DJMOD_DEMICLONER\"]/statBoosts/statBoost[32]/deathEffect/spawnCrew/name"
 msgstr "伪克隆"
 
-#: src-en/data/hyperspace.xml.append:6808
+#: src-en/data/hyperspace.xml.append:7194
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"EX_DJMOD_DEMICLONER\"]/statBoosts/statBoost[33]/deathEffect/spawnCrew/name"
 msgstr "伪克隆"
 
-#: src-en/data/hyperspace.xml.append:6834
+#: src-en/data/hyperspace.xml.append:7220
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"EX_DJMOD_DEMICLONER\"]/statBoosts/statBoost[34]/deathEffect/spawnCrew/name"
 msgstr "伪克隆"
 
-#: src-en/data/hyperspace.xml.append:6860
+#: src-en/data/hyperspace.xml.append:7246
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"EX_DJMOD_DEMICLONER\"]/statBoosts/statBoost[35]/deathEffect/spawnCrew/name"
 msgstr "伪克隆"
 
-#: src-en/data/hyperspace.xml.append:6886
+#: src-en/data/hyperspace.xml.append:7272
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"EX_DJMOD_DEMICLONER\"]/statBoosts/statBoost[36]/deathEffect/spawnCrew/name"
 msgstr "伪克隆"
 
-#: src-en/data/hyperspace.xml.append:6912
+#: src-en/data/hyperspace.xml.append:7298
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"EX_DJMOD_DEMICLONER\"]/statBoosts/statBoost[37]/deathEffect/spawnCrew/name"
 msgstr "伪克隆"
 
-#: src-en/data/hyperspace.xml.append:6938
+#: src-en/data/hyperspace.xml.append:7324
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"EX_DJMOD_DEMICLONER\"]/statBoosts/statBoost[38]/deathEffect/spawnCrew/name"
 msgstr "伪克隆"
 
-#: src-en/data/hyperspace.xml.append:6966
+#: src-en/data/hyperspace.xml.append:7352
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"EX_DJMOD_DEMICLONER\"]/statBoosts/statBoost[39]/deathEffect/spawnCrew/name"
 msgstr "伪克隆"
 
-#: src-en/data/hyperspace.xml.append:6992
+#: src-en/data/hyperspace.xml.append:7378
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"EX_DJMOD_DEMICLONER\"]/statBoosts/statBoost[40]/deathEffect/spawnCrew/name"
 msgstr "伪克隆"
 
-#: src-en/data/hyperspace.xml.append:7018
+#: src-en/data/hyperspace.xml.append:7404
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"EX_DJMOD_DEMICLONER\"]/statBoosts/statBoost[41]/deathEffect/spawnCrew/name"
 msgstr "伪克隆"
 
-#: src-en/data/hyperspace.xml.append:7045
+#: src-en/data/hyperspace.xml.append:7431
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"EX_DJMOD_DEMICLONER\"]/statBoosts/statBoost[42]/deathEffect/spawnCrew/name"
 msgstr "伪克隆"
 
-#: src-en/data/hyperspace.xml.append:7072
+#: src-en/data/hyperspace.xml.append:7458
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"EX_DJMOD_DEMICLONER\"]/statBoosts/statBoost[43]/deathEffect/spawnCrew/name"
 msgstr "伪克隆"
 
-#: src-en/data/hyperspace.xml.append:7098
+#: src-en/data/hyperspace.xml.append:7484
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"EX_DJMOD_DEMICLONER\"]/statBoosts/statBoost[44]/deathEffect/spawnCrew/name"
 msgstr "伪克隆"
 
-#: src-en/data/hyperspace.xml.append:7124
+#: src-en/data/hyperspace.xml.append:7510
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"EX_DJMOD_DEMICLONER\"]/statBoosts/statBoost[45]/deathEffect/spawnCrew/name"
 msgstr "伪克隆"
 
-#: src-en/data/hyperspace.xml.append:7151
+#: src-en/data/hyperspace.xml.append:7537
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"EX_DJMOD_DEMICLONER\"]/statBoosts/statBoost[46]/deathEffect/spawnCrew/name"
 msgstr "伪克隆"
 
-#: src-en/data/hyperspace.xml.append:7177
+#: src-en/data/hyperspace.xml.append:7563
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"EX_DJMOD_DEMICLONER\"]/statBoosts/statBoost[47]/deathEffect/spawnCrew/name"
 msgstr "伪克隆"
 
-#: src-en/data/hyperspace.xml.append:7203
+#: src-en/data/hyperspace.xml.append:7589
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"EX_DJMOD_DEMICLONER\"]/statBoosts/statBoost[48]/deathEffect/spawnCrew/name"
 msgstr "伪克隆"
 
-#: src-en/data/hyperspace.xml.append:7230
+#: src-en/data/hyperspace.xml.append:7616
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"EX_DJMOD_DEMICLONER\"]/statBoosts/statBoost[49]/deathEffect/spawnCrew/name"
 msgstr "伪克隆"
 
-#: src-en/data/hyperspace.xml.append:7257
+#: src-en/data/hyperspace.xml.append:7643
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"EX_DJMOD_DEMICLONER\"]/statBoosts/statBoost[50]/deathEffect/spawnCrew/name"
 msgstr "伪克隆"
 
-#: src-en/data/hyperspace.xml.append:7283
+#: src-en/data/hyperspace.xml.append:7669
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"EX_DJMOD_DEMICLONER\"]/statBoosts/statBoost[51]/deathEffect/spawnCrew/name"
 msgstr "伪克隆"
 
-#: src-en/data/hyperspace.xml.append:7309
+#: src-en/data/hyperspace.xml.append:7695
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"EX_DJMOD_DEMICLONER\"]/statBoosts/statBoost[52]/deathEffect/spawnCrew/name"
 msgstr "伪克隆"
 
-#: src-en/data/hyperspace.xml.append:7336
+#: src-en/data/hyperspace.xml.append:7722
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"EX_DJMOD_DEMICLONER\"]/statBoosts/statBoost[53]/deathEffect/spawnCrew/name"
 msgstr "伪克隆"
 
-#: src-en/data/hyperspace.xml.append:7362
+#: src-en/data/hyperspace.xml.append:7748
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"EX_DJMOD_DEMICLONER\"]/statBoosts/statBoost[54]/deathEffect/spawnCrew/name"
 msgstr "伪克隆"
 
-#: src-en/data/hyperspace.xml.append:7388
+#: src-en/data/hyperspace.xml.append:7774
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"EX_DJMOD_DEMICLONER\"]/statBoosts/statBoost[55]/deathEffect/spawnCrew/name"
 msgstr "伪克隆"
 
-#: src-en/data/hyperspace.xml.append:7414
+#: src-en/data/hyperspace.xml.append:7800
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"EX_DJMOD_DEMICLONER\"]/statBoosts/statBoost[56]/deathEffect/spawnCrew/name"
 msgstr "伪克隆"
 
-#: src-en/data/hyperspace.xml.append:7440
+#: src-en/data/hyperspace.xml.append:7826
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"EX_DJMOD_DEMICLONER\"]/statBoosts/statBoost[57]/deathEffect/spawnCrew/name"
 msgstr "伪克隆"
 
-#: src-en/data/hyperspace.xml.append:7468
+#: src-en/data/hyperspace.xml.append:7854
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"EX_DJMOD_DEMICLONER\"]/statBoosts/statBoost[58]/deathEffect/spawnCrew/name"
 msgstr "伪克隆"
 
-#: src-en/data/hyperspace.xml.append:7504
+#: src-en/data/hyperspace.xml.append:7890
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/statBoosts/statBoost[1]/deathEffect/spawnCrew/name"
 msgstr "伪克隆"
 
-#: src-en/data/hyperspace.xml.append:7531
+#: src-en/data/hyperspace.xml.append:7917
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/statBoosts/statBoost[2]/deathEffect/spawnCrew/name"
 msgstr "伪克隆"
 
-#: src-en/data/hyperspace.xml.append:7557
+#: src-en/data/hyperspace.xml.append:7943
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/statBoosts/statBoost[3]/deathEffect/spawnCrew/name"
 msgstr "伪克隆"
 
-#: src-en/data/hyperspace.xml.append:7583
+#: src-en/data/hyperspace.xml.append:7969
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/statBoosts/statBoost[4]/deathEffect/spawnCrew/name"
 msgstr "伪克隆"
 
-#: src-en/data/hyperspace.xml.append:7610
+#: src-en/data/hyperspace.xml.append:7996
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/statBoosts/statBoost[5]/deathEffect/spawnCrew/name"
 msgstr "伪克隆"
 
-#: src-en/data/hyperspace.xml.append:7636
+#: src-en/data/hyperspace.xml.append:8022
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/statBoosts/statBoost[6]/deathEffect/spawnCrew/name"
 msgstr "伪克隆"
 
-#: src-en/data/hyperspace.xml.append:7663
+#: src-en/data/hyperspace.xml.append:8049
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/statBoosts/statBoost[7]/deathEffect/spawnCrew/name"
 msgstr "伪克隆"
 
-#: src-en/data/hyperspace.xml.append:7689
+#: src-en/data/hyperspace.xml.append:8075
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/statBoosts/statBoost[8]/deathEffect/spawnCrew/name"
 msgstr "伪克隆"
 
-#: src-en/data/hyperspace.xml.append:7715
+#: src-en/data/hyperspace.xml.append:8101
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/statBoosts/statBoost[9]/deathEffect/spawnCrew/name"
 msgstr "伪克隆"
 
-#: src-en/data/hyperspace.xml.append:7741
+#: src-en/data/hyperspace.xml.append:8127
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/statBoosts/statBoost[10]/deathEffect/spawnCrew/name"
 msgstr "伪克隆"
 
-#: src-en/data/hyperspace.xml.append:7768
+#: src-en/data/hyperspace.xml.append:8154
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/statBoosts/statBoost[11]/deathEffect/spawnCrew/name"
 msgstr "伪克隆"
 
-#: src-en/data/hyperspace.xml.append:7794
+#: src-en/data/hyperspace.xml.append:8180
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/statBoosts/statBoost[12]/deathEffect/spawnCrew/name"
 msgstr "伪克隆"
 
-#: src-en/data/hyperspace.xml.append:7820
+#: src-en/data/hyperspace.xml.append:8206
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/statBoosts/statBoost[13]/deathEffect/spawnCrew/name"
 msgstr "伪克隆"
 
-#: src-en/data/hyperspace.xml.append:7847
+#: src-en/data/hyperspace.xml.append:8233
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/statBoosts/statBoost[14]/deathEffect/spawnCrew/name"
 msgstr "伪克隆"
 
-#: src-en/data/hyperspace.xml.append:7873
+#: src-en/data/hyperspace.xml.append:8259
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/statBoosts/statBoost[15]/deathEffect/spawnCrew/name"
 msgstr "伪克隆"
 
-#: src-en/data/hyperspace.xml.append:7900
+#: src-en/data/hyperspace.xml.append:8286
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/statBoosts/statBoost[16]/deathEffect/spawnCrew/name"
 msgstr "伪克隆"
 
-#: src-en/data/hyperspace.xml.append:7926
+#: src-en/data/hyperspace.xml.append:8312
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/statBoosts/statBoost[17]/deathEffect/spawnCrew/name"
 msgstr "伪克隆"
 
-#: src-en/data/hyperspace.xml.append:7953
+#: src-en/data/hyperspace.xml.append:8339
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/statBoosts/statBoost[18]/deathEffect/spawnCrew/name"
 msgstr "伪克隆"
 
-#: src-en/data/hyperspace.xml.append:7980
+#: src-en/data/hyperspace.xml.append:8366
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/statBoosts/statBoost[19]/deathEffect/spawnCrew/name"
 msgstr "伪克隆"
 
-#: src-en/data/hyperspace.xml.append:8006
+#: src-en/data/hyperspace.xml.append:8392
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/statBoosts/statBoost[20]/deathEffect/spawnCrew/name"
 msgstr "伪克隆"
 
-#: src-en/data/hyperspace.xml.append:8033
+#: src-en/data/hyperspace.xml.append:8419
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/statBoosts/statBoost[21]/deathEffect/spawnCrew/name"
 msgstr "伪克隆"
 
-#: src-en/data/hyperspace.xml.append:8060
+#: src-en/data/hyperspace.xml.append:8446
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/statBoosts/statBoost[22]/deathEffect/spawnCrew/name"
 msgstr "伪克隆"
 
-#: src-en/data/hyperspace.xml.append:8087
+#: src-en/data/hyperspace.xml.append:8473
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/statBoosts/statBoost[23]/deathEffect/spawnCrew/name"
 msgstr "伪克隆"
 
-#: src-en/data/hyperspace.xml.append:8113
+#: src-en/data/hyperspace.xml.append:8499
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/statBoosts/statBoost[24]/deathEffect/spawnCrew/name"
 msgstr "伪克隆"
 
-#: src-en/data/hyperspace.xml.append:8140
+#: src-en/data/hyperspace.xml.append:8526
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/statBoosts/statBoost[25]/deathEffect/spawnCrew/name"
 msgstr "伪克隆"
 
-#: src-en/data/hyperspace.xml.append:8167
+#: src-en/data/hyperspace.xml.append:8553
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/statBoosts/statBoost[26]/deathEffect/spawnCrew/name"
 msgstr "伪克隆"
 
-#: src-en/data/hyperspace.xml.append:8193
+#: src-en/data/hyperspace.xml.append:8579
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/statBoosts/statBoost[27]/deathEffect/spawnCrew/name"
 msgstr "伪克隆"
 
-#: src-en/data/hyperspace.xml.append:8219
+#: src-en/data/hyperspace.xml.append:8605
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/statBoosts/statBoost[28]/deathEffect/spawnCrew/name"
 msgstr "伪克隆"
 
-#: src-en/data/hyperspace.xml.append:8246
+#: src-en/data/hyperspace.xml.append:8632
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/statBoosts/statBoost[29]/deathEffect/spawnCrew/name"
 msgstr "伪克隆"
 
-#: src-en/data/hyperspace.xml.append:8272
+#: src-en/data/hyperspace.xml.append:8658
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/statBoosts/statBoost[30]/deathEffect/spawnCrew/name"
 msgstr "伪克隆"
 
-#: src-en/data/hyperspace.xml.append:8300
+#: src-en/data/hyperspace.xml.append:8686
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/statBoosts/statBoost[31]/deathEffect/spawnCrew/name"
 msgstr "伪克隆"
 
-#: src-en/data/hyperspace.xml.append:8326
+#: src-en/data/hyperspace.xml.append:8712
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/statBoosts/statBoost[32]/deathEffect/spawnCrew/name"
 msgstr "伪克隆"
 
-#: src-en/data/hyperspace.xml.append:8352
+#: src-en/data/hyperspace.xml.append:8738
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/statBoosts/statBoost[33]/deathEffect/spawnCrew/name"
 msgstr "伪克隆"
 
-#: src-en/data/hyperspace.xml.append:8378
+#: src-en/data/hyperspace.xml.append:8764
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/statBoosts/statBoost[34]/deathEffect/spawnCrew/name"
 msgstr "伪克隆"
 
-#: src-en/data/hyperspace.xml.append:8404
+#: src-en/data/hyperspace.xml.append:8790
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/statBoosts/statBoost[35]/deathEffect/spawnCrew/name"
 msgstr "伪克隆"
 
-#: src-en/data/hyperspace.xml.append:8430
+#: src-en/data/hyperspace.xml.append:8816
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/statBoosts/statBoost[36]/deathEffect/spawnCrew/name"
 msgstr "伪克隆"
 
-#: src-en/data/hyperspace.xml.append:8456
+#: src-en/data/hyperspace.xml.append:8842
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/statBoosts/statBoost[37]/deathEffect/spawnCrew/name"
 msgstr "伪克隆"
 
-#: src-en/data/hyperspace.xml.append:8482
+#: src-en/data/hyperspace.xml.append:8868
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/statBoosts/statBoost[38]/deathEffect/spawnCrew/name"
 msgstr "伪克隆"
 
-#: src-en/data/hyperspace.xml.append:8510
+#: src-en/data/hyperspace.xml.append:8896
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/statBoosts/statBoost[39]/deathEffect/spawnCrew/name"
 msgstr "伪克隆"
 
-#: src-en/data/hyperspace.xml.append:8536
+#: src-en/data/hyperspace.xml.append:8922
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/statBoosts/statBoost[40]/deathEffect/spawnCrew/name"
 msgstr "伪克隆"
 
-#: src-en/data/hyperspace.xml.append:8562
+#: src-en/data/hyperspace.xml.append:8948
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/statBoosts/statBoost[41]/deathEffect/spawnCrew/name"
 msgstr "伪克隆"
 
-#: src-en/data/hyperspace.xml.append:8589
+#: src-en/data/hyperspace.xml.append:8975
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/statBoosts/statBoost[42]/deathEffect/spawnCrew/name"
 msgstr "伪克隆"
 
-#: src-en/data/hyperspace.xml.append:8616
+#: src-en/data/hyperspace.xml.append:9002
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/statBoosts/statBoost[43]/deathEffect/spawnCrew/name"
 msgstr "伪克隆"
 
-#: src-en/data/hyperspace.xml.append:8642
+#: src-en/data/hyperspace.xml.append:9028
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/statBoosts/statBoost[44]/deathEffect/spawnCrew/name"
 msgstr "伪克隆"
 
-#: src-en/data/hyperspace.xml.append:8668
+#: src-en/data/hyperspace.xml.append:9054
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/statBoosts/statBoost[45]/deathEffect/spawnCrew/name"
 msgstr "伪克隆"
 
-#: src-en/data/hyperspace.xml.append:8695
+#: src-en/data/hyperspace.xml.append:9081
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/statBoosts/statBoost[46]/deathEffect/spawnCrew/name"
 msgstr "伪克隆"
 
-#: src-en/data/hyperspace.xml.append:8721
+#: src-en/data/hyperspace.xml.append:9107
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/statBoosts/statBoost[47]/deathEffect/spawnCrew/name"
 msgstr "伪克隆"
 
-#: src-en/data/hyperspace.xml.append:8747
+#: src-en/data/hyperspace.xml.append:9133
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/statBoosts/statBoost[48]/deathEffect/spawnCrew/name"
 msgstr "伪克隆"
 
-#: src-en/data/hyperspace.xml.append:8774
+#: src-en/data/hyperspace.xml.append:9160
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/statBoosts/statBoost[49]/deathEffect/spawnCrew/name"
 msgstr "伪克隆"
 
-#: src-en/data/hyperspace.xml.append:8801
+#: src-en/data/hyperspace.xml.append:9187
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/statBoosts/statBoost[50]/deathEffect/spawnCrew/name"
 msgstr "伪克隆"
 
-#: src-en/data/hyperspace.xml.append:8827
+#: src-en/data/hyperspace.xml.append:9213
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/statBoosts/statBoost[51]/deathEffect/spawnCrew/name"
 msgstr "伪克隆"
 
-#: src-en/data/hyperspace.xml.append:8853
+#: src-en/data/hyperspace.xml.append:9239
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/statBoosts/statBoost[52]/deathEffect/spawnCrew/name"
 msgstr "伪克隆"
 
-#: src-en/data/hyperspace.xml.append:8880
+#: src-en/data/hyperspace.xml.append:9266
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/statBoosts/statBoost[53]/deathEffect/spawnCrew/name"
 msgstr "伪克隆"
 
-#: src-en/data/hyperspace.xml.append:8906
+#: src-en/data/hyperspace.xml.append:9292
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/statBoosts/statBoost[54]/deathEffect/spawnCrew/name"
 msgstr "伪克隆"
 
-#: src-en/data/hyperspace.xml.append:8932
+#: src-en/data/hyperspace.xml.append:9318
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/statBoosts/statBoost[55]/deathEffect/spawnCrew/name"
 msgstr "伪克隆"
 
-#: src-en/data/hyperspace.xml.append:8958
+#: src-en/data/hyperspace.xml.append:9344
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/statBoosts/statBoost[56]/deathEffect/spawnCrew/name"
 msgstr "伪克隆"
 
-#: src-en/data/hyperspace.xml.append:8984
+#: src-en/data/hyperspace.xml.append:9370
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/statBoosts/statBoost[57]/deathEffect/spawnCrew/name"
 msgstr "伪克隆"
 
-#: src-en/data/hyperspace.xml.append:9012
+#: src-en/data/hyperspace.xml.append:9398
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/statBoosts/statBoost[58]/deathEffect/spawnCrew/name"
 msgstr "伪克隆"
 
-#: src-en/data/hyperspace.xml.append:9691
+#: src-en/data/hyperspace.xml.append:10081
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[12]/mod-"
 "append:page/section[1]/@text"
 msgstr "拉迪卡尔事件"
 
-#: src-en/data/hyperspace.xml.append:9693
+#: src-en/data/hyperspace.xml.append:10083
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_RK_EVENT_HIDEOUT\"]/name"
 msgstr "拉迪卡尔藏身处"
 
-#: src-en/data/hyperspace.xml.append:9694
+#: src-en/data/hyperspace.xml.append:10084
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_RK_EVENT_HIDEOUT\"]/secretName"
 msgstr "???"
 
-#: src-en/data/hyperspace.xml.append:9695
+#: src-en/data/hyperspace.xml.append:10085
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_RK_EVENT_HIDEOUT\"]/description"
 msgstr "与一个邪异神祇达成交易，在拉迪卡尔星区获得自己的地盘。"
 
-#: src-en/data/hyperspace.xml.append:9696
+#: src-en/data/hyperspace.xml.append:10086
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_RK_EVENT_HIDEOUT\"]/secretDescription"
 msgstr "为了安逸与黑暗势力纠缠不清。"
 
-#: src-en/data/hyperspace.xml.append:9702
+#: src-en/data/hyperspace.xml.append:10092
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_RK_EVENT_DEFROMORIUS\"]/name"
 msgstr "受折磨的融合体"
 
-#: src-en/data/hyperspace.xml.append:9703
+#: src-en/data/hyperspace.xml.append:10093
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_RK_EVENT_DEFROMORIUS\"]/secretName"
 msgstr "???"
 
-#: src-en/data/hyperspace.xml.append:9704
+#: src-en/data/hyperspace.xml.append:10094
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_RK_EVENT_DEFROMORIUS\"]/description"
 msgstr "从窒息死亡中救出 RK 迪弗莫。"
 
-#: src-en/data/hyperspace.xml.append:9705
+#: src-en/data/hyperspace.xml.append:10095
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_RK_EVENT_DEFROMORIUS\"]/secretDescription"
 msgstr "救出一个奇怪的 RK 星区生物。"
 
-#: src-en/data/hyperspace.xml.append:9718
+#: src-en/data/hyperspace.xml.append:10108
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_RK_EVENT_HACK_FLEET_BOSS_REBEL\"]/name"
 msgstr "舰队黑客"
 
-#: src-en/data/hyperspace.xml.append:9719
+#: src-en/data/hyperspace.xml.append:10109
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_RK_EVENT_HACK_FLEET_BOSS_REBEL\"]/secretName"
 msgstr "???"
 
-#: src-en/data/hyperspace.xml.append:9720
+#: src-en/data/hyperspace.xml.append:10110
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_RK_EVENT_HACK_FLEET_BOSS_REBEL\"]/description"
 msgstr "用谜团机引起黑客 MFK 的注意，然后击败它。"
 
-#: src-en/data/hyperspace.xml.append:9721
+#: src-en/data/hyperspace.xml.append:10111
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_RK_EVENT_HACK_FLEET_BOSS_REBEL\"]/secretDescription"
 msgstr "滥用舰队并承担后果。"
 
-#: src-en/data/hyperspace.xml.append:9727
+#: src-en/data/hyperspace.xml.append:10117
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_RK_EVENT_SHIPVORE_RAM_SCRAP\"]/name"
 msgstr "噬舰冲击"
 
-#: src-en/data/hyperspace.xml.append:9728
+#: src-en/data/hyperspace.xml.append:10118
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_RK_EVENT_SHIPVORE_RAM_SCRAP\"]/secretName"
 msgstr "???"
 
-#: src-en/data/hyperspace.xml.append:9729
+#: src-en/data/hyperspace.xml.append:10119
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_RK_EVENT_SHIPVORE_RAM_SCRAP\"]/description"
 msgstr "从噬舰冲击获得巨额且极其稀有的废料收益。"
 
-#: src-en/data/hyperspace.xml.append:9730
+#: src-en/data/hyperspace.xml.append:10120
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_RK_EVENT_SHIPVORE_RAM_SCRAP\"]/secretDescription"
 msgstr "在吞噬飞船时获得真正的幸运。"
 
-#: src-en/data/hyperspace.xml.append:9737
+#: src-en/data/hyperspace.xml.append:10127
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"MUSIC_RKTRACKRADIKAL\"]/name"
 msgstr "拉迪卡尔足迹"
 
-#: src-en/data/hyperspace.xml.append:9738
+#: src-en/data/hyperspace.xml.append:10128
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"MUSIC_RKTRACKRADIKAL\"]/secretName"
 msgstr "???"
 
-#: src-en/data/hyperspace.xml.append:9759
+#: src-en/data/hyperspace.xml.append:10149
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[12]/mod-"
 "append:page/section[2]/@text"
 msgstr "拉迪卡尔恩惠"
 
-#: src-en/data/hyperspace.xml.append:9761
+#: src-en/data/hyperspace.xml.append:10151
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_BAM_CREW\"]/secretName"
 msgstr "???的恩惠"
 
-#: src-en/data/hyperspace.xml.append:9762
+#: src-en/data/hyperspace.xml.append:10152
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_BAM_CREW\"]/secretDescription"
 msgstr "从塞斯特处获得拉迪卡尔·巴姆的恩惠。"
 
-#: src-en/data/hyperspace.xml.append:9763
+#: src-en/data/hyperspace.xml.append:10153
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_BAM_CREW\"]/name"
 msgstr "拉迪卡尔·巴姆的恩惠"
 
-#: src-en/data/hyperspace.xml.append:9764
+#: src-en/data/hyperspace.xml.append:10154
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_BAM_CREW\"]/description"
 msgstr "生效期间，你的拉迪卡尔成员额外获得 29 点生命值和 1.1 倍战斗伤害。"
 
-#: src-en/data/hyperspace.xml.append:9766
+#: src-en/data/hyperspace.xml.append:10156
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_BAM_CREW\"]/header"
 msgstr "恩惠已获得"
 
-#: src-en/data/hyperspace.xml.append:9772
+#: src-en/data/hyperspace.xml.append:10162
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_PUNK_CREW\"]/secretName"
 msgstr "???的恩惠"
 
-#: src-en/data/hyperspace.xml.append:9773
+#: src-en/data/hyperspace.xml.append:10163
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_PUNK_CREW\"]/secretDescription"
 msgstr "从塞斯特处获得拉迪卡尔·朋克的恩惠。"
 
-#: src-en/data/hyperspace.xml.append:9774
+#: src-en/data/hyperspace.xml.append:10164
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_PUNK_CREW\"]/name"
 msgstr "拉迪卡尔·朋克的恩惠"
 
-#: src-en/data/hyperspace.xml.append:9775
+#: src-en/data/hyperspace.xml.append:10165
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_PUNK_CREW\"]/description"
 msgstr ""
 "向塞斯特展示一名 RK 朋克船员。\n"
 "生效期间，你的拉迪卡尔成员治疗和克隆速度提高 40%。"
 
-#: src-en/data/hyperspace.xml.append:9777
+#: src-en/data/hyperspace.xml.append:10167
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_PUNK_CREW\"]/header"
 msgstr "恩惠已获得"
 
-#: src-en/data/hyperspace.xml.append:9783
+#: src-en/data/hyperspace.xml.append:10173
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_SCORCH_CREW\"]/secretName"
 msgstr "???的恩惠"
 
-#: src-en/data/hyperspace.xml.append:9784
+#: src-en/data/hyperspace.xml.append:10174
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_SCORCH_CREW\"]/secretDescription"
 msgstr "从塞斯特处获得拉迪卡尔·灼烧的恩惠。"
 
-#: src-en/data/hyperspace.xml.append:9785
+#: src-en/data/hyperspace.xml.append:10175
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_SCORCH_CREW\"]/name"
 msgstr "拉迪卡尔·灼烧的恩惠"
 
-#: src-en/data/hyperspace.xml.append:9786
+#: src-en/data/hyperspace.xml.append:10176
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_SCORCH_CREW\"]/description"
 msgstr ""
 "向塞斯特展示一名 RK 灼烧船员。\n"
 "生效期间，在火焰中，你的拉迪卡尔成员获得 1.3 倍移动速度和战斗伤害加成。"
 
-#: src-en/data/hyperspace.xml.append:9788
+#: src-en/data/hyperspace.xml.append:10178
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_SCORCH_CREW\"]/header"
 msgstr "恩惠已获得"
 
-#: src-en/data/hyperspace.xml.append:9795
+#: src-en/data/hyperspace.xml.append:10185
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_BAM_EQUIPMENT\"]/secretName"
 msgstr "???的祝福"
 
-#: src-en/data/hyperspace.xml.append:9796
+#: src-en/data/hyperspace.xml.append:10186
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_BAM_EQUIPMENT\"]/secretDescription"
 msgstr "从威克森处获得 ???的祝福。"
 
-#: src-en/data/hyperspace.xml.append:9797
+#: src-en/data/hyperspace.xml.append:10187
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_BAM_EQUIPMENT\"]/name"
 msgstr "拉迪卡尔坚韧祝福"
 
-#: src-en/data/hyperspace.xml.append:9798
+#: src-en/data/hyperspace.xml.append:10188
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_BAM_EQUIPMENT\"]/description"
 msgstr ""
 "向威克森展示 RK 巴姆装备。\n"
 "生效期间，抵抗敌方武器造成的船体、系统和离子伤害的几率 +8%。"
 
-#: src-en/data/hyperspace.xml.append:9800
+#: src-en/data/hyperspace.xml.append:10190
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_BAM_EQUIPMENT\"]/header"
 msgstr "祝福已获得"
 
-#: src-en/data/hyperspace.xml.append:9806
+#: src-en/data/hyperspace.xml.append:10196
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_PUNK_EQUIPMENT\"]/secretName"
 msgstr "???的祝福"
 
-#: src-en/data/hyperspace.xml.append:9807
+#: src-en/data/hyperspace.xml.append:10197
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_PUNK_EQUIPMENT\"]/secretDescription"
 msgstr "从威克森处获得 ???的祝福。"
 
-#: src-en/data/hyperspace.xml.append:9808
+#: src-en/data/hyperspace.xml.append:10198
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_PUNK_EQUIPMENT\"]/name"
 msgstr "拉迪卡尔狡黠祝福"
 
-#: src-en/data/hyperspace.xml.append:9809
+#: src-en/data/hyperspace.xml.append:10199
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_PUNK_EQUIPMENT\"]/description"
 msgstr ""
 "向威克森展示 RK 朋克装备。\n"
 "生效期间，你的系统维修速度为 1.3 倍。"
 
-#: src-en/data/hyperspace.xml.append:9811
+#: src-en/data/hyperspace.xml.append:10201
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_PUNK_EQUIPMENT\"]/header"
 msgstr "祝福已获得"
 
-#: src-en/data/hyperspace.xml.append:9817
+#: src-en/data/hyperspace.xml.append:10207
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_SCORCH_EQUIPMENT\"]/secretName"
 msgstr "???的祝福"
 
-#: src-en/data/hyperspace.xml.append:9818
+#: src-en/data/hyperspace.xml.append:10208
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_SCORCH_EQUIPMENT\"]/secretDescription"
 msgstr "从威克森处获得 ???的祝福。"
 
-#: src-en/data/hyperspace.xml.append:9819
+#: src-en/data/hyperspace.xml.append:10209
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_SCORCH_EQUIPMENT\"]/name"
 msgstr "拉迪卡尔狂热祝福"
 
-#: src-en/data/hyperspace.xml.append:9820
+#: src-en/data/hyperspace.xml.append:10210
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_SCORCH_EQUIPMENT\"]/description"
 msgstr ""
 "向威克森展示 RK 灼烧装备。\n"
 "生效期间，武器充能速度和闪避率 +8%。"
 
-#: src-en/data/hyperspace.xml.append:9822
+#: src-en/data/hyperspace.xml.append:10212
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_SCORCH_EQUIPMENT\"]/header"
 msgstr "祝福已获得"
 
-#: src-en/data/hyperspace.xml.append:9828
+#: src-en/data/hyperspace.xml.append:10218
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_BPS_EQUIPMENT\"]/secretName"
 msgstr "???的祝福"
 
-#: src-en/data/hyperspace.xml.append:9829
+#: src-en/data/hyperspace.xml.append:10219
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_BPS_EQUIPMENT\"]/secretDescription"
 msgstr "从威克森处获得 ???的祝福。"
 
-#: src-en/data/hyperspace.xml.append:9830
+#: src-en/data/hyperspace.xml.append:10220
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_BPS_EQUIPMENT\"]/name"
 msgstr "拉迪卡尔工程祝福"
 
-#: src-en/data/hyperspace.xml.append:9831
+#: src-en/data/hyperspace.xml.append:10221
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_BPS_EQUIPMENT\"]/description"
 msgstr ""
 "向威克森展示 RK BPS 装备。\n"
-"生效期间，抵抗敌方武器造成的船体、系统和离子伤害的几率 +4%，系统维修速度 "
-"1.15 倍，武器充能速度和闪避率 +4%。"
+"生效期间，抵抗敌方武器造成的船体、系统和离子伤害的几率 +4%，系统维修速度 1.15 倍，武器充能速度和闪避率 +4%。"
 
-#: src-en/data/hyperspace.xml.append:9833
+#: src-en/data/hyperspace.xml.append:10223
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_BPS_EQUIPMENT\"]/header"
 msgstr "祝福已获得"

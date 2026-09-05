@@ -1,128 +1,126 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-08-15 03:11+0000\n"
-"Last-Translator: 土豆老年人 <2685455659@qq.com>\n"
-"Language-Team: Chinese (Simplified Han script) <https://weblate.hyperq.be/"
-"projects/radikal-sector/dataautoblueprintsxmlappend/zh_Hans/>\n"
-"Language: zh_Hans\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.17.1\n"
 
-#: src-en/data/autoBlueprints.xml.append:1175
+#: src-en/data/autoBlueprints.xml.append:1206
 msgid ""
 "data/autoBlueprints.xml.append$//shipBlueprint[@name=\"RK_A_ZOLTAN_POLICE_INTRO\"]/class"
 msgstr "A-RK.S.S. 维和授权舰"
 
-#: src-en/data/autoBlueprints.xml.append:1236
+#: src-en/data/autoBlueprints.xml.append:1267
 msgid ""
 "data/autoBlueprints.xml.append$//shipBlueprint[@name=\"RK_A_ZOLTAN_POLICE_NUMBER2\"]/class"
 msgstr "A-RK.S.S. 维和补给舰"
 
-#: src-en/data/autoBlueprints.xml.append:1295
+#: src-en/data/autoBlueprints.xml.append:1326
 msgid ""
 "data/autoBlueprints.xml.append$//shipBlueprint[@name=\"RK_A_ZOLTAN_POLICE_NUMBER3\"]/class"
 msgstr "A-RK.S.S. 维和裁决者"
 
-#: src-en/data/autoBlueprints.xml.append:1360
+#: src-en/data/autoBlueprints.xml.append:1392
 msgid ""
 "data/autoBlueprints.xml.append$//shipBlueprint[@name=\"RK_A_ZOLTAN_POLICE_NUMBER_4\"]/class"
 msgstr "A-RK.S.S. 维和行刑者"
 
-#: src-en/data/autoBlueprints.xml.append:1435
+#: src-en/data/autoBlueprints.xml.append:1467
 msgid ""
 "data/autoBlueprints.xml.append$//shipBlueprint[@name=\"DJMOD_RADIKAL_GUARD\"]/class"
 msgstr "拉迪卡尔守卫舰"
 
-#: src-en/data/autoBlueprints.xml.append:1471
+#: src-en/data/autoBlueprints.xml.append:1503
 msgid ""
 "data/autoBlueprints.xml.append$//shipBlueprint[@name=\"RKS_REINFORCEMENT_DUSK_FIGHTER\"]/class"
 msgstr "RK 伙伴暮临战斗舰"
 
-#: src-en/data/autoBlueprints.xml.append:1520
+#: src-en/data/autoBlueprints.xml.append:1552
 msgid ""
 "data/autoBlueprints.xml.append$//shipBlueprint[@name=\"RKS_REINFORCEMENT_LOSTSUN_PATROL\"]/class"
 msgstr "RK 伙伴迷失烈阳巡逻舰"
 
-#: src-en/data/autoBlueprints.xml.append:1577
+#: src-en/data/autoBlueprints.xml.append:1609
 msgid ""
 "data/autoBlueprints.xml.append$//shipBlueprint[@name=\"RKS_REINFORCEMENT_HACKER_MANIPULATOR\"]/class"
 msgstr "RK 伙伴黑客操纵舰"
 
-#: src-en/data/autoBlueprints.xml.append:1645
+#: src-en/data/autoBlueprints.xml.append:1677
 msgid ""
 "data/autoBlueprints.xml.append$//shipBlueprint[@name=\"RKS_ZOLTAN_POLICE\"]/class"
 msgstr "A-RK.S.S. 维和入侵者"
 
-#: src-en/data/autoBlueprints.xml.append:1708
+#: src-en/data/autoBlueprints.xml.append:1740
 msgid ""
 "data/autoBlueprints.xml.append$//shipBlueprint[@name=\"RKS_LEAD_TITANS_USER_SLUG\"]/class"
 msgstr "RK 巴姆泰坦运输船"
 
-#: src-en/data/autoBlueprints.xml.append:1778
+#: src-en/data/autoBlueprints.xml.append:1810
 msgid ""
 "data/autoBlueprints.xml.append$//shipBlueprint[@name=\"RKS_GRAVESPRED_USER_REBELAUTO\"]/class"
 msgstr "RK 朋克自动除灭器"
 
-#: src-en/data/autoBlueprints.xml.append:1828
+#: src-en/data/autoBlueprints.xml.append:1860
 msgid ""
 "data/autoBlueprints.xml.append$//shipBlueprint[@name=\"RKS_WOF_USER_UNION\"]/class"
 msgstr "RK 灼烧极速战斗舰"
 
-#: src-en/data/autoBlueprints.xml.append:1891
+#: src-en/data/autoBlueprints.xml.append:1923
 msgid ""
 "data/autoBlueprints.xml.append$//shipBlueprint[@name=\"RKS_COALITION_DESTROYER_ELITE\"]/class"
 msgstr "团结精英驱逐舰"
 
-#: src-en/data/autoBlueprints.xml.append:1954
+#: src-en/data/autoBlueprints.xml.append:1986
 msgid ""
 "data/autoBlueprints.xml.append$//shipBlueprint[@name=\"RKS_BIL_FIREBLASTER_PIRATE\"]/class"
 msgstr "海盗火焰爆裂者"
 
-#: src-en/data/autoBlueprints.xml.append:2018
+#: src-en/data/autoBlueprints.xml.append:2050
 msgid ""
 "data/autoBlueprints.xml.append$//shipBlueprint[@name=\"RKS_LAB_BAM_SHELL_ELITE\"]/class"
 msgstr "甲壳辐射体战斗舰"
 
-#: src-en/data/autoBlueprints.xml.append:2054
+#: src-en/data/autoBlueprints.xml.append:2086
 msgid ""
 "data/autoBlueprints.xml.append$//shipBlueprint[@name=\"RKS_LAB_PUNK_FREEMANTIS_ELITE\"]/class"
 msgstr "自由螳螂军阀运输舰"
 
-#: src-en/data/autoBlueprints.xml.append:2086
+#: src-en/data/autoBlueprints.xml.append:2116
+msgid ""
+"data/autoBlueprints.xml.append$//shipBlueprint[@name=\"RKS_LAB_PUNK_FREEMANTIS_ELITE_CHALLENGE\"]/class"
+msgstr "自由螳螂军阀运输舰"
+
+#: src-en/data/autoBlueprints.xml.append:2148
 msgid ""
 "data/autoBlueprints.xml.append$//shipBlueprint[@name=\"RKS_LAB_SCORCH_ORCHID_ELITE\"]/class"
 msgstr "禁卫轰炸机"
 
-#: src-en/data/autoBlueprints.xml.append:2148
+#: src-en/data/autoBlueprints.xml.append:2210
 msgid ""
 "data/autoBlueprints.xml.append$//shipBlueprint[@name=\"DJMOD_RADIKAL_BOSS_BAM\"]/class"
 msgstr "RK 巴姆守卫"
 
-#: src-en/data/autoBlueprints.xml.append:2179
+#: src-en/data/autoBlueprints.xml.append:2241
 msgid ""
 "data/autoBlueprints.xml.append$//shipBlueprint[@name=\"DJMOD_RADIKAL_BOSS_BAM_CHALLENGE\"]/class"
 msgstr "RK 巴姆守卫"
 
-#: src-en/data/autoBlueprints.xml.append:2213
+#: src-en/data/autoBlueprints.xml.append:2275
 msgid ""
 "data/autoBlueprints.xml.append$//shipBlueprint[@name=\"DJMOD_RADIKAL_BOSS_PUNK\"]/class"
 msgstr "RK 朋克守卫"
 
-#: src-en/data/autoBlueprints.xml.append:2252
+#: src-en/data/autoBlueprints.xml.append:2314
 msgid ""
 "data/autoBlueprints.xml.append$//shipBlueprint[@name=\"DJMOD_RADIKAL_BOSS_SCORCH\"]/class"
 msgstr "RK 灼烧守卫"
 
-#: src-en/data/autoBlueprints.xml.append:2288
+#: src-en/data/autoBlueprints.xml.append:2350
 msgid ""
 "data/autoBlueprints.xml.append$//shipBlueprint[@name=\"RKS_EXIT_PIRATE_AMBUSHER\"]/class"
 msgstr "同盟海盗战舰"
 
-#: src-en/data/autoBlueprints.xml.append:2365
+#: src-en/data/autoBlueprints.xml.append:2427
 msgid ""
 "data/autoBlueprints.xml.append$//shipBlueprint[@name=\"RK_HACK_FLEET_BOSS_MFK\"]/class"
 msgstr "MFK 黑客王牌"
