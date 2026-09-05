@@ -1,9 +1,16 @@
 #
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2026-09-05 15:02+0000\n"
+"Last-Translator: 土豆老年人 <2685455659@qq.com>\n"
+"Language-Team: Chinese (Simplified Han script) <https://weblate.hyperq.be/"
+"projects/radikal-sector/dataevents_sector_radikalxml/zh_Hans/>\n"
+"Language: zh_Hans\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.17.1\n"
 
 #: src-en/data/events_sector_radikal.xml:82
 msgid ""
@@ -1497,6 +1504,7 @@ msgstr ""
 "你不愿放过免费废料，于是从之前顾客留下的东西中挑选了一些。"
 
 #: src-en/data/events_sector_radikal.xml:1708
+#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_BIL_BAM_SYSTEMS\"]/choice[5]/text"
 msgstr "绝不可能，别给他们任何希望，跃迁！"
