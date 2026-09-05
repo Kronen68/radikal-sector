@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "PO-Revision-Date: 2026-09-05 15:14+0000\n"
-"Last-Translator: Ukn <bbg100bbg@gmail.com>\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Russian <https://weblate.hyperq.be/projects/radikal-sector/"
 "dataeventsxmlappend/ru/>\n"
 "Language: ru\n"
@@ -200,12 +200,15 @@ msgid ""
 msgstr ""
 
 #: src-en/data/events.xml.append:491
+#, fuzzy
 msgid ""
 "data/events.xml.append$/dummyroot/event[@name=\"RK_A_OUTSIDE_POLICE_INTRO_QUEST_START\"]/choice[@req=\"RK_HAS_GEAR_SURRENDERABLE_TO_RK_A\""
 " and @lvl=\"1\"]/text"
 msgstr ""
-"У вас есть оборудование РадиКал (РК), которое по определению запрещено практически везде.\n"
-"\t\t\tСейчас это может дорого вам обойтись, так как, судя по всему, они специально сканируют ваш корабль в поисках его!"
+"У вас есть оборудование РадиКал (РК), которое по определению запрещено "
+"практически везде.\n"
+"\t\t\tСейчас это может дорого вам обойтись, так как, судя по всему, они "
+"специально сканируют ваш корабль в поисках его!"
 
 #: src-en/data/events.xml.append:498
 msgid ""
@@ -223,14 +226,20 @@ msgid ""
 msgstr "Есть ли среди нас радикалы? Не думаю."
 
 #: src-en/data/events.xml.append:505
+#, fuzzy
 msgid ""
 "data/events.xml.append$/dummyroot/event[@name=\"RK_A_OUTSIDE_POLICE_INTRO_QUEST_START\"]/choice[3]/event/choice/event/text"
 msgstr ""
-"\"Я не совсем это имел в виду. Тогда позвольте мне просветить вас по вопросу общественной безопасности.\n"
+"\"Я не совсем это имел в виду. Тогда позвольте мне просветить вас по вопросу "
+"общественной безопасности.\n"
 "\t\t\t\t\t\t\n"
-"\t\t\t\t\t\tРК - это полусекретная группа плохих людей, которые совершают плохие поступки и подстрекают других к тому же, продавая им плохое оборудование, которое они сами изготовили.\n"
+"\t\t\t\t\t\tРК - это полусекретная группа плохих людей, которые совершают "
+"плохие поступки и подстрекают других к тому же, продавая им плохое "
+"оборудование, которое они сами изготовили.\n"
 "\n"
-"\t\t\t\t\t\tВы выглядите как добропорядочный гражданин, раз у вас нет ничего, связанного с РадиКал. Да, мы тщательно просканировали ваш корабль - дважды, на всякий случай."
+"\t\t\t\t\t\tВы выглядите как добропорядочный гражданин, раз у вас нет "
+"ничего, связанного с РадиКал. Да, мы тщательно просканировали ваш корабль - "
+"дважды, на всякий случай."
 
 #: src-en/data/events.xml.append:512
 msgid ""
@@ -361,12 +370,15 @@ msgid ""
 msgstr ""
 
 #: src-en/data/events.xml.append:678
+#, fuzzy
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER2_QUEST_START\"]/choice[@req=\"RK_HAS_GEAR_SURRENDERABLE_TO_RK_A\""
 " and @lvl=\"1\"]/text"
 msgstr ""
-"У вас есть оборудование РадиКал (РК), которое по определению запрещено практически везде.\n"
-"\t\t\tСейчас это может дорого вам обойтись, так как, судя по всему, они специально сканируют ваш корабль в поисках его!"
+"У вас есть оборудование РадиКал (РК), которое по определению запрещено "
+"практически везде.\n"
+"\t\t\tСейчас это может дорого вам обойтись, так как, судя по всему, они "
+"специально сканируют ваш корабль в поисках его!"
 
 #: src-en/data/events.xml.append:685
 msgid ""
@@ -452,6 +464,7 @@ msgid ""
 msgstr "Они пошли туда."
 
 #: src-en/data/events.xml.append:742
+#, fuzzy
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER2_QUEST_START\"]/choice[3]/event/choice[@req=\"RK_HAS_GEAR_SURRENDERABLE_TO_RK_A\""
 " and @lvl=\"0\"]/event/choice[2]/event/text"
@@ -468,15 +481,19 @@ msgid ""
 msgstr "Может быть, а может и нет, но мы на вас нападаем!"
 
 #: src-en/data/events.xml.append:751
+#, fuzzy
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER2_QUEST_START\"]/choice[3]/event/choice[@req=\"RK_HAS_GEAR_SURRENDERABLE_TO_RK_A\""
 " and @lvl=\"0\"]/event/choice[3]/event/text"
 msgstr ""
-"\"Хм! У вас нет нужного снаряжения, но вы, должно быть, их сторонники. Та же самая мразь, только инструменты другие. Герберт?\"\n"
+"\"Хм! У вас нет нужного снаряжения, но вы, должно быть, их сторонники. Та же "
+"самая мразь, только инструменты другие. Герберт?\"\n"
 "\t\t\t\t\t\t\"Готов, сэр\".\n"
 "\t\t\t\t\t\t\"Запускай!\"\n"
 "\n"
-"\t\t\t\t\t\tОни включают оружие и одновременно выпускают вспомогательный корабль с мощными двигателями и пушками, который быстро улетает на некоторое расстояние, чтобы обеспечить артиллерийскую поддержку.\n"
+"\t\t\t\t\t\tОни включают оружие и одновременно выпускают вспомогательный "
+"корабль с мощными двигателями и пушками, который быстро улетает на некоторое "
+"расстояние, чтобы обеспечить артиллерийскую поддержку.\n"
 "\t\t\t\t\t\tКто бы они ни были, эти парни не шутят!"
 
 #: src-en/data/events.xml.append:761
@@ -506,12 +523,15 @@ msgid ""
 msgstr ""
 
 #: src-en/data/events.xml.append:848
+#, fuzzy
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER3_QUEST_START\"]/choice[@req=\"RK_HAS_GEAR_SURRENDERABLE_TO_RK_A\""
 " and @lvl=\"1\"]/text"
 msgstr ""
-"У вас есть оборудование РадиКал (РК), которое по определению запрещено практически везде.\n"
-"\t\t\tСейчас это может дорого вам обойтись, так как, судя по всему, они специально сканируют ваш корабль в поисках его!"
+"У вас есть оборудование РадиКал (РК), которое по определению запрещено "
+"практически везде.\n"
+"\t\t\tСейчас это может дорого вам обойтись, так как, судя по всему, они "
+"специально сканируют ваш корабль в поисках его!"
 
 #: src-en/data/events.xml.append:855
 msgid ""
@@ -579,6 +599,7 @@ msgid ""
 msgstr ""
 
 #: src-en/data/events.xml.append:900
+#, fuzzy
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER3_QUEST_START\"]/choice[3]/event/choice[@req=\"RK_HAS_GEAR_SURRENDERABLE_TO_RK_A\""
 " and @lvl=\"0\"]/event/choice[1]/text"
@@ -2119,6 +2140,7 @@ msgstr ""
 "готовы заплатить больше, чем вы, наверное, за это заплатили. Пожалуйста?\""
 
 #: src-en/data/events.xml.append:2505
+#, fuzzy
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"DJMOD_BAM_FISSUREBEAM\"]/text"
 msgstr "Продать им свой луч \"Бада\" за 165~."
@@ -2204,6 +2226,7 @@ msgstr ""
 "сказав ни слова."
 
 #: src-en/data/events.xml.append:2566
+#, fuzzy
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_KILLALL_BEAM\"]/text"
 msgstr "Продать им свой луч \"Грейвспред\" за 135~."
@@ -2218,6 +2241,7 @@ msgstr ""
 "сказав ни слова."
 
 #: src-en/data/events.xml.append:2576
+#, fuzzy
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_MISSLAUNCHER_2_BATTERY\"]/text"
 msgstr "Продать им свою ракетную установку \"Артемида с батареей\" за 120~."
@@ -2274,6 +2298,7 @@ msgstr ""
 "сказав ни слова."
 
 #: src-en/data/events.xml.append:2618
+#, fuzzy
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_OXY_FIREFILL_MISSILES\"]/text"
 msgstr "Продать им свою ракетную установку \"Дымоход\" за 120~."
@@ -2288,6 +2313,7 @@ msgstr ""
 "сказав ни слова."
 
 #: src-en/data/events.xml.append:2629
+#, fuzzy
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_FOCUS_FIRE\"]/text"
 msgstr "Продать им свой точечный луч \"Горячий покер\" за 135~."
@@ -2302,6 +2328,7 @@ msgstr ""
 "сказав ни слова."
 
 #: src-en/data/events.xml.append:2640
+#, fuzzy
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"DJMOD_RAIN_OF_FIRE\"]/text"
 msgstr "Продать им свою пусковую установку \"Дождь огня\" за 120~."
