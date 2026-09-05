@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "PO-Revision-Date: 2026-09-05 15:14+0000\n"
-"Last-Translator: 土豆老年人 <2685455659@qq.com>\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Chinese (Simplified Han script) <https://weblate.hyperq.be/"
 "projects/radikal-sector/dataeventsxmlappend/zh_Hans/>\n"
 "Language: zh_Hans\n"
@@ -188,6 +188,7 @@ msgid ""
 msgstr ""
 
 #: src-en/data/events.xml.append:491
+#, fuzzy
 msgid ""
 "data/events.xml.append$/dummyroot/event[@name=\"RK_A_OUTSIDE_POLICE_INTRO_QUEST_START\"]/choice[@req=\"RK_HAS_GEAR_SURRENDERABLE_TO_RK_A\""
 " and @lvl=\"1\"]/text"
@@ -211,13 +212,16 @@ msgid ""
 msgstr "我们认识什么激进分子吗？我想并不认识。"
 
 #: src-en/data/events.xml.append:505
+#, fuzzy
 msgid ""
 "data/events.xml.append$/dummyroot/event[@name=\"RK_A_OUTSIDE_POLICE_INTRO_QUEST_START\"]/choice[3]/event/choice/event/text"
 msgstr ""
 "“这不是我的意思。那么请允许我向你普及一下这个关乎公共安全的事项。\n"
 "\t\t\t\t\t\t\n"
-"\t\t\t\t\t\tRK 是一个半秘密的坏人组织，他们做坏事，并通过出售他们制造的坏东西来煽动他人也这么做。\n"
-"\t\t\t\t\t\t你看起来像是个正直的公民，因为你没有任何拉迪卡尔的东西。没错，我们已经深度扫描过你的飞船了，为了保险还扫了两次。"
+"\t\t\t\t\t\tRK 是一个半秘密的坏人组织，他们做坏事，并通过出售他们制造的坏东西"
+"来煽动他人也这么做。\n"
+"\t\t\t\t\t\t你看起来像是个正直的公民，因为你没有任何拉迪卡尔的东西。没错，我"
+"们已经深度扫描过你的飞船了，为了保险还扫了两次。"
 
 #: src-en/data/events.xml.append:512
 msgid ""
@@ -343,6 +347,7 @@ msgid ""
 msgstr ""
 
 #: src-en/data/events.xml.append:678
+#, fuzzy
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER2_QUEST_START\"]/choice[@req=\"RK_HAS_GEAR_SURRENDERABLE_TO_RK_A\""
 " and @lvl=\"1\"]/text"
@@ -443,6 +448,7 @@ msgid ""
 msgstr "也许有，也许没有，但我们就是要攻击你！"
 
 #: src-en/data/events.xml.append:751
+#, fuzzy
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER2_QUEST_START\"]/choice[3]/event/choice[@req=\"RK_HAS_GEAR_SURRENDERABLE_TO_RK_A\""
 " and @lvl=\"0\"]/event/choice[3]/event/text"
@@ -451,7 +457,8 @@ msgstr ""
 "\t\t\t\t\t\t“准备好了，长官。”\n"
 "\t\t\t\t\t\t“部署！”\n"
 "\n"
-"\t\t\t\t\t\t他们给武器充能，同时弹射出一艘带有大型引擎和加农炮的辅助舰船，迅速驶到一定距离外提供巨炮支援。\n"
+"\t\t\t\t\t\t他们给武器充能，同时弹射出一艘带有大型引擎和加农炮的辅助舰船，迅"
+"速驶到一定距离外提供巨炮支援。\n"
 "\t\t\t\t\t\t不管他们是谁，这些家伙可不是闹着玩的！"
 
 #: src-en/data/events.xml.append:761
@@ -480,6 +487,7 @@ msgid ""
 msgstr ""
 
 #: src-en/data/events.xml.append:848
+#, fuzzy
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER3_QUEST_START\"]/choice[@req=\"RK_HAS_GEAR_SURRENDERABLE_TO_RK_A\""
 " and @lvl=\"1\"]/text"
@@ -550,6 +558,7 @@ msgid ""
 msgstr ""
 
 #: src-en/data/events.xml.append:900
+#, fuzzy
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER3_QUEST_START\"]/choice[3]/event/choice[@req=\"RK_HAS_GEAR_SURRENDERABLE_TO_RK_A\""
 " and @lvl=\"0\"]/event/choice[1]/text"
