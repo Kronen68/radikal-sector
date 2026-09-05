@@ -3196,7 +3196,7 @@ msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_COMBAT_CHECK_DEFENSE_REMOVER\"]/text"
 msgstr ""
 "Are you sure you want to do this?\n"
-"\t[Reduces both enemy Engines and Shields every 3 to 7 seconds (at random). Uses 3 reactor power]"
+"\t[Reduces enemy Engines, Shields, and Ablative Armor (from Lily's Innovations) every 3 to 7 seconds (at random). Uses 3 reactor power]"
 
 #: src-en/data/events_special_storage.xml.append:6061
 msgid ""

@@ -178,7 +178,7 @@ msgstr ""
 msgid ""
 "data/events.xml.append$/dummyroot/event[@name=\"RK_A_OUTSIDE_POLICE_INTRO_QUEST_START\"]/text"
 msgstr ""
-"A ship with very special offensive, defensive and intelligence equipment in Elite colors is here.\n"
+"A ship with [style[color:ff3377]]specialized offensive, defensive and intelligence equipment[[/style]] in Elite colors is here.\n"
 "\t\tThey must be on high alert judging by how fast they hail you."
 
 #: src-en/data/events.xml.append:486
@@ -192,7 +192,7 @@ msgid ""
 "data/events.xml.append$/dummyroot/event[@name=\"RK_A_OUTSIDE_POLICE_INTRO_QUEST_START\"]/choice[@req=\"RK_HAS_GEAR_SURRENDERABLE_TO_RK_A\""
 " and @lvl=\"1\"]/text"
 msgstr ""
-"You have RadiKal (RK) gear, which by definition is illegal almost everywhere.\n"
+"You have removable RadiKal (RK) gear, which by definition is illegal almost everywhere.\n"
 "\t\t\tRight now, that could cost you dearly, as that ship seems to be scanning it specifically!"
 
 #: src-en/data/events.xml.append:498
@@ -216,8 +216,9 @@ msgid ""
 msgstr ""
 "\"That's not quite what I mean. Then allow me to educate you on this matter of public safety.\n"
 "\t\t\t\t\t\t\n"
-"\t\t\t\t\t\tRK is a semi-secret group of bad people who do bad things, and incite others do the same by selling them the bad things they made.\n"
-"\t\t\t\t\t\tYou look like an upstanding citizen since you don't have anything RadiKal. Yes, we have deep-scanned your ship, twice for good measure."
+"\t\t\t\t\t\tRadiKals, also known as 'RK', are a covert group of bad people who do bad things, and incite others do the same by selling them the bad things they made.\n"
+"\t\t\t\t\t\t\n"
+"\t\t\t\t\t\tYou look like an upstanding citizen since you don't have anything RadiKal. Yes, we have deep-scanned your ship, twice for good measure.\""
 
 #: src-en/data/events.xml.append:512
 msgid ""
@@ -264,12 +265,10 @@ msgstr "Uh oh..."
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_RK_DETECTED_ATTACK\"]/text"
 msgstr ""
-"You don't even have time to give the order. That ship must have been scanning you since the moment you jumped in. And they have already decided to eliminate you!\n"
-"\t\t\t\t\n"
-"\t\t\t\t\"Judgement be passed on you, despicable Chaos sympathising terrorists. I never could find the ones directly responsible, but at least you will pay for Zeta-708T56-C Secundus's Northern Moonbase!\"\n"
-"\t\t\t\n"
-"\t\t\tThey power up their weapons (which seem tailored to destroy RK ships) and simultaneously eject an auxiliary ship with big engines and cannons, which quickly goes some distance away to provide artillery support.\n"
-"\t\t\tWhoever they are, these guys don't mess around!"
+"All at once, they power up their weapons (which seem tailored to destroy RK ships), eject an auxiliary ship with big engines and cannons, which quickly goes some distance away to provide artillery support, and a sudden explosion also makes your ears ring.\n"
+"\t\t\t\t\t\t\t\t\t\t\t\tThey must have used some sort of combat augment on your Engines!\n"
+"\t\t\t\t\t\t\t\t\t\t\t\t\n"
+"\t\t\t\t\t\t\t\t\t\t\t\tThese guys don't mess around. You quickly prepare to fight!"
 
 #: src-en/data/events.xml.append:547
 msgid ""
@@ -350,8 +349,9 @@ msgstr "...I don't like this one bit. Try to run!"
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER2_QUEST_START\"]/text"
 msgstr ""
-"A ship with very special equipment is here, apparently on high alert judging"
-" by how fast they hail you."
+"A ship with [style[color:ff3377]]specialized offensive, defensive and "
+"intelligence equipment[[/style]] is here, apparently on high alert judging "
+"by how fast they hail you."
 
 #: src-en/data/events.xml.append:673
 msgid ""
@@ -364,7 +364,7 @@ msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER2_QUEST_START\"]/choice[@req=\"RK_HAS_GEAR_SURRENDERABLE_TO_RK_A\""
 " and @lvl=\"1\"]/text"
 msgstr ""
-"You have RadiKal (RK) gear, which by definition is illegal almost everywhere.\n"
+"You have removable RadiKal (RK) gear, which by definition is illegal almost everywhere.\n"
 "\t\t\tRight now, that could cost you dearly, as that ship seems to be scanning it specifically!"
 
 #: src-en/data/events.xml.append:685
@@ -408,12 +408,10 @@ msgstr "Uh oh..."
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER2_RK_DETECTED_ATTACK\"]/text"
 msgstr ""
-"You don't even have time to give the order. That ship must have been scanning you since the moment you jumped in. And they have already decided to eliminate you!\n"
-"\t\t\t\t\n"
-"\t\t\t\t\"Judgement be passed on you, despicable Chaos sympathising terrorists. I never could find the ones directly responsible, but at least you will pay for what happend to MY squad!\"\n"
-"\t\t\t\n"
-"\t\t\tThey power up their weapons and simultaneously eject an auxiliary ship with big engines and cannons, which quickly goes some distance away to provide artillery support.\n"
-"\t\t\tWhoever they are, these guys don't mess around!"
+"All at once, they power up their weapons (which seem tailored to destroy RK ships), eject an auxiliary ship with big engines and cannons, which quickly goes some distance away to provide artillery support, and a sudden explosion also makes your ears ring.\n"
+"\t\t\t\t\t\t\t\tThey must have used some sort of combat augment on your Engines!\n"
+"\t\t\t\t\t\t\t\t\n"
+"\t\t\t\t\t\t\t\tThese guys don't mess around. You quickly prepare to fight!"
 
 #: src-en/data/events.xml.append:716
 msgid ""
@@ -457,9 +455,10 @@ msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER2_QUEST_START\"]/choice[3]/event/choice[@req=\"RK_HAS_GEAR_SURRENDERABLE_TO_RK_A\""
 " and @lvl=\"0\"]/event/choice[2]/event/text"
 msgstr ""
-"\"Thank you for your cooperation.\" They immediately throw a reward package "
-"through an airlock and depart. Hopefully, by some odds there actually are "
-"RadiKals that way, or you better hope you never see this ship again."
+"\"Thank you for your cooperation.\" They immediately throw a standard reward"
+" package through an airlock and depart. Hopefully, by some odds there "
+"actually are RadiKals that way, or you better hope you never see this ship "
+"again."
 
 #: src-en/data/events.xml.append:749
 msgid ""
@@ -473,11 +472,11 @@ msgid ""
 " and @lvl=\"0\"]/event/choice[3]/event/text"
 msgstr ""
 "\"Hmpf! You don't have the gear, but you must be sympathisers. Same scum, different tools. Herbert?\"\n"
-"\t\t\t\t\t\t\"Ready, sir.\"\n"
-"\t\t\t\t\t\t\"Deploy!\"\n"
+"\t\t\t\t\t\t\t\t\"Ready, sir.\"\n"
+"\t\t\t\t\t\t\t\t\"Deploy!\"\n"
 "\n"
-"\t\t\t\t\t\tThey power up their weapons and simultaneously eject an auxiliary ship with big engines and cannons, which quickly goes some distance away to provide artillery support.\n"
-"\t\t\t\t\t\tWhoever they are, these guys don't mess around!"
+"\t\t\t\t\t\t\t\tThey power up their weapons and simultaneously eject an auxiliary ship with big engines and cannons, which quickly goes some distance away to provide artillery support.\n"
+"\t\t\t\t\t\t\t\tWhoever they are, these guys don't mess around!"
 
 #: src-en/data/events.xml.append:761
 msgid ""
@@ -494,8 +493,9 @@ msgstr "...I don't like this one bit. Try to run!"
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER3_QUEST_START\"]/text"
 msgstr ""
-"A ship with very special equipment is here, apparently on high alert judging"
-" by how fast they hail you."
+"A ship with [style[color:ff3377]]specialized offensive, defensive and "
+"intelligence equipment[[/style]] is here, apparently on high alert judging "
+"by how fast they hail you."
 
 #: src-en/data/events.xml.append:843
 msgid ""
@@ -508,7 +508,7 @@ msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER3_QUEST_START\"]/choice[@req=\"RK_HAS_GEAR_SURRENDERABLE_TO_RK_A\""
 " and @lvl=\"1\"]/text"
 msgstr ""
-"You have RadiKal (RK) gear, which by definition is illegal almost everywhere.\n"
+"You have removable RadiKal (RK) gear, which by definition is illegal almost everywhere.\n"
 "\t\t\tRight now, that could cost you dearly, as that ship seems to be scanning it specifically!"
 
 #: src-en/data/events.xml.append:855
@@ -552,12 +552,10 @@ msgstr "Uh oh..."
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER3_RK_DETECTED_ATTACK\"]/text"
 msgstr ""
-"You don't even have time to give the order. That ship must have been scanning you since the moment you jumped in. And they have already decided to eliminate you!\n"
-"\t\t\t\t\n"
-"\t\t\t\t\"Judgement be passed on you, despicable Chaos sympathising terrorists. I never could find the ones directly responsible, but at least you will pay for MY FAMILY YOU SICK FU-\"\n"
-"\t\t\t\n"
-"\t\t\tYou cut comms as they power up their weapons and simultaneously eject an auxiliary ship with big engines and cannons, which quickly goes some distance away to provide artillery support.\n"
-"\t\t\tWhoever they are, these guys don't mess around!"
+"All at once, they power up their weapons (which seem tailored to destroy RK ships), eject an auxiliary ship with big engines and cannons, which quickly goes some distance away to provide artillery support, and a sudden explosion also makes your ears ring.\n"
+"\t\t\t\t\t\t\t\tThey must have used some sort of combat augment on your Engines!\n"
+"\t\t\t\t\t\t\t\t\n"
+"\t\t\t\t\t\t\t\tThese guys don't mess around. You quickly prepare to fight!"
 
 #: src-en/data/events.xml.append:886
 msgid ""
@@ -580,7 +578,7 @@ msgstr "\"Indeed... Where are the RadiKals hiding in this sector?\""
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER3_QUEST_START\"]/choice[3]/event/choice[@req=\"RK_HAS_GEAR_SURRENDERABLE_TO_RK_A\""
 " and @lvl=\"0\"]/event/choice[1]/text"
-msgstr "I don't know"
+msgstr "I don't know."
 
 #: src-en/data/events.xml.append:902
 msgid ""
@@ -1883,7 +1881,7 @@ msgstr ""
 #: src-en/data/events.xml.append:2269
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"DJMOD_BAM_FISSUREBEAM\"]/text"
-msgstr "Sell them your Bada beam for 165~."
+msgstr "Sell them your Bada beam for 150~."
 
 #: src-en/data/events.xml.append:2271
 msgid ""
@@ -1922,7 +1920,7 @@ msgstr ""
 #: src-en/data/events.xml.append:2299
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"RK_HEAVY_POPPER_3\"]/text"
-msgstr "Sell them your Heavy Popper MK III laser for 210~."
+msgstr "Sell them your Heavy Popper MK III laser for 180~."
 
 #: src-en/data/events.xml.append:2301
 msgid ""
@@ -1961,7 +1959,7 @@ msgstr ""
 #: src-en/data/events.xml.append:2330
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"RK_KILLALL_BEAM\"]/text"
-msgstr "Sell them your Gravespred beam for 135~."
+msgstr "Sell them your Gravespred beam for 120~."
 
 #: src-en/data/events.xml.append:2332
 msgid ""
@@ -1974,7 +1972,7 @@ msgstr ""
 #: src-en/data/events.xml.append:2340
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"RK_MISSLAUNCHER_2_BATTERY\"]/text"
-msgstr "Sell them your Battery Artemis missile launcher for 120~."
+msgstr "Sell them your Battery Artemis missile launcher for 105~."
 
 #: src-en/data/events.xml.append:2342
 msgid ""
@@ -2026,7 +2024,7 @@ msgstr ""
 #: src-en/data/events.xml.append:2382
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"RK_OXY_FIREFILL_MISSILES\"]/text"
-msgstr "Sell them your Chimney launcher for 120~."
+msgstr "Sell them your Chimney launcher for 105~."
 
 #: src-en/data/events.xml.append:2384
 msgid ""
@@ -2039,7 +2037,7 @@ msgstr ""
 #: src-en/data/events.xml.append:2393
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"RK_FOCUS_FIRE\"]/text"
-msgstr "Sell them your Hot Poker pinpoint for 135~."
+msgstr "Sell them your Hot Poker pinpoint for 120~."
 
 #: src-en/data/events.xml.append:2395
 msgid ""
@@ -2052,7 +2050,7 @@ msgstr ""
 #: src-en/data/events.xml.append:2404
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"DJMOD_RAIN_OF_FIRE\"]/text"
-msgstr "Sell them your Rain of Fire launcher for 120~."
+msgstr "Sell them your Rain of Fire launcher for 105~."
 
 #: src-en/data/events.xml.append:2406
 msgid ""
@@ -2194,7 +2192,7 @@ msgstr ""
 #: src-en/data/events.xml.append:2505
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"DJMOD_BAM_FISSUREBEAM\"]/text"
-msgstr "Sell them your Bada beam for 165~."
+msgstr "Sell them your Bada beam for 150~."
 
 #: src-en/data/events.xml.append:2507
 msgid ""
@@ -2233,7 +2231,7 @@ msgstr ""
 #: src-en/data/events.xml.append:2535
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_HEAVY_POPPER_3\"]/text"
-msgstr "Sell them your Heavy Popper MK III laser for 210~."
+msgstr "Sell them your Heavy Popper MK III laser for 180~."
 
 #: src-en/data/events.xml.append:2537
 msgid ""
@@ -2272,7 +2270,7 @@ msgstr ""
 #: src-en/data/events.xml.append:2566
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_KILLALL_BEAM\"]/text"
-msgstr "Sell them your Gravespred beam for 135~."
+msgstr "Sell them your Gravespred beam for 120~."
 
 #: src-en/data/events.xml.append:2568
 msgid ""
@@ -2285,7 +2283,7 @@ msgstr ""
 #: src-en/data/events.xml.append:2576
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_MISSLAUNCHER_2_BATTERY\"]/text"
-msgstr "Sell them your Battery Artemis missile launcher for 120~."
+msgstr "Sell them your Battery Artemis missile launcher for 105~."
 
 #: src-en/data/events.xml.append:2578
 msgid ""
@@ -2337,7 +2335,7 @@ msgstr ""
 #: src-en/data/events.xml.append:2618
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_OXY_FIREFILL_MISSILES\"]/text"
-msgstr "Sell them your Chimney launcher for 120~."
+msgstr "Sell them your Chimney launcher for 105~."
 
 #: src-en/data/events.xml.append:2620
 msgid ""
@@ -2350,7 +2348,7 @@ msgstr ""
 #: src-en/data/events.xml.append:2629
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_FOCUS_FIRE\"]/text"
-msgstr "Sell them your Hot Poker pinpoint for 135~."
+msgstr "Sell them your Hot Poker pinpoint for 120~."
 
 #: src-en/data/events.xml.append:2631
 msgid ""
@@ -2363,7 +2361,7 @@ msgstr ""
 #: src-en/data/events.xml.append:2640
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"DJMOD_RAIN_OF_FIRE\"]/text"
-msgstr "Sell them your Rain of Fire launcher for 120~."
+msgstr "Sell them your Rain of Fire launcher for 105~."
 
 #: src-en/data/events.xml.append:2642
 msgid ""
@@ -3228,7 +3226,7 @@ msgid ""
 msgstr ""
 "\"Woh hoh hoh, hey, wait, that's our-\" They quickly change their mind as "
 "the rest of the crew pressures them. \"You know what, screw this, have fun "
-"with you ill-gotten goods.\" Quite ironic, coming from a smuggler. The "
+"with your ill-gotten goods.\" Quite ironic, coming from a smuggler. The "
 "surviving RadiKals are easily dealt with."
 
 #: src-en/data/events.xml.append:3401
@@ -3406,7 +3404,7 @@ msgid ""
 msgstr ""
 "\"Woh hoh hoh, hey, wait, that's our-\" They quickly change their mind as "
 "the rest of the crew pressures them. \"You know what, screw this, have fun "
-"with you ill-gotten goods.\" Quite ironic, coming from a smuggler. The "
+"with your ill-gotten goods.\" Quite ironic, coming from a smuggler. The "
 "Radikals are quickly dealt with."
 
 #: src-en/data/events.xml.append:3569
@@ -3561,7 +3559,7 @@ msgid ""
 msgstr ""
 "\"Woh hoh hoh, hey, wait, that's our-\" They quickly change their mind as "
 "the rest of the crew pressures them. \"You know what, screw this, have fun "
-"with you ill-gotten goods.\" Quite ironic, coming from a smuggler. The "
+"with your ill-gotten goods.\" Quite ironic, coming from a smuggler. The "
 "Radikals are quickly dealt with."
 
 #: src-en/data/events.xml.append:3706
@@ -3715,7 +3713,7 @@ msgid ""
 msgstr ""
 "\"Woh hoh hoh, hey, wait, that's our-\" They quickly change their mind as "
 "the rest of the crew pressures them. \"You know what, screw this, have fun "
-"with you ill-gotten goods.\" Quite ironic, coming from a smuggler. The "
+"with your ill-gotten goods.\" Quite ironic, coming from a smuggler. The "
 "Radikals are quickly dealt with."
 
 #: src-en/data/events.xml.append:3843
@@ -3851,14 +3849,14 @@ msgstr ""
 #: src-en/data/events.xml.append:3977
 msgid "data/events.xml.append$//textList[@name=\"EMPTY_RADIKAL\"]/text[2]"
 msgstr ""
-"No other ships or interesting structures can be found here, a chance to do "
-"some work on your ship, or chat with your crew maybe."
+"No other ships or interesting structures can be found here. A chance to do "
+"some work on your ship, or maybe chat with your crew."
 
 #: src-en/data/events.xml.append:3978
 msgid "data/events.xml.append$//textList[@name=\"EMPTY_RADIKAL\"]/text[3]"
 msgstr ""
 "This sector isn't exactly what you'd call calm, but here at least there is "
-"nothing going on here worthy of attention."
+"nothing going on worthy of attention."
 
 #: src-en/data/events.xml.append:3979
 msgid "data/events.xml.append$//textList[@name=\"EMPTY_RADIKAL\"]/text[4]"
@@ -3909,9 +3907,7 @@ msgstr ""
 
 #: src-en/data/events.xml.append:4038
 msgid "data/events.xml.append$//event[@name=\"EXIT_RADIKAL_PART2\"]/text"
-msgstr ""
-"You're arrived at the exit alive, which is no small feat, but three menacing ships have been waiting for you.\n"
-"\t\tAccurately guessing that you don't have a choice, you answer the hail."
+msgstr "You're arrived at the exit alive, which is no small feat..."
 
 #: src-en/data/events.xml.append:4042
 msgid ""
@@ -4169,7 +4165,7 @@ msgstr ""
 "\t\t\tMost of the RadiKals are not so pleased.\n"
 "\t\t\t\"Didn't we tell you to make sure to pay these guys if you said you would? Now we're gonna have delivery issues for a while.\"\n"
 "\t\t\t\n"
-"\t\t\tThe others make signs of approbation, their faces remaining unhappy.\n"
+"\t\t\tThe others make signs of approbation, but they clearly have mixed feelings about this.\n"
 "\t\t\t\"HAH, I mean this WAS such a good fight it would have been a shame to miss it, but at what cost?\" \"Yesss this asssshole had it coming, but he wassss alssso doing a lot of good work.\"\n"
 "\t\t\t\n"
 "\t\t\t\"Tell you what, you earned that wreck, so scrap it nice and clean. That will be your part of cleaning up this mess. We'll take care of the rest if you can just make yourself scarce until this dies down.\"\n"
@@ -4189,7 +4185,7 @@ msgstr ""
 "\t\t\tMost of the RadiKals are not so pleased.\n"
 "\t\t\t\"Didn't we tell you to make sure to pay these guys if you said you would? Now we're gonna have delivery issues for a while.\"\n"
 "\t\t\t\n"
-"\t\t\tThe others make signs of approbation, their faces remaining unhappy.\n"
+"\t\t\tThe others make signs of approbation, but they clearly have mixed feelings about this.\n"
 "\t\t\t\"HAH, I mean this WAS such a good fight it would have been a shame to miss it, but at what cost?\" \"Yesss this asssshole had it coming, but he wassss alssso doing a lot of good work.\"\n"
 "\t\t\t\n"
 "\t\t\t\"Tell you what, you earned that wreck, so scrap it nice and clean. That will be your part of cleaning up this mess. We'll take care of the rest if you can just make yourself scarce until this dies down.\"\n"
