@@ -70,6 +70,7 @@
 		"//powerEffect/buttonText",
 		"//mod-append:shipIcon/tooltip",
 		"//powerEffect/tooltip",
+		
 		"//mod:findLike/mod-append:customShip/crew/*/@name",
 		"//mod:findLike/mod:findLike/mod-append:category/customTitle",
 		"//mod:findLike/mod-append:customStore/category/customTitle",
@@ -113,10 +114,10 @@
     "packaging": {
         "fullOriginal": [
 		    //assets1
-            "https://github.com/ftl-mv-translation/radikal-sector/raw/radikal-sector-english/RadiKal_Sector_v6.18c.zip",
+            "https://github.com/ftl-mv-translation/radikal-sector/raw/radikal-sector-english/RadiKal_Sector_v6.22.zip",
 
         ],
         "prefix": "Radikal-sector",
-        "version": "6.18c"
+        "version": "6.22"
     }
 }
