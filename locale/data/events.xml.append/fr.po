@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "PO-Revision-Date: 2026-09-05 15:14+0000\n"
-"Last-Translator: kronen68 <obrice@hotmail.fr>\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: French <https://weblate.hyperq.be/projects/radikal-sector/"
 "dataeventsxmlappend/fr/>\n"
 "Language: fr\n"
@@ -1912,6 +1912,7 @@ msgid ""
 msgstr ""
 
 #: src-en/data/events.xml.append:2566
+#, fuzzy
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_KILLALL_BEAM\"]/text"
 msgstr "Leur vendre votre rayon Gravespred pour 135~."
