@@ -1507,7 +1507,8 @@ To make normal nebula instead (debugging?), disable all that and make prefix "NE
 				
 				After a thorough search, you find their RK augment! You're supposed to drop it off at a Zoltan Police Station, but keeping it could help with your more important mission.
 			</text>
-			<augment name="SHOP_ITEM_RK_ALL_AUGMENTS"/>
+			<augment name="GIFTLIST_RK_ALL_NON_PROBLEMATIC_AUGMENTS"/>
+			<!-- <augment name="SHOP_ITEM_RK_ALL_AUGMENTS"/> -->
 
 			<choice hidden="true">
 				<text>Nice!</text>
@@ -1599,8 +1600,8 @@ To make normal nebula instead (debugging?), disable all that and make prefix "NE
 		You already knew Vexopaths are not the life of the party. This one's tone manages to make you feel guilty and threatened before you've even said or done anything.
 		
 		"Your ship, we can improve it. Brutally, in case you missed that part. For low scrap.
-		First, we [style[color:ff3377]]remove any unnecessary hull.[[/style]] Then you choose a system to receive 2 power level upgrades, even beyond your sorry ship's normal limits if applicable.
-		Systems we deal with: Drones, Shields, Weapons. In alphabetical order, to avoid confusing your flesh brain.
+		First, we have to [style[color:ff3377]]remove ALL unnecessary hull.[[/style]] Then you choose a system to receive 2 power level upgrades, even beyond your sorry ship's normal limits if applicable.
+		Systems we deal with: Drones, Engines, Shields, Weapons. In alphabetical order, to avoid confusing your flesh brain.
 		
 		Then you go away. Or get some repairs from the Aftercare ship before you go away. Statistically recommended.
 		State your approval. Or go away, which is 100% fine by me."
@@ -1609,6 +1610,12 @@ To make normal nebula instead (debugging?), disable all that and make prefix "NE
 		Well, other than the "almost be destroyed in the middle of an asteroid belt" bit. And the pricing seems a bit too good.</text>
 	<ship load="SHIP_LANIUS_STATION" hostile="false"/>
 	
+	<choice req="RKS_HAS_SYSTEMS_FOR_BAM_BIL" lvl="0" max_lvl="0" hidden="true" blue="false">
+		<text>WARNING: [style[color:ff3377]]you have no eligible systems![[/style]] This procedure will damage you for no benefit!</text>
+		<event load="OPTION_INVALID"/>
+	</choice>
+
+	<!-- <choice req="RKS_HAS_SYSTEMS_FOR_BAM_BIL" lvl="1" blue="true" hidden="false"> -->
 	<choice hidden="false">
 		<text>What could go wrong? Screw it, I'm game!</text>
 		<event>
@@ -1636,10 +1643,10 @@ To make normal nebula instead (debugging?), disable all that and make prefix "NE
 						<event load="RKS_UPGRADE_DRONES_BY_2"/>
 					</choice>
 					
-					<!-- <choice req="engines" lvl="1" blue="false" hidden="false">
+					<choice req="engines" lvl="1" blue="false" hidden="false">
 						<text>Upgrade my Engines</text>
 						<event load="RKS_UPGRADE_ENGINES_BY_2"/>
-					</choice> -->
+					</choice>
 
 					<choice req="shields" lvl="1" blue="false" hidden="false">
 						<text>Upgrade my Shields</text>
@@ -1654,12 +1661,12 @@ To make normal nebula instead (debugging?), disable all that and make prefix "NE
 					<choice hidden="true">
 						<text>Wait a minute... we don't even have applicable systems!</text>
 						<event>
-							<text>"Typical decision skill issue. Report dismissed. See you never."</text>
+							<text>"Typical decision skill issue. Report dismissed.
+								Procedure 100% complete. Automated Aftercare ship deployed. Goodbye."
 
-							<!-- <choice>
-								<text>Continue...</text>
-								<event/>
-							</choice> -->
+							Now that you can see the egregious price of the repairs, you understand how this business can stay afloat..."</text>
+							<store>STORE_RKS_BIL_BAM</store>
+
 						</event>
 					</choice>
 				</event>
@@ -1714,10 +1721,10 @@ To make normal nebula instead (debugging?), disable all that and make prefix "NE
 	<text load="RKS_BIL_BAM_FINISHED_TEXT"/>
 	<store>STORE_RKS_BIL_BAM</store>
 </event>
-<!-- <event name="RKS_UPGRADE_ENGINES_BY_2">
+<event name="RKS_UPGRADE_ENGINES_BY_2">
 	<text load="RKS_BIL_BAM_FINISHED_TEXT"/>
 	<store>STORE_RKS_BIL_BAM</store>
-</event> -->
+</event>
 <event name="RKS_UPGRADE_SHIELDS_BY_2">
 	<text load="RKS_BIL_BAM_FINISHED_TEXT"/>
 	<store>STORE_RKS_BIL_BAM</store>
@@ -1881,7 +1888,7 @@ To make normal nebula instead (debugging?), disable all that and make prefix "NE
 //////////////////////////////////////////////////////////////////////////////////////////////////////////
 -->
 
-<!-- unique_rk_engilanius_rockmorph "Defromorius" Quest
+<!-- unique_rk_engilanius_rockmorph "Defromorius" Quest original draft (there have been changes).
 It needs air but constantly drains it, so play on that:
 1) Find distress Harmony Elite blowing up, need Temporal / Sensors2+Hack / Lanius+Engi to decode black box before it explodes
 2) Box says ship was sabotaged, shuttle escaped, and passerby ship witnessed.
@@ -1894,14 +1901,6 @@ it was interested in their O2 and medical rooms, they said they bring it back to
 <event name="RKS_QUEST_DEFROMORIUS">
 	<distressBeacon/>
 	<preventQuest/>
-	<!-- <quest>
-		<nebulaBeacon>false</nebulaBeacon>
-		<aggressive>2</aggressive>
-	</quest>
-	<beaconType id="map_icon_radikal_scorch" global="true">
-		<color r="255" g="120" b="94" a="1.0"/>
-		<unvisitedTooltip>You were told you can get great RadiKal Scorch gear at this beacon, if you can prove you're a customer.</unvisitedTooltip>
-	</beaconType> -->
 
 	<text>The distress beacon is coming from a large Elite Harmony ship, but it's already starting to blow up! Scans don't seem to reveal any life signs inside, so it's not like you could have saved anyone.
 		
@@ -2196,7 +2195,6 @@ it was interested in their O2 and medical rooms, they said they bring it back to
 
 							<choice req="BLUELIST_BOMBS_HEAL" hidden="false">
 								<text>(Healing Bomb) Revive it</text>
-								<!-- <event load="RKS_QUEST_DEFROMORIUS_OFFER"/> -->
 								<event>
 									<text>With your appropriate weapon, you save the creature in the nick of time.</text>
 									<item_modify>
@@ -2506,7 +2504,7 @@ RK Bam lab
 			<item_modify>
                 <item type="scrap" min="60" max="60"/>
             </item_modify>
-			<removeCrew class="shell">
+			<removeCrew class="lanius">
 				<clone>false</clone>
 				<text>You cannot clone crew that you sold away to a painful death.</text>
 			</removeCrew>
@@ -2886,7 +2884,8 @@ RK Punk lab
 
 		You look at the list of "workpieces" in-demand and what you just heard only gets more creepy.
 	</text>
-	<jumpEvent>RKS_LAB_PUNK_AMBUSH</jumpEvent>
+	<!-- <jumpEvent>RKS_LAB_PUNK_AMBUSH</jumpEvent> -->
+	<jumpEvent>RKS_LAB_PUNK_AMBUSH_SWITCHER</jumpEvent>
 
 	<choice req="RKS_HAS_ANY_SACRIFICEABLE_LEECH" lvl="0" max_lvl="0" hidden="true" blue="false">
 		<text>You don't have Leeches for this (Uniques would rather kill you and themselves)</text>
@@ -2896,7 +2895,7 @@ RK Punk lab
 	<choice req="leech" hidden="false">
 		<text>A Leech.</text>
 		<event>
-			<text>"Power-absorbent vivid  tissue, yes, a staple. Here's your check."
+			<text>"Power-absorbent vivid tissue, yes, a staple. Here's your check."
 			
 				You can feel the rest of your crew judging you.
 			</text>
@@ -3090,7 +3089,14 @@ RK Punk lab
 	</choice>
 </event>
 
-<event name="RKS_LAB_PUNK_AMBUSH">	
+<event name="RKS_LAB_PUNK_AMBUSH_SWITCHER">
+	<!-- <loadEventList seeded="false" first="false" generate="false"> 	generate=true needed to spawn the map marker. -->
+	<loadEventList seeded="false" first="true" generate="false">
+		<event name="RKS_LAB_PUNK_AMBUSH_CHALLENGE" req="challenge_level" lvl="2"/>
+		<event name="RKS_LAB_PUNK_AMBUSH" req="challenge_level" lvl="0" max_lvl="1"/>
+	</loadEventList>
+</event>
+<event name="RKS_LAB_PUNK_AMBUSH">
 	<text>You barely even reach the Jump button as a small Free Mantis fleet jumps in! A very Warlord ship immediately hails you.
 
 		"Federation, federation. You our heroes! So WHY you here, doing evil trade??!" The already drugged-up Warlord looks devastated but is back on the warpath before you can even answer. "We come to kill them, but you with them! We kill you too!"
@@ -3124,7 +3130,64 @@ RK Punk lab
 		</event>
 	</choice>
 </event>
+<event name="RKS_LAB_PUNK_AMBUSH_CHALLENGE">
+	<text>You barely even reach the Jump button as a small Free Mantis fleet jumps in! A very Warlord ship immediately hails you.
+
+		"Federation, federation. You our heroes! So WHY you here, doing evil trade??!" The already drugged-up Warlord looks devastated but is back on the warpath before you can even answer. "We come to kill them, but you with them! We kill you too!"
+
+		You wonder why they would come to people so adept at killing their kind (and everybody else too), but your scans reveal they came quite prepared!
+	</text>
+	<clearJumpEvent/>
+	<ship load="SHIP_RKS_LAB_PUNK_ATTACKER_CHALLENGE" hostile="false"/>
+	<!-- Add fleet image later and hope it doesn't crash. -->
+
+	<choice req="RKS_HAS_MANTIS_UNIQUE" hidden="true">
+		<text>(Unique Mantis) TskKAK! Let pass! Secret mission.</text>
+		<event/>
+	</choice>
+
+	<choice>
+		<text>...Makes sense, really.</text>
+		<event>
+			<text>The unnerving Punk you were talking to remains unfazed. "So much vigor, so little intellect, and we have so. many. guns. Butler drone, tell the staff to get off their arses. And prepare my tea."
+				
+				Projectiles from the RK Punk and the assault fleet start flying in every direction!
+				Also, they must have used a special jammer to depower your jump drive, you will have to charge it again.
+			</text>
+			<resetFtl/>
+			<environment type="PDS" target="all"/>
+			<ship hostile="true"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event load="MORALITY_UPDATE_FREEMANTIS_FIGHT"/>
+			</choice>
+		</event>
+	</choice>
+</event>
 <ship name="SHIP_RKS_LAB_PUNK_ATTACKER" auto_blueprint="RKS_LAB_PUNK_FREEMANTIS_ELITE">
+	<destroyed>
+		<text>The Elite Free Mantis ship breaks apart and you quickly salvage what you can before the rest of the fleet realizes what happened.</text>
+		<autoReward level="MED">standard</autoReward>
+		<choice hidden="true">
+			<text>Let's hope they remain such hardcore fans after this.</text>
+			<event/>
+		</choice>
+	</destroyed>
+	<deadCrew>
+		<text>With the crew dead you quickly salvage what you can from the Elite Free Mantis ship before the rest of the fleet realizes what happened.</text>
+		<autoReward level="HIGH">standard</autoReward>
+		<choice hidden="true">
+			<text>Let's hope they remain such hardcore fans after this.</text>
+			<event/>
+		</choice>
+	</deadCrew>
+	<crew>
+		<crewMember type="mantis_warlord" prop="0.40"/>
+		<crewMember type="mantis_free" prop="0.40"/>
+		<crewMember type="engi" prop="0.20"/>
+	</crew>
+</ship>
+<ship name="SHIP_RKS_LAB_PUNK_ATTACKER_CHALLENGE" auto_blueprint="RKS_LAB_PUNK_FREEMANTIS_ELITE_CHALLENGE">
 	<destroyed>
 		<text>The Elite Free Mantis ship breaks apart and you quickly salvage what you can before the rest of the fleet realizes what happened.</text>
 		<autoReward level="MED">standard</autoReward>
@@ -3494,7 +3557,7 @@ RK Scorch lab
 	</choice>
 
 	<choice req="zoltan_martyr" hidden="false">
-		<text>A Martyr.</text>
+		<text>A Duskbringer Martyr.</text>
 		<event>
 			<text>"Quality material, yes. Here's greater payment."
 			

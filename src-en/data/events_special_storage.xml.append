@@ -6055,7 +6055,7 @@ REFS:
 
 <event name="DJMOD_COMBAT_CHECK_DEFENSE_REMOVER">
 	<text>Are you sure you want to do this?
-	[Reduces both enemy Engines and Shields every 3 to 7 seconds (at random). Uses 3 reactor power]</text>
+	[Reduces enemy Engines, Shields, and Ablative Armor (from Lily's Innovations) every 3 to 7 seconds (at random). Uses 3 reactor power]</text>
 		
 	<choice req="DEBUG_GENERATOR">
 		<text>Power the augment with the Emergency Generator, for 40 seconds.</text>
@@ -6195,6 +6195,7 @@ REFS:
 <event name="RK_COMBAT_DEFENSE_REMOVER_STEP_BOTH_1">
 	<status type="loss" target="enemy" system="engines" amount="1"/>
 	<status type="loss" target="enemy" system="shields" amount="1"/>
+	<status type="loss" target="enemy" system="lily_ablative_armor" amount="1"/>
 	<!-- <item_modify>
 		<item type="drones" min="-1" max="-1"/>
 	</item_modify> -->
@@ -6204,6 +6205,7 @@ REFS:
 <event name="RK_COMBAT_DEFENSE_REMOVER_STEP_BOTH_2">
 	<status type="loss" target="enemy" system="engines" amount="2"/>
 	<status type="loss" target="enemy" system="shields" amount="2"/>
+	<status type="loss" target="enemy" system="lily_ablative_armor" amount="2"/>
 	
 	<playSound>dj_hackingZap3</playSound>
 	<triggeredEvent event="RK_COMBAT_DEFENSE_REMOVER_STEP_BOTH_3" minTime="3.0" maxTime="7.0" thisFight="true"/>
@@ -6211,6 +6213,7 @@ REFS:
 <event name="RK_COMBAT_DEFENSE_REMOVER_STEP_BOTH_3">
 	<status type="loss" target="enemy" system="engines" amount="3"/>
 	<status type="loss" target="enemy" system="shields" amount="3"/>
+	<status type="loss" target="enemy" system="lily_ablative_armor" amount="3"/>
 	
 	<playSound>dj_hackingZap3</playSound>
 	<triggeredEvent event="RK_COMBAT_DEFENSE_REMOVER_STEP_BOTH_4" minTime="3.0" maxTime="7.0" thisFight="true"/>
@@ -6218,6 +6221,7 @@ REFS:
 <event name="RK_COMBAT_DEFENSE_REMOVER_STEP_BOTH_4">
 	<status type="loss" target="enemy" system="engines" amount="4"/>
 	<status type="loss" target="enemy" system="shields" amount="4"/>
+	<status type="loss" target="enemy" system="lily_ablative_armor" amount="4"/>
 	
 	<playSound>dj_hackingZap3</playSound>
 	<triggeredEvent event="RK_COMBAT_DEFENSE_REMOVER_STEP_BOTH_5" minTime="3.0" maxTime="7.0" thisFight="true"/>
@@ -6225,6 +6229,7 @@ REFS:
 <event name="RK_COMBAT_DEFENSE_REMOVER_STEP_BOTH_5">
 	<status type="loss" target="enemy" system="engines" amount="5"/>
 	<status type="loss" target="enemy" system="shields" amount="5"/>
+	<status type="loss" target="enemy" system="lily_ablative_armor" amount="5"/>
 	
 	<playSound>dj_hackingZap3</playSound>
 	<triggeredEvent event="RK_COMBAT_DEFENSE_REMOVER_STEP_BOTH_6" minTime="3.0" maxTime="7.0" thisFight="true"/>
@@ -6232,6 +6237,7 @@ REFS:
 <event name="RK_COMBAT_DEFENSE_REMOVER_STEP_BOTH_6">
 	<status type="loss" target="enemy" system="engines" amount="6"/>
 	<status type="loss" target="enemy" system="shields" amount="6"/>
+	<status type="loss" target="enemy" system="lily_ablative_armor" amount="6"/>
 	
 	<playSound>dj_hackingZap3</playSound>
 	<triggeredEvent event="RK_COMBAT_DEFENSE_REMOVER_STEP_BOTH_7" minTime="3.0" maxTime="7.0" thisFight="true"/>
@@ -6239,6 +6245,7 @@ REFS:
 <event name="RK_COMBAT_DEFENSE_REMOVER_STEP_BOTH_7">
 	<status type="loss" target="enemy" system="engines" amount="7"/>
 	<status type="loss" target="enemy" system="shields" amount="7"/>
+	<status type="loss" target="enemy" system="lily_ablative_armor" amount="7"/>
 	
 	<playSound>dj_hackingZap3</playSound>
 	<triggeredEvent event="RK_COMBAT_DEFENSE_REMOVER_STEP_BOTH_8" minTime="3.0" maxTime="7.0" thisFight="true"/>
@@ -6246,6 +6253,7 @@ REFS:
 <event name="RK_COMBAT_DEFENSE_REMOVER_STEP_BOTH_8">
 	<status type="loss" target="enemy" system="engines" amount="8"/>
 	<status type="loss" target="enemy" system="shields" amount="8"/>
+	<status type="loss" target="enemy" system="lily_ablative_armor" amount="8"/>
 	
 	<playSound>dj_hackingZap3</playSound>
 	<triggeredEvent event="RK_COMBAT_DEFENSE_REMOVER_STEP_BOTH_9" minTime="3.0" maxTime="7.0" thisFight="true"/>
@@ -6253,6 +6261,7 @@ REFS:
 <event name="RK_COMBAT_DEFENSE_REMOVER_STEP_BOTH_9">
 	<status type="loss" target="enemy" system="engines" amount="9"/>
 	<status type="loss" target="enemy" system="shields" amount="9"/>
+	<status type="loss" target="enemy" system="lily_ablative_armor" amount="9"/>
 	
 	<playSound>dj_hackingZap3</playSound>
 	<triggeredEvent event="RK_COMBAT_DEFENSE_REMOVER_STEP_BOTH_10" minTime="3.0" maxTime="7.0" thisFight="true"/>
@@ -6260,6 +6269,7 @@ REFS:
 <event name="RK_COMBAT_DEFENSE_REMOVER_STEP_BOTH_10">
 	<status type="loss" target="enemy" system="engines" amount="10"/>
 	<status type="loss" target="enemy" system="shields" amount="10"/>
+	<status type="loss" target="enemy" system="lily_ablative_armor" amount="10"/>
 	
 	<playSound>dj_hackingZap3</playSound>
 	<triggeredEvent event="RK_COMBAT_DEFENSE_REMOVER_STEP_BOTH_11" minTime="3.0" maxTime="7.0" thisFight="true"/>
@@ -6267,6 +6277,7 @@ REFS:
 <event name="RK_COMBAT_DEFENSE_REMOVER_STEP_BOTH_11">
 	<status type="loss" target="enemy" system="engines" amount="11"/>
 	<status type="loss" target="enemy" system="shields" amount="11"/>
+	<status type="loss" target="enemy" system="lily_ablative_armor" amount="11"/>
 	
 	<playSound>dj_hackingZap3</playSound>
 	<triggeredEvent event="RK_COMBAT_DEFENSE_REMOVER_STEP_BOTH_12" minTime="3.0" maxTime="7.0" thisFight="true"/>
@@ -6274,30 +6285,35 @@ REFS:
 <event name="RK_COMBAT_DEFENSE_REMOVER_STEP_BOTH_12">
 	<status type="loss" target="enemy" system="engines" amount="12"/>
 	<status type="loss" target="enemy" system="shields" amount="12"/>
+	<status type="loss" target="enemy" system="lily_ablative_armor" amount="12"/>
 	
 	<playSound>dj_hackingZap3</playSound>
 </event>
 <event name="RK_COMBAT_DEFENSE_REMOVER_STEP_BOTH_13">
 	<status type="loss" target="enemy" system="engines" amount="13"/>
 	<status type="loss" target="enemy" system="shields" amount="13"/>
+	<status type="loss" target="enemy" system="lily_ablative_armor" amount="13"/>
 	
 	<playSound>dj_hackingZap3</playSound>
 </event>
 <event name="RK_COMBAT_DEFENSE_REMOVER_STEP_BOTH_14">
 	<status type="loss" target="enemy" system="engines" amount="14"/>
 	<status type="loss" target="enemy" system="shields" amount="14"/>
+	<status type="loss" target="enemy" system="lily_ablative_armor" amount="14"/>
 	
 	<playSound>dj_hackingZap3</playSound>
 </event>
 <event name="RK_COMBAT_DEFENSE_REMOVER_STEP_BOTH_15">
 	<status type="loss" target="enemy" system="engines" amount="15"/>
 	<status type="loss" target="enemy" system="shields" amount="15"/>
+	<status type="loss" target="enemy" system="lily_ablative_armor" amount="15"/>
 	
 	<playSound>dj_hackingZap3</playSound>
 </event>
 <event name="RK_COMBAT_DEFENSE_REMOVER_STEP_BOTH_16">
 	<status type="loss" target="enemy" system="engines" amount="16"/>
 	<status type="loss" target="enemy" system="shields" amount="16"/>
+	<status type="loss" target="enemy" system="lily_ablative_armor" amount="16"/>
 	
 	<playSound>dj_hackingZap3</playSound>
 </event>

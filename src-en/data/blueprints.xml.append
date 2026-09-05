@@ -317,7 +317,7 @@ Fake / dummy crew
 	
 		[style[color:ff3377]]WARNING: Can't be toggled Off.[[/style]] Can scrap itself at empty beacons.</desc>
     <cost>70</cost>
-    <rarity>4</rarity>
+    <rarity>0</rarity>
     <stackable>false</stackable>
 </augBlueprint>
 
@@ -403,8 +403,8 @@ Make a quest to obtain it. Add ways to feed it 1 zoltan to increase layers by 3 
     <title>Vulnerabilizer</title>
     <desc>(RK Punk gear) This combat augment slowly weakens the enemy's defenses. Bosses hate it.
 		
-		Every 3 to 7 seconds (at random), limits enemy Shields and Engines by 1 power. This effect stacks up to 16 times if lucky.
-		All effects end after 40 to 75 seconds, based on how many drones you choose to use.
+		Every 3 to 7 seconds (at random), limits enemy Engines, Shields, and Ablative Armor (from Lily's Innovations) by 1 power. This effect stacks up to 16 times if lucky.
+		All effects end after 40 to 75 seconds, based on how many droneparts you choose to use.
 		[Uses 1-2 | and 3 reactor power. Emergency Generator can apply.]</desc>
     <cost>80</cost>
     <rarity>5</rarity>
@@ -489,7 +489,7 @@ REWORKED JumpDecoy -->
 	
 	Can be toggled off anytime.
 
-	At empty beacons, you can grow a Separatist for 25~, 1{ and 1|, but [style[color:ff3377]]the rebel fleet accelerates for 1 turn[[/style]]</desc>
+	At empty beacons, you can grow a Separatist for 25~, 1{ and 1| (or two Separatists for more resources), but [style[color:ff3377]]the rebel fleet accelerates for 1 turn[[/style]]</desc>
     <cost>55</cost>
     <rarity>5</rarity>
     <stackable>false</stackable>
@@ -609,20 +609,20 @@ The first one allows widespread own ship fire control (removal and creation) and
 
 	Can be toggled anytime to make non-fireproof enemies take more fire damage instead.
 
-	Both toggle modes make enemies move 20% slower in fire (up to 80% with 3 power in O2) [Does not stack].</desc>
-	<cost>100</cost>
+	Both toggle modes make enemies move 15% slower in fire (up to 60% with 3 power in O2) [Does not stack].</desc>
+	<cost>80</cost>
 	<rarity>5</rarity>
 	<stackable>false</stackable>
 </augBlueprint>
 <augBlueprint name="RK_ENEMIES_BURN_MORE">
 	<title>Flammabilizer-Damage</title>
-	<desc>(RK Scorch gear) Passively makes enemies who can burn take 60% more fire damage, scaling up to 300% with 4+ power in your Life Support (O2) system.
+	<desc>(RK Scorch gear) Passively makes enemies who can burn take 40% more fire damage, scaling up to 160% with 3+ power in your Life Support (O2) system.
 	Works on both ships.
 	
 	Can be toggled anytime to make fireproof, fire-resistant and fire-healing enemies vulnerable to fire instead.
 
-	Both toggle modes make enemies move 20% slower in fire (up to 80% with 3 power in O2) [Does not stack].</desc>
-	<cost>100</cost>
+	Both toggle modes make enemies move 15% slower in fire (up to 60% with 3 power in O2) [Does not stack].</desc>
+	<cost>80</cost>
 	<rarity>5</rarity>
 	<stackable>false</stackable>
 </augBlueprint>
@@ -645,7 +645,7 @@ The first one allows widespread own ship fire control (removal and creation) and
 		
 		COMBO: Increases "Weapons On Fire" augment's max extra bonus to 20%</desc>
 	<cost>115</cost>
-	<rarity>5</rarity>
+	<rarity>0</rarity>
 	<stackable>false</stackable>
 </augBlueprint>
 
@@ -752,7 +752,7 @@ RadiKal Bam+Punk+Scorch ( = BPS)
 		
 		15% chance to resist Hull, System and Ion damage.
 		Slowly fixes breaches and fires automatically.
-		Crew have 50% more health.
+		Crew have 40% more health.
 		[style[color:ff3377]]FTL charge speed reduced by 90%.
 		Cannot surrender, negotiate, or disobey.[[/style]]</desc>
     <cost>250</cost>
@@ -1256,10 +1256,10 @@ REFS (TRC v2.6 for MV v5.5.1) Fangtian, and Goedendag (and it's the art size bas
 	</erosion>
 
 	<speed>5</speed>
-	<cooldown>19.5</cooldown>
+	<cooldown>19</cooldown>
 	<hullBust>1</hullBust>
 	<power>3</power>
-	<cost>110</cost>
+	<cost>100</cost>
 	<bp>5</bp>
 	<rarity>4</rarity>
 	<image>beam_contact</image>
@@ -1309,7 +1309,7 @@ REFS (TRC v2.6 for MV v5.5.1) Fangtian, and Goedendag (and it's the art size bas
 	<breachChance>10</breachChance>
 
 	<stun>7</stun>
-	<cooldown>12.5</cooldown>		<!-- REFS: Heavy3 17s, Heavy2 13s, Heavy1 9s, BL-2shot 12s, BL-3shot 13s (2pow) -->
+	<cooldown>12</cooldown>		<!-- REFS: Heavy3 17s, Heavy2 13s, Heavy1 9s, BL-2shot 12s, BL-3shot 13s (2pow) -->
 	<power>1</power>
 	<cost>60</cost>
 	<bp>6</bp>
@@ -1469,7 +1469,7 @@ REFS (TRC v2.6 for MV v5.5.1) Fangtian, and Goedendag (and it's the art size bas
 	<stun>7</stun>
 	<cooldown>20</cooldown>		<!-- REFS: Heavy3 17s, BL3-shots5(3pow) 17s, BL4-shots8(4pow) 18s, Voulge(5pow) 25s -->
 	<power>4</power>
-	<cost>140</cost>
+	<cost>120</cost>
 	<bp>6</bp>
 	<rarity>5</rarity>
 	<projectiles>
@@ -1570,7 +1570,7 @@ REFS (TRC v2.6 for MV v5.5.1) Fangtian, and Goedendag (and it's the art size bas
 	<fireChance>0</fireChance>
 	<breachChance>0</breachChance>
 
-	<cooldown>8</cooldown>
+	<cooldown>7.5</cooldown>
     <power>0</power>
     <mv-conservative/>
 
@@ -1812,7 +1812,7 @@ Shield Piercing: 2</tooltipOverride>
 	<sp>2</sp>
 	<fireChance>0</fireChance>
 	<breachChance>3</breachChance>
-	<cooldown>11</cooldown>			<!-- intended: 11s -->
+	<cooldown>10</cooldown>			<!-- intended: 10s -->
 	<color>
 		<r>255</r>
 		<g>8</g>
@@ -1830,7 +1830,7 @@ Shield Piercing: 2</tooltipOverride>
 	</boost>
 	<speed>35</speed>
 	<power>3</power>
-	<cost>90</cost>
+	<cost>80</cost>
 	<bp>6</bp>
 	<rarity>5</rarity>
 	<length>350</length>
@@ -1860,9 +1860,9 @@ Shield Piercing: 2</tooltipOverride>
 	<fireChance>2</fireChance>
 	<breachChance>2</breachChance>
 	<!-- <stunChance>3</stunChance> -->
-	<cooldown>18</cooldown>
+	<cooldown>16</cooldown>
 	<power>-2</power>
-	<cost>80</cost>
+	<cost>70</cost>
 	<bp>5</bp>
 	<rarity>5</rarity>
 	<image>missile_heavy_1</image>
@@ -2072,13 +2072,18 @@ Targeting specific systems, even has conditions:
 	<breachChance>0</breachChance>
 	<stunChance>0</stunChance>
 	<!-- REFS: "Ion III" aka ION_4 (yes, _4) 4power: 3s (VERY BAD), Ion Charger II 3.75s (1-4dmg), Trion 11s (3dmg), 
-	Adaptive ion 13s (1->5dmg), Heavy ion 15s (3dmg) Heavy Stunner 16s (3dmg) -->
-	<cooldown>18</cooldown>
+	Adaptive ion 13s (1->5dmg), Heavy ion 15s (3dmg) Heavy Stunner 16s (3dmg),
+	Ion Chainger aka ION_CHAIN_CHARGEGUN (loot weapon) 3pow: 8s (1->4dmg) -->
+	<cooldown>19</cooldown>
 	<power>4</power>
 	<cost>120</cost>
 	<bp>3</bp>
 	<rarity>5</rarity>
-	<!-- REF: Trifecta from TRC. -->
+	<!-- REF: Trifecta from TRC.
+	ION_HEAVY is 3 ion dmg
+	ION_FIRE is 2 ion
+	TOTAL 10 ion damage if the Phase pierces Shields & hits a system (like Shields again).
+	TOTAL 9 ion with shields down. -->
 	<projectiles>
 		<projectile count="1" fake="false">ion_phase</projectile>
 		<projectile count="1" fake="false" blueprint="ION_1">ion_barrage</projectile>
@@ -2092,10 +2097,10 @@ Targeting specific systems, even has conditions:
 	<image>ion_phase</image>
 	<explosion>explosion_small_phase</explosion>
 
-	<!-- intended fully chained: 12s -->
+	<!-- intended fully chained: 14s -->
 	<boost>
 		<type>cooldown</type>
-		<amount>3</amount>
+		<amount>2.5</amount>
 		<count>2</count>
 	</boost>
 	<launchSounds>
@@ -2120,7 +2125,7 @@ Targeting specific systems, even has conditions:
 	<iconImage>ion</iconImage>
 </weaponBlueprint>
 
-<weaponBlueprint name="RK_SHOTPHASER">		<!-- Based on MV's <weaponBlueprint name="ION_PIERCE_2"> -->
+<weaponBlueprint name="RK_SHOTPHASER">		<!-- Based on MV's ION_PIERCE_2 -->
 	<type>BURST</type>
 	<flavorType>Ion Blast</flavorType>
 	<title>Shotphaser</title>
@@ -2319,7 +2324,7 @@ Targeting specific systems, even has conditions:
 	<sp>10</sp>
 	<cooldown>12</cooldown>
 	<power>2</power>
-	<cost>80</cost>
+	<cost>70</cost>
 	<bp>6</bp>
 
 	<spawnCrew>
@@ -2425,7 +2430,7 @@ Targeting specific systems, even has conditions:
 
 	<speed>1</speed>
 	<power>3</power>
-	<cost>90</cost>
+	<cost>80</cost>
 	<bp>2</bp>
 	<rarity>5</rarity>
 	<image>beam_contact</image>
@@ -2517,7 +2522,7 @@ DO NOT remove the EnemyFix version, they shoot multiple rooms with each cooldown
 	<stunChance>0</stunChance>
 	<cooldown>18.5</cooldown>
 	<power>2</power>
-	<cost>80</cost>
+	<cost>70</cost>
 	<bp>6</bp>
 	<rarity>3</rarity>
 	<projectiles>
@@ -2572,7 +2577,7 @@ DO NOT remove the EnemyFix version, they shoot multiple rooms with each cooldown
 	<stunChance>0</stunChance>
 	<cooldown>12</cooldown>
 	<power>2</power>
-	<cost>80</cost>
+	<cost>70</cost>
 	<bp>6</bp>
 	<rarity>0</rarity>
 	<projectiles>
@@ -2629,19 +2634,19 @@ DO NOT remove the EnemyFix version, they shoot multiple rooms with each cooldown
 	<fireChance>10</fireChance>
 	<breachChance>0</breachChance>
 	<!-- <stunChance>9</stunChance> 	"Negates stun duration if you declare this."-->
-	<stun>4</stun>					<!-- Duration. Implies 100% stunChance. Heavy Stunner & Neural Laser: 12s -->
+	<stun>5</stun>					<!-- Duration. Implies 100% stunChance. Heavy Stunner & Neural Laser: 12s -->
 
-	<!-- max chained intended : 5s = 1 ion dissipation time. 
+	<!-- max chained intended : 5.75s = 1 ion dissipation time +0.75s . 
 	Non-chain REFS: Pierce Heavy 11s (1 pow),
 	Fully chained REFS: LASER_HEAVY_CHAINGUN 13s->4s (1 pow) -->
-	<cooldown>12.5</cooldown>
+	<cooldown>14</cooldown>
 	<power>2</power>
 	<cost>100</cost>
 	<bp>2</bp>
 	<rarity>5</rarity>
 	<boost>
 		<type>cooldown</type>
-		<amount>2.5</amount>
+		<amount>2.75</amount>
 		<count>3</count>
 	</boost>
 	<!-- <projectiles> and <image> are mutually exclusive. If you declare one, 
@@ -2773,34 +2778,31 @@ DO NOT remove the EnemyFix version, they shoot multiple rooms with each cooldown
 	<type>MISSILES</type>
 	<title>'Measure' Anti-RK Missiles</title>
 	<short>'Measure'</short>
-	<desc>(Anti-RK gear) Chains cooldown a lot but slowly, and deals +1 system damage for each RK weapon on the target.
+	<desc>(Anti-RK gear) Chains cooldown quickly, and deals +1 system damage for each RK weapon on the target.
 		'May Order Prevail.'
 
 		This specialized Launcher converts useless resources into missiles. However, it can only fire a limited number of times each fight.</desc>
 	<tip>lore_RK_A_SYSTEM_DAMAGE</tip>
 	<damage>2</damage>
 	<missiles>0</missiles>
-	<shotLimit>16</shotLimit>
+	<shotLimit>5</shotLimit>
 	<speed>50</speed>				<!-- ref speeds: mine=15 ion=30 missile=50, lasers 60, Hull 75, Hull2 90. -->
 	<accuracyMod>10</accuracyMod>
 	<shots>1</shots>
 	<sp>10</sp>
-	<fireChance>2</fireChance>
-	<breachChance>2</breachChance>
-	<stunChance>3</stunChance>
 	
-	<mv-aiSystemTarget system="any"/>
+	<!-- <mv-aiSystemTarget system="any"/>	Visual bug flies backwards outside barrel again... -->
 	<cooldown>17</cooldown>
 	<power>1</power>
-	<cost>80</cost>
+	<cost>55</cost>
 	<bp>2</bp>
 
 	<rarity>0</rarity>
 
 	<boost>
 		<type>cooldown</type>
-		<amount>1</amount>
-		<count>15</count>
+		<amount>3</amount>
+		<count>3</count>
 	</boost>
 
 	<image>rk_a_missile</image>

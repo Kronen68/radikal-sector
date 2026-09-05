@@ -710,7 +710,7 @@ For Demicloners End.
 <!-- For non-rares see the RK shop -->
 <blueprintList name="SHOP_ITEM_RARE_RK_AUGMENTS">
 	<name>RK_CREW_ARE_BOMBS_OFF</name>
-	<name>RK_LEAD_TITANS</name>
+	<!-- <name>RK_LEAD_TITANS</name> -->
 	
 	<name>RK_SUPER_DEFENDERS</name>
 	<name>RK_OWN_HARMONY_ON</name>
@@ -741,8 +741,8 @@ For Demicloners End.
 	<name>RK_BPS_SHIELD_OVER_MATTER</name>
 </blueprintList>
 
- <!-- By subfaction  -->
-  <blueprintList name="SHOP_ITEM_RK_ALL_AUGMENTS">
+<!-- By subfaction  -->
+<blueprintList name="SHOP_ITEM_RK_ALL_AUGMENTS">
 	<name>RK_COMBAT_AUTO_SYS_REPAIR</name>
 	<name>RK_BAM_DIVINE_ARMOR</name>
 	<name>DJMOD_COMBAT_SHIPVORE_RAM</name>
@@ -807,6 +807,37 @@ For Demicloners End.
 	<name>RK_BPS_SHIELD_OVER_MATTER</name>
 </blueprintList>
 
+<blueprintList name="GIFTLIST_RK_ALL_NON_PROBLEMATIC_AUGMENTS">		<!-- Doesn't have the most problematic ones -->
+	<name>RK_COMBAT_AUTO_SYS_REPAIR</name>
+	<name>RK_BAM_DIVINE_ARMOR</name>
+	<name>DJMOD_COMBAT_SHIPVORE_RAM</name>
+	<name>RK_CREW_ARE_BOMBS_OFF</name>
+	<!-- <name>RK_LEAD_TITANS</name> -->
+	<name>RK_PERSISTENCE_SHIELD</name>
+	<name>EX_RK_CHOKING_IS_FINE</name>
+
+	<name>RK_ARROGANCE_SHIELD</name>
+	<name>RK_COMBAT_ACE_CONSOLE</name>
+	<name>RK_COMBAT_OFFENSE_DISABLER</name>
+	<name>RK_COMBAT_DEFENSE_REMOVER</name>
+	<name>RK_COMBAT_HACK_FLEET</name>
+	<name>RK_DREAD_DECK</name>
+	<name>RK_OWN_HARMONY_ON</name>
+	<name>RK_SUPER_DEFENDERS</name>
+	<name>EX_DJMOD_DEMICLONER</name>
+
+	<name>RK_ENEMIES_CAN_BURN</name>
+	<name>RK_COMBAT_SCORCH_ENEMY</name>
+	<name>RK_SCORCH_SELF</name>
+	<name>RK_SCORCH_SELF_2</name>
+	<name>RK_SCORCH_SELF_3</name>
+	<name>RK_COMBAT_OXYGENIZER</name>
+	<!-- <name>RK_SCORCH_PREIGNITER</name> -->
+	<name>RK_WEAPONS_ON_FIRE</name>
+
+	<name>RK_BPS_SURVEYOR</name>
+	<!-- <name>RK_BPS_SHIELD_OVER_MATTER</name> -->
+</blueprintList>
 
 <blueprintList name="LIST_RK_AUGS_ENEMIES_CAN_USE_GENERICALLY">
 	<name>RK_BAM_DIVINE_ARMOR</name>
@@ -1296,20 +1327,20 @@ RK and RK-thematic WEAPON lists
 	<systemList>
 		<doors power="2" max="3" room="8" start="true" />
 		<engines power="3" max="4" room="6" start="true" />
-		<medbay power="1" max="3" room="4" start="true" />
+		<medbay power="1" max="2" room="4" start="true" />
 		<oxygen power="1" max="2" room="2" start="true" />
 		<pilot power="1" max="2" room="3" start="true" />
 			<shields power="5" max="8" room="0" start="true" />
-		<teleporter power="1" max="3" room="1" start="false" />
-		<weapons power="4" max="7" room="7" start="true" />
+		<teleporter power="1" max="2" room="1" start="false" />
+		<weapons power="3" max="6" room="7" start="true" />
 
 		<clonebay power="1" max="2" room="4" start="true" />
-		<drones power="5" max="8" room="5" start="true" />
+		<drones power="5" max="7" room="5" start="true" />
 
 		<!-- <mind power="1" max="3" room="0" start="false" /> 		It's Shields, Not enough rooms -->
 	</systemList>
 	<weaponSlots>4</weaponSlots>
-	<droneSlots>4</droneSlots>
+	<droneSlots>3</droneSlots>
 	<!-- Weapon powercosts: 0, 1, 2, ? -->
 	<weaponList missiles="14" count="4">
 		<weapon name="RK_A_LASER_1" />
@@ -1317,17 +1348,17 @@ RK and RK-thematic WEAPON lists
 		<weapon name="MISSILES_2" />
 		<weapon name="LIST_WEAPONS_ZOLTAN" />
 	</weaponList>
-	<!-- Drone powercosts: 1, 2, 2, 3 -->
-	<droneList drones="12" count="4">
+	<!-- Drone powercosts: 1, 2, 3, (2) -->
+	<droneList drones="12" count="3">
 		<drone name="REPAIR" />
 		<drone name="ENERGY_1_AMP2" />
-		<drone name="COMBAT_1_BEAM" />
 		<drone name="BATTLETOG2_BOARDER" />
+		<!-- <drone name="COMBAT_1_BEAM" /> -->
 		<!-- <drone name="LIST_DRONES_ZOLTAN" /> -->
 	</droneList>
 	<health amount="22" />
-	<maxPower amount="18" />
-	<crewCount amount="8" max="12" class="zoltan" />
+	<maxPower amount="16" />
+	<crewCount amount="6" max="8" class="zoltan" />
 	<boardingAI>sabotage</boardingAI>
 	<aug name="ANCIENT_SHIELD" />
 	<aug name="RK_A_STANDARD_SUITE" />
@@ -1356,6 +1387,7 @@ RK and RK-thematic WEAPON lists
 	<aug name="ANCIENT_SHIELD" />
 </shipBlueprint> -->
 
+<!-- Not used yet -->
 <shipBlueprint name="RK_A_ZOLTAN_POLICE_NUMBER_4" layout="mu_zoltan_instigator" img="mu_zoltan_instigator_elite">
 	<class>A-RK.S.S. Peace-Keeping Executioner</class>
 	<systemList>
@@ -2026,7 +2058,7 @@ QUEST BOSSES
 		<mind power="1" max="1" room="5" start="false" />
 		<oxygen power="2" max="3" room="6" start="true" />
 		<pilot power="1" max="2" room="0" start="true" />
-		<shields power="4" max="10" room="3" start="true" />
+		<shields power="5" max="11" room="3" start="true" />
 		<weapons power="4" max="8" room="8" start="true" />
 	</systemList>
 	<weaponSlots>4</weaponSlots>
@@ -2039,7 +2071,7 @@ QUEST BOSSES
 		<weapon name="LIST_WEAPONS_SHELL" />
 	</weaponList>
 	<droneList drones="0" count="0" />
-	<health amount="20" />
+	<health amount="22" />
 	<maxPower amount="16" />
 	<crewCount amount="5" max="10" class="shell" />
 	<boardingAI>sabotage</boardingAI>
@@ -2055,7 +2087,7 @@ QUEST BOSSES
 	<systemList>
 		<!-- <clonebay power="1" max="3" room="5" start="true" />	Can this ship have medbay instead? -->
 		<engines power="1" max="3" room="1" start="true" />
-		<mind power="1" max="2" room="8" start="false" />
+		<mind power="1" max="1" room="8" start="false" />
 		<oxygen power="1" max="2" room="10" start="true" />
 		<pilot power="2" max="3" room="0" start="true" />
 		<shields power="4" max="8" room="3" start="true" />
@@ -2072,8 +2104,38 @@ QUEST BOSSES
 		<weapon name="LIST_WEAPONS_FREEMANTIS" />
 	</weaponList>
 	<droneList drones="0" count="0" />
-	<health amount="16" />
+	<health amount="18" />
 	<maxPower amount="14" />
+	<crewCount amount="8" max="16" class="mantis_warlord" />
+	<boardingAI>invasion</boardingAI>
+	<aug name="SUPER_CREW_STIMS" />
+	<aug name="UPG_TECH_BYPASS" />
+	<aug name="INTERNAL_DJMOD_DEMICLONER" />
+</shipBlueprint>
+<shipBlueprint name="RKS_LAB_PUNK_FREEMANTIS_ELITE_CHALLENGE" layout="mu_freemantis_dropship" img="mu_freemantis_dropship_elite">
+	<class>Warlord Dropship</class>
+	<systemList>
+		<!-- <clonebay power="1" max="3" room="5" start="true" />	Can this ship have medbay instead? -->
+		<engines power="2" max="4" room="1" start="true" />
+		<mind power="1" max="1" room="8" start="false" />
+		<oxygen power="1" max="2" room="10" start="true" />
+		<pilot power="2" max="3" room="0" start="true" />
+		<shields power="4" max="8" room="3" start="true" />
+		<teleporter power="2" max="3" room="4" start="true" />
+		<weapons power="4" max="7" room="2" start="true" />
+	</systemList>
+	<weaponSlots>4</weaponSlots>
+	<droneSlots>0</droneSlots>
+	<!-- Weapon powercosts: 3, 2, 1, ? -->
+	<weaponList missiles="7" count="4">
+		<weapon name="SHOTGUN_3" />
+		<weapon name="ION_BIO" />
+		<weapon name="LASER_STUN" />
+		<weapon name="LIST_WEAPONS_FREEMANTIS" />
+	</weaponList>
+	<droneList drones="0" count="0" />
+	<health amount="18" />
+	<maxPower amount="15" />
 	<crewCount amount="8" max="16" class="mantis_warlord" />
 	<boardingAI>invasion</boardingAI>
 	<aug name="SUPER_CREW_STIMS" />
@@ -2091,7 +2153,7 @@ QUEST BOSSES
 		<medbay power="1" max="3" room="9" start="true" />
 		<oxygen power="1" max="1" room="1" start="true" />
 		<pilot power="1" max="2" room="0" start="true" />
-		<shields power="4" max="8" room="5" start="true" />
+		<shields power="5" max="9" room="5" start="true" />
 		<weapons power="4" max="8" room="4" start="true" />
 	</systemList>
 	<weaponSlots>4</weaponSlots>
@@ -2104,7 +2166,7 @@ QUEST BOSSES
 		<drone name="COMBAT_1_LASER" />
 		<drone name="LIST_DRONES_ENEMY_STANDARD" />
 	</droneList>
-	<health amount="16" />
+	<health amount="18" />
 	<maxPower amount="18" />
 	<crewCount amount="4" max="8" class="orchid" />
 	<boardingAI>sabotage</boardingAI>
@@ -2479,173 +2541,6 @@ TODO: Update.
 	<name>MU_HEKTAR_DELIVERY</name>
 </blueprintList> -->
 </FTL>
-<!-- 
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-//////////////	SHIP REFS (which MV version?)
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-HEKTAR SHIPS
-
-<blueprintList name="LIST_WEAPONS_HEKTAR">  
-	<name>MODULAR_LASER_BASE</name>
-	<name>MODULAR_LASER_BASE_BIO</name>
-	<name>MODULAR_LASER_BASE_COOLDOWN</name>
-	<name>MODULAR_LASER_BASE_LOCKDOWN</name>
-	<name>MODULAR_LASER_BASE_PIERCE</name>
-	<name>MODULAR_LASER_BASE_STUN</name>
-	
-	<name>MODULAR_LASER_FIRE</name>
-	<name>MODULAR_LASER_FIRE_BIO</name>
-	<name>MODULAR_LASER_FIRE_COOLDOWN</name>
-	<name>MODULAR_LASER_FIRE_LOCKDOWN</name>
-	<name>MODULAR_LASER_FIRE_PIERCE</name>
-	<name>MODULAR_LASER_FIRE_STUN</name>
-	
-	<name>MODULAR_LASER_HULL</name>
-	<name>MODULAR_LASER_HULL_BIO</name>
-	<name>MODULAR_LASER_HULL_COOLDOWN</name>
-	<name>MODULAR_LASER_HULL_LOCKDOWN</name>
-	<name>MODULAR_LASER_HULL_PIERCE</name>
-	<name>MODULAR_LASER_HULL_STUN</name>
-	
-	<name>MODULAR_LASER_POWER</name>
-	<name>MODULAR_LASER_POWER_LOCKDOWN</name>
-	<name>MODULAR_LASER_POWER_STUN</name>
-	
-	<name>MODULAR_BEAM_BASE</name>
-	<name>MODULAR_BEAM_BASE_BIO</name>
-	<name>MODULAR_BEAM_BASE_COOLDOWN</name>
-	<name>MODULAR_BEAM_BASE_PIERCE</name>
-	<name>MODULAR_BEAM_BASE_STUN</name>
-	
-	<name>MODULAR_BEAM_FIRE</name>
-	<name>MODULAR_BEAM_FIRE_BIO</name>
-	<name>MODULAR_BEAM_FIRE_COOLDOWN</name>
-	<name>MODULAR_BEAM_FIRE_STUN</name>
-	
-	<name>MODULAR_BEAM_HULL</name>
-	<name>MODULAR_BEAM_HULL_BIO</name>
-	<name>MODULAR_BEAM_HULL_COOLDOWN</name>
-	<name>MODULAR_BEAM_HULL_STUN</name>
-	
-	<name>MODULAR_BEAM_POWER</name>
-	<name>MODULAR_BEAM_POWER_STUN</name>
-	
-	<name>MODULAR_MISSILE_BASE</name>
-	<name>MODULAR_MISSILE_BASE_COOLDOWN</name>
-	<name>MODULAR_MISSILE_BASE_LOCKDOWN</name>
-	<name>MODULAR_MISSILE_BASE_STUN</name>
-	
-	<name>MODULAR_MISSILE_FIRE</name>
-	<name>MODULAR_MISSILE_FIRE_COOLDOWN</name>
-	<name>MODULAR_MISSILE_FIRE_LOCKDOWN</name>
-	<name>MODULAR_MISSILE_FIRE_STUN</name>
-	
-	<name>MODULAR_ION_HULL</name>
-	<name>MODULAR_ION_HULL_COOLDOWN</name>
-	<name>MODULAR_ION_HULL_LOCKDOWN</name>
-	<name>MODULAR_ION_HULL_PIERCE</name>
-	<name>MODULAR_ION_HULL_STUN</name>
-	
-	<name>MODULAR_ION_POWER</name>
-	<name>MODULAR_ION_POWER_COOLDOWN</name>
-	<name>MODULAR_ION_POWER_LOCKDOWN</name>
-	<name>MODULAR_ION_POWER_PIERCE</name>
-	<name>MODULAR_ION_POWER_STUN</name>
-</blueprintList>
-
-<blueprintList name="LIST_SHIPS_HEKTAR_ALL">
-	<name>MU_HEKTAR_MERCHANDISER</name>
-	<name>MU_HEKTAR_CLERK</name>
-	<name>MU_HEKTAR_HAULER</name>
-	<name>MU_HEKTAR_SUPPORT</name>
-	<name>MU_HEKTAR_DELIVERY</name>
-	<name>MU_HEKTAR_LOYAL</name>
-	<name>MU_HEKTAR_SUPERVISOR</name>
-	<name>MU_HEKTAR_MANAGER</name>
-	<name>MU_HEKTAR_HR</name>
-	<name>MU_HEKTAR_GUARD</name>
-	<name>MU_HEKTAR_TRANSPORT</name>
-</blueprintList>
-<blueprintList name="LIST_SHIPS_HEKTAR_GENERIC">
-	<name>MU_HEKTAR_MERCHANDISER</name>
-	<name>MU_HEKTAR_CLERK</name>
-	<name>MU_HEKTAR_HAULER</name>
-	<name>MU_HEKTAR_SUPPORT</name>
-	<name>MU_HEKTAR_DELIVERY</name>
-	<name>MU_HEKTAR_SUPERVISOR</name>
-	<name>MU_HEKTAR_HR</name>
-	<name>MU_HEKTAR_TRANSPORT</name>
-</blueprintList>
-<blueprintList name="LIST_SHIPS_HEKTAR_FIGHT">
-	<name>MU_HEKTAR_MERCHANDISER</name>
-	<name>MU_HEKTAR_CLERK</name>
-	<name>MU_HEKTAR_HAULER</name>
-	<name>MU_HEKTAR_SUPPORT</name>
-	<name>MU_HEKTAR_DELIVERY</name>
-	<name>MU_HEKTAR_LOYAL</name>
-	<name>MU_HEKTAR_SUPERVISOR</name>
-	<name>MU_HEKTAR_MANAGER</name>
-	<name>MU_HEKTAR_HR</name>
-</blueprintList>
-<blueprintList name="LIST_SHIPS_HEKTAR_SHOP">
-	<name>MU_HEKTAR_MERCHANDISER</name>
-	<name>MU_HEKTAR_CLERK</name>
-	<name>MU_HEKTAR_HAULER</name>
-	<name>MU_HEKTAR_SUPPORT</name>
-	<name>MU_HEKTAR_DELIVERY</name>
-</blueprintList>
-
-<shipBlueprint name="MU_HEKTAR_MERCHANDISER" layout="mu_hektar_merchandiser" img="mu_hektar_merchandiser">
-	<class>Hektar Merchandiser(tm)</class>
-	<systemList>
-		<doors power="1" max="3" room="5" start="false" />
-		<engines power="1" max="2" room="4" start="true" />
-		<medbay power="1" max="3" room="6" start="true" />
-		<oxygen power="1" max="3" room="3" start="true" />
-		<pilot power="1" max="2" room="0" start="true" />
-		<shields power="2" max="10" room="2" start="true" />
-		<weapons power="2" max="9" room="1" start="true" />
-	</systemList>
-	<weaponSlots>4</weaponSlots>
-	<droneSlots>0</droneSlots>
-	<weaponList missiles="6" count="4" load="LIST_WEAPONS_HEKTAR" />
-	<droneList drones="0" count="0" />
-	<health amount="7" />
-	<maxPower amount="7" />
-	<crewCount amount="2" max="5" class="slug_hektar" />
-	<boardingAI>sabotage</boardingAI>
-	<aug name="SLUG_GEL" />
-</shipBlueprint>
-
-<shipBlueprint name="MU_HEKTAR_CLERK" layout="mu_hektar_clerk" img="mu_hektar_clerk">
-	<class>Hektar Clerk(tm)</class>
-	<systemList>
-		<cloaking power="1" max="2" room="5" start="true" />
-		<engines power="1" max="2" room="6" start="true" />
-		<medbay power="1" max="3" room="3" start="true" />
-		<oxygen power="1" max="3" room="2" start="true" />
-		<pilot power="1" max="2" room="0" start="true" />
-		<shields power="2" max="10" room="1" start="true" />
-		<weapons power="2" max="10" room="4" start="true" />
-	</systemList>
-	<weaponSlots>4</weaponSlots>
-	<droneSlots>0</droneSlots>
-	<weaponList missiles="8" count="4" load="LIST_WEAPONS_HEKTAR" />
-	<droneList drones="0" count="0" />
-	<health amount="9" />
-	<maxPower amount="7" />
-	<crewCount amount="3" max="6" class="slug_hektar" />
-	<boardingAI>sabotage</boardingAI>
-	<aug name="SLUG_GEL" />
-	<cloakImage>mu_clan_lawkeeper</cloakImage>
-	<aug name="SLUG_GEL" />
-</shipBlueprint>
-
--->
-
 
 <!-- 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -2675,7 +2570,9 @@ LIST_CREW_PARAGON_UNIQUE
 	<mod-append:name>rk_fireghost</mod-append:name>
 </mod:findName>
 <mod:findName type="blueprintList" name="LIST_CREW_ALIENS">
+	<mod-append:name>rk_weaponlike</mod-append:name>
 	<mod-append:name>rk_fireghost</mod-append:name>
+	<mod-append:name>unique_rk_defromorius</mod-append:name>
 </mod:findName>
 <!-- 
 LIST_CREW_PETS

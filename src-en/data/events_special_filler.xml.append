@@ -15,7 +15,7 @@ OR manually make it give the reputation but in a way where it makes sense that y
 TEST this renamed event seems to be the equivalent: FILLER_DISTRESS_RESCUE.
 => Should work standalone, but Piracy is Poggers removes that whole event tag to replace it. Not gonna mess with that.
 New candidate: FILLER_DISTRESS_COMBAT. It's rebels, but will do. NO WORK. 
-=> Try in events_special_filler.xml.append . WORKS?
+=> Try in events_special_filler.xml.append . WORKS
  -->
 <mod:findName type = "event" name = "FILLER_DISTRESS_COMBAT">
 <mod-append:choice req="DJMOD_NO_COORDS_NO_VISIT_RADIKAL_SECTOR" lvl="1" hidden="true" blue="true">
@@ -77,10 +77,10 @@ New candidate: FILLER_DISTRESS_COMBAT. It's rebels, but will do. NO WORK.
 		<item type="scrap" min="10" max="20"/>
 	</item_modify>
 
-	<choice>
+	<!-- <choice>
 		<text>Continue...</text>
 		<event load="COMBAT_CHECK"/>
-	</choice>
+	</choice> -->
 </event>
 <event name="DISTRESS_PIRA_CIVI_NOTCOORDS_BAD">
 	<text>"Sorry about that interruption, a member of my crew suddenly went rogue but we've dealt with it. Anyways, we have something special I've been keeping for smartasses like you. Give me a sec."

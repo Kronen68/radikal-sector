@@ -459,8 +459,8 @@ Clean choice-event template for copy-paste:
 	</loadEventList>
 </event>
 
-<!-- <event name="RK_A_OUTSIDE_POLICE_INTRO_QUEST_START"> -->
-<event name="RK_A_OUTSIDE_POLICE_INTRO_QUEST_START" unique="true">
+<event name="RK_A_OUTSIDE_POLICE_INTRO_QUEST_START">
+<!-- <event name="RK_A_OUTSIDE_POLICE_INTRO_QUEST_START" unique="true"> -->
 	<!-- No beacon marker, police checks must be ambushes. TEMP FOR DEBUGGING-->
 	<!-- <beaconType id="map_icon_task" global="true">
 		<color r="255" g="255" b="140" a="1.0"/>
@@ -475,93 +475,135 @@ Clean choice-event template for copy-paste:
         <nextSector>true</nextSector>
         <aggressive>2</aggressive>
     </quest>
-	<text>A ship with very special offensive, defensive and intelligence equipment in Elite colors is here.
+	<text>A ship with [style[color:ff3377]]specialized offensive, defensive and intelligence equipment[[/style]] in Elite colors is here.
 		They must be on high alert judging by how fast they hail you.</text>
 	<ship load="SHIP_RK_A_ZOLTAN_POLICE_INTRO" hostile="false"/>
 
 	<metaVariable name="rk_a_outside_police_intro_done" op="add" val="1"/>
 
-	<choice req="DJMOD_HAS_RADIKAL_GEAR" lvl="0" max_lvl="0" hidden="true" blue="false">
-		<text>You do not have any RadiKal (RK) gear at all. That might have just saved you.</text>
+	<!-- <choice req="DJMOD_HAS_RADIKAL_GEAR" lvl="0" max_lvl="0" hidden="true" blue="false"> -->
+	<choice req="RK_HAS_GEAR_SURRENDERABLE_TO_RK_A" lvl="0" max_lvl="0" hidden="true" blue="false">
+		<text>You do not have any removable RadiKal (RK) gear.</text>
 		<event load="OPTION_INVALID"/>
 	</choice>
 	
-	<choice req="DJMOD_HAS_RADIKAL_GEAR" lvl="0" max_lvl="0" hidden="true" blue="false">
+	<choice req="RK_HAS_GEAR_SURRENDERABLE_TO_RK_A" lvl="1" hidden="true" blue="false">
+		<text>You have removable RadiKal (RK) gear, which by definition is illegal almost everywhere.
+			Right now, that could cost you dearly, as that ship seems to be scanning it specifically!</text>
+		<event load="OPTION_INVALID"/>
+	</choice>
+	
+	<!-- <choice req="DJMOD_HAS_RADIKAL_GEAR" lvl="0" max_lvl="0" hidden="true" blue="false"> -->
+	<choice hidden="true">
 		<text>Take the hail</text>
 		<event>
-			<text>"Hello citizens. Do you know anything about the RadiKals? Also known as 'RK'."</text>
+			<text>"Hello citizens. Do you know anything about the RadiKals?"</text>
 
 			<choice hidden="true">
 				<text>Do we know any radicals? I wouldn't say so.</text>
 				<event>
 					<text>"That's not quite what I mean. Then allow me to educate you on this matter of public safety.
 						
-						RK is a semi-secret group of bad people who do bad things, and incite others do the same by selling them the bad things they made.
-						You look like an upstanding citizen since you don't have anything RadiKal. Yes, we have deep-scanned your ship, twice for good measure.</text>
+						RadiKals, also known as 'RK', are a covert group of bad people who do bad things, and incite others do the same by selling them the bad things they made.
+						
+						You look like an upstanding citizen since you don't have anything RadiKal. Yes, we have deep-scanned your ship, twice for good measure."</text>
 					
 					<choice hidden="true">
 						<text>Whoa OK, respecting privacy much?</text>
 						<event>
 							<text>"Don't be a hipster, everybody knows 'privacy' died sometime around the early 21st century. Back to the topic.
 						
-							We are proudly part of the Anti-RadiKal Secret Service (ARKSS). We wouldn't normally tell you this, but we ne- ... could use more hands, and you look capable.
-							If you wish to ensure your own safety, or even join the good fight against them, we sell the right tools that you won't find anywhere else."</text>
+							We are proudly part of the Anti-RadiKal Secret Service (ARKSS). We wouldn't normally tell you this, but we ne- ... Ahem, we COULD USE more hands, and you look capable.
+							If you wish to ensure your own safety, or even join the good fight against them, we sell the right tools that you won't find anywhere else.
 							
-							<choice hidden="true">
-								<text>Hmmm fine, let's see.</text>
+							But first, we must check your ship for RK gear. Anything to declare?"</text>
+
+							<choice req="RK_HAS_GEAR_SURRENDERABLE_TO_RK_A" lvl="1" hidden="true" blue="true">
+								<text>(Surrenderable RK gear) We were just wondering how to get rid of this godforsaken stuff, officer!</text>
+								<event><loadEvent seeded="false">RK_SURRENDER_GEAR_TO_RK_A</loadEvent></event>
+							</choice>
+							
+							<!-- TRAP. Give it a %chance to succeed anyway? -->
+							<choice req="RK_HAS_GEAR_SURRENDERABLE_TO_RK_A" lvl="1" hidden="true" blue="false">
+								<text>Nothing to declare, officer.</text>
 								<event>
-									<text>"Good. Don't let it fall into the wrong hands.
+									<text>The ship must have been scanning you since the moment you jumped in.
 										
-										And if you encounter any of that scum afterwards: do not take their hails, aim for the head, and 'May Order Prevail'."</text>
-									<store>STORE_ANTI_RADIKAL</store>
+										"You take us for fools, but judgement shall be passed on you, despicable Chaos sympathising terrorists. I never could find the ones directly responsible, but at least you will pay for Zeta-708T56-C Secundus's Northern Moonbase!"</text>
+
+									<choice hidden="true">
+										<text>Uh oh...</text>
+										<event name="RK_A_OUTSIDE_POLICE_RK_DETECTED_ATTACK">
+											<text>All at once, they power up their weapons (which seem tailored to destroy RK ships), eject an auxiliary ship with big engines and cannons, which quickly goes some distance away to provide artillery support, and a sudden explosion also makes your ears ring.
+												They must have used some sort of combat augment on your Engines!
+												
+												These guys don't mess around. You quickly prepare to fight!</text>
+											<environment type="PDS" target="player"/>
+											<ship hostile="true"/>
+											<damage amount="1" system="engines" effect="breach" force="true"/>
+											<damage amount="-1"/>
+											
+											<choice hidden="true">
+												<text>Continue...</text>
+												<event load="COMBAT_CHECK"/>
+											</choice>
+										</event>
+									</choice>
+								</event>
+							</choice>
+							
+							<choice req="RK_HAS_GEAR_SURRENDERABLE_TO_RK_A" lvl="0" max_lvl="0" hidden="true" blue="false">
+								<text>Nothing to declare, officer.</text>
+								<event>
+									<text>"Good. Now that you know what we are talking about, do you have any information on RadiKals?</text>
+									
+									<choice hidden="true">
+										<text>Nope, but I'd like to see that equipment you mentioned.</text>
+										<event>
+											<text>"This gear will make you an RK hunter in no time, or protect you from their devious schemes! Don't let it fall into the wrong hands.
+												
+												And if you encounter any of that scum afterwards: do not take their hails, aim for the heads, and 'May Order Prevail'."</text>
+											<store>STORE_ANTI_RADIKAL</store>
+											
+										</event>
+									</choice>
+
+									<choice hidden="true">
+										<text>Well, I believe they went that way.</text>
+										<event>
+											<text>"Thank you for your cooperation. Albrecht, perform the jump to the closest beacon and transmit the estimated target coordinates to command! It's gonna take a whole day for our jump drive to recharge."
+												 
+												They immediately throw a reward package through an airlock and cut comms. Hopefully, by some odds there actually are RadiKals that way, or you better hope you never see this ship again.</text>
+											<autoReward level="LOW">standard_no_item</autoReward>
+											<instantEscape/>
+											
+										</event>
+									</choice>
+
+									<choice hidden="true">
+										<text>Maybe, maybe not, but we're attacking you!</text>
+										<event>
+											<text>"Hmpf! You don't have the gear, but you must be sympathisers. Same scum, different tools. Albrecht?"
+												"Ready, sir."
+												"Deploy!"</text>
+											
+											<choice hidden="true">
+												<text>Let's do this!</text>
+												<!-- <event load="RK_A_OUTSIDE_POLICE_RK_DETECTED_ATTACK"/> 	Untested -->
+												<event><loadEvent seeded="false">RK_A_OUTSIDE_POLICE_RK_DETECTED_ATTACK</loadEvent></event>
+											</choice>
+										</event>
+									</choice>
 								</event>
 							</choice>
 						</event>
 					</choice>
 				</event>
 			</choice>
-
-			<choice hidden="true">
-				<text>They went that way.</text>
-				<event>
-					<text>"Thank you for your cooperation." They immediately throw a reward package through an airlock and depart. Hopefully, by some odds there actually are RadiKals that way, or you better hope you never see this ship again.</text>
-					<autoReward level="LOW">standard_no_item</autoReward>
-					
-					<!-- <choice hidden="true">
-						<text>Continue...</text>
-						</event>
-					</choice> -->
-				</event>
-			</choice>
-
-			<choice hidden="true">
-				<text>Maybe, maybe not, but we're attacking you!</text>
-				<event>
-					<text>"Hmpf! You don't have the gear, but you must be sympathisers. Same scum, different tools. Albrecht?"
-						"Ready, sir."
-						"Deploy!"
-
-						They power up their weapons and simultaneously eject an auxiliary ship with big engines and cannons, which quickly goes some distance away to provide artillery support.
-						Whoever they are, these guys don't mess around!</text>
-					<environment type="PDS" target="player"/>
-					<ship hostile="true"/>
-					
-					<choice hidden="true">
-						<text>Continue...</text>
-						<event load="COMBAT_CHECK"/>
-					</choice>
-				</event>
-			</choice>
 		</event>
 	</choice>
-	
-	<choice req="DJMOD_HAS_RADIKAL_GEAR" lvl="1" hidden="true" blue="false">
-		<text>You have RadiKal (RK) gear, which by definition is illegal almost everywhere.
-			Right now, that could cost you dearly, as that ship seems to be scanning it specifically!</text>
-		<event load="OPTION_INVALID"/>
-	</choice>
 
-	<choice req="DJMOD_HAS_RADIKAL_GEAR" lvl="1" hidden="true" blue="true">
+	<!-- <choice req="DJMOD_HAS_RADIKAL_GEAR" lvl="1" hidden="true" blue="true">
 		<text>...I don't like this one bit. Attack!</text>
 		<event name="RK_A_OUTSIDE_POLICE_RK_DETECTED_ATTACK">
 			<text>You don't even have time to give the order. That ship must have been scanning you since the moment you jumped in. And they have already decided to eliminate you!
@@ -577,7 +619,7 @@ Clean choice-event template for copy-paste:
 				<text>Continue...</text>
 				<event>
 					<text>A sudden explosion also makes your ears ring. They must have used some sort of combat augment on your Engines!</text>
-					<damage amount="1" system="engines" effect="all" force="true"/>
+					<damage amount="1" system="engines" effect="breach" force="true"/>
 					<damage amount="-1"/>
 					
 					<choice hidden="true">
@@ -587,8 +629,9 @@ Clean choice-event template for copy-paste:
 				</event>
 			</choice>
 		</event>
-	</choice>
-	<choice req="DJMOD_HAS_RADIKAL_GEAR" lvl="1" hidden="true" blue="true">
+	</choice> -->
+	<!-- <choice req="DJMOD_HAS_RADIKAL_GEAR" lvl="1" hidden="true" blue="true"> -->
+	<choice hidden="true">
 		<text>...I don't like this one bit. Try to run!</text>
 		<event><loadEvent>RK_A_OUTSIDE_POLICE_RK_DETECTED_ATTACK</loadEvent></event>
 	</choice>
@@ -619,70 +662,113 @@ Clean choice-event template for copy-paste:
         <nextSector>true</nextSector>
         <aggressive>2</aggressive>
     </quest>
-	<text>A ship with very special equipment is here, apparently on high alert judging by how fast they hail you.</text>
+	<text>A ship with [style[color:ff3377]]specialized offensive, defensive and intelligence equipment[[/style]] is here, apparently on high alert judging by how fast they hail you.</text>
 	<ship load="SHIP_RK_A_ZOLTAN_POLICE_NUMBER2" hostile="false"/>
 
-	<choice req="DJMOD_HAS_RADIKAL_GEAR" lvl="0" max_lvl="0" hidden="true" blue="false">
+	<!-- <choice req="DJMOD_HAS_RADIKAL_GEAR" lvl="0" max_lvl="0" hidden="true" blue="false">
 		<text>You do not have any RadiKal (RK) gear at all. That might have just saved you.</text>
+		<event load="OPTION_INVALID"/>
+	</choice> -->
+	<choice req="RK_HAS_GEAR_SURRENDERABLE_TO_RK_A" lvl="0" max_lvl="0" hidden="true" blue="false">
+		<text>You do not have any removable RadiKal (RK) gear.</text>
+		<event load="OPTION_INVALID"/>
+	</choice>
+	
+	<choice req="RK_HAS_GEAR_SURRENDERABLE_TO_RK_A" lvl="1" hidden="true" blue="false">
+		<text>You have removable RadiKal (RK) gear, which by definition is illegal almost everywhere.
+			Right now, that could cost you dearly, as that ship seems to be scanning it specifically!</text>
 		<event load="OPTION_INVALID"/>
 	</choice>
 
-	<choice req="DJMOD_HAS_RADIKAL_GEAR" lvl="0" max_lvl="0" hidden="true" blue="false">
+	<!-- <choice req="DJMOD_HAS_RADIKAL_GEAR" lvl="0" max_lvl="0" hidden="true" blue="false"> -->
+	<choice hidden="true">
 		<text>Take the hail</text>
 		<event>
-			<text>"Citizen, have you seen any RadiKals in this sector?"</text>
+			<text>"Citizen, this is the Anti-RadiKal Secret Service. Have you found any RadiKal gear so we can safely dispose of it?"</text>
 
-			<choice hidden="true">
-				<text>I don't think I have.</text>
+			<choice req="RK_HAS_GEAR_SURRENDERABLE_TO_RK_A" lvl="1" hidden="true" blue="true">
+			<!-- <choice hidden="true"> -->
+				<text>(Surrenderable RK gear) Here's all the disgusting killing stuff we've found, officer.</text>
+				<event><loadEvent seeded="false">RK_SURRENDER_GEAR_TO_RK_A</loadEvent></event>
+			</choice>
+			
+			<!-- TRAP. Give it a %chance to succeed anyway? -->
+			<choice req="RK_HAS_GEAR_SURRENDERABLE_TO_RK_A" lvl="1" hidden="true" blue="false">
+				<text>Nothing to declare, officer.</text>
 				<event>
-					<text>"Good."</text>
-					
+					<text>The ship must have been scanning you since the moment you jumped in.
+						
+						"Wrong answer, scum. And we have everything we need to erase you from this world. The investigation never reached any solid conclusion, but at least YOU will pay for what happened to MY squad!"</text>
+
 					<choice hidden="true">
-						<text>Uh, was that all?</text>
-						<event>
-							<text>"Oh, did you want something? We only sell Anti-RK equipment. Feel free to gear up, we are the only organization authorized to sell it.
-								'May Order Prevail'."</text>
-							<store>STORE_ANTI_RADIKAL_2</store>
+						<text>Uh oh...</text>
+						<event name="RK_A_OUTSIDE_POLICE_NUMBER2_RK_DETECTED_ATTACK">
+							<text>All at once, they power up their weapons (which seem tailored to destroy RK ships), eject an auxiliary ship with big engines and cannons, which quickly goes some distance away to provide artillery support, and a sudden explosion also makes your ears ring.
+								They must have used some sort of combat augment on your Engines!
+								
+								These guys don't mess around. You quickly prepare to fight!</text>
+							<environment type="PDS" target="player"/>
+							<ship hostile="true"/>
+							<damage amount="2" system="engines" effect="breach" force="true"/>
+							<damage amount="-2"/>
+							
+							<choice hidden="true">
+								<text>Continue...</text>
+								<event load="COMBAT_CHECK"/>
+							</choice>
 						</event>
 					</choice>
 				</event>
 			</choice>
 
-			<choice hidden="true">
-				<text>They went that way.</text>
+			<choice req="RK_HAS_GEAR_SURRENDERABLE_TO_RK_A" lvl="0" max_lvl="0" hidden="true" blue="false">
+				<text>Nothing to declare, officer.</text>
 				<event>
-					<text>"Thank you for your cooperation." They immediately throw a reward package through an airlock and depart. Hopefully, by some odds there actually are RadiKals that way, or you better hope you never see this ship again.</text>
-					<autoReward level="LOW">standard_no_item</autoReward>
-					
-					<!-- <choice hidden="true">
-						<text>Continue...</text>
-						</event>
-					</choice> -->
-				</event>
-			</choice>
-
-			<choice hidden="true">
-				<text>Maybe, maybe not, but we're attacking you!</text>
-				<event>
-					<text>"Hmpf! You don't have the gear, but you must be sympathisers. Same scum, different tools. Herbert?"
-						"Ready, sir."
-						"Deploy!"
-
-						They power up their weapons and simultaneously eject an auxiliary ship with big engines and cannons, which quickly goes some distance away to provide artillery support.
-						Whoever they are, these guys don't mess around!</text>
-					<environment type="PDS" target="player"/>
-					<ship hostile="true"/>
+					<text>"Good. Have you seen any RadiKals in this sector?"</text>
 					
 					<choice hidden="true">
-						<text>Continue...</text>
-						<event load="COMBAT_CHECK"/>
+						<text>I don't think I have.</text>
+						<event>
+							<text>"Also good. Now, if you wish to acquire Anti-RK equipment, feel free to gear up. We are the only organization authorized to sell it.
+								'May Order Prevail'."</text>
+							<store>STORE_ANTI_RADIKAL_2</store>
+
+						</event>
+					</choice>
+
+					<choice hidden="true">
+						<text>They went that way.</text>
+						<event>
+							<text>"Thank you for your cooperation." They immediately throw a standard reward package through an airlock and depart. Hopefully, by some odds there actually are RadiKals that way, or you better hope you never see this ship again.</text>
+							<autoReward level="LOW">standard_no_item</autoReward>
+
+						</event>
+					</choice>
+
+					<choice hidden="true">
+						<text>Maybe, maybe not, but we're attacking you!</text>
+						<event>
+							<text>"Hmpf! You don't have the gear, but you must be sympathisers. Same scum, different tools. Herbert?"
+								"Ready, sir."
+								"Deploy!"
+
+								They power up their weapons and simultaneously eject an auxiliary ship with big engines and cannons, which quickly goes some distance away to provide artillery support.
+								Whoever they are, these guys don't mess around!</text>
+							<environment type="PDS" target="player"/>
+							<ship hostile="true"/>
+							
+							<choice hidden="true">
+								<text>Continue...</text>
+								<event load="COMBAT_CHECK"/>
+							</choice>
+						</event>
 					</choice>
 				</event>
 			</choice>
 		</event>
 	</choice>
 	
-	<choice req="DJMOD_HAS_RADIKAL_GEAR" lvl="1" hidden="true" blue="false">
+	<!-- <choice req="DJMOD_HAS_RADIKAL_GEAR" lvl="1" hidden="true" blue="false">
 		<text>You have RadiKal (RK) gear, which by definition is illegal almost everywhere.
 			Right now, that could cost you dearly, as that ship seems to be scanning it specifically!</text>
 		<event load="OPTION_INVALID"/>
@@ -703,8 +789,8 @@ Clean choice-event template for copy-paste:
 				<text>Continue...</text>
 				<event>
 					<text>A sudden explosion also makes your ears ring. They must have used some sort of combat augment on your Engines!</text>
-					<damage amount="3" system="engines" effect="all" force="true"/>
-					<damage amount="-3"/>
+					<damage amount="2" system="engines" effect="breach" force="true"/>
+					<damage amount="-2"/>
 					
 					<choice hidden="true">
 						<text>Continue...</text>
@@ -714,7 +800,8 @@ Clean choice-event template for copy-paste:
 			</choice>
 		</event>
 	</choice>
-	<choice req="DJMOD_HAS_RADIKAL_GEAR" lvl="1" hidden="true" blue="true">
+	<choice req="RK_HAS_GEAR_SURRENDERABLE_TO_RK_A" lvl="1" hidden="true" blue="true"> -->
+	<choice hidden="true">
 		<text>...I don't like this one bit. Try to run!</text>
 		<event><loadEvent>RK_A_OUTSIDE_POLICE_NUMBER2_RK_DETECTED_ATTACK</loadEvent></event>
 	</choice>
@@ -740,6 +827,120 @@ Clean choice-event template for copy-paste:
 	</beaconType> -->
 
 	<preventQuest />
+    <quest>
+        <removeNebula>true</removeNebula>
+        <nextSector>true</nextSector>
+        <aggressive>2</aggressive>
+    </quest>
+	<text>A ship with [style[color:ff3377]]specialized offensive, defensive and intelligence equipment[[/style]] is here, apparently on high alert judging by how fast they hail you.</text>
+	<ship load="SHIP_RK_A_ZOLTAN_POLICE_NUMBER3" hostile="false"/>
+
+	<!-- <choice req="DJMOD_HAS_RADIKAL_GEAR" lvl="0" max_lvl="0" hidden="true" blue="false">
+		<text>You do not have any RadiKal (RK) gear at all. That might have just saved you.</text>
+		<event load="OPTION_INVALID"/>
+	</choice> -->
+	<choice req="RK_HAS_GEAR_SURRENDERABLE_TO_RK_A" lvl="0" max_lvl="0" hidden="true" blue="false">
+		<text>You do not have any removable RadiKal (RK) gear.</text>
+		<event load="OPTION_INVALID"/>
+	</choice>
+	
+	<choice req="RK_HAS_GEAR_SURRENDERABLE_TO_RK_A" lvl="1" hidden="true" blue="false">
+		<text>You have removable RadiKal (RK) gear, which by definition is illegal almost everywhere.
+			Right now, that could cost you dearly, as that ship seems to be scanning it specifically!</text>
+		<event load="OPTION_INVALID"/>
+	</choice>
+
+	<!-- <choice req="DJMOD_HAS_RADIKAL_GEAR" lvl="0" max_lvl="0" hidden="true" blue="false"> -->
+	<choice hidden="true">
+		<text>Take the hail</text>
+		<event>
+			<text>"You there. This is Inquisitor Malgro, of the Anti-RadiKal Secret Service. Have you stored any... RadiKal gear for righteous destruction?"</text>
+
+			<choice req="RK_HAS_GEAR_SURRENDERABLE_TO_RK_A" lvl="1" hidden="true" blue="true">
+			<!-- <choice hidden="true"> -->
+				<text>(Surrenderable RK gear) Here's all the horrific murder stuff we've found, officer.</text>
+				<event><loadEvent seeded="false">RK_SURRENDER_GEAR_TO_RK_A</loadEvent></event>
+			</choice>
+			
+			<!-- TRAP. Give it a %chance to succeed anyway? -->
+			<choice req="RK_HAS_GEAR_SURRENDERABLE_TO_RK_A" lvl="1" hidden="true" blue="false">
+				<text>Nothing to declare, officer.</text>
+				<event>
+					<text>The ship must have been scanning you since the moment you jumped in.
+						
+						"Hah! They always think they can get away with it... There is no getting away from justice. I know it's impossible to find any clues about it anymore, but at least you will PAY FOR MY FAMILY YOU SICK FU-!"</text>
+						You cut comms. You (probably) didn't kill their family, but they clearly don't give a damn.
+					<choice hidden="true">
+						<text>Uh oh...</text>
+						<event name="RK_A_OUTSIDE_POLICE_NUMBER3_RK_DETECTED_ATTACK">
+							<text>All at once, they power up their weapons (which seem tailored to destroy RK ships), eject an auxiliary ship with big engines and cannons, which quickly goes some distance away to provide artillery support, and a sudden explosion also makes your ears ring.
+								They must have used some sort of combat augment on your Engines!
+								
+								These guys don't mess around. You quickly prepare to fight!</text>
+							<environment type="PDS" target="player"/>
+							<ship hostile="true"/>
+							<damage amount="3" system="engines" effect="breach" force="true"/>
+							<damage amount="-3"/>
+							
+							<choice hidden="true">
+								<text>Continue...</text>
+								<event load="COMBAT_CHECK"/>
+							</choice>
+						</event>
+					</choice>
+				</event>
+			</choice>
+
+			<choice req="RK_HAS_GEAR_SURRENDERABLE_TO_RK_A" lvl="0" max_lvl="0" hidden="true" blue="false">
+				<text>Nothing to declare, officer.</text>
+				<event>
+					<text>"Indeed... Where are the RadiKals hiding in this sector?"</text>
+					
+					<choice hidden="true">
+						<text>I don't know.</text>
+						<event>
+							<text>"Yes, right. Nobody ever does... Just remember, the A-RK.S.S. is ever watchful.
+								Why don't you prove your innocence by buying some of this exclusive Anti-RK equipment, hmmm?
+								'May Order Prevail'"</text>
+							<store>STORE_ANTI_RADIKAL_2</store>
+
+						</event>
+					</choice>
+
+					<choice hidden="true">
+						<text>Totally, they went that way.</text>
+						<event>
+							<text>"Is that so? For your sake I hope that's true..." They immediately throw a standard reward package through an airlock and depart. Hopefully, by some odds there actually are RadiKals that way, or you better hope you never see this ship again.</text>
+							<autoReward level="LOW">standard_no_item</autoReward>
+
+						</event>
+					</choice>
+
+					<choice hidden="true">
+						<text>Maybe, maybe not, but we're attacking you!</text>
+						<event>
+							<text>"Hmpf! You don't have the gear, but you must be sympathisers. Same scum, different tools. Mordred?"
+								"Ready, sir."
+								"Deploy!"</text>
+
+							<choice hidden="true">
+								<text>Uh oh...</text>
+								<event><loadEvent>RK_A_OUTSIDE_POLICE_NUMBER3_RK_DETECTED_ATTACK</loadEvent></event>
+							</choice>
+							<!-- <environment type="PDS" target="player"/>
+							<ship hostile="true"/>
+							
+							<choice hidden="true">
+								<text>Continue...</text>
+								<event load="COMBAT_CHECK"/>
+							</choice> -->
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<!-- <preventQuest />
     <quest>
         <removeNebula>true</removeNebula>
         <nextSector>true</nextSector>
@@ -780,10 +981,6 @@ Clean choice-event template for copy-paste:
 					<text>"Thank you for your cooperation." They immediately throw a reward package through an airlock and depart. Hopefully, by some odds there actually are RadiKals that way, or you better hope you never see this ship again.</text>
 					<autoReward level="LOW">standard_no_item</autoReward>
 					
-					<!-- <choice hidden="true">
-						<text>Continue...</text>
-						</event>
-					</choice> -->
 				</event>
 			</choice>
 
@@ -829,8 +1026,8 @@ Clean choice-event template for copy-paste:
 				<text>Continue...</text>
 				<event>
 					<text>A sudden explosion also makes your ears ring. They must have used some sort of combat augment on your Engines!</text>
-					<damage amount="5" system="engines" effect="all" force="true"/>
-					<damage amount="-5"/>
+					<damage amount="3" system="engines" effect="breach" force="true"/>
+					<damage amount="-3"/>
 					
 					<choice hidden="true">
 						<text>Continue...</text>
@@ -840,7 +1037,8 @@ Clean choice-event template for copy-paste:
 			</choice>
 		</event>
 	</choice>
-	<choice req="DJMOD_HAS_RADIKAL_GEAR" lvl="1" hidden="true" blue="true">
+	<choice req="DJMOD_HAS_RADIKAL_GEAR" lvl="1" hidden="true" blue="true"> -->
+	<choice hidden="true">
 		<text>...I don't like this one bit. Try to run!</text>
 		<event><loadEvent>RK_A_OUTSIDE_POLICE_NUMBER3_RK_DETECTED_ATTACK</loadEvent></event>
 	</choice>
@@ -866,56 +1064,915 @@ Clean choice-event template for copy-paste:
 		<text>What a punishing fight. Is that the real cost of using RadiKal gear? No matter, take a quick look around, then let's move!</text>
 		<event load="DEFEAT_RK_A_POLICE_LOOT_CHANCE"/>
 	</choice>
-	<!-- <choice hidden="true">
-		<text>What a punishing fight. Is that the real cost of using RadiKal gear? No matter, let's move!</text>
-		<event/>
-	</choice> -->
 </event>
 <event name="DEFEAT_RK_A_POLICE">
 	<text>As soon as the ship is defeated, your scanners detect multiple micro-charges detonating inside it, ruining most of the salvage. Whatever control freak supervises these guys doesn't leave much to chance.
 		
 		With the auxiliary ship way out of your range and still firing, you grab some meager scrap.</text>
 	<autoReward level="LOW">scrap_only</autoReward>
-	<!-- <weapon name="RK_A_LASER_1"/> -->
 	
 	<choice hidden="true">
 		<text>Just the cost of being outlaws. Take a quick look around, then let's move!</text>
 		<event load="DEFEAT_RK_A_POLICE_LOOT_CHANCE"/>
 	</choice>
-	<!-- <choice hidden="true">
-		<text>Just the cost of being outlaws. Let's move!</text>
-		<event/>
-	</choice> -->
 </event>
 
 <eventList name="DEFEAT_RK_A_POLICE_LOOT_CHANCE">
     <event>
         <text>There is nothing worth taking left.
 			It's time to jump away from the artillery fire.</text>
-        <!-- <choice hidden="true">
+
+        <choice hidden="true">
             <text>Continue...</text>
-            <event load="MORALITY_REMOVE_ZOLTAN"/>
-        </choice> -->
+            <event load="RK_OUTSIDE_STORE"/>
+        </choice>
     </event>
     <event>
         <text>You notice a weapon that's somehow still intact and bring it onboard.
 			It's time to jump away from the artillery fire.</text>
 		<weapon name="RK_A_LASER_1"/>
-        <!-- <choice hidden="true">
+        
+        <choice hidden="true">
             <text>Continue...</text>
-            <event load="MORALITY_REMOVE_ZOLTAN"/>
-        </choice> -->
+            <event load="RK_OUTSIDE_STORE"/>
+        </choice>
     </event>
     <event>
         <text>You notice a weapon that's somehow still intact and bring it onboard.
 			It's time to jump away from the artillery fire.</text>
 		<weapon name="RK_A_MISSLAUNCHER"/>
-        <!-- <choice hidden="true">
+        
+        <choice hidden="true">
             <text>Continue...</text>
-            <event load="MORALITY_REMOVE_ZOLTAN"/>
-        </choice> -->
+            <event load="RK_OUTSIDE_STORE"/>
+        </choice>
     </event>
 </eventList>
+
+<event name="RK_OUTSIDE_STORE">
+	<!-- REF: Guard_XXXXX_FOLLOWUP. "removeHazards" removes ASB. -->
+	<noQuestText/>
+	<removeHazards/>
+	<clearCustomFleet/>
+	<text>You're about to jump away when a cloaked ship suddenly reveals itself. "Don't worry, we're on thhhhe same side."
+		
+		As if to prove that, they fire their own long-range weapon at the auxiliary ship, which stops bombarding you from afar.
+		You can't tell if it's destroyed. In any case, by the time it repairs itself, your business here should be done.</text>
+	<ship load="SHIP_RK_STORE_AFTER_RK_A_DEFEAT" hostile="false"/>
+
+	<choice hidden="true">
+		<text>If we're on the same side, why wait so long to fire that thing?</text>
+		<event>
+			<text>"Thhhhis specialized equipment just wasn't charged yet, silly. Do you even know how much Long-Cloaking slows down weapon chhhharge? Anyway, thhhhat was some good fighting right thhhhere! Safe to say I trust you withhh our goods, shhhhould you want some."</text>
+			
+			<choice hidden="true">
+				<text>Interesting. Show me the goods.</text>
+				<event>
+					<text>"Do note thhhhat any other ARKSS ships seeing you with anything tagged "RK" will definitely shhhhoot to kill, whichhhh you don't seem to mind.
+						Just... don't get hit by thhhhem. One could say thhhhey use hateful equipment without being too far off."
+
+						[Warning: Very limited purchases]</text>
+					<store>STORE_RADIKAL_OUTSIDE_1</store>
+					
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event/>
+					</choice>
+				</event>
+			</choice>
+
+			<choice req="DJMOD_NO_COORDS_NO_VISIT_RADIKAL_SECTOR" lvl="1" hidden="false" blue="true">
+				<text>Actually, I want to get more involved. I want to go to the source.</text>
+				
+				<event>
+					<text>"Heh! I like your enthhhusiasm. Take thhhhese reroute coordinates to the RadiKal Sector and keep up your whole 'not dying' thhhhing!
+						
+						Won't be thhhhat easy, mind you, but it will give you access to the best stuff."</text>
+					<item_modify>
+						<item type="scrap" min="-16" max="-16"/>
+					</item_modify>
+					<variable name="coords_radikal" op="set" val="1"/>
+					
+				</event>
+			</choice>
+
+			<choice hidden="true">
+				<text>We're good, thanks.</text>
+				<event>
+					<text>"Hhhhow disappointing. Still, feel free to kill more ARKSS."</text>
+
+				</event>
+			</choice>
+		</event>
+	</choice>
+</event>
+<ship name="SHIP_RK_STORE_AFTER_RK_A_DEFEAT" auto_blueprint="MU_SHELL_SCOUT_SCIENCE">
+	<!-- <surrender  chance="0.4" min="2" max="3" load="SURRENDER_SHELL"/>
+	<escape  chance="0.9" min="5" max="6" load="ESCAPE_SHELL"/>
+	<gotaway load="GOTAWAY_SHELL"/> -->
+	<destroyed load="DESTROYED_SHELL"/>
+	<deadCrew load="DEAD_CREW_SHELL"/>
+</ship>
+
+<event name="RK_SURRENDER_GEAR_TO_RK_A">
+	<text>"Show us. Your finder's fee is 15~ per piece.
+		Afterwards we will of course scan you again. If everything is on order, you will be free to go."
+
+		Their equipment may not be capable of detecting RK internal upgrades, but they certainly know about everything else you're carrying.
+		According to the documentation they're spamming your screens with, failure to hand over even a single piece is a federal crime!</text>
+	<!-- Sell everything non-internal for flat value. Possibly by threat tiers later on? -->
+	 
+	<variable name="rk_a_outside_police_surrendered_gear" op="set" val="0"/>
+	
+	<!-- AUGMENTS -->
+
+	<choice req="RK_BAM_DIVINE_ARMOR" hidden="false">
+		<text>Surrender your Thicker Hull.</text>
+		<event>
+			<text>You send them the illegal gear, which they immediately lock up in cargo.</text>
+			<remove name="RK_BAM_DIVINE_ARMOR"/>
+			<item_modify>
+				<item type="scrap" min="15" max="15"/>
+			</item_modify>
+			<variable name="rk_a_outside_police_surrendered_gear" op="add" val="1"/>
+
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event><loadEvent seeded="false">RK_SURRENDER_GEAR_TO_RK_A</loadEvent></event>
+			</choice>
+		</event>
+	</choice>
+	<choice req="RK_COMBAT_AUTO_SYS_REPAIR" hidden="false">
+		<text>Surrender your AERA Second Wind.</text>
+		<event>
+			<text>You send them the illegal gear, which they immediately lock up in cargo.</text>
+			<remove name="RK_COMBAT_AUTO_SYS_REPAIR"/>
+			<item_modify>
+				<item type="scrap" min="15" max="15"/>
+			</item_modify>
+			<variable name="rk_a_outside_police_surrendered_gear" op="add" val="1"/>
+
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event><loadEvent seeded="false">RK_SURRENDER_GEAR_TO_RK_A</loadEvent></event>
+			</choice>
+		</event>
+	</choice>
+	<choice req="DJMOD_COMBAT_SHIPVORE_RAM" hidden="false">
+		<text>Surrender your Shipvore Ram.</text>
+		<event>
+			<text>You send them the illegal gear, which they immediately lock up in cargo.</text>
+			<remove name="DJMOD_COMBAT_SHIPVORE_RAM"/>
+			<item_modify>
+				<item type="scrap" min="15" max="15"/>
+			</item_modify>
+			<variable name="rk_a_outside_police_surrendered_gear" op="add" val="1"/>
+
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event><loadEvent seeded="false">RK_SURRENDER_GEAR_TO_RK_A</loadEvent></event>
+			</choice>
+		</event>
+	</choice>
+	<choice req="RK_CREW_ARE_BOMBS_OFF" hidden="false">
+		<text>Surrender your Charged Belts (Off).</text>
+		<event>
+			<text>You send them the illegal gear, which they immediately lock up in cargo.</text>
+			<remove name="RK_CREW_ARE_BOMBS_OFF"/>
+			<item_modify>
+				<item type="scrap" min="15" max="15"/>
+			</item_modify>
+			<variable name="rk_a_outside_police_surrendered_gear" op="add" val="1"/>
+
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event><loadEvent seeded="false">RK_SURRENDER_GEAR_TO_RK_A</loadEvent></event>
+			</choice>
+		</event>
+	</choice>
+	<choice req="RK_CREW_ARE_BOMBS_ON" hidden="false">
+		<text>Surrender your Charged Belts (On).</text>
+		<event>
+			<text>You send them the illegal gear, which they immediately lock up in cargo.</text>
+			<remove name="RK_CREW_ARE_BOMBS_ON"/>
+			<item_modify>
+				<item type="scrap" min="15" max="15"/>
+			</item_modify>
+			<variable name="rk_a_outside_police_surrendered_gear" op="add" val="1"/>
+
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event><loadEvent seeded="false">RK_SURRENDER_GEAR_TO_RK_A</loadEvent></event>
+			</choice>
+		</event>
+	</choice>
+	<choice req="RK_LEAD_TITANS" hidden="false">
+		<text>Surrender your Lead Titans.</text>
+		<event>
+			<text>You send them the illegal gear, which they immediately lock up in cargo.</text>
+			<remove name="RK_LEAD_TITANS"/>
+			<item_modify>
+				<item type="scrap" min="15" max="15"/>
+			</item_modify>
+			<variable name="rk_a_outside_police_surrendered_gear" op="add" val="1"/>
+
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event><loadEvent seeded="false">RK_SURRENDER_GEAR_TO_RK_A</loadEvent></event>
+			</choice>
+		</event>
+	</choice>
+	<choice req="RK_PERSISTENCE_SHIELD" hidden="false">
+		<text>Surrender your Persistence Shield.</text>
+		<event>
+			<text>You send them the illegal gear, which they immediately lock up in cargo.</text>
+			<remove name="RK_PERSISTENCE_SHIELD"/>
+			<item_modify>
+				<item type="scrap" min="15" max="15"/>
+			</item_modify>
+			<variable name="rk_a_outside_police_surrendered_gear" op="add" val="1"/>
+
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event><loadEvent seeded="false">RK_SURRENDER_GEAR_TO_RK_A</loadEvent></event>
+			</choice>
+		</event>
+	</choice>
+
+
+	<choice req="RK_ARROGANCE_SHIELD" hidden="false">
+		<text>Surrender your Arrogance Shield.</text>
+		<event>
+			<text>You send them the illegal gear, which they immediately lock up in cargo.</text>
+			<remove name="RK_ARROGANCE_SHIELD"/>
+			<item_modify>
+				<item type="scrap" min="15" max="15"/>
+			</item_modify>
+			<variable name="rk_a_outside_police_surrendered_gear" op="add" val="1"/>
+
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event><loadEvent seeded="false">RK_SURRENDER_GEAR_TO_RK_A</loadEvent></event>
+			</choice>
+		</event>
+	</choice>
+	<choice req="RK_COMBAT_DEFENSE_REMOVER" hidden="false">
+		<text>Surrender your Vulnerabilizer.</text>
+		<event>
+			<text>You send them the illegal gear, which they immediately lock up in cargo.</text>
+			<remove name="RK_COMBAT_DEFENSE_REMOVER"/>
+			<item_modify>
+				<item type="scrap" min="15" max="15"/>
+			</item_modify>
+			<variable name="rk_a_outside_police_surrendered_gear" op="add" val="1"/>
+
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event><loadEvent seeded="false">RK_SURRENDER_GEAR_TO_RK_A</loadEvent></event>
+			</choice>
+		</event>
+	</choice>
+	<choice req="RK_COMBAT_OFFENSE_DISABLER" hidden="false">
+		<text>Surrender your Offense Disabler.</text>
+		<event>
+			<text>You send them the illegal gear, which they immediately lock up in cargo.</text>
+			<remove name="RK_COMBAT_OFFENSE_DISABLER"/>
+			<item_modify>
+				<item type="scrap" min="15" max="15"/>
+			</item_modify>
+			<variable name="rk_a_outside_police_surrendered_gear" op="add" val="1"/>
+
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event><loadEvent seeded="false">RK_SURRENDER_GEAR_TO_RK_A</loadEvent></event>
+			</choice>
+		</event>
+	</choice>
+	<choice req="RK_COMBAT_HACK_FLEET" hidden="false">
+		<text>Surrender your Enigmashin.</text>
+		<event>
+			<text>You send them the illegal gear, which they immediately lock up in cargo.</text>
+			<remove name="RK_COMBAT_HACK_FLEET"/>
+			<item_modify>
+				<item type="scrap" min="15" max="15"/>
+			</item_modify>
+			<variable name="rk_a_outside_police_surrendered_gear" op="add" val="1"/>
+
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event><loadEvent seeded="false">RK_SURRENDER_GEAR_TO_RK_A</loadEvent></event>
+			</choice>
+		</event>
+	</choice>
+	<choice req="RK_DREAD_DECK" hidden="false">
+		<text>Surrender your Dread Deck.</text>
+		<event>
+			<text>You send them the illegal gear, which they immediately lock up in cargo.</text>
+			<remove name="RK_DREAD_DECK"/>
+			<item_modify>
+				<item type="scrap" min="15" max="15"/>
+			</item_modify>
+			<variable name="rk_a_outside_police_surrendered_gear" op="add" val="1"/>
+
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event><loadEvent seeded="false">RK_SURRENDER_GEAR_TO_RK_A</loadEvent></event>
+			</choice>
+		</event>
+	</choice>
+	<choice req="RK_SUPER_DEFENDERS" hidden="false">
+		<text>Surrender your Defense Kits.</text>
+		<event>
+			<text>You send them the illegal gear, which they immediately lock up in cargo.</text>
+			<remove name="RK_SUPER_DEFENDERS"/>
+			<item_modify>
+				<item type="scrap" min="15" max="15"/>
+			</item_modify>
+			<variable name="rk_a_outside_police_surrendered_gear" op="add" val="1"/>
+
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event><loadEvent seeded="false">RK_SURRENDER_GEAR_TO_RK_A</loadEvent></event>
+			</choice>
+		</event>
+	</choice>
+	<choice req="RK_OWN_HARMONY_ON" hidden="false">
+		<text>Surrender your Punk Harmony (On).</text>
+		<event>
+			<text>You send them the illegal gear, which they immediately lock up in cargo.</text>
+			<remove name="RK_OWN_HARMONY_ON"/>
+			<item_modify>
+				<item type="scrap" min="15" max="15"/>
+			</item_modify>
+			<variable name="rk_a_outside_police_surrendered_gear" op="add" val="1"/>
+
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event><loadEvent seeded="false">RK_SURRENDER_GEAR_TO_RK_A</loadEvent></event>
+			</choice>
+		</event>
+	</choice>
+	<choice req="RK_OWN_HARMONY_OFF" hidden="false">
+		<text>Surrender your Punk Harmony (Off).</text>
+		<event>
+			<text>You send them the illegal gear, which they immediately lock up in cargo.</text>
+			<remove name="RK_OWN_HARMONY_OFF"/>
+			<item_modify>
+				<item type="scrap" min="15" max="15"/>
+			</item_modify>
+			<variable name="rk_a_outside_police_surrendered_gear" op="add" val="1"/>
+
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event><loadEvent seeded="false">RK_SURRENDER_GEAR_TO_RK_A</loadEvent></event>
+			</choice>
+		</event>
+	</choice>
+
+
+	<choice req="RK_SCORCH_SELF" hidden="false">
+		<text>Surrender your Scorched Earth (T1).</text>
+		<event>
+			<text>You send them the illegal gear, which they immediately lock up in cargo.</text>
+			<remove name="RK_SCORCH_SELF"/>
+			<item_modify>
+				<item type="scrap" min="15" max="15"/>
+			</item_modify>
+			<variable name="rk_a_outside_police_surrendered_gear" op="add" val="1"/>
+
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event><loadEvent seeded="false">RK_SURRENDER_GEAR_TO_RK_A</loadEvent></event>
+			</choice>
+		</event>
+	</choice>
+	<choice req="RK_SCORCH_SELF_2" hidden="false">
+		<text>Surrender your Blazing Earth (T2).</text>
+		<event>
+			<text>You send them the illegal gear, which they immediately lock up in cargo.</text>
+			<remove name="RK_SCORCH_SELF_2"/>
+			<item_modify>
+				<item type="scrap" min="15" max="15"/>
+			</item_modify>
+			<variable name="rk_a_outside_police_surrendered_gear" op="add" val="1"/>
+
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event><loadEvent seeded="false">RK_SURRENDER_GEAR_TO_RK_A</loadEvent></event>
+			</choice>
+		</event>
+	</choice>
+	<choice req="RK_SCORCH_SELF_3" hidden="false">
+		<text>Surrender your Erupting Earth (T3).</text>
+		<event>
+			<text>You send them the illegal gear, which they immediately lock up in cargo.</text>
+			<remove name="RK_SCORCH_SELF_3"/>
+			<item_modify>
+				<item type="scrap" min="15" max="15"/>
+			</item_modify>
+			<variable name="rk_a_outside_police_surrendered_gear" op="add" val="1"/>
+
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event><loadEvent seeded="false">RK_SURRENDER_GEAR_TO_RK_A</loadEvent></event>
+			</choice>
+		</event>
+	</choice>
+	<choice req="RK_COMBAT_SCORCH_ENEMY" hidden="false">
+		<text>Surrender your Plasma Teleporter.</text>
+		<event>
+			<text>You send them the illegal gear, which they immediately lock up in cargo.</text>
+			<remove name="RK_COMBAT_SCORCH_ENEMY"/>
+			<item_modify>
+				<item type="scrap" min="15" max="15"/>
+			</item_modify>
+			<variable name="rk_a_outside_police_surrendered_gear" op="add" val="1"/>
+
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event><loadEvent seeded="false">RK_SURRENDER_GEAR_TO_RK_A</loadEvent></event>
+			</choice>
+		</event>
+	</choice>
+	<choice req="RK_ENEMIES_CAN_BURN" hidden="false">
+		<text>Surrender your Flammabilizer-Immune.</text>
+		<event>
+			<text>You send them the illegal gear, which they immediately lock up in cargo.</text>
+			<remove name="RK_ENEMIES_CAN_BURN"/>
+			<item_modify>
+				<item type="scrap" min="15" max="15"/>
+			</item_modify>
+			<variable name="rk_a_outside_police_surrendered_gear" op="add" val="1"/>
+
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event><loadEvent seeded="false">RK_SURRENDER_GEAR_TO_RK_A</loadEvent></event>
+			</choice>
+		</event>
+	</choice>
+	<choice req="RK_ENEMIES_BURN_MORE" hidden="false">
+		<text>Surrender your Flammabilizer-Damage.</text>
+		<event>
+			<text>You send them the illegal gear, which they immediately lock up in cargo.</text>
+			<remove name="RK_ENEMIES_BURN_MORE"/>
+			<item_modify>
+				<item type="scrap" min="15" max="15"/>
+			</item_modify>
+			<variable name="rk_a_outside_police_surrendered_gear" op="add" val="1"/>
+
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event><loadEvent seeded="false">RK_SURRENDER_GEAR_TO_RK_A</loadEvent></event>
+			</choice>
+		</event>
+	</choice>
+	<choice req="RK_COMBAT_OXYGENIZER" hidden="false">
+		<text>Surrender your Oxygenizer.</text>
+		<event>
+			<text>You send them the illegal gear, which they immediately lock up in cargo.</text>
+			<remove name="RK_COMBAT_OXYGENIZER"/>
+			<item_modify>
+				<item type="scrap" min="15" max="15"/>
+			</item_modify>
+			<variable name="rk_a_outside_police_surrendered_gear" op="add" val="1"/>
+
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event><loadEvent seeded="false">RK_SURRENDER_GEAR_TO_RK_A</loadEvent></event>
+			</choice>
+		</event>
+	</choice>
+	<choice req="RK_SCORCH_PREIGNITER" hidden="false">
+		<text>Surrender your Scorch Pre-Igniter.</text>
+		<event>
+			<text>You send them the illegal gear, which they immediately lock up in cargo.</text>
+			<remove name="RK_SCORCH_PREIGNITER"/>
+			<item_modify>
+				<item type="scrap" min="15" max="15"/>
+			</item_modify>
+			<variable name="rk_a_outside_police_surrendered_gear" op="add" val="1"/>
+
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event><loadEvent seeded="false">RK_SURRENDER_GEAR_TO_RK_A</loadEvent></event>
+			</choice>
+		</event>
+	</choice>
+	<choice req="RK_WEAPONS_ON_FIRE" hidden="false">
+		<text>Surrender your Weapons On Fire.</text>
+		<event>
+			<text>You send them the illegal gear, which they immediately lock up in cargo.</text>
+			<remove name="RK_WEAPONS_ON_FIRE"/>
+			<item_modify>
+				<item type="scrap" min="15" max="15"/>
+			</item_modify>
+			<variable name="rk_a_outside_police_surrendered_gear" op="add" val="1"/>
+
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event><loadEvent seeded="false">RK_SURRENDER_GEAR_TO_RK_A</loadEvent></event>
+			</choice>
+		</event>
+	</choice>
+	
+
+	<choice req="RK_BPS_SURVEYOR" hidden="false">
+		<text>Surrender your BPS Surveyor.</text>
+		<event>
+			<text>You send them the illegal gear, which they immediately lock up in cargo.</text>
+			<remove name="RK_BPS_SURVEYOR"/>
+			<item_modify>
+				<item type="scrap" min="15" max="15"/>
+			</item_modify>
+			<variable name="rk_a_outside_police_surrendered_gear" op="add" val="1"/>
+
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event><loadEvent seeded="false">RK_SURRENDER_GEAR_TO_RK_A</loadEvent></event>
+			</choice>
+		</event>
+	</choice>
+	<choice req="RK_BPS_SHIELD_OVER_MATTER" hidden="false">
+		<text>Surrender your Shield Over Matter.</text>
+		<event>
+			<text>You send them the illegal gear, which they immediately lock up in cargo.</text>
+			<remove name="RK_BPS_SHIELD_OVER_MATTER"/>
+			<item_modify>
+				<item type="scrap" min="15" max="15"/>
+			</item_modify>
+			<variable name="rk_a_outside_police_surrendered_gear" op="add" val="1"/>
+
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event><loadEvent seeded="false">RK_SURRENDER_GEAR_TO_RK_A</loadEvent></event>
+			</choice>
+		</event>
+	</choice>
+
+	<!-- 
+	WEAPONS 
+	-->
+	
+	<choice req="DJMOD_BAM_FISSUREBEAM" hidden="false">
+		<text>Surrender your Bada beam.</text>
+		<event>
+			<text>You send them the illegal gear, which they immediately lock up in cargo.</text>
+			<remove name="DJMOD_BAM_FISSUREBEAM"/>
+			<item_modify>
+				<item type="scrap" min="15" max="15"/>
+			</item_modify>
+			<variable name="rk_a_outside_police_surrendered_gear" op="add" val="1"/>
+
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event><loadEvent seeded="false">RK_SURRENDER_GEAR_TO_RK_A</loadEvent></event>
+			</choice>
+		</event>
+	</choice>
+	<choice req="RK_HEAVY_POPPER_1" hidden="false">
+		<text>Surrender your Heavy Popper MK I laser.</text>
+		<event>
+			<text>You send them the illegal gear, which they immediately lock up in cargo.</text>
+			<remove name="RK_HEAVY_POPPER_1"/>
+			<item_modify>
+				<item type="scrap" min="15" max="15"/>
+			</item_modify>
+			<variable name="rk_a_outside_police_surrendered_gear" op="add" val="1"/>
+
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event><loadEvent seeded="false">RK_SURRENDER_GEAR_TO_RK_A</loadEvent></event>
+			</choice>
+		</event>
+	</choice>
+	<choice req="RK_HEAVY_POPPER_2" hidden="false">
+		<text>Surrender your Heavy Popper MK II laser.</text>
+		<event>
+			<text>You send them the illegal gear, which they immediately lock up in cargo.</text>
+			<remove name="RK_HEAVY_POPPER_2"/>
+			<item_modify>
+				<item type="scrap" min="15" max="15"/>
+			</item_modify>
+			<variable name="rk_a_outside_police_surrendered_gear" op="add" val="1"/>
+
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event><loadEvent seeded="false">RK_SURRENDER_GEAR_TO_RK_A</loadEvent></event>
+			</choice>
+		</event>
+	</choice>
+	<choice req="RK_HEAVY_POPPER_3" hidden="false">
+		<text>Surrender your Heavy Popper MK III laser.</text>
+		<event>
+			<text>You send them the illegal gear, which they immediately lock up in cargo.</text>
+			<remove name="RK_HEAVY_POPPER_3"/>
+			<item_modify>
+				<item type="scrap" min="15" max="15"/>
+			</item_modify>
+			<variable name="rk_a_outside_police_surrendered_gear" op="add" val="1"/>
+
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event><loadEvent seeded="false">RK_SURRENDER_GEAR_TO_RK_A</loadEvent></event>
+			</choice>
+		</event>
+	</choice>
+	<choice req="RK_UNLOADER" hidden="false">
+		<text>Surrender your Unloader launcher.</text>
+		<event>
+			<text>You send them the illegal gear, which they immediately lock up in cargo.</text>
+			<remove name="RK_UNLOADER"/>
+			<item_modify>
+				<item type="scrap" min="15" max="15"/>
+			</item_modify>
+			<variable name="rk_a_outside_police_surrendered_gear" op="add" val="1"/>
+
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event><loadEvent seeded="false">RK_SURRENDER_GEAR_TO_RK_A</loadEvent></event>
+			</choice>
+		</event>
+	</choice>
+
+	<choice req="RK_BOMBLAUNCHER_ANTIBIO_REPAIR" hidden="false">
+		<text>Surrender your Radiation Repair bomb.</text>
+		<event>
+			<text>You send them the illegal gear, which they immediately lock up in cargo.</text>
+			<remove name="RK_BOMBLAUNCHER_ANTIBIO_REPAIR"/>
+			<item_modify>
+				<item type="scrap" min="15" max="15"/>
+			</item_modify>
+			<variable name="rk_a_outside_police_surrendered_gear" op="add" val="1"/>
+
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event><loadEvent seeded="false">RK_SURRENDER_GEAR_TO_RK_A</loadEvent></event>
+			</choice>
+		</event>
+	</choice>
+	<choice req="RK_KILLALL_BEAM" hidden="false">
+		<text>Surrender your Gravespred beam.</text>
+		<event>
+			<text>You send them the illegal gear, which they immediately lock up in cargo.</text>
+			<remove name="RK_KILLALL_BEAM"/>
+			<item_modify>
+				<item type="scrap" min="15" max="15"/>
+			</item_modify>
+			<variable name="rk_a_outside_police_surrendered_gear" op="add" val="1"/>
+
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event><loadEvent seeded="false">RK_SURRENDER_GEAR_TO_RK_A</loadEvent></event>
+			</choice>
+		</event>
+	</choice>
+	<choice req="RK_MISSLAUNCHER_2_BATTERY" hidden="false">
+		<text>Surrender your Battery Artemis missile launcher.</text>
+		<event>
+			<text>You send them the illegal gear, which they immediately lock up in cargo.</text>
+			<remove name="RK_MISSLAUNCHER_2_BATTERY"/>
+			<item_modify>
+				<item type="scrap" min="15" max="15"/>
+			</item_modify>
+			<variable name="rk_a_outside_police_surrendered_gear" op="add" val="1"/>
+
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event><loadEvent seeded="false">RK_SURRENDER_GEAR_TO_RK_A</loadEvent></event>
+			</choice>
+		</event>
+	</choice>
+	<choice req="RK_RAIN_OF_ION" hidden="false">
+		<text>Surrender your Rain of Ions shotgun.</text>
+		<event>
+			<text>You send them the illegal gear, which they immediately lock up in cargo.</text>
+			<remove name="RK_RAIN_OF_ION"/>
+			<item_modify>
+				<item type="scrap" min="15" max="15"/>
+			</item_modify>
+			<variable name="rk_a_outside_police_surrendered_gear" op="add" val="1"/>
+
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event><loadEvent seeded="false">RK_SURRENDER_GEAR_TO_RK_A</loadEvent></event>
+			</choice>
+		</event>
+	</choice>
+	<choice req="RK_SHOTPHASER" hidden="false">
+		<text>Surrender your Shotphaser shotgun.</text>
+		<event>
+			<text>You send them the illegal gear, which they immediately lock up in cargo.</text>
+			<remove name="RK_SHOTPHASER"/>
+			<item_modify>
+				<item type="scrap" min="15" max="15"/>
+			</item_modify>
+			<variable name="rk_a_outside_police_surrendered_gear" op="add" val="1"/>
+
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event><loadEvent seeded="false">RK_SURRENDER_GEAR_TO_RK_A</loadEvent></event>
+			</choice>
+		</event>
+	</choice>
+
+	<choice req="RK_BOMBLAUNCHER_OXYBOTTLE" hidden="false">
+		<text>Surrender your Oxygen-Bomb launcher.</text>
+		<event>
+			<text>You send them the illegal gear, which they immediately lock up in cargo.</text>
+			<remove name="RK_BOMBLAUNCHER_OXYBOTTLE"/>
+			<item_modify>
+				<item type="scrap" min="15" max="15"/>
+			</item_modify>
+			<variable name="rk_a_outside_police_surrendered_gear" op="add" val="1"/>
+
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event><loadEvent seeded="false">RK_SURRENDER_GEAR_TO_RK_A</loadEvent></event>
+			</choice>
+		</event>
+	</choice>
+
+	<choice req="RK_OXY_FIREFILL_MISSILES" hidden="false">
+		<text>Surrender your Chimney launcher.</text>
+		<event>
+			<text>You send them the illegal gear, which they immediately lock up in cargo.</text>
+			<remove name="RK_OXY_FIREFILL_MISSILES"/>
+			<item_modify>
+				<item type="scrap" min="15" max="15"/>
+			</item_modify>
+			<variable name="rk_a_outside_police_surrendered_gear" op="add" val="1"/>
+
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event><loadEvent seeded="false">RK_SURRENDER_GEAR_TO_RK_A</loadEvent></event>
+			</choice>
+		</event>
+	</choice>
+
+	<choice req="RK_FOCUS_FIRE" hidden="false">
+		<text>Surrender your Hot Poker pinpoint.</text>
+		<event>
+			<text>You send them the illegal gear, which they immediately lock up in cargo.</text>
+			<remove name="RK_FOCUS_FIRE"/>
+			<item_modify>
+				<item type="scrap" min="15" max="15"/>
+			</item_modify>
+			<variable name="rk_a_outside_police_surrendered_gear" op="add" val="1"/>
+
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event><loadEvent seeded="false">RK_SURRENDER_GEAR_TO_RK_A</loadEvent></event>
+			</choice>
+		</event>
+	</choice>
+
+	<choice req="DJMOD_RAIN_OF_FIRE" hidden="false">
+		<text>Surrender your Rain of Fire launcher.</text>
+		<event>
+			<text>You send them the illegal gear, which they immediately lock up in cargo.</text>
+			<remove name="DJMOD_RAIN_OF_FIRE"/>
+			<item_modify>
+				<item type="scrap" min="15" max="15"/>
+			</item_modify>
+			<variable name="rk_a_outside_police_surrendered_gear" op="add" val="1"/>
+
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event><loadEvent seeded="false">RK_SURRENDER_GEAR_TO_RK_A</loadEvent></event>
+			</choice>
+		</event>
+	</choice>
+	
+	<choice req="DJMOD_LASER_BPS" hidden="false">
+		<text>Surrender your BPS Messenger laser.</text>
+		<event>
+			<text>You send them the illegal gear, which they immediately lock up in cargo.</text>
+			<remove name="DJMOD_LASER_BPS"/>
+			<item_modify>
+				<item type="scrap" min="15" max="15"/>
+			</item_modify>
+			<variable name="rk_a_outside_police_surrendered_gear" op="add" val="1"/>
+
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event><loadEvent seeded="false">RK_SURRENDER_GEAR_TO_RK_A</loadEvent></event>
+			</choice>
+		</event>
+	</choice>
+	
+	<choice req="rk_a_outside_police_surrendered_gear" lvl="1" hidden="true" blue="true">
+		<text>(Surrendered RK gear) You know what, we would rather keep the rest!</text>
+		<event>
+			<text>The captain looks deeply disappointed in you. "Did the temptation of unethical power get such a hold of you in so little time? To the point you would just admit criminal intent to the ARKSS's face?"
+				
+				They take a moment to reflect. Evidently, things usually go either way from the start, and changes of heart mid-scrutiny like these must be uncommon.
+				However, it seems like an electric shock from their reinforced suit snaps them out of it.
+				
+				"So, just like that, you have chosen death. Another half-decent ship falls to the dark side. This job is less enjoyable when it's about killing recently-innocent people corrupted by unscrupulous dealers. But we will carry it out. Am I right?"
+				The chorus of their whole crew's well-rehearsed answer is immediate: "May Order Prevail!"
+				"Now die, newly-criminal pussycat-eating deviant maniacs!"
+				
+				You don't have time to address the numerous assumptions in these sentences: their weaponry is coming online, and it includes a deployable fire support ship!</text>
+
+			<environment type="PDS" target="player"/>
+			<ship hostile="true"/>
+			
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<text>A sudden explosion also makes your ears ring. They hit your Engines with a small extra-status payload!</text>
+					<damage amount="1" system="engines" effect="all" force="true"/>
+					<damage amount="-1"/>
+					
+					<choice req="rk_a_outside_police_surrendered_gear" lvl="0" max_lvl="2" hidden="true" blue="true">
+						<text>Continue...</text>
+						<event>
+							<text>But now, a final explosion is coming from their ship: apparently the gear you surrendered inexplicably just blew up in their hold!</text>
+							<enemyDamage amount="1" system="random" effect="breach" force="true"/>
+							<enemyDamage amount="1" system="random" effect="fire" force="true"/>
+							<enemyDamage amount="1" system="room" effect="all" force="true"/>
+
+							<variable name="rk_a_outside_police_surrendered_gear" op="set" val="0"/>
+							
+							<choice hidden="true">
+								<text>Continue...</text>
+								<event load="COMBAT_CHECK"/>
+							</choice>
+						</event>
+					</choice>
+					<choice req="rk_a_outside_police_surrendered_gear" lvl="3" hidden="true" blue="true">
+						<text>Continue...</text>
+						<event>
+							<text>But now, a final explosion is coming from their ship: apparently the gear you surrendered inexplicably just blew up in their hold!</text>
+							<enemyDamage amount="1" system="random" effect="fire" force="true"/>
+							<enemyDamage amount="1" system="random" effect="all" force="true"/>
+							<enemyDamage amount="1" system="random" effect="breach" force="true"/>
+							<enemyDamage amount="1" system="random" effect="fire" force="true"/>
+							<enemyDamage amount="1" system="room" effect="all" force="true"/>
+
+							<variable name="rk_a_outside_police_surrendered_gear" op="set" val="0"/>
+							
+							<choice hidden="true">
+								<text>Continue...</text>
+								<event load="COMBAT_CHECK"/>
+							</choice>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text>On second thought, we would rather keep it!</text>
+		<event>
+			<text>The captain looks deeply disappointed in you. "Did the temptation of unethical power get such a hold of you in so little time? To the point you would just admit criminal intent to the ARKSS's face?"
+				They take a brief moment to reflect. Evidently, things usually go either way from the start, and changes of heart mid-scrutiny like these must be uncommon.
+				
+				"So, just like that, you have chosen death. Another half-decent ship falls to the dark side. This job is less enjoyable when it takes killing recently-innocent people corrupted by unscrupulous dealers. But we will carry it out. Am I right?"
+				The chorus of their whole crew's well-rehearsed answer is immediate: "May Order Prevail!"
+				"Now die, newly-criminal kitten-eating deviant!"
+				
+				You don't have time to address the numerous assumptions in these sentences: their weaponry is coming online, and it includes a deployable fire support ship!</text>
+
+			<environment type="PDS" target="player"/>
+			<ship hostile="true"/>
+			
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<text>A sudden explosion also makes your ears ring. They hit your Engines with a small extra-status payload!</text>
+					<damage amount="1" system="engines" effect="all" force="true"/>
+					<damage amount="-1"/>
+					
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="COMBAT_CHECK"/>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	
+	<choice req="RK_HAS_GEAR_SURRENDERABLE_TO_RK_A" lvl="0" max_lvl="0" hidden="true" blue="true">
+		<text>That's all.</text>
+		<event>
+			<text>You are relieved to have offloaded the illegal gear to the appropriate authority, instead of having to fight them over it.
+				Hopefully, whatever you have left will be enough.
+			
+				"And since you have proven ready to contribute to the security effort, feel free to arm yourself better against this growing threat."</text>
+			<store>STORE_ANTI_RADIKAL</store>
+
+			<!-- <choice>
+				<text>Do something onboard the ship.</text>
+				<event load="STORAGE_CHECK"/>
+			</choice>
+			<choice>
+				<text>Do nothing.</text>
+				<event/>
+			</choice> -->
+		</event>
+	</choice>
+</event>
 
 <!-- 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -959,7 +2016,6 @@ Clean choice-event template for copy-paste:
 If used in eventList, list must have a non-unique option!-->
 <FTL>
 <event name="RADIKAL_ENSLAVED">
-	<!-- <preventQuest/> -->
 	<text>Slavers are quite comfortably installed in this sector, in great part due to the lack of regulation. You stumble upon one.</text>
 	<ship load="SHIP_SLAVER_ALL" hostile="false"/>
 	
@@ -1175,7 +2231,7 @@ If used in eventList, list must have a non-unique option!-->
 </FTL>
 
 <!--
-		BUYERS - MAX 2 BEACONS, else could crash because uniques.
+	BUYERS - MAX 2 BEACONS, else could crash because uniques.
 	Events that can remove gear and add resources.
 -->
 <eventList name="RK_GEAR_BUYERS">
@@ -1185,7 +2241,6 @@ If used in eventList, list must have a non-unique option!-->
 
 <event name="RK_GEAR_BUYER_ROCKMAN" unique="true">
 <!-- <event name="RK_GEAR_BUYER_ROCKMAN"> -->
-	<!-- <preventQuest/> -->
 	<text>You notice a Theocracy ship nearby, they immediately hail you.</text>
 	<!-- <ship load="SHIP_ROCK_ESCORT_LARGE" hostile="false"/> Has a whole questline triggering mid-fight... -->
 	<ship load="SHIP_ROCK_ELITE_GENERIC" hostile="false"/>
@@ -1211,12 +2266,12 @@ If used in eventList, list must have a non-unique option!-->
 									<!-- Sell for 150% of value, except BPS weapons, which pass all checks so 200%. -->
 
 									<choice req="DJMOD_BAM_FISSUREBEAM" hidden="true">
-										<text>Sell them your Bada beam for 165~.</text>
+										<text>Sell them your Bada beam for 150~.</text>
 										<event>
 											<text>You try to hide your satisfaction while they transfer the excessive payment, but also hope some unfortunate encounter won't make you regret the sale in the near future. They leave without a word.</text>
 											<remove name="DJMOD_BAM_FISSUREBEAM"/>
 											<item_modify>
-												<item type="scrap" min="165" max="165"/>
+												<item type="scrap" min="150" max="150"/>
 											</item_modify>
 										</event>
 									</choice>
@@ -1241,12 +2296,12 @@ If used in eventList, list must have a non-unique option!-->
 										</event>
 									</choice>
 									<choice req="RK_HEAVY_POPPER_3" hidden="true">
-										<text>Sell them your Heavy Popper MK III laser for 210~.</text>
+										<text>Sell them your Heavy Popper MK III laser for 180~.</text>
 										<event>
 											<text>You try to hide your satisfaction while they transfer the excessive payment, but also hope some unfortunate encounter won't make you regret the sale in the near future. They leave without a word.</text>
 											<remove name="RK_HEAVY_POPPER_3"/>
 											<item_modify>
-												<item type="scrap" min="210" max="210"/>
+												<item type="scrap" min="180" max="180"/>
 											</item_modify>
 										</event>
 									</choice>
@@ -1272,22 +2327,22 @@ If used in eventList, list must have a non-unique option!-->
 										</event>
 									</choice>
 									<choice req="RK_KILLALL_BEAM" hidden="true">
-										<text>Sell them your Gravespred beam for 135~.</text>
+										<text>Sell them your Gravespred beam for 120~.</text>
 										<event>
 											<text>You try to hide your satisfaction while they transfer the excessive payment, but also hope some unfortunate encounter won't make you regret the sale in the near future. They leave without a word.</text>
 											<remove name="RK_KILLALL_BEAM"/>
 											<item_modify>
-												<item type="scrap" min="135" max="135"/>
+												<item type="scrap" min="120" max="120"/>
 											</item_modify>
 										</event>
 									</choice>
 									<choice req="RK_MISSLAUNCHER_2_BATTERY" hidden="true">
-										<text>Sell them your Battery Artemis missile launcher for 120~.</text>
+										<text>Sell them your Battery Artemis missile launcher for 105~.</text>
 										<event>
 											<text>You try to hide your satisfaction while they transfer the excessive payment, but also hope some unfortunate encounter won't make you regret the sale in the near future. They leave without a word.</text>
 											<remove name="RK_MISSLAUNCHER_2_BATTERY"/>
 											<item_modify>
-												<item type="scrap" min="120" max="120"/>
+												<item type="scrap" min="105" max="105"/>
 											</item_modify>
 										</event>
 									</choice>
@@ -1324,34 +2379,34 @@ If used in eventList, list must have a non-unique option!-->
 									</choice>
 
 									<choice req="RK_OXY_FIREFILL_MISSILES" hidden="true">
-										<text>Sell them your Chimney launcher for 120~.</text>
+										<text>Sell them your Chimney launcher for 105~.</text>
 										<event>
 											<text>You try to hide your satisfaction while they transfer the excessive payment, but also hope some unfortunate encounter won't make you regret the sale in the near future. They leave without a word.</text>
 											<remove name="RK_OXY_FIREFILL_MISSILES"/>
 											<item_modify>
-												<item type="scrap" min="120" max="120"/>
+												<item type="scrap" min="105" max="105"/>
 											</item_modify>
 										</event>
 									</choice>
 
 									<choice req="RK_FOCUS_FIRE" hidden="true">
-										<text>Sell them your Hot Poker pinpoint for 135~.</text>
+										<text>Sell them your Hot Poker pinpoint for 120~.</text>
 										<event>
 											<text>You try to hide your satisfaction while they transfer the excessive payment, but also hope some unfortunate encounter won't make you regret the sale in the near future. They leave without a word.</text>
 											<remove name="RK_FOCUS_FIRE"/>
 											<item_modify>
-												<item type="scrap" min="135" max="135"/>
+												<item type="scrap" min="120" max="120"/>
 											</item_modify>
 										</event>
 									</choice>
 
 									<choice req="DJMOD_RAIN_OF_FIRE" hidden="true">
-										<text>Sell them your Rain of Fire launcher for 120~.</text>
+										<text>Sell them your Rain of Fire launcher for 105~.</text>
 										<event>
 											<text>You try to hide your satisfaction while they transfer the excessive payment, but also hope some unfortunate encounter won't make you regret the sale in the near future. They leave without a word.</text>
 											<remove name="DJMOD_RAIN_OF_FIRE"/>
 											<item_modify>
-												<item type="scrap" min="120" max="120"/>
+												<item type="scrap" min="105" max="105"/>
 											</item_modify>
 										</event>
 									</choice>
@@ -1359,7 +2414,7 @@ If used in eventList, list must have a non-unique option!-->
 									<choice req="DJMOD_LASER_BPS" hidden="true">
 										<text>Sell them your BPS Messenger laser for 200~.</text>
 										<event>
-											<text>You try to hide your satisfaction while they transfer the excessive payment, but also hope some unfortunate encounter won't make you regret the sale in the near future.</text>
+											<text>You try to hide your satisfaction while they transfer the excessive payment, but also hope some unfortunate encounter won't make you regret the sale in the near future. They leave without a word.</text>
 											<remove name="DJMOD_LASER_BPS"/>
 											<item_modify>
 												<item type="scrap" min="200" max="200"/>
@@ -1423,7 +2478,6 @@ If used in eventList, list must have a non-unique option!-->
 </event>
 
 <event name="RK_GEAR_BUYER_ZOLTAN" unique="true">
-	<!-- <preventQuest/> -->
 	<text>Another ship, seemingly foreign, arrives at the beacon shortly after you do, looking uneasy. You could hail them and ask what's going on.</text>
 	<ship load="SHIP_RK_GEAR_BUYER_ZOLTAN" hostile="false"/>
 	<choice hidden="true">
@@ -1448,12 +2502,12 @@ If used in eventList, list must have a non-unique option!-->
 									<!-- Sell for 150% of value, except BPS weapons, which pass all checks so 200%. -->
 
 									<choice req="DJMOD_BAM_FISSUREBEAM" hidden="true">
-										<text>Sell them your Bada beam for 165~.</text>
+										<text>Sell them your Bada beam for 150~.</text>
 										<event>
 											<text>You try to hide your satisfaction while they transfer the excessive payment, but also hope some unfortunate encounter won't make you regret the sale in the near future. They leave without a word.</text>
 											<remove name="DJMOD_BAM_FISSUREBEAM"/>
 											<item_modify>
-												<item type="scrap" min="165" max="165"/>
+												<item type="scrap" min="150" max="150"/>
 											</item_modify>
 										</event>
 									</choice>
@@ -1478,12 +2532,12 @@ If used in eventList, list must have a non-unique option!-->
 										</event>
 									</choice>
 									<choice req="RK_HEAVY_POPPER_3" hidden="true">
-										<text>Sell them your Heavy Popper MK III laser for 210~.</text>
+										<text>Sell them your Heavy Popper MK III laser for 180~.</text>
 										<event>
 											<text>You try to hide your satisfaction while they transfer the excessive payment, but also hope some unfortunate encounter won't make you regret the sale in the near future. They leave without a word.</text>
 											<remove name="RK_HEAVY_POPPER_3"/>
 											<item_modify>
-												<item type="scrap" min="210" max="210"/>
+												<item type="scrap" min="180" max="180"/>
 											</item_modify>
 										</event>
 									</choice>
@@ -1509,22 +2563,22 @@ If used in eventList, list must have a non-unique option!-->
 										</event>
 									</choice>
 									<choice req="RK_KILLALL_BEAM" hidden="true">
-										<text>Sell them your Gravespred beam for 135~.</text>
+										<text>Sell them your Gravespred beam for 120~.</text>
 										<event>
 											<text>You try to hide your satisfaction while they transfer the excessive payment, but also hope some unfortunate encounter won't make you regret the sale in the near future. They leave without a word.</text>
 											<remove name="RK_KILLALL_BEAM"/>
 											<item_modify>
-												<item type="scrap" min="135" max="135"/>
+												<item type="scrap" min="120" max="120"/>
 											</item_modify>
 										</event>
 									</choice>
 									<choice req="RK_MISSLAUNCHER_2_BATTERY" hidden="true">
-										<text>Sell them your Battery Artemis missile launcher for 120~.</text>
+										<text>Sell them your Battery Artemis missile launcher for 105~.</text>
 										<event>
 											<text>You try to hide your satisfaction while they transfer the excessive payment, but also hope some unfortunate encounter won't make you regret the sale in the near future. They leave without a word.</text>
 											<remove name="RK_MISSLAUNCHER_2_BATTERY"/>
 											<item_modify>
-												<item type="scrap" min="120" max="120"/>
+												<item type="scrap" min="105" max="105"/>
 											</item_modify>
 										</event>
 									</choice>
@@ -1561,34 +2615,34 @@ If used in eventList, list must have a non-unique option!-->
 									</choice>
 									
 									<choice req="RK_OXY_FIREFILL_MISSILES" hidden="true">
-										<text>Sell them your Chimney launcher for 120~.</text>
+										<text>Sell them your Chimney launcher for 105~.</text>
 										<event>
 											<text>You try to hide your satisfaction while they transfer the excessive payment, but also hope some unfortunate encounter won't make you regret the sale in the near future. They leave without a word.</text>
 											<remove name="RK_OXY_FIREFILL_MISSILES"/>
 											<item_modify>
-												<item type="scrap" min="120" max="120"/>
+												<item type="scrap" min="105" max="105"/>
 											</item_modify>
 										</event>
 									</choice>
 
 									<choice req="RK_FOCUS_FIRE" hidden="true">
-										<text>Sell them your Hot Poker pinpoint for 135~.</text>
+										<text>Sell them your Hot Poker pinpoint for 120~.</text>
 										<event>
 											<text>You try to hide your satisfaction while they transfer the excessive payment, but also hope some unfortunate encounter won't make you regret the sale in the near future. They leave without a word.</text>
 											<remove name="RK_FOCUS_FIRE"/>
 											<item_modify>
-												<item type="scrap" min="135" max="135"/>
+												<item type="scrap" min="120" max="120"/>
 											</item_modify>
 										</event>
 									</choice>
 
 									<choice req="DJMOD_RAIN_OF_FIRE" hidden="true">
-										<text>Sell them your Rain of Fire launcher for 120~.</text>
+										<text>Sell them your Rain of Fire launcher for 105~.</text>
 										<event>
-											<text>You try to hide your satisfaction while they transfer the excessive payment, but also hope some unfortunate encounter won't make you regret the sale in the near future.</text>
+											<text>You try to hide your satisfaction while they transfer the excessive payment, but also hope some unfortunate encounter won't make you regret the sale in the near future. They leave without a word.</text>
 											<remove name="DJMOD_RAIN_OF_FIRE"/>
 											<item_modify>
-												<item type="scrap" min="120" max="120"/>
+												<item type="scrap" min="105" max="105"/>
 											</item_modify>
 										</event>
 									</choice>
@@ -1596,7 +2650,7 @@ If used in eventList, list must have a non-unique option!-->
 									<choice req="DJMOD_LASER_BPS" hidden="true">
 										<text>Sell them your BPS Messenger laser for 200~.</text>
 										<event>
-											<text>You try to hide your satisfaction while they transfer the excessive payment, but also hope some unfortunate encounter won't make you regret the sale in the near future.</text>
+											<text>You try to hide your satisfaction while they transfer the excessive payment, but also hope some unfortunate encounter won't make you regret the sale in the near future. They leave without a word.</text>
 											<remove name="DJMOD_LASER_BPS"/>
 											<item_modify>
 												<item type="scrap" min="200" max="200"/>
@@ -1713,7 +2767,7 @@ If used in eventList, list must have a non-unique option!-->
 </event>
 
 
-<!-- Granny on planet or "nearby station" (no sprite?) describes the 3 RadiKal subfactions if you wait. Reward for fleetboost. -->
+<!-- Granny on planet or "nearby station" (no sprite?) provides RK lore. Reward for fleetboost. -->
 <FTL>
 <event name="RADIKAL_PHILO">
 	<preventQuest/>
@@ -1803,8 +2857,7 @@ If used in eventList, list must have a non-unique option!-->
 		<event>
 			<text>"What kind of names are those? RadiKal Bam? Punk? Scorch? Is it from a kid's show or something?" you ask.
 			
-			"Not much to it really. Since so many people have been calling them radicals from the beginning of this little operation, my sons and their little friends simply embraced it. The subfactions just needed a little extra to tell themselves apart, and people don't really like talking too much around here. So they kept it short and to the point. Also I've heard something about variables? I'm the exception, chatting is so enjoyable!"
-			</text>
+			"Not much to it really. Since so many people have been calling them radicals from the beginning of this little operation, my sons and their little friends simply embraced it. The subfactions just needed a little extra to tell themselves apart, and people don't really like talking too much around here. So they kept it short and to the point. Also I've heard something about variables? I'm the exception, chatting is so enjoyable!"</text>
 						
 			<choice>
 				<text>Ask her something else.</text>
@@ -2089,9 +3142,7 @@ About 900 lines, minimize if not interested. -->
 			</choice>
 		</event>
 	</choice>
-		
 </event>
-<!-- <ship name="SHIP_RKS_ZOLTAN_POLICE" auto_blueprint="LIST_SHIPS_ZOLTAN_ELITE_GENERIC"> -->
 <ship name="SHIP_RKS_ZOLTAN_POLICE" auto_blueprint="RKS_ZOLTAN_POLICE">
 	<destroyed load="DEFEAT_ZOLTAN_ELITE"/>
 	<deadCrew load="DEFEAT_ZOLTAN_ELITE"/>
@@ -2152,8 +3203,7 @@ About 900 lines, minimize if not interested. -->
 		<text>Let them calculate your total fine.</text>
 		<event>
 			<text>"Two illegal pieces of gear. You should really know better than to give up ethics for power."
-				Supposedly you can get some of your scrap back by surrendering your illegal gear at the Police Station, but somehow you doubt that. It might be worth it to pay them a visit regardless.
-			</text>
+				Supposedly you can get some of your scrap back by surrendering your illegal gear at the Police Station, but somehow you doubt that. It might be worth it to pay them a visit regardless.</text>
 			<item_modify steal="true">
 				<item type="scrap" min="-30" max="-30"/>
 			</item_modify>
@@ -2235,7 +3285,7 @@ About 900 lines, minimize if not interested. -->
 	<preventFleet/>
 	<quest>
 		<nebulaBeacon>false</nebulaBeacon>
-		<aggressive>2</aggressive>			<!-- what does that even do? -->
+		<aggressive>2</aggressive>			<!-- Makes beacon able to spawn closer to the Fleet! -->
 	</quest>
 	<beaconType id="map_icon_rk_policestation" global="true">
 		<color r="94" g="255" b="94" a="1.0"/>
@@ -2344,7 +3394,7 @@ _LASERS version updated 5.5.1, re-copypaste the others completely, based on this
 	<choice hidden="true" req="weapons" lvl="5">
 		<text>(Upg. Weapons) Claim the prey for yourself.</text>
 		<event>
-			<text>"Woh hoh hoh, hey, wait, that's our-" They quickly change their mind as the rest of the crew pressures them. "You know what, screw this, have fun with you ill-gotten goods." Quite ironic, coming from a smuggler. The surviving RadiKals are easily dealt with.</text>
+			<text>"Woh hoh hoh, hey, wait, that's our-" They quickly change their mind as the rest of the crew pressures them. "You know what, screw this, have fun with your ill-gotten goods." Quite ironic, coming from a smuggler. The surviving RadiKals are easily dealt with.</text>
 			<autoReward level="LOW">standard</autoReward>
 			
 			<choice hidden="true">
@@ -2512,7 +3562,7 @@ _LASERS version updated 5.5.1, re-copypaste the others completely, based on this
 	<choice hidden="true" req="weapons" lvl="6">
 		<text>(Upg. Weapons) Claim the prey for yourself.</text>
 		<event>
-			<text>"Woh hoh hoh, hey, wait, that's our-" They quickly change their mind as the rest of the crew pressures them. "You know what, screw this, have fun with you ill-gotten goods." Quite ironic, coming from a smuggler. The Radikals are quickly dealt with.</text>
+			<text>"Woh hoh hoh, hey, wait, that's our-" They quickly change their mind as the rest of the crew pressures them. "You know what, screw this, have fun with your ill-gotten goods." Quite ironic, coming from a smuggler. The Radikals are quickly dealt with.</text>
 			<autoReward level="LOW">standard</autoReward>
 			
 			<choice hidden="true">
@@ -2649,7 +3699,7 @@ _LASERS version updated 5.5.1, re-copypaste the others completely, based on this
 	<choice hidden="true" req="weapons" lvl="6">
 		<text>(Upg. Weapons) Claim the prey for yourself.</text>
 		<event>
-			<text>"Woh hoh hoh, hey, wait, that's our-" They quickly change their mind as the rest of the crew pressures them. "You know what, screw this, have fun with you ill-gotten goods." Quite ironic, coming from a smuggler. The Radikals are quickly dealt with.</text>
+			<text>"Woh hoh hoh, hey, wait, that's our-" They quickly change their mind as the rest of the crew pressures them. "You know what, screw this, have fun with your ill-gotten goods." Quite ironic, coming from a smuggler. The Radikals are quickly dealt with.</text>
 			<autoReward level="LOW">standard</autoReward>
 			
 			<choice hidden="true">
@@ -2786,7 +3836,7 @@ _LASERS version updated 5.5.1, re-copypaste the others completely, based on this
 	<choice hidden="true" req="weapons" lvl="6">
 		<text>(Upg. Weapons) Claim the prey for yourself.</text>
 		<event>
-			<text>"Woh hoh hoh, hey, wait, that's our-" They quickly change their mind as the rest of the crew pressures them. "You know what, screw this, have fun with you ill-gotten goods." Quite ironic, coming from a smuggler. The Radikals are quickly dealt with.</text>
+			<text>"Woh hoh hoh, hey, wait, that's our-" They quickly change their mind as the rest of the crew pressures them. "You know what, screw this, have fun with your ill-gotten goods." Quite ironic, coming from a smuggler. The Radikals are quickly dealt with.</text>
 			<autoReward level="LOW">standard</autoReward>
 			
 			<choice hidden="true">
@@ -2924,8 +3974,8 @@ Empty beacons
 </event>
 <textList name="EMPTY_RADIKAL">
 	<text>You arrive at the beacon and are relieved to get a break, as nobody here seems to care about what tech you do or don't have.</text>
-	<text>No other ships or interesting structures can be found here, a chance to do some work on your ship, or chat with your crew maybe.</text>
-	<text>This sector isn't exactly what you'd call calm, but here at least there is nothing going on here worthy of attention.</text>
+	<text>No other ships or interesting structures can be found here. A chance to do some work on your ship, or maybe chat with your crew.</text>
+	<text>This sector isn't exactly what you'd call calm, but here at least there is nothing going on worthy of attention.</text>
 	<text>Looks like you've found a relatively peaceful spot, a rarity in this sector.</text>
 	<text>A weapons test seems to have gone catastrophically wrong around here recently, and the place is currently abandoned.</text>
 </textList>
@@ -2971,8 +4021,56 @@ Except this time the loader is EXIT_RADIKAL so i'm not changing the name for con
 </event>
 
 
-<event name="EXIT_RADIKAL_PART2">
+<!-- <event name="EXIT_RADIKAL_PART2">
 	<text>You're arrived at the exit alive, which is no small feat, but three menacing ships have been waiting for you.
+		Accurately guessing that you don't have a choice, you answer the hail.</text>
+
+	<choice req="RKS_TRYING_TO_SKIP_TRINITY" lvl="0" max_lvl="0" hidden="true" blue="false">
+		<text>Continue...</text>
+		<event load="EXIT_RADIKAL_MAIN"/>
+	</choice>
+	<choice req="RKS_TRYING_TO_SKIP_TRINITY" lvl="1" hidden="true" blue="false">
+		<text>Continue...</text>
+		<event load="EXIT_RADIKAL_ACTIVATE_PIRATE_AMBUSH"/>
+	</choice>
+</event> -->
+<event name="EXIT_RADIKAL_PART2">
+	<text>You're arrived at the exit alive, which is no small feat...</text>
+	<variable name="loc_exit_radikal" op="set" val="1"/>
+	
+	<choice req="loc_exit_radikal" lvl="0" max_lvl="0" hidden="true" blue="false">
+		<text>Continue...</text>
+		<event load="EXIT_RADIKAL_PART3"/>
+	</choice>
+	<!-- Fixes "can fight exit once, then again in fleet" ? -->
+	<choice req="loc_exit_radikal" lvl="1" hidden="true" blue="false">
+		<text>Continue...</text>
+		<event>
+			<text>Looks like the RadiKals are gone now, but the Rebel fleet has taken control of the beacon! You'll have to fight your way out!</text>
+			<customFleet right="false" firing="true" autoDarkening="false">CUSTOM_FLEET_REBEL</customFleet>
+			<ship load="SHIP_REBEL_FLEET_S" hostile="true"/>
+			<environment type="PDS" target="player"/>
+			<noASBPlanet/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event load="COMBAT_CHECK"/>
+			</choice>
+			<choice hidden="true" req="engines" lvl="6">
+				<text>(Adv. Engines) Try to escape the Elite.</text>
+				<event load="FLEET_ESCAPE"/>
+			</choice>
+			<choice hidden="true" req="LIST_CREW_JERRY">
+				<text>(Jerry) "Hello!"</text>
+				<event>
+					<text load="TEXT_ENCOUNTER_REBEL_JERRY_HELLO"/>
+					<ship hostile="false"/> 
+				</event>
+			</choice>
+		</event>
+	</choice>
+</event>
+<event name="EXIT_RADIKAL_PART3">
+	<text>But you can't leave just yet. Three menacing ships have been waiting for you.
 		Accurately guessing that you don't have a choice, you answer the hail.</text>
 	
 	<!-- <ship load="SHIP_RADIKAL_EXIT_BOSS" hostile="false"/> Don't load yet, but now we CAN fight 2+ ships per beacon. -->
@@ -2985,6 +4083,52 @@ Except this time the loader is EXIT_RADIKAL so i'm not changing the name for con
 		<event load="EXIT_RADIKAL_ACTIVATE_PIRATE_AMBUSH"/>
 	</choice>
 </event>
+<!-- REF: MV's ARS exit: 
+<event name="AUGMENTED_ANOINTED">
+	<preventQuest/>
+	<beaconType id="map_icon_anointed" global="true">
+		<color r="255" g="0" b="230" a="1.0"/>
+		<unvisitedTooltip>The location of the augmented leader, the Anointed.</unvisitedTooltip>
+		<visitedTooltip>Visited location.</visitedTooltip>
+	</beaconType>
+	<variable name="loc_anointed" op="set" val="1"/>
+	<text>You've arrived at the exit...</text>
+	<choice req="loc_anointed" lvl="0" max_group="0" hidden="true" blue="false">
+		<text>Continue...</text>
+		<event>
+			<text>A white Lanius with purple details stands up from her large throne as soon as you arrive.</text>
+			(...)
+			
+		</event>
+	</choice>
+	<choice req="loc_anointed" lvl="1" max_group="0" hidden="true" blue="false"> 		MV SAYS: theoretically you can never get this except in the fleet so Im just going to make it that for simplisities sake
+		<text>Continue...</text>
+		<event>
+			<text>Looks like the Anointed's ship is gone now, but the Rebel fleet has taken control of the beacon! You'll have to fight your way out!</text>
+			<customFleet right="false" firing="true" autoDarkening="false">CUSTOM_FLEET_REBEL</customFleet>
+			<ship load="SHIP_REBEL_FLEET_S" hostile="true"/>
+			<environment type="PDS" target="player"/>
+			<noASBPlanet/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event load="COMBAT_CHECK"/>
+			</choice>
+			<choice hidden="true" req="engines" lvl="6">
+				<text>(Adv. Engines) Try to escape the Elite.</text>
+				<event load="FLEET_ESCAPE"/>
+			</choice>
+			<choice hidden="true" req="LIST_CREW_JERRY">
+				<text>(Jerry) "Hello!"</text>
+				<event>
+					<text load="TEXT_ENCOUNTER_REBEL_JERRY_HELLO"/>
+					<ship hostile="false"/> 
+				</event>
+			</choice>
+		</event>
+	</choice>
+</event> 
+-->
+
 
 <event name="EXIT_RADIKAL_ACTIVATE_PIRATE_AMBUSH">
 	<text>You have this weird feeling like you've forgotten to do something important... but you carry on.</text>
@@ -3006,7 +4150,7 @@ Except this time the loader is EXIT_RADIKAL so i'm not changing the name for con
 	So, which Gatekeeper do you choose?"
 	</text>
 	
-	<choice req="challenge_level" lvl="0" max_lvl="2" blue="false" hidden="true">
+	<choice req="challenge_level" lvl="0" max_lvl="1" blue="false" hidden="true">
 		<text>Bam, with the raw blunt damage and reinforcements</text>
 		<event>
 			<text>You are taken to the Bam arena to prove your worth. Get ready!</text>
@@ -3018,7 +4162,7 @@ Except this time the loader is EXIT_RADIKAL so i'm not changing the name for con
 			</choice>
 		</event>
 	</choice>
-	<choice req="challenge_level" lvl="3" blue="false" hidden="true">
+	<choice req="challenge_level" lvl="2" blue="false" hidden="true">
 		<text>Bam, with the raw blunt damage and reinforcements</text>
 		<event>
 			<text>You are taken to the Bam arena to prove your worth. Get ready!</text>
@@ -3135,12 +4279,10 @@ REFS MV v5.5.1:
 		"Forgetting something? A lil' business meeting that YOU asked for, maybe? Have you no honor??! You can't just make a bunch of cutthroats waste their time. Now die, fool!"</text>
 	<clearJumpEvent/>
 
-	<!-- <resetFtl/>		Should now be blocked completely by the ship itself. -->
+	<!-- <resetFtl/>		Now blocked completely by the ship itself. -->
 
 	<!-- Only possible after Gatekeeper fights thanks to multiShipFix in hyperspace.xml.append -->
-	<!-- <ship load="SHIP_PIRATE_ELITE_STARGROVE" hostile="true"/> -->
 	<ship load="SHIP_RKS_EXIT_PIRATE_AMBUSHER"/>
-	<!-- <environment type="PDS" target="player"/> -->
 
 	<choice hidden="true">
 		<text>Oh, that's what the weird feeling was about.</text>
@@ -3175,7 +4317,7 @@ REFS MV v5.5.1:
 			Most of the RadiKals are not so pleased.
 			"Didn't we tell you to make sure to pay these guys if you said you would? Now we're gonna have delivery issues for a while."
 			
-			The others make signs of approbation, their faces remaining unhappy.
+			The others make signs of approbation, but they clearly have mixed feelings about this.
 			"HAH, I mean this WAS such a good fight it would have been a shame to miss it, but at what cost?" "Yesss this asssshole had it coming, but he wassss alssso doing a lot of good work."
 			
 			"Tell you what, you earned that wreck, so scrap it nice and clean. That will be your part of cleaning up this mess. We'll take care of the rest if you can just make yourself scarce until this dies down."
@@ -3193,7 +4335,7 @@ REFS MV v5.5.1:
 			Most of the RadiKals are not so pleased.
 			"Didn't we tell you to make sure to pay these guys if you said you would? Now we're gonna have delivery issues for a while."
 			
-			The others make signs of approbation, their faces remaining unhappy.
+			The others make signs of approbation, but they clearly have mixed feelings about this.
 			"HAH, I mean this WAS such a good fight it would have been a shame to miss it, but at what cost?" "Yesss this asssshole had it coming, but he wassss alssso doing a lot of good work."
 			
 			"Tell you what, you earned that wreck, so scrap it nice and clean. That will be your part of cleaning up this mess. We'll take care of the rest if you can just make yourself scarce until this dies down."

@@ -71,8 +71,14 @@ REF: Lily's Beam Emporium v1.6.3:
 	<mod-append:priorityEvent name="RK_A_OUTSIDE_POLICE_NUMBER3_QUEST_START" min="1" max="1" priority="1" req="RK_A_POLICE_NUMBER3_REQS" lvl="1"/>
 </mod:findLike>
 
-<!-- Fix custom gear showing up in ancient (true ending) sectors. 
-REFS: TRC
+<!-- 
+===============================================================================
+===============================================================================
+Fix RK gear showing up in ancient (true ending) sectors.  
+===============================================================================
+===============================================================================
+-->
+<!-- REFS: TRC
 <mod:findName type="sectorDescription" name="STANDARD_SPACE">
 	<mod:findLike type="rarityList">
 		<mod-append:blueprint name="EE_MISSILES_INSTANT" rarity="0" />
@@ -105,10 +111,8 @@ REFS: TRC
 		<mod-append:blueprint name="RK_ENEMIES_BURN_MORE" rarity="0"/>
 		<mod-append:blueprint name="RK_ENEMIES_CAN_BURN" rarity="0"/>
 		<mod-append:blueprint name="RK_COMBAT_OXYGENIZER" rarity="0"/>
-		<mod-append:blueprint name="RK_SCORCH_PREIGNITER" rarity="0"/>
 		<mod-append:blueprint name="RK_WEAPONS_ON_FIRE" rarity="0"/>
 
-		<mod-append:blueprint name="RK_BPS_SHIELD_OVER_MATTER" rarity="0"/>
 		<mod-append:blueprint name="RK_BPS_SURVEYOR" rarity="0"/>
 		
 		<mod-append:blueprint name="DJMOD_BAM_FISSUREBEAM" rarity="0" />
@@ -157,10 +161,8 @@ REFS: TRC
 		<mod-append:blueprint name="RK_ENEMIES_BURN_MORE" rarity="0"/>
 		<mod-append:blueprint name="RK_ENEMIES_CAN_BURN" rarity="0"/>
 		<mod-append:blueprint name="RK_COMBAT_OXYGENIZER" rarity="0"/>
-		<mod-append:blueprint name="RK_SCORCH_PREIGNITER" rarity="0"/>
 		<mod-append:blueprint name="RK_WEAPONS_ON_FIRE" rarity="0"/>
 
-		<mod-append:blueprint name="RK_BPS_SHIELD_OVER_MATTER" rarity="0"/>
 		<mod-append:blueprint name="RK_BPS_SURVEYOR" rarity="0"/>
 		
 		<mod-append:blueprint name="DJMOD_BAM_FISSUREBEAM" rarity="0" />
@@ -185,7 +187,882 @@ REFS: TRC
 </mod:findName>
 <!-- 
 ===============================================================================
+===============================================================================
+Disable RK gear showing up in Federation-aligned sectors. (still same copy-pasted list)  
+===============================================================================
+===============================================================================
+-->
+<mod:findName type="sectorDescription" name="SECTOR_FEDERATION">
+	<mod:findLike type="rarityList">
+		<mod-append:blueprint name="RK_BAM_DIVINE_ARMOR" rarity="0"/>
+		<mod-append:blueprint name="RK_COMBAT_AUTO_SYS_REPAIR" rarity="0"/>	
+		<mod-append:blueprint name="DJMOD_COMBAT_SHIPVORE_RAM" rarity="0" />
+		<mod-append:blueprint name="RK_CREW_ARE_BOMBS_OFF" rarity="0"/>
+		<mod-append:blueprint name="RK_LEAD_TITANS" rarity="0"/>
+		<mod-append:blueprint name="RK_PERSISTENCE_SHIELD" rarity="0"/>
+		<mod-append:blueprint name="EX_RK_CHOKING_IS_FINE" rarity="0"/>
+		
+		<mod-append:blueprint name="RK_ARROGANCE_SHIELD" rarity="0"/>
+		<mod-append:blueprint name="RK_COMBAT_DEFENSE_REMOVER" rarity="0"/>
+		<mod-append:blueprint name="RK_COMBAT_OFFENSE_DISABLER" rarity="0"/>
+		<mod-append:blueprint name="RK_COMBAT_HACK_FLEET" rarity="0"/>
+		<mod-append:blueprint name="RK_DREAD_DECK" rarity="0"/>
+		<mod-append:blueprint name="RK_OWN_HARMONY_ON" rarity="0"/>
+		<mod-append:blueprint name="RK_SUPER_DEFENDERS" rarity="0"/>
+		<mod-append:blueprint name="EX_DJMOD_DEMICLONER" rarity="0"/>
+		
+		<mod-append:blueprint name="RK_SCORCH_SELF" rarity="0"/>
+		<mod-append:blueprint name="RK_SCORCH_SELF_2" rarity="0"/>
+		<mod-append:blueprint name="RK_SCORCH_SELF_3" rarity="0"/>
+		<mod-append:blueprint name="RK_COMBAT_SCORCH_ENEMY" rarity="0"/>
+		<mod-append:blueprint name="RK_ENEMIES_BURN_MORE" rarity="0"/>
+		<mod-append:blueprint name="RK_ENEMIES_CAN_BURN" rarity="0"/>
+		<mod-append:blueprint name="RK_COMBAT_OXYGENIZER" rarity="0"/>
+		<mod-append:blueprint name="RK_WEAPONS_ON_FIRE" rarity="0"/>
+
+		<mod-append:blueprint name="RK_BPS_SURVEYOR" rarity="0"/>
+		
+		<mod-append:blueprint name="DJMOD_BAM_FISSUREBEAM" rarity="0" />
+		<mod-append:blueprint name="RK_HEAVY_POPPER_1" rarity="0" />
+		<mod-append:blueprint name="RK_HEAVY_POPPER_2" rarity="0" />
+		<mod-append:blueprint name="RK_HEAVY_POPPER_3" rarity="0" />
+		<mod-append:blueprint name="RK_UNLOADER" rarity="0" />
+
+		<mod-append:blueprint name="RK_BOMBLAUNCHER_ANTIBIO_REPAIR" rarity="0" />
+		<mod-append:blueprint name="RK_KILLALL_BEAM" rarity="0" />
+		<mod-append:blueprint name="RK_MISSLAUNCHER_2_BATTERY" rarity="0" />
+		<mod-append:blueprint name="RK_RAIN_OF_ION" rarity="0" />
+		<mod-append:blueprint name="RK_SHOTPHASER" rarity="0" />
+		
+		<mod-append:blueprint name="RK_BOMBLAUNCHER_OXYBOTTLE" rarity="0" />
+		<mod-append:blueprint name="RK_FOCUS_FIRE" rarity="0" />
+		<mod-append:blueprint name="RK_OXY_FIREFILL_MISSILES" rarity="0" />
+		<mod-append:blueprint name="DJMOD_RAIN_OF_FIRE" rarity="0" />
+
+		<mod-append:blueprint name="DJMOD_LASER_BPS" rarity="0" />
+	</mod:findLike>
+</mod:findName>
+<mod:findName type="sectorDescription" name="SECTOR_FEDERATION_UNIQUE">
+	<mod:findLike type="rarityList">
+		<mod-append:blueprint name="RK_BAM_DIVINE_ARMOR" rarity="0"/>
+		<mod-append:blueprint name="RK_COMBAT_AUTO_SYS_REPAIR" rarity="0"/>	
+		<mod-append:blueprint name="DJMOD_COMBAT_SHIPVORE_RAM" rarity="0" />
+		<mod-append:blueprint name="RK_CREW_ARE_BOMBS_OFF" rarity="0"/>
+		<mod-append:blueprint name="RK_LEAD_TITANS" rarity="0"/>
+		<mod-append:blueprint name="RK_PERSISTENCE_SHIELD" rarity="0"/>
+		<mod-append:blueprint name="EX_RK_CHOKING_IS_FINE" rarity="0"/>
+		
+		<mod-append:blueprint name="RK_ARROGANCE_SHIELD" rarity="0"/>
+		<mod-append:blueprint name="RK_COMBAT_DEFENSE_REMOVER" rarity="0"/>
+		<mod-append:blueprint name="RK_COMBAT_OFFENSE_DISABLER" rarity="0"/>
+		<mod-append:blueprint name="RK_COMBAT_HACK_FLEET" rarity="0"/>
+		<mod-append:blueprint name="RK_DREAD_DECK" rarity="0"/>
+		<mod-append:blueprint name="RK_OWN_HARMONY_ON" rarity="0"/>
+		<mod-append:blueprint name="RK_SUPER_DEFENDERS" rarity="0"/>
+		<mod-append:blueprint name="EX_DJMOD_DEMICLONER" rarity="0"/>
+		
+		<mod-append:blueprint name="RK_SCORCH_SELF" rarity="0"/>
+		<mod-append:blueprint name="RK_SCORCH_SELF_2" rarity="0"/>
+		<mod-append:blueprint name="RK_SCORCH_SELF_3" rarity="0"/>
+		<mod-append:blueprint name="RK_COMBAT_SCORCH_ENEMY" rarity="0"/>
+		<mod-append:blueprint name="RK_ENEMIES_BURN_MORE" rarity="0"/>
+		<mod-append:blueprint name="RK_ENEMIES_CAN_BURN" rarity="0"/>
+		<mod-append:blueprint name="RK_COMBAT_OXYGENIZER" rarity="0"/>
+		<mod-append:blueprint name="RK_WEAPONS_ON_FIRE" rarity="0"/>
+
+		<mod-append:blueprint name="RK_BPS_SURVEYOR" rarity="0"/>
+		
+		<mod-append:blueprint name="DJMOD_BAM_FISSUREBEAM" rarity="0" />
+		<mod-append:blueprint name="RK_HEAVY_POPPER_1" rarity="0" />
+		<mod-append:blueprint name="RK_HEAVY_POPPER_2" rarity="0" />
+		<mod-append:blueprint name="RK_HEAVY_POPPER_3" rarity="0" />
+		<mod-append:blueprint name="RK_UNLOADER" rarity="0" />
+
+		<mod-append:blueprint name="RK_BOMBLAUNCHER_ANTIBIO_REPAIR" rarity="0" />
+		<mod-append:blueprint name="RK_KILLALL_BEAM" rarity="0" />
+		<mod-append:blueprint name="RK_MISSLAUNCHER_2_BATTERY" rarity="0" />
+		<mod-append:blueprint name="RK_RAIN_OF_ION" rarity="0" />
+		<mod-append:blueprint name="RK_SHOTPHASER" rarity="0" />
+		
+		<mod-append:blueprint name="RK_BOMBLAUNCHER_OXYBOTTLE" rarity="0" />
+		<mod-append:blueprint name="RK_FOCUS_FIRE" rarity="0" />
+		<mod-append:blueprint name="RK_OXY_FIREFILL_MISSILES" rarity="0" />
+		<mod-append:blueprint name="DJMOD_RAIN_OF_FIRE" rarity="0" />
+
+		<mod-append:blueprint name="DJMOD_LASER_BPS" rarity="0" />
+	</mod:findLike>
+</mod:findName>
+<mod:findName type="sectorDescription" name="SECTOR_UNION">
+	<mod:findLike type="rarityList">
+		<mod-append:blueprint name="RK_BAM_DIVINE_ARMOR" rarity="0"/>
+		<mod-append:blueprint name="RK_COMBAT_AUTO_SYS_REPAIR" rarity="0"/>	
+		<mod-append:blueprint name="DJMOD_COMBAT_SHIPVORE_RAM" rarity="0" />
+		<mod-append:blueprint name="RK_CREW_ARE_BOMBS_OFF" rarity="0"/>
+		<mod-append:blueprint name="RK_LEAD_TITANS" rarity="0"/>
+		<mod-append:blueprint name="RK_PERSISTENCE_SHIELD" rarity="0"/>
+		<mod-append:blueprint name="EX_RK_CHOKING_IS_FINE" rarity="0"/>
+		
+		<mod-append:blueprint name="RK_ARROGANCE_SHIELD" rarity="0"/>
+		<mod-append:blueprint name="RK_COMBAT_DEFENSE_REMOVER" rarity="0"/>
+		<mod-append:blueprint name="RK_COMBAT_OFFENSE_DISABLER" rarity="0"/>
+		<mod-append:blueprint name="RK_COMBAT_HACK_FLEET" rarity="0"/>
+		<mod-append:blueprint name="RK_DREAD_DECK" rarity="0"/>
+		<mod-append:blueprint name="RK_OWN_HARMONY_ON" rarity="0"/>
+		<mod-append:blueprint name="RK_SUPER_DEFENDERS" rarity="0"/>
+		<mod-append:blueprint name="EX_DJMOD_DEMICLONER" rarity="0"/>
+		
+		<mod-append:blueprint name="RK_SCORCH_SELF" rarity="0"/>
+		<mod-append:blueprint name="RK_SCORCH_SELF_2" rarity="0"/>
+		<mod-append:blueprint name="RK_SCORCH_SELF_3" rarity="0"/>
+		<mod-append:blueprint name="RK_COMBAT_SCORCH_ENEMY" rarity="0"/>
+		<mod-append:blueprint name="RK_ENEMIES_BURN_MORE" rarity="0"/>
+		<mod-append:blueprint name="RK_ENEMIES_CAN_BURN" rarity="0"/>
+		<mod-append:blueprint name="RK_COMBAT_OXYGENIZER" rarity="0"/>
+		<mod-append:blueprint name="RK_WEAPONS_ON_FIRE" rarity="0"/>
+
+		<mod-append:blueprint name="RK_BPS_SURVEYOR" rarity="0"/>
+		
+		<mod-append:blueprint name="DJMOD_BAM_FISSUREBEAM" rarity="0" />
+		<mod-append:blueprint name="RK_HEAVY_POPPER_1" rarity="0" />
+		<mod-append:blueprint name="RK_HEAVY_POPPER_2" rarity="0" />
+		<mod-append:blueprint name="RK_HEAVY_POPPER_3" rarity="0" />
+		<mod-append:blueprint name="RK_UNLOADER" rarity="0" />
+
+		<mod-append:blueprint name="RK_BOMBLAUNCHER_ANTIBIO_REPAIR" rarity="0" />
+		<mod-append:blueprint name="RK_KILLALL_BEAM" rarity="0" />
+		<mod-append:blueprint name="RK_MISSLAUNCHER_2_BATTERY" rarity="0" />
+		<mod-append:blueprint name="RK_RAIN_OF_ION" rarity="0" />
+		<mod-append:blueprint name="RK_SHOTPHASER" rarity="0" />
+		
+		<mod-append:blueprint name="RK_BOMBLAUNCHER_OXYBOTTLE" rarity="0" />
+		<mod-append:blueprint name="RK_FOCUS_FIRE" rarity="0" />
+		<mod-append:blueprint name="RK_OXY_FIREFILL_MISSILES" rarity="0" />
+		<mod-append:blueprint name="DJMOD_RAIN_OF_FIRE" rarity="0" />
+
+		<mod-append:blueprint name="DJMOD_LASER_BPS" rarity="0" />
+	</mod:findLike>
+</mod:findName>
+<mod:findName type="sectorDescription" name="SECTOR_UNION_UNIQUE">
+	<mod:findLike type="rarityList">
+		<mod-append:blueprint name="RK_BAM_DIVINE_ARMOR" rarity="0"/>
+		<mod-append:blueprint name="RK_COMBAT_AUTO_SYS_REPAIR" rarity="0"/>	
+		<mod-append:blueprint name="DJMOD_COMBAT_SHIPVORE_RAM" rarity="0" />
+		<mod-append:blueprint name="RK_CREW_ARE_BOMBS_OFF" rarity="0"/>
+		<mod-append:blueprint name="RK_LEAD_TITANS" rarity="0"/>
+		<mod-append:blueprint name="RK_PERSISTENCE_SHIELD" rarity="0"/>
+		<mod-append:blueprint name="EX_RK_CHOKING_IS_FINE" rarity="0"/>
+		
+		<mod-append:blueprint name="RK_ARROGANCE_SHIELD" rarity="0"/>
+		<mod-append:blueprint name="RK_COMBAT_DEFENSE_REMOVER" rarity="0"/>
+		<mod-append:blueprint name="RK_COMBAT_OFFENSE_DISABLER" rarity="0"/>
+		<mod-append:blueprint name="RK_COMBAT_HACK_FLEET" rarity="0"/>
+		<mod-append:blueprint name="RK_DREAD_DECK" rarity="0"/>
+		<mod-append:blueprint name="RK_OWN_HARMONY_ON" rarity="0"/>
+		<mod-append:blueprint name="RK_SUPER_DEFENDERS" rarity="0"/>
+		<mod-append:blueprint name="EX_DJMOD_DEMICLONER" rarity="0"/>
+		
+		<mod-append:blueprint name="RK_SCORCH_SELF" rarity="0"/>
+		<mod-append:blueprint name="RK_SCORCH_SELF_2" rarity="0"/>
+		<mod-append:blueprint name="RK_SCORCH_SELF_3" rarity="0"/>
+		<mod-append:blueprint name="RK_COMBAT_SCORCH_ENEMY" rarity="0"/>
+		<mod-append:blueprint name="RK_ENEMIES_BURN_MORE" rarity="0"/>
+		<mod-append:blueprint name="RK_ENEMIES_CAN_BURN" rarity="0"/>
+		<mod-append:blueprint name="RK_COMBAT_OXYGENIZER" rarity="0"/>
+		<mod-append:blueprint name="RK_WEAPONS_ON_FIRE" rarity="0"/>
+
+		<mod-append:blueprint name="RK_BPS_SURVEYOR" rarity="0"/>
+		
+		<mod-append:blueprint name="DJMOD_BAM_FISSUREBEAM" rarity="0" />
+		<mod-append:blueprint name="RK_HEAVY_POPPER_1" rarity="0" />
+		<mod-append:blueprint name="RK_HEAVY_POPPER_2" rarity="0" />
+		<mod-append:blueprint name="RK_HEAVY_POPPER_3" rarity="0" />
+		<mod-append:blueprint name="RK_UNLOADER" rarity="0" />
+
+		<mod-append:blueprint name="RK_BOMBLAUNCHER_ANTIBIO_REPAIR" rarity="0" />
+		<mod-append:blueprint name="RK_KILLALL_BEAM" rarity="0" />
+		<mod-append:blueprint name="RK_MISSLAUNCHER_2_BATTERY" rarity="0" />
+		<mod-append:blueprint name="RK_RAIN_OF_ION" rarity="0" />
+		<mod-append:blueprint name="RK_SHOTPHASER" rarity="0" />
+		
+		<mod-append:blueprint name="RK_BOMBLAUNCHER_OXYBOTTLE" rarity="0" />
+		<mod-append:blueprint name="RK_FOCUS_FIRE" rarity="0" />
+		<mod-append:blueprint name="RK_OXY_FIREFILL_MISSILES" rarity="0" />
+		<mod-append:blueprint name="DJMOD_RAIN_OF_FIRE" rarity="0" />
+
+		<mod-append:blueprint name="DJMOD_LASER_BPS" rarity="0" />
+	</mod:findLike>
+</mod:findName>
+<mod:findName type="sectorDescription" name="SECTOR_MILITIA">
+	<mod:findLike type="rarityList">
+		<mod-append:blueprint name="RK_BAM_DIVINE_ARMOR" rarity="0"/>
+		<mod-append:blueprint name="RK_COMBAT_AUTO_SYS_REPAIR" rarity="0"/>	
+		<mod-append:blueprint name="DJMOD_COMBAT_SHIPVORE_RAM" rarity="0" />
+		<mod-append:blueprint name="RK_CREW_ARE_BOMBS_OFF" rarity="0"/>
+		<mod-append:blueprint name="RK_LEAD_TITANS" rarity="0"/>
+		<mod-append:blueprint name="RK_PERSISTENCE_SHIELD" rarity="0"/>
+		<mod-append:blueprint name="EX_RK_CHOKING_IS_FINE" rarity="0"/>
+		
+		<mod-append:blueprint name="RK_ARROGANCE_SHIELD" rarity="0"/>
+		<mod-append:blueprint name="RK_COMBAT_DEFENSE_REMOVER" rarity="0"/>
+		<mod-append:blueprint name="RK_COMBAT_OFFENSE_DISABLER" rarity="0"/>
+		<mod-append:blueprint name="RK_COMBAT_HACK_FLEET" rarity="0"/>
+		<mod-append:blueprint name="RK_DREAD_DECK" rarity="0"/>
+		<mod-append:blueprint name="RK_OWN_HARMONY_ON" rarity="0"/>
+		<mod-append:blueprint name="RK_SUPER_DEFENDERS" rarity="0"/>
+		<mod-append:blueprint name="EX_DJMOD_DEMICLONER" rarity="0"/>
+		
+		<mod-append:blueprint name="RK_SCORCH_SELF" rarity="0"/>
+		<mod-append:blueprint name="RK_SCORCH_SELF_2" rarity="0"/>
+		<mod-append:blueprint name="RK_SCORCH_SELF_3" rarity="0"/>
+		<mod-append:blueprint name="RK_COMBAT_SCORCH_ENEMY" rarity="0"/>
+		<mod-append:blueprint name="RK_ENEMIES_BURN_MORE" rarity="0"/>
+		<mod-append:blueprint name="RK_ENEMIES_CAN_BURN" rarity="0"/>
+		<mod-append:blueprint name="RK_COMBAT_OXYGENIZER" rarity="0"/>
+		<mod-append:blueprint name="RK_WEAPONS_ON_FIRE" rarity="0"/>
+
+		<mod-append:blueprint name="RK_BPS_SURVEYOR" rarity="0"/>
+		
+		<mod-append:blueprint name="DJMOD_BAM_FISSUREBEAM" rarity="0" />
+		<mod-append:blueprint name="RK_HEAVY_POPPER_1" rarity="0" />
+		<mod-append:blueprint name="RK_HEAVY_POPPER_2" rarity="0" />
+		<mod-append:blueprint name="RK_HEAVY_POPPER_3" rarity="0" />
+		<mod-append:blueprint name="RK_UNLOADER" rarity="0" />
+
+		<mod-append:blueprint name="RK_BOMBLAUNCHER_ANTIBIO_REPAIR" rarity="0" />
+		<mod-append:blueprint name="RK_KILLALL_BEAM" rarity="0" />
+		<mod-append:blueprint name="RK_MISSLAUNCHER_2_BATTERY" rarity="0" />
+		<mod-append:blueprint name="RK_RAIN_OF_ION" rarity="0" />
+		<mod-append:blueprint name="RK_SHOTPHASER" rarity="0" />
+		
+		<mod-append:blueprint name="RK_BOMBLAUNCHER_OXYBOTTLE" rarity="0" />
+		<mod-append:blueprint name="RK_FOCUS_FIRE" rarity="0" />
+		<mod-append:blueprint name="RK_OXY_FIREFILL_MISSILES" rarity="0" />
+		<mod-append:blueprint name="DJMOD_RAIN_OF_FIRE" rarity="0" />
+
+		<mod-append:blueprint name="DJMOD_LASER_BPS" rarity="0" />
+	</mod:findLike>
+</mod:findName>
+<mod:findName type="sectorDescription" name="SECTOR_MILITIA_UNIQUE">
+	<mod:findLike type="rarityList">
+		<mod-append:blueprint name="RK_BAM_DIVINE_ARMOR" rarity="0"/>
+		<mod-append:blueprint name="RK_COMBAT_AUTO_SYS_REPAIR" rarity="0"/>	
+		<mod-append:blueprint name="DJMOD_COMBAT_SHIPVORE_RAM" rarity="0" />
+		<mod-append:blueprint name="RK_CREW_ARE_BOMBS_OFF" rarity="0"/>
+		<mod-append:blueprint name="RK_LEAD_TITANS" rarity="0"/>
+		<mod-append:blueprint name="RK_PERSISTENCE_SHIELD" rarity="0"/>
+		<mod-append:blueprint name="EX_RK_CHOKING_IS_FINE" rarity="0"/>
+		
+		<mod-append:blueprint name="RK_ARROGANCE_SHIELD" rarity="0"/>
+		<mod-append:blueprint name="RK_COMBAT_DEFENSE_REMOVER" rarity="0"/>
+		<mod-append:blueprint name="RK_COMBAT_OFFENSE_DISABLER" rarity="0"/>
+		<mod-append:blueprint name="RK_COMBAT_HACK_FLEET" rarity="0"/>
+		<mod-append:blueprint name="RK_DREAD_DECK" rarity="0"/>
+		<mod-append:blueprint name="RK_OWN_HARMONY_ON" rarity="0"/>
+		<mod-append:blueprint name="RK_SUPER_DEFENDERS" rarity="0"/>
+		<mod-append:blueprint name="EX_DJMOD_DEMICLONER" rarity="0"/>
+		
+		<mod-append:blueprint name="RK_SCORCH_SELF" rarity="0"/>
+		<mod-append:blueprint name="RK_SCORCH_SELF_2" rarity="0"/>
+		<mod-append:blueprint name="RK_SCORCH_SELF_3" rarity="0"/>
+		<mod-append:blueprint name="RK_COMBAT_SCORCH_ENEMY" rarity="0"/>
+		<mod-append:blueprint name="RK_ENEMIES_BURN_MORE" rarity="0"/>
+		<mod-append:blueprint name="RK_ENEMIES_CAN_BURN" rarity="0"/>
+		<mod-append:blueprint name="RK_COMBAT_OXYGENIZER" rarity="0"/>
+		<mod-append:blueprint name="RK_WEAPONS_ON_FIRE" rarity="0"/>
+
+		<mod-append:blueprint name="RK_BPS_SURVEYOR" rarity="0"/>
+		
+		<mod-append:blueprint name="DJMOD_BAM_FISSUREBEAM" rarity="0" />
+		<mod-append:blueprint name="RK_HEAVY_POPPER_1" rarity="0" />
+		<mod-append:blueprint name="RK_HEAVY_POPPER_2" rarity="0" />
+		<mod-append:blueprint name="RK_HEAVY_POPPER_3" rarity="0" />
+		<mod-append:blueprint name="RK_UNLOADER" rarity="0" />
+
+		<mod-append:blueprint name="RK_BOMBLAUNCHER_ANTIBIO_REPAIR" rarity="0" />
+		<mod-append:blueprint name="RK_KILLALL_BEAM" rarity="0" />
+		<mod-append:blueprint name="RK_MISSLAUNCHER_2_BATTERY" rarity="0" />
+		<mod-append:blueprint name="RK_RAIN_OF_ION" rarity="0" />
+		<mod-append:blueprint name="RK_SHOTPHASER" rarity="0" />
+		
+		<mod-append:blueprint name="RK_BOMBLAUNCHER_OXYBOTTLE" rarity="0" />
+		<mod-append:blueprint name="RK_FOCUS_FIRE" rarity="0" />
+		<mod-append:blueprint name="RK_OXY_FIREFILL_MISSILES" rarity="0" />
+		<mod-append:blueprint name="DJMOD_RAIN_OF_FIRE" rarity="0" />
+
+		<mod-append:blueprint name="DJMOD_LASER_BPS" rarity="0" />
+	</mod:findLike>
+</mod:findName>
+
+<!-- 
+===============================================================================
+===============================================================================
+Restrict RK gear showing up in non-RK sectors. (List SPECIFIC to each sector)
+===============================================================================
+===============================================================================
+-->
+
+<!-- DROP POINT S0 -->
+<mod:findName type="sectorDescription" name="STANDARD_SPACE">
+	<mod:findLike type="rarityList">
+		<mod-append:blueprint name="RK_BAM_DIVINE_ARMOR" rarity="0"/>
+		<!-- <mod-append:blueprint name="RK_COMBAT_AUTO_SYS_REPAIR" rarity="0"/>	
+		<mod-append:blueprint name="DJMOD_COMBAT_SHIPVORE_RAM" rarity="0" />
+		<mod-append:blueprint name="RK_CREW_ARE_BOMBS_OFF" rarity="0"/>
+		<mod-append:blueprint name="RK_LEAD_TITANS" rarity="0"/> -->
+		<mod-append:blueprint name="RK_PERSISTENCE_SHIELD" rarity="0"/>
+		<!-- <mod-append:blueprint name="EX_RK_CHOKING_IS_FINE" rarity="0"/> -->
+		
+		<mod-append:blueprint name="RK_ARROGANCE_SHIELD" rarity="0"/>
+		<mod-append:blueprint name="RK_COMBAT_DEFENSE_REMOVER" rarity="0"/>
+		<!-- <mod-append:blueprint name="RK_COMBAT_OFFENSE_DISABLER" rarity="0"/>
+		<mod-append:blueprint name="RK_COMBAT_HACK_FLEET" rarity="0"/> -->
+		<mod-append:blueprint name="RK_DREAD_DECK" rarity="0"/>
+		<!-- <mod-append:blueprint name="RK_OWN_HARMONY_ON" rarity="0"/>
+		<mod-append:blueprint name="RK_SUPER_DEFENDERS" rarity="0"/>
+		<mod-append:blueprint name="EX_DJMOD_DEMICLONER" rarity="0"/> -->
+		
+		<!-- <mod-append:blueprint name="RK_SCORCH_SELF" rarity="0"/> -->
+		<mod-append:blueprint name="RK_SCORCH_SELF_2" rarity="0"/>
+		<mod-append:blueprint name="RK_SCORCH_SELF_3" rarity="0"/>
+		<!-- <mod-append:blueprint name="RK_COMBAT_SCORCH_ENEMY" rarity="0"/>
+		<mod-append:blueprint name="RK_ENEMIES_BURN_MORE" rarity="0"/>
+		<mod-append:blueprint name="RK_ENEMIES_CAN_BURN" rarity="0"/> -->
+		<mod-append:blueprint name="RK_COMBAT_OXYGENIZER" rarity="0"/>
+		<mod-append:blueprint name="RK_WEAPONS_ON_FIRE" rarity="0"/>
+
+		<mod-append:blueprint name="RK_BPS_SURVEYOR" rarity="0"/>
+		
+		<mod-append:blueprint name="DJMOD_BAM_FISSUREBEAM" rarity="0" />
+		<!-- <mod-append:blueprint name="RK_HEAVY_POPPER_1" rarity="0" />
+		<mod-append:blueprint name="RK_HEAVY_POPPER_2" rarity="0" /> -->
+		<mod-append:blueprint name="RK_HEAVY_POPPER_3" rarity="0" />
+		<mod-append:blueprint name="RK_UNLOADER" rarity="0" />
+
+		<!-- <mod-append:blueprint name="RK_BOMBLAUNCHER_ANTIBIO_REPAIR" rarity="0" /> -->
+		<mod-append:blueprint name="RK_KILLALL_BEAM" rarity="0" />
+		<mod-append:blueprint name="RK_MISSLAUNCHER_2_BATTERY" rarity="0" />
+		<mod-append:blueprint name="RK_RAIN_OF_ION" rarity="0" />
+		<!-- <mod-append:blueprint name="RK_SHOTPHASER" rarity="0" /> -->
+		
+		<!-- <mod-append:blueprint name="RK_BOMBLAUNCHER_OXYBOTTLE" rarity="0" /> -->
+		<mod-append:blueprint name="RK_FOCUS_FIRE" rarity="0" />
+		<!-- <mod-append:blueprint name="RK_OXY_FIREFILL_MISSILES" rarity="0" />
+		<mod-append:blueprint name="DJMOD_RAIN_OF_FIRE" rarity="0" /> -->
+
+		<mod-append:blueprint name="DJMOD_LASER_BPS" rarity="0" />
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="sectorDescription" name="SECTOR_HARMONY">
+	<mod:findLike type="rarityList">
+		<mod-append:blueprint name="RK_BAM_DIVINE_ARMOR" rarity="0"/>
+		<mod-append:blueprint name="RK_COMBAT_AUTO_SYS_REPAIR" rarity="0"/>	
+		<mod-append:blueprint name="DJMOD_COMBAT_SHIPVORE_RAM" rarity="0" />
+		<mod-append:blueprint name="RK_CREW_ARE_BOMBS_OFF" rarity="0"/>
+		<mod-append:blueprint name="RK_LEAD_TITANS" rarity="0"/>
+		<mod-append:blueprint name="RK_PERSISTENCE_SHIELD" rarity="0"/>
+		<mod-append:blueprint name="EX_RK_CHOKING_IS_FINE" rarity="0"/>
+		
+		<!-- <mod-append:blueprint name="RK_ARROGANCE_SHIELD" rarity="0"/>
+		<mod-append:blueprint name="RK_COMBAT_DEFENSE_REMOVER" rarity="0"/>
+		<mod-append:blueprint name="RK_COMBAT_OFFENSE_DISABLER" rarity="0"/>
+		<mod-append:blueprint name="RK_COMBAT_HACK_FLEET" rarity="0"/>
+		<mod-append:blueprint name="RK_DREAD_DECK" rarity="0"/> -->
+		<mod-append:blueprint name="RK_OWN_HARMONY_ON" rarity="0"/>
+		<!-- <mod-append:blueprint name="RK_SUPER_DEFENDERS" rarity="0"/>
+		<mod-append:blueprint name="EX_DJMOD_DEMICLONER" rarity="0"/> -->
+		
+		<mod-append:blueprint name="RK_SCORCH_SELF" rarity="0"/>
+		<mod-append:blueprint name="RK_SCORCH_SELF_2" rarity="0"/>
+		<mod-append:blueprint name="RK_SCORCH_SELF_3" rarity="0"/>
+		<mod-append:blueprint name="RK_COMBAT_SCORCH_ENEMY" rarity="0"/>
+		<mod-append:blueprint name="RK_ENEMIES_BURN_MORE" rarity="0"/>
+		<mod-append:blueprint name="RK_ENEMIES_CAN_BURN" rarity="0"/>
+		<mod-append:blueprint name="RK_COMBAT_OXYGENIZER" rarity="0"/>
+		<mod-append:blueprint name="RK_WEAPONS_ON_FIRE" rarity="0"/>
+
+		<!-- <mod-append:blueprint name="RK_BPS_SURVEYOR" rarity="0"/> -->
+		
+		<mod-append:blueprint name="DJMOD_BAM_FISSUREBEAM" rarity="0" />
+		<mod-append:blueprint name="RK_HEAVY_POPPER_1" rarity="0" />
+		<mod-append:blueprint name="RK_HEAVY_POPPER_2" rarity="0" />
+		<mod-append:blueprint name="RK_HEAVY_POPPER_3" rarity="0" />
+		<mod-append:blueprint name="RK_UNLOADER" rarity="0" />
+
+		<mod-append:blueprint name="RK_BOMBLAUNCHER_ANTIBIO_REPAIR" rarity="0" />
+		<mod-append:blueprint name="RK_KILLALL_BEAM" rarity="0" />
+		<mod-append:blueprint name="RK_MISSLAUNCHER_2_BATTERY" rarity="0" />
+		<mod-append:blueprint name="RK_RAIN_OF_ION" rarity="0" />
+		<mod-append:blueprint name="RK_SHOTPHASER" rarity="0" />
+		
+		<mod-append:blueprint name="RK_BOMBLAUNCHER_OXYBOTTLE" rarity="0" />
+		<mod-append:blueprint name="RK_FOCUS_FIRE" rarity="0" />
+		<mod-append:blueprint name="RK_OXY_FIREFILL_MISSILES" rarity="0" />
+		<mod-append:blueprint name="DJMOD_RAIN_OF_FIRE" rarity="0" />
+
+		<mod-append:blueprint name="DJMOD_LASER_BPS" rarity="0" />
+	</mod:findLike>
+</mod:findName>
+<mod:findName type="sectorDescription" name="SECTOR_HARMONY_UNIQUE">
+	<mod:findLike type="rarityList">
+		<mod-append:blueprint name="RK_BAM_DIVINE_ARMOR" rarity="0"/>
+		<mod-append:blueprint name="RK_COMBAT_AUTO_SYS_REPAIR" rarity="0"/>	
+		<mod-append:blueprint name="DJMOD_COMBAT_SHIPVORE_RAM" rarity="0" />
+		<mod-append:blueprint name="RK_CREW_ARE_BOMBS_OFF" rarity="0"/>
+		<mod-append:blueprint name="RK_LEAD_TITANS" rarity="0"/>
+		<mod-append:blueprint name="RK_PERSISTENCE_SHIELD" rarity="0"/>
+		<mod-append:blueprint name="EX_RK_CHOKING_IS_FINE" rarity="0"/>
+		
+		<!-- <mod-append:blueprint name="RK_ARROGANCE_SHIELD" rarity="0"/>
+		<mod-append:blueprint name="RK_COMBAT_DEFENSE_REMOVER" rarity="0"/>
+		<mod-append:blueprint name="RK_COMBAT_OFFENSE_DISABLER" rarity="0"/>
+		<mod-append:blueprint name="RK_COMBAT_HACK_FLEET" rarity="0"/>
+		<mod-append:blueprint name="RK_DREAD_DECK" rarity="0"/> -->
+		<mod-append:blueprint name="RK_OWN_HARMONY_ON" rarity="0"/>
+		<!-- <mod-append:blueprint name="RK_SUPER_DEFENDERS" rarity="0"/>
+		<mod-append:blueprint name="EX_DJMOD_DEMICLONER" rarity="0"/> -->
+		
+		<mod-append:blueprint name="RK_SCORCH_SELF" rarity="0"/>
+		<mod-append:blueprint name="RK_SCORCH_SELF_2" rarity="0"/>
+		<mod-append:blueprint name="RK_SCORCH_SELF_3" rarity="0"/>
+		<mod-append:blueprint name="RK_COMBAT_SCORCH_ENEMY" rarity="0"/>
+		<mod-append:blueprint name="RK_ENEMIES_BURN_MORE" rarity="0"/>
+		<mod-append:blueprint name="RK_ENEMIES_CAN_BURN" rarity="0"/>
+		<mod-append:blueprint name="RK_COMBAT_OXYGENIZER" rarity="0"/>
+		<mod-append:blueprint name="RK_WEAPONS_ON_FIRE" rarity="0"/>
+
+		<!-- <mod-append:blueprint name="RK_BPS_SURVEYOR" rarity="0"/> -->
+		
+		<mod-append:blueprint name="DJMOD_BAM_FISSUREBEAM" rarity="0" />
+		<mod-append:blueprint name="RK_HEAVY_POPPER_1" rarity="0" />
+		<mod-append:blueprint name="RK_HEAVY_POPPER_2" rarity="0" />
+		<mod-append:blueprint name="RK_HEAVY_POPPER_3" rarity="0" />
+		<mod-append:blueprint name="RK_UNLOADER" rarity="0" />
+
+		<mod-append:blueprint name="RK_BOMBLAUNCHER_ANTIBIO_REPAIR" rarity="0" />
+		<mod-append:blueprint name="RK_KILLALL_BEAM" rarity="0" />
+		<mod-append:blueprint name="RK_MISSLAUNCHER_2_BATTERY" rarity="0" />
+		<!-- <mod-append:blueprint name="RK_RAIN_OF_ION" rarity="0" />
+		<mod-append:blueprint name="RK_SHOTPHASER" rarity="0" /> -->
+		
+		<mod-append:blueprint name="RK_BOMBLAUNCHER_OXYBOTTLE" rarity="0" />
+		<mod-append:blueprint name="RK_FOCUS_FIRE" rarity="0" />
+		<mod-append:blueprint name="RK_OXY_FIREFILL_MISSILES" rarity="0" />
+		<mod-append:blueprint name="DJMOD_RAIN_OF_FIRE" rarity="0" />
+
+		<!-- <mod-append:blueprint name="DJMOD_LASER_BPS" rarity="0" /> -->
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="sectorDescription" name="SECTOR_MINISTRY">
+	<mod:findLike type="rarityList">
+		<mod-append:blueprint name="RK_BAM_DIVINE_ARMOR" rarity="0"/>
+		<!-- <mod-append:blueprint name="RK_COMBAT_AUTO_SYS_REPAIR" rarity="0"/>	
+		<mod-append:blueprint name="DJMOD_COMBAT_SHIPVORE_RAM" rarity="0" />
+		<mod-append:blueprint name="RK_CREW_ARE_BOMBS_OFF" rarity="0"/> -->
+		<mod-append:blueprint name="RK_LEAD_TITANS" rarity="0"/>
+		<!-- <mod-append:blueprint name="RK_PERSISTENCE_SHIELD" rarity="0"/>
+		<mod-append:blueprint name="EX_RK_CHOKING_IS_FINE" rarity="0"/> -->
+		
+		<!-- <mod-append:blueprint name="RK_ARROGANCE_SHIELD" rarity="0"/> -->
+		<mod-append:blueprint name="RK_COMBAT_DEFENSE_REMOVER" rarity="0"/>
+		<mod-append:blueprint name="RK_COMBAT_OFFENSE_DISABLER" rarity="0"/>
+		<mod-append:blueprint name="RK_COMBAT_HACK_FLEET" rarity="0"/>
+		<!-- <mod-append:blueprint name="RK_DREAD_DECK" rarity="0"/>
+		<mod-append:blueprint name="RK_OWN_HARMONY_ON" rarity="0"/>
+		<mod-append:blueprint name="RK_SUPER_DEFENDERS" rarity="0"/>
+		<mod-append:blueprint name="EX_DJMOD_DEMICLONER" rarity="0"/> -->
+		
+		<mod-append:blueprint name="RK_SCORCH_SELF" rarity="0"/>
+		<mod-append:blueprint name="RK_SCORCH_SELF_2" rarity="0"/>
+		<mod-append:blueprint name="RK_SCORCH_SELF_3" rarity="0"/>
+		<mod-append:blueprint name="RK_COMBAT_SCORCH_ENEMY" rarity="0"/>
+		<mod-append:blueprint name="RK_ENEMIES_BURN_MORE" rarity="0"/>
+		<mod-append:blueprint name="RK_ENEMIES_CAN_BURN" rarity="0"/>
+		<mod-append:blueprint name="RK_COMBAT_OXYGENIZER" rarity="0"/>
+		<mod-append:blueprint name="RK_WEAPONS_ON_FIRE" rarity="0"/>
+
+		<!-- <mod-append:blueprint name="RK_BPS_SURVEYOR" rarity="0"/> -->
+		
+		<mod-append:blueprint name="DJMOD_BAM_FISSUREBEAM" rarity="0" />
+		<mod-append:blueprint name="RK_HEAVY_POPPER_1" rarity="0" />
+		<mod-append:blueprint name="RK_HEAVY_POPPER_2" rarity="0" />
+		<mod-append:blueprint name="RK_HEAVY_POPPER_3" rarity="0" />
+		<mod-append:blueprint name="RK_UNLOADER" rarity="0" />
+
+		<mod-append:blueprint name="RK_BOMBLAUNCHER_ANTIBIO_REPAIR" rarity="0" />
+		<mod-append:blueprint name="RK_KILLALL_BEAM" rarity="0" />
+		<mod-append:blueprint name="RK_MISSLAUNCHER_2_BATTERY" rarity="0" />
+		<mod-append:blueprint name="RK_RAIN_OF_ION" rarity="0" />
+		<mod-append:blueprint name="RK_SHOTPHASER" rarity="0" />
+		
+		<mod-append:blueprint name="RK_BOMBLAUNCHER_OXYBOTTLE" rarity="0" />
+		<mod-append:blueprint name="RK_FOCUS_FIRE" rarity="0" />
+		<mod-append:blueprint name="RK_OXY_FIREFILL_MISSILES" rarity="0" />
+		<mod-append:blueprint name="DJMOD_RAIN_OF_FIRE" rarity="0" />
+
+		<mod-append:blueprint name="DJMOD_LASER_BPS" rarity="0" />
+	</mod:findLike>
+</mod:findName>
+<mod:findName type="sectorDescription" name="SECTOR_MINISTRY_UNIQUE">
+	<mod:findLike type="rarityList">
+		<mod-append:blueprint name="RK_BAM_DIVINE_ARMOR" rarity="0"/>
+		<!-- <mod-append:blueprint name="RK_COMBAT_AUTO_SYS_REPAIR" rarity="0"/>	
+		<mod-append:blueprint name="DJMOD_COMBAT_SHIPVORE_RAM" rarity="0" />
+		<mod-append:blueprint name="RK_CREW_ARE_BOMBS_OFF" rarity="0"/> -->
+		<mod-append:blueprint name="RK_LEAD_TITANS" rarity="0"/>
+		<!-- <mod-append:blueprint name="RK_PERSISTENCE_SHIELD" rarity="0"/>
+		<mod-append:blueprint name="EX_RK_CHOKING_IS_FINE" rarity="0"/> -->
+		
+		<!-- <mod-append:blueprint name="RK_ARROGANCE_SHIELD" rarity="0"/> -->
+		<mod-append:blueprint name="RK_COMBAT_DEFENSE_REMOVER" rarity="0"/>
+		<mod-append:blueprint name="RK_COMBAT_OFFENSE_DISABLER" rarity="0"/>
+		<mod-append:blueprint name="RK_COMBAT_HACK_FLEET" rarity="0"/>
+		<!-- <mod-append:blueprint name="RK_DREAD_DECK" rarity="0"/>
+		<mod-append:blueprint name="RK_OWN_HARMONY_ON" rarity="0"/>
+		<mod-append:blueprint name="RK_SUPER_DEFENDERS" rarity="0"/>
+		<mod-append:blueprint name="EX_DJMOD_DEMICLONER" rarity="0"/> -->
+		
+		<mod-append:blueprint name="RK_SCORCH_SELF" rarity="0"/>
+		<mod-append:blueprint name="RK_SCORCH_SELF_2" rarity="0"/>
+		<mod-append:blueprint name="RK_SCORCH_SELF_3" rarity="0"/>
+		<mod-append:blueprint name="RK_COMBAT_SCORCH_ENEMY" rarity="0"/>
+		<mod-append:blueprint name="RK_ENEMIES_BURN_MORE" rarity="0"/>
+		<mod-append:blueprint name="RK_ENEMIES_CAN_BURN" rarity="0"/>
+		<mod-append:blueprint name="RK_COMBAT_OXYGENIZER" rarity="0"/>
+		<mod-append:blueprint name="RK_WEAPONS_ON_FIRE" rarity="0"/>
+
+		<!-- <mod-append:blueprint name="RK_BPS_SURVEYOR" rarity="0"/> -->
+		
+		<!-- <mod-append:blueprint name="DJMOD_BAM_FISSUREBEAM" rarity="0" /> -->
+		<mod-append:blueprint name="RK_HEAVY_POPPER_1" rarity="0" />
+		<mod-append:blueprint name="RK_HEAVY_POPPER_2" rarity="0" />
+		<mod-append:blueprint name="RK_HEAVY_POPPER_3" rarity="0" />
+		<mod-append:blueprint name="RK_UNLOADER" rarity="0" />
+
+		<mod-append:blueprint name="RK_BOMBLAUNCHER_ANTIBIO_REPAIR" rarity="0" />
+		<mod-append:blueprint name="RK_KILLALL_BEAM" rarity="0" />
+		<!-- <mod-append:blueprint name="RK_MISSLAUNCHER_2_BATTERY" rarity="0" /> -->
+		<mod-append:blueprint name="RK_RAIN_OF_ION" rarity="0" />
+		<mod-append:blueprint name="RK_SHOTPHASER" rarity="0" />
+		
+		<mod-append:blueprint name="RK_BOMBLAUNCHER_OXYBOTTLE" rarity="0" />
+		<!-- <mod-append:blueprint name="RK_FOCUS_FIRE" rarity="0" /> -->
+		<mod-append:blueprint name="RK_OXY_FIREFILL_MISSILES" rarity="0" />
+		<mod-append:blueprint name="DJMOD_RAIN_OF_FIRE" rarity="0" />
+
+		<!-- <mod-append:blueprint name="DJMOD_LASER_BPS" rarity="0" /> -->
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="sectorDescription" name="SECTOR_GATHERING">
+	<mod:findLike type="rarityList">
+		<!-- <mod-append:blueprint name="RK_BAM_DIVINE_ARMOR" rarity="0"/>
+		<mod-append:blueprint name="RK_COMBAT_AUTO_SYS_REPAIR" rarity="0"/>	
+		<mod-append:blueprint name="DJMOD_COMBAT_SHIPVORE_RAM" rarity="0" />
+		<mod-append:blueprint name="RK_CREW_ARE_BOMBS_OFF" rarity="0"/>
+		<mod-append:blueprint name="RK_LEAD_TITANS" rarity="0"/> -->
+		<mod-append:blueprint name="RK_PERSISTENCE_SHIELD" rarity="0"/>
+		<mod-append:blueprint name="EX_RK_CHOKING_IS_FINE" rarity="0"/>
+		
+		<mod-append:blueprint name="RK_ARROGANCE_SHIELD" rarity="0"/>
+		<mod-append:blueprint name="RK_COMBAT_DEFENSE_REMOVER" rarity="0"/>
+		<mod-append:blueprint name="RK_COMBAT_OFFENSE_DISABLER" rarity="0"/>
+		<mod-append:blueprint name="RK_COMBAT_HACK_FLEET" rarity="0"/>
+		<mod-append:blueprint name="RK_DREAD_DECK" rarity="0"/>
+		<!-- <mod-append:blueprint name="RK_OWN_HARMONY_ON" rarity="0"/>
+		<mod-append:blueprint name="RK_SUPER_DEFENDERS" rarity="0"/> -->
+		<mod-append:blueprint name="EX_DJMOD_DEMICLONER" rarity="0"/>
+		
+		<!-- <mod-append:blueprint name="RK_SCORCH_SELF" rarity="0"/>
+		<mod-append:blueprint name="RK_SCORCH_SELF_2" rarity="0"/> -->
+		<mod-append:blueprint name="RK_SCORCH_SELF_3" rarity="0"/>
+		<mod-append:blueprint name="RK_COMBAT_SCORCH_ENEMY" rarity="0"/>
+		<mod-append:blueprint name="RK_ENEMIES_BURN_MORE" rarity="0"/>
+		<mod-append:blueprint name="RK_ENEMIES_CAN_BURN" rarity="0"/>
+		<!-- <mod-append:blueprint name="RK_COMBAT_OXYGENIZER" rarity="0"/> -->
+		<mod-append:blueprint name="RK_WEAPONS_ON_FIRE" rarity="0"/>
+
+		<!-- <mod-append:blueprint name="RK_BPS_SURVEYOR" rarity="0"/> -->
+		
+		<!-- <mod-append:blueprint name="DJMOD_BAM_FISSUREBEAM" rarity="0" />
+		<mod-append:blueprint name="RK_HEAVY_POPPER_1" rarity="0" />
+		<mod-append:blueprint name="RK_HEAVY_POPPER_2" rarity="0" />
+		<mod-append:blueprint name="RK_HEAVY_POPPER_3" rarity="0" />
+		<mod-append:blueprint name="RK_UNLOADER" rarity="0" /> -->
+
+		<mod-append:blueprint name="RK_BOMBLAUNCHER_ANTIBIO_REPAIR" rarity="0" />
+		<mod-append:blueprint name="RK_KILLALL_BEAM" rarity="0" />
+		<mod-append:blueprint name="RK_MISSLAUNCHER_2_BATTERY" rarity="0" />
+		<mod-append:blueprint name="RK_RAIN_OF_ION" rarity="0" />
+		<mod-append:blueprint name="RK_SHOTPHASER" rarity="0" />
+		
+		<mod-append:blueprint name="RK_BOMBLAUNCHER_OXYBOTTLE" rarity="0" />
+		<mod-append:blueprint name="RK_FOCUS_FIRE" rarity="0" />
+		<mod-append:blueprint name="RK_OXY_FIREFILL_MISSILES" rarity="0" />
+		<!-- <mod-append:blueprint name="DJMOD_RAIN_OF_FIRE" rarity="0" /> -->
+
+		<mod-append:blueprint name="DJMOD_LASER_BPS" rarity="0" />
+	</mod:findLike>
+</mod:findName>
+<mod:findName type="sectorDescription" name="SECTOR_GATHERING_UNIQUE">
+	<mod:findLike type="rarityList">
+		<!-- <mod-append:blueprint name="RK_BAM_DIVINE_ARMOR" rarity="0"/>
+		<mod-append:blueprint name="RK_COMBAT_AUTO_SYS_REPAIR" rarity="0"/>	
+		<mod-append:blueprint name="DJMOD_COMBAT_SHIPVORE_RAM" rarity="0" />
+		<mod-append:blueprint name="RK_CREW_ARE_BOMBS_OFF" rarity="0"/>
+		<mod-append:blueprint name="RK_LEAD_TITANS" rarity="0"/> -->
+		<mod-append:blueprint name="RK_PERSISTENCE_SHIELD" rarity="0"/>
+		<mod-append:blueprint name="EX_RK_CHOKING_IS_FINE" rarity="0"/>
+		
+		<mod-append:blueprint name="RK_ARROGANCE_SHIELD" rarity="0"/>
+		<mod-append:blueprint name="RK_COMBAT_DEFENSE_REMOVER" rarity="0"/>
+		<mod-append:blueprint name="RK_COMBAT_OFFENSE_DISABLER" rarity="0"/>
+		<mod-append:blueprint name="RK_COMBAT_HACK_FLEET" rarity="0"/>
+		<mod-append:blueprint name="RK_DREAD_DECK" rarity="0"/>
+		<!-- <mod-append:blueprint name="RK_OWN_HARMONY_ON" rarity="0"/>
+		<mod-append:blueprint name="RK_SUPER_DEFENDERS" rarity="0"/> -->
+		<mod-append:blueprint name="EX_DJMOD_DEMICLONER" rarity="0"/>
+		
+		<!-- <mod-append:blueprint name="RK_SCORCH_SELF" rarity="0"/>
+		<mod-append:blueprint name="RK_SCORCH_SELF_2" rarity="0"/> -->
+		<mod-append:blueprint name="RK_SCORCH_SELF_3" rarity="0"/>
+		<mod-append:blueprint name="RK_COMBAT_SCORCH_ENEMY" rarity="0"/>
+		<mod-append:blueprint name="RK_ENEMIES_BURN_MORE" rarity="0"/>
+		<mod-append:blueprint name="RK_ENEMIES_CAN_BURN" rarity="0"/>
+		<!-- <mod-append:blueprint name="RK_COMBAT_OXYGENIZER" rarity="0"/> -->
+		<mod-append:blueprint name="RK_WEAPONS_ON_FIRE" rarity="0"/>
+
+		<!-- <mod-append:blueprint name="RK_BPS_SURVEYOR" rarity="0"/> -->
+		
+		<!-- <mod-append:blueprint name="DJMOD_BAM_FISSUREBEAM" rarity="0" />
+		<mod-append:blueprint name="RK_HEAVY_POPPER_1" rarity="0" />
+		<mod-append:blueprint name="RK_HEAVY_POPPER_2" rarity="0" />
+		<mod-append:blueprint name="RK_HEAVY_POPPER_3" rarity="0" />
+		<mod-append:blueprint name="RK_UNLOADER" rarity="0" /> -->
+
+		<mod-append:blueprint name="RK_BOMBLAUNCHER_ANTIBIO_REPAIR" rarity="0" />
+		<mod-append:blueprint name="RK_KILLALL_BEAM" rarity="0" />
+		<mod-append:blueprint name="RK_MISSLAUNCHER_2_BATTERY" rarity="0" />
+		<mod-append:blueprint name="RK_RAIN_OF_ION" rarity="0" />
+		<mod-append:blueprint name="RK_SHOTPHASER" rarity="0" />
+		
+		<mod-append:blueprint name="RK_BOMBLAUNCHER_OXYBOTTLE" rarity="0" />
+		<mod-append:blueprint name="RK_FOCUS_FIRE" rarity="0" />
+		<mod-append:blueprint name="RK_OXY_FIREFILL_MISSILES" rarity="0" />
+		<!-- <mod-append:blueprint name="DJMOD_RAIN_OF_FIRE" rarity="0" /> -->
+
+		<!-- <mod-append:blueprint name="DJMOD_LASER_BPS" rarity="0" /> -->
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="sectorDescription" name="SECTOR_FREEMANTIS">
+	<mod:findLike type="rarityList">
+		<mod-append:blueprint name="RK_BAM_DIVINE_ARMOR" rarity="0"/>
+		<mod-append:blueprint name="RK_COMBAT_AUTO_SYS_REPAIR" rarity="0"/>	
+		<mod-append:blueprint name="DJMOD_COMBAT_SHIPVORE_RAM" rarity="0" />
+		<!-- <mod-append:blueprint name="RK_CREW_ARE_BOMBS_OFF" rarity="0"/>
+		<mod-append:blueprint name="RK_LEAD_TITANS" rarity="0"/> -->
+		<mod-append:blueprint name="RK_PERSISTENCE_SHIELD" rarity="0"/>
+		<mod-append:blueprint name="EX_RK_CHOKING_IS_FINE" rarity="0"/>
+		
+		<mod-append:blueprint name="RK_ARROGANCE_SHIELD" rarity="0"/>
+		<mod-append:blueprint name="RK_COMBAT_DEFENSE_REMOVER" rarity="0"/>
+		<mod-append:blueprint name="RK_COMBAT_OFFENSE_DISABLER" rarity="0"/>
+		<mod-append:blueprint name="RK_COMBAT_HACK_FLEET" rarity="0"/>
+		<!-- <mod-append:blueprint name="RK_DREAD_DECK" rarity="0"/> -->
+		<mod-append:blueprint name="RK_OWN_HARMONY_ON" rarity="0"/>
+		<mod-append:blueprint name="RK_SUPER_DEFENDERS" rarity="0"/>
+		<mod-append:blueprint name="EX_DJMOD_DEMICLONER" rarity="0"/>
+		
+		<mod-append:blueprint name="RK_SCORCH_SELF" rarity="0"/>
+		<mod-append:blueprint name="RK_SCORCH_SELF_2" rarity="0"/>
+		<mod-append:blueprint name="RK_SCORCH_SELF_3" rarity="0"/>
+		<mod-append:blueprint name="RK_COMBAT_SCORCH_ENEMY" rarity="0"/>
+		<mod-append:blueprint name="RK_ENEMIES_BURN_MORE" rarity="0"/>
+		<mod-append:blueprint name="RK_ENEMIES_CAN_BURN" rarity="0"/>
+		<mod-append:blueprint name="RK_COMBAT_OXYGENIZER" rarity="0"/>
+		<mod-append:blueprint name="RK_WEAPONS_ON_FIRE" rarity="0"/>
+
+		<!-- <mod-append:blueprint name="RK_BPS_SURVEYOR" rarity="0"/> -->
+		
+		<mod-append:blueprint name="DJMOD_BAM_FISSUREBEAM" rarity="0" />
+		<!-- <mod-append:blueprint name="RK_HEAVY_POPPER_1" rarity="0" />
+		<mod-append:blueprint name="RK_HEAVY_POPPER_2" rarity="0" /> -->
+		<mod-append:blueprint name="RK_HEAVY_POPPER_3" rarity="0" />
+		<mod-append:blueprint name="RK_UNLOADER" rarity="0" />
+
+		<!-- <mod-append:blueprint name="RK_BOMBLAUNCHER_ANTIBIO_REPAIR" rarity="0" />
+		<mod-append:blueprint name="RK_KILLALL_BEAM" rarity="0" /> -->
+		<mod-append:blueprint name="RK_MISSLAUNCHER_2_BATTERY" rarity="0" />
+		<mod-append:blueprint name="RK_RAIN_OF_ION" rarity="0" />
+		<mod-append:blueprint name="RK_SHOTPHASER" rarity="0" />
+		
+		<!-- <mod-append:blueprint name="RK_BOMBLAUNCHER_OXYBOTTLE" rarity="0" /> -->
+		<mod-append:blueprint name="RK_FOCUS_FIRE" rarity="0" />
+		<mod-append:blueprint name="RK_OXY_FIREFILL_MISSILES" rarity="0" />
+		<mod-append:blueprint name="DJMOD_RAIN_OF_FIRE" rarity="0" />
+
+		<mod-append:blueprint name="DJMOD_LASER_BPS" rarity="0" />
+	</mod:findLike>
+</mod:findName>
+<mod:findName type="sectorDescription" name="SECTOR_FREEMANTIS_UNIQUE">
+	<mod:findLike type="rarityList">
+		<mod-append:blueprint name="RK_BAM_DIVINE_ARMOR" rarity="0"/>
+		<mod-append:blueprint name="RK_COMBAT_AUTO_SYS_REPAIR" rarity="0"/>	
+		<mod-append:blueprint name="DJMOD_COMBAT_SHIPVORE_RAM" rarity="0" />
+		<!-- <mod-append:blueprint name="RK_CREW_ARE_BOMBS_OFF" rarity="0"/>
+		<mod-append:blueprint name="RK_LEAD_TITANS" rarity="0"/> -->
+		<mod-append:blueprint name="RK_PERSISTENCE_SHIELD" rarity="0"/>
+		<mod-append:blueprint name="EX_RK_CHOKING_IS_FINE" rarity="0"/>
+		
+		<mod-append:blueprint name="RK_ARROGANCE_SHIELD" rarity="0"/>
+		<mod-append:blueprint name="RK_COMBAT_DEFENSE_REMOVER" rarity="0"/>
+		<mod-append:blueprint name="RK_COMBAT_OFFENSE_DISABLER" rarity="0"/>
+		<mod-append:blueprint name="RK_COMBAT_HACK_FLEET" rarity="0"/>
+		<!-- <mod-append:blueprint name="RK_DREAD_DECK" rarity="0"/>
+		<mod-append:blueprint name="RK_OWN_HARMONY_ON" rarity="0"/> -->
+		<mod-append:blueprint name="RK_SUPER_DEFENDERS" rarity="0"/>
+		<!-- <mod-append:blueprint name="EX_DJMOD_DEMICLONER" rarity="0"/> -->
+		
+		<mod-append:blueprint name="RK_SCORCH_SELF" rarity="0"/>
+		<mod-append:blueprint name="RK_SCORCH_SELF_2" rarity="0"/>
+		<mod-append:blueprint name="RK_SCORCH_SELF_3" rarity="0"/>
+		<mod-append:blueprint name="RK_COMBAT_SCORCH_ENEMY" rarity="0"/>
+		<mod-append:blueprint name="RK_ENEMIES_BURN_MORE" rarity="0"/>
+		<mod-append:blueprint name="RK_ENEMIES_CAN_BURN" rarity="0"/>
+		<mod-append:blueprint name="RK_COMBAT_OXYGENIZER" rarity="0"/>
+		<!-- <mod-append:blueprint name="RK_WEAPONS_ON_FIRE" rarity="0"/> -->
+
+		<!-- <mod-append:blueprint name="RK_BPS_SURVEYOR" rarity="0"/> -->
+		
+		<mod-append:blueprint name="DJMOD_BAM_FISSUREBEAM" rarity="0" />
+		<!-- <mod-append:blueprint name="RK_HEAVY_POPPER_1" rarity="0" />
+		<mod-append:blueprint name="RK_HEAVY_POPPER_2" rarity="0" /> -->
+		<mod-append:blueprint name="RK_HEAVY_POPPER_3" rarity="0" />
+		<mod-append:blueprint name="RK_UNLOADER" rarity="0" />
+
+		<!-- <mod-append:blueprint name="RK_BOMBLAUNCHER_ANTIBIO_REPAIR" rarity="0" />
+		<mod-append:blueprint name="RK_KILLALL_BEAM" rarity="0" /> -->
+		<mod-append:blueprint name="RK_MISSLAUNCHER_2_BATTERY" rarity="0" />
+		<mod-append:blueprint name="RK_RAIN_OF_ION" rarity="0" />
+		<mod-append:blueprint name="RK_SHOTPHASER" rarity="0" />
+		
+		<!-- <mod-append:blueprint name="RK_BOMBLAUNCHER_OXYBOTTLE" rarity="0" /> -->
+		<mod-append:blueprint name="RK_FOCUS_FIRE" rarity="0" />
+		<mod-append:blueprint name="RK_OXY_FIREFILL_MISSILES" rarity="0" />
+		<mod-append:blueprint name="DJMOD_RAIN_OF_FIRE" rarity="0" />
+
+		<!-- <mod-append:blueprint name="DJMOD_LASER_BPS" rarity="0" /> -->
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="sectorDescription" name="SECTOR_OUTCAST">
+	<mod:findLike type="rarityList">
+		<!-- <mod-append:blueprint name="RK_BAM_DIVINE_ARMOR" rarity="0"/>
+		<mod-append:blueprint name="RK_COMBAT_AUTO_SYS_REPAIR" rarity="0"/>	
+		<mod-append:blueprint name="DJMOD_COMBAT_SHIPVORE_RAM" rarity="0" /> -->
+		<mod-append:blueprint name="RK_CREW_ARE_BOMBS_OFF" rarity="0"/>
+		<!-- <mod-append:blueprint name="RK_LEAD_TITANS" rarity="0"/> -->
+		<mod-append:blueprint name="RK_PERSISTENCE_SHIELD" rarity="0"/>
+		<!-- <mod-append:blueprint name="EX_RK_CHOKING_IS_FINE" rarity="0"/> -->
+		
+		<mod-append:blueprint name="RK_ARROGANCE_SHIELD" rarity="0"/>
+		<mod-append:blueprint name="RK_COMBAT_DEFENSE_REMOVER" rarity="0"/>
+		<mod-append:blueprint name="RK_COMBAT_OFFENSE_DISABLER" rarity="0"/>
+		<mod-append:blueprint name="RK_COMBAT_HACK_FLEET" rarity="0"/>
+		<mod-append:blueprint name="RK_DREAD_DECK" rarity="0"/>
+		<!-- <mod-append:blueprint name="RK_OWN_HARMONY_ON" rarity="0"/> -->
+		<mod-append:blueprint name="RK_SUPER_DEFENDERS" rarity="0"/>
+		<mod-append:blueprint name="EX_DJMOD_DEMICLONER" rarity="0"/>
+		
+		<!-- <mod-append:blueprint name="RK_SCORCH_SELF" rarity="0"/> -->
+		<mod-append:blueprint name="RK_SCORCH_SELF_2" rarity="0"/>
+		<mod-append:blueprint name="RK_SCORCH_SELF_3" rarity="0"/>
+		<!-- <mod-append:blueprint name="RK_COMBAT_SCORCH_ENEMY" rarity="0"/> -->
+		<mod-append:blueprint name="RK_ENEMIES_BURN_MORE" rarity="0"/>
+		<!-- <mod-append:blueprint name="RK_ENEMIES_CAN_BURN" rarity="0"/> -->
+		<mod-append:blueprint name="RK_COMBAT_OXYGENIZER" rarity="0"/>
+		<!-- <mod-append:blueprint name="RK_WEAPONS_ON_FIRE" rarity="0"/> -->
+
+		<!-- <mod-append:blueprint name="RK_BPS_SURVEYOR" rarity="0"/> -->
+		
+		<!-- <mod-append:blueprint name="DJMOD_BAM_FISSUREBEAM" rarity="0" />
+		<mod-append:blueprint name="RK_HEAVY_POPPER_1" rarity="0" />
+		<mod-append:blueprint name="RK_HEAVY_POPPER_2" rarity="0" /> -->
+		<mod-append:blueprint name="RK_HEAVY_POPPER_3" rarity="0" />
+		<!-- <mod-append:blueprint name="RK_UNLOADER" rarity="0" /> -->
+
+		<mod-append:blueprint name="RK_BOMBLAUNCHER_ANTIBIO_REPAIR" rarity="0" />
+		<mod-append:blueprint name="RK_KILLALL_BEAM" rarity="0" />
+		<mod-append:blueprint name="RK_MISSLAUNCHER_2_BATTERY" rarity="0" />
+		<mod-append:blueprint name="RK_RAIN_OF_ION" rarity="0" />
+		<mod-append:blueprint name="RK_SHOTPHASER" rarity="0" />
+		
+		<mod-append:blueprint name="RK_BOMBLAUNCHER_OXYBOTTLE" rarity="0" />
+		<mod-append:blueprint name="RK_FOCUS_FIRE" rarity="0" />
+		<!-- <mod-append:blueprint name="RK_OXY_FIREFILL_MISSILES" rarity="0" />
+		<mod-append:blueprint name="DJMOD_RAIN_OF_FIRE" rarity="0" /> -->
+
+		<mod-append:blueprint name="DJMOD_LASER_BPS" rarity="0" />
+	</mod:findLike>
+</mod:findName>
+<mod:findName type="sectorDescription" name="SECTOR_OUTCAST_UNIQUE">
+	<mod:findLike type="rarityList">
+		<!-- <mod-append:blueprint name="RK_BAM_DIVINE_ARMOR" rarity="0"/>
+		<mod-append:blueprint name="RK_COMBAT_AUTO_SYS_REPAIR" rarity="0"/>	
+		<mod-append:blueprint name="DJMOD_COMBAT_SHIPVORE_RAM" rarity="0" /> -->
+		<mod-append:blueprint name="RK_CREW_ARE_BOMBS_OFF" rarity="0"/>
+		<!-- <mod-append:blueprint name="RK_LEAD_TITANS" rarity="0"/> -->
+		<mod-append:blueprint name="RK_PERSISTENCE_SHIELD" rarity="0"/>
+		<!-- <mod-append:blueprint name="EX_RK_CHOKING_IS_FINE" rarity="0"/> -->
+		
+		<mod-append:blueprint name="RK_ARROGANCE_SHIELD" rarity="0"/>
+		<mod-append:blueprint name="RK_COMBAT_DEFENSE_REMOVER" rarity="0"/>
+		<mod-append:blueprint name="RK_COMBAT_OFFENSE_DISABLER" rarity="0"/>
+		<mod-append:blueprint name="RK_COMBAT_HACK_FLEET" rarity="0"/>
+		<mod-append:blueprint name="RK_DREAD_DECK" rarity="0"/>
+		<!-- <mod-append:blueprint name="RK_OWN_HARMONY_ON" rarity="0"/> -->
+		<mod-append:blueprint name="RK_SUPER_DEFENDERS" rarity="0"/>
+		<mod-append:blueprint name="EX_DJMOD_DEMICLONER" rarity="0"/>
+		
+		<!-- <mod-append:blueprint name="RK_SCORCH_SELF" rarity="0"/> -->
+		<mod-append:blueprint name="RK_SCORCH_SELF_2" rarity="0"/>
+		<mod-append:blueprint name="RK_SCORCH_SELF_3" rarity="0"/>
+		<!-- <mod-append:blueprint name="RK_COMBAT_SCORCH_ENEMY" rarity="0"/> -->
+		<mod-append:blueprint name="RK_ENEMIES_BURN_MORE" rarity="0"/>
+		<!-- <mod-append:blueprint name="RK_ENEMIES_CAN_BURN" rarity="0"/> -->
+		<mod-append:blueprint name="RK_COMBAT_OXYGENIZER" rarity="0"/>
+		<!-- <mod-append:blueprint name="RK_WEAPONS_ON_FIRE" rarity="0"/> -->
+
+		<!-- <mod-append:blueprint name="RK_BPS_SURVEYOR" rarity="0"/> -->
+		
+		<!-- <mod-append:blueprint name="DJMOD_BAM_FISSUREBEAM" rarity="0" />
+		<mod-append:blueprint name="RK_HEAVY_POPPER_1" rarity="0" />
+		<mod-append:blueprint name="RK_HEAVY_POPPER_2" rarity="0" /> -->
+		<mod-append:blueprint name="RK_HEAVY_POPPER_3" rarity="0" />
+		<!-- <mod-append:blueprint name="RK_UNLOADER" rarity="0" /> -->
+
+		<mod-append:blueprint name="RK_BOMBLAUNCHER_ANTIBIO_REPAIR" rarity="0" />
+		<mod-append:blueprint name="RK_KILLALL_BEAM" rarity="0" />
+		<mod-append:blueprint name="RK_MISSLAUNCHER_2_BATTERY" rarity="0" />
+		<mod-append:blueprint name="RK_RAIN_OF_ION" rarity="0" />
+		<mod-append:blueprint name="RK_SHOTPHASER" rarity="0" />
+		
+		<mod-append:blueprint name="RK_BOMBLAUNCHER_OXYBOTTLE" rarity="0" />
+		<mod-append:blueprint name="RK_FOCUS_FIRE" rarity="0" />
+		<!-- <mod-append:blueprint name="RK_OXY_FIREFILL_MISSILES" rarity="0" />
+		<mod-append:blueprint name="DJMOD_RAIN_OF_FIRE" rarity="0" /> -->
+
+		<!-- <mod-append:blueprint name="DJMOD_LASER_BPS" rarity="0" /> -->
+	</mod:findLike>
+</mod:findName>
+
+<!-- 
+===============================================================================
+===============================================================================
 RARITY IN OTHER ADD-ONS
+===============================================================================
 ===============================================================================
 -->
 <mod:findName type="sectorDescription" name="SECRET_FR_COMMONWEALTH">
@@ -214,7 +1091,6 @@ RARITY IN OTHER ADD-ONS
 		<mod-append:blueprint name="RK_ENEMIES_BURN_MORE" rarity="0"/>
 		<mod-append:blueprint name="RK_ENEMIES_CAN_BURN" rarity="0"/>
 		<mod-append:blueprint name="RK_COMBAT_OXYGENIZER" rarity="0"/>
-		<mod-append:blueprint name="RK_SCORCH_PREIGNITER" rarity="0"/>
 		<mod-append:blueprint name="RK_WEAPONS_ON_FIRE" rarity="0"/>
 
 		<mod-append:blueprint name="RK_BPS_SHIELD_OVER_MATTER" rarity="0"/>
@@ -346,6 +1222,7 @@ TODO:
 		<!-- <track>wasteland</track> -->
 	</trackList>
 	<rarityList>
+		<!-- <blueprint name="RK_SCORCH_PREIGNITER" rarity="5"/> -->
 		<blueprint name="RK_BPS_SHIELD_OVER_MATTER" rarity="5"/>
 
 		<!--
@@ -445,10 +1322,15 @@ TODO:
 		<blueprint name="rk_fireghost" rarity="2"/>
 	</rarityList>
 
-	<!-- <startEvent>START_RADIKAL</startEvent> 	WORKS, but trying to fix "cant reroute S7end" bug.-->
+	<!-- <startEvent>START_RADIKAL</startEvent> 	WORKS, but might be part of fix for "cant reroute S7end" bug.-->
 	<startEvent>ENTER_RADIKAL</startEvent>
 	
 	<!-- <exitBeacon event="NEBULA_EXIT_RADIKAL" nebulaEvent="NEBULA_EXIT_RADIKAL" rebelEvent="NEBULA_EXIT_RADIKAL"/> -->
+	<!-- REFS: FINISH_BEACON_FLEET_ELITE (almost everywhere), 
+	FINISH_BEACON_STARGROVE, FINISH_BEACON_HACKER, FINISH_BEACON_ORIGINS, FINISH_BEACON_ORIGINS_RUWEN, 
+	SYLVAN_PRIME, AUGMENTED_ANOINTED, etc... (unique sectors tend to have it be the same as non-fleet)
+	FINISH_BEACON_FLEET_AUTO (Auto & Dynasty & Shell & Morph sectors), 
+	FINISH_BEACON_FLEET_ACE (Rebel & Duskbringer sectors) -->
 	<exitBeacon event="EXIT_RADIKAL" nebulaEvent="EXIT_RADIKAL" rebelEvent="EXIT_RADIKAL"/>
 	<rebelBeacon event="FLEET_THREAT_VLOW" nebulaEvent="FLEET_THREAT_VLOW_NEBULA"/>
 	<priorityEvent name="ANOMALY_SPAWNER" min="1" max="1" priority="1" req="ANOMALY_SPAWN_CHECK" lvl="1"/>	<!-- TEST -->

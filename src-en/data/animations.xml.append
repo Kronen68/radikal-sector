@@ -1237,10 +1237,10 @@ ANTI-RK
 	<time>1</time>
 </anim> -->
 
-<animSheet name="rk_a_misslauncher_charge" w="495" h="56" fw="33" fh="56">weapon_radikal/rk_a_misslauncher_chargeglow.png</animSheet>
+<animSheet name="rk_a_misslauncher_charge" w="99" h="56" fw="33" fh="56">weapon_radikal/rk_a_misslauncher_chargeglow.png</animSheet>
 <anim name="rk_a_misslauncher_charge">
 	<sheet>rk_a_misslauncher_charge</sheet>
-	<desc length="15" x="0" y="0"/>
+	<desc length="3" x="0" y="0"/>
 	<time>1.0</time>
 </anim>
 <animSheet name="rk_a_misslauncher" w="165" h="56" fw="33" fh="56">weapon_radikal/rk_a_misslauncher.png</animSheet>
