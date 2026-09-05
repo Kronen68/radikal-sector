@@ -1,9 +1,16 @@
 #
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2026-09-05 15:14+0000\n"
+"Last-Translator: 土豆老年人 <2685455659@qq.com>\n"
+"Language-Team: Chinese (Simplified Han script) <https://weblate.hyperq.be/"
+"projects/radikal-sector/dataevents_sector_radikalxml/zh_Hans/>\n"
+"Language: zh_Hans\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.17.1\n"
 
 #: src-en/data/events_sector_radikal.xml:82
 msgid ""
@@ -1388,19 +1395,24 @@ msgid ""
 msgstr "继续。"
 
 #: src-en/data/events_sector_radikal.xml:1597
+#, fuzzy
 msgid "data/events_sector_radikal.xml$//event[@name=\"RKS_BIL_BAM_SYSTEMS\"]/text"
 msgstr ""
 "在这个小行星带内，你偶然发现了一个由模物技变者管理的奇怪工坊。\n"
 "\n"
 "\t\t“咕哝 这里是 RK 巴姆‘粗暴改进实验室’。欢迎。”\n"
 "\n"
-"\t\t你早就知道模物技变者不是派对上的活跃分子。这位的语气在你还没说话或做任何事之前，就让你感到内疚和受到威胁。\n"
+"\t\t你早就知道模物技变者不是派对上的活跃分子。这位的语气在你还没说话或做任何"
+"事之前，就让你感到内疚和受到威胁。\n"
 "\t\t\n"
 "\t\t“你的飞船，我们可以改进它。粗暴地，以防你没听清那部分。只要很少的废料。\n"
-"\t\t首先，我们[style[color:ff3377]]移除任何不必要的船体。[[/style]]然后你选择一个系统，为其提供 2 级电力升级，如果适用，甚至可以超过你那可怜的飞船的正常限制。\n"
+"\t\t首先，我们[style[color:ff3377]]移除任何不必要的船体。[[/style]]然后你选择"
+"一个系统，为其提供 2 级电力升级，如果适用，甚至可以超过你那可怜的飞船的正常限"
+"制。\n"
 "\t\t我们处理的系统：无人机、护盾、武器。按字母顺序排列，以免混淆你那肉脑。\n"
 "\t\t\n"
-"\t\t然后你离开。或者在离开前从售后护理船上获得一些维修。从统计上看，建议这样做。\n"
+"\t\t然后你离开。或者在离开前从售后护理船上获得一些维修。从统计上看，建议这样"
+"做。\n"
 "\t\t表明你的同意。或者离开，我个人完全没问题。”\n"
 "\t\t\n"
 "\t\t这个地方有安保措施，你的扫描仪没有检测到任何其他飞船。这应该是安全的。\n"
@@ -2652,6 +2664,7 @@ msgid ""
 msgstr "一个吸虫。"
 
 #: src-en/data/events_sector_radikal.xml:2898
+#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[@req=\"leech\"]/event/text"
 msgstr ""
@@ -3281,6 +3294,7 @@ msgid ""
 msgstr "继续前进……"
 
 #: src-en/data/events_sector_radikal.xml:3560
+#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"zoltan_martyr\"]/text"
 msgstr "一个殉义者。"
