@@ -1,9 +1,16 @@
 #
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2026-09-05 15:14+0000\n"
+"Last-Translator: 土豆老年人 <2685455659@qq.com>\n"
+"Language-Team: Chinese (Simplified Han script) <https://weblate.hyperq.be/"
+"projects/radikal-sector/datablueprintsxmlappend/zh_Hans/>\n"
+"Language: zh_Hans\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.17.1\n"
 
 #: src-en/data/blueprints.xml.append:39
 msgid ""
@@ -379,12 +386,14 @@ msgid ""
 msgstr "脆弱器"
 
 #: src-en/data/blueprints.xml.append:404
+#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_COMBAT_DEFENSE_REMOVER\"]/desc"
 msgstr ""
 "（RK朋克装备）这款战斗增强部件会缓慢削弱敌方的防御。首领们对此深恶痛绝。\n"
 "\t\t\n"
-"\t\t每 3 到 7 秒（随机），限制敌方的护盾和引擎各 1 点电力。若运气好，此效果最多可叠加 16 次。\n"
+"\t\t每 3 到 7 秒（随机），限制敌方的护盾和引擎各 1 点电力。若运气好，此效果最"
+"多可叠加 16 次。\n"
 "\t\t所有效果在 40 到 75 秒后结束，具体时长取决于你选择消耗的无人机数量。\n"
 "\t\t[消耗 1-2 | 和 3 反应堆电力。应急供能器可生效。]"
 
@@ -458,16 +467,21 @@ msgid ""
 msgstr "朋克谐合"
 
 #: src-en/data/blueprints.xml.append:486
+#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_OWN_HARMONY_ON\"]/desc"
 msgstr ""
-"（RK朋克装备）几个愚蠢的拉迪卡尔·朋克制造出了他们自己的谐合器。[style[color:ff3377]]控制你舰船上的半械[[/style]]，使其免疫（进一步）的心灵控制，并获得 +40% 的伤害抗性和眩晕抗性。黑客或心灵控制的已投入电力等级会提供 5/10/20/40/80/160% 的战斗伤害加成，以及维修和移动速度加成。\n"
+"（RK朋克装备）几个愚蠢的拉迪卡尔·朋克制造出了他们自己的谐合器"
+"。[style[color:ff3377]]控制你舰船上的半械[[/style]]，使其免疫（进一步）的心灵"
+"控制，并获得 +40% 的伤害抗性和眩晕抗性。黑客或心灵控制的已投入电力等级会提供 "
+"5/10/20/40/80/160% 的战斗伤害加成，以及维修和移动速度加成。\n"
 "\t\n"
 "\t简而言之，让他们变得更硬、更好、更快、更强，并且自动化。\n"
 "\t\n"
 "\t可随时关闭。\n"
 "\n"
-"\t在空信标处，你可以花费 25 废料、1{ 和 1| 来培养一个半械分离者，但[style[color:ff3377]]叛军舰队会加速 1 步[[/style]]"
+"\t在空信标处，你可以花费 25 废料、1{ 和 1| 来培养一个半械分离者，"
+"但[style[color:ff3377]]叛军舰队会加速 1 步[[/style]]"
 
 #: src-en/data/blueprints.xml.append:498
 msgid ""
@@ -566,15 +580,18 @@ msgid ""
 msgstr "易燃器 - 免疫"
 
 #: src-en/data/blueprints.xml.append:607
+#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_ENEMIES_CAN_BURN\"]/desc"
 msgstr ""
-"这款拉迪卡尔·灼烧增强部件可以移除敌人的火焰免疫，并将其火焰抗性限制为 0%。那些会反转火焰伤害的敌人不再具有该能力。脆弱敌人（如燃灵）不受影响。\n"
+"这款拉迪卡尔·灼烧增强部件可以移除敌人的火焰免疫，并将其火焰抗性限制为 0%。那"
+"些会反转火焰伤害的敌人不再具有该能力。脆弱敌人（如燃灵）不受影响。\n"
 "\t对双方飞船都有效。\n"
 "\n"
 "\t可随时切换，使非防火敌人转而受到更高的火焰伤害。\n"
 "\n"
-"\t两种切换模式下，敌人在火焰中的移动速度都会降低 20%（氧气系统投入 3 点电力时最高可达 80%）[不可叠加]。"
+"\t两种切换模式下，敌人在火焰中的移动速度都会降低 20%（氧气系统投入 3 点电力时"
+"最高可达 80%）[不可叠加]。"
 
 #: src-en/data/blueprints.xml.append:618
 msgid ""
@@ -582,15 +599,18 @@ msgid ""
 msgstr "易燃器 - 伤害"
 
 #: src-en/data/blueprints.xml.append:619
+#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_ENEMIES_BURN_MORE\"]/desc"
 msgstr ""
-"（RK灼烧装备）被动使能够燃烧的敌人受到的火焰伤害提高 60%，随着你的生命维持（氧气）系统投入 4 点或更多电力，最高可提升至 300%。\n"
+"（RK灼烧装备）被动使能够燃烧的敌人受到的火焰伤害提高 60%，随着你的生命维持（"
+"氧气）系统投入 4 点或更多电力，最高可提升至 300%。\n"
 "\t对双方飞船都有效。\n"
 "\t\n"
 "\t可随时切换，使防火、抗火以及火焰治疗的敌人转而变得对火焰脆弱。\n"
 "\n"
-"\t两种切换模式下，敌人在火焰中的移动速度都会降低 20%（氧气系统投入 3 点电力时最高可达 80%）[不可叠加]。"
+"\t两种切换模式下，敌人在火焰中的移动速度都会降低 20%（氧气系统投入 3 点电力时"
+"最高可达 80%）[不可叠加]。"
 
 #: src-en/data/blueprints.xml.append:631
 msgid ""
@@ -693,10 +713,12 @@ msgid ""
 msgstr "标准制式反RK装备"
 
 #: src-en/data/blueprints.xml.append:751
+#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_A_STANDARD_SUITE\"]/desc"
 msgstr ""
-"追捕拉迪卡尔成员并非安全的营生，因此最狂热的猎手们会被授予此物以提高其生存率……并强迫他们完成任务。\n"
+"追捕拉迪卡尔成员并非安全的营生，因此最狂热的猎手们会被授予此物以提高其生存率…"
+"…并强迫他们完成任务。\n"
 "\t\t\n"
 "\t\t15% 几率抵抗船体、系统和离子伤害。\n"
 "\t\t缓慢自动修复破舱和火灾。\n"
@@ -1233,10 +1255,12 @@ msgid ""
 msgstr "“度量”"
 
 #: src-en/data/blueprints.xml.append:2781
+#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_A_MISSLAUNCHER\"]/desc"
 msgstr ""
-"（反RK装备）链式冷却次数多但速度慢，且目标身上每有一件 RK 武器，就额外造成 1 点系统伤害。\n"
+"（反RK装备）链式冷却次数多但速度慢，且目标身上每有一件 RK 武器，就额外造成 1 "
+"点系统伤害。\n"
 "\t\t“愿秩序永存。”\n"
 "\n"
 "\t\t这款专用发射器能将无用资源转化为导弹。然而，每场战斗只能发射有限次数。"
