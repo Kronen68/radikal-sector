@@ -13,7 +13,7 @@ msgstr ""
 #: src-en/data/text_blueprints.xml.append:19
 msgid ""
 "data/text_blueprints.xml.append$//text[@name=\"ship_PLAYER_SHIP_DJMOD_PUNKER_unlock\"]"
-msgstr "Atteindre le secteur 8 avec le Croiseur RadiKal Bam (Rammer)."
+msgstr "Atteindre le secteur 8 avec le Croiseur RadiKal Bam (Éperonneur)."
 
 #: src-en/data/text_blueprints.xml.append:20
 msgid ""
@@ -39,5 +39,5 @@ msgstr ""
 msgid ""
 "data/text_blueprints.xml.append$//text[@name=\"ship_PLAYER_SHIP_DJMOD_SCORCH_unlock\"]"
 msgstr ""
-"Tuer l'équipage du Gardien Scorch à la fin du Secteur RadiKal pour débloquer"
-" ce vaisseau."
+"Tuer l'équipage du Gardien des portes Scorch à la fin du secteur RadiKal "
+"pour débloquer ce vaisseau."

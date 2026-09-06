@@ -32,15 +32,15 @@ msgstr "Punkalot"
 #: src-en/data/hyperspace.xml.append:308
 msgid ""
 "data/hyperspace.xml.append$//phantom_wraith_alpha[@name=\"Breathenot\"]/@name"
-msgstr "Breathenot"
+msgstr "Respirepas"
 
 #: src-en/data/hyperspace.xml.append:309
 msgid "data/hyperspace.xml.append$//zoltan_devotee[@name=\"Movalot\"]/@name"
-msgstr "Movalot"
+msgstr "Bougepas"
 
 #: src-en/data/hyperspace.xml.append:331
 msgid "data/hyperspace.xml.append$//orchid_caretaker[@name=\"HighLife\"]/@name"
-msgstr "HighLife"
+msgstr "VieDeChâteau"
 
 #: src-en/data/hyperspace.xml.append:332
 msgid "data/hyperspace.xml.append$//engi_separatist[@name=\"Aerodynamic\"]/@name"
@@ -58,7 +58,7 @@ msgstr "GMdHC"
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_RK_SCORCHER\"]/crew/rock_commando[@name=\"Lighter\"]/@name"
-msgstr "Briquet"
+msgstr "Allumeur"
 
 #: src-en/data/hyperspace.xml.append:391
 msgid ""
@@ -97,7 +97,7 @@ msgstr "Paladin"
 
 #: src-en/data/hyperspace.xml.append:420
 msgid "data/hyperspace.xml.append$//rk_fireghost[@name=\"Fire Mage\"]/@name"
-msgstr "Mage du feu"
+msgstr "Mage de feu"
 
 #: src-en/data/hyperspace.xml.append:421
 msgid "data/hyperspace.xml.append$//zoltan_infernum[@name=\"Rogue\"]/@name"
@@ -107,7 +107,7 @@ msgstr "Rebelle"
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_DJMOD_SCORCH\"]/crew/rock_commando[@name=\"Lighter\"]/@name"
-msgstr "Briquet"
+msgstr "Allumeur"
 
 #: src-en/data/hyperspace.xml.append:455
 msgid ""
@@ -137,8 +137,8 @@ msgid ""
 "append:shipIcon[1]/tooltip"
 msgstr ""
 "VAISSEAU RADIKAL :\n"
-"Probablement dangereux, peut-être aussi pour lui-même et/ou son équipage.\n"
-"Possède probablement de l'équipement RadiKal pillable : déverrouille des améliorations internes et des options bleues ou des coordonnées de secteur RK."
+"\t\t\tProbablement dangereux, peut-être aussi pour lui-même et/ou son équipage.\n"
+"\t\t\tContient probablement de l'équipement RadiKal pillable : débloque des améliorations internes et des options ou coordonnées bleues dans le secteur RK."
 
 #: src-en/data/hyperspace.xml.append:726
 msgid ""
@@ -146,13 +146,13 @@ msgid ""
 "append:shipIcon[2]/tooltip"
 msgstr ""
 "SUITE STANDARD ANTI-RK :\n"
-"Chasser les RadiKals n'est pas sans danger. Les chasseurs zélés reçoivent ceci pour augmenter leurs taux de survie... et les forcer à faire le travail.\n"
-"\n"
-"15% de chance de résister aux dégâts de Coque, Système et Ionique.\n"
-"Répare lentement les brèches et les incendies automatiquement.\n"
-"L'équipage a 40% de PV en plus.\n"
-"[style[color:ff3377]]Vitesse de charge SPL réduite de 90%.\n"
-"Impossible de se rendre, négocier ou désobéir.[[/style]]"
+"\t\t\tChasser les RadiKals n'est pas sûr. Les chasseurs zélés reçoivent ceci pour augmenter leurs taux de survie... et les forcer à faire le travail.\n"
+"\t\t\t\n"
+"\t\t\t15% de chance de résister aux dégâts de Coque, de Système et Ioniques.\n"
+"\t\t\tRépare lentement les brèches et les incendies automatiquement.\n"
+"\t\t\tL'équipage a 40% de PV en plus.\n"
+"\t\t\t[style[color:ff3377]]Vitesse de chargement SPL réduite de 90%.\n"
+"\t\t\tImpossible de se rendre, négocier ou désobéir.[[/style]]"
 
 #: src-en/data/hyperspace.xml.append:740
 msgid ""
@@ -160,8 +160,8 @@ msgid ""
 "append:shipIcon[1]/tooltip"
 msgstr ""
 "CEINTURES CHARGÉES :\n"
-"L'équipage de ce vaisseau a [style[color:ff3377]]10% de PV réduits[[/style]] et explose à sa mort, causant un incendie et infligeant des dégâts à la salle et au vaisseau dans lesquels ils se trouvent, avec des dégâts supplémentaires dans les salles sans système. [style[color:ff3377]]A des tirs alliés.[[/style]]\n"
-"Se cumule avec les effets de mort existants"
+"\t\t\tL'équipage de ce vaisseau a [style[color:ff3377]]10% de PV en moins[[/style]] et explose lorsqu'il meurt, provoquant un incendie et infligeant des dégâts à la pièce et au vaisseau où il se trouve, avec des dégâts supplémentaires dans les pièces sans système. [style[color:ff3377]]A des tirs alliés.[[/style]]\n"
+"\t\t\tSe cumule avec les effets de mort déjà existants."
 
 #: src-en/data/hyperspace.xml.append:746
 msgid ""
@@ -169,9 +169,9 @@ msgid ""
 "append:shipIcon[2]/tooltip"
 msgstr ""
 "TITANS DE PLOMB :\n"
-"Les Cristaliens, Lanius, Rocailleux et Salins de ce vaisseau ont : 2.5x résistance à tout, 2.5x dégâts à tout, créent des brèches en marchant, et ne peuvent pas réparer.\n"
-"L'autre équipage obtient un bonus fixe de +75% de vitesse de réparation.\n"
-"Tout l'équipage de ce vaisseau gagne un bonus fixe de +40% de vitesse de déplacement"
+"\t\t\tLes Cristaliens, Lanius, Rocailleux et Salins de ce vaisseau ont : 2.5x résistance à tout, 2.5x dégâts à tout, ils créent des brèches en marchant, et ne peuvent pas réparer.\n"
+"\t\t\tL'autre équipage obtient un bonus fixe de +75% de vitesse de réparation.\n"
+"\t\t\tTout l'équipage de ce vaisseau gagne un bonus fixe de +40% de vitesse de déplacement."
 
 #: src-en/data/hyperspace.xml.append:753
 msgid ""
@@ -179,17 +179,17 @@ msgid ""
 "append:shipIcon[3]/tooltip"
 msgstr ""
 "BOUCLIER DE PERSISTANCE :\n"
-"Cet ennemi est protégé par un Bouclier d'énergie. Le Piratage, le Contrôle mental, la Téléportation, les Drones d'abordage, et toutes les armes infligeant des dégâts à la coque ou ioniques seront tous bloqués jusqu'à ce qu'il soit désactivé.\n"
-"Ce bouclier spécifique augmente également le taux de recharge des boucliers, et l'ennemi est capable de régénérer son Bouclier d'énergie une fois !"
+"\t\t\tCet ennemi est protégé par un Bouclier d'énergie. Le Piratage, le Contrôle mental, la Téléportation, les Drones d'abordage et toutes les armes infligeant des dégâts à la coque ou ioniques seront tous bloqués jusqu'à ce qu'il soit désactivé.\n"
+"\t\t\tCe bouclier spécifique a également augmenté le taux de recharge des boucliers, et l'ennemi est capable de régénérer son Bouclier d'énergie une fois !"
 
 #: src-en/data/hyperspace.xml.append:759
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[3]/mod:findLike[2]/mod-"
 "append:shipIcon[4]/tooltip"
 msgstr ""
-"COQUE ÉPAISSE :\n"
-"[style[color:ff3377]]Réduit la vitesse de charge des armes de ce vaisseau de 5%.[[/style]]\n"
-"Les impacts sur ce vaisseau qui infligent 1 dégât ont 40% de chance d'être annulés, et tous les autres dégâts sont réduits de 1."
+"COQUE PLUS ÉPAISSE :\n"
+"\t\t\t[style[color:ff3377]]Réduit la vitesse de chargement des armes de ce vaisseau de 5%.[[/style]]\n"
+"\t\t\tLes impacts sur ce vaisseau qui infligent 1 dégât ont 40% de chances d'être annulés, et tous les autres dégâts sont réduits de 1."
 
 #: src-en/data/hyperspace.xml.append:765
 msgid ""
@@ -197,17 +197,17 @@ msgid ""
 "append:shipIcon[5]/tooltip"
 msgstr ""
 "CALIBREUR :\n"
-"Les armes de ce vaisseau ont +10% de précision et 4% de cadence de tir augmentée."
+"\t\t\tLes armes de ce vaisseau ont +10% de précision et 4% de cadence de tir accrue."
 
 #: src-en/data/hyperspace.xml.append:770
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[3]/mod:findLike[2]/mod-"
 "append:shipIcon[6]/tooltip"
 msgstr ""
-"SUFFOCATION F.I.N.E. :\n"
-"L'équipage de ce vaisseau subit 0.75x de dégâts de suffocation.\n"
-"Pendant la suffocation, ils bougent, sabotent, réparent et combattent 1.4x mieux.\n"
-"N'affecte pas l'équipage immunisé contre la suffocation."
+"CHOKING F.I.N.E. :\n"
+"\t\t\tL'équipage de ce vaisseau subit 0.75x dégâts d'asphyxie.\n"
+"\t\t\tEn asphyxiant, ils se déplacent, sabotent, réparent et combattent 1.4x mieux.\n"
+"\t\t\tN'affecte pas l'équipage immunisé contre l'asphyxie."
 
 #: src-en/data/hyperspace.xml.append:780
 msgid ""
@@ -215,8 +215,8 @@ msgid ""
 "append:shipIcon[1]/tooltip"
 msgstr ""
 "BOUCLIER D'ARROGANCE :\n"
-"Cet ennemi est protégé par un Bouclier d'énergie. Le Piratage, le Contrôle mental, la Téléportation, les Drones d'abordage, et toutes les armes infligeant des dégâts à la coque ou ioniques seront tous bloqués jusqu'à ce qu'il soit désactivé.\n"
-"Ce bouclier spécifique rend également la recharge des boucliers et des armes moins efficace, mais soigne les drones alliés et endommage les drones ennemis."
+"\t\t\tCet ennemi est protégé par un Bouclier d'énergie. Le Piratage, le Contrôle mental, la Téléportation, les Drones d'abordage et toutes les armes infligeant des dégâts à la coque ou ioniques seront tous bloqués jusqu'à ce qu'il soit désactivé.\n"
+"\t\t\tCe bouclier spécifique rend également la recharge des boucliers et des armes moins efficace, mais soigne les drones alliés et endommage les drones ennemis."
 
 #: src-en/data/hyperspace.xml.append:786
 msgid ""
@@ -224,9 +224,9 @@ msgid ""
 "append:shipIcon[2]/tooltip"
 msgstr ""
 "PONT D'EFFROI :\n"
-"Les ennemis envahissant ce vaisseau subissent 1.7x de dégâts de tout.\n"
-"L'équipage de ce vaisseau a 2.5x de soin de la plupart des sources, 2x de vitesse de clonage, et ne perd aucune compétence lors du clonage.\n"
-"[style[color:ff3377]]ATTENTION : Tout équipage dans la même salle que l'un des membres d'équipage de ce vaisseau a 0.5x de soin (ne se cumule pas) et ne peut être cloné ![[/style]] [Ce malus est une fumée violette]"
+"\t\t\tLes ennemis envahissant ce vaisseau subissent 1.7x dégâts de tout.\n"
+"\t\t\tL'équipage de ce vaisseau a 2.5x guérison de la plupart des sources, 2x vitesse de clonage, et ne perd aucune compétence lors du clonage.\n"
+"\t\t\t[style[color:ff3377]]ATTENTION : Tout équipage dans la même salle que n'importe quel membre d'équipage de ce vaisseau a 0.5x guérison (ne se cumule pas) et ne peut pas être cloné ![[/style]] [Ce malus est une fumée violette]"
 
 #: src-en/data/hyperspace.xml.append:794
 msgid ""
@@ -234,8 +234,8 @@ msgid ""
 "append:shipIcon[3]/tooltip"
 msgstr ""
 "PUNK HARMONIE :\n"
-"Les Engis de ce vaisseau sont plus résistants et immunisés contre le Contrôle mental.\n"
-"Ils sont aussi exponentiellement meilleurs en réparations, plus rapides et plus forts pour chaque niveau actif de Piratage et de Contrôle mental sur leur vaisseau !"
+"\t\t\tLes Engis de ce vaisseau sont plus résistants et immunisés contre le Contrôle mental.\n"
+"\t\t\tIls sont aussi exponentiellement meilleurs en réparation, plus rapides et plus forts pour chaque niveau actif de Piratage et de Contrôle mental sur leur vaisseau !"
 
 #: src-en/data/hyperspace.xml.append:801
 msgid ""
@@ -243,7 +243,7 @@ msgid ""
 "append:shipIcon[4]/tooltip"
 msgstr ""
 "KITS DE DÉFENSE :\n"
-"Sur leur vaisseau, l'équipage de ce vaisseau résiste aux dégâts de combat, répare et se déplace plus vite, et se soigne au fil du temps s'il est inactif (et ne pilote pas)."
+"\t\t\tSur leur vaisseau, l'équipage de ce vaisseau résiste aux dégâts de combat, répare et se déplace plus vite, et se soigne au fil du temps s'il est inactif (et ne pilote pas)."
 
 #: src-en/data/hyperspace.xml.append:806
 msgid ""
@@ -251,8 +251,8 @@ msgid ""
 "append:shipIcon[5]/tooltip"
 msgstr ""
 "DEMICLONEURS :\n"
-"Des énergies sombres tentent de ressusciter l'équipage de ce vaisseau s'il meurt (pas lors d'événements) sans une vraie Salle des clones.\n"
-"Au mieux, ils deviennent leur propre version inférieure (Soldat = Humain par défaut, etc.) Si aucune version inférieure n'existe, ils deviennent des Morphes. Quand les Morphes meurent, rien ne se passe."
+"\t\t\tDes énergies sombres tentent de ressusciter l'équipage de ce vaisseau s'il meurt (pas dans les événements) sans une vraie Salle des clones.\n"
+"\t\t\tAu mieux, ils deviennent leur propre version inférieure (Soldat = Humain par défaut, etc.) Si aucune version inférieure n'existe, ils deviennent des Morphes. Quand les Morphes meurent, rien ne se passe."
 
 #: src-en/data/hyperspace.xml.append:812
 msgid ""
@@ -260,7 +260,7 @@ msgid ""
 "append:shipIcon[6]/tooltip"
 msgstr ""
 "REFROIDISSEUR MENTAL :\n"
-"Lorsqu'il est sous l'effet du Contrôle mental, l'équipage de ce vaisseau ne peut pas combattre, saboter ou se téléporter. Fonctionne sur les deux vaisseaux."
+"\t\t\tLorsqu'il est sous les effets du Contrôle mental, l'équipage de ce vaisseau ne peut pas combattre, saboter ou se téléporter. Fonctionne sur les deux vaisseaux."
 
 #: src-en/data/hyperspace.xml.append:820
 msgid ""
@@ -268,7 +268,7 @@ msgid ""
 "append:shipIcon[1]/tooltip"
 msgstr ""
 "TÉLÉPORTEUR PLASMATIQUE :\n"
-"Ce vaisseau peut instantanément mettre son ennemi en feu au début d'un combat !"
+"\t\t\tCe vaisseau peut instantanément mettre son ennemi à feu au début d'un combat !"
 
 #: src-en/data/hyperspace.xml.append:825
 msgid ""
@@ -276,15 +276,15 @@ msgid ""
 "append:shipIcon[2]/tooltip"
 msgstr ""
 "PRÉ-CHARGEUR SCORCH :\n"
-"Les armes de ce vaisseau sont immédiatement disponibles après un saut SPL mais elles déclenchent un incendie dans la salle des Armes à chaque fois qu'elles tirent un projectile ou un rayon !"
+"\t\t\tLes armes de ce vaisseau sont rendues immédiatement disponibles après un saut SPL, mais elles déclenchent un incendie dans la salle des Armes chaque fois qu'elles tirent un projectile ou un rayon !"
 
 #: src-en/data/hyperspace.xml.append:830
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[3]/mod:findLike[4]/mod-"
 "append:shipIcon[3]/tooltip"
 msgstr ""
-"TERRE CALCINÉE :\n"
-"L'équipage de ce vaisseau résiste au feu, et se soigne en éteignant."
+"TERRE CALCINEE :\n"
+"\t\t\tL'équipage de ce vaisseau résiste au feu et se soigne en éteignant."
 
 #: src-en/data/hyperspace.xml.append:835
 msgid ""
@@ -292,15 +292,15 @@ msgid ""
 "append:shipIcon[4]/tooltip"
 msgstr ""
 "TERRE DU BRASIER :\n"
-"L'équipage de ce vaisseau résiste au feu, est boosté dans celui-ci et génère de l'O2 dans le feu, et se soigne en éteignant."
+"\t\t\tL'équipage de ce vaisseau résiste au feu, est boosté par celui-ci et génère de l'O2 dans le feu, et se soigne en éteignant."
 
 #: src-en/data/hyperspace.xml.append:840
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[3]/mod:findLike[4]/mod-"
 "append:shipIcon[5]/tooltip"
 msgstr ""
-"TERRE EN ÉRUPTION :\n"
-"L'équipage de ce vaisseau résiste au feu, est boosté dans celui-ci et génère beaucoup d'O2 dans le feu, et se soigne en éteignant."
+"TERRE ÉRUPTIVE :\n"
+"\t\t\tL'équipage de ce vaisseau résiste au feu, est boosté par celui-ci et génère beaucoup d'O2 dans le feu, et se soigne en éteignant."
 
 #: src-en/data/hyperspace.xml.append:845
 msgid ""
@@ -308,7 +308,7 @@ msgid ""
 "append:shipIcon[6]/tooltip"
 msgstr ""
 "FLAMMABILISATEUR-I :\n"
-"L'immunité au feu, la résistance ou le soin direct par le feu (hors extinction) de votre équipage sont supprimés ! Votre équipage se déplace aussi plus lentement dans le feu, encore plus pour chaque niveau actif de Survie (O2) sur ce vaisseau !"
+"\t\t\tL'immunité au feu, la résistance ou la guérison directe par le feu (hors extinction) de votre équipage sont supprimées ! Votre équipage se déplace aussi plus lentement dans le feu, encore plus pour chaque niveau actif de Système de survie (O2) sur ce vaisseau !"
 
 #: src-en/data/hyperspace.xml.append:850
 msgid ""
@@ -316,7 +316,7 @@ msgid ""
 "append:shipIcon[7]/tooltip"
 msgstr ""
 "FLAMMABILISATEUR-D :\n"
-"Votre équipage subit plus de dégâts de feu et se déplace plus lentement dans le feu. Ces effets sont plus forts pour chaque niveau actif de Survie (O2) sur ce vaisseau !"
+"\t\t\tVotre équipage subit plus de dégâts de feu et se déplace plus lentement dans le feu. Ces effets sont plus forts pour chaque niveau actif de Système de survie (O2) sur ce vaisseau !"
 
 #: src-en/data/hyperspace.xml.append:855
 msgid ""
@@ -324,8 +324,8 @@ msgid ""
 "append:shipIcon[8]/tooltip"
 msgstr ""
 "ARMES EN FEU :\n"
-"La cadence de tir des Armes et Artilleries de ce vaisseau est améliorée de 25%. Elle gagne un bonus de 1% de cadence de tir à chaque fois qu'elles tirent un projectile ou un rayon (jusqu'à 10%), mais en même temps il y a 10% de chance de déclencher un incendie dans le Contrôle des armes et toute salle d'Artillerie.\n"
-"COMBO : Le Pré-chargeur Scorch augmente le bonus max supplémentaire à 20%."
+"\t\t\tLa cadence de tir des Armes et Artilleries de ce vaisseau est améliorée de 25%. Elle gagne 1% de cadence de tir supplémentaire à chaque fois qu'elles tirent un projectile ou un rayon (jusqu'à 10%), mais en même temps il y a 10% de chances de déclencher un incendie dans le Contrôle des armes et toute salle d'Artillerie.\n"
+"\t\t\tCOMBO : Le Pré-chargeur Scorch augmente le bonus supplémentaire maximal à 20%."
 
 #: src-en/data/hyperspace.xml.append:861
 msgid ""
@@ -333,7 +333,7 @@ msgid ""
 "append:shipIcon[9]/tooltip"
 msgstr ""
 "HELLION WRAPS :\n"
-"Dans le feu, l'équipage de ce vaisseau a 1.75x de vitesse de mouvement et de sabotage, et inflige 1.75x de dégâts de combat et aux portes, sur les deux vaisseaux."
+"\t\t\tDans le feu, l'équipage de ce vaisseau a 1.75x vitesse de déplacement et de sabotage, et inflige 1.75x dégâts de combat et aux portes, sur les deux vaisseaux."
 
 #: src-en/data/hyperspace.xml.append:1473
 msgid ""
@@ -418,8 +418,8 @@ msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:race[@name=\"rk_weaponlike\"]/powerEffect[1]/tooltip"
 msgstr ""
-"Téléporter la bombe sur l'autre vaisseau, infligeant 1 dégât et causant une "
-"brèche. Obtenez 1 charge par saut."
+"Téléporter la bombe vers l'autre vaisseau, infligeant 1 dégât et causant une"
+" brèche. Obtenez 1 charge par saut."
 
 #: src-en/data/hyperspace.xml.append:2005
 msgid ""
@@ -432,7 +432,7 @@ msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:race[@name=\"rk_weaponlike\"]/powerEffect[2]/tooltip"
 msgstr ""
-"L'ENNEMI téléporte la bombe sur l'autre vaisseau, infligeant 1 dégât et "
+"L'ENNEMI téléporte la bombe vers l'autre vaisseau, infligeant 1 dégât et "
 "causant une brèche. Obtenez 1 charge par saut."
 
 #: src-en/data/hyperspace.xml.append:2052
@@ -447,7 +447,7 @@ msgid ""
 "append:race[@name=\"rk_weaponlike\"]/powerEffect[3]/tooltip"
 msgstr ""
 "Faire détoner la bombe, infligeant 1 dégât dans la pièce actuelle et causant"
-" une brèche. Obtenez 1 charge par saut."
+" une brèche. Obtenez 1 charge par saut"
 
 #: src-en/data/hyperspace.xml.append:2170
 msgid ""
@@ -460,8 +460,8 @@ msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:race[@name=\"unique_rk_defromorius\"]/powerEffect/tooltip"
 msgstr ""
-"[TEMPS DE RECHARGE : 10s DURÉE : 10s]\n"
-"L'équipage allié dans le même vaisseau, y compris Defromorius, subit 0.7x de dégâts de tout, et inflige 1.5x de dégâts."
+"[TEMPS DE RECHARGE:10s  DURÉE:10s]\n"
+"\t\t\t\tL'équipage allié dans le même vaisseau, y compris Defromorius, subit 0.7x dégâts de tout, et inflige 1.5x dégâts."
 
 #: src-en/data/hyperspace.xml.append:2281
 msgid ""
@@ -474,8 +474,8 @@ msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:race[@name=\"rk_fireghost\"]/powerEffect/tooltip"
 msgstr ""
-"[TEMPS DE RECHARGE : 10s -20PV]\n"
-"Déclenche un incendie dans une salle aléatoire sur les deux vaisseaux."
+"[TEMPS DE RECHARGE:10s -20PV]\n"
+"\t\t\t\tDéclenche un incendie dans une pièce aléatoire sur les deux vaisseaux."
 
 #: src-en/data/hyperspace.xml.append:2359
 msgid ""
@@ -493,16 +493,16 @@ msgstr "NE DEVRAIT JAMAIS ÊTRE VU, montre un nuage qui se dissipe."
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:race[@name=\"rk_bottledoxygen\"]/powerEffect[2]/buttonText"
-msgstr "EXPLOSER"
+msgstr "EXPLOSION"
 
 #: src-en/data/hyperspace.xml.append:2391
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:race[@name=\"rk_bottledoxygen\"]/powerEffect[2]/tooltip"
 msgstr ""
-"[TEMPS DE RECHARGE : 3s]\n"
-"Exploser pour 30 dégâts à tout l'équipage dans la pièce avec 60% de chance de déclencher un incendie.\n"
-"Ne peut pas s'activer pendant une téléportation ou en dessous de 15 PV."
+"[TEMPS DE RECHARGE:3s]\n"
+"\t\t\t\tExploser pour 30 dégâts d'équipage à tout l'équipage dans la pièce avec 60% de chances de déclencher un incendie.\n"
+"\t\t\t\tImpossible d'activer pendant la téléportation ou en dessous de 15 PV."
 
 #: src-en/data/hyperspace.xml.append:3364
 msgid ""
@@ -610,7 +610,7 @@ msgstr "ASSOCIÉS RK"
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[4]/category[14]/customTitle"
-msgstr "RADIKALS (10-20% DE RÉDUCTION)"
+msgstr "RADIKALS (10-20% DE RABAIS)"
 
 #: src-en/data/hyperspace.xml.append:3747
 msgid ""
@@ -676,7 +676,7 @@ msgstr "ASSOCIÉS RK BAM"
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[5]/category[9]/customTitle"
-msgstr "MARINS RK BAM"
+msgstr "MEMBRES D'ÉQUIPAGE RK BAM"
 
 #: src-en/data/hyperspace.xml.append:4019
 msgid ""
@@ -748,7 +748,7 @@ msgstr "AUGMENTATIONS RK PUNK"
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[6]/category[12]/customTitle"
-msgstr "AUGMENTATIONS PUNK D'ENSEMBLE"
+msgstr "ENSEMBLE AUGMENTATIONS PUNK"
 
 #: src-en/data/hyperspace.xml.append:4306
 msgid ""
@@ -796,7 +796,7 @@ msgstr "ASSOCIÉS RK SCORCH"
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[7]/category[9]/customTitle"
-msgstr "MARINS RK SCORCH"
+msgstr "MEMBRES D'ÉQUIPAGE RK SCORCH"
 
 #: src-en/data/hyperspace.xml.append:4492
 msgid ""
@@ -814,7 +814,7 @@ msgstr "AUGMENTATIONS RK SCORCH"
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[7]/category[13]/customTitle"
-msgstr "AUGMENTATIONS SCORCH D'ENSEMBLE"
+msgstr "ENSEMBLE AUGMENTATIONS SCORCH"
 
 #: src-en/data/hyperspace.xml.append:4551
 msgid ""
@@ -850,7 +850,7 @@ msgstr "ARMES DE SNIPER"
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[10]/mod-"
 "append:customStore/category[5]/customTitle"
-msgstr "SYSTÈMES DE SNIPER (25% DE RÉDUCTION)"
+msgstr "SYSTÈMES DE SNIPER (25% DE RABAIS)"
 
 #: src-en/data/hyperspace.xml.append:4672
 msgid ""
@@ -862,12 +862,12 @@ msgstr "AUGMENTATIONS DE SNIPER"
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[10]/mod-"
 "append:customStore/category[7]/customTitle"
-msgstr "AUGMENTATIONS DE SNIPER RK (10-20% DE RÉDUCTION)"
+msgstr "AUGMENTATIONS DE SNIPER RK (10-20% DE RABAIS)"
 
 #: src-en/data/hyperspace.xml.append:4921
 msgid ""
 "data/hyperspace.xml.append$//statBoost[@name=\"powerEffect\"]/powerEffect/buttonText"
-msgstr "BRÈCHE AU PAS"
+msgstr "STEPBREACH"
 
 #: src-en/data/hyperspace.xml.append:4922
 msgid ""
@@ -1474,13 +1474,13 @@ msgstr "???"
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_RK_EVENT_HIDEOUT\"]/description"
 msgstr ""
-"Conclure un marché avec une divinité surnaturelle pour obtenir votre propre "
-"place dans le Secteur RadiKal."
+"Passer un accord avec une divinité surnaturelle pour obtenir votre propre "
+"place dans le secteur RadiKal."
 
 #: src-en/data/hyperspace.xml.append:9696
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_RK_EVENT_HIDEOUT\"]/secretDescription"
-msgstr "S'impliquer avec des forces obscures pour le confort."
+msgstr "S'impliquer avec des forces obscures pour plus de confort."
 
 #: src-en/data/hyperspace.xml.append:9702
 msgid ""
@@ -1495,7 +1495,7 @@ msgstr "???"
 #: src-en/data/hyperspace.xml.append:9704
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_RK_EVENT_DEFROMORIUS\"]/description"
-msgstr "Sauver RK Defromorius de la suffocation dans l'espace."
+msgstr "Sauver RK Defromorius de l'asphyxie mortelle dans l'espace."
 
 #: src-en/data/hyperspace.xml.append:9705
 msgid ""
@@ -1515,7 +1515,7 @@ msgstr "???"
 #: src-en/data/hyperspace.xml.append:9720
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_RK_EVENT_HACK_FLEET_BOSS_REBEL\"]/description"
-msgstr "Attirer l'attention du Hacker MFK avec Enigmashin, puis le vaincre."
+msgstr "Attirer l'attention du Hacker MFK avec Énigmachine, puis le vaincre."
 
 #: src-en/data/hyperspace.xml.append:9721
 msgid ""
@@ -1579,12 +1579,12 @@ msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_BAM_CREW\"]/description"
 msgstr ""
 "Montrer un équipage RK Bam à Thest.\n"
-"Pendant l'effet, vos RadiKals gagnent 29 PV de plus et 1.1x de dégâts de combat."
+"\t\t\t\tEn vigueur, vos RadiKals gagnent 29 PV supplémentaires et 1.1x dégâts de combat."
 
 #: src-en/data/hyperspace.xml.append:9766
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_BAM_CREW\"]/header"
-msgstr "Faveur Reçue"
+msgstr "Faveur reçue"
 
 #: src-en/data/hyperspace.xml.append:9772
 msgid ""
@@ -1606,12 +1606,12 @@ msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_PUNK_CREW\"]/description"
 msgstr ""
 "Montrer un équipage RK Punk à Thest.\n"
-"Pendant l'effet, vos RadiKals se soignent et sont clonés 40% plus vite."
+"\t\t\t\tEn vigueur, vos RadiKals se soignent et sont clonés 40% plus vite."
 
 #: src-en/data/hyperspace.xml.append:9777
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_PUNK_CREW\"]/header"
-msgstr "Faveur Reçue"
+msgstr "Faveur reçue"
 
 #: src-en/data/hyperspace.xml.append:9783
 msgid ""
@@ -1633,12 +1633,12 @@ msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_SCORCH_CREW\"]/description"
 msgstr ""
 "Montrer un équipage RK Scorch à Thest.\n"
-"Pendant l'effet, dans le feu, vos RadiKals gagnent 1.3x de vitesse de déplacement et de dégâts de combat."
+"\t\t\t\tEn vigueur, dans le feu, vos RadiKals gagnent 1.3x vitesse de déplacement et dégâts de combat."
 
 #: src-en/data/hyperspace.xml.append:9788
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_SCORCH_CREW\"]/header"
-msgstr "Faveur Reçue"
+msgstr "Faveur reçue"
 
 #: src-en/data/hyperspace.xml.append:9795
 msgid ""
@@ -1653,19 +1653,19 @@ msgstr "Recevoir la Bénédiction de ??? de Wakeson."
 #: src-en/data/hyperspace.xml.append:9797
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_BAM_EQUIPMENT\"]/name"
-msgstr "Bénédiction de Robustesse RadiKal"
+msgstr "Bénédiction de Résistance RadiKal"
 
 #: src-en/data/hyperspace.xml.append:9798
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_BAM_EQUIPMENT\"]/description"
 msgstr ""
-"Montrer l'équipement RK Bam à Wakeson.\n"
-"Pendant l'effet, +8% de chance de résister aux dégâts de coque, système et ioniques des armes ennemies."
+"Montrer de l'équipement RK Bam à Wakeson.\n"
+"\t\t\t\tEn vigueur, +8% de chance de résister aux dégâts de coque, de système et ioniques des armes ennemies."
 
 #: src-en/data/hyperspace.xml.append:9800
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_BAM_EQUIPMENT\"]/header"
-msgstr "Bénédiction Reçue"
+msgstr "Bénédiction reçue"
 
 #: src-en/data/hyperspace.xml.append:9806
 msgid ""
@@ -1686,13 +1686,13 @@ msgstr "Bénédiction de Ruse RadiKal"
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_PUNK_EQUIPMENT\"]/description"
 msgstr ""
-"Montrer l'équipement RK Punk à Wakeson.\n"
-"Pendant l'effet, Vos systèmes sont réparés à une vitesse de x1.3."
+"Montrer de l'équipement RK Punk à Wakeson.\n"
+"\t\t\t\tEn vigueur, Vos systèmes sont réparés à une vitesse x1.3."
 
 #: src-en/data/hyperspace.xml.append:9811
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_PUNK_EQUIPMENT\"]/header"
-msgstr "Bénédiction Reçue"
+msgstr "Bénédiction reçue"
 
 #: src-en/data/hyperspace.xml.append:9817
 msgid ""
@@ -1713,13 +1713,13 @@ msgstr "Bénédiction de Fièvre RadiKal"
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_SCORCH_EQUIPMENT\"]/description"
 msgstr ""
-"Montrer l'équipement RK Scorch à Wakeson.\n"
-"Pendant l'effet, +8% de vitesse de recharge des armes et d'évasion."
+"Montrer de l'équipement RK Scorch à Wakeson.\n"
+"\t\t\t\tEn vigueur, +8% de vitesse de recharge des armes et d'évasion."
 
 #: src-en/data/hyperspace.xml.append:9822
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_SCORCH_EQUIPMENT\"]/header"
-msgstr "Bénédiction Reçue"
+msgstr "Bénédiction reçue"
 
 #: src-en/data/hyperspace.xml.append:9828
 msgid ""
@@ -1740,10 +1740,10 @@ msgstr "Bénédiction de Projets RadiKal"
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_BPS_EQUIPMENT\"]/description"
 msgstr ""
-"Montrer l'équipement RK BPS à Wakeson.\n"
-"Pendant l'effet, +4% de chance de résister aux dégâts de coque, système et ioniques des armes ennemies, vos systèmes sont réparés à une vitesse de 1.15x, +4% de vitesse de recharge des armes et d'évasion."
+"Montrer de l'équipement RK BPS à Wakeson.\n"
+"\t\t\t\tEn vigueur, +4% de chance de résister aux dégâts de coque, de système et ioniques des armes ennemies, vos systèmes sont réparés à une vitesse x1.15, +4% de vitesse de recharge des armes et d'évasion."
 
 #: src-en/data/hyperspace.xml.append:9833
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_BPS_EQUIPMENT\"]/header"
-msgstr "Bénédiction Reçue"
+msgstr "Bénédiction reçue"

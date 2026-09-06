@@ -19,7 +19,7 @@ msgstr ""
 msgid "data/events_sector_radikal.xml$//event[@name=\"RK_MV_TRAVELER\"]/text"
 msgstr ""
 "Vous êtes arrivé à une balise apparemment ordinaire, mais les scans montrent"
-" l'ouverture d'un tunnel de glissement. Quelqu'un avec un moteur multiversel"
+" une ouverture de tunnel de glissement. Quelqu'un avec un moteur multiversel"
 " saute à proximité !"
 
 #: src-en/data/events_sector_radikal.xml:87
@@ -31,8 +31,8 @@ msgstr ""
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_STORE_SNIPER_SIEGED\"]/text"
 msgstr ""
-"On dirait qu'un vaisseau furtif EXTRÊME-ment mortel attaque le marché voisin appartenant à une certaine \"Sniper Girl\". Si vous pouvez les arrêter, vous devriez pouvoir accéder à la boutique.\n"
-"\t\tLa boutique spécialisée semble prête à fournir un soutien-feu."
+"On dirait qu'un vaisseau furtif EXTRÊMEMENT mortel attaque le marché voisin appartenant à une certaine \" Sniper Girl \". Si vous pouvez les arrêter, vous devriez pouvoir accéder au magasin.\n"
+"\t\tLe magasin spécialisé semble prêt à fournir un soutien-feu."
 
 #: src-en/data/events_sector_radikal.xml:110
 msgid ""
@@ -58,7 +58,7 @@ msgstr ""
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_STORE_SNIPER_SIEGED\"]/choice[2]/event/text"
 msgstr ""
-"Vous êtes assez sûr qu'ils ont remarqué votre présence, mais ils semblent "
+"Vous êtes presque sûr qu'ils ont remarqué votre présence, mais ils semblent "
 "trop occupés pour s'en soucier."
 
 #: src-en/data/events_sector_radikal.xml:126
@@ -75,7 +75,7 @@ msgstr ""
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_STORE_SNIPER_EXTREME\"]/destroyed/text"
 msgstr ""
-"Le vaisseau furtif s'effondre et vous récupérez rapidement ce que vous "
+"Le vaisseau furtif se fragmente et vous récupérez rapidement ce que vous "
 "pouvez."
 
 #: src-en/data/events_sector_radikal.xml:143
@@ -87,8 +87,8 @@ msgstr ""
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_STORE_SNIPER_EXTREME\"]/deadCrew/text"
 msgstr ""
-"L'équipage mort, vous récupérez rapidement ce que vous pouvez du vaisseau "
-"furtif."
+"Avec l'équipage mort, vous récupérez rapidement ce que vous pouvez du "
+"vaisseau furtif."
 
 #: src-en/data/events_sector_radikal.xml:151
 msgid ""
@@ -99,15 +99,15 @@ msgstr ""
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_STORE_SNIPER_WIN\"]/text"
 msgstr ""
-"Sniper Girl ne perd pas de temps pour vous contacter. \"Ils continuent de venir, avec un meilleur équipement à chaque fois, pour nous voler. Je ne peux juste pas souffler. Je sais que c'est pour ça que vous êtes ici aussi...\" Vous êtes sur le point de dire quelque chose pour lui remonter le moral quand elle vous coupe. \"Parce qu'il n'y a PAS de meilleure boutique dans cet univers pour l'équipement Furtif ! Si efficace, les pirates en rêvent, les coalitions complotent pour l'acquérir, et les renégats sautent pour le voler ! Achetez pendant que vous le pouvez encore !\n"
-"\t\tSaviez-vous que votre Camouflage perd 20 % de sa durée maximale quand la plupart des armes commencent à tirer ?\".\n"
+"Sniper Girl ne perd pas de temps à vous contacter. \" Ils continuent de venir, avec un meilleur équipement à chaque fois, pour nous voler. Je ne peux pas respirer. Je sais que c'est pour ça que vous êtes ici aussi... \" Vous êtes sur le point de dire quelque chose pour la remonter quand elle vous coupe. \" Parce qu'il n'y a PAS de meilleur magasin dans cet univers pour l'équipement furtif ! Si efficace, les pirates en rêvent, les coalitions complotent pour l'acquérir, et les renégats sautent pour le voler ! Achetez pendant que vous le pouvez encore !\n"
+"\t\tSaviez-vous que votre camouflage perd 20 % de sa durée maximale lorsque la plupart des armes commencent à tirer ? \"\n"
 "\t\t\n"
 "\t\tIl s'avère qu'elle est toujours dans son personnage. Les professionnels du secteur RK doivent avoir vu des choses, vous dites-vous.\n"
 "\n"
-"\t\t\"...Et pour votre aide opportune, voici une petite incitation à acheter.\" Vous réalisez que le cadeau est votre \"Merci\", et haussé les épaules. \n"
-"\t\tPuis vous jetez un coup d'œil aux articles et comprenez immédiatement pourquoi l'attaquant est venu ici.\n"
+"\t\t\" ...Et pour votre assistance opportune, voici une petite incitation à acheter. \" Vous réalisez que le cadeau est votre \" Merci \", et haussez les épaules.\n"
+"\t\tPuis vous jetez un coup d'œil aux marchandises et comprenez immédiatement pourquoi l'attaquant est venu ici.\n"
 "\n"
-"\t\t\"Oh et, certaines de ces choses sont si difficiles à trouver qu'elles ne devraient même pas exister, donc seulement 1 achat par client. Mais pour vous, j'en ferai 3.\""
+"\t\t\" Oh et, certaines de ces choses sont si difficiles à trouver qu'elles ne devraient même pas exister, donc seulement 1 achat par client. Mais pour vous, j'en ferai 3. \""
 
 #: src-en/data/events_sector_radikal.xml:172
 msgid ""
@@ -128,9 +128,9 @@ msgstr "(Defromorius) Dites-leur de battre en retraite."
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"NEBULA_LIGHT_RKS_FIGHT_LEAD_TITANS\"]/choice[@req=\"unique_rk_defromorius\"]/event/text"
 msgstr ""
-"\"--NOUVEL OBJECTIF : DÉSARMORCER LA SITUATION-- Salutations. Arrêtez.\"\n"
+"\" --NOUVEL OBJECTIF : DÉSAMORCER LA SITUATION-- Salutations. Arrêtez. \"\n"
 "\n"
-"\t\t\t\t\"Monsieur, oui monsieur. Bordel, Defromorius est toujours en vie ! Passez le mot, ces trous du cul de l'Harmonie ont encore échoué ! Bon retour, monsieur. Donc il n'y a pas de problème ici. Nous apporterons ces butins et parlerons plus tard. En voici une partie pour s'excuser d'avoir failli vous attaquer, monsieur.\""
+"\t\t\t\t\" Oui, monsieur. Bon sang, Defromorius est toujours en vie ! Passez le mot, ces trous du cul de l'Harmonie ont encore échoué ! Bon retour, monsieur. Donc il n'y a pas de problème ici. Nous allons apporter ce butin et nous parlerons plus tard. En voici une partie pour nous excuser d'avoir failli vous attaquer, monsieur. \""
 
 #: src-en/data/events_sector_radikal.xml:226
 msgid ""
@@ -146,8 +146,8 @@ msgstr "Défendez-vous !"
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"NEBULA_LIGHT_RKS_FIGHT_LEAD_TITANS\"]/choice[2]/event/text"
 msgstr ""
-"Vous vous préparez au combat alors que votre sol est immédiatement détruit "
-"par un ennemi très imposant qui se téléporte..."
+"Vous vous préparez au combat alors que votre étage est immédiatement dévasté"
+" par un ennemi très massif qui se téléporte..."
 
 #: src-en/data/events_sector_radikal.xml:242
 msgid ""
@@ -159,41 +159,42 @@ msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"NEBULA_LIGHT_RKS_FIGHT_LEAD_TITANS\"]/choice[@req=\"cloaking\""
 " and not(@lvl)]/text"
 msgstr ""
-"(Camouflage) Essayez de vous camoufler et de fuir avant qu'ils ne puissent "
-"vous verrouiller."
+"(Camouflage) Essayez de vous camoufler et de vous enfuir avant qu'ils ne "
+"puissent verrouiller."
 
 #: src-en/data/events_sector_radikal.xml:267
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"NEBULA_LIGHT_RKS_FIGHT_LEAD_TITANS\"]/choice[@req=\"cloaking\""
 " and @lvl=\"3\"]/text"
 msgstr ""
-"(Camouflage avancé) Camouflez-vous et fuyez avant qu'ils ne puissent vous "
+"(Camouflage avancé) Camouflez-vous et fuyez avant qu'ils ne puissent "
 "verrouiller."
 
 #: src-en/data/events_sector_radikal.xml:272
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"NEBULA_LIGHT_RKS_FIGHT_LEAD_TITANS\"]/choice[@req=\"engines\""
 " and @lvl=\"3\"]/text"
-msgstr "(Moteurs) Essayez de fuir aussi vite que possible."
+msgstr "(Moteurs) Essayez de vous enfuir aussi vite que possible."
 
 #: src-en/data/events_sector_radikal.xml:276
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"NEBULA_LIGHT_RKS_FIGHT_LEAD_TITANS\"]/choice[@req=\"engines\""
 " and @lvl=\"5\"]/text"
-msgstr "(Moteurs avancés) Fuyez aussi vite que possible."
+msgstr "(Moteurs de pointe) Fuyez aussi vite que possible."
 
 #: src-en/data/events_sector_radikal.xml:282
 msgid ""
 "data/events_sector_radikal.xml$//eventList[@name=\"RKS_FIGHT_LEAD_TITANS_CLOAK\"]/event[1]/text"
 msgstr ""
-"Par chance, vous vous êtes camouflé assez vite et ils ont perdu votre trace."
+"Par chance, vous vous êtes camouflé assez rapidement et ils ont perdu votre "
+"trace."
 
 #: src-en/data/events_sector_radikal.xml:285
 msgid ""
 "data/events_sector_radikal.xml$//eventList[@name=\"RKS_FIGHT_LEAD_TITANS_CLOAK\"]/event[2]/text"
 msgstr ""
-"Malheureusement ils vous ont trouvé et n'abandonneront pas !\n"
-"\t\t\tVous vous préparez au combat alors que votre sol est immédiatement détruit par un ennemi très imposant qui se téléporte..."
+"Malheureusement, ils vous ont trouvé et n'abandonneront pas !\n"
+"\t\t\tVous vous préparez au combat alors que votre étage est immédiatement dévasté par un ennemi très massif qui se téléporte..."
 
 #: src-en/data/events_sector_radikal.xml:290
 msgid ""
@@ -204,15 +205,15 @@ msgstr ""
 msgid ""
 "data/events_sector_radikal.xml$//eventList[@name=\"RKS_FIGHT_LEAD_TITANS_ENGINES\"]/event[1]/text"
 msgstr ""
-"Ils vous veulent certainement toujours mort mais vous êtes parti avant "
+"Ils veulent certainement toujours votre mort mais vous êtes parti avant "
 "qu'ils ne puissent faire quoi que ce soit."
 
 #: src-en/data/events_sector_radikal.xml:300
 msgid ""
 "data/events_sector_radikal.xml$//eventList[@name=\"RKS_FIGHT_LEAD_TITANS_ENGINES\"]/event[2]/text"
 msgstr ""
-"Ils continuent de gagner du terrain sur vous. Incapable de fuir maintenant, vous êtes forcé de vous battre !\n"
-"\t\t\tVous vous préparez au combat alors que votre sol est immédiatement détruit par un ennemi très imposant qui se téléporte..."
+"Ils continuent de gagner du terrain sur vous. Incapable de vous échapper maintenant, vous êtes forcé de vous battre !\n"
+"\t\t\tVous vous préparez au combat alors que votre étage est immédiatement dévasté par un ennemi très massif qui se téléporte..."
 
 #: src-en/data/events_sector_radikal.xml:305
 msgid ""
@@ -223,7 +224,7 @@ msgstr ""
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_LEAD_TITANS_USER_SLUG\"]/destroyed/text"
 msgstr ""
-"Le vaisseau RK Bam s'effondre et vous récupérez rapidement une grande "
+"Le vaisseau RK Bam se fragmente et vous récupérez rapidement une grande "
 "quantité de choses."
 
 #: src-en/data/events_sector_radikal.xml:317
@@ -236,7 +237,7 @@ msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_LEAD_TITANS_USER_SLUG\"]/destroyed/choice/event/text"
 msgstr ""
 "Vous trouvez aussi leurs augmentations en morceaux, avec des bouts d'un "
-"mécanisme étrange toujours attachés. Peu importe ce qu'il pouvait faire, ce "
+"étrange mécanisme encore attaché. Peu importe ce qu'il pouvait faire, ce "
 "n'est plus fonctionnel, mais c'est de la ferraille supplémentaire."
 
 #: src-en/data/events_sector_radikal.xml:323
@@ -248,22 +249,22 @@ msgstr ""
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_LEAD_TITANS_USER_SLUG\"]/deadCrew/text"
 msgstr ""
-"L'équipage mort, vous récupérez rapidement une grande quantité de choses du vaisseau RK Bam.\n"
+"Avec l'équipage mort, vous récupérez rapidement une grande quantité de choses du vaisseau RK Bam.\n"
 "\t\t\t\n"
-"\t\t\tEn analysant l'intérieur, vous comprenez qu'un appareil interne peut vous permettre d'extraire de l'équipement du vaisseau, mais alors tout explosera.\n"
+"\t\t\tEn analysant l'intérieur, vous comprenez qu'un appareil interne peut vous laisser extraire de l'équipement du vaisseau, mais alors tout explosera.\n"
 "\t\t\tLequel choisissez-vous ?"
 
 #: src-en/data/events_sector_radikal.xml:338
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_LEAD_TITANS_USER_SLUG\"]/deadCrew/choice[1]/text"
-msgstr "\"Blindage régénératif\""
+msgstr "\" Blindage régénératif \""
 
 #: src-en/data/events_sector_radikal.xml:340
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_LEAD_TITANS_USER_SLUG\"]/deadCrew/choice[1]/event/text"
 msgstr ""
-"Vous extrayez l'augmentation et partez avant que le vaisseau n'explose en "
-"mille morceaux."
+"Vous extrayez l'augmentation et vous échappez avant que le vaisseau "
+"n'explose en mille morceaux."
 
 #: src-en/data/events_sector_radikal.xml:344
 msgid ""
@@ -273,14 +274,14 @@ msgstr ""
 #: src-en/data/events_sector_radikal.xml:351
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_LEAD_TITANS_USER_SLUG\"]/deadCrew/choice[2]/text"
-msgstr "\"F.I.N.E. étouffant\""
+msgstr "\" Asphyxie F.I.N.E. \""
 
 #: src-en/data/events_sector_radikal.xml:353
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_LEAD_TITANS_USER_SLUG\"]/deadCrew/choice[2]/event/text"
 msgstr ""
-"Vous extrayez l'augmentation et partez avant que le vaisseau n'explose en "
-"mille morceaux."
+"Vous extrayez l'augmentation et vous échappez avant que le vaisseau "
+"n'explose en mille morceaux."
 
 #: src-en/data/events_sector_radikal.xml:357
 msgid ""
@@ -290,14 +291,14 @@ msgstr ""
 #: src-en/data/events_sector_radikal.xml:364
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_LEAD_TITANS_USER_SLUG\"]/deadCrew/choice[3]/text"
-msgstr "\"Titans de Plomb\""
+msgstr "\" Titans de plomb \""
 
 #: src-en/data/events_sector_radikal.xml:366
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_LEAD_TITANS_USER_SLUG\"]/deadCrew/choice[3]/event/text"
 msgstr ""
-"Vous extrayez l'augmentation et partez avant que le vaisseau n'explose en "
-"mille morceaux."
+"Vous extrayez l'augmentation et vous échappez avant que le vaisseau "
+"n'explose en mille morceaux."
 
 #: src-en/data/events_sector_radikal.xml:370
 msgid ""
@@ -314,9 +315,9 @@ msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_FIGHT_GRAVESPRED\"]/text"
 msgstr ""
 "Cette balise est inhabitée, sauf pour un auto-vaisseau RK Punk qui manœuvre immédiatement vers vous.\n"
-"\t\t\"#--FORMES DE VIE DÉTECTÉES : REPRISE DE LA PURGE.\"\n"
+"\t\t\" #--FORMES DE VIE DÉTECTÉES : REPRISE DE LA PURGE. \"\n"
 "\t\t\n"
-"\t\tContre un tel armement, vos défenses deviendront bientôt inutiles, et votre équipage sera en grave danger !\n"
+"\t\tContre une telle arme, vos défenses deviendront bientôt inutiles, et votre équipage sera en grave danger !\n"
 "\n"
 "\t\tÀ moins que vous n'ayez des outils d'évasion ou une sorte de solution, il semble que vous devrez vous battre !"
 
@@ -329,9 +330,9 @@ msgstr "(Defromorius) Reprogrammez-le."
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_FIGHT_GRAVESPRED\"]/choice[@req=\"unique_rk_defromorius\"]/event/text"
 msgstr ""
-"\"--NOUVEL OBJECTIF : DÉSARMORCER LA SITUATION-- Commande administrateur : annuler la chasse ; larguer la cargaison ; retour à la base.\"\n"
+"\" --NOUVEL OBJECTIF : DÉSAMORCER LA SITUATION-- Commande administrateur : interrompre la traque ; larguer la cargaison ; retour à la base. \"\n"
 "\n"
-"\t\t\t\t\"#--COMMANDE ADMINISTRATEUR REÇUE ET AUTHENTIFIÉE. EXÉCUTION.\""
+"\t\t\t\t\" #--COMMANDE ADMINISTRATEUR REÇUE ET AUTHENTIFIÉE. EXÉCUTION. \""
 
 #: src-en/data/events_sector_radikal.xml:416
 msgid ""
@@ -360,40 +361,41 @@ msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_FIGHT_GRAVESPRED\"]/choice[@req=\"cloaking\""
 " and not(@lvl)]/text"
 msgstr ""
-"(Camouflage) Essayez de vous camoufler et de fuir avant qu'ils ne puissent "
-"vous verrouiller."
+"(Camouflage) Essayez de vous camoufler et de vous enfuir avant qu'ils ne "
+"puissent verrouiller."
 
 #: src-en/data/events_sector_radikal.xml:440
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_FIGHT_GRAVESPRED\"]/choice[@req=\"cloaking\""
 " and @lvl=\"3\"]/text"
 msgstr ""
-"(Camouflage avancé) Camouflez-vous et fuyez avant qu'ils ne puissent vous "
+"(Camouflage avancé) Camouflez-vous et fuyez avant qu'ils ne puissent "
 "verrouiller."
 
 #: src-en/data/events_sector_radikal.xml:445
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_FIGHT_GRAVESPRED\"]/choice[@req=\"engines\""
 " and @lvl=\"4\"]/text"
-msgstr "(Moteurs) Essayez de fuir aussi vite que possible."
+msgstr "(Moteurs) Essayez de vous enfuir aussi vite que possible."
 
 #: src-en/data/events_sector_radikal.xml:449
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_FIGHT_GRAVESPRED\"]/choice[@req=\"engines\""
 " and @lvl=\"6\"]/text"
-msgstr "(Moteurs avancés) Fuyez aussi vite que possible."
+msgstr "(Moteurs de pointe) Fuyez aussi vite que possible."
 
 #: src-en/data/events_sector_radikal.xml:455
 msgid ""
 "data/events_sector_radikal.xml$//eventList[@name=\"RKS_FIGHT_GRAVESPRED_CLOAK\"]/event[1]/text"
 msgstr ""
-"Par chance, vous vous êtes camouflé assez vite et ils ont perdu votre trace."
+"Par chance, vous vous êtes camouflé assez rapidement et ils ont perdu votre "
+"trace."
 
 #: src-en/data/events_sector_radikal.xml:458
 msgid ""
 "data/events_sector_radikal.xml$//eventList[@name=\"RKS_FIGHT_GRAVESPRED_CLOAK\"]/event[2]/text"
 msgstr ""
-"Malheureusement ils vous ont trouvé et n'abandonneront pas !\n"
+"Malheureusement, ils vous ont trouvé et n'abandonneront pas !\n"
 "\t\t\tVous vous préparez au combat tout en gardant un œil inquiet sur les niveaux de charge des armes ennemies."
 
 #: src-en/data/events_sector_radikal.xml:463
@@ -405,13 +407,13 @@ msgstr ""
 msgid ""
 "data/events_sector_radikal.xml$//eventList[@name=\"RKS_FIGHT_GRAVESPRED_ENGINES\"]/event[1]/text"
 msgstr ""
-"Il vous veut certainement toujours mort mais vous êtes parti juste à temps."
+"Il veut certainement toujours votre mort mais vous êtes parti juste à temps."
 
 #: src-en/data/events_sector_radikal.xml:473
 msgid ""
 "data/events_sector_radikal.xml$//eventList[@name=\"RKS_FIGHT_GRAVESPRED_ENGINES\"]/event[2]/text"
 msgstr ""
-"Ils continuent de gagner du terrain sur vous. Incapable de fuir maintenant, vous êtes forcé de vous battre !\n"
+"Ils continuent de gagner du terrain sur vous. Incapable de vous échapper maintenant, vous êtes forcé de vous battre !\n"
 "\t\t\tVous vous préparez au combat tout en gardant un œil inquiet sur les niveaux de charge des armes ennemies."
 
 #: src-en/data/events_sector_radikal.xml:478
@@ -423,20 +425,20 @@ msgstr ""
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_GRAVESPRED_USER_REBELAUTO\"]/destroyed/text"
 msgstr ""
-"Le vaisseau Punk s'effondre et vous récupérez rapidement une grande quantité de choses.\n"
+"Le vaisseau Punk se fragmente et vous récupérez rapidement une grande quantité de choses.\n"
 "\t\t\t\n"
-"\t\t\tEn analysant l'épave, vous comprenez qu'un appareil interne peut vous permettre d'extraire de l'équipement du vaisseau, mais alors tout explosera.\n"
+"\t\t\tEn analysant l'épave, vous comprenez qu'un appareil interne peut vous laisser extraire de l'équipement du vaisseau, mais alors tout explosera.\n"
 "\t\t\tLequel choisissez-vous ?"
 
 #: src-en/data/events_sector_radikal.xml:492
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_GRAVESPRED_USER_REBELAUTO\"]/destroyed/choice[1]/text"
-msgstr "\"Gravespred\""
+msgstr "\" Gravespred \""
 
 #: src-en/data/events_sector_radikal.xml:494
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_GRAVESPRED_USER_REBELAUTO\"]/destroyed/choice[1]/event/text"
-msgstr "Vous extrayez l'arme et partez avant que tout n'explose."
+msgstr "Vous extrayez l'arme et vous échappez avant que tout n'explose."
 
 #: src-en/data/events_sector_radikal.xml:498
 msgid ""
@@ -446,12 +448,12 @@ msgstr ""
 #: src-en/data/events_sector_radikal.xml:505
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_GRAVESPRED_USER_REBELAUTO\"]/destroyed/choice[2]/text"
-msgstr "\"Artemis Batterie\""
+msgstr "\" Battery Artemis \""
 
 #: src-en/data/events_sector_radikal.xml:507
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_GRAVESPRED_USER_REBELAUTO\"]/destroyed/choice[2]/event/text"
-msgstr "Vous extrayez l'arme et partez avant que tout n'explose."
+msgstr "Vous extrayez l'arme et vous échappez avant que tout n'explose."
 
 #: src-en/data/events_sector_radikal.xml:511
 msgid ""
@@ -461,12 +463,13 @@ msgstr ""
 #: src-en/data/events_sector_radikal.xml:518
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_GRAVESPRED_USER_REBELAUTO\"]/destroyed/choice[3]/text"
-msgstr "\"Bouclier de l'arrogance\""
+msgstr "\" Bouclier d'arrogance \""
 
 #: src-en/data/events_sector_radikal.xml:520
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_GRAVESPRED_USER_REBELAUTO\"]/destroyed/choice[3]/event/text"
-msgstr "Vous extrayez l'augmentation et partez avant que tout n'explose."
+msgstr ""
+"Vous extrayez l'augmentation et vous échappez avant que tout n'explose."
 
 #: src-en/data/events_sector_radikal.xml:524
 msgid ""
@@ -481,9 +484,9 @@ msgstr "Rien"
 #: src-en/data/events_sector_radikal.xml:541
 msgid "data/events_sector_radikal.xml$//event[@name=\"RKS_FIGHT_WOF\"]/text"
 msgstr ""
-"Votre vaisseau a à peine fini le saut que vous êtes déjà devant un petit vaisseau RK Scorch à l'air furieux, criant rapidement sur les communications ouvertes.\n"
-"\t\t\"Les voilà ! Vous n'auriez pas dû jouer avec nos livraisons, sale mercenaire ! N'essayez même pas de nier. Meurs ! Brûle !\"\n"
-"\t\tVous essayez de leur dire qu'ils se trompent mais leurs canons chauffent rapidement alors qu'ils se précipitent pour vous abattre.\n"
+"Votre vaisseau a à peine terminé le saut mais vous êtes déjà devant un petit vaisseau RK Scorch à l'air furieux, criant rapidement sur les communications ouvertes.\n"
+"\t\t\" Les voilà ! Vous n'auriez pas dû interférer avec nos livraisons, sale mercenaire ! N'essayez même pas de nier. Meurs ! Brûle ! \"\n"
+"\t\tVous essayez de leur dire qu'ils font erreur mais leurs armes chauffent rapidement alors qu'ils se précipitent pour vous abattre.\n"
 "\n"
 "\t\tÀ moins que vous n'ayez des outils d'évasion ou quelque chose de très convaincant à leur dire, il semble que vous devrez vous battre !"
 
@@ -496,9 +499,9 @@ msgstr "(Defromorius) Dites-leur de battre en retraite."
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_FIGHT_WOF\"]/choice[@req=\"unique_rk_defromorius\"]/event/text"
 msgstr ""
-"\"--NOUVEL OBJECTIF : DÉSARMORCER LA SITUATION-- Arrêtez. Salutations.\"\n"
+"\" --NOUVEL OBJECTIF : DÉSAMORCER LA SITUATION-- Arrêtez. Salutations. \"\n"
 "\n"
-"\t\t\t\t\"Oh merde ils ont capturé Defromorius ! MEURS SA- \" Quelqu'un sur l'autre vaisseau interrompt le capitaine avant qu'il ne commence à tirer. \"Ne sois pas un idiot, calme-toi et regarde encore\" \"Quoi ? Attends. Oh. Oh ! Désolé monsieur, je devrais vraiment me détendre de temps en temps pour éviter de faire des erreurs comme celle-ci. Voici des excuses, à bientôt monsieur !\" Sans perdre un instant, ils se tournent vers leur second. \"Trouvez ces bâtards !\""
+"\t\t\t\t\" Oh merde, ils ont capturé Defromorius ! MEURS, RACA- \" Quelqu'un sur l'autre vaisseau interrompt le capitaine avant qu'il ne commence à tirer. \" Ne sois pas idiot, calme-toi et regarde encore \" \" Quoi ? Attends. Oh. Oh ! Désolé monsieur, je devrais vraiment me détendre de temps en temps pour éviter de faire des erreurs comme ça. Voici des excuses, à bientôt monsieur ! \" Sans perdre une seconde, ils se tournent vers leur second. \" Trouvez les bâtards ! \""
 
 #: src-en/data/events_sector_radikal.xml:563
 msgid ""
@@ -527,40 +530,41 @@ msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_FIGHT_WOF\"]/choice[@req=\"cloaking\""
 " and not(@lvl)]/text"
 msgstr ""
-"(Camouflage) Essayez de vous camoufler et de fuir avant qu'ils ne puissent "
-"vous verrouiller."
+"(Camouflage) Essayez de vous camoufler et de vous enfuir avant qu'ils ne "
+"puissent verrouiller."
 
 #: src-en/data/events_sector_radikal.xml:587
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_FIGHT_WOF\"]/choice[@req=\"cloaking\""
 " and @lvl=\"3\"]/text"
 msgstr ""
-"(Camouflage avancé) Camouflez-vous et fuyez avant qu'ils ne puissent vous "
+"(Camouflage avancé) Camouflez-vous et fuyez avant qu'ils ne puissent "
 "verrouiller."
 
 #: src-en/data/events_sector_radikal.xml:592
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_FIGHT_WOF\"]/choice[@req=\"engines\""
 " and @lvl=\"4\"]/text"
-msgstr "(Moteurs) Essayez de fuir aussi vite que possible."
+msgstr "(Moteurs) Essayez de vous enfuir aussi vite que possible."
 
 #: src-en/data/events_sector_radikal.xml:596
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_FIGHT_WOF\"]/choice[@req=\"engines\""
 " and @lvl=\"6\"]/text"
-msgstr "(Moteurs avancés) Fuyez aussi vite que possible."
+msgstr "(Moteurs de pointe) Fuyez aussi vite que possible."
 
 #: src-en/data/events_sector_radikal.xml:602
 msgid ""
 "data/events_sector_radikal.xml$//eventList[@name=\"RKS_FIGHT_WOF_CLOAK\"]/event[1]/text"
 msgstr ""
-"Par chance, vous vous êtes camouflé assez vite et ils ont perdu votre trace."
+"Par chance, vous vous êtes camouflé assez rapidement et ils ont perdu votre "
+"trace."
 
 #: src-en/data/events_sector_radikal.xml:605
 msgid ""
 "data/events_sector_radikal.xml$//eventList[@name=\"RKS_FIGHT_WOF_CLOAK\"]/event[2]/text"
 msgstr ""
-"Malheureusement ils vous ont trouvé et n'abandonneront pas !\n"
+"Malheureusement, ils vous ont trouvé et n'abandonneront pas !\n"
 "\t\t\tVous vous préparez au combat tout en gardant un œil inquiet sur les niveaux de charge des armes ennemies."
 
 #: src-en/data/events_sector_radikal.xml:610
@@ -572,14 +576,14 @@ msgstr ""
 msgid ""
 "data/events_sector_radikal.xml$//eventList[@name=\"RKS_FIGHT_WOF_ENGINES\"]/event[1]/text"
 msgstr ""
-"Ils vous veulent certainement toujours mort mais vous êtes parti avant "
+"Ils veulent certainement toujours votre mort mais vous êtes parti avant "
 "qu'ils ne puissent faire quoi que ce soit."
 
 #: src-en/data/events_sector_radikal.xml:620
 msgid ""
 "data/events_sector_radikal.xml$//eventList[@name=\"RKS_FIGHT_WOF_ENGINES\"]/event[2]/text"
 msgstr ""
-"Ils continuent de gagner du terrain sur vous. Incapable de fuir maintenant, vous êtes forcé de vous battre !\n"
+"Ils continuent de gagner du terrain sur vous. Incapable de vous échapper maintenant, vous êtes forcé de vous battre !\n"
 "\t\t\tVous vous préparez au combat tout en gardant un œil inquiet sur les niveaux de charge des armes ennemies."
 
 #: src-en/data/events_sector_radikal.xml:625
@@ -591,7 +595,7 @@ msgstr ""
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_WOF_USER_UNION\"]/destroyed/text"
 msgstr ""
-"Le vaisseau Scorch s'effondre et vous récupérez rapidement une grande "
+"Le vaisseau Scorch se fragmente et vous récupérez rapidement une grande "
 "quantité de choses."
 
 #: src-en/data/events_sector_radikal.xml:711
@@ -604,7 +608,7 @@ msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_WOF_USER_UNION\"]/destroyed/choice/event/text"
 msgstr ""
 "Vous trouvez aussi leurs augmentations en morceaux, avec des bouts d'un "
-"mécanisme étrange toujours attachés. Peu importe ce qu'il pouvait faire, ce "
+"étrange mécanisme encore attaché. Peu importe ce qu'il pouvait faire, ce "
 "n'est plus fonctionnel, mais c'est de la ferraille supplémentaire."
 
 #: src-en/data/events_sector_radikal.xml:717
@@ -616,9 +620,9 @@ msgstr ""
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_WOF_USER_UNION\"]/deadCrew/text"
 msgstr ""
-"L'équipage mort, vous récupérez rapidement une grande quantité de choses du vaisseau Scorch.\n"
+"Avec l'équipage mort, vous récupérez rapidement une grande quantité de choses du vaisseau Scorch.\n"
 "\t\t\t\n"
-"\t\t\tEn analysant l'intérieur, vous comprenez qu'un appareil interne peut vous permettre d'extraire de l'équipement du vaisseau, mais alors tout explosera.\n"
+"\t\t\tEn analysant l'intérieur, vous comprenez qu'un appareil interne peut vous laisser extraire de l'équipement du vaisseau, mais alors tout explosera.\n"
 "\t\t\tLequel choisissez-vous ?"
 
 #: src-en/data/events_sector_radikal.xml:731
@@ -630,8 +634,8 @@ msgstr ""
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_WOF_USER_UNION\"]/deadCrew/choice[1]/event/text"
 msgstr ""
-"Vous extrayez l'augmentation et partez avant que le vaisseau n'explose en "
-"mille morceaux."
+"Vous extrayez l'augmentation et vous échappez avant que le vaisseau "
+"n'explose en mille morceaux."
 
 #: src-en/data/events_sector_radikal.xml:738
 msgid ""
@@ -647,8 +651,8 @@ msgstr ""
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_WOF_USER_UNION\"]/deadCrew/choice[2]/event/text"
 msgstr ""
-"Vous extrayez l'augmentation et partez avant que le vaisseau n'explose en "
-"mille morceaux."
+"Vous extrayez l'augmentation et vous échappez avant que le vaisseau "
+"n'explose en mille morceaux."
 
 #: src-en/data/events_sector_radikal.xml:751
 msgid ""
@@ -664,8 +668,8 @@ msgstr ""
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_WOF_USER_UNION\"]/deadCrew/choice[3]/event/text"
 msgstr ""
-"Vous extrayez l'augmentation et partez avant que le vaisseau n'explose en "
-"mille morceaux."
+"Vous extrayez l'augmentation et vous échappez avant que le vaisseau "
+"n'explose en mille morceaux."
 
 #: src-en/data/events_sector_radikal.xml:764
 msgid ""
@@ -682,19 +686,19 @@ msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_FIGHT_ELITE_COALITION\"]/text"
 msgstr ""
 "Le vaisseau de la Coalition d'élite ici s'éloigne de l'épave fraîche d'un contrebandier malchanceux. Ils ont l'air très excités sur les communications ouvertes.\n"
-"\t\t\"Ok nous avons volé de bonnes armes. Maintenant, devons tester ! Je vois une proie ici, allez allez allez !\""
+"\t\t\"Ok nous avons volé de bonnes armes. Maintenant, devons tester ! Je vois une proie ici, gogogo !\""
 
 #: src-en/data/events_sector_radikal.xml:792
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_FIGHT_ELITE_COALITION\"]/choice[@req=\"unique_nights\"]/text"
-msgstr "(Nights) Dites-leur de dégager."
+msgstr "(Nights) Dites-leur d'aller se faire voir."
 
 #: src-en/data/events_sector_radikal.xml:794
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_FIGHT_ELITE_COALITION\"]/choice[@req=\"unique_nights\"]/event/text"
 msgstr ""
 "\"Allez trouver un autre vaisseau pour tester ça, imbéciles !\"\n"
-"\t\t\t\t\"Oh merde, Nights sur ce vaisseau ? Tkkkktk. Allumez les moteurs, devons trouver proiiiiie !\""
+"\t\t\t\t\"Oh merde, Nights sur ce vaisseau ? Tkkkktk. Activez les moteurs, devons trouver proiiiiie !\""
 
 #: src-en/data/events_sector_radikal.xml:799
 msgid ""
@@ -704,14 +708,14 @@ msgstr ""
 #: src-en/data/events_sector_radikal.xml:806
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_FIGHT_ELITE_COALITION\"]/choice[@req=\"unique_tyrdeo\"]/text"
-msgstr "(Tyrdeo) Dites-leur de dégager."
+msgstr "(Tyrdeo) Dites-leur d'aller se faire voir."
 
 #: src-en/data/events_sector_radikal.xml:808
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_FIGHT_ELITE_COALITION\"]/choice[@req=\"unique_tyrdeo\"]/event/text"
 msgstr ""
 "\"Allez trouver un autre vaisseau pour tester ça, s'il vous plaît !\"\n"
-"\t\t\t\t\"Oh merde, Tyrdeo sur ce vaisseau ? Tkkkktk. Allumez les moteurs, devons trouver proiiiiie !\""
+"\t\t\t\t\"Oh merde, Tyrdeo sur ce vaisseau ? Tkkkktk. Activez les moteurs, devons trouver proiiiiie !\""
 
 #: src-en/data/events_sector_radikal.xml:813
 msgid ""
@@ -737,14 +741,14 @@ msgstr ""
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_RKS_HIDEOUT_UNLOCK\"]/text"
 msgstr ""
-"On dirait que les RadiKals travaillent vraiment avec (ou pour) des êtres surnaturels... Votre esprit devient embrumé alors qu'une voix désincarnée commence à résonner à l'intérieur de votre crâne.\n"
+"On dirait que les RadiKals travaillent vraiment avec (ou pour) des êtres surnaturels... Votre esprit devient embrumé alors qu'une voix désincarnée commence à résonner dans votre crâne.\n"
 "\t\t\n"
-"\t\t\"Je sais ce dont tu as besoin, Renégat. Cette balise si bien cachée dans la nébuleuse pourrait devenir ton propre repaire. Accessible à travers différentes chronologies grâce à mon pouvoir.\n"
-"\t\tMontre-moi que tu le mérites en tuant l'un des résidents actuels et en rasant leur installation au sol, hahe !\n"
-"\t\tVas-tu rester là à laisser d'autres Renégats devenir plus forts ? Tu sais qu'ils finiront inévitablement à la même balise que toi un jour, et ce sera sûrement le dernier lieu de repos pour l'un d'entre vous.\n"
-"\t\tNe souhaites-tu pas t'assurer que tu seras celui qui s'en sortira vivant ? CHOISIS.\"\n"
+"\t\t\"Je sais ce dont tu as besoin, Renégat. Cette balise si bien cachée dans la nébuleuse pourrait devenir ton propre repaire. Accessible à travers différentes lignes temporelles grâce à mon pouvoir.\n"
+"\t\tMontre-moi que tu le mérites en tuant l'un des résidents actuels et en rasant leur colonie jusqu'au sol, hahe !\n"
+"\t\tVas-tu juste rester là à laisser d'autres Renégats devenir plus forts ? Tu sais qu'ils finiront inévitablement à la même balise que toi un jour, et ce sera sûrement le dernier lieu de repos pour l'un d'entre vous.\n"
+"\t\tNe souhaites-tu pas t'assurer que ce sera toi qui s'en sortira vivant ? CHOISIS.\"\n"
 "\n"
-"\t\tCe dernier mot portait le poids du péché, sous forme de culpabilité et de regret. Tu n'as besoin d'en porter qu'un seul."
+"\t\tCe dernier mot portait le poids du péché, sous forme de culpabilité et de regret. Tu n'as qu'à en porter l'un des deux."
 
 #: src-en/data/events_sector_radikal.xml:878
 msgid ""
@@ -756,8 +760,8 @@ msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_RKS_HIDEOUT_UNLOCK\"]/choice[@req=\"rks_hideout_unlocked\"]/event/text"
 msgstr ""
 "Vous trouvez rapidement un propriétaire malchanceux à expulser. Peut-être ne"
-" ressentirez-vous aucune culpabilité, après tout, ils pourraient être de "
-"mauvaises personnes, non ? Quiconque a accepté ce marché pour avoir un "
+" ressentirez-vous aucune culpabilité, après tout ils pourraient être de "
+"mauvaises personnes, non ? Quiconque a accepté cet accord pour avoir un "
 "avant-poste ici doit l'être."
 
 #: src-en/data/events_sector_radikal.xml:884
@@ -778,15 +782,16 @@ msgstr ""
 #: src-en/data/events_sector_radikal.xml:898
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_RKS_HIDEOUT_UNLOCK\"]/choice[2]/text"
-msgstr "Tuer de sang-froid pour le plaisir de divinités dérangées ? Non."
+msgstr ""
+"Tuer de sang-froid pour le plaisir de divinités dérangées ? Non merci."
 
 #: src-en/data/events_sector_radikal.xml:900
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_RKS_HIDEOUT_UNLOCK\"]/choice[2]/event/text"
 msgstr ""
-"Vous rassemblez votre volonté et vous libérez de l'influence, puis partez. "
-"Vous espérez ne ressentir aucun regret, sachant que cela aurait pu aider "
-"d'autres réalités à vaincre la rébellion."
+"Vous rassemblez votre volonté et vous libérez de l'influence, puis vous "
+"partez. Vous espérez ne ressentir aucun regret, en sachant que cela aurait "
+"pu aider d'autres réalités à vaincre la rébellion."
 
 #: src-en/data/events_sector_radikal.xml:903
 msgid ""
@@ -797,10 +802,11 @@ msgstr ""
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_HIDEOUT_UNLOCKER\"]/surrender/text"
 msgstr ""
-"\"Capitaine, nous sommes du même côté ! Arrêtez juste et prenez tout- ... "
-"hrhmmrmh!... MHMRrMPH!!\" Le capitaine essayait certainement de se rendre, "
-"mais soudain ses lèvres et sa bouche... ont disparu, et son corps a commencé"
-" à danser comme une marionnette ridicule accrochée par des ficelles !"
+"\"Capitaine, nous sommes du même côté ! Arrêtez juste et prenez tout... ... "
+"hrhmmrmh !... MHMRrMPH !!\" Le capitaine essayait certainement de se rendre,"
+" mais soudain ses lèvres et sa bouche... ont disparu, et son corps a "
+"commencé à danser comme une marionnette ridicule accrochée par des ficelles "
+"!"
 
 #: src-en/data/events_sector_radikal.xml:920
 msgid ""
@@ -813,14 +819,14 @@ msgstr ""
 #: src-en/data/events_sector_radikal.xml:925
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_HIDEOUT_UNLOCKER\"]/surrender/choice[2]/text"
-msgstr "Ignorez cet événement dérangeant et continuez à attaquer..."
+msgstr "Ignorez cet événement troublant et continuez d'attaquer..."
 
 #: src-en/data/events_sector_radikal.xml:930
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_HIDEOUT_UNLOCKER\"]/destroyed/text"
 msgstr ""
-"L'ancien propriétaire de votre emplacement, la Fédération d'élite, s'effondre et vous récupérez rapidement ce que vous pouvez.\n"
-"\t\t\tUne sorte d'envie vous pousse à vous déplacer vers une zone spécifique sur une petite lune cachée dans la nébuleuse, où vous trouvez quelques bâtiments que vous détruisez et brûlez sans hésitation. Puis la fièvre retombe."
+"L'ancien propriétaire de votre emplacement de la Fédération Élite vole en éclats et vous récupérez rapidement ce que vous pouvez.\n"
+"\t\t\tUne sorte d'impulsion vous pousse à vous déplacer vers une zone spécifique sur une petite lune cachée dans la nébuleuse, où vous trouvez quelques bâtiments que vous détruisez et brûlez sans hésitation. Puis la fièvre retombe."
 
 #: src-en/data/events_sector_radikal.xml:935
 msgid ""
@@ -831,8 +837,8 @@ msgstr "Entendez la voix de la divinité."
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_HIDEOUT_UNLOCK_SUCCESS\"]/text"
 msgstr ""
-"\"BWAHAHE ! C'était négativement délicieux ! Cet endroit est maintenant à toi pour toujours... probablement. BWAAAHAHE, profite !\"\n"
-"\t\t\t\t\tMaintenant libre de toute influence, vous jetez un coup d'œil à ce pourquoi vous avez fait tout ça, et vous vous évanouissez. En reprenant vos esprits, vous sentez vos pensées changer."
+"\"BWAHAHE ! C'était négativement délicieux ! Cet endroit est maintenant à toi pour toujours... probablement. BWAAAHAHE, profite-en !\"\n"
+"\t\t\t\t\tMaintenant libre de toute influence, vous regardez pour quoi vous venez de faire tout cela, et vous vous évanouissez. En reprenant vos esprits, vous sentez vos pensées basculer."
 
 #: src-en/data/events_sector_radikal.xml:945
 msgid ""
@@ -843,8 +849,8 @@ msgstr ""
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_HIDEOUT_UNLOCKER\"]/deadCrew/text"
 msgstr ""
-"L'équipage mort, vous récupérez rapidement ce que vous pouvez de l'ancien propriétaire de votre emplacement, la Fédération d'élite.\n"
-"\t\t\tUne sorte d'envie vous pousse à vous déplacer vers une zone spécifique sur une petite lune cachée dans la nébuleuse, où vous trouvez quelques bâtiments que vous détruisez et brûlez sans hésitation. Puis la fièvre retombe."
+"L'équipage mort, vous récupérez rapidement ce que vous pouvez depuis l'ancien propriétaire de votre emplacement de la Fédération Élite.\n"
+"\t\t\tUne sorte d'impulsion vous pousse à vous déplacer vers une zone spécifique sur une petite lune cachée dans la nébuleuse, où vous trouvez quelques bâtiments que vous détruisez et brûlez sans hésitation. Puis la fièvre retombe."
 
 #: src-en/data/events_sector_radikal.xml:957
 msgid ""
@@ -855,14 +861,14 @@ msgstr "Entendez la voix de la divinité."
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/beaconType/unvisitedTooltip"
 msgstr ""
-"Dans une réalité, vous avez conclu un marché avec un dieu surnaturel pour "
+"Dans une réalité, vous avez passé un accord avec un dieu surnaturel pour "
 "obtenir cet endroit confortable où vous reposer et vous ravitailler."
 
 #: src-en/data/events_sector_radikal.xml:978
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/text"
 msgstr ""
-"Votre repaire désormais familier est une pause bienvenue face à toute la violence environnante. Vous oubliez presque le sang que vous avez dû avoir sur les mains pour l'obtenir.\n"
+"Votre repaire désormais familier est une pause bienvenue dans toute cette violence. Vous oubliez presque le sang que vous avez dû avoir sur les mains pour l'obtenir.\n"
 "\t\t\n"
 "\t\tVous considérez vos options. Construire n'est pas bon marché, mais vous savez que vous n'aurez à le faire qu'une seule fois, pour une infinité d'utilisations dans différentes réalités."
 
@@ -870,16 +876,16 @@ msgstr ""
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"rks_hideout_instabenefit\"]/text"
 msgstr ""
-"Construire un Accélérateur de construction. [La construction ne met pas fin "
-"à la balise, permettant de construire plus ou de récolter des bénéfices, "
+"Construire un Accélérateur de construction. [Construire ne met pas fin à la "
+"balise, vous permettant de construire plus ou de récolter des avantages, "
 "dans n'importe quelle partie]"
 
 #: src-en/data/events_sector_radikal.xml:990
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"rks_hideout_instabenefit\"]/event/text"
 msgstr ""
-"Vos drones se mettent au travail pour créer la roue tournante et les salles "
-"temporelles."
+"Vos drones se mettent au travail pour créer la roue tournante et les pièces "
+"Temporelles."
 
 #: src-en/data/events_sector_radikal.xml:1003
 msgid ""
@@ -895,9 +901,9 @@ msgstr "Regardez vos drones travailler depuis la fenêtre et partez."
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"rks_hideout_multibenefit\"]/text"
 msgstr ""
-"Construire un Accélérateur de service. [Récolter un bénéfice du repaire ne "
-"met pas fin à la balise, permettant de construire plus ou de récolter des "
-"bénéfices, dans n'importe quelle partie]"
+"Construire un Accélérateur de services. [Récolter un avantage de repaire ne "
+"met pas fin à la balise, vous permettant de construire plus ou de récolter "
+"des avantages, dans n'importe quelle partie]"
 
 #: src-en/data/events_sector_radikal.xml:1017
 msgid ""
@@ -920,8 +926,8 @@ msgstr "Regardez vos drones travailler depuis la fenêtre et partez."
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"rks_hideout_morechoices_1\"]/text"
 msgstr ""
-"Construire les extensions de repaire de niveau 1. [La flotte accélère d'un "
-"tour] [Les services avec des choix multiples en ont 1 de plus]"
+"Construire des Extensions de Repaire Niv. 1. [La flotte accélère de 1 tour] "
+"[Les services avec plusieurs choix en ont 1 de plus]"
 
 #: src-en/data/events_sector_radikal.xml:1043
 msgid ""
@@ -944,15 +950,15 @@ msgstr "Regardez vos drones travailler depuis la fenêtre et partez."
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"rks_hideout_morechoices_2\"]/text"
 msgstr ""
-"Construire les extensions de repaire de niveau 2. [La flotte accélère d'un "
-"tour] [Les services avec des choix multiples en ont 1 de plus]"
+"Construire des Extensions de Repaire Niv. 2. [La flotte accélère de 1 tour] "
+"[Les services avec plusieurs choix en ont 1 de plus]"
 
 #: src-en/data/events_sector_radikal.xml:1068
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"rks_hideout_morechoices_2\"]/event/text"
 msgstr ""
 "Vos drones se mettent au travail pour reconstruire le périmètre de sécurité "
-"et étendre encore plus votre territoire."
+"et étendre votre territoire encore plus loin."
 
 #: src-en/data/events_sector_radikal.xml:1080
 msgid ""
@@ -968,15 +974,15 @@ msgstr "Regardez vos drones travailler depuis la fenêtre et partez."
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"rks_hideout_repairs\"]/text"
 msgstr ""
-"Construire une Plateforme de réparation. [La flotte accélère d'un tour] "
-"[Répare 15 coque dans n'importe quelle partie]"
+"Construire une Plateforme de réparation. [La flotte accélère de 1 tour] "
+"[Répare 15 de coque dans n'importe quelle partie]"
 
 #: src-en/data/events_sector_radikal.xml:1094
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"rks_hideout_repairs\"]/event/text"
 msgstr ""
-"Vos drones se mettent au travail pour créer l'échafaudage, les bras et les "
-"boîtes de pièces de rechange pour réparer vos vaisseaux."
+"Vos drones se mettent au travail pour créer les échafaudages, les bras et "
+"les boîtes de pièces détachées pour réparer vos vaisseaux."
 
 #: src-en/data/events_sector_radikal.xml:1105
 msgid ""
@@ -997,8 +1003,8 @@ msgstr "(Plateforme de réparation) Donnez un peu de soin à votre vaisseau."
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"RKS_HIDEOUT_CAN_REPAIR\"]/event/text"
 msgstr ""
-"Vous obtenez quelques réparations gratuites. Enfin, des réparations que vous"
-" avez déjà payées, en réalité."
+"Vous obtenez quelques réparations gratuites. Eh bien, des réparations que "
+"vous avez déjà payées, en fait."
 
 #: src-en/data/events_sector_radikal.xml:1123
 msgid ""
@@ -1019,9 +1025,9 @@ msgstr ""
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"rks_hideout_scavenge\"]/text"
 msgstr ""
-"Construire un Complexe d'auto-récupération. [La flotte accélère d'un tour] "
-"[Fournit de la ferraille, du carburant, des missiles et des pièces de drone "
-"dans n'importe quelle partie]"
+"Construire un Complexe d'auto-récupération. [La flotte accélère de 1 tour] "
+"[Fournit de la ferraille, du carburant, des missiles et des pièces de drones"
+" dans n'importe quelle partie]"
 
 #: src-en/data/events_sector_radikal.xml:1141
 msgid ""
@@ -1065,7 +1071,7 @@ msgstr ""
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"rks_hideout_recruit\"]/text"
 msgstr ""
-"Construire un Centre de recrutement. [La flotte accélère d'un tour] "
+"Construire un Centre de recrutement. [La flotte accélère de 1 tour] "
 "[Certains membres d'équipage seront disponibles gratuitement dans n'importe "
 "quelle partie.]"
 
@@ -1099,7 +1105,7 @@ msgstr "Vos offres ont suscité de l'intérêt dans cette réalité."
 #: src-en/data/events_sector_radikal.xml:1219
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"RKS_HIDEOUT_CAN_RECRUIT\"]/event/choice[1]/text"
-msgstr "Choisir équipage #1 (Basique)"
+msgstr "Choisir équipage n°1 (Basique)"
 
 #: src-en/data/events_sector_radikal.xml:1221
 msgid ""
@@ -1119,7 +1125,7 @@ msgstr ""
 #: src-en/data/events_sector_radikal.xml:1236
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"RKS_HIDEOUT_CAN_RECRUIT\"]/event/choice[2]/text"
-msgstr "Choisir équipage #2 (RadiKal)"
+msgstr "Choisir équipage n°2 (RadiKal)"
 
 #: src-en/data/events_sector_radikal.xml:1238
 msgid ""
@@ -1139,7 +1145,7 @@ msgstr ""
 #: src-en/data/events_sector_radikal.xml:1252
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"RKS_HIDEOUT_CAN_RECRUIT\"]/event/choice[@req=\"rks_hideout_morechoices_1\"]/text"
-msgstr "Choisir équipage #3"
+msgstr "Choisir équipage n°3"
 
 #: src-en/data/events_sector_radikal.xml:1254
 msgid ""
@@ -1159,7 +1165,7 @@ msgstr ""
 #: src-en/data/events_sector_radikal.xml:1268
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"RKS_HIDEOUT_CAN_RECRUIT\"]/event/choice[@req=\"rks_hideout_morechoices_2\"]/text"
-msgstr "Choisir équipage #4"
+msgstr "Choisir équipage n°4"
 
 #: src-en/data/events_sector_radikal.xml:1270
 msgid ""
@@ -1179,7 +1185,7 @@ msgstr ""
 #: src-en/data/events_sector_radikal.xml:1285
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"RKS_HIDEOUT_CAN_RECRUIT\"]/event/choice[5]/text"
-msgstr "Abandonnez ceci, et faites autre chose."
+msgstr "Renoncez à cela, et faites autre chose."
 
 #: src-en/data/events_sector_radikal.xml:1290
 msgid ""
@@ -1197,7 +1203,7 @@ msgstr "Nous en avons fini avec le Repaire pour cette partie. Partez."
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"rks_hideout_getweapon\"]/text"
 msgstr ""
-"Construire un Centre de récupération d'armes. [La flotte accélère d'un tour]"
+"Construire un Centre de récupération d'armes. [La flotte accélère de 1 tour]"
 " [Certaines armes seront disponibles gratuitement dans n'importe quelle "
 "partie.]"
 
@@ -1233,12 +1239,12 @@ msgstr ""
 #: src-en/data/events_sector_radikal.xml:1332
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"RKS_HIDEOUT_CAN_GETWEAPON\"]/event/choice[1]/text"
-msgstr "Choisir arme #1"
+msgstr "Choisir arme n°1"
 
 #: src-en/data/events_sector_radikal.xml:1334
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"RKS_HIDEOUT_CAN_GETWEAPON\"]/event/choice[1]/event/text"
-msgstr "Vous attrapez l'arme."
+msgstr "Vous saisissez l'arme."
 
 #: src-en/data/events_sector_radikal.xml:1339
 msgid ""
@@ -1253,12 +1259,12 @@ msgstr ""
 #: src-en/data/events_sector_radikal.xml:1349
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"RKS_HIDEOUT_CAN_GETWEAPON\"]/event/choice[2]/text"
-msgstr "Choisir arme #2 (RadiKal)"
+msgstr "Choisir arme n°2 (RadiKal)"
 
 #: src-en/data/events_sector_radikal.xml:1351
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"RKS_HIDEOUT_CAN_GETWEAPON\"]/event/choice[2]/event/text"
-msgstr "Vous attrapez l'arme."
+msgstr "Vous saisissez l'arme."
 
 #: src-en/data/events_sector_radikal.xml:1355
 msgid ""
@@ -1273,12 +1279,12 @@ msgstr ""
 #: src-en/data/events_sector_radikal.xml:1365
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"RKS_HIDEOUT_CAN_GETWEAPON\"]/event/choice[@req=\"rks_hideout_morechoices_1\"]/text"
-msgstr "Choisir arme #3 (Économe en énergie)"
+msgstr "Choisir arme n°3 (Économe en énergie)"
 
 #: src-en/data/events_sector_radikal.xml:1367
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"RKS_HIDEOUT_CAN_GETWEAPON\"]/event/choice[@req=\"rks_hideout_morechoices_1\"]/event/text"
-msgstr "Vous attrapez l'arme."
+msgstr "Vous saisissez l'arme."
 
 #: src-en/data/events_sector_radikal.xml:1371
 msgid ""
@@ -1293,12 +1299,12 @@ msgstr ""
 #: src-en/data/events_sector_radikal.xml:1381
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"RKS_HIDEOUT_CAN_GETWEAPON\"]/event/choice[@req=\"rks_hideout_morechoices_2\"]/text"
-msgstr "Choisir arme #4 (Élite)"
+msgstr "Choisir arme n°4 (Élite)"
 
 #: src-en/data/events_sector_radikal.xml:1383
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"RKS_HIDEOUT_CAN_GETWEAPON\"]/event/choice[@req=\"rks_hideout_morechoices_2\"]/event/text"
-msgstr "Vous attrapez l'arme."
+msgstr "Vous saisissez l'arme."
 
 #: src-en/data/events_sector_radikal.xml:1388
 msgid ""
@@ -1313,7 +1319,7 @@ msgstr ""
 #: src-en/data/events_sector_radikal.xml:1399
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[@req=\"RKS_HIDEOUT_CAN_GETWEAPON\"]/event/choice[5]/text"
-msgstr "Abandonnez ceci, et faites autre chose."
+msgstr "Renoncez à cela, et faites autre chose."
 
 #: src-en/data/events_sector_radikal.xml:1404
 msgid ""
@@ -1331,16 +1337,16 @@ msgstr "Nous en avons fini avec le Repaire pour cette partie. Partez."
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[13]/text"
 msgstr ""
-"[style[color:ff3377]]Réinitialisez votre progression du Repaire. /!\\ "
+"[style[color:ff3377]]Réinitialiser votre progression de Repaire. /!\\ "
 "[[/style]]"
 
 #: src-en/data/events_sector_radikal.xml:1433
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[13]/event/text"
 msgstr ""
-"Vous vous concentrez pour demander à la divinité surnaturelle qui vous a invité ici en premier lieu de faire revenir votre Repaire dans le temps. Elle répond, l'air amusée.\n"
+"Vous vous concentrez pour demander à la divinité surnaturelle qui vous a invité ici en premier lieu de faire revenir votre Repaire dans le temps. Elle répond, l'air amusé.\n"
 "\t\t\t\t\n"
-"\t\t\t\t\"Es-tu sûr de vouloir faire cela ? Ton repaire perdra toutes ses améliorations, ne sera plus à toi, et tu ne gagneras rien en retour. Mais tu peux te battre pour le récupérer, et je rirai un bon coup, hahe !\""
+"\t\t\t\t\"Es-tu sûr de vouloir faire ça ? Ton repaire perdra toutes ses améliorations, ne sera plus à toi, et tu ne gagneras rien en retour. Mais tu pourras te battre pour le récupérer, et je me fendrai d'un bon rire, hahe !\""
 
 #: src-en/data/events_sector_radikal.xml:1439
 msgid ""
@@ -1351,9 +1357,9 @@ msgstr "Oui. Faites-le !"
 msgid ""
 "data/events_sector_radikal.xml$/dummyroot/FTL/event[@name=\"NEBULA_LIGHT_RKS_HIDEOUT\"]/choice[13]/event/choice[1]/event/text"
 msgstr ""
-"Tout ce que vous entendez est un rire chaleureux (...sans cœur ?), vous clignez une fois des yeux, et c'est ainsi fait.\n"
+"Tout ce que vous entendez est un rire chaleureux (...sans cœur ?), vous clignez des yeux une fois, et c'est fait.\n"
 "\t\t\t\t\t\t\n"
-"\t\t\t\t\t\tC'est comme si vous n'étiez jamais venu ici. La prochaine fois que vous verrez l'endroit, il aura probablement un nouveau propriétaire. Ou est-ce l'ancien propriétaire ? Le voyage dans le temps est étrange."
+"\t\t\t\t\t\tC'est comme si vous n'étiez jamais venu ici. La prochaine fois que vous verrez l'endroit, il aura probablement un nouveau propriétaire. Ou est-ce l'ancien propriétaire ? Le voyage dans le temps, c'est bizarre."
 
 #: src-en/data/events_sector_radikal.xml:1456
 msgid ""
@@ -1394,22 +1400,22 @@ msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_SUSPICIOUS_SMUGGLER\"]/choice[@req=\"RKS_POLICE_WARRANT\""
 " and @lvl=\"0\"]/text"
 msgstr ""
-"Sans mandat de police, vous ne pouvez pas les soumettre à une fouille."
+"Sans Mandat de police, vous ne pouvez pas les soumettre à une fouille."
 
 #: src-en/data/events_sector_radikal.xml:1503
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_SUSPICIOUS_SMUGGLER\"]/choice[@req=\"RKS_POLICE_WARRANT\""
 " and not(@lvl)]/text"
-msgstr "(Mandat de police) Exigez de les fouiller"
+msgstr "(Mandat de police) Exigez de les fouiller."
 
 #: src-en/data/events_sector_radikal.xml:1506
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_SUSPICIOUS_SMUGGLER\"]/choice[@req=\"RKS_POLICE_WARRANT\""
 " and not(@lvl)]/event[1]/text"
 msgstr ""
-"\"Oh bon sang, vous êtes avec ces rabat-joie Zoltans ? Pas de chance... Je ne vais pas risquer nos vies pour ça, entrez donc.\"\n"
+"\"Oh bon sang, vous êtes avec ces rabat-joies de Zoltans ? Juste ma chance... Je ne risque pas nos vies pour ça, entrez.\"\n"
 "\t\t\t\t\n"
-"\t\t\t\tAprès une fouille minutieuse, vous trouvez leur augmentation RK ! Vous êtes censé la déposer dans un poste de police Zoltan, mais la garder pourrait aider à votre mission plus importante."
+"\t\t\t\tAprès une fouille approfondie, vous trouvez leur augmentation RK ! Vous êtes censé la déposer à une station de police Zoltan, mais la garder pourrait aider votre mission plus importante."
 
 #: src-en/data/events_sector_radikal.xml:1513
 msgid ""
@@ -1422,9 +1428,9 @@ msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_SUSPICIOUS_SMUGGLER\"]/choice[@req=\"RKS_POLICE_WARRANT\""
 " and not(@lvl)]/event[2]/text"
 msgstr ""
-"\"Oh bon sang, vous êtes avec ces rabat-joie Zoltans ? Pas de chance... Je ne vais pas risquer nos vies pour ça, entrez donc.\"\n"
+"\"Oh bon sang, vous êtes avec ces rabat-joies de Zoltans ? Juste ma chance... Je ne risque pas nos vies pour ça, entrez.\"\n"
 "\t\t\t\t\n"
-"\t\t\t\tAprès une fouille minutieuse, vous trouvez leur armement RK ! Vous êtes censé le déposer dans un poste de police Zoltan, mais le garder pourrait aider à votre mission plus importante."
+"\t\t\t\tAprès une fouille approfondie, vous trouvez leur armement RK ! Vous êtes censé le déposer à une station de police Zoltan, mais le garder pourrait aider votre mission plus importante."
 
 #: src-en/data/events_sector_radikal.xml:1525
 msgid ""
@@ -1436,7 +1442,7 @@ msgstr "Bien !"
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_SUSPICIOUS_SMUGGLER\"]/choice[@req=\"RKS_POLICE_WARRANT\""
 " and not(@lvl)]/event[3]/text"
-msgstr "Ils commencent immédiatement à charger leurs armes !"
+msgstr "Ils commencent immédiatement à activer leurs armes !"
 
 #: src-en/data/events_sector_radikal.xml:1534
 msgid ""
@@ -1468,13 +1474,13 @@ msgstr "Ne faites rien."
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_SUSPICIOUS_SMUGGLER\"]/choice[4]/event/text"
 msgstr ""
-"Vous n'approchez pas, mais le vaisseau semble conscient que vous les avez "
-"remarqués. \"Hé, euh, tu regardes quoi ?\""
+"Vous ne vous approchez pas, mais le vaisseau semble conscient que vous les "
+"avez remarqués. \"Hé, euh, vous regardez quoi ?\""
 
 #: src-en/data/events_sector_radikal.xml:1557
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_SUSPICIOUS_SMUGGLER\"]/choice[4]/event/choice/text"
-msgstr "Oh, tu sais..."
+msgstr "Oh, vous savez..."
 
 #: src-en/data/events_sector_radikal.xml:1559
 msgid ""
@@ -1509,25 +1515,26 @@ msgstr ""
 #: src-en/data/events_sector_radikal.xml:1596
 msgid "data/events_sector_radikal.xml$//event[@name=\"RKS_BIL_BAM_SYSTEMS\"]/text"
 msgstr ""
-"À l'intérieur de cette ceinture d'astéroïdes, vous tombez sur un étrange atelier géré par des Vexopathes.\n"
+"À l'intérieur de cette ceinture d'astéroïdes, vous tombez sur un étrange atelier tenu par des Vexopathes.\n"
 "\n"
-"\t\t\"*Grogne* C'est le 'Laboratoire d'Amélioration Brutale' RK Bam. Bienvenue.\"\n"
+"\t\t\"*Grogne* C'est le 'Labo d'Amélioration Brutale' RK Bam. Bienvenue.\"\n"
 "\t\tVous saviez déjà que les Vexopathes ne sont pas l'âme de la fête. Le ton de celui-ci réussit à vous faire sentir coupable et menacé avant même que vous ayez dit ou fait quoi que ce soit.\n"
 "\t\t\n"
-"\t\t\"Votre vaisseau, nous pouvons l'améliorer. Brutalement, au cas où vous auriez manqué cette partie. Pour peu de ferraille.\n"
-"\t\tD'abord, nous [style[color:ff3377]]supprimons toute coque inutile.[[/style]] Ensuite, vous choisissez un système pour recevoir 2 niveaux d'amélioration d'énergie, même au-delà des limites normales de votre pauvre vaisseau si applicable.\n"
-"\t\tSystèmes dont nous nous occupons : Drones, Boucliers, Armes. Par ordre alphabétique, pour éviter de confondre votre cerveau de chair.\n"
+"\t\t\"Votre vaisseau, on peut l'améliorer. Brutalement, au cas où vous auriez manqué cette partie. Pour peu de ferraille.\n"
+"\t\tD'abord, on [style[color:ff3377]]enlève toute coque inutile.[[/style]] Ensuite vous choisissez un système pour recevoir 2 niveaux d'amélioration d'énergie, même au-delà des limites normales de votre pauvre vaisseau si applicable.\n"
+"\t\tSystèmes dont on s'occupe : Drones, Boucliers, Armes. Par ordre alphabétique, pour éviter de confondre votre cerveau de chair.\n"
 "\t\t\n"
-"\t\tEnsuite vous partez. Ou obtenez quelques réparations du vaisseau de suivi avant de partir. Statistiquement recommandé.\n"
-"\t\tIndiquez votre approbation. Ou partez, ce qui me va très bien.\"\n"
+"\t\tEnsuite vous vous en allez. Ou vous obtenez des réparations du vaisseau de soin avant de vous en aller. Statistiquement recommandé.\n"
+"\t\tExprimez votre approbation. Ou partez, ce qui me va à 100%.\"\n"
 "\t\t\n"
-"\t\tL'endroit a une sécurité et vos scanners n'ont détecté aucun autre vaisseau. Cela devrait être sûr.\n"
-"\t\tEnfin, à part le côté \"être presque détruit au milieu d'une ceinture d'astéroïdes\". Et le prix semble un peu trop beau."
+"\t\tL'endroit est sécurisé et vos scanners n'ont détecté aucun autre vaisseau. Cela devrait être sûr.\n"
+"\t\tEnfin, à part le passage sur \"presque être détruit au milieu d'une ceinture d'astéroïdes\". Et le prix semble un peu trop beau."
 
 #: src-en/data/events_sector_radikal.xml:1613
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_BIL_BAM_SYSTEMS\"]/choice[1]/text"
-msgstr "Qu'est-ce qui pourrait mal tourner ? Tant pis, je suis partant !"
+msgstr ""
+"Qu'est-ce qui pourrait mal tourner ? Foutu pour foutu, je suis partant !"
 
 #: src-en/data/events_sector_radikal.xml:1615
 msgid ""
@@ -1535,10 +1542,10 @@ msgid ""
 msgstr ""
 "\"*Grogne* Passez à l'endroit avec les gros câbles d'amarrage et les bras mécaniques.\" Il n'y a aucune émotion autre que la colère dans la réponse du Vexo. Vous vous dites que même si vous aviez choisi de partir, ce serait la même chose.\n"
 "\n"
-"\t\t\t\tVous payez la ferraille, sortez de votre vaisseau et dès que vous êtes à un pas de son entrée, vous regardez avec horreur : ils sont déjà en train de le déchirer avec une grande vitesse et précision.\n"
-"\t\t\t\tLes panneaux d'armure sont impitoyablement arrachés, les poutres en alliage sont pliées ou coupées avec des outils puissants, et les éléments plus mous sont soit écrasés avec des marteaux géants, soit réduits en lambeaux.\n"
+"\t\t\t\tVous payez la ferraille, sortez de votre vaisseau et dès que vous êtes à un pas de son entrée, vous regardez avec horreur : ils sont déjà en train de le déchiqueter avec une grande vitesse et précision.\n"
+"\t\t\t\tLes panneaux d'armure sont impitoyablement arrachés, les poutres en alliage sont pliées ou coupées avec des outils haute puissance, et les éléments plus mous sont soit écrasés avec des marteaux géants, soit mis en lambeaux.\n"
 "\t\t\t\t\n"
-"\t\t\t\tToute la machinerie se fige soudainement juste avant une défaillance structurelle complète."
+"\t\t\t\tToute la machinerie se fige soudainement juste avant la défaillance structurelle complète."
 
 #: src-en/data/events_sector_radikal.xml:1629
 msgid ""
@@ -1549,23 +1556,23 @@ msgstr "...Qu'est-ce que je viens de faire ?..."
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_BIL_BAM_SYSTEMS\"]/choice[1]/event/choice/event/text"
 msgstr ""
-"Complètement imperturbable par tout cela (en fait, il n'a jamais détourné son regard de vous pour regarder le carnage), le Vexopath vous adresse à nouveau la parole, sonnant comme des distributeurs automatiques de la vieille Terre.\n"
+"Totalement imperturbable face à tout cela (en fait, il n'a même jamais détourné son regard de vous pour regarder le carnage), le Vexopathe s'adresse à nouveau à vous, sonnant comme des distributeurs automatiques de la Vieille Terre.\n"
 "\t\t\t\t\t\t\"Préparation terminée. Sélectionnez votre système.\""
 
 #: src-en/data/events_sector_radikal.xml:1635
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_BIL_BAM_SYSTEMS\"]/choice[1]/event/choice/event/choice[@req=\"drones\"]/text"
-msgstr "Améliorez mon Contrôle des drones"
+msgstr "Améliorer mon Contrôle de Drones"
 
 #: src-en/data/events_sector_radikal.xml:1645
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_BIL_BAM_SYSTEMS\"]/choice[1]/event/choice/event/choice[@req=\"shields\"]/text"
-msgstr "Améliorez mes Boucliers"
+msgstr "Améliorer mes Boucliers"
 
 #: src-en/data/events_sector_radikal.xml:1650
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_BIL_BAM_SYSTEMS\"]/choice[1]/event/choice/event/choice[@req=\"weapons\"]/text"
-msgstr "Améliorez mon Contrôle des armes"
+msgstr "Améliorer mon Contrôle des Armes"
 
 #: src-en/data/events_sector_radikal.xml:1655
 msgid ""
@@ -1576,21 +1583,20 @@ msgstr ""
 #: src-en/data/events_sector_radikal.xml:1657
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_BIL_BAM_SYSTEMS\"]/choice[1]/event/choice/event/choice[4]/event/text"
-msgstr ""
-"\"Problème typique de compétence décisionnelle. Rapport rejeté. À jamais.\""
+msgstr "\"Problème typique de compétence de décision. Rapport rejeté. À jamais.\""
 
 #: src-en/data/events_sector_radikal.xml:1671
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_BIL_BAM_SYSTEMS\"]/choice[2]/text"
-msgstr "Non merci, mais que diriez-vous si nous en engagions quelques-uns ?"
+msgstr "Non merci, mais que diriez-vous qu'on en engage quelques-uns ?"
 
 #: src-en/data/events_sector_radikal.xml:1673
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_BIL_BAM_SYSTEMS\"]/choice[2]/event/text"
 msgstr ""
-"\"Acceptation déclarée. Qui s'en soucie, l'existence est de toute façon une "
-"douleur. Vous feriez bien de nous trouver des trucs à détruire. Sinon, les "
-"vôtres feront l'affaire.\""
+"\"Acceptation déclarée. Qui s'en soucie, l'existence est une douleur de "
+"toute façon. Vous feriez bien de nous trouver des trucs à détruire. Sinon, "
+"les vôtres feront l'affaire.\""
 
 #: src-en/data/events_sector_radikal.xml:1680
 msgid ""
@@ -1601,15 +1607,14 @@ msgstr ""
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_BIL_BAM_SYSTEMS\"]/choice[3]/text"
 msgstr ""
-"Nous pourrions vous débarrasser de certaines de ces pièces de rechange à la "
-"place ?"
+"On pourrait vous délester de certaines de ces pièces détachées à la place ?"
 
 #: src-en/data/events_sector_radikal.xml:1689
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_BIL_BAM_SYSTEMS\"]/choice[3]/event/text"
 msgstr ""
-"\"Avons-nous échoué à vous identifier comme le nouveau vaisseau poubelle ? Peu probable. Mais procédez. Je m'en fiche.\"\n"
-"\t\t\t\tNe voulant pas laisser passer de la ferraille gratuite, vous prenez ce qui reste des clients précédents."
+"\"Avons-nous échoué à vous identifier comme le nouveau vaisseau videur de poubelles ? Peu probable. Mais procédez. Je m'en fiche.\"\n"
+"\t\t\t\tPas du genre à laisser passer de la ferraille gratuite, vous choisissez parmi ce qu'il reste des clients précédents."
 
 #: src-en/data/events_sector_radikal.xml:1701
 msgid ""
@@ -1625,39 +1630,39 @@ msgstr "Pas question, ne les laissez même pas espérer, sautez !"
 msgid ""
 "data/events_sector_radikal.xml$//textList[@name=\"RKS_BIL_BAM_FINISHED_TEXT\"]/text"
 msgstr ""
-"Assez rapidement, ils finissent d'ajouter des composants que vous ne reconnaissez pas à votre système, puis votre vaisseau est basiquement largué sur le côté de l'atelier.\n"
-"\tAu début vous êtes inquiet, mais les améliorations ont fonctionné !\n"
+"Assez rapidement, ils finissent d'ajouter des composants que vous ne reconnaissez pas à votre système, puis votre vaisseau est pratiquement jeté sur le côté de l'atelier.\n"
+"\tAu début, vous êtes inquiet, mais les améliorations ont fonctionné !\n"
 "\t\n"
-"\t\"Procédure 100% terminée. Vaisseau de suivi automatisé déployé. Au revoir.\"\n"
-"\tMaintenant que vous pouvez voir le prix scandaleux des réparations, vous comprenez comment cette entreprise peut rester à flot..."
+"\t\"Procédure 100% terminée. Vaisseau de soin automatisé déployé. Au revoir.\"\n"
+"\tMaintenant que vous pouvez voir le prix exorbitant des réparations, vous comprenez comment cette entreprise peut rester à flot..."
 
 #: src-en/data/events_sector_radikal.xml:1741
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_BIL_SCORCH_REACTOR\"]/text"
 msgstr ""
-"À côté de ce soleil, vous tombez sur un étrange atelier géré par des Uptors.\n"
+"À côté de ce soleil, vous tombez sur un étrange atelier tenu par des Uptors.\n"
 "\n"
-"\t\t\"Vous avez trouvé le 'Laboratoire d'Amélioration Brutale' RK Scorch, bienvenue !\n"
-"\t\tContre des frais, nous pouvons puissamment améliorer le potentiel de votre vaisseau, tout en collectant des données sur les effets secondaires de la procédure.\n"
-"\t\tLes bénéfices sont massifs : votre réacteur serait amélioré de 5 niveaux entiers, y compris au-delà de son maximum normal.\n"
+"\t\t\"Vous avez trouvé le 'Labo d'Amélioration Brutale' RK Scorch, bienvenue !\n"
+"\t\tMoyennant finance, nous pouvons grandement améliorer le potentiel de votre vaisseau, tout en recueillant des données sur les effets secondaires de la procédure.\n"
+"\t\tLes avantages sont massifs : votre réacteur serait amélioré de 5 niveaux entiers, y compris au-delà de son maximum normal.\n"
 "\n"
-"\t\tCependant, même avec le dernier protocole, après avoir jeté un coup d'œil à nos scans rapides de votre vaisseau, nous nous attendons à ce qu'il [style[color:ff3377]]subisse un misérable total de 3 dégâts de coque répartis, et aussi... prenne feu de façon assez spectaculaire[[/style]].\n"
+"\t\tCependant, même avec le dernier protocole, après avoir regardé nos scans précipités de votre vaisseau, nous nous attendons à ce qu'il [style[color:ff3377]]prenne une misérable quantité totale de 3 dégâts de coque répartis autour, et aussi... prenne feu assez spectaculairement[[/style]].\n"
 "\t\tIntéressé ?\"\n"
 "\t\t\n"
-"\t\tIl serait dommage que vous soyez attaqué dans ces conditions, mais vous n'avez remarqué aucun autre vaisseau à cette balise en arrivant..."
+"\t\tCe serait dommage si vous étiez attaqué dans ces conditions, mais vous n'avez remarqué aucun autre vaisseau à cette balise en arrivant..."
 
 #: src-en/data/events_sector_radikal.xml:1754
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_BIL_SCORCH_REACTOR\"]/choice[@req=\"reactor\"]/text"
-msgstr "Bien sûr, on n'a rien sans rien !"
+msgstr "Bien sûr, pas de gain sans peine !"
 
 #: src-en/data/events_sector_radikal.xml:1756
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_BIL_SCORCH_REACTOR\"]/choice[@req=\"reactor\"]/event/text"
 msgstr ""
-"\"Merveilleux ! Pas beaucoup de clients sont assez riches ou imprudents pour passer par là. Il est temps de recueillir quelques données.\"\n"
+"\"Merveilleux ! Peu de clients sont assez riches ou imprudents pour passer par là. Il est temps de recueillir quelques données.\"\n"
 "\t\t\t\t\n"
-"\t\t\t\tIls effectuent l'amélioration, ou plutôt ils lancent une sphère géante de slime réactif remplie de nanomachines, de combustible nucléaire et qui sait quoi d'autre directement sur la coque la plus proche de votre réacteur, puis regardent avec attente."
+"\t\t\t\tIls effectuent l'amélioration, ou plutôt ils jettent une sphère géante de boue réactive pleine de nanomachines, de combustible nucléaire et qui sait quoi d'autre directement sur la coque la plus proche de votre réacteur, puis regardent avec attente."
 
 #: src-en/data/events_sector_radikal.xml:1766
 msgid ""
@@ -1667,16 +1672,16 @@ msgstr ""
 #: src-en/data/events_sector_radikal.xml:1773
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_BIL_SCORCH_REACTOR\"]/choice[2]/text"
-msgstr "Non merci, mais que diriez-vous si nous en engagions un ?"
+msgstr "Non merci, mais que diriez-vous qu'on en engage un ?"
 
 #: src-en/data/events_sector_radikal.xml:1775
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_BIL_SCORCH_REACTOR\"]/choice[2]/event/text"
 msgstr ""
 "\"Hein ? Répondez-vous souvent aux offres par vos propres offres ? Étiez-"
-"vous du genre PDG ou politicien avant tout ce truc de Renégat ? J- ... Vous "
-"savez quoi ? C'est beaucoup de ferraille, et nous attendons depuis toujours "
-"que quelqu'un accepte le marché. Je veux voir d'autres étoiles pour une "
+"vous genre PDG ou politicien avant tout ce truc de Renégat ? J- ... Vous "
+"savez quoi ? C'est beaucoup de ferraille, et on attendait depuis toujours "
+"quelqu'un pour accepter le marché. Je veux voir d'autres étoiles pour une "
 "fois. Ça devrait me faire du bien.\""
 
 #: src-en/data/events_sector_radikal.xml:1782
@@ -1687,7 +1692,7 @@ msgstr ""
 #: src-en/data/events_sector_radikal.xml:1789
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_BIL_SCORCH_REACTOR\"]/choice[3]/text"
-msgstr "Oubliez tout ça. Cherchez plutôt prudemment autour de la balise."
+msgstr "Oubliez tout ça. Fouillez plutôt prudemment autour de la balise."
 
 #: src-en/data/events_sector_radikal.xml:1791
 msgid ""
@@ -1695,9 +1700,9 @@ msgid ""
 msgstr ""
 "Votre instinct vous dit de ne pas prendre le risque, alors vous jetez un coup d'œil autour de la balise pour être sûr.\n"
 "\n"
-"\t\t\tAprès un certain temps, vous trouvez un objet étrange flottant autour, apparemment équipé d'une sorte de détecteur et d'un émetteur longue portée. Vous en informez les Scorch.\n"
+"\t\t\tAprès quelque temps, vous trouvez un objet étrange flottant autour, apparemment piégé avec une sorte de détecteur et un émetteur longue portée. Vous en informez les Scorch.\n"
 "\t\t\n"
-"\t\t\t\"Nous vous assurons que nous n'avons aucune idée de ce à quoi cela servait. Ce n'est pas à nous, n'hésitez pas à le mettre à la ferraille.\""
+"\t\t\t\"Nous vous assurons que nous n'avons aucune idée de ce à quoi cela servait. Ce n'est pas le nôtre, n'hésitez pas à le démanteler.\""
 
 #: src-en/data/events_sector_radikal.xml:1799
 msgid ""
@@ -1718,12 +1723,12 @@ msgstr "Pas question, ne les laissez même pas espérer, sautez !"
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_UPGRADE_REACTOR_BY_5\"]/text"
 msgstr ""
-"L'amélioration est terminée. Comme averti, la pic de puissance massive engloutit rapidement votre vaisseau dans les flammes !\n"
+"L'amélioration est terminée. Comme promis, le pic de puissance massif engloutit rapidement votre vaisseau dans les flammes !\n"
 "\t\t\n"
-"\t\tÀ peine un instant plus tard, un vaisseau sort également de vitesse de saut juste au-dessus de vous, à la surprise des Scorch, qui sont, comme vous le réalisez maintenant, sans armes.\n"
-"\t\t\"JE SAVAIS que quelqu'un serait assez stupide pour marcher là-dedans ! Tout ce qu'on avait à faire, c'était d'attendre un saut jusqu'à ce que notre détecteur caché ici soit déclenché par le pic de puissance. L'embuscade la plus facile de tous les temps !\".\n"
+"\t\tÀ peine un instant plus tard, un vaisseau sort aussi de vitesse de saut juste au-dessus de vous, à la surprise des Scorch, qui sont, comme vous le réalisez maintenant, sans armes.\n"
+"\t\t\"JE SAVAIS que quelqu'un serait assez fou pour tomber dans le panneau ! Tout ce qu'on avait à faire, c'était d'attendre un saut plus loin jusqu'à ce que notre détecteur caché ici soit déclenché par le pic de puissance. L'embuscade la plus facile de tous les temps !\".\n"
 "\t\n"
-"\t\tComme si ça ne suffisait pas, ils ont de l'armement RK Fireblast. Vous feriez bien de débarrasser votre vaisseau des incendies AU PLUS VITE !"
+"\t\tComme si ce n'était pas assez grave, ils ont de l'armement RK Fireblast. Vous feriez bien de débarrasser votre vaisseau des incendies A.S.A.P. !"
 
 #: src-en/data/events_sector_radikal.xml:1851
 msgid ""
@@ -1734,7 +1739,7 @@ msgstr "Comme c'est totalement inattendu !"
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS\"]/text"
 msgstr ""
-"La balise de détresse provient d'un grand vaisseau Harmony Élite, mais il commence déjà à exploser ! Les scans ne semblent révéler aucun signe de vie à l'intérieur, donc ce n'est pas comme si vous auriez pu sauver quelqu'un.\n"
+"La balise de détresse provient d'un grand vaisseau Élite Harmonie, mais il commence déjà à exploser ! Les scans ne semblent révéler aucun signe de vie à l'intérieur, donc ce n'est pas comme si vous auriez pu sauver quelqu'un.\n"
 "\t\t\n"
 "\t\tIl pourrait y avoir juste assez de temps pour attraper la boîte noire si vous avez une solution rapide."
 
@@ -1749,7 +1754,7 @@ msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS\"]/choice[@req=\"temporal\""
 " and @lvl=\"1\"]/text"
 msgstr ""
-"(Manipulateur temporel) Ralentissez la zone de la boîte noire et récupérez-"
+"(Manipulateur Temporel) Ralentissez la zone de la boîte noire et récupérez-"
 "la."
 
 #: src-en/data/events_sector_radikal.xml:1917
@@ -1757,8 +1762,8 @@ msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS\"]/choice[@req=\"temporal\""
 " and @lvl=\"1\"]/event/text"
 msgstr ""
-"Votre Manipulateur temporel vous permet de récupérer la boîte "
-"confortablement. Vous commencez à démonter l'épave pendant le décodage."
+"Votre Manipulateur Temporel vous permet de récupérer la boîte "
+"confortablement. Vous commencez à démanteler l'épave pendant le décodage."
 
 #: src-en/data/events_sector_radikal.xml:1921
 msgid ""
@@ -1771,7 +1776,7 @@ msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS\"]/choice[@req=\"RKS_HAS_HIGH_SENSORS_AND_HACKING\""
 " and @lvl=\"0\"]/text"
 msgstr ""
-"Avec de bons capteurs et un peu de piratage, nous aurions pu le décoder."
+"Avec de bons Capteurs et un peu de Piratage, nous aurions pu le décoder."
 
 #: src-en/data/events_sector_radikal.xml:1932
 msgid ""
@@ -1785,7 +1790,7 @@ msgid ""
 " and not(@lvl)]/event/text"
 msgstr ""
 "Il ne faut qu'un instant pour que votre drone de piratage atteigne la boîte "
-"noire et découvre ce qui s'est passé. Vous commencez aussi à démonter "
+"noire et découvre ce qui s'est passé. Vous commencez aussi à démanteler "
 "l'épave."
 
 #: src-en/data/events_sector_radikal.xml:1938
@@ -1805,11 +1810,11 @@ msgstr ""
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS\"]/choice[@req=\"RKS_HAS_ENGI_AND_LANIUS\"]/event/text"
 msgstr ""
-"\"Suggestion : lancer le dévoreur de métal par le sas en moins de 8,7534 secondes. Chance de succès = significative.\"\n"
-"\t\t\t\tVous n'êtes pas trop sûr de cela, jusqu'à ce que votre Lanius saute joyeusement pour attraper la boîte comme un gamin poursuivant une collation savoureuse !\n"
+"\"Suggestion : lancez le dévoreur de métal à travers le sas en moins de 8,7534 secondes. Chance de succès = significative.\"\n"
+"\t\t\t\tVous n'êtes pas trop sûr de ça, jusqu'à ce que votre Lanius saute joyeusement pour attraper la boîte comme un gamin poursuivant une savoureuse friandise !\n"
 "\t\t\t\t\n"
-"\t\t\t\tHeureusement il est habitué à ce genre d'acrobaties, et évite toute blessure tout en rapportant de la ferraille.\n"
-"\t\t\t\tIl ajoute : \"Le vaisseau avait un goût bizarre. Un peu familier.\""
+"\t\t\t\tHeureusement, il est habitué à ce genre d'acrobaties, et évite toute blessure tout en ramenant de la ferraille.\n"
+"\t\t\t\tIl ajoute, \"Le vaisseau avait un goût bizarre. Un peu familier.\""
 
 #: src-en/data/events_sector_radikal.xml:1955
 msgid ""
@@ -1819,7 +1824,7 @@ msgstr ""
 #: src-en/data/events_sector_radikal.xml:1962
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS\"]/choice[6]/text"
-msgstr "Nous ne pouvons rien faire, récupérons juste ce qui reste."
+msgstr "Nous ne pouvons rien faire, démantelons juste ce qu'il reste."
 
 #: src-en/data/events_sector_radikal.xml:1964
 msgid ""
@@ -1837,10 +1842,10 @@ msgstr ""
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS_2\"]/text"
 msgstr ""
-"Selon la boîte, l'équipage a été écrasé ou empalé, et le vaisseau saboté, sauf pour le système de survie et l'infirmerie.\n"
-"\t\tUne seule navette a réussi à s'échapper avant que le vaisseau n'explose. Un autre vaisseau était présent, peut-être ceux qui ont fait ça. Vous réalisez qu'il est toujours là, amarré non loin de cette balise !\n"
+"D'après la boîte, l'équipage a été écrasé ou empalé, et le vaisseau saboté, sauf pour le Système de survie et l'Infirmerie.\n"
+"\t\tUne seule navette a réussi à s'échapper avant que le vaisseau n'explose. Un autre vaisseau était présent, peut-être ceux qui ont fait ça. Vous réalisez qu'il est encore ici, amarré pas loin de cette balise !\n"
 "\n"
-"\t\tAssez près pour voir ce qui se passe avant de sauter."
+"\t\tAssez près pour voir ce qui se passe avant de sauter loin."
 
 #: src-en/data/events_sector_radikal.xml:1982
 msgid ""
@@ -1856,15 +1861,15 @@ msgstr ""
 #: src-en/data/events_sector_radikal.xml:1988
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS_2\"]/choice[1]/event/choice[@req=\"mind\"]/text"
-msgstr "(Contrôle mental) Découvrez ce qui s'est passé."
+msgstr "(Contrôle Mental) Découvrez ce qui s'est passé."
 
 #: src-en/data/events_sector_radikal.xml:1990
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS_2\"]/choice[1]/event/choice[@req=\"mind\"]/event/text"
 msgstr ""
-"\"Nous vendions des appareils de torture mentale à des Défenseurs Engi. L'affaire a mal tourné quand quelque chose dans leur vaisseau est devenu fou furieux. Une navette s'est échappée. Nous avons fui.\"\n"
+"\"Nous vendions des appareils de torture mentale à des Défenseurs Engi. L'accord a mal tourné quand quelque chose dans leur vaisseau a fait un carnage. Une navette s'est échappée. On a fui.\"\n"
 "\n"
-"\t\t\t\t\t\tCela résout le mystère. Vous extrayez également la destination de la navette et partez comme si de rien n'était."
+"\t\t\t\t\t\tCela résout le mystère. Vous extrayez aussi la destination de la navette et partez comme si rien ne s'était passé."
 
 #: src-en/data/events_sector_radikal.xml:1997
 msgid ""
@@ -1880,13 +1885,13 @@ msgstr ""
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS_2\"]/choice[1]/event/choice[2]/event/text"
 msgstr ""
-"\"Les Fédéraux sont là pour se venger ! Je t'avais dit qu'on aurait dû sauter, Lisa.\"\n"
+"\"Les Fédéraux sont ici pour se venger ! Je t'avais dit qu'on aurait dû sauter, Lisa.\"\n"
 "\t\t\t\t\t\t\n"
-"\t\t\t\t\t\t\"Mais pourquoi ? Dis juste qu'on est innocents, espèce d'abruti ! Sinon on serait partis, dis-leur juste ça !\"\n"
+"\t\t\t\t\t\t\"Mais pourquoi ? Dis juste qu'on est innocents, espèce d'idiot ! Sinon on serait partis, dis juste ça !\"\n"
 "\n"
-"\t\t\t\t\t\t\"Hah ! Comme s'ils allaient nous croire, pourquoi es-tu toujours si naïve ? Charge le générateur de saut déjà !\"\n"
+"\t\t\t\t\t\t\"Hah ! Comme s'ils allaient nous croire, pourquoi es-tu toujours aussi naïve ? Charge le moteur de saut, maintenant !\"\n"
 "\n"
-"\t\t\t\t\t\tSi vous pensez vraiment qu'ils pourraient être innocents, vous devrez endommager leur coque sans les tuer pour obtenir des réponses."
+"\t\t\t\t\t\tSi vous pensez vraiment qu'ils pourraient être innocents, vous devrez abîmer leur coque sans les tuer pour obtenir des réponses."
 
 #: src-en/data/events_sector_radikal.xml:2016
 msgid ""
@@ -1901,14 +1906,14 @@ msgstr "Oubliez ça, partons."
 #: src-en/data/events_sector_radikal.xml:2030
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS_2\"]/choice[2]/text"
-msgstr "Non merci, finissez de démonter puis nous partons."
+msgstr "Non merci, finissez de démanteler puis on part."
 
 #: src-en/data/events_sector_radikal.xml:2032
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS_2\"]/choice[2]/event/text"
 msgstr ""
-"Pourquoi prendre des risques alors qu'il y a de la ferraille ici et des "
-"choses plus importantes à faire ?"
+"Pourquoi prendre des risques quand il y a de la ferraille ici et des choses "
+"plus importantes à faire ?"
 
 #: src-en/data/events_sector_radikal.xml:2036
 msgid ""
@@ -1919,8 +1924,8 @@ msgstr ""
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_DEFROMORIUS_SUSPICIOUS\"]/gotaway/text"
 msgstr ""
-"Alors que le vaisseau s'échappe, vous demandez autour du dock mais personne ne vous dit rien.\n"
-"\t\t\tVotre seule piste dans ce mystère s'envole. Retour à la mission."
+"Alors que le vaisseau s'échappe, vous demandez autour du quai mais personne ne vous dit rien.\n"
+"\t\t\tVoilà votre seule piste dans ce mystère qui s'envole. Retour à la mission."
 
 #: src-en/data/events_sector_radikal.xml:2049
 msgid ""
@@ -1933,7 +1938,7 @@ msgid ""
 msgstr ""
 "\"Ce n'était pas nous ! Je vous en supplie au nom de Lisa, arrêtez ! On vous dira tout !\"\n"
 "\t\t\t\n"
-"\t\t\t\"Attends, qu'est-ce que ça a à voir avec moi ? Ils ne savent même pas-... Oh, peu importe.\""
+"\t\t\t\"Attends, qu'est-ce que ça a à voir avec moi ? Ils ne savent même pa-... Oh, peu importe.\""
 
 #: src-en/data/events_sector_radikal.xml:2060
 msgid ""
@@ -1944,14 +1949,14 @@ msgstr "Ok, alors qui a fait ça ?"
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_DEFROMORIUS_SUSPICIOUS\"]/surrender/choice[1]/event/text"
 msgstr ""
-"\"On s'occupait juste de nos affaires, en route vers ce dock pour vendre nos babioles...\"\n"
-"\t\t\t\t\tAlors que vous plongez dans leurs yeux, la main prête à faire signe de \"Feu à volonté\", ils ajustent leur histoire.\n"
+"\"On s'occupait juste de nos affaires, en chemin vers ce quai pour vendre nos babioles...\"\n"
+"\t\t\t\t\tAlors que vous plongez vos yeux dans les leurs, la main prête à faire le geste \"Feu à volonté\", ils ajustent leur histoire.\n"
 "\t\t\t\t\t\n"
-"\t\t\t\t\t\"Ok peut-être qu'on vendait un petit choqueur neural ou deux à ces Engis sans passer par les livres officiels. Mais ensuite ils ont commencé à agir bizarrement et ont envoyé un signal de détresse. Étant juste d'humbles marchands, on a pris ça comme un indice pour se tirer ! Pas vrai, Lisa ?\"\n"
+"\t\t\t\t\t\"Ok peut-êêêtre qu'on vendait un petit choc neuronal ou deux à ces Engis sous le manteau. Mais après ils ont commencé à agir bizarrement et ont envoyé un signal de détresse. Étant juste d'humbles marchands, on a pris ça comme un indice pour se tirer d'ici ! N'est-ce pas, Lisa ?\"\n"
 "\n"
-"\t\t\t\t\t\"Dis-lui juste pour la navette, espèce d'abruti ! Pas de trucs fous, juste les faits.\"\n"
+"\t\t\t\t\t\"Dis-lui juste pour la navette, idiot ! Pas de trucs fous, juste les faits.\"\n"
 "\n"
-"\t\t\t\t\t\"Oh ouais, c'est vrai ! On a détecté ce petit vaisseau qui s'échappait, et les scans disaient qu'il y avait ce gros monstre à l'intérieur ! Une sorte de Frankenstein ! Tu sais quoi, ce doit être le tueur, c'était un travail interne, je vous le dis !\"\n"
+"\t\t\t\t\t\"Oh ouais, c'est vrai ! On a détecté ce petit vaisseau qui s'échappait, et les scans disaient qu'il y avait ce gros monstre à l'intérieur ! Une sorte de Frankenstein ! Vous savez quoi, ça doit être le tueur juste là, c'était un travail de l'intérieur, je vous le dis !\"\n"
 "\t\t\t\t\tIls commencent à divaguer sur diverses théories du complot pendant que \"Lisa\" à l'arrière semble de plus en plus inquiète pour leur santé mentale."
 
 #: src-en/data/events_sector_radikal.xml:2075
@@ -1963,8 +1968,8 @@ msgstr "Nous vous croyons. Où est allée la navette ?"
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_DEFROMORIUS_SUSPICIOUS\"]/surrender/choice[1]/event/choice/event/text"
 msgstr ""
-"Par mesure de sécurité, ils avaient des traceurs dans leur marchandise. Cela"
-" vous donne la destination de la navette."
+"Par mesure de sécurité, ils avaient des traqueurs dans leurs marchandises. "
+"Cela vous donne la destination de la navette."
 
 #: src-en/data/events_sector_radikal.xml:2083
 msgid ""
@@ -1980,8 +1985,8 @@ msgstr "C'est probablement un mensonge, continuez à vous battre !"
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_DEFROMORIUS_SUSPICIOUS\"]/destroyed/text"
 msgstr ""
-"Le vaisseau s'effondre et vous récupérez ce que vous pouvez. Peut-être que "
-"la justice a été rendue, vous ne pouvez pas vraiment être sûr."
+"Le vaisseau vole en éclats et vous récupérez ce que vous pouvez. Peut-être "
+"que justice a été faite, vous ne pouvez pas vraiment être sûr."
 
 #: src-en/data/events_sector_radikal.xml:2100
 msgid ""
@@ -1992,8 +1997,8 @@ msgstr "Même si ce n'était pas eux, de la ferraille reste de la ferraille."
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_DEFROMORIUS_SUSPICIOUS\"]/deadCrew/text"
 msgstr ""
-"L'équipage mort, vous récupérez ce que vous pouvez. Peut-être que la justice"
-" a été rendue, vous ne pouvez pas vraiment être sûr."
+"L'équipage mort, vous récupérez ce que vous pouvez. Peut-être que justice a "
+"été faite, vous ne pouvez pas vraiment être sûr."
 
 #: src-en/data/events_sector_radikal.xml:2108
 msgid ""
@@ -2004,17 +2009,17 @@ msgstr "Même si ce n'était pas eux, de la ferraille reste de la ferraille."
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS_SHUTTLE\"]/beaconType/unvisitedTooltip"
 msgstr ""
-"La destination de la créature probablement responsable de l'empalement des "
-"Engis."
+"La destination de la créature probablement responsable de l'éviscération des"
+" Engis."
 
 #: src-en/data/events_sector_radikal.xml:2134
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS_SHUTTLE\"]/text"
 msgstr ""
 "Vous trouvez rapidement la navette, qui n'est pas allée très loin car il s'avère qu'elle a subi de sérieux dégâts à un moment donné.\n"
-"\t\tLes scans révèlent effectivement de la vie à l'intérieur, s'estompant lentement. Vous détectez des marqueurs de Défenseur Engi... et de Lanius ?... et autre chose aussi ??\n"
+"\t\tLes scans révèlent en effet de la vie à l'intérieur, qui s'estompe lentement. Vous détectez des marqueurs de Défenseur Engi... et Lanius ?... et quelque chose d'autre aussi ??\n"
 "\t\t\n"
-"\t\tÇa n'a aucun sens puisqu'il n'y a qu'une seule créature détectée."
+"\t\tCela n'a pas de sens puisqu'il n'y a qu'une seule créature détectée."
 
 #: src-en/data/events_sector_radikal.xml:2140
 msgid ""
@@ -2027,7 +2032,7 @@ msgid ""
 msgstr ""
 "À votre surprise, il semble bien s'agir d'une sorte de Défenseur Engi, et il vous répond définitivement comme tel.\n"
 "\t\t\t\t\n"
-"\t\t\t\t\"Soi = en danger mais sait que vous = Fédération. --CALCUL--\n"
+"\t\t\t\t\"Moi = en péril mais sais que vous = Fédération. --CALCUL--\n"
 "\t\t\t\tCette balise = probablement pas votre mission. Votre présence ici : objectif ?\""
 
 #: src-en/data/events_sector_radikal.xml:2148
@@ -2039,12 +2044,12 @@ msgstr "Avez-vous tué les Défenseurs Engi ?"
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS_SHUTTLE\"]/choice[1]/event/choice/event/text"
 msgstr ""
-"\"Affirmatif. Nombre de raisons de mentir = 0. Soi = anomalie. --DOULEUR-- \n"
-"\t\t\t\t\t\tDécouverte accidentelle : métal-chair de Lanius : peut se lier aux nanites Engi. Exigences : matière provenant d'expériences interdites de Coquille + rafale de radiation extrêmement improbable. --STATISTIQUEMENT IMPOSSIBLE-- Verdict de l'Harmonie : annuler ou éliminer.\"\n"
+"\"Affirmatif. Nombre de raisons de mentir = 0. Moi = anomalie. --DOULEUR-- \n"
+"\t\t\t\t\t\tDécouverte accidentelle : métal-chair de Lanius : peut se lier aux nanites Engi. Prérequis : matière provenant d'expériences interdites des Coquilles + rafale de radiations extrêmement improbable. --STATISTIQUEMENT IMPOSSIBLE-- Verdict de l'Harmonie : annuler ou éliminer.\"\n"
 "\n"
 "\t\t\t\t\t\tVous n'avez pas l'air très convaincu, mais la créature continue.\n"
 "\n"
-"\t\t\t\t\t\t\"Solution pour la survie : rejoindre les RadiKals. --OBJECTIF TERMINÉ-- Cependant, Harmonie = persistante. M'a capturé. A tenté de réinitialiser avec : torture neurale. Solution pour s'échapper : tuer. --OBJECTIF TERMINÉ-- Maintenant : vos intentions ?\""
+"\t\t\t\t\t\t\"Solution de survie : rejoindre les RadiKals. --OBJECTIF TERMINÉ-- Cependant, Harmonie = persistante. M'a capturé. Tenté de réinitialiser avec : torture neuronale. Solution pour l'évasion : tuer. --OBJECTIF TERMINÉ-- Maintenant : vos intentions ?\""
 
 #: src-en/data/events_sector_radikal.xml:2159
 msgid ""
@@ -2055,16 +2060,17 @@ msgstr "Nous pourrions vous protéger de l'Harmonie."
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS_SHUTTLE\"]/choice[1]/event/choice/event/choice[1]/event/text"
 msgstr ""
-"\"Réponse = inattendue. Vous = imbéciles : 97 % de probabilité. Quoi qu'il en soit, je cesse de fonctionner dans : [time.short]\"\n"
+"\"Réponse = inattendue. Vous = imbéciles : 97% de probabilité. Quoi qu'il en soit, je cesse de fonctionner dans : [time.short]\"\n"
 "\n"
-"\t\t\t\t\t\t\t\tLa créature a l'air désespérée d'oxygène maintenant, ce qui a pris beaucoup plus de temps que vous ne le pensiez. Vous ne pouvez pas risquer de le ramener pour l'instant, mais peut-être pouvez-vous l'aider à distance et voir ce qui se passe."
+"\t\t\t\t\t\t\t\tLa créature a l'air désespérée pour de l'oxygène maintenant, ce qui a pris beaucoup plus de temps que vous ne le pensiez. Vous ne pouvez pas risquer de la faire entrer pour l'instant, mais peut-être pouvez-vous l'aider à distance et voir ce qui se passe."
 
 #: src-en/data/events_sector_radikal.xml:2166
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS_SHUTTLE\"]/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_COMBAT_OXYGENIZER\""
 " and @lvl=\"0\"]/text"
 msgstr ""
-"Vous n'avez aucun moyen d'oxygéner suffisamment en dehors de votre vaisseau."
+"Vous n'avez pas de moyens de suffisamment oxygéner en dehors de votre "
+"vaisseau."
 
 #: src-en/data/events_sector_radikal.xml:2171
 msgid ""
@@ -2076,19 +2082,18 @@ msgstr "(Oxygéniseur) Aidez-la à respirer"
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS_SHUTTLE\"]/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"NANO_MEDBAY\""
 " and @lvl=\"0\"]/text"
-msgstr ""
-"Vous ne pouvez pas diffuser la guérison de l'infirmerie aux alentours."
+msgstr "Vous ne pouvez pas répandre les soins de l'Infirmerie."
 
 #: src-en/data/events_sector_radikal.xml:2181
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS_SHUTTLE\"]/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"NANO_MEDBAY\""
 " and not(@lvl)]/text"
-msgstr "(Disperseur de Médi-Bots) Envoyez-lui de l'aide médicale"
+msgstr "(Disperseur de Médi-Bots) Envoyez-lui une aide médicale"
 
 #: src-en/data/events_sector_radikal.xml:2186
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS_SHUTTLE\"]/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_BOMBLAUNCHER_OXYBOTTLE\"]/text"
-msgstr "(Bombe à oxygène) Aidez-la à respirer"
+msgstr "(Bombe-Oxygène) Aidez-la à respirer"
 
 #: src-en/data/events_sector_radikal.xml:2188
 msgid ""
@@ -2103,7 +2108,7 @@ msgstr ""
 #: src-en/data/events_sector_radikal.xml:2198
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS_SHUTTLE\"]/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"BLUELIST_BOMBS_HEAL\"]/text"
-msgstr "(Bombe de soin) Revivez-la"
+msgstr "(Bombe de soin) Réanimez-la"
 
 #: src-en/data/events_sector_radikal.xml:2201
 msgid ""
@@ -2125,9 +2130,7 @@ msgstr "Votre système de survie (O2) est trop faible."
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS_SHUTTLE\"]/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"oxygen\""
 " and @lvl=\"3\"]/text"
-msgstr ""
-"(Système de survie avancé) Faites apporter de l'air par un drone, rapidement"
-" !"
+msgstr "(Survie avancée) Faites-lui apporter de l'air par un drone, vite !"
 
 #: src-en/data/events_sector_radikal.xml:2221
 msgid ""
@@ -2146,14 +2149,14 @@ msgstr ""
 #: src-en/data/events_sector_radikal.xml:2235
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS_SHUTTLE\"]/choice[1]/event/choice/event/choice[1]/event/choice[9]/text"
-msgstr "Laissez-la mourir, elle le méritait."
+msgstr "Laissez-la mourir, elle l'a bien mérité."
 
 #: src-en/data/events_sector_radikal.xml:2237
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS_SHUTTLE\"]/choice[1]/event/choice/event/choice[1]/event/choice[9]/event/text"
 msgstr ""
-"Vous attendez que la créature suffoque, se débattant dans le vaisseau, puis "
-"démontez les restes de la navette."
+"Vous attendez que la créature suffoque, se débattant dans le vaisseau ce "
+"faisant, puis vous démantelez les restes de la navette."
 
 #: src-en/data/events_sector_radikal.xml:2242
 msgid ""
@@ -2169,9 +2172,9 @@ msgstr "Nous vengerons nos alliés !"
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS_SHUTTLE\"]/choice[1]/event/choice/event/choice[2]/event/text"
 msgstr ""
-"\"Résultat : attendu. Solutions = aucune. Procédez, ceci = mieux que : suffocation létale.\"\n"
+"\"Résultat : attendu. Solutions = aucune. Procédez, ceci = mieux que : suffocation mortelle.\"\n"
 "\n"
-"\t\t\t\t\t\t\t\tVous mettez fin aux souffrances de la créature en toute sécurité à distance, puis démontez les restes de la navette."
+"\t\t\t\t\t\t\t\tVous abrégez sans risque les souffrances de la créature à distance, puis vous démantelez les restes de la navette."
 
 #: src-en/data/events_sector_radikal.xml:2260
 msgid ""
@@ -2188,14 +2191,14 @@ msgstr ""
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS_OFFER\"]/text"
 msgstr ""
-"\"Wow. Cette solution : ingénieuse. Vous = prometteurs, maintenant 51 % de probabilité. --NOUVEL OBJECTIF : VOUS REJOINDRE--\"\n"
+"\"Wow. Cette solution : ingénieuse. Vous = prometteurs, maintenant 51% de probabilité. --NOUVEL OBJECTIF : REJOINDRE--\"\n"
 "\n"
-"\t\tOn dirait que vous avez de nouveaux membres d'équipage loyaux. Vous demandez leur nom.\n"
+"\t\tOn dirait que vous avez un nouvel équipage loyal. Vous demandez leur nom.\n"
 "\n"
-"\t\t\"ID Soi = 'RK (Engi) Défenseur x Morphe-forme-Rocailleux x Lanius [amalgame]'.\n"
-"\t\tSinon si : vous = capacité cérébrale limitée, utilisez l'alias 'Def_Roc-Morph_Lanius'. Ou 'Defromorius'.\"\n"
+"\t\t\"Identité = 'Défenseur (Engi) RK x Morphe en forme de Rocailleux x Lanius [amalgame]'.\n"
+"\t\tSinon si : vous = capacités cérébrales limitées, utilisez l'alias 'Def_Rock-Morph_Lanius'. Ou 'Defromorius'.\"\n"
 "\t\t\n"
-"\t\tVous décidez que le dernier fera l'affaire. Une fois guéri, il vous aide à démonter complètement la navette et vous êtes prêt à partir."
+"\t\tVous décidez que le dernier fera l'affaire. Une fois guéri, il vous aide à démanteler complètement la navette et vous êtes tous prêts à partir."
 
 #: src-en/data/events_sector_radikal.xml:2287
 msgid ""
@@ -2211,17 +2214,17 @@ msgstr ""
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM\"]/beaconType/unvisitedTooltip"
 msgstr ""
-"On vous a dit que vous pouvez obtenir de super équipement RadiKal Bam à "
-"cette balise, si vous pouvez prouver que vous êtes un client."
+"On vous a dit que vous pouviez obtenir un excellent équipement RadiKal Bam à"
+" cette balise, si vous pouvez prouver que vous êtes un client."
 
 #: src-en/data/events_sector_radikal.xml:2326
 msgid "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM\"]/text"
 msgstr ""
-"La planète ici est entourée d'anneaux d'astéroïdes majestueux, rentables et très dangereux, mais vous êtes assez loin pour ne pas risquer de collisions.\n"
-"\t\tPlus vous scannez longtemps et loin, plus vous détectez d'auto-vaisseaux récoltant des minéraux dessus.\n"
-"\t\tBeaucoup de vaisseaux habités pratiquent également des manœuvres de vol, se battent entre eux dans ce qui semble être un sparring amical, ou patrouillent. Certains d'entre eux semblent vous avoir remarqué mais n'ont pas encore réagi.\n"
+"La planète ici est entourée d'anneaux d'astéroïdes majestueux, rentables et hautement dangereux, mais vous êtes assez loin pour ne pas risquer de collisions.\n"
+"\t\tPlus vous scannez longtemps et loin, plus vous détectez d'auto-vaisseaux récoltant des minéraux.\n"
+"\t\tDe nombreux vaisseaux habités pratiquent aussi des manœuvres de vol, se combattant dans ce qui semble être des sparrings amicaux, ou patrouillant. Certains semblent vous avoir remarqué mais n'ont pas réagi jusqu'ici.\n"
 "\t\t\t\n"
-"\t\tMaintenant un appel arrive depuis la planète, que vous prenez. \"Vous profitez de la vue, Capitaine ? Au lieu de rester là, montrez-nous que vous êtes un client ou dégagez.\""
+"\t\tMaintenant, un appel vient de la planète, auquel vous répondez. \"Vous appréciez la vue, Capitaine ? Au lieu de rester assis là, montrez-nous que vous êtes un client ou dégagez.\""
 
 #: src-en/data/events_sector_radikal.xml:2335
 msgid ""
@@ -2240,7 +2243,7 @@ msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM\"]/choice[@req=\"DJMOD_HAS_RADIKAL_BAM_GEAR\""
 " and not(@lvl)]/event/text"
 msgstr ""
-"\"... L'ami ! C'est de ça que je parle. Voici le cadeau de bienvenue. "
+"\"... Mon pote ! C'est de ça dont je parle. Voici le cadeau de bienvenue. "
 "Dépêchez-vous de venir pour qu'on puisse commercer !\""
 
 #: src-en/data/events_sector_radikal.xml:2346
@@ -2266,7 +2269,7 @@ msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM\"]/choice[@req=\"DJMOD_HAS_RADIKAL_GEAR\""
 " and not(@lvl)]/event/text"
 msgstr ""
-"\"Bien. J'espère que vous nous apportez quelque chose. Nous avons de "
+"\"Sympa. J'espère que vous nous apportez quelque chose. Nous avons de "
 "l'équipement. Dépêchez-vous de venir pour qu'on puisse commercer !\""
 
 #: src-en/data/events_sector_radikal.xml:2363
@@ -2279,15 +2282,15 @@ msgstr ""
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM\"]/choice[@req=\"RKS_HAS_ANY_SACRIFICEABLE_MANTIS\"]/text"
 msgstr ""
-"(Mantis non-unique) Nous avons des 'pièces' à vendre, où devrions-nous aller"
+"(Mantis non-Unique) Nous avons des 'pièces' à vendre, où devrions-nous aller"
 " ?"
 
 #: src-en/data/events_sector_radikal.xml:2372
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM\"]/choice[@req=\"RKS_HAS_ANY_SACRIFICEABLE_MANTIS\"]/event/text"
 msgstr ""
-"\"Très bien, alors c'est le labo Punk que vous voulez. Je peux vous y "
-"envoyer à la place. Soyez prêt à montrer votre équipement RadiKal.\""
+"\"D'accord, alors c'est le labo Punk que vous voulez. Je peux vous y envoyer"
+" à la place. Soyez prêt à montrer votre équipement RadiKal.\""
 
 #: src-en/data/events_sector_radikal.xml:2377
 msgid ""
@@ -2300,8 +2303,8 @@ msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM\"]/choice[@req=\"RKS_HAS_ANY_SACRIFICEABLE_MANTIS\"]/event/choice[@req=\"rks_lab_coords_punk\""
 " and @lvl=\"0\"]/event/text"
 msgstr ""
-"\"Dites-leur qu'ils puent pendant que vous y êtes. Hah ! Ces phénomènes "
-"prétentieux.\""
+"\"Dites-leur qu'ils puent pendant que vous y êtes. Hah ! Ces sales types "
+"imbus d'eux-mêmes.\""
 
 #: src-en/data/events_sector_radikal.xml:2388
 msgid ""
@@ -2324,21 +2327,21 @@ msgstr "Nous avons déjà les coordonnées de ce labo RK."
 #: src-en/data/events_sector_radikal.xml:2404
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM\"]/choice[@req=\"RKS_HAS_ANY_SACRIFICEABLE_MANTIS\"]/event/choice[3]/text"
-msgstr "Laissez tomber. Revenons à ce que nous disions..."
+msgstr "Laissez tomber. Revenons à ce qu'on disait..."
 
 #: src-en/data/events_sector_radikal.xml:2412
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM\"]/choice[@req=\"RKS_HAS_ANY_SACRIFICEABLE_ORCHID\"]/text"
 msgstr ""
-"(Orchidée non-unique) Nous avons du 'matériau inflammable' à vendre, où "
+"(Orchidées non-Unique) Nous avons du 'matériau inflammable' à vendre, où "
 "devrions-nous aller ?"
 
 #: src-en/data/events_sector_radikal.xml:2414
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM\"]/choice[@req=\"RKS_HAS_ANY_SACRIFICEABLE_ORCHID\"]/event/text"
 msgstr ""
-"\"Très bien, alors c'est le labo Punk que vous voulez. Je peux vous y "
-"envoyer à la place. Soyez prêt à montrer votre équipement RadiKal.\""
+"\"D'accord, alors c'est le labo Punk que vous voulez. Je peux vous y envoyer"
+" à la place. Soyez prêt à montrer votre équipement RadiKal.\""
 
 #: src-en/data/events_sector_radikal.xml:2418
 msgid ""
@@ -2375,7 +2378,7 @@ msgstr "Nous avons déjà les coordonnées de ce labo RK."
 #: src-en/data/events_sector_radikal.xml:2443
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM\"]/choice[@req=\"RKS_HAS_ANY_SACRIFICEABLE_ORCHID\"]/event/choice[3]/text"
-msgstr "Laissez tomber. Revenons à ce que nous disions..."
+msgstr "Laissez tomber. Revenons à ce qu'on disait..."
 
 #: src-en/data/events_sector_radikal.xml:2451
 msgid ""
@@ -2402,15 +2405,15 @@ msgstr ""
 #: src-en/data/events_sector_radikal.xml:2468
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM\"]/choice[8]/text"
-msgstr "Nous ne faisons que passer, ne nous prêtez pas attention."
+msgstr "Nous ne faisons que passer par ici, ne faites pas attention à nous."
 
 #: src-en/data/events_sector_radikal.xml:2470
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM\"]/choice[8]/event/text"
 msgstr ""
-"Il n'y a pas de réponse. Vous vous déplacez à une distance sûre et vous dites que vous avez le temps de faire un peu d'entretien.\n"
+"Il n'y a pas de réponse. Vous vous éloignez à une distance de sécurité et vous dites que vous avez le temps de faire un peu d'entretien.\n"
 "\n"
-"\t\t\tAprès un certain temps, vous détectez des vaisseaux Coquille sautant avec les armes chargées, mais vous êtes en sécurité ici."
+"\t\t\tAprès quelque temps, vous détectez des vaisseaux Coquilles sautant avec leurs armes chauffées, mais vous êtes en sécurité ici."
 
 #: src-en/data/events_sector_radikal.xml:2475
 msgid ""
@@ -2425,16 +2428,16 @@ msgstr ""
 #: src-en/data/events_sector_radikal.xml:2487
 msgid "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM_2\"]/text"
 msgstr ""
-"\"Alors, qu'est-ce que vous avez ? Quelque chose de dur, ou d'explosif ? Et qui respire ? Ou même inanimé, c'est très bien aussi, nous ne sommes pas des fanatiques comme les Scorch. Ou tordus comme les Punk, mais qui s'en soucie ? Tout le monde a l'air intelligent jusqu'à ce que sa coque soit coupée en deux, HAHAHA !\" Il dit ça comme s'ils étaient tellement meilleurs, mais vous ne pensez pas que c'est une bonne idée de le souligner.\n"
+"\"Alors, qu'est-ce que vous avez ? Quelque chose de dur, ou d'explosif ? Et qui respire ? Ou même inanimé, c'est bien aussi, on n'est pas des fanatiques comme les Scorch. Ou tordus comme les Punk, mais qui s'en soucie ? Tout le monde a l'air intelligent jusqu'à ce que sa coque soit coupée en deux, HAHAHA !\" Il dit ça comme s'ils étaient tellement meilleurs, mais vous ne pensez pas que ce soit une bonne idée de le souligner.\n"
 "\n"
-"\t\tVous regardez ce qu'ils veulent et comprenez mieux pourquoi ces gars figurent sur tant de listes d'élimination. Cependant, la mission passe avant tout, n'est-ce pas ?"
+"\t\tVous regardez ce qu'ils veulent et comprenez mieux pourquoi ces types figurent sur tant de listes de personnes à abattre. Cependant, la mission passe avant tout, n'est-ce pas ?"
 
 #: src-en/data/events_sector_radikal.xml:2494
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM_2\"]/choice[@req=\"RKS_HAS_ANY_SACRIFICEABLE_LANIUS\"]/text"
 msgstr ""
 "Vous n'avez pas de Lanius pour ça (les Uniques préféreraient vous tuer et se"
-" tuer eux-mêmes)"
+" suicider)"
 
 #: src-en/data/events_sector_radikal.xml:2499
 msgid ""
@@ -2445,7 +2448,7 @@ msgstr "Un Lanius."
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM_2\"]/choice[@req=\"lanius\"]/event/text"
 msgstr ""
-"\"Métal flexible vivant, toujours sympa. Voici votre cash.\"\n"
+"\"Métal flexible vivant, toujours sympa. Voici votre argent.\"\n"
 "\t\t\t\n"
 "\t\t\t\tVous pouvez sentir le reste de votre équipage vous juger."
 
@@ -2453,13 +2456,13 @@ msgstr ""
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM_2\"]/choice[@req=\"lanius\"]/event/removeCrew/text"
 msgstr ""
-"Vous ne pouvez pas cloner un équipage que vous avez vendu à une mort "
-"douloureuse."
+"Vous ne pouvez pas cloner un membre d'équipage que vous avez vendu pour une "
+"mort douloureuse."
 
 #: src-en/data/events_sector_radikal.xml:2515
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM_2\"]/choice[@req=\"lanius\"]/event/choice/text"
-msgstr "Continuons..."
+msgstr "Passons à autre chose..."
 
 #: src-en/data/events_sector_radikal.xml:2524
 msgid ""
@@ -2470,7 +2473,7 @@ msgstr "Un Soudeur."
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM_2\"]/choice[@req=\"lanius_welder\"]/event/text"
 msgstr ""
-"\"Rouille flexible vivante ! Voici un gros cash !\"\n"
+"\"Rouille flexible vivante ! Voici un gros billet !\"\n"
 "\t\t\t\n"
 "\t\t\t\tVous pouvez sentir le reste de votre équipage vous juger."
 
@@ -2478,24 +2481,24 @@ msgstr ""
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM_2\"]/choice[@req=\"lanius_welder\"]/event/removeCrew/text"
 msgstr ""
-"Vous ne pouvez pas cloner un équipage que vous avez vendu à une mort "
-"douloureuse."
+"Vous ne pouvez pas cloner un membre d'équipage que vous avez vendu pour une "
+"mort douloureuse."
 
 #: src-en/data/events_sector_radikal.xml:2541
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM_2\"]/choice[@req=\"lanius_welder\"]/event/choice/text"
-msgstr "Continuons..."
+msgstr "Passons à autre chose..."
 
 #: src-en/data/events_sector_radikal.xml:2547
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM_2\"]/choice[@req=\"lanius_augmented\"]/text"
-msgstr "Un Lanius augmenté."
+msgstr "Un Lanius Augmenté."
 
 #: src-en/data/events_sector_radikal.xml:2549
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM_2\"]/choice[@req=\"lanius_augmented\"]/event/text"
 msgstr ""
-"\"Oh, vous avez attrapé un des métaux de luxe ! Voici un super cash !!\"\n"
+"\"Oh, vous avez attrapé l'un des métaux de luxe ! Voici un excellent billet !!\"\n"
 "\t\t\t\n"
 "\t\t\t\tVous pouvez sentir le reste de votre équipage vous juger."
 
@@ -2503,20 +2506,20 @@ msgstr ""
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM_2\"]/choice[@req=\"lanius_augmented\"]/event/removeCrew/text"
 msgstr ""
-"Vous ne pouvez pas cloner un équipage que vous avez vendu à une mort "
-"douloureuse."
+"Vous ne pouvez pas cloner un membre d'équipage que vous avez vendu pour une "
+"mort douloureuse."
 
 #: src-en/data/events_sector_radikal.xml:2566
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM_2\"]/choice[@req=\"lanius_augmented\"]/event/choice/text"
-msgstr "Continuons..."
+msgstr "Passons à autre chose..."
 
 #: src-en/data/events_sector_radikal.xml:2574
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM_2\"]/choice[@req=\"RKS_HAS_ANY_SACRIFICEABLE_SHELL\"]/text"
 msgstr ""
 "Vous n'avez pas de Coquilles pour ça (les Uniques préféreraient vous tuer et"
-" se tuer eux-mêmes)"
+" se suicider)"
 
 #: src-en/data/events_sector_radikal.xml:2579
 msgid ""
@@ -2527,7 +2530,7 @@ msgstr "Une Coquille."
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM_2\"]/choice[@req=\"shell\"]/event/text"
 msgstr ""
-"\"Boule explosive, toujours sympa. Voici votre cash.\"\n"
+"\"Boule explosive, toujours sympa. Voici votre argent.\"\n"
 "\t\t\t\n"
 "\t\t\t\tVous pouvez sentir le reste de votre équipage vous juger."
 
@@ -2535,13 +2538,13 @@ msgstr ""
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM_2\"]/choice[@req=\"shell\"]/event/removeCrew/text"
 msgstr ""
-"Vous ne pouvez pas cloner un équipage que vous avez vendu à une mort "
-"douloureuse."
+"Vous ne pouvez pas cloner un membre d'équipage que vous avez vendu pour une "
+"mort douloureuse."
 
 #: src-en/data/events_sector_radikal.xml:2595
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM_2\"]/choice[@req=\"shell\"]/event/choice/text"
-msgstr "Continuons..."
+msgstr "Passons à autre chose..."
 
 #: src-en/data/events_sector_radikal.xml:2602
 msgid ""
@@ -2552,7 +2555,7 @@ msgstr "Un Gardien."
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM_2\"]/choice[@req=\"shell_guardian\"]/event/text"
 msgstr ""
-"\"Boule plus explosive ! Voici un gros cash !\"\n"
+"\"Boule encore plus explosive ! Voici un gros billet !\"\n"
 "\t\t\t\n"
 "\t\t\t\tVous pouvez sentir le reste de votre équipage vous juger."
 
@@ -2560,13 +2563,13 @@ msgstr ""
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM_2\"]/choice[@req=\"shell_guardian\"]/event/removeCrew/text"
 msgstr ""
-"Vous ne pouvez pas cloner un équipage que vous avez vendu à une mort "
-"douloureuse."
+"Vous ne pouvez pas cloner un membre d'équipage que vous avez vendu pour une "
+"mort douloureuse."
 
 #: src-en/data/events_sector_radikal.xml:2619
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM_2\"]/choice[@req=\"shell_guardian\"]/event/choice/text"
-msgstr "Continuons..."
+msgstr "Passons à autre chose..."
 
 #: src-en/data/events_sector_radikal.xml:2625
 msgid ""
@@ -2577,7 +2580,7 @@ msgstr "Un Scientifique Coquille."
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM_2\"]/choice[@req=\"shell_scientist\"]/event/text"
 msgstr ""
-"\"Boule de guérison instantanée ! Voici un gros cash !\"\n"
+"\"Boule soin instantané ! Voici un gros billet !\"\n"
 "\t\t\t\n"
 "\t\t\t\tVous pouvez sentir le reste de votre équipage vous juger."
 
@@ -2585,13 +2588,13 @@ msgstr ""
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM_2\"]/choice[@req=\"shell_scientist\"]/event/removeCrew/text"
 msgstr ""
-"Vous ne pouvez pas cloner un équipage que vous avez vendu à une mort "
-"douloureuse."
+"Vous ne pouvez pas cloner un membre d'équipage que vous avez vendu pour une "
+"mort douloureuse."
 
 #: src-en/data/events_sector_radikal.xml:2642
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM_2\"]/choice[@req=\"shell_scientist\"]/event/choice/text"
-msgstr "Continuons..."
+msgstr "Passons à autre chose..."
 
 #: src-en/data/events_sector_radikal.xml:2648
 msgid ""
@@ -2602,7 +2605,7 @@ msgstr "Un Mécanicien Coquille."
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM_2\"]/choice[@req=\"shell_mechanic\"]/event/text"
 msgstr ""
-"\"Boule de réparation instantanée ! Parfait pour A.E.R.A., voici un gros cash !\"\n"
+"\"Boule réparation instantanée ! Parfait pour A.E.R.A., voici un gros billet !\"\n"
 "\t\t\t\n"
 "\t\t\t\tVous pouvez sentir le reste de votre équipage vous juger."
 
@@ -2610,24 +2613,24 @@ msgstr ""
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM_2\"]/choice[@req=\"shell_mechanic\"]/event/removeCrew/text"
 msgstr ""
-"Vous ne pouvez pas cloner un équipage que vous avez vendu à une mort "
-"douloureuse."
+"Vous ne pouvez pas cloner un membre d'équipage que vous avez vendu pour une "
+"mort douloureuse."
 
 #: src-en/data/events_sector_radikal.xml:2665
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM_2\"]/choice[@req=\"shell_mechanic\"]/event/choice/text"
-msgstr "Continuons..."
+msgstr "Passons à autre chose..."
 
 #: src-en/data/events_sector_radikal.xml:2672
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM_2\"]/choice[@req=\"shell_radiant\"]/text"
-msgstr "Un Radiant Coquille."
+msgstr "Une Coquille Radiant."
 
 #: src-en/data/events_sector_radikal.xml:2674
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM_2\"]/choice[@req=\"shell_radiant\"]/event/text"
 msgstr ""
-"\"Boule multi-explosive ! Vous avez apporté une rareté, voici un super cash !!\"\n"
+"\"Boule multi-explosive ! Vous avez apporté un régal rare, voici un super billet !!\"\n"
 "\t\t\t\n"
 "\t\t\t\tVous pouvez sentir le reste de votre équipage vous juger."
 
@@ -2635,30 +2638,30 @@ msgstr ""
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM_2\"]/choice[@req=\"shell_radiant\"]/event/removeCrew/text"
 msgstr ""
-"Vous ne pouvez pas cloner un équipage que vous avez vendu à une mort "
-"douloureuse."
+"Vous ne pouvez pas cloner un membre d'équipage que vous avez vendu pour une "
+"mort douloureuse."
 
 #: src-en/data/events_sector_radikal.xml:2688
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM_2\"]/choice[@req=\"shell_radiant\"]/event/choice/text"
-msgstr "Continuons..."
+msgstr "Passons à autre chose..."
 
 #: src-en/data/events_sector_radikal.xml:2695
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM_2\"]/choice[11]/text"
-msgstr "Voyons ce que vous avez en magasin."
+msgstr "Voyons ce que vous avez en réserve."
 
 #: src-en/data/events_sector_radikal.xml:2700
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM_2\"]/choice[12]/text"
-msgstr "En fait... nous avons une urgence, salut !"
+msgstr "En fait... nous avons une urgence, bye !"
 
 #: src-en/data/events_sector_radikal.xml:2706
 msgid "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM_3\"]/text"
 msgstr ""
-"\"OK, profitez maintenant de notre meilleure boutique locale. J'ai des trucs à gérer, vous savez ? Là tout de suite, même. Salut.\"\n"
+"\"OK, maintenant profitez de notre meilleure boutique locale. J'ai des trucs à gérer, vous savez ? Là tout de suite, même. Bye.\"\n"
 "\n"
-"\t\tAvant de faire vos achats, vous avez encore un peu de temps pour faire quelque chose d'autre à bord du vaisseau."
+"\t\tAvant de faire vos achats, vous avez encore un peu de temps pour faire quelque chose à bord du vaisseau."
 
 #: src-en/data/events_sector_radikal.xml:2714
 msgid ""
@@ -2673,34 +2676,34 @@ msgstr ""
 #: src-en/data/events_sector_radikal.xml:2724
 msgid "data/events_sector_radikal.xml$//event[@name=\"RKS_LAB_BAM_AMBUSH\"]/text"
 msgstr ""
-"Vous atteignez à peine le bouton de saut lorsqu'une petite flotte de Coquilles surgit ! Un vaisseau Radiant très en colère vous interpelle immédiatement.\n"
+"Vous atteignez à peine le bouton Saut qu'une petite flotte Coquille saute dedans ! Un vaisseau Radiant très en colère vous appelle immédiatement.\n"
 "\n"
-"\"Simples d'esprit de la Fédération, ne vous méprenez pas, ces gars font vraiment de la science intéressante, et nous savons même que quelques-uns de nos élites renégates y occupent des postes élevés.\"\n"
+"\t\t\"Simples d'esprit de la Fédération, ne vous méprenez pas, ces gars font en fait de la science cool, et nous savons même que quelques-uns de nos élites renégates sont haut placés là-dedans.\"\n"
+"\t\t\n"
+"\t\tPendant un bref instant, vous pensez que ça va finir pacifiquement.\n"
+"\t\t\n"
+"\t\t\"Mais c'est à nos frais, en plus ils font beaucoup de brèches, genre, BEAUCOUP ! C'est fou. Bref, notre direction ne peut plus tolérer tout ça et malheureusement vous laisser juste vous envoler vivant de là ferait mauvaise figure pour nous.\"\n"
 "\n"
-"Pendant un bref instant, vous pensez que cela va se terminer pacifiquement.\n"
-"\n"
-"\"Mais c'est à nos dépens, et en plus ils font beaucoup de brèches, genre, BEAUCOUP ! C'est dingue. Bref, notre direction ne peut plus tolérer tout ça et malheureusement, vous laisser repartir vivant d'ici donnerait une mauvaise image de nous.\"\n"
-"\n"
-"Vous vous demandez pourquoi ils s'exposeraient à un armement si spécifiquement efficace contre leur biologie, mais vos scans révèlent qu'ils sont venus très préparés !"
+"\t\tVous vous demandez pourquoi ils s'exposeraient à un armement si spécifiquement bon contre leur biologie, mais vos scans révèlent qu'ils sont venus bien préparés !"
 
 #: src-en/data/events_sector_radikal.xml:2739
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_LAB_BAM_AMBUSH\"]/choice[@req=\"unique_alkali\"]/text"
-msgstr "(Alkali) En parlant de ça, écartez-vous, imbéciles. Mission secrète."
+msgstr "(Alkali) En parlant de ça, poussez-vous, idiots. Mission secrète."
 
 #: src-en/data/events_sector_radikal.xml:2744
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_LAB_BAM_AMBUSH\"]/choice[2]/text"
-msgstr "...J'imagine que c'est le prix des affaires."
+msgstr "...Je suppose que c'est le prix des affaires."
 
 #: src-en/data/events_sector_radikal.xml:2746
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_LAB_BAM_AMBUSH\"]/choice[2]/event/text"
 msgstr ""
-"\"Ah merde, c'est reparti. La Géniocratie est de retour, les amis. Vous savez ce qu'il faut faire : DES EXPLOSIONS !\"\n"
-"\n"
-"Les projectiles du RK Bam et de la flotte d'assaut commencent à voler dans toutes les directions !\n"
-"De plus, ils ont dû utiliser un brouilleur spécial pour désactiver votre générateur SPL, vous devrez le recharger."
+"\"Ah merde, on y retourne. La Géniocratie est de retour, les amis. Vous savez quoi faire : DES EXPLOSIONS !\"\n"
+"\t\t\t\t\n"
+"\t\t\t\tDes projectiles des RK Bam et de la flotte d'assaut commencent à voler dans toutes les directions !\n"
+"\t\t\t\tAussi, ils ont dû utiliser un brouilleur spécial pour désactiver votre moteur de saut, vous devrez le recharger à nouveau."
 
 #: src-en/data/events_sector_radikal.xml:2755
 msgid ""
@@ -2711,46 +2714,42 @@ msgstr ""
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_LAB_BAM_ATTACKER\"]/destroyed/text"
 msgstr ""
-"Le vaisseau Coquille d'élite se désagrège et vous récupérez rapidement ce "
+"Le vaisseau Coquille Élite vole en éclats et vous récupérez rapidement ce "
 "que vous pouvez avant que le reste de la flotte ne réalise ce qui s'est "
 "passé."
 
 #: src-en/data/events_sector_radikal.xml:2767
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_LAB_BAM_ATTACKER\"]/destroyed/choice/text"
-msgstr ""
-"Les Coquilles sont en piteux état, mais nous sommes peut-être dans une "
-"situation pire."
+msgstr "Les Coquilles sont mal en point, mais on est peut-être pire."
 
 #: src-en/data/events_sector_radikal.xml:2772
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_LAB_BAM_ATTACKER\"]/deadCrew/text"
 msgstr ""
-"Avec l'équipage mort, vous récupérez rapidement ce que vous pouvez du "
-"vaisseau Coquille d'élite avant que le reste de la flotte ne réalise ce qui "
+"L'équipage mort, vous récupérez rapidement ce que vous pouvez depuis le "
+"vaisseau Coquille Élite avant que le reste de la flotte ne réalise ce qui "
 "s'est passé."
 
 #: src-en/data/events_sector_radikal.xml:2775
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_LAB_BAM_ATTACKER\"]/deadCrew/choice/text"
-msgstr ""
-"Les Coquilles sont en piteux état, mais nous sommes peut-être dans une "
-"situation pire."
+msgstr "Les Coquilles sont mal en point, mais on est peut-être pire."
 
 #: src-en/data/events_sector_radikal.xml:2803
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK\"]/beaconType/unvisitedTooltip"
 msgstr ""
-"On vous a dit que vous pourriez obtenir du superbe équipement RadiKal Punk à"
-" cette balise, si vous pouvez prouver que vous êtes un client."
+"On vous a dit que vous pouviez obtenir un excellent équipement RadiKal Punk "
+"à cette balise, si vous pouvez prouver que vous êtes un client."
 
 #: src-en/data/events_sector_radikal.xml:2806
 msgid "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK\"]/text"
 msgstr ""
-"Tant de bleu. Pas une île en vue, cette planète est recouverte d'eau. Et en y regardant de plus près, quelques structures flottantes. Quelques-unes en lévitation aussi.\n"
-"Des scans plus profonds ne peuvent pénétrer l'océan sans fin que jusqu'à un certain point, mais révèlent de vastes installations sous-marines dédiées à l'étude de qui-sait-quoi. Probablement cachées pour de bonnes raisons.\n"
-"\n"
-"Vous recevez un appel. \"Ho hooo, un visiteur. Un visiteur discret, qui plus est. Peut-être venu pour des affaires discrètes ? Alors apportez une preuve.\""
+"Tant de bleu. Pas une île en vue, cette planète est couverte d'eau. Et quand on regarde de près, quelques structures flottantes. Quelques-unes en vol stationnaire aussi.\n"
+"\t\tDes scans plus profonds ne peuvent pénétrer l'océan sans fin que jusqu'à un certain point, mais révèlent de vastes installations sous-marines dédiées à l'étude de qui-sait-quoi. Probablement cachées pour une bonne raison.\n"
+"\t\t\t\n"
+"\t\tVous recevez un appel entrant. \"Ho hooo, un visiteur. Un silencieux, qui plus est. Peut-être ici pour des affaires discrètes ? Alors prouvez-le.\""
 
 #: src-en/data/events_sector_radikal.xml:2814
 msgid ""
@@ -2762,14 +2761,14 @@ msgstr "Vous n'avez aucun équipement RK Punk."
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK\"]/choice[@req=\"DJMOD_HAS_RADIKAL_PUNK_GEAR\""
 " and not(@lvl)]/text"
-msgstr "(Équipement RK Punk) Reste intelligent..."
+msgstr "(Équipement RK Punk) Restez intelligent..."
 
 #: src-en/data/events_sector_radikal.xml:2821
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK\"]/choice[@req=\"DJMOD_HAS_RADIKAL_PUNK_GEAR\""
 " and not(@lvl)]/event/text"
 msgstr ""
-"\"... Tue-l'œil. Héhé. Un drone vous apportera le cadeau de bienvenue. Nous "
+"\"... Tueuse. Heheh. Un drone vous apportera le cadeau de bienvenue. Nous "
 "vous attendons.\""
 
 #: src-en/data/events_sector_radikal.xml:2825
@@ -2807,15 +2806,15 @@ msgstr ""
 #: src-en/data/events_sector_radikal.xml:2849
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK\"]/choice[5]/text"
-msgstr "Est-ce la Aqua Funzone ?"
+msgstr "Est-ce l'Aqua Funzone ?"
 
 #: src-en/data/events_sector_radikal.xml:2851
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK\"]/choice[5]/event/text"
 msgstr ""
-"Votre vaisseau subit bientôt des dégâts provenant d'une source que vous ne "
-"pouvez pas identifier. \"Ha ! Pas mal. Pour nous peut-être. Mais vous êtes "
-"très perdu.\""
+"Votre vaisseau subit bientôt des dégâts d'une source que vous ne pouvez pas "
+"identifier. \"Ha ! Pas mal. Pour nous peut-être. Mais vous êtes très "
+"perdus.\""
 
 #: src-en/data/events_sector_radikal.xml:2855
 msgid ""
@@ -2830,15 +2829,15 @@ msgstr ""
 #: src-en/data/events_sector_radikal.xml:2866
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK\"]/choice[6]/text"
-msgstr "Nous ne faisons que passer, ne nous prêtez pas attention."
+msgstr "Nous ne faisons que passer par ici, ne faites pas attention à nous."
 
 #: src-en/data/events_sector_radikal.xml:2868
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK\"]/choice[6]/event/text"
 msgstr ""
-"Il n'y a pas de réponse. Vous vous déplacez à une distance de sécurité et vous vous dites que vous avez le temps d'effectuer un peu de maintenance.\n"
+"Il n'y a pas de réponse. Vous vous déplacez à une distance de sécurité et vous dites que vous avez le temps de faire un peu d'entretien.\n"
 "\n"
-"Après un certain temps, vous détectez des vaisseaux Mantis Libres qui arrivent armes chargées, mais vous êtes en sécurité ici."
+"\t\t\tAprès quelque temps, vous détectez des vaisseaux Mantis Libres sautant avec leurs armes chauffées, mais vous êtes en sécurité ici."
 
 #: src-en/data/events_sector_radikal.xml:2873
 msgid ""
@@ -2854,16 +2853,16 @@ msgstr ""
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/text"
 msgstr ""
-"\"Je prends un grand plaisir à voir arriver de nouvelles pièces. Allez-vous me satisfaire ? HAH, je vous taquine. Mais vraiment, n'importe quoi ?\"\n"
+"\"Je prends grand plaisir à regarder de nouvelles pièces arriver. Allez-vous me faire plaisir ? HAH, je vous taquine. Mais vraiment, n'importe quoi ?\"\n"
 "\n"
-"Vous regardez la liste des \" pièces \" demandées et ce que vous venez d'entendre devient encore plus effrayant."
+"\t\tVous regardez la liste des \"pièces\" demandées et ce que vous venez d'entendre devient de plus en plus effrayant."
 
 #: src-en/data/events_sector_radikal.xml:2892
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[@req=\"RKS_HAS_ANY_SACRIFICEABLE_LEECH\"]/text"
 msgstr ""
 "Vous n'avez pas de Sangsues pour ça (les Uniques préféreraient vous tuer et "
-"se tuer eux-mêmes)"
+"se suicider)"
 
 #: src-en/data/events_sector_radikal.xml:2897
 msgid ""
@@ -2874,21 +2873,21 @@ msgstr "Une Sangsue."
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[@req=\"leech\"]/event/text"
 msgstr ""
-"\"Tissu vif absorbant l'énergie, oui, un incontournable. Voici votre chèque.\"\n"
-"\n"
-"Vous sentez le reste de votre équipage vous juger."
+"\"Tissu vivant absorbant l'énergie, oui, un incontournable. Voici votre chèque.\"\n"
+"\t\t\t\n"
+"\t\t\t\tVous pouvez sentir le reste de votre équipage vous juger."
 
 #: src-en/data/events_sector_radikal.xml:2909
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[@req=\"leech\"]/event/removeCrew/text"
 msgstr ""
-"Vous ne pouvez pas cloner un équipage que vous avez vendu à une mort "
-"douloureuse."
+"Vous ne pouvez pas cloner un membre d'équipage que vous avez vendu pour une "
+"mort douloureuse."
 
 #: src-en/data/events_sector_radikal.xml:2913
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[@req=\"leech\"]/event/choice/text"
-msgstr "Continuons..."
+msgstr "Passons à autre chose..."
 
 #: src-en/data/events_sector_radikal.xml:2921
 msgid ""
@@ -2899,28 +2898,28 @@ msgstr "Un Ampère."
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[@req=\"leech_ampere\"]/event/text"
 msgstr ""
-"\"Tissu vif très absorbant l'énergie, oui ! Voici un gros chèque.\"\n"
-"\n"
-"Vous sentez le reste de votre équipage vous juger."
+"\"Tissu vivant hautement absorbant l'énergie, oui ! Voici un gros chèque.\"\n"
+"\t\t\t\n"
+"\t\t\t\tVous pouvez sentir le reste de votre équipage vous juger."
 
 #: src-en/data/events_sector_radikal.xml:2934
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[@req=\"leech_ampere\"]/event/removeCrew/text"
 msgstr ""
-"Vous ne pouvez pas cloner un équipage que vous avez vendu à une mort "
-"douloureuse."
+"Vous ne pouvez pas cloner un membre d'équipage que vous avez vendu pour une "
+"mort douloureuse."
 
 #: src-en/data/events_sector_radikal.xml:2938
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[@req=\"leech_ampere\"]/event/choice/text"
-msgstr "Continuons..."
+msgstr "Passons à autre chose..."
 
 #: src-en/data/events_sector_radikal.xml:2946
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[@req=\"RKS_HAS_ANY_SACRIFICEABLE_MANTIS\"]/text"
 msgstr ""
 "Vous n'avez pas de Mantis pour ça (les Uniques préféreraient vous tuer et se"
-" tuer eux-mêmes)"
+" suicider)"
 
 #: src-en/data/events_sector_radikal.xml:2951
 msgid ""
@@ -2932,20 +2931,20 @@ msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[@req=\"mantis\"]/event/text"
 msgstr ""
 "\"Vigueur fiable, oui, un incontournable. Voici votre chèque.\"\n"
-"\n"
-"Vous sentez le reste de votre équipage vous juger."
+"\t\t\t\n"
+"\t\t\t\tVous pouvez sentir le reste de votre équipage vous juger."
 
 #: src-en/data/events_sector_radikal.xml:2963
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[@req=\"mantis\"]/event/removeCrew/text"
 msgstr ""
-"Vous ne pouvez pas cloner un équipage que vous avez vendu à une mort "
-"douloureuse."
+"Vous ne pouvez pas cloner un membre d'équipage que vous avez vendu pour une "
+"mort douloureuse."
 
 #: src-en/data/events_sector_radikal.xml:2967
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[@req=\"mantis\"]/event/choice/text"
-msgstr "Continuons..."
+msgstr "Passons à autre chose..."
 
 #: src-en/data/events_sector_radikal.xml:2973
 msgid ""
@@ -2957,20 +2956,20 @@ msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[@req=\"mantis_free\"]/event/text"
 msgstr ""
 "\"Vigueur potentielle, oui, un incontournable. Voici votre chèque.\"\n"
-"\n"
-"Vous sentez le reste de votre équipage vous juger."
+"\t\t\t\n"
+"\t\t\t\tVous pouvez sentir le reste de votre équipage vous juger."
 
 #: src-en/data/events_sector_radikal.xml:2985
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[@req=\"mantis_free\"]/event/removeCrew/text"
 msgstr ""
-"Vous ne pouvez pas cloner un équipage que vous avez vendu à une mort "
-"douloureuse."
+"Vous ne pouvez pas cloner un membre d'équipage que vous avez vendu pour une "
+"mort douloureuse."
 
 #: src-en/data/events_sector_radikal.xml:2989
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[@req=\"mantis_free\"]/event/choice/text"
-msgstr "Continuons..."
+msgstr "Passons à autre chose..."
 
 #: src-en/data/events_sector_radikal.xml:2996
 msgid ""
@@ -2982,88 +2981,88 @@ msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[@req=\"mantis_warlord\"]/event/text"
 msgstr ""
 "\"Grand potentiel, plein de produits chimiques, oui ! Voici un gros chèque.\"\n"
-"\n"
-"Vous sentez le reste de votre équipage vous juger."
+"\t\t\t\n"
+"\t\t\t\tVous pouvez sentir le reste de votre équipage vous juger."
 
 #: src-en/data/events_sector_radikal.xml:3009
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[@req=\"mantis_warlord\"]/event/removeCrew/text"
 msgstr ""
-"Vous ne pouvez pas cloner un équipage que vous avez vendu à une mort "
-"douloureuse."
+"Vous ne pouvez pas cloner un membre d'équipage que vous avez vendu pour une "
+"mort douloureuse."
 
 #: src-en/data/events_sector_radikal.xml:3013
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[@req=\"mantis_warlord\"]/event/choice/text"
-msgstr "Continuons..."
+msgstr "Passons à autre chose..."
 
 #: src-en/data/events_sector_radikal.xml:3019
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[@req=\"mantis_suzerain\"]/text"
-msgstr "Un Suzerain Mantis."
+msgstr "Un suzerain Mantis."
 
 #: src-en/data/events_sector_radikal.xml:3021
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[@req=\"mantis_suzerain\"]/event/text"
 msgstr ""
 "\"Grand potentiel, plein de bonnes molécules, oui ! Voici un gros chèque.\"\n"
-"\n"
-"Vous sentez le reste de votre équipage vous juger."
+"\t\t\t\n"
+"\t\t\t\tVous pouvez sentir le reste de votre équipage vous juger."
 
 #: src-en/data/events_sector_radikal.xml:3032
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[@req=\"mantis_suzerain\"]/event/removeCrew/text"
 msgstr ""
-"Vous ne pouvez pas cloner un équipage que vous avez vendu à une mort "
-"douloureuse."
+"Vous ne pouvez pas cloner un membre d'équipage que vous avez vendu pour une "
+"mort douloureuse."
 
 #: src-en/data/events_sector_radikal.xml:3036
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[@req=\"mantis_suzerain\"]/event/choice/text"
-msgstr "Continuons..."
+msgstr "Passons à autre chose..."
 
 #: src-en/data/events_sector_radikal.xml:3042
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[@req=\"mantis_bishop\"]/text"
-msgstr "Un Évêque Mantis."
+msgstr "Un évêque Mantis."
 
 #: src-en/data/events_sector_radikal.xml:3044
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[@req=\"mantis_bishop\"]/event/text"
 msgstr ""
-"\"Ho ho hooo, la rage, la vigueur ! N'êtes-vous pas un amour ! Voici un énorme chèque pour vos ennuis.\"\n"
-"\n"
-"Vous sentez le reste de votre équipage vous juger."
+"\"Ho ho hooo, la rage, la vigueur ! N'êtes-vous pas adorable ! Voici un énorme chèque pour vos peines.\"\n"
+"\t\t\t\n"
+"\t\t\t\tVous pouvez sentir le reste de votre équipage vous juger."
 
 #: src-en/data/events_sector_radikal.xml:3054
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[@req=\"mantis_bishop\"]/event/removeCrew/text"
 msgstr ""
-"Vous ne pouvez pas cloner un équipage que vous avez vendu à une mort "
-"douloureuse."
+"Vous ne pouvez pas cloner un membre d'équipage que vous avez vendu pour une "
+"mort douloureuse."
 
 #: src-en/data/events_sector_radikal.xml:3058
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[@req=\"mantis_bishop\"]/event/choice/text"
-msgstr "Continuons..."
+msgstr "Passons à autre chose..."
 
 #: src-en/data/events_sector_radikal.xml:3065
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[10]/text"
-msgstr "Voyons ce que vous avez en magasin."
+msgstr "Voyons ce que vous avez en réserve."
 
 #: src-en/data/events_sector_radikal.xml:3070
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_2\"]/choice[11]/text"
-msgstr "En fait... nous avons une urgence, salut !"
+msgstr "En fait... nous avons une urgence, bye !"
 
 #: src-en/data/events_sector_radikal.xml:3076
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK_3\"]/text"
 msgstr ""
-"\"Assez de politesses, bienvenue dans notre meilleure boutique locale. J'entends des voix... HAH, je vous ai eus, non, pas comme ça. Dans mon oreillette, ça a l'air urgent. On se voit.\"\n"
+"\"Assez de politesses, bienvenue dans notre meilleure boutique locale. J'entends des voix... AH, je vous ai eus, non, pas comme ça. Dans mon oreillette, ça semble urgent. À bientôt.\"\n"
 "\n"
-"Avant de faire vos achats, vous avez encore le temps de faire autre chose à bord du vaisseau."
+"\t\tAvant de faire vos achats, vous avez encore un peu de temps pour faire autre chose à bord du vaisseau."
 
 #: src-en/data/events_sector_radikal.xml:3084
 msgid ""
@@ -3078,30 +3077,30 @@ msgstr ""
 #: src-en/data/events_sector_radikal.xml:3094
 msgid "data/events_sector_radikal.xml$//event[@name=\"RKS_LAB_PUNK_AMBUSH\"]/text"
 msgstr ""
-"Vous atteignez à peine le bouton de saut lorsqu'une petite flotte de Mantis Libres surgit ! Un vaisseau de Seigneur de guerre vous interpelle immédiatement.\n"
+"Vous atteignez à peine le bouton de saut lorsqu'une petite flotte de Mantis Libres arrive ! Un vaisseau de type Seigneur de guerre vous contacte immédiatement.\n"
 "\n"
-"\"Fédération, fédération. Vous nos héros ! Alors POURQUOI vous ici, faites commerce maléfique??!\" Le Seigneur de guerre déjà drogué semble dévasté mais est déjà prêt à combattre avant même que vous ne puissiez répondre. \"Nous venus pour les tuer, mais vous avec eux ! Nous tuer vous aussi !\"\n"
+"\t\t\"Fédération, fédération. Vous nos héros ! Alors POURQUOI vous ici, faire commerce maléfique ??!\" Le Seigneur de guerre, déjà drogué, semble dévasté mais il est de retour sur le sentier de la guerre avant même que vous ne puissiez répondre. \"Nous venus pour tuer eux, mais vous avec eux ! Nous tuer vous aussi !\"\n"
 "\n"
-"Vous vous demandez pourquoi ils viendraient s'en prendre à des gens si doués pour tuer leurs semblables (et tout le monde aussi), mais vos scans révèlent qu'ils sont venus très préparés !"
+"\t\tVous vous demandez pourquoi ils s'en prendraient à des gens si doués pour tuer leur espèce (et tout le monde d'ailleurs), mais vos scans révèlent qu'ils sont venus très bien préparés !"
 
 #: src-en/data/events_sector_radikal.xml:3105
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_LAB_PUNK_AMBUSH\"]/choice[@req=\"RKS_HAS_MANTIS_UNIQUE\"]/text"
-msgstr "(Unique Mantis) TskKAK ! Laissez passer ! Mission secrète."
+msgstr "(Mantis Unique) TskKAK ! Laisser passer ! Mission secrète."
 
 #: src-en/data/events_sector_radikal.xml:3110
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_LAB_PUNK_AMBUSH\"]/choice[2]/text"
-msgstr "...C'est logique, en fait."
+msgstr "...Ça a du sens, en fait."
 
 #: src-en/data/events_sector_radikal.xml:3112
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_LAB_PUNK_AMBUSH\"]/choice[2]/event/text"
 msgstr ""
-"Le Punk troublant avec qui vous discutiez reste impassible. \"Tant de vigueur, si peu d'intellect, et nous avons tellement. d'armes. Drone Majordome, dites au personnel de bouger leurs fesses. Et préparez mon thé.\"\n"
-"\n"
-"Les projectiles du RK Punk et de la flotte d'assaut commencent à voler dans toutes les directions !\n"
-"De plus, ils ont dû utiliser un brouilleur spécial pour désactiver votre générateur SPL, vous devrez le recharger."
+"Le Punk troublant à qui vous parliez reste imperturbable. \"Tant de vigueur, si peu d'intelligence, et nous avons tant. de. canons. Drone Majordome, dites au personnel de se bouger le cul. Et préparez mon thé.\"\n"
+"\t\t\t\t\n"
+"\t\t\t\tLes projectiles du RK Punk et de la flotte d'assaut commencent à voler dans toutes les directions !\n"
+"\t\t\t\tDe plus, ils ont dû utiliser un brouilleur spécial pour désactiver votre générateur SPL, vous devrez le recharger."
 
 #: src-en/data/events_sector_radikal.xml:3121
 msgid ""
@@ -3112,9 +3111,9 @@ msgstr ""
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_LAB_PUNK_ATTACKER\"]/destroyed/text"
 msgstr ""
-"Le vaisseau Mantis Libre d'élite se désagrège et vous récupérez rapidement "
-"ce que vous pouvez avant que le reste de la flotte ne réalise ce qui s'est "
-"passé."
+"Le vaisseau d'élite des Mantis Libres se disloque et vous récupérez "
+"rapidement ce que vous pouvez avant que le reste de la flotte ne réalise ce "
+"qui s'est passé."
 
 #: src-en/data/events_sector_radikal.xml:3132
 msgid ""
@@ -3125,9 +3124,9 @@ msgstr "Espérons qu'ils restent des fans aussi acharnés après cela."
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_LAB_PUNK_ATTACKER\"]/deadCrew/text"
 msgstr ""
-"Avec l'équipage mort, vous récupérez rapidement ce que vous pouvez du "
-"vaisseau Mantis Libre d'élite avant que le reste de la flotte ne réalise ce "
-"qui s'est passé."
+"L'équipage étant mort, vous récupérez rapidement ce que vous pouvez sur le "
+"vaisseau d'élite des Mantis Libres avant que le reste de la flotte ne "
+"réalise ce qui s'est passé."
 
 #: src-en/data/events_sector_radikal.xml:3140
 msgid ""
@@ -3138,30 +3137,30 @@ msgstr "Espérons qu'ils restent des fans aussi acharnés après cela."
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH\"]/beaconType/unvisitedTooltip"
 msgstr ""
-"On vous a dit que vous pourriez obtenir du superbe équipement RadiKal Scorch"
-" à cette balise, si vous pouvez prouver que vous êtes un client."
+"On vous a dit que vous pourriez obtenir un excellent équipement RadiKal "
+"Scorch à cette balise, si vous pouvez prouver que vous êtes un client."
 
 #: src-en/data/events_sector_radikal.xml:3169
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH\"]/text"
 msgstr ""
-"Vous arrivez sur une planète rouge avec des volcans si grands que vous pouvez les voir depuis l'orbite, et autour d'eux, une multitude de structures ressemblant à des insectes géants. L'atmosphère semble être en feu.\n"
-"En regardant de plus près, vous remarquez que beaucoup de \" structures \" bougent réellement, échantillonnent de la lave, y mettent des choses, et font toutes sortes d'expériences étranges.\n"
-"Vous pouvez également dire qu'il y a beaucoup d'installations scientifiques, d'usines et même ce qui ressemble à des stades sur toute la surface, à une bonne distance des coulées de lave.\n"
-"\n"
-"Quelqu'un sur la planète vous appelle. \"Nous vous voyons, Renégat de la Fédération. Si vous avez une raison d'être ici, il est temps de montrer une preuve.\""
+"Vous arrivez sur une planète rouge avec des volcans si grands que vous pouvez les voir depuis l'orbite, et autour d'eux, une multitude de structures qui ressemblent à des insectes géants. L'atmosphère semble être en feu.\n"
+"\t\tEn regardant de plus près, vous remarquez que beaucoup de ces \"structures\" bougent en fait, échantillonnant de la lave, y mettant des choses, et faisant toutes sortes d'expériences étranges.\n"
+"\t\tVous pouvez également constater qu'il y a de nombreuses installations scientifiques, des usines et même ce qui ressemble à des stades sur toute la surface, à une bonne distance des coulées de lave.\n"
+"\t\t\t\n"
+"\t\tQuelqu'un sur la planète vous contacte. \"Nous vous voyons, renégat de la Fédération. Si vous avez une raison d'être ici, c'est le moment de fournir une preuve.\""
 
 #: src-en/data/events_sector_radikal.xml:3178
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH\"]/choice[@req=\"DJMOD_HAS_RADIKAL_SCORCH_GEAR\""
 " and @lvl=\"0\"]/text"
-msgstr "Vous n'avez aucun équipement RK Scorch."
+msgstr "Vous ne possédez aucun équipement RK Scorch."
 
 #: src-en/data/events_sector_radikal.xml:3183
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH\"]/choice[@req=\"DJMOD_HAS_RADIKAL_SCORCH_GEAR\""
 " and not(@lvl)]/text"
-msgstr "(Équipement RK Scorch) Brûle intensément..."
+msgstr "(Équipement RK Scorch) Brûlez intensément..."
 
 #: src-en/data/events_sector_radikal.xml:3185
 msgid ""
@@ -3194,8 +3193,8 @@ msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH\"]/choice[@req=\"DJMOD_HAS_RADIKAL_GEAR\""
 " and not(@lvl)]/event/text"
 msgstr ""
-"\"Bien. Nous attendions des livraisons, et nous avons un bon stock "
-"d'équipement à vendre. Faisons des affaires alors. Vous êtes autorisé à "
+"\"Bien. Nous attendions quelques livraisons et nous avons un sacré stock "
+"d'équipements à vendre. Passons aux échanges. Vous êtes autorisé à "
 "atterrir.\""
 
 #: src-en/data/events_sector_radikal.xml:3206
@@ -3207,14 +3206,14 @@ msgstr ""
 #: src-en/data/events_sector_radikal.xml:3213
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH\"]/choice[5]/text"
-msgstr "Est-ce la Planète Boulangerie ?"
+msgstr "Est-ce la planète Boulangerie ?"
 
 #: src-en/data/events_sector_radikal.xml:3215
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH\"]/choice[5]/event/text"
 msgstr ""
 "Votre vaisseau subit bientôt des dégâts provenant d'une source que vous ne "
-"pouvez pas identifier. \"Allez-vous-en, touriste. Vous aviez été prévenu.\""
+"pouvez pas identifier. \"Disparaissez, touriste. Vous aviez été prévenu.\""
 
 #: src-en/data/events_sector_radikal.xml:3219
 msgid ""
@@ -3229,15 +3228,15 @@ msgstr ""
 #: src-en/data/events_sector_radikal.xml:3230
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH\"]/choice[6]/text"
-msgstr "Nous ne faisons que passer, ne nous prêtez pas attention."
+msgstr "Nous ne faisons que passer par ici, ne faites pas attention à nous."
 
 #: src-en/data/events_sector_radikal.xml:3232
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH\"]/choice[6]/event/text"
 msgstr ""
-"Il n'y a pas de réponse. Vous vous déplacez à une distance de sécurité et vous vous dites que vous avez le temps d'effectuer un peu de maintenance.\n"
+"Il n'y a pas de réponse. Vous vous déplacez à une distance sûre et pensez avoir le temps de faire un peu de maintenance.\n"
 "\n"
-"Après un certain temps, vous détectez des vaisseaux Orchidées qui arrivent armes chargées, mais vous êtes en sécurité ici."
+"\t\t\tAprès un certain temps, vous détectez quelques vaisseaux Orchidées qui arrivent, armes chargées, mais vous êtes en sécurité ici."
 
 #: src-en/data/events_sector_radikal.xml:3237
 msgid ""
@@ -3255,21 +3254,21 @@ msgid ""
 msgstr ""
 "\"D'abord, les livraisons. Quelles matières premières apportez-vous ? Les fours, les laboratoires de vivisection et les distilleries ont faim.\"\n"
 "\n"
-"Vous regardez la liste des \" matériaux \" et comprenez mieux pourquoi ce secteur est interdit par tant de factions. Cependant, la mission passe avant tout, non ?"
+"\t\tVous regardez la liste des \"matériaux\" et comprenez mieux pourquoi ce secteur est interdit par tant de factions. Mais la mission passe avant tout, n'est-ce pas ?"
 
 #: src-en/data/events_sector_radikal.xml:3256
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"RKS_HAS_ANY_SACRIFICEABLE_ORCHID\"]/text"
 msgstr ""
-"Vous n'avez pas d'Orchidées pour ça (les Uniques préféreraient vous tuer et "
-"se tuer eux-mêmes)"
+"Vous n'avez pas d'Orchidées pour cela (les Uniques préféreraient vous tuer, "
+"eux et vous)"
 
 #: src-en/data/events_sector_radikal.xml:3261
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"RKS_HAS_ANY_SACRIFICEABLE_ZOLTAN\"]/text"
 msgstr ""
-"Vous n'avez pas de Zoltans pour ça (les Uniques préféreraient vous tuer et "
-"se tuer eux-mêmes)"
+"Vous n'avez pas de Zoltans pour cela (les Uniques préféreraient vous tuer, "
+"eux et vous)"
 
 #: src-en/data/events_sector_radikal.xml:3266
 msgid ""
@@ -3281,20 +3280,20 @@ msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"orchid\"]/event/text"
 msgstr ""
 "\"Le matériau de base. Toujours utile. Voici votre paiement.\"\n"
-"\n"
-"Vous sentez le reste de votre équipage vous juger."
+"\t\t\t\n"
+"\t\t\t\tVous pouvez sentir le reste de votre équipage vous juger."
 
 #: src-en/data/events_sector_radikal.xml:3278
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"orchid\"]/event/removeCrew/text"
 msgstr ""
-"Vous ne pouvez pas cloner un équipage que vous avez vendu à une mort "
-"douloureuse."
+"Vous ne pouvez pas cloner un membre d'équipage que vous avez vendu pour une "
+"mort douloureuse."
 
 #: src-en/data/events_sector_radikal.xml:3282
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"orchid\"]/event/choice/text"
-msgstr "Continuons..."
+msgstr "Passons à autre chose..."
 
 #: src-en/data/events_sector_radikal.xml:3289
 msgid ""
@@ -3306,20 +3305,20 @@ msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"orchid_vampweed\"]/event/text"
 msgstr ""
 "\"Le matériau de base. Toujours utile. Voici votre paiement.\"\n"
-"\n"
-"Vous sentez le reste de votre équipage vous juger."
+"\t\t\t\n"
+"\t\t\t\tVous pouvez sentir le reste de votre équipage vous juger."
 
 #: src-en/data/events_sector_radikal.xml:3301
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"orchid_vampweed\"]/event/removeCrew/text"
 msgstr ""
-"Vous ne pouvez pas cloner un équipage que vous avez vendu à une mort "
-"douloureuse."
+"Vous ne pouvez pas cloner un membre d'équipage que vous avez vendu pour une "
+"mort douloureuse."
 
 #: src-en/data/events_sector_radikal.xml:3305
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"orchid_vampweed\"]/event/choice/text"
-msgstr "Continuons..."
+msgstr "Passons à autre chose..."
 
 #: src-en/data/events_sector_radikal.xml:3312
 msgid ""
@@ -3330,21 +3329,21 @@ msgstr "Un Veilleur."
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"orchid_caretaker\"]/event/text"
 msgstr ""
-"\"Matériau de qualité, oui. Voici un meilleur paiement.\"\n"
-"\n"
-"Vous sentez le reste de votre équipage vous juger."
+"\"Matériau de qualité, oui. Voici un paiement plus important.\"\n"
+"\t\t\t\n"
+"\t\t\t\tVous pouvez sentir le reste de votre équipage vous juger."
 
 #: src-en/data/events_sector_radikal.xml:3325
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"orchid_caretaker\"]/event/removeCrew/text"
 msgstr ""
-"Vous ne pouvez pas cloner un équipage que vous avez vendu à une mort "
-"douloureuse."
+"Vous ne pouvez pas cloner un membre d'équipage que vous avez vendu pour une "
+"mort douloureuse."
 
 #: src-en/data/events_sector_radikal.xml:3329
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"orchid_caretaker\"]/event/choice/text"
-msgstr "Continuons..."
+msgstr "Passons à autre chose..."
 
 #: src-en/data/events_sector_radikal.xml:3335
 msgid ""
@@ -3355,21 +3354,21 @@ msgstr "Un Jardinier."
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"orchid_praetor\"]/event/text"
 msgstr ""
-"\"Matériau de qualité, oui. Voici un meilleur paiement.\"\n"
-"\n"
-"Vous sentez le reste de votre équipage vous juger."
+"\"Matériau de qualité, oui. Voici un paiement plus important.\"\n"
+"\t\t\t\n"
+"\t\t\t\tVous pouvez sentir le reste de votre équipage vous juger."
 
 #: src-en/data/events_sector_radikal.xml:3348
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"orchid_praetor\"]/event/removeCrew/text"
 msgstr ""
-"Vous ne pouvez pas cloner un équipage que vous avez vendu à une mort "
-"douloureuse."
+"Vous ne pouvez pas cloner un membre d'équipage que vous avez vendu pour une "
+"mort douloureuse."
 
 #: src-en/data/events_sector_radikal.xml:3352
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"orchid_praetor\"]/event/choice/text"
-msgstr "Continuons..."
+msgstr "Passons à autre chose..."
 
 #: src-en/data/events_sector_radikal.xml:3358
 msgid ""
@@ -3380,21 +3379,21 @@ msgstr "Un Cultivateur."
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"orchid_cultivator\"]/event/text"
 msgstr ""
-"\"Matériau de qualité, oui. Voici un meilleur paiement.\"\n"
-"\n"
-"Vous sentez le reste de votre équipage vous juger."
+"\"Matériau de qualité, oui. Voici un paiement plus important.\"\n"
+"\t\t\t\n"
+"\t\t\t\tVous pouvez sentir le reste de votre équipage vous juger."
 
 #: src-en/data/events_sector_radikal.xml:3371
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"orchid_cultivator\"]/event/removeCrew/text"
 msgstr ""
-"Vous ne pouvez pas cloner un équipage que vous avez vendu à une mort "
-"douloureuse."
+"Vous ne pouvez pas cloner un membre d'équipage que vous avez vendu pour une "
+"mort douloureuse."
 
 #: src-en/data/events_sector_radikal.xml:3375
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"orchid_cultivator\"]/event/choice/text"
-msgstr "Continuons..."
+msgstr "Passons à autre chose..."
 
 #: src-en/data/events_sector_radikal.xml:3382
 msgid ""
@@ -3405,14 +3404,14 @@ msgstr "Enfants orchidées."
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"ORCHID_KIDS\"]/event/text"
 msgstr ""
-"\"Fantastique ! Ils sont de plus en plus difficiles à trouver, comme si les Orchidées renforçaient leur sécurité au fil du temps. Voici votre généreux paiement.\"\n"
-"\n"
-"Vous sentez le reste de votre équipage vous regarder avec dégoût, mais personne n'ose rien dire."
+"\"Fantastique ! Ils sont de plus en plus difficiles à trouver, comme si les Orchidées renforçaient la sécurité avec le temps. Voici votre généreux paiement.\"\n"
+"\t\t\t\n"
+"\t\t\t\tVous pouvez sentir le reste de votre équipage vous regarder avec dégoût, mais personne n'ose rien dire."
 
 #: src-en/data/events_sector_radikal.xml:3398
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"ORCHID_KIDS\"]/event/choice/text"
-msgstr "Continuons..."
+msgstr "Passons à autre chose..."
 
 #: src-en/data/events_sector_radikal.xml:3406
 msgid ""
@@ -3424,20 +3423,20 @@ msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"zoltan\"]/event/text"
 msgstr ""
 "\"De l'énergie sur pattes. Toujours utile. Voici votre paiement.\"\n"
-"\n"
-"Vous sentez le reste de votre équipage vous juger."
+"\t\t\t\n"
+"\t\t\t\tVous pouvez sentir le reste de votre équipage vous juger."
 
 #: src-en/data/events_sector_radikal.xml:3418
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"zoltan\"]/event/removeCrew/text"
 msgstr ""
-"Vous ne pouvez pas cloner un équipage que vous avez vendu à une mort "
-"douloureuse."
+"Vous ne pouvez pas cloner un membre d'équipage que vous avez vendu pour une "
+"mort douloureuse."
 
 #: src-en/data/events_sector_radikal.xml:3422
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"zoltan\"]/event/choice/text"
-msgstr "Continuons..."
+msgstr "Passons à autre chose..."
 
 #: src-en/data/events_sector_radikal.xml:3428
 msgid ""
@@ -3448,46 +3447,46 @@ msgstr "Un Crépusculeur."
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"zoltan_devotee\"]/event/text"
 msgstr ""
-"\"Puissance explosive mobile. Toujours utile. Voici votre paiement.\"\n"
-"\n"
-"Vous sentez le reste de votre équipage vous juger."
+"\"Puissance mobile. Toujours utile. Voici votre paiement.\"\n"
+"\t\t\t\n"
+"\t\t\t\tVous pouvez sentir le reste de votre équipage vous juger."
 
 #: src-en/data/events_sector_radikal.xml:3440
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"zoltan_devotee\"]/event/removeCrew/text"
 msgstr ""
-"Vous ne pouvez pas cloner un équipage que vous avez vendu à une mort "
-"douloureuse."
+"Vous ne pouvez pas cloner un membre d'équipage que vous avez vendu pour une "
+"mort douloureuse."
 
 #: src-en/data/events_sector_radikal.xml:3444
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"zoltan_devotee\"]/event/choice/text"
-msgstr "Continuons..."
+msgstr "Passons à autre chose..."
 
 #: src-en/data/events_sector_radikal.xml:3450
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"zoltan_monk\"]/text"
-msgstr "Un Moine Zoltan."
+msgstr "Un moine Zoltan."
 
 #: src-en/data/events_sector_radikal.xml:3452
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"zoltan_monk\"]/event/text"
 msgstr ""
-"\"De l'énergie qui ne se défend pas. Toujours utile. Voici votre paiement.\"\n"
-"\n"
-"Vous sentez le reste de votre équipage vous juger."
+"\"Une puissance qui ne se défend pas. Toujours utile. Voici votre paiement.\"\n"
+"\t\t\t\n"
+"\t\t\t\tVous pouvez sentir le reste de votre équipage vous juger."
 
 #: src-en/data/events_sector_radikal.xml:3462
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"zoltan_monk\"]/event/removeCrew/text"
 msgstr ""
-"Vous ne pouvez pas cloner un équipage que vous avez vendu à une mort "
-"douloureuse."
+"Vous ne pouvez pas cloner un membre d'équipage que vous avez vendu pour une "
+"mort douloureuse."
 
 #: src-en/data/events_sector_radikal.xml:3466
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"zoltan_monk\"]/event/choice/text"
-msgstr "Continuons..."
+msgstr "Passons à autre chose..."
 
 #: src-en/data/events_sector_radikal.xml:3473
 msgid ""
@@ -3498,64 +3497,64 @@ msgstr "Un Pacificateur."
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"zoltan_peacekeeper\"]/event/text"
 msgstr ""
-"\"Matériau de qualité, oui. Voici un meilleur paiement.\"\n"
-"\n"
-"Vous sentez le reste de votre équipage vous juger."
+"\"Matériau de qualité, oui. Voici un paiement plus important.\"\n"
+"\t\t\t\n"
+"\t\t\t\tVous pouvez sentir le reste de votre équipage vous juger."
 
 #: src-en/data/events_sector_radikal.xml:3486
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"zoltan_peacekeeper\"]/event/removeCrew/text"
 msgstr ""
-"Vous ne pouvez pas cloner un équipage que vous avez vendu à une mort "
-"douloureuse."
+"Vous ne pouvez pas cloner un membre d'équipage que vous avez vendu pour une "
+"mort douloureuse."
 
 #: src-en/data/events_sector_radikal.xml:3490
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"zoltan_peacekeeper\"]/event/choice/text"
-msgstr "Continuons..."
+msgstr "Passons à autre chose..."
 
 #: src-en/data/events_sector_radikal.xml:3497
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"zoltan_martyr\"]/text"
-msgstr "Une Martyre."
+msgstr "Un Martyre."
 
 #: src-en/data/events_sector_radikal.xml:3499
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"zoltan_martyr\"]/event/text"
 msgstr ""
-"\"Matériau de qualité, oui. Voici un meilleur paiement.\"\n"
-"\n"
-"Vous sentez le reste de votre équipage vous juger."
+"\"Matériau de qualité, oui. Voici un paiement plus important.\"\n"
+"\t\t\t\n"
+"\t\t\t\tVous pouvez sentir le reste de votre équipage vous juger."
 
 #: src-en/data/events_sector_radikal.xml:3510
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"zoltan_martyr\"]/event/removeCrew/text"
 msgstr ""
-"Vous ne pouvez pas cloner un équipage que vous avez vendu à une mort "
-"douloureuse."
+"Vous ne pouvez pas cloner un membre d'équipage que vous avez vendu pour une "
+"mort douloureuse."
 
 #: src-en/data/events_sector_radikal.xml:3514
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[@req=\"zoltan_martyr\"]/event/choice/text"
-msgstr "Continuons..."
+msgstr "Passons à autre chose..."
 
 #: src-en/data/events_sector_radikal.xml:3522
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[14]/text"
-msgstr "Voyons ce que vous avez en magasin."
+msgstr "Voyons ce que vous avez en réserve."
 
 #: src-en/data/events_sector_radikal.xml:3527
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_2\"]/choice[15]/text"
-msgstr "En fait... nous avons une urgence, salut !"
+msgstr "En fait... nous avons une urgence, bye !"
 
 #: src-en/data/events_sector_radikal.xml:3533
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH_3\"]/text"
 msgstr ""
-"\"Très bien, maintenant profitez de notre meilleure boutique locale. Je reçois des rapports pressants que je dois examiner. Ravi de faire des affaires, etc.\"\n"
+"\"Très bien, maintenant profitez de notre meilleure boutique locale. Je reçois des rapports urgents que je dois examiner. Ravi de faire affaire avec vous.\"\n"
 "\n"
-"Avant de faire vos achats, vous avez encore le temps de faire autre chose à bord du vaisseau."
+"\t\tAvant de faire vos achats, vous avez encore un peu de temps pour faire autre chose à bord du vaisseau."
 
 #: src-en/data/events_sector_radikal.xml:3541
 msgid ""
@@ -3571,16 +3570,16 @@ msgstr ""
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_LAB_SCORCH_AMBUSH\"]/text"
 msgstr ""
-"Vous atteignez à peine le bouton de saut lorsqu'une petite flotte d'Orchidées surgit ! Un vaisseau Jardinier très en colère vous interpelle immédiatement.\n"
+"Vous atteignez à peine le bouton de saut lorsqu'une petite flotte d'Orchidées arrive ! Un vaisseau de type Jardinier très en colère vous contacte immédiatement.\n"
 "\n"
-"\"Fédération. Nos éclaireurs vous ont vus interagir avec ces gens. Espèce de traître. Nous vengerons notre peuple. Puis nous raserons cette abomination de planète.\"\n"
+"\t\t\"Fédération. Des éclaireurs vous ont vus interagir avec ces gens. Espèce de parasite traître. Nous vengerons notre peuple. Puis nous raserons cette aberration de planète.\"\n"
 "\n"
-"Vous vous demandez pourquoi ils s'exposeraient à un armement si spécifiquement efficace contre leur biologie, mais vos scans révèlent qu'ils sont venus très préparés !"
+"\t\tVous vous demandez pourquoi ils s'exposeraient à des armes si spécifiquement efficaces contre leur biologie, mais vos scans révèlent qu'ils sont venus très bien préparés !"
 
 #: src-en/data/events_sector_radikal.xml:3564
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_LAB_SCORCH_AMBUSH\"]/choice[@req=\"RKS_HAS_ORCHID_UNIQUE\"]/text"
-msgstr "(Unique Orchidée) Laissez-nous partir. Mission secrète."
+msgstr "(Orchidée Unique) Laissez-nous passer. Mission secrète."
 
 #: src-en/data/events_sector_radikal.xml:3569
 msgid ""
@@ -3591,10 +3590,10 @@ msgstr "...Pour être honnête, je m'attendais à quelque chose comme ça."
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_LAB_SCORCH_AMBUSH\"]/choice[2]/event/text"
 msgstr ""
-"\"Putains de Floraux, pourquoi devez-vous toujours essayer d'arrêter le progrès ? Ce n'est pas de notre faute si ces corps font le meilleur carburant ! Nous n'avons pas fait les règles. Gardes, il est temps de faire un peu de jardinage !\"\n"
-"\n"
-"Les projectiles du RK Scorch et de la flotte d'assaut commencent à voler dans toutes les directions !\n"
-"De plus, ils ont dû utiliser un brouilleur spécial pour désactiver votre générateur SPL, vous devrez le recharger."
+"\"Putains de Floraux, pourquoi devez-vous toujours essayer d'arrêter le progrès ? Ce n'est pas notre faute si ces corps font le meilleur carburant ! Nous n'avons pas fait les règles. Gardes, il est temps de faire un peu de jardinage !\"\n"
+"\t\t\t\t\n"
+"\t\t\t\tLes projectiles du RK Scorch et de la flotte d'assaut commencent à voler dans toutes les directions !\n"
+"\t\t\t\tDe plus, ils ont dû utiliser un brouilleur spécial pour désactiver votre générateur SPL, vous devrez le recharger."
 
 #: src-en/data/events_sector_radikal.xml:3580
 msgid ""
@@ -3605,9 +3604,8 @@ msgstr ""
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_LAB_SCORCH_ATTACKER\"]/destroyed/text"
 msgstr ""
-"Le vaisseau Orchidée d'élite se désagrège et vous récupérez rapidement ce "
-"que vous pouvez avant que le reste de la flotte ne réalise ce qui s'est "
-"passé."
+"Le vaisseau d'élite Orchidée se disloque et vous récupérez rapidement ce que"
+" vous pouvez avant que le reste de la flotte ne réalise ce qui s'est passé."
 
 #: src-en/data/events_sector_radikal.xml:3592
 msgid ""
@@ -3620,8 +3618,8 @@ msgstr ""
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_LAB_SCORCH_ATTACKER\"]/deadCrew/text"
 msgstr ""
-"Avec l'équipage mort, vous récupérez rapidement ce que vous pouvez du "
-"vaisseau Orchidée d'élite avant que le reste de la flotte ne réalise ce qui "
+"L'équipage étant mort, vous récupérez rapidement ce que vous pouvez sur le "
+"vaisseau d'élite Orchidée avant que le reste de la flotte ne réalise ce qui "
 "s'est passé."
 
 #: src-en/data/events_sector_radikal.xml:3600
@@ -3635,8 +3633,7 @@ msgstr ""
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY\"]/beaconType/unvisitedTooltip"
 msgstr ""
-"Les pirates attendent votre ferraille. Décevez-les de quelque manière que ce"
-" soit à vos risques et périls !"
+"Les pirates attendent votre ferraille. Décevez-les à vos risques et périls !"
 
 #: src-en/data/events_sector_radikal.xml:3635
 msgid "data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY\"]/text"
@@ -3645,8 +3642,7 @@ msgstr ""
 #: src-en/data/events_sector_radikal.xml:3647
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY\"]/choice[1]/text"
-msgstr ""
-"Oui, c'est bien moi. Assez de bavardages, montrez-nous la marchandise."
+msgstr "Oui, c'est bien moi. Assez discuté, montrez-nous la marchandise."
 
 #: src-en/data/events_sector_radikal.xml:3655
 msgid ""
@@ -3721,8 +3717,8 @@ msgstr "En fait, allez vous faire foutre."
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_SLAVER\"]/text"
 msgstr ""
-"\"Depuis vaisseaux de guerre, camps miniers, pouponnières, avant-postes aussi, nous apportons les meilleurs et plus brillants esclaves ! Sûr l'un d'eux est votre besoin...\n"
-"À moins que vous pas vouloir payer. Alors nous mettons collier d'esclave sur vous aussi.\""
+"\"Depuis vaisseaux de guerre, camps miniers, pouponnières, avant-postes aussi, nous amenons meilleurs et plus brillants esclaves ! Sûr un d'eux est votre besoin...\n"
+"\t\tSauf si vous pas vouloir payer. Alors nous mettre collier d'esclave sur vous aussi.\""
 
 #: src-en/data/events_sector_radikal.xml:3739
 msgid ""
@@ -3743,7 +3739,7 @@ msgstr ""
 #: src-en/data/events_sector_radikal.xml:3747
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_SLAVER\"]/choice/event/choice[1]/event/text"
-msgstr "\"Bel achat. Sûr ils serviront bien, capitaine !\""
+msgstr "\"Super achat. Sûr ils servir bien, capitaine !\""
 
 #: src-en/data/events_sector_radikal.xml:3756
 msgid ""
@@ -3758,7 +3754,7 @@ msgstr "Acheter un meilleur esclave."
 #: src-en/data/events_sector_radikal.xml:3767
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_SLAVER\"]/choice/event/choice[2]/event/text"
-msgstr "\"Bel achat. Sûr ils serviront bien, capitaine !\""
+msgstr "\"Super achat. Sûr ils servir bien, capitaine !\""
 
 #: src-en/data/events_sector_radikal.xml:3775
 msgid ""
@@ -3774,9 +3770,9 @@ msgstr ""
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_SLAVER\"]/choice/event/choice[3]/event/text"
 msgstr ""
-"\"Ah, je vois vous avez œil pour seulement meilleure qualité d'esclaves, "
-"capitaine. Ceci est l'un des meilleurs esclaves de toujours. Sûr il servira "
-"bien, capitaine !\""
+"\"Ah, je vois vous avoir œil pour seulement meilleure qualité d'esclaves, "
+"capitaine. Ceci est un de plus fins esclaves jamais. Sûr ils servir bien, "
+"capitaine !\""
 
 #: src-en/data/events_sector_radikal.xml:3792
 msgid ""
@@ -3786,7 +3782,7 @@ msgstr ""
 #: src-en/data/events_sector_radikal.xml:3799
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_SLAVER\"]/choice/event/choice[4]/text"
-msgstr "Vous savez quoi, le truc drôle, c'est qu'on est fauché..."
+msgstr "Vous savez, le truc drôle, c'est qu'on est fauché..."
 
 #: src-en/data/events_sector_radikal.xml:3801
 msgid ""
@@ -3802,8 +3798,8 @@ msgstr ""
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_MERCENARY\"]/text"
 msgstr ""
-"\"Gardez une longueur d'avance sur vos ennemis avec nos services de renseignement. De la reconnaissance à la distraction, jusqu'à des actions plus... décisives une fois que nous nous connaîtrons assez bien !\n"
-"En supposant que vous ne soyez pas devenu notre prochaine cible en venant ici les mains vides, évidemment.\""
+"\"Gardez une longueur d'avance sur vos ennemis grâce à nos services de renseignement. De la reconnaissance à la distraction, jusqu'à une action plus... décisive une fois que nous nous connaîtrons assez bien !\n"
+"\t\tEn supposant que vous ne vous soyez pas transformé en notre prochaine cible en venant ici les mains vides, évidemment.\""
 
 #: src-en/data/events_sector_radikal.xml:3824
 msgid ""
@@ -3823,7 +3819,7 @@ msgstr ""
 #: src-en/data/events_sector_radikal.xml:3832
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_MERCENARY\"]/choice/event/choice[1]/event/text"
-msgstr "\"Compris, capitaine !\""
+msgstr "\"C'est comme vous voulez, capitaine !\""
 
 #: src-en/data/events_sector_radikal.xml:3840
 msgid ""
@@ -3848,7 +3844,7 @@ msgstr ""
 #: src-en/data/events_sector_radikal.xml:3864
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_MERCENARY\"]/choice/event/choice[3]/text"
-msgstr "Vous savez quoi, le truc drôle, c'est qu'on est fauché..."
+msgstr "Vous savez, le truc drôle, c'est qu'on est fauché..."
 
 #: src-en/data/events_sector_radikal.xml:3866
 msgid ""
@@ -3864,8 +3860,8 @@ msgstr ""
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_SMUGGLER\"]/text"
 msgstr ""
-"\"Savez-vous ce qui sépare les bons capitaines des grands capitaines ? Eh bien, nous le savons, et c'est là qu'ils se procurent leur armement. Nous fournissons ces armes et augmentations très spéciales qui dépassent ce que vous pouvez trouver dans votre boutique habituelle.\n"
-"Et où les avons-nous obtenues ? Dans les vaisseaux sans vie de capitaines qui ne payaient pas, ce que vous êtes trop intelligent pour être, n'est-ce pas ?\""
+"\"Savez-vous ce qui sépare les bons capitaines des grands capitaines ? Eh bien, nous le savons, c'est là qu'ils se procurent leur armement. Nous fournissons ces armes et augmentations très spéciales qui vont au-delà de ce que vous pouvez trouver dans votre magasin habituel.\n"
+"\t\tEt d'où les tenons-nous ? Des vaisseaux sans vie de capitaines mauvais payeurs, ce que vous êtes trop intelligent pour être, n'est-ce pas ?\""
 
 #: src-en/data/events_sector_radikal.xml:3888
 msgid ""
@@ -3875,7 +3871,7 @@ msgstr ""
 #: src-en/data/events_sector_radikal.xml:3890
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_SMUGGLER\"]/choice/event/text"
-msgstr "Le contrebandier attend vos ordres."
+msgstr "Le contrebandier attend votre commande."
 
 #: src-en/data/events_sector_radikal.xml:3894
 msgid ""
@@ -3925,7 +3921,7 @@ msgstr ""
 #: src-en/data/events_sector_radikal.xml:3945
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_SMUGGLER\"]/choice/event/choice[4]/text"
-msgstr "Vous savez quoi, le truc drôle, c'est qu'on est fauché..."
+msgstr "Vous savez, le truc drôle, c'est qu'on est fauché..."
 
 #: src-en/data/events_sector_radikal.xml:3947
 msgid ""
@@ -3951,8 +3947,8 @@ msgstr ""
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_TRINITY_SLAVER\"]/destroyed/text"
 msgstr ""
-"Le vaisseau Esclavagiste a été vaincu. Vous démantelez les restes.\n"
-"Intentionnellement ou non, vous avez semé le trouble en perturbant les opérations pirates dans ce secteur."
+"Le vaisseau d'esclavagistes a été vaincu. Vous récupérez la ferraille des débris.\n"
+"\t\t\tIntentionnellement ou non, vous avez causé un sacré désordre en perturbant les opérations pirates dans ce secteur."
 
 #: src-en/data/events_sector_radikal.xml:3984
 msgid ""
@@ -3963,8 +3959,8 @@ msgstr ""
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_TRINITY_SLAVER\"]/deadCrew/text"
 msgstr ""
-"Le vaisseau Esclavagiste a été vaincu. Vous démantelez l'intérieur et libérez un excellent esclave de la soute !\n"
-"Intentionnellement ou non, vous avez semé le trouble en perturbant les opérations pirates dans ce secteur."
+"Le vaisseau d'esclavagistes a été vaincu. Vous récupérez la ferraille de l'intérieur et libérez un excellent esclave de la soute !\n"
+"\t\t\tIntentionnellement ou non, vous avez causé un sacré désordre en perturbant les opérations pirates dans ce secteur."
 
 #: src-en/data/events_sector_radikal.xml:3995
 msgid ""
@@ -3975,8 +3971,8 @@ msgstr ""
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_TRINITY_MERCENARY\"]/destroyed/text"
 msgstr ""
-"Le vaisseau Mercenaire a été vaincu. Vous démantelez les restes.\n"
-"Intentionnellement ou non, vous avez semé le trouble en perturbant les opérations pirates dans ce secteur."
+"Le vaisseau mercenaire a été vaincu. Vous récupérez la ferraille des débris.\n"
+"\t\t\tIntentionnellement ou non, vous avez causé un sacré désordre en perturbant les opérations pirates dans ce secteur."
 
 #: src-en/data/events_sector_radikal.xml:4007
 msgid ""
@@ -3987,8 +3983,8 @@ msgstr ""
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_TRINITY_MERCENARY\"]/deadCrew/text"
 msgstr ""
-"Le vaisseau Mercenaire a été vaincu. Vous démantelez l'intérieur et trouvez des données sectorielles détaillées dans le terminal !\n"
-"Intentionnellement ou non, vous avez semé le trouble en perturbant les opérations pirates dans ce secteur."
+"Le vaisseau mercenaire a été vaincu. Vous récupérez la ferraille de l'intérieur et trouvez des données sectorielles détaillées dans le terminal !\n"
+"\t\t\tIntentionnellement ou non, vous avez causé un sacré désordre en perturbant les opérations pirates dans ce secteur."
 
 #: src-en/data/events_sector_radikal.xml:4018
 msgid ""
@@ -3999,8 +3995,8 @@ msgstr ""
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_TRINITY_SMUGGLER\"]/destroyed/text"
 msgstr ""
-"Le vaisseau Contrebandier a été vaincu. Vous démantelez les restes.\n"
-"Intentionnellement ou non, vous avez semé le trouble en perturbant les opérations pirates dans ce secteur."
+"Le vaisseau contrebandier a été vaincu. Vous récupérez la ferraille des débris.\n"
+"\t\t\tIntentionnellement ou non, vous avez causé un sacré désordre en perturbant les opérations pirates dans ce secteur."
 
 #: src-en/data/events_sector_radikal.xml:4030
 msgid ""
@@ -4011,8 +4007,8 @@ msgstr ""
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_TRINITY_SMUGGLER\"]/deadCrew/text"
 msgstr ""
-"Le vaisseau Contrebandier a été vaincu. Vous démantelez l'intérieur et trouvez une arme dans la soute !\n"
-"Intentionnellement ou non, vous avez semé le trouble en perturbant les opérations pirates dans ce secteur."
+"Le vaisseau contrebandier a été vaincu. Vous récupérez la ferraille de l'intérieur et trouvez une arme dans la soute !\n"
+"\t\t\tIntentionnellement ou non, vous avez causé un sacré désordre en perturbant les opérations pirates dans ce secteur."
 
 #: src-en/data/events_sector_radikal.xml:4041
 msgid ""

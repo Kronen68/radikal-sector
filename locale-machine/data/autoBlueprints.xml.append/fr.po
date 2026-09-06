@@ -8,7 +8,7 @@ msgstr ""
 #: src-en/data/autoBlueprints.xml.append:1175
 msgid ""
 "data/autoBlueprints.xml.append$//shipBlueprint[@name=\"RK_A_ZOLTAN_POLICE_INTRO\"]/class"
-msgstr "Mandataire du maintien de la paix A-RK.S.S."
+msgstr "Mandateur du maintien de la paix A-RK.S.S."
 
 #: src-en/data/autoBlueprints.xml.append:1236
 msgid ""
@@ -43,7 +43,7 @@ msgstr "Vaisseau de patrouille Lost Sun associé RK"
 #: src-en/data/autoBlueprints.xml.append:1577
 msgid ""
 "data/autoBlueprints.xml.append$//shipBlueprint[@name=\"RKS_REINFORCEMENT_HACKER_MANIPULATOR\"]/class"
-msgstr "Manipulateur Hacker associé RK"
+msgstr "Manipulateur hacker associé RK"
 
 #: src-en/data/autoBlueprints.xml.append:1645
 msgid ""
@@ -68,7 +68,7 @@ msgstr "Chasseur rapide RK Scorch"
 #: src-en/data/autoBlueprints.xml.append:1891
 msgid ""
 "data/autoBlueprints.xml.append$//shipBlueprint[@name=\"RKS_COALITION_DESTROYER_ELITE\"]/class"
-msgstr "Destroyer R.U.E.S."
+msgstr "Destroyer E.E.U.R."
 
 #: src-en/data/autoBlueprints.xml.append:1954
 msgid ""
