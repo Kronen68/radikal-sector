@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-09-28 16:36+0000\n"
+"PO-Revision-Date: 2026-10-09 11:05+0000\n"
 "Last-Translator: Ukn <bbg100bbg@gmail.com>\n"
 "Language-Team: Russian <https://weblate.hyperq.be/projects/radikal-sector/"
 "datatext_miscxmlappend/ru/>\n"
@@ -70,10 +70,9 @@ msgstr ""
 "Федерации! После этого - он ЛЕГКАЯ добыча\"."
 
 #: src-en/data/text_misc.xml.append:57
-#, fuzzy
 msgid "data/text_misc.xml.append$//text[@name=\"RK_lore_RK_HEAVY_POPPER_2\"]"
 msgstr ""
-"Знак качества: \"Инфлюенсер \"БЛ2Навсегда420\" заявил своим МИЛЛИАРДАМ "
+"Знак качества: \"Инфлюенсер БЛ2Навсегда420 заявил своим МИЛЛИАРДАМ "
 "подписчиков: \"Дружба с импульсными лазерами ЗАКОНЧИЛАСЬ!\"\""
 
 #: src-en/data/text_misc.xml.append:58
@@ -147,6 +146,8 @@ msgstr ""
 #: src-en/data/text_misc.xml.append:72
 msgid "data/text_misc.xml.append$//text[@name=\"RK_lore_RK_BPS_FOCUS_STATUS\"]"
 msgstr ""
+"Знак качества: \"УБИВАТЬ и УНИЧТОЖАТЬ - это, конечно, здорово, но это также "
+"принесло БОЛЬ, которую вы даже представить себе не можете!\""
 
 #: src-en/data/text_misc.xml.append:73
 msgid "data/text_misc.xml.append$//text[@name=\"RK_lore_DJMOD_LASER_BPS\"]"
