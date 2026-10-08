@@ -1,8 +1,8 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-09-28 16:36+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2026-10-09 11:05+0000\n"
+"Last-Translator: Ukn <bbg100bbg@gmail.com>\n"
 "Language-Team: Russian <https://weblate.hyperq.be/projects/radikal-sector/"
 "datahyperspace-xml-append/ru/>\n"
 "Language: ru\n"
@@ -143,45 +143,45 @@ msgstr "Зои"
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"RKS_LAB_PUNK_FREEMANTIS_ELITE\"]/crew/mantis_warlord[@name=\"Wakk\"]/@name"
-msgstr ""
+msgstr "Вакк"
 
 #: src-en/data/hyperspace.xml.append:718
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"RKS_LAB_PUNK_FREEMANTIS_ELITE\"]/crew/mantis_warlord[@name=\"Xakk\"]/@name"
-msgstr ""
+msgstr "Хакк"
 
 #: src-en/data/hyperspace.xml.append:719
 msgid "data/hyperspace.xml.append$//mantis_free[@name=\"Yakk\"]/@name"
-msgstr ""
+msgstr "Якк"
 
 #: src-en/data/hyperspace.xml.append:720
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"RKS_LAB_PUNK_FREEMANTIS_ELITE\"]/crew/mantis_free[@name=\"Zakk\"]/@name"
-msgstr ""
+msgstr "Закк"
 
 #: src-en/data/hyperspace.xml.append:752
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"RKS_LAB_PUNK_FREEMANTIS_ELITE_CHALLENGE\"]/crew/mantis_warlord[@name=\"Wakk\"]/@name"
-msgstr ""
+msgstr "Вакк"
 
 #: src-en/data/hyperspace.xml.append:753
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"RKS_LAB_PUNK_FREEMANTIS_ELITE_CHALLENGE\"]/crew/mantis_warlord[@name=\"Xakk\"]/@name"
-msgstr ""
+msgstr "Хакк"
 
 #: src-en/data/hyperspace.xml.append:754
 msgid "data/hyperspace.xml.append$//mantis_warlord[@name=\"Yakk\"]/@name"
-msgstr ""
+msgstr "Якк"
 
 #: src-en/data/hyperspace.xml.append:755
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"RKS_LAB_PUNK_FREEMANTIS_ELITE_CHALLENGE\"]/crew/mantis_free[@name=\"Zakk\"]/@name"
-msgstr ""
+msgstr "Закк"
 
 #: src-en/data/hyperspace.xml.append:840
 msgid ""
@@ -307,15 +307,14 @@ msgstr ""
 "\t\t\tВ лучшем случае они превращаются в свои собственные упрощенные версии (солдат = человек по умолчанию и т. д.). Если упрощенной версии не существует, они становятся морфами. Когда морфы умирают - ничего не происходит."
 
 #: src-en/data/hyperspace.xml.append:933
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[3]/mod:findLike[3]/mod-"
 "append:shipIcon[6]/tooltip"
 msgstr ""
 "УСПОКОИТЕЛЬ РАЗУМА:\n"
 "\t\t\tНаходясь под воздействием Контроля разума, экипаж этого корабля не "
-"может сражаться, заниматься саботажем или телепортироваться. Действует на "
-"обоих кораблях."
+"может сражаться, заниматься саботажем, использовать способности или "
+"телепортироваться. Действует на обоих кораблях."
 
 #: src-en/data/hyperspace.xml.append:941
 msgid ""
@@ -566,11 +565,10 @@ msgid ""
 msgstr "БПС РАДИКАЛ ОРУЖИЕ"
 
 #: src-en/data/hyperspace.xml.append:3647
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[1]/category[2]/customTitle"
-msgstr "ОРУЖИЕ РАДИКАЛ"
+msgstr "РК ПОДТИПЫ ОРУЖИЯ"
 
 #: src-en/data/hyperspace.xml.append:3665
 msgid ""
@@ -609,11 +607,10 @@ msgid ""
 msgstr "ОСНОВНОЕ ОРУЖИЕ РАДИКАЛ"
 
 #: src-en/data/hyperspace.xml.append:3808
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[4]/category[2]/customTitle"
-msgstr "ОРУЖИЕ РАДИКАЛ"
+msgstr "РК ПОДТИПЫ ОРУЖИЯ"
 
 #: src-en/data/hyperspace.xml.append:3827
 msgid ""
