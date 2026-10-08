@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-09-28 16:36+0000\n"
+"PO-Revision-Date: 2026-10-09 11:05+0000\n"
 "Last-Translator: TrpleA <wndhkswnqls2@naver.com>\n"
 "Language-Team: Korean <https://weblate.hyperq.be/projects/radikal-sector/"
 "dataeventsxmlappend/ko/>\n"
@@ -3972,8 +3972,11 @@ msgstr ""
 msgid ""
 "data/events.xml.append$//event[@name=\"RKS_EXIT_PIRATE_TRINITY_AMBUSH\"]/text"
 msgstr ""
-"당신이 막 도약하려던 순간, 해적 도색을 한 육중한 군함 한 척이 숨어 있던 곳에서 모습을 드러내고, 그 뒤를 이어 더 많은 해적들이 나타납니다.\n"
-"\t\t\"무언가 잊은 게 없는 것 같나? 바로 당신이 요구했던 그 소소한 비즈니스 미팅 말이야! 너희에겐 명예라는 것도 없나??! 잘나신 칼잡이 패거리를 불러놓고 시간만 낭비하게 만들고 도망칠 순 없지. 죽어라, 얼간이 놈아!\"</text>"
+"당신이 막 도약하려던 순간, 해적 도색을 한 육중한 군함 한 척이 숨어 있던 "
+"곳에서 모습을 드러내고, 그 뒤를 이어 더 많은 해적들이 나타납니다.\n"
+"\t\t\"무언가 잊은 게 없는 것 같나? 바로 당신이 요구했던 그 소소한 비즈니스 "
+"미팅 말이야! 너희에겐 명예라는 것도 없나??! 잘나신 칼잡이 패거리를 불러놓고 "
+"시간만 낭비하게 만들고 도망칠 순 없지. 죽어라, 얼간이 놈아!\""
 
 #: src-en/data/events.xml.append:4330
 msgid ""
