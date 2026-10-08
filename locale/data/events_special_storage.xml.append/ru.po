@@ -1,8 +1,8 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-09-28 16:36+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2026-10-09 11:05+0000\n"
+"Last-Translator: Ukn <bbg100bbg@gmail.com>\n"
 "Language-Team: Russian <https://weblate.hyperq.be/projects/radikal-sector/"
 "dataevents_special_storagexmlappend/ru/>\n"
 "Language: ru\n"
@@ -271,11 +271,10 @@ msgid ""
 msgstr "(Панк Гармония) Вырасти Сепаратиста энджи."
 
 #: src-en/data/events_special_storage.xml.append:721
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/mod:findName[23]/mod-"
 "append:choice/text"
-msgstr "(Оксигенатор) Создать атмосферу!"
+msgstr "(Оксигенатор) Создать атмосферу."
 
 #: src-en/data/events_special_storage.xml.append:728
 msgid ""
@@ -2615,7 +2614,9 @@ msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_OXYGENIZER_ACTIVATE\"]/text"
 msgstr ""
 "Вы уверены, что хотите это сделать?\n"
-"\t[Оба корабля будут окружены кислородной атмосферой, что защитит пожар от затухания при пробоинах или открытии шлюзов, а экипаж не сможет задохнуться. Стоимость: 2}]"
+"\t[Оба корабля будут окружены кислородной атмосферой, что защитит пожар от "
+"затухания при пробоинах или открытии шлюзов, а экипаж не сможет задохнуться. "
+"Цена: 2}]"
 
 #: src-en/data/events_special_storage.xml.append:4809
 msgid ""
@@ -2655,14 +2656,13 @@ msgid ""
 msgstr "Неважно, давайте сражаться!"
 
 #: src-en/data/events_special_storage.xml.append:4869
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_OXYGENIZER_ACTIVATE_IN_EMPTY\"]/text"
 msgstr ""
 "Вы уверены, что хотите это сделать?\n"
-"\t[Оба корабля будут окружены кислородной атмосферой, что защитит пожар от "
+"\t[Ваш корабль будет окружен кислородной атмосферой, что защитит пожар от "
 "затухания при пробоинах или открытии шлюзов, а экипаж не сможет задохнуться. "
-"Стоимость: 2}]"
+"Цена: 1}]"
 
 #: src-en/data/events_special_storage.xml.append:4873
 msgid ""
@@ -2683,7 +2683,7 @@ msgstr ""
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_OXYGENIZER_ACTIVATE_IN_EMPTY\"]/choice[@req=\"loc_environment_atmosphere\""
 " and @lvl=\"0\"]/event/choice/text"
-msgstr ""
+msgstr "Ах, свежий воздух!"
 
 #: src-en/data/events_special_storage.xml.append:4891
 msgid ""
@@ -3734,7 +3734,6 @@ msgid ""
 msgstr "Да"
 
 #: src-en/data/events_special_storage.xml.append:6676
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_BPS_SURVEYOR_ACTIVATE\"]/choice[@req=\"RK_BPS_SURVEYOR\"]/event/text"
 msgstr ""
@@ -3742,11 +3741,10 @@ msgstr ""
 "что-то в этом роде.\n"
 "\t\t\t\tЧерез некоторое время они удаленно сообщают о своих находках.\n"
 "\t\t\t\t\n"
-"\t\t\t\tЕсли вы решите ничего не забирать, то получите обратно то, что "
-"осталось от обоих дронов-разведчиков.\n"
+"\t\t\t\tЕсли вы решите ничего не забирать, вам будет возвращена часть "
+"затрат.\n"
 "\t\t\t\t\n"
-"\t\t\t\tЕсли вы решите что-нибудь забрать, вы получите обратно то, что "
-"осталось от 1 дрона-разведчика, но флот ускорится на 1 прыжок."
+"\t\t\t\tЕсли вы решите что-нибудь забрать, то флот ускорится на 1 прыжок."
 
 #: src-en/data/events_special_storage.xml.append:6691
 msgid ""
@@ -3944,14 +3942,13 @@ msgid ""
 msgstr "Демиклонеры. [Цена: 35~, 2|]"
 
 #: src-en/data/events_special_storage.xml.append:7049
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL\"]/choice[@req=\"INTERNAL_DJMOD_MC_PARALYZER\""
 " and @lvl=\"1\"]/text"
 msgstr ""
 "РК Панк \"Успокоитель разума\": под воздействием контроля разума ваш экипаж "
-"не может сражаться, саботировать или телепортироваться. Действует на обоих "
-"кораблях. [УЖЕ УСТАНОВЛЕНО]"
+"не может сражаться, саботировать, использовать способности или "
+"телепортироваться. Действует на обоих кораблях. [УЖЕ УСТАНОВЛЕНО]"
 
 #: src-en/data/events_special_storage.xml.append:7053
 msgid ""
@@ -4143,13 +4140,13 @@ msgid ""
 msgstr "Неважно."
 
 #: src-en/data/events_special_storage.xml.append:7264
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_DJMOD_MC_PARALYZER\"]/text"
 msgstr ""
 "Вы хотите добавить Успокоитель разума.\n"
 "\t[Эффекты: Под воздействием контроля разума ваш экипаж не может сражаться, "
-"саботировать или телепортироваться. Действует на обоих кораблях]"
+"саботировать, использовать способности или телепортироваться. Действует на "
+"обоих кораблях]"
 
 #: src-en/data/events_special_storage.xml.append:7268
 msgid ""
