@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-09-28 16:36+0000\n"
+"PO-Revision-Date: 2026-10-09 11:05+0000\n"
 "Last-Translator: Ukn <bbg100bbg@gmail.com>\n"
 "Language-Team: Russian <https://weblate.hyperq.be/projects/radikal-sector/"
 "dataeventsxmlappend/ru/>\n"
@@ -550,7 +550,6 @@ msgid ""
 msgstr "У нас нет ничего такого, офицер."
 
 #: src-en/data/events.xml.append:869
-#, fuzzy
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER3_QUEST_START\"]/choice[3]/event/choice[2]/event/text"
 msgstr ""
@@ -558,8 +557,15 @@ msgstr ""
 "прыжок.\n"
 "\t\t\t\t\t\t\n"
 "\t\t\t\t\t\t\"Ха! Они всегда думают, что им сойдет это с рук... Но от "
-"правосудия не уйти. Я знаю, что найти какие-либо улики уже невозможно, но "
-"ты, по крайней мере, ЗАПЛАТИШЬ ЗА МОЮ СЕМЬЮ, ТЫ, БОЛЬНОЙ УБЛ...!\""
+"правосудия не уйти.\n"
+"\t\t\t\t\t\tЯ знаю, что теперь уже невозможно найти какие-либо улики, "
+"указывающие на преступника, но есть достаточно доказательств того, что это "
+"был РадиКал...\n"
+"\t\t\t\t\t\tТак что ТЫ ЗАПЛАТИШЬ за то, что они сделали с МОЕЙ СЕМЬЕЙ, ТЫ, "
+"БОЛЬНОЙ УБЛ...\"\n"
+"\t\t\t\t\t\t\n"
+"\t\t\t\t\t\tВы отключили связь. Вы (вероятно?) не убивали его семью, но им, "
+"судя по всему, ему это наплевать, и он жаждет крови."
 
 #: src-en/data/events.xml.append:877
 msgid ""
@@ -740,7 +746,6 @@ msgid ""
 msgstr "Интересно. Покажите, что у вас есть."
 
 #: src-en/data/events.xml.append:1134
-#, fuzzy
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_OUTSIDE_STORE\"]/choice/event/choice[1]/event/text"
 msgstr ""
@@ -749,7 +754,8 @@ msgstr ""
 "чшто, судя по всему, тебя не особо беспокоит.\n"
 "\t\t\t\t\t\tПросто... не дай им тебя сразить. Можно сказать, чшто они "
 "используют проклятое оборудование, и это будет недалеко от истины\".\n"
-"\t\t\t\t\t\t[Предупреждение: очень ограниченные возможности покупок]"
+"\t\t\t\t\t\t[style[color:ff3377]][Предупреждение: очень ограниченные "
+"возможности покупок][[/style]]"
 
 #: src-en/data/events.xml.append:1141
 msgid ""
@@ -1473,7 +1479,7 @@ msgstr "Продолжить..."
 #: src-en/data/events.xml.append:1850
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_BPS_FOCUS_STATUS\"]/text"
-msgstr ""
+msgstr "Сдать свой точечный луч \"БПС Письмо\"."
 
 #: src-en/data/events.xml.append:1852
 msgid ""
@@ -2166,7 +2172,7 @@ msgstr ""
 #: src-en/data/events.xml.append:2435
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"RK_BPS_FOCUS_STATUS\"]/text"
-msgstr ""
+msgstr "Продать свой точечный луч \"БПС Письмо\" за 120~."
 
 #: src-en/data/events.xml.append:2437
 msgid ""
@@ -2507,7 +2513,7 @@ msgstr ""
 #: src-en/data/events.xml.append:2682
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_BPS_FOCUS_STATUS\"]/text"
-msgstr ""
+msgstr "Продать свой точечный луч \"БПС Письмо\" за 120~."
 
 #: src-en/data/events.xml.append:2684
 msgid ""
@@ -4307,13 +4313,14 @@ msgid ""
 msgstr "А, так вот отчего у меня было такое странное чувство."
 
 #: src-en/data/events.xml.append:4332
-#, fuzzy
 msgid ""
 "data/events.xml.append$//event[@name=\"RKS_EXIT_PIRATE_TRINITY_AMBUSH\"]/choice/event/text"
 msgstr ""
 "Похоже, пираты действительно не оценили то, что вы не пришли на встречу с "
-"Пиратской Троицой. Они еще и каким-то образом глушат ваш ССД! Чтобы улететь, "
-"вам придется сразиться с ними, так как РадиКалы, судя по всему, не намерены "
+"Пиратской Троицой.\n"
+"\t\t\t\t\n"
+"\t\t\t\tОни еще и каким-то образом глушат ваш ССД! Чтобы улететь, вам "
+"придется сразиться с ними, так как РадиКалы, судя по всему, не намерены "
 "принимать чью-либо сторону."
 
 #: src-en/data/events.xml.append:4338
