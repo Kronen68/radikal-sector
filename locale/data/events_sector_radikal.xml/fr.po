@@ -1,9 +1,16 @@
 #
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2026-10-13 17:26+0000\n"
+"Last-Translator: kronen68 <obrice@hotmail.fr>\n"
+"Language-Team: French <https://weblate.hyperq.be/projects/radikal-sector/"
+"dataevents_sector_radikalxml/fr/>\n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 5.17.1\n"
 
 #: src-en/data/events_sector_radikal.xml:82
 msgid ""
@@ -3648,13 +3655,22 @@ msgid ""
 msgstr ""
 
 #: src-en/data/events_sector_radikal.xml:4276
+#, fuzzy
 msgid "data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY\"]/text"
 msgstr ""
-"Les clans pirates ne sont pas toujours d'accord entre eux, mais lorsqu'il s'agit de grosses sommes, ils savent se tenir. L'élite qui vous accueille semble chargée de superviser les transactions.\n"
-"\t\t\"Alors comme ççça, vous zzêtes le grand client fédéral qui a abandonné une vie légale pour traîner avec nous, hein ? Sssans offensssse, mais je dois dire que j'ai du mal à y croire. Nous verrons bien sssi vous zzêtes sssérieux...\"\n"
+"Les clans pirates ne sont pas toujours d'accord entre eux, mais lorsqu'il "
+"s'agit de grosses sommes, ils savent se tenir. L'élite qui vous accueille "
+"semble chargée de superviser les transactions.\n"
+"\t\t\"Alors comme ççça, vous zzêtes le grand client fédéral qui a abandonné "
+"une vie légale pour traîner avec nous, hein ? Sssans offensssse, mais je "
+"dois dire que j'ai du mal à y croire. Nous verrons bien sssi vous zzêtes "
+"sssérieux...\"\n"
 "\t\t\n"
-"\t\tSi vous ne voulez pas mettre en colère la limace et ses associés impitoyables, vous feriez mieux d'acheter quelque chose à chacune des sous-factions pirates.\n"
-"\t\tC'est tout ou rien, mais si vous le faites, les pirates de toute la galaxie vous respecteront encore davantage !"
+"\t\tSi vous ne voulez pas mettre en colère la limace et ses associés "
+"impitoyables, vous feriez mieux d'acheter quelque chose à chacune des sous-"
+"factions pirates.\n"
+"\t\tC'est tout ou rien, mais si vous le faites, les pirates de toute la "
+"galaxie vous respecteront encore davantage !"
 
 #: src-en/data/events_sector_radikal.xml:4288
 msgid ""
