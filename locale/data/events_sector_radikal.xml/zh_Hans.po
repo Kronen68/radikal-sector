@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "PO-Revision-Date: 2026-10-13 17:26+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Last-Translator: 土豆老年人 <2685455659@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://weblate.hyperq.be/"
 "projects/radikal-sector/dataevents_sector_radikalxml/zh_Hans/>\n"
 "Language: zh_Hans\n"
@@ -2228,12 +2228,14 @@ msgid ""
 msgstr "你没有任何 RK 巴姆装备。"
 
 #: src-en/data/events_sector_radikal.xml:2531
+#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM\"]/choice[@req=\"DJMOD_HAS_RADIKAL_BAM_GEAR\""
 " and not(@lvl)]/text"
 msgstr "（RK 巴姆装备）猛击……"
 
 #: src-en/data/events_sector_radikal.xml:2533
+#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM\"]/choice[@req=\"DJMOD_HAS_RADIKAL_BAM_GEAR\""
 " and not(@lvl)]/event/text"
@@ -2795,12 +2797,14 @@ msgid ""
 msgstr "你没有任何 RK 朋克装备。"
 
 #: src-en/data/events_sector_radikal.xml:3089
+#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK\"]/choice[@req=\"DJMOD_HAS_RADIKAL_PUNK_GEAR\""
 " and not(@lvl)]/text"
 msgstr "（RK 朋克装备）保持理智……"
 
 #: src-en/data/events_sector_radikal.xml:3091
+#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK\"]/choice[@req=\"DJMOD_HAS_RADIKAL_PUNK_GEAR\""
 " and not(@lvl)]/event/text"
@@ -3396,12 +3400,14 @@ msgid ""
 msgstr "你没有任何 RK 灼烧装备。"
 
 #: src-en/data/events_sector_radikal.xml:3672
+#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH\"]/choice[@req=\"DJMOD_HAS_RADIKAL_SCORCH_GEAR\""
 " and not(@lvl)]/text"
 msgstr "（RK 灼烧装备）燃烧耀光……"
 
 #: src-en/data/events_sector_radikal.xml:3674
+#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH\"]/choice[@req=\"DJMOD_HAS_RADIKAL_SCORCH_GEAR\""
 " and not(@lvl)]/event/text"
@@ -4016,12 +4022,16 @@ msgid ""
 msgstr "海盗们在等着你的废料。任何让他们失望的行为都需自担风险！"
 
 #: src-en/data/events_sector_radikal.xml:4276
+#, fuzzy
 msgid "data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY\"]/text"
 msgstr ""
-"海盗部族们并非总能意见一致，但当有巨额利润可图时，他们知道该怎么做。在此欢迎你的精英海盗似乎是负责监督交易的头目。\n"
-"\t\t“所——以，你就是那个抛弃了守法生活来与我们混——在一起的联邦大人——客户，嗯？无意冒——犯，但我得告诉你，我其实不太相信。我们会——看看你是不是真材实料……”\n"
+"海盗部族们并非总能意见一致，但当有巨额利润可图时，他们知道该怎么做。在此欢迎"
+"你的精英海盗似乎是负责监督交易的头目。\n"
+"\t\t“所——以，你就是那个抛弃了守法生活来与我们混——在一起的联邦大人——客户，嗯？"
+"无意冒——犯，但我得告诉你，我其实不太相信。我们会——看看你是不是真材实料……”\n"
 "\t\t\n"
-"\t\t如果你不想惹恼这个黏液族和他冷酷无情的同伙，你最好从每个海盗子派系那里都买点东西。\n"
+"\t\t如果你不想惹恼这个黏液族和他冷酷无情的同伙，你最好从每个海盗子派系那里都"
+"买点东西。\n"
 "\t\t要么全买，要么不买，但如果你买了，各地的海盗都会更加尊敬你！"
 
 #: src-en/data/events_sector_radikal.xml:4288
@@ -4166,12 +4176,16 @@ msgid ""
 msgstr "你知道吗，好笑的是，我们身无分文……"
 
 #: src-en/data/events_sector_radikal.xml:4442
+#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_SLAVER\"]/choice/event/choice[4]/event/text"
 msgstr ""
-"“话说得真难听，联邦舰长，你本该选点好听的。但主要还是该带上废料来。”你面前的这艘海盗船立刻进入战斗状态，显然早就料到会这样。\n"
+"“话说得真难听，联邦舰长，你本该选点好听的。但主要还是该带上废料来。”你面前的"
+"这艘海盗船立刻进入战斗状态，显然早就料到会这样。\n"
 "\t\t\t\t\t\t\n"
-"\t\t\t\t\t\t你分不清那个蛞蝓监管是愤怒、是得意，还是两者兼有。“哈！我就知道，你只是想一下子干掉我们这伙海盗，你这个想当英雄的家伙。猜猜怎么着，我们可没那么蠢！嘿，库尔特，把废料交出来，我打赌赢了。”\n"
+"\t\t\t\t\t\t你分不清那个蛞蝓监管是愤怒、是得意，还是两者兼有。“哈！我就知道，"
+"你只是想一下子干掉我们这伙海盗，你这个想当英雄的家伙。猜猜怎么着，我们可没那"
+"么蠢！嘿，库尔特，把废料交出来，我打赌赢了。”\n"
 "\t\t\t\t\t\t说完，他们和其他海盗船就跳跃离开了，留下你来对付那个奴隶贩子！"
 
 #: src-en/data/events_sector_radikal.xml:4449
@@ -4232,12 +4246,16 @@ msgid ""
 msgstr "你知道吗，好笑的是，我们身无分文……"
 
 #: src-en/data/events_sector_radikal.xml:4507
+#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_MERCENARY\"]/choice/event/choice[3]/event/text"
 msgstr ""
-"“选择真差劲，舰长。你本应该带上那些废料的。”你面前的这艘海盗船立刻进入战斗状态，显然早就料到会这样。\n"
+"“选择真差劲，舰长。你本应该带上那些废料的。”你面前的这艘海盗船立刻进入战斗状"
+"态，显然早就料到会这样。\n"
 "\t\t\t\t\t\t\n"
-"\t\t\t\t\t\t你分不清那个蛞蝓监管是愤怒、是得意，还是两者兼有。“哈！我就知道，你只是想一下子干掉我们这伙海盗，你这个想当英雄的家伙。猜猜怎么着，我们可没那么蠢！嘿，库尔特，把废料交出来，我打赌赢了。”\n"
+"\t\t\t\t\t\t你分不清那个蛞蝓监管是愤怒、是得意，还是两者兼有。“哈！我就知道，"
+"你只是想一下子干掉我们这伙海盗，你这个想当英雄的家伙。猜猜怎么着，我们可没那"
+"么蠢！嘿，库尔特，把废料交出来，我打赌赢了。”\n"
 "\t\t\t\t\t\t说完，他们和其他海盗船就跳跃离开了，留下你来对付那个雇佣兵！"
 
 #: src-en/data/events_sector_radikal.xml:4514
@@ -4313,12 +4331,16 @@ msgid ""
 msgstr "你知道吗，好笑的是，我们身无分文……"
 
 #: src-en/data/events_sector_radikal.xml:4588
+#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_SMUGGLER\"]/choice/event/choice[4]/event/text"
 msgstr ""
-"“真可悲，我没把你当成小丑。你本应该带上那些废料的。”你面前的这艘海盗船立刻进入战斗状态，显然早就料到会这样。\n"
+"“真可悲，我没把你当成小丑。你本应该带上那些废料的。”你面前的这艘海盗船立刻进"
+"入战斗状态，显然早就料到会这样。\n"
 "\t\t\t\t\t\t\n"
-"\t\t\t\t\t\t你分不清那个蛞蝓监管是愤怒、是得意，还是两者兼有。“哈！我就知道，你只是想一下子干掉我们这伙海盗，你这个想当英雄的家伙。猜猜怎么着，我们可没那么蠢！嘿，库尔特，把废料交出来，我打赌赢了。”\n"
+"\t\t\t\t\t\t你分不清那个蛞蝓监管是愤怒、是得意，还是两者兼有。“哈！我就知道，"
+"你只是想一下子干掉我们这伙海盗，你这个想当英雄的家伙。猜猜怎么着，我们可没那"
+"么蠢！嘿，库尔特，把废料交出来，我打赌赢了。”\n"
 "\t\t\t\t\t\t说完，他们和其他海盗船就跃迁离开了，留下你来对付那个走私者！"
 
 #: src-en/data/events_sector_radikal.xml:4595
