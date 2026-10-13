@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "PO-Revision-Date: 2026-10-13 17:26+0000\n"
-"Last-Translator: 土豆老年人 <2685455659@qq.com>\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Chinese (Simplified Han script) <https://weblate.hyperq.be/"
 "projects/radikal-sector/dataeventsxmlappend/zh_Hans/>\n"
 "Language: zh_Hans\n"
@@ -560,6 +560,7 @@ msgstr ""
 "“是吗？为了你好，我希望那是真的……”他们立刻通过气闸扔出一个标准奖励包裹，然后离开了。希望那边真的有拉迪卡尔成员，否则你最好祈祷再也别见到这艘舰船。"
 
 #: src-en/data/events.xml.append:928
+#, fuzzy
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER3_QUEST_START\"]/choice[3]/event/choice[@req=\"RK_HAS_GEAR_SURRENDERABLE_TO_RK_A\""
 " and @lvl=\"0\"]/event/choice[3]/text"
@@ -1358,6 +1359,7 @@ msgid ""
 msgstr "继续。"
 
 #: src-en/data/events.xml.append:1922
+#, fuzzy
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"DJMOD_LASER_BPS_ELITE\"]/text"
 msgstr "上交你的BPS 信使。"
@@ -1871,6 +1873,7 @@ msgid ""
 msgstr "当他们转移过量的报酬时，你试图掩饰自己的满足感，但也暗暗希望不会在不久的将来因某次不幸的遭遇而后悔这笔交易。他们一言不发地离开了。"
 
 #: src-en/data/events.xml.append:2451
+#, fuzzy
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"RK_KILLALL_BEAM_ELITE\"]/text"
 msgstr "把你的 墓志铭光束 卖给他们，得 120 ~。"
@@ -1981,6 +1984,7 @@ msgid ""
 msgstr "当他们转移过量的报酬时，你试图掩饰自己的满足感，但也暗暗希望不会在不久的将来因某次不幸的遭遇而后悔这笔交易。他们一言不发地离开了。"
 
 #: src-en/data/events.xml.append:2568
+#, fuzzy
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"DJMOD_LASER_BPS_ELITE\"]/text"
 msgstr "把你的 BPS 信使 激光卖给他们，得 200 ~。"
@@ -2186,6 +2190,7 @@ msgid ""
 msgstr "当他们转移过量的报酬时，你试图掩饰自己的满足感，但也暗暗希望不会在不久的将来因某次不幸的遭遇而后悔这笔交易。他们一言不发地离开了。"
 
 #: src-en/data/events.xml.append:2753
+#, fuzzy
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_KILLALL_BEAM_ELITE\"]/text"
 msgstr "把你的 墓志铭光束 卖给他们，得 120 ~。"
@@ -2296,6 +2301,7 @@ msgid ""
 msgstr "当他们转移过量的报酬时，你试图掩饰自己的满足感，但也暗暗希望不会在不久的将来因某次不幸的遭遇而后悔这笔交易。他们一言不发地离开了。"
 
 #: src-en/data/events.xml.append:2870
+#, fuzzy
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"DJMOD_LASER_BPS_ELITE\"]/text"
 msgstr "把你的 BPS 信使 激光卖给他们，得 200 ~。"
