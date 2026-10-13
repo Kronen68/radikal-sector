@@ -1,9 +1,16 @@
 #
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2026-10-13 17:26+0000\n"
+"Last-Translator: 土豆老年人 <2685455659@qq.com>\n"
+"Language-Team: Chinese (Simplified Han script) <https://weblate.hyperq.be/"
+"projects/radikal-sector/dataevents_special_storagexmlappend/zh_Hans/>\n"
+"Language: zh_Hans\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.17.1\n"
 
 #: src-en/data/events_special_storage.xml.append:396
 msgid ""
@@ -1419,6 +1426,7 @@ msgid ""
 msgstr "好的。"
 
 #: src-en/data/events_special_storage.xml.append:2350
+#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_COMBAT_SHIPVORE_RAM_REINFORCE\"]/text"
 msgstr ""
@@ -1456,6 +1464,7 @@ msgid ""
 msgstr "算了，做点别的。"
 
 #: src-en/data/events_special_storage.xml.append:2383
+#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_PERSISTENCE_SHIELD_REBUILD_CAPACITOR\"]/text"
 msgstr ""
@@ -3706,12 +3715,14 @@ msgstr ""
 "\t\t\t可安装两次。[已安装：你已拥有此升级的最大数量]"
 
 #: src-en/data/events_special_storage.xml.append:7086
+#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL\"]/choice[@req=\"INTERNAL_RK_CALIBRATOR\""
 " and @lvl=\"1\"]/text"
 msgstr "校准器 Lv 2。[花费：45~，1|]"
 
 #: src-en/data/events_special_storage.xml.append:7090
+#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL\"]/choice[@req=\"INTERNAL_RK_CALIBRATOR\""
 " and @lvl=\"0\"]/text"
@@ -3726,6 +3737,7 @@ msgstr ""
 "窒息时，他们的移动、破坏、维修和战斗能力提升 1.4 倍。不影响免疫窒息的船员。[已安装]"
 
 #: src-en/data/events_special_storage.xml.append:7100
+#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL\"]/choice[@req=\"INTERNAL_RK_CHOKING_IS_FINE\""
 " and @lvl=\"0\"]/text"
@@ -3740,6 +3752,7 @@ msgstr ""
 "如果没有较弱的版本存在，他们会变成模物族。当模物族死亡时，则无事发生。不适用于事件死亡。[已安装]"
 
 #: src-en/data/events_special_storage.xml.append:7110
+#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL\"]/choice[@req=\"INTERNAL_DJMOD_DEMICLONER\""
 " and @lvl=\"0\"]/text"
@@ -3753,6 +3766,7 @@ msgid ""
 msgstr "RK 朋克 “冷静头脑”：当受到心灵控制效果影响时，你的船员无法战斗、破坏或传送离开。对双方飞船都有效。[已安装]"
 
 #: src-en/data/events_special_storage.xml.append:7119
+#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL\"]/choice[@req=\"INTERNAL_DJMOD_MC_PARALYZER\""
 " and @lvl=\"0\"]/text"
@@ -3765,6 +3779,7 @@ msgid ""
 msgstr "RK 灼烧 “浴火裹布”：在火焰中，你的船员移动和破坏速度为 1.75 倍，战斗和门伤害为 1.75 倍。对双方飞船都有效。[已安装]"
 
 #: src-en/data/events_special_storage.xml.append:7129
+#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL\"]/choice[@req=\"INTERNAL_RK_IN_FIRE_CREWBOOSTS\""
 " and @lvl=\"0\"]/text"
@@ -3777,6 +3792,7 @@ msgid ""
 msgstr "RK 灼烧 “心灵加热器”：在火焰中，你的船员免疫心灵控制并会被治愈，眩晕时间缩短 50%，并揭示相邻舱室。对双方飞船都有效。[已安装]"
 
 #: src-en/data/events_special_storage.xml.append:7138
+#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL\"]/choice[@req=\"INTERNAL_DJMOD_MC_IMMUNE_FROM_FIRE\""
 " and @lvl=\"0\"]/text"
