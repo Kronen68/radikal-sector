@@ -1,9 +1,16 @@
 #
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2026-10-13 17:26+0000\n"
+"Last-Translator: 土豆老年人 <2685455659@qq.com>\n"
+"Language-Team: Chinese (Simplified Han script) <https://weblate.hyperq.be/"
+"projects/radikal-sector/dataevents_special_multiversexmlappend/zh_Hans/>\n"
+"Language: zh_Hans\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.17.1\n"
 
 #: src-en/data/events_special_multiverse.xml.append:43
 msgid ""
@@ -26,9 +33,12 @@ msgid ""
 msgstr "购买拉迪卡尔技术。"
 
 #: src-en/data/events_special_multiverse.xml.append:111
+#, fuzzy
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"SYLVAN_RK_ONE_LINE_EACH_CATEGORY\"]/text"
-msgstr "“陌生～～人 陌生～～人，别生气，但我正在卖给你非法、不道德的货——物，别被抓到带着这些东西！”"
+msgstr ""
+"“陌生～～人 陌生～～人，别生气，但我正在卖给你非法、不道德的货——物，别被抓到"
+"带着这些东西！”"
 
 #: src-en/data/events_special_multiverse.xml.append:128
 msgid ""
