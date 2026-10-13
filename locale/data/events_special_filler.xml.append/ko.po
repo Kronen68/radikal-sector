@@ -1,9 +1,16 @@
 #
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2026-10-13 17:26+0000\n"
+"Last-Translator: TrpleA <wndhkswnqls2@naver.com>\n"
+"Language-Team: Korean <https://weblate.hyperq.be/projects/radikal-sector/"
+"dataevents_special_fillerxmlappend/ko/>\n"
+"Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.17.1\n"
 
 #: src-en/data/events_special_filler.xml.append:20
 msgid ""
@@ -24,11 +31,18 @@ msgid ""
 msgstr "...방금 그건 대체 뭐였지?"
 
 #: src-en/data/events_special_filler.xml.append:50
+#, fuzzy
 msgid ""
 "data/events_special_filler.xml.append$//event[@name=\"DISTRESS_PIRA_CIVI_GIVECOORDS\"]/text"
 msgstr ""
-"이번엔 낯선 MFK 여성의 목소리가 고함을 지릅니다. \"함장. 제법 배짱이 두둑하군.\" 숨을 가다듬은 라디칼 대원이 말을 잇습니다. \"이 선원 놈들은 쓸모가 좀 있었지만, 더 이상 위장 신분을 유지할 필요는 없겠지.\n"
-"\t놈들은 우리 작전을 나불대고 다니면서도, 우리와 한패도 아니고 자금을 대지도 않았다. 그저 우리 고객의 장비를 '훔쳤을' 뿐이지. 이 모든 게 아주 거슬리는 일이었고, 내가 방금 놈들을 전부 쳐죽인 이유기도 해. 이제, 우리는 당신 같은 선장이 더 필요하다. 우리 구역에 한 번 방문해 보는 게 어때? 당신 기량을 보니 결코 손해 보는 장사는 아닐 텐데.\""
+"이번엔 낯선 MFK 여성의 목소리가 고함을 지릅니다. \"함장. 제법 배짱이 "
+"두둑하군.\" 숨을 가다듬은 라디칼 대원이 말을 잇습니다. \"이 선원 놈들은 "
+"쓸모가 좀 있었지만, 더 이상 위장 신분을 유지할 필요는 없겠지.\n"
+"\t놈들은 우리 작전을 나불대고 다니면서도, 우리와 한패도 아니고 자금을 대지도 "
+"않았다. 그저 우리 고객의 장비를 '훔쳤을' 뿐이지. 이 모든 게 아주 거슬리는 "
+"일이었고, 내가 방금 놈들을 전부 쳐죽인 이유기도 해. 이제, 우리는 당신 같은 "
+"선장이 더 필요하다. 우리 구역에 한 번 방문해 보는 게 어때? 당신 기량을 보니 "
+"결코 손해 보는 장사는 아닐 텐데.\""
 
 #: src-en/data/events_special_filler.xml.append:54
 msgid ""
@@ -36,10 +50,15 @@ msgid ""
 msgstr "우리도 우리만의 임무가 있다"
 
 #: src-en/data/events_special_filler.xml.append:59
+#, fuzzy
 msgid ""
 "data/events_special_filler.xml.append$//event[@name=\"DISTRESS_PIRA_CIVI_GIVECOORDS\"]/choice/event/text"
 msgstr ""
-"\"그래 그래, 알고 있다. 문제될 건 없지. 오히려 우회해서 가는 편이 당신 배를 기함이라는 도전에 맞서기 딱 좋은 성능으로 끌어올려 줄지도 모르니까. 우리 라디칼(RK)들이 정보 하나는 아주 빠삭하다는 걸 알게 될 거다. 나도 급히 처리해야 할 다른 임무가 있어서 말이지. 그럼 작별이다.\" 그녀가 통신을 끊습니다.\n"
+"\"그래 그래, 알고 있다. 문제될 건 없지. 오히려 우회해서 가는 편이 당신 배를 "
+"기함이라는 도전에 맞서기 딱 좋은 성능으로 끌어올려 줄지도 모르니까. 우리 "
+"라디칼(RK)들이 정보 하나는 아주 빠삭하다는 걸 알게 될 거다. 나도 급히 "
+"처리해야 할 다른 임무가 있어서 말이지. 그럼 작별이다.\" 그녀가 통신을 "
+"끊습니다.\n"
 "\t\t\t\t구역 좌표가 아틀라스에 추가되었습니다!"
 
 #: src-en/data/events_special_filler.xml.append:64
