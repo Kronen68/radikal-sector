@@ -1,9 +1,16 @@
 #
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2026-10-13 21:01+0000\n"
+"Last-Translator: TrpleA <wndhkswnqls2@naver.com>\n"
+"Language-Team: Korean <https://weblate.hyperq.be/projects/radikal-sector/"
+"dataevents_special_guardsxmlappend/ko/>\n"
+"Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.17.1\n"
 
 #: src-en/data/events_special_guards.xml.append:6
 msgid ""
@@ -299,8 +306,10 @@ msgstr "그들을 무시하고 지나쳐서 비행한다."
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"GUARD_RADIKAL\"]/choice[2]/event/text"
 msgstr ""
-"그들의 무기가 즉시 가동됩니다. 명백히 이런 상황을 예상하고 있었던 것 같습니다. 대화 몇 마디로 피할 수도 있었을 상황이지만, 그들은 이미 지원군을 요청했습니다.\n"
-"\t\t\t놀랍게도, 적선의 산소 시스템에 불이 붙은 것으로 보입니다..."
+"그들의 무기가 즉시 가동됩니다. 명백히 이런 상황을 예상하고 있었던 것 "
+"같습니다. 대화 몇 마디로 피할 수도 있었을 상황이지만, 그들은 이미 지원군을 "
+"요청했습니다.\n"
+"\t\t\t놀랍게도, 적함의 산소 시스템에 불이 붙은 것으로 보입니다..."
 
 #: src-en/data/events_special_guards.xml.append:269
 msgid ""
@@ -341,12 +350,14 @@ msgstr ""
 #: src-en/data/events_special_guards.xml.append:318
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"GUARD_RADIKAL_DEADCREW\"]/choice[@req=\"DJMOD_LASER_BPS\"]/text"
-msgstr ""
+msgstr "(BPS 전령) 장비가 자체 업그레이드 키트를 감지합니다."
 
 #: src-en/data/events_special_guards.xml.append:320
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"GUARD_RADIKAL_DEADCREW\"]/choice[@req=\"DJMOD_LASER_BPS\"]/event/text"
 msgstr ""
+"업그레이드 키트를 추출하여 회수합니다.\n"
+"\t\t\t\t회수한 키트를 즉시 장비에 적용합니다..."
 
 #: src-en/data/events_special_guards.xml.append:326
 msgid ""
@@ -356,7 +367,7 @@ msgstr "계속..."
 #: src-en/data/events_special_guards.xml.append:328
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"GUARD_RADIKAL_DEADCREW\"]/choice[@req=\"DJMOD_LASER_BPS\"]/event/choice/event/text"
-msgstr ""
+msgstr "장비가 엘리트 등급으로 업그레이드되었습니다!"
 
 #: src-en/data/events_special_guards.xml.append:332
 msgid ""
