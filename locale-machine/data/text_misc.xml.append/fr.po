@@ -64,8 +64,6 @@ msgstr ""
 #: src-en/data/text_misc.xml.append:57
 msgid "data/text_misc.xml.append$//text[@name=\"RK_lore_RK_HEAVY_POPPER_2\"]"
 msgstr ""
-"Tampon de qualité : \"L'influenceuse 'BL2Forever420' a dit 'Amitié TERMINÉE "
-"avec les Lasers Rafale' à ses MILLIARDS d'abonnés !\""
 
 #: src-en/data/text_misc.xml.append:58
 msgid "data/text_misc.xml.append$//text[@name=\"RK_lore_RK_HEAVY_POPPER_3\"]"
@@ -137,19 +135,23 @@ msgstr ""
 "Tampon de qualité : \"Alimenté par des Orchidées D'ÉLITE liquéfiées ! A "
 "brûlé des vaisseaux Fantômes ET Rocailleux !\""
 
-#: src-en/data/text_misc.xml.append:71
+#: src-en/data/text_misc.xml.append:72
+msgid "data/text_misc.xml.append$//text[@name=\"RK_lore_RK_BPS_FOCUS_STATUS\"]"
+msgstr ""
+
+#: src-en/data/text_misc.xml.append:73
 msgid "data/text_misc.xml.append$//text[@name=\"RK_lore_DJMOD_LASER_BPS\"]"
 msgstr ""
 "Tampon de qualité : \"A démontré la performance RK en éliminant un vaisseau "
 "habité de CHAQUE faction naturelle et non naturelle !\""
 
-#: src-en/data/text_misc.xml.append:73
+#: src-en/data/text_misc.xml.append:75
 msgid "data/text_misc.xml.append$//text[@name=\"lore_RK_A_HULL_DAMAGE\"]"
 msgstr ""
 "Les meilleurs Lasers de défense, avec des améliorations de haute précision "
 "adaptées aux faiblesses spécifiques de l'équipement RadiKal."
 
-#: src-en/data/text_misc.xml.append:74
+#: src-en/data/text_misc.xml.append:76
 msgid "data/text_misc.xml.append$//text[@name=\"lore_RK_A_SYSTEM_DAMAGE\"]"
 msgstr ""
 "Les meilleurs Lanceurs Momus, avec des améliorations de haute précision "

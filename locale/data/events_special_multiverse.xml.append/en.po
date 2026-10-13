@@ -29,8 +29,8 @@ msgstr "Shop for RadiKal tech."
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"SYLVAN_RK_ONE_LINE_EACH_CATEGORY\"]/text"
 msgstr ""
-"\"Aaaaah. Ssstranger ssstranger, don't be mad but I'm ssselling you illegal,"
-" unethical goodsss, don't get caught with those!\""
+"\"Aaaaah. Ssstranger ssstranger, don't be mad but I'm sssselling you illegal, unethical goodsss, don't get caught with those!\n"
+"\t\tEven I shouldn't be sssseen with that ssstuff, but you wouldn't underssstand why. Jusssst, don't tell anyone!\""
 
 #: src-en/data/events_special_multiverse.xml.append:128
 msgid ""

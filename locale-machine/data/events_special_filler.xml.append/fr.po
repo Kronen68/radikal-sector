@@ -5,7 +5,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: src-en/data/events_special_filler.xml.append:22
+#: src-en/data/events_special_filler.xml.append:20
 msgid ""
 "data/events_special_filler.xml.append$//mod:findName[@name=\"FILLER_DISTRESS_COMBAT\"]/mod-"
 "append:choice/text"
@@ -13,59 +13,55 @@ msgstr ""
 "\"Waouh, prendre de l'équipement par la force à des vaisseaux plus faibles. "
 "Quel courage. Tellement radical.\""
 
-#: src-en/data/events_special_filler.xml.append:28
+#: src-en/data/events_special_filler.xml.append:26
 msgid ""
 "data/events_special_filler.xml.append$//event[@name=\"DISTRESS_PIRA_CIVI_COORDS_RK\"]/text"
 msgstr ""
 "Ils tournent immédiatement leur attention vers toi. \"Tu viens de dire RadiKal ?\" Ils semblent alarmés et tu entends des disputes à l'arrière. \"Regarde, Berna, je t'avais dit qu'il y avait un témoin, on n'aurait pas dû voler ce-\" \"La ferme Bert. Quant à toi, racaille renégate de la Fédé, tu aurais dû rester silencieux aussi. L'équipement RK est... attends, qui t'a laissé entrer dans cette pièce-\"\n"
 "\tTu entends soudain des combats brutaux sur le vaisseau pirate, et les communications se coupent un instant... Puis le vaisseau te recontacte."
 
-#: src-en/data/events_special_filler.xml.append:32
+#: src-en/data/events_special_filler.xml.append:30
 msgid ""
 "data/events_special_filler.xml.append$//event[@name=\"DISTRESS_PIRA_CIVI_COORDS_RK\"]/choice/text"
 msgstr "...C'était quoi ça, à l'instant ?"
 
-#: src-en/data/events_special_filler.xml.append:52
+#: src-en/data/events_special_filler.xml.append:50
 msgid ""
 "data/events_special_filler.xml.append$//event[@name=\"DISTRESS_PIRA_CIVI_GIVECOORDS\"]/text"
 msgstr ""
-"Une voix MFK différente, féminine, rugit maintenant contre toi. \"Capitaine. Tu as l'air d'avoir du cran.\" La RadiKal prend une seconde pour reprendre son souffle. \"Cet équipage a été utile mais je n'ai plus besoin de rester sous couverture.\n"
-"\tIls ont jacassé sur nos opérations, mais ils ne sont pas avec nous et ne nous financent même pas. Ils ont juste volé de l'équipement à l'un de nos clients. Tout ça est une mauvaise nouvelle, et c'est aussi la raison pour laquelle je viens de tous les massacrer. Maintenant, nous avons besoin de plus de capitaines comme toi. Tu devrais nous rendre visite, ce qui sera mutuellement bénéfique si je ne me trompe pas sur ta qualité.\""
 
-#: src-en/data/events_special_filler.xml.append:56
+#: src-en/data/events_special_filler.xml.append:54
 msgid ""
 "data/events_special_filler.xml.append$//event[@name=\"DISTRESS_PIRA_CIVI_GIVECOORDS\"]/choice/text"
 msgstr "Nous avons notre propre mission"
 
-#: src-en/data/events_special_filler.xml.append:61
+#: src-en/data/events_special_filler.xml.append:59
 msgid ""
 "data/events_special_filler.xml.append$//event[@name=\"DISTRESS_PIRA_CIVI_GIVECOORDS\"]/choice/event/text"
 msgstr ""
-"\"Oui oui je sais, et ce n'est pas un problème. En fait, le détour pourrait mettre ton vaisseau à niveau pour le défi que représente le Vaisseau Amiral. Tu découvriras que nous, les RK, sommes des gens très bien informés. J'ai moi aussi d'autres missions à gérer de toute urgence, adieu.\" Elle coupe la communication.\n"
-"\t\t\t\tLes coordonnées du secteur ont été ajoutées à ton atlas !"
 
-#: src-en/data/events_special_filler.xml.append:67
+#: src-en/data/events_special_filler.xml.append:64
 msgid ""
 "data/events_special_filler.xml.append$//event[@name=\"DISTRESS_PIRA_CIVI_GIVECOORDS\"]/choice/event/choice/text"
 msgstr ""
 "Peut-être qu'on découvrira ce qu'il en était lors du prochain saut de "
 "secteur."
 
-#: src-en/data/events_special_filler.xml.append:74
+#: src-en/data/events_special_filler.xml.append:71
 msgid ""
 "data/events_special_filler.xml.append$//event[@name=\"DISTRESS_PIRA_CIVI_NOTCOORDS\"]/text"
 msgstr ""
 "\"Désolé pour cette interruption, l'un de mes équipiers est soudainement devenu renégat mais nous nous en sommes occupés. \n"
 "\t\tQuoi qu'il en soit, maintenant j'ai des affaires de loyauté à gérer alors prends ce cadeau et dégage, OK ? On laisse ce vaisseau tranquille, tu as gagné, profites-en avant que notre flotte ne transforme ton vaisseau en ferraille.\""
 
-#: src-en/data/events_special_filler.xml.append:86
+#: src-en/data/events_special_filler.xml.append:83
 msgid ""
 "data/events_special_filler.xml.append$//event[@name=\"DISTRESS_PIRA_CIVI_NOTCOORDS_BAD\"]/text"
 msgstr ""
 "\"Désolé pour cette interruption, un membre de mon équipage est soudainement devenu renégat mais nous nous en sommes occupés. Quoi qu'il en soit, nous avons quelque chose de spécial que je gardais pour les petits malins comme toi. Une seconde.\"\n"
 "\tIls viennent de lancer une Charge Utile Magnétique sur tes moteurs !"
 
-#: src-en/data/events_special_filler.xml.append:93
+#: src-en/data/events_special_filler.xml.append:90
 msgid ""
 "data/events_special_filler.xml.append$//event[@name=\"DISTRESS_PIRA_CIVI_NOTCOORDS_BAD\"]/choice/text"
 msgstr ""

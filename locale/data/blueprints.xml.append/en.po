@@ -283,12 +283,12 @@ msgid ""
 msgstr ""
 "(RK Bam gear) This augment is Off but can be toggled On anytime. When On:\n"
 "\n"
-"\t[This double-edged augment equips your crew with belts that [style[color:ff3377]]reduce their HP by 10% (beware of Vagabonds)[[/style]] and explode when they die, causing a fire and dealing damage to the room and ship they're in, with extra damage in systemless rooms. [style[color:ff3377]]Has friendly fire.[[/style]]\n"
+"\t[ This double-edged augment equips your crew with belts that [style[color:ff3377]]reduce their HP by 10% (beware of Vagabonds)[[/style]] and explode when they die, causing a fire and dealing damage to the room and ship they're in, with extra damage in systemless rooms. [style[color:ff3377]]Has friendly fire.[[/style]]\n"
 "\tStacks upon already existing death effects.\n"
 "\t\n"
 "\t[style[color:ff3377]]WARNING: Can't be toggled Off.[[/style]] Can scrap itself into ~ or } at empty beacons.\n"
 "\n"
-"\tCOMBO: Makes any crew a fire source for Plasma Teleporter.]"
+"\tCOMBO: Makes any crew a fire source for Plasma Teleporter. ]"
 
 #: src-en/data/blueprints.xml.append:282
 msgid ""
@@ -351,7 +351,9 @@ msgstr ""
 "(RK Bam gear) RadiKals reverse engineered very rare armor from captured Theocracy inquisitors into this slightly more accessible and less perfect armor.\n"
 "\t\t\n"
 "\t\t[style[color:ff3377]]Reduces weapon charge speed by 5%.[[/style]]\n"
-"\t\tImpacts that deal 1 damage have a 40% chance to be negated, and all other damage is reduced by 1."
+"\t\tImpacts that deal 1 damage have a 40% chance to be negated, and all other damage is reduced by 1.\n"
+"\n"
+"\t\tCOMBO: your Heavy Popper weapons don't damage you."
 
 #: src-en/data/blueprints.xml.append:341
 msgid ""
@@ -368,7 +370,7 @@ msgstr ""
 "\t\tAlso increases Shield charge speed by 20%.\n"
 "\t\t\n"
 "\t\tActivate from the Toggle Menu to instantly restore all your Supershield layers. [Uses 1 {]\n"
-"\t\tCannot be activated again until you rebuild its capacitor at an empty beacon for 7~ ."
+"\t\tCannot be activated again until you rebuild its capacitor at an empty beacon for 7~. [Does not consume the empty beacon]"
 
 #: src-en/data/blueprints.xml.append:394
 msgid ""
@@ -1259,7 +1261,7 @@ msgstr ""
 #: src-en/data/blueprints.xml.append:2741
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_BPS_FOCUS_STATUS\"]/title"
-msgstr "BPS Letter"
+msgstr "'BPS Letter'"
 
 #: src-en/data/blueprints.xml.append:2742
 msgid ""
@@ -1299,7 +1301,7 @@ msgstr "Elite 'BPS Messenger'"
 #: src-en/data/blueprints.xml.append:2876
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"DJMOD_LASER_BPS_ELITE\"]/short"
-msgstr "'BPS Mess.'"
+msgstr "'BPS Mess.'+"
 
 #: src-en/data/blueprints.xml.append:2877
 msgid ""

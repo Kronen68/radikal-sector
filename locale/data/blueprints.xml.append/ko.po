@@ -1279,7 +1279,7 @@ msgstr ""
 #: src-en/data/blueprints.xml.append:2876
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"DJMOD_LASER_BPS_ELITE\"]/short"
-msgstr "'BPS Mess.'"
+msgstr "'BPS Mess.'+"
 
 #: src-en/data/blueprints.xml.append:2877
 msgid ""

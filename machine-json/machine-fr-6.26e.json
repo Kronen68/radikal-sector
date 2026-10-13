@@ -1,7 +1,7 @@
 {
   "lang": "fr",
   "originalLang": "en",
-  "version": "6.22",
+  "version": "6.26e",
   "translation": {
     "A-RK.S.S. Peace-Keeping Mandator": {
       "advanced": {
@@ -619,13 +619,8 @@
       "machine": "",
       "done": false
     },
-    "(RK Bam gear) Repeatedly ram the enemy for guaranteed damage, often free repairs, and sometimes other things.\n\t\t[See bonuses/combos in the Toggle Menu]\n\n\t\tNormal ramming: (cost 1{)\n\t\t2-3 damage, [style[color:ff3377]]25% bad outcomes![[/style]]\n\n\t\tFull Power: (cost 4{, [style[color:ff3377]]destroys the augment[[/style]]) \n\t\t6-7 damage, [style[color:ff3377]]20% other bad outcomes![[/style]]\n\t\t\n\t\tEmergency Generator and Fuel Conserver can apply.\n\n\t\tCan be reinforced at empty beacons for some ~, to survive the next Full Power use. (Does not use up the beacon)": {
-      "advanced": {
-        "12": {
-          "model": "gemini-3.1-flash-lite",
-          "text": "(RK Bam équipement) Éperonnez l'ennemi à plusieurs reprises pour des dégâts garantis, souvent des réparations gratuites, et parfois d'autres choses.\n\t\t[Voir les bonus/combos dans le menu à bascule]\n\n\t\tÉperonnage normal : (coût 1{)\n\t\t2-3 dégâts, [style[color:ff3377]]25% de mauvais résultats![[/style]]\n\n\t\tPleine puissance : (coût 4{, [style[color:ff3377]]détruit l'augmentation[[/style]]) \n\t\t6-7 dégâts, [style[color:ff3377]]20% d'autres mauvais résultats![[/style]]\n\t\t\n\t\tGénérateur d'urgence et Conserve-carburant peuvent s'appliquer.\n\n\t\tPeut être renforcé aux balises vides pour quelques ~, pour survivre à la prochaine utilisation à pleine puissance. (Ne consomme pas la balise)"
-        }
-      },
+    "(RK Bam gear) Repeatedly ram the enemy for guaranteed damage, often free repairs, and sometimes other things.\n\t\t[See bonuses/combos in the Toggle Menu]\n\n\t\tNormal ramming: (cost 1{)\n\t\t2-3 damage, [style[color:ff3377]]25% bad outcomes![[/style]]\n\n\t\tFull Power: (cost 4{, [style[color:ff3377]]destroys the augment[[/style]]) \n\t\t6-7 damage, [style[color:ff3377]]20% other bad outcomes![[/style]]\n\t\t\n\t\tEmergency Generator can apply on the first strike.\n\t\tFuel Conserver can apply on every normal strike.\n\n\t\tCan be reinforced at empty beacons for some ~, to survive the next Full Power use. (Does not use up the beacon)": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -652,13 +647,8 @@
       "machine": "",
       "done": false
     },
-    "(RK Bam gear) This augment is Off but can be toggled On anytime. When On:\n\n\t[This double-edged augment equips your crew with belts that [style[color:ff3377]]reduce their HP by 10% (beware of Vagabonds)[[/style]] and explode when they die, causing a fire and dealing damage to the room and ship they're in, with extra damage in systemless rooms. [style[color:ff3377]]Has friendly fire.[[/style]]\n\tStacks upon already existing death effects.\n\t\n\t[style[color:ff3377]]WARNING: Can't be toggled Off.[[/style]] Can scrap itself into ~ or } at empty beacons.\n\n\tCOMBO: Makes any crew a fire source for Plasma Teleporter.]": {
-      "advanced": {
-        "12": {
-          "model": "gemini-3.1-flash-lite",
-          "text": "(RK Bam équipement) Cette augmentation est Désactivée mais peut être Activée à tout moment. Une fois activée :\n\n\t[Cette augmentation à double tranchant équipe votre équipage de ceintures qui [style[color:ff3377]]réduisent leurs PV de 10% (attention aux Vagabonds)[[/style]] et explosent quand ils meurent, causant un feu et infligeant des dégâts à la pièce et au vaisseau où ils se trouvent, avec des dégâts supplémentaires dans les pièces sans système. [style[color:ff3377]]Tirs alliés activés.[[/style]]\n\tSe cumule avec les effets de mort déjà existants.\n\t\n\t[style[color:ff3377]]ATTENTION : Ne peut pas être Désactivée.[[/style]] Peut se démonter en ~ ou } aux balises vides.\n\n\tCOMBO : Fait de n'importe quel membre d'équipage une source de feu pour le Téléporteur Plasmatique.]"
-        }
-      },
+    "(RK Bam gear) This augment is Off but can be toggled On anytime. When On:\n\n\t[ This double-edged augment equips your crew with belts that [style[color:ff3377]]reduce their HP by 10% (beware of Vagabonds)[[/style]] and explode when they die, causing a fire and dealing damage to the room and ship they're in, with extra damage in systemless rooms. [style[color:ff3377]]Has friendly fire.[[/style]]\n\tStacks upon already existing death effects.\n\t\n\t[style[color:ff3377]]WARNING: Can't be toggled Off.[[/style]] Can scrap itself into ~ or } at empty beacons.\n\n\tCOMBO: Makes any crew a fire source for Plasma Teleporter. ]": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -740,13 +730,8 @@
       "machine": "",
       "done": false
     },
-    "(RK Bam gear) RadiKals reverse engineered very rare armor from captured Theocracy inquisitors into this slightly more accessible and less perfect armor.\n\t\t\n\t\t[style[color:ff3377]]Reduces weapon charge speed by 5%.[[/style]]\n\t\tImpacts that deal 1 damage have a 40% chance to be negated, and all other damage is reduced by 1.": {
-      "advanced": {
-        "12": {
-          "model": "gemini-3.1-flash-lite",
-          "text": "(RK Bam équipement) Les RadiKals ont fait de l'ingénierie inverse sur une armure très rare provenant d'inquisiteurs de la Théocratie capturés pour créer cette armure légèrement plus accessible et moins parfaite.\n\t\t\n\t\t[style[color:ff3377]]Réduit la vitesse de recharge des armes de 5%.[[/style]]\n\t\tLes impacts qui infligent 1 dégât ont 40% de chance d'être annulés, et tous les autres dégâts sont réduits de 1."
-        }
-      },
+    "(RK Bam gear) RadiKals reverse engineered very rare armor from captured Theocracy inquisitors into this slightly more accessible and less perfect armor.\n\t\t\n\t\t[style[color:ff3377]]Reduces weapon charge speed by 5%.[[/style]]\n\t\tImpacts that deal 1 damage have a 40% chance to be negated, and all other damage is reduced by 1.\n\n\t\tCOMBO: your Heavy Popper weapons don't damage you.": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -762,13 +747,8 @@
       "machine": "",
       "done": false
     },
-    "(RK Bam gear) A staple of high-end ships relying on Shields, made possible by stress tests on many Zoltan scouts who never came home.\n\t\t\n\t\tAdds a 4 hitpoints Super Shield. Stacks with other Super Shields, but not with itself.\n\t\tAlso increases Shield charge speed by 25%.\n\t\t\n\t\tActivate from the Toggle Menu to instantly restore all your Supershield layers. [Uses 1 {]\n\t\tCannot be activated again until you rebuild its capacitor at an empty beacon for 7~ .": {
-      "advanced": {
-        "12": {
-          "model": "gemini-3.1-flash-lite",
-          "text": "(RK Bam équipement) Un élément essentiel des vaisseaux haut de gamme reposant sur les Boucliers, rendu possible par des tests de résistance sur de nombreux éclaireurs Zoltan qui ne sont jamais rentrés chez eux.\n\t\t\n\t\tAjoute un Super Bouclier de 4 points de vie. Se cumule avec d'autres Super Boucliers, mais pas avec lui-même.\n\t\tAugmente également la vitesse de recharge des Boucliers de 25%.\n\t\t\n\t\tActivez depuis le menu à bascule pour restaurer instantanément toutes vos couches de Super Boucliers. [Utilise 1 {]\n\t\tNe peut pas être réactivé avant que vous ne reconstruisiez son condensateur à une balise vide pour 7~."
-        }
-      },
+    "(RK Bam gear) A staple of high-end ships relying on Shields, made possible by stress tests on many Zoltan scouts who never came home.\n\t\t\n\t\tAdds a 4 hitpoints Super Shield. Stacks with other Super Shields, but not with itself.\n\t\tAlso increases Shield charge speed by 20%.\n\t\t\n\t\tActivate from the Toggle Menu to instantly restore all your Supershield layers. [Uses 1 {]\n\t\tCannot be activated again until you rebuild its capacitor at an empty beacon for 7~. [Does not consume the empty beacon]": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -784,13 +764,8 @@
       "machine": "",
       "done": false
     },
-    "(RK Punk gear) Risky for your Shields but could make you untouchable. Strange cubes died for this.\n\t\t\n\t\tAdds a 9 hitpoints Super Shield. Stacks with other Super Shields, but not with itself.\n\t\tOn your ship, your crew-drones also gain 3 HP/second while enemy crew-drones lose that much.\n\t\t[style[color:ff3377]]WARNING: Reduces Shield charge speed by 25% and Weapons charge speed by 5%.[[/style]]": {
-      "advanced": {
-        "12": {
-          "model": "gemini-3.1-flash-lite",
-          "text": "(RK Punk équipement) Risqué pour vos Boucliers mais pourrait vous rendre intouchable. D'étranges cubes sont morts pour ça.\n\t\t\n\t\tAjoute un Super Bouclier de 9 points de vie. Se cumule avec d'autres Super Boucliers, mais pas avec lui-même.\n\t\tSur votre vaisseau, vos drones d'équipage gagnent également 3 PV/seconde tandis que les drones d'équipage ennemis perdent la même quantité.\n\t\t[style[color:ff3377]]ATTENTION : Réduit la vitesse de recharge des Boucliers de 25% et la vitesse de recharge des Armes de 5%.[[/style]]"
-        }
-      },
+    "(RK Punk gear) Risky for your Shields but could make you untouchable. Strange cubes died for this.\n\t\t\n\t\tAdds a 8 hitpoints Super Shield. Stacks with other Super Shields, but not with itself.\n\t\tOn your ship, your crew-drones also gain 3 HP/second while enemy crew-drones lose that much.\n\t\t[style[color:ff3377]]WARNING: Reduces Shield charge speed by 30% and Weapons charge speed by 8%.[[/style]]": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -1043,13 +1018,8 @@
       "machine": "",
       "done": false
     },
-    "(RK Scorch gear) This combat augment can set the enemy ship on fire at start of combat, outright winning some fights.\n\n\t\tNeeds a fire source: 1} (weak effect),\n\t\tor: Uptor/Goul/Lost Sun/Shell/Zoltan ([style[color:ff3377]]they die[[/style]], can be cloned, strong effect).\n\t\tUsing a Ghost has an extra effect.\n\t\t[Uses 1{, [style[color:ff3377]]ignites your O2 system[[/style]].]\n\n\tCOMBO: Charged Belts / Martyr Vests make all crew fire sources.\n\tCOMBO: any Scorched Earth removes the need for a fire source.": {
-      "advanced": {
-        "12": {
-          "model": "gemini-3.1-flash-lite",
-          "text": "(RK Scorch équipement) Cette augmentation de combat peut mettre le vaisseau ennemi en feu au début du combat, remportant parfois certains combats directement.\n\n\t\tNécessite une source de feu : 1} (effet faible),\n\t\tou : Uptor/Goule/Lost Sun/Coquille/Zoltan ([style[color:ff3377]]ils meurent[[/style]], peuvent être clonés, effet fort).\n\t\tUtiliser un Fantôme a un effet supplémentaire.\n\t\t[Utilise 1{, [style[color:ff3377]]enflamme votre système d'O2[[/style]].]\n\n\tCOMBO : Ceintures Chargées / Vestes de Martyre font de tout l'équipage une source de feu.\n\tCOMBO : Toute Terre Calcinée supprime le besoin d'une source de feu."
-        }
-      },
+    "(RK Scorch gear) This combat augment can set the enemy ship on fire at start of combat, outright winning some fights.\n\n\t\tNeeds a fire source: 1} (weak effect),\n\t\tor: Uptor/Goul/Lost Sun/Shell/Zoltan ([style[color:ff3377]]they die[[/style]], can be cloned, strong effect).\n\t\tUsing a Ghost has an extra effect.\n\t\t[Uses 1{, [style[color:ff3377]]ignites your O2 system[[/style]].]\n\n\tCOMBO: Charged Belts / Martyr Vests make all crew fire sources.\n\tCOMBO: any Scorched Earth lets you pick effect strength, without needing a fire source.": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -1109,13 +1079,8 @@
       "machine": "",
       "done": false
     },
-    "(RK Scorch gear) This little Combat Augment can shoot out giant gravity-inducing canisters of ultracompressed O2 to fill the void of space when a fight starts. Some nickname it \"Canned Air\". Shenanigans ensue.\n\t\n\tPuts both ships in an atmosphere, making breaches and open vents fill oxygen instead of depleting it. [Uses 2}]": {
-      "advanced": {
-        "12": {
-          "model": "gemini-3.1-flash-lite",
-          "text": "(RK Scorch équipement) Cette petite Augmentation de combat peut tirer des cartouches géantes d'O2 ultra-comprimé induisant la gravité pour remplir le vide spatial quand un combat commence. Certains le surnomment \"Air en conserve\". Des péripéties s'ensuivent.\n\t\n\tPlace les deux vaisseaux dans une atmosphère, faisant en sorte que les brèches et les évents ouverts remplissent l'oxygène au lieu de le vider. [Utilise 2}]"
-        }
-      },
+    "(RK Scorch gear) This little Combat Augment can shoot out giant gravity-inducing canisters of ultracompressed O2 to fill the void of space when a fight starts. Some nickname it \"Canned Air\". Shenanigans ensue.\n\t\n\tPuts both ships in an atmosphere, making breaches and open vents fill oxygen instead of depleting it. [Uses 2}]\n\tCan also be done at empty beacons. [Uses 1}]": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -1186,13 +1151,8 @@
       "machine": "",
       "done": false
     },
-    "(RK BPS gear) The ingenuity of RadiKals from all subfactions lets you deep-search most empty beacons, at a non-negligible cost.\n\t\t\n\t\tYou can choose to retrieve/steal the random weapon or augment found, [style[color:ff3377]]accelerating the fleet 1 turn[[/style]].": {
-      "advanced": {
-        "12": {
-          "model": "gemini-3.1-flash-lite",
-          "text": "(RK BPS équipement) L'ingéniosité des RadiKals de toutes les sous-factions vous permet de scanner en profondeur la plupart des balises vides, à un coût non négligeable.\n\t\t\n\t\tVous pouvez choisir de récupérer/voler l'arme ou l'augmentation aléatoire trouvée, [style[color:ff3377]]accélérant la flotte d'un tour[[/style]]."
-        }
-      },
+    "(RK BPS gear) The ingenuity of RadiKals from all subfactions lets you deep-search most empty beacons, at a non-negligible cost.\n\t\t\n\t\tYou can choose to retrieve/steal the random weapon or augment found, [style[color:ff3377]]accelerating the fleet 1 turn[[/style]].\n\t\tOr just leave it there without affecting the fleet, getting back some of the cost.": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -1208,13 +1168,8 @@
       "machine": "",
       "done": false
     },
-    "(RK BPS gear) Provides an Energy Shield with an integrity of 10 hitpoints. (Does not stack with itself or other non-stacking Energy Shields)\n\t\t\n\t\tWhenever you take hull damage, it has a 50% chance to restore 1 layer of Energy Shields but when that happens, [style[color:ff3377]]the room that was hit catches fire (on top of any fire chance from the weapon that did the damage)[[/style]].": {
-      "advanced": {
-        "12": {
-          "model": "gemini-3.1-flash-lite",
-          "text": "(RK BPS équipement) Fournit un Bouclier d'énergie avec une intégrité de 10 points de vie. (Ne se cumule pas avec lui-même ou d'autres Boucliers d'énergie qui ne se cumulent pas)\n\t\t\n\t\tChaque fois que vous subissez des dégâts de coque, il y a 50% de chance de restaurer 1 couche de Bouclier d'énergie, mais quand cela arrive, [style[color:ff3377]]la pièce touchée prend feu (en plus de toute chance de feu provenant de l'arme qui a infligé les dégâts)[[/style]]."
-        }
-      },
+    "(RK BPS gear) Provides an Energy Shield with an integrity of 10 hitpoints. (Does not stack with itself or other non-stacking Energy Shields)\n\t\t\n\t\tWhenever you take hull damage, it has a 50% chance to restore 1 layer of Energy Shields but then [style[color:ff3377]]the room that was hit also catches fire (on top of any fire chance from the weapon that did the damage)[[/style]].": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -1472,13 +1427,8 @@
       "machine": "",
       "done": false
     },
-    "When under the effects of Mind Control, your crew cannot fight, sabotage, or teleport away. Works on both ships.": {
-      "advanced": {
-        "12": {
-          "model": "gemini-3.1-flash-lite",
-          "text": "Lorsqu'ils sont sous l'effet du Contrôle mental, votre équipage ne peut pas combattre, saboter ou se téléporter. Fonctionne sur les deux vaisseaux."
-        }
-      },
+    "When under the effects of Mind Control, your crew cannot fight, sabotage, use abilities, or teleport away. Works on both ships.": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -1907,6 +1857,24 @@
       "machine": "",
       "done": false
     },
+    "Elite 'Gravespred' Rad-Beam": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Gravespr.+": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "(RK Punk gear) This elite version of Gravespred charges faster and chains more. (Max 135 crew damage)\n\t\tPierces 2 shields +1 per chain. (Max 8 pierce. Ignore the tooltip)\n\t\t[style[color:ff3377]]WARNING: Deals 15 damage to all crew on your ship per chain![[/style]] (Max 90)": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
     "'Battery Artemis' Missiles": {
       "advanced": {
         "12": {
@@ -1973,6 +1941,18 @@
       "machine": "",
       "done": false
     },
+    "Elite 'Rain of Ions'": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "(RK Punk gear) Faster 'Rain of Ions', that can chain cooldown twice as much. A reminder of crazier times.\n\t\tStill many weapons worth of blue options!": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
     "Shotphaser": {
       "advanced": {},
       "deepl": "",
@@ -1999,7 +1979,7 @@
       },
       "deepl": "",
       "machine": "",
-      "done": false
+      "done": true
     },
     "O2 B.": {
       "advanced": {
@@ -2045,13 +2025,8 @@
       "machine": "",
       "done": false
     },
-    "(RK Scorch gear) Missiles loaded to the brim that also drop a Bottled Oxygen.\n\t\tThe Scorch have a saying: \"Problems? Just send them up the Chimney!\"": {
-      "advanced": {
-        "12": {
-          "model": "gemini-3.1-flash-lite",
-          "text": "(RK Scorch équipement) Missiles chargés à ras bord qui larguent aussi de l'Oxygène en bouteille.\n\t\tLes Scorch ont un dicton : \"Des problèmes ? Envoyez-les simplement dans la Cheminée !\""
-        }
-      },
+    "(RK Scorch gear) Over-filled with fire. Also drops a Bottled Oxygen. [style[color:ff3377]]Each shot ignites your Weapons room![[/style]]\n\t\tThe Scorch have a saying: \"Problems? Just send them up the Chimney!\"": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -2078,13 +2053,8 @@
       "machine": "",
       "done": false
     },
-    "(RK Scorch gear) Who said pinpoints are precision tools? Not whoever made this Fireblast Particle Pinpoint.\n\n\t\tOn top of system damage, sets the room fully on fire. [Fireblast: If the room hit was on fire, adjacent rooms (diagonals included) take: 1 system and 15 crew damage, and a fire. Don't hit your boarders!]": {
-      "advanced": {
-        "12": {
-          "model": "gemini-3.1-flash-lite",
-          "text": "(RK Scorch équipement) Qui a dit que les aiguillons étaient des outils de précision ? Pas celui qui a fabriqué cet Aiguillon à particules Fireblast.\n\n\t\tEn plus des dégâts système, met la pièce complètement en feu. [Fireblast : Si la pièce touchée était en feu, les pièces adjacentes (diagonales incluses) subissent : 1 dégât système et 15 dégâts à l'équipage, et un feu. Ne touchez pas vos abordeurs !]"
-        }
-      },
+    "(RK Scorch gear) Who said pinpoints need precision? Not whoever made this Fireblast Particle Pinpoint.\n\n\t\tOn top of system damage, sets the room fully on fire.\n\t\t[Fireblast: If the room hit was on fire, adjacent rooms (diagonals included) take: 1 system and 15 crew damage, and a fire. Don't hit your boarders!]": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -2155,6 +2125,24 @@
       "machine": "",
       "done": false
     },
+    "'BPS Letter'": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "'BPS Lett.'": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "(RK BPS gear) A weaker but more annoying Dirk, from a joint RadiKal team: lights fires, breaches, stuns, and hacks all at once.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
     "'BPS Messenger'": {
       "advanced": {
         "12": {
@@ -2177,13 +2165,26 @@
       "machine": "",
       "done": false
     },
-    "(RK BPS gear) A Piercing Heavy Laser boosted in the RadiKal Sector: the Bam gave it hullbust and better stun, the Punk added ion and crew damage, and the Scorch replaced breach chance with guaranteed fire and chaining.": {
-      "advanced": {
-        "12": {
-          "model": "gemini-3.1-flash-lite",
-          "text": "(RK BPS équipement) Un Laser lourd perforant boosté dans le Secteur RadiKal : les Bam lui ont donné brise-coque et un meilleur étourdissement, les Punk ont ajouté des dégâts ioniques et à l'équipage, et les Scorch ont remplacé la chance de brèche par un feu garanti et un enchaînement."
-        }
-      },
+    "(RK BPS gear) Piercing Heavy tweaked in the RadiKal Sector: the Bam replaced stun by hullbust, the Punk added ion and crew damage, and the Scorch made it light fires and chain but not breach.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Elite 'BPS Messenger'": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "'BPS Mess.'+": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "(RK BPS gear) Faster, and stunning Messenger. They don't make'em like this anymore.": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -2608,6 +2609,30 @@
           "text": "Tuez l'équipage d'un ennemi dangereux dans le Secteur RadiKal."
         }
       },
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "RK Punk Depopulator": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Tabula Rasa": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Small. Kills people. Does not feel. Sent when RadiKals need to sever ties with former allies. Unfortunately, it cannot accomodate the usual systems.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Destroy a dangerous enemy in the RadiKal Sector, then choose correctly.": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -3240,13 +3265,8 @@
       "machine": "",
       "done": false
     },
-    "The ship must have been scanning you since the moment you jumped in.\n\t\t\t\t\t\t\n\t\t\t\t\t\t\"Hah! They always think they can get away with it... There is no getting away from justice. I know it's impossible to find any clues about it anymore, but at least you will PAY FOR MY FAMILY YOU SICK FU-!\"": {
-      "advanced": {
-        "12": {
-          "model": "gemini-3.1-flash-lite",
-          "text": "Le vaisseau devait vous scanner depuis le moment où vous avez sauté dedans.\n\t\t\t\t\t\t\n\t\t\t\t\t\t\"Hah ! Ils pensent toujours pouvoir s'en tirer... On n'échappe pas à la justice. Je sais qu'il est impossible de trouver des indices à ce sujet maintenant, mais au moins vous PAIEREZ POUR MA FAMILLE VOUS MALADE DE- !\""
-        }
-      },
+    "The ship must have been scanning you since the moment you jumped in.\n\t\t\t\t\t\t\n\t\t\t\t\t\t\"Hah! They always think they can get away with it... There is no getting away from justice.\n\t\t\t\t\t\tI know it's impossible to find any clues about the culprit anymore, but there IS enough proof that it was a RadiKal...\n\t\t\t\t\t\tSo YOU WILL PAY for what they did to MY FAMILY, YOU SICK FU-\"\n\t\t\t\t\t\t\n\t\t\t\t\t\tYou cut comms. You (probably?) didn't slaughter their family, but they clearly don't give a damn and are out for blood.": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -3284,13 +3304,8 @@
       "machine": "",
       "done": false
     },
-    "Totally, they went that way.": {
-      "advanced": {
-        "12": {
-          "model": "gemini-3.1-flash-lite",
-          "text": "Absolument, ils sont allés par là."
-        }
-      },
+    "They went that way!": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -3302,6 +3317,12 @@
           "text": "\"C'est ça ? Pour votre bien, j'espère que c'est vrai...\" Ils lancent immédiatement un paquet de récompense standard par un sas et repartent. Espérons que, par hasard, il y ait effectivement des RadiKals par là, ou vous feriez mieux d'espérer ne jamais revoir ce vaisseau."
         }
       },
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Maybe I know, maybe I don't, but we're attacking you!": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -3416,13 +3437,8 @@
       "machine": "",
       "done": false
     },
-    "\"Do note thhhhat any other ARKSS ships seeing you with anything tagged \"RK\" will definitely shhhhoot to kill, whichhhh you don't seem to mind.\n\t\t\t\t\t\tJust... don't get hit by thhhhem. One could say thhhhey use hateful equipment without being too far off.\"\n\n\t\t\t\t\t\t[Warning: Very limited purchases]": {
-      "advanced": {
-        "12": {
-          "model": "gemini-3.1-flash-lite",
-          "text": "\"Notez biêêên que tout autre vaisseau ARKSS vous voyant avec quelque chose tagué \"RK\" tirera certainement pour tuer, ce qui ne semble pas vous déranger.\n\t\t\t\t\t\tJuste... ne vous faites pas toucher par eux. On pourrait dire qu'ils utilisent de l'équipement haineux sans être trop loin de la vérité.\"\n\n\t\t\t\t\t\t[Avertissement : Achats très limités]"
-        }
-      },
+    "\"Do note thhhhat any other ARKSS ships seeing you with anything tagged \"RK\" will definitely shhhhoot to kill, whichhhh you don't seem to mind.\n\t\t\t\t\t\tJust... don't get hit by thhhhem. One could say thhhhey use hateful equipment without being too far off.\"\n\n\t\t\t\t\t\t[style[color:ff3377]][Warning: Very limited purchases][[/style]]": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -3856,6 +3872,12 @@
       "machine": "",
       "done": false
     },
+    "Surrender your Elite Gravespred beam.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
     "Surrender your Battery Artemis missile launcher.": {
       "advanced": {
         "12": {
@@ -3874,6 +3896,12 @@
           "text": "Rendre votre fusil à pompe Pluie d'Ions."
         }
       },
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Surrender your (Elite) Rain of Ions shotgun.": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -3898,7 +3926,7 @@
       },
       "deepl": "",
       "machine": "",
-      "done": false
+      "done": true
     },
     "Surrender your Chimney launcher.": {
       "advanced": {
@@ -3933,6 +3961,12 @@
       "machine": "",
       "done": false
     },
+    "Surrender your BPS Letter pinpoint.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
     "Surrender your BPS Messenger laser.": {
       "advanced": {
         "12": {
@@ -3940,6 +3974,24 @@
           "text": "Rendre votre laser Messager BPS."
         }
       },
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Surrender your Elite BPS Messenger laser.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Surrender your Shotphaser drone.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Surrender your Oxygen-Bomber drone.": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -4459,6 +4511,12 @@
       "machine": "",
       "done": true
     },
+    "Sell them your Elite Gravespred beam for 150~.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": true
+    },
     "Sell them your Battery Artemis missile launcher for 105~.": {
       "advanced": {
         "12": {
@@ -4477,6 +4535,12 @@
           "text": "Vendre votre fusil à pompe Pluie d'Ions pour 180~."
         }
       },
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Sell them your (Elite) Rain of Ions shotgun for 270~.": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -4501,7 +4565,7 @@
       },
       "deepl": "",
       "machine": "",
-      "done": false
+      "done": true
     },
     "Sell them your Chimney launcher for 105~.": {
       "advanced": {
@@ -4536,6 +4600,12 @@
       "machine": "",
       "done": false
     },
+    "Sell them your BPS Letter pinpoint for 120~.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
     "Sell them your BPS Messenger laser for 200~.": {
       "advanced": {
         "12": {
@@ -4543,6 +4613,24 @@
           "text": "Vendre votre laser Messager BPS pour 200~."
         }
       },
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Sell them your Elite BPS Messenger laser for 280~.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Sell them your Shotphaser drone for 135~.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Sell them your Oxygen-Bomber drone for 105~.": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -6328,13 +6416,8 @@
       "machine": "",
       "done": false
     },
-    "Looks like the pirates really didn't appreciate you not coming to your own Pirate Trinity reunion. They are somehow jamming your jump drive too! You'll have to fight them to leave, as the RadiKals don't seem willing to pick a side here.": {
-      "advanced": {
-        "12": {
-          "model": "gemini-3.1-flash-lite",
-          "text": "On dirait que les pirates n'ont vraiment pas apprécié que vous ne veniez pas à votre propre réunion de la Trinité Pirate. Ils brouillent aussi votre générateur SPL d'une manière ou d'une autre ! Vous devrez les combattre pour partir, car les RadiKals ne semblent pas vouloir choisir un camp ici."
-        }
-      },
+    "Looks like the pirates really didn't appreciate you not coming to your own Pirate Trinity reunion.\n\t\t\t\t\n\t\t\t\tThey are somehow jamming your jump drive too! You'll have to fight them to leave, as the RadiKals don't seem willing to pick a side here.": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -6838,6 +6921,24 @@
       "machine": "",
       "done": false
     },
+    "(Gravespred) Your RK gear is detecting its own upgrade kit.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "You extract the upgrade kit and get away before everything blows up.\n\t\t\t\t\tYou immediately apply it to your gear...": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Your gear is now elite!": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
     "\"Gravespred\"": {
       "advanced": {
         "12": {
@@ -6889,6 +6990,18 @@
           "text": "Vous extrayez l'augmentation et vous enfuyez avant que tout n'explose."
         }
       },
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Look for a blueprint instead": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "You're not sure why you expected to find a blueprint, but you do! Then you get away before everything blows up.": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -7841,13 +7954,8 @@
       "machine": "",
       "done": false
     },
-    "Inside this asteroid belt, you stumble upon a strange workshop manned by Vexopaths.\n\n\t\t\"*Grumble* This is the RK Bam 'Brutal Improvement Lab'. Welcome.\"\n\t\tYou already knew Vexopaths are not the life of the party. This one's tone manages to make you feel guilty and threatened before you've even said or done anything.\n\t\t\n\t\t\"Your ship, we can improve it. Brutally, in case you missed that part. For low scrap.\n\t\tFirst, we have to [style[color:ff3377]]remove ALL unnecessary hull.[[/style]] Then you choose a system to receive 2 power level upgrades, even beyond your sorry ship's normal limits if applicable.\n\t\tSystems we deal with: Drones, Engines, Shields, Weapons. In alphabetical order, to avoid confusing your flesh brain.\n\t\t\n\t\tThen you go away. Or get some repairs from the Aftercare ship before you go away. Statistically recommended.\n\t\tState your approval. Or go away, which is 100% fine by me.\"\n\t\t\n\t\tThe place has security and your scanners didn't detect any other ships. This should be safe.\n\t\tWell, other than the \"almost be destroyed in the middle of an asteroid belt\" bit. And the pricing seems a bit too good.": {
-      "advanced": {
-        "12": {
-          "model": "gemini-3.1-flash-lite",
-          "text": "À l'intérieur de cette ceinture d'astéroïdes, vous tombez sur un étrange atelier géré par des Vexopathes.\n\n\t\t\"*Grogne* C'est le 'Labo d'Amélioration Brutale' des RK Bam. Bienvenue.\"\n\t\tVous saviez déjà que les Vexopathes ne sont pas l'âme des fêtes. Le ton de celui-ci réussit à vous faire sentir coupable et menacé avant même que vous n'ayez dit ou fait quoi que ce soit.\n\t\t\n\t\t\"Votre vaisseau, nous pouvons l'améliorer. Brutalement, au cas où vous auriez manqué cette partie. Pour peu de ferraille.\n\t\tD'abord, nous devons [style[color:ff3377]]supprimer TOUTE la coque inutile.[[/style]] Ensuite, vous choisissez un système pour recevoir 2 améliorations de niveau de puissance, même au-delà des limites normales de votre pauvre vaisseau si applicable.\n\t\tSystèmes dont nous nous occupons : Drones, Moteurs, Boucliers, Armes. Par ordre alphabétique, pour éviter de confondre votre cerveau de chair.\n\t\t\n\t\tEnsuite vous partez. Ou obtenez des réparations du vaisseau de soins après coup avant de partir. Statistiquement recommandé.\n\t\tExprimez votre approbation. Ou partez, ce qui me va à 100%.\"\n\t\t\n\t\tL'endroit a de la sécurité et vos scanners n'ont détecté aucun autre vaisseau. Cela devrait être sûr.\n\t\tEh bien, à part le côté \"presque être détruit au milieu d'une ceinture d'astéroïdes\". Et le prix semble un peu trop beau."
-        }
-      },
+    "Inside this asteroid belt, you stumble upon a strange workshop manned by Vexopaths.\n\n\t\t\"*Grumble* This is the RK Bam 'Brutal Improvement Garage' (B.I.G.). Welcome.\"\n\t\tYou already knew Vexopaths are not the life of the party. This one's tone manages to make you feel guilty and threatened before you've even said or done anything.\n\t\t\n\t\t\"Your ship, we can improve it. Brutally, in case you missed that part. For low scrap.\n\t\tFirst, we have to [style[color:ff3377]]remove ALL unnecessary hull.[[/style]] Then you choose a system to receive 2 power level upgrades, even beyond your sorry ship's normal limits if applicable.\n\t\tSystems we deal with: Drones, Engines, Shields, Weapons. In alphabetical order, to avoid confusing your flesh brain.\n\t\t\n\t\tThen you go away. Or get some repairs from the Aftercare ship before you go away. Statistically recommended.\n\t\tState your approval. Or go away, which is 100% fine by me.\"\n\t\t\n\t\tThe place has security and your scanners didn't detect any other ships. This should be safe.\n\t\tWell, other than the \"almost be destroyed in the middle of an asteroid belt\" bit. And the pricing seems a bit too good.": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -8045,13 +8153,62 @@
       "machine": "",
       "done": false
     },
-    "Next to this sun, you stumble upon a strange workshop manned by Uptors.\n\n\t\t\"You have found the RK Scorch 'Brutal Improvement Lab', welcome!\n\t\tFor a fee, we can mightily improve the potential of your ship, while gathering data about the side-effects of the procedure.\n\t\tThe benefits are massive: your reactor would be improved by 5 whole levels, including beyond its normal maximum.\n\n\t\tHowever even with the latest protocol, after looking at our hasty scans of your ship, we expect it to [style[color:ff3377]]take a measly 3 total hull damage spread around, and also... catch fire quite spectacularly[[/style]].\n\t\tInterested?\"\n\t\t\n\t\tIt would be a shame if you were attacked in these conditions, but you did not notice any other ships at this beacon on the way in...": {
-      "advanced": {
-        "12": {
-          "model": "gemini-3.1-flash-lite",
-          "text": "À côté de ce soleil, vous tombez sur un étrange atelier géré par des Uptors.\n\n\t\t\"Vous avez trouvé le 'Labo d'Amélioration Brutale' des RK Scorch, bienvenue !\n\t\tPour un prix, nous pouvons puissamment améliorer le potentiel de votre vaisseau, tout en recueillant des données sur les effets secondaires de la procédure.\n\t\tLes avantages sont massifs : votre réacteur serait amélioré de 5 niveaux entiers, y compris au-delà de son maximum normal.\n\n\t\tCependant, même avec le dernier protocole, après avoir jeté un coup d'œil à nos scans hâtifs de votre vaisseau, nous nous attendons à ce qu'il [style[color:ff3377]]subisse un misérable total de 3 dégâts de coque répartis, et aussi... prenne feu assez spectaculairement[[/style]].\n\t\tIntéressé ?\"\n\t\t\n\t\tIl serait dommage que vous soyez attaqué dans ces conditions, mais vous n'avez remarqué aucun autre vaisseau à cette balise en arrivant..."
-        }
-      },
+    "The nearby pulsar briefly distracts you before you are hailed by a strange kind of workshop.\n\n\t\t\"You have found the RK Punk 'Brutal Improvement Garage' (B.I.G.), esteemed guests.\n\t\tWe can expand your ship, so it may receive an extra system!\n\t\tIn return, we are interested in shipboard combat data.\n\t\t\n\t\tPlease [style[color:ff3377]]give us a random crew[[/style]] for genetic experiments until it ceases living.\n\t\tWe will also require you to participate in a little [style[color:ff3377]]fight with Morphs aboard your ship[[/style]].\n\n\t\tIf you lose, we get our data for free, hehehe. Otherwise we will proceed with the upgrading.\n\t\tThink of the potential benefits!\"\n\n\t\tYou might have heard worse offers in your life. Your crew staunchly believe you haven't.\n\t\tWhat do you decide?": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "We can handle anything, bring it on!": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "You aim your weapons at the Lanius. The moment that you do, it goes berserk. A fight breaks out! The Ghosts head for cover rather than help you.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Nope, but we'll take any crew you no longer need for science.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "\"Renegades really aren't all they're cracked up to be, are they? Oh well, have Ashley over there, we're done with them.\"": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Ashley": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "\"Oh you actually made it? Errr- I mean great fighting there! Well. I guess you get to pick your upgrade now.\"": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Increase system limit by 1.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Increase crew limit by 2.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Next to this sun, you stumble upon a strange kind of workshop manned by Uptors.\n\n\t\t\"You have found the RK Scorch 'Brutal Improvement Garage' (B.I.G.), welcome!\n\t\tFor a fee, we can mightily improve the potential of your ship, while gathering data about the side-effects of the procedure.\n\t\tThe benefits are massive: your reactor would be improved by 5 whole levels, including beyond its normal maximum.\n\n\t\tHowever even with the latest protocol, after looking at our hasty scans of your ship, we expect it to [style[color:ff3377]]take a measly 3 total hull and system damage spread around, and also... catch fire quite spectacularly[[/style]].\n\t\tInterested?\"\n\n\t\tSeeing your puzzled look, they add \"Come on, live a little! This is quite the unique opportunity.\"\n\t\t\n\t\tIt would be a shame if you were attacked in these conditions, but you don't think you've noticed any other ships at this beacon on the way in...": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -8239,6 +8396,18 @@
           "text": "\"Suggestion : jeter le dévoreur de métal par le sas en moins de 8,7534 secondes. Chance de succès = significative.\"\n\t\t\t\tVous n'êtes pas trop sûr de ça, jusqu'à ce que votre Lanius saute joyeusement pour attraper la boîte comme un gamin poursuivant une collation savoureuse !\n\t\t\t\t\n\t\t\t\tHeureusement il est habitué à ce genre d'acrobaties, et évite toute blessure tout en rapportant un peu de ferraille.\n\t\t\t\tIl ajoute, \"Le vaisseau avait un goût bizarre. Un peu familier.\""
         }
       },
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Your Engi locates the box and says your Ghost could catch it before it's too late.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "\"Suggestion: throw gaseous lifeform through airlock in less than 4.7534 seconds. Chance of success = significant.\"\n\t\t\t\tYou're not too sure about this, but your Ghost tells you to hold their beverage and quickly jumps out to grab the box! You didn't even know they could \"drink\".\n\t\t\t\t\n\t\t\t\tFortunately it's used to this type of acrobatics, and avoids any injuries while also bringing back some scrap.": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -8615,7 +8784,7 @@
       },
       "deepl": "",
       "machine": "",
-      "done": false
+      "done": true
     },
     "With your appropriate weapon, you save the creature in the nick of time.": {
       "advanced": {
@@ -8624,6 +8793,18 @@
           "text": "Avec votre arme appropriée, vous sauvez la créature juste à temps."
         }
       },
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "(Oxygen-Bomber Drone) Help it breathe": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "With your appropriate drone, you save the creature in the nick of time.": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -8666,6 +8847,29 @@
         "12": {
           "model": "gemini-3.1-flash-lite",
           "text": "Avec votre forte Survie et un drone, vous sauvez la créature juste à temps."
+        }
+      },
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "(Defromorius) \"Identity confirmed: alternate self\".": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Knowing exactly what to do, your own Defromorius leads the rescue effort to success, using minimal resources.\n\n\t\t\t\t\t\t\t\t\t\t\"Greetings, me #2.\"\n\t\t\t\t\t\t\t\t\t\t\"Identity confirmed: alternate self. Greetings, me #2.\"\n\t\t\t\t\t\t\t\t\t\tOnce they're done devising a better way to tell themselves apart, they add \"Captain. Our existence was already: IMPOSSIBLY IMPROBABLE. Logical conclusion: this event = evidence that our existence (includes: yours) is merely a simulation.\"\n\n\t\t\t\t\t\t\t\t\t\tUnaffected by the sudden existential crisis taking hold in your ship, the Defromoriuses simply move on to the next tasks, like scrapping the wreck.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Defromorius": {
+      "advanced": {
+        "12": {
+          "model": "gemini-3.1-flash-lite",
+          "text": "Defromorius"
         }
       },
       "deepl": "",
@@ -8738,17 +8942,6 @@
       "machine": "",
       "done": false
     },
-    "Defromorius": {
-      "advanced": {
-        "12": {
-          "model": "gemini-3.1-flash-lite",
-          "text": "Defromorius"
-        }
-      },
-      "deepl": "",
-      "machine": "",
-      "done": false
-    },
     "You were told you can get great RadiKal Bam gear at this beacon, if you can prove you're a customer.": {
       "advanced": {
         "12": {
@@ -8782,24 +8975,14 @@
       "machine": "",
       "done": false
     },
-    "(RK Bam gear) Hit Hard...": {
-      "advanced": {
-        "12": {
-          "model": "gemini-3.1-flash-lite",
-          "text": "(Équipement RK Bam) Frappe fort..."
-        }
-      },
+    "(RK Bam gear) 'Hit Hard...": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
     },
-    "\"... Homie! That's what I'm talking about. Here's the welcome gift. Hurry up and come over so we can trade!\"": {
-      "advanced": {
-        "12": {
-          "model": "gemini-3.1-flash-lite",
-          "text": "\"... Mon pote ! C'est de ça que je parle. Voilà le cadeau de bienvenue. Dépêche-toi de venir pour qu'on puisse faire affaire !\""
-        }
-      },
+    "\"... Homie'! That's what I'm talking about. Here's the welcome gift. Hurry up and come over so we can trade!\"": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -8837,13 +9020,8 @@
       "machine": "",
       "done": false
     },
-    "(Non-Unique Mantis) We have 'workpieces' for sale, where should we go?": {
-      "advanced": {
-        "12": {
-          "model": "gemini-3.1-flash-lite",
-          "text": "(Mantis non-unique) Nous avons des 'pièces' à vendre, où devrions-nous aller ?"
-        }
-      },
+    "(Non-Unique Leech) We have 'workpieces' for sale, where should we go?": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -8892,13 +9070,25 @@
       "machine": "",
       "done": false
     },
-    "(Non-Unique Orchids) We have 'flammable material' for sale, where should we go?": {
+    "(Non-Unique Mantis) We have 'workpieces' for sale, where should we go?": {
       "advanced": {
         "12": {
           "model": "gemini-3.1-flash-lite",
-          "text": "(Orchidées non-uniques) Nous avons des 'matériaux inflammables' à vendre, où devrions-nous aller ?"
+          "text": "(Mantis non-unique) Nous avons des 'pièces' à vendre, où devrions-nous aller ?"
         }
       },
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "(Non-Unique Orchid) We have 'flammable material' for sale, where should we go?": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "\"Righto, then it's the Scorch lab you want. I can send you there instead. Be ready to show your RadiKal gear.\"": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -8910,6 +9100,12 @@
           "text": "\"Dis-leur qu'ils puent pendant que tu y es. Hah ! Ça va les faire bouillir.\""
         }
       },
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "(Non-Unique Zoltan) We have 'flammable material' for sale, where should we go?": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -9332,24 +9528,14 @@
       "machine": "",
       "done": false
     },
-    "(RK Punk gear) Stay Smart...": {
-      "advanced": {
-        "12": {
-          "model": "gemini-3.1-flash-lite",
-          "text": "(Équipement RK Punk) Reste intelligent..."
-        }
-      },
+    "(RK Punk gear) 'Stay Smart...": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
     },
-    "\"... Slayer. Heheh. A drone will bring you the welcome gift. We await you.\"": {
-      "advanced": {
-        "12": {
-          "model": "gemini-3.1-flash-lite",
-          "text": "\"... Tueur. Héhé. Un drone t'apportera le cadeau de bienvenue. Nous t'attendons.\""
-        }
-      },
+    "\"... Slayer'! Heheh. A drone will bring you the welcome gift. We await you.\"": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -9361,6 +9547,42 @@
           "text": "\"Oui oui... Faisons des affaires. Nous avons besoin de quelques trucs. Nous t'attendons.\""
         }
       },
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "(Non-Unique Shell) We have 'hard/explosive stuff' for sale, where should we go?": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "\"Silly things, then it's the Bam lab you want. I can send you there instead. Be ready to show your RadiKal gear.\"": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "\"Tell them they're idiots while you're at it. Hah! That's gonna piss them off.\"": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "(Non-Unique Lanius) We have 'hard/explosive stuff' for sale, where should we go?": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "\"Silly things, then it's the Scorch lab you want. I can send you there instead. Be ready to show your RadiKal gear.\"": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "\"Tell them they're idiots while you're at it. Hah! That's gonna make their blood boil.\"": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -9706,24 +9928,14 @@
       "machine": "",
       "done": false
     },
-    "(RK Scorch gear) Burn Bright...": {
-      "advanced": {
-        "12": {
-          "model": "gemini-3.1-flash-lite",
-          "text": "(Équipement RK Scorch) Brûle intensément..."
-        }
-      },
+    "(RK Scorch gear) 'Burn Bright...": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
     },
-    "\"... Baby. It always warms the heart to see one of us. Here is the welcome gift. You are cleared to land.\"": {
-      "advanced": {
-        "12": {
-          "model": "gemini-3.1-flash-lite",
-          "text": "\"... Bébé. Ça réchauffe toujours le cœur de voir l'un des nôtres. Voici le cadeau de bienvenue. Tu es autorisé à atterrir.\""
-        }
-      },
+    "\"... Baby'! It always warms the heart to see one of us. Here is the welcome gift. You are cleared to land.\"": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -9735,6 +9947,30 @@
           "text": "\"Bien. Nous attendions des livraisons, et nous avons un bon stock d'équipement à vendre. Faisons affaire alors. Tu es autorisé à atterrir.\""
         }
       },
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "\"Pfeh, then it's the Bam lab you want. I can send you there instead. Be ready to show your RadiKal gear.\"": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "\"Tell them they're slowpokes while you're at it. Hah! That's gonna piss them off.\"": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "\"Pfeh, then it's the Punk lab you want. I can send you there instead. Be ready to show your RadiKal gear.\"": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "\"Tell them they're slowpokes while you're at it. Hah! Those smug freaks.\"": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -9772,13 +10008,8 @@
       "machine": "",
       "done": false
     },
-    "\"First, the deliveries. What raw materials do you bring? The furnaces, vivisection labs and distilleries hunger.\"\n\n\t\tYou look at the list of \"materials\" and get a better understanding of why this sector is outlawed by so many factions. However the mission comes first, right?": {
-      "advanced": {
-        "12": {
-          "model": "gemini-3.1-flash-lite",
-          "text": "\"D'abord, les livraisons. Quelles matières premières apportes-tu ? Les fours, les labos de vivisection et les distilleries ont faim.\"\n\n\t\tTu regardes la liste des 'matériaux' et tu comprends mieux pourquoi ce secteur est mis au ban par tant de factions. Mais la mission passe avant tout, n'est-ce pas ?"
-        }
-      },
+    "\"First, the deliveries. What raw materials do you bring? The furnaces, vivisection labs and distilleries hunger.\"\n\n\t\tYou look at the list of \"flammable materials\" and get a better understanding of why this sector is outlawed by so many factions. However the mission comes first, right?": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -9849,13 +10080,8 @@
       "machine": "",
       "done": false
     },
-    "\"Quality material, yes. Here's greater payment.\"\n\t\t\t\n\t\t\t\tYou can feel the rest of your crew judging you.": {
-      "advanced": {
-        "12": {
-          "model": "gemini-3.1-flash-lite",
-          "text": "\"Matériau de qualité, oui. Voilà un meilleur paiement.\"\n\t\t\t\n\t\t\t\tTu peux sentir le reste de ton équipage te juger."
-        }
-      },
+    "\"Deep, warm essence, yes. Here's greater payment.\"\n\t\t\t\n\t\t\t\tYou can feel the rest of your crew judging you.": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -9871,11 +10097,28 @@
       "machine": "",
       "done": false
     },
+    "\"Great funky spores, yes. Here's greater payment.\"\n\t\t\t\n\t\t\t\tYou can feel the rest of your crew judging you.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
     "A Cultivator.": {
       "advanced": {
         "12": {
           "model": "gemini-3.1-flash-lite",
           "text": "Un Cultivateur."
+        }
+      },
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "\"Quality material, yes. Here's greater payment.\"\n\t\t\t\n\t\t\t\tYou can feel the rest of your crew judging you.": {
+      "advanced": {
+        "12": {
+          "model": "gemini-3.1-flash-lite",
+          "text": "\"Matériau de qualité, oui. Voilà un meilleur paiement.\"\n\t\t\t\n\t\t\t\tTu peux sentir le reste de ton équipage te juger."
         }
       },
       "deepl": "",
@@ -9981,6 +10224,12 @@
       "machine": "",
       "done": false
     },
+    "\"High voltage armored power! Here's greater payment.\"\n\t\t\t\n\t\t\t\tYou can feel the rest of your crew judging you.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
     "A Duskbringer Martyr.": {
       "advanced": {
         "12": {
@@ -9988,6 +10237,12 @@
           "text": "Un Crépusculeur Martyre."
         }
       },
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "\"Very volatile power, yes! Here's greater payment.\"\n\t\t\t\n\t\t\t\tYou can feel the rest of your crew judging you.": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -10091,7 +10346,7 @@
       "machine": "",
       "done": false
     },
-    "The pirate clans don't always see eye to eye, but when there's big money to be made, they know how to behave. The elite welcoming you here seems in charge of overseeing the transactions.\n\t\t\"Sssso, you're the big shot Feddy cusssstomer who threw away a lawful life to mingle with ussss, eh? No offensssse but I've gotta tell you, I don't really buy it. We shall ssssee if you're for real...\"\n\t\t\n\t\tIf you don't want to anger the slug and his ruthless associates, you had better buy something from each of the pirate subfactions.\n\t\tIt's all-or-nothing, but if you do, pirates everywhere will respect you that much more!": {
+    "The pirate clans don't always see eye to eye, but when there's big money to be made, they know how to behave. The elite welcoming you here seems in charge of overseeing the transactions.\n\t\t\"Sssso, you're the big shot Feddy cusssstomer who threw away a lawful life to mingle with ussss, eh? No offensssse but I've gotta tell you, I don't really buy it. We shall ssssee if you're for real...\"\n\t\t\n\t\tIf you don't want to anger the Slug and his ruthless associates, you had better buy something from each of the pirate subfactions.\n\t\t[style[color:ff3377]]It's all-or-nothing[[/style]], but if you do, pirates everywhere will respect you that much more!": {
       "advanced": {},
       "deepl": "",
       "machine": "",
@@ -10302,7 +10557,7 @@
       "machine": "",
       "done": false
     },
-    "\"Bad words feddy captain, should have choose better words. But mostly should have bring scrap.\" The pirate ship in front of you instantly makes itself combat ready, having clearly expected that. \n\t\t\t\t\t\t\n\t\t\t\t\t\tYou can't tell whether the slug overseer is furious, vindicated, or both. \"Hah! I knew it, you just wanted to take down a bunch of piratesss at once you wannabe hero. Guesss what, we're not that dumb! Hey Kurt, hand over the scrap, I won the bet.\"\n\t\t\t\t\t\tWith that, they and the other pirate ships jump away, leaving you to deal with the slaver!": {
+    "\"Bad words feddy captain, should have choose better words. But mostly should have bring scrap.\" The pirate ship in front of you instantly makes itself combat ready, having clearly expected that. \n\t\t\t\t\t\t\n\t\t\t\t\t\tYou can't tell whether the Slug overseer is furious, vindicated, or both. \"Hah! I knew it, you just wanted to take down a bunch of piratesss at once you wannabe hero. Guesss what, we're not that dumb! Hey Kurt, hand over the scrap, I won the bet.\"\n\t\t\t\t\t\tWith that, they and the other pirate ships jump away, leaving you to deal with the slaver!": {
       "advanced": {},
       "deepl": "",
       "machine": "",
@@ -10369,7 +10624,7 @@
       "machine": "",
       "done": false
     },
-    "\"Bad choice, captain. You should have brought that scrap.\" The pirate ship in front of you instantly makes itself combat ready, having clearly expected that. \n\t\t\t\t\t\t\n\t\t\t\t\t\tYou can't tell whether the slug overseer is furious, vindicated, or both. \"Hah! I knew it, you just wanted to take down a bunch of piratesss at once you wannabe hero. Guesss what, we're not that dumb! Hey Kurt, hand over the scrap, I won the bet.\"\n\t\t\t\t\t\tWith that, they and the other pirate ships jump away, leaving you to deal with the mercenary!": {
+    "\"Bad choice, captain. You should have brought that scrap.\" The pirate ship in front of you instantly makes itself combat ready, having clearly expected that. \n\t\t\t\t\t\t\n\t\t\t\t\t\tYou can't tell whether the Slug overseer is furious, vindicated, or both. \"Hah! I knew it, you just wanted to take down a bunch of piratesss at once you wannabe hero. Guesss what, we're not that dumb! Hey Kurt, hand over the scrap, I won the bet.\"\n\t\t\t\t\t\tWith that, they and the other pirate ships jump away, leaving you to deal with the mercenary!": {
       "advanced": {},
       "deepl": "",
       "machine": "",
@@ -10463,7 +10718,7 @@
       "machine": "",
       "done": false
     },
-    "\"Sad, I didn't take you for a joker. You should have brought that scrap.\" The pirate ship in front of you instantly makes itself combat ready, having clearly expected that. \n\t\t\t\t\t\t\n\t\t\t\t\t\tYou can't tell whether the slug overseer is furious, vindicated, or both. \"Hah! I knew it, you just wanted to take down a bunch of piratesss at once you wannabe hero. Guesss what, we're not that dumb! Hey Kurt, hand over the scrap, I won the bet.\"\n\t\t\t\t\t\tWith that, they and the other pirate ships jump away, leaving you to deal with the smuggler!": {
+    "\"Sad, I didn't take you for a joker. You should have brought that scrap.\" The pirate ship in front of you instantly makes itself combat ready, having clearly expected that. \n\t\t\t\t\t\t\n\t\t\t\t\t\tYou can't tell whether the Slug overseer is furious, vindicated, or both. \"Hah! I knew it, you just wanted to take down a bunch of piratesss at once you wannabe hero. Guesss what, we're not that dumb! Hey Kurt, hand over the scrap, I won the bet.\"\n\t\t\t\t\t\tWith that, they and the other pirate ships jump away, leaving you to deal with the smuggler!": {
       "advanced": {},
       "deepl": "",
       "machine": "",
@@ -10570,6 +10825,24 @@
           "text": "Maintenant que tu as passé le test, les autres gardiens te laissent sortir du secteur, et laissent entendre que puisque tu as même réussi à quitter le vaisseau en un seul morceau, tu obtiens un membre d'équipage aléatoire gratuit !"
         }
       },
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "(Rain of Ions) Your RK gear is detecting its own upgrade kit.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "You extract the upgrade kit and get away.\n\t\t\t\t\tYou immediately apply it to your gear...": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "There's also a weapon that didn't blow up!": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -10695,13 +10968,8 @@
       "machine": "",
       "done": false
     },
-    "A different, female MFK voice is now roaring at you. \"Captain. You appear to have guts.\" The RadiKal takes a second to catch her breath. \"This crew has been useful but I don't need to stay undercover any longer.\n\tThey've been blabbering about our operations, but they're not with us or even financing us. They only stole some gear from one of our customers. All of that is bad news, and also the reason why I just slew them all. Now, we need more captains like you. You should pay us a visit, which will be mutually beneficial if I'm not mistaken about your quality.\"": {
-      "advanced": {
-        "12": {
-          "model": "gemini-3.1-flash-lite",
-          "text": "Une voix MFK différente, féminine, rugit maintenant contre toi. \"Capitaine. Tu as l'air d'avoir du cran.\" La RadiKal prend une seconde pour reprendre son souffle. \"Cet équipage a été utile mais je n'ai plus besoin de rester sous couverture.\n\tIls ont jacassé sur nos opérations, mais ils ne sont pas avec nous et ne nous financent même pas. Ils ont juste volé de l'équipement à l'un de nos clients. Tout ça est une mauvaise nouvelle, et c'est aussi la raison pour laquelle je viens de tous les massacrer. Maintenant, nous avons besoin de plus de capitaines comme toi. Tu devrais nous rendre visite, ce qui sera mutuellement bénéfique si je ne me trompe pas sur ta qualité.\""
-        }
-      },
+    "A different, female MFK voice is now roaring at you. \"Captain. You appear to have guts.\" The RadiKal Associate takes a second to catch her breath. \"This crew has been useful but I don't need to stay undercover any longer.\n\tThey've been blabbering about our operations, but they're not with us or even financing us. They only stole some gear from one of our customers. All of that is bad news, and also the reason why I just slew them all. Now, we need more captains like you. You should pay us a visit, which will be mutually beneficial if I'm not mistaken about your quality.\"": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -10717,13 +10985,8 @@
       "machine": "",
       "done": false
     },
-    "\"Yes yes I know, and that's no issue. In fact the detour might bring your ship up to speed for the challenge that is the Flagship. You will find that we RKs are very well informed people. I too have other missions to take care of rather urgently, farewell.\" She cuts comms.\n\t\t\t\tSector coordinates have been added to your atlas!": {
-      "advanced": {
-        "12": {
-          "model": "gemini-3.1-flash-lite",
-          "text": "\"Oui oui je sais, et ce n'est pas un problème. En fait, le détour pourrait mettre ton vaisseau à niveau pour le défi que représente le Vaisseau Amiral. Tu découvriras que nous, les RK, sommes des gens très bien informés. J'ai moi aussi d'autres missions à gérer de toute urgence, adieu.\" Elle coupe la communication.\n\t\t\t\tLes coordonnées du secteur ont été ajoutées à ton atlas !"
-        }
-      },
+    "\"Yes yes I know, and that's no issue. In fact the detour might bring your ship up to speed for the challenge that is the Flagship. You will find that we RKs are very well informed people. I too have other missions to take care of rather urgently, farewell. And if we find ourselves face to face at the very end, well, may the best win.\" She cuts comms.\n\t\t\t\tSector coordinates have been added to your atlas!": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -11152,6 +11415,18 @@
       "machine": "",
       "done": false
     },
+    "(BPS Messenger) Your RK gear is detecting its own upgrade kit.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "You extract the upgrade kit and get away.\n\t\t\t\tYou immediately apply it to your gear...": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
     "You find spare RadiKal equipment!": {
       "advanced": {
         "12": {
@@ -11384,7 +11659,7 @@
       "machine": "",
       "done": false
     },
-    "\"Aaaaah. Ssstranger ssstranger, don't be mad but I'm ssselling you illegal, unethical goodsss, don't get caught with those!\"": {
+    "\"Aaaaah. Ssstranger ssstranger, don't be mad but I'm sssselling you illegal, unethical goodsss, don't get caught with those!\n\t\tEven I shouldn't be sssseen with that ssstuff, but you wouldn't underssstand why. Jusssst, don't tell anyone!\"": {
       "advanced": {},
       "deepl": "",
       "machine": "",
@@ -12030,6 +12305,12 @@
           "text": "(Punk Harmonie) Faire pousser un Engi Séparatiste."
         }
       },
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "(Oxygenizer) Create an atmosphere.": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -13356,13 +13637,8 @@
       "machine": "",
       "done": false
     },
-    "Are you sure you want to reinforce this augment?\n\t[When choosing the \"Full Power\" strike, reinforcement will be lost instead of the augment. \n\tYou can still do something at the empty beacon after this.]": {
-      "advanced": {
-        "12": {
-          "model": "gemini-3.1-flash-lite",
-          "text": "Es-tu sûr de vouloir renforcer cette augmentation ?\n\t[Lors du choix de la frappe \"Pleine Puissance\", le renforcement sera perdu au lieu de l'augmentation. \n\tTu peux toujours faire quelque chose à la balise vide après cela.]"
-        }
-      },
+    "Are you sure you want to reinforce this augment?\n\t[When choosing the \"Full Power\" strike, reinforcement will be lost instead of the augment. \n\t\n\tYou can still do something at the empty beacon after this.]": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -13411,13 +13687,8 @@
       "machine": "",
       "done": false
     },
-    "Are you sure you want to rebuild Persistence Shield's capacitor?\n\t[Allows you to use its active ability from the Toggle Menu again. \n\tYou can still do something at the empty beacon after this.]": {
-      "advanced": {
-        "12": {
-          "model": "gemini-3.1-flash-lite",
-          "text": "Es-tu sûr de vouloir reconstruire le condensateur du Bouclier de Persistance ?\n\t[Permet d'utiliser à nouveau sa capacité active depuis le Menu de bascule. \n\tTu peux toujours faire quelque chose à la balise vide après cela.]"
-        }
-      },
+    "Are you sure you want to rebuild Persistence Shield's capacitor?\n\t[Allows you to use its active ability from the Toggle Menu again. \n\t\n\tYou can still do something at the empty beacon after this.]": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -13697,17 +13968,6 @@
       "machine": "",
       "done": false
     },
-    "(LI) The Ablative Armor room!": {
-      "advanced": {
-        "12": {
-          "model": "gemini-3.1-flash-lite",
-          "text": "(LI) La salle d'Armure Ablative !"
-        }
-      },
-      "deepl": "",
-      "machine": "",
-      "done": false
-    },
     "(OE) The Auxiliary Shields room!": {
       "advanced": {
         "12": {
@@ -13719,6 +13979,24 @@
       "machine": "",
       "done": false
     },
+    "(OE R.) The Auxiliary Shields room!": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "(OE R.) The Life Bloom room!": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "(OE R.) The Weapons Amplifier room!": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
     "(DD) The Corruptor room!": {
       "advanced": {
         "12": {
@@ -13726,6 +14004,23 @@
           "text": "(DD) La salle du Corrupteur !"
         }
       },
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "(LI) The Ablative Armor room!": {
+      "advanced": {
+        "12": {
+          "model": "gemini-3.1-flash-lite",
+          "text": "(LI) La salle d'Armure Ablative !"
+        }
+      },
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "(LI) The Auxiliary Reactor room!": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -14579,6 +14874,18 @@
       "machine": "",
       "done": false
     },
+    "Are you sure you want to do this?\n\t[Will envelop your ship in an O2 atmosphere, protecting fires and crew from venting and breaches. Costs 1}]": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Ahhh, fresh air!": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
     "Are you sure you want to do this?\n\t[If hull reaches 9 points or less, get full system repairs, 15 hull repair, and lose the augment. Uses 1 power.]": {
       "advanced": {
         "12": {
@@ -15357,13 +15664,8 @@
       "machine": "",
       "done": false
     },
-    "\"Fetch!\" You send out both special drones, fingers-or-equivalent-appendages crossed.\n\t\t\t\tSome time later, they remotely report their findings.\n\t\t\t\t\n\t\t\t\tIf you choose to retrieve nothing, you get back what's left of both retrievers.\n\t\t\t\t\n\t\t\t\tIf you choose to retrieve anything, you get back what's left of 1 retriever, but the fleet will gain 1 turn on you.": {
-      "advanced": {
-        "12": {
-          "model": "gemini-3.1-flash-lite",
-          "text": "\"Va chercher !\" Tu envoies les deux drones spéciaux, les doigts ou appendices équivalents croisés.\n\t\t\t\tQuelque temps plus tard, ils rapportent leurs trouvailles à distance.\n\t\t\t\t\n\t\t\t\tSi tu choisis de ne rien récupérer, tu récupères ce qui reste des deux drones récupérateurs.\n\t\t\t\t\n\t\t\t\tSi tu choisis de récupérer quelque chose, tu récupères ce qui reste d'un drone récupérateur, mais la flotte gagnera un tour sur toi."
-        }
-      },
+    "\"Fetch!\" You send out both special drones, fingers-or-equivalent-appendages crossed.\n\t\t\t\tSome time later, they remotely report their findings.\n\t\t\t\t\n\t\t\t\tIf you choose to retrieve nothing, you get back some of the cost.\n\t\t\t\t\n\t\t\t\tIf you choose to retrieve anything the fleet will gain 1 turn on you.": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -15627,24 +15929,14 @@
       "machine": "",
       "done": false
     },
-    "Calibrator Lvl 2. [Cost: 45~, 1|]": {
-      "advanced": {
-        "12": {
-          "model": "gemini-3.1-flash-lite",
-          "text": "Calibreur Nv 2. [Coût : 45~, 1|]"
-        }
-      },
+    "[RK Bam] Calibrator Lvl 2. [Cost: 45~, 1|]": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
     },
-    "Calibrator Lvl 1. [Cost: 45~ 1|]": {
-      "advanced": {
-        "12": {
-          "model": "gemini-3.1-flash-lite",
-          "text": "Calibreur Nv 1. [Coût : 45~ 1|]"
-        }
-      },
+    "[RK Bam] Calibrator Lvl 1. [Cost: 45~ 1|]": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -15660,13 +15952,8 @@
       "machine": "",
       "done": false
     },
-    "Choking F.I.N.E. [Cost: 55~, 1}, 1|]": {
-      "advanced": {
-        "12": {
-          "model": "gemini-3.1-flash-lite",
-          "text": "Choking F.I.N.E. [Coût : 55~, 1}, 1|]"
-        }
-      },
+    "[RK Bam] Choking F.I.N.E. [Cost: 55~, 1}, 1|]": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -15682,35 +15969,20 @@
       "machine": "",
       "done": false
     },
-    "Demicloners. [Cost: 35~, 2|]": {
-      "advanced": {
-        "12": {
-          "model": "gemini-3.1-flash-lite",
-          "text": "Demicloneurs. [Coût : 35~, 2|]"
-        }
-      },
+    "[RK Punk] Demicloners. [Cost: 35~, 2|]": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
     },
-    "RK Punk \"Mind Cooler\": When under the effects of Mind Control, your crew cannot fight, sabotage, or teleport away. Works on both ships. [ALREADY INSTALLED]": {
-      "advanced": {
-        "12": {
-          "model": "gemini-3.1-flash-lite",
-          "text": "RK Punk \"Refroidisseur mental\" : Sous les effets du Contrôle mental, ton équipage ne peut pas se battre, saboter ou se téléporter. Fonctionne sur les deux vaisseaux. [DÉJÀ INSTALLÉ]"
-        }
-      },
+    "RK Punk \"Mind Cooler\": When under the effects of Mind Control, your crew cannot fight, sabotage, use abilities, or teleport away. Works on both ships. [ALREADY INSTALLED]": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
     },
-    "Mind Cooler. [Cost: 30~, 1|]": {
-      "advanced": {
-        "12": {
-          "model": "gemini-3.1-flash-lite",
-          "text": "Refroidisseur mental. [Coût : 30~, 1|]"
-        }
-      },
+    "[RK Punk] Mind Cooler. [Cost: 30~, 1|]": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -15726,13 +15998,8 @@
       "machine": "",
       "done": false
     },
-    "Hellion Wraps. [Cost: 55~, 1{, 1}]": {
-      "advanced": {
-        "12": {
-          "model": "gemini-3.1-flash-lite",
-          "text": "Wraps Hellion. [Coût : 55~, 1{, 1}]"
-        }
-      },
+    "[RK Scorch] Hellion Wraps. [Cost: 55~, 1{, 1}]": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -15748,13 +16015,8 @@
       "machine": "",
       "done": false
     },
-    "Mind Heater. [Cost: 30~, 1{, 1|]": {
-      "advanced": {
-        "12": {
-          "model": "gemini-3.1-flash-lite",
-          "text": "Chauffeur mental. [Coût : 30~, 1{, 1|]"
-        }
-      },
+    "[RK Scorch] Mind Heater. [Cost: 30~, 1{, 1|]": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -15849,13 +16111,8 @@
       "machine": "",
       "done": true
     },
-    "You are about to install the Mind Cooler upgrade.\n\t[Effects: When under the effects of Mind Control, your crew cannot fight, sabotage, or teleport away. Works on both ships.]": {
-      "advanced": {
-        "12": {
-          "model": "gemini-3.1-flash-lite",
-          "text": "Tu es sur le point d'installer l'amélioration Refroidisseur mental.\n\t[Effets : Sous les effets du Contrôle mental, ton équipage ne peut pas se battre, saboter ou se téléporter. Fonctionne sur les deux vaisseaux.]"
-        }
-      },
+    "You are about to install the Mind Cooler upgrade.\n\t[Effects: When under the effects of Mind Control, your crew cannot fight, sabotage, use abilities, or teleport away. Works on both ships.]": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -16218,6 +16475,30 @@
       "machine": "",
       "done": false
     },
+    "Wakk": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Xakk": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Yakk": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Zakk": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
     "RADIKAL SHIP:\n\t\t\tProbably dangerous, maybe also to itself and/or its crew.\n\t\t\tProbably has lootable RadiKal gear: unlocks internal upgrades and RK sector blue options or coordinates.": {
       "advanced": {
         "12": {
@@ -16361,13 +16642,8 @@
       "machine": "",
       "done": false
     },
-    "MIND COOLER:\n\t\t\tWhen under the effects of Mind Control, this ship's crew cannot fight, sabotage, or teleport away. Works on both ships.": {
-      "advanced": {
-        "12": {
-          "model": "gemini-3.1-flash-lite",
-          "text": "REFROIDISSEUR MENTAL :\n\t\t\tSous les effets du Contrôle mental, l'équipage de ce vaisseau ne peut pas se battre, saboter ou se téléporter. Fonctionne sur les deux vaisseaux."
-        }
-      },
+    "MIND COOLER:\n\t\t\tWhen under the effects of Mind Control, this ship's crew cannot fight, sabotage, use abilities, or teleport away. Works on both ships.": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -16636,19 +16912,26 @@
       "machine": "",
       "done": false
     },
+    "YOU'RE IN LUCK!": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "YOU'RE IN LUCK! (PARTNERS)": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
     "RADIKAL BPS WEAPONS": {
       "advanced": {},
       "deepl": "",
       "machine": "",
       "done": true
     },
-    "RADIKAL WEAPONS": {
-      "advanced": {
-        "12": {
-          "model": "gemini-3.1-flash-lite",
-          "text": "ARMES RADIKAL"
-        }
-      },
+    "RK SUBFACTIONS WEAPONS": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -16664,13 +16947,8 @@
       "machine": "",
       "done": false
     },
-    "RADIKAL AUGMENTS": {
-      "advanced": {
-        "12": {
-          "model": "gemini-3.1-flash-lite",
-          "text": "AUGMENTATIONS RADIKAL"
-        }
-      },
+    "RK SUBFACTION AUGMENTS": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -16682,6 +16960,12 @@
           "text": "RADIKALS"
         }
       },
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "RADIKAL DRONES": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -16747,6 +17031,28 @@
       "machine": "",
       "done": false
     },
+    "VERY RARE RADIKAL AUGMENTS": {
+      "advanced": {
+        "12": {
+          "model": "gemini-3.1-flash-lite",
+          "text": "AUGMENTATIONS RADIKAL TRÈS RARES"
+        }
+      },
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "RADIKAL WEAPONS": {
+      "advanced": {
+        "12": {
+          "model": "gemini-3.1-flash-lite",
+          "text": "ARMES RADIKAL"
+        }
+      },
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
     "ESSENTIAL SYSTEMS": {
       "advanced": {},
       "deepl": "",
@@ -16758,17 +17064,6 @@
         "12": {
           "model": "gemini-3.1-flash-lite",
           "text": "RADIKALS (10-20% DE RÉDUCTION)"
-        }
-      },
-      "deepl": "",
-      "machine": "",
-      "done": false
-    },
-    "VERY RARE RADIKAL AUGMENTS": {
-      "advanced": {
-        "12": {
-          "model": "gemini-3.1-flash-lite",
-          "text": "AUGMENTATIONS RADIKAL TRÈS RARES"
         }
       },
       "deepl": "",
@@ -16836,13 +17131,8 @@
       "machine": "",
       "done": false
     },
-    "E X C L U S I V E": {
-      "advanced": {
-        "12": {
-          "model": "gemini-3.1-flash-lite",
-          "text": "E X C L U S I F"
-        }
-      },
+    "GUARANTEED - RISKY": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -17597,13 +17887,8 @@
       "machine": "",
       "done": false
     },
-    "Quality stamp: \"Influencer 'BL2Forever420' said 'Friendship ENDED with Burst Lasers' to her BILLIONS of followers!\"": {
-      "advanced": {
-        "12": {
-          "model": "gemini-3.1-flash-lite",
-          "text": "Tampon de qualité : \"L'influenceuse 'BL2Forever420' a dit 'Amitié TERMINÉE avec les Lasers Rafale' à ses MILLIARDS d'abonnés !\""
-        }
-      },
+    "Quality stamp: \"Influencer BL2Forever420 said 'Friendship ENDED with Burst Lasers' to her BILLIONS of followers!\"": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -17729,6 +18014,12 @@
       "machine": "",
       "done": false
     },
+    "Quality stamp: \"KILLING and DESTROYING is nice, but this has also caused PAIN like you wouldn't believe!\"": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
     "Quality stamp: \"Showcased RK performance by eliminating a manned ship of EACH natural and unnatural faction!\"": {
       "advanced": {
         "12": {
@@ -17768,7 +18059,7 @@
       "machine": "",
       "done": true
     },
-    "(Patching order:\n-Judge Blue Options above RK because it's already built-in\n-Forgotten Races above RK to avoid populating their stores.)\nUse the latest version of Hyperspace (v1.22 as of writing this)\n\nAn add-on for FTL: Multiverse v5.5.1, which adds a secret sector, multiple spicy augments (multi-ramming, extensive fire effects, special hacking, repair, internal...), including upgrades and combos!\nAlso features a few weapons and 8 ships (7 unlockable) with specific gimmicks, and judge boons.\nThe general theme is powerful but potentially dangerous (to you) experimental tech. More content coming soon!\n\n****** CONTENT ******\n\t\nThe secret RadiKal Sector:\n-Weapons, augments and some other things are rarely accessible from the outside.\n-Get coordinates rarely during normal play or from double agents in stores, then reroute. There might be other ways too.\n-Original content, events, enemies, quests and specialized shops.\n-A player Hideout you can build over multiple runs for permanent benefits!\n-Danger everywhere. You might trade crew, gear, reputation or something else for even better things. Will you dare?\n\nResource-hungry Combat Augments:\n-Shipvore Ram: recklessly throw your ship at the enemy for heavy damage and repairs, risking your resources and more.\nKeep the risks under control with experience, or intuition! Combos with Fuel Conserver and Emergency Generator.\n-Offense Disabler makes the enemy harmless for a few seconds, progressively restoring their power afterwards.\n-Vulnerabilizer: slowly remove the enemy's defenses, with some randomness.\n-Plasma Teleporter: Light many fires on the enemy ship instantly!\nHas safe and risky deployment methods. Combos with other augments.\n\nOther offensive Augments:\n-Charged Belts adds on-death damage and fire to your crew, stacking with similar effects. Has combo.\n-Flammabilizer: deal with fireproof and resistant enemies or eradicate vulnerable ones!\n-Scorch Pre-Igniter: like the original but more accessible, with flaws that the Scorch tolerate.\n-Weapons On Fire: great, ramping fire rate increase, but with fiery side effects.\n\nOther defensive augments:\n-Persistence Shield gives Super Shields, a way to recharge them instantly, and regular shield recharge speed!\n-Thicker Hull can negate low damage hits, and always reduces high damage ones, with a drawback.\n-Arrogance Shield: high Super Shields, but reduced shield recharge rate. Also influences drones on your ship.\n-Punk Harmony uses a bootleg Harmony to automate and empower your Engi, scaling with Mind Control and Hacking.\n-Dread deck: indirectly makes your ship much deadlier to invaders while making your crew antisocials clinging to life.\n-Defense Kits make your crew much sturdier on your ship.\n-A.E.R.A. Second Wind can automatically save your ship, once per purchase.\n\nUtility augments:\n-Lead Titans: make specific races stronger and heavier, maybe too much for your ship.\nOthers get repair and movement bonuses.\n-Enigmashin: gamble with fleet delays through brief special hacking, maybe with consequences...\n-Oxygenizer: spawn an atmosphere at the start of fights.\n-Scorched Earth lets you set your rooms or ship on fire and benefit from it.\nUpgradable. Combo with Plasma Teleporter.\n-Surveyor: deep-search empty beacons for random loot.\n\nInternal augments:\n-Calibrator: Increases the accuracy and fire rate of all of your weapons!\n-Choking F.I.N.E.: protects from suffocation and gives boosts while suffocating.\n-Demicloners: provides a semblance of cloning when your crew dies without a Clonebay.\n-Mind Cooler: greatly reduces the impact of having your crew mind controlled.\n-Hellion Wraps: in fire, your crew is combat boosted!\n-Mind Heater: in fire, makes your crew resist Mind Control and stun, and also reveal adjacent rooms.\n\nEfficient weapons:\n-'Bada' fissure beam can deal massive damage to large systems, or blow up ships!\n-Three 'Heavy Popper' lasers with shield-popping superheavy projectiles, at your own risk.\n-'Unloader' can quickly throw your whole stock of missiles at the enemy.\n-'Gravespred' radiation beam can be lethal including on your ship.\n-'Battery Artemis' reworks the classic design to power the next weapon.\n-'Radiation Repair Bomb' is multi-purpose.\n-'Shotphaser' shotguns accelerated phase ions with high stun chance.\n-'Rain of Ions' shoots all kinds of ions at once!\n-'Chimney' missile launcher starts strong fires and sustains them with oxygen!\n-'Hot Poker' fireblast beam can destroy enemy systems while spreading fire all around!\n-'Oxygen-Bomb' refills oxygen on any ship. Can detonate for a little damage and fire.\n-'Rain of Fire' can eventually maintain full strength fires anywhere!\n-'BPS Messenger' heavy laser combines the strengths of all 3 RK subfactions.\n-'Decency' is a police laser with +damage against ships with RK weapons.\n-'Measure' is a police missile launcher with similar extra effects.\n\nNew crew:\n-Vexopaths are RK Bam modified Technopaths specialized in destruction.\n-Uptors are made out of Alpha Gouls to fit the fiery needs of the RK Scorch.\n-Unique crew!\n\nPlayer ships with unique gimmicks:\n-Embark on a wild ride with the Rammer, boasting a superior locked version of the Shipvore Ram.\n-The Punker plays around its massive reactor, particle accelerator, and special hacking.\n-The Scorcher is outfitted with what you need to burn down enemies at blazing speed.\n\nPlus a few secrets!\n\n\n************ Changelog ******************\nCHANGELOG RadiKal Sector v6.22\n\n-Improved some texts.\n\n* Augments\n-\"Lead Titans\": No longer drops. Can only be obtained by buying it (see the \"Bam Lab\"), getting/choosing it from a guaranteed source, or on cruisers that start with it. This fixes getting it at random in ship with low crew capacity with 1 or more \"big\" crew being potentially very bad.<credit: Pepper>\n\n* The RadiKal Sector\n-\"Bam Lab\": New \"Exclusive\" section that only (but always) sells \"Lead Titans\" augment.\n\n\nSpecial thanks to (in no particular order) TehNecr0, TheVaninator, Limrix, Sequestrator of Bases and Memes, Argentum, Wooden Bench Acolyte, Mr Do, Waffle, Cerebralcloud92, dirt block, aktoja, Harmony, Fajdek, Aleev, Zuggo, LoudMute, Arc, Lizzard, codyfun, Qaser7, bamalf, Dr. Nauter, Witherbottom, Chooseche, Eschaton, Pepper, Untitled, Pupi, vertaalfout, Dalvest, Alder, Kix, [Enchanter], Pedrosian96, Royal Slime, [yenlo]R4V3-0N, robinthedragon2, Ehtya (Laythe), Blizz/mr_easy_money, Skye[NikoMaster], Julk, Felipe, marcrusian, Abstrusity and other people who helped on the FTL:MV Discord, for streaming the mod, and valuable information on balance, modding, coding and art.\n\nFeedback? Questions? @Dj0z in the Multiverse server on Discord\n\nGood luck and have fun!": {
+    "(Patching order:\n-Judge Blue Options above RK because it's already built-in\n-Forgotten Races above RK to avoid populating their stores.)\nUse the latest version of Hyperspace (v1.23.1 as of writing this)\n\nAn add-on for FTL: Multiverse v5.5.1, which adds a secret sector, multiple spicy augments (multi-ramming, extensive fire effects, special hacking, repair, internal...), including upgrades and combos!\nAlso features a few weapons and 9 ships (8 unlockable) with specific gimmicks, and judge boons.\nThe general theme is powerful but potentially dangerous (to you) experimental tech. More content coming soon!\n\n****** CONTENT ******\n\t\nThe secret RadiKal Sector:\n-Weapons, augments and some other things are rarely accessible from the outside.\n-Get coordinates rarely during normal play or from double agents in stores, then reroute. There might be other ways too.\n-Original content, events, enemies, quests and specialized shops.\n-A player Hideout you can build over multiple runs for permanent benefits!\n-Danger everywhere. You might trade crew, gear, reputation or something else for even better things. Will you dare?\n\nResource-hungry Combat Augments:\n-Shipvore Ram: recklessly throw your ship at the enemy for heavy damage and repairs, risking your resources and more.\nKeep the risks under control with experience, or intuition! Combos with Fuel Conserver and Emergency Generator.\n-Offense Disabler makes the enemy harmless for a few seconds, progressively restoring their power afterwards.\n-Vulnerabilizer: slowly remove the enemy's defenses, with some randomness.\n-Plasma Teleporter: Light many fires on the enemy ship instantly!\nHas safe and risky deployment methods. Combos with other augments.\n\nOther offensive Augments:\n-Charged Belts adds on-death damage and fire to your crew, stacking with similar effects. Has combo.\n-Flammabilizer: deal with fireproof and resistant enemies or eradicate vulnerable ones!\n-Scorch Pre-Igniter: like the original but more accessible, with flaws that the Scorch tolerate.\n-Weapons On Fire: great, ramping fire rate increase, but with fiery side effects.\n\nOther defensive augments:\n-Persistence Shield gives Super Shields, a way to recharge them instantly, and regular shield recharge speed!\n-Thicker Hull can negate low damage hits, and always reduces high damage ones, with a drawback.\n-Arrogance Shield: high Super Shields, but reduced shield recharge rate. Also influences drones on your ship.\n-Punk Harmony uses a bootleg Harmony to automate and empower your Engi, scaling with Mind Control and Hacking.\n-Dread deck: indirectly makes your ship much deadlier to invaders while making your crew antisocials clinging to life.\n-Defense Kits make your crew much sturdier on your ship.\n-A.E.R.A. Second Wind can automatically save your ship, once per purchase.\n\nUtility augments:\n-Lead Titans: make specific races stronger and heavier, maybe too much for your ship.\nOthers get repair and movement bonuses.\n-Enigmashin: gamble with fleet delays through brief special hacking, maybe with consequences...\n-Oxygenizer: spawn an atmosphere at the start of fights.\n-Scorched Earth lets you set your rooms or ship on fire and benefit from it.\nUpgradable. Combo with Plasma Teleporter.\n-Surveyor: deep-search empty beacons for random loot.\n\nInternal augments:\n-Calibrator: increases the accuracy and fire rate of all of your weapons!\n-Choking F.I.N.E.: mitigates suffocation and gives boosts while suffocating.\n-Demicloners: provides a semblance of cloning when your crew dies without a Clonebay.\n-Mind Cooler: immensely reduces the impact of having your crew mind controlled.\n-Hellion Wraps: in fire, your crew is combat boosted!\n-Mind Heater: in fire, makes your crew resist Mind Control and Stun, and also reveal adjacent rooms.\n\nEfficient weapons:\n-'Bada' fissure beam can deal massive damage to large systems, or blow up ships!\n-Three 'Heavy Popper' lasers with shield-popping superheavy projectiles, risky for your systems.\n-'Unloader' can quickly throw your whole stock of missiles at the enemy.\n-'Gravespred' radiation beam can be lethal including on your ship.\n-'Battery Artemis' reworks the classic design to power the next weapon.\n-'Radiation Repair Bomb' is multi-purpose.\n-'Shotphaser' shotguns accelerated phase ions with high stun chance.\n-'Rain of Ions' shoots all kinds of ions at once!\n-'Chimney' missile launcher starts strong fires and sustains them with oxygen!\n-'Hot Poker' fireblast beam can destroy enemy systems while spreading fire all around!\n-'Oxygen-Bomb' refills oxygen on any ship. Can detonate for a little damage and fire.\n-'Rain of Fire' can eventually maintain full strength fires anywhere!\n-'BPS Letter' pinpoint can cause mayhem approved by all RadiKals.\n-'BPS Messenger' heavy laser combines the strengths of all 3 RK subfactions.\n-'Decency' is a police laser with +damage against ships with RK weapons.\n-'Measure' is a police missile launcher with similar extra effects.\n\nDrones:\n-'Shotphaser drone' shoots phase ions through shields!\n-'Oxygen Bomber drone' can distract enemy crew and fill enemies with O2 and fire!\n\nNew crew:\n-Vexopaths are RK Bam modified Technopaths specialized in destruction.\n-Uptors are made out of Alpha Gouls to fit the fiery needs of the RK Scorch.\n-Unique crew!\n\nPlayer ships with unique gimmicks:\n-Embark on a wild ride with the Rammer, boasting a superior locked version of the Shipvore Ram.\n-The Punker plays around its massive reactor, particle accelerator, and special hacking.\n-The Scorcher is outfitted with what you need to burn down enemies with blazing speed.\n\nPlus a few secrets!\n\n\n************ Changelog ******************\nCHANGELOG RadiKal Sector v6.29\n\n-Improved some texts.\n\n* Weapons\n-Fixed bug where Punk Elite weapons could now spawn in normal Pirate stores. <credit: Mr. Do>\n\n* Drones\n-New RK Punk \"Shotphaser Drone\"! Shoots 2 phase ions in a radius. Moves slowly.\n\n* Sectors\n-Sylvan RK store: fixed the discount on \"Oxygen-Bomber\" drone being different from the discount on the rest of the store.\n\n* The RadiKal Sector\n-General RK store: fixed \"Drones\" section's 3rd slot selling a non-existent drone for 0 scrap, instead of the Oxygen Bomber drone. <credit: Mr. Do>\n\n\nSpecial thanks to (in no particular order) Gabriel Cooper, scalarmotion, Cgoober, TehNecr0, TheVaninator, Limrix, Sequestrator of Bases and Memes, Argentum, Wooden Bench Acolyte, Mr Do, Waffle, Cerebralcloud92, dirt block, aktoja, Harmony, Fajdek, Aleev, Zuggo, LoudMute, Arc, Lizzard, codyfun, Qaser7, bamalf, Dr. Nauter, Witherbottom, Chooseche, Eschaton, Pepper, Untitled, Pupi, vertaalfout, Dalvest, Alder, Kix, [Enchanter], Pedrosian96, Royal Slime, [yenlo]R4V3-0N, robinthedragon2, Ehtya (Laythe), Blizz/mr_easy_money, Skye[NikoMaster], Julk, Felipe, marcrusian, Abstrusity and other people who helped on the FTL:MV Discord, for streaming the mod, and valuable information on balance, modding, coding and art.\n\nFeedback? Questions? @Dj0z in the Multiverse server on Discord\n\nGood luck and have fun!": {
       "advanced": {},
       "deepl": "",
       "machine": "",

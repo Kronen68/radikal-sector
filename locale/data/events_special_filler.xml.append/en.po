@@ -29,7 +29,7 @@ msgstr "...what was that just now?"
 msgid ""
 "data/events_special_filler.xml.append$//event[@name=\"DISTRESS_PIRA_CIVI_GIVECOORDS\"]/text"
 msgstr ""
-"A different, female MFK voice is now roaring at you. \"Captain. You appear to have guts.\" The RadiKal takes a second to catch her breath. \"This crew has been useful but I don't need to stay undercover any longer.\n"
+"A different, female MFK voice is now roaring at you. \"Captain. You appear to have guts.\" The RadiKal Associate takes a second to catch her breath. \"This crew has been useful but I don't need to stay undercover any longer.\n"
 "\tThey've been blabbering about our operations, but they're not with us or even financing us. They only stole some gear from one of our customers. All of that is bad news, and also the reason why I just slew them all. Now, we need more captains like you. You should pay us a visit, which will be mutually beneficial if I'm not mistaken about your quality.\""
 
 #: src-en/data/events_special_filler.xml.append:54
@@ -41,7 +41,7 @@ msgstr "We have a mission of our own"
 msgid ""
 "data/events_special_filler.xml.append$//event[@name=\"DISTRESS_PIRA_CIVI_GIVECOORDS\"]/choice/event/text"
 msgstr ""
-"\"Yes yes I know, and that's no issue. In fact the detour might bring your ship up to speed for the challenge that is the Flagship. You will find that we RKs are very well informed people. I too have other missions to take care of rather urgently, farewell.\" She cuts comms.\n"
+"\"Yes yes I know, and that's no issue. In fact the detour might bring your ship up to speed for the challenge that is the Flagship. You will find that we RKs are very well informed people. I too have other missions to take care of rather urgently, farewell. And if we find ourselves face to face at the very end, well, may the best win.\" She cuts comms.\n"
 "\t\t\t\tSector coordinates have been added to your atlas!"
 
 #: src-en/data/events_special_filler.xml.append:64

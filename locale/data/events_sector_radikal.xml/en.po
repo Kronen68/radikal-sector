@@ -2229,7 +2229,7 @@ msgstr "(Oxygen-Bomber Drone) Help it breathe"
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS_SHUTTLE\"]/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_ATKD_BOMBLAUNCHER_OXYBOTTLE\"]/event/text"
 msgstr ""
-"With your appropriate weapon, you save the creature in the nick of time."
+"With your appropriate drone, you save the creature in the nick of time."
 
 #: src-en/data/events_sector_radikal.xml:2362
 msgid ""
@@ -2394,14 +2394,14 @@ msgstr "You do not have any RK Bam gear."
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM\"]/choice[@req=\"DJMOD_HAS_RADIKAL_BAM_GEAR\""
 " and not(@lvl)]/text"
-msgstr "(RK Bam gear) Hit Hard..."
+msgstr "(RK Bam gear) 'Hit Hard..."
 
 #: src-en/data/events_sector_radikal.xml:2533
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM\"]/choice[@req=\"DJMOD_HAS_RADIKAL_BAM_GEAR\""
 " and not(@lvl)]/event/text"
 msgstr ""
-"\"... Homie! That's what I'm talking about. Here's the welcome gift. Hurry "
+"\"... Homie'! That's what I'm talking about. Here's the welcome gift. Hurry "
 "up and come over so we can trade!\""
 
 #: src-en/data/events_sector_radikal.xml:2537
@@ -2996,14 +2996,14 @@ msgstr "You do not have any RK Punk gear."
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK\"]/choice[@req=\"DJMOD_HAS_RADIKAL_PUNK_GEAR\""
 " and not(@lvl)]/text"
-msgstr "(RK Punk gear) Stay Smart..."
+msgstr "(RK Punk gear) 'Stay Smart..."
 
 #: src-en/data/events_sector_radikal.xml:3091
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK\"]/choice[@req=\"DJMOD_HAS_RADIKAL_PUNK_GEAR\""
 " and not(@lvl)]/event/text"
 msgstr ""
-"\"... Slayer. Heheh. A drone will bring you the welcome gift. We await "
+"\"... Slayer'! Heheh. A drone will bring you the welcome gift. We await "
 "you.\""
 
 #: src-en/data/events_sector_radikal.xml:3095
@@ -3641,15 +3641,15 @@ msgstr "You do not have any RK Scorch gear."
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH\"]/choice[@req=\"DJMOD_HAS_RADIKAL_SCORCH_GEAR\""
 " and not(@lvl)]/text"
-msgstr "(RK Scorch gear) Burn Bright..."
+msgstr "(RK Scorch gear) 'Burn Bright..."
 
 #: src-en/data/events_sector_radikal.xml:3674
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH\"]/choice[@req=\"DJMOD_HAS_RADIKAL_SCORCH_GEAR\""
 " and not(@lvl)]/event/text"
 msgstr ""
-"\"... Baby. It always warms the heart to see one of us. Here is the welcome "
-"gift. You are cleared to land.\""
+"\"... Baby'! It always warms the heart to see one of us. Here is the welcome"
+" gift. You are cleared to land.\""
 
 #: src-en/data/events_sector_radikal.xml:3678
 msgid ""
@@ -4295,8 +4295,8 @@ msgstr ""
 "The pirate clans don't always see eye to eye, but when there's big money to be made, they know how to behave. The elite welcoming you here seems in charge of overseeing the transactions.\n"
 "\t\t\"Sssso, you're the big shot Feddy cusssstomer who threw away a lawful life to mingle with ussss, eh? No offensssse but I've gotta tell you, I don't really buy it. We shall ssssee if you're for real...\"\n"
 "\t\t\n"
-"\t\tIf you don't want to anger the slug and his ruthless associates, you had better buy something from each of the pirate subfactions.\n"
-"\t\tIt's all-or-nothing, but if you do, pirates everywhere will respect you that much more!"
+"\t\tIf you don't want to anger the Slug and his ruthless associates, you had better buy something from each of the pirate subfactions.\n"
+"\t\t[style[color:ff3377]]It's all-or-nothing[[/style]], but if you do, pirates everywhere will respect you that much more!"
 
 #: src-en/data/events_sector_radikal.xml:4288
 msgid ""
@@ -4447,7 +4447,7 @@ msgid ""
 msgstr ""
 "\"Bad words feddy captain, should have choose better words. But mostly should have bring scrap.\" The pirate ship in front of you instantly makes itself combat ready, having clearly expected that. \n"
 "\t\t\t\t\t\t\n"
-"\t\t\t\t\t\tYou can't tell whether the slug overseer is furious, vindicated, or both. \"Hah! I knew it, you just wanted to take down a bunch of piratesss at once you wannabe hero. Guesss what, we're not that dumb! Hey Kurt, hand over the scrap, I won the bet.\"\n"
+"\t\t\t\t\t\tYou can't tell whether the Slug overseer is furious, vindicated, or both. \"Hah! I knew it, you just wanted to take down a bunch of piratesss at once you wannabe hero. Guesss what, we're not that dumb! Hey Kurt, hand over the scrap, I won the bet.\"\n"
 "\t\t\t\t\t\tWith that, they and the other pirate ships jump away, leaving you to deal with the slaver!"
 
 #: src-en/data/events_sector_radikal.xml:4449
@@ -4513,7 +4513,7 @@ msgid ""
 msgstr ""
 "\"Bad choice, captain. You should have brought that scrap.\" The pirate ship in front of you instantly makes itself combat ready, having clearly expected that. \n"
 "\t\t\t\t\t\t\n"
-"\t\t\t\t\t\tYou can't tell whether the slug overseer is furious, vindicated, or both. \"Hah! I knew it, you just wanted to take down a bunch of piratesss at once you wannabe hero. Guesss what, we're not that dumb! Hey Kurt, hand over the scrap, I won the bet.\"\n"
+"\t\t\t\t\t\tYou can't tell whether the Slug overseer is furious, vindicated, or both. \"Hah! I knew it, you just wanted to take down a bunch of piratesss at once you wannabe hero. Guesss what, we're not that dumb! Hey Kurt, hand over the scrap, I won the bet.\"\n"
 "\t\t\t\t\t\tWith that, they and the other pirate ships jump away, leaving you to deal with the mercenary!"
 
 #: src-en/data/events_sector_radikal.xml:4514
@@ -4594,7 +4594,7 @@ msgid ""
 msgstr ""
 "\"Sad, I didn't take you for a joker. You should have brought that scrap.\" The pirate ship in front of you instantly makes itself combat ready, having clearly expected that. \n"
 "\t\t\t\t\t\t\n"
-"\t\t\t\t\t\tYou can't tell whether the slug overseer is furious, vindicated, or both. \"Hah! I knew it, you just wanted to take down a bunch of piratesss at once you wannabe hero. Guesss what, we're not that dumb! Hey Kurt, hand over the scrap, I won the bet.\"\n"
+"\t\t\t\t\t\tYou can't tell whether the Slug overseer is furious, vindicated, or both. \"Hah! I knew it, you just wanted to take down a bunch of piratesss at once you wannabe hero. Guesss what, we're not that dumb! Hey Kurt, hand over the scrap, I won the bet.\"\n"
 "\t\t\t\t\t\tWith that, they and the other pirate ships jump away, leaving you to deal with the smuggler!"
 
 #: src-en/data/events_sector_radikal.xml:4595

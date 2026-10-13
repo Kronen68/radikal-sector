@@ -1487,6 +1487,7 @@ msgid ""
 msgstr ""
 "Are you sure you want to reinforce this augment?\n"
 "\t[When choosing the \"Full Power\" strike, reinforcement will be lost instead of the augment. \n"
+"\t\n"
 "\tYou can still do something at the empty beacon after this.]"
 
 #: src-en/data/events_special_storage.xml.append:2356
@@ -1524,6 +1525,7 @@ msgid ""
 msgstr ""
 "Are you sure you want to rebuild Persistence Shield's capacitor?\n"
 "\t[Allows you to use its active ability from the Toggle Menu again. \n"
+"\t\n"
 "\tYou can still do something at the empty beacon after this.]"
 
 #: src-en/data/events_special_storage.xml.append:2389
@@ -1680,7 +1682,7 @@ msgstr "(OE) The Auxiliary Shields room!"
 #: src-en/data/events_special_storage.xml.append:2549
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"oe_aux_shields\"]/text"
-msgstr "(OE) The Auxiliary Shields room!"
+msgstr "(OE R.) The Auxiliary Shields room!"
 
 #: src-en/data/events_special_storage.xml.append:2553
 msgid ""
@@ -3843,13 +3845,13 @@ msgstr ""
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL\"]/choice[@req=\"INTERNAL_RK_CALIBRATOR\""
 " and @lvl=\"1\"]/text"
-msgstr "Calibrator Lvl 2. [Cost: 45~, 1|]"
+msgstr "[RK Bam] Calibrator Lvl 2. [Cost: 45~, 1|]"
 
 #: src-en/data/events_special_storage.xml.append:7090
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL\"]/choice[@req=\"INTERNAL_RK_CALIBRATOR\""
 " and @lvl=\"0\"]/text"
-msgstr "Calibrator Lvl 1. [Cost: 45~ 1|]"
+msgstr "[RK Bam] Calibrator Lvl 1. [Cost: 45~ 1|]"
 
 #: src-en/data/events_special_storage.xml.append:7095
 msgid ""
@@ -3863,7 +3865,7 @@ msgstr ""
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL\"]/choice[@req=\"INTERNAL_RK_CHOKING_IS_FINE\""
 " and @lvl=\"0\"]/text"
-msgstr "Choking F.I.N.E. [Cost: 55~, 1}, 1|]"
+msgstr "[RK Bam] Choking F.I.N.E. [Cost: 55~, 1}, 1|]"
 
 #: src-en/data/events_special_storage.xml.append:7105
 msgid ""
@@ -3877,7 +3879,7 @@ msgstr ""
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL\"]/choice[@req=\"INTERNAL_DJMOD_DEMICLONER\""
 " and @lvl=\"0\"]/text"
-msgstr "Demicloners. [Cost: 35~, 2|]"
+msgstr "[RK Punk] Demicloners. [Cost: 35~, 2|]"
 
 #: src-en/data/events_special_storage.xml.append:7115
 msgid ""
@@ -3892,7 +3894,7 @@ msgstr ""
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL\"]/choice[@req=\"INTERNAL_DJMOD_MC_PARALYZER\""
 " and @lvl=\"0\"]/text"
-msgstr "Mind Cooler. [Cost: 30~, 1|]"
+msgstr "[RK Punk] Mind Cooler. [Cost: 30~, 1|]"
 
 #: src-en/data/events_special_storage.xml.append:7125
 msgid ""
@@ -3907,7 +3909,7 @@ msgstr ""
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL\"]/choice[@req=\"INTERNAL_RK_IN_FIRE_CREWBOOSTS\""
 " and @lvl=\"0\"]/text"
-msgstr "Hellion Wraps. [Cost: 55~, 1{, 1}]"
+msgstr "[RK Scorch] Hellion Wraps. [Cost: 55~, 1{, 1}]"
 
 #: src-en/data/events_special_storage.xml.append:7134
 msgid ""
@@ -3922,7 +3924,7 @@ msgstr ""
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL\"]/choice[@req=\"INTERNAL_DJMOD_MC_IMMUNE_FROM_FIRE\""
 " and @lvl=\"0\"]/text"
-msgstr "Mind Heater. [Cost: 30~, 1{, 1|]"
+msgstr "[RK Scorch] Mind Heater. [Cost: 30~, 1{, 1|]"
 
 #: src-en/data/events_special_storage.xml.append:7143
 msgid ""

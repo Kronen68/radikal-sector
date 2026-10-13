@@ -601,7 +601,7 @@ msgstr ""
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER3_QUEST_START\"]/choice[3]/event/choice[@req=\"RK_HAS_GEAR_SURRENDERABLE_TO_RK_A\""
 " and @lvl=\"0\"]/event/choice[2]/text"
-msgstr "They went that way."
+msgstr "They went that way!"
 
 #: src-en/data/events.xml.append:921
 msgid ""
@@ -617,7 +617,7 @@ msgstr ""
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER3_QUEST_START\"]/choice[3]/event/choice[@req=\"RK_HAS_GEAR_SURRENDERABLE_TO_RK_A\""
 " and @lvl=\"0\"]/event/choice[3]/text"
-msgstr "Maybe, maybe not, but we're attacking you!"
+msgstr "Maybe I know, maybe I don't, but we're attacking you!"
 
 #: src-en/data/events.xml.append:930
 msgid ""
@@ -1480,7 +1480,7 @@ msgstr "Continue..."
 #: src-en/data/events.xml.append:1922
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"DJMOD_LASER_BPS_ELITE\"]/text"
-msgstr "Surrender your BPS Messenger laser."
+msgstr "Surrender your Elite BPS Messenger laser."
 
 #: src-en/data/events.xml.append:1924
 msgid ""
@@ -2076,7 +2076,7 @@ msgstr ""
 #: src-en/data/events.xml.append:2451
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"RK_KILLALL_BEAM_ELITE\"]/text"
-msgstr "Sell them your Gravespred beam for 120~."
+msgstr "Sell them your Elite Gravespred beam for 150~."
 
 #: src-en/data/events.xml.append:2453
 msgid ""
@@ -2219,7 +2219,7 @@ msgstr ""
 #: src-en/data/events.xml.append:2568
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"DJMOD_LASER_BPS_ELITE\"]/text"
-msgstr "Sell them your BPS Messenger laser for 200~."
+msgstr "Sell them your Elite BPS Messenger laser for 280~."
 
 #: src-en/data/events.xml.append:2570
 msgid ""
@@ -2465,7 +2465,7 @@ msgstr ""
 #: src-en/data/events.xml.append:2753
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_KILLALL_BEAM_ELITE\"]/text"
-msgstr "Sell them your Gravespred beam for 120~."
+msgstr "Sell them your Elite Gravespred beam for 150~."
 
 #: src-en/data/events.xml.append:2755
 msgid ""
@@ -2608,7 +2608,7 @@ msgstr ""
 #: src-en/data/events.xml.append:2870
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"DJMOD_LASER_BPS_ELITE\"]/text"
-msgstr "Sell them your BPS Messenger laser for 200~."
+msgstr "Sell them your Elite BPS Messenger laser for 280~."
 
 #: src-en/data/events.xml.append:2872
 msgid ""
