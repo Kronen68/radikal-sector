@@ -1,9 +1,16 @@
 #
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2026-10-13 17:26+0000\n"
+"Last-Translator: TrpleA <wndhkswnqls2@naver.com>\n"
+"Language-Team: Korean <https://weblate.hyperq.be/projects/radikal-sector/"
+"datablueprintsxmlappend/ko/>\n"
+"Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.17.1\n"
 
 #: src-en/data/blueprints.xml.append:39
 msgid ""
@@ -271,15 +278,22 @@ msgid ""
 msgstr "전하 벨트 (비활성화)"
 
 #: src-en/data/blueprints.xml.append:269
+#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_CREW_ARE_BOMBS_OFF\"]/desc"
 msgstr ""
-"(RK 밤 장비) 이 보조장비는 비활성화 상태이지만 언제든 활성화(On)로 전환할 수 있습니다. 활성화 시:\n"
+"(RK 밤 장비) 이 보조장비는 비활성화 상태이지만 언제든 활성화(On)로 전환할 수 "
+"있습니다. 활성화 시:\n"
 "\n"
-"\t[양날의 검인 이 보조장비는 선원들에게 벨트를 착용시켜 [style[color:ff3377]]체력을 10% 감소시키지만(떠돌이 주의)[[/style]] 사망 시 폭발을 일으킵니다. 폭발은 해당 방과 함선에 화재와 피해를 유발하며, 시스템이 없는 방에서는 추가 피해를 줍니다. [style[color:ff3377]]아군 피해 있음.[[/style]]\n"
+"\t[양날의 검인 이 보조장비는 선원들에게 벨트를 착용시켜 "
+"[style[color:ff3377]]체력을 10% 감소시키지만(떠돌이 주의)[[/style]] 사망 시 "
+"폭발을 일으킵니다. 폭발은 해당 방과 함선에 화재와 피해를 유발하며, 시스템이 "
+"없는 방에서는 추가 피해를 줍니다. [style[color:ff3377]]아군 피해 있음.[[/"
+"style]]\n"
 "\t기존의 사망 시 효과에 중첩됩니다.\n"
 "\t\n"
-"\t[style[color:ff3377]]경고: 비활성화(Off)로 되돌릴 수 없습니다.[[/style]] 비어있는 송신소에서 분해하여 ~ 또는 }로 바꿀 수 있습니다.\n"
+"\t[style[color:ff3377]]경고: 비활성화(Off)로 되돌릴 수 없습니다.[[/style]] "
+"비어있는 송신소에서 분해하여 ~ 또는 }로 바꿀 수 있습니다.\n"
 "\n"
 "\t조합: 모든 선원을 플라즈마 텔레포터의 화재 발화원으로 만듭니다.]"
 
@@ -338,13 +352,16 @@ msgid ""
 msgstr "두꺼운 선체"
 
 #: src-en/data/blueprints.xml.append:327
+#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_BAM_DIVINE_ARMOR\"]/desc"
 msgstr ""
-"(RK 밤 장비) 라디칼이 나포한 신정 이단심문관의 대단히 희귀한 장갑을 역설계하여 만든 조금 더 보급하기 쉽고 간소화된 장갑입니다.\n"
+"(RK 밤 장비) 라디칼이 나포한 신정 이단심문관의 대단히 희귀한 장갑을 "
+"역설계하여 만든 조금 더 보급하기 쉽고 간소화된 장갑입니다.\n"
 "\t\t\n"
 "\t\t[style[color:ff3377]]무기 충전 속도가 5% 감소합니다.[[/style]]\n"
-"\t\t1의 피해를 입히는 충격을 40% 확률로 무효화하며, 그 외 모든 피해가 1 감소합니다."
+"\t\t1의 피해를 입히는 충격을 40% 확률로 무효화하며, 그 외 모든 피해가 1 "
+"감소합니다."
 
 #: src-en/data/blueprints.xml.append:341
 msgid ""
@@ -352,16 +369,21 @@ msgid ""
 msgstr "지속 방어막"
 
 #: src-en/data/blueprints.xml.append:342
+#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_PERSISTENCE_SHIELD\"]/desc"
 msgstr ""
-"(RK 밤 장비) 방어막에 의존하는 고급 함선의 필수품으로, 돌아오지 못한 수많은 졸탄 정찰병들의 가혹한 스트레스 테스트를 거쳐 완성되었습니다.\n"
+"(RK 밤 장비) 방어막에 의존하는 고급 함선의 필수품으로, 돌아오지 못한 수많은 "
+"졸탄 정찰병들의 가혹한 스트레스 테스트를 거쳐 완성되었습니다.\n"
 "\t\t\n"
-"\t\t4 내구도의 에너지 방어막을 추가합니다. 다른 에너지 방어막과 중첩되지만, 동일 장치와는 중첩되지 않습니다.\n"
+"\t\t4 내구도의 에너지 방어막을 추가합니다. 다른 에너지 방어막과 중첩되지만, "
+"동일 장치와는 중첩되지 않습니다.\n"
 "\t\t또한 방어막 충전 속도가 20% 증가합니다.\n"
 "\t\t\n"
-"\t\t토글 메뉴에서 활성화하여 에너지 방어막 레이어를 즉시 모두 복구할 수 있습니다. [1 { 소모]\n"
-"\t\t빈 송신소에서 스크랩 7개를 소모해 콘덴서를 재구성하기 전까지는 다시 활성화할 수 없습니다."
+"\t\t토글 메뉴에서 활성화하여 에너지 방어막 레이어를 즉시 모두 복구할 수 "
+"있습니다. [1 { 소모]\n"
+"\t\t빈 송신소에서 스크랩 7개를 소모해 콘덴서를 재구성하기 전까지는 다시 "
+"활성화할 수 없습니다."
 
 #: src-en/data/blueprints.xml.append:394
 msgid ""
@@ -1238,6 +1260,7 @@ msgstr ""
 "튕기는 현상을 방지하기 위해 발사 수가 3발로 제한되고 재충전 시간이 감소했습니다."
 
 #: src-en/data/blueprints.xml.append:2741
+#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_BPS_FOCUS_STATUS\"]/title"
 msgstr "BPS 서신"
