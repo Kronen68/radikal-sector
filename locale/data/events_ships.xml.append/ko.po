@@ -1,9 +1,16 @@
 #
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2026-10-13 21:01+0000\n"
+"Last-Translator: TrpleA <wndhkswnqls2@naver.com>\n"
+"Language-Team: Korean <https://weblate.hyperq.be/projects/radikal-sector/"
+"dataevents_shipsxmlappend/ko/>\n"
+"Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.17.1\n"
 
 #: src-en/data/events_ships.xml.append:28
 msgid ""
@@ -63,12 +70,14 @@ msgstr ""
 #: src-en/data/events_ships.xml.append:105
 msgid ""
 "data/events_ships.xml.append$//ship[@name=\"SHIP_RK_PUNK_EXIT_BOSS\"]/destroyed/choice[@req=\"RK_RAIN_OF_ION\"]/text"
-msgstr ""
+msgstr "(이온의 비) 장비가 자체 업그레이드 키트를 감지합니다."
 
 #: src-en/data/events_ships.xml.append:107
 msgid ""
 "data/events_ships.xml.append$//ship[@name=\"SHIP_RK_PUNK_EXIT_BOSS\"]/destroyed/choice[@req=\"RK_RAIN_OF_ION\"]/event/text"
 msgstr ""
+"업그레이드 키트를 추출하여 회수합니다.\n"
+"\t\t\t\t\t회수한 키트를 즉시 장비에 적용합니다..."
 
 #: src-en/data/events_ships.xml.append:113
 msgid ""
@@ -78,7 +87,7 @@ msgstr "계속..."
 #: src-en/data/events_ships.xml.append:115
 msgid ""
 "data/events_ships.xml.append$//ship[@name=\"SHIP_RK_PUNK_EXIT_BOSS\"]/destroyed/choice[@req=\"RK_RAIN_OF_ION\"]/event/choice/event/text"
-msgstr ""
+msgstr "장비가 엘리트 등급으로 업그레이드되었습니다!"
 
 #: src-en/data/events_ships.xml.append:119
 msgid ""
@@ -93,7 +102,7 @@ msgstr "계속..."
 #: src-en/data/events_ships.xml.append:130
 msgid ""
 "data/events_ships.xml.append$//ship[@name=\"SHIP_RK_PUNK_EXIT_BOSS\"]/destroyed/choice[2]/event/text"
-msgstr ""
+msgstr "폭발하지 않고 남아있는 무기도 있습니다!"
 
 #: src-en/data/events_ships.xml.append:134
 msgid ""
@@ -110,12 +119,14 @@ msgstr ""
 #: src-en/data/events_ships.xml.append:149
 msgid ""
 "data/events_ships.xml.append$//ship[@name=\"SHIP_RK_PUNK_EXIT_BOSS\"]/deadCrew/choice[@req=\"RK_RAIN_OF_ION\"]/text"
-msgstr ""
+msgstr "(이온의 비) 장비가 자체 업그레이드 키트를 감지합니다."
 
 #: src-en/data/events_ships.xml.append:151
 msgid ""
 "data/events_ships.xml.append$//ship[@name=\"SHIP_RK_PUNK_EXIT_BOSS\"]/deadCrew/choice[@req=\"RK_RAIN_OF_ION\"]/event/text"
 msgstr ""
+"업그레이드 키트를 추출하여 회수합니다.\n"
+"\t\t\t\t\t회수한 키트를 즉시 장비에 적용합니다..."
 
 #: src-en/data/events_ships.xml.append:157
 msgid ""
@@ -125,7 +136,7 @@ msgstr "계속..."
 #: src-en/data/events_ships.xml.append:159
 msgid ""
 "data/events_ships.xml.append$//ship[@name=\"SHIP_RK_PUNK_EXIT_BOSS\"]/deadCrew/choice[@req=\"RK_RAIN_OF_ION\"]/event/choice/event/text"
-msgstr ""
+msgstr "장비가 엘리트 등급으로 업그레이드되었습니다!"
 
 #: src-en/data/events_ships.xml.append:163
 msgid ""
@@ -140,7 +151,7 @@ msgstr "계속..."
 #: src-en/data/events_ships.xml.append:174
 msgid ""
 "data/events_ships.xml.append$//ship[@name=\"SHIP_RK_PUNK_EXIT_BOSS\"]/deadCrew/choice[2]/event/text"
-msgstr ""
+msgstr "폭발하지 않고 남아있는 무기도 있습니다!"
 
 #: src-en/data/events_ships.xml.append:178
 msgid ""
