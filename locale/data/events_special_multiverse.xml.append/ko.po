@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-10-13 17:26+0000\n"
+"PO-Revision-Date: 2026-10-13 21:01+0000\n"
 "Last-Translator: TrpleA <wndhkswnqls2@naver.com>\n"
 "Language-Team: Korean <https://weblate.hyperq.be/projects/radikal-sector/"
 "dataevents_special_multiversexmlappend/ko/>\n"
@@ -33,12 +33,13 @@ msgid ""
 msgstr "라디칼 장비를 쇼핑한다."
 
 #: src-en/data/events_special_multiverse.xml.append:111
-#, fuzzy
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"SYLVAN_RK_ONE_LINE_EACH_CATEGORY\"]/text"
 msgstr ""
 "\"아아아아. 낯썬이 낯썬이, 듣고 화내찌 마쎄요. 쩨가 불법쩍이고 비윤리쩍인 "
-"물건을 팔고 이써요. 이런 거 들고 있다가 걸리찌만 마쎄요!\""
+"물건을 팔고 이써요. 이런 거 들고 있다가 걸리찌만 마쎄요!\n"
+"나쪼차도 이런 물건을 들고 있는 걸 남한테 걸리면 안 되찌만, 당씬은 이유를 "
+"이해하찌 못할 겁니다. 그쩌, 아무에게도 말하찌 마쎄요!\""
 
 #: src-en/data/events_special_multiverse.xml.append:128
 msgid ""
