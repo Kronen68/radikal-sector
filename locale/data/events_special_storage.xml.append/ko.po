@@ -1,8 +1,8 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-10-13 17:26+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2026-10-14 00:21+0000\n"
+"Last-Translator: TrpleA <wndhkswnqls2@naver.com>\n"
 "Language-Team: Korean <https://weblate.hyperq.be/projects/radikal-sector/"
 "dataevents_special_storagexmlappend/ko/>\n"
 "Language: ko\n"
@@ -1436,12 +1436,12 @@ msgid ""
 msgstr "알겠다."
 
 #: src-en/data/events_special_storage.xml.append:2350
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_COMBAT_SHIPVORE_RAM_REINFORCE\"]/text"
 msgstr ""
 "이 보조장비를 강화하시겠습니까?\n"
-"\t[\"최대 출력\" 공격을 선택하면 보조장비 대신 보강재가 소모됩니다. \n"
+"\t[\"최대 출력\" 공격을 선택하면 보조장비 대신 보강재가 소모됩니다.\n"
+"\t \n"
 "\t그 후에도 빈 송신소에서 다른 작업을 수행할 수 있습니다.]"
 
 #: src-en/data/events_special_storage.xml.append:2356
@@ -1474,12 +1474,12 @@ msgid ""
 msgstr "신경 쓰지 않고 다른 작업을 수행한다."
 
 #: src-en/data/events_special_storage.xml.append:2383
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_PERSISTENCE_SHIELD_REBUILD_CAPACITOR\"]/text"
 msgstr ""
 "지속 방어막의 축전기를 정말로 재건하시겠습니까?\n"
 "\t[재건하면 토글 메뉴에서 해당 능력을 다시 사용할 수 있습니다. \n"
+"\t\n"
 "\t재건 후에도 비어 있는 송신소에서 다른 작업을 수행할 수 있습니다.]"
 
 #: src-en/data/events_special_storage.xml.append:2389
@@ -1634,20 +1634,19 @@ msgid ""
 msgstr "(OE) 보조 방어막실!"
 
 #: src-en/data/events_special_storage.xml.append:2549
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"oe_aux_shields\"]/text"
-msgstr "(OE) 보조 방어막실!"
+msgstr "(OE R.) 보조 방어막실!"
 
 #: src-en/data/events_special_storage.xml.append:2553
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"oe_growth\"]/text"
-msgstr ""
+msgstr "(OE R.) 라이프 블룸실!"
 
 #: src-en/data/events_special_storage.xml.append:2557
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"oe_grease\"]/text"
-msgstr ""
+msgstr "(OE R.) 무기 증폭실!"
 
 #: src-en/data/events_special_storage.xml.append:2562
 msgid ""
@@ -1662,7 +1661,7 @@ msgstr "(LI) 융제 장갑실!"
 #: src-en/data/events_special_storage.xml.append:2571
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"lily_aux_reactor\"]/text"
-msgstr ""
+msgstr "(LI) 보조 원자로실!"
 
 #: src-en/data/events_special_storage.xml.append:2575
 msgid ""
@@ -1747,12 +1746,12 @@ msgstr "(OG) 포탑 제어실 #4!"
 #: src-en/data/events_special_storage.xml.append:2644
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[41]/text"
-msgstr "적들이 너무 많습니다. 함선 전체를 태워버립니다!!"
+msgstr "적들이 너무 많다. 함선 전체를 태워버린다!!"
 
 #: src-en/data/events_special_storage.xml.append:2696
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[42]/text"
-msgstr ""
+msgstr "토글 메뉴로 돌아간다."
 
 #: src-en/data/events_special_storage.xml.append:4019
 msgid ""
@@ -3723,18 +3722,16 @@ msgstr ""
 "\t\t\t최대 2회까지 설치할 수 있습니다. [사용불가: 이미 최대 업그레이드입니다]"
 
 #: src-en/data/events_special_storage.xml.append:7086
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL\"]/choice[@req=\"INTERNAL_RK_CALIBRATOR\""
 " and @lvl=\"1\"]/text"
-msgstr "보정기 Lvl 2. [비용: 45~, 1|]"
+msgstr "[RK 밤] 보정기 Lvl 2. [비용: 45~, 1|]"
 
 #: src-en/data/events_special_storage.xml.append:7090
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL\"]/choice[@req=\"INTERNAL_RK_CALIBRATOR\""
 " and @lvl=\"0\"]/text"
-msgstr "보정기 Lvl 1. [비용: 45~ 1|]"
+msgstr "[RK 밤] 보정기 Lvl 1. [비용: 45~ 1|]"
 
 #: src-en/data/events_special_storage.xml.append:7095
 msgid ""
@@ -3745,11 +3742,10 @@ msgstr ""
 "\t\t질식 상태일 때 이동, 방해, 수리 및 전투 능력이 1.4배 향상됩니다. 질식 면역 선원에게는 영향을 주지 않습니다. [이미 설치됨]"
 
 #: src-en/data/events_special_storage.xml.append:7100
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL\"]/choice[@req=\"INTERNAL_RK_CHOKING_IS_FINE\""
 " and @lvl=\"0\"]/text"
-msgstr "질식 성애 유발 신경 매혹기 [비용: 55~, 1}, 1|]"
+msgstr "[RK 밤] 질식 성애 유발 신경 매혹기 [비용: 55~, 1}, 1|]"
 
 #: src-en/data/events_special_storage.xml.append:7105
 msgid ""
@@ -3760,11 +3756,10 @@ msgstr ""
 "\t\t\t하위 버전이 존재하지 않는 경우 모프로 변합니다. 모프가 사망하면 아무 일도 일어나지 않습니다. 이벤트로 인한 사망에는 적용되지 않습니다. [이미 설치됨]"
 
 #: src-en/data/events_special_storage.xml.append:7110
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL\"]/choice[@req=\"INTERNAL_DJMOD_DEMICLONER\""
 " and @lvl=\"0\"]/text"
-msgstr "의사 복제기. [비용: 35~, 2|]"
+msgstr "[RK 펑크] 의사 복제기. [비용: 35~, 2|]"
 
 #: src-en/data/events_special_storage.xml.append:7115
 msgid ""
@@ -3775,11 +3770,10 @@ msgstr ""
 "양측 함선 모두에 적용됩니다. [이미 설치됨]"
 
 #: src-en/data/events_special_storage.xml.append:7119
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL\"]/choice[@req=\"INTERNAL_DJMOD_MC_PARALYZER\""
 " and @lvl=\"0\"]/text"
-msgstr "정신 냉각기. [비용: 30~, 1|]"
+msgstr "[RK 펑크] 정신 냉각기. [비용: 30~, 1|]"
 
 #: src-en/data/events_special_storage.xml.append:7125
 msgid ""
@@ -3790,11 +3784,10 @@ msgstr ""
 "1.75배 증가합니다. 양측 함선 모두에 적용됩니다. [이미 설치됨]"
 
 #: src-en/data/events_special_storage.xml.append:7129
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL\"]/choice[@req=\"INTERNAL_RK_IN_FIRE_CREWBOOSTS\""
 " and @lvl=\"0\"]/text"
-msgstr "헬리온 붕대. [비용: 55~, 1{, 1}]"
+msgstr "[RK 스코치] 헬리온 붕대. [비용: 55~, 1{, 1}]"
 
 #: src-en/data/events_special_storage.xml.append:7134
 msgid ""
@@ -3805,11 +3798,10 @@ msgstr ""
 "밝힙니다. 양측 함선 모두에 적용됩니다. [이미 설치됨]"
 
 #: src-en/data/events_special_storage.xml.append:7138
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL\"]/choice[@req=\"INTERNAL_DJMOD_MC_IMMUNE_FROM_FIRE\""
 " and @lvl=\"0\"]/text"
-msgstr "정신 가열기. [비용: 30~, 1{, 1|]"
+msgstr "[RK 스코치] 정신 가열기. [비용: 30~, 1{, 1|]"
 
 #: src-en/data/events_special_storage.xml.append:7143
 msgid ""
