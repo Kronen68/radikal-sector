@@ -1,9 +1,16 @@
 #
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2026-10-13 17:26+0000\n"
+"Last-Translator: TrpleA <wndhkswnqls2@naver.com>\n"
+"Language-Team: Korean <https://weblate.hyperq.be/projects/radikal-sector/"
+"dataevents_special_multiversexmlappend/ko/>\n"
+"Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.17.1\n"
 
 #: src-en/data/events_special_multiverse.xml.append:43
 msgid ""
@@ -26,11 +33,12 @@ msgid ""
 msgstr "라디칼 장비를 쇼핑한다."
 
 #: src-en/data/events_special_multiverse.xml.append:111
+#, fuzzy
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"SYLVAN_RK_ONE_LINE_EACH_CATEGORY\"]/text"
 msgstr ""
-"\"아아아아. 낯썬이 낯썬이, 듣고 화내찌 마쎄요. 쩨가 불법쩍이고 비윤리쩍인 물건을 팔고 이써요. 이런 거 들고 있다가 걸리찌만 "
-"마쎄요!\""
+"\"아아아아. 낯썬이 낯썬이, 듣고 화내찌 마쎄요. 쩨가 불법쩍이고 비윤리쩍인 "
+"물건을 팔고 이써요. 이런 거 들고 있다가 걸리찌만 마쎄요!\""
 
 #: src-en/data/events_special_multiverse.xml.append:128
 msgid ""
