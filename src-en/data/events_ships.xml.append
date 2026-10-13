@@ -97,16 +97,89 @@ Events tied to the escape, surrender, death, or crewdeath of ships. From this ad
 <ship name="SHIP_RK_PUNK_EXIT_BOSS" auto_blueprint="DJMOD_RADIKAL_BOSS_PUNK">
 	<destroyed>
 		<text>The ship is destroyed. The other gatekeepers give a solemn nod. "Whoever passed our coordinates along to you made a good choice, and so did you coming here. You are free to go! Have some free repairs too."</text>
-		<weapon name="GIFTLIST_FITTING_WEAPON_PUNK"/>
+		<!-- <weapon name="GIFTLIST_FITTING_WEAPON_PUNK"/> -->
 		<autoReward level="HIGH">stuff</autoReward>
 		<damage amount="-7"/>
+
+		<choice req="RK_RAIN_OF_ION" hidden="true" blue="true">
+			<text>(Rain of Ions) Your RK gear is detecting its own upgrade kit.</text>
+			<event>
+				<text>You extract the upgrade kit and get away.
+					You immediately apply it to your gear...
+				</text>
+				<remove name="RK_RAIN_OF_ION"/>
+
+				<choice hidden="true">
+					<text>Continue...</text>
+					<event>
+						<text>Your gear is now elite!</text>
+						<weapon name="RK_RAIN_OF_ION_ELITE"/>
+
+						<choice hidden="true">
+							<text>Continue...</text>
+							<event/>
+						</choice>
+					</event>
+				</choice>
+			</event>
+		</choice>
+
+		<choice hidden="true">
+            <text>Continue...</text>
+            <event>
+				<text>There's also a weapon that didn't blow up!</text>
+				<weapon name="GIFTLIST_FITTING_WEAPON_PUNK"/>
+
+				<choice hidden="true">
+					<text>Continue...</text>
+					<event/>
+				</choice>
+			</event>
+        </choice>
 	</destroyed>
+
 	<deadCrew>
 		<text>Now that you've passed the test, the other gatekeepers allow you out of the sector, and hint that since you even managed to leave the ship in one piece, you get a free random deckhand!</text>
-		<weapon name="GIFTLIST_FITTING_WEAPON_PUNK"/>
+		<!-- <weapon name="GIFTLIST_FITTING_WEAPON_PUNK"/> -->
 		<autoReward level="HIGH">stuff</autoReward>
 		<damage amount="-7"/>
 		<crewMember amount="1"/>
+		
+		<choice req="RK_RAIN_OF_ION" hidden="true" blue="true">
+			<text>(Rain of Ions) Your RK gear is detecting its own upgrade kit.</text>
+			<event>
+				<text>You extract the upgrade kit and get away.
+					You immediately apply it to your gear...
+				</text>
+				<remove name="RK_RAIN_OF_ION"/>
+
+				<choice hidden="true">
+					<text>Continue...</text>
+					<event>
+						<text>Your gear is now elite!</text>
+						<weapon name="RK_RAIN_OF_ION_ELITE"/>
+
+						<choice hidden="true">
+							<text>Continue...</text>
+							<event/>
+						</choice>
+					</event>
+				</choice>
+			</event>
+		</choice>
+
+		<choice hidden="true">
+            <text>Continue...</text>
+            <event>
+				<text>There's also a weapon that didn't blow up!</text>
+				<weapon name="GIFTLIST_FITTING_WEAPON_PUNK"/>
+
+				<choice hidden="true">
+					<text>Continue...</text>
+					<event/>
+				</choice>
+			</event>
+        </choice>
 	</deadCrew>
 	<crew>
 		<crewMember type="slug_knight" prop="0.20"/>

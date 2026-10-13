@@ -268,12 +268,12 @@ Fake / dummy crew
     <title>Charged Belts (Off)</title>
     <desc>(RK Bam gear) This augment is Off but can be toggled On anytime. When On:
 
-	[This double-edged augment equips your crew with belts that [style[color:ff3377]]reduce their HP by 10% (beware of Vagabonds)[[/style]] and explode when they die, causing a fire and dealing damage to the room and ship they're in, with extra damage in systemless rooms. [style[color:ff3377]]Has friendly fire.[[/style]]
+	[ This double-edged augment equips your crew with belts that [style[color:ff3377]]reduce their HP by 10% (beware of Vagabonds)[[/style]] and explode when they die, causing a fire and dealing damage to the room and ship they're in, with extra damage in systemless rooms. [style[color:ff3377]]Has friendly fire.[[/style]]
 	Stacks upon already existing death effects.
 	
 	[style[color:ff3377]]WARNING: Can't be toggled Off.[[/style]] Can scrap itself into ~ or } at empty beacons.
 
-	COMBO: Makes any crew a fire source for Plasma Teleporter.]</desc>
+	COMBO: Makes any crew a fire source for Plasma Teleporter. ]</desc>
     <cost>50</cost>		
     <rarity>0</rarity>
     <stackable>false</stackable>
@@ -328,6 +328,8 @@ Fake / dummy crew
 		
 		[style[color:ff3377]]Reduces weapon charge speed by 5%.[[/style]]
 		Impacts that deal 1 damage have a 40% chance to be negated, and all other damage is reduced by 1.
+
+		COMBO: your Heavy Popper weapons don't damage you.
 	</desc>
     <cost>120</cost>
     <rarity>0</rarity>
@@ -343,7 +345,7 @@ Fake / dummy crew
 		Also increases Shield charge speed by 20%.
 		
 		Activate from the Toggle Menu to instantly restore all your Supershield layers. [Uses 1 {]
-		Cannot be activated again until you rebuild its capacitor at an empty beacon for 7~ .
+		Cannot be activated again until you rebuild its capacitor at an empty beacon for 7~. [Does not consume the empty beacon]
 	</desc>
     <cost>130</cost>
     <rarity>0</rarity>
@@ -952,7 +954,7 @@ REF Darkest Desires for MV 5.5.1:
 	[X] - As an external system upgrade, this augment will provide its normal effect but take up an augment slot. Can be converted for free to the internal version under the internal upgrade menu.
 	Does not stack with itself, but stacks with the internal version...</desc>
     <cost>50</cost>
-    <rarity>5</rarity>
+    <rarity>0</rarity>
     <stackable>false</stackable>
 </augBlueprint>
 
@@ -1846,6 +1848,53 @@ Shield Piercing: 2</tooltipOverride>
 </weaponBlueprint>
 <!-- Console: "LOAD MU_UNION_OUTRIDER 8" to retest. -->
 
+<weaponBlueprint name="RK_KILLALL_BEAM_ELITE">
+	<!-- Chains 2 more times, -1s cooldown -->
+	<type>BEAM</type>
+	<title>Elite 'Gravespred' Rad-Beam</title>
+	<short>Gravespr.+</short>
+	<desc>(RK Punk gear) This elite version of Gravespred charges faster and chains more. (Max 135 crew damage)
+		Pierces 2 shields +1 per chain. (Max 8 pierce. Ignore the tooltip)
+		[style[color:ff3377]]WARNING: Deals 15 damage to all crew on your ship per chain![[/style]] (Max 90)</desc>
+	<tip>lore_RK_KILLALL_BEAM</tip>
+
+	<mv-aiCrewTarget>RANDOM</mv-aiCrewTarget>
+	
+	<damage>0</damage>
+	<persDamage>3</persDamage>
+	<sp>2</sp>
+	<fireChance>0</fireChance>
+	<breachChance>3</breachChance>
+	<cooldown>9</cooldown>			<!-- intended: 9s -->
+	<color>
+		<r>255</r>
+		<g>8</g>
+		<b>200</b>
+	</color>
+	<statBoosts>
+        <statBoost name="moveSpeedMultiplier" load="RAD_MOVE"/>
+		<statBoost name="stunMultiplier" load="RAD_STUN"/>
+        <statBoost name="repairSpeed" load="RAD_REPAIR"/>
+    </statBoosts>
+	<boost>
+		<type>damage</type>
+		<amount>1</amount>
+		<count>6</count>
+	</boost>
+	<speed>35</speed>
+	<power>3</power>
+	<cost>100</cost>
+	<bp>6</bp>
+	<rarity>0</rarity>
+	<length>350</length>
+	<image>beam_contact</image>
+	<launchSounds>
+		<sound>beam2</sound>
+	</launchSounds>
+	<weaponArt>rk_killall_beam_elite</weaponArt>
+	<iconImage>beam</iconImage>
+</weaponBlueprint>
+
 <!-- Based on Artemis (see below) -->
 <weaponBlueprint name="RK_MISSLAUNCHER_2_BATTERY">
 	<type>MISSILES</type>
@@ -2129,6 +2178,75 @@ Targeting specific systems, even has conditions:
 	<iconImage>ion</iconImage>
 </weaponBlueprint>
 
+<weaponBlueprint name="RK_RAIN_OF_ION_ELITE">
+	<type>BURST</type>
+	<flavorType>Ion Blast</flavorType>
+	<title>Elite 'Rain of Ions'</title>
+	<short>Rain Ions</short>
+	
+	<desc>(RK Punk gear) Faster 'Rain of Ions', that can chain cooldown twice as much. A reminder of crazier times.
+		Still many weapons worth of blue options!</desc>
+	<tip>lore_RK_RAIN_OF_ION</tip>
+
+	<radius>55</radius>			<!-- REFS: Flak 2 = 45, Trion = 60 -->
+	<damage>0</damage>
+	<ion>1</ion>
+    <mv-aiSystemTarget system="weapons"/>
+
+	<speed>55</speed>
+	<shots>1</shots>
+	<sp>10</sp>
+	<fireChance>0</fireChance>
+	<breachChance>0</breachChance>
+	<stunChance>0</stunChance>
+
+	<cooldown>17</cooldown>
+	<power>4</power>
+	<cost>180</cost>
+	<bp>3</bp>
+	<rarity>0</rarity>
+	
+	<projectiles>
+		<projectile count="1" fake="false">ion_phase</projectile>
+		<projectile count="1" fake="false" blueprint="ION_1">ion_barrage</projectile>
+		<projectile count="1" fake="false" blueprint="ION_HEAVY">ion_heavy</projectile>
+		<projectile count="1" fake="false" blueprint="ION_STUN">ion_stun_shot</projectile>
+
+		<projectile count="1" fake="false" blueprint="ION_BIO">ion_bio</projectile>
+		<projectile count="1" fake="false" blueprint="ION_FIRE">ion_fire</projectile>
+	</projectiles>
+
+	<image>ion_phase</image>
+	<explosion>explosion_small_phase</explosion>
+
+	<!-- intended fully chained: 9s -->
+	<boost>
+		<type>cooldown</type>
+		<amount>2</amount>
+		<count>4</count>
+	</boost>
+	<launchSounds>
+		<sound>ionShoot1</sound>
+		<sound>ionShoot2</sound>
+		<sound>ionShoot3</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>ionHit1</sound>
+		<sound>ionHit2</sound>
+		<sound>ionHit3</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>ionShields1</sound>
+		<sound>ionShields2</sound>
+		<sound>ionShields3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>rk_rain_of_ion_elite</weaponArt>
+	<iconImage>ion</iconImage>
+</weaponBlueprint>
+
 <weaponBlueprint name="RK_SHOTPHASER">		<!-- Based on MV's ION_PIERCE_2 -->
 	<type>BURST</type>
 	<flavorType>Ion Blast</flavorType>
@@ -2216,7 +2334,7 @@ Targeting specific systems, even has conditions:
 	<breachChance>0</breachChance>
 
 	<mv-aiSystemTarget system="any"/>
-	<accuracyMod>50</accuracyMod>
+	<accuracyMod>100</accuracyMod>
 
 	<missiles>1</missiles>
 	<freeMissileChance>80</freeMissileChance>
@@ -2620,7 +2738,7 @@ REFS: Dirk, Partisan, Gungnir, TRC's focus_fire, TRC_FOCUS_CONSERVATIVE (Poniard
 <weaponBlueprint name="RK_BPS_FOCUS_STATUS">
 	<type>BEAM</type>
 	<flavorType>Pinpoint</flavorType>
-	<title>BPS Letter</title>
+	<title>'BPS Letter'</title>
 	<short>'BPS Lett.'</short>
 	<desc>(RK BPS gear) A weaker but more annoying Dirk, from a joint RadiKal team: lights fires, breaches, stuns, and hacks all at once.</desc>
 	<tip>RK_lore_RK_BPS_FOCUS_STATUS</tip>
@@ -2629,11 +2747,11 @@ REFS: Dirk, Partisan, Gungnir, TRC's focus_fire, TRC_FOCUS_CONSERVATIVE (Poniard
 	<persDamage>0</persDamage>
 	<sp>1</sp>
 
-	<mv-hack duration="4"/>			<!-- REFS: Gungnir 6s(17s CD, length 85) -->
+	<mv-hack duration="2.5"/>			<!-- REFS: Gungnir 6s(17s CD, length 85, loot.) -->
 
 	<fireChance>10</fireChance>
 	<breachChance>10</breachChance>
-	<stun>6</stun>
+	<stun>5</stun>
 
 	<mv-aiSystemTarget system="any"/>
 	<cooldown>12</cooldown>			<!-- REFS: Dirk 12s, Poniard 13s -->
@@ -2749,6 +2867,63 @@ REFS: Dirk, Partisan, Gungnir, TRC's focus_fire, TRC_FOCUS_CONSERVATIVE (Poniard
 		<sound>miss</sound>
 	</missSounds>
 	<weaponArt>djmod_laser_bps</weaponArt>
+	<iconImage>heavyL</iconImage>
+</weaponBlueprint>
+
+<weaponBlueprint name="DJMOD_LASER_BPS_ELITE">
+	<type>LASER</type>
+	<title>Elite 'BPS Messenger'</title>
+	<short>'BPS Mess.'+</short>
+	<desc>(RK BPS gear) Faster, and stunning Messenger. They don't make'em like this anymore.</desc>
+	<tip>RK_lore_DJMOD_LASER_BPS</tip>
+	<damage>2</damage>
+	<sysDamage>0</sysDamage>
+	<ion>1</ion>
+	<persDamage>2</persDamage>
+	<hullBust>1</hullBust>
+	
+	<speed>45</speed>
+
+	<mv-stealth/>
+	
+	<shots>1</shots>
+	<fireTime>0.35</fireTime>
+	<sp>1</sp>
+	
+	<fireChance>10</fireChance>
+	<breachChance>0</breachChance>
+	<stun>5</stun>					<!-- Duration. -->
+	<!-- max chained intended : 5s = 1 ion dissipation time. -->
+	<cooldown>12.5</cooldown>
+	<power>2</power>
+	<cost>140</cost>
+	<bp>2</bp>
+	<rarity>0</rarity>
+	<boost>
+		<type>cooldown</type>
+		<amount>2.5</amount>
+		<count>3</count>
+	</boost>
+
+	<image>djmod_laser_superheavy</image>
+	
+	<launchSounds>
+		<sound>heavyLaser1</sound>
+		<sound>heavyLaser2</sound>
+		<sound>heavyLaser3</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>hitHull1</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>hitShield1</sound>
+		<sound>hitShield2</sound>
+		<sound>hitShield3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>djmod_laser_bps_elite</weaponArt>
 	<iconImage>heavyL</iconImage>
 </weaponBlueprint>
 
@@ -3090,6 +3265,251 @@ REFS: Dirk, Partisan, Gungnir, TRC's focus_fire, TRC_FOCUS_CONSERVATIVE (Poniard
 	<weaponArt>artillery_fed</weaponArt>
 </weaponBlueprint>
 
+<!-- 
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
+			DRONES
+			RK prefixes: ATKD_, DEFD_, CREWD_, BOARDD_ .
+			DRONE_ prefix always means "a drone's weapon" including in MV.
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
+-->
+
+<!-- REFS: Amp Ion (amp 2ion), Amp Flak (amp 2projs), RK Shotphaser.
+<weaponBlueprint name="DRONE_ION_AMP_3">
+	<type>LASER</type>
+	<title>Drone Ion</title>
+	<damage>0</damage>
+	<ion>3</ion>
+	<speed>45</speed>
+	<shots>1</shots>
+	<sp>0</sp>
+	<fireChance>0</fireChance>
+	<breachChance>0</breachChance>
+	<rarity>0</rarity>
+	<image>ion_1_shot</image>
+	<explosion>explosion_small_ion</explosion>
+	<launchSounds>
+		<sound>ionShoot1</sound>
+		<sound>ionShoot2</sound>
+		<sound>ionShoot3</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>ionHit1</sound>
+		<sound>ionHit2</sound>
+		<sound>ionHit3</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>ionShields1</sound>
+		<sound>ionShields2</sound>
+		<sound>ionShields3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>ion_1</weaponArt>
+</weaponBlueprint>
+-->
+<weaponBlueprint name="RK_DRONE_SHOTPHASER">		<!-- Based on MV's ION_PIERCE_2 -->
+	<type>BURST</type>
+	<title>Shotphaser</title>
+
+	<radius>45</radius>			<!-- REFS: RK_SHOTPHASER 50, Flak 2 = 45, Trion = 60 -->
+	<damage>0</damage>
+	<ion>1</ion>
+
+	<speed>75</speed>
+	<shots>1</shots>
+	<sp>10</sp>
+	<fireChance>0</fireChance>
+	<breachChance>0</breachChance>
+	<stunChance>5</stunChance>
+	<cooldown>16</cooldown>
+	<power>2</power>
+	<cost>999</cost>
+	<bp>3</bp>
+	<rarity>0</rarity>
+
+	<projectiles>
+		<projectile count="2" fake="false">ion_phase</projectile>
+	</projectiles>
+
+	<image>ion_phase</image>
+	<explosion>explosion_small_phase</explosion>
+	<launchSounds>
+		<sound>ionShoot1</sound>
+		<sound>ionShoot2</sound>
+		<sound>ionShoot3</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>ionHit1</sound>
+		<sound>ionHit2</sound>
+		<sound>ionHit3</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>ionShields1</sound>
+		<sound>ionShields2</sound>
+		<sound>ionShields3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>rk_shotphaser</weaponArt>
+	<iconImage>ion</iconImage>
+</weaponBlueprint>
+<!-- REFS: Amp Ion (2/3ion amp levels = 3/4 pow) 
+<droneBlueprint name="ION_1_AMP4">
+	<type>COMBAT</type>
+	<tip>tip_amp_combat</tip>
+	<title>Amp Ion</title>
+	<short>Ion [4]</short>
+	<desc>[CURRENT POWER: 4] A unique Amp drone that increases its ion damage as its power increases as well. More power also decreases movement speed.</desc>
+	<power>4</power>
+	<cooldown>1000</cooldown>
+	<dodge>0</dodge>
+	<speed>5</speed>
+	<cost>50</cost>
+	<bp>3</bp>
+	<droneImage>drone_ion1_a3</droneImage>
+	<weaponBlueprint>DRONE_ION_AMP_3</weaponBlueprint>
+	<rarity>0</rarity>
+	<iconImage>combat</iconImage>
+</droneBlueprint>
+-->
+<droneBlueprint name="RK_ATKD_SHOTPHASER">
+	<type>COMBAT</type>
+	<tip>tip_bombs</tip>
+	<title>Shotphaser Drone</title>
+	<short>Shotph.</short>
+	<desc>(RK Punk gear) Fires 2 accelerated phase ions at the enemy ship, with low accuracy. Can wrecks Shields and disrupt systems, with a chance to stun.</desc>
+	<power>3</power>
+	<cooldown>1000</cooldown>
+	<dodge>0</dodge>
+	<speed>8</speed>
+	<cost>90</cost>
+	<bp>3</bp>
+	<droneImage>rk_drone_shotphaser</droneImage>
+	<weaponBlueprint>RK_DRONE_SHOTPHASER</weaponBlueprint>
+	<rarity>0</rarity>
+	<iconImage>combat</iconImage>
+</droneBlueprint>
+
+<!-- <weaponBlueprint name="FR_DRONE_SALLY_BOMB">
+	<type>BOMB</type>
+	<title>Arachno-Bomb</title>
+	<damage>0</damage>
+	<sysDamage>0</sysDamage>
+	<persDamage>0</persDamage>
+	<accuracyMod>100</accuracyMod>
+	<missiles>0</missiles>
+	<shots>1</shots>
+	<sp>0</sp>
+	<cooldown>12</cooldown>
+	<power>1</power>
+	<cost>45</cost>
+	<bp>4</bp>
+	<spawnCrew>
+		<number>2</number>
+		<race>spider_hatch_temp</race>
+		<lifetime>20</lifetime>
+		<statBoosts>
+			<statBoost name="noClone">
+                <boostType>SET</boostType>
+                <value>true</value>
+                <shipTarget>ALL</shipTarget>
+                <crewTarget>ALL</crewTarget>
+                <priority>999999</priority>
+            </statBoost>
+		</statBoosts>
+		<noSlot>true</noSlot>
+	</spawnCrew>
+	<crewSpawnChance>10</crewSpawnChance>
+	<rarity>0</rarity>
+	<image>bomb_spider</image>
+	<explosion>explosion_random</explosion>
+	<launchSounds>
+		<sound>bombTeleport</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>smallExplosion</sound>
+	</hitShipSounds>
+	<weaponArt>bomblauncher_spider</weaponArt>
+	<iconImage>bomb</iconImage>
+</weaponBlueprint> -->
+<weaponBlueprint name="RK_DRONE_BOMBLAUNCHER_OXYBOTTLE">
+	<type>BOMB</type>
+	<title>Oxygen-Bomb</title>
+	<damage>0</damage>
+	<sysDamage>0</sysDamage>
+	<persDamage>0</persDamage>
+	<accuracyMod>100</accuracyMod>
+	<missiles>0</missiles>
+	<shots>1</shots>
+	<sp>0</sp>
+	<cooldown>12</cooldown>
+	<power>1</power>
+	<cost>999</cost>
+	<bp>4</bp>
+	<spawnCrew>
+		<number>1</number>
+		<race>rk_bottledoxygen</race>
+		<name>OXY</name>
+		<lifetime>15</lifetime>
+		<noSlot>true</noSlot>
+	</spawnCrew>
+	<crewSpawnChance>10</crewSpawnChance>
+	<rarity>0</rarity>
+	<image>rk_bomb_oxybottle</image>
+	<explosion>rk_bottledoxygen_charge</explosion>
+	<launchSounds>
+		<sound>bombTeleport</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>smallExplosion</sound>
+	</hitShipSounds>
+	<weaponArt>rk_bomblauncher_oxybottle</weaponArt>
+	<iconImage>bomb</iconImage>
+</weaponBlueprint>
+<!-- REFS: RK Oxygen-Bomb, Thundershock Drone (TRC_THUNDER_1_BREACH),
+Theseus Missile Drone (TRC_COMBAT_MISSILE), Sally's spiders drone (Forgotten Races)
+
+<droneBlueprint name="FR_COMBAT_SALLY_BOMB">
+	<type>COMBAT</type>
+	<tip>tip_bombs</tip>
+	<title>Sally's Arachno-Bomb Drone</title>
+	<short>Arachno-Bomb</short>
+	<desc>A specialized drone that can deals no actual damage and instead fires bombs that spawns 2 spider hatchlings that live for 20 seconds. Avoids all anti drone measures.</desc>
+	<power>1</power>
+	<cooldown>1000</cooldown>
+	<dodge>10</dodge>
+	<speed>15</speed>
+	<cost>100</cost>
+	<bp>3</bp>
+	<droneImage>drone_fr_sally_spider_bomb</droneImage>
+	<weaponBlueprint>FR_DRONE_SALLY_BOMB</weaponBlueprint>
+	<rarity>0</rarity>
+	<iconImage>combat</iconImage>
+</droneBlueprint> -->
+<droneBlueprint name="RK_ATKD_BOMBLAUNCHER_OXYBOTTLE">
+	<type>COMBAT</type>
+	<tip>tip_bombs</tip>
+	<title>Oxygen-Bomber Drone</title>
+	<short>O2 Bomber</short>
+	<desc>(RK Scorch gear) Teleports 'Bottled Oxygen' slowly but repeatedly to the enemy ship. This lets you deal low crew damage while filling up the enemy ship with with O2 and/or fire.
+		
+		Deploying the drone costs an extra 1}.</desc>
+	<power>2</power>
+	<mv-droneMissileCost>1</mv-droneMissileCost>
+	<cooldown>1000</cooldown>
+	<dodge>0</dodge>
+	<speed>7</speed>
+	<cost>70</cost>
+	<bp>3</bp>
+	<droneImage>rk_drone_oxygen_bomb</droneImage>
+	<weaponBlueprint>RK_DRONE_BOMBLAUNCHER_OXYBOTTLE</weaponBlueprint>
+	<rarity>0</rarity>
+	<iconImage>combat</iconImage>
+</droneBlueprint>
 
 <!-- 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////

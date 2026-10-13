@@ -228,6 +228,11 @@ REF MV v5.5.1: <transformRace class="leech">leech_ampere</transformRace>
 	<text>Debug Store.</text>
 	<store>STORE_SYLVAN_RK_GEAR</store>
 </event>
+<event name="RKSHOP_PIRATE">
+	<text>Debug Store.</text>
+	<store>STORE_PIRATE</store>
+</event>
+
 
 <event name="RK_DEMI">
 	<text>Debug aug.</text>
@@ -911,7 +916,7 @@ Clean choice-event template for copy-paste:
 					</choice>
 
 					<choice hidden="true">
-						<text>Totally, they went that way.</text>
+						<text>They went that way!</text>
 						<event>
 							<text>"Is that so? For your sake I hope that's true..." They immediately throw a standard reward package through an airlock and depart. Hopefully, by some odds there actually are RadiKals that way, or you better hope you never see this ship again.</text>
 							<autoReward level="LOW">standard_no_item</autoReward>
@@ -920,7 +925,7 @@ Clean choice-event template for copy-paste:
 					</choice>
 
 					<choice hidden="true">
-						<text>Maybe, maybe not, but we're attacking you!</text>
+						<text>Maybe I know, maybe I don't, but we're attacking you!</text>
 						<event>
 							<text>"Hmpf! You don't have the gear, but you must be sympathisers. Same scum, different tools. Mordred?"
 								"Ready, sir."
@@ -1729,6 +1734,23 @@ Clean choice-event template for copy-paste:
 			</choice>
 		</event>
 	</choice>
+	<choice req="RK_KILLALL_BEAM_ELITE" hidden="false">
+		<text>Surrender your Elite Gravespred beam.</text>
+		<event>
+			<text>You send them the illegal gear, which they immediately lock up in cargo.</text>
+			<remove name="RK_KILLALL_BEAM_ELITE"/>
+			<item_modify>
+				<item type="scrap" min="15" max="15"/>
+			</item_modify>
+			<variable name="rk_a_outside_police_surrendered_gear" op="add" val="1"/>
+
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event><loadEvent seeded="false">RK_SURRENDER_GEAR_TO_RK_A</loadEvent></event>
+			</choice>
+		</event>
+	</choice>
+	
 	<choice req="RK_MISSLAUNCHER_2_BATTERY" hidden="false">
 		<text>Surrender your Battery Artemis missile launcher.</text>
 		<event>
@@ -1750,6 +1772,22 @@ Clean choice-event template for copy-paste:
 		<event>
 			<text>You send them the illegal gear, which they immediately lock up in cargo.</text>
 			<remove name="RK_RAIN_OF_ION"/>
+			<item_modify>
+				<item type="scrap" min="15" max="15"/>
+			</item_modify>
+			<variable name="rk_a_outside_police_surrendered_gear" op="add" val="1"/>
+
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event><loadEvent seeded="false">RK_SURRENDER_GEAR_TO_RK_A</loadEvent></event>
+			</choice>
+		</event>
+	</choice>
+	<choice req="RK_RAIN_OF_ION_ELITE" hidden="false">
+		<text>Surrender your (Elite) Rain of Ions shotgun.</text>
+		<event>
+			<text>You send them the illegal gear, which they immediately lock up in cargo.</text>
+			<remove name="RK_RAIN_OF_ION_ELITE"/>
 			<item_modify>
 				<item type="scrap" min="15" max="15"/>
 			</item_modify>
@@ -1879,6 +1917,59 @@ Clean choice-event template for copy-paste:
 			</choice>
 		</event>
 	</choice>
+
+	<choice req="DJMOD_LASER_BPS_ELITE" hidden="false">
+		<text>Surrender your Elite BPS Messenger laser.</text>
+		<event>
+			<text>You send them the illegal gear, which they immediately lock up in cargo.</text>
+			<remove name="DJMOD_LASER_BPS_ELITE"/>
+			<item_modify>
+				<item type="scrap" min="15" max="15"/>
+			</item_modify>
+			<variable name="rk_a_outside_police_surrendered_gear" op="add" val="1"/>
+
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event><loadEvent seeded="false">RK_SURRENDER_GEAR_TO_RK_A</loadEvent></event>
+			</choice>
+		</event>
+	</choice>
+
+	
+	<choice req="RK_ATKD_SHOTPHASER" hidden="false">
+		<text>Surrender your Shotphaser drone.</text>
+		<event>
+			<text>You send them the illegal gear, which they immediately lock up in cargo.</text>
+			<remove name="RK_ATKD_SHOTPHASER"/>
+			<item_modify>
+				<item type="scrap" min="15" max="15"/>
+			</item_modify>
+			<variable name="rk_a_outside_police_surrendered_gear" op="add" val="1"/>
+
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event><loadEvent seeded="false">RK_SURRENDER_GEAR_TO_RK_A</loadEvent></event>
+			</choice>
+		</event>
+	</choice>
+
+	<choice req="RK_ATKD_BOMBLAUNCHER_OXYBOTTLE" hidden="false">
+		<text>Surrender your Oxygen-Bomber drone.</text>
+		<event>
+			<text>You send them the illegal gear, which they immediately lock up in cargo.</text>
+			<remove name="RK_ATKD_BOMBLAUNCHER_OXYBOTTLE"/>
+			<item_modify>
+				<item type="scrap" min="15" max="15"/>
+			</item_modify>
+			<variable name="rk_a_outside_police_surrendered_gear" op="add" val="1"/>
+
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event><loadEvent seeded="false">RK_SURRENDER_GEAR_TO_RK_A</loadEvent></event>
+			</choice>
+		</event>
+	</choice>
+
 	
 	<choice req="rk_a_outside_police_surrendered_gear" lvl="1" hidden="true" blue="true">
 		<text>(Surrendered RK gear) You know what, we would rather keep the rest!</text>
@@ -2356,6 +2447,16 @@ If used in eventList, list must have a non-unique option!-->
 											</item_modify>
 										</event>
 									</choice>
+									<choice req="RK_KILLALL_BEAM_ELITE" hidden="true">
+										<text>Sell them your Elite Gravespred beam for 150~.</text>
+										<event>
+											<text>You try to hide your satisfaction while they transfer the excessive payment, but also hope some unfortunate encounter won't make you regret the sale in the near future. They leave without a word.</text>
+											<remove name="RK_KILLALL_BEAM_ELITE"/>
+											<item_modify>
+												<item type="scrap" min="150" max="150"/>
+											</item_modify>
+										</event>
+									</choice>
 									<choice req="RK_MISSLAUNCHER_2_BATTERY" hidden="true">
 										<text>Sell them your Battery Artemis missile launcher for 105~.</text>
 										<event>
@@ -2373,6 +2474,16 @@ If used in eventList, list must have a non-unique option!-->
 											<remove name="RK_RAIN_OF_ION"/>
 											<item_modify>
 												<item type="scrap" min="180" max="180"/>
+											</item_modify>
+										</event>
+									</choice>
+									<choice req="RK_RAIN_OF_ION_ELITE" hidden="true">
+										<text>Sell them your (Elite) Rain of Ions shotgun for 270~.</text>
+										<event>
+											<text>You try to hide your satisfaction while they transfer the excessive payment, but also hope some unfortunate encounter won't make you regret the sale in the near future. They leave without a word.</text>
+											<remove name="RK_RAIN_OF_ION_ELITE"/>
+											<item_modify>
+												<item type="scrap" min="270" max="270"/>
 											</item_modify>
 										</event>
 									</choice>
@@ -2453,6 +2564,41 @@ If used in eventList, list must have a non-unique option!-->
 										</event>
 									</choice>
 									
+									<choice req="DJMOD_LASER_BPS_ELITE" hidden="true">
+										<text>Sell them your Elite BPS Messenger laser for 280~.</text>
+										<event>
+											<text>You try to hide your satisfaction while they transfer the excessive payment, but also hope some unfortunate encounter won't make you regret the sale in the near future. They leave without a word.</text>
+											<remove name="DJMOD_LASER_BPS_ELITE"/>
+											<item_modify>
+												<item type="scrap" min="280" max="280"/>
+											</item_modify>
+										</event>
+									</choice>
+
+									
+									<choice req="RK_ATKD_SHOTPHASER" hidden="true">
+										<text>Sell them your Shotphaser drone for 135~.</text>
+										<event>
+											<text>You try to hide your satisfaction while they transfer the excessive payment, but also hope some unfortunate encounter won't make you regret the sale in the near future. They leave without a word.</text>
+											<remove name="RK_ATKD_SHOTPHASER"/>
+											<item_modify>
+												<item type="scrap" min="135" max="135"/>
+											</item_modify>
+										</event>
+									</choice>
+
+									<choice req="RK_ATKD_BOMBLAUNCHER_OXYBOTTLE" hidden="true">
+										<text>Sell them your Oxygen-Bomber drone for 105~.</text>
+										<event>
+											<text>You try to hide your satisfaction while they transfer the excessive payment, but also hope some unfortunate encounter won't make you regret the sale in the near future. They leave without a word.</text>
+											<remove name="RK_ATKD_BOMBLAUNCHER_OXYBOTTLE"/>
+											<item_modify>
+												<item type="scrap" min="105" max="105"/>
+											</item_modify>
+										</event>
+									</choice>
+
+
 									<choice hidden="true" req="rock_commando">
 										<text>(Commando Crew) "That kind of gear is not for brainwashed asshats. You should have stayed in your neighbourhood of stagnation and lies."</text>
 										<event>
@@ -2603,6 +2749,16 @@ If used in eventList, list must have a non-unique option!-->
 											</item_modify>
 										</event>
 									</choice>
+									<choice req="RK_KILLALL_BEAM_ELITE" hidden="true">
+										<text>Sell them your Elite Gravespred beam for 150~.</text>
+										<event>
+											<text>You try to hide your satisfaction while they transfer the excessive payment, but also hope some unfortunate encounter won't make you regret the sale in the near future. They leave without a word.</text>
+											<remove name="RK_KILLALL_BEAM_ELITE"/>
+											<item_modify>
+												<item type="scrap" min="150" max="150"/>
+											</item_modify>
+										</event>
+									</choice>
 									<choice req="RK_MISSLAUNCHER_2_BATTERY" hidden="true">
 										<text>Sell them your Battery Artemis missile launcher for 105~.</text>
 										<event>
@@ -2620,6 +2776,16 @@ If used in eventList, list must have a non-unique option!-->
 											<remove name="RK_RAIN_OF_ION"/>
 											<item_modify>
 												<item type="scrap" min="180" max="180"/>
+											</item_modify>
+										</event>
+									</choice>
+									<choice req="RK_RAIN_OF_ION_ELITE" hidden="true">
+										<text>Sell them your (Elite) Rain of Ions shotgun for 270~.</text>
+										<event>
+											<text>You try to hide your satisfaction while they transfer the excessive payment, but also hope some unfortunate encounter won't make you regret the sale in the near future. They leave without a word.</text>
+											<remove name="RK_RAIN_OF_ION_ELITE"/>
+											<item_modify>
+												<item type="scrap" min="270" max="270"/>
 											</item_modify>
 										</event>
 									</choice>
@@ -2700,6 +2866,41 @@ If used in eventList, list must have a non-unique option!-->
 										</event>
 									</choice>
 									
+									<choice req="DJMOD_LASER_BPS_ELITE" hidden="true">
+										<text>Sell them your Elite BPS Messenger laser for 280~.</text>
+										<event>
+											<text>You try to hide your satisfaction while they transfer the excessive payment, but also hope some unfortunate encounter won't make you regret the sale in the near future. They leave without a word.</text>
+											<remove name="DJMOD_LASER_BPS_ELITE"/>
+											<item_modify>
+												<item type="scrap" min="280" max="280"/>
+											</item_modify>
+										</event>
+									</choice>
+
+									
+									<choice req="RK_ATKD_SHOTPHASER" hidden="true">
+										<text>Sell them your Shotphaser drone for 135~.</text>
+										<event>
+											<text>You try to hide your satisfaction while they transfer the excessive payment, but also hope some unfortunate encounter won't make you regret the sale in the near future. They leave without a word.</text>
+											<remove name="RK_ATKD_SHOTPHASER"/>
+											<item_modify>
+												<item type="scrap" min="135" max="135"/>
+											</item_modify>
+										</event>
+									</choice>
+
+									<choice req="RK_ATKD_BOMBLAUNCHER_OXYBOTTLE" hidden="true">
+										<text>Sell them your Oxygen-Bomber drone for 105~.</text>
+										<event>
+											<text>You try to hide your satisfaction while they transfer the excessive payment, but also hope some unfortunate encounter won't make you regret the sale in the near future. They leave without a word.</text>
+											<remove name="RK_ATKD_BOMBLAUNCHER_OXYBOTTLE"/>
+											<item_modify>
+												<item type="scrap" min="105" max="105"/>
+											</item_modify>
+										</event>
+									</choice>
+
+
 									<choice>
 										<text>Decline.</text>
 										<event>

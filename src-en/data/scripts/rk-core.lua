@@ -66,8 +66,10 @@ mods.rk.weaponsAntiRKWeaponsShouldReactTo = {
 
     "RK_BOMBLAUNCHER_ANTIBIO_REPAIR",
     "RK_KILLALL_BEAM",
+    "RK_KILLALL_BEAM_ELITE",
     "RK_MISSLAUNCHER_2_BATTERY",
     "RK_RAIN_OF_ION",
+    "RK_RAIN_OF_ION_ELITE",
     "RK_SHOTPHASER",
 
     "RK_BOMBLAUNCHER_OXYBOTTLE",
@@ -77,6 +79,7 @@ mods.rk.weaponsAntiRKWeaponsShouldReactTo = {
 
     "RK_BPS_FOCUS_STATUS",
     "DJMOD_LASER_BPS",
+    "DJMOD_LASER_BPS_ELITE",
 }
 --[[ REF: Lily's Beam Emporium
 local augCheckList = {

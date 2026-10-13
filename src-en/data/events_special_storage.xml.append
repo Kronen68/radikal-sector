@@ -2349,6 +2349,7 @@ TODO: disable if enemy current hull == 0 (TEST Lua!)
 <event name="DJMOD_COMBAT_SHIPVORE_RAM_REINFORCE">
 	<text>Are you sure you want to reinforce this augment?
 	[When choosing the "Full Power" strike, reinforcement will be lost instead of the augment. 
+	
 	You can still do something at the empty beacon after this.]</text>
 	
 	<choice req="shipvore_ram_reinforcement" lvl="0" max_lvl="0" hidden="false" blue="false">
@@ -2381,6 +2382,7 @@ TODO: disable if enemy current hull == 0 (TEST Lua!)
 <event name="RK_PERSISTENCE_SHIELD_REBUILD_CAPACITOR">
 	<text>Are you sure you want to rebuild Persistence Shield's capacitor?
 	[Allows you to use its active ability from the Toggle Menu again. 
+	
 	You can still do something at the empty beacon after this.]</text>
 	
 	<choice req="rk_persistence_shield_capacitorneed" lvl="0" max_lvl="0" hidden="true" blue="false">
@@ -2538,21 +2540,37 @@ So we spam fires.
 	ADD-ONS
 	=======================
 	-->
-	<choice req="lily_ablative_armor" hidden="true" blue="false">
-		<text>(LI) The Ablative Armor room!</text>
-		<event load="DJMOD_SPAWN_FIRES_OWN_SHIP_LILY_ABLATIVE_ARMOR"/>
-	</choice>
-
 	<choice req="aea_super_shields" hidden="true" blue="false">
 		<text>(OE) The Auxiliary Shields room!</text>
 		<event load="DJMOD_SPAWN_FIRES_OWN_SHIP_AEA_SUPER_SHIELDS"/>
 	</choice>
 
+	<choice req="oe_aux_shields" hidden="true" blue="false">
+		<text>(OE R.) The Auxiliary Shields room!</text>
+		<event load="DJMOD_SPAWN_FIRES_OWN_SHIP_OE_AUX_SHIELDS"/>
+	</choice>
+	<choice req="oe_growth" hidden="true" blue="false">
+		<text>(OE R.) The Life Bloom room!</text>
+		<event load="DJMOD_SPAWN_FIRES_OWN_SHIP_OE_GROWTH"/>
+	</choice>
+	<choice req="oe_grease" hidden="true" blue="false">
+		<text>(OE R.) The Weapons Amplifier room!</text>
+		<event load="DJMOD_SPAWN_FIRES_OWN_SHIP_OE_GREASE"/>
+	</choice>
+	
 	<choice req="dd_corruptor" hidden="true" blue="false">
 		<text>(DD) The Corruptor room!</text>
 		<event load="DJMOD_SPAWN_FIRES_OWN_SHIP_DD_CORRUPTOR"/>
 	</choice>
 
+	<choice req="lily_ablative_armor" hidden="true" blue="false">
+		<text>(LI) The Ablative Armor room!</text>
+		<event load="DJMOD_SPAWN_FIRES_OWN_SHIP_LILY_ABLATIVE_ARMOR"/>
+	</choice>
+	<choice req="lily_aux_reactor" hidden="true" blue="false">
+		<text>(LI) The Auxiliary Reactor room!</text>
+		<event load="DJMOD_SPAWN_FIRES_OWN_SHIP_LILY_AUX_REACTOR"/>
+	</choice>
 	<choice req="lily_ecm_suite" hidden="true" blue="false">
 		<text>(LI) The ECM Suite room!</text>
 		<event load="DJMOD_SPAWN_FIRES_OWN_SHIP_LILY_ECM_SUITE"/>
@@ -2891,19 +2909,6 @@ So we spam fires.
 ADD-ONS
 =======================
 -->
-<event name="DJMOD_SPAWN_FIRES_OWN_SHIP_LILY_ABLATIVE_ARMOR">
-	<playSound>dj_scorchedEarth</playSound>
-	<damage amount="0" system="lily_ablative_armor" effect="fire"/>
-	<damage amount="0" system="lily_ablative_armor" effect="fire"/>
-	<damage amount="0" system="lily_ablative_armor" effect="fire"/>
-	<damage amount="0" system="lily_ablative_armor" effect="fire"/>
-	<damage amount="0" system="lily_ablative_armor" effect="fire"/>
-	<damage amount="0" system="lily_ablative_armor" effect="fire"/>
-	<damage amount="0" system="lily_ablative_armor" effect="fire"/>
-	<damage amount="0" system="lily_ablative_armor" effect="fire"/>
-	<damage amount="0" system="lily_ablative_armor" effect="fire"/>
-</event>
-
 <event name="DJMOD_SPAWN_FIRES_OWN_SHIP_AEA_SUPER_SHIELDS">
 	<playSound>dj_scorchedEarth</playSound>
 	<damage amount="0" system="aea_super_shields" effect="fire"/>
@@ -2915,6 +2920,43 @@ ADD-ONS
 	<damage amount="0" system="aea_super_shields" effect="fire"/>
 	<damage amount="0" system="aea_super_shields" effect="fire"/>
 	<damage amount="0" system="aea_super_shields" effect="fire"/>
+</event>
+
+<event name="DJMOD_SPAWN_FIRES_OWN_SHIP_OE_AUX_SHIELDS">
+	<playSound>dj_scorchedEarth</playSound>
+	<damage amount="0" system="oe_aux_shields" effect="fire"/>
+	<damage amount="0" system="oe_aux_shields" effect="fire"/>
+	<damage amount="0" system="oe_aux_shields" effect="fire"/>
+	<damage amount="0" system="oe_aux_shields" effect="fire"/>
+	<damage amount="0" system="oe_aux_shields" effect="fire"/>
+	<damage amount="0" system="oe_aux_shields" effect="fire"/>
+	<damage amount="0" system="oe_aux_shields" effect="fire"/>
+	<damage amount="0" system="oe_aux_shields" effect="fire"/>
+	<damage amount="0" system="oe_aux_shields" effect="fire"/>
+</event>
+<event name="DJMOD_SPAWN_FIRES_OWN_SHIP_OE_GREASE">
+	<playSound>dj_scorchedEarth</playSound>
+	<damage amount="0" system="oe_grease" effect="fire"/>
+	<damage amount="0" system="oe_grease" effect="fire"/>
+	<damage amount="0" system="oe_grease" effect="fire"/>
+	<damage amount="0" system="oe_grease" effect="fire"/>
+	<damage amount="0" system="oe_grease" effect="fire"/>
+	<damage amount="0" system="oe_grease" effect="fire"/>
+	<damage amount="0" system="oe_grease" effect="fire"/>
+	<damage amount="0" system="oe_grease" effect="fire"/>
+	<damage amount="0" system="oe_grease" effect="fire"/>
+</event>
+<event name="DJMOD_SPAWN_FIRES_OWN_SHIP_OE_GROWTH">
+	<playSound>dj_scorchedEarth</playSound>
+	<damage amount="0" system="oe_growth" effect="fire"/>
+	<damage amount="0" system="oe_growth" effect="fire"/>
+	<damage amount="0" system="oe_growth" effect="fire"/>
+	<damage amount="0" system="oe_growth" effect="fire"/>
+	<damage amount="0" system="oe_growth" effect="fire"/>
+	<damage amount="0" system="oe_growth" effect="fire"/>
+	<damage amount="0" system="oe_growth" effect="fire"/>
+	<damage amount="0" system="oe_growth" effect="fire"/>
+	<damage amount="0" system="oe_growth" effect="fire"/>
 </event>
 
 <event name="DJMOD_SPAWN_FIRES_OWN_SHIP_DD_CORRUPTOR">
@@ -2930,6 +2972,30 @@ ADD-ONS
 	<damage amount="0" system="dd_corruptor" effect="fire"/>
 </event>
 
+<event name="DJMOD_SPAWN_FIRES_OWN_SHIP_LILY_ABLATIVE_ARMOR">
+	<playSound>dj_scorchedEarth</playSound>
+	<damage amount="0" system="lily_ablative_armor" effect="fire"/>
+	<damage amount="0" system="lily_ablative_armor" effect="fire"/>
+	<damage amount="0" system="lily_ablative_armor" effect="fire"/>
+	<damage amount="0" system="lily_ablative_armor" effect="fire"/>
+	<damage amount="0" system="lily_ablative_armor" effect="fire"/>
+	<damage amount="0" system="lily_ablative_armor" effect="fire"/>
+	<damage amount="0" system="lily_ablative_armor" effect="fire"/>
+	<damage amount="0" system="lily_ablative_armor" effect="fire"/>
+	<damage amount="0" system="lily_ablative_armor" effect="fire"/>
+</event>
+<event name="DJMOD_SPAWN_FIRES_OWN_SHIP_LILY_AUX_REACTOR">
+	<playSound>dj_scorchedEarth</playSound>
+	<damage amount="0" system="lily_aux_reactor" effect="fire"/>
+	<damage amount="0" system="lily_aux_reactor" effect="fire"/>
+	<damage amount="0" system="lily_aux_reactor" effect="fire"/>
+	<damage amount="0" system="lily_aux_reactor" effect="fire"/>
+	<damage amount="0" system="lily_aux_reactor" effect="fire"/>
+	<damage amount="0" system="lily_aux_reactor" effect="fire"/>
+	<damage amount="0" system="lily_aux_reactor" effect="fire"/>
+	<damage amount="0" system="lily_aux_reactor" effect="fire"/>
+	<damage amount="0" system="lily_aux_reactor" effect="fire"/>
+</event>
 <event name="DJMOD_SPAWN_FIRES_OWN_SHIP_LILY_ECM_SUITE">
 	<playSound>dj_scorchedEarth</playSound>
 	<damage amount="0" system="lily_ecm_suite" effect="fire"/>
@@ -7017,11 +7083,11 @@ REFS Darkest Desires for MV 5.5.1
 		<event load="OPTION_INVALID"/>
 	</choice>
 	<choice req="INTERNAL_RK_CALIBRATOR" lvl="1" max_lvl="1" blue="false" hidden="true">
-		<text>Calibrator Lvl 2. [Cost: 45~, 1|]</text>
+		<text>[RK Bam] Calibrator Lvl 2. [Cost: 45~, 1|]</text>
 		<event load="STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_RK_CALIBRATOR"/>
 	</choice>
 	<choice req="INTERNAL_RK_CALIBRATOR" lvl="0" max_lvl="0" blue="false" hidden="true">
-		<text>Calibrator Lvl 1. [Cost: 45~ 1|]</text>
+		<text>[RK Bam] Calibrator Lvl 1. [Cost: 45~ 1|]</text>
 		<event load="STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_RK_CALIBRATOR"/>
 	</choice>
 
@@ -7031,7 +7097,7 @@ REFS Darkest Desires for MV 5.5.1
 		<event load="OPTION_INVALID"/>
 	</choice>
 	<choice req="INTERNAL_RK_CHOKING_IS_FINE" lvl="0" max_lvl="0" blue="false" hidden="true">
-		<text>Choking F.I.N.E. [Cost: 55~, 1}, 1|]</text>
+		<text>[RK Bam] Choking F.I.N.E. [Cost: 55~, 1}, 1|]</text>
 		<event load="STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_RK_CHOKING_IS_FINE"/>
 	</choice>
 
@@ -7041,7 +7107,7 @@ REFS Darkest Desires for MV 5.5.1
 		<event load="OPTION_INVALID"/>
 	</choice>
 	<choice req="INTERNAL_DJMOD_DEMICLONER" lvl="0" max_lvl="0" blue="false" hidden="true">
-		<text>Demicloners. [Cost: 35~, 2|]</text>
+		<text>[RK Punk] Demicloners. [Cost: 35~, 2|]</text>
 		<event load="STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_DJMOD_DEMICLONER"/>
 	</choice>
 
@@ -7050,7 +7116,7 @@ REFS Darkest Desires for MV 5.5.1
 		<event load="OPTION_INVALID"/>
 	</choice>
 	<choice req="INTERNAL_DJMOD_MC_PARALYZER" lvl="0" max_lvl="0" blue="false" hidden="true">
-		<text>Mind Cooler. [Cost: 30~, 1|]</text>
+		<text>[RK Punk] Mind Cooler. [Cost: 30~, 1|]</text>
 		<event load="STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_DJMOD_MC_PARALYZER"/>
 	</choice>
 	
@@ -7060,7 +7126,7 @@ REFS Darkest Desires for MV 5.5.1
 		<event load="OPTION_INVALID"/>
 	</choice>
 	<choice req="INTERNAL_RK_IN_FIRE_CREWBOOSTS" lvl="0" max_lvl="0" blue="false" hidden="true">
-		<text>Hellion Wraps. [Cost: 55~, 1{, 1}]</text>
+		<text>[RK Scorch] Hellion Wraps. [Cost: 55~, 1{, 1}]</text>
 		<event load="STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_RK_IN_FIRE_CREWBOOSTS"/>
 	</choice>
 
@@ -7069,7 +7135,7 @@ REFS Darkest Desires for MV 5.5.1
 		<event load="OPTION_INVALID"/>
 	</choice>
 	<choice req="INTERNAL_DJMOD_MC_IMMUNE_FROM_FIRE" lvl="0" max_lvl="0" blue="false" hidden="true">
-		<text>Mind Heater. [Cost: 30~, 1{, 1|]</text>
+		<text>[RK Scorch] Mind Heater. [Cost: 30~, 1{, 1|]</text>
 		<event load="STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_DJMOD_MC_IMMUNE_FROM_FIRE"/>
 	</choice>
 

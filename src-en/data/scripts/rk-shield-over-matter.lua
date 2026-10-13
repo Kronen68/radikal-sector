@@ -120,6 +120,12 @@ script.on_internal_event(Defines.InternalEvents.DAMAGE_AREA, function(ship, proj
         return Defines.Chain.CONTINUE, forceHit, shipFriendlyFire
     end
 
+    local projectileOwner = Hyperspace.ships(projectile.ownerId)
+    if ship == projectileOwner then
+        print("SOM: ignore self-hit")
+        return Defines.Chain.CONTINUE, forceHit, shipFriendlyFire
+    end
+
     --[[ if currentLayers == nil or currentLayers == 0 or forceHit == Defines.Evasion.MISS then
         return Defines.Chain.CONTINUE, forceHit, shipFriendlyFire
     end ]]

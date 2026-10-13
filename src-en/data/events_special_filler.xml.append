@@ -7,10 +7,8 @@ Pirates attack civilians with distress beacon, you can save the RK and get coord
 
 v5.5.1: THE EVENT IT USED TO APPEND TO "DISTRESS_PIRATE_CIVILIAN_BEACON" WAS REMOVED FROM MV. Or renamed, same thing.
 Also, the equivalent of the event it referred to seems to have been moved from events.xml to events_special_filler.xml .
-TODO: 
--Find a new one but avoid pirate (merc/smuggler/slaver) for compatibility with Piracy Is Poggers.
-OR manually make it give the reputation but in a way where it makes sense that you can't access their offers afterwards.
--this needs to have a non-random path to getting the coords.
+TODO:
+-this needs to have a non-random path to getting the coords, especially with how very rarely it shows up.
 
 TEST this renamed event seems to be the equivalent: FILLER_DISTRESS_RESCUE.
 => Should work standalone, but Piracy is Poggers removes that whole event tag to replace it. Not gonna mess with that.
@@ -49,7 +47,7 @@ New candidate: FILLER_DISTRESS_COMBAT. It's rebels, but will do. NO WORK.
 <event name="DISTRESS_PIRA_CIVI_GIVECOORDS">
 	<!-- <text>A different, female rockman voice is now roaring at you. "YOU. Captain. You appear to have GUTS." The RadiKal takes a second to catch her breath. "This crew has been useful but I don't need to stay undercover any longer.
 	They've been blabbering about our operations, yet they are NOT with us, or even financing us. They only STOLE some gear from one of our customers. All of that is BAD, and also the reason why I just slew them all. NOW, we need more captains like you. You should pay us a visit, which WILL be mutually beneficial if I'm not mistaken about your quality."</text> -->
-	<text>A different, female MFK voice is now roaring at you. "Captain. You appear to have guts." The RadiKal takes a second to catch her breath. "This crew has been useful but I don't need to stay undercover any longer.
+	<text>A different, female MFK voice is now roaring at you. "Captain. You appear to have guts." The RadiKal Associate takes a second to catch her breath. "This crew has been useful but I don't need to stay undercover any longer.
 	They've been blabbering about our operations, but they're not with us or even financing us. They only stole some gear from one of our customers. All of that is bad news, and also the reason why I just slew them all. Now, we need more captains like you. You should pay us a visit, which will be mutually beneficial if I'm not mistaken about your quality."</text>
 
 	<choice>
@@ -58,9 +56,8 @@ New candidate: FILLER_DISTRESS_COMBAT. It's rebels, but will do. NO WORK.
 			<!-- <text>"I KNOW, and that's no issue, in fact the detour MAY bring your ship up to speed for that CHALLENGE. You will find that we are WELL informed people. I too have other missions to take care of rather urgently, so this is GOODBYE." She cuts comms.
 				Sector coordinates have been added to your atlas!
 			</text> -->
-			<text>"Yes yes I know, and that's no issue. In fact the detour might bring your ship up to speed for the challenge that is the Flagship. You will find that we RKs are very well informed people. I too have other missions to take care of rather urgently, farewell." She cuts comms.
-				Sector coordinates have been added to your atlas!
-			</text>
+			<text>"Yes yes I know, and that's no issue. In fact the detour might bring your ship up to speed for the challenge that is the Flagship. You will find that we RKs are very well informed people. I too have other missions to take care of rather urgently, farewell. And if we find ourselves face to face at the very end, well, may the best win." She cuts comms.
+				Sector coordinates have been added to your atlas!</text>
 			<variable name="coords_radikal" op="set" val="1"/>
 			
 			<choice>

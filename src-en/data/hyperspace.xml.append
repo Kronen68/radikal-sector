@@ -722,16 +722,12 @@ NOTE: FIRE_IMMUNITY in fire_common.lua is really SHIP SYSTEM FIRE RESISTANCE PER
 			<engi room="0"/> <!--piloting-->
 			<mantis_warlord room="0"/> <!--piloting-->
 
-			<engi room="2"/> <!--weapons-->
-			<mantis_warlord room="2"/> <!--weapons-->
+			<mantis_free room="2"/> <!--weapons-->
 
 			<engi_defender room="3"/> <!--shields-->
 			<mantis_free room="3"/> <!--shields-->
 
-			<engi room="1"/> <!--engines-->
 			<mantis_free room="8"/> <!--mind-->
-			
-			<mantis_free room="10"/> <!--oxygen-->
 		</crew>
 		<noFuelStalemate/>
 	</mod-append:customShip>
@@ -751,22 +747,19 @@ NOTE: FIRE_IMMUNITY in fire_common.lua is really SHIP SYSTEM FIRE RESISTANCE PER
 		<crew>
 			<mantis_warlord room="4" name="Wakk"/> <!--teleporter-->
 			<mantis_warlord room="4" name="Xakk"/> <!--teleporter-->
-			<mantis_warlord room="4" name="Yakk"/> <!--teleporter-->
+			<mantis_free room="4" name="Zakk"/> <!--teleporter-->
 			<mantis_free room="4" name="Zakk"/> <!--teleporter-->
 
 			<engi room="0"/> <!--piloting-->
 			<mantis_warlord room="0"/> <!--piloting-->
 
-			<engi room="2"/> <!--weapons-->
 			<mantis_warlord room="2"/> <!--weapons-->
 
 			<engi_defender room="3"/> <!--shields-->
 			<mantis_free room="3"/> <!--shields-->
 
-			<engi room="1"/> <!--engines-->
 			<mantis_free room="8"/> <!--mind-->
 			
-			<mantis_free room="10"/> <!--oxygen-->
 			<mantis_free room="10"/> <!--oxygen-->
 		</crew>
 		<noFuelStalemate/>
@@ -1595,7 +1588,7 @@ JUDGE STUFF (NON-APPEND)
 <mod:findLike type="store">
 
 	<mod:findLike type="customStore">
-	<mod:selector id="STORE_STANDARD"/>
+		<mod:selector id="STORE_STANDARD"/>
 		<mod-append:category type="CREW">
 			<customTitle>MYSTERIOUS CREW</customTitle>
             <item/>
@@ -1608,7 +1601,7 @@ JUDGE STUFF (NON-APPEND)
 	</mod:findLike>
 	
 	<mod:findLike type="customStore">
-	<mod:selector id="STORE_PIRATE"/>
+		<mod:selector id="STORE_PIRATE"/>
 		<mod-append:category type="CREW">
 			<customTitle>MYSTERIOUS CREW</customTitle>
 			<item>
@@ -1620,8 +1613,9 @@ JUDGE STUFF (NON-APPEND)
 		</mod-append:category>
 	</mod:findLike>
 	
+	<!-- Never actually used in MV -->
 	<mod:findLike type="customStore">
-	<mod:selector id="STORE_SLAVER"/>
+		<mod:selector id="STORE_SLAVER"/>
 		<mod-append:category type="CREW">
 			<customTitle>MYSTERIOUS CREW</customTitle>
             <item/>
@@ -1635,7 +1629,7 @@ JUDGE STUFF (NON-APPEND)
 	
 	
 	<mod:findLike type="customStore">
-	<mod:selector id="STORE_COALITION"/>
+		<mod:selector id="STORE_COALITION"/>
 		<mod-append:category type="CREW">
 			<customTitle>MYSTERIOUS CREW</customTitle>
 			<item>
@@ -1648,7 +1642,7 @@ JUDGE STUFF (NON-APPEND)
 	</mod:findLike>
 	
 	<mod:findLike type="customStore">
-	<mod:selector id="STORE_CULTIST"/>
+		<mod:selector id="STORE_CULTIST"/>
 		<mod-append:category type="CREW">
 			<customTitle>MYSTERIOUS CREW</customTitle>
             <item/>
@@ -1661,7 +1655,7 @@ JUDGE STUFF (NON-APPEND)
 	</mod:findLike>
 	
 	<mod:findLike type="customStore">
-	<mod:selector id="STORE_DUSK"/>
+		<mod:selector id="STORE_DUSK"/>
 		<mod-append:category type="CREW">
 			<customTitle>MYSTERIOUS CREW</customTitle>
 			<item>
@@ -1674,7 +1668,7 @@ JUDGE STUFF (NON-APPEND)
 	</mod:findLike>
 	
 	<mod:findLike type="customStore">
-	<mod:selector id="STORE_DYNASTY"/>
+		<mod:selector id="STORE_DYNASTY"/>
 		<mod-append:category type="CREW">
 			<customTitle>MYSTERIOUS CREW</customTitle>
             <item/>
@@ -1687,7 +1681,7 @@ JUDGE STUFF (NON-APPEND)
 	</mod:findLike>
 	
 	<mod:findLike type="customStore">
-	<mod:selector id="STORE_ORCHID"/>
+		<mod:selector id="STORE_ORCHID"/>
 		<mod-append:category type="CREW">
 			<customTitle>MYSTERIOUS CREW</customTitle>
 			<item>
@@ -1700,7 +1694,7 @@ JUDGE STUFF (NON-APPEND)
 	</mod:findLike>
 	
 	<mod:findLike type="customStore">
-	<mod:selector id="STORE_REBEL"/>
+		<mod:selector id="STORE_REBEL"/>
 		<mod-append:category type="CREW">
 			<customTitle>MYSTERIOUS CREW</customTitle>
             <item/>
@@ -1726,7 +1720,7 @@ JUDGE STUFF (NON-APPEND)
 	</mod:findLike>
 	
 	<mod:findLike type="customStore">
-	<mod:selector id="STORE_SHELL"/>
+		<mod:selector id="STORE_SHELL"/>
 		<mod-append:category type="CREW">
 			<customTitle>MYSTERIOUS CREW</customTitle>
 			<item/>
@@ -1739,7 +1733,7 @@ JUDGE STUFF (NON-APPEND)
 	</mod:findLike>
 	
 	<mod:findLike type="customStore">
-	<mod:selector id="STORE_SLUG"/>
+		<mod:selector id="STORE_SLUG"/>
 		<mod-append:category type="CREW">
 			<customTitle>MYSTERIOUS CREW</customTitle>
 			<item/>
@@ -3103,9 +3097,13 @@ Outside RK sector checks, like ARKSS checks. //// "GEAR" = "EQUIPMENT" + crew.
 	
 	<name>RK_BOMBLAUNCHER_ANTIBIO_REPAIR</name>
 	<name>RK_KILLALL_BEAM</name>
+	<name>RK_KILLALL_BEAM_ELITE</name>
 	<name>RK_MISSLAUNCHER_2_BATTERY</name>
 	<name>RK_RAIN_OF_ION</name>
+	<name>RK_RAIN_OF_ION_ELITE</name>
 	<name>RK_SHOTPHASER</name>
+	
+	<name>RK_ATKD_SHOTPHASER</name>
 </req>
 
 <req name="RK_HAS_RK_SCORCH_EQUIPMENT_NO_INTERNALS_NO_LOCKED" type="any">
@@ -3126,6 +3124,8 @@ Outside RK sector checks, like ARKSS checks. //// "GEAR" = "EQUIPMENT" + crew.
 	<name>RK_FOCUS_FIRE</name>
 	<name>RK_OXY_FIREFILL_MISSILES</name>
 	<name>DJMOD_RAIN_OF_FIRE</name>
+	
+	<name>RK_ATKD_BOMBLAUNCHER_OXYBOTTLE</name>
 </req>
 
 <req name="RK_HAS_BPS_EQUIPMENT_NO_INTERNALS_NO_LOCKED" type="any">
@@ -3134,6 +3134,7 @@ Outside RK sector checks, like ARKSS checks. //// "GEAR" = "EQUIPMENT" + crew.
 
 	<name>RK_BPS_FOCUS_STATUS</name>
 	<name>DJMOD_LASER_BPS</name>
+	<name>DJMOD_LASER_BPS_ELITE</name>
 </req>
 
 <!-- ************************************************************************
@@ -3199,9 +3200,13 @@ For unique sector 'membership' and other gear checks like Judges. //// "GEAR" = 
 	
 	<name>RK_BOMBLAUNCHER_ANTIBIO_REPAIR</name>
 	<name>RK_KILLALL_BEAM</name>
+	<name>RK_KILLALL_BEAM_ELITE</name>
 	<name>RK_MISSLAUNCHER_2_BATTERY</name>
 	<name>RK_RAIN_OF_ION</name>
+	<name>RK_RAIN_OF_ION_ELITE</name>
 	<name>RK_SHOTPHASER</name>
+	
+	<name>RK_ATKD_SHOTPHASER</name>
 	
 	<name>RK_HAS_BPS_EQUIPMENT</name>
 </req>
@@ -3229,6 +3234,8 @@ For unique sector 'membership' and other gear checks like Judges. //// "GEAR" = 
 	<name>RK_FOCUS_FIRE</name>
 	<name>RK_OXY_FIREFILL_MISSILES</name>
 	<name>DJMOD_RAIN_OF_FIRE</name>
+	
+	<name>RK_ATKD_BOMBLAUNCHER_OXYBOTTLE</name>
 
 	<name>RK_HAS_BPS_EQUIPMENT</name>
 </req>
@@ -3242,6 +3249,7 @@ For unique sector 'membership' and other gear checks like Judges. //// "GEAR" = 
 
 	<name>RK_BPS_FOCUS_STATUS</name>
 	<name>DJMOD_LASER_BPS</name>
+	<name>DJMOD_LASER_BPS_ELITE</name>
 </req>
 
 <req name="DJMOD_SUM_RADIKAL_EQUIPMENT" type="sum">
@@ -3278,6 +3286,7 @@ For unique sector 'membership' and other gear checks like Judges. //// "GEAR" = 
 	<name>RK_BPS_SHIELD_OVER_MATTER</name>
 	<name>RK_BPS_SURVEYOR</name>
 
+
 	<name>DJMOD_BAM_FISSUREBEAM</name>
 	<name>RK_HEAVY_POPPER_1</name>
 	<name>RK_HEAVY_POPPER_2</name>
@@ -3286,8 +3295,10 @@ For unique sector 'membership' and other gear checks like Judges. //// "GEAR" = 
 	
 	<name>RK_BOMBLAUNCHER_ANTIBIO_REPAIR</name>
 	<name>RK_KILLALL_BEAM</name>
+	<name>RK_KILLALL_BEAM_ELITE</name>
 	<name>RK_MISSLAUNCHER_2_BATTERY</name>
 	<name>RK_RAIN_OF_ION</name>
+	<name>RK_RAIN_OF_ION_ELITE</name>
 	<name>RK_SHOTPHASER</name>
 
 	<name>RK_BOMBLAUNCHER_OXYBOTTLE</name>
@@ -3297,6 +3308,12 @@ For unique sector 'membership' and other gear checks like Judges. //// "GEAR" = 
 
 	<name>RK_BPS_FOCUS_STATUS</name>
 	<name>DJMOD_LASER_BPS</name>
+	<name>DJMOD_LASER_BPS_ELITE</name>
+	
+	
+	<name>RK_ATKD_SHOTPHASER</name>
+
+	<name>RK_ATKD_BOMBLAUNCHER_OXYBOTTLE</name>
 </req>
 
 
@@ -3617,7 +3634,9 @@ REFS MV v5.5.1:
 *********************************************************************************************************
 /////////////////////////////////////////////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////////////////////////////////////
-            STORES (1 Sylvan, 1 general, 1 of each subfaction, 1 Sniper)
+            STORES 
+			Outside: appends to Pirate stores, 1 Sylvan, 1 Anti-RK, 1 limited RK.
+			RKS: 1 general, 1 of each subfaction, 1 Sniper, + special event pseudo-stores.
 /////////////////////////////////////////////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////////////////////////////////////
 *********************************************************************************************************
@@ -3626,10 +3645,134 @@ REFS MV v5.5.1:
 REFS: MV v5.5.1; The Outer Expansion for that MV (STORE_SYLVAN_AEA_WEAPONS)
 -->
 
+<!-- The rarity 0 gear in non-RK sectors shouldn't cause issues thanks to custom lists. -->
+
+<!-- REF: The Guy.
+	<mod:findLike type="customStore">
+		<mod:selector id="STORE_PIRATE"/>
+		<mod-append:category type="CREW">
+			<customTitle>MYSTERIOUS CREW</customTitle>
+			<item>
+                <blueprint>human_soldier_operative</blueprint>
+            </item>
+            <item/>
+            <item/>
+			<chance>25</chance>
+		</mod-append:category>
+	</mod:findLike> -->
+
 <mod:findLike type="store">
-	<!-- MIND RARITY=0 GEAR IN S0! SOME LISTS COULD END UP WITH NO VALID ITEMS! (and then crash i guess) -->
+	<!-- APPENDS (just Pirate store) -->
+
+	<!-- <mod:findName type="customStore" name="STORE_PIRATE"> -->
+	<mod:findLike type="customStore">
+		<mod:selector id="STORE_PIRATE"/>
+		<mod-append:category type="WEAPONS" group="100">
+			<customTitle>YOU'RE IN LUCK!</customTitle>
+            <item>
+                <blueprint>SHOP_ITEM_WEAPONS_RK_BAM</blueprint>
+				<modifier min="0.95" max="1.05" flat="false"/>
+                <price>-1</price>
+            </item>    
+            <item>
+                <blueprint>SHOP_ITEM_WEAPONS_RK_PUNK</blueprint>
+				<modifier min="0.95" max="1.05" flat="false"/>
+                <price>-1</price>
+            </item>    
+            <item>
+                <blueprint>SHOP_ITEM_WEAPONS_RK_SCORCH</blueprint>
+				<modifier min="0.95" max="1.05" flat="false"/>
+                <price>-1</price>
+            </item>
+			<groupChance>65</groupChance>
+			<chance>25</chance>
+        </mod-append:category>
+		<mod-append:category type="WEAPONS" group="100">
+			<customTitle>YOU'RE IN LUCK!</customTitle>
+            <item>
+                <blueprint>RK_BPS_FOCUS_STATUS</blueprint>
+				<modifier min="0.95" max="1.05" flat="false"/>
+                <price>-1</price>
+            </item>
+            <item>
+                <blueprint>DJMOD_LASER_BPS</blueprint>
+				<modifier min="0.95" max="1.05" flat="false"/>
+                <price>-1</price>
+            </item>
+			<groupChance>35</groupChance>
+			<chance>25</chance>
+        </mod-append:category>
+
+		<mod-append:category type="AUGMENTS" group="101">
+			<customTitle>YOU'RE IN LUCK!</customTitle>
+            <item>
+                <blueprint>SHOP_ITEM_RK_BAM_AUGMENTS</blueprint>
+				<modifier min="0.95" max="1.05" flat="false"/>
+                <price>-1</price>
+            </item> 
+			<item>
+                <blueprint>SHOP_ITEM_RK_PUNK_AUGMENTS</blueprint>
+				<modifier min="0.95" max="1.05" flat="false"/>
+                <price>-1</price>
+            </item>    			
+            <item>
+                <blueprint>SHOP_ITEM_RK_SCORCH_AUGMENTS</blueprint>
+				<modifier min="0.95" max="1.05" flat="false"/>
+                <price>-1</price>
+            </item>
+			<groupChance>65</groupChance>
+			<chance>25</chance>
+        </mod-append:category>
+		<mod-append:category type="AUGMENTS" group="101">
+			<customTitle>YOU'RE IN LUCK!</customTitle>
+            <item>
+                <blueprint>RK_BPS_SURVEYOR</blueprint>
+				<modifier min="0.95" max="1.05" flat="false"/>
+                <price>-1</price>
+            </item>
+			<groupChance>35</groupChance>
+			<chance>25</chance>
+        </mod-append:category>
+
+		<mod-append:category type="CREW">
+			<customTitle>YOU'RE IN LUCK! (PARTNERS)</customTitle>
+			<allowDuplicates />
+            <item>
+                <blueprint>rk_weaponlike</blueprint>
+				<modifier min="0.95" max="1.05" flat="false"/>
+                <price>-1</price>
+            </item> 
+			<item>
+                <blueprint>rk_weaponlike</blueprint>
+				<modifier min="0.95" max="1.05" flat="false"/>
+                <price>-1</price>
+            </item>    			
+            <item>
+                <blueprint>rk_fireghost</blueprint>
+				<modifier min="0.95" max="1.05" flat="false"/>
+                <price>-1</price>
+            </item>
+			<chance>15</chance>
+        </mod-append:category>
+		
+		<mod-append:category type="DRONES">
+			<customTitle>YOU'RE IN LUCK!</customTitle>
+            <item>
+				<blueprint>SHOP_ITEM_DRONES_RK_PUNK</blueprint>
+				<modifier min="0.95" max="1.05" flat="false"/>
+            </item>
+            <item>
+                <!-- <blueprint>RK_ATKD_BOMBLAUNCHER_OXYBOTTLE</blueprint> -->
+				<blueprint>SHOP_ITEM_DRONES_RK_SCORCH</blueprint>
+				<modifier min="0.95" max="1.05" flat="false"/>
+            </item>
+			<chance>15</chance>
+		</mod-append:category>
+    </mod:findName>
+
 	<mod-append:customStore id="STORE_SYLVAN_RK_GEAR">
         <itemPurchaseLimit>2</itemPurchaseLimit>
+
 		<category type="WEAPONS">
 			<customTitle>RADIKAL BPS WEAPONS</customTitle>
             <item>
@@ -3643,24 +3786,26 @@ REFS: MV v5.5.1; The Outer Expansion for that MV (STORE_SYLVAN_AEA_WEAPONS)
                 <price>-1</price>
             </item>
         </category>
+
 		<category type="WEAPONS">
 			<customTitle>RK SUBFACTIONS WEAPONS</customTitle>
             <item>
-                <blueprint>LIST_WEAPONS_RK_BAM</blueprint>
+                <blueprint>SHOP_ITEM_WEAPONS_RK_BAM</blueprint>
                 <modifier min="0.8" max="1.1" flat="false"/>
                 <price>-1</price>
             </item>    
             <item>
-                <blueprint>LIST_WEAPONS_RK_PUNK</blueprint>
+                <blueprint>SHOP_ITEM_WEAPONS_RK_PUNK</blueprint>
                 <modifier min="0.8" max="1.1" flat="false"/>
                 <price>-1</price>
             </item>    
             <item>
-                <blueprint>LIST_WEAPONS_RK_SCORCH</blueprint>
+                <blueprint>SHOP_ITEM_WEAPONS_RK_SCORCH</blueprint>
                 <modifier min="0.8" max="1.1" flat="false"/>
                 <price>-1</price>
             </item>    
         </category>
+
 		<category type="AUGMENTS">
 			<customTitle>BPS AUGMENTS</customTitle>
             <item>
@@ -3674,8 +3819,9 @@ REFS: MV v5.5.1; The Outer Expansion for that MV (STORE_SYLVAN_AEA_WEAPONS)
                 <price>-1</price>
             </item>
         </category>
+
 		<category type="AUGMENTS">
-			<customTitle>RADIKAL AUGMENTS</customTitle>
+			<customTitle>RK SUBFACTION AUGMENTS</customTitle>
             <item>
                 <blueprint>SHOP_ITEM_RK_BAM_AUGMENTS</blueprint>
                 <modifier min="0.8" max="1.1" flat="false"/>
@@ -3692,6 +3838,7 @@ REFS: MV v5.5.1; The Outer Expansion for that MV (STORE_SYLVAN_AEA_WEAPONS)
                 <price>-1</price>
             </item>    
         </category>
+
 		<category type="CREW">
 			<customTitle>RADIKALS</customTitle>
 			<allowDuplicates />
@@ -3711,6 +3858,19 @@ REFS: MV v5.5.1; The Outer Expansion for that MV (STORE_SYLVAN_AEA_WEAPONS)
                 <price>-1</price>
             </item>    
         </category>
+		
+		<category type="DRONES">
+			<customTitle>RADIKAL DRONES</customTitle>
+            <item>
+				<blueprint>SHOP_ITEM_DRONES_RK_PUNK</blueprint>
+                <modifier min="0.8" max="1.1" flat="false"/>
+            </item>
+            <item>
+				<blueprint>SHOP_ITEM_DRONES_RK_SCORCH</blueprint>
+                <modifier min="0.8" max="1.1" flat="false"/>
+            </item>
+			<chance>50</chance>
+		</category>
     </mod-append:customStore>
 
 	<!-- Aka "RK_A". First one allows 1 pick, second allows 2. -->
@@ -3807,17 +3967,17 @@ REFS: MV v5.5.1; The Outer Expansion for that MV (STORE_SYLVAN_AEA_WEAPONS)
 		<category type="WEAPONS">
 			<customTitle>RK SUBFACTIONS WEAPONS</customTitle>
             <item>
-                <blueprint>LIST_WEAPONS_RK_BAM</blueprint>
+                <blueprint>SHOP_ITEM_WEAPONS_RK_BAM</blueprint>
 				<modifier min="0.95" max="1.05" flat="false"/>
                 <price>-1</price>
             </item>    
             <item>
-                <blueprint>LIST_WEAPONS_RK_PUNK</blueprint>
+                <blueprint>SHOP_ITEM_WEAPONS_RK_PUNK</blueprint>
 				<modifier min="0.95" max="1.05" flat="false"/>
                 <price>-1</price>
             </item>    
             <item>
-                <blueprint>LIST_WEAPONS_RK_SCORCH</blueprint>
+                <blueprint>SHOP_ITEM_WEAPONS_RK_SCORCH</blueprint>
 				<modifier min="0.95" max="1.05" flat="false"/>
                 <price>-1</price>
             </item>    
@@ -4048,6 +4208,20 @@ REFS: MV v5.5.1; The Outer Expansion for that MV (STORE_SYLVAN_AEA_WEAPONS)
 			<chance>50</chance>
         </category>
 
+		<category type="DRONES">
+			<customTitle>RADIKAL DRONES</customTitle>
+            <item>
+				<blueprint>SHOP_ITEM_DRONES_RK_PUNK</blueprint>
+				<modifier min="0.95" max="1.05" flat="false"/>
+            </item>
+            <item>
+                <!-- <blueprint>RK_ATKD_BOMBLAUNCHER_OXYBOTTLE</blueprint> -->
+                <blueprint>SHOP_ITEM_DRONES_RK_SCORCH</blueprint>
+				<modifier min="0.95" max="1.05" flat="false"/>
+            </item>
+			<chance>34</chance>
+		</category>
+
 	</mod-append:customStore>
 
 	<!-- 
@@ -4098,15 +4272,15 @@ REFS: MV v5.5.1; The Outer Expansion for that MV (STORE_SYLVAN_AEA_WEAPONS)
 		<category type="WEAPONS">
 			<customTitle>RADIKAL WEAPONS</customTitle>
 			<item>
-				<blueprint>LIST_WEAPONS_RK_SUBFACTIONS</blueprint>
+				<blueprint>SHOP_ITEM_WEAPONS_RK_SUBFACTIONS</blueprint>
 				<modifier min="0.80" max="0.90" flat="false"/>
 			</item>
 			<item>
-				<blueprint>LIST_WEAPONS_RK_SUBFACTIONS</blueprint>
+				<blueprint>SHOP_ITEM_WEAPONS_RK_SUBFACTIONS</blueprint>
 				<modifier min="0.80" max="0.90" flat="false"/>
 			</item>
 			<item>
-				<blueprint>LIST_WEAPONS_RK_SUBFACTIONS</blueprint>
+				<blueprint>SHOP_ITEM_WEAPONS_RK_SUBFACTIONS</blueprint>
 				<modifier min="0.80" max="0.90" flat="false"/>
 			</item>
 			<item/>
@@ -4167,9 +4341,13 @@ REFS: MV v5.5.1; The Outer Expansion for that MV (STORE_SYLVAN_AEA_WEAPONS)
 		
 		<category type="DRONES">
 			<item/>
-			<item/>
-			<item/>
-			<chance>50</chance>
+			<item>
+				<blueprint>SHOP_ITEM_DRONES_RK_PUNK</blueprint>
+			</item>
+			<item>
+				<blueprint>SHOP_ITEM_DRONES_RK_SCORCH</blueprint>
+			</item>
+			<chance>100</chance>
 		</category>
 		
 		<!-- If total groupchance isn't 100, the difference with 100 is the chance none will show up. -->
@@ -4626,7 +4804,7 @@ REFS: MV v5.5.1; The Outer Expansion for that MV (STORE_SYLVAN_AEA_WEAPONS)
 			<chance>100</chance>
         </category>
 		<category type="AUGMENTS">
-			<customTitle>E X C L U S I V E</customTitle>
+			<customTitle>GUARANTEED - RISKY</customTitle>
 			<item>
                 <blueprint>RK_LEAD_TITANS</blueprint>
                 <modifier min="0.85" max="1.0" flat="false"/>
@@ -4747,8 +4925,12 @@ REFS: MV v5.5.1; The Outer Expansion for that MV (STORE_SYLVAN_AEA_WEAPONS)
 			<chance>100</chance>
 		</category>
 		
+		
 		<category type="DRONES">
-			<item/>
+            <item>
+				<blueprint>SHOP_ITEM_DRONES_RK_PUNK</blueprint>
+                <modifier min="0.8" max="0.9" flat="false"/>
+            </item>
 			<item/>
 			<item/>
 			<chance>100</chance>
@@ -4992,7 +5174,11 @@ REFS: MV v5.5.1; The Outer Expansion for that MV (STORE_SYLVAN_AEA_WEAPONS)
 		</category>
 		
 		<category type="DRONES">
-			<item/>
+            <item>
+                <!-- <blueprint>RK_ATKD_BOMBLAUNCHER_OXYBOTTLE</blueprint> -->
+				<blueprint>SHOP_ITEM_DRONES_RK_SCORCH</blueprint>
+                <modifier min="0.8" max="0.9" flat="false"/>
+            </item>
 			<item/>
 			<item/>
 			<chance>100</chance>
@@ -5128,7 +5314,7 @@ REFS: MV v5.5.1; The Outer Expansion for that MV (STORE_SYLVAN_AEA_WEAPONS)
 			<chance>100</chance>
         </category>
 		<category type="AUGMENTS">
-			<customTitle>E X C L U S I V E</customTitle>
+			<customTitle>GUARANTEED - RISKY</customTitle>
 			<item>
                 <blueprint>RK_SCORCH_PREIGNITER</blueprint>
                 <modifier min="0.85" max="1.0" flat="false"/>
@@ -5343,7 +5529,7 @@ plus any cloak-friendly/cloak-like augs. -->
 				<extraConditions type="or">
 					<suffocating>true</suffocating>
 				</extraConditions>
-				<!-- Can both LIST and individually at once. REF: unique_obyn MV v5.5.1:
+				<!-- Can both LIST and individually, at once. REF: unique_obyn MV v5.5.1:
 				<blackList load="LIST_CREW_OBYN">
 					<blobsalt/>
 				</blackList> -->
@@ -5531,6 +5717,7 @@ plus any cloak-friendly/cloak-like augs. -->
 					<blueprintList load="LIST_CREW_LANIUS"/>
 					<blueprintList load="LIST_CREW_ROCK"/>
 					<blueprintList load="LIST_CREW_OBYN"/>
+					<fr_salt/>
 				</whiteList>
 
 				<extraConditions type="and">             
@@ -5548,6 +5735,7 @@ plus any cloak-friendly/cloak-like augs. -->
 					<blueprintList load="LIST_CREW_LANIUS"/>
 					<blueprintList load="LIST_CREW_ROCK"/>
 					<blueprintList load="LIST_CREW_OBYN"/>
+					<fr_salt/>
 				</whiteList>
 			</statBoost>
 
@@ -5564,6 +5752,7 @@ plus any cloak-friendly/cloak-like augs. -->
 					<blueprintList load="LIST_CREW_LANIUS"/>
 					<blueprintList load="LIST_CREW_ROCK"/>
 					<blueprintList load="LIST_CREW_OBYN"/>
+					<fr_salt/>
 				</whiteList>
 			</statBoost>
 			<statBoost name="stunMultiplier">
@@ -5577,6 +5766,7 @@ plus any cloak-friendly/cloak-like augs. -->
 					<blueprintList load="LIST_CREW_LANIUS"/>
 					<blueprintList load="LIST_CREW_ROCK"/>
 					<blueprintList load="LIST_CREW_OBYN"/>
+					<fr_salt/>
 				</whiteList>
 			</statBoost>
 			
@@ -5591,6 +5781,7 @@ plus any cloak-friendly/cloak-like augs. -->
 					<blueprintList load="LIST_CREW_LANIUS"/>
 					<blueprintList load="LIST_CREW_ROCK"/>
 					<blueprintList load="LIST_CREW_OBYN"/>
+					<fr_salt/>
 				</whiteList>
 			</statBoost>
 			<statBoost name="doorDamageMultiplier">
@@ -5604,6 +5795,7 @@ plus any cloak-friendly/cloak-like augs. -->
 					<blueprintList load="LIST_CREW_LANIUS"/>
 					<blueprintList load="LIST_CREW_ROCK"/>
 					<blueprintList load="LIST_CREW_OBYN"/>
+					<fr_salt/>
 				</whiteList>
 			</statBoost>
 			<statBoost name="sabotageSpeedMultiplier">
@@ -5617,6 +5809,7 @@ plus any cloak-friendly/cloak-like augs. -->
 					<blueprintList load="LIST_CREW_LANIUS"/>
 					<blueprintList load="LIST_CREW_ROCK"/>
 					<blueprintList load="LIST_CREW_OBYN"/>
+					<fr_salt/>
 				</whiteList>
 			</statBoost>
 
@@ -5643,6 +5836,7 @@ plus any cloak-friendly/cloak-like augs. -->
 					<blueprintList load="LIST_CREW_LANIUS"/>
 					<blueprintList load="LIST_CREW_ROCK"/>
 					<blueprintList load="LIST_CREW_OBYN"/>
+					<fr_salt/>
 				</whiteList>
 			</statBoost>
 
@@ -5658,6 +5852,7 @@ plus any cloak-friendly/cloak-like augs. -->
 					<blueprintList load="LIST_CREW_LANIUS"/>
 					<blueprintList load="LIST_CREW_ROCK"/>
 					<blueprintList load="LIST_CREW_OBYN"/>
+					<fr_salt/>
 				</blackList>
 			</statBoost>
 			<statBoost name="moveSpeedMultiplier">
@@ -10009,7 +10204,8 @@ TODO:
 
 			<statBoost name="silenced">
 				<boostType>SET</boostType>
-				<value>false</value>
+				<!-- <value>false</value> -->
+				<value>true</value>
 				<shipTarget>ALL</shipTarget>
 				<crewTarget>ORIGINAL_ALLIES</crewTarget>
 				<droneTarget>CREW</droneTarget>

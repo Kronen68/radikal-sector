@@ -938,6 +938,24 @@ Punk
 	<boost>rk_killall_beam_charge</boost>
 </weaponAnim>
 
+<animSheet name="rk_killall_beam_elite_charge" w="360" h="72" fw="60" fh="72">weapon_radikal/rk_killall_beam_elite_chargeglow.png</animSheet>
+<anim name="rk_killall_beam_elite_charge">
+	<sheet>rk_killall_beam_elite_charge</sheet>
+	<desc length="6" x="0" y="0"/>
+	<time>1.0</time>
+</anim>
+<animSheet name="rk_killall_beam_elite" w="600" h="72" fw="60" fh="72">weapon_radikal/rk_killall_beam_elite.png</animSheet>
+<weaponAnim name="rk_killall_beam_elite">
+	<sheet>rk_killall_beam_elite</sheet>
+	<desc length="10" x="0" y="0"/>
+	<chargedFrame>1</chargedFrame>
+	<fireFrame>2</fireFrame>
+	<firePoint  x="31" y="34"/>
+	<mountPoint x="7" y="52"/>
+	<chargeImage>weapon_radikal/rk_killall_beam_glow.png</chargeImage>
+	<boost>rk_killall_beam_elite_charge</boost>
+</weaponAnim>
+
 <animSheet name="rk_misslauncher_2_battery" w="84" h="58" fw="28" fh="58">weapon_radikal/rk_misslauncher_2_battery.png</animSheet>
 <weaponAnim name="rk_misslauncher_2_battery">
 	<sheet>rk_misslauncher_2_battery</sheet>
@@ -971,13 +989,6 @@ REF v5.5.1
 	<boost>ion_phase_chaingun_charge</boost>
 </weaponAnim>
 -->
-<!-- the OG chain glow:
-<animSheet name="rk_rain_of_ion_charge" w="200" h="84" fw="50" fh="84">weapon_radikal/rk_rain_of_ion_chargeglow.png</animSheet>
-<anim name="rk_rain_of_ion_charge">
-	<sheet>rk_rain_of_ion_charge</sheet>
-	<desc length="4" x="0" y="0"/>
-	<time>1.0</time>
-</anim> -->
 <animSheet name="rk_rain_of_ion_charge" w="100" h="84" fw="50" fh="84">weapon_radikal/rk_rain_of_ion_chargeglow2.png</animSheet>
 <anim name="rk_rain_of_ion_charge">
 	<sheet>rk_rain_of_ion_charge</sheet>
@@ -994,6 +1005,25 @@ REF v5.5.1
 	<mountPoint x="3" y="54"/>
 	<chargeImage>weapon_radikal/rk_rain_of_ion_glow.png</chargeImage>
 	<boost>rk_rain_of_ion_charge</boost>		<!-- Shows the CHAIN stacks -->
+</weaponAnim>
+
+<!-- the OG chain glow: -->
+<animSheet name="rk_rain_of_ion_elite_charge" w="200" h="84" fw="50" fh="84">weapon_radikal/rk_rain_of_ion_elite_chargeglow.png</animSheet>
+<anim name="rk_rain_of_ion_elite_charge">
+	<sheet>rk_rain_of_ion_elite_charge</sheet>
+	<desc length="4" x="0" y="0"/>
+	<time>1.0</time>
+</anim>
+<animSheet name="rk_rain_of_ion_elite" w="500" h="84" fw="50" fh="84">weapon_radikal/rk_rain_of_ion_elite.png</animSheet>
+<weaponAnim name="rk_rain_of_ion_elite">
+	<sheet>rk_rain_of_ion_elite</sheet>
+	<desc length="10" x="0" y="0"/>
+	<chargedFrame>1</chargedFrame>
+	<fireFrame>7</fireFrame>
+	<firePoint  x="21" y="18"/>
+	<mountPoint x="3" y="54"/>
+	<chargeImage>weapon_radikal/rk_rain_of_ion_glow.png</chargeImage>
+	<boost>rk_rain_of_ion_elite_charge</boost>		<!-- Shows the CHAIN stacks -->
 </weaponAnim>
 
 <!-- <animSheet name="rk_shotphaser" w="168" h="73" fw="42" fh="73">weapon_radikal/rk_shotphaser_chargeglow.png</animSheet>
@@ -1187,6 +1217,18 @@ BPS
 <animSheet name="djmod_laser_bps" w="279" h="76" fw="31" fh="76">weapon_radikal/djmod_laser_bps.png</animSheet>
 <weaponAnim name="djmod_laser_bps">
 	<sheet>djmod_laser_bps</sheet>
+	<desc length="9" x="0" y="0"/>
+	<chargedFrame>1</chargedFrame>
+	<fireFrame>2</fireFrame>
+	<firePoint  x="14" y="40"/>
+	<mountPoint x="1" y="53"/>
+	<chargeImage>weapon_radikal/djmod_laser_bps_glow.png</chargeImage>
+	<boost>djmod_laser_bps_charge</boost>
+</weaponAnim>
+
+<animSheet name="djmod_laser_bps_elite" w="279" h="76" fw="31" fh="76">weapon_radikal/djmod_laser_bps_elite.png</animSheet>
+<weaponAnim name="djmod_laser_bps_elite">
+	<sheet>djmod_laser_bps_elite</sheet>
 	<desc length="9" x="0" y="0"/>
 	<chargedFrame>1</chargedFrame>
 	<fireFrame>2</fireFrame>

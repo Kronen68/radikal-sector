@@ -314,11 +314,35 @@
 	<!-- stuff: Means less scrap more resources -->
 	<autoReward level="LOW">stuff</autoReward>
 	
+	<choice req="DJMOD_LASER_BPS" hidden="true" blue="true">
+		<text>(BPS Messenger) Your RK gear is detecting its own upgrade kit.</text>
+		<event>
+			<text>You extract the upgrade kit and get away.
+				You immediately apply it to your gear...
+			</text>
+			<remove name="DJMOD_LASER_BPS"/>
+
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<text>Your gear is now elite!</text>
+					<weapon name="DJMOD_LASER_BPS_ELITE"/>
+
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="GUARD_RADIKAL_FOLLOWUP"/>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+
 	<choice hidden="true">
 		<text>Continue...</text>
 		<event>
 			<text>You find spare RadiKal equipment!</text>
 			<augment name="GIFTLIST_RADIKAL_GUARD"/>	<!-- GIFTLISTS WITH MIXED TYPES DONT WORK, NEVER DID. -->
+
 			<choice hidden="true">
 				<text>Continue...</text>
 				<event load="GUARD_RADIKAL_FOLLOWUP"/>

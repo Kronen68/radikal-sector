@@ -799,7 +799,7 @@ For Demicloners End.
 	<name>RK_ENEMIES_BURN_MORE</name>
 	<name>RK_ENEMIES_CAN_BURN</name>
 	<name>RK_COMBAT_OXYGENIZER</name>
-	<name>RK_SCORCH_PREIGNITER</name>
+	<!-- <name>RK_SCORCH_PREIGNITER</name> -->
 	<name>RK_WEAPONS_ON_FIRE</name>
 </blueprintList>
 <blueprintList name="SHOP_ITEM_RK_BPS_AUGMENTS">	<!-- Not used yet -->
@@ -871,6 +871,31 @@ RK and RK-thematic WEAPON lists
 	
 	<name>RK_BOMBLAUNCHER_ANTIBIO_REPAIR</name>
 	<name>RK_KILLALL_BEAM</name>
+	<name>RK_KILLALL_BEAM_ELITE</name>
+	<name>RK_MISSLAUNCHER_2_BATTERY</name>
+	<name>RK_RAIN_OF_ION</name>
+	<name>RK_RAIN_OF_ION_ELITE</name>
+	<name>RK_SHOTPHASER</name>
+
+	<name>RK_BOMBLAUNCHER_OXYBOTTLE</name>
+	<name>RK_FOCUS_FIRE</name>
+	<name>RK_OXY_FIREFILL_MISSILES</name>
+	<name>DJMOD_RAIN_OF_FIRE</name>
+	
+	<name>RK_BPS_FOCUS_STATUS</name>
+	<name>DJMOD_LASER_BPS</name>
+	<name>DJMOD_LASER_BPS_ELITE</name>
+</blueprintList>
+
+<blueprintList name="LIST_WEAPONS_RADIKAL_NO_ELITE">
+	<name>DJMOD_BAM_FISSUREBEAM</name>
+	<name>RK_HEAVY_POPPER_1</name>
+	<name>RK_HEAVY_POPPER_2</name>
+	<name>RK_HEAVY_POPPER_3</name>
+	<name>RK_UNLOADER</name>
+	
+	<name>RK_BOMBLAUNCHER_ANTIBIO_REPAIR</name>
+	<name>RK_KILLALL_BEAM</name>
 	<name>RK_MISSLAUNCHER_2_BATTERY</name>
 	<name>RK_RAIN_OF_ION</name>
 	<name>RK_SHOTPHASER</name>
@@ -884,8 +909,69 @@ RK and RK-thematic WEAPON lists
 	<name>DJMOD_LASER_BPS</name>
 </blueprintList>
 
+<blueprintList name="LIST_WEAPONS_RADIKAL_ELITE">
+	<name>RK_KILLALL_BEAM_ELITE</name>
+	<name>RK_RAIN_OF_ION_ELITE</name>
+	
+	<name>DJMOD_LASER_BPS_ELITE</name>
+</blueprintList>
+
 <!-- No multifaction weapons. -->
-<blueprintList name="LIST_WEAPONS_RK_SUBFACTIONS">
+<blueprintList name="SHOP_ITEM_WEAPONS_RK_SUBFACTIONS">
+	<name>DJMOD_BAM_FISSUREBEAM</name>
+	<name>RK_HEAVY_POPPER_1</name>
+	<name>RK_HEAVY_POPPER_2</name>
+	<name>RK_HEAVY_POPPER_3</name>
+	<name>RK_UNLOADER</name>
+	
+	<name>RK_BOMBLAUNCHER_ANTIBIO_REPAIR</name>
+	<name>RK_KILLALL_BEAM</name>
+	<!-- <name>RK_KILLALL_BEAM_ELITE</name> -->
+	<name>RK_MISSLAUNCHER_2_BATTERY</name>
+	<name>RK_RAIN_OF_ION</name>
+	<!-- <name>RK_RAIN_OF_ION_ELITE</name> -->
+	<name>RK_SHOTPHASER</name>
+
+	<name>RK_BOMBLAUNCHER_OXYBOTTLE</name>
+	<name>RK_FOCUS_FIRE</name>
+	<name>RK_OXY_FIREFILL_MISSILES</name>
+	<name>DJMOD_RAIN_OF_FIRE</name>
+</blueprintList>
+
+<blueprintList name="SHOP_ITEM_WEAPONS_RK_BAM">
+	<name>DJMOD_BAM_FISSUREBEAM</name>
+	<name>RK_HEAVY_POPPER_1</name>
+	<name>RK_HEAVY_POPPER_2</name>
+	<name>RK_HEAVY_POPPER_3</name>
+	<name>RK_UNLOADER</name>
+</blueprintList>
+
+<blueprintList name="SHOP_ITEM_WEAPONS_RK_PUNK">
+	<name>RK_BOMBLAUNCHER_ANTIBIO_REPAIR</name>
+	<name>RK_KILLALL_BEAM</name>
+	<name>RK_MISSLAUNCHER_2_BATTERY</name>
+	<name>RK_RAIN_OF_ION</name>
+	<name>RK_SHOTPHASER</name>
+</blueprintList>
+
+<blueprintList name="SHOP_ITEM_WEAPONS_RK_SCORCH">
+	<name>RK_BOMBLAUNCHER_OXYBOTTLE</name>
+	<name>RK_FOCUS_FIRE</name>
+	<name>RK_OXY_FIREFILL_MISSILES</name>
+	<name>DJMOD_RAIN_OF_FIRE</name>
+</blueprintList>
+
+<blueprintList name="SHOP_ITEM_DRONES_RK_PUNK">
+	<name>RK_ATKD_SHOTPHASER</name>
+</blueprintList>
+
+<blueprintList name="SHOP_ITEM_DRONES_RK_SCORCH">
+	<name>RK_ATKD_BOMBLAUNCHER_OXYBOTTLE</name>
+</blueprintList>
+
+<!-- Store/Shop items end -->
+
+<blueprintList name="GIFTLIST_RK_WEAPONS">
 	<name>DJMOD_BAM_FISSUREBEAM</name>
 	<name>RK_HEAVY_POPPER_1</name>
 	<name>RK_HEAVY_POPPER_2</name>
@@ -902,29 +988,9 @@ RK and RK-thematic WEAPON lists
 	<name>RK_FOCUS_FIRE</name>
 	<name>RK_OXY_FIREFILL_MISSILES</name>
 	<name>DJMOD_RAIN_OF_FIRE</name>
-</blueprintList>
-
-<blueprintList name="LIST_WEAPONS_RK_BAM">
-	<name>DJMOD_BAM_FISSUREBEAM</name>
-	<name>RK_HEAVY_POPPER_1</name>
-	<name>RK_HEAVY_POPPER_2</name>
-	<name>RK_HEAVY_POPPER_3</name>
-	<name>RK_UNLOADER</name>
-</blueprintList>
-
-<blueprintList name="LIST_WEAPONS_RK_PUNK">
-	<name>RK_BOMBLAUNCHER_ANTIBIO_REPAIR</name>
-	<name>RK_KILLALL_BEAM</name>
-	<name>RK_MISSLAUNCHER_2_BATTERY</name>
-	<name>RK_RAIN_OF_ION</name>
-	<name>RK_SHOTPHASER</name>
-</blueprintList>
-
-<blueprintList name="LIST_WEAPONS_RK_SCORCH">
-	<name>RK_BOMBLAUNCHER_OXYBOTTLE</name>
-	<name>RK_FOCUS_FIRE</name>
-	<name>RK_OXY_FIREFILL_MISSILES</name>
-	<name>DJMOD_RAIN_OF_FIRE</name>
+	
+	<name>RK_BPS_FOCUS_STATUS</name>
+	<name>DJMOD_LASER_BPS</name>
 </blueprintList>
 
 <blueprintList name="LIST_RK_WEAPONS_ENEMIES_CAN_USE_GENERICALLY">
@@ -1111,12 +1177,34 @@ RK and RK-thematic WEAPON lists
 	<name>BEAM_ADAPT_2</name>
 </blueprintList>
 
+<!-- LISTS UNUSED YET (FOR SHIP LOADOUTS) -->
+<blueprintList name="LIST_DRONES_RK_PUNK">
+	<name>RK_ATKD_SHOTPHASER</name>
+</blueprintList>
+<blueprintList name="LIST_DRONES_RK_SCORCH">
+	<name>RK_ATKD_BOMBLAUNCHER_OXYBOTTLE</name>
+</blueprintList>
+
+<blueprintList name="LIST_RK_DRONES_ENEMIES_CAN_USE_GENERICALLY">
+	<name>RK_ATKD_BOMBLAUNCHER_OXYBOTTLE</name>
+</blueprintList>
+
+<!-- 
+============================================================
+		RKS Crew lists
+============================================================
+-->
+
+<!-- <blueprintList name="GIFTLIST_PUNK_GARAGE_CREW">
+	<name>BEAM_FIRE</name>
+</blueprintList> -->
 
 <!-- 
 ============================================================
 		RKS Hideout lists
 ============================================================
 -->
+
 <blueprintList name="RK_LIST_HIDEOUT_RECRUITS_BASIC">
 	<name>crystal</name>
 	<name>crystal</name>
@@ -1480,7 +1568,7 @@ RK and RK-thematic WEAPON lists
 	</systemList>
 	<weaponSlots>4</weaponSlots>
 	<droneSlots>0</droneSlots>
-	<weaponList missiles="7" count="4" load="LIST_WEAPONS_RADIKAL" />
+	<weaponList missiles="7" count="4" load="LIST_WEAPONS_RADIKAL_NO_ELITE" />
 	<droneList drones="0" count="0" />
 	<health amount="14" />				<!-- This seems to be a MAX, it can spawn with less! -->
 	<maxPower amount="15" />			<!-- Will be auto-added if random gen adds system levels. -->
@@ -1761,7 +1849,7 @@ RK and RK-thematic WEAPON lists
 		<weapon name="RK_HEAVY_POPPER_1" />
 		<weapon name="BOMB_BREACH_1" />
 		<weapon name="BEAM_STUN" />
-		<weapon name="LIST_WEAPONS_RADIKAL" />
+		<weapon name="LIST_WEAPONS_RADIKAL_NO_ELITE" />
 	</weaponList>
 	<!-- Drone powercosts: 1, 1, 2, 2 -->
 	<droneList drones="7" count="4">
@@ -1940,7 +2028,7 @@ RK and RK-thematic WEAPON lists
 	<!-- Weapon powercosts: 2, ?, ?, ? -->
 	<weaponList missiles="7" count="4">
 		<weapon name="DJMOD_LASER_BPS" />
-		<weapon name="LIST_WEAPONS_RADIKAL" />
+		<weapon name="LIST_WEAPONS_RADIKAL_NO_ELITE" />
 		<weapon name="LIST_WEAPONS_COALITION" />
 		<weapon name="LIST_WEAPONS_COALITION" />
 	</weaponList>
@@ -2750,8 +2838,10 @@ LIST_CREW_MORPH and all the other morph lists...
 	
 	<name>RK_BOMBLAUNCHER_ANTIBIO_REPAIR</name>
 	<name>RK_KILLALL_BEAM</name>
+	<name>RK_KILLALL_BEAM_ELITE</name>
 	<name>RK_MISSLAUNCHER_2_BATTERY</name>
 	<name>RK_RAIN_OF_ION</name>
+	<name>RK_RAIN_OF_ION_ELITE</name>
 	<name>RK_SHOTPHASER</name>
 </blueprintList>
 <blueprintList name="JUDGELIST_ROCK_RK_SCORCH_EQUIPMENT">
@@ -2776,6 +2866,7 @@ LIST_CREW_MORPH and all the other morph lists...
 	
 	<name>RK_BPS_FOCUS_STATUS</name>
 	<name>DJMOD_LASER_BPS</name>
+	<name>DJMOD_LASER_BPS_ELITE</name>
 </blueprintList>
 
 <!-- REF: Darkest Desire v4.1.4 for MV v5.5.1:
@@ -2867,10 +2958,14 @@ LIST_SLAVES_GREAT
 	<mod-append:name>RK_BPS_FOCUS_STATUS</mod-append:name>
 	<mod-append:name>DJMOD_LASER_BPS</mod-append:name>
 </mod:findName>
-<!-- 
-LIST_CONTRABAND_DRONE_SMUGGLER
--->
+
+<mod:findName type="blueprintList" name="LIST_CONTRABAND_DRONE_SMUGGLER">
+	<mod-append:name>RK_ATKD_SHOTPHASER</mod-append:name>
+	<mod-append:name>RK_ATKD_BOMBLAUNCHER_OXYBOTTLE</mod-append:name>
+</mod:findName>
+
 <mod:findName type="blueprintList" name="LIST_CONTRABAND_AUGMENT_SMUGGLER">
+	<mod-append:name>RK_BAM_DIVINE_ARMOR</mod-append:name>
 	<mod-append:name>DJMOD_COMBAT_SHIPVORE_RAM</mod-append:name>
 	<mod-append:name>RK_COMBAT_AUTO_SYS_REPAIR</mod-append:name>
 	<mod-append:name>RK_LEAD_TITANS</mod-append:name>
@@ -2888,9 +2983,14 @@ LIST_CONTRABAND_DRONE_SMUGGLER
 	<mod-append:name>EX_RK_CHOKING_IS_FINE</mod-append:name>
 	<mod-append:name>EX_DJMOD_DEMICLONER</mod-append:name>
 </mod:findName>
-<!-- 
-LIST_CONTRABAND_WEP_SMUGGLER_DELUXE
--->
+
+<mod:findName type="blueprintList" name="LIST_CONTRABAND_WEP_SMUGGLER_DELUXE">
+	<mod-append:name>RK_KILLALL_BEAM_ELITE</mod-append:name>
+	<mod-append:name>RK_RAIN_OF_ION_ELITE</mod-append:name>
+	
+	<mod-append:name>DJMOD_LASER_BPS_ELITE</mod-append:name>
+</mod:findName>
+
 <!--
 ////////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////
@@ -2942,6 +3042,7 @@ LIST_CONTRABAND_WEP_SMUGGLER_DELUXE
 ***********************************************************************************************************************
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 -->
+
 <!--
 ////////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////
@@ -2960,8 +3061,10 @@ LIST_CONTRABAND_WEP_SMUGGLER_DELUXE
 
 	<mod-append:name>RK_BOMBLAUNCHER_ANTIBIO_REPAIR</mod-append:name>
 	<mod-append:name>RK_KILLALL_BEAM</mod-append:name>
+	<mod-append:name>RK_KILLALL_BEAM_ELITE</mod-append:name>
 	<mod-append:name>RK_MISSLAUNCHER_2_BATTERY</mod-append:name>
 	<mod-append:name>RK_RAIN_OF_ION</mod-append:name>
+	<mod-append:name>RK_RAIN_OF_ION_ELITE</mod-append:name>
 	<mod-append:name>RK_SHOTPHASER</mod-append:name>
 
 	<mod-append:name>RK_BOMBLAUNCHER_OXYBOTTLE</mod-append:name>
@@ -2971,6 +3074,7 @@ LIST_CONTRABAND_WEP_SMUGGLER_DELUXE
 
 	<mod-append:name>RK_BPS_FOCUS_STATUS</mod-append:name>
 	<mod-append:name>DJMOD_LASER_BPS</mod-append:name>
+	<mod-append:name>DJMOD_LASER_BPS_ELITE</mod-append:name>
 </mod:findName>
 
 <!-- Different from the list above. Power draw of the weapon does NOT matter (MV's list has Voulge). -->
@@ -3005,6 +3109,16 @@ LIST_CONTRABAND_WEP_SMUGGLER_DELUXE
 	<mod-append:name>DJMOD_RAIN_OF_FIRE</mod-append:name>
 </mod:findName>
 
+<mod:findName type="blueprintList" name="LIST_DRONES_ALL">
+	<mod-append:name>RK_ATKD_SHOTPHASER</mod-append:name>
+	<mod-append:name>RK_ATKD_BOMBLAUNCHER_OXYBOTTLE</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="LIST_DRONES_ALL_CRAPBUCKET">
+	<mod-append:name>RK_ATKD_SHOTPHASER</mod-append:name>
+	<mod-append:name>RK_ATKD_BOMBLAUNCHER_OXYBOTTLE</mod-append:name>
+</mod:findName>
+
 <mod:findName type="blueprintList" name="LIST_CHECK_TOGGLES_AND_AMPS">
 	<mod-append:name>RK_ENEMIES_CAN_BURN</mod-append:name>
     <mod-append:name>RK_ENEMIES_BURN_MORE</mod-append:name>
@@ -3026,11 +3140,13 @@ BLUELIST_RIFT
 
 <mod:findName type="blueprintList" name="BLUELIST_ION">
 	<mod-append:name>RK_RAIN_OF_ION</mod-append:name>
+	<mod-append:name>RK_RAIN_OF_ION_ELITE</mod-append:name>
 	<mod-append:name>RK_SHOTPHASER</mod-append:name>
 </mod:findName>
 
 <mod:findName type="blueprintList" name="BLUELIST_ENERGY">
 	<mod-append:name>DJMOD_LASER_BPS</mod-append:name>
+	<mod-append:name>DJMOD_LASER_BPS_ELITE</mod-append:name>
 </mod:findName>
 
 <mod:findName type="blueprintList" name="BLUELIST_MISSILES_ALL">
@@ -3051,6 +3167,9 @@ BLUELIST_RIFT
 </mod:findName>
 <!-- 
 BLUELIST_MISSILES_POWERFUL
+-->
+
+<!-- 
 BLUELIST_ACCURATE_BALLISTIC			(100 accuracy)
 BLUELIST_MINELAUNCHERS_ALL
 BLUELIST_BOMBS (see note in MV)
@@ -3067,6 +3186,8 @@ BLUELIST_BOMBS_HEAL
 	<mod-append:name>RK_MISSLAUNCHER_2_BATTERY</mod-append:name>
 
 	<mod-append:name>RK_BOMBLAUNCHER_OXYBOTTLE</mod-append:name>
+	
+	<mod-append:name>RK_ATKD_BOMBLAUNCHER_OXYBOTTLE</mod-append:name>
 </mod:findName>
 <!-- 
 BLUELIST_WEAPONS_RECYCLER
@@ -3076,6 +3197,7 @@ BLUELIST_WEAPONS_RECYCLER
 <mod:findName type="blueprintList" name="BLUELIST_BEAMS_ALL">
 	<mod-append:name>DJMOD_BAM_FISSUREBEAM</mod-append:name>
 	<mod-append:name>RK_KILLALL_BEAM</mod-append:name>
+	<mod-append:name>RK_KILLALL_BEAM_ELITE</mod-append:name>
 </mod:findName>
 
 <mod:findName type="blueprintList" name="BLUELIST_BEAMS_DAMAGE">
@@ -3102,6 +3224,7 @@ BLUELIST_WEAPONS_RECYCLER
 	<mod-append:name>RK_HEAVY_POPPER_2</mod-append:name>
 	<mod-append:name>RK_HEAVY_POPPER_3</mod-append:name>
 	<mod-append:name>DJMOD_LASER_BPS</mod-append:name>
+	<mod-append:name>DJMOD_LASER_BPS_ELITE</mod-append:name>
 </mod:findName>
 
 <mod:findName type="blueprintList" name="BLUELIST_WEAPONS_FIRE_ALL">
@@ -3111,6 +3234,7 @@ BLUELIST_WEAPONS_RECYCLER
 	<mod-append:name>RK_HEAVY_POPPER_3</mod-append:name>
 
 	<mod-append:name>RK_RAIN_OF_ION</mod-append:name>
+	<mod-append:name>RK_RAIN_OF_ION_ELITE</mod-append:name>
 
 	<mod-append:name>RK_BOMBLAUNCHER_OXYBOTTLE</mod-append:name>
 	<mod-append:name>RK_FOCUS_FIRE</mod-append:name>
@@ -3119,6 +3243,7 @@ BLUELIST_WEAPONS_RECYCLER
 	
 	<mod-append:name>RK_BPS_FOCUS_STATUS</mod-append:name>
 	<mod-append:name>DJMOD_LASER_BPS</mod-append:name>
+	<mod-append:name>DJMOD_LASER_BPS_ELITE</mod-append:name>
 	
 	<!-- <mod-append:name>DJMOD_ARTILLERY_LASER_PARTICLE</mod-append:name> -->
 	<mod-append:name>DJMOD_ARTILLERY_MISSILE_FIRE</mod-append:name>
@@ -3126,6 +3251,7 @@ BLUELIST_WEAPONS_RECYCLER
 
 <mod:findName type="blueprintList" name="BLUELIST_WEAPONS_FIRE_NODAMAGE">
 	<mod-append:name>RK_RAIN_OF_ION</mod-append:name>
+	<mod-append:name>RK_RAIN_OF_ION_ELITE</mod-append:name>
 	<mod-append:name>RK_BOMBLAUNCHER_OXYBOTTLE</mod-append:name>
 	<mod-append:name>RK_FOCUS_FIRE</mod-append:name>
 	<mod-append:name>DJMOD_RAIN_OF_FIRE</mod-append:name>
@@ -3135,22 +3261,30 @@ BLUELIST_WEAPONS_RECYCLER
 <mod:findName type="blueprintList" name="BLUELIST_ANTIBIO">
 	<mod-append:name>RK_BOMBLAUNCHER_ANTIBIO_REPAIR</mod-append:name>
 	<mod-append:name>RK_KILLALL_BEAM</mod-append:name>
+	<mod-append:name>RK_KILLALL_BEAM_ELITE</mod-append:name>
 	<mod-append:name>RK_RAIN_OF_ION</mod-append:name>
+	<mod-append:name>RK_RAIN_OF_ION_ELITE</mod-append:name>
 
 	<mod-append:name>RK_BOMBLAUNCHER_OXYBOTTLE</mod-append:name>
 	
 	<mod-append:name>DJMOD_LASER_BPS</mod-append:name>
+	<mod-append:name>DJMOD_LASER_BPS_ELITE</mod-append:name>
 </mod:findName>
 
 <mod:findName type="blueprintList" name="BLUELIST_ANTIBIO_NOMISSILE">
 	<mod-append:name>RK_KILLALL_BEAM</mod-append:name>
+	<mod-append:name>RK_KILLALL_BEAM_ELITE</mod-append:name>
 	<mod-append:name>RK_RAIN_OF_ION</mod-append:name>
+	<mod-append:name>RK_RAIN_OF_ION_ELITE</mod-append:name>
 	<mod-append:name>DJMOD_LASER_BPS</mod-append:name>
+	<mod-append:name>DJMOD_LASER_BPS_ELITE</mod-append:name>
 </mod:findName>
 
 <mod:findName type="blueprintList" name="BLUELIST_ANTIBIO_NODAMAGE">
 	<mod-append:name>RK_KILLALL_BEAM</mod-append:name>
+	<mod-append:name>RK_KILLALL_BEAM_ELITE</mod-append:name>
 	<mod-append:name>RK_RAIN_OF_ION</mod-append:name>
+	<mod-append:name>RK_RAIN_OF_ION_ELITE</mod-append:name>
 	<mod-append:name>RK_BOMBLAUNCHER_OXYBOTTLE</mod-append:name>
 </mod:findName>
 
@@ -3171,6 +3305,7 @@ BLUELIST_WEAPONS_RECYCLER
 	<mod-append:name>RK_HEAVY_POPPER_3</mod-append:name>
 
 	<mod-append:name>RK_RAIN_OF_ION</mod-append:name>
+	<mod-append:name>RK_RAIN_OF_ION_ELITE</mod-append:name>
 
 	<mod-append:name>RK_BOMBLAUNCHER_OXYBOTTLE</mod-append:name>
 	<mod-append:name>RK_FOCUS_FIRE</mod-append:name>
@@ -3179,6 +3314,7 @@ BLUELIST_WEAPONS_RECYCLER
 	
 	<mod-append:name>RK_BPS_FOCUS_STATUS</mod-append:name>
 	<mod-append:name>DJMOD_LASER_BPS</mod-append:name>
+	<mod-append:name>DJMOD_LASER_BPS_ELITE</mod-append:name>
 
 	<!-- <mod-append:name>DJMOD_ARTILLERY_LASER_PARTICLE</mod-append:name> -->
 	<mod-append:name>DJMOD_ARTILLERY_MISSILE_FIRE</mod-append:name>
@@ -3191,9 +3327,11 @@ BLUELIST_WEAPONS_RECYCLER
 	<mod-append:name>RK_HEAVY_POPPER_2</mod-append:name>
 	<mod-append:name>RK_HEAVY_POPPER_3</mod-append:name>
 	<mod-append:name>RK_RAIN_OF_ION</mod-append:name>
+	<mod-append:name>RK_RAIN_OF_ION_ELITE</mod-append:name>
 	<mod-append:name>RK_FOCUS_FIRE</mod-append:name>
 	<mod-append:name>RK_BPS_FOCUS_STATUS</mod-append:name>
 	<mod-append:name>DJMOD_LASER_BPS</mod-append:name>
+	<mod-append:name>DJMOD_LASER_BPS_ELITE</mod-append:name>
 </mod:findName>
 
 <mod:findName type="blueprintList" name="BLUELIST_FIRE_BALLISTIC">
@@ -3214,7 +3352,30 @@ BLUELIST_WEAPONS_MIND_AFFECT (see note in MV)
 BLUELIST_WEAPONS_MIND_CONTROL
  -->
 
- <!--
+<!--
+//////////////////////////////////
+DRONES
+//////////////////////////////////
+-->
+
+<!-- 
+BLUELIST_DRONES_BEAM
+BLUELIST_DRONES_DEFENSE
+BLUELIST_DRONES_OVERCHARGER
+BLUELIST_DRONES_SHIPREPAIR
+BLUELIST_DRONES_REPAIR_ALL
+BLUELIST_DRONES_REPAIR_CREW
+BLUELIST_DRONES_BOARDING
+BLUELIST_DRONES_BOARDING_DAMAGE
+BLUELIST_DRONES_MEDICAL
+BLUELIST_DRONES_SYSTEM_CREW
+BLUELIST_BOARDING_SUPPORT
+BLUELIST_MID_LEVEL_BOARDING
+BLUELIST_POWERFUL_BOARDING_NO_A55
+BLUELIST_HOLODRONE_CHAOS
+ -->
+
+<!--
 //////////////////////////////////
 AUGMENTS (Underrepresented, shame)
 //////////////////////////////////
@@ -3245,13 +3406,12 @@ BLUELIST_PHEROMONES
 
 <!-- That's Nexus Sylvan who wants 'realistic weapons' -->
 <mod:findName type="blueprintList" name="SHOP_HARDSCIFI">
-	<!-- <mod-append:name>DJMOD_BAM_FISSUREBEAM</mod-append:name> -->
 	<mod-append:name>RK_UNLOADER</mod-append:name>
+
 	<mod-append:name>RK_MISSLAUNCHER_2_BATTERY</mod-append:name>
-	<!-- <mod-append:name>RK_RAIN_OF_ION</mod-append:name> -->
+	
 	<mod-append:name>RK_OXY_FIREFILL_MISSILES</mod-append:name>
 	<mod-append:name>DJMOD_RAIN_OF_FIRE</mod-append:name>
-	<!-- <mod-append:name>DJMOD_LASER_BPS</mod-append:name> -->
 </mod:findName>
 
 <mod:findName type="blueprintList" name="SHOP_ITEM_SYLVAN_HULL">
@@ -3475,16 +3635,24 @@ SHOP_ITEM_SYLVAN_UNIQUE					Probably means you can only normally have 1 copy, li
 SHOP_ITEM_SYLVAN_LOOT
 SHOP_ITEM_SYLVAN_LOOT_DRONES
 SHOP_ITEM_SYLVAN_UNIQUE_DRONES
-SHOP_ITEM_SYLVAN_DRONES_COMBAT
+-->
+<mod:findName type="blueprintList" name="SHOP_ITEM_SYLVAN_DRONES_COMBAT">
+	<mod-append:name>RK_ATKD_SHOTPHASER</mod-append:name>
+</mod:findName>
+<!-- 
 SHOP_ITEM_SYLVAN_DRONES_COMBAT_AMP
-SHOP_ITEM_SYLVAN_DRONES_COMBAT_SPECIAL
+-->
+<mod:findName type="blueprintList" name="SHOP_ITEM_SYLVAN_DRONES_COMBAT_SPECIAL">
+	<!-- <mod-append:name>RK_ATKD_SHOTPHASER</mod-append:name> -->
+	<mod-append:name>RK_ATKD_BOMBLAUNCHER_OXYBOTTLE</mod-append:name>
+</mod:findName>
+<!-- 
 SHOP_ITEM_SYLVAN_DRONES_DEFENDER
 SHOP_ITEM_SYLVAN_DRONES_GUARDIAN
 SHOP_ITEM_SYLVAN_DRONES_CREW
- -->
+-->
 
-<!-- BACK TO BUSINESS! 
-Keep these 3 aug lists customized so that COMBO pieces can be present at the same time, as much as possible. -->
+<!-- Keep these 3 aug lists customized so that COMBO pieces can be present at the same time, as much as possible. -->
 <mod:findName type="blueprintList" name="SHOP_ITEM_SYLVAN_AUGMENTS_COMBAT_1">
 	<mod-append:name>RK_COMBAT_AUTO_SYS_REPAIR</mod-append:name>
 	<mod-append:name>RK_COMBAT_OFFENSE_DISABLER</mod-append:name>

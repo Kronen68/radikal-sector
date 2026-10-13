@@ -247,51 +247,60 @@ end, 64) ]]
     local shipId = projectile.ownerId
     local shipManager = Hyperspace.Global.GetInstance():GetShipManager(shipId)
     
-    -- Heavy Popper MK I.
-    if weapon.blueprint and weapon.blueprint.name == "RK_HEAVY_POPPER_1" then
-        -- Systems self-damage
+    --if shipManager:HasAugmentation("RK_BAM_DIVINE_ARMOR") <= 0 then
+    if shipManager:HasAugmentation("RK_BAM_DIVINE_ARMOR") <= 0 and weapon.blueprint and (
+        weapon.blueprint.name == "RK_HEAVY_POPPER_1" or 
+        weapon.blueprint.name == "RK_HEAVY_POPPER_2" or
+        weapon.blueprint.name == "RK_HEAVY_POPPER_3") then
+        
+        -- Heavy Popper MK I.
+        if weapon.blueprint and weapon.blueprint.name == "RK_HEAVY_POPPER_1" then
+            -- Systems self-damage
 
-        for system in vter(shipManager.vSystemList) do
-            -- print("heavy_popper_2: 1 vter loop")
-            local roomId = shipManager:GetSystemRoom(system:GetId())
-            local location = shipManager:GetRoomCenter(roomId)
-            local sysDmg = Hyperspace.Damage()
-            sysDmg.iSystemDamage = 1
+            for system in vter(shipManager.vSystemList) do
+                -- print("heavy_popper_2: 1 vter loop")
+                local roomId = shipManager:GetSystemRoom(system:GetId())
+                local location = shipManager:GetRoomCenter(roomId)
+                local sysDmg = Hyperspace.Damage()
+                sysDmg.iSystemDamage = 1
 
-            -- Chance system dmg - WORKS
-            if math.random() < 0.05 then        --intended: 0.05
-                -- print("heavy popper self-dmg triggered")
-                shipManager:DamageArea(location, sysDmg, true)
+                -- Chance system dmg - WORKS
+                if math.random() < 0.05 then        --intended: 0.05
+                    -- print("heavy popper self-dmg triggered")
+                    shipManager:DamageArea(location, sysDmg, true)
+                end
             end
         end
-    end
-    -- Heavy Popper MK II.
-    if weapon.blueprint and weapon.blueprint.name == "RK_HEAVY_POPPER_2" then
-        -- Systems self-damage
-        for system in vter(shipManager.vSystemList) do
-            local roomId = shipManager:GetSystemRoom(system:GetId())
-            local location = shipManager:GetRoomCenter(roomId)
-            local sysDmg = Hyperspace.Damage()
-            sysDmg.iSystemDamage = 1
-            -- Chance system dmg
-            if math.random() < 0.04 then        --intended: 0.04
-                shipManager:DamageArea(location, sysDmg, true)
+        -- Heavy Popper MK II.
+        if weapon.blueprint and weapon.blueprint.name == "RK_HEAVY_POPPER_2" then
+            -- Systems self-damage
+            for system in vter(shipManager.vSystemList) do
+                local roomId = shipManager:GetSystemRoom(system:GetId())
+                local location = shipManager:GetRoomCenter(roomId)
+                local sysDmg = Hyperspace.Damage()
+                sysDmg.iSystemDamage = 1
+                -- Chance system dmg
+                if math.random() < 0.04 then        --intended: 0.04
+                    shipManager:DamageArea(location, sysDmg, true)
+                end
             end
         end
-    end
-    -- Heavy Popper MK III.
-    if weapon.blueprint and weapon.blueprint.name == "RK_HEAVY_POPPER_3" then
-        -- Systems self-damage
-        for system in vter(shipManager.vSystemList) do
-            local roomId = shipManager:GetSystemRoom(system:GetId())
-            local location = shipManager:GetRoomCenter(roomId)
-            local sysDmg = Hyperspace.Damage()
-            sysDmg.iSystemDamage = 1
-            -- Chance system dmg
-            if math.random() < 0.03 then        --intended: 0.03
-                shipManager:DamageArea(location, sysDmg, true)
+        -- Heavy Popper MK III.
+        if weapon.blueprint and weapon.blueprint.name == "RK_HEAVY_POPPER_3" then
+            -- Systems self-damage
+            for system in vter(shipManager.vSystemList) do
+                local roomId = shipManager:GetSystemRoom(system:GetId())
+                local location = shipManager:GetRoomCenter(roomId)
+                local sysDmg = Hyperspace.Damage()
+                sysDmg.iSystemDamage = 1
+                -- Chance system dmg
+                if math.random() < 0.03 then        --intended: 0.03
+                    shipManager:DamageArea(location, sysDmg, true)
+                end
             end
         end
+    else
+        --print("HPopper: self-dmg absorbed by Thicker Hull")
     end
 
     -- Chimney, Scorch weapon. Self-fire.
@@ -336,7 +345,8 @@ end, 64) ]]
     local shipId = projectile.ownerId
     local shipManager = Hyperspace.Global.GetInstance():GetShipManager(shipId)
 
-    if weapon.blueprint and weapon.blueprint.name == "RK_KILLALL_BEAM" then
+    --if weapon.blueprint and weapon.blueprint.name == "RK_KILLALL_BEAM" then
+    if weapon.blueprint and (weapon.blueprint.name == "RK_KILLALL_BEAM" or weapon.blueprint.name == "RK_KILLALL_BEAM_ELITE") then
         -- Scaling piercing
         local damage = projectile.damage
         -- damage.iShieldPiercing = damage.iPersDamage - 1     -- Somehow this is always 1 lower than expected.
@@ -416,7 +426,7 @@ end, 64) ]]
             end
         end
 
-        -- Stack fire rate - clear on jump.
+        -- Stack fire rate - cleared on jump.
         -- WORKS
         local augCount = shipManager:HasAugmentation(stackAugName)
         -- print("aug count for adding:"..augCount)

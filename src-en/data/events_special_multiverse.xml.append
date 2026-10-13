@@ -106,9 +106,10 @@
 	</choice>
 </event> -->
 
-<!-- DIDN'T WORK because not appended. WORKS? -->
+<!-- DIDN'T WORK because not appended. WORKS -->
 <event name="SYLVAN_RK_ONE_LINE_EACH_CATEGORY">
-	<text>"Aaaaah. Ssstranger ssstranger, don't be mad but I'm ssselling you illegal, unethical goodsss, don't get caught with those!"</text>
+	<text>"Aaaaah. Ssstranger ssstranger, don't be mad but I'm sssselling you illegal, unethical goodsss, don't get caught with those!
+		Even I shouldn't be sssseen with that ssstuff, but you wouldn't underssstand why. Jusssst, don't tell anyone!"</text>
 	<!-- <store>STORE_SYLVAN_AEA_WEAPONS</store>	REF: The Outer Expansion -->
 	<store>STORE_SYLVAN_RK_GEAR</store>
 </event>
@@ -117,6 +118,7 @@
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ////////	JUDGES STUFF BELOW  - "Award" events right under "Present" choice blocks.
+////////		Includes manually added Judge Blue Options feature.
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 -->

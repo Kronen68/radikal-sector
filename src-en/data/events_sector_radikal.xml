@@ -487,6 +487,29 @@ To make normal nebula instead (debugging?), disable all that and make prefix "NE
 			Analyzing the wreck, you understand that an internal apparatus can let you extract equipment from the ship, but then everything will blow up.
 			Which one do you pick?</text>
 		<autoReward level="HIGH">standard_no_item</autoReward>
+		
+		<choice req="RK_KILLALL_BEAM" hidden="true" blue="true">
+			<text>(Gravespred) Your RK gear is detecting its own upgrade kit.</text>
+			<event>
+				<text>You extract the upgrade kit and get away before everything blows up.
+					You immediately apply it to your gear...
+				</text>
+				<remove name="RK_KILLALL_BEAM"/>
+
+				<choice hidden="true">
+					<text>Continue...</text>
+					<event>
+						<text>Your gear is now elite!</text>
+						<weapon name="RK_KILLALL_BEAM_ELITE"/>
+
+						<choice hidden="true">
+							<text>Continue...</text>
+							<event/>
+						</choice>
+					</event>
+				</choice>
+			</event>
+		</choice>
 
 		<choice>
 			<text>"Gravespred"</text>
@@ -980,6 +1003,7 @@ To make normal nebula instead (debugging?), disable all that and make prefix "NE
 	</crew>
 </ship>
 
+<!-- About 500 lines, minimize if not interested -->
 <event name="NEBULA_LIGHT_RKS_HIDEOUT">
 	<preventQuest/>
 	<preventFleet/>
@@ -1362,7 +1386,7 @@ To make normal nebula instead (debugging?), disable all that and make prefix "NE
 				<text>Choose weapon #2 (RadiKal)</text>
 				<event>
 					<text>You grab the weapon.</text>
-					<weapon name="LIST_WEAPONS_RADIKAL"/>
+					<weapon name="LIST_WEAPONS_RADIKAL_NO_ELITE"/>
 
 					<choice req="rks_hideout_multibenefit" hidden="false" blue="true">
 						<text>(Speeder) Do something else.</text>
@@ -1525,7 +1549,7 @@ To make normal nebula instead (debugging?), disable all that and make prefix "NE
 
 			<choice hidden="true">
 				<text>Nice!</text>
-				<event load="COMBAT_CHECK"/>
+				<event load="STORAGE_CHECK"/>
 			</choice>
 		</event>
 		<event>
@@ -1533,11 +1557,11 @@ To make normal nebula instead (debugging?), disable all that and make prefix "NE
 				
 				After a thorough search, you find their RK weaponry! You're supposed to drop it off at a Zoltan Police Station, but keeping it could help with your more important mission.
 			</text>
-			<weapon name="LIST_WEAPONS_RADIKAL"/>
+			<weapon name="GIFTLIST_RK_WEAPONS"/>
 
 			<choice hidden="true">
 				<text>Nice!</text>
-				<event load="COMBAT_CHECK"/>
+				<event load="STORAGE_CHECK"/>
 			</choice>
 		</event>
 
@@ -1599,7 +1623,7 @@ To make normal nebula instead (debugging?), disable all that and make prefix "NE
 <!-- 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////////////////////////////////
-////////		BRUTAL IMPROVEMENT GARAGES ("B.I.G.s"), formerly "B.I.L.s" (for Labs)
+////////		BRUTAL IMPROVEMENT GARAGES ("BIG/B.I.G.s"), formerly "BIL/B.I.L.s" (for Labs)
 //////////////////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////////////////////////////////
 -->
@@ -1753,6 +1777,108 @@ To make normal nebula instead (debugging?), disable all that and make prefix "NE
 	"Procedure 100% complete. Automated Aftercare ship deployed. Goodbye."
 	Now that you can see the egregious price of the repairs, you understand how this business can stay afloat...</text>
 </textList>
+
+<!-- REF:
+<event name="STARGROVE_LANIUS_GHOST_TELEPORT">
+	<revisitEvent>NEBULA_LIGHT_STARGROVE_ASTEROID_REVISIT</revisitEvent>
+	<environment type="asteroid"/>
+	<text>The inhabitants of the ships are able to materialize onto your ship! One Lanius Welder and several Ghosts appear. It's clear there is a tense stand-off between the two of them, which will escalate into hostilities.</text>
+	<choice hidden="true">
+		<text>Side with the Lanius.</text>
+		<event>
+			<text>You stand with the Lanius. The moment you point your weapons at the Ghosts, a fight breaks out!</text>
+			<crewMember amount="1" class="lanius_welder"/>
+			<boarders amount="4" class="phantom"/>
+			<triggeredEvent event="STARGROVE_LANIUS_GHOST_LANIUS_WIN" thisFight="false" clearOnJump="true">
+				<enemyCrew amount="0" includeClonebay="false"/>
+			</triggeredEvent>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text>Side with the Ghosts.</text>
+		<event>
+			<text>You aim your weapons at the Lanius. The moment that you do, it goes berserk. A fight breaks out! The Ghosts head for cover rather than help you.</text>
+			<boarders amount="1" class="lanius_welder"/>
+			<triggeredEvent event="STARGROVE_LANIUS_GHOST_GHOST_WIN" thisFight="false" clearOnJump="true">
+				<enemyCrew amount="0" includeClonebay="false"/>
+			</triggeredEvent>
+		</event>
+	</choice>
+</event>
+<event name="STARGROVE_LANIUS_GHOST_LANIUS_WIN">
+	<text>"Thank. Needed metal to live. Ghosts attacked immediately. Will help." With everyone from the wreck dealt with, you scrap the ships and prepare to jump.</text>
+	<autoReward level="MED">standard</autoReward>
+</event> -->
+<event name="RKS_GARAGE_PUNK_LIMIT">
+	<preventQuest/>
+    <environment type="pulsar"/>
+	<text>The nearby pulsar briefly distracts you before you are hailed by a strange kind of workshop.
+
+		"You have found the RK Punk 'Brutal Improvement Garage' (B.I.G.), esteemed guests.
+		We can expand your ship, so it may receive an extra system!
+		In return, we are interested in shipboard combat data.
+		
+		Please [style[color:ff3377]]give us a random crew[[/style]] for genetic experiments until it ceases living.
+		We will also require you to participate in a little [style[color:ff3377]]fight with Morphs aboard your ship[[/style]].
+
+		If you lose, we get our data for free, hehehe. Otherwise we will proceed with the upgrading.
+		Think of the potential benefits!"
+
+		You might have heard worse offers in your life. Your crew staunchly believe you haven't.
+		What do you decide?</text>
+	<ship load="SHIP_SHELL_STATION" hostile="false"/>
+
+	<choice hidden="true">
+		<text>We can handle anything, bring it on!</text>
+		<event>
+			<text>You aim your weapons at the Lanius. The moment that you do, it goes berserk. A fight breaks out! The Ghosts head for cover rather than help you.</text>
+			<boarders amount="1" class="lanius_welder"/>
+			
+			<!-- If doesn't trigger, make the Garage an auto-ship -->
+			<triggeredEvent event="RKS_GARAGE_PUNK_LIMIT_WIN" thisFight="false" clearOnJump="true">
+				<enemyCrew amount="0" includeClonebay="false"/>
+			</triggeredEvent>
+		</event>
+	</choice>
+
+	<choice hidden="true">
+		<text>Nope, but we'll take any crew you no longer need for science.</text>
+		<event>
+			<text>"Renegades really aren't all they're cracked up to be, are they? Oh well, have Ashley over there, we're done with them."</text>
+			<crewMember amount="1" class="RK_LIST_HIDEOUT_RECRUITS_BASIC" all_skills="1">Ashley</crewMember>
+
+			<choice>
+				<text>Continue...</text>
+				<event/>
+			</choice>
+		</event>
+	</choice>
+
+	<choice>
+		<text>No thanks, do something onboard the ship.</text>
+		<event load="STORAGE_CHECK"/>
+	</choice>
+
+	<choice hidden="true">
+		<text>No way in hell, don't even let them hope, jump!</text>
+		<event/>
+	</choice>
+</event>
+
+<event name="RKS_GARAGE_PUNK_LIMIT_WIN">
+	<text>"Oh you actually made it? Errr- I mean great fighting there! Well. I guess you get to pick your upgrade now."</text>
+	
+	<choice>
+		<text>Increase system limit by 1.</text>
+		<event load="STORAGE_CHECK"/>
+	</choice>
+
+	<choice>
+		<text>Increase crew limit by 2.</text>
+		<event load="STORAGE_CHECK"/>
+	</choice>
+</event>
+
 
 <!-- Uses Multi-ship -->
 <event name="RKS_GARAGE_SCORCH_REACTOR">
@@ -2224,6 +2350,21 @@ it was interested in their O2 and medical rooms, they said they bring it back to
 								</event>
 							</choice>
 
+							<choice req="RK_ATKD_BOMBLAUNCHER_OXYBOTTLE" hidden="true">
+								<text>(Oxygen-Bomber Drone) Help it breathe</text>
+								<event>
+									<text>With your appropriate drone, you save the creature in the nick of time.</text>
+									<item_modify>
+										<item type="drones" min="-1" max="-1"/>
+									</item_modify>
+
+									<choice hidden="true">
+										<text>Continue...</text>
+										<event load="RKS_QUEST_DEFROMORIUS_OFFER"/>
+									</choice>
+								</event>
+							</choice>
+
 							<choice req="BLUELIST_BOMBS_HEAL" hidden="false">
 								<text>(Healing Bomb) Revive it</text>
 								<event>
@@ -2387,9 +2528,9 @@ RK Bam lab
 	</choice>
 
 	<choice req="DJMOD_HAS_RADIKAL_BAM_GEAR" hidden="true">
-		<text>(RK Bam gear) Hit Hard...</text>
+		<text>(RK Bam gear) 'Hit Hard...</text>
 		<event>
-			<text>"... Homie! That's what I'm talking about. Here's the welcome gift. Hurry up and come over so we can trade!"</text>
+			<text>"... Homie'! That's what I'm talking about. Here's the welcome gift. Hurry up and come over so we can trade!"</text>
 			<autoReward level="LOW">standard</autoReward>
 
 			<choice hidden="true">
@@ -2945,9 +3086,9 @@ RK Punk lab
 	</choice>
 
 	<choice req="DJMOD_HAS_RADIKAL_PUNK_GEAR" hidden="true">
-		<text>(RK Punk gear) Stay Smart...</text>
+		<text>(RK Punk gear) 'Stay Smart...</text>
 		<event>
-			<text>"... Slayer. Heheh. A drone will bring you the welcome gift. We await you."</text>
+			<text>"... Slayer'! Heheh. A drone will bring you the welcome gift. We await you."</text>
 			<autoReward level="LOW">standard</autoReward>
 
 			<choice hidden="true">
@@ -3528,9 +3669,9 @@ RK Scorch lab
 	</choice>
 
 	<choice req="DJMOD_HAS_RADIKAL_SCORCH_GEAR" hidden="true">
-		<text>(RK Scorch gear) Burn Bright...</text>
+		<text>(RK Scorch gear) 'Burn Bright...</text>
 		<event>
-			<text>"... Baby. It always warms the heart to see one of us. Here is the welcome gift. You are cleared to land."</text>
+			<text>"... Baby'! It always warms the heart to see one of us. Here is the welcome gift. You are cleared to land."</text>
 			<autoReward level="LOW">standard</autoReward>
 
 			<choice hidden="true">
@@ -4135,8 +4276,8 @@ FIXED by using _LOADER technique like MV's gambling machine in events_special_st
 	<text>The pirate clans don't always see eye to eye, but when there's big money to be made, they know how to behave. The elite welcoming you here seems in charge of overseeing the transactions.
 		"Sssso, you're the big shot Feddy cusssstomer who threw away a lawful life to mingle with ussss, eh? No offensssse but I've gotta tell you, I don't really buy it. We shall ssssee if you're for real..."
 		
-		If you don't want to anger the slug and his ruthless associates, you had better buy something from each of the pirate subfactions.
-		It's all-or-nothing, but if you do, pirates everywhere will respect you that much more!
+		If you don't want to anger the Slug and his ruthless associates, you had better buy something from each of the pirate subfactions.
+		[style[color:ff3377]]It's all-or-nothing[[/style]], but if you do, pirates everywhere will respect you that much more!
 	</text>
 	<!-- These are Clairvoyants, out of place. Customize eventually.
 	<ship load="SHIP_SLUG_ELITE_FIGHT" hostile="false"/>
@@ -4300,7 +4441,7 @@ REF MV v5.5.1:
 				<event>
 					<text>"Bad words feddy captain, should have choose better words. But mostly should have bring scrap." The pirate ship in front of you instantly makes itself combat ready, having clearly expected that. 
 						
-						You can't tell whether the slug overseer is furious, vindicated, or both. "Hah! I knew it, you just wanted to take down a bunch of piratesss at once you wannabe hero. Guesss what, we're not that dumb! Hey Kurt, hand over the scrap, I won the bet."
+						You can't tell whether the Slug overseer is furious, vindicated, or both. "Hah! I knew it, you just wanted to take down a bunch of piratesss at once you wannabe hero. Guesss what, we're not that dumb! Hey Kurt, hand over the scrap, I won the bet."
 						With that, they and the other pirate ships jump away, leaving you to deal with the slaver!</text> 
 					<ship hostile="true"/>
 
@@ -4365,7 +4506,7 @@ REF MV v5.5.1:
 				<event>
 					<text>"Bad choice, captain. You should have brought that scrap." The pirate ship in front of you instantly makes itself combat ready, having clearly expected that. 
 						
-						You can't tell whether the slug overseer is furious, vindicated, or both. "Hah! I knew it, you just wanted to take down a bunch of piratesss at once you wannabe hero. Guesss what, we're not that dumb! Hey Kurt, hand over the scrap, I won the bet."
+						You can't tell whether the Slug overseer is furious, vindicated, or both. "Hah! I knew it, you just wanted to take down a bunch of piratesss at once you wannabe hero. Guesss what, we're not that dumb! Hey Kurt, hand over the scrap, I won the bet."
 						With that, they and the other pirate ships jump away, leaving you to deal with the mercenary!</text> 
 					<ship hostile="true"/>
 
@@ -4446,7 +4587,7 @@ REF MV v5.5.1:
 				<event>
 					<text>"Sad, I didn't take you for a joker. You should have brought that scrap." The pirate ship in front of you instantly makes itself combat ready, having clearly expected that. 
 						
-						You can't tell whether the slug overseer is furious, vindicated, or both. "Hah! I knew it, you just wanted to take down a bunch of piratesss at once you wannabe hero. Guesss what, we're not that dumb! Hey Kurt, hand over the scrap, I won the bet."
+						You can't tell whether the Slug overseer is furious, vindicated, or both. "Hah! I knew it, you just wanted to take down a bunch of piratesss at once you wannabe hero. Guesss what, we're not that dumb! Hey Kurt, hand over the scrap, I won the bet."
 						With that, they and the other pirate ships jump away, leaving you to deal with the smuggler!</text> 
 					<ship hostile="true"/>
 
