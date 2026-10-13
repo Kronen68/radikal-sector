@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "PO-Revision-Date: 2026-10-13 17:26+0000\n"
-"Last-Translator: Ukn <bbg100bbg@gmail.com>\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Russian <https://weblate.hyperq.be/projects/radikal-sector/"
 "dataeventsxmlappend/ru/>\n"
 "Language: ru\n"
@@ -630,6 +630,7 @@ msgstr ""
 "сталкиваться с этим кораблем."
 
 #: src-en/data/events.xml.append:928
+#, fuzzy
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER3_QUEST_START\"]/choice[3]/event/choice[@req=\"RK_HAS_GEAR_SURRENDERABLE_TO_RK_A\""
 " and @lvl=\"0\"]/event/choice[3]/text"
@@ -1540,6 +1541,7 @@ msgid ""
 msgstr "Продолжить..."
 
 #: src-en/data/events.xml.append:1922
+#, fuzzy
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"DJMOD_LASER_BPS_ELITE\"]/text"
 msgstr "Сдать свой лазер БПС Мессенджер."
@@ -2152,6 +2154,7 @@ msgstr ""
 "сказав ни слова."
 
 #: src-en/data/events.xml.append:2451
+#, fuzzy
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"RK_KILLALL_BEAM_ELITE\"]/text"
 msgstr "Продать им свой луч \"Грейвспред\" за 120~."
@@ -2306,6 +2309,7 @@ msgstr ""
 "сказав ни слова."
 
 #: src-en/data/events.xml.append:2568
+#, fuzzy
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"DJMOD_LASER_BPS_ELITE\"]/text"
 msgstr "Продать им свой лазер БПС Мессенджер за 200~."
@@ -2563,6 +2567,7 @@ msgstr ""
 "сказав ни слова."
 
 #: src-en/data/events.xml.append:2753
+#, fuzzy
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_KILLALL_BEAM_ELITE\"]/text"
 msgstr "Продать им свой луч \"Грейвспред\" за 120~."
@@ -2717,6 +2722,7 @@ msgstr ""
 "сказав ни слова."
 
 #: src-en/data/events.xml.append:2870
+#, fuzzy
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"DJMOD_LASER_BPS_ELITE\"]/text"
 msgstr "Продать им свой лазер БПС Мессенджер за 200~."
