@@ -274,951 +274,1011 @@ msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_BAM_DIVINE_ARMOR\"]/desc"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:339
+#: src-en/data/blueprints.xml.append:341
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_PERSISTENCE_SHIELD\"]/title"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:340
+#: src-en/data/blueprints.xml.append:342
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_PERSISTENCE_SHIELD\"]/desc"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:392
+#: src-en/data/blueprints.xml.append:394
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_ARROGANCE_SHIELD\"]/title"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:393
+#: src-en/data/blueprints.xml.append:395
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_ARROGANCE_SHIELD\"]/desc"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:404
+#: src-en/data/blueprints.xml.append:406
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_COMBAT_DEFENSE_REMOVER\"]/title"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:405
+#: src-en/data/blueprints.xml.append:407
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_COMBAT_DEFENSE_REMOVER\"]/desc"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:417
+#: src-en/data/blueprints.xml.append:419
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_COMBAT_OFFENSE_DISABLER\"]/title"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:418
+#: src-en/data/blueprints.xml.append:420
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_COMBAT_OFFENSE_DISABLER\"]/desc"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:446
+#: src-en/data/blueprints.xml.append:448
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_COMBAT_HACK_FLEET\"]/title"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:447
+#: src-en/data/blueprints.xml.append:449
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_COMBAT_HACK_FLEET\"]/desc"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:463
+#: src-en/data/blueprints.xml.append:465
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"RK_DREAD_DECK\"]/title"
 msgstr "Dread Deck"
 
-#: src-en/data/blueprints.xml.append:464
+#: src-en/data/blueprints.xml.append:466
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"RK_DREAD_DECK\"]/desc"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:475
+#: src-en/data/blueprints.xml.append:477
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_SUPER_DEFENDERS\"]/title"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:476
+#: src-en/data/blueprints.xml.append:478
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_SUPER_DEFENDERS\"]/desc"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:486
+#: src-en/data/blueprints.xml.append:488
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_OWN_HARMONY_ON\"]/title"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:487
+#: src-en/data/blueprints.xml.append:489
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_OWN_HARMONY_ON\"]/desc"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:499
+#: src-en/data/blueprints.xml.append:501
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_OWN_HARMONY_OFF\"]/title"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:500
+#: src-en/data/blueprints.xml.append:502
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_OWN_HARMONY_OFF\"]/desc"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:527
+#: src-en/data/blueprints.xml.append:529
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FIRE_IMMUNITY\"]/title"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:528
+#: src-en/data/blueprints.xml.append:530
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FIRE_IMMUNITY\"]/desc"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:539
+#: src-en/data/blueprints.xml.append:541
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"RK_SCORCH_SELF\"]/title"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:540
+#: src-en/data/blueprints.xml.append:542
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"RK_SCORCH_SELF\"]/desc"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:556
+#: src-en/data/blueprints.xml.append:558
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_SCORCH_SELF_2\"]/title"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:557
+#: src-en/data/blueprints.xml.append:559
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"RK_SCORCH_SELF_2\"]/desc"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:575
+#: src-en/data/blueprints.xml.append:577
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_SCORCH_SELF_3\"]/title"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:576
+#: src-en/data/blueprints.xml.append:578
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"RK_SCORCH_SELF_3\"]/desc"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:591
+#: src-en/data/blueprints.xml.append:593
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_COMBAT_SCORCH_ENEMY\"]/title"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:592
+#: src-en/data/blueprints.xml.append:594
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_COMBAT_SCORCH_ENEMY\"]/desc"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:607
+#: src-en/data/blueprints.xml.append:609
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_ENEMIES_CAN_BURN\"]/title"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:608
+#: src-en/data/blueprints.xml.append:610
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_ENEMIES_CAN_BURN\"]/desc"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:619
+#: src-en/data/blueprints.xml.append:621
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_ENEMIES_BURN_MORE\"]/title"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:620
+#: src-en/data/blueprints.xml.append:622
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_ENEMIES_BURN_MORE\"]/desc"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:632
+#: src-en/data/blueprints.xml.append:634
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_COMBAT_OXYGENIZER\"]/title"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:633
+#: src-en/data/blueprints.xml.append:635
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_COMBAT_OXYGENIZER\"]/desc"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:643
+#: src-en/data/blueprints.xml.append:645
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_SCORCH_PREIGNITER\"]/title"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:644
+#: src-en/data/blueprints.xml.append:646
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_SCORCH_PREIGNITER\"]/desc"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:655
+#: src-en/data/blueprints.xml.append:657
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_WEAPONS_ON_FIRE\"]/title"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:656
+#: src-en/data/blueprints.xml.append:658
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_WEAPONS_ON_FIRE\"]/desc"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:668
+#: src-en/data/blueprints.xml.append:670
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_WEAPONS_ON_FIRE_TEMP\"]/title"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:669
+#: src-en/data/blueprints.xml.append:671
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_WEAPONS_ON_FIRE_TEMP\"]/desc"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:687
+#: src-en/data/blueprints.xml.append:689
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"RK_BPS_SURVEYOR\"]/title"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:688
+#: src-en/data/blueprints.xml.append:690
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"RK_BPS_SURVEYOR\"]/desc"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:699
+#: src-en/data/blueprints.xml.append:701
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_BPS_SHIELD_OVER_MATTER\"]/title"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:700
+#: src-en/data/blueprints.xml.append:702
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_BPS_SHIELD_OVER_MATTER\"]/desc"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:728
+#: src-en/data/blueprints.xml.append:730
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_COMBAT_ACE_CONSOLE\"]/title"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:729
+#: src-en/data/blueprints.xml.append:731
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_COMBAT_ACE_CONSOLE\"]/desc"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:753
+#: src-en/data/blueprints.xml.append:755
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_A_STANDARD_SUITE\"]/title"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:754
+#: src-en/data/blueprints.xml.append:756
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_A_STANDARD_SUITE\"]/desc"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:768
+#: src-en/data/blueprints.xml.append:770
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RKS_POLICE_WARRANT\"]/title"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:769
+#: src-en/data/blueprints.xml.append:771
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RKS_POLICE_WARRANT\"]/desc"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:786
+#: src-en/data/blueprints.xml.append:788
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"SHIP_RK\"]/title"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:787
+#: src-en/data/blueprints.xml.append:789
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"SHIP_RK\"]/desc"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:795
+#: src-en/data/blueprints.xml.append:797
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"IS_RK_BAM_GEAR\"]/title"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:796
+#: src-en/data/blueprints.xml.append:798
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"IS_RK_BAM_GEAR\"]/desc"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:803
+#: src-en/data/blueprints.xml.append:805
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"IS_RK_PUNK_GEAR\"]/title"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:804
+#: src-en/data/blueprints.xml.append:806
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"IS_RK_PUNK_GEAR\"]/desc"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:811
+#: src-en/data/blueprints.xml.append:813
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"IS_RK_SCORCH_GEAR\"]/title"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:812
+#: src-en/data/blueprints.xml.append:814
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"IS_RK_SCORCH_GEAR\"]/desc"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:819
+#: src-en/data/blueprints.xml.append:821
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"IS_RK_BPS_GEAR\"]/title"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:820
+#: src-en/data/blueprints.xml.append:822
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"IS_RK_BPS_GEAR\"]/desc"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:907
+#: src-en/data/blueprints.xml.append:909
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"INTERNAL_RK_CALIBRATOR\"]/title"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:908
+#: src-en/data/blueprints.xml.append:910
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"INTERNAL_RK_CALIBRATOR\"]/desc"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:915
+#: src-en/data/blueprints.xml.append:917
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"EX_RK_CHOKING_IS_FINE\"]/title"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:916
+#: src-en/data/blueprints.xml.append:918
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"EX_RK_CHOKING_IS_FINE\"]/desc"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:928
+#: src-en/data/blueprints.xml.append:930
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"INTERNAL_RK_CHOKING_IS_FINE\"]/title"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:929
+#: src-en/data/blueprints.xml.append:931
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"INTERNAL_RK_CHOKING_IS_FINE\"]/desc"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:939
+#: src-en/data/blueprints.xml.append:941
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/title"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:940
+#: src-en/data/blueprints.xml.append:942
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/desc"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:948
+#: src-en/data/blueprints.xml.append:950
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"EX_DJMOD_DEMICLONER\"]/title"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:949
+#: src-en/data/blueprints.xml.append:951
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"EX_DJMOD_DEMICLONER\"]/desc"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:961
+#: src-en/data/blueprints.xml.append:963
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"INTERNAL_DJMOD_MC_PARALYZER\"]/title"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:962
+#: src-en/data/blueprints.xml.append:964
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"INTERNAL_DJMOD_MC_PARALYZER\"]/desc"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:970
+#: src-en/data/blueprints.xml.append:972
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"INTERNAL_RK_IN_FIRE_CREWBOOSTS\"]/title"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:971
+#: src-en/data/blueprints.xml.append:973
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"INTERNAL_RK_IN_FIRE_CREWBOOSTS\"]/desc"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:979
+#: src-en/data/blueprints.xml.append:981
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"INTERNAL_DJMOD_MC_IMMUNE_FROM_FIRE\"]/title"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:980
+#: src-en/data/blueprints.xml.append:982
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"INTERNAL_DJMOD_MC_IMMUNE_FROM_FIRE\"]/desc"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:1033
+#: src-en/data/blueprints.xml.append:1035
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"JUDGE_BOON_RK_BAM_CREW\"]/title"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:1034
+#: src-en/data/blueprints.xml.append:1036
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"JUDGE_BOON_RK_BAM_CREW\"]/desc"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:1040
+#: src-en/data/blueprints.xml.append:1042
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"JUDGE_BOON_RK_PUNK_CREW\"]/title"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:1041
+#: src-en/data/blueprints.xml.append:1043
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"JUDGE_BOON_RK_PUNK_CREW\"]/desc"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:1047
+#: src-en/data/blueprints.xml.append:1049
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"JUDGE_BOON_RK_SCORCH_CREW\"]/title"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:1048
+#: src-en/data/blueprints.xml.append:1050
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"JUDGE_BOON_RK_SCORCH_CREW\"]/desc"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:1107
+#: src-en/data/blueprints.xml.append:1109
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"JUDGE_BOON_RK_BAM_EQUIPMENT\"]/title"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:1108
+#: src-en/data/blueprints.xml.append:1110
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"JUDGE_BOON_RK_BAM_EQUIPMENT\"]/desc"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:1115
+#: src-en/data/blueprints.xml.append:1117
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"JUDGE_BOON_RK_PUNK_EQUIPMENT\"]/title"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:1116
+#: src-en/data/blueprints.xml.append:1118
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"JUDGE_BOON_RK_PUNK_EQUIPMENT\"]/desc"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:1122
+#: src-en/data/blueprints.xml.append:1124
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"JUDGE_BOON_RK_SCORCH_EQUIPMENT\"]/title"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:1123
+#: src-en/data/blueprints.xml.append:1125
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"JUDGE_BOON_RK_SCORCH_EQUIPMENT\"]/desc"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:1129
+#: src-en/data/blueprints.xml.append:1131
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"JUDGE_BOON_RK_BPS_EQUIPMENT\"]/title"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:1130
+#: src-en/data/blueprints.xml.append:1132
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"JUDGE_BOON_RK_BPS_EQUIPMENT\"]/desc"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:1232
+#: src-en/data/blueprints.xml.append:1234
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"DJMOD_BAM_FISSUREBEAM\"]/title"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:1233
+#: src-en/data/blueprints.xml.append:1235
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"DJMOD_BAM_FISSUREBEAM\"]/short"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:1234
+#: src-en/data/blueprints.xml.append:1236
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"DJMOD_BAM_FISSUREBEAM\"]/desc"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:1289
+#: src-en/data/blueprints.xml.append:1291
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_HEAVY_POPPER_1\"]/title"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:1290
+#: src-en/data/blueprints.xml.append:1292
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_HEAVY_POPPER_1\"]/short"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:1291
+#: src-en/data/blueprints.xml.append:1293
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_HEAVY_POPPER_1\"]/desc"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:1347
+#: src-en/data/blueprints.xml.append:1349
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_HEAVY_POPPER_2\"]/title"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:1348
+#: src-en/data/blueprints.xml.append:1350
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_HEAVY_POPPER_2\"]/short"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:1349
+#: src-en/data/blueprints.xml.append:1351
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_HEAVY_POPPER_2\"]/desc"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:1447
+#: src-en/data/blueprints.xml.append:1449
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_HEAVY_POPPER_3\"]/title"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:1448
+#: src-en/data/blueprints.xml.append:1450
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_HEAVY_POPPER_3\"]/short"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:1449
+#: src-en/data/blueprints.xml.append:1451
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_HEAVY_POPPER_3\"]/desc"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:1505
+#: src-en/data/blueprints.xml.append:1507
 msgid "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_UNLOADER\"]/title"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:1506
+#: src-en/data/blueprints.xml.append:1508
 msgid "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_UNLOADER\"]/short"
 msgstr "Déchargeur"
 
-#: src-en/data/blueprints.xml.append:1507
+#: src-en/data/blueprints.xml.append:1509
 msgid "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_UNLOADER\"]/desc"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:1553
+#: src-en/data/blueprints.xml.append:1555
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_BOMBLAUNCHER_ANTIBIO_REPAIR\"]/title"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:1554
+#: src-en/data/blueprints.xml.append:1556
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_BOMBLAUNCHER_ANTIBIO_REPAIR\"]/short"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:1556
+#: src-en/data/blueprints.xml.append:1558
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_BOMBLAUNCHER_ANTIBIO_REPAIR\"]/desc"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:1802
+#: src-en/data/blueprints.xml.append:1804
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_KILLALL_BEAM\"]/title"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:1803
+#: src-en/data/blueprints.xml.append:1805
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_KILLALL_BEAM\"]/short"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:1804
+#: src-en/data/blueprints.xml.append:1806
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_KILLALL_BEAM\"]/desc"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:1852
+#: src-en/data/blueprints.xml.append:1854
+msgid ""
+"data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_KILLALL_BEAM_ELITE\"]/title"
+msgstr ""
+
+#: src-en/data/blueprints.xml.append:1855
+msgid ""
+"data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_KILLALL_BEAM_ELITE\"]/short"
+msgstr ""
+
+#: src-en/data/blueprints.xml.append:1856
+msgid ""
+"data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_KILLALL_BEAM_ELITE\"]/desc"
+msgstr ""
+
+#: src-en/data/blueprints.xml.append:1901
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_MISSLAUNCHER_2_BATTERY\"]/title"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:1853
+#: src-en/data/blueprints.xml.append:1902
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_MISSLAUNCHER_2_BATTERY\"]/short"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:1854
+#: src-en/data/blueprints.xml.append:1903
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_MISSLAUNCHER_2_BATTERY\"]/desc"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:2056
+#: src-en/data/blueprints.xml.append:2105
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_RAIN_OF_ION\"]/title"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:2057
+#: src-en/data/blueprints.xml.append:2106
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_RAIN_OF_ION\"]/short"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:2059
+#: src-en/data/blueprints.xml.append:2108
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_RAIN_OF_ION\"]/desc"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:2135
+#: src-en/data/blueprints.xml.append:2184
+msgid ""
+"data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_RAIN_OF_ION_ELITE\"]/title"
+msgstr ""
+
+#: src-en/data/blueprints.xml.append:2185
+msgid ""
+"data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_RAIN_OF_ION_ELITE\"]/short"
+msgstr ""
+
+#: src-en/data/blueprints.xml.append:2187
+msgid ""
+"data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_RAIN_OF_ION_ELITE\"]/desc"
+msgstr ""
+
+#: src-en/data/blueprints.xml.append:2253
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_SHOTPHASER\"]/title"
 msgstr "Shotphaser"
 
-#: src-en/data/blueprints.xml.append:2136
+#: src-en/data/blueprints.xml.append:2254
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_SHOTPHASER\"]/short"
 msgstr "Shotphaser"
 
-#: src-en/data/blueprints.xml.append:2138
+#: src-en/data/blueprints.xml.append:2256
 msgid "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_SHOTPHASER\"]/desc"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:2202
+#: src-en/data/blueprints.xml.append:2320
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_BOMBLAUNCHER_OXYBOTTLE\"]/title"
 msgstr "Bombe Oxygené"
 
-#: src-en/data/blueprints.xml.append:2203
+#: src-en/data/blueprints.xml.append:2321
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_BOMBLAUNCHER_OXYBOTTLE\"]/short"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:2205
+#: src-en/data/blueprints.xml.append:2323
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_BOMBLAUNCHER_OXYBOTTLE\"]/desc"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:2236
+#: src-en/data/blueprints.xml.append:2354
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_BOMBLAUNCHER_OXYBOTTLE\"]/spawnCrew/name"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:2302
+#: src-en/data/blueprints.xml.append:2420
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_OXY_FIREFILL_MISSILES\"]/title"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:2303
+#: src-en/data/blueprints.xml.append:2421
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_OXY_FIREFILL_MISSILES\"]/short"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:2304
+#: src-en/data/blueprints.xml.append:2422
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_OXY_FIREFILL_MISSILES\"]/desc"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:2337
+#: src-en/data/blueprints.xml.append:2455
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_OXY_FIREFILL_MISSILES\"]/spawnCrew/name"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:2413
+#: src-en/data/blueprints.xml.append:2531
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_FOCUS_FIRE\"]/title"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:2414
+#: src-en/data/blueprints.xml.append:2532
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_FOCUS_FIRE\"]/short"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:2415
+#: src-en/data/blueprints.xml.append:2533
 msgid "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_FOCUS_FIRE\"]/desc"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:2509
+#: src-en/data/blueprints.xml.append:2627
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"DJMOD_RAIN_OF_FIRE\"]/title"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:2510
+#: src-en/data/blueprints.xml.append:2628
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"DJMOD_RAIN_OF_FIRE\"]/short"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:2511
+#: src-en/data/blueprints.xml.append:2629
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"DJMOD_RAIN_OF_FIRE\"]/desc"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:2570
+#: src-en/data/blueprints.xml.append:2688
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"DJMOD_RAIN_OF_FIRE_ENEMYFIX\"]/title"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:2571
+#: src-en/data/blueprints.xml.append:2689
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"DJMOD_RAIN_OF_FIRE_ENEMYFIX\"]/short"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:2572
+#: src-en/data/blueprints.xml.append:2690
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"DJMOD_RAIN_OF_FIRE_ENEMYFIX\"]/desc"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:2623
+#: src-en/data/blueprints.xml.append:2741
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_BPS_FOCUS_STATUS\"]/title"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:2624
+#: src-en/data/blueprints.xml.append:2742
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_BPS_FOCUS_STATUS\"]/short"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:2625
+#: src-en/data/blueprints.xml.append:2743
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_BPS_FOCUS_STATUS\"]/desc"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:2694
+#: src-en/data/blueprints.xml.append:2812
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"DJMOD_LASER_BPS\"]/title"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:2695
+#: src-en/data/blueprints.xml.append:2813
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"DJMOD_LASER_BPS\"]/short"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:2696
+#: src-en/data/blueprints.xml.append:2814
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"DJMOD_LASER_BPS\"]/desc"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:2767
+#: src-en/data/blueprints.xml.append:2875
+msgid ""
+"data/blueprints.xml.append$//weaponBlueprint[@name=\"DJMOD_LASER_BPS_ELITE\"]/title"
+msgstr ""
+
+#: src-en/data/blueprints.xml.append:2876
+msgid ""
+"data/blueprints.xml.append$//weaponBlueprint[@name=\"DJMOD_LASER_BPS_ELITE\"]/short"
+msgstr ""
+
+#: src-en/data/blueprints.xml.append:2877
+msgid ""
+"data/blueprints.xml.append$//weaponBlueprint[@name=\"DJMOD_LASER_BPS_ELITE\"]/desc"
+msgstr ""
+
+#: src-en/data/blueprints.xml.append:2942
 msgid "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_A_LASER_1\"]/title"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:2768
+#: src-en/data/blueprints.xml.append:2943
 msgid "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_A_LASER_1\"]/short"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:2769
+#: src-en/data/blueprints.xml.append:2944
 msgid "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_A_LASER_1\"]/desc"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:2859
+#: src-en/data/blueprints.xml.append:3034
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_A_MISSLAUNCHER\"]/title"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:2860
+#: src-en/data/blueprints.xml.append:3035
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_A_MISSLAUNCHER\"]/short"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:2861
+#: src-en/data/blueprints.xml.append:3036
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_A_MISSLAUNCHER\"]/desc"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:2962
+#: src-en/data/blueprints.xml.append:3137
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_ARTILLERY_FLAK_QUICK\"]/title"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:2963
+#: src-en/data/blueprints.xml.append:3138
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_ARTILLERY_FLAK_QUICK\"]/short"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:2964
+#: src-en/data/blueprints.xml.append:3139
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_ARTILLERY_FLAK_QUICK\"]/desc"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:3010
+#: src-en/data/blueprints.xml.append:3185
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"DJMOD_ARTILLERY_LASER_PARTICLE\"]/title"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:3011
+#: src-en/data/blueprints.xml.append:3186
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"DJMOD_ARTILLERY_LASER_PARTICLE\"]/short"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:3012
+#: src-en/data/blueprints.xml.append:3187
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"DJMOD_ARTILLERY_LASER_PARTICLE\"]/desc"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:3014
+#: src-en/data/blueprints.xml.append:3189
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"DJMOD_ARTILLERY_LASER_PARTICLE\"]/tooltip"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:3053
+#: src-en/data/blueprints.xml.append:3228
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"DJMOD_ARTILLERY_MISSILE_FIRE\"]/title"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:3054
+#: src-en/data/blueprints.xml.append:3229
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"DJMOD_ARTILLERY_MISSILE_FIRE\"]/short"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:3055
+#: src-en/data/blueprints.xml.append:3230
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"DJMOD_ARTILLERY_MISSILE_FIRE\"]/desc"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:3057
+#: src-en/data/blueprints.xml.append:3232
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"DJMOD_ARTILLERY_MISSILE_FIRE\"]/tooltip"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:3106
+#: src-en/data/blueprints.xml.append:3315
+msgid ""
+"data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_DRONE_SHOTPHASER\"]/title"
+msgstr "Shotphaser"
+
+#: src-en/data/blueprints.xml.append:3441
+msgid ""
+"data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_DRONE_BOMBLAUNCHER_OXYBOTTLE\"]/title"
+msgstr "Bombe Oxygené"
+
+#: src-en/data/blueprints.xml.append:3456
+msgid ""
+"data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_DRONE_BOMBLAUNCHER_OXYBOTTLE\"]/spawnCrew/name"
+msgstr ""
+
+#: src-en/data/blueprints.xml.append:3526
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_WEAPONLIKE_SURGEBOMB\"]/title"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:3107
+#: src-en/data/blueprints.xml.append:3527
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_WEAPONLIKE_SURGEBOMB\"]/short"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:3108
+#: src-en/data/blueprints.xml.append:3528
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_WEAPONLIKE_SURGEBOMB\"]/desc"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:3154
+#: src-en/data/blueprints.xml.append:3574
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_DJMOD_RAMMER\"]/class"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:3155
+#: src-en/data/blueprints.xml.append:3575
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_DJMOD_RAMMER\"]/name"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:3156
+#: src-en/data/blueprints.xml.append:3576
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_DJMOD_RAMMER\"]/desc"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:3233
+#: src-en/data/blueprints.xml.append:3653
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_DJMOD_RAMMER_2\"]/class"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:3234
+#: src-en/data/blueprints.xml.append:3654
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_DJMOD_RAMMER_2\"]/name"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:3235
+#: src-en/data/blueprints.xml.append:3655
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_DJMOD_RAMMER_2\"]/desc"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:3314
+#: src-en/data/blueprints.xml.append:3734
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_DJMOD_PUNKER\"]/class"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:3315
+#: src-en/data/blueprints.xml.append:3735
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_DJMOD_PUNKER\"]/name"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:3316
+#: src-en/data/blueprints.xml.append:3736
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_DJMOD_PUNKER\"]/desc"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:3390
+#: src-en/data/blueprints.xml.append:3810
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_DJMOD_PUNKER_2\"]/class"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:3391
+#: src-en/data/blueprints.xml.append:3811
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_DJMOD_PUNKER_2\"]/name"
 msgstr "NuH4RM0NY"
 
-#: src-en/data/blueprints.xml.append:3392
+#: src-en/data/blueprints.xml.append:3812
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_DJMOD_PUNKER_2\"]/desc"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:3466
+#: src-en/data/blueprints.xml.append:3886
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_RK_SCORCHER\"]/class"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:3467
+#: src-en/data/blueprints.xml.append:3887
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_RK_SCORCHER\"]/name"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:3469
+#: src-en/data/blueprints.xml.append:3889
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_RK_SCORCHER\"]/desc"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:3541
+#: src-en/data/blueprints.xml.append:3961
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_RK_SCORCHER_2\"]/class"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:3542
+#: src-en/data/blueprints.xml.append:3962
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_RK_SCORCHER_2\"]/name"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:3544
+#: src-en/data/blueprints.xml.append:3964
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_RK_SCORCHER_2\"]/desc"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:3617
+#: src-en/data/blueprints.xml.append:4037
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_RK_SCORCHER_3\"]/class"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:3618
+#: src-en/data/blueprints.xml.append:4038
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_RK_SCORCHER_3\"]/name"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:3620
+#: src-en/data/blueprints.xml.append:4040
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_RK_SCORCHER_3\"]/desc"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:3691
+#: src-en/data/blueprints.xml.append:4111
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_DJMOD_SCORCH\"]/class"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:3692
+#: src-en/data/blueprints.xml.append:4112
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_DJMOD_SCORCH\"]/name"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:3694
+#: src-en/data/blueprints.xml.append:4114
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_DJMOD_SCORCH\"]/desc"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:3767
+#: src-en/data/blueprints.xml.append:4187
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_RK_LEAD_TITANS_USER\"]/class"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:3768
+#: src-en/data/blueprints.xml.append:4188
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_RK_LEAD_TITANS_USER\"]/name"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:3769
+#: src-en/data/blueprints.xml.append:4189
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_RK_LEAD_TITANS_USER\"]/desc"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:3770
+#: src-en/data/blueprints.xml.append:4190
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_RK_LEAD_TITANS_USER\"]/unlock"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:3844
+#: src-en/data/blueprints.xml.append:4264
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_RK_GRAVESPRED_USER\"]/class"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:3845
+#: src-en/data/blueprints.xml.append:4265
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_RK_GRAVESPRED_USER\"]/name"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:3846
+#: src-en/data/blueprints.xml.append:4266
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_RK_GRAVESPRED_USER\"]/desc"
 msgstr ""
 
-#: src-en/data/blueprints.xml.append:3847
+#: src-en/data/blueprints.xml.append:4267
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_RK_GRAVESPRED_USER\"]/unlock"
 msgstr ""

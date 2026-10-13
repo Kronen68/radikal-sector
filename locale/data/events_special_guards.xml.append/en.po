@@ -356,86 +356,113 @@ msgstr ""
 
 #: src-en/data/events_special_guards.xml.append:318
 msgid ""
-"data/events_special_guards.xml.append$//event[@name=\"GUARD_RADIKAL_DEADCREW\"]/choice/text"
-msgstr "Continue..."
+"data/events_special_guards.xml.append$//event[@name=\"GUARD_RADIKAL_DEADCREW\"]/choice[@req=\"DJMOD_LASER_BPS\"]/text"
+msgstr "(BPS Messenger) Your RK gear is detecting its own upgrade kit."
 
 #: src-en/data/events_special_guards.xml.append:320
 msgid ""
-"data/events_special_guards.xml.append$//event[@name=\"GUARD_RADIKAL_DEADCREW\"]/choice/event/text"
-msgstr "You find spare RadiKal equipment!"
+"data/events_special_guards.xml.append$//event[@name=\"GUARD_RADIKAL_DEADCREW\"]/choice[@req=\"DJMOD_LASER_BPS\"]/event/text"
+msgstr ""
+"You extract the upgrade kit and get away.\n"
+"\t\t\t\tYou immediately apply it to your gear..."
 
-#: src-en/data/events_special_guards.xml.append:323
+#: src-en/data/events_special_guards.xml.append:326
 msgid ""
-"data/events_special_guards.xml.append$//event[@name=\"GUARD_RADIKAL_DEADCREW\"]/choice/event/choice/text"
+"data/events_special_guards.xml.append$//event[@name=\"GUARD_RADIKAL_DEADCREW\"]/choice[@req=\"DJMOD_LASER_BPS\"]/event/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_special_guards.xml.append:346
+#: src-en/data/events_special_guards.xml.append:328
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"GUARD_RADIKAL_DEADCREW\"]/choice[@req=\"DJMOD_LASER_BPS\"]/event/choice/event/text"
+msgstr "Your gear is now elite!"
+
+#: src-en/data/events_special_guards.xml.append:332
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"GUARD_RADIKAL_DEADCREW\"]/choice[@req=\"DJMOD_LASER_BPS\"]/event/choice/event/choice/text"
+msgstr "Continue..."
+
+#: src-en/data/events_special_guards.xml.append:341
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"GUARD_RADIKAL_DEADCREW\"]/choice[2]/text"
+msgstr "Continue..."
+
+#: src-en/data/events_special_guards.xml.append:343
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"GUARD_RADIKAL_DEADCREW\"]/choice[2]/event/text"
+msgstr "You find spare RadiKal equipment!"
+
+#: src-en/data/events_special_guards.xml.append:347
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"GUARD_RADIKAL_DEADCREW\"]/choice[2]/event/choice/text"
+msgstr "Continue..."
+
+#: src-en/data/events_special_guards.xml.append:370
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"GUARD_RADIKAL_FOLLOWUP\"]/text"
 msgstr ""
 "By killing the RadiKal guard, you have no doubt caused them to dispatch "
 "reinforcements to track you down. Watch your step as you explore the sector."
 
-#: src-en/data/events_special_guards.xml.append:354
+#: src-en/data/events_special_guards.xml.append:378
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"GUARD_RADIKAL_FOLLOWUP\"]/choice[1]/text"
 msgstr "Do something onboard the ship."
 
-#: src-en/data/events_special_guards.xml.append:358
+#: src-en/data/events_special_guards.xml.append:382
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"GUARD_RADIKAL_FOLLOWUP\"]/choice[2]/text"
 msgstr "Do nothing."
 
-#: src-en/data/events_special_guards.xml.append:367
+#: src-en/data/events_special_guards.xml.append:391
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"REINFORCEMENTS_RADIKAL\"]/beaconType/unvisitedTooltip"
 msgstr "An unvisited location."
 
-#: src-en/data/events_special_guards.xml.append:368
+#: src-en/data/events_special_guards.xml.append:392
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"REINFORCEMENTS_RADIKAL\"]/beaconType/visitedTooltip"
 msgstr "Explored location. Nothing left of interest."
 
-#: src-en/data/events_special_guards.xml.append:369
+#: src-en/data/events_special_guards.xml.append:393
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"REINFORCEMENTS_RADIKAL\"]/beaconType/undiscoveredTooltip"
 msgstr "An unvisited location."
 
-#: src-en/data/events_special_guards.xml.append:371
+#: src-en/data/events_special_guards.xml.append:395
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"REINFORCEMENTS_RADIKAL\"]/text"
 msgstr ""
 "You easily understand this ship's general message: Someone has to be the guard, they were just doing their job, and knew the risks. But so did you!\n"
 "\t\tThe RadiKal reinforcement attacks!"
 
-#: src-en/data/events_special_guards.xml.append:376
+#: src-en/data/events_special_guards.xml.append:400
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"REINFORCEMENTS_RADIKAL\"]/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_special_guards.xml.append:384
+#: src-en/data/events_special_guards.xml.append:408
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"NEBULA_REINFORCEMENTS_RADIKAL\"]/beaconType/unvisitedTooltip"
 msgstr "An unvisited location."
 
-#: src-en/data/events_special_guards.xml.append:385
+#: src-en/data/events_special_guards.xml.append:409
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"NEBULA_REINFORCEMENTS_RADIKAL\"]/beaconType/visitedTooltip"
 msgstr "Explored location. Nothing left of interest."
 
-#: src-en/data/events_special_guards.xml.append:386
+#: src-en/data/events_special_guards.xml.append:410
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"NEBULA_REINFORCEMENTS_RADIKAL\"]/beaconType/undiscoveredTooltip"
 msgstr "An unvisited location."
 
-#: src-en/data/events_special_guards.xml.append:388
+#: src-en/data/events_special_guards.xml.append:412
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"NEBULA_REINFORCEMENTS_RADIKAL\"]/text"
 msgstr ""
 "You easily understand this ship's general message: Someone has to be the guard, they were just doing their job, and knew the risks. But so did you!\n"
 "\t\tThe RadiKal reinforcement attacks!"
 
-#: src-en/data/events_special_guards.xml.append:395
+#: src-en/data/events_special_guards.xml.append:419
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"NEBULA_REINFORCEMENTS_RADIKAL\"]/choice/text"
 msgstr "Continue..."

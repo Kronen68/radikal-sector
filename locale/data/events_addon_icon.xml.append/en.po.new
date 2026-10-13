@@ -1,0 +1,24 @@
+#
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src-en/data/events_addon_icon.xml.append:5
+msgid "data/events_addon_icon.xml.append$//event[@name=\"ADDON_RK\"]/hover-text"
+msgstr ""
+"RadiKal Sector\n"
+"\tCurrently Enabled.\n"
+"\tClick to see more info."
+
+#: src-en/data/events_addon_icon.xml.append:8
+msgid "data/events_addon_icon.xml.append$//event[@name=\"ADDON_RK\"]/text"
+msgstr ""
+"RadiKal Sector, an FTL: Multiverse add-on\n"
+"Developed by: Dj0z\n"
+"Currently Enabled.\n"
+"\t\t\n"
+"An addon focused around powerful equipment that is resource-hungry or dangerous to you, elite crew, and a secret sector.\n"
+"\n"
+"To enable RadiKal Sector, go to the Multiverse Forums and visit the addon section!."

@@ -1,16 +1,9 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-09-28 16:36+0000\n"
-"Last-Translator: 土豆老年人 <2685455659@qq.com>\n"
-"Language-Team: Chinese (Simplified Han script) <https://weblate.hyperq.be/"
-"projects/radikal-sector/datatext_miscxmlappend/zh_Hans/>\n"
-"Language: zh_Hans\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.17.1\n"
 
 #: src-en/data/text_misc.xml.append:22
 msgid "data/text_misc.xml.append$//text[@name=\"map_icon_rks_defromorius\"]"
@@ -67,9 +60,7 @@ msgstr "品质印章：“一发击碎联邦隐形舰的隐形系统！之后轻
 #: src-en/data/text_misc.xml.append:57
 #, fuzzy
 msgid "data/text_misc.xml.append$//text[@name=\"RK_lore_RK_HEAVY_POPPER_2\"]"
-msgstr ""
-"品质印章：“网红‘BL2Forever420’对她数以百万计的粉丝说‘与爆裂激光的友谊已经结束"
-"’！”"
+msgstr "品质印章：“网红‘BL2Forever420’对她数以百万计的粉丝说‘与爆裂激光的友谊已经结束’！”"
 
 #: src-en/data/text_misc.xml.append:58
 msgid "data/text_misc.xml.append$//text[@name=\"RK_lore_RK_HEAVY_POPPER_3\"]"

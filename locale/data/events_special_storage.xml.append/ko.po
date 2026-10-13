@@ -1,16 +1,9 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-09-28 16:36+0000\n"
-"Last-Translator: TrpleA <wndhkswnqls2@naver.com>\n"
-"Language-Team: Korean <https://weblate.hyperq.be/projects/radikal-sector/"
-"dataevents_special_storagexmlappend/ko/>\n"
-"Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.17.1\n"
 
 #: src-en/data/events_special_storage.xml.append:396
 msgid ""
@@ -1443,36 +1436,36 @@ msgstr ""
 "\t[\"최대 출력\" 공격을 선택하면 보조장비 대신 보강재가 소모됩니다. \n"
 "\t그 후에도 빈 송신소에서 다른 작업을 수행할 수 있습니다.]"
 
-#: src-en/data/events_special_storage.xml.append:2355
+#: src-en/data/events_special_storage.xml.append:2356
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_COMBAT_SHIPVORE_RAM_REINFORCE\"]/choice[@req=\"shipvore_ram_reinforcement\""
 " and @lvl=\"0\"]/text"
 msgstr "예"
 
-#: src-en/data/events_special_storage.xml.append:2357
+#: src-en/data/events_special_storage.xml.append:2358
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_COMBAT_SHIPVORE_RAM_REINFORCE\"]/choice[@req=\"shipvore_ram_reinforcement\""
 " and @lvl=\"0\"]/event/text"
 msgstr "보조장비를 보강합니다."
 
-#: src-en/data/events_special_storage.xml.append:2364
+#: src-en/data/events_special_storage.xml.append:2365
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_COMBAT_SHIPVORE_RAM_REINFORCE\"]/choice[@req=\"shipvore_ram_reinforcement\""
 " and @lvl=\"0\"]/event/choice/text"
 msgstr "이것으로 우위를 점할 수 있을 것이다!"
 
-#: src-en/data/events_special_storage.xml.append:2371
+#: src-en/data/events_special_storage.xml.append:2372
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_COMBAT_SHIPVORE_RAM_REINFORCE\"]/choice[@req=\"shipvore_ram_reinforcement\""
 " and @lvl=\"1\"]/text"
 msgstr "함선 포식 충각 보조장비가 보강되었습니다."
 
-#: src-en/data/events_special_storage.xml.append:2375
+#: src-en/data/events_special_storage.xml.append:2376
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_COMBAT_SHIPVORE_RAM_REINFORCE\"]/choice[3]/text"
 msgstr "신경 쓰지 않고 다른 작업을 수행한다."
 
-#: src-en/data/events_special_storage.xml.append:2382
+#: src-en/data/events_special_storage.xml.append:2383
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_PERSISTENCE_SHIELD_REBUILD_CAPACITOR\"]/text"
 msgstr ""
@@ -1480,60 +1473,60 @@ msgstr ""
 "\t[재건하면 토글 메뉴에서 해당 능력을 다시 사용할 수 있습니다. \n"
 "\t재건 후에도 비어 있는 송신소에서 다른 작업을 수행할 수 있습니다.]"
 
-#: src-en/data/events_special_storage.xml.append:2387
+#: src-en/data/events_special_storage.xml.append:2389
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_PERSISTENCE_SHIELD_REBUILD_CAPACITOR\"]/choice[@req=\"rk_persistence_shield_capacitorneed\""
 " and @lvl=\"0\"]/text"
 msgstr "축전기는 정상입니다."
 
-#: src-en/data/events_special_storage.xml.append:2391
+#: src-en/data/events_special_storage.xml.append:2393
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_PERSISTENCE_SHIELD_REBUILD_CAPACITOR\"]/choice[@req=\"rk_persistence_shield_capacitorneed\""
 " and @lvl=\"1\"]/text"
 msgstr "예"
 
-#: src-en/data/events_special_storage.xml.append:2393
+#: src-en/data/events_special_storage.xml.append:2395
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_PERSISTENCE_SHIELD_REBUILD_CAPACITOR\"]/choice[@req=\"rk_persistence_shield_capacitorneed\""
 " and @lvl=\"1\"]/event/text"
 msgstr "축전기를 재건하여 보조장비 기능을 복구합니다."
 
-#: src-en/data/events_special_storage.xml.append:2400
+#: src-en/data/events_special_storage.xml.append:2402
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_PERSISTENCE_SHIELD_REBUILD_CAPACITOR\"]/choice[@req=\"rk_persistence_shield_capacitorneed\""
 " and @lvl=\"1\"]/event/choice/text"
 msgstr "이것이 우리를 살릴 지도 모른다!"
 
-#: src-en/data/events_special_storage.xml.append:2407
+#: src-en/data/events_special_storage.xml.append:2409
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_PERSISTENCE_SHIELD_REBUILD_CAPACITOR\"]/choice[3]/text"
 msgstr "신경 쓰지 않고 다른 작업을 수행한다."
 
-#: src-en/data/events_special_storage.xml.append:2413
+#: src-en/data/events_special_storage.xml.append:2415
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"TOGGLEMENU_RK_PERSISTENCE_SHIELD\"]/text"
 msgstr ""
 "확실합니까? 이렇게 하시겠습니까?\n"
 "\t[모든 에너지 방어막을 재생성합니다. 빈 송신소에서 축전기를 재건하기 전까지는 다시 사용할 수 없습니다.]"
 
-#: src-en/data/events_special_storage.xml.append:2417
+#: src-en/data/events_special_storage.xml.append:2419
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"TOGGLEMENU_RK_PERSISTENCE_SHIELD\"]/choice[@req=\"rk_persistence_shield_capacitorneed\""
 " and not(@lvl)]/text"
 msgstr "먼저 비어있는 송신소에서 축전기를 재건해야 합니다."
 
-#: src-en/data/events_special_storage.xml.append:2422
+#: src-en/data/events_special_storage.xml.append:2424
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"TOGGLEMENU_RK_PERSISTENCE_SHIELD\"]/choice[@req=\"rk_persistence_shield_capacitorneed\""
 " and @lvl=\"0\"]/text"
 msgstr "예, 그럴 만한 가치가 있다!"
 
-#: src-en/data/events_special_storage.xml.append:2437
+#: src-en/data/events_special_storage.xml.append:2439
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"TOGGLEMENU_RK_PERSISTENCE_SHIELD\"]/choice[3]/text"
 msgstr "필요 없다. 토글 메뉴로 돌아간다."
 
-#: src-en/data/events_special_storage.xml.append:2464
+#: src-en/data/events_special_storage.xml.append:2466
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/text"
 msgstr ""
@@ -1541,1292 +1534,1311 @@ msgstr ""
 "\t\t[자신의 함선에 불을 지릅니다! 보통 침입자를 막기 위해 쓰는 방법입니다.]\n"
 "\t\t다음 선실에 있는 놈들을 태워버립니다..."
 
-#: src-en/data/events_special_storage.xml.append:2469
+#: src-en/data/events_special_storage.xml.append:2471
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"artillery\"]/text"
 msgstr "함포실!"
 
-#: src-en/data/events_special_storage.xml.append:2473
+#: src-en/data/events_special_storage.xml.append:2475
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"battery\"]/text"
 msgstr "예비 배터리실!"
 
-#: src-en/data/events_special_storage.xml.append:2477
+#: src-en/data/events_special_storage.xml.append:2479
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"cloaking\"]/text"
 msgstr "은폐장실!"
 
-#: src-en/data/events_special_storage.xml.append:2481
+#: src-en/data/events_special_storage.xml.append:2483
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"clonebay\"]/text"
 msgstr "클론 배양실!"
 
-#: src-en/data/events_special_storage.xml.append:2485
+#: src-en/data/events_special_storage.xml.append:2487
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"doors\"]/text"
 msgstr "문 제어실!"
 
-#: src-en/data/events_special_storage.xml.append:2489
+#: src-en/data/events_special_storage.xml.append:2491
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"drones\"]/text"
 msgstr "드론 제어실!"
 
-#: src-en/data/events_special_storage.xml.append:2493
+#: src-en/data/events_special_storage.xml.append:2495
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"engines\"]/text"
 msgstr "엔진실!"
 
-#: src-en/data/events_special_storage.xml.append:2497
+#: src-en/data/events_special_storage.xml.append:2499
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"hacking\"]/text"
 msgstr "해킹 장비실!"
 
-#: src-en/data/events_special_storage.xml.append:2501
+#: src-en/data/events_special_storage.xml.append:2503
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"medbay\"]/text"
 msgstr "의무실!"
 
-#: src-en/data/events_special_storage.xml.append:2505
+#: src-en/data/events_special_storage.xml.append:2507
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"mind\"]/text"
 msgstr "정신 지배 장비실!"
 
-#: src-en/data/events_special_storage.xml.append:2509
+#: src-en/data/events_special_storage.xml.append:2511
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"oxygen\"]/text"
 msgstr "생명 유지(산소)실!"
 
-#: src-en/data/events_special_storage.xml.append:2513
+#: src-en/data/events_special_storage.xml.append:2515
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"pilot\"]/text"
 msgstr "조타실!"
 
-#: src-en/data/events_special_storage.xml.append:2517
+#: src-en/data/events_special_storage.xml.append:2519
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"sensors\"]/text"
 msgstr "센서실!"
 
-#: src-en/data/events_special_storage.xml.append:2521
+#: src-en/data/events_special_storage.xml.append:2523
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"shields\"]/text"
 msgstr "방어막 제어실!"
 
-#: src-en/data/events_special_storage.xml.append:2525
+#: src-en/data/events_special_storage.xml.append:2527
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"teleporter\"]/text"
 msgstr "텔레포터실!"
 
-#: src-en/data/events_special_storage.xml.append:2529
+#: src-en/data/events_special_storage.xml.append:2531
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"temporal\"]/text"
 msgstr "시간 조율실!"
 
-#: src-en/data/events_special_storage.xml.append:2533
+#: src-en/data/events_special_storage.xml.append:2535
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"weapons\"]/text"
 msgstr "무기 관제실!"
 
-#: src-en/data/events_special_storage.xml.append:2542
-msgid ""
-"data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"lily_ablative_armor\"]/text"
-msgstr "(LI) 융제 장갑실!"
-
-#: src-en/data/events_special_storage.xml.append:2547
+#: src-en/data/events_special_storage.xml.append:2544
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"aea_super_shields\"]/text"
 msgstr "(OE) 보조 방어막실!"
 
-#: src-en/data/events_special_storage.xml.append:2552
+#: src-en/data/events_special_storage.xml.append:2549
+msgid ""
+"data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"oe_aux_shields\"]/text"
+msgstr "(OE) 보조 방어막실!"
+
+#: src-en/data/events_special_storage.xml.append:2553
+msgid ""
+"data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"oe_growth\"]/text"
+msgstr ""
+
+#: src-en/data/events_special_storage.xml.append:2557
+msgid ""
+"data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"oe_grease\"]/text"
+msgstr ""
+
+#: src-en/data/events_special_storage.xml.append:2562
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"dd_corruptor\"]/text"
 msgstr "(DD) 타락 생성기실!"
 
-#: src-en/data/events_special_storage.xml.append:2557
+#: src-en/data/events_special_storage.xml.append:2567
+msgid ""
+"data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"lily_ablative_armor\"]/text"
+msgstr "(LI) 융제 장갑실!"
+
+#: src-en/data/events_special_storage.xml.append:2571
+msgid ""
+"data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"lily_aux_reactor\"]/text"
+msgstr ""
+
+#: src-en/data/events_special_storage.xml.append:2575
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"lily_ecm_suite\"]/text"
 msgstr "(LI) 전자전 제어실!"
 
-#: src-en/data/events_special_storage.xml.append:2561
+#: src-en/data/events_special_storage.xml.append:2579
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"lily_fiber_liner\"]/text"
 msgstr "(LI) 섬유 라이너실!"
 
-#: src-en/data/events_special_storage.xml.append:2565
+#: src-en/data/events_special_storage.xml.append:2583
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"lily_infusion_bay\"]/text"
 msgstr "(LI) 주입실!"
 
-#: src-en/data/events_special_storage.xml.append:2569
+#: src-en/data/events_special_storage.xml.append:2587
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"lily_shock_neutralizer\"]/text"
 msgstr "(LI) 충격 중화기실!"
 
-#: src-en/data/events_special_storage.xml.append:2573
+#: src-en/data/events_special_storage.xml.append:2591
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"lily_system_bracers\"]/text"
 msgstr "(LI) 시스템 보강 장치실!"
 
-#: src-en/data/events_special_storage.xml.append:2577
+#: src-en/data/events_special_storage.xml.append:2595
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"lily_targeting_core\"]/text"
 msgstr "(LI) 전용 조준 코어실!"
 
-#: src-en/data/events_special_storage.xml.append:2582
+#: src-en/data/events_special_storage.xml.append:2600
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"og_turret_adaptive\"]/text"
 msgstr "(OG) 적응형 포탑 제어실 #1!"
 
-#: src-en/data/events_special_storage.xml.append:2586
+#: src-en/data/events_special_storage.xml.append:2604
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"og_turret_adaptive_2\"]/text"
 msgstr "(OG) 적응형 포탑 제어실 #2!"
 
-#: src-en/data/events_special_storage.xml.append:2591
+#: src-en/data/events_special_storage.xml.append:2609
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"og_turret_mini\"]/text"
 msgstr "(OG) 소형 포탑 제어실 #1!"
 
-#: src-en/data/events_special_storage.xml.append:2595
+#: src-en/data/events_special_storage.xml.append:2613
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"og_turret_mini_2\"]/text"
 msgstr "(OG) 소형 포탑 제어실 #2!"
 
-#: src-en/data/events_special_storage.xml.append:2599
+#: src-en/data/events_special_storage.xml.append:2617
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"og_turret_mini_3\"]/text"
 msgstr "(OG) 소형 포탑 제어실 #3!"
 
-#: src-en/data/events_special_storage.xml.append:2603
+#: src-en/data/events_special_storage.xml.append:2621
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"og_turret_mini_4\"]/text"
 msgstr "(OG) 소형 포탑 제어실 #4!"
 
-#: src-en/data/events_special_storage.xml.append:2608
+#: src-en/data/events_special_storage.xml.append:2626
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"og_turret\"]/text"
 msgstr "(OG) 포탑 제어실 #1!"
 
-#: src-en/data/events_special_storage.xml.append:2612
+#: src-en/data/events_special_storage.xml.append:2630
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"og_turret_2\"]/text"
 msgstr "(OG) 포탑 제어실 #2!"
 
-#: src-en/data/events_special_storage.xml.append:2616
+#: src-en/data/events_special_storage.xml.append:2634
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"og_turret_3\"]/text"
 msgstr "(OG) 포탑 제어실 #3!"
 
-#: src-en/data/events_special_storage.xml.append:2620
+#: src-en/data/events_special_storage.xml.append:2638
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"og_turret_4\"]/text"
 msgstr "(OG) 포탑 제어실 #4!"
 
-#: src-en/data/events_special_storage.xml.append:2626
+#: src-en/data/events_special_storage.xml.append:2644
 msgid ""
-"data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[37]/text"
+"data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[41]/text"
 msgstr "적들이 너무 많습니다. 함선 전체를 태워버립니다!!"
 
-#: src-en/data/events_special_storage.xml.append:2678
+#: src-en/data/events_special_storage.xml.append:2696
 msgid ""
-"data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[38]/text"
-msgstr "토글 메뉴로 돌아간다."
+"data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[42]/text"
+msgstr ""
 
-#: src-en/data/events_special_storage.xml.append:3953
+#: src-en/data/events_special_storage.xml.append:4019
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_SCORCH_SELF_UPGRADE\"]/text"
 msgstr ""
 "이 보조 장비를 업그레이드하시겠습니까?\n"
 "\t[화재 저항력 증가. 화재 발생 시 선원이 오키드 1명분의 산소를 생산합니다.]"
 
-#: src-en/data/events_special_storage.xml.append:3957
+#: src-en/data/events_special_storage.xml.append:4023
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_SCORCH_SELF_UPGRADE\"]/choice[@req=\"RK_SCORCH_SELF\"]/text"
 msgstr "예 [-16~, -1{, -1}]"
 
-#: src-en/data/events_special_storage.xml.append:3959
+#: src-en/data/events_special_storage.xml.append:4025
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_SCORCH_SELF_UPGRADE\"]/choice[@req=\"RK_SCORCH_SELF\"]/event/text"
 msgstr "보조장비 업그레이드를 시작합니다..."
 
-#: src-en/data/events_special_storage.xml.append:3968
+#: src-en/data/events_special_storage.xml.append:4034
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_SCORCH_SELF_UPGRADE\"]/choice[@req=\"RK_SCORCH_SELF\"]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_special_storage.xml.append:3970
+#: src-en/data/events_special_storage.xml.append:4036
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_SCORCH_SELF_UPGRADE\"]/choice[@req=\"RK_SCORCH_SELF\"]/event/choice/event/text"
 msgstr "보조장비 업그레이드를 성공적으로 마쳤습니다."
 
-#: src-en/data/events_special_storage.xml.append:3973
+#: src-en/data/events_special_storage.xml.append:4039
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_SCORCH_SELF_UPGRADE\"]/choice[@req=\"RK_SCORCH_SELF\"]/event/choice/event/choice/text"
 msgstr "성공!"
 
-#: src-en/data/events_special_storage.xml.append:3981
+#: src-en/data/events_special_storage.xml.append:4047
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_SCORCH_SELF_UPGRADE\"]/choice[2]/text"
 msgstr "신경 쓰지 않고 다른 작업을 수행한다."
 
-#: src-en/data/events_special_storage.xml.append:3987
+#: src-en/data/events_special_storage.xml.append:4053
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_SCORCH_SELF_UPGRADE_2\"]/text"
 msgstr ""
 "이 보조 장비를 업그레이드하시겠습니까?\n"
 "\t[선원의 화재 저항력 증가. 화재 발생 시 선원이 오키드 3명분의 산소를 생산합니다.]"
 
-#: src-en/data/events_special_storage.xml.append:3991
+#: src-en/data/events_special_storage.xml.append:4057
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_SCORCH_SELF_UPGRADE_2\"]/choice[@req=\"RK_SCORCH_SELF_2\"]/text"
 msgstr "예 [-11~, -1{, -1}, 함대가 1턴 전진합니다]"
 
-#: src-en/data/events_special_storage.xml.append:3993
+#: src-en/data/events_special_storage.xml.append:4059
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_SCORCH_SELF_UPGRADE_2\"]/choice[@req=\"RK_SCORCH_SELF_2\"]/event/text"
 msgstr "보조장비 업그레이드를 시작합니다..."
 
-#: src-en/data/events_special_storage.xml.append:4003
+#: src-en/data/events_special_storage.xml.append:4069
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_SCORCH_SELF_UPGRADE_2\"]/choice[@req=\"RK_SCORCH_SELF_2\"]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_special_storage.xml.append:4005
+#: src-en/data/events_special_storage.xml.append:4071
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_SCORCH_SELF_UPGRADE_2\"]/choice[@req=\"RK_SCORCH_SELF_2\"]/event/choice/event/text"
 msgstr "보조장비 업그레이드를 성공적으로 마쳤습니다."
 
-#: src-en/data/events_special_storage.xml.append:4008
+#: src-en/data/events_special_storage.xml.append:4074
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_SCORCH_SELF_UPGRADE_2\"]/choice[@req=\"RK_SCORCH_SELF_2\"]/event/choice/event/choice/text"
 msgstr "성공!"
 
-#: src-en/data/events_special_storage.xml.append:4016
+#: src-en/data/events_special_storage.xml.append:4082
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_SCORCH_SELF_UPGRADE_2\"]/choice[2]/text"
 msgstr "신경 쓰지 않고 다른 작업을 수행한다."
 
-#: src-en/data/events_special_storage.xml.append:4035
+#: src-en/data/events_special_storage.xml.append:4101
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"COMBAT_CHECK_RK_COMBAT_SCORCH_ENEMY\"]/text"
 msgstr ""
 "확실합니까? 이렇게 하시겠습니까? (화재 발생원 필요)\n"
 "\t[자신의 함선에 산소실이 있는 경우, 그곳에 화재가 발생하고 적 함선(주로 시스템)에도 무작위로 화재가 발생합니다. {]를 사용합니다.]"
 
-#: src-en/data/events_special_storage.xml.append:4039
+#: src-en/data/events_special_storage.xml.append:4105
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"COMBAT_CHECK_RK_COMBAT_SCORCH_ENEMY\"]/choice[@req=\"DJMOD_COMBAT_SELF_FIRE_ANY\"]/text"
 msgstr "무료 가동에 필요한 초토화 보조장비 단계를 보유하고 있지 않습니다."
 
-#: src-en/data/events_special_storage.xml.append:4044
+#: src-en/data/events_special_storage.xml.append:4110
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"COMBAT_CHECK_RK_COMBAT_SCORCH_ENEMY\"]/choice[2]/text"
 msgstr "(초토화) 예! [적함에 약간의 화재 발생]"
 
-#: src-en/data/events_special_storage.xml.append:4048
+#: src-en/data/events_special_storage.xml.append:4114
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"COMBAT_CHECK_RK_COMBAT_SCORCH_ENEMY\"]/choice[3]/text"
 msgstr "(초토화) 강력 가동! [양측 함선 모두에 더 많은 화재 발생]"
 
-#: src-en/data/events_special_storage.xml.append:4053
+#: src-en/data/events_special_storage.xml.append:4119
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"COMBAT_CHECK_RK_COMBAT_SCORCH_ENEMY\"]/choice[@req=\"RK_COMBAT_SCORCH_ENEMY\"]/text"
 msgstr "예 [소모될 수 있는 화재 발생원 필요]"
 
-#: src-en/data/events_special_storage.xml.append:4058
+#: src-en/data/events_special_storage.xml.append:4124
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"COMBAT_CHECK_RK_COMBAT_SCORCH_ENEMY\"]/choice[5]/text"
 msgstr "대신 다른 행동을 취한다."
 
-#: src-en/data/events_special_storage.xml.append:4062
+#: src-en/data/events_special_storage.xml.append:4128
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"COMBAT_CHECK_RK_COMBAT_SCORCH_ENEMY\"]/choice[6]/text"
 msgstr "생각이 바뀌었다, 바로 싸운다!"
 
-#: src-en/data/events_special_storage.xml.append:4064
+#: src-en/data/events_special_storage.xml.append:4130
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"COMBAT_CHECK_RK_COMBAT_SCORCH_ENEMY\"]/choice[6]/event/text"
 msgstr "아무것도 하지 않고 전투를 준비합니다."
 
-#: src-en/data/events_special_storage.xml.append:4075
+#: src-en/data/events_special_storage.xml.append:4141
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY\"]/text"
 msgstr "어떤 불씨 소스를 사용하시겠습니까?"
 
-#: src-en/data/events_special_storage.xml.append:4078
+#: src-en/data/events_special_storage.xml.append:4144
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY\"]/choice[1]/text"
 msgstr "강력 가동을 위해 불을 붙일 선원을 투입합니다! [사망하며, 복제 가능합니다]"
 
-#: src-en/data/events_special_storage.xml.append:4083
+#: src-en/data/events_special_storage.xml.append:4149
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY\"]/choice[2]/text"
 msgstr "1{ + 1}. 약한 가동이지만, 효과는 있을 겁니다."
 
-#: src-en/data/events_special_storage.xml.append:4085
+#: src-en/data/events_special_storage.xml.append:4151
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY\"]/choice[2]/event/text"
 msgstr "미사일을 장전합니다..."
 
-#: src-en/data/events_special_storage.xml.append:4092
+#: src-en/data/events_special_storage.xml.append:4158
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY\"]/choice[2]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_special_storage.xml.append:4099
+#: src-en/data/events_special_storage.xml.append:4165
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY\"]/choice[3]/text"
 msgstr "대신 다른 행동을 취한다."
 
-#: src-en/data/events_special_storage.xml.append:4103
+#: src-en/data/events_special_storage.xml.append:4169
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY\"]/choice[4]/text"
 msgstr "생각이 바뀌었다, 바로 싸운다!"
 
-#: src-en/data/events_special_storage.xml.append:4105
+#: src-en/data/events_special_storage.xml.append:4171
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY\"]/choice[4]/event/text"
 msgstr "아무것도 하지 않고 전투를 준비합니다."
 
-#: src-en/data/events_special_storage.xml.append:4138
+#: src-en/data/events_special_storage.xml.append:4204
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW\"]/text"
 msgstr "어떤 종류의 선원을 선택합니까?"
 
-#: src-en/data/events_special_storage.xml.append:4141
+#: src-en/data/events_special_storage.xml.append:4207
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW\"]/choice[@req=\"DJMOD_HAS_CREW_ARE_BOMBS_AND_CREW\"]/text"
 msgstr "(전하 벨트) 누구든 상관없다! 제비뽑기를 한다."
 
-#: src-en/data/events_special_storage.xml.append:4143
+#: src-en/data/events_special_storage.xml.append:4209
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW\"]/choice[@req=\"DJMOD_HAS_CREW_ARE_BOMBS_AND_CREW\"]/event/text"
 msgstr "가장 운이 없는 선원이 대의를 위해 희생되어, 보조장비가 강력하게 가동됩니다!"
 
-#: src-en/data/events_special_storage.xml.append:4150
+#: src-en/data/events_special_storage.xml.append:4216
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW\"]/choice[@req=\"DJMOD_HAS_CREW_ARE_BOMBS_AND_CREW\"]/event/removeCrew/text"
 msgstr "클론 배양실이 선원을 성공적으로 부활시켰습니다."
 
-#: src-en/data/events_special_storage.xml.append:4154
+#: src-en/data/events_special_storage.xml.append:4220
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW\"]/choice[@req=\"DJMOD_HAS_CREW_ARE_BOMBS_AND_CREW\"]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_special_storage.xml.append:4160
+#: src-en/data/events_special_storage.xml.append:4226
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW\"]/choice[@req=\"DJMOD_HAS_DEATH_VESTS_AND_CREW\"]/text"
 msgstr "(순교자의 조끼) 누구든 상관없다! 제비뽑기를 한다."
 
-#: src-en/data/events_special_storage.xml.append:4162
+#: src-en/data/events_special_storage.xml.append:4228
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW\"]/choice[@req=\"DJMOD_HAS_DEATH_VESTS_AND_CREW\"]/event/text"
 msgstr "가장 운이 없는 선원이 대의를 위해 희생되어, 보조장비가 강력하게 가동됩니다!"
 
-#: src-en/data/events_special_storage.xml.append:4169
+#: src-en/data/events_special_storage.xml.append:4235
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW\"]/choice[@req=\"DJMOD_HAS_DEATH_VESTS_AND_CREW\"]/event/removeCrew/text"
 msgstr "클론 배양실이 선원을 성공적으로 부활시켰습니다."
 
-#: src-en/data/events_special_storage.xml.append:4173
+#: src-en/data/events_special_storage.xml.append:4239
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW\"]/choice[@req=\"DJMOD_HAS_DEATH_VESTS_AND_CREW\"]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_special_storage.xml.append:4183
+#: src-en/data/events_special_storage.xml.append:4249
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW\"]/choice[@req=\"LIST_CREW_SHELL\"]/text"
 msgstr "셸 (종류 선택)"
 
-#: src-en/data/events_special_storage.xml.append:4187
+#: src-en/data/events_special_storage.xml.append:4253
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW\"]/choice[@req=\"LIST_CREW_ZOLTAN\"]/text"
 msgstr "졸탄 (종류 선택)"
 
-#: src-en/data/events_special_storage.xml.append:4192
+#: src-en/data/events_special_storage.xml.append:4258
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW\"]/choice[@req=\"LIST_CREW_SOLAR\"]/text"
 msgstr "점화된 라니우스 (종류 선택)"
 
-#: src-en/data/events_special_storage.xml.append:4197
+#: src-en/data/events_special_storage.xml.append:4263
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW\"]/choice[@req=\"rock_commando\"]/text"
 msgstr "무작위 로스트선 특공대"
 
-#: src-en/data/events_special_storage.xml.append:4199
+#: src-en/data/events_special_storage.xml.append:4265
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW\"]/choice[@req=\"rock_commando\"]/event/text"
 msgstr "선원이 대의를 위해 희생되어, 보조장비가 강력하게 가동됩니다!"
 
-#: src-en/data/events_special_storage.xml.append:4206
+#: src-en/data/events_special_storage.xml.append:4272
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW\"]/choice[@req=\"rock_commando\"]/event/removeCrew/text"
 msgstr "클론 배양실이 선원을 성공적으로 부활시켰습니다."
 
-#: src-en/data/events_special_storage.xml.append:4210
+#: src-en/data/events_special_storage.xml.append:4276
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW\"]/choice[@req=\"rock_commando\"]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_special_storage.xml.append:4217
+#: src-en/data/events_special_storage.xml.append:4283
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW\"]/choice[@req=\"phantom_goul\"]/text"
 msgstr "무작위 구울"
 
-#: src-en/data/events_special_storage.xml.append:4219
+#: src-en/data/events_special_storage.xml.append:4285
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW\"]/choice[@req=\"phantom_goul\"]/event/text"
 msgstr "선원이 대의를 위해 희생되어, 보조장비가 강력하게 가동됩니다!"
 
-#: src-en/data/events_special_storage.xml.append:4226
+#: src-en/data/events_special_storage.xml.append:4292
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW\"]/choice[@req=\"phantom_goul\"]/event/removeCrew/text"
 msgstr "클론 배양실이 선원을 성공적으로 부활시켰습니다."
 
-#: src-en/data/events_special_storage.xml.append:4230
+#: src-en/data/events_special_storage.xml.append:4296
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW\"]/choice[@req=\"phantom_goul\"]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_special_storage.xml.append:4237
+#: src-en/data/events_special_storage.xml.append:4303
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW\"]/choice[@req=\"phantom_goul_alpha\"]/text"
 msgstr "무작위 알파 구울"
 
-#: src-en/data/events_special_storage.xml.append:4239
+#: src-en/data/events_special_storage.xml.append:4305
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW\"]/choice[@req=\"phantom_goul_alpha\"]/event/text"
 msgstr "알파 구울이 대의를 위해 희생되어, 보조장비가 강력하게 가동됩니다!"
 
-#: src-en/data/events_special_storage.xml.append:4246
+#: src-en/data/events_special_storage.xml.append:4312
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW\"]/choice[@req=\"phantom_goul_alpha\"]/event/removeCrew/text"
 msgstr "클론 배양실이 선원을 성공적으로 부활시켰습니다."
 
-#: src-en/data/events_special_storage.xml.append:4250
+#: src-en/data/events_special_storage.xml.append:4316
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW\"]/choice[@req=\"phantom_goul_alpha\"]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_special_storage.xml.append:4252
+#: src-en/data/events_special_storage.xml.append:4318
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW\"]/choice[@req=\"phantom_goul_alpha\"]/event/choice/event/text"
 msgstr "일반 구울도 생성됩니다!"
 
-#: src-en/data/events_special_storage.xml.append:4256
+#: src-en/data/events_special_storage.xml.append:4322
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW\"]/choice[@req=\"phantom_goul_alpha\"]/event/choice/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_special_storage.xml.append:4265
+#: src-en/data/events_special_storage.xml.append:4331
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW\"]/choice[@req=\"rk_fireghost\"]/text"
 msgstr "무작위 RK 업터"
 
-#: src-en/data/events_special_storage.xml.append:4267
+#: src-en/data/events_special_storage.xml.append:4333
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW\"]/choice[@req=\"rk_fireghost\"]/event/text"
 msgstr "업터가 대의를 위해 희생되어, 보조장비가 강력하게 가동됩니다!"
 
-#: src-en/data/events_special_storage.xml.append:4274
+#: src-en/data/events_special_storage.xml.append:4340
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW\"]/choice[@req=\"rk_fireghost\"]/event/removeCrew/text"
 msgstr "클론 배양실이 선원을 성공적으로 부활시켰습니다."
 
-#: src-en/data/events_special_storage.xml.append:4278
+#: src-en/data/events_special_storage.xml.append:4344
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW\"]/choice[@req=\"rk_fireghost\"]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_special_storage.xml.append:4280
+#: src-en/data/events_special_storage.xml.append:4346
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW\"]/choice[@req=\"rk_fireghost\"]/event/choice/event/text"
 msgstr "알파 구울도 생성됩니다!"
 
-#: src-en/data/events_special_storage.xml.append:4284
+#: src-en/data/events_special_storage.xml.append:4350
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW\"]/choice[@req=\"rk_fireghost\"]/event/choice/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_special_storage.xml.append:4294
+#: src-en/data/events_special_storage.xml.append:4360
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW\"]/choice[10]/text"
 msgstr "대신 다른 행동을 취한다."
 
-#: src-en/data/events_special_storage.xml.append:4300
+#: src-en/data/events_special_storage.xml.append:4366
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_SHELLS\"]/text"
 msgstr "어떤 종류의 셸입니까? [소모되며, 복제 가능합니다]"
 
-#: src-en/data/events_special_storage.xml.append:4303
+#: src-en/data/events_special_storage.xml.append:4369
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_SHELLS\"]/choice[@req=\"shell\"]/text"
 msgstr "무작위 일반 셸"
 
-#: src-en/data/events_special_storage.xml.append:4305
+#: src-en/data/events_special_storage.xml.append:4371
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_SHELLS\"]/choice[@req=\"shell\"]/event/text"
 msgstr "선원이 대의를 위해 희생되어, 보조장비가 강력하게 가동됩니다!"
 
-#: src-en/data/events_special_storage.xml.append:4312
+#: src-en/data/events_special_storage.xml.append:4378
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_SHELLS\"]/choice[@req=\"shell\"]/event/removeCrew/text"
 msgstr "클론 배양실이 선원을 성공적으로 부활시켰습니다."
 
-#: src-en/data/events_special_storage.xml.append:4316
+#: src-en/data/events_special_storage.xml.append:4382
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_SHELLS\"]/choice[@req=\"shell\"]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_special_storage.xml.append:4322
+#: src-en/data/events_special_storage.xml.append:4388
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_SHELLS\"]/choice[@req=\"shell_mechanic\"]/text"
 msgstr "무작위 셸 정비공"
 
-#: src-en/data/events_special_storage.xml.append:4324
+#: src-en/data/events_special_storage.xml.append:4390
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_SHELLS\"]/choice[@req=\"shell_mechanic\"]/event/text"
 msgstr "선원이 대의를 위해 희생되어, 보조장비가 강력하게 가동됩니다!"
 
-#: src-en/data/events_special_storage.xml.append:4331
+#: src-en/data/events_special_storage.xml.append:4397
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_SHELLS\"]/choice[@req=\"shell_mechanic\"]/event/removeCrew/text"
 msgstr "클론 배양실이 선원을 성공적으로 부활시켰습니다."
 
-#: src-en/data/events_special_storage.xml.append:4335
+#: src-en/data/events_special_storage.xml.append:4401
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_SHELLS\"]/choice[@req=\"shell_mechanic\"]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_special_storage.xml.append:4341
+#: src-en/data/events_special_storage.xml.append:4407
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_SHELLS\"]/choice[@req=\"shell_scientist\"]/text"
 msgstr "무작위 셸 과학자"
 
-#: src-en/data/events_special_storage.xml.append:4343
+#: src-en/data/events_special_storage.xml.append:4409
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_SHELLS\"]/choice[@req=\"shell_scientist\"]/event/text"
 msgstr "선원이 대의를 위해 희생되어, 보조장비가 강력하게 가동됩니다!"
 
-#: src-en/data/events_special_storage.xml.append:4350
+#: src-en/data/events_special_storage.xml.append:4416
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_SHELLS\"]/choice[@req=\"shell_scientist\"]/event/removeCrew/text"
 msgstr "클론 배양실이 선원을 성공적으로 부활시켰습니다."
 
-#: src-en/data/events_special_storage.xml.append:4354
+#: src-en/data/events_special_storage.xml.append:4420
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_SHELLS\"]/choice[@req=\"shell_scientist\"]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_special_storage.xml.append:4360
+#: src-en/data/events_special_storage.xml.append:4426
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_SHELLS\"]/choice[@req=\"shell_guardian\"]/text"
 msgstr "무작위 셸 수호자"
 
-#: src-en/data/events_special_storage.xml.append:4362
+#: src-en/data/events_special_storage.xml.append:4428
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_SHELLS\"]/choice[@req=\"shell_guardian\"]/event/text"
 msgstr "선원이 대의를 위해 희생되어, 보조장비가 강력하게 가동됩니다!"
 
-#: src-en/data/events_special_storage.xml.append:4369
+#: src-en/data/events_special_storage.xml.append:4435
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_SHELLS\"]/choice[@req=\"shell_guardian\"]/event/removeCrew/text"
 msgstr "클론 배양실이 선원을 성공적으로 부활시켰습니다."
 
-#: src-en/data/events_special_storage.xml.append:4373
+#: src-en/data/events_special_storage.xml.append:4439
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_SHELLS\"]/choice[@req=\"shell_guardian\"]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_special_storage.xml.append:4379
+#: src-en/data/events_special_storage.xml.append:4445
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_SHELLS\"]/choice[@req=\"shell_radiant\"]/text"
 msgstr "무작위 방사성 셸"
 
-#: src-en/data/events_special_storage.xml.append:4381
+#: src-en/data/events_special_storage.xml.append:4447
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_SHELLS\"]/choice[@req=\"shell_radiant\"]/event/text"
 msgstr "선원이 대의를 위해 희생되어, 보조장비가 강력하게 가동됩니다!"
 
-#: src-en/data/events_special_storage.xml.append:4388
+#: src-en/data/events_special_storage.xml.append:4454
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_SHELLS\"]/choice[@req=\"shell_radiant\"]/event/removeCrew/text"
 msgstr "클론 배양실이 선원을 성공적으로 부활시켰습니다."
 
-#: src-en/data/events_special_storage.xml.append:4392
+#: src-en/data/events_special_storage.xml.append:4458
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_SHELLS\"]/choice[@req=\"shell_radiant\"]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_special_storage.xml.append:4398
+#: src-en/data/events_special_storage.xml.append:4464
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_SHELLS\"]/choice[@req=\"unique_alkali\"]/text"
 msgstr "알칼리"
 
-#: src-en/data/events_special_storage.xml.append:4400
+#: src-en/data/events_special_storage.xml.append:4466
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_SHELLS\"]/choice[@req=\"unique_alkali\"]/event/text"
 msgstr "알칼리가 마지못해 대의를 위해 희생되어, 보조장비가 강력하게 가동됩니다!"
 
-#: src-en/data/events_special_storage.xml.append:4407
+#: src-en/data/events_special_storage.xml.append:4473
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_SHELLS\"]/choice[@req=\"unique_alkali\"]/event/removeCrew/text"
 msgstr "클론 배양실이 선원을 성공적으로 부활시켰습니다."
 
-#: src-en/data/events_special_storage.xml.append:4411
+#: src-en/data/events_special_storage.xml.append:4477
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_SHELLS\"]/choice[@req=\"unique_alkali\"]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_special_storage.xml.append:4418
+#: src-en/data/events_special_storage.xml.append:4484
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_SHELLS\"]/choice[7]/text"
 msgstr "대신 다른 행동을 취한다."
 
-#: src-en/data/events_special_storage.xml.append:4424
+#: src-en/data/events_special_storage.xml.append:4490
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_ZOLTANS\"]/text"
 msgstr "어떤 종류의 졸탄입니까? [소모되며, 복제 가능합니다]"
 
-#: src-en/data/events_special_storage.xml.append:4427
+#: src-en/data/events_special_storage.xml.append:4493
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_ZOLTANS\"]/choice[@req=\"zoltan\"]/text"
 msgstr "무작위 일반 졸탄"
 
-#: src-en/data/events_special_storage.xml.append:4429
+#: src-en/data/events_special_storage.xml.append:4495
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_ZOLTANS\"]/choice[@req=\"zoltan\"]/event/text"
 msgstr "선원이 대의를 위해 희생되어, 보조장비가 강력하게 가동됩니다!"
 
-#: src-en/data/events_special_storage.xml.append:4436
+#: src-en/data/events_special_storage.xml.append:4502
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_ZOLTANS\"]/choice[@req=\"zoltan\"]/event/removeCrew/text"
 msgstr "클론 배양실이 선원을 성공적으로 부활시켰습니다."
 
-#: src-en/data/events_special_storage.xml.append:4440
+#: src-en/data/events_special_storage.xml.append:4506
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_ZOLTANS\"]/choice[@req=\"zoltan\"]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_special_storage.xml.append:4446
+#: src-en/data/events_special_storage.xml.append:4512
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_ZOLTANS\"]/choice[@req=\"zoltan_monk\"]/text"
 msgstr "무작위 졸탄 수도승"
 
-#: src-en/data/events_special_storage.xml.append:4448
+#: src-en/data/events_special_storage.xml.append:4514
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_ZOLTANS\"]/choice[@req=\"zoltan_monk\"]/event/text"
 msgstr "선원이 대의를 위해 평화롭게 희생되어, 보조장비가 강력하게 가동됩니다!"
 
-#: src-en/data/events_special_storage.xml.append:4455
+#: src-en/data/events_special_storage.xml.append:4521
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_ZOLTANS\"]/choice[@req=\"zoltan_monk\"]/event/removeCrew/text"
 msgstr "클론 배양실이 선원을 성공적으로 부활시켰습니다."
 
-#: src-en/data/events_special_storage.xml.append:4459
+#: src-en/data/events_special_storage.xml.append:4525
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_ZOLTANS\"]/choice[@req=\"zoltan_monk\"]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_special_storage.xml.append:4465
+#: src-en/data/events_special_storage.xml.append:4531
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_ZOLTANS\"]/choice[@req=\"zoltan_peacekeeper\"]/text"
 msgstr "무작위 졸탄 평화유지군"
 
-#: src-en/data/events_special_storage.xml.append:4467
+#: src-en/data/events_special_storage.xml.append:4533
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_ZOLTANS\"]/choice[@req=\"zoltan_peacekeeper\"]/event/text"
 msgstr "선원이 대의를 위해 희생되어, 보조장비가 강력하게 가동됩니다!"
 
-#: src-en/data/events_special_storage.xml.append:4474
+#: src-en/data/events_special_storage.xml.append:4540
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_ZOLTANS\"]/choice[@req=\"zoltan_peacekeeper\"]/event/removeCrew/text"
 msgstr "클론 배양실이 선원을 성공적으로 부활시켰습니다."
 
-#: src-en/data/events_special_storage.xml.append:4478
+#: src-en/data/events_special_storage.xml.append:4544
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_ZOLTANS\"]/choice[@req=\"zoltan_peacekeeper\"]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_special_storage.xml.append:4484
+#: src-en/data/events_special_storage.xml.append:4550
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_ZOLTANS\"]/choice[@req=\"zoltan_devotee\"]/text"
 msgstr "무작위 더스크브링어"
 
-#: src-en/data/events_special_storage.xml.append:4486
+#: src-en/data/events_special_storage.xml.append:4552
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_ZOLTANS\"]/choice[@req=\"zoltan_devotee\"]/event/text"
 msgstr "선원이 대의를 위해 기꺼이 희생되어, 보조장비가 강력하게 가동됩니다!"
 
-#: src-en/data/events_special_storage.xml.append:4493
+#: src-en/data/events_special_storage.xml.append:4559
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_ZOLTANS\"]/choice[@req=\"zoltan_devotee\"]/event/removeCrew/text"
 msgstr "클론 배양실이 선원을 성공적으로 부활시켰습니다."
 
-#: src-en/data/events_special_storage.xml.append:4497
+#: src-en/data/events_special_storage.xml.append:4563
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_ZOLTANS\"]/choice[@req=\"zoltan_devotee\"]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_special_storage.xml.append:4503
+#: src-en/data/events_special_storage.xml.append:4569
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_ZOLTANS\"]/choice[@req=\"zoltan_martyr\"]/text"
 msgstr "무작위 더스크브링어 순교자"
 
-#: src-en/data/events_special_storage.xml.append:4505
+#: src-en/data/events_special_storage.xml.append:4571
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_ZOLTANS\"]/choice[@req=\"zoltan_martyr\"]/event/text"
 msgstr "선원이 대의를 위해 기꺼이 희생되어, 보조장비가 강력하게 가동됩니다!"
 
-#: src-en/data/events_special_storage.xml.append:4512
+#: src-en/data/events_special_storage.xml.append:4578
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_ZOLTANS\"]/choice[@req=\"zoltan_martyr\"]/event/removeCrew/text"
 msgstr "클론 배양실이 선원을 성공적으로 부활시켰습니다."
 
-#: src-en/data/events_special_storage.xml.append:4516
+#: src-en/data/events_special_storage.xml.append:4582
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_ZOLTANS\"]/choice[@req=\"zoltan_martyr\"]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_special_storage.xml.append:4522
+#: src-en/data/events_special_storage.xml.append:4588
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_ZOLTANS\"]/choice[@req=\"zoltan_infernum\"]/text"
 msgstr "무작위 인페르눔 수도승"
 
-#: src-en/data/events_special_storage.xml.append:4524
+#: src-en/data/events_special_storage.xml.append:4590
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_ZOLTANS\"]/choice[@req=\"zoltan_infernum\"]/event/text"
 msgstr "선원이 대의를 위해 기꺼이 희생되어, 보조장비가 강력하게 가동됩니다!"
 
-#: src-en/data/events_special_storage.xml.append:4531
+#: src-en/data/events_special_storage.xml.append:4597
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_ZOLTANS\"]/choice[@req=\"zoltan_infernum\"]/event/removeCrew/text"
 msgstr "클론 배양실이 선원을 성공적으로 부활시켰습니다."
 
-#: src-en/data/events_special_storage.xml.append:4535
+#: src-en/data/events_special_storage.xml.append:4601
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_ZOLTANS\"]/choice[@req=\"zoltan_infernum\"]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_special_storage.xml.append:4541
+#: src-en/data/events_special_storage.xml.append:4607
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_ZOLTANS\"]/choice[@req=\"unique_devorak\"]/text"
 msgstr "데보락"
 
-#: src-en/data/events_special_storage.xml.append:4543
+#: src-en/data/events_special_storage.xml.append:4609
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_ZOLTANS\"]/choice[@req=\"unique_devorak\"]/event/text"
 msgstr "데보락이 대의를 위해 기꺼이 희생되어, 보조장비가 강력하게 가동됩니다!"
 
-#: src-en/data/events_special_storage.xml.append:4550
+#: src-en/data/events_special_storage.xml.append:4616
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_ZOLTANS\"]/choice[@req=\"unique_devorak\"]/event/removeCrew/text"
 msgstr "클론 배양실이 선원을 성공적으로 부활시켰습니다."
 
-#: src-en/data/events_special_storage.xml.append:4554
+#: src-en/data/events_special_storage.xml.append:4620
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_ZOLTANS\"]/choice[@req=\"unique_devorak\"]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_special_storage.xml.append:4560
+#: src-en/data/events_special_storage.xml.append:4626
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_ZOLTANS\"]/choice[@req=\"symbiote\"]/text"
 msgstr "공생체"
 
-#: src-en/data/events_special_storage.xml.append:4562
+#: src-en/data/events_special_storage.xml.append:4628
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_ZOLTANS\"]/choice[@req=\"symbiote\"]/event/text"
 msgstr "공생체의 괴물이 대의를 위해 희생되면서 안도의 한숨을 내쉬어, 보조장비가 강력하게 가동됩니다!"
 
-#: src-en/data/events_special_storage.xml.append:4569
+#: src-en/data/events_special_storage.xml.append:4635
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_ZOLTANS\"]/choice[@req=\"symbiote\"]/event/removeCrew/text"
 msgstr "클론 배양실이 선원을 성공적으로 부활시켰습니다."
 
-#: src-en/data/events_special_storage.xml.append:4573
+#: src-en/data/events_special_storage.xml.append:4639
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_ZOLTANS\"]/choice[@req=\"symbiote\"]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_special_storage.xml.append:4580
+#: src-en/data/events_special_storage.xml.append:4646
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_ZOLTANS\"]/choice[9]/text"
 msgstr "대신 다른 행동을 취한다."
 
-#: src-en/data/events_special_storage.xml.append:4586
+#: src-en/data/events_special_storage.xml.append:4652
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_LANIUS_FIRE\"]/text"
 msgstr "어떤 종류의 점화된 라니우스입니까? [소모되며, 복제 가능합니다]"
 
-#: src-en/data/events_special_storage.xml.append:4589
+#: src-en/data/events_special_storage.xml.append:4655
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_LANIUS_FIRE\"]/choice[@req=\"solar_lanius\"]/text"
 msgstr "무작위 일반 점화된 라니우스"
 
-#: src-en/data/events_special_storage.xml.append:4591
+#: src-en/data/events_special_storage.xml.append:4657
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_LANIUS_FIRE\"]/choice[@req=\"solar_lanius\"]/event/text"
 msgstr "선원이 대의를 위해 희생되어, 보조장비가 강력하게 가동됩니다!"
 
-#: src-en/data/events_special_storage.xml.append:4598
+#: src-en/data/events_special_storage.xml.append:4664
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_LANIUS_FIRE\"]/choice[@req=\"solar_lanius\"]/event/removeCrew/text"
 msgstr "클론 배양실이 선원을 성공적으로 부활시켰습니다."
 
-#: src-en/data/events_special_storage.xml.append:4602
+#: src-en/data/events_special_storage.xml.append:4668
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_LANIUS_FIRE\"]/choice[@req=\"solar_lanius\"]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_special_storage.xml.append:4610
+#: src-en/data/events_special_storage.xml.append:4676
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_LANIUS_FIRE\"]/choice[@req=\"midnight_lanius\"]/text"
 msgstr "무작위 루미너리"
 
-#: src-en/data/events_special_storage.xml.append:4612
+#: src-en/data/events_special_storage.xml.append:4678
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_LANIUS_FIRE\"]/choice[@req=\"midnight_lanius\"]/event/text"
 msgstr "선원이 대의를 위해 희생되어, 보조장비가 강력하게 가동됩니다!"
 
-#: src-en/data/events_special_storage.xml.append:4619
+#: src-en/data/events_special_storage.xml.append:4685
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_LANIUS_FIRE\"]/choice[@req=\"midnight_lanius\"]/event/removeCrew/text"
 msgstr "클론 배양실이 선원을 성공적으로 부활시켰습니다."
 
-#: src-en/data/events_special_storage.xml.append:4623
+#: src-en/data/events_special_storage.xml.append:4689
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_LANIUS_FIRE\"]/choice[@req=\"midnight_lanius\"]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_special_storage.xml.append:4629
+#: src-en/data/events_special_storage.xml.append:4695
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_LANIUS_FIRE\"]/choice[@req=\"midnight_lantern\"]/text"
 msgstr "무작위 루미너리"
 
-#: src-en/data/events_special_storage.xml.append:4631
+#: src-en/data/events_special_storage.xml.append:4697
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_LANIUS_FIRE\"]/choice[@req=\"midnight_lantern\"]/event/text"
 msgstr "선원이 대의를 위해 희생되어, 보조장비가 강력하게 가동됩니다!"
 
-#: src-en/data/events_special_storage.xml.append:4638
+#: src-en/data/events_special_storage.xml.append:4704
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_LANIUS_FIRE\"]/choice[@req=\"midnight_lantern\"]/event/removeCrew/text"
 msgstr "클론 배양실이 선원을 성공적으로 부활시켰습니다."
 
-#: src-en/data/events_special_storage.xml.append:4642
+#: src-en/data/events_special_storage.xml.append:4708
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_LANIUS_FIRE\"]/choice[@req=\"midnight_lantern\"]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_special_storage.xml.append:4649
+#: src-en/data/events_special_storage.xml.append:4715
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_LANIUS_FIRE\"]/choice[@req=\"unique_corona\"]/text"
 msgstr "코로나"
 
-#: src-en/data/events_special_storage.xml.append:4651
+#: src-en/data/events_special_storage.xml.append:4717
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_LANIUS_FIRE\"]/choice[@req=\"unique_corona\"]/event/text"
 msgstr "코로나가 대의를 위해 기꺼이 희생되어, 보조장비가 강력하게 가동됩니다!"
 
-#: src-en/data/events_special_storage.xml.append:4658
+#: src-en/data/events_special_storage.xml.append:4724
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_LANIUS_FIRE\"]/choice[@req=\"unique_corona\"]/event/removeCrew/text"
 msgstr "클론 배양실이 선원을 성공적으로 부활시켰습니다."
 
-#: src-en/data/events_special_storage.xml.append:4662
+#: src-en/data/events_special_storage.xml.append:4728
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_LANIUS_FIRE\"]/choice[@req=\"unique_corona\"]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_special_storage.xml.append:4668
+#: src-en/data/events_special_storage.xml.append:4734
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_LANIUS_FIRE\"]/choice[@req=\"unique_corona_masked\"]/text"
 msgstr "코로나"
 
-#: src-en/data/events_special_storage.xml.append:4670
+#: src-en/data/events_special_storage.xml.append:4736
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_LANIUS_FIRE\"]/choice[@req=\"unique_corona_masked\"]/event/text"
 msgstr "코로나가 대의를 위해 기꺼이 희생되어, 보조장비가 강력하게 가동됩니다!"
 
-#: src-en/data/events_special_storage.xml.append:4677
+#: src-en/data/events_special_storage.xml.append:4743
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_LANIUS_FIRE\"]/choice[@req=\"unique_corona_masked\"]/event/removeCrew/text"
 msgstr "클론 배양실이 선원을 성공적으로 부활시켰습니다."
 
-#: src-en/data/events_special_storage.xml.append:4681
+#: src-en/data/events_special_storage.xml.append:4747
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_LANIUS_FIRE\"]/choice[@req=\"unique_corona_masked\"]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_special_storage.xml.append:4688
+#: src-en/data/events_special_storage.xml.append:4754
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_LANIUS_FIRE\"]/choice[6]/text"
 msgstr "대신 다른 행동을 취한다."
 
-#: src-en/data/events_special_storage.xml.append:4805
+#: src-en/data/events_special_storage.xml.append:4871
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_OXYGENIZER_ACTIVATE\"]/text"
 msgstr ""
 "확실합니까? 이렇게 하시겠습니까?\n"
 "\t[두 함선 모두를 산소 환경으로 감싸 화재와 선원을 가스 배출 및 균열로부터 보호합니다. 비용 2}]"
 
-#: src-en/data/events_special_storage.xml.append:4809
+#: src-en/data/events_special_storage.xml.append:4875
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_OXYGENIZER_ACTIVATE\"]/choice[@req=\"loc_environment_atmosphere\""
 " and @lvl=\"0\"]/text"
 msgstr "발사한다."
 
-#: src-en/data/events_special_storage.xml.append:4811
+#: src-en/data/events_special_storage.xml.append:4877
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_OXYGENIZER_ACTIVATE\"]/choice[@req=\"loc_environment_atmosphere\""
 " and @lvl=\"0\"]/event/text"
 msgstr "초압축 산소 수류탄을 신속하게 투척하여, 숨을 쉬거나... 불길이 유지되기에 딱 적당한 대기로 구역 전체를 채웁니다!"
 
-#: src-en/data/events_special_storage.xml.append:4821
+#: src-en/data/events_special_storage.xml.append:4887
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_OXYGENIZER_ACTIVATE\"]/choice[@req=\"loc_environment_atmosphere\""
 " and @lvl=\"0\"]/event/choice/text"
 msgstr "이것으로 유리한 고지를 점할 수 있다!"
 
-#: src-en/data/events_special_storage.xml.append:4827
+#: src-en/data/events_special_storage.xml.append:4893
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_OXYGENIZER_ACTIVATE\"]/choice[@req=\"loc_environment_atmosphere\""
 " and not(@lvl)]/text"
 msgstr "이미 대기권 내에 있습니다!"
 
-#: src-en/data/events_special_storage.xml.append:4832
+#: src-en/data/events_special_storage.xml.append:4898
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_OXYGENIZER_ACTIVATE\"]/choice[3]/text"
 msgstr "대신 다른 행동을 취한다."
 
-#: src-en/data/events_special_storage.xml.append:4836
+#: src-en/data/events_special_storage.xml.append:4902
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_OXYGENIZER_ACTIVATE\"]/choice[4]/text"
 msgstr "생각이 바뀌었다, 바로 싸운다!"
 
-#: src-en/data/events_special_storage.xml.append:4869
+#: src-en/data/events_special_storage.xml.append:4935
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_OXYGENIZER_ACTIVATE_IN_EMPTY\"]/text"
 msgstr ""
 "확실합니까? 이렇게 하시겠습니까?\n"
-"\t[자신의 함선을 전부 산소 환경으로 감싸 화재와 선원을 가스 배출 및 "
-"균열로부터 보호합니다. 비용 1}]"
+"\t[자신의 함선을 전부 산소 환경으로 감싸 화재와 선원을 가스 배출 및 균열로부터 보호합니다. 비용 1}]"
 
-#: src-en/data/events_special_storage.xml.append:4873
+#: src-en/data/events_special_storage.xml.append:4939
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_OXYGENIZER_ACTIVATE_IN_EMPTY\"]/choice[@req=\"loc_environment_atmosphere\""
 " and @lvl=\"0\"]/text"
 msgstr "발사한다."
 
-#: src-en/data/events_special_storage.xml.append:4875
+#: src-en/data/events_special_storage.xml.append:4941
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_OXYGENIZER_ACTIVATE_IN_EMPTY\"]/choice[@req=\"loc_environment_atmosphere\""
 " and @lvl=\"0\"]/event/text"
 msgstr "초압축 산소 수류탄을 신속하게 투척하여, 숨을 쉬거나... 불길이 유지되기에 딱 적당한 대기로 구역 전체를 채웁니다!"
 
-#: src-en/data/events_special_storage.xml.append:4885
+#: src-en/data/events_special_storage.xml.append:4951
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_OXYGENIZER_ACTIVATE_IN_EMPTY\"]/choice[@req=\"loc_environment_atmosphere\""
 " and @lvl=\"0\"]/event/choice/text"
 msgstr "아, 신선한 공기!"
 
-#: src-en/data/events_special_storage.xml.append:4891
+#: src-en/data/events_special_storage.xml.append:4957
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_OXYGENIZER_ACTIVATE_IN_EMPTY\"]/choice[@req=\"loc_environment_atmosphere\""
 " and not(@lvl)]/text"
 msgstr "이미 대기권 내에 있습니다!"
 
-#: src-en/data/events_special_storage.xml.append:4896
+#: src-en/data/events_special_storage.xml.append:4962
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_OXYGENIZER_ACTIVATE_IN_EMPTY\"]/choice[3]/text"
 msgstr "신경 쓰지 않고 다른 작업을 수행한다."
 
-#: src-en/data/events_special_storage.xml.append:4913
+#: src-en/data/events_special_storage.xml.append:4979
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_CHECK_AUTO_SYS_REPAIR\"]/text"
 msgstr ""
 "확실합니까? 이렇게 하시겠습니까?\n"
 "\t[선체 내구도가 9점 이하가 되면, 전체 시스템 수리를 받고 선체 내구도를 15 회복하며, 보조장비를 상실합니다. 전력 1을 소모합니다.]"
 
-#: src-en/data/events_special_storage.xml.append:4917
+#: src-en/data/events_special_storage.xml.append:4983
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_CHECK_AUTO_SYS_REPAIR\"]/choice[@req=\"reactor\"]/text"
 msgstr "예"
 
-#: src-en/data/events_special_storage.xml.append:4919
+#: src-en/data/events_special_storage.xml.append:4985
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_CHECK_AUTO_SYS_REPAIR\"]/choice[@req=\"reactor\"]/event/text"
 msgstr "보조장비를 작동시킵니다..."
 
-#: src-en/data/events_special_storage.xml.append:4931
+#: src-en/data/events_special_storage.xml.append:4997
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_CHECK_AUTO_SYS_REPAIR\"]/choice[@req=\"reactor\"]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_special_storage.xml.append:4940
+#: src-en/data/events_special_storage.xml.append:5006
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_CHECK_AUTO_SYS_REPAIR\"]/choice[@req=\"DEBUG_GENERATOR\"]/text"
 msgstr "비상 발전기로 보조장비에 전력을 공급한다."
 
-#: src-en/data/events_special_storage.xml.append:4942
+#: src-en/data/events_special_storage.xml.append:5008
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_CHECK_AUTO_SYS_REPAIR\"]/choice[@req=\"DEBUG_GENERATOR\"]/event/text"
 msgstr "비상 발전기의 전력을 최대로 공급받아 보조장비를 가동합니다..."
 
-#: src-en/data/events_special_storage.xml.append:4949
+#: src-en/data/events_special_storage.xml.append:5015
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_CHECK_AUTO_SYS_REPAIR\"]/choice[@req=\"DEBUG_GENERATOR\"]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_special_storage.xml.append:4956
+#: src-en/data/events_special_storage.xml.append:5022
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_CHECK_AUTO_SYS_REPAIR\"]/choice[3]/text"
 msgstr "대신 다른 행동을 취한다."
 
-#: src-en/data/events_special_storage.xml.append:4960
+#: src-en/data/events_special_storage.xml.append:5026
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_CHECK_AUTO_SYS_REPAIR\"]/choice[4]/text"
 msgstr "생각이 바뀌었다, 바로 싸운다!"
 
-#: src-en/data/events_special_storage.xml.append:4962
+#: src-en/data/events_special_storage.xml.append:5028
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_CHECK_AUTO_SYS_REPAIR\"]/choice[4]/event/text"
 msgstr "아무것도 하지 않고 전투를 준비합니다."
 
-#: src-en/data/events_special_storage.xml.append:4980
+#: src-en/data/events_special_storage.xml.append:5046
 msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/event[@name=\"RK_COMBAT_AUTO_SYS_REPAIR_TRIGGERED_SUCCESS\"]/text"
 msgstr "함선 전체에서 \"A.E.R.A 재기 장치\" 나노머신이 안심스러운 소리를 내며 분출되어 시스템을 즉시 수리합니다!"
 
-#: src-en/data/events_special_storage.xml.append:4986
+#: src-en/data/events_special_storage.xml.append:5052
 msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/event[@name=\"RK_COMBAT_AUTO_SYS_REPAIR_TRIGGERED_SUCCESS\"]/choice[@req=\"pilot\"]/text"
 msgstr "좋다."
 
-#: src-en/data/events_special_storage.xml.append:4989
+#: src-en/data/events_special_storage.xml.append:5055
 msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/event[@name=\"RK_COMBAT_AUTO_SYS_REPAIR_TRIGGERED_SUCCESS\"]/choice[@req=\"pilot\"]/event/text"
 msgstr "남은 나노머신들이 작동을 멈추기 전에 급히 선체를 임시 수리합니다."
 
-#: src-en/data/events_special_storage.xml.append:4995
+#: src-en/data/events_special_storage.xml.append:5061
 msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/event[@name=\"RK_COMBAT_AUTO_SYS_REPAIR_TRIGGERED_SUCCESS\"]/choice[@req=\"pilot\"]/event/choice/text"
 msgstr "전투를 계속한다!"
 
-#: src-en/data/events_special_storage.xml.append:5021
+#: src-en/data/events_special_storage.xml.append:5087
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_ACTIVATE\"]/text"
 msgstr ""
 "확실합니까? 이렇게 하시겠습니까?\n"
 "\t[반군 함대의 진격을 지연시키기 위해 특수 해킹을 시도합니다]"
 
-#: src-en/data/events_special_storage.xml.append:5025
+#: src-en/data/events_special_storage.xml.append:5091
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_ACTIVATE\"]/choice[1]/text"
 msgstr "예, 무료 17초 해킹을 시도합니다."
 
-#: src-en/data/events_special_storage.xml.append:5027
+#: src-en/data/events_special_storage.xml.append:5093
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_ACTIVATE\"]/choice[1]/event/text"
 msgstr "보조장비를 작동시킵니다..."
 
-#: src-en/data/events_special_storage.xml.append:5030
+#: src-en/data/events_special_storage.xml.append:5096
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_ACTIVATE\"]/choice[1]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_special_storage.xml.append:5037
+#: src-en/data/events_special_storage.xml.append:5103
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_ACTIVATE\"]/choice[@req=\"HAS_HACKING_OR_LILY_ECM\""
 " and @lvl=\"0\"]/text"
 msgstr "더 많은 선택지를 이용하려면 해킹 시스템(또는 \"릴리의 혁신\"의 전자전 제어실)을 설치하십시오."
 
-#: src-en/data/events_special_storage.xml.append:5043
+#: src-en/data/events_special_storage.xml.append:5109
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_ACTIVATE\"]/choice[3]/text"
 msgstr "(해킹 1레벨, 1|) 14초 해킹."
 
-#: src-en/data/events_special_storage.xml.append:5045
+#: src-en/data/events_special_storage.xml.append:5111
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_ACTIVATE\"]/choice[3]/event/text"
 msgstr "보조장비를 작동시킵니다..."
 
-#: src-en/data/events_special_storage.xml.append:5054
+#: src-en/data/events_special_storage.xml.append:5120
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_ACTIVATE\"]/choice[3]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_special_storage.xml.append:5061
+#: src-en/data/events_special_storage.xml.append:5127
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_ACTIVATE\"]/choice[@req=\"HAS_HACKING_OR_LILY_ECM\""
 " and @lvl=\"2\"]/text"
 msgstr "(해킹 2레벨, 2|) 9초 해킹."
 
-#: src-en/data/events_special_storage.xml.append:5063
+#: src-en/data/events_special_storage.xml.append:5129
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_ACTIVATE\"]/choice[@req=\"HAS_HACKING_OR_LILY_ECM\""
 " and @lvl=\"2\"]/event/text"
 msgstr "보조장비를 작동시킵니다..."
 
-#: src-en/data/events_special_storage.xml.append:5072
+#: src-en/data/events_special_storage.xml.append:5138
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_ACTIVATE\"]/choice[@req=\"HAS_HACKING_OR_LILY_ECM\""
 " and @lvl=\"2\"]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_special_storage.xml.append:5079
+#: src-en/data/events_special_storage.xml.append:5145
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_ACTIVATE\"]/choice[5]/text"
 msgstr "더 많은 선택지를 이용하려면 더 강력한 해킹(또는 전자전 제어실) 시스템이 필요합니다."
 
-#: src-en/data/events_special_storage.xml.append:5084
+#: src-en/data/events_special_storage.xml.append:5150
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_ACTIVATE\"]/choice[@req=\"HAS_HACKING_OR_LILY_ECM\""
 " and @lvl=\"3\"]/text"
 msgstr "(해킹 3레벨, 3|) 즉시 해킹."
 
-#: src-en/data/events_special_storage.xml.append:5086
+#: src-en/data/events_special_storage.xml.append:5152
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_ACTIVATE\"]/choice[@req=\"HAS_HACKING_OR_LILY_ECM\""
 " and @lvl=\"3\"]/event/text"
 msgstr "보조장비를 작동시킵니다..."
 
-#: src-en/data/events_special_storage.xml.append:5094
+#: src-en/data/events_special_storage.xml.append:5160
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_ACTIVATE\"]/choice[@req=\"HAS_HACKING_OR_LILY_ECM\""
 " and @lvl=\"3\"]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_special_storage.xml.append:5101
+#: src-en/data/events_special_storage.xml.append:5167
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_ACTIVATE\"]/choice[7]/text"
 msgstr "대신 다른 행동을 취한다."
 
-#: src-en/data/events_special_storage.xml.append:5105
+#: src-en/data/events_special_storage.xml.append:5171
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_ACTIVATE\"]/choice[8]/text"
 msgstr "생각이 바뀌었다, 바로 싸운다!"
 
-#: src-en/data/events_special_storage.xml.append:5107
+#: src-en/data/events_special_storage.xml.append:5173
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_ACTIVATE\"]/choice[8]/event/text"
 msgstr "아무것도 하지 않고 전투를 준비합니다."
 
-#: src-en/data/events_special_storage.xml.append:5113
+#: src-en/data/events_special_storage.xml.append:5179
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_TIMER_START\"]/text"
 msgstr "적의 통신망에 침투하기 시작합니다. 이제 적을 너무 빨리 격파하지 말고 버텨내십시오..."
 
-#: src-en/data/events_special_storage.xml.append:5119
+#: src-en/data/events_special_storage.xml.append:5185
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_TIMER_START\"]/triggeredEvent/triggeredEventBox/tooltip"
 msgstr "함대 지연 해킹의 성공 여부가 이 시간 내에 결정됩니다. 적을 격파하면 취소됩니다."
 
-#: src-en/data/events_special_storage.xml.append:5129
+#: src-en/data/events_special_storage.xml.append:5195
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_TIMER_START\"]/choice/text"
 msgstr "전투를 계속한다!"
 
-#: src-en/data/events_special_storage.xml.append:5134
+#: src-en/data/events_special_storage.xml.append:5200
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_TIMER_END\"]/text"
 msgstr "작업이 완료되었습니다!"
 
-#: src-en/data/events_special_storage.xml.append:5141
+#: src-en/data/events_special_storage.xml.append:5207
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_TIMER_END\"]/choice/text"
 msgstr "효과가 있었는지 확인해 봅시다..."
 
-#: src-en/data/events_special_storage.xml.append:5178
+#: src-en/data/events_special_storage.xml.append:5244
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_TIMER_START_BONUS1\"]/text"
 msgstr "적의 통신망에 침투하기 시작합니다. 이제 적을 너무 빨리 격파하지 말고 버텨내십시오..."
 
-#: src-en/data/events_special_storage.xml.append:5184
+#: src-en/data/events_special_storage.xml.append:5250
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_TIMER_START_BONUS1\"]/triggeredEvent/triggeredEventBox/tooltip"
 msgstr "함대 지연 해킹의 성공 여부가 이 시간 내에 결정됩니다. 적을 격파하면 취소됩니다."
 
-#: src-en/data/events_special_storage.xml.append:5194
+#: src-en/data/events_special_storage.xml.append:5260
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_TIMER_START_BONUS1\"]/choice/text"
 msgstr "전투를 계속한다!"
 
-#: src-en/data/events_special_storage.xml.append:5199
+#: src-en/data/events_special_storage.xml.append:5265
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_TIMER_END_BONUS1\"]/text"
 msgstr "작업이 완료되었습니다!"
 
-#: src-en/data/events_special_storage.xml.append:5206
+#: src-en/data/events_special_storage.xml.append:5272
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_TIMER_END_BONUS1\"]/choice/text"
 msgstr "효과가 있었는지 확인해 봅시다..."
 
-#: src-en/data/events_special_storage.xml.append:5244
+#: src-en/data/events_special_storage.xml.append:5310
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_TIMER_START_BONUS2\"]/text"
 msgstr "적의 통신망에 침투하기 시작합니다. 이제 적을 너무 빨리 격파하지 말고 버텨내십시오..."
 
-#: src-en/data/events_special_storage.xml.append:5250
+#: src-en/data/events_special_storage.xml.append:5316
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_TIMER_START_BONUS2\"]/triggeredEvent/triggeredEventBox/tooltip"
 msgstr "함대 지연 해킹의 성공 여부가 이 시간 내에 결정됩니다. 적을 격파하면 취소됩니다."
 
-#: src-en/data/events_special_storage.xml.append:5260
+#: src-en/data/events_special_storage.xml.append:5326
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_TIMER_START_BONUS2\"]/choice/text"
 msgstr "전투를 계속한다!"
 
-#: src-en/data/events_special_storage.xml.append:5265
+#: src-en/data/events_special_storage.xml.append:5331
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_TIMER_END_BONUS2\"]/text"
 msgstr "작업이 완료되었습니다!"
 
-#: src-en/data/events_special_storage.xml.append:5272
+#: src-en/data/events_special_storage.xml.append:5338
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_TIMER_END_BONUS2\"]/choice/text"
 msgstr "효과가 있었는지 확인해 봅시다..."
 
-#: src-en/data/events_special_storage.xml.append:5342
+#: src-en/data/events_special_storage.xml.append:5408
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_OUTCOME_GOOD_CRITICAL\"]/text"
 msgstr "히히, 녀석들이 완전히 속아 넘어갔군요! 이번 해킹 덕분에 확실하게 앞서나갈 수 있게 되었습니다."
 
-#: src-en/data/events_special_storage.xml.append:5345
+#: src-en/data/events_special_storage.xml.append:5411
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_OUTCOME_GOOD_CRITICAL\"]/choice/text"
 msgstr "전투를 계속한다!"
 
-#: src-en/data/events_special_storage.xml.append:5350
+#: src-en/data/events_special_storage.xml.append:5416
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_OUTCOME_GOOD\"]/text"
 msgstr "속아 넘어갔습니다! 적어도 약간의 휴식 시간은 벌었군요."
 
-#: src-en/data/events_special_storage.xml.append:5353
+#: src-en/data/events_special_storage.xml.append:5419
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_OUTCOME_GOOD\"]/choice/text"
 msgstr "전투를 계속한다!"
 
-#: src-en/data/events_special_storage.xml.append:5358
+#: src-en/data/events_special_storage.xml.append:5424
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_OUTCOME_NEUTRAL\"]/text"
 msgstr "안타깝게도 이번에는 해킹에 속지 않았습니다."
 
-#: src-en/data/events_special_storage.xml.append:5360
+#: src-en/data/events_special_storage.xml.append:5426
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_OUTCOME_NEUTRAL\"]/choice/text"
 msgstr "전투를 계속한다!"
 
-#: src-en/data/events_special_storage.xml.append:5365
+#: src-en/data/events_special_storage.xml.append:5431
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_OUTCOME_BAD\"]/text"
 msgstr "해킹이 심각하게 꼬이는 바람에, 적 통신망의 역공으로 함선의 위치가 노출되고 말았습니다!"
 
-#: src-en/data/events_special_storage.xml.append:5368
+#: src-en/data/events_special_storage.xml.append:5434
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_OUTCOME_BAD\"]/choice/text"
 msgstr "전투를 계속한다!"
 
-#: src-en/data/events_special_storage.xml.append:5373
+#: src-en/data/events_special_storage.xml.append:5439
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_OUTCOME_BOSS\"]/text"
 msgstr ""
@@ -2834,17 +2846,17 @@ msgstr ""
 "\t\t\n"
 "\t\t누군가 개입해서 \"뉴비녀석들!!1!\"이라는 이상한 좌표를 첨부해서 보냈습니다."
 
-#: src-en/data/events_special_storage.xml.append:5380
+#: src-en/data/events_special_storage.xml.append:5446
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_OUTCOME_BOSS\"]/choice/text"
 msgstr "이상하지만 나중에 처리하도록 한다. 일단 전투를 계속한다!"
 
-#: src-en/data/events_special_storage.xml.append:5410
+#: src-en/data/events_special_storage.xml.append:5476
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_HACK_FLEET_BOSS\"]/beaconType/unvisitedTooltip"
 msgstr "강력한 RK 에니그마 장비의 해킹마저 차단할 정도로 위험한 인물이 당신에게 도전장을 내밀고 있습니다!"
 
-#: src-en/data/events_special_storage.xml.append:5413
+#: src-en/data/events_special_storage.xml.append:5479
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_HACK_FLEET_BOSS\"]/text"
 msgstr ""
@@ -2856,12 +2868,12 @@ msgstr ""
 "\n"
 "\t\t그러니 선의의 경쟁을 펼치는 의미로, 진짜 해킹이라는 게 뭔지 똑똑히 보여주마! 너희를 죽여버리기 직전에 말이야.\""
 
-#: src-en/data/events_special_storage.xml.append:5424
+#: src-en/data/events_special_storage.xml.append:5490
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_HACK_FLEET_BOSS\"]/choice[1]/text"
 msgstr "도전이냐? 들어와라!"
 
-#: src-en/data/events_special_storage.xml.append:5426
+#: src-en/data/events_special_storage.xml.append:5492
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_HACK_FLEET_BOSS\"]/choice[1]/event/text"
 msgstr ""
@@ -2869,32 +2881,32 @@ msgstr ""
 "\n"
 "\t\t\t\t당신은 즉시 함선의 수많은 시스템에 이상이 발생한 것을 감지합니다! 놈들이 전투용 보조장치를 사용한 것이 틀림없습니다! 해커 함선이 정당하게 싸우지 않을 거란 건 예상했겠지만, 몰랐다면 더 [style[color:ff3377]]끔찍한 일[[/style]]이 벌어지기 전에 신속히 탈출하는 것을 고려해야 할 때입니다."
 
-#: src-en/data/events_special_storage.xml.append:5441
+#: src-en/data/events_special_storage.xml.append:5507
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_HACK_FLEET_BOSS\"]/choice[1]/event/choice[1]/text"
 msgstr "계속..."
 
-#: src-en/data/events_special_storage.xml.append:5446
+#: src-en/data/events_special_storage.xml.append:5512
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_HACK_FLEET_BOSS\"]/choice[1]/event/choice[@req=\"ANTI_VIRUS\"]/text"
 msgstr "(안티 바이러스 모듈) 시스템을 복구합니다."
 
-#: src-en/data/events_special_storage.xml.append:5448
+#: src-en/data/events_special_storage.xml.append:5514
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_HACK_FLEET_BOSS\"]/choice[1]/event/choice[@req=\"ANTI_VIRUS\"]/event/text"
 msgstr "시스템이 출력을 회복했습니다."
 
-#: src-en/data/events_special_storage.xml.append:5458
+#: src-en/data/events_special_storage.xml.append:5524
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_HACK_FLEET_BOSS\"]/choice[1]/event/choice[@req=\"ANTI_VIRUS\"]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_special_storage.xml.append:5467
+#: src-en/data/events_special_storage.xml.append:5533
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_HACK_FLEET_BOSS\"]/choice[2]/text"
 msgstr "충분히 교훈을 얻었으니 제발 보내주십시오! 증거로 당신과 반군에게 줄 공물을 바치겠습니다."
 
-#: src-en/data/events_special_storage.xml.append:5479
+#: src-en/data/events_special_storage.xml.append:5545
 msgid ""
 "data/events_special_storage.xml.append$//ship[@name=\"SHIP_RK_HACK_FLEET_BOSS\"]/surrender/text"
 msgstr ""
@@ -2902,37 +2914,37 @@ msgstr ""
 "\n"
 "\t\t\t더 강력한 해킹으로 인해 함선의 훨씬 더 많은 시스템에 장애가 발생합니다!"
 
-#: src-en/data/events_special_storage.xml.append:5518
+#: src-en/data/events_special_storage.xml.append:5584
 msgid ""
 "data/events_special_storage.xml.append$//ship[@name=\"SHIP_RK_HACK_FLEET_BOSS\"]/surrender/choice[1]/text"
 msgstr "계속..."
 
-#: src-en/data/events_special_storage.xml.append:5523
+#: src-en/data/events_special_storage.xml.append:5589
 msgid ""
 "data/events_special_storage.xml.append$//ship[@name=\"SHIP_RK_HACK_FLEET_BOSS\"]/surrender/choice[@req=\"ANTI_VIRUS\"]/text"
 msgstr "(안티 바이러스 모듈) 시스템을 복구합니다."
 
-#: src-en/data/events_special_storage.xml.append:5525
+#: src-en/data/events_special_storage.xml.append:5591
 msgid ""
 "data/events_special_storage.xml.append$//ship[@name=\"SHIP_RK_HACK_FLEET_BOSS\"]/surrender/choice[@req=\"ANTI_VIRUS\"]/event/text"
 msgstr "시스템이 출력을 회복했습니다."
 
-#: src-en/data/events_special_storage.xml.append:5559
+#: src-en/data/events_special_storage.xml.append:5625
 msgid ""
 "data/events_special_storage.xml.append$//ship[@name=\"SHIP_RK_HACK_FLEET_BOSS\"]/surrender/choice[@req=\"ANTI_VIRUS\"]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_special_storage.xml.append:5566
+#: src-en/data/events_special_storage.xml.append:5632
 msgid ""
 "data/events_special_storage.xml.append$//ship[@name=\"SHIP_RK_HACK_FLEET_BOSS\"]/destroyed/text"
 msgstr "MFK 해커함이 산산조각 났고, 당신은 신속하게 상당한 양의 물자를 인양합니다!"
 
-#: src-en/data/events_special_storage.xml.append:5604
+#: src-en/data/events_special_storage.xml.append:5670
 msgid ""
 "data/events_special_storage.xml.append$//ship[@name=\"SHIP_RK_HACK_FLEET_BOSS\"]/destroyed/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_special_storage.xml.append:5606
+#: src-en/data/events_special_storage.xml.append:5672
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"SHIP_RK_HACK_FLEET_BOSS_REWARD_CHOICES\"]/text"
 msgstr ""
@@ -2941,589 +2953,589 @@ msgstr ""
 "\t\t\t\t\t잔해를 분석해 보니, 내부 장비를 이용하면 함선에서 무언가 하나를 추출할 수 있지만 그 직후 모든 것이 폭발할 것 같습니다.\n"
 "\t\t\t\t\t무엇을 챙기시겠습니까?"
 
-#: src-en/data/events_special_storage.xml.append:5613
+#: src-en/data/events_special_storage.xml.append:5679
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"SHIP_RK_HACK_FLEET_BOSS_REWARD_CHOICES\"]/choice[1]/text"
 msgstr "\"궁니르\""
 
-#: src-en/data/events_special_storage.xml.append:5615
+#: src-en/data/events_special_storage.xml.append:5681
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"SHIP_RK_HACK_FLEET_BOSS_REWARD_CHOICES\"]/choice[1]/event/text"
 msgstr "당신은 무기를 추출하고 모든 것이 폭발하기 전에 탈출합니다."
 
-#: src-en/data/events_special_storage.xml.append:5619
+#: src-en/data/events_special_storage.xml.append:5685
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"SHIP_RK_HACK_FLEET_BOSS_REWARD_CHOICES\"]/choice[1]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_special_storage.xml.append:5626
+#: src-en/data/events_special_storage.xml.append:5692
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"SHIP_RK_HACK_FLEET_BOSS_REWARD_CHOICES\"]/choice[2]/text"
 msgstr "\"해커 에이스의 콘솔\""
 
-#: src-en/data/events_special_storage.xml.append:5628
+#: src-en/data/events_special_storage.xml.append:5694
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"SHIP_RK_HACK_FLEET_BOSS_REWARD_CHOICES\"]/choice[2]/event/text"
 msgstr "당신은 보조장비를 추출하고 모든 것이 폭발하기 전에 탈출합니다."
 
-#: src-en/data/events_special_storage.xml.append:5632
+#: src-en/data/events_special_storage.xml.append:5698
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"SHIP_RK_HACK_FLEET_BOSS_REWARD_CHOICES\"]/choice[2]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_special_storage.xml.append:5639
+#: src-en/data/events_special_storage.xml.append:5705
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"SHIP_RK_HACK_FLEET_BOSS_REWARD_CHOICES\"]/choice[3]/text"
 msgstr "없음"
 
-#: src-en/data/events_special_storage.xml.append:5646
+#: src-en/data/events_special_storage.xml.append:5712
 msgid ""
 "data/events_special_storage.xml.append$//ship[@name=\"SHIP_RK_HACK_FLEET_BOSS\"]/deadCrew/text"
 msgstr "선원이 전멸하자 MFK 해커함에서 신속하게 상당한 양의 물자를 인양합니다!"
 
-#: src-en/data/events_special_storage.xml.append:5684
+#: src-en/data/events_special_storage.xml.append:5750
 msgid ""
 "data/events_special_storage.xml.append$//ship[@name=\"SHIP_RK_HACK_FLEET_BOSS\"]/deadCrew/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_special_storage.xml.append:5701
+#: src-en/data/events_special_storage.xml.append:5767
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_ACE_CONSOLE_ACTIVATE\"]/text"
 msgstr ""
 "확실합니까? 이렇게 하시겠습니까?\n"
 "\t[전투가 끝날 때까지 적 시스템 전력을 제한합니다]"
 
-#: src-en/data/events_special_storage.xml.append:5705
+#: src-en/data/events_special_storage.xml.append:5771
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_ACE_CONSOLE_ACTIVATE\"]/choice[1]/text"
 msgstr "예, 무료로 제약을 가동합니다."
 
-#: src-en/data/events_special_storage.xml.append:5707
+#: src-en/data/events_special_storage.xml.append:5773
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_ACE_CONSOLE_ACTIVATE\"]/choice[1]/event/text"
 msgstr "보조장비를 작동시킵니다..."
 
-#: src-en/data/events_special_storage.xml.append:5710
+#: src-en/data/events_special_storage.xml.append:5776
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_ACE_CONSOLE_ACTIVATE\"]/choice[1]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_special_storage.xml.append:5718
+#: src-en/data/events_special_storage.xml.append:5784
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_ACE_CONSOLE_ACTIVATE\"]/choice[2]/text"
 msgstr "예, 강력한 제약을 가동합니다! [3| 및 반응로 전력 2 사용]"
 
-#: src-en/data/events_special_storage.xml.append:5720
+#: src-en/data/events_special_storage.xml.append:5786
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_ACE_CONSOLE_ACTIVATE\"]/choice[2]/event/text"
 msgstr "보조장비를 작동시킵니다..."
 
-#: src-en/data/events_special_storage.xml.append:5728
+#: src-en/data/events_special_storage.xml.append:5794
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_ACE_CONSOLE_ACTIVATE\"]/choice[2]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_special_storage.xml.append:5734
+#: src-en/data/events_special_storage.xml.append:5800
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_ACE_CONSOLE_ACTIVATE\"]/choice[@req=\"DEBUG_GENERATOR\"]/text"
 msgstr "비상 발전기로 보조장비에 전력을 공급한다. [3| 사용]"
 
-#: src-en/data/events_special_storage.xml.append:5736
+#: src-en/data/events_special_storage.xml.append:5802
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_ACE_CONSOLE_ACTIVATE\"]/choice[@req=\"DEBUG_GENERATOR\"]/event/text"
 msgstr "보조장비를 작동시킵니다..."
 
-#: src-en/data/events_special_storage.xml.append:5742
+#: src-en/data/events_special_storage.xml.append:5808
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_ACE_CONSOLE_ACTIVATE\"]/choice[@req=\"DEBUG_GENERATOR\"]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_special_storage.xml.append:5749
+#: src-en/data/events_special_storage.xml.append:5815
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_ACE_CONSOLE_ACTIVATE\"]/choice[4]/text"
 msgstr "대신 다른 행동을 취한다."
 
-#: src-en/data/events_special_storage.xml.append:5753
+#: src-en/data/events_special_storage.xml.append:5819
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_ACE_CONSOLE_ACTIVATE\"]/choice[5]/text"
 msgstr "생각이 바뀌었다, 바로 싸운다!"
 
-#: src-en/data/events_special_storage.xml.append:5755
+#: src-en/data/events_special_storage.xml.append:5821
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_ACE_CONSOLE_ACTIVATE\"]/choice[5]/event/text"
 msgstr "아무것도 하지 않고 전투를 준비합니다."
 
-#: src-en/data/events_special_storage.xml.append:5847
+#: src-en/data/events_special_storage.xml.append:5913
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_COMBAT_CHECK_OFFENSE_DISABLER\"]/text"
 msgstr ""
 "확실합니까? 이렇게 하시겠습니까?\n"
 "\t[적의 공격 시스템을 무력화합니다. 이후 효과는 점차 빠르게 약해집니다. 드론 부품 2개와 반응로 전력 3개를 사용합니다.]"
 
-#: src-en/data/events_special_storage.xml.append:5851
+#: src-en/data/events_special_storage.xml.append:5917
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_COMBAT_CHECK_OFFENSE_DISABLER\"]/choice[@req=\"reactor\"]/text"
 msgstr "예"
 
-#: src-en/data/events_special_storage.xml.append:5853
+#: src-en/data/events_special_storage.xml.append:5919
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_COMBAT_CHECK_OFFENSE_DISABLER\"]/choice[@req=\"reactor\"]/event/text"
 msgstr "보조장비를 작동시킵니다..."
 
-#: src-en/data/events_special_storage.xml.append:5861
+#: src-en/data/events_special_storage.xml.append:5927
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_COMBAT_CHECK_OFFENSE_DISABLER\"]/choice[@req=\"reactor\"]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_special_storage.xml.append:5867
+#: src-en/data/events_special_storage.xml.append:5933
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_COMBAT_CHECK_OFFENSE_DISABLER\"]/choice[@req=\"DEBUG_GENERATOR\"]/text"
 msgstr "비상 발전기로 보조장비에 전력을 공급한다. [2| 사용]"
 
-#: src-en/data/events_special_storage.xml.append:5869
+#: src-en/data/events_special_storage.xml.append:5935
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_COMBAT_CHECK_OFFENSE_DISABLER\"]/choice[@req=\"DEBUG_GENERATOR\"]/event/text"
 msgstr "보조장비를 작동시킵니다..."
 
-#: src-en/data/events_special_storage.xml.append:5875
+#: src-en/data/events_special_storage.xml.append:5941
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_COMBAT_CHECK_OFFENSE_DISABLER\"]/choice[@req=\"DEBUG_GENERATOR\"]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_special_storage.xml.append:5882
+#: src-en/data/events_special_storage.xml.append:5948
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_COMBAT_CHECK_OFFENSE_DISABLER\"]/choice[3]/text"
 msgstr "대신 다른 행동을 취한다."
 
-#: src-en/data/events_special_storage.xml.append:5886
+#: src-en/data/events_special_storage.xml.append:5952
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_COMBAT_CHECK_OFFENSE_DISABLER\"]/choice[4]/text"
 msgstr "생각이 바뀌었다, 바로 싸운다!"
 
-#: src-en/data/events_special_storage.xml.append:5888
+#: src-en/data/events_special_storage.xml.append:5954
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_COMBAT_CHECK_OFFENSE_DISABLER\"]/choice[4]/event/text"
 msgstr "아무것도 하지 않고 전투를 준비합니다."
 
-#: src-en/data/events_special_storage.xml.append:5894
+#: src-en/data/events_special_storage.xml.append:5960
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_OFFENSE_DISABLER_TIMER_START\"]/text"
 msgstr "적의 공격 체계가 무력화되었습니다. 이 기회를 잘 활용하십시오..."
 
-#: src-en/data/events_special_storage.xml.append:5904
+#: src-en/data/events_special_storage.xml.append:5970
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_OFFENSE_DISABLER_TIMER_START\"]/triggeredEvent/triggeredEventBox/tooltip"
 msgstr "이 시간 내에 적의 공격 체계가 완전히 복구됩니다."
 
-#: src-en/data/events_special_storage.xml.append:5913
+#: src-en/data/events_special_storage.xml.append:5979
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_OFFENSE_DISABLER_TIMER_START\"]/choice/text"
 msgstr "전투를 계속한다!"
 
-#: src-en/data/events_special_storage.xml.append:6072
+#: src-en/data/events_special_storage.xml.append:6138
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_COMBAT_CHECK_DEFENSE_REMOVER\"]/text"
 msgstr ""
 "확실합니까? 이렇게 하시겠습니까?\n"
 "\t[3~7초마다 (랜덤으로) 적의 엔진, 방어막, 그리고 융제 장갑(릴리의 혁신)을 감소시킵니다. 드론 부품 1개 또는 2개와 반응로 전력 3을 소모합니다.]"
 
-#: src-en/data/events_special_storage.xml.append:6076
+#: src-en/data/events_special_storage.xml.append:6142
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_COMBAT_CHECK_DEFENSE_REMOVER\"]/choice[1]/text"
 msgstr "비상 발전기로 보조장비에 40초 동안 전력을 공급한다. [1| 사용]"
 
-#: src-en/data/events_special_storage.xml.append:6078
+#: src-en/data/events_special_storage.xml.append:6144
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_COMBAT_CHECK_DEFENSE_REMOVER\"]/choice[1]/event/text"
 msgstr "보조장비를 작동시킵니다..."
 
-#: src-en/data/events_special_storage.xml.append:6084
+#: src-en/data/events_special_storage.xml.append:6150
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_COMBAT_CHECK_DEFENSE_REMOVER\"]/choice[1]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_special_storage.xml.append:6090
+#: src-en/data/events_special_storage.xml.append:6156
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_COMBAT_CHECK_DEFENSE_REMOVER\"]/choice[2]/text"
 msgstr "예, 40초 동안 가동합니다."
 
-#: src-en/data/events_special_storage.xml.append:6092
+#: src-en/data/events_special_storage.xml.append:6158
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_COMBAT_CHECK_DEFENSE_REMOVER\"]/choice[2]/event/text"
 msgstr "보조장비를 작동시킵니다..."
 
-#: src-en/data/events_special_storage.xml.append:6100
+#: src-en/data/events_special_storage.xml.append:6166
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_COMBAT_CHECK_DEFENSE_REMOVER\"]/choice[2]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_special_storage.xml.append:6107
+#: src-en/data/events_special_storage.xml.append:6173
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_COMBAT_CHECK_DEFENSE_REMOVER\"]/choice[3]/text"
 msgstr "비상 발전기로 보조장비에 75초 동안 전력을 공급한다. [2| 사용]"
 
-#: src-en/data/events_special_storage.xml.append:6109
+#: src-en/data/events_special_storage.xml.append:6175
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_COMBAT_CHECK_DEFENSE_REMOVER\"]/choice[3]/event/text"
 msgstr "보조장비를 작동시킵니다..."
 
-#: src-en/data/events_special_storage.xml.append:6115
+#: src-en/data/events_special_storage.xml.append:6181
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_COMBAT_CHECK_DEFENSE_REMOVER\"]/choice[3]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_special_storage.xml.append:6121
+#: src-en/data/events_special_storage.xml.append:6187
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_COMBAT_CHECK_DEFENSE_REMOVER\"]/choice[4]/text"
 msgstr "예, 75초 동안 가동합니다. [2| 사용]"
 
-#: src-en/data/events_special_storage.xml.append:6123
+#: src-en/data/events_special_storage.xml.append:6189
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_COMBAT_CHECK_DEFENSE_REMOVER\"]/choice[4]/event/text"
 msgstr "보조장비를 작동시킵니다..."
 
-#: src-en/data/events_special_storage.xml.append:6131
+#: src-en/data/events_special_storage.xml.append:6197
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_COMBAT_CHECK_DEFENSE_REMOVER\"]/choice[4]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_special_storage.xml.append:6138
+#: src-en/data/events_special_storage.xml.append:6204
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_COMBAT_CHECK_DEFENSE_REMOVER\"]/choice[5]/text"
 msgstr "대신 다른 행동을 취한다."
 
-#: src-en/data/events_special_storage.xml.append:6142
+#: src-en/data/events_special_storage.xml.append:6208
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_COMBAT_CHECK_DEFENSE_REMOVER\"]/choice[6]/text"
 msgstr "생각이 바뀌었다, 바로 싸운다!"
 
-#: src-en/data/events_special_storage.xml.append:6144
+#: src-en/data/events_special_storage.xml.append:6210
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_COMBAT_CHECK_DEFENSE_REMOVER\"]/choice[6]/event/text"
 msgstr "아무것도 하지 않고 전투를 준비합니다."
 
-#: src-en/data/events_special_storage.xml.append:6150
+#: src-en/data/events_special_storage.xml.append:6216
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_DEFENSE_REMOVER_TIMER_START_LOW\"]/text"
 msgstr "적의 방어 체계가 서서히 해제됩니다. 살아남으십시오!"
 
-#: src-en/data/events_special_storage.xml.append:6157
+#: src-en/data/events_special_storage.xml.append:6223
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_DEFENSE_REMOVER_TIMER_START_LOW\"]/triggeredEvent/triggeredEventBox/tooltip"
 msgstr "이 시간 내에 적의 방어 체계 제약이 중단됩니다."
 
-#: src-en/data/events_special_storage.xml.append:6166
+#: src-en/data/events_special_storage.xml.append:6232
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_DEFENSE_REMOVER_TIMER_START_LOW\"]/choice/text"
 msgstr "전투를 계속한다!"
 
-#: src-en/data/events_special_storage.xml.append:6174
+#: src-en/data/events_special_storage.xml.append:6240
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_DEFENSE_REMOVER_TIMER_START_HIGH\"]/text"
 msgstr "적의 방어 체계가 서서히 해제됩니다. 살아남으십시오!"
 
-#: src-en/data/events_special_storage.xml.append:6181
+#: src-en/data/events_special_storage.xml.append:6247
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_DEFENSE_REMOVER_TIMER_START_HIGH\"]/triggeredEvent/triggeredEventBox/tooltip"
 msgstr "이 시간 내에 적의 방어 체계 제약이 중단됩니다."
 
-#: src-en/data/events_special_storage.xml.append:6190
+#: src-en/data/events_special_storage.xml.append:6256
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_DEFENSE_REMOVER_TIMER_START_HIGH\"]/choice/text"
 msgstr "전투를 계속한다!"
 
-#: src-en/data/events_special_storage.xml.append:6385
+#: src-en/data/events_special_storage.xml.append:6451
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_FLAMMABILIZER_IMMUNE\"]/text"
 msgstr ""
 "보조장비를 어떤 모드로 설정하시겠습니까?\n"
 "\t현재 모드: 화재 면역 제거"
 
-#: src-en/data/events_special_storage.xml.append:6388
+#: src-en/data/events_special_storage.xml.append:6454
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_FLAMMABILIZER_IMMUNE\"]/choice[1]/text"
 msgstr "보조장비를 피해 모드로 설정합니다. [적이 화재 피해를 더 많이 받음]"
 
-#: src-en/data/events_special_storage.xml.append:6390
+#: src-en/data/events_special_storage.xml.append:6456
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_FLAMMABILIZER_IMMUNE\"]/choice[1]/event/text"
 msgstr "보조장비 교정을 시작합니다..."
 
-#: src-en/data/events_special_storage.xml.append:6393
+#: src-en/data/events_special_storage.xml.append:6459
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_FLAMMABILIZER_IMMUNE\"]/choice[1]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_special_storage.xml.append:6395
+#: src-en/data/events_special_storage.xml.append:6461
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_FLAMMABILIZER_IMMUNE\"]/choice[1]/event/choice/event/text"
 msgstr "보조장비 교정을 성공적으로 마쳤습니다."
 
-#: src-en/data/events_special_storage.xml.append:6398
+#: src-en/data/events_special_storage.xml.append:6464
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_FLAMMABILIZER_IMMUNE\"]/choice[1]/event/choice/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_special_storage.xml.append:6406
+#: src-en/data/events_special_storage.xml.append:6472
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_FLAMMABILIZER_IMMUNE\"]/choice[2]/text"
 msgstr "토글 메뉴로 돌아간다."
 
-#: src-en/data/events_special_storage.xml.append:6411
+#: src-en/data/events_special_storage.xml.append:6477
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_FLAMMABILIZER_DAMAGE\"]/text"
 msgstr ""
 "보조장비를 어떤 모드로 설정하시겠습니까?\n"
 "\t현재 모드: 적이 화재 피해를 더 많이 받음"
 
-#: src-en/data/events_special_storage.xml.append:6414
+#: src-en/data/events_special_storage.xml.append:6480
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_FLAMMABILIZER_DAMAGE\"]/choice[1]/text"
 msgstr "보조장비를 면역 무효 모드로 설정합니다. [화재 면역 제거]"
 
-#: src-en/data/events_special_storage.xml.append:6416
+#: src-en/data/events_special_storage.xml.append:6482
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_FLAMMABILIZER_DAMAGE\"]/choice[1]/event/text"
 msgstr "보조장비 교정을 시작합니다..."
 
-#: src-en/data/events_special_storage.xml.append:6419
+#: src-en/data/events_special_storage.xml.append:6485
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_FLAMMABILIZER_DAMAGE\"]/choice[1]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_special_storage.xml.append:6421
+#: src-en/data/events_special_storage.xml.append:6487
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_FLAMMABILIZER_DAMAGE\"]/choice[1]/event/choice/event/text"
 msgstr "보조장비 교정을 성공적으로 마쳤습니다."
 
-#: src-en/data/events_special_storage.xml.append:6424
+#: src-en/data/events_special_storage.xml.append:6490
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_FLAMMABILIZER_DAMAGE\"]/choice[1]/event/choice/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_special_storage.xml.append:6432
+#: src-en/data/events_special_storage.xml.append:6498
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_FLAMMABILIZER_DAMAGE\"]/choice[2]/text"
 msgstr "토글 메뉴로 돌아간다."
 
-#: src-en/data/events_special_storage.xml.append:6448
+#: src-en/data/events_special_storage.xml.append:6514
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_HARMONY_ON\"]/text"
 msgstr ""
 "보조장비를 어떤 모드로 설정하시겠습니까?\n"
 "\t현재 모드: 활성화됨(켜짐)"
 
-#: src-en/data/events_special_storage.xml.append:6451
+#: src-en/data/events_special_storage.xml.append:6517
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_HARMONY_ON\"]/choice[1]/text"
 msgstr "보조장비를 끕니다."
 
-#: src-en/data/events_special_storage.xml.append:6453
+#: src-en/data/events_special_storage.xml.append:6519
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_HARMONY_ON\"]/choice[1]/event/text"
 msgstr "보조장비 교정을 시작합니다..."
 
-#: src-en/data/events_special_storage.xml.append:6456
+#: src-en/data/events_special_storage.xml.append:6522
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_HARMONY_ON\"]/choice[1]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_special_storage.xml.append:6458
+#: src-en/data/events_special_storage.xml.append:6524
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_HARMONY_ON\"]/choice[1]/event/choice/event/text"
 msgstr "보조장비 교정을 성공적으로 마쳤습니다."
 
-#: src-en/data/events_special_storage.xml.append:6461
+#: src-en/data/events_special_storage.xml.append:6527
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_HARMONY_ON\"]/choice[1]/event/choice/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_special_storage.xml.append:6470
+#: src-en/data/events_special_storage.xml.append:6536
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_HARMONY_ON\"]/choice[2]/text"
 msgstr "토글 메뉴로 돌아간다."
 
-#: src-en/data/events_special_storage.xml.append:6475
+#: src-en/data/events_special_storage.xml.append:6541
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_HARMONY_OFF\"]/text"
 msgstr ""
 "조장비를 어떤 모드로 설정하시겠습니까?\n"
 "\t현재 모드: 비활성화됨(꺼짐)"
 
-#: src-en/data/events_special_storage.xml.append:6478
+#: src-en/data/events_special_storage.xml.append:6544
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_HARMONY_OFF\"]/choice[1]/text"
 msgstr "보조장비를 켭니다."
 
-#: src-en/data/events_special_storage.xml.append:6480
+#: src-en/data/events_special_storage.xml.append:6546
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_HARMONY_OFF\"]/choice[1]/event/text"
 msgstr "보조장비 교정을 시작합니다..."
 
-#: src-en/data/events_special_storage.xml.append:6483
+#: src-en/data/events_special_storage.xml.append:6549
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_HARMONY_OFF\"]/choice[1]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_special_storage.xml.append:6485
+#: src-en/data/events_special_storage.xml.append:6551
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_HARMONY_OFF\"]/choice[1]/event/choice/event/text"
 msgstr "보조장비 교정을 성공적으로 마쳤습니다."
 
-#: src-en/data/events_special_storage.xml.append:6488
+#: src-en/data/events_special_storage.xml.append:6554
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_HARMONY_OFF\"]/choice[1]/event/choice/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_special_storage.xml.append:6497
+#: src-en/data/events_special_storage.xml.append:6563
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_HARMONY_OFF\"]/choice[2]/text"
 msgstr "토글 메뉴로 돌아간다."
 
-#: src-en/data/events_special_storage.xml.append:6504
+#: src-en/data/events_special_storage.xml.append:6570
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_OWN_HARMONY_GROW_ENGI_SEPARATIST\"]/text"
 msgstr ""
 "정말로 분리주의자 엔지 선원을 생성하시겠습니까?\n"
 "\t[반군 함대가 1턴 가속합니다.]"
 
-#: src-en/data/events_special_storage.xml.append:6508
+#: src-en/data/events_special_storage.xml.append:6574
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_OWN_HARMONY_GROW_ENGI_SEPARATIST\"]/choice[1]/text"
 msgstr "예"
 
-#: src-en/data/events_special_storage.xml.append:6510
+#: src-en/data/events_special_storage.xml.append:6576
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_OWN_HARMONY_GROW_ENGI_SEPARATIST\"]/choice[1]/event/text"
 msgstr "시간을 들여 새 선원을 속성 육성하였으며, 함선의 하모니 체계에 의해 자동화될 준비가 되었습니다!"
 
-#: src-en/data/events_special_storage.xml.append:6519
+#: src-en/data/events_special_storage.xml.append:6585
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_OWN_HARMONY_GROW_ENGI_SEPARATIST\"]/choice[1]/event/crewMember"
 msgstr "Starboy"
 
-#: src-en/data/events_special_storage.xml.append:6522
+#: src-en/data/events_special_storage.xml.append:6588
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_OWN_HARMONY_GROW_ENGI_SEPARATIST\"]/choice[1]/event/choice/text"
 msgstr "이것으로 전력을 든든하게 보강할 수 있겠군."
 
-#: src-en/data/events_special_storage.xml.append:6529
+#: src-en/data/events_special_storage.xml.append:6595
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_OWN_HARMONY_GROW_ENGI_SEPARATIST\"]/choice[2]/text"
 msgstr "소요 시간이 같으니 2명으로 늘린다."
 
-#: src-en/data/events_special_storage.xml.append:6531
+#: src-en/data/events_special_storage.xml.append:6597
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_OWN_HARMONY_GROW_ENGI_SEPARATIST\"]/choice[2]/event/text"
 msgstr "시간을 들여 새 선원을 속성 육성하여, 함선의 하모니 체계에 의해 자동화되도록 합니다..."
 
-#: src-en/data/events_special_storage.xml.append:6540
+#: src-en/data/events_special_storage.xml.append:6606
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_OWN_HARMONY_GROW_ENGI_SEPARATIST\"]/choice[2]/event/crewMember"
 msgstr "MTFKN"
 
-#: src-en/data/events_special_storage.xml.append:6543
+#: src-en/data/events_special_storage.xml.append:6609
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_OWN_HARMONY_GROW_ENGI_SEPARATIST\"]/choice[2]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_special_storage.xml.append:6545
+#: src-en/data/events_special_storage.xml.append:6611
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_OWN_HARMONY_GROW_ENGI_SEPARATIST\"]/choice[2]/event/choice/event/text"
 msgstr "두 명의 신규 선원이 모두 준비되었습니다!"
 
-#: src-en/data/events_special_storage.xml.append:6546
+#: src-en/data/events_special_storage.xml.append:6612
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_OWN_HARMONY_GROW_ENGI_SEPARATIST\"]/choice[2]/event/choice/event/crewMember"
 msgstr "Starboy"
 
-#: src-en/data/events_special_storage.xml.append:6549
+#: src-en/data/events_special_storage.xml.append:6615
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_OWN_HARMONY_GROW_ENGI_SEPARATIST\"]/choice[2]/event/choice/event/choice/text"
 msgstr "자동화율이 상승되었군!"
 
-#: src-en/data/events_special_storage.xml.append:6558
+#: src-en/data/events_special_storage.xml.append:6624
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_OWN_HARMONY_GROW_ENGI_SEPARATIST\"]/choice[3]/text"
 msgstr "신경 쓰지 않고 다른 작업을 수행한다."
 
-#: src-en/data/events_special_storage.xml.append:6572
+#: src-en/data/events_special_storage.xml.append:6638
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_CREW_ARE_BOMBS_OFF\"]/text"
 msgstr ""
 "정말로 이 보조장비를 켜시겠습니까? 경고: 일단 켜면 끌 수 없으나, 비어있는 송신소에서 자체 해체하여 분해물로 만들거나 일반 상점에 판매할 수 있습니다.\n"
 "\t현재 모드: 비활성화됨(꺼짐)"
 
-#: src-en/data/events_special_storage.xml.append:6575
+#: src-en/data/events_special_storage.xml.append:6641
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_CREW_ARE_BOMBS_OFF\"]/choice[1]/text"
 msgstr "보조장비를 켭니다."
 
-#: src-en/data/events_special_storage.xml.append:6577
+#: src-en/data/events_special_storage.xml.append:6643
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_CREW_ARE_BOMBS_OFF\"]/choice[1]/event/text"
 msgstr "보조장비 교정을 시작합니다..."
 
-#: src-en/data/events_special_storage.xml.append:6580
+#: src-en/data/events_special_storage.xml.append:6646
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_CREW_ARE_BOMBS_OFF\"]/choice[1]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_special_storage.xml.append:6582
+#: src-en/data/events_special_storage.xml.append:6648
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_CREW_ARE_BOMBS_OFF\"]/choice[1]/event/choice/event/text"
 msgstr "보조장비 교정을 성공적으로 마쳤습니다."
 
-#: src-en/data/events_special_storage.xml.append:6585
+#: src-en/data/events_special_storage.xml.append:6651
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_CREW_ARE_BOMBS_OFF\"]/choice[1]/event/choice/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_special_storage.xml.append:6594
+#: src-en/data/events_special_storage.xml.append:6660
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_CREW_ARE_BOMBS_OFF\"]/choice[2]/text"
 msgstr "토글 메뉴로 돌아간다."
 
-#: src-en/data/events_special_storage.xml.append:6600
+#: src-en/data/events_special_storage.xml.append:6666
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_CREW_ARE_BOMBS_ON_SELFSCRAP\"]/text"
 msgstr ""
 "정말로 이 보조장비를 절반 가격에 해체하시겠습니까?\n"
 "\t[지금 당장 팔거나 버릴 수 없다면, 이 방법 외에는 끌 방법이 없습니다.]"
 
-#: src-en/data/events_special_storage.xml.append:6604
+#: src-en/data/events_special_storage.xml.append:6670
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_CREW_ARE_BOMBS_ON_SELFSCRAP\"]/choice[1]/text"
 msgstr "예, 너무 위험하다."
 
-#: src-en/data/events_special_storage.xml.append:6615
+#: src-en/data/events_special_storage.xml.append:6681
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_CREW_ARE_BOMBS_ON_SELFSCRAP\"]/choice[2]/text"
 msgstr "예, 대신 폭발물로 전환한다."
 
-#: src-en/data/events_special_storage.xml.append:6625
+#: src-en/data/events_special_storage.xml.append:6691
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_CREW_ARE_BOMBS_ON_SELFSCRAP\"]/choice[3]/text"
 msgstr "신경 쓰지 않고 다른 작업을 수행한다."
 
-#: src-en/data/events_special_storage.xml.append:6638
+#: src-en/data/events_special_storage.xml.append:6704
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_LEAD_TITANS_SELFSCRAP\"]/text"
 msgstr ""
 "정말로 이 보조장비를 절반 가격에 해체하시겠습니까?\n"
 "\t[지금 당장 팔거나 버릴 수 없다면, 이 방법 외에는 끌 방법이 없습니다.]"
 
-#: src-en/data/events_special_storage.xml.append:6642
+#: src-en/data/events_special_storage.xml.append:6708
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_LEAD_TITANS_SELFSCRAP\"]/choice[@req=\"RK_LEAD_TITANS\"]/text"
 msgstr "예, 너무 위험하다."
 
-#: src-en/data/events_special_storage.xml.append:6654
+#: src-en/data/events_special_storage.xml.append:6720
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_LEAD_TITANS_SELFSCRAP\"]/choice[2]/text"
 msgstr "신경 쓰지 않고 다른 작업을 수행한다."
 
-#: src-en/data/events_special_storage.xml.append:6669
+#: src-en/data/events_special_storage.xml.append:6735
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_BPS_SURVEYOR_ACTIVATE\"]/text"
 msgstr ""
@@ -3531,170 +3543,168 @@ msgstr ""
 "\t[자원을 소비하여 원거리 탐사용 약탈 드론을 파견합니다. 드론은 무작위 무기와 보조장비를 찾아냅니다.\n"
 "\t함대 추격 1회 가속을 대가로 하나를 회수하거나, 소량의 자원을 환불받고 떠날 수 있습니다.]"
 
-#: src-en/data/events_special_storage.xml.append:6674
+#: src-en/data/events_special_storage.xml.append:6740
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_BPS_SURVEYOR_ACTIVATE\"]/choice[@req=\"RK_BPS_SURVEYOR\"]/text"
 msgstr "예"
 
-#: src-en/data/events_special_storage.xml.append:6676
+#: src-en/data/events_special_storage.xml.append:6742
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_BPS_SURVEYOR_ACTIVATE\"]/choice[@req=\"RK_BPS_SURVEYOR\"]/event/text"
 msgstr ""
-"\"물어와!\" 손가락(혹은 이에 준하는 신체 부위)을 고이 모아 기도하며 두 특수 "
-"드론을 보냅니다.\n"
+"\"물어와!\" 손가락(혹은 이에 준하는 신체 부위)을 고이 모아 기도하며 두 특수 드론을 보냅니다.\n"
 "\t\t\t\t잠시 후, 드론들이 발견한 물품을 원격으로 보고해 옵니다.\n"
 "\t\t\t\t\n"
-"\t\t\t\t아무것도 회수하지 않기로 선택하면, 소모한 물자의 일부를 "
-"환불받습니다.\n"
+"\t\t\t\t아무것도 회수하지 않기로 선택하면, 소모한 물자의 일부를 환불받습니다.\n"
 "\t\t\t\t\n"
 "\t\t\t\t물품을 회수하기로 선택하면, 반군 함대가 1턴 더 추격해 옵니다."
 
-#: src-en/data/events_special_storage.xml.append:6691
+#: src-en/data/events_special_storage.xml.append:6757
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_BPS_SURVEYOR_ACTIVATE\"]/choice[@req=\"RK_BPS_SURVEYOR\"]/event/choice[1]/text"
 msgstr "무작위 무기를 회수합니다."
 
-#: src-en/data/events_special_storage.xml.append:6693
+#: src-en/data/events_special_storage.xml.append:6759
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_BPS_SURVEYOR_ACTIVATE\"]/choice[@req=\"RK_BPS_SURVEYOR\"]/event/choice[1]/event/text"
 msgstr "시간을 들여 중간 지점에서 드론을 만나 그것을 회수합니다."
 
-#: src-en/data/events_special_storage.xml.append:6703
+#: src-en/data/events_special_storage.xml.append:6769
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_BPS_SURVEYOR_ACTIVATE\"]/choice[@req=\"RK_BPS_SURVEYOR\"]/event/choice[1]/event/choice/text"
 msgstr "훌륭한 발견입니다! 잘했어 드론아, 아주 잘했어!"
 
-#: src-en/data/events_special_storage.xml.append:6710
+#: src-en/data/events_special_storage.xml.append:6776
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_BPS_SURVEYOR_ACTIVATE\"]/choice[@req=\"RK_BPS_SURVEYOR\"]/event/choice[2]/text"
 msgstr "무작위 보조장비를 회수합니다."
 
-#: src-en/data/events_special_storage.xml.append:6712
+#: src-en/data/events_special_storage.xml.append:6778
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_BPS_SURVEYOR_ACTIVATE\"]/choice[@req=\"RK_BPS_SURVEYOR\"]/event/choice[2]/event/text"
 msgstr "시간을 들여 중간 지점에서 드론을 만나 그것을 회수합니다."
 
-#: src-en/data/events_special_storage.xml.append:6722
+#: src-en/data/events_special_storage.xml.append:6788
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_BPS_SURVEYOR_ACTIVATE\"]/choice[@req=\"RK_BPS_SURVEYOR\"]/event/choice[2]/event/choice/text"
 msgstr "누가 예쁜 삐리삐리일까요? 바로 우리 드론이지, 그래그래!"
 
-#: src-en/data/events_special_storage.xml.append:6730
+#: src-en/data/events_special_storage.xml.append:6796
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_BPS_SURVEYOR_ACTIVATE\"]/choice[@req=\"RK_BPS_SURVEYOR\"]/event/choice[3]/text"
 msgstr "행운의 여신이 우리 편이 아니었군요. 잊어버립시다."
 
-#: src-en/data/events_special_storage.xml.append:6732
+#: src-en/data/events_special_storage.xml.append:6798
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_BPS_SURVEYOR_ACTIVATE\"]/choice[@req=\"RK_BPS_SURVEYOR\"]/event/choice[3]/event/text"
 msgstr "손실을 감수하고 드론을 재활용하여 계속 이동합니다."
 
-#: src-en/data/events_special_storage.xml.append:6739
+#: src-en/data/events_special_storage.xml.append:6805
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_BPS_SURVEYOR_ACTIVATE\"]/choice[@req=\"RK_BPS_SURVEYOR\"]/event/choice[3]/event/choice/text"
 msgstr "다음 기회를 노려보자."
 
-#: src-en/data/events_special_storage.xml.append:6747
+#: src-en/data/events_special_storage.xml.append:6813
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_BPS_SURVEYOR_ACTIVATE\"]/choice[2]/text"
 msgstr "신경 쓰지 않고 다른 작업을 수행한다."
 
-#: src-en/data/events_special_storage.xml.append:6902
+#: src-en/data/events_special_storage.xml.append:6968
 msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/mod:findName[27]/mod-"
 "append:choice/text"
 msgstr "라디칼 기술. [보유 항목 없음. 요구 사항을 보려면 열기]"
 
-#: src-en/data/events_special_storage.xml.append:6908
+#: src-en/data/events_special_storage.xml.append:6974
 msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/mod:findName[28]/mod-"
 "append:choice/text"
 msgstr "라디칼 기술."
 
-#: src-en/data/events_special_storage.xml.append:6934
+#: src-en/data/events_special_storage.xml.append:7000
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_INVENTORY_UPGRADES\"]/mod-"
 "append:choice[1]/text"
 msgstr "보정기 [X2]"
 
-#: src-en/data/events_special_storage.xml.append:6938
+#: src-en/data/events_special_storage.xml.append:7004
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_INVENTORY_UPGRADES\"]/mod-"
 "append:choice[2]/text"
 msgstr "보정기 [X1]"
 
-#: src-en/data/events_special_storage.xml.append:6942
+#: src-en/data/events_special_storage.xml.append:7008
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_INVENTORY_UPGRADES\"]/mod-"
 "append:choice[3]/text"
 msgstr "보정기 [미설치]"
 
-#: src-en/data/events_special_storage.xml.append:6947
+#: src-en/data/events_special_storage.xml.append:7013
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_INVENTORY_UPGRADES\"]/mod-"
 "append:choice[4]/text"
 msgstr "질식 성애 유발 신경 매혹기 [이미 설치됨]"
 
-#: src-en/data/events_special_storage.xml.append:6951
+#: src-en/data/events_special_storage.xml.append:7017
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_INVENTORY_UPGRADES\"]/mod-"
 "append:choice[5]/text"
 msgstr "질식 성애 유발 신경 매혹기 [미설치]"
 
-#: src-en/data/events_special_storage.xml.append:6957
+#: src-en/data/events_special_storage.xml.append:7023
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_INVENTORY_UPGRADES\"]/mod-"
 "append:choice[6]/text"
 msgstr "의사 복제기 [이미 설치됨]"
 
-#: src-en/data/events_special_storage.xml.append:6961
+#: src-en/data/events_special_storage.xml.append:7027
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_INVENTORY_UPGRADES\"]/mod-"
 "append:choice[7]/text"
 msgstr "의사 복제기 [미설치]"
 
-#: src-en/data/events_special_storage.xml.append:6966
+#: src-en/data/events_special_storage.xml.append:7032
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_INVENTORY_UPGRADES\"]/mod-"
 "append:choice[8]/text"
 msgstr "정신 냉각기 [이미 설치됨]"
 
-#: src-en/data/events_special_storage.xml.append:6970
+#: src-en/data/events_special_storage.xml.append:7036
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_INVENTORY_UPGRADES\"]/mod-"
 "append:choice[9]/text"
 msgstr "정신 냉각기 [미설치]"
 
-#: src-en/data/events_special_storage.xml.append:6976
+#: src-en/data/events_special_storage.xml.append:7042
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_INVENTORY_UPGRADES\"]/mod-"
 "append:choice[10]/text"
 msgstr "헬리온 붕대 [이미 설치됨]"
 
-#: src-en/data/events_special_storage.xml.append:6980
+#: src-en/data/events_special_storage.xml.append:7046
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_INVENTORY_UPGRADES\"]/mod-"
 "append:choice[11]/text"
 msgstr "헬리온 붕대 [미설치]"
 
-#: src-en/data/events_special_storage.xml.append:6985
+#: src-en/data/events_special_storage.xml.append:7051
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_INVENTORY_UPGRADES\"]/mod-"
 "append:choice[12]/text"
 msgstr "정신 가열기 [이미 설치됨]"
 
-#: src-en/data/events_special_storage.xml.append:6989
+#: src-en/data/events_special_storage.xml.append:7055
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_INVENTORY_UPGRADES\"]/mod-"
 "append:choice[13]/text"
 msgstr "정신 가열기 [미설치]"
 
-#: src-en/data/events_special_storage.xml.append:6997
+#: src-en/data/events_special_storage.xml.append:7063
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL\"]/text"
 msgstr "어떤 업그레이드를 설치하시겠습니까?"
 
-#: src-en/data/events_special_storage.xml.append:7015
+#: src-en/data/events_special_storage.xml.append:7081
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL\"]/choice[@req=\"INTERNAL_RK_CALIBRATOR\""
 " and @lvl=\"2\"]/text"
@@ -3702,19 +3712,19 @@ msgstr ""
 "RK 밤 \"보정기\": 무기의 명중률이 +10% 증가하고 발사 속도가 4% 증가합니다.\n"
 "\t\t\t최대 2회까지 설치할 수 있습니다. [사용불가: 이미 최대 업그레이드입니다]"
 
-#: src-en/data/events_special_storage.xml.append:7020
+#: src-en/data/events_special_storage.xml.append:7086
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL\"]/choice[@req=\"INTERNAL_RK_CALIBRATOR\""
 " and @lvl=\"1\"]/text"
 msgstr "보정기 Lvl 2. [비용: 45~, 1|]"
 
-#: src-en/data/events_special_storage.xml.append:7024
+#: src-en/data/events_special_storage.xml.append:7090
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL\"]/choice[@req=\"INTERNAL_RK_CALIBRATOR\""
 " and @lvl=\"0\"]/text"
 msgstr "보정기 Lvl 1. [비용: 45~ 1|]"
 
-#: src-en/data/events_special_storage.xml.append:7029
+#: src-en/data/events_special_storage.xml.append:7095
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL\"]/choice[@req=\"INTERNAL_RK_CHOKING_IS_FINE\""
 " and @lvl=\"1\"]/text"
@@ -3722,13 +3732,13 @@ msgstr ""
 "RK 밤 \"질식 성애 유발 신경 매혹기\": 아군 선원이 받는 질식 피해가 0.75배로 줄어듭니다.\n"
 "\t\t질식 상태일 때 이동, 방해, 수리 및 전투 능력이 1.4배 향상됩니다. 질식 면역 선원에게는 영향을 주지 않습니다. [이미 설치됨]"
 
-#: src-en/data/events_special_storage.xml.append:7034
+#: src-en/data/events_special_storage.xml.append:7100
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL\"]/choice[@req=\"INTERNAL_RK_CHOKING_IS_FINE\""
 " and @lvl=\"0\"]/text"
 msgstr "질식 성애 유발 신경 매혹기 [비용: 55~, 1}, 1|]"
 
-#: src-en/data/events_special_storage.xml.append:7039
+#: src-en/data/events_special_storage.xml.append:7105
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL\"]/choice[@req=\"INTERNAL_DJMOD_DEMICLONER\""
 " and @lvl=\"1\"]/text"
@@ -3736,28 +3746,27 @@ msgstr ""
 "RK 펑크 \"의사 복제기\": 복제실이 없어도 사망하는 선원이 하위 형태(예: 인간 병사 = 기본 인간 등)로 부활합니다.\n"
 "\t\t\t하위 버전이 존재하지 않는 경우 모프로 변합니다. 모프가 사망하면 아무 일도 일어나지 않습니다. 이벤트로 인한 사망에는 적용되지 않습니다. [이미 설치됨]"
 
-#: src-en/data/events_special_storage.xml.append:7044
+#: src-en/data/events_special_storage.xml.append:7110
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL\"]/choice[@req=\"INTERNAL_DJMOD_DEMICLONER\""
 " and @lvl=\"0\"]/text"
 msgstr "의사 복제기. [비용: 35~, 2|]"
 
-#: src-en/data/events_special_storage.xml.append:7049
+#: src-en/data/events_special_storage.xml.append:7115
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL\"]/choice[@req=\"INTERNAL_DJMOD_MC_PARALYZER\""
 " and @lvl=\"1\"]/text"
 msgstr ""
-"RK 펑크 \"정신 냉각기\": 정신 지배에 걸린 경우, 당신의 선원은 전투, 시설 "
-"파괴, 순간이동 또는 능력을 사용할 수 없습니다. 양측 함선 모두에 적용됩니다. "
-"[이미 설치됨]"
+"RK 펑크 \"정신 냉각기\": 정신 지배에 걸린 경우, 당신의 선원은 전투, 시설 파괴, 순간이동 또는 능력을 사용할 수 없습니다. "
+"양측 함선 모두에 적용됩니다. [이미 설치됨]"
 
-#: src-en/data/events_special_storage.xml.append:7053
+#: src-en/data/events_special_storage.xml.append:7119
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL\"]/choice[@req=\"INTERNAL_DJMOD_MC_PARALYZER\""
 " and @lvl=\"0\"]/text"
 msgstr "정신 냉각기. [비용: 30~, 1|]"
 
-#: src-en/data/events_special_storage.xml.append:7059
+#: src-en/data/events_special_storage.xml.append:7125
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL\"]/choice[@req=\"INTERNAL_RK_IN_FIRE_CREWBOOSTS\""
 " and @lvl=\"1\"]/text"
@@ -3765,13 +3774,13 @@ msgstr ""
 "RK 스코치 \"헬리온 붕대\": 화재 속에서 선원의 이동 및 시스템 파괴 속도가 1.75배 증가하고, 전투 및 문 파괴 피해가 "
 "1.75배 증가합니다. 양측 함선 모두에 적용됩니다. [이미 설치됨]"
 
-#: src-en/data/events_special_storage.xml.append:7063
+#: src-en/data/events_special_storage.xml.append:7129
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL\"]/choice[@req=\"INTERNAL_RK_IN_FIRE_CREWBOOSTS\""
 " and @lvl=\"0\"]/text"
 msgstr "헬리온 붕대. [비용: 55~, 1{, 1}]"
 
-#: src-en/data/events_special_storage.xml.append:7068
+#: src-en/data/events_special_storage.xml.append:7134
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL\"]/choice[@req=\"INTERNAL_DJMOD_MC_IMMUNE_FROM_FIRE\""
 " and @lvl=\"1\"]/text"
@@ -3779,18 +3788,18 @@ msgstr ""
 "RK 스코치 \"정신 가열기\": 화재 속에서 선원이 정신 지배에 면역이 되며 치유되고, 기절 시간이 50% 단축되며, 인접한 방을 "
 "밝힙니다. 양측 함선 모두에 적용됩니다. [이미 설치됨]"
 
-#: src-en/data/events_special_storage.xml.append:7072
+#: src-en/data/events_special_storage.xml.append:7138
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL\"]/choice[@req=\"INTERNAL_DJMOD_MC_IMMUNE_FROM_FIRE\""
 " and @lvl=\"0\"]/text"
 msgstr "정신 가열기. [비용: 30~, 1{, 1|]"
 
-#: src-en/data/events_special_storage.xml.append:7077
+#: src-en/data/events_special_storage.xml.append:7143
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL\"]/choice[14]/text"
 msgstr "아무것도 아니다."
 
-#: src-en/data/events_special_storage.xml.append:7118
+#: src-en/data/events_special_storage.xml.append:7184
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_RK_CALIBRATOR\"]/text"
 msgstr ""
@@ -3798,36 +3807,36 @@ msgstr ""
 "\t[효과: 무기 명중률이 +10% 증가하고 발사 속도가 4% 향상됩니다. \n"
 "\t최대 2회까지 설치할 수 있습니다.]"
 
-#: src-en/data/events_special_storage.xml.append:7135
+#: src-en/data/events_special_storage.xml.append:7201
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_RK_CALIBRATOR\"]/choice[@req=\"DJMOD_HAS_RADIKAL_BAM_GEAR\""
 " and @lvl=\"0\"]/text"
 msgstr "이 업그레이드는 설치할 수 없습니다. 라디칼 밤(또는 BPS) 관련 무기/보조장비/선원/함선이 필요합니다."
 
-#: src-en/data/events_special_storage.xml.append:7140
+#: src-en/data/events_special_storage.xml.append:7206
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_RK_CALIBRATOR\"]/choice[@req=\"DJMOD_HAS_RADIKAL_BAM_GEAR\""
 " and @lvl=\"1\"]/text"
 msgstr "업그레이드를 실행한다. [비용: 45~, 1|]"
 
-#: src-en/data/events_special_storage.xml.append:7142
+#: src-en/data/events_special_storage.xml.append:7208
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_RK_CALIBRATOR\"]/choice[@req=\"DJMOD_HAS_RADIKAL_BAM_GEAR\""
 " and @lvl=\"1\"]/event/text"
 msgstr "업그레이드를 설치했습니다."
 
-#: src-en/data/events_special_storage.xml.append:7148
+#: src-en/data/events_special_storage.xml.append:7214
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_RK_CALIBRATOR\"]/choice[@req=\"DJMOD_HAS_RADIKAL_BAM_GEAR\""
 " and @lvl=\"1\"]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_special_storage.xml.append:7155
+#: src-en/data/events_special_storage.xml.append:7221
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_RK_CALIBRATOR\"]/choice[@req=\"pilot\"]/text"
 msgstr "아무것도 아니다."
 
-#: src-en/data/events_special_storage.xml.append:7166
+#: src-en/data/events_special_storage.xml.append:7232
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_RK_CHOKING_IS_FINE\"]/text"
 msgstr ""
@@ -3835,51 +3844,51 @@ msgstr ""
 "\t[효과: 아군 선원이 받는 질식 피해가 0.75배로 줄어듭니다.\n"
 "\t\t질식 상태일 때 이동, 방해, 수리 및 전투 능력이 1.4배 향상됩니다. 질식 면역 선원에게는 영향을 주지 않습니다.]"
 
-#: src-en/data/events_special_storage.xml.append:7171
+#: src-en/data/events_special_storage.xml.append:7237
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_RK_CHOKING_IS_FINE\"]/choice[@req=\"EX_RK_CHOKING_IS_FINE\"]/text"
 msgstr "외부 보조장비를 내부로 전환하여 설치한다."
 
-#: src-en/data/events_special_storage.xml.append:7173
+#: src-en/data/events_special_storage.xml.append:7239
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_RK_CHOKING_IS_FINE\"]/choice[@req=\"EX_RK_CHOKING_IS_FINE\"]/event/text"
 msgstr "업그레이드를 설치했습니다."
 
-#: src-en/data/events_special_storage.xml.append:7176
+#: src-en/data/events_special_storage.xml.append:7242
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_RK_CHOKING_IS_FINE\"]/choice[@req=\"EX_RK_CHOKING_IS_FINE\"]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_special_storage.xml.append:7183
+#: src-en/data/events_special_storage.xml.append:7249
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_RK_CHOKING_IS_FINE\"]/choice[@req=\"DJMOD_HAS_RADIKAL_BAM_GEAR\""
 " and @lvl=\"0\"]/text"
 msgstr "이 업그레이드는 설치할 수 없습니다. 라디칼 밤(또는 BPS) 관련 무기/보조장비/선원/함선이 필요합니다."
 
-#: src-en/data/events_special_storage.xml.append:7188
+#: src-en/data/events_special_storage.xml.append:7254
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_RK_CHOKING_IS_FINE\"]/choice[@req=\"DJMOD_HAS_RADIKAL_BAM_GEAR\""
 " and @lvl=\"1\"]/text"
 msgstr "업그레이드를 실행한다. [비용: 55~, 1}, 1|]"
 
-#: src-en/data/events_special_storage.xml.append:7190
+#: src-en/data/events_special_storage.xml.append:7256
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_RK_CHOKING_IS_FINE\"]/choice[@req=\"DJMOD_HAS_RADIKAL_BAM_GEAR\""
 " and @lvl=\"1\"]/event/text"
 msgstr "업그레이드를 설치했습니다."
 
-#: src-en/data/events_special_storage.xml.append:7197
+#: src-en/data/events_special_storage.xml.append:7263
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_RK_CHOKING_IS_FINE\"]/choice[@req=\"DJMOD_HAS_RADIKAL_BAM_GEAR\""
 " and @lvl=\"1\"]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_special_storage.xml.append:7204
+#: src-en/data/events_special_storage.xml.append:7270
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_RK_CHOKING_IS_FINE\"]/choice[@req=\"pilot\"]/text"
 msgstr "아무것도 아니다."
 
-#: src-en/data/events_special_storage.xml.append:7215
+#: src-en/data/events_special_storage.xml.append:7281
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_DJMOD_DEMICLONER\"]/text"
 msgstr ""
@@ -3887,155 +3896,154 @@ msgstr ""
 "\t[효과: 어둠의 에너지가 주입된 배낭형 클론 배양실 시제품입니다. 진짜 클론 배양실이 없을 때 선원이 사망하면(이벤트 제외) 부활을 시도합니다.\n"
 "\t\t최선의 경우, 선원은 자신의 하위 버전(예: 병사 = 일반 인간 등)으로 부활합니다. 하위 버전이 존재하지 않는 경우 모프로 변합니다. 모프가 사망하면 아무 일도 일어나지 않습니다.]"
 
-#: src-en/data/events_special_storage.xml.append:7221
+#: src-en/data/events_special_storage.xml.append:7287
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_DJMOD_DEMICLONER\"]/choice[@req=\"EX_DJMOD_DEMICLONER\"]/text"
 msgstr "외부 보조장비를 내부로 전환하여 설치한다."
 
-#: src-en/data/events_special_storage.xml.append:7223
+#: src-en/data/events_special_storage.xml.append:7289
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_DJMOD_DEMICLONER\"]/choice[@req=\"EX_DJMOD_DEMICLONER\"]/event/text"
 msgstr "업그레이드를 설치했습니다."
 
-#: src-en/data/events_special_storage.xml.append:7226
+#: src-en/data/events_special_storage.xml.append:7292
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_DJMOD_DEMICLONER\"]/choice[@req=\"EX_DJMOD_DEMICLONER\"]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_special_storage.xml.append:7233
+#: src-en/data/events_special_storage.xml.append:7299
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_DJMOD_DEMICLONER\"]/choice[@req=\"DJMOD_HAS_RADIKAL_PUNK_GEAR\""
 " and @lvl=\"0\"]/text"
 msgstr "이 업그레이드는 설치할 수 없습니다. 라디칼 펑크(또는 BPS) 관련 무기/보조장비/선원/함선이 필요합니다."
 
-#: src-en/data/events_special_storage.xml.append:7238
+#: src-en/data/events_special_storage.xml.append:7304
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_DJMOD_DEMICLONER\"]/choice[@req=\"DJMOD_HAS_RADIKAL_PUNK_GEAR\""
 " and @lvl=\"1\"]/text"
 msgstr "업그레이드를 실행한다. [비용: 35~, 2|]"
 
-#: src-en/data/events_special_storage.xml.append:7240
+#: src-en/data/events_special_storage.xml.append:7306
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_DJMOD_DEMICLONER\"]/choice[@req=\"DJMOD_HAS_RADIKAL_PUNK_GEAR\""
 " and @lvl=\"1\"]/event/text"
 msgstr "업그레이드를 설치했습니다."
 
-#: src-en/data/events_special_storage.xml.append:7246
+#: src-en/data/events_special_storage.xml.append:7312
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_DJMOD_DEMICLONER\"]/choice[@req=\"DJMOD_HAS_RADIKAL_PUNK_GEAR\""
 " and @lvl=\"1\"]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_special_storage.xml.append:7253
+#: src-en/data/events_special_storage.xml.append:7319
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_DJMOD_DEMICLONER\"]/choice[@req=\"pilot\"]/text"
 msgstr "아무것도 아니다."
 
-#: src-en/data/events_special_storage.xml.append:7264
+#: src-en/data/events_special_storage.xml.append:7330
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_DJMOD_MC_PARALYZER\"]/text"
 msgstr ""
 "정신 냉각기 업그레이드를 설치하려고 합니다.\n"
-"\t[효과: 정신 지배에 걸린 경우, 당신의 선원은 전투, 시설 파괴, 순간이동 또는 "
-"능력을 사용할 수 없습니다. 양측 함선 모두에 적용됩니다.]"
+"\t[효과: 정신 지배에 걸린 경우, 당신의 선원은 전투, 시설 파괴, 순간이동 또는 능력을 사용할 수 없습니다. 양측 함선 모두에 적용됩니다.]"
 
-#: src-en/data/events_special_storage.xml.append:7268
+#: src-en/data/events_special_storage.xml.append:7334
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_DJMOD_MC_PARALYZER\"]/choice[@req=\"DJMOD_HAS_RADIKAL_PUNK_GEAR\""
 " and @lvl=\"0\"]/text"
 msgstr "이 업그레이드는 설치할 수 없습니다. 라디칼 펑크(또는 BPS) 관련 무기/보조장비/선원/함선이 필요합니다."
 
-#: src-en/data/events_special_storage.xml.append:7272
+#: src-en/data/events_special_storage.xml.append:7338
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_DJMOD_MC_PARALYZER\"]/choice[@req=\"DJMOD_HAS_RADIKAL_PUNK_GEAR\""
 " and @lvl=\"1\"]/text"
 msgstr "업그레이드를 실행한다. [비용: 30~, 1|]"
 
-#: src-en/data/events_special_storage.xml.append:7274
+#: src-en/data/events_special_storage.xml.append:7340
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_DJMOD_MC_PARALYZER\"]/choice[@req=\"DJMOD_HAS_RADIKAL_PUNK_GEAR\""
 " and @lvl=\"1\"]/event/text"
 msgstr "업그레이드를 설치했습니다."
 
-#: src-en/data/events_special_storage.xml.append:7280
+#: src-en/data/events_special_storage.xml.append:7346
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_DJMOD_MC_PARALYZER\"]/choice[@req=\"DJMOD_HAS_RADIKAL_PUNK_GEAR\""
 " and @lvl=\"1\"]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_special_storage.xml.append:7287
+#: src-en/data/events_special_storage.xml.append:7353
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_DJMOD_MC_PARALYZER\"]/choice[@req=\"pilot\"]/text"
 msgstr "아무것도 아니다."
 
-#: src-en/data/events_special_storage.xml.append:7299
+#: src-en/data/events_special_storage.xml.append:7365
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_RK_IN_FIRE_CREWBOOSTS\"]/text"
 msgstr ""
 "헬리온 붕대 업그레이드를 설치하려고 합니다.\n"
 "\t[효과: 화염 속에서 아군 선원의 이동속도 및 시스템 파괴 속도가 1.75배 증가하고, 전투 및 문에 주는 피해가 1.75배 증가합니다. 양측 함선 모두에 적용됩니다.]"
 
-#: src-en/data/events_special_storage.xml.append:7303
+#: src-en/data/events_special_storage.xml.append:7369
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_RK_IN_FIRE_CREWBOOSTS\"]/choice[@req=\"DJMOD_HAS_RADIKAL_SCORCH_GEAR\""
 " and @lvl=\"0\"]/text"
 msgstr "이 업그레이드는 설치할 수 없습니다. 라디칼 스코치(또는 BPS) 관련 무기/보조장비/선원/함선이 필요합니다."
 
-#: src-en/data/events_special_storage.xml.append:7307
+#: src-en/data/events_special_storage.xml.append:7373
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_RK_IN_FIRE_CREWBOOSTS\"]/choice[@req=\"DJMOD_HAS_RADIKAL_SCORCH_GEAR\""
 " and @lvl=\"1\"]/text"
 msgstr "업그레이드를 실행한다. [비용: 55~, 1{, 1}]"
 
-#: src-en/data/events_special_storage.xml.append:7309
+#: src-en/data/events_special_storage.xml.append:7375
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_RK_IN_FIRE_CREWBOOSTS\"]/choice[@req=\"DJMOD_HAS_RADIKAL_SCORCH_GEAR\""
 " and @lvl=\"1\"]/event/text"
 msgstr "업그레이드를 설치했습니다."
 
-#: src-en/data/events_special_storage.xml.append:7316
+#: src-en/data/events_special_storage.xml.append:7382
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_RK_IN_FIRE_CREWBOOSTS\"]/choice[@req=\"DJMOD_HAS_RADIKAL_SCORCH_GEAR\""
 " and @lvl=\"1\"]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_special_storage.xml.append:7323
+#: src-en/data/events_special_storage.xml.append:7389
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_RK_IN_FIRE_CREWBOOSTS\"]/choice[@req=\"pilot\"]/text"
 msgstr "아무것도 아니다."
 
-#: src-en/data/events_special_storage.xml.append:7334
+#: src-en/data/events_special_storage.xml.append:7400
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_DJMOD_MC_IMMUNE_FROM_FIRE\"]/text"
 msgstr ""
 "정신 가열기 업그레이드를 설치하려고 합니다.\n"
 "\t[효과: 화재 속에서 선원이 정신 지배에 면역이 되며 치유되고, 기절 시간이 50% 단축되며, 인접한 방을 밝힙니다. 양측 함선 모두에 적용됩니다.]"
 
-#: src-en/data/events_special_storage.xml.append:7338
+#: src-en/data/events_special_storage.xml.append:7404
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_DJMOD_MC_IMMUNE_FROM_FIRE\"]/choice[@req=\"DJMOD_HAS_RADIKAL_SCORCH_GEAR\""
 " and @lvl=\"0\"]/text"
 msgstr "이 업그레이드는 설치할 수 없습니다. 라디칼 스코치(또는 BPS) 관련 무기/보조장비/선원/함선이 필요합니다."
 
-#: src-en/data/events_special_storage.xml.append:7342
+#: src-en/data/events_special_storage.xml.append:7408
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_DJMOD_MC_IMMUNE_FROM_FIRE\"]/choice[@req=\"DJMOD_HAS_RADIKAL_SCORCH_GEAR\""
 " and @lvl=\"1\"]/text"
 msgstr "업그레이드를 실행한다. [비용: 30~, 1{, 1|]"
 
-#: src-en/data/events_special_storage.xml.append:7344
+#: src-en/data/events_special_storage.xml.append:7410
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_DJMOD_MC_IMMUNE_FROM_FIRE\"]/choice[@req=\"DJMOD_HAS_RADIKAL_SCORCH_GEAR\""
 " and @lvl=\"1\"]/event/text"
 msgstr "업그레이드를 설치했습니다."
 
-#: src-en/data/events_special_storage.xml.append:7351
+#: src-en/data/events_special_storage.xml.append:7417
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_DJMOD_MC_IMMUNE_FROM_FIRE\"]/choice[@req=\"DJMOD_HAS_RADIKAL_SCORCH_GEAR\""
 " and @lvl=\"1\"]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_special_storage.xml.append:7358
+#: src-en/data/events_special_storage.xml.append:7424
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_DJMOD_MC_IMMUNE_FROM_FIRE\"]/choice[@req=\"pilot\"]/text"
 msgstr "아무것도 아니다."

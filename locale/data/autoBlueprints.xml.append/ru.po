@@ -1,134 +1,126 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-10-09 11:05+0000\n"
-"Last-Translator: Ukn <bbg100bbg@gmail.com>\n"
-"Language-Team: Russian <https://weblate.hyperq.be/projects/radikal-sector/"
-"dataautoblueprintsxmlappend/ru/>\n"
-"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.17.1\n"
 
-#: src-en/data/autoBlueprints.xml.append:1207
+#: src-en/data/autoBlueprints.xml.append:1295
 msgid ""
 "data/autoBlueprints.xml.append$//shipBlueprint[@name=\"RK_A_ZOLTAN_POLICE_INTRO\"]/class"
 msgstr "А-РК.С.С. Миротворческий принудитель"
 
-#: src-en/data/autoBlueprints.xml.append:1268
+#: src-en/data/autoBlueprints.xml.append:1356
 msgid ""
 "data/autoBlueprints.xml.append$//shipBlueprint[@name=\"RK_A_ZOLTAN_POLICE_NUMBER2\"]/class"
 msgstr "А-РК.С.С. Миротворческий интендант"
 
-#: src-en/data/autoBlueprints.xml.append:1327
+#: src-en/data/autoBlueprints.xml.append:1415
 msgid ""
 "data/autoBlueprints.xml.append$//shipBlueprint[@name=\"RK_A_ZOLTAN_POLICE_NUMBER3\"]/class"
 msgstr "А-РК.С.С. Миротворческий инквизитор"
 
-#: src-en/data/autoBlueprints.xml.append:1393
+#: src-en/data/autoBlueprints.xml.append:1481
 msgid ""
 "data/autoBlueprints.xml.append$//shipBlueprint[@name=\"RK_A_ZOLTAN_POLICE_NUMBER_4\"]/class"
 msgstr "А-РК.С.С. Миротворческий палач"
 
-#: src-en/data/autoBlueprints.xml.append:1468
+#: src-en/data/autoBlueprints.xml.append:1556
 msgid ""
 "data/autoBlueprints.xml.append$//shipBlueprint[@name=\"DJMOD_RADIKAL_GUARD\"]/class"
 msgstr "Сторожевой корабль РадиКал"
 
-#: src-en/data/autoBlueprints.xml.append:1504
+#: src-en/data/autoBlueprints.xml.append:1592
 msgid ""
 "data/autoBlueprints.xml.append$//shipBlueprint[@name=\"RKS_REINFORCEMENT_DUSK_FIGHTER\"]/class"
 msgstr "Союзный РК истребитель Вестников Заката"
 
-#: src-en/data/autoBlueprints.xml.append:1553
+#: src-en/data/autoBlueprints.xml.append:1641
 msgid ""
 "data/autoBlueprints.xml.append$//shipBlueprint[@name=\"RKS_REINFORCEMENT_LOSTSUN_PATROL\"]/class"
 msgstr "Союзный РК патрульный корабль Затерянных Солнц"
 
-#: src-en/data/autoBlueprints.xml.append:1610
+#: src-en/data/autoBlueprints.xml.append:1698
 msgid ""
 "data/autoBlueprints.xml.append$//shipBlueprint[@name=\"RKS_REINFORCEMENT_HACKER_MANIPULATOR\"]/class"
 msgstr "Союзные РК Хакеры-манипуляторы"
 
-#: src-en/data/autoBlueprints.xml.append:1678
+#: src-en/data/autoBlueprints.xml.append:1766
 msgid ""
 "data/autoBlueprints.xml.append$//shipBlueprint[@name=\"RKS_ZOLTAN_POLICE\"]/class"
 msgstr "А-РК.С.С. Миротворческий захватчик"
 
-#: src-en/data/autoBlueprints.xml.append:1741
+#: src-en/data/autoBlueprints.xml.append:1829
 msgid ""
 "data/autoBlueprints.xml.append$//shipBlueprint[@name=\"RKS_LEAD_TITANS_USER_SLUG\"]/class"
 msgstr "Челнок РК Бам Титан"
 
-#: src-en/data/autoBlueprints.xml.append:1811
+#: src-en/data/autoBlueprints.xml.append:1899
 msgid ""
 "data/autoBlueprints.xml.append$//shipBlueprint[@name=\"RKS_GRAVESPRED_USER_REBELAUTO\"]/class"
 msgstr "РК Панк Авто-Депопулятор"
 
-#: src-en/data/autoBlueprints.xml.append:1861
+#: src-en/data/autoBlueprints.xml.append:1949
 msgid ""
 "data/autoBlueprints.xml.append$//shipBlueprint[@name=\"RKS_WOF_USER_UNION\"]/class"
 msgstr "Скоростной истребитель РК Скорч"
 
-#: src-en/data/autoBlueprints.xml.append:1924
+#: src-en/data/autoBlueprints.xml.append:2012
 msgid ""
 "data/autoBlueprints.xml.append$//shipBlueprint[@name=\"RKS_COALITION_DESTROYER_ELITE\"]/class"
 msgstr "Эсминец ЭЭРЕ"
 
-#: src-en/data/autoBlueprints.xml.append:1987
+#: src-en/data/autoBlueprints.xml.append:2075
 msgid ""
 "data/autoBlueprints.xml.append$//shipBlueprint[@name=\"RKS_GARAGE_FIREBLASTER_PIRATE\"]/class"
 msgstr "Пиратский Пламенемет"
 
-#: src-en/data/autoBlueprints.xml.append:2051
+#: src-en/data/autoBlueprints.xml.append:2139
 msgid ""
 "data/autoBlueprints.xml.append$//shipBlueprint[@name=\"RKS_LAB_BAM_SHELL_ELITE\"]/class"
 msgstr "Истребитель Лучезарных"
 
-#: src-en/data/autoBlueprints.xml.append:2087
+#: src-en/data/autoBlueprints.xml.append:2175
 msgid ""
 "data/autoBlueprints.xml.append$//shipBlueprint[@name=\"RKS_LAB_PUNK_FREEMANTIS_ELITE\"]/class"
 msgstr "Челнок Полководцев"
 
-#: src-en/data/autoBlueprints.xml.append:2117
+#: src-en/data/autoBlueprints.xml.append:2205
 msgid ""
 "data/autoBlueprints.xml.append$//shipBlueprint[@name=\"RKS_LAB_PUNK_FREEMANTIS_ELITE_CHALLENGE\"]/class"
 msgstr "Челнок Полководцев"
 
-#: src-en/data/autoBlueprints.xml.append:2149
+#: src-en/data/autoBlueprints.xml.append:2237
 msgid ""
 "data/autoBlueprints.xml.append$//shipBlueprint[@name=\"RKS_LAB_SCORCH_ORCHID_ELITE\"]/class"
 msgstr "Бомбардировщик Преторов"
 
-#: src-en/data/autoBlueprints.xml.append:2211
+#: src-en/data/autoBlueprints.xml.append:2299
 msgid ""
 "data/autoBlueprints.xml.append$//shipBlueprint[@name=\"DJMOD_RADIKAL_BOSS_BAM\"]/class"
 msgstr "Страж РК Бам"
 
-#: src-en/data/autoBlueprints.xml.append:2242
+#: src-en/data/autoBlueprints.xml.append:2330
 msgid ""
 "data/autoBlueprints.xml.append$//shipBlueprint[@name=\"DJMOD_RADIKAL_BOSS_BAM_CHALLENGE\"]/class"
 msgstr "Страж РК Бам"
 
-#: src-en/data/autoBlueprints.xml.append:2276
+#: src-en/data/autoBlueprints.xml.append:2364
 msgid ""
 "data/autoBlueprints.xml.append$//shipBlueprint[@name=\"DJMOD_RADIKAL_BOSS_PUNK\"]/class"
 msgstr "Страж РК Панк"
 
-#: src-en/data/autoBlueprints.xml.append:2315
+#: src-en/data/autoBlueprints.xml.append:2403
 msgid ""
 "data/autoBlueprints.xml.append$//shipBlueprint[@name=\"DJMOD_RADIKAL_BOSS_SCORCH\"]/class"
 msgstr "Страж РК Скорч"
 
-#: src-en/data/autoBlueprints.xml.append:2351
+#: src-en/data/autoBlueprints.xml.append:2439
 msgid ""
 "data/autoBlueprints.xml.append$//shipBlueprint[@name=\"RKS_EXIT_PIRATE_AMBUSHER\"]/class"
 msgstr "Вспомогательный пиратский линкор"
 
-#: src-en/data/autoBlueprints.xml.append:2428
+#: src-en/data/autoBlueprints.xml.append:2516
 msgid ""
 "data/autoBlueprints.xml.append$//shipBlueprint[@name=\"RK_HACK_FLEET_BOSS_MFK\"]/class"
 msgstr "Хакер асов МФК"

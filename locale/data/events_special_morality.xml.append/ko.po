@@ -1,24 +1,16 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-10-09 11:05+0000\n"
-"Last-Translator: TrpleA <wndhkswnqls2@naver.com>\n"
-"Language-Team: Korean <https://weblate.hyperq.be/projects/radikal-sector/"
-"dataevents_special_moralityxmlappend/ko/>\n"
-"Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.17.1\n"
 
 #: src-en/data/events_special_morality.xml.append:6
 msgid ""
 "data/events_special_morality.xml.append$//event[@name=\"RK_MORALITY_REMOVE_GENERAL_DOUBLE\"]/text"
 msgstr ""
 "[악명 감소 X2 - 종합]\n"
-"당신은 여기서 은하계에 선행을 베풀었습니다. 만약 당신이 과거에 다른 행동으로 "
-"악명을 얻었다면 악행을 용서받을 가능성이 더 높아집니다.\n"
+"당신은 여기서 은하계에 선행을 베풀었습니다. 만약 당신이 과거에 다른 행동으로 악명을 얻었다면 악행을 용서받을 가능성이 더 높아집니다.\n"
 "  \n"
 "당신의 특별한 영웅적 행동 덕분에 평판이 두 배로 높아졌습니다."
 

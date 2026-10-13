@@ -1,17 +1,9 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-10-09 11:05+0000\n"
-"Last-Translator: Ukn <bbg100bbg@gmail.com>\n"
-"Language-Team: Russian <https://weblate.hyperq.be/projects/radikal-sector/"
-"datahyperspace-xml-append/ru/>\n"
-"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.17.1\n"
 
 #: src-en/data/hyperspace.xml.append:245
 msgid "data/hyperspace.xml.append$//human_soldier[@name=\"Rammerman\"]/@name"
@@ -161,29 +153,31 @@ msgid ""
 "append:customShip[@name=\"RKS_LAB_PUNK_FREEMANTIS_ELITE\"]/crew/mantis_free[@name=\"Zakk\"]/@name"
 msgstr "Закк"
 
-#: src-en/data/hyperspace.xml.append:752
+#: src-en/data/hyperspace.xml.append:748
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"RKS_LAB_PUNK_FREEMANTIS_ELITE_CHALLENGE\"]/crew/mantis_warlord[@name=\"Wakk\"]/@name"
 msgstr "Вакк"
 
-#: src-en/data/hyperspace.xml.append:753
+#: src-en/data/hyperspace.xml.append:749
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"RKS_LAB_PUNK_FREEMANTIS_ELITE_CHALLENGE\"]/crew/mantis_warlord[@name=\"Xakk\"]/@name"
 msgstr "Хакк"
 
-#: src-en/data/hyperspace.xml.append:754
-msgid "data/hyperspace.xml.append$//mantis_warlord[@name=\"Yakk\"]/@name"
-msgstr "Якк"
-
-#: src-en/data/hyperspace.xml.append:755
+#: src-en/data/hyperspace.xml.append:750
 msgid ""
 "data/hyperspace.xml.append$//mod-"
-"append:customShip[@name=\"RKS_LAB_PUNK_FREEMANTIS_ELITE_CHALLENGE\"]/crew/mantis_free[@name=\"Zakk\"]/@name"
+"append:customShip[@name=\"RKS_LAB_PUNK_FREEMANTIS_ELITE_CHALLENGE\"]/crew/mantis_free[1]/@name"
 msgstr "Закк"
 
-#: src-en/data/hyperspace.xml.append:840
+#: src-en/data/hyperspace.xml.append:751
+msgid ""
+"data/hyperspace.xml.append$//mod-"
+"append:customShip[@name=\"RKS_LAB_PUNK_FREEMANTIS_ELITE_CHALLENGE\"]/crew/mantis_free[2]/@name"
+msgstr "Закк"
+
+#: src-en/data/hyperspace.xml.append:833
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[3]/mod:findLike[1]/mod-"
 "append:shipIcon[1]/tooltip"
@@ -192,7 +186,7 @@ msgstr ""
 "\t\t\tВероятно, представляет опасность, возможно, в том числе для самого себя и/или своего экипажа.\n"
 "\t\t\tВероятно, содержит добываемое оборудование РадиКал: открывает доступ к внутренним улучшениям и синим опциям или координатам секторов РК."
 
-#: src-en/data/hyperspace.xml.append:847
+#: src-en/data/hyperspace.xml.append:840
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[3]/mod:findLike[1]/mod-"
 "append:shipIcon[2]/tooltip"
@@ -206,7 +200,7 @@ msgstr ""
 "\t\t\t[style[color:ff3377]]Скорость зарядки ССД уменьшена на 90%.\n"
 "\t\t\tНевозможно сдаться, вести переговоры или ослушаться.[[/style]]"
 
-#: src-en/data/hyperspace.xml.append:861
+#: src-en/data/hyperspace.xml.append:854
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[3]/mod:findLike[2]/mod-"
 "append:shipIcon[1]/tooltip"
@@ -215,7 +209,7 @@ msgstr ""
 "\t\t\tУ членов экипажа этого корабля [style[color:ff3377]]ОЗ уменьшены на 10%[[/style]], и при гибели они взрываются, вызывая пожар и нанося урон помещению и кораблю, в котором они находятся, причем в помещениях без систем урон увеличивается. [style[color:ff3377]]Имеет эффект дружественного огня.[[/style]]\n"
 "\t\t\tНакладывается на уже существующие эффекты гибели"
 
-#: src-en/data/hyperspace.xml.append:867
+#: src-en/data/hyperspace.xml.append:860
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[3]/mod:findLike[2]/mod-"
 "append:shipIcon[2]/tooltip"
@@ -225,7 +219,7 @@ msgstr ""
 "\t\t\tОстальные члены экипажа получают увеличение скорости ремонта на 75%.\n"
 "\t\t\tВсе члены экипажа этого корабля получают увеличение скорости передвижения на 40%."
 
-#: src-en/data/hyperspace.xml.append:874
+#: src-en/data/hyperspace.xml.append:867
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[3]/mod:findLike[2]/mod-"
 "append:shipIcon[3]/tooltip"
@@ -234,7 +228,7 @@ msgstr ""
 "\t\t\tЭтот враг защищен энергетическим щитом. Взлом, контроль разума, телепортация, абордажные дроны и все повреждающее корпус или ионное оружие будут заблокированы до тех пор, пока не будет отключен.\n"
 "\t\t\tЭтот особый щит также обладает повышенной скоростью перезарядки, и противник способен восстановить свой энергетический щит один раз!"
 
-#: src-en/data/hyperspace.xml.append:880
+#: src-en/data/hyperspace.xml.append:873
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[3]/mod:findLike[2]/mod-"
 "append:shipIcon[4]/tooltip"
@@ -243,7 +237,7 @@ msgstr ""
 "\t\t\t[style[color:ff3377]]Снижает скорость перезарядки оружия этого корабля на 5%.[[/style]]\n"
 "\t\t\tУдары по этому кораблю, наносящие 1 урон, с вероятностью 40% не наносятся, а весь остальной урон уменьшается на 1."
 
-#: src-en/data/hyperspace.xml.append:886
+#: src-en/data/hyperspace.xml.append:879
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[3]/mod:findLike[2]/mod-"
 "append:shipIcon[5]/tooltip"
@@ -251,7 +245,7 @@ msgstr ""
 "КАЛИБРАТОР:\n"
 "\t\t\tОружие этого корабля обладает +10% к точности и увеличенной скорострельностью на 4%."
 
-#: src-en/data/hyperspace.xml.append:891
+#: src-en/data/hyperspace.xml.append:884
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[3]/mod:findLike[2]/mod-"
 "append:shipIcon[6]/tooltip"
@@ -261,7 +255,7 @@ msgstr ""
 "\t\t\tВ состоянии удушья его члены передвигаются, занимаются саботажем, ремонтом и сражаются в 1.4х эффективнее.\n"
 "\t\t\tНе действует на членов экипажа, обладающих иммунитетом к удушью."
 
-#: src-en/data/hyperspace.xml.append:901
+#: src-en/data/hyperspace.xml.append:894
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[3]/mod:findLike[3]/mod-"
 "append:shipIcon[1]/tooltip"
@@ -270,7 +264,7 @@ msgstr ""
 "\t\t\tЭтот противник защищен энергетическим щитом. Взлом, контроль разума, телепортация, абордажные дроны, а также все оружие, наносящее урон корпусу или ионное оружие, будут блокироваться до тех пор, пока щит не будет выведен из строя.\n"
 "\t\t\tКроме того, этот щит замедляет перезарядку щитов и оружия, но при этом восстанавливает здоровье дружественных дронов и наносит урон вражеским дронам."
 
-#: src-en/data/hyperspace.xml.append:907
+#: src-en/data/hyperspace.xml.append:900
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[3]/mod:findLike[3]/mod-"
 "append:shipIcon[2]/tooltip"
@@ -280,7 +274,7 @@ msgstr ""
 "\t\t\tЭкипаж этого корабля получает 2.5х исцеления от большинства источников, 2х скорость клонирования, и экипаж не теряет навыки при клонировании.\n"
 "\t\t\t[style[color:ff3377]]ПРЕДУПРЕЖДЕНИЕ: Все члены экипажа, находящиеся в одном помещении с любым членом экипажа этого корабля, получают 0.5х меньше лечения (эффект не суммируется) и не могут быть клонированы![[/style]] [Этот дебафф отображается в виде фиолетового дыма]"
 
-#: src-en/data/hyperspace.xml.append:915
+#: src-en/data/hyperspace.xml.append:908
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[3]/mod:findLike[3]/mod-"
 "append:shipIcon[3]/tooltip"
@@ -289,7 +283,7 @@ msgstr ""
 "\t\t\tИнженеры на этом корабле обладают повышенной сопротивляемостью и иммунитетом Контролю разума.\n"
 "\t\t\tКроме того, их эффективность при ремонте растет в геометрической прогрессии: чем больше активных уровней Взломщика и Контроля разума на корабле, тем быстрее и эффективнее они работают!"
 
-#: src-en/data/hyperspace.xml.append:922
+#: src-en/data/hyperspace.xml.append:915
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[3]/mod:findLike[3]/mod-"
 "append:shipIcon[4]/tooltip"
@@ -297,7 +291,7 @@ msgstr ""
 "НАБОРЫ ЗАЩИТЫ:\n"
 "\t\t\tНаходясь на своем корабле, экипаж этого судна получает защиту от урона в бою, быстрее ремонтирует корабль и перемещается, а также постепенно восстанавливает здоровье, если находится в режиме ожидания и не заняты обслуживанием систем."
 
-#: src-en/data/hyperspace.xml.append:927
+#: src-en/data/hyperspace.xml.append:920
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[3]/mod:findLike[3]/mod-"
 "append:shipIcon[5]/tooltip"
@@ -306,17 +300,15 @@ msgstr ""
 "\t\t\tТемные силы пытаются воскресить экипаж этого корабля, если его члены погибают (не в ходе событий) в отсутствие настоящего Клон-отсека.\n"
 "\t\t\tВ лучшем случае они превращаются в свои собственные упрощенные версии (солдат = человек по умолчанию и т. д.). Если упрощенной версии не существует, они становятся морфами. Когда морфы умирают - ничего не происходит."
 
-#: src-en/data/hyperspace.xml.append:933
+#: src-en/data/hyperspace.xml.append:926
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[3]/mod:findLike[3]/mod-"
 "append:shipIcon[6]/tooltip"
 msgstr ""
 "УСПОКОИТЕЛЬ РАЗУМА:\n"
-"\t\t\tНаходясь под воздействием Контроля разума, экипаж этого корабля не "
-"может сражаться, заниматься саботажем, использовать способности или "
-"телепортироваться. Действует на обоих кораблях."
+"\t\t\tНаходясь под воздействием Контроля разума, экипаж этого корабля не может сражаться, заниматься саботажем, использовать способности или телепортироваться. Действует на обоих кораблях."
 
-#: src-en/data/hyperspace.xml.append:941
+#: src-en/data/hyperspace.xml.append:934
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[3]/mod:findLike[4]/mod-"
 "append:shipIcon[1]/tooltip"
@@ -324,7 +316,7 @@ msgstr ""
 "ПЛАЗМЕННЫЙ ТЕЛЕПОРТАТОР:\n"
 "\t\t\tЭтот корабль может мгновенно поджечь противника в начале боя!"
 
-#: src-en/data/hyperspace.xml.append:946
+#: src-en/data/hyperspace.xml.append:939
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[3]/mod:findLike[4]/mod-"
 "append:shipIcon[2]/tooltip"
@@ -332,7 +324,7 @@ msgstr ""
 "ПРЕДЗАЖИГАТЕЛЬ СКОРЧ:\n"
 "\t\t\tОружие этого корабля становится доступным сразу после сверхсветового прыжка, но при каждом выстреле снарядом или лучом в оружейном отсеке возникает пожар!"
 
-#: src-en/data/hyperspace.xml.append:951
+#: src-en/data/hyperspace.xml.append:944
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[3]/mod:findLike[4]/mod-"
 "append:shipIcon[3]/tooltip"
@@ -340,7 +332,7 @@ msgstr ""
 "ВЫЖЖЕННАЯ ЗЕМЛЯ:\n"
 "\t\t\tЭкипаж этого корабля обладает сопротивляемостью к огню и исцеляется во время тушения пожара."
 
-#: src-en/data/hyperspace.xml.append:956
+#: src-en/data/hyperspace.xml.append:949
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[3]/mod:findLike[4]/mod-"
 "append:shipIcon[4]/tooltip"
@@ -348,7 +340,7 @@ msgstr ""
 "ПЫЛАЮЩАЯ ЗЕМЛЯ:\n"
 "\t\t\tЭкипаж этого корабля обладает устойчивостью к огню, получает бонус в условиях пожара: вырабатывает кислород во время пожара и восстанавливает здоровье при тушении."
 
-#: src-en/data/hyperspace.xml.append:961
+#: src-en/data/hyperspace.xml.append:954
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[3]/mod:findLike[4]/mod-"
 "append:shipIcon[5]/tooltip"
@@ -356,7 +348,7 @@ msgstr ""
 "ИЗВЕРГАЮЩАЯСЯ ЗЕМЛЯ:\n"
 "\t\t\tЭкипаж этого корабля устойчив к огню, получает бонус в условиях пожара: вырабатывает значительное количество кислорода во время пожара и восстанавливает здоровье во время тушения."
 
-#: src-en/data/hyperspace.xml.append:966
+#: src-en/data/hyperspace.xml.append:959
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[3]/mod:findLike[4]/mod-"
 "append:shipIcon[6]/tooltip"
@@ -364,7 +356,7 @@ msgstr ""
 "ФЛАММАБИЛИЗАТОР-И:\n"
 "\t\t\tУ вашего экипажа снимается иммунитет к огню, сопротивляемость огню или прямое исцеление от огня (не тушение)! Кроме того, ваш экипаж передвигается в огне медленнее, причем скорость снижается еще больше за каждый активный уровень системы жизнеобеспечения (O2) на этом корабле!"
 
-#: src-en/data/hyperspace.xml.append:971
+#: src-en/data/hyperspace.xml.append:964
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[3]/mod:findLike[4]/mod-"
 "append:shipIcon[7]/tooltip"
@@ -372,7 +364,7 @@ msgstr ""
 "ФЛАММАБИЛИЗАТОР-У:\n"
 "\t\t\tВаш экипаж получает больше урона от огня и передвигается медленнее в условиях пожара. Эти эффекты усиливаются с каждым активным уровнем системы жизнеобеспечения (O2) на этом корабле!"
 
-#: src-en/data/hyperspace.xml.append:976
+#: src-en/data/hyperspace.xml.append:969
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[3]/mod:findLike[4]/mod-"
 "append:shipIcon[8]/tooltip"
@@ -381,7 +373,7 @@ msgstr ""
 "\t\t\tСкорострельность орудий и артиллерийских установок этого корабля повышается на 25%. Каждый раз при выстреле снарядом или лучем скорострельность увеличивается на 1% (до 10%), но при этом появляется 10% вероятность возникновения пожара в системном отсеке оружия и любых артиллерийских отсеках.\n"
 "\t\t\tКОМБО: Предзажигатель Скорч увеличивает максимальный дополнительный бонус до 20%."
 
-#: src-en/data/hyperspace.xml.append:982
+#: src-en/data/hyperspace.xml.append:975
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[3]/mod:findLike[4]/mod-"
 "append:shipIcon[9]/tooltip"
@@ -389,85 +381,85 @@ msgstr ""
 "ОГНЕННЫЕ ПОВЯЗКИ:\n"
 "\t\t\tВ условиях пожара скорость передвижения и скорость саботажа экипажа этого корабля увеличиваются до 1.75х, а урон в бою и урон, наносимый дверям, увеличивается до 1.75х - на обоих кораблях."
 
-#: src-en/data/hyperspace.xml.append:1600
+#: src-en/data/hyperspace.xml.append:1593
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[5]/mod:findLike[1]/mod-"
 "append:category/customTitle"
 msgstr "ТАИНСТВЕННЫЙ ЭКИПАЖ"
 
-#: src-en/data/hyperspace.xml.append:1613
+#: src-en/data/hyperspace.xml.append:1606
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[5]/mod:findLike[2]/mod-"
 "append:category/customTitle"
 msgstr "ТАИНСТВЕННЫЙ ЭКИПАЖ"
 
-#: src-en/data/hyperspace.xml.append:1626
+#: src-en/data/hyperspace.xml.append:1620
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[5]/mod:findLike[3]/mod-"
 "append:category/customTitle"
 msgstr "ТАИНСТВЕННЫЙ ЭКИПАЖ"
 
-#: src-en/data/hyperspace.xml.append:1640
+#: src-en/data/hyperspace.xml.append:1634
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[5]/mod:findLike[4]/mod-"
 "append:category/customTitle"
 msgstr "ТАИНСТВЕННЫЙ ЭКИПАЖ"
 
-#: src-en/data/hyperspace.xml.append:1653
+#: src-en/data/hyperspace.xml.append:1647
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[5]/mod:findLike[5]/mod-"
 "append:category/customTitle"
 msgstr "ТАИНСТВЕННЫЙ ЭКИПАЖ"
 
-#: src-en/data/hyperspace.xml.append:1666
+#: src-en/data/hyperspace.xml.append:1660
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[5]/mod:findLike[6]/mod-"
 "append:category/customTitle"
 msgstr "ТАИНСТВЕННЫЙ ЭКИПАЖ"
 
-#: src-en/data/hyperspace.xml.append:1679
+#: src-en/data/hyperspace.xml.append:1673
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[5]/mod:findLike[7]/mod-"
 "append:category/customTitle"
 msgstr "ТАИНСТВЕННЫЙ ЭКИПАЖ"
 
-#: src-en/data/hyperspace.xml.append:1692
+#: src-en/data/hyperspace.xml.append:1686
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[5]/mod:findLike[8]/mod-"
 "append:category/customTitle"
 msgstr "ТАИНСТВЕННЫЙ ЭКИПАЖ"
 
-#: src-en/data/hyperspace.xml.append:1705
+#: src-en/data/hyperspace.xml.append:1699
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[5]/mod:findLike[9]/mod-"
 "append:category/customTitle"
 msgstr "ТАИНСТВЕННЫЙ ЭКИПАЖ"
 
-#: src-en/data/hyperspace.xml.append:1718
+#: src-en/data/hyperspace.xml.append:1712
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[5]/mod:findLike[10]/mod-"
 "append:category/customTitle"
 msgstr "ТАИНСТВЕННЫЙ ЭКИПАЖ"
 
-#: src-en/data/hyperspace.xml.append:1731
+#: src-en/data/hyperspace.xml.append:1725
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[5]/mod:findLike[11]/mod-"
 "append:category/customTitle"
 msgstr "ТАИНСТВЕННЫЙ ЭКИПАЖ"
 
-#: src-en/data/hyperspace.xml.append:1744
+#: src-en/data/hyperspace.xml.append:1738
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[5]/mod:findLike[12]/mod-"
 "append:category/customTitle"
 msgstr "ТАИНСТВЕННЫЙ ЭКИПАЖ"
 
-#: src-en/data/hyperspace.xml.append:2087
+#: src-en/data/hyperspace.xml.append:2081
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:race[@name=\"rk_weaponlike\"]/powerEffect[1]/buttonText"
 msgstr "СБРОС БОМБЫ"
 
-#: src-en/data/hyperspace.xml.append:2088
+#: src-en/data/hyperspace.xml.append:2082
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:race[@name=\"rk_weaponlike\"]/powerEffect[1]/tooltip"
@@ -475,13 +467,13 @@ msgstr ""
 "Телепортирует бомбу на другой корабль, нанеся 1 единицу урона и создав "
 "пробоину. Получает 1 заряд за каждый прыжок."
 
-#: src-en/data/hyperspace.xml.append:2132
+#: src-en/data/hyperspace.xml.append:2126
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:race[@name=\"rk_weaponlike\"]/powerEffect[2]/buttonText"
 msgstr "УНИЧТОЖИТЕЛЬ"
 
-#: src-en/data/hyperspace.xml.append:2133
+#: src-en/data/hyperspace.xml.append:2127
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:race[@name=\"rk_weaponlike\"]/powerEffect[2]/tooltip"
@@ -489,13 +481,13 @@ msgstr ""
 "Телепортирует бомбу на вражеский корабль, нанося 1 единицу урона и создав "
 "пробоину. Получает 1 заряд за каждый прыжок."
 
-#: src-en/data/hyperspace.xml.append:2179
+#: src-en/data/hyperspace.xml.append:2173
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:race[@name=\"rk_weaponlike\"]/powerEffect[3]/buttonText"
 msgstr "ПОДРЫВ"
 
-#: src-en/data/hyperspace.xml.append:2180
+#: src-en/data/hyperspace.xml.append:2174
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:race[@name=\"rk_weaponlike\"]/powerEffect[3]/tooltip"
@@ -503,13 +495,13 @@ msgstr ""
 "Взрывает бомбу, нанеся 1 ед. урона в текущему отсеку и образовав пробоину. "
 "Получает 1 заряд за каждый прыжок"
 
-#: src-en/data/hyperspace.xml.append:2297
+#: src-en/data/hyperspace.xml.append:2291
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:race[@name=\"unique_rk_defromorius\"]/powerEffect/buttonText"
 msgstr "ПРОЛЕЖНИ"
 
-#: src-en/data/hyperspace.xml.append:2298
+#: src-en/data/hyperspace.xml.append:2292
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:race[@name=\"unique_rk_defromorius\"]/powerEffect/tooltip"
@@ -517,13 +509,13 @@ msgstr ""
 "[ПЕРЕЗАРЯДКА:10с  ДЛИТЕЛЬНОСТЬ:10с]\n"
 "\t\t\t\tЭкипаж союзников на одном корабле, включая Дефромориуса, получает 0.7х урона от всех источников и наносит 1.5х урона."
 
-#: src-en/data/hyperspace.xml.append:2407
+#: src-en/data/hyperspace.xml.append:2401
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:race[@name=\"rk_fireghost\"]/powerEffect/buttonText"
 msgstr "ЮФЛЕР"
 
-#: src-en/data/hyperspace.xml.append:2408
+#: src-en/data/hyperspace.xml.append:2402
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:race[@name=\"rk_fireghost\"]/powerEffect/tooltip"
@@ -531,25 +523,25 @@ msgstr ""
 "[ПЕРЕЗАРЯДКА:10с -20 ОЗ]\n"
 "\t\t\t\tВызывает пожар в случайном отсеке на обоих кораблях."
 
-#: src-en/data/hyperspace.xml.append:2484
+#: src-en/data/hyperspace.xml.append:2478
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:race[@name=\"rk_bottledoxygen\"]/powerEffect[1]/buttonText"
 msgstr "УТЕЧКА ВОЗДУХА"
 
-#: src-en/data/hyperspace.xml.append:2485
+#: src-en/data/hyperspace.xml.append:2479
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:race[@name=\"rk_bottledoxygen\"]/powerEffect[1]/tooltip"
 msgstr "ВЫ НИКОГДА НЕ ДОЛЖНЫ ЭТО ВИДЕТЬ, показывает, как рассеивается облако."
 
-#: src-en/data/hyperspace.xml.append:2515
+#: src-en/data/hyperspace.xml.append:2509
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:race[@name=\"rk_bottledoxygen\"]/powerEffect[2]/buttonText"
 msgstr "ПОДРЫВ"
 
-#: src-en/data/hyperspace.xml.append:2516
+#: src-en/data/hyperspace.xml.append:2510
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:race[@name=\"rk_bottledoxygen\"]/powerEffect[2]/tooltip"
@@ -558,1343 +550,1391 @@ msgstr ""
 "\t\t\t\tВзрывается, нанося 30 урона всем членам экипажа в помещении, с вероятностью 60% вызывая пожар.\n"
 "\t\t\t\tНевозможно активировать во время телепортации или при здоровье ниже 15."
 
-#: src-en/data/hyperspace.xml.append:3634
+#: src-en/data/hyperspace.xml.append:3671
+msgid ""
+"data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod:findLike/mod-"
+"append:category[1]/customTitle"
+msgstr ""
+
+#: src-en/data/hyperspace.xml.append:3691
+msgid ""
+"data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod:findLike/mod-"
+"append:category[2]/customTitle"
+msgstr ""
+
+#: src-en/data/hyperspace.xml.append:3707
+msgid ""
+"data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod:findLike/mod-"
+"append:category[3]/customTitle"
+msgstr ""
+
+#: src-en/data/hyperspace.xml.append:3727
+msgid ""
+"data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod:findLike/mod-"
+"append:category[4]/customTitle"
+msgstr ""
+
+#: src-en/data/hyperspace.xml.append:3738
+msgid ""
+"data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod:findLike/mod-"
+"append:category[5]/customTitle"
+msgstr ""
+
+#: src-en/data/hyperspace.xml.append:3759
+msgid ""
+"data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod:findLike/mod-"
+"append:category[6]/customTitle"
+msgstr ""
+
+#: src-en/data/hyperspace.xml.append:3777
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[1]/category[1]/customTitle"
 msgstr "БПС РАДИКАЛ ОРУЖИЕ"
 
-#: src-en/data/hyperspace.xml.append:3647
+#: src-en/data/hyperspace.xml.append:3791
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[1]/category[2]/customTitle"
 msgstr "РК ПОДТИПЫ ОРУЖИЯ"
 
-#: src-en/data/hyperspace.xml.append:3665
+#: src-en/data/hyperspace.xml.append:3810
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[1]/category[3]/customTitle"
 msgstr "БПС МОДУЛИ"
 
-#: src-en/data/hyperspace.xml.append:3678
+#: src-en/data/hyperspace.xml.append:3824
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[1]/category[4]/customTitle"
 msgstr "МОДУЛИ РАДИКАЛ"
 
-#: src-en/data/hyperspace.xml.append:3696
+#: src-en/data/hyperspace.xml.append:3843
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[1]/category[5]/customTitle"
 msgstr "РАДИКАЛЫ"
 
-#: src-en/data/hyperspace.xml.append:3723
+#: src-en/data/hyperspace.xml.append:3863
+msgid ""
+"data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
+"append:customStore[1]/category[6]/customTitle"
+msgstr ""
+
+#: src-en/data/hyperspace.xml.append:3883
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[2]/category/customTitle"
 msgstr "АНТИ-РАДИКАЛ ОРУЖИЕ"
 
-#: src-en/data/hyperspace.xml.append:3757
+#: src-en/data/hyperspace.xml.append:3917
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[3]/category/customTitle"
 msgstr "АНТИ-РАДИКАЛ ОРУЖИЕ"
 
-#: src-en/data/hyperspace.xml.append:3791
+#: src-en/data/hyperspace.xml.append:3951
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[4]/category[1]/customTitle"
 msgstr "ОСНОВНОЕ ОРУЖИЕ РАДИКАЛ"
 
-#: src-en/data/hyperspace.xml.append:3808
+#: src-en/data/hyperspace.xml.append:3968
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[4]/category[2]/customTitle"
 msgstr "РК ПОДТИПЫ ОРУЖИЯ"
 
-#: src-en/data/hyperspace.xml.append:3827
+#: src-en/data/hyperspace.xml.append:3987
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[4]/category[3]/customTitle"
 msgstr "БПС РАДИКАЛ ОРУЖИЕ"
 
-#: src-en/data/hyperspace.xml.append:3840
+#: src-en/data/hyperspace.xml.append:4000
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[4]/category[4]/customTitle"
 msgstr "ДОПОЛНИТЕЛЬНЫЕ СИСТЕМЫ"
 
-#: src-en/data/hyperspace.xml.append:3856
+#: src-en/data/hyperspace.xml.append:4016
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[4]/category[5]/customTitle"
 msgstr "РК СОРАТНИКИ"
 
-#: src-en/data/hyperspace.xml.append:3873
+#: src-en/data/hyperspace.xml.append:4033
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[4]/category[6]/customTitle"
 msgstr "РК СОРАТНИКИ"
 
-#: src-en/data/hyperspace.xml.append:3890
+#: src-en/data/hyperspace.xml.append:4050
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[4]/category[7]/customTitle"
 msgstr "РК СОРАТНИКИ"
 
-#: src-en/data/hyperspace.xml.append:3907
+#: src-en/data/hyperspace.xml.append:4067
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[4]/category[8]/customTitle"
 msgstr "РК СОРАТНИКИ"
 
-#: src-en/data/hyperspace.xml.append:3924
+#: src-en/data/hyperspace.xml.append:4084
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[4]/category[9]/customTitle"
 msgstr "РК СОРАТНИКИ"
 
-#: src-en/data/hyperspace.xml.append:3942
+#: src-en/data/hyperspace.xml.append:4102
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[4]/category[10]/customTitle"
 msgstr "РАДИКАЛЫ"
 
-#: src-en/data/hyperspace.xml.append:3961
+#: src-en/data/hyperspace.xml.append:4121
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[4]/category[11]/customTitle"
 msgstr "ОСНОВНЫЕ МОДУЛИ РАДИКАЛ"
 
-#: src-en/data/hyperspace.xml.append:4001
+#: src-en/data/hyperspace.xml.append:4161
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[4]/category[12]/customTitle"
 msgstr "РЕДКИЕ МОДУЛИ РАДИКАЛ"
 
-#: src-en/data/hyperspace.xml.append:4021
+#: src-en/data/hyperspace.xml.append:4181
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[4]/category[13]/customTitle"
 msgstr "ОЧЕНЬ РЕДКИЕ МОДУЛИ РАДИКАЛ"
 
-#: src-en/data/hyperspace.xml.append:4042
+#: src-en/data/hyperspace.xml.append:4202
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[4]/category[14]/customTitle"
 msgstr "БПС МОДУЛИ"
 
-#: src-en/data/hyperspace.xml.append:4082
+#: src-en/data/hyperspace.xml.append:4212
+msgid ""
+"data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
+"append:customStore[4]/category[15]/customTitle"
+msgstr ""
+
+#: src-en/data/hyperspace.xml.append:4256
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[5]/category[1]/customTitle"
 msgstr "ОСНОВНОЕ ОРУЖИЕ РАДИКАЛ"
 
-#: src-en/data/hyperspace.xml.append:4099
+#: src-en/data/hyperspace.xml.append:4273
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[5]/category[2]/customTitle"
 msgstr "ОРУЖИЕ РАДИКАЛ"
 
-#: src-en/data/hyperspace.xml.append:4117
+#: src-en/data/hyperspace.xml.append:4291
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[5]/category[3]/customTitle"
 msgstr "БПС РАДИКАЛ ОРУЖИЕ"
 
-#: src-en/data/hyperspace.xml.append:4137
+#: src-en/data/hyperspace.xml.append:4311
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[5]/category[5]/customTitle"
 msgstr "ОСНОВНЫЕ СИСТЕМЫ"
 
-#: src-en/data/hyperspace.xml.append:4155
+#: src-en/data/hyperspace.xml.append:4329
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[5]/category[6]/customTitle"
 msgstr "ДОПОЛНИТЕЛЬНЫЕ СИСТЕМЫ"
 
-#: src-en/data/hyperspace.xml.append:4178
+#: src-en/data/hyperspace.xml.append:4356
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[5]/category[8]/customTitle"
 msgstr "РК СОРАТНИКИ"
 
-#: src-en/data/hyperspace.xml.append:4195
+#: src-en/data/hyperspace.xml.append:4373
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[5]/category[9]/customTitle"
 msgstr "РК СОРАТНИКИ"
 
-#: src-en/data/hyperspace.xml.append:4212
+#: src-en/data/hyperspace.xml.append:4390
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[5]/category[10]/customTitle"
 msgstr "РК СОРАТНИКИ"
 
-#: src-en/data/hyperspace.xml.append:4229
+#: src-en/data/hyperspace.xml.append:4407
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[5]/category[11]/customTitle"
 msgstr "РК СОРАТНИКИ"
 
-#: src-en/data/hyperspace.xml.append:4246
+#: src-en/data/hyperspace.xml.append:4424
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[5]/category[12]/customTitle"
 msgstr "РК СОРАТНИКИ"
 
-#: src-en/data/hyperspace.xml.append:4280
+#: src-en/data/hyperspace.xml.append:4458
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[5]/category[14]/customTitle"
 msgstr "РАДИКАЛЫ (скидка 10-20%)"
 
-#: src-en/data/hyperspace.xml.append:4299
+#: src-en/data/hyperspace.xml.append:4477
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[5]/category[15]/customTitle"
 msgstr "ОСНОВНЫЕ МОДУЛИ РАДИКАЛ"
 
-#: src-en/data/hyperspace.xml.append:4319
+#: src-en/data/hyperspace.xml.append:4497
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[5]/category[16]/customTitle"
 msgstr "РЕДКИЕ МОДУЛИ РАДИКАЛ"
 
-#: src-en/data/hyperspace.xml.append:4339
+#: src-en/data/hyperspace.xml.append:4517
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[5]/category[17]/customTitle"
 msgstr "ОЧЕНЬ РЕДКИЕ МОДУЛИ РАДИКАЛ"
 
-#: src-en/data/hyperspace.xml.append:4367
+#: src-en/data/hyperspace.xml.append:4545
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[5]/category[19]/customTitle"
 msgstr "МОДУЛИ ДНЯ [СКИДКА 33%]"
 
-#: src-en/data/hyperspace.xml.append:4423
+#: src-en/data/hyperspace.xml.append:4601
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[6]/category[1]/customTitle"
 msgstr "ОРУЖИЕ РК БАМ"
 
-#: src-en/data/hyperspace.xml.append:4440
+#: src-en/data/hyperspace.xml.append:4618
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[6]/category[2]/customTitle"
 msgstr "ОРУЖИЕ РК БАМ"
 
-#: src-en/data/hyperspace.xml.append:4453
+#: src-en/data/hyperspace.xml.append:4631
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[6]/category[3]/customTitle"
 msgstr "БПС РАДИКАЛ ОРУЖИЕ"
 
-#: src-en/data/hyperspace.xml.append:4480
+#: src-en/data/hyperspace.xml.append:4658
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[6]/category[5]/customTitle"
 msgstr "ОСНОВНЫЕ СИСТЕМЫ"
 
-#: src-en/data/hyperspace.xml.append:4498
+#: src-en/data/hyperspace.xml.append:4676
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[6]/category[6]/customTitle"
 msgstr "ДОПОЛНИТЕЛЬНЫЕ СИСТЕМЫ"
 
-#: src-en/data/hyperspace.xml.append:4520
+#: src-en/data/hyperspace.xml.append:4698
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[6]/category[8]/customTitle"
 msgstr "РК БАМ СОРАТНИКИ"
 
-#: src-en/data/hyperspace.xml.append:4537
+#: src-en/data/hyperspace.xml.append:4715
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[6]/category[9]/customTitle"
 msgstr "РК БAM ЭКИПАЖ"
 
-#: src-en/data/hyperspace.xml.append:4571
+#: src-en/data/hyperspace.xml.append:4749
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[6]/category[11]/customTitle"
 msgstr "ОСНОВНЫЕ МОДУЛИ РАДИКАЛ"
 
-#: src-en/data/hyperspace.xml.append:4591
+#: src-en/data/hyperspace.xml.append:4769
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[6]/category[12]/customTitle"
 msgstr "РК БAM МОДУЛИ"
 
-#: src-en/data/hyperspace.xml.append:4610
+#: src-en/data/hyperspace.xml.append:4788
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[6]/category[13]/customTitle"
 msgstr "ТОП РК БAM МОДУЛИ"
 
-#: src-en/data/hyperspace.xml.append:4629
+#: src-en/data/hyperspace.xml.append:4807
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[6]/category[14]/customTitle"
 msgstr "Э К С К Л Ю З И В Н О"
 
-#: src-en/data/hyperspace.xml.append:4662
+#: src-en/data/hyperspace.xml.append:4840
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[7]/category[1]/customTitle"
 msgstr "РК ПАНК ОРУЖИЕ"
 
-#: src-en/data/hyperspace.xml.append:4679
+#: src-en/data/hyperspace.xml.append:4857
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[7]/category[2]/customTitle"
 msgstr "РК ПАНК ОРУЖИЕ"
 
-#: src-en/data/hyperspace.xml.append:4692
+#: src-en/data/hyperspace.xml.append:4870
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[7]/category[3]/customTitle"
 msgstr "БПС РАДИКАЛ ОРУЖИЕ"
 
-#: src-en/data/hyperspace.xml.append:4719
+#: src-en/data/hyperspace.xml.append:4897
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[7]/category[5]/customTitle"
 msgstr "ОСНОВНЫЕ СИСТЕМЫ"
 
-#: src-en/data/hyperspace.xml.append:4737
+#: src-en/data/hyperspace.xml.append:4915
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[7]/category[6]/customTitle"
 msgstr "ДОПОЛНИТЕЛЬНЫЕ СИСТЕМЫ"
 
-#: src-en/data/hyperspace.xml.append:4759
+#: src-en/data/hyperspace.xml.append:4941
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[7]/category[8]/customTitle"
 msgstr "РК ПАНК СОРАТНИКИ"
 
-#: src-en/data/hyperspace.xml.append:4809
+#: src-en/data/hyperspace.xml.append:4991
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[7]/category[10]/customTitle"
 msgstr "ОСНОВНЫЕ МОДУЛИ РАДИКАЛ"
 
-#: src-en/data/hyperspace.xml.append:4829
+#: src-en/data/hyperspace.xml.append:5011
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[7]/category[11]/customTitle"
 msgstr "РК ПАНК МОДУЛИ"
 
-#: src-en/data/hyperspace.xml.append:4848
+#: src-en/data/hyperspace.xml.append:5030
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[7]/category[12]/customTitle"
 msgstr "НАБОР ПАНК МОДУЛЕЙ"
 
-#: src-en/data/hyperspace.xml.append:4867
+#: src-en/data/hyperspace.xml.append:5049
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[7]/category[13]/customTitle"
 msgstr "ТОП ПАНК МОДУЛИ"
 
-#: src-en/data/hyperspace.xml.append:4910
+#: src-en/data/hyperspace.xml.append:5092
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[8]/category[1]/customTitle"
 msgstr "РК СКОРЧ ОРУЖИЕ"
 
-#: src-en/data/hyperspace.xml.append:4927
+#: src-en/data/hyperspace.xml.append:5109
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[8]/category[2]/customTitle"
 msgstr "РК СКОРЧ ОРУЖИЕ"
 
-#: src-en/data/hyperspace.xml.append:4936
+#: src-en/data/hyperspace.xml.append:5118
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[8]/category[3]/customTitle"
 msgstr "БПС РАДИКАЛ ОРУЖИЕ"
 
-#: src-en/data/hyperspace.xml.append:4963
+#: src-en/data/hyperspace.xml.append:5145
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[8]/category[5]/customTitle"
 msgstr "ОСНОВНЫЕ СИСТЕМЫ"
 
-#: src-en/data/hyperspace.xml.append:4981
+#: src-en/data/hyperspace.xml.append:5163
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[8]/category[6]/customTitle"
 msgstr "ДОПОЛНИТЕЛЬНЫЕ СИСТЕМЫ"
 
-#: src-en/data/hyperspace.xml.append:5003
+#: src-en/data/hyperspace.xml.append:5189
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[8]/category[8]/customTitle"
 msgstr "РК СКОРЧ СОРАТНИКИ"
 
-#: src-en/data/hyperspace.xml.append:5019
+#: src-en/data/hyperspace.xml.append:5205
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[8]/category[9]/customTitle"
 msgstr "РК СКОРЧ МАТРОСЫ"
 
-#: src-en/data/hyperspace.xml.append:5053
+#: src-en/data/hyperspace.xml.append:5239
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[8]/category[11]/customTitle"
 msgstr "ОСНОВНЫЕ МОДУЛИ РАДИКАЛ"
 
-#: src-en/data/hyperspace.xml.append:5074
+#: src-en/data/hyperspace.xml.append:5260
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[8]/category[12]/customTitle"
 msgstr "РК СКОРЧ МОДУЛИ"
 
-#: src-en/data/hyperspace.xml.append:5093
+#: src-en/data/hyperspace.xml.append:5279
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[8]/category[13]/customTitle"
 msgstr "УСТАНОВИТЬ РК СКОРЧ МОДУЛИ"
 
-#: src-en/data/hyperspace.xml.append:5112
+#: src-en/data/hyperspace.xml.append:5298
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[8]/category[14]/customTitle"
 msgstr "ТОП СКОРЧ МОДУЛИ"
 
-#: src-en/data/hyperspace.xml.append:5131
+#: src-en/data/hyperspace.xml.append:5317
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[8]/category[15]/customTitle"
 msgstr "Э К С К Л Ю З И В Н О"
 
-#: src-en/data/hyperspace.xml.append:5168
+#: src-en/data/hyperspace.xml.append:5354
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[10]/mod-"
 "append:customStore/category[1]/customTitle"
 msgstr "СНАЙПЕРСКОЕ ОРУЖИЕ"
 
-#: src-en/data/hyperspace.xml.append:5183
+#: src-en/data/hyperspace.xml.append:5369
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[10]/mod-"
 "append:customStore/category[2]/customTitle"
 msgstr "СНАЙПЕРСКОЕ ОРУЖИЕ"
 
-#: src-en/data/hyperspace.xml.append:5198
+#: src-en/data/hyperspace.xml.append:5384
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[10]/mod-"
 "append:customStore/category[3]/customTitle"
 msgstr "СНАЙПЕРСКОЕ ОРУЖИЕ"
 
-#: src-en/data/hyperspace.xml.append:5213
+#: src-en/data/hyperspace.xml.append:5399
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[10]/mod-"
 "append:customStore/category[4]/customTitle"
 msgstr "СНАЙПЕРСКОЕ ОРУЖИЕ"
 
-#: src-en/data/hyperspace.xml.append:5225
+#: src-en/data/hyperspace.xml.append:5411
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[10]/mod-"
 "append:customStore/category[5]/customTitle"
 msgstr "СНАЙПЕРСКИЕ СИСТЕМЫ (СКИДКА 25%)"
 
-#: src-en/data/hyperspace.xml.append:5242
+#: src-en/data/hyperspace.xml.append:5428
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[10]/mod-"
 "append:customStore/category[6]/customTitle"
 msgstr "СНАЙПЕРСКИЕ МОДУЛИ"
 
-#: src-en/data/hyperspace.xml.append:5257
+#: src-en/data/hyperspace.xml.append:5443
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[10]/mod-"
 "append:customStore/category[7]/customTitle"
 msgstr "РК СНАЙПЕРСКИЕ МОДУЛИ (СКИДКА 10-20%)"
 
-#: src-en/data/hyperspace.xml.append:5491
+#: src-en/data/hyperspace.xml.append:5677
 msgid ""
 "data/hyperspace.xml.append$//statBoost[@name=\"powerEffect\"]/powerEffect/buttonText"
 msgstr "ХОДПРОБОИНА"
 
-#: src-en/data/hyperspace.xml.append:5492
+#: src-en/data/hyperspace.xml.append:5678
 msgid ""
 "data/hyperspace.xml.append$//statBoost[@name=\"powerEffect\"]/powerEffect/tooltip"
 msgstr "ВЫ НИКОГДА НЕ ДОЛЖНЫ ЭТО ВИДЕТЬ - при ходьбе образуется пробоина."
 
-#: src-en/data/hyperspace.xml.append:6522
+#: src-en/data/hyperspace.xml.append:6717
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"EX_DJMOD_DEMICLONER\"]/statBoosts/statBoost[1]/deathEffect/spawnCrew/name"
 msgstr "Демиклонер"
 
-#: src-en/data/hyperspace.xml.append:6549
+#: src-en/data/hyperspace.xml.append:6744
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"EX_DJMOD_DEMICLONER\"]/statBoosts/statBoost[2]/deathEffect/spawnCrew/name"
 msgstr "Демиклонер"
 
-#: src-en/data/hyperspace.xml.append:6575
+#: src-en/data/hyperspace.xml.append:6770
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"EX_DJMOD_DEMICLONER\"]/statBoosts/statBoost[3]/deathEffect/spawnCrew/name"
 msgstr "Демиклонер"
 
-#: src-en/data/hyperspace.xml.append:6601
+#: src-en/data/hyperspace.xml.append:6796
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"EX_DJMOD_DEMICLONER\"]/statBoosts/statBoost[4]/deathEffect/spawnCrew/name"
 msgstr "Демиклонер"
 
-#: src-en/data/hyperspace.xml.append:6628
+#: src-en/data/hyperspace.xml.append:6823
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"EX_DJMOD_DEMICLONER\"]/statBoosts/statBoost[5]/deathEffect/spawnCrew/name"
 msgstr "Демиклонер"
 
-#: src-en/data/hyperspace.xml.append:6654
+#: src-en/data/hyperspace.xml.append:6849
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"EX_DJMOD_DEMICLONER\"]/statBoosts/statBoost[6]/deathEffect/spawnCrew/name"
 msgstr "Демиклонер"
 
-#: src-en/data/hyperspace.xml.append:6681
+#: src-en/data/hyperspace.xml.append:6876
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"EX_DJMOD_DEMICLONER\"]/statBoosts/statBoost[7]/deathEffect/spawnCrew/name"
 msgstr "Демиклонер"
 
-#: src-en/data/hyperspace.xml.append:6707
+#: src-en/data/hyperspace.xml.append:6902
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"EX_DJMOD_DEMICLONER\"]/statBoosts/statBoost[8]/deathEffect/spawnCrew/name"
 msgstr "Демиклонер"
 
-#: src-en/data/hyperspace.xml.append:6733
+#: src-en/data/hyperspace.xml.append:6928
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"EX_DJMOD_DEMICLONER\"]/statBoosts/statBoost[9]/deathEffect/spawnCrew/name"
 msgstr "Демиклонер"
 
-#: src-en/data/hyperspace.xml.append:6759
+#: src-en/data/hyperspace.xml.append:6954
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"EX_DJMOD_DEMICLONER\"]/statBoosts/statBoost[10]/deathEffect/spawnCrew/name"
 msgstr "Демиклонер"
 
-#: src-en/data/hyperspace.xml.append:6786
+#: src-en/data/hyperspace.xml.append:6981
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"EX_DJMOD_DEMICLONER\"]/statBoosts/statBoost[11]/deathEffect/spawnCrew/name"
 msgstr "Демиклонер"
 
-#: src-en/data/hyperspace.xml.append:6812
+#: src-en/data/hyperspace.xml.append:7007
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"EX_DJMOD_DEMICLONER\"]/statBoosts/statBoost[12]/deathEffect/spawnCrew/name"
 msgstr "Демиклонер"
 
-#: src-en/data/hyperspace.xml.append:6838
+#: src-en/data/hyperspace.xml.append:7033
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"EX_DJMOD_DEMICLONER\"]/statBoosts/statBoost[13]/deathEffect/spawnCrew/name"
 msgstr "Демиклонер"
 
-#: src-en/data/hyperspace.xml.append:6865
+#: src-en/data/hyperspace.xml.append:7060
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"EX_DJMOD_DEMICLONER\"]/statBoosts/statBoost[14]/deathEffect/spawnCrew/name"
 msgstr "Демиклонер"
 
-#: src-en/data/hyperspace.xml.append:6891
+#: src-en/data/hyperspace.xml.append:7086
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"EX_DJMOD_DEMICLONER\"]/statBoosts/statBoost[15]/deathEffect/spawnCrew/name"
 msgstr "Демиклонер"
 
-#: src-en/data/hyperspace.xml.append:6918
+#: src-en/data/hyperspace.xml.append:7113
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"EX_DJMOD_DEMICLONER\"]/statBoosts/statBoost[16]/deathEffect/spawnCrew/name"
 msgstr "Демиклонер"
 
-#: src-en/data/hyperspace.xml.append:6944
+#: src-en/data/hyperspace.xml.append:7139
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"EX_DJMOD_DEMICLONER\"]/statBoosts/statBoost[17]/deathEffect/spawnCrew/name"
 msgstr "Демиклонер"
 
-#: src-en/data/hyperspace.xml.append:6971
+#: src-en/data/hyperspace.xml.append:7166
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"EX_DJMOD_DEMICLONER\"]/statBoosts/statBoost[18]/deathEffect/spawnCrew/name"
 msgstr "Демиклонер"
 
-#: src-en/data/hyperspace.xml.append:6998
+#: src-en/data/hyperspace.xml.append:7193
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"EX_DJMOD_DEMICLONER\"]/statBoosts/statBoost[19]/deathEffect/spawnCrew/name"
 msgstr "Демиклонер"
 
-#: src-en/data/hyperspace.xml.append:7024
+#: src-en/data/hyperspace.xml.append:7219
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"EX_DJMOD_DEMICLONER\"]/statBoosts/statBoost[20]/deathEffect/spawnCrew/name"
 msgstr "Демиклонер"
 
-#: src-en/data/hyperspace.xml.append:7051
+#: src-en/data/hyperspace.xml.append:7246
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"EX_DJMOD_DEMICLONER\"]/statBoosts/statBoost[21]/deathEffect/spawnCrew/name"
 msgstr "Демиклонер"
 
-#: src-en/data/hyperspace.xml.append:7078
+#: src-en/data/hyperspace.xml.append:7273
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"EX_DJMOD_DEMICLONER\"]/statBoosts/statBoost[22]/deathEffect/spawnCrew/name"
 msgstr "Демиклонер"
 
-#: src-en/data/hyperspace.xml.append:7105
+#: src-en/data/hyperspace.xml.append:7300
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"EX_DJMOD_DEMICLONER\"]/statBoosts/statBoost[23]/deathEffect/spawnCrew/name"
 msgstr "Демиклонер"
 
-#: src-en/data/hyperspace.xml.append:7131
+#: src-en/data/hyperspace.xml.append:7326
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"EX_DJMOD_DEMICLONER\"]/statBoosts/statBoost[24]/deathEffect/spawnCrew/name"
 msgstr "Демиклонер"
 
-#: src-en/data/hyperspace.xml.append:7158
+#: src-en/data/hyperspace.xml.append:7353
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"EX_DJMOD_DEMICLONER\"]/statBoosts/statBoost[25]/deathEffect/spawnCrew/name"
 msgstr "Демиклонер"
 
-#: src-en/data/hyperspace.xml.append:7185
+#: src-en/data/hyperspace.xml.append:7380
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"EX_DJMOD_DEMICLONER\"]/statBoosts/statBoost[26]/deathEffect/spawnCrew/name"
 msgstr "Демиклонер"
 
-#: src-en/data/hyperspace.xml.append:7211
+#: src-en/data/hyperspace.xml.append:7406
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"EX_DJMOD_DEMICLONER\"]/statBoosts/statBoost[27]/deathEffect/spawnCrew/name"
 msgstr "Демиклонер"
 
-#: src-en/data/hyperspace.xml.append:7237
+#: src-en/data/hyperspace.xml.append:7432
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"EX_DJMOD_DEMICLONER\"]/statBoosts/statBoost[28]/deathEffect/spawnCrew/name"
 msgstr "Демиклонер"
 
-#: src-en/data/hyperspace.xml.append:7264
+#: src-en/data/hyperspace.xml.append:7459
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"EX_DJMOD_DEMICLONER\"]/statBoosts/statBoost[29]/deathEffect/spawnCrew/name"
 msgstr "Демиклонер"
 
-#: src-en/data/hyperspace.xml.append:7290
+#: src-en/data/hyperspace.xml.append:7485
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"EX_DJMOD_DEMICLONER\"]/statBoosts/statBoost[30]/deathEffect/spawnCrew/name"
 msgstr "Демиклонер"
 
-#: src-en/data/hyperspace.xml.append:7318
+#: src-en/data/hyperspace.xml.append:7513
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"EX_DJMOD_DEMICLONER\"]/statBoosts/statBoost[31]/deathEffect/spawnCrew/name"
 msgstr "Демиклонер"
 
-#: src-en/data/hyperspace.xml.append:7344
+#: src-en/data/hyperspace.xml.append:7539
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"EX_DJMOD_DEMICLONER\"]/statBoosts/statBoost[32]/deathEffect/spawnCrew/name"
 msgstr "Демиклонер"
 
-#: src-en/data/hyperspace.xml.append:7370
+#: src-en/data/hyperspace.xml.append:7565
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"EX_DJMOD_DEMICLONER\"]/statBoosts/statBoost[33]/deathEffect/spawnCrew/name"
 msgstr "Демиклонер"
 
-#: src-en/data/hyperspace.xml.append:7396
+#: src-en/data/hyperspace.xml.append:7591
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"EX_DJMOD_DEMICLONER\"]/statBoosts/statBoost[34]/deathEffect/spawnCrew/name"
 msgstr "Демиклонер"
 
-#: src-en/data/hyperspace.xml.append:7422
+#: src-en/data/hyperspace.xml.append:7617
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"EX_DJMOD_DEMICLONER\"]/statBoosts/statBoost[35]/deathEffect/spawnCrew/name"
 msgstr "Демиклонер"
 
-#: src-en/data/hyperspace.xml.append:7448
+#: src-en/data/hyperspace.xml.append:7643
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"EX_DJMOD_DEMICLONER\"]/statBoosts/statBoost[36]/deathEffect/spawnCrew/name"
 msgstr "Демиклонер"
 
-#: src-en/data/hyperspace.xml.append:7474
+#: src-en/data/hyperspace.xml.append:7669
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"EX_DJMOD_DEMICLONER\"]/statBoosts/statBoost[37]/deathEffect/spawnCrew/name"
 msgstr "Демиклонер"
 
-#: src-en/data/hyperspace.xml.append:7500
+#: src-en/data/hyperspace.xml.append:7695
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"EX_DJMOD_DEMICLONER\"]/statBoosts/statBoost[38]/deathEffect/spawnCrew/name"
 msgstr "Демиклонер"
 
-#: src-en/data/hyperspace.xml.append:7528
+#: src-en/data/hyperspace.xml.append:7723
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"EX_DJMOD_DEMICLONER\"]/statBoosts/statBoost[39]/deathEffect/spawnCrew/name"
 msgstr "Демиклонер"
 
-#: src-en/data/hyperspace.xml.append:7554
+#: src-en/data/hyperspace.xml.append:7749
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"EX_DJMOD_DEMICLONER\"]/statBoosts/statBoost[40]/deathEffect/spawnCrew/name"
 msgstr "Демиклонер"
 
-#: src-en/data/hyperspace.xml.append:7580
+#: src-en/data/hyperspace.xml.append:7775
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"EX_DJMOD_DEMICLONER\"]/statBoosts/statBoost[41]/deathEffect/spawnCrew/name"
 msgstr "Демиклонер"
 
-#: src-en/data/hyperspace.xml.append:7607
+#: src-en/data/hyperspace.xml.append:7802
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"EX_DJMOD_DEMICLONER\"]/statBoosts/statBoost[42]/deathEffect/spawnCrew/name"
 msgstr "Демиклонер"
 
-#: src-en/data/hyperspace.xml.append:7634
+#: src-en/data/hyperspace.xml.append:7829
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"EX_DJMOD_DEMICLONER\"]/statBoosts/statBoost[43]/deathEffect/spawnCrew/name"
 msgstr "Демиклонер"
 
-#: src-en/data/hyperspace.xml.append:7660
+#: src-en/data/hyperspace.xml.append:7855
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"EX_DJMOD_DEMICLONER\"]/statBoosts/statBoost[44]/deathEffect/spawnCrew/name"
 msgstr "Демиклонер"
 
-#: src-en/data/hyperspace.xml.append:7686
+#: src-en/data/hyperspace.xml.append:7881
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"EX_DJMOD_DEMICLONER\"]/statBoosts/statBoost[45]/deathEffect/spawnCrew/name"
 msgstr "Демиклонер"
 
-#: src-en/data/hyperspace.xml.append:7713
+#: src-en/data/hyperspace.xml.append:7908
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"EX_DJMOD_DEMICLONER\"]/statBoosts/statBoost[46]/deathEffect/spawnCrew/name"
 msgstr "Демиклонер"
 
-#: src-en/data/hyperspace.xml.append:7739
+#: src-en/data/hyperspace.xml.append:7934
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"EX_DJMOD_DEMICLONER\"]/statBoosts/statBoost[47]/deathEffect/spawnCrew/name"
 msgstr "Демиклонер"
 
-#: src-en/data/hyperspace.xml.append:7765
+#: src-en/data/hyperspace.xml.append:7960
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"EX_DJMOD_DEMICLONER\"]/statBoosts/statBoost[48]/deathEffect/spawnCrew/name"
 msgstr "Демиклонер"
 
-#: src-en/data/hyperspace.xml.append:7792
+#: src-en/data/hyperspace.xml.append:7987
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"EX_DJMOD_DEMICLONER\"]/statBoosts/statBoost[49]/deathEffect/spawnCrew/name"
 msgstr "Демиклонер"
 
-#: src-en/data/hyperspace.xml.append:7819
+#: src-en/data/hyperspace.xml.append:8014
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"EX_DJMOD_DEMICLONER\"]/statBoosts/statBoost[50]/deathEffect/spawnCrew/name"
 msgstr "Демиклонер"
 
-#: src-en/data/hyperspace.xml.append:7845
+#: src-en/data/hyperspace.xml.append:8040
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"EX_DJMOD_DEMICLONER\"]/statBoosts/statBoost[51]/deathEffect/spawnCrew/name"
 msgstr "Демиклонер"
 
-#: src-en/data/hyperspace.xml.append:7871
+#: src-en/data/hyperspace.xml.append:8066
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"EX_DJMOD_DEMICLONER\"]/statBoosts/statBoost[52]/deathEffect/spawnCrew/name"
 msgstr "Демиклонер"
 
-#: src-en/data/hyperspace.xml.append:7898
+#: src-en/data/hyperspace.xml.append:8093
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"EX_DJMOD_DEMICLONER\"]/statBoosts/statBoost[53]/deathEffect/spawnCrew/name"
 msgstr "Демиклонер"
 
-#: src-en/data/hyperspace.xml.append:7924
+#: src-en/data/hyperspace.xml.append:8119
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"EX_DJMOD_DEMICLONER\"]/statBoosts/statBoost[54]/deathEffect/spawnCrew/name"
 msgstr "Демиклонер"
 
-#: src-en/data/hyperspace.xml.append:7950
+#: src-en/data/hyperspace.xml.append:8145
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"EX_DJMOD_DEMICLONER\"]/statBoosts/statBoost[55]/deathEffect/spawnCrew/name"
 msgstr "Демиклонер"
 
-#: src-en/data/hyperspace.xml.append:7976
+#: src-en/data/hyperspace.xml.append:8171
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"EX_DJMOD_DEMICLONER\"]/statBoosts/statBoost[56]/deathEffect/spawnCrew/name"
 msgstr "Демиклонер"
 
-#: src-en/data/hyperspace.xml.append:8002
+#: src-en/data/hyperspace.xml.append:8197
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"EX_DJMOD_DEMICLONER\"]/statBoosts/statBoost[57]/deathEffect/spawnCrew/name"
 msgstr "Демиклонер"
 
-#: src-en/data/hyperspace.xml.append:8030
+#: src-en/data/hyperspace.xml.append:8225
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"EX_DJMOD_DEMICLONER\"]/statBoosts/statBoost[58]/deathEffect/spawnCrew/name"
 msgstr "Демиклонер"
 
-#: src-en/data/hyperspace.xml.append:8066
+#: src-en/data/hyperspace.xml.append:8261
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/statBoosts/statBoost[1]/deathEffect/spawnCrew/name"
 msgstr "Демиклонер"
 
-#: src-en/data/hyperspace.xml.append:8093
+#: src-en/data/hyperspace.xml.append:8288
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/statBoosts/statBoost[2]/deathEffect/spawnCrew/name"
 msgstr "Демиклонер"
 
-#: src-en/data/hyperspace.xml.append:8119
+#: src-en/data/hyperspace.xml.append:8314
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/statBoosts/statBoost[3]/deathEffect/spawnCrew/name"
 msgstr "Демиклонер"
 
-#: src-en/data/hyperspace.xml.append:8145
+#: src-en/data/hyperspace.xml.append:8340
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/statBoosts/statBoost[4]/deathEffect/spawnCrew/name"
 msgstr "Демиклонер"
 
-#: src-en/data/hyperspace.xml.append:8172
+#: src-en/data/hyperspace.xml.append:8367
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/statBoosts/statBoost[5]/deathEffect/spawnCrew/name"
 msgstr "Демиклонер"
 
-#: src-en/data/hyperspace.xml.append:8198
+#: src-en/data/hyperspace.xml.append:8393
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/statBoosts/statBoost[6]/deathEffect/spawnCrew/name"
 msgstr "Демиклонер"
 
-#: src-en/data/hyperspace.xml.append:8225
+#: src-en/data/hyperspace.xml.append:8420
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/statBoosts/statBoost[7]/deathEffect/spawnCrew/name"
 msgstr "Демиклонер"
 
-#: src-en/data/hyperspace.xml.append:8251
+#: src-en/data/hyperspace.xml.append:8446
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/statBoosts/statBoost[8]/deathEffect/spawnCrew/name"
 msgstr "Демиклонер"
 
-#: src-en/data/hyperspace.xml.append:8277
+#: src-en/data/hyperspace.xml.append:8472
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/statBoosts/statBoost[9]/deathEffect/spawnCrew/name"
 msgstr "Демиклонер"
 
-#: src-en/data/hyperspace.xml.append:8303
+#: src-en/data/hyperspace.xml.append:8498
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/statBoosts/statBoost[10]/deathEffect/spawnCrew/name"
 msgstr "Демиклонер"
 
-#: src-en/data/hyperspace.xml.append:8330
+#: src-en/data/hyperspace.xml.append:8525
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/statBoosts/statBoost[11]/deathEffect/spawnCrew/name"
 msgstr "Демиклонер"
 
-#: src-en/data/hyperspace.xml.append:8356
+#: src-en/data/hyperspace.xml.append:8551
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/statBoosts/statBoost[12]/deathEffect/spawnCrew/name"
 msgstr "Демиклонер"
 
-#: src-en/data/hyperspace.xml.append:8382
+#: src-en/data/hyperspace.xml.append:8577
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/statBoosts/statBoost[13]/deathEffect/spawnCrew/name"
 msgstr "Демиклонер"
 
-#: src-en/data/hyperspace.xml.append:8409
+#: src-en/data/hyperspace.xml.append:8604
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/statBoosts/statBoost[14]/deathEffect/spawnCrew/name"
 msgstr "Демиклонер"
 
-#: src-en/data/hyperspace.xml.append:8435
+#: src-en/data/hyperspace.xml.append:8630
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/statBoosts/statBoost[15]/deathEffect/spawnCrew/name"
 msgstr "Демиклонер"
 
-#: src-en/data/hyperspace.xml.append:8462
+#: src-en/data/hyperspace.xml.append:8657
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/statBoosts/statBoost[16]/deathEffect/spawnCrew/name"
 msgstr "Демиклонер"
 
-#: src-en/data/hyperspace.xml.append:8488
+#: src-en/data/hyperspace.xml.append:8683
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/statBoosts/statBoost[17]/deathEffect/spawnCrew/name"
 msgstr "Демиклонер"
 
-#: src-en/data/hyperspace.xml.append:8515
+#: src-en/data/hyperspace.xml.append:8710
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/statBoosts/statBoost[18]/deathEffect/spawnCrew/name"
 msgstr "Демиклонер"
 
-#: src-en/data/hyperspace.xml.append:8542
+#: src-en/data/hyperspace.xml.append:8737
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/statBoosts/statBoost[19]/deathEffect/spawnCrew/name"
 msgstr "Демиклонер"
 
-#: src-en/data/hyperspace.xml.append:8568
+#: src-en/data/hyperspace.xml.append:8763
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/statBoosts/statBoost[20]/deathEffect/spawnCrew/name"
 msgstr "Демиклонер"
 
-#: src-en/data/hyperspace.xml.append:8595
+#: src-en/data/hyperspace.xml.append:8790
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/statBoosts/statBoost[21]/deathEffect/spawnCrew/name"
 msgstr "Демиклонер"
 
-#: src-en/data/hyperspace.xml.append:8622
+#: src-en/data/hyperspace.xml.append:8817
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/statBoosts/statBoost[22]/deathEffect/spawnCrew/name"
 msgstr "Демиклонер"
 
-#: src-en/data/hyperspace.xml.append:8649
+#: src-en/data/hyperspace.xml.append:8844
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/statBoosts/statBoost[23]/deathEffect/spawnCrew/name"
 msgstr "Демиклонер"
 
-#: src-en/data/hyperspace.xml.append:8675
+#: src-en/data/hyperspace.xml.append:8870
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/statBoosts/statBoost[24]/deathEffect/spawnCrew/name"
 msgstr "Демиклонер"
 
-#: src-en/data/hyperspace.xml.append:8702
+#: src-en/data/hyperspace.xml.append:8897
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/statBoosts/statBoost[25]/deathEffect/spawnCrew/name"
 msgstr "Демиклонер"
 
-#: src-en/data/hyperspace.xml.append:8729
+#: src-en/data/hyperspace.xml.append:8924
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/statBoosts/statBoost[26]/deathEffect/spawnCrew/name"
 msgstr "Демиклонер"
 
-#: src-en/data/hyperspace.xml.append:8755
+#: src-en/data/hyperspace.xml.append:8950
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/statBoosts/statBoost[27]/deathEffect/spawnCrew/name"
 msgstr "Демиклонер"
 
-#: src-en/data/hyperspace.xml.append:8781
+#: src-en/data/hyperspace.xml.append:8976
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/statBoosts/statBoost[28]/deathEffect/spawnCrew/name"
 msgstr "Демиклонер"
 
-#: src-en/data/hyperspace.xml.append:8808
+#: src-en/data/hyperspace.xml.append:9003
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/statBoosts/statBoost[29]/deathEffect/spawnCrew/name"
 msgstr "Демиклонер"
 
-#: src-en/data/hyperspace.xml.append:8834
+#: src-en/data/hyperspace.xml.append:9029
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/statBoosts/statBoost[30]/deathEffect/spawnCrew/name"
 msgstr "Демиклонер"
 
-#: src-en/data/hyperspace.xml.append:8862
+#: src-en/data/hyperspace.xml.append:9057
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/statBoosts/statBoost[31]/deathEffect/spawnCrew/name"
 msgstr "Демиклонер"
 
-#: src-en/data/hyperspace.xml.append:8888
+#: src-en/data/hyperspace.xml.append:9083
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/statBoosts/statBoost[32]/deathEffect/spawnCrew/name"
 msgstr "Демиклонер"
 
-#: src-en/data/hyperspace.xml.append:8914
+#: src-en/data/hyperspace.xml.append:9109
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/statBoosts/statBoost[33]/deathEffect/spawnCrew/name"
 msgstr "Демиклонер"
 
-#: src-en/data/hyperspace.xml.append:8940
+#: src-en/data/hyperspace.xml.append:9135
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/statBoosts/statBoost[34]/deathEffect/spawnCrew/name"
 msgstr "Демиклонер"
 
-#: src-en/data/hyperspace.xml.append:8966
+#: src-en/data/hyperspace.xml.append:9161
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/statBoosts/statBoost[35]/deathEffect/spawnCrew/name"
 msgstr "Демиклонер"
 
-#: src-en/data/hyperspace.xml.append:8992
+#: src-en/data/hyperspace.xml.append:9187
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/statBoosts/statBoost[36]/deathEffect/spawnCrew/name"
 msgstr "Демиклонер"
 
-#: src-en/data/hyperspace.xml.append:9018
+#: src-en/data/hyperspace.xml.append:9213
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/statBoosts/statBoost[37]/deathEffect/spawnCrew/name"
 msgstr "Демиклонер"
 
-#: src-en/data/hyperspace.xml.append:9044
+#: src-en/data/hyperspace.xml.append:9239
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/statBoosts/statBoost[38]/deathEffect/spawnCrew/name"
 msgstr "Демиклонер"
 
-#: src-en/data/hyperspace.xml.append:9072
+#: src-en/data/hyperspace.xml.append:9267
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/statBoosts/statBoost[39]/deathEffect/spawnCrew/name"
 msgstr "Демиклонер"
 
-#: src-en/data/hyperspace.xml.append:9098
+#: src-en/data/hyperspace.xml.append:9293
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/statBoosts/statBoost[40]/deathEffect/spawnCrew/name"
 msgstr "Демиклонер"
 
-#: src-en/data/hyperspace.xml.append:9124
+#: src-en/data/hyperspace.xml.append:9319
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/statBoosts/statBoost[41]/deathEffect/spawnCrew/name"
 msgstr "Демиклонер"
 
-#: src-en/data/hyperspace.xml.append:9151
+#: src-en/data/hyperspace.xml.append:9346
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/statBoosts/statBoost[42]/deathEffect/spawnCrew/name"
 msgstr "Демиклонер"
 
-#: src-en/data/hyperspace.xml.append:9178
+#: src-en/data/hyperspace.xml.append:9373
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/statBoosts/statBoost[43]/deathEffect/spawnCrew/name"
 msgstr "Демиклонер"
 
-#: src-en/data/hyperspace.xml.append:9204
+#: src-en/data/hyperspace.xml.append:9399
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/statBoosts/statBoost[44]/deathEffect/spawnCrew/name"
 msgstr "Демиклонер"
 
-#: src-en/data/hyperspace.xml.append:9230
+#: src-en/data/hyperspace.xml.append:9425
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/statBoosts/statBoost[45]/deathEffect/spawnCrew/name"
 msgstr "Демиклонер"
 
-#: src-en/data/hyperspace.xml.append:9257
+#: src-en/data/hyperspace.xml.append:9452
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/statBoosts/statBoost[46]/deathEffect/spawnCrew/name"
 msgstr "Демиклонер"
 
-#: src-en/data/hyperspace.xml.append:9283
+#: src-en/data/hyperspace.xml.append:9478
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/statBoosts/statBoost[47]/deathEffect/spawnCrew/name"
 msgstr "Демиклонер"
 
-#: src-en/data/hyperspace.xml.append:9309
+#: src-en/data/hyperspace.xml.append:9504
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/statBoosts/statBoost[48]/deathEffect/spawnCrew/name"
 msgstr "Демиклонер"
 
-#: src-en/data/hyperspace.xml.append:9336
+#: src-en/data/hyperspace.xml.append:9531
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/statBoosts/statBoost[49]/deathEffect/spawnCrew/name"
 msgstr "Демиклонер"
 
-#: src-en/data/hyperspace.xml.append:9363
+#: src-en/data/hyperspace.xml.append:9558
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/statBoosts/statBoost[50]/deathEffect/spawnCrew/name"
 msgstr "Демиклонер"
 
-#: src-en/data/hyperspace.xml.append:9389
+#: src-en/data/hyperspace.xml.append:9584
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/statBoosts/statBoost[51]/deathEffect/spawnCrew/name"
 msgstr "Демиклонер"
 
-#: src-en/data/hyperspace.xml.append:9415
+#: src-en/data/hyperspace.xml.append:9610
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/statBoosts/statBoost[52]/deathEffect/spawnCrew/name"
 msgstr "м"
 
-#: src-en/data/hyperspace.xml.append:9442
+#: src-en/data/hyperspace.xml.append:9637
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/statBoosts/statBoost[53]/deathEffect/spawnCrew/name"
 msgstr "Демиклонер"
 
-#: src-en/data/hyperspace.xml.append:9468
+#: src-en/data/hyperspace.xml.append:9663
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/statBoosts/statBoost[54]/deathEffect/spawnCrew/name"
 msgstr "Демиклонер"
 
-#: src-en/data/hyperspace.xml.append:9494
+#: src-en/data/hyperspace.xml.append:9689
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/statBoosts/statBoost[55]/deathEffect/spawnCrew/name"
 msgstr "Демиклонер"
 
-#: src-en/data/hyperspace.xml.append:9520
+#: src-en/data/hyperspace.xml.append:9715
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/statBoosts/statBoost[56]/deathEffect/spawnCrew/name"
 msgstr "Демиклонер"
 
-#: src-en/data/hyperspace.xml.append:9546
+#: src-en/data/hyperspace.xml.append:9741
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/statBoosts/statBoost[57]/deathEffect/spawnCrew/name"
 msgstr "Демиклонер"
 
-#: src-en/data/hyperspace.xml.append:9574
+#: src-en/data/hyperspace.xml.append:9769
 msgid ""
 "data/hyperspace.xml.append$//aug[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/statBoosts/statBoost[58]/deathEffect/spawnCrew/name"
 msgstr "Демиклонер"
 
-#: src-en/data/hyperspace.xml.append:10272
+#: src-en/data/hyperspace.xml.append:10468
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[12]/mod-"
 "append:page/section[1]/@text"
 msgstr "События РадиКалов"
 
-#: src-en/data/hyperspace.xml.append:10274
+#: src-en/data/hyperspace.xml.append:10470
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_RK_EVENT_HIDEOUT\"]/name"
 msgstr "Убежище РадиКалов"
 
-#: src-en/data/hyperspace.xml.append:10275
+#: src-en/data/hyperspace.xml.append:10471
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_RK_EVENT_HIDEOUT\"]/secretName"
 msgstr "???"
 
-#: src-en/data/hyperspace.xml.append:10276
+#: src-en/data/hyperspace.xml.append:10472
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_RK_EVENT_HIDEOUT\"]/description"
 msgstr ""
 "Заключите сделку с таинственным жутким, чтобы получить собственное место в "
 "секторе РадиКал."
 
-#: src-en/data/hyperspace.xml.append:10277
+#: src-en/data/hyperspace.xml.append:10473
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_RK_EVENT_HIDEOUT\"]/secretDescription"
 msgstr "Свяжитесь с темными силами ради комфорта."
 
-#: src-en/data/hyperspace.xml.append:10283
+#: src-en/data/hyperspace.xml.append:10479
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_RK_EVENT_DEFROMORIUS\"]/name"
 msgstr "Мучительный амальгам"
 
-#: src-en/data/hyperspace.xml.append:10284
+#: src-en/data/hyperspace.xml.append:10480
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_RK_EVENT_DEFROMORIUS\"]/secretName"
 msgstr "???"
 
-#: src-en/data/hyperspace.xml.append:10285
+#: src-en/data/hyperspace.xml.append:10481
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_RK_EVENT_DEFROMORIUS\"]/description"
 msgstr "Спасите РК Дефромориуса от гибели от удушья в космосе."
 
-#: src-en/data/hyperspace.xml.append:10286
+#: src-en/data/hyperspace.xml.append:10482
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_RK_EVENT_DEFROMORIUS\"]/secretDescription"
 msgstr "Спасите странное существо в секторе РК."
 
-#: src-en/data/hyperspace.xml.append:10299
+#: src-en/data/hyperspace.xml.append:10495
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_RK_EVENT_HACK_FLEET_BOSS_REBEL\"]/name"
 msgstr "Хакер флота"
 
-#: src-en/data/hyperspace.xml.append:10300
+#: src-en/data/hyperspace.xml.append:10496
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_RK_EVENT_HACK_FLEET_BOSS_REBEL\"]/secretName"
 msgstr "???"
 
-#: src-en/data/hyperspace.xml.append:10301
+#: src-en/data/hyperspace.xml.append:10497
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_RK_EVENT_HACK_FLEET_BOSS_REBEL\"]/description"
 msgstr ""
 "Привлеките внимание хакера МФК с помощью Энигмашин, а затем победите его."
 
-#: src-en/data/hyperspace.xml.append:10302
+#: src-en/data/hyperspace.xml.append:10498
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_RK_EVENT_HACK_FLEET_BOSS_REBEL\"]/secretDescription"
 msgstr "Злоупотребляйте флотом - и ответьте за последствия."
 
-#: src-en/data/hyperspace.xml.append:10308
+#: src-en/data/hyperspace.xml.append:10504
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_RK_EVENT_SHIPVORE_RAM_SCRAP\"]/name"
 msgstr "Кораблепожиратель"
 
-#: src-en/data/hyperspace.xml.append:10309
+#: src-en/data/hyperspace.xml.append:10505
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_RK_EVENT_SHIPVORE_RAM_SCRAP\"]/secretName"
 msgstr "???"
 
-#: src-en/data/hyperspace.xml.append:10310
+#: src-en/data/hyperspace.xml.append:10506
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_RK_EVENT_SHIPVORE_RAM_SCRAP\"]/description"
 msgstr ""
 "Получите огромную и очень редкую выплату в виде лома от Кораблепожирателя."
 
-#: src-en/data/hyperspace.xml.append:10311
+#: src-en/data/hyperspace.xml.append:10507
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_RK_EVENT_SHIPVORE_RAM_SCRAP\"]/secretDescription"
 msgstr "Станьте по-настоящему удачливым, поглощая корабли."
 
-#: src-en/data/hyperspace.xml.append:10318
+#: src-en/data/hyperspace.xml.append:10514
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"MUSIC_RKTRACKRADIKAL\"]/name"
 msgstr "РадиКал трек"
 
-#: src-en/data/hyperspace.xml.append:10319
+#: src-en/data/hyperspace.xml.append:10515
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"MUSIC_RKTRACKRADIKAL\"]/secretName"
 msgstr "???"
 
-#: src-en/data/hyperspace.xml.append:10340
+#: src-en/data/hyperspace.xml.append:10536
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[12]/mod-"
 "append:page/section[2]/@text"
 msgstr "РадиКал благо"
 
-#: src-en/data/hyperspace.xml.append:10342
+#: src-en/data/hyperspace.xml.append:10538
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_BAM_CREW\"]/secretName"
 msgstr "Благо ???"
 
-#: src-en/data/hyperspace.xml.append:10343
+#: src-en/data/hyperspace.xml.append:10539
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_BAM_CREW\"]/secretDescription"
 msgstr "Получите благо РадиКал Бам от Сеста."
 
-#: src-en/data/hyperspace.xml.append:10344
+#: src-en/data/hyperspace.xml.append:10540
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_BAM_CREW\"]/name"
 msgstr "Благо РадиКал Бам"
 
-#: src-en/data/hyperspace.xml.append:10345
+#: src-en/data/hyperspace.xml.append:10541
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_BAM_CREW\"]/description"
 msgstr ""
 "Покажите Сесту экипаж РК Бам.\n"
 "\t\t\t\tПока эффект действует, ваши РадиКалы получают на 29 здоровья больше и наносят 1.1х урона в бою."
 
-#: src-en/data/hyperspace.xml.append:10347
+#: src-en/data/hyperspace.xml.append:10543
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_BAM_CREW\"]/header"
 msgstr "Благо получено"
 
-#: src-en/data/hyperspace.xml.append:10353
+#: src-en/data/hyperspace.xml.append:10549
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_PUNK_CREW\"]/secretName"
 msgstr "Благо ???"
 
-#: src-en/data/hyperspace.xml.append:10354
+#: src-en/data/hyperspace.xml.append:10550
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_PUNK_CREW\"]/secretDescription"
 msgstr "Получите благо РадиКал Панк от Сеста."
 
-#: src-en/data/hyperspace.xml.append:10355
+#: src-en/data/hyperspace.xml.append:10551
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_PUNK_CREW\"]/name"
 msgstr "Благо РадиКал Панк"
 
-#: src-en/data/hyperspace.xml.append:10356
+#: src-en/data/hyperspace.xml.append:10552
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_PUNK_CREW\"]/description"
 msgstr ""
 "Покажите Сесту экипаж РК Панк.\n"
 "\t\t\t\tПока эффект действует, ваши РадиКалы лечатся и клонируются на 40% быстрее."
 
-#: src-en/data/hyperspace.xml.append:10358
+#: src-en/data/hyperspace.xml.append:10554
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_PUNK_CREW\"]/header"
 msgstr "Благо получено"
 
-#: src-en/data/hyperspace.xml.append:10364
+#: src-en/data/hyperspace.xml.append:10560
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_SCORCH_CREW\"]/secretName"
 msgstr "Благо ???"
 
-#: src-en/data/hyperspace.xml.append:10365
+#: src-en/data/hyperspace.xml.append:10561
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_SCORCH_CREW\"]/secretDescription"
 msgstr "Получите благо РадиКал Скорч от Сеста."
 
-#: src-en/data/hyperspace.xml.append:10366
+#: src-en/data/hyperspace.xml.append:10562
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_SCORCH_CREW\"]/name"
 msgstr "Благо РадиКал Скорч"
 
-#: src-en/data/hyperspace.xml.append:10367
+#: src-en/data/hyperspace.xml.append:10563
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_SCORCH_CREW\"]/description"
 msgstr ""
 "Покажите Сесту экипаж РК Скорч.\n"
 "\t\t\t\tПока эффект действует, находясь в огне, ваши РадиКалы получают увеличение скорости передвижения и наносят 1.3х урона в бою."
 
-#: src-en/data/hyperspace.xml.append:10369
+#: src-en/data/hyperspace.xml.append:10565
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_SCORCH_CREW\"]/header"
 msgstr "Благо получено"
 
-#: src-en/data/hyperspace.xml.append:10376
+#: src-en/data/hyperspace.xml.append:10572
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_BAM_EQUIPMENT\"]/secretName"
 msgstr "Благословение ???"
 
-#: src-en/data/hyperspace.xml.append:10377
+#: src-en/data/hyperspace.xml.append:10573
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_BAM_EQUIPMENT\"]/secretDescription"
 msgstr "Получите благословение ??? от Уэйксона."
 
-#: src-en/data/hyperspace.xml.append:10378
+#: src-en/data/hyperspace.xml.append:10574
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_BAM_EQUIPMENT\"]/name"
 msgstr "Благословение радикальной стойкости"
 
-#: src-en/data/hyperspace.xml.append:10379
+#: src-en/data/hyperspace.xml.append:10575
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_BAM_EQUIPMENT\"]/description"
 msgstr ""
 "Покажите Уэйксону снаряжение РК Бам.\n"
 "\t\t\t\tПока эффект действует, шанс сопротивления урону корпусу, системам и ионному урону от вражеского оружия увеличивается на 8%."
 
-#: src-en/data/hyperspace.xml.append:10381
+#: src-en/data/hyperspace.xml.append:10577
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_BAM_EQUIPMENT\"]/header"
 msgstr "Благословение получено"
 
-#: src-en/data/hyperspace.xml.append:10387
+#: src-en/data/hyperspace.xml.append:10583
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_PUNK_EQUIPMENT\"]/secretName"
 msgstr "Благословение ???"
 
-#: src-en/data/hyperspace.xml.append:10388
+#: src-en/data/hyperspace.xml.append:10584
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_PUNK_EQUIPMENT\"]/secretDescription"
 msgstr "Получите благословение ??? от Уэйксона."
 
-#: src-en/data/hyperspace.xml.append:10389
+#: src-en/data/hyperspace.xml.append:10585
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_PUNK_EQUIPMENT\"]/name"
 msgstr "Благословение радикальной хитрости"
 
-#: src-en/data/hyperspace.xml.append:10390
+#: src-en/data/hyperspace.xml.append:10586
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_PUNK_EQUIPMENT\"]/description"
 msgstr ""
 "Покажите Уэйксону снаряжение РК Панк.\n"
 "\t\t\t\tПока эффект действует, ваши системы чинятся со скоростью 1.3х."
 
-#: src-en/data/hyperspace.xml.append:10392
+#: src-en/data/hyperspace.xml.append:10588
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_PUNK_EQUIPMENT\"]/header"
 msgstr "Благословение получено"
 
-#: src-en/data/hyperspace.xml.append:10398
+#: src-en/data/hyperspace.xml.append:10594
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_SCORCH_EQUIPMENT\"]/secretName"
 msgstr "Благословение ???"
 
-#: src-en/data/hyperspace.xml.append:10399
+#: src-en/data/hyperspace.xml.append:10595
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_SCORCH_EQUIPMENT\"]/secretDescription"
 msgstr "Получите благословение ??? от Уэйксона."
 
-#: src-en/data/hyperspace.xml.append:10400
+#: src-en/data/hyperspace.xml.append:10596
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_SCORCH_EQUIPMENT\"]/name"
 msgstr "Благословение радикального жара"
 
-#: src-en/data/hyperspace.xml.append:10401
+#: src-en/data/hyperspace.xml.append:10597
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_SCORCH_EQUIPMENT\"]/description"
 msgstr ""
 "Покажите Уэйксону снаряжение РК Скорч.\n"
 "\t\t\t\tПока эффект действует, скорость перезарядки оружия и уклонение увеличиваются на 8%."
 
-#: src-en/data/hyperspace.xml.append:10403
+#: src-en/data/hyperspace.xml.append:10599
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_SCORCH_EQUIPMENT\"]/header"
 msgstr "Благословение получено"
 
-#: src-en/data/hyperspace.xml.append:10409
+#: src-en/data/hyperspace.xml.append:10605
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_BPS_EQUIPMENT\"]/secretName"
 msgstr "Благословение ???"
 
-#: src-en/data/hyperspace.xml.append:10410
+#: src-en/data/hyperspace.xml.append:10606
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_BPS_EQUIPMENT\"]/secretDescription"
 msgstr "Получите благословение ??? от Уэйксона."
 
-#: src-en/data/hyperspace.xml.append:10411
+#: src-en/data/hyperspace.xml.append:10607
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_BPS_EQUIPMENT\"]/name"
 msgstr "Благословение радикальных проектов"
 
-#: src-en/data/hyperspace.xml.append:10412
+#: src-en/data/hyperspace.xml.append:10608
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_BPS_EQUIPMENT\"]/description"
 msgstr ""
 "Покажите Уэйксону оборудование РК БПС.\n"
 "\t\t\t\tПока эффект действует: +4% к шансу сопротивления урону корпусу, системам и ионному урону от вражеского оружия; ваши системы чинятся со скоростью 1.15х; +4% к скорости перезарядки оружия и уклонению."
 
-#: src-en/data/hyperspace.xml.append:10414
+#: src-en/data/hyperspace.xml.append:10610
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_BOON_RK_BPS_EQUIPMENT\"]/header"
 msgstr "Благословение получено"

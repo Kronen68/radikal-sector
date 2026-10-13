@@ -5,63 +5,63 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: src-en/data/events_special_filler.xml.append:22
+#: src-en/data/events_special_filler.xml.append:20
 msgid ""
 "data/events_special_filler.xml.append$//mod:findName[@name=\"FILLER_DISTRESS_COMBAT\"]/mod-"
 "append:choice/text"
 msgstr "\"와우, 약한 함선한테서 무력으로 장비를 빼앗다니. 대단한 용기네요. 참으로 라디칼하군요.\""
 
-#: src-en/data/events_special_filler.xml.append:28
+#: src-en/data/events_special_filler.xml.append:26
 msgid ""
 "data/events_special_filler.xml.append$//event[@name=\"DISTRESS_PIRA_CIVI_COORDS_RK\"]/text"
 msgstr ""
 "그들은 즉시 당신에게 주의를 돌립니다. \"방금 라디칼이라고 했나?\" 그들은 경계하는 듯하더니, 수신기 넘어 뒤편에서 말다툼하는 소리가 들려옵니다. \"거봐, 베르나! 내가 목격자가 있다고 했잖아! 털지 말았어야—\" \"아가리 좀 다물어, 버트. 그리고 연방 배회자 쓰레기 놈들, 너희도 얌전히 있었어야지. 라디칼 장비는... 잠깐, 너 이 방에 누구 허락받고 들어왔—\"\n"
 "\t갑자기 해적선 내부에서 격렬한 패싸움 소리가 들려오더니 통신이 잠시 끊깁니다... 잠시 후 함선에서 다시 통신을 연결해 옵니다."
 
-#: src-en/data/events_special_filler.xml.append:32
+#: src-en/data/events_special_filler.xml.append:30
 msgid ""
 "data/events_special_filler.xml.append$//event[@name=\"DISTRESS_PIRA_CIVI_COORDS_RK\"]/choice/text"
 msgstr "...방금 그건 대체 뭐였지?"
 
-#: src-en/data/events_special_filler.xml.append:52
+#: src-en/data/events_special_filler.xml.append:50
 msgid ""
 "data/events_special_filler.xml.append$//event[@name=\"DISTRESS_PIRA_CIVI_GIVECOORDS\"]/text"
 msgstr ""
 "이번엔 낯선 MFK 여성의 목소리가 고함을 지릅니다. \"함장. 제법 배짱이 두둑하군.\" 숨을 가다듬은 라디칼 대원이 말을 잇습니다. \"이 선원 놈들은 쓸모가 좀 있었지만, 더 이상 위장 신분을 유지할 필요는 없겠지.\n"
 "\t놈들은 우리 작전을 나불대고 다니면서도, 우리와 한패도 아니고 자금을 대지도 않았다. 그저 우리 고객의 장비를 '훔쳤을' 뿐이지. 이 모든 게 아주 거슬리는 일이었고, 내가 방금 놈들을 전부 쳐죽인 이유기도 해. 이제, 우리는 당신 같은 선장이 더 필요하다. 우리 구역에 한 번 방문해 보는 게 어때? 당신 기량을 보니 결코 손해 보는 장사는 아닐 텐데.\""
 
-#: src-en/data/events_special_filler.xml.append:56
+#: src-en/data/events_special_filler.xml.append:54
 msgid ""
 "data/events_special_filler.xml.append$//event[@name=\"DISTRESS_PIRA_CIVI_GIVECOORDS\"]/choice/text"
 msgstr "우리도 우리만의 임무가 있다"
 
-#: src-en/data/events_special_filler.xml.append:61
+#: src-en/data/events_special_filler.xml.append:59
 msgid ""
 "data/events_special_filler.xml.append$//event[@name=\"DISTRESS_PIRA_CIVI_GIVECOORDS\"]/choice/event/text"
 msgstr ""
 "\"그래 그래, 알고 있다. 문제될 건 없지. 오히려 우회해서 가는 편이 당신 배를 기함이라는 도전에 맞서기 딱 좋은 성능으로 끌어올려 줄지도 모르니까. 우리 라디칼(RK)들이 정보 하나는 아주 빠삭하다는 걸 알게 될 거다. 나도 급히 처리해야 할 다른 임무가 있어서 말이지. 그럼 작별이다.\" 그녀가 통신을 끊습니다.\n"
 "\t\t\t\t구역 좌표가 아틀라스에 추가되었습니다!"
 
-#: src-en/data/events_special_filler.xml.append:67
+#: src-en/data/events_special_filler.xml.append:64
 msgid ""
 "data/events_special_filler.xml.append$//event[@name=\"DISTRESS_PIRA_CIVI_GIVECOORDS\"]/choice/event/choice/text"
 msgstr "어쩌면 다음 구역 도약 중에 이게 무슨 일이었는지 알 수 있을지도 모르겠군."
 
-#: src-en/data/events_special_filler.xml.append:74
+#: src-en/data/events_special_filler.xml.append:71
 msgid ""
 "data/events_special_filler.xml.append$//event[@name=\"DISTRESS_PIRA_CIVI_NOTCOORDS\"]/text"
 msgstr ""
 "\"방금 방해 요소가 좀 있어서 미안하게 됐다. 선원 하나가 갑자기 미쳐 날뛰어서 처리하느라 말이야. \n"
 "\t\t어쨌드으은, 이제 충성심 관련해서 정리해야 할 문제가 좀 남아서 말이지. 이 선물이나 받고 꺼져라, 알았지? 민간인 배는 내버려둘 테니, 당신이 이긴 셈 치라고. 우리 함대가 당신 배를 깡통으로 만들어 버리기 전에 실컷 즐겨두고.\""
 
-#: src-en/data/events_special_filler.xml.append:86
+#: src-en/data/events_special_filler.xml.append:83
 msgid ""
 "data/events_special_filler.xml.append$//event[@name=\"DISTRESS_PIRA_CIVI_NOTCOORDS_BAD\"]/text"
 msgstr ""
 "\"방금 방해 요소가 좀 있어서 미안하게 됐다. 선원 하나가 갑자기 미쳐 날뛰어서 처리하느라 말이야. 어쨌든, 너 같은 뻔똑이 놈들을 위해 특별히 준비해 둔 게 하나 있지. 잠깐 기다려 봐.\"\n"
 "\t그들이 당신의 엔진실을 향해 자성 폭발물을 던졌습니다!"
 
-#: src-en/data/events_special_filler.xml.append:93
+#: src-en/data/events_special_filler.xml.append:90
 msgid ""
 "data/events_special_filler.xml.append$//event[@name=\"DISTRESS_PIRA_CIVI_NOTCOORDS_BAD\"]/choice/text"
 msgstr "계속..."

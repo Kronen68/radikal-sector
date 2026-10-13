@@ -327,84 +327,109 @@ msgstr "你击败了拉迪卡尔守卫。没有船员的阻拦，你可以去调
 
 #: src-en/data/events_special_guards.xml.append:318
 msgid ""
-"data/events_special_guards.xml.append$//event[@name=\"GUARD_RADIKAL_DEADCREW\"]/choice/text"
-msgstr "继续。"
+"data/events_special_guards.xml.append$//event[@name=\"GUARD_RADIKAL_DEADCREW\"]/choice[@req=\"DJMOD_LASER_BPS\"]/text"
+msgstr ""
 
 #: src-en/data/events_special_guards.xml.append:320
 msgid ""
-"data/events_special_guards.xml.append$//event[@name=\"GUARD_RADIKAL_DEADCREW\"]/choice/event/text"
-msgstr "你找到了备用的拉迪卡尔装备！"
+"data/events_special_guards.xml.append$//event[@name=\"GUARD_RADIKAL_DEADCREW\"]/choice[@req=\"DJMOD_LASER_BPS\"]/event/text"
+msgstr ""
 
-#: src-en/data/events_special_guards.xml.append:323
+#: src-en/data/events_special_guards.xml.append:326
 msgid ""
-"data/events_special_guards.xml.append$//event[@name=\"GUARD_RADIKAL_DEADCREW\"]/choice/event/choice/text"
+"data/events_special_guards.xml.append$//event[@name=\"GUARD_RADIKAL_DEADCREW\"]/choice[@req=\"DJMOD_LASER_BPS\"]/event/choice/text"
 msgstr "继续。"
 
-#: src-en/data/events_special_guards.xml.append:346
+#: src-en/data/events_special_guards.xml.append:328
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"GUARD_RADIKAL_DEADCREW\"]/choice[@req=\"DJMOD_LASER_BPS\"]/event/choice/event/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:332
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"GUARD_RADIKAL_DEADCREW\"]/choice[@req=\"DJMOD_LASER_BPS\"]/event/choice/event/choice/text"
+msgstr "继续。"
+
+#: src-en/data/events_special_guards.xml.append:341
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"GUARD_RADIKAL_DEADCREW\"]/choice[2]/text"
+msgstr "继续。"
+
+#: src-en/data/events_special_guards.xml.append:343
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"GUARD_RADIKAL_DEADCREW\"]/choice[2]/event/text"
+msgstr "你找到了备用的拉迪卡尔装备！"
+
+#: src-en/data/events_special_guards.xml.append:347
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"GUARD_RADIKAL_DEADCREW\"]/choice[2]/event/choice/text"
+msgstr "继续。"
+
+#: src-en/data/events_special_guards.xml.append:370
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"GUARD_RADIKAL_FOLLOWUP\"]/text"
 msgstr "杀死拉迪卡尔守卫无疑会促使他们派出增援来追捕你。在探索这个星区时，务必小心行事。"
 
-#: src-en/data/events_special_guards.xml.append:354
+#: src-en/data/events_special_guards.xml.append:378
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"GUARD_RADIKAL_FOLLOWUP\"]/choice[1]/text"
 msgstr "星舰管理。"
 
-#: src-en/data/events_special_guards.xml.append:358
+#: src-en/data/events_special_guards.xml.append:382
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"GUARD_RADIKAL_FOLLOWUP\"]/choice[2]/text"
 msgstr "跳过。"
 
-#: src-en/data/events_special_guards.xml.append:367
+#: src-en/data/events_special_guards.xml.append:391
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"REINFORCEMENTS_RADIKAL\"]/beaconType/unvisitedTooltip"
 msgstr "未探索的信标。"
 
-#: src-en/data/events_special_guards.xml.append:368
+#: src-en/data/events_special_guards.xml.append:392
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"REINFORCEMENTS_RADIKAL\"]/beaconType/visitedTooltip"
 msgstr "已探索的信标，没什么值得注意。"
 
-#: src-en/data/events_special_guards.xml.append:369
+#: src-en/data/events_special_guards.xml.append:393
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"REINFORCEMENTS_RADIKAL\"]/beaconType/undiscoveredTooltip"
 msgstr "未探索的信标。"
 
-#: src-en/data/events_special_guards.xml.append:371
+#: src-en/data/events_special_guards.xml.append:395
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"REINFORCEMENTS_RADIKAL\"]/text"
 msgstr ""
 "你很容易理解这艘飞船的总体信息：总得有人来当这个守卫，他们只是在尽职尽责，也知道其中的风险。但你也一样！\n"
 "\t\t拉迪卡尔增援部队发起了攻击！"
 
-#: src-en/data/events_special_guards.xml.append:376
+#: src-en/data/events_special_guards.xml.append:400
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"REINFORCEMENTS_RADIKAL\"]/choice/text"
 msgstr "继续。"
 
-#: src-en/data/events_special_guards.xml.append:384
+#: src-en/data/events_special_guards.xml.append:408
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"NEBULA_REINFORCEMENTS_RADIKAL\"]/beaconType/unvisitedTooltip"
 msgstr "未探索的信标。"
 
-#: src-en/data/events_special_guards.xml.append:385
+#: src-en/data/events_special_guards.xml.append:409
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"NEBULA_REINFORCEMENTS_RADIKAL\"]/beaconType/visitedTooltip"
 msgstr "已探索的信标，没什么值得注意。"
 
-#: src-en/data/events_special_guards.xml.append:386
+#: src-en/data/events_special_guards.xml.append:410
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"NEBULA_REINFORCEMENTS_RADIKAL\"]/beaconType/undiscoveredTooltip"
 msgstr "未探索的信标。"
 
-#: src-en/data/events_special_guards.xml.append:388
+#: src-en/data/events_special_guards.xml.append:412
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"NEBULA_REINFORCEMENTS_RADIKAL\"]/text"
 msgstr ""
 "你很容易理解这艘飞船的总体信息：总得有人来当这个守卫，他们只是在尽职尽责，也知道其中的风险。但你也一样！\n"
 "\t\t拉迪卡尔增援部队发起了攻击！"
 
-#: src-en/data/events_special_guards.xml.append:395
+#: src-en/data/events_special_guards.xml.append:419
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"NEBULA_REINFORCEMENTS_RADIKAL\"]/choice/text"
 msgstr "继续。"

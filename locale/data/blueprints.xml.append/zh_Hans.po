@@ -1,16 +1,9 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-10-02 00:36+0000\n"
-"Last-Translator: 土豆老年人 <2685455659@qq.com>\n"
-"Language-Team: Chinese (Simplified Han script) <https://weblate.hyperq.be/"
-"projects/radikal-sector/datablueprintsxmlappend/zh_Hans/>\n"
-"Language: zh_Hans\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.17.1\n"
 
 #: src-en/data/blueprints.xml.append:39
 msgid ""
@@ -233,8 +226,7 @@ msgstr "噬舰冲击"
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"DJMOD_COMBAT_SHIPVORE_RAM\"]/desc"
 msgstr ""
-"（RK巴姆装备）反复冲撞敌人，必定造成伤害，通常还能获得免费维修，有时还有其他"
-"好处。\n"
+"（RK巴姆装备）反复冲撞敌人，必定造成伤害，通常还能获得免费维修，有时还有其他好处。\n"
 "\t\t[在切换菜单中查看多效/组合]\n"
 "\n"
 "\t\t普通冲撞：（消耗1 {）\n"
@@ -351,17 +343,16 @@ msgstr ""
 "\t\t[style[color:ff3377]]武器充能速度降低5%。[[/style]]\n"
 "\t\t造成1点的伤害有40%几率被抵消，所有其他伤害减少1点。"
 
-#: src-en/data/blueprints.xml.append:339
+#: src-en/data/blueprints.xml.append:341
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_PERSISTENCE_SHIELD\"]/title"
 msgstr "持久护盾"
 
-#: src-en/data/blueprints.xml.append:340
+#: src-en/data/blueprints.xml.append:342
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_PERSISTENCE_SHIELD\"]/desc"
 msgstr ""
-"（RK巴姆装备）这是依赖护盾的高端飞船的标配，得益于对许多再也没有回家的超能族"
-"侦察兵进行的压力测试。\n"
+"（RK巴姆装备）这是依赖护盾的高端飞船的标配，得益于对许多再也没有回家的超能族侦察兵进行的压力测试。\n"
 "\t\t\n"
 "\t\t增加一个 4 耐久的能量护盾。可与其他能量护盾叠加，但不能与自身叠加。\n"
 "\t\t同时提高50%的护盾充能速度。\n"
@@ -369,29 +360,27 @@ msgstr ""
 "\t\t从切换菜单中激活，可立即恢复你所有的能量护盾层数。[消耗 1 {]\n"
 "\t\t在空信标处以 7 废料重建其电容器之前，无法再次激活。"
 
-#: src-en/data/blueprints.xml.append:392
+#: src-en/data/blueprints.xml.append:394
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_ARROGANCE_SHIELD\"]/title"
 msgstr "傲慢护盾"
 
-#: src-en/data/blueprints.xml.append:393
+#: src-en/data/blueprints.xml.append:395
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_ARROGANCE_SHIELD\"]/desc"
 msgstr ""
 "（RK朋克装备）对你的护盾有风险，但可能让你无人能及。奇怪的立方体为此而亡。\n"
 "\t\t\n"
 "\t\t增加一层8点完整度的能量护盾。可与其他能量护盾叠加，但不能与自身叠加。\n"
-"\t\t在你的舰船上，你的无人机船员每秒恢复3点生命值，而敌方无人机船员则每秒损失"
-"等量生命值。\n"
-"\t\t[style[color:ff3377]]警告：护盾充能速度降低30%，武器充能速度降低8%。[[/"
-"style]]"
+"\t\t在你的舰船上，你的无人机船员每秒恢复3点生命值，而敌方无人机船员则每秒损失等量生命值。\n"
+"\t\t[style[color:ff3377]]警告：护盾充能速度降低30%，武器充能速度降低8%。[[/style]]"
 
-#: src-en/data/blueprints.xml.append:404
+#: src-en/data/blueprints.xml.append:406
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_COMBAT_DEFENSE_REMOVER\"]/title"
 msgstr "脆弱器"
 
-#: src-en/data/blueprints.xml.append:405
+#: src-en/data/blueprints.xml.append:407
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_COMBAT_DEFENSE_REMOVER\"]/desc"
 msgstr ""
@@ -401,12 +390,12 @@ msgstr ""
 "\t\t所有效果在 40 到 75 秒后结束，具体时长取决于你选择消耗的无人机数量。\n"
 "\t\t[消耗 1-2 | 和 3 反应堆电力。应急供能器可生效。]"
 
-#: src-en/data/blueprints.xml.append:417
+#: src-en/data/blueprints.xml.append:419
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_COMBAT_OFFENSE_DISABLER\"]/title"
 msgstr "进攻抑制器"
 
-#: src-en/data/blueprints.xml.append:418
+#: src-en/data/blueprints.xml.append:420
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_COMBAT_OFFENSE_DISABLER\"]/desc"
 msgstr ""
@@ -419,12 +408,12 @@ msgstr ""
 "\t\t腐化者（来自“黑暗欲望”）。\n"
 "\t\t以及炮塔（来自“星穹铁卫”）。"
 
-#: src-en/data/blueprints.xml.append:446
+#: src-en/data/blueprints.xml.append:448
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_COMBAT_HACK_FLEET\"]/title"
 msgstr "谜团机"
 
-#: src-en/data/blueprints.xml.append:447
+#: src-en/data/blueprints.xml.append:449
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_COMBAT_HACK_FLEET\"]/desc"
 msgstr ""
@@ -439,11 +428,11 @@ msgstr ""
 "\t\t2| + 黑客 2级 = 65% / 15% / 5% / +?\n"
 "\t\t3| + 黑客 3级 = 45% / 30% / 5% / +???"
 
-#: src-en/data/blueprints.xml.append:463
+#: src-en/data/blueprints.xml.append:465
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"RK_DREAD_DECK\"]/title"
 msgstr "恐惧甲板"
 
-#: src-en/data/blueprints.xml.append:464
+#: src-en/data/blueprints.xml.append:466
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"RK_DREAD_DECK\"]/desc"
 msgstr ""
 "（RK朋克装备）本身不直接产生任何效果，但每当此增强部件出现时，经验丰富的船员就会开始祈祷并保持社交距离。\n"
@@ -452,12 +441,12 @@ msgstr ""
 "\t\t你的船员从大多数来源获得的治疗效果提高1.6倍，克隆速度提高2倍，且克隆不会失去技能。\n"
 "\t\t[style[color:ff3377]]警告：与你的任意船员同处一室的所有船员，治疗效果降低至0.5倍[[/style]]（不叠加）[style[color:ff3377]]且无法被克隆！[[/style]] [此减益效果表现为紫色烟雾]"
 
-#: src-en/data/blueprints.xml.append:475
+#: src-en/data/blueprints.xml.append:477
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_SUPER_DEFENDERS\"]/title"
 msgstr "防御套件"
 
-#: src-en/data/blueprints.xml.append:476
+#: src-en/data/blueprints.xml.append:478
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_SUPER_DEFENDERS\"]/desc"
 msgstr ""
@@ -465,12 +454,12 @@ msgstr ""
 "\n"
 "\t\t在你的舰船上，你的船员受到的伤害降低 0.75 倍，维修速度提高 1.3 倍，移动速度提高 1.3 倍，闲置时（甚至不需要操控系统）每秒恢复 4 生命值。"
 
-#: src-en/data/blueprints.xml.append:486
+#: src-en/data/blueprints.xml.append:488
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_OWN_HARMONY_ON\"]/title"
 msgstr "朋克谐合"
 
-#: src-en/data/blueprints.xml.append:487
+#: src-en/data/blueprints.xml.append:489
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_OWN_HARMONY_ON\"]/desc"
 msgstr ""
@@ -482,12 +471,12 @@ msgstr ""
 "\n"
 "\t在空信标处，你可以花费25~、1{ 和 1| 来培养一名半械分离者（或花费更多资源培育两名分离者），但[style[color:ff3377]]叛军舰队会加速1次[[/style]]"
 
-#: src-en/data/blueprints.xml.append:499
+#: src-en/data/blueprints.xml.append:501
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_OWN_HARMONY_OFF\"]/title"
 msgstr "朋克谐合（关）"
 
-#: src-en/data/blueprints.xml.append:500
+#: src-en/data/blueprints.xml.append:502
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_OWN_HARMONY_OFF\"]/desc"
 msgstr ""
@@ -499,19 +488,19 @@ msgstr ""
 "\n"
 "\t在空信标处，你可以花费25~、1{ 和 1| 来培养一名半械分离者（或花费更多资源培育两名分离者），但[style[color:ff3377]]叛军舰队会加速1次[[/style]]"
 
-#: src-en/data/blueprints.xml.append:527
+#: src-en/data/blueprints.xml.append:529
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FIRE_IMMUNITY\"]/title"
 msgstr "熔火系统"
 
-#: src-en/data/blueprints.xml.append:528
+#: src-en/data/blueprints.xml.append:530
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FIRE_IMMUNITY\"]/desc"
 msgstr "系统受到的火焰伤害降低 100%。"
 
-#: src-en/data/blueprints.xml.append:539
+#: src-en/data/blueprints.xml.append:541
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"RK_SCORCH_SELF\"]/title"
 msgstr "焦土（T1）"
 
-#: src-en/data/blueprints.xml.append:540
+#: src-en/data/blueprints.xml.append:542
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"RK_SCORCH_SELF\"]/desc"
 msgstr ""
 "（RK灼烧装备）你的船员受到的火焰伤害降低 0.6倍，并获得3倍的灭火速度。在灭火时，他们还会每秒恢复2生命值，氧气系统每升级一级 +2。\n"
@@ -522,12 +511,12 @@ msgstr ""
 "\t\n"
 "\t可在空信标处升级两次，提升火焰抗性并获得一个效果。"
 
-#: src-en/data/blueprints.xml.append:556
+#: src-en/data/blueprints.xml.append:558
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_SCORCH_SELF_2\"]/title"
 msgstr "烈焰大地（焦土2级）"
 
-#: src-en/data/blueprints.xml.append:557
+#: src-en/data/blueprints.xml.append:559
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"RK_SCORCH_SELF_2\"]/desc"
 msgstr ""
 "（RK灼烧装备）[焦土 T2] 你的船员受到的火焰伤害降低 0.45 倍，并获得 3 倍的灭火速度。在灭火时，他们还会每秒恢复 2 生命值，再加上氧气系统每升级一级 +2。\n"
@@ -539,12 +528,12 @@ msgstr ""
 "\t\n"
 "\t可在空信标处升级一次，提升火焰抗性和氧气产量。"
 
-#: src-en/data/blueprints.xml.append:575
+#: src-en/data/blueprints.xml.append:577
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_SCORCH_SELF_3\"]/title"
 msgstr "喷发大地（焦土3级）"
 
-#: src-en/data/blueprints.xml.append:576
+#: src-en/data/blueprints.xml.append:578
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"RK_SCORCH_SELF_3\"]/desc"
 msgstr ""
 "（RK灼烧装备）[焦土 T3] 你的船员受到的火焰伤害降低 0.3 倍，并获得 3 倍的灭火速度。在灭火时，他们还会每秒恢复 2 生命值，再加上氧气系统每升级一级 +2。\n"
@@ -554,32 +543,31 @@ msgstr ""
 "\t\n"
 "\t组合：可以无额外消耗激活等离子传送器。"
 
-#: src-en/data/blueprints.xml.append:591
+#: src-en/data/blueprints.xml.append:593
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_COMBAT_SCORCH_ENEMY\"]/title"
 msgstr "等离子传送器"
 
-#: src-en/data/blueprints.xml.append:592
+#: src-en/data/blueprints.xml.append:594
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_COMBAT_SCORCH_ENEMY\"]/desc"
 msgstr ""
 "（RK灼烧装备）这款战斗增强部件可以在战斗开始时点燃敌舰，直接赢得部分战斗。\n"
 "\n"
 "\t\t需要一个火源：1}（弱效果），\n"
-"\t\t或者：阿尔法燃灵/燃灵/迷失烈阳/甲壳族/超能族（[style[color:ff3377]]他们会"
-"死亡[[/style]]，可被克隆，强效果）。\n"
+"\t\t或者：阿尔法燃灵/燃灵/迷失烈阳/甲壳族/超能族（[style[color:ff3377]]他们会死亡[[/style]]，可被克隆，强效果）。\n"
 "\t\t使用魂灵族会产生额外效果。\n"
 "\t\t[消耗 1{，[style[color:ff3377]]点燃你的氧气系统[[/style]]。]\n"
 "\n"
 "\t组合：充能腰带 / 殉道者背心使所有船员成为火源。\n"
 "\t组合：任意焦土均可让你选择效果强度，且无需火源。"
 
-#: src-en/data/blueprints.xml.append:607
+#: src-en/data/blueprints.xml.append:609
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_ENEMIES_CAN_BURN\"]/title"
 msgstr "易燃器 - 免疫"
 
-#: src-en/data/blueprints.xml.append:608
+#: src-en/data/blueprints.xml.append:610
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_ENEMIES_CAN_BURN\"]/desc"
 msgstr ""
@@ -590,12 +578,12 @@ msgstr ""
 "\n"
 "\t两种切换模式下，敌人在火焰中的移动速度都会降低15%（氧气系统投入 3 点电力时最高可达60%）[不可叠加]。"
 
-#: src-en/data/blueprints.xml.append:619
+#: src-en/data/blueprints.xml.append:621
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_ENEMIES_BURN_MORE\"]/title"
 msgstr "易燃器 - 伤害"
 
-#: src-en/data/blueprints.xml.append:620
+#: src-en/data/blueprints.xml.append:622
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_ENEMIES_BURN_MORE\"]/desc"
 msgstr ""
@@ -606,29 +594,26 @@ msgstr ""
 "\n"
 "\t两种切换模式下，敌人在火焰中的移动速度都会降低15%（氧气系统投入 3 点电力时最高可达60%）[不可叠加]。"
 
-#: src-en/data/blueprints.xml.append:632
+#: src-en/data/blueprints.xml.append:634
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_COMBAT_OXYGENIZER\"]/title"
 msgstr "增氧器"
 
-#: src-en/data/blueprints.xml.append:633
+#: src-en/data/blueprints.xml.append:635
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_COMBAT_OXYGENIZER\"]/desc"
 msgstr ""
-"（RK灼烧装备）这个小巧的战斗增强部件可以在战斗开始时射出巨大的超压缩氧气罐，"
-"这些氧气罐能产生重力，填满太空的虚空。有人给它起了个绰号叫“罐装空气”。各种骚"
-"操作随之而来。\n"
+"（RK灼烧装备）这个小巧的战斗增强部件可以在战斗开始时射出巨大的超压缩氧气罐，这些氧气罐能产生重力，填满太空的虚空。有人给它起了个绰号叫“罐装空气”。各种骚操作随之而来。\n"
 "\t\n"
-"\t使双方飞船都处于大气环境中，让破舱和开启的舱门填充氧气而非消耗氧气。[消耗 "
-"2}]\n"
+"\t使双方飞船都处于大气环境中，让破舱和开启的舱门填充氧气而非消耗氧气。[消耗 2}]\n"
 "\t也可在空信标处进行。[消耗 1}]"
 
-#: src-en/data/blueprints.xml.append:643
+#: src-en/data/blueprints.xml.append:645
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_SCORCH_PREIGNITER\"]/title"
 msgstr "灼烧预热器"
 
-#: src-en/data/blueprints.xml.append:644
+#: src-en/data/blueprints.xml.append:646
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_SCORCH_PREIGNITER\"]/desc"
 msgstr ""
@@ -638,12 +623,12 @@ msgstr ""
 "\t\t\n"
 "\t\t组合：将“灼烧装填器”增强部件的最大额外加成提升至20%"
 
-#: src-en/data/blueprints.xml.append:655
+#: src-en/data/blueprints.xml.append:657
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_WEAPONS_ON_FIRE\"]/title"
 msgstr "灼烧装填器"
 
-#: src-en/data/blueprints.xml.append:656
+#: src-en/data/blueprints.xml.append:658
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_WEAPONS_ON_FIRE\"]/desc"
 msgstr ""
@@ -654,52 +639,47 @@ msgstr ""
 "\n"
 "\t\t组合：灼烧预燃器将最大额外加成提升至20%"
 
-#: src-en/data/blueprints.xml.append:668
+#: src-en/data/blueprints.xml.append:670
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_WEAPONS_ON_FIRE_TEMP\"]/title"
 msgstr "灼烧装填器"
 
-#: src-en/data/blueprints.xml.append:669
+#: src-en/data/blueprints.xml.append:671
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_WEAPONS_ON_FIRE_TEMP\"]/desc"
 msgstr "你永远不应该看到这条信息 1% 武器射速。"
 
-#: src-en/data/blueprints.xml.append:687
+#: src-en/data/blueprints.xml.append:689
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"RK_BPS_SURVEYOR\"]/title"
 msgstr "RK 勘测器"
 
-#: src-en/data/blueprints.xml.append:688
+#: src-en/data/blueprints.xml.append:690
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"RK_BPS_SURVEYOR\"]/desc"
 msgstr ""
-"（RKBPS 装备）来自拉迪卡尔子派系的独创性，让你能以不可忽视的成本深度搜索大多"
-"数空信标。\n"
+"（RKBPS 装备）来自拉迪卡尔子派系的独创性，让你能以不可忽视的成本深度搜索大多数空信标。\n"
 "\t\t\n"
-"\t\t你可以选择取回/窃取找到的随机武器或增强部件，[style[color:ff3377]]代价是"
-"舰队加速1次[[/style]]。\n"
+"\t\t你可以选择取回/窃取找到的随机武器或增强部件，[style[color:ff3377]]代价是舰队加速1次[[/style]]。\n"
 "\t\t或者就把它留在那里，不影响舰队，并收回部分成本。"
 
-#: src-en/data/blueprints.xml.append:699
+#: src-en/data/blueprints.xml.append:701
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_BPS_SHIELD_OVER_MATTER\"]/title"
 msgstr "物质护盾"
 
-#: src-en/data/blueprints.xml.append:700
+#: src-en/data/blueprints.xml.append:702
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_BPS_SHIELD_OVER_MATTER\"]/desc"
 msgstr ""
-"（RKBPS 装备）提供一个拥有 10 点生命值完整度的能量护盾。（不与自身或其他不可"
-"叠加的能量护盾叠加）\n"
+"（RKBPS 装备）提供一个拥有 10 点生命值完整度的能量护盾。（不与自身或其他不可叠加的能量护盾叠加）\n"
 "\t\t\n"
-"\t\t每当你受到船体伤害时，有 50% 的几率恢复 1 层能量护盾，但随后 "
-"[style[color:ff3377]]被击中的舱室也会起火（除此之外，还会附加造成伤害的武器本"
-"身的起火几率）[[/style]]。"
+"\t\t每当你受到船体伤害时，有 50% 的几率恢复 1 层能量护盾，但随后 [style[color:ff3377]]被击中的舱室也会起火（除此之外，还会附加造成伤害的武器本身的起火几率）[[/style]]。"
 
-#: src-en/data/blueprints.xml.append:728
+#: src-en/data/blueprints.xml.append:730
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_COMBAT_ACE_CONSOLE\"]/title"
 msgstr "王牌黑客终端"
 
-#: src-en/data/blueprints.xml.append:729
+#: src-en/data/blueprints.xml.append:731
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_COMBAT_ACE_CONSOLE\"]/desc"
 msgstr ""
@@ -711,12 +691,12 @@ msgstr ""
 "\t\t\n"
 "\t\t你从一名 MFK 黑客王牌处掠夺了此物。"
 
-#: src-en/data/blueprints.xml.append:753
+#: src-en/data/blueprints.xml.append:755
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_A_STANDARD_SUITE\"]/title"
 msgstr "标准制式反RK装备"
 
-#: src-en/data/blueprints.xml.append:754
+#: src-en/data/blueprints.xml.append:756
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_A_STANDARD_SUITE\"]/desc"
 msgstr ""
@@ -728,76 +708,76 @@ msgstr ""
 "\t\t[style[color:ff3377]]超光速引擎充能速度降低90%。\n"
 "\t\t无法投降、谈判或违抗命令。[[/style]]"
 
-#: src-en/data/blueprints.xml.append:768
+#: src-en/data/blueprints.xml.append:770
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RKS_POLICE_WARRANT\"]/title"
 msgstr "Z.级警方搜查令"
 
-#: src-en/data/blueprints.xml.append:769
+#: src-en/data/blueprints.xml.append:771
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RKS_POLICE_WARRANT\"]/desc"
 msgstr ""
 "超能警察在拉迪卡尔星区的据点给了你这份授权，允许你盘查可疑的过路人，没收他们的 RK 装备。你也可以把它卖掉。\n"
 "\t[在拉迪卡尔星区的某些信标处提供蓝色选项。]"
 
-#: src-en/data/blueprints.xml.append:786
+#: src-en/data/blueprints.xml.append:788
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"SHIP_RK\"]/title"
 msgstr "拉迪卡尔星舰"
 
-#: src-en/data/blueprints.xml.append:787
+#: src-en/data/blueprints.xml.append:789
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"SHIP_RK\"]/desc"
 msgstr "你永远不应该看到这条信息"
 
-#: src-en/data/blueprints.xml.append:795
+#: src-en/data/blueprints.xml.append:797
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"IS_RK_BAM_GEAR\"]/title"
 msgstr "巴姆星舰及装备"
 
-#: src-en/data/blueprints.xml.append:796
+#: src-en/data/blueprints.xml.append:798
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"IS_RK_BAM_GEAR\"]/desc"
 msgstr "你永远不应该看到这条信息"
 
-#: src-en/data/blueprints.xml.append:803
+#: src-en/data/blueprints.xml.append:805
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"IS_RK_PUNK_GEAR\"]/title"
 msgstr "朋克星舰及装备"
 
-#: src-en/data/blueprints.xml.append:804
+#: src-en/data/blueprints.xml.append:806
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"IS_RK_PUNK_GEAR\"]/desc"
 msgstr "你永远不应该看到这条信息"
 
-#: src-en/data/blueprints.xml.append:811
+#: src-en/data/blueprints.xml.append:813
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"IS_RK_SCORCH_GEAR\"]/title"
 msgstr "灼烧星舰及装备"
 
-#: src-en/data/blueprints.xml.append:812
+#: src-en/data/blueprints.xml.append:814
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"IS_RK_SCORCH_GEAR\"]/desc"
 msgstr "你永远不应该看到这条信息"
 
-#: src-en/data/blueprints.xml.append:819
+#: src-en/data/blueprints.xml.append:821
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"IS_RK_BPS_GEAR\"]/title"
 msgstr "BPS星舰及装备"
 
-#: src-en/data/blueprints.xml.append:820
+#: src-en/data/blueprints.xml.append:822
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"IS_RK_BPS_GEAR\"]/desc"
 msgstr "你永远不应该看到这条信息"
 
-#: src-en/data/blueprints.xml.append:907
+#: src-en/data/blueprints.xml.append:909
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"INTERNAL_RK_CALIBRATOR\"]/title"
 msgstr "校准器"
 
-#: src-en/data/blueprints.xml.append:908
+#: src-en/data/blueprints.xml.append:910
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"INTERNAL_RK_CALIBRATOR\"]/desc"
 msgstr "（RK巴姆装备）你的武器获得 +10% 精准度和 4% 的射速加成。可安装两次。"
 
-#: src-en/data/blueprints.xml.append:915
+#: src-en/data/blueprints.xml.append:917
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"EX_RK_CHOKING_IS_FINE\"]/title"
 msgstr "[X] 憋气冠军。"
 
-#: src-en/data/blueprints.xml.append:916
+#: src-en/data/blueprints.xml.append:918
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"EX_RK_CHOKING_IS_FINE\"]/desc"
 msgstr ""
@@ -809,12 +789,12 @@ msgstr ""
 "\t[X] - 作为外部增强部件，此增强部件将提供其正常效果，但会占用一个增强部件槽位。可在内部升级菜单下免费转换为内置版本。\n"
 "\t不与自身叠加，但与内置版本叠加……"
 
-#: src-en/data/blueprints.xml.append:928
+#: src-en/data/blueprints.xml.append:930
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"INTERNAL_RK_CHOKING_IS_FINE\"]/title"
 msgstr "憋气冠军。"
 
-#: src-en/data/blueprints.xml.append:929
+#: src-en/data/blueprints.xml.append:931
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"INTERNAL_RK_CHOKING_IS_FINE\"]/desc"
 msgstr ""
@@ -823,24 +803,24 @@ msgstr ""
 "\t\t你的船员受到的窒息伤害降低 0.75 倍。\n"
 "\t\t窒息时，他们的移动、破坏、维修和战斗能力提升 1.4 倍。不影响免疫窒息的船员。"
 
-#: src-en/data/blueprints.xml.append:939
+#: src-en/data/blueprints.xml.append:941
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/title"
 msgstr "伪克隆"
 
-#: src-en/data/blueprints.xml.append:940
+#: src-en/data/blueprints.xml.append:942
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/desc"
 msgstr ""
 "（RK朋克装备）这些背包式克隆舱注入了黑暗能量。当你在没有真正的克隆舱时，如果船员死亡（非事件死亡），它们会尝试复活你的船员。\n"
 "\t\t最好的情况是，船员复活为自己较弱的版本（士兵 = 默认人类等）。如果没有较弱的版本存在，他们会变成模物族。当模物族死亡时，则无事发生。"
 
-#: src-en/data/blueprints.xml.append:948
+#: src-en/data/blueprints.xml.append:950
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"EX_DJMOD_DEMICLONER\"]/title"
 msgstr "[X] 伪克隆"
 
-#: src-en/data/blueprints.xml.append:949
+#: src-en/data/blueprints.xml.append:951
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"EX_DJMOD_DEMICLONER\"]/desc"
 msgstr ""
@@ -850,136 +830,134 @@ msgstr ""
 "\t[X] - 作为外部增强部件，此增强部件将提供其正常效果，但会占用一个增强部件槽位。可在内部升级菜单下免费转换为内置版本。\n"
 "\t不与自身叠加，但与内置版本叠加……"
 
-#: src-en/data/blueprints.xml.append:961
+#: src-en/data/blueprints.xml.append:963
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"INTERNAL_DJMOD_MC_PARALYZER\"]/title"
 msgstr "冷静头脑"
 
-#: src-en/data/blueprints.xml.append:962
+#: src-en/data/blueprints.xml.append:964
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"INTERNAL_DJMOD_MC_PARALYZER\"]/desc"
-msgstr ""
-"当受到心灵控制效果影响时，你的船员无法战斗、使用能力,破坏或传送离开。对双方飞"
-"船都有效。"
+msgstr "当受到心灵控制效果影响时，你的船员无法战斗、使用能力,破坏或传送离开。对双方飞船都有效。"
 
-#: src-en/data/blueprints.xml.append:970
+#: src-en/data/blueprints.xml.append:972
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"INTERNAL_RK_IN_FIRE_CREWBOOSTS\"]/title"
 msgstr "浴火裹布"
 
-#: src-en/data/blueprints.xml.append:971
+#: src-en/data/blueprints.xml.append:973
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"INTERNAL_RK_IN_FIRE_CREWBOOSTS\"]/desc"
 msgstr "在火焰中，你的船员移动和破坏速度为 1.75 倍，战斗和门伤害为 1.75 倍。对双方飞船都有效。"
 
-#: src-en/data/blueprints.xml.append:979
+#: src-en/data/blueprints.xml.append:981
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"INTERNAL_DJMOD_MC_IMMUNE_FROM_FIRE\"]/title"
 msgstr "心灵加热器"
 
-#: src-en/data/blueprints.xml.append:980
+#: src-en/data/blueprints.xml.append:982
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"INTERNAL_DJMOD_MC_IMMUNE_FROM_FIRE\"]/desc"
 msgstr "在火焰中，你的船员免疫心灵控制并会被治愈，眩晕时间缩短 50%，并揭示相邻舱室。对双方飞船都有效。"
 
-#: src-en/data/blueprints.xml.append:1033
+#: src-en/data/blueprints.xml.append:1035
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"JUDGE_BOON_RK_BAM_CREW\"]/title"
 msgstr "RK 巴姆的恩惠"
 
-#: src-en/data/blueprints.xml.append:1034
+#: src-en/data/blueprints.xml.append:1036
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"JUDGE_BOON_RK_BAM_CREW\"]/desc"
 msgstr "拉迪卡尔成员额外获得 29 点生命值，战斗伤害提高 1.1 倍。"
 
-#: src-en/data/blueprints.xml.append:1040
+#: src-en/data/blueprints.xml.append:1042
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"JUDGE_BOON_RK_PUNK_CREW\"]/title"
 msgstr "RK 朋克的恩惠"
 
-#: src-en/data/blueprints.xml.append:1041
+#: src-en/data/blueprints.xml.append:1043
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"JUDGE_BOON_RK_PUNK_CREW\"]/desc"
 msgstr "拉迪卡尔成员治疗和克隆速度提高 40%。"
 
-#: src-en/data/blueprints.xml.append:1047
+#: src-en/data/blueprints.xml.append:1049
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"JUDGE_BOON_RK_SCORCH_CREW\"]/title"
 msgstr "RK 灼烧的恩惠"
 
-#: src-en/data/blueprints.xml.append:1048
+#: src-en/data/blueprints.xml.append:1050
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"JUDGE_BOON_RK_SCORCH_CREW\"]/desc"
 msgstr "在火焰中，拉迪卡尔成员获得 1.3 倍移动速度和战斗伤害加成。"
 
-#: src-en/data/blueprints.xml.append:1107
+#: src-en/data/blueprints.xml.append:1109
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"JUDGE_BOON_RK_BAM_EQUIPMENT\"]/title"
 msgstr "拉迪卡尔坚韧的祝福"
 
-#: src-en/data/blueprints.xml.append:1108
+#: src-en/data/blueprints.xml.append:1110
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"JUDGE_BOON_RK_BAM_EQUIPMENT\"]/desc"
 msgstr "抵抗敌方武器造成的船体、系统和离子伤害的几率 +8%。"
 
-#: src-en/data/blueprints.xml.append:1115
+#: src-en/data/blueprints.xml.append:1117
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"JUDGE_BOON_RK_PUNK_EQUIPMENT\"]/title"
 msgstr "拉迪卡尔狡黠的祝福"
 
-#: src-en/data/blueprints.xml.append:1116
+#: src-en/data/blueprints.xml.append:1118
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"JUDGE_BOON_RK_PUNK_EQUIPMENT\"]/desc"
 msgstr "你的系统维修速度为 1.3 倍。"
 
-#: src-en/data/blueprints.xml.append:1122
+#: src-en/data/blueprints.xml.append:1124
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"JUDGE_BOON_RK_SCORCH_EQUIPMENT\"]/title"
 msgstr "拉迪卡尔狂热的祝福"
 
-#: src-en/data/blueprints.xml.append:1123
+#: src-en/data/blueprints.xml.append:1125
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"JUDGE_BOON_RK_SCORCH_EQUIPMENT\"]/desc"
 msgstr "武器充能速度和闪避率 +8%。"
 
-#: src-en/data/blueprints.xml.append:1129
+#: src-en/data/blueprints.xml.append:1131
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"JUDGE_BOON_RK_BPS_EQUIPMENT\"]/title"
 msgstr "拉迪卡尔工程的祝福"
 
-#: src-en/data/blueprints.xml.append:1130
+#: src-en/data/blueprints.xml.append:1132
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"JUDGE_BOON_RK_BPS_EQUIPMENT\"]/desc"
 msgstr "抵抗敌方武器造成的船体、系统和离子伤害的几率 +4%，系统维修速度 1.15 倍，武器充能速度和闪避率 +4%。"
 
-#: src-en/data/blueprints.xml.append:1232
+#: src-en/data/blueprints.xml.append:1234
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"DJMOD_BAM_FISSUREBEAM\"]/title"
 msgstr "“巴达”裂隙光束"
 
-#: src-en/data/blueprints.xml.append:1233
+#: src-en/data/blueprints.xml.append:1235
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"DJMOD_BAM_FISSUREBEAM\"]/short"
 msgstr "“巴达”光束"
 
-#: src-en/data/blueprints.xml.append:1234
+#: src-en/data/blueprints.xml.append:1236
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"DJMOD_BAM_FISSUREBEAM\"]/desc"
 msgstr ""
 "（RK巴姆装备）最多可击中 3-5 个舱室，威力足以摧毁系统或飞船。\n"
 "\t\t裂隙光束按格子造成伤害，而非按舱室。"
 
-#: src-en/data/blueprints.xml.append:1289
+#: src-en/data/blueprints.xml.append:1291
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_HEAVY_POPPER_1\"]/title"
 msgstr "重型爆裂 I"
 
-#: src-en/data/blueprints.xml.append:1290
+#: src-en/data/blueprints.xml.append:1292
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_HEAVY_POPPER_1\"]/short"
 msgstr "重型爆裂 I"
 
-#: src-en/data/blueprints.xml.append:1291
+#: src-en/data/blueprints.xml.append:1293
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_HEAVY_POPPER_1\"]/desc"
 msgstr ""
@@ -987,17 +965,17 @@ msgstr ""
 "\t\t[style[color:ff3377]]你的每个系统每次射击有 5% 几率受到 1 点系统伤害！[[/style]]\n"
 "\t\t重型爆裂虽然不精准且射速慢，但能击穿 2 层护盾并有额外破舱几率。"
 
-#: src-en/data/blueprints.xml.append:1347
+#: src-en/data/blueprints.xml.append:1349
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_HEAVY_POPPER_2\"]/title"
 msgstr "重型爆裂 II"
 
-#: src-en/data/blueprints.xml.append:1348
+#: src-en/data/blueprints.xml.append:1350
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_HEAVY_POPPER_2\"]/short"
 msgstr "重型爆裂 II"
 
-#: src-en/data/blueprints.xml.append:1349
+#: src-en/data/blueprints.xml.append:1351
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_HEAVY_POPPER_2\"]/desc"
 msgstr ""
@@ -1005,17 +983,17 @@ msgstr ""
 "\t\t[style[color:ff3377]]你的每个系统每次射击有 4% 几率受到 1 点系统伤害！[[/style]]\n"
 "\t\t重型爆裂虽然不精准且射速慢，但能击穿 2 层护盾并有额外破舱几率。"
 
-#: src-en/data/blueprints.xml.append:1447
+#: src-en/data/blueprints.xml.append:1449
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_HEAVY_POPPER_3\"]/title"
 msgstr "重型爆裂 III"
 
-#: src-en/data/blueprints.xml.append:1448
+#: src-en/data/blueprints.xml.append:1450
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_HEAVY_POPPER_3\"]/short"
 msgstr "重型爆裂 III"
 
-#: src-en/data/blueprints.xml.append:1449
+#: src-en/data/blueprints.xml.append:1451
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_HEAVY_POPPER_3\"]/desc"
 msgstr ""
@@ -1023,29 +1001,29 @@ msgstr ""
 "\t\t[style[color:ff3377]]你的每个系统每次射击有 3% 几率受到 1 点系统伤害！[[/style]]\n"
 "\t\t重型爆裂虽然不精准且射速慢，但能击穿 2 层护盾并有额外破舱几率。"
 
-#: src-en/data/blueprints.xml.append:1505
+#: src-en/data/blueprints.xml.append:1507
 msgid "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_UNLOADER\"]/title"
 msgstr "“卸载器”导弹"
 
-#: src-en/data/blueprints.xml.append:1506
+#: src-en/data/blueprints.xml.append:1508
 msgid "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_UNLOADER\"]/short"
 msgstr "卸载器"
 
-#: src-en/data/blueprints.xml.append:1507
+#: src-en/data/blueprints.xml.append:1509
 msgid "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_UNLOADER\"]/desc"
 msgstr "（RK巴姆装备）人们问“为什么要把所有这些预充能的莱托导弹放在一个超级冷却旋转导弹装载器里？”巴姆的回答是“我们拿到了超棒的批量折扣”"
 
-#: src-en/data/blueprints.xml.append:1553
+#: src-en/data/blueprints.xml.append:1555
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_BOMBLAUNCHER_ANTIBIO_REPAIR\"]/title"
 msgstr "辐射修复炸弹"
 
-#: src-en/data/blueprints.xml.append:1554
+#: src-en/data/blueprints.xml.append:1556
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_BOMBLAUNCHER_ANTIBIO_REPAIR\"]/short"
 msgstr "辐射修复炸弹。"
 
-#: src-en/data/blueprints.xml.append:1556
+#: src-en/data/blueprints.xml.append:1558
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_BOMBLAUNCHER_ANTIBIO_REPAIR\"]/desc"
 msgstr ""
@@ -1053,17 +1031,17 @@ msgstr ""
 "\t\t\n"
 "\t\t可以以你自己的飞船为目标。集能武器本身不消耗电力，但需要系统本身有电力供应。"
 
-#: src-en/data/blueprints.xml.append:1802
+#: src-en/data/blueprints.xml.append:1804
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_KILLALL_BEAM\"]/title"
 msgstr "“墓志铭”辐射光束"
 
-#: src-en/data/blueprints.xml.append:1803
+#: src-en/data/blueprints.xml.append:1805
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_KILLALL_BEAM\"]/short"
 msgstr "墓志铭"
 
-#: src-en/data/blueprints.xml.append:1804
+#: src-en/data/blueprints.xml.append:1806
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_KILLALL_BEAM\"]/desc"
 msgstr ""
@@ -1071,65 +1049,95 @@ msgstr ""
 "穿透 2 层护盾，每次发射后 +1。（最高 6 层穿透。忽略工具提示）\n"
 "[style[color:ff3377]]警告：每次发射后对你舰船上的所有船员造成 15 点伤害！[[/style]]（最高 60）"
 
-#: src-en/data/blueprints.xml.append:1852
+#: src-en/data/blueprints.xml.append:1854
+msgid ""
+"data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_KILLALL_BEAM_ELITE\"]/title"
+msgstr ""
+
+#: src-en/data/blueprints.xml.append:1855
+msgid ""
+"data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_KILLALL_BEAM_ELITE\"]/short"
+msgstr ""
+
+#: src-en/data/blueprints.xml.append:1856
+msgid ""
+"data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_KILLALL_BEAM_ELITE\"]/desc"
+msgstr ""
+
+#: src-en/data/blueprints.xml.append:1901
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_MISSLAUNCHER_2_BATTERY\"]/title"
 msgstr "'月神'电池导弹"
 
-#: src-en/data/blueprints.xml.append:1853
+#: src-en/data/blueprints.xml.append:1902
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_MISSLAUNCHER_2_BATTERY\"]/short"
 msgstr "'电池月神。'"
 
-#: src-en/data/blueprints.xml.append:1854
+#: src-en/data/blueprints.xml.append:1903
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_MISSLAUNCHER_2_BATTERY\"]/desc"
 msgstr "（RK朋克装备）经典的月神导弹经过改进以提供电力，代价是牺牲部分性能。"
 
-#: src-en/data/blueprints.xml.append:2056
+#: src-en/data/blueprints.xml.append:2105
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_RAIN_OF_ION\"]/title"
 msgstr "离子之雨"
 
-#: src-en/data/blueprints.xml.append:2057
+#: src-en/data/blueprints.xml.append:2106
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_RAIN_OF_ION\"]/short"
 msgstr "离子雨"
 
-#: src-en/data/blueprints.xml.append:2059
+#: src-en/data/blueprints.xml.append:2108
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_RAIN_OF_ION\"]/desc"
 msgstr ""
 "（RK朋克装备）此重型散射炮会同时发射加速相位离子、重型离子、火焰离子、普通离子、眩晕离子和辐射离子（从最快到最慢）。链式冷却。\n"
 "拥有多把武器合起来的蓝色选项价值！"
 
-#: src-en/data/blueprints.xml.append:2135
+#: src-en/data/blueprints.xml.append:2184
+msgid ""
+"data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_RAIN_OF_ION_ELITE\"]/title"
+msgstr ""
+
+#: src-en/data/blueprints.xml.append:2185
+msgid ""
+"data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_RAIN_OF_ION_ELITE\"]/short"
+msgstr "离子雨"
+
+#: src-en/data/blueprints.xml.append:2187
+msgid ""
+"data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_RAIN_OF_ION_ELITE\"]/desc"
+msgstr ""
+
+#: src-en/data/blueprints.xml.append:2253
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_SHOTPHASER\"]/title"
 msgstr "相位破片"
 
-#: src-en/data/blueprints.xml.append:2136
+#: src-en/data/blueprints.xml.append:2254
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_SHOTPHASER\"]/short"
 msgstr "相位破片"
 
-#: src-en/data/blueprints.xml.append:2138
+#: src-en/data/blueprints.xml.append:2256
 msgid "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_SHOTPHASER\"]/desc"
 msgstr ""
 "（RK朋克装备）此散射炮在一个范围内发射 3 发大幅加速的相位离子，有不错的几率造成眩晕。\n"
 "相位武器穿透护盾，对第一层护盾造成离子伤害，并对击中的任何系统造成额外伤害。"
 
-#: src-en/data/blueprints.xml.append:2202
+#: src-en/data/blueprints.xml.append:2320
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_BOMBLAUNCHER_OXYBOTTLE\"]/title"
 msgstr "氧气炸弹"
 
-#: src-en/data/blueprints.xml.append:2203
+#: src-en/data/blueprints.xml.append:2321
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_BOMBLAUNCHER_OXYBOTTLE\"]/short"
 msgstr "氧气炸弹。"
 
-#: src-en/data/blueprints.xml.append:2205
+#: src-en/data/blueprints.xml.append:2323
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_BOMBLAUNCHER_OXYBOTTLE\"]/desc"
 msgstr ""
@@ -1139,129 +1147,138 @@ msgstr ""
 "\t\t\n"
 "\t\t可以以你自己的飞船为目标。集能武器本身不消耗电力，但需要系统本身有电力供应。"
 
-#: src-en/data/blueprints.xml.append:2236
+#: src-en/data/blueprints.xml.append:2354
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_BOMBLAUNCHER_OXYBOTTLE\"]/spawnCrew/name"
 msgstr "氧气"
 
-#: src-en/data/blueprints.xml.append:2302
+#: src-en/data/blueprints.xml.append:2420
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_OXY_FIREFILL_MISSILES\"]/title"
 msgstr "烟囱"
 
-#: src-en/data/blueprints.xml.append:2303
+#: src-en/data/blueprints.xml.append:2421
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_OXY_FIREFILL_MISSILES\"]/short"
 msgstr "烟囱"
 
-#: src-en/data/blueprints.xml.append:2304
+#: src-en/data/blueprints.xml.append:2422
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_OXY_FIREFILL_MISSILES\"]/desc"
 msgstr ""
-"（RK 灼烧装备）装填了过量的火。还会掉落一瓶装氧气。[style[color:ff3377]]每次"
-"射击都会点燃你的武器舱！[[/style]]\n"
+"（RK 灼烧装备）装填了过量的火。还会掉落一瓶装氧气。[style[color:ff3377]]每次射击都会点燃你的武器舱！[[/style]]\n"
 "\t\t灼烧有一句格言：“有问题？直接送他们上烟囱！”"
 
-#: src-en/data/blueprints.xml.append:2337
+#: src-en/data/blueprints.xml.append:2455
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_OXY_FIREFILL_MISSILES\"]/spawnCrew/name"
 msgstr "氧气"
 
-#: src-en/data/blueprints.xml.append:2413
+#: src-en/data/blueprints.xml.append:2531
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_FOCUS_FIRE\"]/title"
 msgstr "热烙铁"
 
-#: src-en/data/blueprints.xml.append:2414
+#: src-en/data/blueprints.xml.append:2532
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_FOCUS_FIRE\"]/short"
 msgstr "热烙铁"
 
-#: src-en/data/blueprints.xml.append:2415
+#: src-en/data/blueprints.xml.append:2533
 msgid "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_FOCUS_FIRE\"]/desc"
 msgstr ""
-"（RK 灼烧装备）谁说光点武器就需要精准？制造这把火焰爆破粒子光点的人肯定不这么"
-"认为。\n"
+"（RK 灼烧装备）谁说光点武器就需要精准？制造这把火焰爆破粒子光点的人肯定不这么认为。\n"
 "\n"
 "\t\t除了系统伤害外，还会将目标舱室完全点燃。\n"
-"\t\t[火焰爆破：若目标舱室已着火，相邻舱室（包括对角线）将受到：1 点系统伤害"
-"和 15 点船员伤害，并引发火灾。别打中你的登舰者！]"
+"\t\t[火焰爆破：若目标舱室已着火，相邻舱室（包括对角线）将受到：1 点系统伤害和 15 点船员伤害，并引发火灾。别打中你的登舰者！]"
 
-#: src-en/data/blueprints.xml.append:2509
+#: src-en/data/blueprints.xml.append:2627
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"DJMOD_RAIN_OF_FIRE\"]/title"
 msgstr "火雨"
 
-#: src-en/data/blueprints.xml.append:2510
+#: src-en/data/blueprints.xml.append:2628
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"DJMOD_RAIN_OF_FIRE\"]/short"
 msgstr "火雨"
 
-#: src-en/data/blueprints.xml.append:2511
+#: src-en/data/blueprints.xml.append:2629
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"DJMOD_RAIN_OF_FIRE\"]/desc"
 msgstr ""
 "（RK灼烧装备）这款发射器的灼烧效果极佳，在完全链式时能够使无氧舱室保持燃烧。\n"
 "无伤害，但可穿透护盾和能量护盾。"
 
-#: src-en/data/blueprints.xml.append:2570
+#: src-en/data/blueprints.xml.append:2688
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"DJMOD_RAIN_OF_FIRE_ENEMYFIX\"]/title"
 msgstr "火雨"
 
-#: src-en/data/blueprints.xml.append:2571
+#: src-en/data/blueprints.xml.append:2689
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"DJMOD_RAIN_OF_FIRE_ENEMYFIX\"]/short"
 msgstr "火雨"
 
-#: src-en/data/blueprints.xml.append:2572
+#: src-en/data/blueprints.xml.append:2690
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"DJMOD_RAIN_OF_FIRE_ENEMYFIX\"]/desc"
 msgstr "你永远不应该看到这条信息。为避免因 AI 瞄准方式导致（射击数 > 玩家飞船舱室数）时游戏卡死，射击次数限制为 3 次且冷却时间已缩短。"
 
-#: src-en/data/blueprints.xml.append:2623
+#: src-en/data/blueprints.xml.append:2741
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_BPS_FOCUS_STATUS\"]/title"
 msgstr "BPS 匕首光点"
 
-#: src-en/data/blueprints.xml.append:2624
+#: src-en/data/blueprints.xml.append:2742
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_BPS_FOCUS_STATUS\"]/short"
 msgstr "'BPS 匕首.'"
 
-#: src-en/data/blueprints.xml.append:2625
+#: src-en/data/blueprints.xml.append:2743
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_BPS_FOCUS_STATUS\"]/desc"
-msgstr ""
-"（RK BPS 装备）一把更弱但更烦人的匕首光点，来自一支拉迪卡尔联合团队：同时引发"
-"火灾、破舱、眩晕和黑客攻击。"
+msgstr "（RK BPS 装备）一把更弱但更烦人的匕首光点，来自一支拉迪卡尔联合团队：同时引发火灾、破舱、眩晕和黑客攻击。"
 
-#: src-en/data/blueprints.xml.append:2694
+#: src-en/data/blueprints.xml.append:2812
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"DJMOD_LASER_BPS\"]/title"
 msgstr "BPS 信使"
 
-#: src-en/data/blueprints.xml.append:2695
+#: src-en/data/blueprints.xml.append:2813
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"DJMOD_LASER_BPS\"]/short"
 msgstr "BPS 信使"
 
-#: src-en/data/blueprints.xml.append:2696
+#: src-en/data/blueprints.xml.append:2814
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"DJMOD_LASER_BPS\"]/desc"
 msgstr ""
-"（RK BPS 装备）在拉迪卡尔星区经过调整的穿透重型武器：巴姆将眩晕替换为反舰体，"
-"朋克添加了离子和船员伤害，灼烧使其能够点燃和链式，但不再造成破舱。"
+"（RK BPS 装备）在拉迪卡尔星区经过调整的穿透重型武器：巴姆将眩晕替换为反舰体，朋克添加了离子和船员伤害，灼烧使其能够点燃和链式，但不再造成破舱。"
 
-#: src-en/data/blueprints.xml.append:2767
+#: src-en/data/blueprints.xml.append:2875
+msgid ""
+"data/blueprints.xml.append$//weaponBlueprint[@name=\"DJMOD_LASER_BPS_ELITE\"]/title"
+msgstr ""
+
+#: src-en/data/blueprints.xml.append:2876
+msgid ""
+"data/blueprints.xml.append$//weaponBlueprint[@name=\"DJMOD_LASER_BPS_ELITE\"]/short"
+msgstr "BPS 信使"
+
+#: src-en/data/blueprints.xml.append:2877
+msgid ""
+"data/blueprints.xml.append$//weaponBlueprint[@name=\"DJMOD_LASER_BPS_ELITE\"]/desc"
+msgstr ""
+
+#: src-en/data/blueprints.xml.append:2942
 msgid "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_A_LASER_1\"]/title"
 msgstr "“体面”反 RK 激光"
 
-#: src-en/data/blueprints.xml.append:2768
+#: src-en/data/blueprints.xml.append:2943
 msgid "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_A_LASER_1\"]/short"
 msgstr "“体面”"
 
-#: src-en/data/blueprints.xml.append:2769
+#: src-en/data/blueprints.xml.append:2944
 msgid "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_A_LASER_1\"]/desc"
 msgstr ""
 "（反RK装备）链式冷却次数多但速度慢，且目标身上每有一件 RK 武器，就额外造成 1 点伤害。\n"
@@ -1269,17 +1286,17 @@ msgstr ""
 "\t\t\n"
 "\t\t集能武器本身不消耗能量，但需要系统本身有能量供应。"
 
-#: src-en/data/blueprints.xml.append:2859
+#: src-en/data/blueprints.xml.append:3034
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_A_MISSLAUNCHER\"]/title"
 msgstr "“度量”反 RK 导弹"
 
-#: src-en/data/blueprints.xml.append:2860
+#: src-en/data/blueprints.xml.append:3035
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_A_MISSLAUNCHER\"]/short"
 msgstr "“度量”"
 
-#: src-en/data/blueprints.xml.append:2861
+#: src-en/data/blueprints.xml.append:3036
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_A_MISSLAUNCHER\"]/desc"
 msgstr ""
@@ -1288,244 +1305,257 @@ msgstr ""
 "\n"
 "\t\t这款专用发射器能将无用资源转化为导弹。然而，每场战斗只能发射有限次数。"
 
-#: src-en/data/blueprints.xml.append:2962
+#: src-en/data/blueprints.xml.append:3137
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_ARTILLERY_FLAK_QUICK\"]/title"
 msgstr "破片巨炮"
 
-#: src-en/data/blueprints.xml.append:2963
+#: src-en/data/blueprints.xml.append:3138
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_ARTILLERY_FLAK_QUICK\"]/short"
 msgstr "巨炮"
 
-#: src-en/data/blueprints.xml.append:2964
+#: src-en/data/blueprints.xml.append:3139
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_ARTILLERY_FLAK_QUICK\"]/desc"
 msgstr ""
 "巨炮：发射 4 发破片抛射物，每发造成 1 点伤害，散布半径 50。\n"
 "基础冷却：20"
 
-#: src-en/data/blueprints.xml.append:3010
+#: src-en/data/blueprints.xml.append:3185
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"DJMOD_ARTILLERY_LASER_PARTICLE\"]/title"
 msgstr "粒子巨炮"
 
-#: src-en/data/blueprints.xml.append:3011
+#: src-en/data/blueprints.xml.append:3186
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"DJMOD_ARTILLERY_LASER_PARTICLE\"]/short"
 msgstr "巨炮"
 
-#: src-en/data/blueprints.xml.append:3012
+#: src-en/data/blueprints.xml.append:3187
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"DJMOD_ARTILLERY_LASER_PARTICLE\"]/desc"
 msgstr ""
 "巨炮：发射 6 发粒子激光，每发造成 2 点系统伤害和 15 点船员伤害，穿透 1 层护盾且永不落空。\n"
 "基础冷却：25"
 
-#: src-en/data/blueprints.xml.append:3014
+#: src-en/data/blueprints.xml.append:3189
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"DJMOD_ARTILLERY_LASER_PARTICLE\"]/tooltip"
 msgstr "巨炮：[冷却：25秒] 发射 6 发粒子激光，每发造成 2 点系统伤害和 15 点船员伤害，穿透 1 层护盾且永不落空。"
 
-#: src-en/data/blueprints.xml.append:3053
+#: src-en/data/blueprints.xml.append:3228
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"DJMOD_ARTILLERY_MISSILE_FIRE\"]/title"
 msgstr "火焰导弹巨炮"
 
-#: src-en/data/blueprints.xml.append:3054
+#: src-en/data/blueprints.xml.append:3229
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"DJMOD_ARTILLERY_MISSILE_FIRE\"]/short"
 msgstr "巨炮"
 
-#: src-en/data/blueprints.xml.append:3055
+#: src-en/data/blueprints.xml.append:3230
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"DJMOD_ARTILLERY_MISSILE_FIRE\"]/desc"
 msgstr ""
 "巨炮：发射 3 枚导弹，每枚造成 1 点船体伤害，必定引发火灾且永不落空。\n"
 "基础冷却：28"
 
-#: src-en/data/blueprints.xml.append:3057
+#: src-en/data/blueprints.xml.append:3232
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"DJMOD_ARTILLERY_MISSILE_FIRE\"]/tooltip"
 msgstr "巨炮：[冷却：28秒] 发射 3 枚导弹，每枚造成 1 点船体伤害，必定引发火灾且永不落空。"
 
-#: src-en/data/blueprints.xml.append:3106
+#: src-en/data/blueprints.xml.append:3315
+msgid ""
+"data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_DRONE_SHOTPHASER\"]/title"
+msgstr "相位破片"
+
+#: src-en/data/blueprints.xml.append:3441
+msgid ""
+"data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_DRONE_BOMBLAUNCHER_OXYBOTTLE\"]/title"
+msgstr "氧气炸弹"
+
+#: src-en/data/blueprints.xml.append:3456
+msgid ""
+"data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_DRONE_BOMBLAUNCHER_OXYBOTTLE\"]/spawnCrew/name"
+msgstr "氧气"
+
+#: src-en/data/blueprints.xml.append:3526
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_WEAPONLIKE_SURGEBOMB\"]/title"
 msgstr "炸弹涌动"
 
-#: src-en/data/blueprints.xml.append:3107
+#: src-en/data/blueprints.xml.append:3527
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_WEAPONLIKE_SURGEBOMB\"]/short"
 msgstr "炸弹涌动"
 
-#: src-en/data/blueprints.xml.append:3108
+#: src-en/data/blueprints.xml.append:3528
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_WEAPONLIKE_SURGEBOMB\"]/desc"
 msgstr "永不可见。用于 surge 充能的船员能力。基于 ANCIENT_BOMB。"
 
-#: src-en/data/blueprints.xml.append:3154
+#: src-en/data/blueprints.xml.append:3574
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_DJMOD_RAMMER\"]/class"
 msgstr "拉迪卡尔·巴姆星舰"
 
-#: src-en/data/blueprints.xml.append:3155
+#: src-en/data/blueprints.xml.append:3575
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_DJMOD_RAMMER\"]/name"
 msgstr "陷阵之志"
 
-#: src-en/data/blueprints.xml.append:3156
+#: src-en/data/blueprints.xml.append:3576
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_DJMOD_RAMMER\"]/desc"
 msgstr ""
 "拉迪卡尔·巴姆的旗舰为武器留出的空间有限，但它已准备好安全*地撞击敌舰，然后将其吞噬！\n"
 "*此说法的可信度需要查证"
 
-#: src-en/data/blueprints.xml.append:3233
+#: src-en/data/blueprints.xml.append:3653
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_DJMOD_RAMMER_2\"]/class"
 msgstr "拉迪卡尔·巴姆星舰"
 
-#: src-en/data/blueprints.xml.append:3234
+#: src-en/data/blueprints.xml.append:3654
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_DJMOD_RAMMER_2\"]/name"
 msgstr "冲撞狂潮"
 
-#: src-en/data/blueprints.xml.append:3235
+#: src-en/data/blueprints.xml.append:3655
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_DJMOD_RAMMER_2\"]/desc"
 msgstr "这艘拉迪卡尔·巴姆旗舰牺牲了各种防御，以换取快速、盲目、难以持续的毁灭力量。最大武器电力：10。"
 
-#: src-en/data/blueprints.xml.append:3314
+#: src-en/data/blueprints.xml.append:3734
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_DJMOD_PUNKER\"]/class"
 msgstr "拉迪卡尔·朋克星舰"
 
-#: src-en/data/blueprints.xml.append:3315
+#: src-en/data/blueprints.xml.append:3735
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_DJMOD_PUNKER\"]/name"
 msgstr "朋克号"
 
-#: src-en/data/blueprints.xml.append:3316
+#: src-en/data/blueprints.xml.append:3736
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_DJMOD_PUNKER\"]/desc"
 msgstr ""
 "一艘由轨道粒子加速空间站改造而成的星舰，正是拉迪卡尔·朋克的旗舰。利用其扩容后的反应堆，以更便宜的升级为黑客系统和粒子巨炮提供动力，赶在内部故障让你变成废铁之前。"
 
-#: src-en/data/blueprints.xml.append:3390
+#: src-en/data/blueprints.xml.append:3810
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_DJMOD_PUNKER_2\"]/class"
 msgstr "拉迪卡尔·朋克星舰"
 
-#: src-en/data/blueprints.xml.append:3391
+#: src-en/data/blueprints.xml.append:3811
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_DJMOD_PUNKER_2\"]/name"
 msgstr "新谐合"
 
-#: src-en/data/blueprints.xml.append:3392
+#: src-en/data/blueprints.xml.append:3812
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_DJMOD_PUNKER_2\"]/desc"
 msgstr "那个未经指示就擅自重新设计这艘飞船的山寨谐合器坚称这是“你们这些生物污渍无法欣赏的巅峰设计！！”请远离真正的半械谐合器。胜利后删除。"
 
-#: src-en/data/blueprints.xml.append:3466
+#: src-en/data/blueprints.xml.append:3886
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_RK_SCORCHER\"]/class"
 msgstr "拉迪卡尔灼烧星舰"
 
-#: src-en/data/blueprints.xml.append:3467
+#: src-en/data/blueprints.xml.append:3887
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_RK_SCORCHER\"]/name"
 msgstr "灼烧"
 
-#: src-en/data/blueprints.xml.append:3469
+#: src-en/data/blueprints.xml.append:3889
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_RK_SCORCHER\"]/desc"
 msgstr "拉迪卡尔·灼烧的旗舰存在明显的结构弱点，但如果你全力以赴，它通过对其技术的致命运用弥补了这一点。"
 
-#: src-en/data/blueprints.xml.append:3541
+#: src-en/data/blueprints.xml.append:3961
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_RK_SCORCHER_2\"]/class"
 msgstr "拉迪卡尔灼烧星舰"
 
-#: src-en/data/blueprints.xml.append:3542
+#: src-en/data/blueprints.xml.append:3962
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_RK_SCORCHER_2\"]/name"
 msgstr "灼热燃烧"
 
-#: src-en/data/blueprints.xml.append:3544
+#: src-en/data/blueprints.xml.append:3964
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_RK_SCORCHER_2\"]/desc"
 msgstr "负责这艘自卫飞船的精英船员们在招募其他人参加他们的大入侵时遇到了困难。希望敌方的登舰者在破坏任何东西之前就死掉。"
 
-#: src-en/data/blueprints.xml.append:3617
+#: src-en/data/blueprints.xml.append:4037
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_RK_SCORCHER_3\"]/class"
 msgstr "拉迪卡尔灼烧星舰"
 
-#: src-en/data/blueprints.xml.append:3618
+#: src-en/data/blueprints.xml.append:4038
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_RK_SCORCHER_3\"]/name"
 msgstr "空气凤凰"
 
-#: src-en/data/blueprints.xml.append:3620
+#: src-en/data/blueprints.xml.append:4040
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_RK_SCORCHER_3\"]/desc"
 msgstr ""
 "一名助手说“为什么这艘船不能有氧气系统？这船看起来要么得赶紧跃迁，要么就快散架了。而且你不觉得那只鸟有点像是多元联邦的吗？”他们的残骸从未被找到。最大武器电力：10。"
 
-#: src-en/data/blueprints.xml.append:3691
+#: src-en/data/blueprints.xml.append:4111
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_DJMOD_SCORCH\"]/class"
 msgstr "拉迪卡尔·灼烧星舰"
 
-#: src-en/data/blueprints.xml.append:3692
+#: src-en/data/blueprints.xml.append:4112
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_DJMOD_SCORCH\"]/name"
 msgstr "灼烧原型"
 
-#: src-en/data/blueprints.xml.append:3694
+#: src-en/data/blueprints.xml.append:4114
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_DJMOD_SCORCH\"]/desc"
 msgstr "这艘原型拉迪卡尔·灼烧旗舰已被更新的版本所取代。"
 
-#: src-en/data/blueprints.xml.append:3767
+#: src-en/data/blueprints.xml.append:4187
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_RK_LEAD_TITANS_USER\"]/class"
 msgstr "RK 巴姆泰坦运输船"
 
-#: src-en/data/blueprints.xml.append:3768
+#: src-en/data/blueprints.xml.append:4188
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_RK_LEAD_TITANS_USER\"]/name"
 msgstr "星云惊吓"
 
-#: src-en/data/blueprints.xml.append:3769
+#: src-en/data/blueprints.xml.append:4189
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_RK_LEAD_TITANS_USER\"]/desc"
 msgstr "当拉迪卡尔成员发现竞争对手或警察的防御工事时，泰坦就会降临，以强力手段压制对手。让它这一次为正义事业而战。"
 
-#: src-en/data/blueprints.xml.append:3770
+#: src-en/data/blueprints.xml.append:4190
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_RK_LEAD_TITANS_USER\"]/unlock"
 msgstr "在拉迪卡尔星区击杀一名危险舰船上的全部船员。"
 
-#: src-en/data/blueprints.xml.append:3844
+#: src-en/data/blueprints.xml.append:4264
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_RK_GRAVESPRED_USER\"]/class"
 msgstr "RK 朋克灭绝者"
 
-#: src-en/data/blueprints.xml.append:3845
+#: src-en/data/blueprints.xml.append:4265
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_RK_GRAVESPRED_USER\"]/name"
 msgstr "白板"
 
-#: src-en/data/blueprints.xml.append:3846
+#: src-en/data/blueprints.xml.append:4266
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_RK_GRAVESPRED_USER\"]/desc"
-msgstr ""
-"小巧。杀人。没有感觉。当拉迪卡尔成员需要与前盟友断绝关系时，就会派出它。不幸"
-"的是，它无法容纳通常的系统。"
+msgstr "小巧。杀人。没有感觉。当拉迪卡尔成员需要与前盟友断绝关系时，就会派出它。不幸的是，它无法容纳通常的系统。"
 
-#: src-en/data/blueprints.xml.append:3847
+#: src-en/data/blueprints.xml.append:4267
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_RK_GRAVESPRED_USER\"]/unlock"
 msgstr "在拉迪卡尔星区摧毁一个危险的敌人，然后做出正确的选择。"

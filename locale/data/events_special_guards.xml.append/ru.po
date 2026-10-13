@@ -358,20 +358,45 @@ msgstr ""
 
 #: src-en/data/events_special_guards.xml.append:318
 msgid ""
-"data/events_special_guards.xml.append$//event[@name=\"GUARD_RADIKAL_DEADCREW\"]/choice/text"
-msgstr "Продолжить..."
+"data/events_special_guards.xml.append$//event[@name=\"GUARD_RADIKAL_DEADCREW\"]/choice[@req=\"DJMOD_LASER_BPS\"]/text"
+msgstr ""
 
 #: src-en/data/events_special_guards.xml.append:320
 msgid ""
-"data/events_special_guards.xml.append$//event[@name=\"GUARD_RADIKAL_DEADCREW\"]/choice/event/text"
-msgstr "Вы нашли запасные детали для оборудования РадиКал!"
+"data/events_special_guards.xml.append$//event[@name=\"GUARD_RADIKAL_DEADCREW\"]/choice[@req=\"DJMOD_LASER_BPS\"]/event/text"
+msgstr ""
 
-#: src-en/data/events_special_guards.xml.append:323
+#: src-en/data/events_special_guards.xml.append:326
 msgid ""
-"data/events_special_guards.xml.append$//event[@name=\"GUARD_RADIKAL_DEADCREW\"]/choice/event/choice/text"
+"data/events_special_guards.xml.append$//event[@name=\"GUARD_RADIKAL_DEADCREW\"]/choice[@req=\"DJMOD_LASER_BPS\"]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_special_guards.xml.append:346
+#: src-en/data/events_special_guards.xml.append:328
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"GUARD_RADIKAL_DEADCREW\"]/choice[@req=\"DJMOD_LASER_BPS\"]/event/choice/event/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:332
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"GUARD_RADIKAL_DEADCREW\"]/choice[@req=\"DJMOD_LASER_BPS\"]/event/choice/event/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_special_guards.xml.append:341
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"GUARD_RADIKAL_DEADCREW\"]/choice[2]/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_special_guards.xml.append:343
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"GUARD_RADIKAL_DEADCREW\"]/choice[2]/event/text"
+msgstr "Вы нашли запасные детали для оборудования РадиКал!"
+
+#: src-en/data/events_special_guards.xml.append:347
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"GUARD_RADIKAL_DEADCREW\"]/choice[2]/event/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_special_guards.xml.append:370
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"GUARD_RADIKAL_FOLLOWUP\"]/text"
 msgstr ""
@@ -379,66 +404,66 @@ msgstr ""
 "отправить подкрепление, чтобы выследить вас. Будьте осторожны, исследуя этот"
 " сектор."
 
-#: src-en/data/events_special_guards.xml.append:354
+#: src-en/data/events_special_guards.xml.append:378
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"GUARD_RADIKAL_FOLLOWUP\"]/choice[1]/text"
 msgstr "Заняться чем-либо на корабле."
 
-#: src-en/data/events_special_guards.xml.append:358
+#: src-en/data/events_special_guards.xml.append:382
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"GUARD_RADIKAL_FOLLOWUP\"]/choice[2]/text"
 msgstr "Ничего не делать."
 
-#: src-en/data/events_special_guards.xml.append:367
+#: src-en/data/events_special_guards.xml.append:391
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"REINFORCEMENTS_RADIKAL\"]/beaconType/unvisitedTooltip"
 msgstr "Непосещенное место."
 
-#: src-en/data/events_special_guards.xml.append:368
+#: src-en/data/events_special_guards.xml.append:392
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"REINFORCEMENTS_RADIKAL\"]/beaconType/visitedTooltip"
 msgstr "Посещенное место. Ничего интересного."
 
-#: src-en/data/events_special_guards.xml.append:369
+#: src-en/data/events_special_guards.xml.append:393
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"REINFORCEMENTS_RADIKAL\"]/beaconType/undiscoveredTooltip"
 msgstr "Непосещенное место."
 
-#: src-en/data/events_special_guards.xml.append:371
+#: src-en/data/events_special_guards.xml.append:395
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"REINFORCEMENTS_RADIKAL\"]/text"
 msgstr ""
 "Вы легко понимаете общий смысл этого сообщения: кто-то же должен был охранять, они просто выполняли свою работу и знали о рисках. Так же как и ты!\" \n"
 "\t\tПрибывшее подкрепление РадиКалов атакует!"
 
-#: src-en/data/events_special_guards.xml.append:376
+#: src-en/data/events_special_guards.xml.append:400
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"REINFORCEMENTS_RADIKAL\"]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_special_guards.xml.append:384
+#: src-en/data/events_special_guards.xml.append:408
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"NEBULA_REINFORCEMENTS_RADIKAL\"]/beaconType/unvisitedTooltip"
 msgstr "Непосещенное место."
 
-#: src-en/data/events_special_guards.xml.append:385
+#: src-en/data/events_special_guards.xml.append:409
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"NEBULA_REINFORCEMENTS_RADIKAL\"]/beaconType/visitedTooltip"
 msgstr "Посещенное место. Ничего интересного."
 
-#: src-en/data/events_special_guards.xml.append:386
+#: src-en/data/events_special_guards.xml.append:410
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"NEBULA_REINFORCEMENTS_RADIKAL\"]/beaconType/undiscoveredTooltip"
 msgstr "Непосещенное место."
 
-#: src-en/data/events_special_guards.xml.append:388
+#: src-en/data/events_special_guards.xml.append:412
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"NEBULA_REINFORCEMENTS_RADIKAL\"]/text"
 msgstr ""
 "Вы легко понимаете общий смысл этого сообщения: кто-то же должен был охранять, они просто выполняли свою работу и знали о рисках. Так же как и ты!\" \n"
 "\t\tПрибывшее подкрепление РадиКалов атакует!"
 
-#: src-en/data/events_special_guards.xml.append:395
+#: src-en/data/events_special_guards.xml.append:419
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"NEBULA_REINFORCEMENTS_RADIKAL\"]/choice/text"
 msgstr "Продолжить..."

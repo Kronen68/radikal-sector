@@ -5,53 +5,53 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: src-en/data/events_special_filler.xml.append:22
+#: src-en/data/events_special_filler.xml.append:20
 msgid ""
 "data/events_special_filler.xml.append$//mod:findName[@name=\"FILLER_DISTRESS_COMBAT\"]/mod-"
 "append:choice/text"
 msgstr ""
 
-#: src-en/data/events_special_filler.xml.append:28
+#: src-en/data/events_special_filler.xml.append:26
 msgid ""
 "data/events_special_filler.xml.append$//event[@name=\"DISTRESS_PIRA_CIVI_COORDS_RK\"]/text"
 msgstr ""
 
-#: src-en/data/events_special_filler.xml.append:32
+#: src-en/data/events_special_filler.xml.append:30
 msgid ""
 "data/events_special_filler.xml.append$//event[@name=\"DISTRESS_PIRA_CIVI_COORDS_RK\"]/choice/text"
 msgstr ""
 
-#: src-en/data/events_special_filler.xml.append:52
+#: src-en/data/events_special_filler.xml.append:50
 msgid ""
 "data/events_special_filler.xml.append$//event[@name=\"DISTRESS_PIRA_CIVI_GIVECOORDS\"]/text"
 msgstr ""
 
-#: src-en/data/events_special_filler.xml.append:56
+#: src-en/data/events_special_filler.xml.append:54
 msgid ""
 "data/events_special_filler.xml.append$//event[@name=\"DISTRESS_PIRA_CIVI_GIVECOORDS\"]/choice/text"
 msgstr ""
 
-#: src-en/data/events_special_filler.xml.append:61
+#: src-en/data/events_special_filler.xml.append:59
 msgid ""
 "data/events_special_filler.xml.append$//event[@name=\"DISTRESS_PIRA_CIVI_GIVECOORDS\"]/choice/event/text"
 msgstr ""
 
-#: src-en/data/events_special_filler.xml.append:67
+#: src-en/data/events_special_filler.xml.append:64
 msgid ""
 "data/events_special_filler.xml.append$//event[@name=\"DISTRESS_PIRA_CIVI_GIVECOORDS\"]/choice/event/choice/text"
 msgstr ""
 
-#: src-en/data/events_special_filler.xml.append:74
+#: src-en/data/events_special_filler.xml.append:71
 msgid ""
 "data/events_special_filler.xml.append$//event[@name=\"DISTRESS_PIRA_CIVI_NOTCOORDS\"]/text"
 msgstr ""
 
-#: src-en/data/events_special_filler.xml.append:86
+#: src-en/data/events_special_filler.xml.append:83
 msgid ""
 "data/events_special_filler.xml.append$//event[@name=\"DISTRESS_PIRA_CIVI_NOTCOORDS_BAD\"]/text"
 msgstr ""
 
-#: src-en/data/events_special_filler.xml.append:93
+#: src-en/data/events_special_filler.xml.append:90
 msgid ""
 "data/events_special_filler.xml.append$//event[@name=\"DISTRESS_PIRA_CIVI_NOTCOORDS_BAD\"]/choice/text"
 msgstr "Continuer..."

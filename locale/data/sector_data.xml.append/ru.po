@@ -5,7 +5,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: src-en/data/sector_data.xml.append:1769
+#: src-en/data/sector_data.xml.append:1852
 msgid ""
 "data/sector_data.xml.append$//sectorDescription[@name=\"SECRET_RADIKAL\"]/nameList/name"
 msgstr "Убежище РадиКалов"

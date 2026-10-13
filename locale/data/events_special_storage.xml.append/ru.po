@@ -1,17 +1,9 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-10-09 11:05+0000\n"
-"Last-Translator: Ukn <bbg100bbg@gmail.com>\n"
-"Language-Team: Russian <https://weblate.hyperq.be/projects/radikal-sector/"
-"dataevents_special_storagexmlappend/ru/>\n"
-"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.17.1\n"
 
 #: src-en/data/events_special_storage.xml.append:396
 msgid ""
@@ -1548,36 +1540,36 @@ msgstr ""
 "\t[При выборе удара \"Полная мощность\" вместо модуля будет утрачено укрепление.\n"
 "\tПосле этого вы все равно сможете что-то сделать у пустого маяка]"
 
-#: src-en/data/events_special_storage.xml.append:2355
+#: src-en/data/events_special_storage.xml.append:2356
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_COMBAT_SHIPVORE_RAM_REINFORCE\"]/choice[@req=\"shipvore_ram_reinforcement\""
 " and @lvl=\"0\"]/text"
 msgstr "Да"
 
-#: src-en/data/events_special_storage.xml.append:2357
+#: src-en/data/events_special_storage.xml.append:2358
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_COMBAT_SHIPVORE_RAM_REINFORCE\"]/choice[@req=\"shipvore_ram_reinforcement\""
 " and @lvl=\"0\"]/event/text"
 msgstr "Вы укрепляете модуль."
 
-#: src-en/data/events_special_storage.xml.append:2364
+#: src-en/data/events_special_storage.xml.append:2365
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_COMBAT_SHIPVORE_RAM_REINFORCE\"]/choice[@req=\"shipvore_ram_reinforcement\""
 " and @lvl=\"0\"]/event/choice/text"
 msgstr "Это даст нам преимущество!"
 
-#: src-en/data/events_special_storage.xml.append:2371
+#: src-en/data/events_special_storage.xml.append:2372
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_COMBAT_SHIPVORE_RAM_REINFORCE\"]/choice[@req=\"shipvore_ram_reinforcement\""
 " and @lvl=\"1\"]/text"
 msgstr "У вашего Кораблепожирателя есть укрепление."
 
-#: src-en/data/events_special_storage.xml.append:2375
+#: src-en/data/events_special_storage.xml.append:2376
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_COMBAT_SHIPVORE_RAM_REINFORCE\"]/choice[3]/text"
 msgstr "Неважно, заняться чем-то еще."
 
-#: src-en/data/events_special_storage.xml.append:2382
+#: src-en/data/events_special_storage.xml.append:2383
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_PERSISTENCE_SHIELD_REBUILD_CAPACITOR\"]/text"
 msgstr ""
@@ -1585,61 +1577,61 @@ msgstr ""
 "\t[Это позволит вам снова использовать его активную способность из меню переключения.\n"
 "\tПосле этого вы сможете продолжить действия у пустого маяка]"
 
-#: src-en/data/events_special_storage.xml.append:2387
+#: src-en/data/events_special_storage.xml.append:2389
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_PERSISTENCE_SHIELD_REBUILD_CAPACITOR\"]/choice[@req=\"rk_persistence_shield_capacitorneed\""
 " and @lvl=\"0\"]/text"
 msgstr "Конденсатор в порядке."
 
-#: src-en/data/events_special_storage.xml.append:2391
+#: src-en/data/events_special_storage.xml.append:2393
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_PERSISTENCE_SHIELD_REBUILD_CAPACITOR\"]/choice[@req=\"rk_persistence_shield_capacitorneed\""
 " and @lvl=\"1\"]/text"
 msgstr "Да"
 
-#: src-en/data/events_special_storage.xml.append:2393
+#: src-en/data/events_special_storage.xml.append:2395
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_PERSISTENCE_SHIELD_REBUILD_CAPACITOR\"]/choice[@req=\"rk_persistence_shield_capacitorneed\""
 " and @lvl=\"1\"]/event/text"
 msgstr ""
 "Вы перестраиваете конденсатор, восстанавливая работоспособность модуля."
 
-#: src-en/data/events_special_storage.xml.append:2400
+#: src-en/data/events_special_storage.xml.append:2402
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_PERSISTENCE_SHIELD_REBUILD_CAPACITOR\"]/choice[@req=\"rk_persistence_shield_capacitorneed\""
 " and @lvl=\"1\"]/event/choice/text"
 msgstr "Это может нас спасти!"
 
-#: src-en/data/events_special_storage.xml.append:2407
+#: src-en/data/events_special_storage.xml.append:2409
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_PERSISTENCE_SHIELD_REBUILD_CAPACITOR\"]/choice[3]/text"
 msgstr "Неважно, заняться чем-то еще."
 
-#: src-en/data/events_special_storage.xml.append:2413
+#: src-en/data/events_special_storage.xml.append:2415
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"TOGGLEMENU_RK_PERSISTENCE_SHIELD\"]/text"
 msgstr ""
 "Вы уверены, что хотите это сделать?\n"
 "\t[Восстанавливает все свои суперщиты. Эту операцию можно повторить только после перестройки конденсатора у пустого маяка]"
 
-#: src-en/data/events_special_storage.xml.append:2417
+#: src-en/data/events_special_storage.xml.append:2419
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"TOGGLEMENU_RK_PERSISTENCE_SHIELD\"]/choice[@req=\"rk_persistence_shield_capacitorneed\""
 " and not(@lvl)]/text"
 msgstr "Сначала необходимо перестроить конденсатор у пустого маяка."
 
-#: src-en/data/events_special_storage.xml.append:2422
+#: src-en/data/events_special_storage.xml.append:2424
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"TOGGLEMENU_RK_PERSISTENCE_SHIELD\"]/choice[@req=\"rk_persistence_shield_capacitorneed\""
 " and @lvl=\"0\"]/text"
 msgstr "Да, это того стоит!"
 
-#: src-en/data/events_special_storage.xml.append:2437
+#: src-en/data/events_special_storage.xml.append:2439
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"TOGGLEMENU_RK_PERSISTENCE_SHIELD\"]/choice[3]/text"
 msgstr "Не нужно. Вернуться в меню переключения."
 
-#: src-en/data/events_special_storage.xml.append:2464
+#: src-en/data/events_special_storage.xml.append:2466
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/text"
 msgstr ""
@@ -1647,984 +1639,1002 @@ msgstr ""
 "\t\t[Поджигает свой собственный корабль! Обычно для отражения абордажа]\n"
 "\t\tВыкурить их из..."
 
-#: src-en/data/events_special_storage.xml.append:2469
+#: src-en/data/events_special_storage.xml.append:2471
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"artillery\"]/text"
 msgstr "Артиллерийского отсека!"
 
-#: src-en/data/events_special_storage.xml.append:2473
+#: src-en/data/events_special_storage.xml.append:2475
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"battery\"]/text"
 msgstr "Отсека Батареи!"
 
-#: src-en/data/events_special_storage.xml.append:2477
+#: src-en/data/events_special_storage.xml.append:2479
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"cloaking\"]/text"
 msgstr "Отсека Маскировки!"
 
-#: src-en/data/events_special_storage.xml.append:2481
+#: src-en/data/events_special_storage.xml.append:2483
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"clonebay\"]/text"
 msgstr "Клон-отсека!"
 
-#: src-en/data/events_special_storage.xml.append:2485
+#: src-en/data/events_special_storage.xml.append:2487
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"doors\"]/text"
 msgstr "Отсека контроля дверей!"
 
-#: src-en/data/events_special_storage.xml.append:2489
+#: src-en/data/events_special_storage.xml.append:2491
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"drones\"]/text"
 msgstr "Отсека контроля дронов!"
 
-#: src-en/data/events_special_storage.xml.append:2493
+#: src-en/data/events_special_storage.xml.append:2495
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"engines\"]/text"
 msgstr "Отсека Двигателей!"
 
-#: src-en/data/events_special_storage.xml.append:2497
+#: src-en/data/events_special_storage.xml.append:2499
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"hacking\"]/text"
 msgstr "Отсека Взломщика!"
 
-#: src-en/data/events_special_storage.xml.append:2501
+#: src-en/data/events_special_storage.xml.append:2503
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"medbay\"]/text"
 msgstr "Медотсека!"
 
-#: src-en/data/events_special_storage.xml.append:2505
+#: src-en/data/events_special_storage.xml.append:2507
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"mind\"]/text"
 msgstr "Отсека Контроля разума!"
 
-#: src-en/data/events_special_storage.xml.append:2509
+#: src-en/data/events_special_storage.xml.append:2511
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"oxygen\"]/text"
 msgstr "Отсека жизнеобеспечения (кислород)!"
 
-#: src-en/data/events_special_storage.xml.append:2513
+#: src-en/data/events_special_storage.xml.append:2515
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"pilot\"]/text"
 msgstr "Рубки пилотирования!"
 
-#: src-en/data/events_special_storage.xml.append:2517
+#: src-en/data/events_special_storage.xml.append:2519
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"sensors\"]/text"
 msgstr "Отсека Сенсоров!"
 
-#: src-en/data/events_special_storage.xml.append:2521
+#: src-en/data/events_special_storage.xml.append:2523
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"shields\"]/text"
 msgstr "Отсека Щитов!"
 
-#: src-en/data/events_special_storage.xml.append:2525
+#: src-en/data/events_special_storage.xml.append:2527
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"teleporter\"]/text"
 msgstr "Отсека Телепортатора!"
 
-#: src-en/data/events_special_storage.xml.append:2529
+#: src-en/data/events_special_storage.xml.append:2531
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"temporal\"]/text"
 msgstr "Отсека Временного манипулятора!"
 
-#: src-en/data/events_special_storage.xml.append:2533
+#: src-en/data/events_special_storage.xml.append:2535
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"weapons\"]/text"
 msgstr "Отсека Оружия!"
 
-#: src-en/data/events_special_storage.xml.append:2542
-msgid ""
-"data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"lily_ablative_armor\"]/text"
-msgstr "(Lily's Innovations) Отсека Абляционной брони!"
-
-#: src-en/data/events_special_storage.xml.append:2547
+#: src-en/data/events_special_storage.xml.append:2544
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"aea_super_shields\"]/text"
 msgstr "(The Outer Expansion) Отсека Вспомогательной щитов!"
 
-#: src-en/data/events_special_storage.xml.append:2552
+#: src-en/data/events_special_storage.xml.append:2549
+msgid ""
+"data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"oe_aux_shields\"]/text"
+msgstr "(The Outer Expansion) Отсека Вспомогательной щитов!"
+
+#: src-en/data/events_special_storage.xml.append:2553
+msgid ""
+"data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"oe_growth\"]/text"
+msgstr ""
+
+#: src-en/data/events_special_storage.xml.append:2557
+msgid ""
+"data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"oe_grease\"]/text"
+msgstr ""
+
+#: src-en/data/events_special_storage.xml.append:2562
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"dd_corruptor\"]/text"
 msgstr "(Darkest Desire) Отсека Осквернителя!"
 
-#: src-en/data/events_special_storage.xml.append:2557
+#: src-en/data/events_special_storage.xml.append:2567
+msgid ""
+"data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"lily_ablative_armor\"]/text"
+msgstr "(Lily's Innovations) Отсека Абляционной брони!"
+
+#: src-en/data/events_special_storage.xml.append:2571
+msgid ""
+"data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"lily_aux_reactor\"]/text"
+msgstr ""
+
+#: src-en/data/events_special_storage.xml.append:2575
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"lily_ecm_suite\"]/text"
 msgstr "(Lily's Innovations) Отсека Комплекса РЭБ!"
 
-#: src-en/data/events_special_storage.xml.append:2561
+#: src-en/data/events_special_storage.xml.append:2579
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"lily_fiber_liner\"]/text"
 msgstr "(Lily's Innovations) Отсека Волокнистого лайнера!"
 
-#: src-en/data/events_special_storage.xml.append:2565
+#: src-en/data/events_special_storage.xml.append:2583
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"lily_infusion_bay\"]/text"
 msgstr "(Lily's Innovations) Инфузионного отсека!"
 
-#: src-en/data/events_special_storage.xml.append:2569
+#: src-en/data/events_special_storage.xml.append:2587
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"lily_shock_neutralizer\"]/text"
 msgstr "(Lily's Innovations) Отсека Шокового нейтрализатора!"
 
-#: src-en/data/events_special_storage.xml.append:2573
+#: src-en/data/events_special_storage.xml.append:2591
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"lily_system_bracers\"]/text"
 msgstr "(Lily's Innovations) Отсека системы Наручи!"
 
-#: src-en/data/events_special_storage.xml.append:2577
+#: src-en/data/events_special_storage.xml.append:2595
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"lily_targeting_core\"]/text"
 msgstr "(Lily's Innovations) Отсека Ядра целенаведения!"
 
-#: src-en/data/events_special_storage.xml.append:2582
+#: src-en/data/events_special_storage.xml.append:2600
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"og_turret_adaptive\"]/text"
 msgstr "(The Outer Expansion) Отсека адаптивного управления турелью #1!"
 
-#: src-en/data/events_special_storage.xml.append:2586
+#: src-en/data/events_special_storage.xml.append:2604
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"og_turret_adaptive_2\"]/text"
 msgstr "(The Outer Expansion) Отсека адаптивного управления турелью #2!"
 
-#: src-en/data/events_special_storage.xml.append:2591
+#: src-en/data/events_special_storage.xml.append:2609
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"og_turret_mini\"]/text"
 msgstr "(The Outer Expansion) Отсека микро- управления турелью #1!"
 
-#: src-en/data/events_special_storage.xml.append:2595
+#: src-en/data/events_special_storage.xml.append:2613
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"og_turret_mini_2\"]/text"
 msgstr "(The Outer Expansion) Отсека микро- управления турелью #2!"
 
-#: src-en/data/events_special_storage.xml.append:2599
+#: src-en/data/events_special_storage.xml.append:2617
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"og_turret_mini_3\"]/text"
 msgstr "(The Outer Expansion) Отсека микро- управления турелью #3!"
 
-#: src-en/data/events_special_storage.xml.append:2603
+#: src-en/data/events_special_storage.xml.append:2621
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"og_turret_mini_4\"]/text"
 msgstr "(The Outer Expansion) Отсека микро- управления турелью #4!"
 
-#: src-en/data/events_special_storage.xml.append:2608
+#: src-en/data/events_special_storage.xml.append:2626
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"og_turret\"]/text"
 msgstr "(The Outer Expansion) Отсека управления турелью #1!"
 
-#: src-en/data/events_special_storage.xml.append:2612
+#: src-en/data/events_special_storage.xml.append:2630
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"og_turret_2\"]/text"
 msgstr "(The Outer Expansion) Отсека управления турелью #2!"
 
-#: src-en/data/events_special_storage.xml.append:2616
+#: src-en/data/events_special_storage.xml.append:2634
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"og_turret_3\"]/text"
 msgstr "(The Outer Expansion) Отсека управления турелью #3!"
 
-#: src-en/data/events_special_storage.xml.append:2620
+#: src-en/data/events_special_storage.xml.append:2638
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"og_turret_4\"]/text"
 msgstr "(The Outer Expansion) Отсека управления турелью #4!"
 
-#: src-en/data/events_special_storage.xml.append:2626
+#: src-en/data/events_special_storage.xml.append:2644
 msgid ""
-"data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[37]/text"
+"data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[41]/text"
 msgstr "Слишком много врагов. Поджечь ВЕСЬ корабль!!"
 
-#: src-en/data/events_special_storage.xml.append:2678
+#: src-en/data/events_special_storage.xml.append:2696
 msgid ""
-"data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[38]/text"
+"data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[42]/text"
 msgstr "Вернуться в меню переключения."
 
-#: src-en/data/events_special_storage.xml.append:3953
+#: src-en/data/events_special_storage.xml.append:4019
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_SCORCH_SELF_UPGRADE\"]/text"
 msgstr ""
 "Вы уверены, что хотите улучшить этот модуль?\n"
 "\t[Повышенная огнестойкость. В условиях пожара ваш экипаж производит кислород, как 1 орхидея]"
 
-#: src-en/data/events_special_storage.xml.append:3957
+#: src-en/data/events_special_storage.xml.append:4023
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_SCORCH_SELF_UPGRADE\"]/choice[@req=\"RK_SCORCH_SELF\"]/text"
 msgstr "Да [-16~, -1{, -1}]"
 
-#: src-en/data/events_special_storage.xml.append:3959
+#: src-en/data/events_special_storage.xml.append:4025
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_SCORCH_SELF_UPGRADE\"]/choice[@req=\"RK_SCORCH_SELF\"]/event/text"
 msgstr "Вы начинаете улучшение модуля..."
 
-#: src-en/data/events_special_storage.xml.append:3968
+#: src-en/data/events_special_storage.xml.append:4034
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_SCORCH_SELF_UPGRADE\"]/choice[@req=\"RK_SCORCH_SELF\"]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_special_storage.xml.append:3970
+#: src-en/data/events_special_storage.xml.append:4036
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_SCORCH_SELF_UPGRADE\"]/choice[@req=\"RK_SCORCH_SELF\"]/event/choice/event/text"
 msgstr "Вы успешно завершили улучшение модуля."
 
-#: src-en/data/events_special_storage.xml.append:3973
+#: src-en/data/events_special_storage.xml.append:4039
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_SCORCH_SELF_UPGRADE\"]/choice[@req=\"RK_SCORCH_SELF\"]/event/choice/event/choice/text"
 msgstr "Успех!"
 
-#: src-en/data/events_special_storage.xml.append:3981
+#: src-en/data/events_special_storage.xml.append:4047
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_SCORCH_SELF_UPGRADE\"]/choice[2]/text"
 msgstr "Неважно, заняться чем-то еще."
 
-#: src-en/data/events_special_storage.xml.append:3987
+#: src-en/data/events_special_storage.xml.append:4053
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_SCORCH_SELF_UPGRADE_2\"]/text"
 msgstr ""
 "Вы уверены, что хотите улучшить этот модуль?\n"
 "\t[Повышенная огнестойкость. В условиях пожара ваш экипаж производит кислород, как 3 орхидеи]"
 
-#: src-en/data/events_special_storage.xml.append:3991
+#: src-en/data/events_special_storage.xml.append:4057
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_SCORCH_SELF_UPGRADE_2\"]/choice[@req=\"RK_SCORCH_SELF_2\"]/text"
 msgstr "Да [-11~, -1{, -1}, флот ускорится на 1 ход]"
 
-#: src-en/data/events_special_storage.xml.append:3993
+#: src-en/data/events_special_storage.xml.append:4059
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_SCORCH_SELF_UPGRADE_2\"]/choice[@req=\"RK_SCORCH_SELF_2\"]/event/text"
 msgstr "Вы начинаете улучшение модуля..."
 
-#: src-en/data/events_special_storage.xml.append:4003
+#: src-en/data/events_special_storage.xml.append:4069
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_SCORCH_SELF_UPGRADE_2\"]/choice[@req=\"RK_SCORCH_SELF_2\"]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_special_storage.xml.append:4005
+#: src-en/data/events_special_storage.xml.append:4071
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_SCORCH_SELF_UPGRADE_2\"]/choice[@req=\"RK_SCORCH_SELF_2\"]/event/choice/event/text"
 msgstr "Вы успешно завершили улучшение модуля."
 
-#: src-en/data/events_special_storage.xml.append:4008
+#: src-en/data/events_special_storage.xml.append:4074
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_SCORCH_SELF_UPGRADE_2\"]/choice[@req=\"RK_SCORCH_SELF_2\"]/event/choice/event/choice/text"
 msgstr "Успех!"
 
-#: src-en/data/events_special_storage.xml.append:4016
+#: src-en/data/events_special_storage.xml.append:4082
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_SCORCH_SELF_UPGRADE_2\"]/choice[2]/text"
 msgstr "Неважно, заняться чем-то еще."
 
-#: src-en/data/events_special_storage.xml.append:4035
+#: src-en/data/events_special_storage.xml.append:4101
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"COMBAT_CHECK_RK_COMBAT_SCORCH_ENEMY\"]/text"
 msgstr ""
 "Вы уверены, что хотите это сделать? (Требуется источник огня)\n"
 "\t[Разжигает пожар в отсеке жизнеобеспечения (O2), если он у вас есть, а также несколько случайных пожаров на вражеском корабле (в основном в системах). Использует {]"
 
-#: src-en/data/events_special_storage.xml.append:4039
+#: src-en/data/events_special_storage.xml.append:4105
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"COMBAT_CHECK_RK_COMBAT_SCORCH_ENEMY\"]/choice[@req=\"DJMOD_COMBAT_SELF_FIRE_ANY\"]/text"
 msgstr ""
 "У вас нет ни одного уровня модуля Выжженная земля, доступного для бесплатной"
 " активации."
 
-#: src-en/data/events_special_storage.xml.append:4044
+#: src-en/data/events_special_storage.xml.append:4110
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"COMBAT_CHECK_RK_COMBAT_SCORCH_ENEMY\"]/choice[2]/text"
 msgstr ""
 "(Выжженная земля) Да! [На вражеском корабле разгорается несколько пожаров]"
 
-#: src-en/data/events_special_storage.xml.append:4048
+#: src-en/data/events_special_storage.xml.append:4114
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"COMBAT_CHECK_RK_COMBAT_SCORCH_ENEMY\"]/choice[3]/text"
 msgstr ""
 "(Выжженная земля) Мощная активация! [Еще больше пожаров на обоих кораблях]"
 
-#: src-en/data/events_special_storage.xml.append:4053
+#: src-en/data/events_special_storage.xml.append:4119
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"COMBAT_CHECK_RK_COMBAT_SCORCH_ENEMY\"]/choice[@req=\"RK_COMBAT_SCORCH_ENEMY\"]/text"
 msgstr "Да [Требуется источник огня, который может быть израсходован]"
 
-#: src-en/data/events_special_storage.xml.append:4058
+#: src-en/data/events_special_storage.xml.append:4124
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"COMBAT_CHECK_RK_COMBAT_SCORCH_ENEMY\"]/choice[5]/text"
 msgstr "Заняться чем-то другим."
 
-#: src-en/data/events_special_storage.xml.append:4062
+#: src-en/data/events_special_storage.xml.append:4128
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"COMBAT_CHECK_RK_COMBAT_SCORCH_ENEMY\"]/choice[6]/text"
 msgstr "Неважно, давайте сражаться!"
 
-#: src-en/data/events_special_storage.xml.append:4064
+#: src-en/data/events_special_storage.xml.append:4130
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"COMBAT_CHECK_RK_COMBAT_SCORCH_ENEMY\"]/choice[6]/event/text"
 msgstr "Вы решаете ничего не делать и готовитесь к бою."
 
-#: src-en/data/events_special_storage.xml.append:4075
+#: src-en/data/events_special_storage.xml.append:4141
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY\"]/text"
 msgstr "Какой источник огня использовать?"
 
-#: src-en/data/events_special_storage.xml.append:4078
+#: src-en/data/events_special_storage.xml.append:4144
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY\"]/choice[1]/text"
 msgstr ""
 "Зажигательный экипаж для мощной активации! [Экипаж погибнет, но его можно "
 "клонировать]"
 
-#: src-en/data/events_special_storage.xml.append:4083
+#: src-en/data/events_special_storage.xml.append:4149
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY\"]/choice[2]/text"
 msgstr "1{ + 1}. Слабая активация, но сойдет."
 
-#: src-en/data/events_special_storage.xml.append:4085
+#: src-en/data/events_special_storage.xml.append:4151
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY\"]/choice[2]/event/text"
 msgstr "Вы заряжаете ракеты..."
 
-#: src-en/data/events_special_storage.xml.append:4092
+#: src-en/data/events_special_storage.xml.append:4158
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY\"]/choice[2]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_special_storage.xml.append:4099
+#: src-en/data/events_special_storage.xml.append:4165
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY\"]/choice[3]/text"
 msgstr "Заняться чем-то другим."
 
-#: src-en/data/events_special_storage.xml.append:4103
+#: src-en/data/events_special_storage.xml.append:4169
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY\"]/choice[4]/text"
 msgstr "Неважно, давайте сражаться!"
 
-#: src-en/data/events_special_storage.xml.append:4105
+#: src-en/data/events_special_storage.xml.append:4171
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY\"]/choice[4]/event/text"
 msgstr "Вы решаете ничего не делать и готовитесь к бою."
 
-#: src-en/data/events_special_storage.xml.append:4138
+#: src-en/data/events_special_storage.xml.append:4204
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW\"]/text"
 msgstr "Какой тип экипажа?"
 
-#: src-en/data/events_special_storage.xml.append:4141
+#: src-en/data/events_special_storage.xml.append:4207
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW\"]/choice[@req=\"DJMOD_HAS_CREW_ARE_BOMBS_AND_CREW\"]/text"
 msgstr "(Заряженные пояса) Кто-нибудь! Тяните соломинки."
 
-#: src-en/data/events_special_storage.xml.append:4143
+#: src-en/data/events_special_storage.xml.append:4209
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW\"]/choice[@req=\"DJMOD_HAS_CREW_ARE_BOMBS_AND_CREW\"]/event/text"
 msgstr ""
 "Самый невезучий член экипажа жертвует собой ради общего блага, мощно "
 "активируя модуль!"
 
-#: src-en/data/events_special_storage.xml.append:4150
+#: src-en/data/events_special_storage.xml.append:4216
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW\"]/choice[@req=\"DJMOD_HAS_CREW_ARE_BOMBS_AND_CREW\"]/event/removeCrew/text"
 msgstr "Ваш Клон-отсек успешно воскресил члена экипажа."
 
-#: src-en/data/events_special_storage.xml.append:4154
+#: src-en/data/events_special_storage.xml.append:4220
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW\"]/choice[@req=\"DJMOD_HAS_CREW_ARE_BOMBS_AND_CREW\"]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_special_storage.xml.append:4160
+#: src-en/data/events_special_storage.xml.append:4226
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW\"]/choice[@req=\"DJMOD_HAS_DEATH_VESTS_AND_CREW\"]/text"
 msgstr "(Жилеты мучеников) Кто-нибудь! Тяните соломинки."
 
-#: src-en/data/events_special_storage.xml.append:4162
+#: src-en/data/events_special_storage.xml.append:4228
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW\"]/choice[@req=\"DJMOD_HAS_DEATH_VESTS_AND_CREW\"]/event/text"
 msgstr ""
 "Самый невезучий член экипажа жертвует собой ради общего блага, мощно "
 "активируя модуль!"
 
-#: src-en/data/events_special_storage.xml.append:4169
+#: src-en/data/events_special_storage.xml.append:4235
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW\"]/choice[@req=\"DJMOD_HAS_DEATH_VESTS_AND_CREW\"]/event/removeCrew/text"
 msgstr "Ваш Клон-отсек успешно воскресил члена экипажа."
 
-#: src-en/data/events_special_storage.xml.append:4173
+#: src-en/data/events_special_storage.xml.append:4239
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW\"]/choice[@req=\"DJMOD_HAS_DEATH_VESTS_AND_CREW\"]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_special_storage.xml.append:4183
+#: src-en/data/events_special_storage.xml.append:4249
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW\"]/choice[@req=\"LIST_CREW_SHELL\"]/text"
 msgstr "Ракушка. (Выбрать тип)"
 
-#: src-en/data/events_special_storage.xml.append:4187
+#: src-en/data/events_special_storage.xml.append:4253
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW\"]/choice[@req=\"LIST_CREW_ZOLTAN\"]/text"
 msgstr "Золтан. (Выбрать тип)"
 
-#: src-en/data/events_special_storage.xml.append:4192
+#: src-en/data/events_special_storage.xml.append:4258
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW\"]/choice[@req=\"LIST_CREW_SOLAR\"]/text"
 msgstr "Воспламеняемый ланиус. (Выбрать тип)"
 
-#: src-en/data/events_special_storage.xml.append:4197
+#: src-en/data/events_special_storage.xml.append:4263
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW\"]/choice[@req=\"rock_commando\"]/text"
 msgstr "Случайный Коммандос Затерянного солнца"
 
-#: src-en/data/events_special_storage.xml.append:4199
+#: src-en/data/events_special_storage.xml.append:4265
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW\"]/choice[@req=\"rock_commando\"]/event/text"
 msgstr ""
 "Член экипажа жертвует собой ради общего блага, мощно активируя модуль!"
 
-#: src-en/data/events_special_storage.xml.append:4206
+#: src-en/data/events_special_storage.xml.append:4272
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW\"]/choice[@req=\"rock_commando\"]/event/removeCrew/text"
 msgstr "Ваш Клон-отсек успешно воскресил члена экипажа."
 
-#: src-en/data/events_special_storage.xml.append:4210
+#: src-en/data/events_special_storage.xml.append:4276
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW\"]/choice[@req=\"rock_commando\"]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_special_storage.xml.append:4217
+#: src-en/data/events_special_storage.xml.append:4283
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW\"]/choice[@req=\"phantom_goul\"]/text"
 msgstr "Случайный Гуль"
 
-#: src-en/data/events_special_storage.xml.append:4219
+#: src-en/data/events_special_storage.xml.append:4285
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW\"]/choice[@req=\"phantom_goul\"]/event/text"
 msgstr ""
 "Член экипажа жертвует собой ради общего блага, мощно активируя модуль!"
 
-#: src-en/data/events_special_storage.xml.append:4226
+#: src-en/data/events_special_storage.xml.append:4292
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW\"]/choice[@req=\"phantom_goul\"]/event/removeCrew/text"
 msgstr "Ваш Клон-отсек успешно воскресил члена экипажа."
 
-#: src-en/data/events_special_storage.xml.append:4230
+#: src-en/data/events_special_storage.xml.append:4296
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW\"]/choice[@req=\"phantom_goul\"]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_special_storage.xml.append:4237
+#: src-en/data/events_special_storage.xml.append:4303
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW\"]/choice[@req=\"phantom_goul_alpha\"]/text"
 msgstr "Случайный Альфа-Гуль."
 
-#: src-en/data/events_special_storage.xml.append:4239
+#: src-en/data/events_special_storage.xml.append:4305
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW\"]/choice[@req=\"phantom_goul_alpha\"]/event/text"
 msgstr ""
 "Член экипажа жертвует собой ради общего блага, мощно активируя модуль!"
 
-#: src-en/data/events_special_storage.xml.append:4246
+#: src-en/data/events_special_storage.xml.append:4312
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW\"]/choice[@req=\"phantom_goul_alpha\"]/event/removeCrew/text"
 msgstr "Ваш Клон-отсек успешно воскресил члена экипажа."
 
-#: src-en/data/events_special_storage.xml.append:4250
+#: src-en/data/events_special_storage.xml.append:4316
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW\"]/choice[@req=\"phantom_goul_alpha\"]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_special_storage.xml.append:4252
+#: src-en/data/events_special_storage.xml.append:4318
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW\"]/choice[@req=\"phantom_goul_alpha\"]/event/choice/event/text"
 msgstr "Также появляется обычный Гуль!"
 
-#: src-en/data/events_special_storage.xml.append:4256
+#: src-en/data/events_special_storage.xml.append:4322
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW\"]/choice[@req=\"phantom_goul_alpha\"]/event/choice/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_special_storage.xml.append:4265
+#: src-en/data/events_special_storage.xml.append:4331
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW\"]/choice[@req=\"rk_fireghost\"]/text"
 msgstr "Случайный РК аптор."
 
-#: src-en/data/events_special_storage.xml.append:4267
+#: src-en/data/events_special_storage.xml.append:4333
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW\"]/choice[@req=\"rk_fireghost\"]/event/text"
 msgstr "Аптор жертвует собой ради общего блага, мощно активируя модуль!"
 
-#: src-en/data/events_special_storage.xml.append:4274
+#: src-en/data/events_special_storage.xml.append:4340
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW\"]/choice[@req=\"rk_fireghost\"]/event/removeCrew/text"
 msgstr "Ваш Клон-отсек успешно воскресил члена экипажа."
 
-#: src-en/data/events_special_storage.xml.append:4278
+#: src-en/data/events_special_storage.xml.append:4344
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW\"]/choice[@req=\"rk_fireghost\"]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_special_storage.xml.append:4280
+#: src-en/data/events_special_storage.xml.append:4346
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW\"]/choice[@req=\"rk_fireghost\"]/event/choice/event/text"
 msgstr "Также появляется Альфа-Гуль!"
 
-#: src-en/data/events_special_storage.xml.append:4284
+#: src-en/data/events_special_storage.xml.append:4350
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW\"]/choice[@req=\"rk_fireghost\"]/event/choice/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_special_storage.xml.append:4294
+#: src-en/data/events_special_storage.xml.append:4360
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW\"]/choice[10]/text"
 msgstr "Заняться чем-то другим."
 
-#: src-en/data/events_special_storage.xml.append:4300
+#: src-en/data/events_special_storage.xml.append:4366
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_SHELLS\"]/text"
 msgstr "Какой тип ракушки? [Будет убита, но может быть клонирована]"
 
-#: src-en/data/events_special_storage.xml.append:4303
+#: src-en/data/events_special_storage.xml.append:4369
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_SHELLS\"]/choice[@req=\"shell\"]/text"
 msgstr "Случайная обычная ракушка"
 
-#: src-en/data/events_special_storage.xml.append:4305
+#: src-en/data/events_special_storage.xml.append:4371
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_SHELLS\"]/choice[@req=\"shell\"]/event/text"
 msgstr ""
 "Член экипажа жертвует собой ради общего блага, мощно активируя модуль!"
 
-#: src-en/data/events_special_storage.xml.append:4312
+#: src-en/data/events_special_storage.xml.append:4378
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_SHELLS\"]/choice[@req=\"shell\"]/event/removeCrew/text"
 msgstr "Ваш Клон-отсек успешно воскресил члена экипажа."
 
-#: src-en/data/events_special_storage.xml.append:4316
+#: src-en/data/events_special_storage.xml.append:4382
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_SHELLS\"]/choice[@req=\"shell\"]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_special_storage.xml.append:4322
+#: src-en/data/events_special_storage.xml.append:4388
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_SHELLS\"]/choice[@req=\"shell_mechanic\"]/text"
 msgstr "Случайная ракушка-Механик"
 
-#: src-en/data/events_special_storage.xml.append:4324
+#: src-en/data/events_special_storage.xml.append:4390
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_SHELLS\"]/choice[@req=\"shell_mechanic\"]/event/text"
 msgstr ""
 "Член экипажа жертвует собой ради общего блага, мощно активируя модуль!"
 
-#: src-en/data/events_special_storage.xml.append:4331
+#: src-en/data/events_special_storage.xml.append:4397
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_SHELLS\"]/choice[@req=\"shell_mechanic\"]/event/removeCrew/text"
 msgstr "Ваш Клон-отсек успешно воскресил члена экипажа."
 
-#: src-en/data/events_special_storage.xml.append:4335
+#: src-en/data/events_special_storage.xml.append:4401
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_SHELLS\"]/choice[@req=\"shell_mechanic\"]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_special_storage.xml.append:4341
+#: src-en/data/events_special_storage.xml.append:4407
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_SHELLS\"]/choice[@req=\"shell_scientist\"]/text"
 msgstr "Случайная ракушка-Ученый"
 
-#: src-en/data/events_special_storage.xml.append:4343
+#: src-en/data/events_special_storage.xml.append:4409
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_SHELLS\"]/choice[@req=\"shell_scientist\"]/event/text"
 msgstr ""
 "Член экипажа жертвует собой ради общего блага, мощно активируя модуль!"
 
-#: src-en/data/events_special_storage.xml.append:4350
+#: src-en/data/events_special_storage.xml.append:4416
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_SHELLS\"]/choice[@req=\"shell_scientist\"]/event/removeCrew/text"
 msgstr "Ваш Клон-отсек успешно воскресил члена экипажа."
 
-#: src-en/data/events_special_storage.xml.append:4354
+#: src-en/data/events_special_storage.xml.append:4420
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_SHELLS\"]/choice[@req=\"shell_scientist\"]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_special_storage.xml.append:4360
+#: src-en/data/events_special_storage.xml.append:4426
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_SHELLS\"]/choice[@req=\"shell_guardian\"]/text"
 msgstr "Случайная ракушка-Страж"
 
-#: src-en/data/events_special_storage.xml.append:4362
+#: src-en/data/events_special_storage.xml.append:4428
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_SHELLS\"]/choice[@req=\"shell_guardian\"]/event/text"
 msgstr ""
 "Член экипажа жертвует собой ради общего блага, мощно активируя модуль!"
 
-#: src-en/data/events_special_storage.xml.append:4369
+#: src-en/data/events_special_storage.xml.append:4435
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_SHELLS\"]/choice[@req=\"shell_guardian\"]/event/removeCrew/text"
 msgstr "Ваш Клон-отсек успешно воскресил члена экипажа."
 
-#: src-en/data/events_special_storage.xml.append:4373
+#: src-en/data/events_special_storage.xml.append:4439
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_SHELLS\"]/choice[@req=\"shell_guardian\"]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_special_storage.xml.append:4379
+#: src-en/data/events_special_storage.xml.append:4445
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_SHELLS\"]/choice[@req=\"shell_radiant\"]/text"
 msgstr "Случайная Лучезарная ракушка"
 
-#: src-en/data/events_special_storage.xml.append:4381
+#: src-en/data/events_special_storage.xml.append:4447
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_SHELLS\"]/choice[@req=\"shell_radiant\"]/event/text"
 msgstr ""
 "Член экипажа жертвует собой ради общего блага, мощно активируя модуль!"
 
-#: src-en/data/events_special_storage.xml.append:4388
+#: src-en/data/events_special_storage.xml.append:4454
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_SHELLS\"]/choice[@req=\"shell_radiant\"]/event/removeCrew/text"
 msgstr "Ваш Клон-отсек успешно воскресил члена экипажа."
 
-#: src-en/data/events_special_storage.xml.append:4392
+#: src-en/data/events_special_storage.xml.append:4458
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_SHELLS\"]/choice[@req=\"shell_radiant\"]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_special_storage.xml.append:4398
+#: src-en/data/events_special_storage.xml.append:4464
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_SHELLS\"]/choice[@req=\"unique_alkali\"]/text"
 msgstr "Алькали"
 
-#: src-en/data/events_special_storage.xml.append:4400
+#: src-en/data/events_special_storage.xml.append:4466
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_SHELLS\"]/choice[@req=\"unique_alkali\"]/event/text"
 msgstr ""
 "Алькали с неохотой приносит себя в жертву ради общего блага, мощно активируя"
 " модуль!"
 
-#: src-en/data/events_special_storage.xml.append:4407
+#: src-en/data/events_special_storage.xml.append:4473
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_SHELLS\"]/choice[@req=\"unique_alkali\"]/event/removeCrew/text"
 msgstr "Ваш Клон-отсек успешно воскресил члена экипажа."
 
-#: src-en/data/events_special_storage.xml.append:4411
+#: src-en/data/events_special_storage.xml.append:4477
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_SHELLS\"]/choice[@req=\"unique_alkali\"]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_special_storage.xml.append:4418
+#: src-en/data/events_special_storage.xml.append:4484
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_SHELLS\"]/choice[7]/text"
 msgstr "Заняться чем-то другим."
 
-#: src-en/data/events_special_storage.xml.append:4424
+#: src-en/data/events_special_storage.xml.append:4490
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_ZOLTANS\"]/text"
 msgstr "Какой тип золтана? [Будет убит, но может быть клонирован]"
 
-#: src-en/data/events_special_storage.xml.append:4427
+#: src-en/data/events_special_storage.xml.append:4493
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_ZOLTANS\"]/choice[@req=\"zoltan\"]/text"
 msgstr "Обычный золтан, выбранный случайным образом."
 
-#: src-en/data/events_special_storage.xml.append:4429
+#: src-en/data/events_special_storage.xml.append:4495
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_ZOLTANS\"]/choice[@req=\"zoltan\"]/event/text"
 msgstr ""
 "Член экипажа жертвует собой ради общего блага, мощно активируя модуль!"
 
-#: src-en/data/events_special_storage.xml.append:4436
+#: src-en/data/events_special_storage.xml.append:4502
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_ZOLTANS\"]/choice[@req=\"zoltan\"]/event/removeCrew/text"
 msgstr "Ваш Клон-отсек успешно воскресил члена экипажа."
 
-#: src-en/data/events_special_storage.xml.append:4440
+#: src-en/data/events_special_storage.xml.append:4506
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_ZOLTANS\"]/choice[@req=\"zoltan\"]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_special_storage.xml.append:4446
+#: src-en/data/events_special_storage.xml.append:4512
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_ZOLTANS\"]/choice[@req=\"zoltan_monk\"]/text"
 msgstr "Случайный золтан-Монах"
 
-#: src-en/data/events_special_storage.xml.append:4448
+#: src-en/data/events_special_storage.xml.append:4514
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_ZOLTANS\"]/choice[@req=\"zoltan_monk\"]/event/text"
 msgstr ""
 "Член экипажа безропотно приносит себя в жертву ради общего блага, мощно "
 "активируя модуль!"
 
-#: src-en/data/events_special_storage.xml.append:4455
+#: src-en/data/events_special_storage.xml.append:4521
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_ZOLTANS\"]/choice[@req=\"zoltan_monk\"]/event/removeCrew/text"
 msgstr "Ваш Клон-отсек успешно воскресил члена экипажа."
 
-#: src-en/data/events_special_storage.xml.append:4459
+#: src-en/data/events_special_storage.xml.append:4525
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_ZOLTANS\"]/choice[@req=\"zoltan_monk\"]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_special_storage.xml.append:4465
+#: src-en/data/events_special_storage.xml.append:4531
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_ZOLTANS\"]/choice[@req=\"zoltan_peacekeeper\"]/text"
 msgstr "Случайный золтан-Миротворец"
 
-#: src-en/data/events_special_storage.xml.append:4467
+#: src-en/data/events_special_storage.xml.append:4533
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_ZOLTANS\"]/choice[@req=\"zoltan_peacekeeper\"]/event/text"
 msgstr ""
 "Член экипажа жертвует собой ради общего блага, мощно активируя модуль!"
 
-#: src-en/data/events_special_storage.xml.append:4474
+#: src-en/data/events_special_storage.xml.append:4540
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_ZOLTANS\"]/choice[@req=\"zoltan_peacekeeper\"]/event/removeCrew/text"
 msgstr "Ваш Клон-отсек успешно воскресил члена экипажа."
 
-#: src-en/data/events_special_storage.xml.append:4478
+#: src-en/data/events_special_storage.xml.append:4544
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_ZOLTANS\"]/choice[@req=\"zoltan_peacekeeper\"]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_special_storage.xml.append:4484
+#: src-en/data/events_special_storage.xml.append:4550
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_ZOLTANS\"]/choice[@req=\"zoltan_devotee\"]/text"
 msgstr "Случайный Вестник Заката"
 
-#: src-en/data/events_special_storage.xml.append:4486
+#: src-en/data/events_special_storage.xml.append:4552
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_ZOLTANS\"]/choice[@req=\"zoltan_devotee\"]/event/text"
 msgstr ""
 "Член экипажа с радостью приносит себя в жертву ради общего блага, мощно "
 "активируя модуль!"
 
-#: src-en/data/events_special_storage.xml.append:4493
+#: src-en/data/events_special_storage.xml.append:4559
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_ZOLTANS\"]/choice[@req=\"zoltan_devotee\"]/event/removeCrew/text"
 msgstr "Ваш Клон-отсек успешно воскресил члена экипажа."
 
-#: src-en/data/events_special_storage.xml.append:4497
+#: src-en/data/events_special_storage.xml.append:4563
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_ZOLTANS\"]/choice[@req=\"zoltan_devotee\"]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_special_storage.xml.append:4503
+#: src-en/data/events_special_storage.xml.append:4569
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_ZOLTANS\"]/choice[@req=\"zoltan_martyr\"]/text"
 msgstr "Случайный Мученик Вестников Заката"
 
-#: src-en/data/events_special_storage.xml.append:4505
+#: src-en/data/events_special_storage.xml.append:4571
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_ZOLTANS\"]/choice[@req=\"zoltan_martyr\"]/event/text"
 msgstr ""
 "Член экипажа с радостью приносит себя в жертву ради общего блага, мощно "
 "активируя модуль!"
 
-#: src-en/data/events_special_storage.xml.append:4512
+#: src-en/data/events_special_storage.xml.append:4578
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_ZOLTANS\"]/choice[@req=\"zoltan_martyr\"]/event/removeCrew/text"
 msgstr "Ваш Клон-отсек успешно воскресил члена экипажа."
 
-#: src-en/data/events_special_storage.xml.append:4516
+#: src-en/data/events_special_storage.xml.append:4582
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_ZOLTANS\"]/choice[@req=\"zoltan_martyr\"]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_special_storage.xml.append:4522
+#: src-en/data/events_special_storage.xml.append:4588
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_ZOLTANS\"]/choice[@req=\"zoltan_infernum\"]/text"
 msgstr "Случайный Монах Инфернума."
 
-#: src-en/data/events_special_storage.xml.append:4524
+#: src-en/data/events_special_storage.xml.append:4590
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_ZOLTANS\"]/choice[@req=\"zoltan_infernum\"]/event/text"
 msgstr ""
 "Член экипажа с радостью приносит себя в жертву ради общего блага, мощно "
 "активируя модуль!"
 
-#: src-en/data/events_special_storage.xml.append:4531
+#: src-en/data/events_special_storage.xml.append:4597
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_ZOLTANS\"]/choice[@req=\"zoltan_infernum\"]/event/removeCrew/text"
 msgstr "Ваш Клон-отсек успешно воскресил члена экипажа."
 
-#: src-en/data/events_special_storage.xml.append:4535
+#: src-en/data/events_special_storage.xml.append:4601
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_ZOLTANS\"]/choice[@req=\"zoltan_infernum\"]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_special_storage.xml.append:4541
+#: src-en/data/events_special_storage.xml.append:4607
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_ZOLTANS\"]/choice[@req=\"unique_devorak\"]/text"
 msgstr "Деворак"
 
-#: src-en/data/events_special_storage.xml.append:4543
+#: src-en/data/events_special_storage.xml.append:4609
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_ZOLTANS\"]/choice[@req=\"unique_devorak\"]/event/text"
 msgstr ""
 "Деворак с радостью приносит себя в жертву ради общего блага, мощно активируя"
 " модуль!"
 
-#: src-en/data/events_special_storage.xml.append:4550
+#: src-en/data/events_special_storage.xml.append:4616
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_ZOLTANS\"]/choice[@req=\"unique_devorak\"]/event/removeCrew/text"
 msgstr "Ваш Клон-отсек успешно воскресил члена экипажа."
 
-#: src-en/data/events_special_storage.xml.append:4554
+#: src-en/data/events_special_storage.xml.append:4620
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_ZOLTANS\"]/choice[@req=\"unique_devorak\"]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_special_storage.xml.append:4560
+#: src-en/data/events_special_storage.xml.append:4626
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_ZOLTANS\"]/choice[@req=\"symbiote\"]/text"
 msgstr "Симбионт"
 
-#: src-en/data/events_special_storage.xml.append:4562
+#: src-en/data/events_special_storage.xml.append:4628
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_ZOLTANS\"]/choice[@req=\"symbiote\"]/event/text"
 msgstr ""
 "Симбиотический ужас с облегчением вздыхает, когда его поглощают во имя "
 "высшего блага, что приводит к мощной активации модуля!"
 
-#: src-en/data/events_special_storage.xml.append:4569
+#: src-en/data/events_special_storage.xml.append:4635
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_ZOLTANS\"]/choice[@req=\"symbiote\"]/event/removeCrew/text"
 msgstr "Ваш Клон-отсек успешно воскресил члена экипажа."
 
-#: src-en/data/events_special_storage.xml.append:4573
+#: src-en/data/events_special_storage.xml.append:4639
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_ZOLTANS\"]/choice[@req=\"symbiote\"]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_special_storage.xml.append:4580
+#: src-en/data/events_special_storage.xml.append:4646
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_ZOLTANS\"]/choice[9]/text"
 msgstr "Заняться чем-то другим."
 
-#: src-en/data/events_special_storage.xml.append:4586
+#: src-en/data/events_special_storage.xml.append:4652
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_LANIUS_FIRE\"]/text"
 msgstr "Какой тип воспламеняемых? [Будет использован, может быть клонирован]"
 
-#: src-en/data/events_special_storage.xml.append:4589
+#: src-en/data/events_special_storage.xml.append:4655
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_LANIUS_FIRE\"]/choice[@req=\"solar_lanius\"]/text"
 msgstr "Случайный обычный воспламеняемый."
 
-#: src-en/data/events_special_storage.xml.append:4591
+#: src-en/data/events_special_storage.xml.append:4657
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_LANIUS_FIRE\"]/choice[@req=\"solar_lanius\"]/event/text"
 msgstr ""
 "Член экипажа жертвует собой ради общего блага, мощно активируя модуль!"
 
-#: src-en/data/events_special_storage.xml.append:4598
+#: src-en/data/events_special_storage.xml.append:4664
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_LANIUS_FIRE\"]/choice[@req=\"solar_lanius\"]/event/removeCrew/text"
 msgstr "Ваш Клон-отсек успешно воскресил члена экипажа."
 
-#: src-en/data/events_special_storage.xml.append:4602
+#: src-en/data/events_special_storage.xml.append:4668
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_LANIUS_FIRE\"]/choice[@req=\"solar_lanius\"]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_special_storage.xml.append:4610
+#: src-en/data/events_special_storage.xml.append:4676
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_LANIUS_FIRE\"]/choice[@req=\"midnight_lanius\"]/text"
 msgstr "Случайный Светящийся."
 
-#: src-en/data/events_special_storage.xml.append:4612
+#: src-en/data/events_special_storage.xml.append:4678
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_LANIUS_FIRE\"]/choice[@req=\"midnight_lanius\"]/event/text"
 msgstr ""
 "Член экипажа жертвует собой ради общего блага, мощно активируя модуль!"
 
-#: src-en/data/events_special_storage.xml.append:4619
+#: src-en/data/events_special_storage.xml.append:4685
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_LANIUS_FIRE\"]/choice[@req=\"midnight_lanius\"]/event/removeCrew/text"
 msgstr "Ваш Клон-отсек успешно воскресил члена экипажа."
 
-#: src-en/data/events_special_storage.xml.append:4623
+#: src-en/data/events_special_storage.xml.append:4689
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_LANIUS_FIRE\"]/choice[@req=\"midnight_lanius\"]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_special_storage.xml.append:4629
+#: src-en/data/events_special_storage.xml.append:4695
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_LANIUS_FIRE\"]/choice[@req=\"midnight_lantern\"]/text"
 msgstr "Случайный Светящийся."
 
-#: src-en/data/events_special_storage.xml.append:4631
+#: src-en/data/events_special_storage.xml.append:4697
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_LANIUS_FIRE\"]/choice[@req=\"midnight_lantern\"]/event/text"
 msgstr ""
 "Член экипажа жертвует собой ради общего блага, мощно активируя модуль!"
 
-#: src-en/data/events_special_storage.xml.append:4638
+#: src-en/data/events_special_storage.xml.append:4704
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_LANIUS_FIRE\"]/choice[@req=\"midnight_lantern\"]/event/removeCrew/text"
 msgstr "Ваш Клон-отсек успешно воскресил члена экипажа."
 
-#: src-en/data/events_special_storage.xml.append:4642
+#: src-en/data/events_special_storage.xml.append:4708
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_LANIUS_FIRE\"]/choice[@req=\"midnight_lantern\"]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_special_storage.xml.append:4649
+#: src-en/data/events_special_storage.xml.append:4715
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_LANIUS_FIRE\"]/choice[@req=\"unique_corona\"]/text"
 msgstr "Корона."
 
-#: src-en/data/events_special_storage.xml.append:4651
+#: src-en/data/events_special_storage.xml.append:4717
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_LANIUS_FIRE\"]/choice[@req=\"unique_corona\"]/event/text"
 msgstr ""
 "Корона с радостью приносит себя в жертву ради общего блага, мощно активируя "
 "модуль!"
 
-#: src-en/data/events_special_storage.xml.append:4658
+#: src-en/data/events_special_storage.xml.append:4724
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_LANIUS_FIRE\"]/choice[@req=\"unique_corona\"]/event/removeCrew/text"
 msgstr "Ваш Клон-отсек успешно воскресил члена экипажа."
 
-#: src-en/data/events_special_storage.xml.append:4662
+#: src-en/data/events_special_storage.xml.append:4728
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_LANIUS_FIRE\"]/choice[@req=\"unique_corona\"]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_special_storage.xml.append:4668
+#: src-en/data/events_special_storage.xml.append:4734
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_LANIUS_FIRE\"]/choice[@req=\"unique_corona_masked\"]/text"
 msgstr "Корона."
 
-#: src-en/data/events_special_storage.xml.append:4670
+#: src-en/data/events_special_storage.xml.append:4736
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_LANIUS_FIRE\"]/choice[@req=\"unique_corona_masked\"]/event/text"
 msgstr ""
 "Корона с радостью приносит себя в жертву ради общего блага, мощно активируя "
 "модуль!"
 
-#: src-en/data/events_special_storage.xml.append:4677
+#: src-en/data/events_special_storage.xml.append:4743
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_LANIUS_FIRE\"]/choice[@req=\"unique_corona_masked\"]/event/removeCrew/text"
 msgstr "Ваш Клон-отсек успешно воскресил члена экипажа."
 
-#: src-en/data/events_special_storage.xml.append:4681
+#: src-en/data/events_special_storage.xml.append:4747
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_LANIUS_FIRE\"]/choice[@req=\"unique_corona_masked\"]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_special_storage.xml.append:4688
+#: src-en/data/events_special_storage.xml.append:4754
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_LANIUS_FIRE\"]/choice[6]/text"
 msgstr "Заняться чем-то другим."
 
-#: src-en/data/events_special_storage.xml.append:4805
+#: src-en/data/events_special_storage.xml.append:4871
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_OXYGENIZER_ACTIVATE\"]/text"
 msgstr ""
 "Вы уверены, что хотите это сделать?\n"
-"\t[Оба корабля будут окружены кислородной атмосферой, что защитит пожар от "
-"затухания при пробоинах или открытии шлюзов, а экипаж не сможет задохнуться. "
-"Цена: 2}]"
+"\t[Оба корабля будут окружены кислородной атмосферой, что защитит пожар от затухания при пробоинах или открытии шлюзов, а экипаж не сможет задохнуться. Цена: 2}]"
 
-#: src-en/data/events_special_storage.xml.append:4809
+#: src-en/data/events_special_storage.xml.append:4875
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_OXYGENIZER_ACTIVATE\"]/choice[@req=\"loc_environment_atmosphere\""
 " and @lvl=\"0\"]/text"
 msgstr "Да."
 
-#: src-en/data/events_special_storage.xml.append:4811
+#: src-en/data/events_special_storage.xml.append:4877
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_OXYGENIZER_ACTIVATE\"]/choice[@req=\"loc_environment_atmosphere\""
 " and @lvl=\"0\"]/event/text"
@@ -2633,44 +2643,42 @@ msgstr ""
 "срабатыванием, наполняя всю зону атмосферой, которой хватит, чтобы дышать..."
 " или поддерживать огонь!"
 
-#: src-en/data/events_special_storage.xml.append:4821
+#: src-en/data/events_special_storage.xml.append:4887
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_OXYGENIZER_ACTIVATE\"]/choice[@req=\"loc_environment_atmosphere\""
 " and @lvl=\"0\"]/event/choice/text"
 msgstr "Это даст нам преимущество!"
 
-#: src-en/data/events_special_storage.xml.append:4827
+#: src-en/data/events_special_storage.xml.append:4893
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_OXYGENIZER_ACTIVATE\"]/choice[@req=\"loc_environment_atmosphere\""
 " and not(@lvl)]/text"
 msgstr "Вы уже в атмосфере!"
 
-#: src-en/data/events_special_storage.xml.append:4832
+#: src-en/data/events_special_storage.xml.append:4898
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_OXYGENIZER_ACTIVATE\"]/choice[3]/text"
 msgstr "Заняться чем-то другим."
 
-#: src-en/data/events_special_storage.xml.append:4836
+#: src-en/data/events_special_storage.xml.append:4902
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_OXYGENIZER_ACTIVATE\"]/choice[4]/text"
 msgstr "Неважно, давайте сражаться!"
 
-#: src-en/data/events_special_storage.xml.append:4869
+#: src-en/data/events_special_storage.xml.append:4935
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_OXYGENIZER_ACTIVATE_IN_EMPTY\"]/text"
 msgstr ""
 "Вы уверены, что хотите это сделать?\n"
-"\t[Ваш корабль будет окружен кислородной атмосферой, что защитит пожар от "
-"затухания при пробоинах или открытии шлюзов, а экипаж не сможет задохнуться. "
-"Цена: 1}]"
+"\t[Ваш корабль будет окружен кислородной атмосферой, что защитит пожар от затухания при пробоинах или открытии шлюзов, а экипаж не сможет задохнуться. Цена: 1}]"
 
-#: src-en/data/events_special_storage.xml.append:4873
+#: src-en/data/events_special_storage.xml.append:4939
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_OXYGENIZER_ACTIVATE_IN_EMPTY\"]/choice[@req=\"loc_environment_atmosphere\""
 " and @lvl=\"0\"]/text"
 msgstr "Да."
 
-#: src-en/data/events_special_storage.xml.append:4875
+#: src-en/data/events_special_storage.xml.append:4941
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_OXYGENIZER_ACTIVATE_IN_EMPTY\"]/choice[@req=\"loc_environment_atmosphere\""
 " and @lvl=\"0\"]/event/text"
@@ -2679,76 +2687,76 @@ msgstr ""
 "срабатыванием, наполняя всю зону атмосферой, которой хватит, чтобы дышать..."
 " или поддерживать огонь!"
 
-#: src-en/data/events_special_storage.xml.append:4885
+#: src-en/data/events_special_storage.xml.append:4951
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_OXYGENIZER_ACTIVATE_IN_EMPTY\"]/choice[@req=\"loc_environment_atmosphere\""
 " and @lvl=\"0\"]/event/choice/text"
 msgstr "Ах, свежий воздух!"
 
-#: src-en/data/events_special_storage.xml.append:4891
+#: src-en/data/events_special_storage.xml.append:4957
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_OXYGENIZER_ACTIVATE_IN_EMPTY\"]/choice[@req=\"loc_environment_atmosphere\""
 " and not(@lvl)]/text"
 msgstr "Вы уже в атмосфере!"
 
-#: src-en/data/events_special_storage.xml.append:4896
+#: src-en/data/events_special_storage.xml.append:4962
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_OXYGENIZER_ACTIVATE_IN_EMPTY\"]/choice[3]/text"
 msgstr "Неважно, заняться чем-то еще."
 
-#: src-en/data/events_special_storage.xml.append:4913
+#: src-en/data/events_special_storage.xml.append:4979
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_CHECK_AUTO_SYS_REPAIR\"]/text"
 msgstr ""
 "Вы уверены, что хотите это сделать?\n"
 "\t[Если прочность корпуса достигнет 9 или меньше, будет выполнен полный ремонт систем, восстановлено 15 единиц прочности корпуса и уничтожен модуль Требуется 1 энергия]"
 
-#: src-en/data/events_special_storage.xml.append:4917
+#: src-en/data/events_special_storage.xml.append:4983
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_CHECK_AUTO_SYS_REPAIR\"]/choice[@req=\"reactor\"]/text"
 msgstr "Да"
 
-#: src-en/data/events_special_storage.xml.append:4919
+#: src-en/data/events_special_storage.xml.append:4985
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_CHECK_AUTO_SYS_REPAIR\"]/choice[@req=\"reactor\"]/event/text"
 msgstr "Вы активируете модуль..."
 
-#: src-en/data/events_special_storage.xml.append:4931
+#: src-en/data/events_special_storage.xml.append:4997
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_CHECK_AUTO_SYS_REPAIR\"]/choice[@req=\"reactor\"]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_special_storage.xml.append:4940
+#: src-en/data/events_special_storage.xml.append:5006
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_CHECK_AUTO_SYS_REPAIR\"]/choice[@req=\"DEBUG_GENERATOR\"]/text"
 msgstr "Запитать модуль с помощью аварийного генератора."
 
-#: src-en/data/events_special_storage.xml.append:4942
+#: src-en/data/events_special_storage.xml.append:5008
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_CHECK_AUTO_SYS_REPAIR\"]/choice[@req=\"DEBUG_GENERATOR\"]/event/text"
 msgstr "Вы активируете модуль, полностью питаемый от Аварийного генератора..."
 
-#: src-en/data/events_special_storage.xml.append:4949
+#: src-en/data/events_special_storage.xml.append:5015
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_CHECK_AUTO_SYS_REPAIR\"]/choice[@req=\"DEBUG_GENERATOR\"]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_special_storage.xml.append:4956
+#: src-en/data/events_special_storage.xml.append:5022
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_CHECK_AUTO_SYS_REPAIR\"]/choice[3]/text"
 msgstr "Заняться чем-то другим."
 
-#: src-en/data/events_special_storage.xml.append:4960
+#: src-en/data/events_special_storage.xml.append:5026
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_CHECK_AUTO_SYS_REPAIR\"]/choice[4]/text"
 msgstr "Неважно, давайте сражаться!"
 
-#: src-en/data/events_special_storage.xml.append:4962
+#: src-en/data/events_special_storage.xml.append:5028
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_CHECK_AUTO_SYS_REPAIR\"]/choice[4]/event/text"
 msgstr "Вы решаете ничего не делать и готовитесь к бою."
 
-#: src-en/data/events_special_storage.xml.append:4980
+#: src-en/data/events_special_storage.xml.append:5046
 msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/event[@name=\"RK_COMBAT_AUTO_SYS_REPAIR_TRIGGERED_SUCCESS\"]/text"
 msgstr ""
@@ -2756,46 +2764,46 @@ msgstr ""
 "наномашинами \"А.Э.Р.А. Второе дыхание\", мгновенно восстанавливающих ваши "
 "системы!"
 
-#: src-en/data/events_special_storage.xml.append:4986
+#: src-en/data/events_special_storage.xml.append:5052
 msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/event[@name=\"RK_COMBAT_AUTO_SYS_REPAIR_TRIGGERED_SUCCESS\"]/choice[@req=\"pilot\"]/text"
 msgstr "Это хорошо."
 
-#: src-en/data/events_special_storage.xml.append:4989
+#: src-en/data/events_special_storage.xml.append:5055
 msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/event[@name=\"RK_COMBAT_AUTO_SYS_REPAIR_TRIGGERED_SUCCESS\"]/choice[@req=\"pilot\"]/event/text"
 msgstr ""
 "Остальные наномашины спешно заделывают пробоины в корпусе, а затем перестают"
 " функционировать."
 
-#: src-en/data/events_special_storage.xml.append:4995
+#: src-en/data/events_special_storage.xml.append:5061
 msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/event[@name=\"RK_COMBAT_AUTO_SYS_REPAIR_TRIGGERED_SUCCESS\"]/choice[@req=\"pilot\"]/event/choice/text"
 msgstr "Перейти к битве!"
 
-#: src-en/data/events_special_storage.xml.append:5021
+#: src-en/data/events_special_storage.xml.append:5087
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_ACTIVATE\"]/text"
 msgstr ""
 "Вы уверены, что хотите это сделать?\n"
 "\t[Попытаться использовать особый взлом с целью задержать флот повстанцев]"
 
-#: src-en/data/events_special_storage.xml.append:5025
+#: src-en/data/events_special_storage.xml.append:5091
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_ACTIVATE\"]/choice[1]/text"
 msgstr "Да, бесплатный взлом на 17 секунд."
 
-#: src-en/data/events_special_storage.xml.append:5027
+#: src-en/data/events_special_storage.xml.append:5093
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_ACTIVATE\"]/choice[1]/event/text"
 msgstr "Вы активируете модуль..."
 
-#: src-en/data/events_special_storage.xml.append:5030
+#: src-en/data/events_special_storage.xml.append:5096
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_ACTIVATE\"]/choice[1]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_special_storage.xml.append:5037
+#: src-en/data/events_special_storage.xml.append:5103
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_ACTIVATE\"]/choice[@req=\"HAS_HACKING_OR_LILY_ECM\""
 " and @lvl=\"0\"]/text"
@@ -2803,211 +2811,211 @@ msgstr ""
 "Установите систему Взломщик (или Комплекс РЭБ от Lily's Innovations), чтобы "
 "получить больше возможностей."
 
-#: src-en/data/events_special_storage.xml.append:5043
+#: src-en/data/events_special_storage.xml.append:5109
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_ACTIVATE\"]/choice[3]/text"
 msgstr "(Взломщик 1 ур. 1|) Взлом за 14 секунд."
 
-#: src-en/data/events_special_storage.xml.append:5045
+#: src-en/data/events_special_storage.xml.append:5111
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_ACTIVATE\"]/choice[3]/event/text"
 msgstr "Вы активируете модуль..."
 
-#: src-en/data/events_special_storage.xml.append:5054
+#: src-en/data/events_special_storage.xml.append:5120
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_ACTIVATE\"]/choice[3]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_special_storage.xml.append:5061
+#: src-en/data/events_special_storage.xml.append:5127
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_ACTIVATE\"]/choice[@req=\"HAS_HACKING_OR_LILY_ECM\""
 " and @lvl=\"2\"]/text"
 msgstr "(Взломщик 2 ур. 2|) Взлом за 9 секунд."
 
-#: src-en/data/events_special_storage.xml.append:5063
+#: src-en/data/events_special_storage.xml.append:5129
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_ACTIVATE\"]/choice[@req=\"HAS_HACKING_OR_LILY_ECM\""
 " and @lvl=\"2\"]/event/text"
 msgstr "Вы активируете модуль..."
 
-#: src-en/data/events_special_storage.xml.append:5072
+#: src-en/data/events_special_storage.xml.append:5138
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_ACTIVATE\"]/choice[@req=\"HAS_HACKING_OR_LILY_ECM\""
 " and @lvl=\"2\"]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_special_storage.xml.append:5079
+#: src-en/data/events_special_storage.xml.append:5145
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_ACTIVATE\"]/choice[5]/text"
 msgstr ""
 "Вам нужен более мощный Взломщик (или Комплекс РЭБ), чтобы получить больше "
 "возможностей."
 
-#: src-en/data/events_special_storage.xml.append:5084
+#: src-en/data/events_special_storage.xml.append:5150
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_ACTIVATE\"]/choice[@req=\"HAS_HACKING_OR_LILY_ECM\""
 " and @lvl=\"3\"]/text"
 msgstr "(Взломщик 3-го уровня, 3|) Мгновенный взлом."
 
-#: src-en/data/events_special_storage.xml.append:5086
+#: src-en/data/events_special_storage.xml.append:5152
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_ACTIVATE\"]/choice[@req=\"HAS_HACKING_OR_LILY_ECM\""
 " and @lvl=\"3\"]/event/text"
 msgstr "Вы активируете модуль..."
 
-#: src-en/data/events_special_storage.xml.append:5094
+#: src-en/data/events_special_storage.xml.append:5160
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_ACTIVATE\"]/choice[@req=\"HAS_HACKING_OR_LILY_ECM\""
 " and @lvl=\"3\"]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_special_storage.xml.append:5101
+#: src-en/data/events_special_storage.xml.append:5167
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_ACTIVATE\"]/choice[7]/text"
 msgstr "Заняться чем-то другим."
 
-#: src-en/data/events_special_storage.xml.append:5105
+#: src-en/data/events_special_storage.xml.append:5171
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_ACTIVATE\"]/choice[8]/text"
 msgstr "Неважно, давайте сражаться!"
 
-#: src-en/data/events_special_storage.xml.append:5107
+#: src-en/data/events_special_storage.xml.append:5173
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_ACTIVATE\"]/choice[8]/event/text"
 msgstr "Вы решаете ничего не делать и готовитесь к бою."
 
-#: src-en/data/events_special_storage.xml.append:5113
+#: src-en/data/events_special_storage.xml.append:5179
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_TIMER_START\"]/text"
 msgstr ""
 "Вы начинаете прослушивать вражеские каналы связи. Теперь постарайтесь "
 "выжить, не побеждая врага слишком быстро..."
 
-#: src-en/data/events_special_storage.xml.append:5119
+#: src-en/data/events_special_storage.xml.append:5185
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_TIMER_START\"]/triggeredEvent/triggeredEventBox/tooltip"
 msgstr ""
 "За это время хак, задерживающий флот, либо срабатывает, либо терпит неудачу."
 " Отменяется, если вы победите противника."
 
-#: src-en/data/events_special_storage.xml.append:5129
+#: src-en/data/events_special_storage.xml.append:5195
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_TIMER_START\"]/choice/text"
 msgstr "Перейти к битве!"
 
-#: src-en/data/events_special_storage.xml.append:5134
+#: src-en/data/events_special_storage.xml.append:5200
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_TIMER_END\"]/text"
 msgstr "Процесс завершен!"
 
-#: src-en/data/events_special_storage.xml.append:5141
+#: src-en/data/events_special_storage.xml.append:5207
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_TIMER_END\"]/choice/text"
 msgstr "Посмотрим, сработало ли это..."
 
-#: src-en/data/events_special_storage.xml.append:5178
+#: src-en/data/events_special_storage.xml.append:5244
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_TIMER_START_BONUS1\"]/text"
 msgstr ""
 "Вы начинаете прослушивать вражеские каналы связи. Теперь постарайтесь "
 "выжить, не побеждая врага слишком быстро..."
 
-#: src-en/data/events_special_storage.xml.append:5184
+#: src-en/data/events_special_storage.xml.append:5250
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_TIMER_START_BONUS1\"]/triggeredEvent/triggeredEventBox/tooltip"
 msgstr ""
 "За это время хак, задерживающий флот, либо срабатывает, либо терпит неудачу."
 " Отменяется, если вы победите противника."
 
-#: src-en/data/events_special_storage.xml.append:5194
+#: src-en/data/events_special_storage.xml.append:5260
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_TIMER_START_BONUS1\"]/choice/text"
 msgstr "Перейти к битве!"
 
-#: src-en/data/events_special_storage.xml.append:5199
+#: src-en/data/events_special_storage.xml.append:5265
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_TIMER_END_BONUS1\"]/text"
 msgstr "Процесс завершен!"
 
-#: src-en/data/events_special_storage.xml.append:5206
+#: src-en/data/events_special_storage.xml.append:5272
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_TIMER_END_BONUS1\"]/choice/text"
 msgstr "Посмотрим, сработало ли это..."
 
-#: src-en/data/events_special_storage.xml.append:5244
+#: src-en/data/events_special_storage.xml.append:5310
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_TIMER_START_BONUS2\"]/text"
 msgstr ""
 "Вы начинаете прослушивать вражеские каналы связи. Теперь постарайтесь "
 "выжить, не побеждая врага слишком быстро..."
 
-#: src-en/data/events_special_storage.xml.append:5250
+#: src-en/data/events_special_storage.xml.append:5316
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_TIMER_START_BONUS2\"]/triggeredEvent/triggeredEventBox/tooltip"
 msgstr ""
 "За это время хак, задерживающий флот, либо срабатывает, либо терпит неудачу."
 " Отменяется, если вы победите противника."
 
-#: src-en/data/events_special_storage.xml.append:5260
+#: src-en/data/events_special_storage.xml.append:5326
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_TIMER_START_BONUS2\"]/choice/text"
 msgstr "Перейти к битве!"
 
-#: src-en/data/events_special_storage.xml.append:5265
+#: src-en/data/events_special_storage.xml.append:5331
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_TIMER_END_BONUS2\"]/text"
 msgstr "Процесс завершен!"
 
-#: src-en/data/events_special_storage.xml.append:5272
+#: src-en/data/events_special_storage.xml.append:5338
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_TIMER_END_BONUS2\"]/choice/text"
 msgstr "Посмотрим, сработало ли это..."
 
-#: src-en/data/events_special_storage.xml.append:5342
+#: src-en/data/events_special_storage.xml.append:5408
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_OUTCOME_GOOD_CRITICAL\"]/text"
 msgstr ""
 "Хе-хе, они действительно на это купились! Этот трюк дает нам солидное "
 "преимущество."
 
-#: src-en/data/events_special_storage.xml.append:5345
+#: src-en/data/events_special_storage.xml.append:5411
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_OUTCOME_GOOD_CRITICAL\"]/choice/text"
 msgstr "Перейти к битве!"
 
-#: src-en/data/events_special_storage.xml.append:5350
+#: src-en/data/events_special_storage.xml.append:5416
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_OUTCOME_GOOD\"]/text"
 msgstr "Они на это купились! По крайней мере, мы сможем немного отдохнуть."
 
-#: src-en/data/events_special_storage.xml.append:5353
+#: src-en/data/events_special_storage.xml.append:5419
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_OUTCOME_GOOD\"]/choice/text"
 msgstr "Перейти к битве!"
 
-#: src-en/data/events_special_storage.xml.append:5358
+#: src-en/data/events_special_storage.xml.append:5424
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_OUTCOME_NEUTRAL\"]/text"
 msgstr "К сожалению, на этот раз они не попались на эту уловку."
 
-#: src-en/data/events_special_storage.xml.append:5360
+#: src-en/data/events_special_storage.xml.append:5426
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_OUTCOME_NEUTRAL\"]/choice/text"
 msgstr "Перейти к битве!"
 
-#: src-en/data/events_special_storage.xml.append:5365
+#: src-en/data/events_special_storage.xml.append:5431
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_OUTCOME_BAD\"]/text"
 msgstr ""
 "Эта операция провалилась с треском, а их связисты в ответ раскрыли наше "
 "местонахождение!"
 
-#: src-en/data/events_special_storage.xml.append:5368
+#: src-en/data/events_special_storage.xml.append:5434
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_OUTCOME_BAD\"]/choice/text"
 msgstr "Перейти к битве!"
 
-#: src-en/data/events_special_storage.xml.append:5373
+#: src-en/data/events_special_storage.xml.append:5439
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_OUTCOME_BOSS\"]/text"
 msgstr ""
@@ -3015,19 +3023,19 @@ msgstr ""
 "\t\t\n"
 "\t\tКто-то вмешался и прислал нам странные координаты с такой надписью: \"Нубы!!1!\"."
 
-#: src-en/data/events_special_storage.xml.append:5380
+#: src-en/data/events_special_storage.xml.append:5446
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_OUTCOME_BOSS\"]/choice/text"
 msgstr "Странно, но об этом поговорим позже. Вперед, в бой!"
 
-#: src-en/data/events_special_storage.xml.append:5410
+#: src-en/data/events_special_storage.xml.append:5476
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_HACK_FLEET_BOSS\"]/beaconType/unvisitedTooltip"
 msgstr ""
 "Кто-то настолько опасный, что способен остановить даже мощный взлом РК "
 "Энигмашин и бросить вам вызов!"
 
-#: src-en/data/events_special_storage.xml.append:5413
+#: src-en/data/events_special_storage.xml.append:5479
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_HACK_FLEET_BOSS\"]/text"
 msgstr ""
@@ -3039,12 +3047,12 @@ msgstr ""
 "\n"
 "\t\tТак что в знак дружеского соперничества позвольте мне показать вам, как это делается! Прямо перед тем, как мы вас убьем\"."
 
-#: src-en/data/events_special_storage.xml.append:5424
+#: src-en/data/events_special_storage.xml.append:5490
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_HACK_FLEET_BOSS\"]/choice[1]/text"
 msgstr "Значит, это вызов? Вперед!"
 
-#: src-en/data/events_special_storage.xml.append:5426
+#: src-en/data/events_special_storage.xml.append:5492
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_HACK_FLEET_BOSS\"]/choice[1]/event/text"
 msgstr ""
@@ -3052,34 +3060,34 @@ msgstr ""
 "\n"
 "\t\t\t\tВы сразу же замечаете сбои во многих системах своего корабля! Наверняка они используют боевой модуль! Вы, наверное, и так думали, что корабль хакеров не будет играть по правилам, но если вы этого не ожидали, то самое время подумать о быстром побеге, пока не случилось что-то [style[color:ff3377]]плохое[[/style]]."
 
-#: src-en/data/events_special_storage.xml.append:5441
+#: src-en/data/events_special_storage.xml.append:5507
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_HACK_FLEET_BOSS\"]/choice[1]/event/choice[1]/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_special_storage.xml.append:5446
+#: src-en/data/events_special_storage.xml.append:5512
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_HACK_FLEET_BOSS\"]/choice[1]/event/choice[@req=\"ANTI_VIRUS\"]/text"
 msgstr "(Антивирус) Восстановить свои системы."
 
-#: src-en/data/events_special_storage.xml.append:5448
+#: src-en/data/events_special_storage.xml.append:5514
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_HACK_FLEET_BOSS\"]/choice[1]/event/choice[@req=\"ANTI_VIRUS\"]/event/text"
 msgstr "Ваши системы восстановлены и работают в полную мощность."
 
-#: src-en/data/events_special_storage.xml.append:5458
+#: src-en/data/events_special_storage.xml.append:5524
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_HACK_FLEET_BOSS\"]/choice[1]/event/choice[@req=\"ANTI_VIRUS\"]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_special_storage.xml.append:5467
+#: src-en/data/events_special_storage.xml.append:5533
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_HACK_FLEET_BOSS\"]/choice[2]/text"
 msgstr ""
 "Мы усвоили урок, мы умоляем вас, отпустите нас! Вот вам подарок в качестве "
 "доказательства."
 
-#: src-en/data/events_special_storage.xml.append:5479
+#: src-en/data/events_special_storage.xml.append:5545
 msgid ""
 "data/events_special_storage.xml.append$//ship[@name=\"SHIP_RK_HACK_FLEET_BOSS\"]/surrender/text"
 msgstr ""
@@ -3087,39 +3095,39 @@ msgstr ""
 "\n"
 "\t\t\tБолее серьезные сбои оказывают влияние на еще больше систем вашего корабля!"
 
-#: src-en/data/events_special_storage.xml.append:5518
+#: src-en/data/events_special_storage.xml.append:5584
 msgid ""
 "data/events_special_storage.xml.append$//ship[@name=\"SHIP_RK_HACK_FLEET_BOSS\"]/surrender/choice[1]/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_special_storage.xml.append:5523
+#: src-en/data/events_special_storage.xml.append:5589
 msgid ""
 "data/events_special_storage.xml.append$//ship[@name=\"SHIP_RK_HACK_FLEET_BOSS\"]/surrender/choice[@req=\"ANTI_VIRUS\"]/text"
 msgstr "(Антивирус) Восстановить свои системы."
 
-#: src-en/data/events_special_storage.xml.append:5525
+#: src-en/data/events_special_storage.xml.append:5591
 msgid ""
 "data/events_special_storage.xml.append$//ship[@name=\"SHIP_RK_HACK_FLEET_BOSS\"]/surrender/choice[@req=\"ANTI_VIRUS\"]/event/text"
 msgstr "Ваши системы восстановлены и работают в полную мощность."
 
-#: src-en/data/events_special_storage.xml.append:5559
+#: src-en/data/events_special_storage.xml.append:5625
 msgid ""
 "data/events_special_storage.xml.append$//ship[@name=\"SHIP_RK_HACK_FLEET_BOSS\"]/surrender/choice[@req=\"ANTI_VIRUS\"]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_special_storage.xml.append:5566
+#: src-en/data/events_special_storage.xml.append:5632
 msgid ""
 "data/events_special_storage.xml.append$//ship[@name=\"SHIP_RK_HACK_FLEET_BOSS\"]/destroyed/text"
 msgstr ""
 "Корабль хакеров МФК разваливается на части, и вы быстро собираете огромное "
 "количество вещей!"
 
-#: src-en/data/events_special_storage.xml.append:5604
+#: src-en/data/events_special_storage.xml.append:5670
 msgid ""
 "data/events_special_storage.xml.append$//ship[@name=\"SHIP_RK_HACK_FLEET_BOSS\"]/destroyed/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_special_storage.xml.append:5606
+#: src-en/data/events_special_storage.xml.append:5672
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"SHIP_RK_HACK_FLEET_BOSS_REWARD_CHOICES\"]/text"
 msgstr ""
@@ -3129,598 +3137,598 @@ msgstr ""
 "\n"
 "\t\t\tЧто вы выберете?"
 
-#: src-en/data/events_special_storage.xml.append:5613
+#: src-en/data/events_special_storage.xml.append:5679
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"SHIP_RK_HACK_FLEET_BOSS_REWARD_CHOICES\"]/choice[1]/text"
 msgstr "\"Гунгнир\""
 
-#: src-en/data/events_special_storage.xml.append:5615
+#: src-en/data/events_special_storage.xml.append:5681
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"SHIP_RK_HACK_FLEET_BOSS_REWARD_CHOICES\"]/choice[1]/event/text"
 msgstr "Вы забираете оружие и успеваете уйти, прежде чем все взрывается."
 
-#: src-en/data/events_special_storage.xml.append:5619
+#: src-en/data/events_special_storage.xml.append:5685
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"SHIP_RK_HACK_FLEET_BOSS_REWARD_CHOICES\"]/choice[1]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_special_storage.xml.append:5626
+#: src-en/data/events_special_storage.xml.append:5692
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"SHIP_RK_HACK_FLEET_BOSS_REWARD_CHOICES\"]/choice[2]/text"
 msgstr "\"Консоль асов Хакеров\""
 
-#: src-en/data/events_special_storage.xml.append:5628
+#: src-en/data/events_special_storage.xml.append:5694
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"SHIP_RK_HACK_FLEET_BOSS_REWARD_CHOICES\"]/choice[2]/event/text"
 msgstr "Вы извлекаете модуль и уходите, пока все не взорвалось."
 
-#: src-en/data/events_special_storage.xml.append:5632
+#: src-en/data/events_special_storage.xml.append:5698
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"SHIP_RK_HACK_FLEET_BOSS_REWARD_CHOICES\"]/choice[2]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_special_storage.xml.append:5639
+#: src-en/data/events_special_storage.xml.append:5705
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"SHIP_RK_HACK_FLEET_BOSS_REWARD_CHOICES\"]/choice[3]/text"
 msgstr "Ничего."
 
-#: src-en/data/events_special_storage.xml.append:5646
+#: src-en/data/events_special_storage.xml.append:5712
 msgid ""
 "data/events_special_storage.xml.append$//ship[@name=\"SHIP_RK_HACK_FLEET_BOSS\"]/deadCrew/text"
 msgstr ""
 "Поскольку экипаж погиб, вы быстро собираете огромное количество вещей с "
 "корабля хакеров МФК!"
 
-#: src-en/data/events_special_storage.xml.append:5684
+#: src-en/data/events_special_storage.xml.append:5750
 msgid ""
 "data/events_special_storage.xml.append$//ship[@name=\"SHIP_RK_HACK_FLEET_BOSS\"]/deadCrew/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_special_storage.xml.append:5701
+#: src-en/data/events_special_storage.xml.append:5767
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_ACE_CONSOLE_ACTIVATE\"]/text"
 msgstr ""
 "Вы уверены, что хотите это сделать?\n"
 "\t[Ограничить работу нескольких вражеских систем до конца боя]"
 
-#: src-en/data/events_special_storage.xml.append:5705
+#: src-en/data/events_special_storage.xml.append:5771
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_ACE_CONSOLE_ACTIVATE\"]/choice[1]/text"
 msgstr "Да, бесплатно ограничить."
 
-#: src-en/data/events_special_storage.xml.append:5707
+#: src-en/data/events_special_storage.xml.append:5773
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_ACE_CONSOLE_ACTIVATE\"]/choice[1]/event/text"
 msgstr "Вы активируете модуль..."
 
-#: src-en/data/events_special_storage.xml.append:5710
+#: src-en/data/events_special_storage.xml.append:5776
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_ACE_CONSOLE_ACTIVATE\"]/choice[1]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_special_storage.xml.append:5718
+#: src-en/data/events_special_storage.xml.append:5784
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_ACE_CONSOLE_ACTIVATE\"]/choice[2]/text"
 msgstr "Да, сильно ограничить! [Использует 3| и 2 мощности реактора]"
 
-#: src-en/data/events_special_storage.xml.append:5720
+#: src-en/data/events_special_storage.xml.append:5786
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_ACE_CONSOLE_ACTIVATE\"]/choice[2]/event/text"
 msgstr "Вы активируете модуль..."
 
-#: src-en/data/events_special_storage.xml.append:5728
+#: src-en/data/events_special_storage.xml.append:5794
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_ACE_CONSOLE_ACTIVATE\"]/choice[2]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_special_storage.xml.append:5734
+#: src-en/data/events_special_storage.xml.append:5800
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_ACE_CONSOLE_ACTIVATE\"]/choice[@req=\"DEBUG_GENERATOR\"]/text"
 msgstr "Запитать модуль с помощью аварийного генератора."
 
-#: src-en/data/events_special_storage.xml.append:5736
+#: src-en/data/events_special_storage.xml.append:5802
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_ACE_CONSOLE_ACTIVATE\"]/choice[@req=\"DEBUG_GENERATOR\"]/event/text"
 msgstr "Вы активируете модуль..."
 
-#: src-en/data/events_special_storage.xml.append:5742
+#: src-en/data/events_special_storage.xml.append:5808
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_ACE_CONSOLE_ACTIVATE\"]/choice[@req=\"DEBUG_GENERATOR\"]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_special_storage.xml.append:5749
+#: src-en/data/events_special_storage.xml.append:5815
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_ACE_CONSOLE_ACTIVATE\"]/choice[4]/text"
 msgstr "Заняться чем-то другим."
 
-#: src-en/data/events_special_storage.xml.append:5753
+#: src-en/data/events_special_storage.xml.append:5819
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_ACE_CONSOLE_ACTIVATE\"]/choice[5]/text"
 msgstr "Неважно, давайте сражаться!"
 
-#: src-en/data/events_special_storage.xml.append:5755
+#: src-en/data/events_special_storage.xml.append:5821
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_ACE_CONSOLE_ACTIVATE\"]/choice[5]/event/text"
 msgstr "Вы решаете ничего не делать и готовитесь к бою."
 
-#: src-en/data/events_special_storage.xml.append:5847
+#: src-en/data/events_special_storage.xml.append:5913
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_COMBAT_CHECK_OFFENSE_DISABLER\"]/text"
 msgstr ""
 "Вы уверены, что хотите это сделать?\n"
 "\t[Выводит из строя наступательные системы противника, после чего эффект ослабевает все быстрее. Потребляет 2 | и 3 единицы энергии реактора]"
 
-#: src-en/data/events_special_storage.xml.append:5851
+#: src-en/data/events_special_storage.xml.append:5917
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_COMBAT_CHECK_OFFENSE_DISABLER\"]/choice[@req=\"reactor\"]/text"
 msgstr "Да"
 
-#: src-en/data/events_special_storage.xml.append:5853
+#: src-en/data/events_special_storage.xml.append:5919
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_COMBAT_CHECK_OFFENSE_DISABLER\"]/choice[@req=\"reactor\"]/event/text"
 msgstr "Вы активируете модуль..."
 
-#: src-en/data/events_special_storage.xml.append:5861
+#: src-en/data/events_special_storage.xml.append:5927
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_COMBAT_CHECK_OFFENSE_DISABLER\"]/choice[@req=\"reactor\"]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_special_storage.xml.append:5867
+#: src-en/data/events_special_storage.xml.append:5933
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_COMBAT_CHECK_OFFENSE_DISABLER\"]/choice[@req=\"DEBUG_GENERATOR\"]/text"
 msgstr "Запитать модуль с помощью аварийного генератора."
 
-#: src-en/data/events_special_storage.xml.append:5869
+#: src-en/data/events_special_storage.xml.append:5935
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_COMBAT_CHECK_OFFENSE_DISABLER\"]/choice[@req=\"DEBUG_GENERATOR\"]/event/text"
 msgstr "Вы активируете модуль..."
 
-#: src-en/data/events_special_storage.xml.append:5875
+#: src-en/data/events_special_storage.xml.append:5941
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_COMBAT_CHECK_OFFENSE_DISABLER\"]/choice[@req=\"DEBUG_GENERATOR\"]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_special_storage.xml.append:5882
+#: src-en/data/events_special_storage.xml.append:5948
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_COMBAT_CHECK_OFFENSE_DISABLER\"]/choice[3]/text"
 msgstr "Заняться чем-то другим."
 
-#: src-en/data/events_special_storage.xml.append:5886
+#: src-en/data/events_special_storage.xml.append:5952
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_COMBAT_CHECK_OFFENSE_DISABLER\"]/choice[4]/text"
 msgstr "Неважно, давайте сражаться!"
 
-#: src-en/data/events_special_storage.xml.append:5888
+#: src-en/data/events_special_storage.xml.append:5954
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_COMBAT_CHECK_OFFENSE_DISABLER\"]/choice[4]/event/text"
 msgstr "Вы решаете ничего не делать и готовитесь к бою."
 
-#: src-en/data/events_special_storage.xml.append:5894
+#: src-en/data/events_special_storage.xml.append:5960
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_OFFENSE_DISABLER_TIMER_START\"]/text"
 msgstr "Оружейный отсек противника нейтрализован, воспользуйтесь моментом..."
 
-#: src-en/data/events_special_storage.xml.append:5904
+#: src-en/data/events_special_storage.xml.append:5970
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_OFFENSE_DISABLER_TIMER_START\"]/triggeredEvent/triggeredEventBox/tooltip"
 msgstr "За это время оружейный отсек противника полностью восстанавливается."
 
-#: src-en/data/events_special_storage.xml.append:5913
+#: src-en/data/events_special_storage.xml.append:5979
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_OFFENSE_DISABLER_TIMER_START\"]/choice/text"
 msgstr "Перейти к битве!"
 
-#: src-en/data/events_special_storage.xml.append:6072
+#: src-en/data/events_special_storage.xml.append:6138
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_COMBAT_CHECK_DEFENSE_REMOVER\"]/text"
 msgstr ""
 "Вы уверены, что хотите это сделать?\n"
 "\t[Каждые 3-7 секунд (случайное значение) снижает мощность Двигателей, Щитов и Абляционной брони противника (от Lily's Innovations). Использует 3 энергии реактора]"
 
-#: src-en/data/events_special_storage.xml.append:6076
+#: src-en/data/events_special_storage.xml.append:6142
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_COMBAT_CHECK_DEFENSE_REMOVER\"]/choice[1]/text"
 msgstr ""
 "Питание модуля обеспечивается Аварийным генератором в течение 40 секунд."
 
-#: src-en/data/events_special_storage.xml.append:6078
+#: src-en/data/events_special_storage.xml.append:6144
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_COMBAT_CHECK_DEFENSE_REMOVER\"]/choice[1]/event/text"
 msgstr "Вы активируете модуль..."
 
-#: src-en/data/events_special_storage.xml.append:6084
+#: src-en/data/events_special_storage.xml.append:6150
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_COMBAT_CHECK_DEFENSE_REMOVER\"]/choice[1]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_special_storage.xml.append:6090
+#: src-en/data/events_special_storage.xml.append:6156
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_COMBAT_CHECK_DEFENSE_REMOVER\"]/choice[2]/text"
 msgstr "Да, в течение 40 секунд"
 
-#: src-en/data/events_special_storage.xml.append:6092
+#: src-en/data/events_special_storage.xml.append:6158
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_COMBAT_CHECK_DEFENSE_REMOVER\"]/choice[2]/event/text"
 msgstr "Вы активируете модуль..."
 
-#: src-en/data/events_special_storage.xml.append:6100
+#: src-en/data/events_special_storage.xml.append:6166
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_COMBAT_CHECK_DEFENSE_REMOVER\"]/choice[2]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_special_storage.xml.append:6107
+#: src-en/data/events_special_storage.xml.append:6173
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_COMBAT_CHECK_DEFENSE_REMOVER\"]/choice[3]/text"
 msgstr ""
 "Питание модуля обеспечивается Аварийным генератором в течение 75 секунд."
 
-#: src-en/data/events_special_storage.xml.append:6109
+#: src-en/data/events_special_storage.xml.append:6175
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_COMBAT_CHECK_DEFENSE_REMOVER\"]/choice[3]/event/text"
 msgstr "Вы активируете модуль..."
 
-#: src-en/data/events_special_storage.xml.append:6115
+#: src-en/data/events_special_storage.xml.append:6181
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_COMBAT_CHECK_DEFENSE_REMOVER\"]/choice[3]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_special_storage.xml.append:6121
+#: src-en/data/events_special_storage.xml.append:6187
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_COMBAT_CHECK_DEFENSE_REMOVER\"]/choice[4]/text"
 msgstr "Да, в течение 75 секунд"
 
-#: src-en/data/events_special_storage.xml.append:6123
+#: src-en/data/events_special_storage.xml.append:6189
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_COMBAT_CHECK_DEFENSE_REMOVER\"]/choice[4]/event/text"
 msgstr "Вы активируете модуль..."
 
-#: src-en/data/events_special_storage.xml.append:6131
+#: src-en/data/events_special_storage.xml.append:6197
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_COMBAT_CHECK_DEFENSE_REMOVER\"]/choice[4]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_special_storage.xml.append:6138
+#: src-en/data/events_special_storage.xml.append:6204
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_COMBAT_CHECK_DEFENSE_REMOVER\"]/choice[5]/text"
 msgstr "Заняться чем-то другим."
 
-#: src-en/data/events_special_storage.xml.append:6142
+#: src-en/data/events_special_storage.xml.append:6208
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_COMBAT_CHECK_DEFENSE_REMOVER\"]/choice[6]/text"
 msgstr "Неважно, давайте сражаться!"
 
-#: src-en/data/events_special_storage.xml.append:6144
+#: src-en/data/events_special_storage.xml.append:6210
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_COMBAT_CHECK_DEFENSE_REMOVER\"]/choice[6]/event/text"
 msgstr "Вы решаете ничего не делать и готовитесь к бою."
 
-#: src-en/data/events_special_storage.xml.append:6150
+#: src-en/data/events_special_storage.xml.append:6216
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_DEFENSE_REMOVER_TIMER_START_LOW\"]/text"
 msgstr "Защита противника будет постепенно ослаблена. Выживайте!"
 
-#: src-en/data/events_special_storage.xml.append:6157
+#: src-en/data/events_special_storage.xml.append:6223
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_DEFENSE_REMOVER_TIMER_START_LOW\"]/triggeredEvent/triggeredEventBox/tooltip"
 msgstr "За это время ограничения на защиту противника снимаются."
 
-#: src-en/data/events_special_storage.xml.append:6166
+#: src-en/data/events_special_storage.xml.append:6232
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_DEFENSE_REMOVER_TIMER_START_LOW\"]/choice/text"
 msgstr "Перейти к битве!"
 
-#: src-en/data/events_special_storage.xml.append:6174
+#: src-en/data/events_special_storage.xml.append:6240
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_DEFENSE_REMOVER_TIMER_START_HIGH\"]/text"
 msgstr "Защита противника будет постепенно ослаблена. Выживайте!"
 
-#: src-en/data/events_special_storage.xml.append:6181
+#: src-en/data/events_special_storage.xml.append:6247
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_DEFENSE_REMOVER_TIMER_START_HIGH\"]/triggeredEvent/triggeredEventBox/tooltip"
 msgstr "За это время ограничения на защиту противника снимаются."
 
-#: src-en/data/events_special_storage.xml.append:6190
+#: src-en/data/events_special_storage.xml.append:6256
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_DEFENSE_REMOVER_TIMER_START_HIGH\"]/choice/text"
 msgstr "Перейти к битве!"
 
-#: src-en/data/events_special_storage.xml.append:6385
+#: src-en/data/events_special_storage.xml.append:6451
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_FLAMMABILIZER_IMMUNE\"]/text"
 msgstr ""
 "Какую способность модуля вы хотите использовать?\n"
 "\tТекущий режим: снимает иммунитет к огню"
 
-#: src-en/data/events_special_storage.xml.append:6388
+#: src-en/data/events_special_storage.xml.append:6454
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_FLAMMABILIZER_IMMUNE\"]/choice[1]/text"
 msgstr ""
 "Настроить состояние модуля: Урон. [Враги получают больше урона от огня]"
 
-#: src-en/data/events_special_storage.xml.append:6390
+#: src-en/data/events_special_storage.xml.append:6456
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_FLAMMABILIZER_IMMUNE\"]/choice[1]/event/text"
 msgstr "Вы начинаете калибровку модуля..."
 
-#: src-en/data/events_special_storage.xml.append:6393
+#: src-en/data/events_special_storage.xml.append:6459
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_FLAMMABILIZER_IMMUNE\"]/choice[1]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_special_storage.xml.append:6395
+#: src-en/data/events_special_storage.xml.append:6461
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_FLAMMABILIZER_IMMUNE\"]/choice[1]/event/choice/event/text"
 msgstr "Вы успешно завершили калибровку орудия."
 
-#: src-en/data/events_special_storage.xml.append:6398
+#: src-en/data/events_special_storage.xml.append:6464
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_FLAMMABILIZER_IMMUNE\"]/choice[1]/event/choice/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_special_storage.xml.append:6406
+#: src-en/data/events_special_storage.xml.append:6472
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_FLAMMABILIZER_IMMUNE\"]/choice[2]/text"
 msgstr "Вернуться в меню переключения."
 
-#: src-en/data/events_special_storage.xml.append:6411
+#: src-en/data/events_special_storage.xml.append:6477
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_FLAMMABILIZER_DAMAGE\"]/text"
 msgstr ""
 "Какую способность модуля вы хотите использовать?\n"
 "\tТекущий режим: враги получают больше урона от огня"
 
-#: src-en/data/events_special_storage.xml.append:6414
+#: src-en/data/events_special_storage.xml.append:6480
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_FLAMMABILIZER_DAMAGE\"]/choice[1]/text"
 msgstr "Настроить состояние модуля: Иммунитет. [Снимает иммунитет к огню]"
 
-#: src-en/data/events_special_storage.xml.append:6416
+#: src-en/data/events_special_storage.xml.append:6482
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_FLAMMABILIZER_DAMAGE\"]/choice[1]/event/text"
 msgstr "Вы начинаете калибровку модуля..."
 
-#: src-en/data/events_special_storage.xml.append:6419
+#: src-en/data/events_special_storage.xml.append:6485
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_FLAMMABILIZER_DAMAGE\"]/choice[1]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_special_storage.xml.append:6421
+#: src-en/data/events_special_storage.xml.append:6487
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_FLAMMABILIZER_DAMAGE\"]/choice[1]/event/choice/event/text"
 msgstr "Вы успешно завершили калибровку орудия."
 
-#: src-en/data/events_special_storage.xml.append:6424
+#: src-en/data/events_special_storage.xml.append:6490
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_FLAMMABILIZER_DAMAGE\"]/choice[1]/event/choice/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_special_storage.xml.append:6432
+#: src-en/data/events_special_storage.xml.append:6498
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_FLAMMABILIZER_DAMAGE\"]/choice[2]/text"
 msgstr "Вернуться в меню переключения."
 
-#: src-en/data/events_special_storage.xml.append:6448
+#: src-en/data/events_special_storage.xml.append:6514
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_HARMONY_ON\"]/text"
 msgstr ""
 "Какую способность модуля вы хотите использовать?\n"
 "\tТекущий режим: Включено (Вкл)"
 
-#: src-en/data/events_special_storage.xml.append:6451
+#: src-en/data/events_special_storage.xml.append:6517
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_HARMONY_ON\"]/choice[1]/text"
 msgstr "Отключить модуль."
 
-#: src-en/data/events_special_storage.xml.append:6453
+#: src-en/data/events_special_storage.xml.append:6519
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_HARMONY_ON\"]/choice[1]/event/text"
 msgstr "Вы начинаете калибровку модуля..."
 
-#: src-en/data/events_special_storage.xml.append:6456
+#: src-en/data/events_special_storage.xml.append:6522
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_HARMONY_ON\"]/choice[1]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_special_storage.xml.append:6458
+#: src-en/data/events_special_storage.xml.append:6524
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_HARMONY_ON\"]/choice[1]/event/choice/event/text"
 msgstr "Вы успешно завершили калибровку орудия."
 
-#: src-en/data/events_special_storage.xml.append:6461
+#: src-en/data/events_special_storage.xml.append:6527
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_HARMONY_ON\"]/choice[1]/event/choice/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_special_storage.xml.append:6470
+#: src-en/data/events_special_storage.xml.append:6536
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_HARMONY_ON\"]/choice[2]/text"
 msgstr "Вернуться в меню переключения."
 
-#: src-en/data/events_special_storage.xml.append:6475
+#: src-en/data/events_special_storage.xml.append:6541
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_HARMONY_OFF\"]/text"
 msgstr ""
 "Какую способность модуля вы хотите использовать?\n"
 "\tТекущий режим: Выключено (Выкл)"
 
-#: src-en/data/events_special_storage.xml.append:6478
+#: src-en/data/events_special_storage.xml.append:6544
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_HARMONY_OFF\"]/choice[1]/text"
 msgstr "Включить модуль."
 
-#: src-en/data/events_special_storage.xml.append:6480
+#: src-en/data/events_special_storage.xml.append:6546
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_HARMONY_OFF\"]/choice[1]/event/text"
 msgstr "Вы начинаете калибровку модуля..."
 
-#: src-en/data/events_special_storage.xml.append:6483
+#: src-en/data/events_special_storage.xml.append:6549
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_HARMONY_OFF\"]/choice[1]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_special_storage.xml.append:6485
+#: src-en/data/events_special_storage.xml.append:6551
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_HARMONY_OFF\"]/choice[1]/event/choice/event/text"
 msgstr "Вы успешно завершили калибровку орудия."
 
-#: src-en/data/events_special_storage.xml.append:6488
+#: src-en/data/events_special_storage.xml.append:6554
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_HARMONY_OFF\"]/choice[1]/event/choice/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_special_storage.xml.append:6497
+#: src-en/data/events_special_storage.xml.append:6563
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_HARMONY_OFF\"]/choice[2]/text"
 msgstr "Вернуться в меню переключения."
 
-#: src-en/data/events_special_storage.xml.append:6504
+#: src-en/data/events_special_storage.xml.append:6570
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_OWN_HARMONY_GROW_ENGI_SEPARATIST\"]/text"
 msgstr ""
 "Вы уверены, что хотите вырастить Сепаратиста энджи?\n"
 "\t[Флот повстанцев ускоряется на 1 прыжок]"
 
-#: src-en/data/events_special_storage.xml.append:6508
+#: src-en/data/events_special_storage.xml.append:6574
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_OWN_HARMONY_GROW_ENGI_SEPARATIST\"]/choice[1]/text"
 msgstr "Да"
 
-#: src-en/data/events_special_storage.xml.append:6510
+#: src-en/data/events_special_storage.xml.append:6576
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_OWN_HARMONY_GROW_ENGI_SEPARATIST\"]/choice[1]/event/text"
 msgstr ""
 "Вы уделяете время ускоренному выращиванию своего нового члена экипажа, чтобы"
 " он был готов к автоматизации с помощью Гармонии на вашем корабле!"
 
-#: src-en/data/events_special_storage.xml.append:6519
+#: src-en/data/events_special_storage.xml.append:6585
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_OWN_HARMONY_GROW_ENGI_SEPARATIST\"]/choice[1]/event/crewMember"
 msgstr "Старбой"
 
-#: src-en/data/events_special_storage.xml.append:6522
+#: src-en/data/events_special_storage.xml.append:6588
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_OWN_HARMONY_GROW_ENGI_SEPARATIST\"]/choice[1]/event/choice/text"
 msgstr "Он отлично укрепит наши ряды."
 
-#: src-en/data/events_special_storage.xml.append:6529
+#: src-en/data/events_special_storage.xml.append:6595
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_OWN_HARMONY_GROW_ENGI_SEPARATIST\"]/choice[2]/text"
 msgstr "Пусть будет 2, ведь на это уходит столько же времени."
 
-#: src-en/data/events_special_storage.xml.append:6531
+#: src-en/data/events_special_storage.xml.append:6597
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_OWN_HARMONY_GROW_ENGI_SEPARATIST\"]/choice[2]/event/text"
 msgstr ""
 "Вы уделяете время ускоренному выращиванию своего нового члена экипажа, чтобы"
 " он был готов к автоматизации с помощью Гармонии на вашем корабле!"
 
-#: src-en/data/events_special_storage.xml.append:6540
+#: src-en/data/events_special_storage.xml.append:6606
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_OWN_HARMONY_GROW_ENGI_SEPARATIST\"]/choice[2]/event/crewMember"
 msgstr "МТФКН"
 
-#: src-en/data/events_special_storage.xml.append:6543
+#: src-en/data/events_special_storage.xml.append:6609
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_OWN_HARMONY_GROW_ENGI_SEPARATIST\"]/choice[2]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_special_storage.xml.append:6545
+#: src-en/data/events_special_storage.xml.append:6611
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_OWN_HARMONY_GROW_ENGI_SEPARATIST\"]/choice[2]/event/choice/event/text"
 msgstr "Оба ваших новых члена экипажа готовы!"
 
-#: src-en/data/events_special_storage.xml.append:6546
+#: src-en/data/events_special_storage.xml.append:6612
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_OWN_HARMONY_GROW_ENGI_SEPARATIST\"]/choice[2]/event/choice/event/crewMember"
 msgstr "Старбой"
 
-#: src-en/data/events_special_storage.xml.append:6549
+#: src-en/data/events_special_storage.xml.append:6615
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_OWN_HARMONY_GROW_ENGI_SEPARATIST\"]/choice[2]/event/choice/event/choice/text"
 msgstr "Автоматизация набирает обороты!"
 
-#: src-en/data/events_special_storage.xml.append:6558
+#: src-en/data/events_special_storage.xml.append:6624
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_OWN_HARMONY_GROW_ENGI_SEPARATIST\"]/choice[3]/text"
 msgstr "Неважно, заняться чем-то еще."
 
-#: src-en/data/events_special_storage.xml.append:6572
+#: src-en/data/events_special_storage.xml.append:6638
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_CREW_ARE_BOMBS_OFF\"]/text"
 msgstr ""
 "Вы действительно хотите включить этот модуль? ВНИМАНИЕ: его нельзя отключить, но он может самоуничтожиться у пустого маяка или быть продан обычным образом.\n"
 "\tТекущий режим: Выключено (Выкл)"
 
-#: src-en/data/events_special_storage.xml.append:6575
+#: src-en/data/events_special_storage.xml.append:6641
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_CREW_ARE_BOMBS_OFF\"]/choice[1]/text"
 msgstr "Включить модуль."
 
-#: src-en/data/events_special_storage.xml.append:6577
+#: src-en/data/events_special_storage.xml.append:6643
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_CREW_ARE_BOMBS_OFF\"]/choice[1]/event/text"
 msgstr "Вы начинаете калибровку модуля..."
 
-#: src-en/data/events_special_storage.xml.append:6580
+#: src-en/data/events_special_storage.xml.append:6646
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_CREW_ARE_BOMBS_OFF\"]/choice[1]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_special_storage.xml.append:6582
+#: src-en/data/events_special_storage.xml.append:6648
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_CREW_ARE_BOMBS_OFF\"]/choice[1]/event/choice/event/text"
 msgstr "Вы успешно завершили калибровку орудия."
 
-#: src-en/data/events_special_storage.xml.append:6585
+#: src-en/data/events_special_storage.xml.append:6651
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_CREW_ARE_BOMBS_OFF\"]/choice[1]/event/choice/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_special_storage.xml.append:6594
+#: src-en/data/events_special_storage.xml.append:6660
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_CREW_ARE_BOMBS_OFF\"]/choice[2]/text"
 msgstr "Вернуться в меню переключения."
 
-#: src-en/data/events_special_storage.xml.append:6600
+#: src-en/data/events_special_storage.xml.append:6666
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_CREW_ARE_BOMBS_ON_SELFSCRAP\"]/text"
 msgstr ""
 "Вы уверены, что хотите разобрать этот модуль за половину стоимости?\n"
 "\t[Единственный способ отключить его, если вы не можете продать или выбросить его прямо сейчас]"
 
-#: src-en/data/events_special_storage.xml.append:6604
+#: src-en/data/events_special_storage.xml.append:6670
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_CREW_ARE_BOMBS_ON_SELFSCRAP\"]/choice[1]/text"
 msgstr "Да, это слишком опасно."
 
-#: src-en/data/events_special_storage.xml.append:6615
+#: src-en/data/events_special_storage.xml.append:6681
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_CREW_ARE_BOMBS_ON_SELFSCRAP\"]/choice[2]/text"
 msgstr "Да, но превратить его во взрывчатку."
 
-#: src-en/data/events_special_storage.xml.append:6625
+#: src-en/data/events_special_storage.xml.append:6691
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_CREW_ARE_BOMBS_ON_SELFSCRAP\"]/choice[3]/text"
 msgstr "Неважно, заняться чем-то еще."
 
-#: src-en/data/events_special_storage.xml.append:6638
+#: src-en/data/events_special_storage.xml.append:6704
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_LEAD_TITANS_SELFSCRAP\"]/text"
 msgstr ""
 "Вы уверены, что хотите разобрать этот модуль за половину стоимости?\n"
 "\t[Единственный способ отключить его, если вы не можете продать или выбросить его прямо сейчас]"
 
-#: src-en/data/events_special_storage.xml.append:6642
+#: src-en/data/events_special_storage.xml.append:6708
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_LEAD_TITANS_SELFSCRAP\"]/choice[@req=\"RK_LEAD_TITANS\"]/text"
 msgstr "Да, это слишком опасно."
 
-#: src-en/data/events_special_storage.xml.append:6654
+#: src-en/data/events_special_storage.xml.append:6720
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_LEAD_TITANS_SELFSCRAP\"]/choice[2]/text"
 msgstr "Неважно, заняться чем-то еще."
 
-#: src-en/data/events_special_storage.xml.append:6669
+#: src-en/data/events_special_storage.xml.append:6735
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_BPS_SURVEYOR_ACTIVATE\"]/text"
 msgstr ""
@@ -3728,172 +3736,170 @@ msgstr ""
 "\t[Потратить ресурсы на отправку дронов-разведчиков для глубокой разведки. Они найдут случайное оружие и модуль.\n"
 "\tВы можете забрать только одну находку за 1 единицу ускорения флота или отказаться от них, получив небольшую компенсацию]"
 
-#: src-en/data/events_special_storage.xml.append:6674
+#: src-en/data/events_special_storage.xml.append:6740
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_BPS_SURVEYOR_ACTIVATE\"]/choice[@req=\"RK_BPS_SURVEYOR\"]/text"
 msgstr "Да"
 
-#: src-en/data/events_special_storage.xml.append:6676
+#: src-en/data/events_special_storage.xml.append:6742
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_BPS_SURVEYOR_ACTIVATE\"]/choice[@req=\"RK_BPS_SURVEYOR\"]/event/text"
 msgstr ""
-"\"На поиски!\" - вы отправляете оба специальных дрона, скрестив пальцы или "
-"что-то в этом роде.\n"
+"\"На поиски!\" - вы отправляете оба специальных дрона, скрестив пальцы или что-то в этом роде.\n"
 "\t\t\t\tЧерез некоторое время они удаленно сообщают о своих находках.\n"
 "\t\t\t\t\n"
-"\t\t\t\tЕсли вы решите ничего не забирать, вам будет возвращена часть "
-"затрат.\n"
+"\t\t\t\tЕсли вы решите ничего не забирать, вам будет возвращена часть затрат.\n"
 "\t\t\t\t\n"
 "\t\t\t\tЕсли вы решите что-нибудь забрать, то флот ускорится на 1 прыжок."
 
-#: src-en/data/events_special_storage.xml.append:6691
+#: src-en/data/events_special_storage.xml.append:6757
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_BPS_SURVEYOR_ACTIVATE\"]/choice[@req=\"RK_BPS_SURVEYOR\"]/event/choice[1]/text"
 msgstr "Взять случайное оружие."
 
-#: src-en/data/events_special_storage.xml.append:6693
+#: src-en/data/events_special_storage.xml.append:6759
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_BPS_SURVEYOR_ACTIVATE\"]/choice[@req=\"RK_BPS_SURVEYOR\"]/event/choice[1]/event/text"
 msgstr ""
 "Вы тратите время, чтобы встретить к дрон на полпути и забрать находку."
 
-#: src-en/data/events_special_storage.xml.append:6703
+#: src-en/data/events_special_storage.xml.append:6769
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_BPS_SURVEYOR_ACTIVATE\"]/choice[@req=\"RK_BPS_SURVEYOR\"]/event/choice[1]/event/choice/text"
 msgstr "Отличная находка! Молодец, дронно, молодец!"
 
-#: src-en/data/events_special_storage.xml.append:6710
+#: src-en/data/events_special_storage.xml.append:6776
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_BPS_SURVEYOR_ACTIVATE\"]/choice[@req=\"RK_BPS_SURVEYOR\"]/event/choice[2]/text"
 msgstr "Взять случайный модуль."
 
-#: src-en/data/events_special_storage.xml.append:6712
+#: src-en/data/events_special_storage.xml.append:6778
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_BPS_SURVEYOR_ACTIVATE\"]/choice[@req=\"RK_BPS_SURVEYOR\"]/event/choice[2]/event/text"
 msgstr ""
 "Вы тратите время, чтобы встретить к дрон на полпути и забрать находку."
 
-#: src-en/data/events_special_storage.xml.append:6722
+#: src-en/data/events_special_storage.xml.append:6788
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_BPS_SURVEYOR_ACTIVATE\"]/choice[@req=\"RK_BPS_SURVEYOR\"]/event/choice[2]/event/choice/text"
 msgstr "Кто у нас хороший бип-буп? Да ты, именно ты!"
 
-#: src-en/data/events_special_storage.xml.append:6730
+#: src-en/data/events_special_storage.xml.append:6796
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_BPS_SURVEYOR_ACTIVATE\"]/choice[@req=\"RK_BPS_SURVEYOR\"]/event/choice[3]/text"
 msgstr "Удача нам не улыбнулась, забудьте об этом."
 
-#: src-en/data/events_special_storage.xml.append:6732
+#: src-en/data/events_special_storage.xml.append:6798
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_BPS_SURVEYOR_ACTIVATE\"]/choice[@req=\"RK_BPS_SURVEYOR\"]/event/choice[3]/event/text"
 msgstr "Следует минимизировать убытки, разобрав дроны и двигаться дальше."
 
-#: src-en/data/events_special_storage.xml.append:6739
+#: src-en/data/events_special_storage.xml.append:6805
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_BPS_SURVEYOR_ACTIVATE\"]/choice[@req=\"RK_BPS_SURVEYOR\"]/event/choice[3]/event/choice/text"
 msgstr "В следующий раз повезет больше."
 
-#: src-en/data/events_special_storage.xml.append:6747
+#: src-en/data/events_special_storage.xml.append:6813
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_BPS_SURVEYOR_ACTIVATE\"]/choice[2]/text"
 msgstr "Неважно, заняться чем-то еще."
 
-#: src-en/data/events_special_storage.xml.append:6902
+#: src-en/data/events_special_storage.xml.append:6968
 msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/mod:findName[27]/mod-"
 "append:choice/text"
 msgstr "Технология РадиКал. [У вас ее нет. Выберите, чтобы узнать требования]"
 
-#: src-en/data/events_special_storage.xml.append:6908
+#: src-en/data/events_special_storage.xml.append:6974
 msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/mod:findName[28]/mod-"
 "append:choice/text"
 msgstr "Технология РадиКал."
 
-#: src-en/data/events_special_storage.xml.append:6934
+#: src-en/data/events_special_storage.xml.append:7000
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_INVENTORY_UPGRADES\"]/mod-"
 "append:choice[1]/text"
 msgstr "Калибратор [2х]"
 
-#: src-en/data/events_special_storage.xml.append:6938
+#: src-en/data/events_special_storage.xml.append:7004
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_INVENTORY_UPGRADES\"]/mod-"
 "append:choice[2]/text"
 msgstr "Калибратор [1х]"
 
-#: src-en/data/events_special_storage.xml.append:6942
+#: src-en/data/events_special_storage.xml.append:7008
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_INVENTORY_UPGRADES\"]/mod-"
 "append:choice[3]/text"
 msgstr "Калибратор [Не установлено]"
 
-#: src-en/data/events_special_storage.xml.append:6947
+#: src-en/data/events_special_storage.xml.append:7013
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_INVENTORY_UPGRADES\"]/mod-"
 "append:choice[4]/text"
 msgstr "Удушонайзер Н.С.В.Ф.У. [Установлено]"
 
-#: src-en/data/events_special_storage.xml.append:6951
+#: src-en/data/events_special_storage.xml.append:7017
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_INVENTORY_UPGRADES\"]/mod-"
 "append:choice[5]/text"
 msgstr "Удушонайзер Н.С.В.Ф.У. [Не установлено]"
 
-#: src-en/data/events_special_storage.xml.append:6957
+#: src-en/data/events_special_storage.xml.append:7023
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_INVENTORY_UPGRADES\"]/mod-"
 "append:choice[6]/text"
 msgstr "Демиклонеры [Установлено]"
 
-#: src-en/data/events_special_storage.xml.append:6961
+#: src-en/data/events_special_storage.xml.append:7027
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_INVENTORY_UPGRADES\"]/mod-"
 "append:choice[7]/text"
 msgstr "Демиклонеры [Не установлено]"
 
-#: src-en/data/events_special_storage.xml.append:6966
+#: src-en/data/events_special_storage.xml.append:7032
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_INVENTORY_UPGRADES\"]/mod-"
 "append:choice[8]/text"
 msgstr "Успокоитель разума [Установлено]"
 
-#: src-en/data/events_special_storage.xml.append:6970
+#: src-en/data/events_special_storage.xml.append:7036
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_INVENTORY_UPGRADES\"]/mod-"
 "append:choice[9]/text"
 msgstr "Успокоитель разума [Не установлено]"
 
-#: src-en/data/events_special_storage.xml.append:6976
+#: src-en/data/events_special_storage.xml.append:7042
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_INVENTORY_UPGRADES\"]/mod-"
 "append:choice[10]/text"
 msgstr "Огненные повязки [Установлено]"
 
-#: src-en/data/events_special_storage.xml.append:6980
+#: src-en/data/events_special_storage.xml.append:7046
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_INVENTORY_UPGRADES\"]/mod-"
 "append:choice[11]/text"
 msgstr "Огненные повязки [Не установлено]"
 
-#: src-en/data/events_special_storage.xml.append:6985
+#: src-en/data/events_special_storage.xml.append:7051
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_INVENTORY_UPGRADES\"]/mod-"
 "append:choice[12]/text"
 msgstr "Разогреватель разума [Установлено]"
 
-#: src-en/data/events_special_storage.xml.append:6989
+#: src-en/data/events_special_storage.xml.append:7055
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_INVENTORY_UPGRADES\"]/mod-"
 "append:choice[13]/text"
 msgstr "Разогреватель разума [Не установлено]"
 
-#: src-en/data/events_special_storage.xml.append:6997
+#: src-en/data/events_special_storage.xml.append:7063
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL\"]/text"
 msgstr "Какое улучшение вы хотите установить?"
 
-#: src-en/data/events_special_storage.xml.append:7015
+#: src-en/data/events_special_storage.xml.append:7081
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL\"]/choice[@req=\"INTERNAL_RK_CALIBRATOR\""
 " and @lvl=\"2\"]/text"
@@ -3901,19 +3907,19 @@ msgstr ""
 "РК Бам \"Калибрато\": Ваши оружия получают +10% к точности и +4% к скорострельности.\n"
 "\t\t\tМожно установить дважды. [УЖЕ УСТАНОВЛЕНО: у вас уже установлено максимальное количество этого улучшения]"
 
-#: src-en/data/events_special_storage.xml.append:7020
+#: src-en/data/events_special_storage.xml.append:7086
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL\"]/choice[@req=\"INTERNAL_RK_CALIBRATOR\""
 " and @lvl=\"1\"]/text"
 msgstr "Калибратор 2-го уровня. [Цена: 45~, 1|]"
 
-#: src-en/data/events_special_storage.xml.append:7024
+#: src-en/data/events_special_storage.xml.append:7090
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL\"]/choice[@req=\"INTERNAL_RK_CALIBRATOR\""
 " and @lvl=\"0\"]/text"
 msgstr "Калибратор 1-го уровня. [Цена: 45~ 1|]"
 
-#: src-en/data/events_special_storage.xml.append:7029
+#: src-en/data/events_special_storage.xml.append:7095
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL\"]/choice[@req=\"INTERNAL_RK_CHOKING_IS_FINE\""
 " and @lvl=\"1\"]/text"
@@ -3921,13 +3927,13 @@ msgstr ""
 "РК Бам \"Удушонайзер Н.С.В.Ф.У.\": ваш экипаж получает 0.75х урон от удушья.\n"
 "\t\tВ состоянии удушья они передвигаются, саботируют, ремонтируют и сражаются в 1.4х эффективнее. Не влияет на экипаж, обладающий иммунитетом к удушью. [УЖЕ УСТАНОВЛЕНО]"
 
-#: src-en/data/events_special_storage.xml.append:7034
+#: src-en/data/events_special_storage.xml.append:7100
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL\"]/choice[@req=\"INTERNAL_RK_CHOKING_IS_FINE\""
 " and @lvl=\"0\"]/text"
 msgstr "Удушонайзер Н.С.В.Ф.У. [Цена: 55~, 1}, 1|]"
 
-#: src-en/data/events_special_storage.xml.append:7039
+#: src-en/data/events_special_storage.xml.append:7105
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL\"]/choice[@req=\"INTERNAL_DJMOD_DEMICLONER\""
 " and @lvl=\"1\"]/text"
@@ -3935,13 +3941,13 @@ msgstr ""
 "РК Панк \"Демиклонеры\": при отсутствии Клон-отсека погибшие члены экипажа воскрешаются в упрощенном виде (Солдат = человек по умолчанию и т. д.)\n"
 "\t\t\tЕсли таких персонажей нет, они превращаются в морфов. Когда морфы гибнут, ничего не происходит. Не работает при гибели в результате событий. [УЖЕ УСТАНОВЛЕНО]"
 
-#: src-en/data/events_special_storage.xml.append:7044
+#: src-en/data/events_special_storage.xml.append:7110
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL\"]/choice[@req=\"INTERNAL_DJMOD_DEMICLONER\""
 " and @lvl=\"0\"]/text"
 msgstr "Демиклонеры. [Цена: 35~, 2|]"
 
-#: src-en/data/events_special_storage.xml.append:7049
+#: src-en/data/events_special_storage.xml.append:7115
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL\"]/choice[@req=\"INTERNAL_DJMOD_MC_PARALYZER\""
 " and @lvl=\"1\"]/text"
@@ -3950,13 +3956,13 @@ msgstr ""
 "не может сражаться, саботировать, использовать способности или "
 "телепортироваться. Действует на обоих кораблях. [УЖЕ УСТАНОВЛЕНО]"
 
-#: src-en/data/events_special_storage.xml.append:7053
+#: src-en/data/events_special_storage.xml.append:7119
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL\"]/choice[@req=\"INTERNAL_DJMOD_MC_PARALYZER\""
 " and @lvl=\"0\"]/text"
 msgstr "Успокоитель разума. [Цена: 30~, 1|]"
 
-#: src-en/data/events_special_storage.xml.append:7059
+#: src-en/data/events_special_storage.xml.append:7125
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL\"]/choice[@req=\"INTERNAL_RK_IN_FIRE_CREWBOOSTS\""
 " and @lvl=\"1\"]/text"
@@ -3965,13 +3971,13 @@ msgstr ""
 "саботажа вашего экипажа в условиях пожар, а урон в бою и по дверям увеличен "
 "до 1.75x на обоих кораблях. [УЖЕ УСТАНОВЛЕНО]"
 
-#: src-en/data/events_special_storage.xml.append:7063
+#: src-en/data/events_special_storage.xml.append:7129
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL\"]/choice[@req=\"INTERNAL_RK_IN_FIRE_CREWBOOSTS\""
 " and @lvl=\"0\"]/text"
 msgstr "Огненные повязки [Цена: 55~, 1{, 1}]"
 
-#: src-en/data/events_special_storage.xml.append:7068
+#: src-en/data/events_special_storage.xml.append:7134
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL\"]/choice[@req=\"INTERNAL_DJMOD_MC_IMMUNE_FROM_FIRE\""
 " and @lvl=\"1\"]/text"
@@ -3981,18 +3987,18 @@ msgstr ""
 "воздействия, продолжительность оглушения сокращается на 50%, также вы "
 "начинаете видеть соседние помещения. [УЖЕ УСТАНОВЛЕНО]"
 
-#: src-en/data/events_special_storage.xml.append:7072
+#: src-en/data/events_special_storage.xml.append:7138
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL\"]/choice[@req=\"INTERNAL_DJMOD_MC_IMMUNE_FROM_FIRE\""
 " and @lvl=\"0\"]/text"
 msgstr "Разогреватель разума. [Цена: 30~, 1{]"
 
-#: src-en/data/events_special_storage.xml.append:7077
+#: src-en/data/events_special_storage.xml.append:7143
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL\"]/choice[14]/text"
 msgstr "Неважно."
 
-#: src-en/data/events_special_storage.xml.append:7118
+#: src-en/data/events_special_storage.xml.append:7184
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_RK_CALIBRATOR\"]/text"
 msgstr ""
@@ -4000,7 +4006,7 @@ msgstr ""
 "\t[Эффекты: Точность вашего оружия увеличивается на +10, а скорострельность - на 4%. \n"
 "\tМожно установить дважды]"
 
-#: src-en/data/events_special_storage.xml.append:7135
+#: src-en/data/events_special_storage.xml.append:7201
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_RK_CALIBRATOR\"]/choice[@req=\"DJMOD_HAS_RADIKAL_BAM_GEAR\""
 " and @lvl=\"0\"]/text"
@@ -4008,30 +4014,30 @@ msgstr ""
 "Улучшение недоступно. Вам необходимо любое оружие, модуль, экипаж или "
 "корабль РадиКал Бам (или БПС)."
 
-#: src-en/data/events_special_storage.xml.append:7140
+#: src-en/data/events_special_storage.xml.append:7206
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_RK_CALIBRATOR\"]/choice[@req=\"DJMOD_HAS_RADIKAL_BAM_GEAR\""
 " and @lvl=\"1\"]/text"
 msgstr "Установить улучшение. [Цена: 45~, 1|]"
 
-#: src-en/data/events_special_storage.xml.append:7142
+#: src-en/data/events_special_storage.xml.append:7208
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_RK_CALIBRATOR\"]/choice[@req=\"DJMOD_HAS_RADIKAL_BAM_GEAR\""
 " and @lvl=\"1\"]/event/text"
 msgstr "Вы устанавливаете улучшение."
 
-#: src-en/data/events_special_storage.xml.append:7148
+#: src-en/data/events_special_storage.xml.append:7214
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_RK_CALIBRATOR\"]/choice[@req=\"DJMOD_HAS_RADIKAL_BAM_GEAR\""
 " and @lvl=\"1\"]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_special_storage.xml.append:7155
+#: src-en/data/events_special_storage.xml.append:7221
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_RK_CALIBRATOR\"]/choice[@req=\"pilot\"]/text"
 msgstr "Неважно."
 
-#: src-en/data/events_special_storage.xml.append:7166
+#: src-en/data/events_special_storage.xml.append:7232
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_RK_CHOKING_IS_FINE\"]/text"
 msgstr ""
@@ -4039,22 +4045,22 @@ msgstr ""
 "\t[Эффекты: ваш экипаж получает 0.75х урон от удушья.\n"
 "\t\tВ состоянии удушья они передвигаются, саботируют, ремонтируют и сражаются в 1.4х эффективнее. Не влияет на экипаж, обладающий иммунитетом к удушению.]"
 
-#: src-en/data/events_special_storage.xml.append:7171
+#: src-en/data/events_special_storage.xml.append:7237
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_RK_CHOKING_IS_FINE\"]/choice[@req=\"EX_RK_CHOKING_IS_FINE\"]/text"
 msgstr "Преобразовать внешний модуль во внутренний."
 
-#: src-en/data/events_special_storage.xml.append:7173
+#: src-en/data/events_special_storage.xml.append:7239
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_RK_CHOKING_IS_FINE\"]/choice[@req=\"EX_RK_CHOKING_IS_FINE\"]/event/text"
 msgstr "Вы устанавливаете улучшение."
 
-#: src-en/data/events_special_storage.xml.append:7176
+#: src-en/data/events_special_storage.xml.append:7242
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_RK_CHOKING_IS_FINE\"]/choice[@req=\"EX_RK_CHOKING_IS_FINE\"]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_special_storage.xml.append:7183
+#: src-en/data/events_special_storage.xml.append:7249
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_RK_CHOKING_IS_FINE\"]/choice[@req=\"DJMOD_HAS_RADIKAL_BAM_GEAR\""
 " and @lvl=\"0\"]/text"
@@ -4062,30 +4068,30 @@ msgstr ""
 "Улучшение недоступно. Вам необходимо любое оружие, модуль, экипаж или "
 "корабль РадиКал Бам (или БПС)."
 
-#: src-en/data/events_special_storage.xml.append:7188
+#: src-en/data/events_special_storage.xml.append:7254
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_RK_CHOKING_IS_FINE\"]/choice[@req=\"DJMOD_HAS_RADIKAL_BAM_GEAR\""
 " and @lvl=\"1\"]/text"
 msgstr "Установить улучшение. [Цена: 55~, 1{, 1}]"
 
-#: src-en/data/events_special_storage.xml.append:7190
+#: src-en/data/events_special_storage.xml.append:7256
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_RK_CHOKING_IS_FINE\"]/choice[@req=\"DJMOD_HAS_RADIKAL_BAM_GEAR\""
 " and @lvl=\"1\"]/event/text"
 msgstr "Вы устанавливаете улучшение."
 
-#: src-en/data/events_special_storage.xml.append:7197
+#: src-en/data/events_special_storage.xml.append:7263
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_RK_CHOKING_IS_FINE\"]/choice[@req=\"DJMOD_HAS_RADIKAL_BAM_GEAR\""
 " and @lvl=\"1\"]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_special_storage.xml.append:7204
+#: src-en/data/events_special_storage.xml.append:7270
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_RK_CHOKING_IS_FINE\"]/choice[@req=\"pilot\"]/text"
 msgstr "Неважно."
 
-#: src-en/data/events_special_storage.xml.append:7215
+#: src-en/data/events_special_storage.xml.append:7281
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_DJMOD_DEMICLONER\"]/text"
 msgstr ""
@@ -4093,22 +4099,22 @@ msgstr ""
 "\t[Эффекты: РадиКал Панк наполнил эти прототипы клон-рюкзаков мрачной энергией. Они пытаются воскресить членов вашего экипажа, если те погибнут (за исключением событий), когда у вас нет настоящего Клон-отсека.\n"
 "\t\tВ лучшем случае члены экипажа воскрешаются в виде упрощенной версии самих себя (Солдат = человек по умолчанию и т. д.). Если упрощенной версии не существует, они превращаются в морфов. Когда морфы погибают, ничего не происходит."
 
-#: src-en/data/events_special_storage.xml.append:7221
+#: src-en/data/events_special_storage.xml.append:7287
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_DJMOD_DEMICLONER\"]/choice[@req=\"EX_DJMOD_DEMICLONER\"]/text"
 msgstr "Преобразовать внешний модуль во внутренний."
 
-#: src-en/data/events_special_storage.xml.append:7223
+#: src-en/data/events_special_storage.xml.append:7289
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_DJMOD_DEMICLONER\"]/choice[@req=\"EX_DJMOD_DEMICLONER\"]/event/text"
 msgstr "Вы устанавливаете улучшение."
 
-#: src-en/data/events_special_storage.xml.append:7226
+#: src-en/data/events_special_storage.xml.append:7292
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_DJMOD_DEMICLONER\"]/choice[@req=\"EX_DJMOD_DEMICLONER\"]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_special_storage.xml.append:7233
+#: src-en/data/events_special_storage.xml.append:7299
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_DJMOD_DEMICLONER\"]/choice[@req=\"DJMOD_HAS_RADIKAL_PUNK_GEAR\""
 " and @lvl=\"0\"]/text"
@@ -4116,39 +4122,37 @@ msgstr ""
 "Улучшение недоступно. Вам необходимо любое оружие, модуль, экипаж или "
 "корабль РадиКал Панк (или БПС)."
 
-#: src-en/data/events_special_storage.xml.append:7238
+#: src-en/data/events_special_storage.xml.append:7304
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_DJMOD_DEMICLONER\"]/choice[@req=\"DJMOD_HAS_RADIKAL_PUNK_GEAR\""
 " and @lvl=\"1\"]/text"
 msgstr "Установить улучшение. [Цена: 35~, 2|]"
 
-#: src-en/data/events_special_storage.xml.append:7240
+#: src-en/data/events_special_storage.xml.append:7306
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_DJMOD_DEMICLONER\"]/choice[@req=\"DJMOD_HAS_RADIKAL_PUNK_GEAR\""
 " and @lvl=\"1\"]/event/text"
 msgstr "Вы устанавливаете улучшение."
 
-#: src-en/data/events_special_storage.xml.append:7246
+#: src-en/data/events_special_storage.xml.append:7312
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_DJMOD_DEMICLONER\"]/choice[@req=\"DJMOD_HAS_RADIKAL_PUNK_GEAR\""
 " and @lvl=\"1\"]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_special_storage.xml.append:7253
+#: src-en/data/events_special_storage.xml.append:7319
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_DJMOD_DEMICLONER\"]/choice[@req=\"pilot\"]/text"
 msgstr "Неважно."
 
-#: src-en/data/events_special_storage.xml.append:7264
+#: src-en/data/events_special_storage.xml.append:7330
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_DJMOD_MC_PARALYZER\"]/text"
 msgstr ""
 "Вы хотите добавить Успокоитель разума.\n"
-"\t[Эффекты: Под воздействием контроля разума ваш экипаж не может сражаться, "
-"саботировать, использовать способности или телепортироваться. Действует на "
-"обоих кораблях]"
+"\t[Эффекты: Под воздействием контроля разума ваш экипаж не может сражаться, саботировать, использовать способности или телепортироваться. Действует на обоих кораблях]"
 
-#: src-en/data/events_special_storage.xml.append:7268
+#: src-en/data/events_special_storage.xml.append:7334
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_DJMOD_MC_PARALYZER\"]/choice[@req=\"DJMOD_HAS_RADIKAL_PUNK_GEAR\""
 " and @lvl=\"0\"]/text"
@@ -4156,37 +4160,37 @@ msgstr ""
 "Улучшение недоступно. Вам необходимо любое оружие, модуль, экипаж или "
 "корабль РадиКал Панк (или БПС)."
 
-#: src-en/data/events_special_storage.xml.append:7272
+#: src-en/data/events_special_storage.xml.append:7338
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_DJMOD_MC_PARALYZER\"]/choice[@req=\"DJMOD_HAS_RADIKAL_PUNK_GEAR\""
 " and @lvl=\"1\"]/text"
 msgstr "Установить улучшение. [Цена: 30~, 1|]"
 
-#: src-en/data/events_special_storage.xml.append:7274
+#: src-en/data/events_special_storage.xml.append:7340
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_DJMOD_MC_PARALYZER\"]/choice[@req=\"DJMOD_HAS_RADIKAL_PUNK_GEAR\""
 " and @lvl=\"1\"]/event/text"
 msgstr "Вы устанавливаете улучшение."
 
-#: src-en/data/events_special_storage.xml.append:7280
+#: src-en/data/events_special_storage.xml.append:7346
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_DJMOD_MC_PARALYZER\"]/choice[@req=\"DJMOD_HAS_RADIKAL_PUNK_GEAR\""
 " and @lvl=\"1\"]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_special_storage.xml.append:7287
+#: src-en/data/events_special_storage.xml.append:7353
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_DJMOD_MC_PARALYZER\"]/choice[@req=\"pilot\"]/text"
 msgstr "Неважно."
 
-#: src-en/data/events_special_storage.xml.append:7299
+#: src-en/data/events_special_storage.xml.append:7365
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_RK_IN_FIRE_CREWBOOSTS\"]/text"
 msgstr ""
 "Вы собираетесь установить Огненные повязки.\n"
 "\t[Эффекты: 1.75x скорость передвижения и скорость саботажа вашего экипажа в условиях пожара, а урон в бою и по дверям увеличен до 1.75x на обоих кораблях.]"
 
-#: src-en/data/events_special_storage.xml.append:7303
+#: src-en/data/events_special_storage.xml.append:7369
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_RK_IN_FIRE_CREWBOOSTS\"]/choice[@req=\"DJMOD_HAS_RADIKAL_SCORCH_GEAR\""
 " and @lvl=\"0\"]/text"
@@ -4194,37 +4198,37 @@ msgstr ""
 "Улучшение недоступно. Вам необходимо любое оружие, модуль, экипаж или "
 "корабль РадиКал Скорч (или БПС)."
 
-#: src-en/data/events_special_storage.xml.append:7307
+#: src-en/data/events_special_storage.xml.append:7373
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_RK_IN_FIRE_CREWBOOSTS\"]/choice[@req=\"DJMOD_HAS_RADIKAL_SCORCH_GEAR\""
 " and @lvl=\"1\"]/text"
 msgstr "Установить улучшение. [Цена: 55~, 1{, 1}]"
 
-#: src-en/data/events_special_storage.xml.append:7309
+#: src-en/data/events_special_storage.xml.append:7375
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_RK_IN_FIRE_CREWBOOSTS\"]/choice[@req=\"DJMOD_HAS_RADIKAL_SCORCH_GEAR\""
 " and @lvl=\"1\"]/event/text"
 msgstr "Вы устанавливаете улучшение."
 
-#: src-en/data/events_special_storage.xml.append:7316
+#: src-en/data/events_special_storage.xml.append:7382
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_RK_IN_FIRE_CREWBOOSTS\"]/choice[@req=\"DJMOD_HAS_RADIKAL_SCORCH_GEAR\""
 " and @lvl=\"1\"]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_special_storage.xml.append:7323
+#: src-en/data/events_special_storage.xml.append:7389
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_RK_IN_FIRE_CREWBOOSTS\"]/choice[@req=\"pilot\"]/text"
 msgstr "Неважно."
 
-#: src-en/data/events_special_storage.xml.append:7334
+#: src-en/data/events_special_storage.xml.append:7400
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_DJMOD_MC_IMMUNE_FROM_FIRE\"]/text"
 msgstr ""
 "Вы собираетесь добавить модификацию Разогреватель разума.\n"
 "\t[Эффекты: При наличии огня ваш экипаж на обоих кораблях становится невосприимчивым к Контролю разума и избавляется от его воздействия, продолжительность оглушения сокращается на 50%, также вы начинаете видеть соседние помещения]"
 
-#: src-en/data/events_special_storage.xml.append:7338
+#: src-en/data/events_special_storage.xml.append:7404
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_DJMOD_MC_IMMUNE_FROM_FIRE\"]/choice[@req=\"DJMOD_HAS_RADIKAL_SCORCH_GEAR\""
 " and @lvl=\"0\"]/text"
@@ -4232,25 +4236,25 @@ msgstr ""
 "Улучшение недоступно. Вам необходимо любое оружие, модуль, экипаж или "
 "корабль РадиКал Скорч (или БПС)."
 
-#: src-en/data/events_special_storage.xml.append:7342
+#: src-en/data/events_special_storage.xml.append:7408
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_DJMOD_MC_IMMUNE_FROM_FIRE\"]/choice[@req=\"DJMOD_HAS_RADIKAL_SCORCH_GEAR\""
 " and @lvl=\"1\"]/text"
 msgstr "Установить улучшение. [Цена: 30~, 1{]"
 
-#: src-en/data/events_special_storage.xml.append:7344
+#: src-en/data/events_special_storage.xml.append:7410
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_DJMOD_MC_IMMUNE_FROM_FIRE\"]/choice[@req=\"DJMOD_HAS_RADIKAL_SCORCH_GEAR\""
 " and @lvl=\"1\"]/event/text"
 msgstr "Вы устанавливаете улучшение."
 
-#: src-en/data/events_special_storage.xml.append:7351
+#: src-en/data/events_special_storage.xml.append:7417
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_DJMOD_MC_IMMUNE_FROM_FIRE\"]/choice[@req=\"DJMOD_HAS_RADIKAL_SCORCH_GEAR\""
 " and @lvl=\"1\"]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_special_storage.xml.append:7358
+#: src-en/data/events_special_storage.xml.append:7424
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_DJMOD_MC_IMMUNE_FROM_FIRE\"]/choice[@req=\"pilot\"]/text"
 msgstr "Неважно."

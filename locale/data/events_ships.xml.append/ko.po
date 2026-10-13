@@ -62,19 +62,99 @@ msgstr ""
 
 #: src-en/data/events_ships.xml.append:105
 msgid ""
+"data/events_ships.xml.append$//ship[@name=\"SHIP_RK_PUNK_EXIT_BOSS\"]/destroyed/choice[@req=\"RK_RAIN_OF_ION\"]/text"
+msgstr ""
+
+#: src-en/data/events_ships.xml.append:107
+msgid ""
+"data/events_ships.xml.append$//ship[@name=\"SHIP_RK_PUNK_EXIT_BOSS\"]/destroyed/choice[@req=\"RK_RAIN_OF_ION\"]/event/text"
+msgstr ""
+
+#: src-en/data/events_ships.xml.append:113
+msgid ""
+"data/events_ships.xml.append$//ship[@name=\"SHIP_RK_PUNK_EXIT_BOSS\"]/destroyed/choice[@req=\"RK_RAIN_OF_ION\"]/event/choice/text"
+msgstr "계속..."
+
+#: src-en/data/events_ships.xml.append:115
+msgid ""
+"data/events_ships.xml.append$//ship[@name=\"SHIP_RK_PUNK_EXIT_BOSS\"]/destroyed/choice[@req=\"RK_RAIN_OF_ION\"]/event/choice/event/text"
+msgstr ""
+
+#: src-en/data/events_ships.xml.append:119
+msgid ""
+"data/events_ships.xml.append$//ship[@name=\"SHIP_RK_PUNK_EXIT_BOSS\"]/destroyed/choice[@req=\"RK_RAIN_OF_ION\"]/event/choice/event/choice/text"
+msgstr "계속..."
+
+#: src-en/data/events_ships.xml.append:128
+msgid ""
+"data/events_ships.xml.append$//ship[@name=\"SHIP_RK_PUNK_EXIT_BOSS\"]/destroyed/choice[2]/text"
+msgstr "계속..."
+
+#: src-en/data/events_ships.xml.append:130
+msgid ""
+"data/events_ships.xml.append$//ship[@name=\"SHIP_RK_PUNK_EXIT_BOSS\"]/destroyed/choice[2]/event/text"
+msgstr ""
+
+#: src-en/data/events_ships.xml.append:134
+msgid ""
+"data/events_ships.xml.append$//ship[@name=\"SHIP_RK_PUNK_EXIT_BOSS\"]/destroyed/choice[2]/event/choice/text"
+msgstr "계속..."
+
+#: src-en/data/events_ships.xml.append:142
+msgid ""
 "data/events_ships.xml.append$//ship[@name=\"SHIP_RK_PUNK_EXIT_BOSS\"]/deadCrew/text"
 msgstr ""
 "시험을 통과했으므로 다른 수문장들이 구역 밖으로 나가는 것을 허용하며, 함선을 온전하게 보존해낸 보상으로 무작위 선원 한 명을 무상으로 "
 "고용할 수 있다고 귀띔 해줍니다!"
 
-#: src-en/data/events_ships.xml.append:122
+#: src-en/data/events_ships.xml.append:149
+msgid ""
+"data/events_ships.xml.append$//ship[@name=\"SHIP_RK_PUNK_EXIT_BOSS\"]/deadCrew/choice[@req=\"RK_RAIN_OF_ION\"]/text"
+msgstr ""
+
+#: src-en/data/events_ships.xml.append:151
+msgid ""
+"data/events_ships.xml.append$//ship[@name=\"SHIP_RK_PUNK_EXIT_BOSS\"]/deadCrew/choice[@req=\"RK_RAIN_OF_ION\"]/event/text"
+msgstr ""
+
+#: src-en/data/events_ships.xml.append:157
+msgid ""
+"data/events_ships.xml.append$//ship[@name=\"SHIP_RK_PUNK_EXIT_BOSS\"]/deadCrew/choice[@req=\"RK_RAIN_OF_ION\"]/event/choice/text"
+msgstr "계속..."
+
+#: src-en/data/events_ships.xml.append:159
+msgid ""
+"data/events_ships.xml.append$//ship[@name=\"SHIP_RK_PUNK_EXIT_BOSS\"]/deadCrew/choice[@req=\"RK_RAIN_OF_ION\"]/event/choice/event/text"
+msgstr ""
+
+#: src-en/data/events_ships.xml.append:163
+msgid ""
+"data/events_ships.xml.append$//ship[@name=\"SHIP_RK_PUNK_EXIT_BOSS\"]/deadCrew/choice[@req=\"RK_RAIN_OF_ION\"]/event/choice/event/choice/text"
+msgstr "계속..."
+
+#: src-en/data/events_ships.xml.append:172
+msgid ""
+"data/events_ships.xml.append$//ship[@name=\"SHIP_RK_PUNK_EXIT_BOSS\"]/deadCrew/choice[2]/text"
+msgstr "계속..."
+
+#: src-en/data/events_ships.xml.append:174
+msgid ""
+"data/events_ships.xml.append$//ship[@name=\"SHIP_RK_PUNK_EXIT_BOSS\"]/deadCrew/choice[2]/event/text"
+msgstr ""
+
+#: src-en/data/events_ships.xml.append:178
+msgid ""
+"data/events_ships.xml.append$//ship[@name=\"SHIP_RK_PUNK_EXIT_BOSS\"]/deadCrew/choice[2]/event/choice/text"
+msgstr "계속..."
+
+#: src-en/data/events_ships.xml.append:195
 msgid ""
 "data/events_ships.xml.append$//ship[@name=\"SHIP_RK_SCORCH_EXIT_BOSS\"]/destroyed/text"
 msgstr ""
 "함선이 파괴되었습니다. 다른 수문장들이 엄숙하게 고개를 끄덕입니다. \"당신에게 우리 좌표를 전해준 자가 탁월한 선택을 했고, 이곳에 온"
 " 당신 역시 탁월한 선택을 했소. 이제 떠나도 좋소! 무상 수리 서비스도 받으시오.\""
 
-#: src-en/data/events_ships.xml.append:128
+#: src-en/data/events_ships.xml.append:201
 msgid ""
 "data/events_ships.xml.append$//ship[@name=\"SHIP_RK_SCORCH_EXIT_BOSS\"]/deadCrew/text"
 msgstr ""

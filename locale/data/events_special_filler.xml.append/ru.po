@@ -5,7 +5,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: src-en/data/events_special_filler.xml.append:22
+#: src-en/data/events_special_filler.xml.append:20
 msgid ""
 "data/events_special_filler.xml.append$//mod:findName[@name=\"FILLER_DISTRESS_COMBAT\"]/mod-"
 "append:choice/text"
@@ -13,59 +13,59 @@ msgstr ""
 "\"Ух ты, силой отбирать оборудование у более слабых кораблей. Какая "
 "смелость. Как радикально\"."
 
-#: src-en/data/events_special_filler.xml.append:28
+#: src-en/data/events_special_filler.xml.append:26
 msgid ""
 "data/events_special_filler.xml.append$//event[@name=\"DISTRESS_PIRA_CIVI_COORDS_RK\"]/text"
 msgstr ""
 "Они тут же обращают на вам внимание. \"Ты что, только что сказал \"РадиКал?\" Они выглядят встревоженными, и сзади доносится перебранка. \"Видишь, Берна, я же говорил, что здесь есть свидетель, нам не стоило грабить...\" \"Заткнись, Берт. А что касается тебя, Ренегат Федерации, тебе тоже стоило бы промолчать. Оборудование РК - это... Постой, кто тебя впустил сю...\"\n"
 "\tВы внезапно слышите жестокую драку на пиратском корабле, и связь на мгновение обрывается... Затем корабль снова выходит на связь."
 
-#: src-en/data/events_special_filler.xml.append:32
+#: src-en/data/events_special_filler.xml.append:30
 msgid ""
 "data/events_special_filler.xml.append$//event[@name=\"DISTRESS_PIRA_CIVI_COORDS_RK\"]/choice/text"
 msgstr "...что это было?"
 
-#: src-en/data/events_special_filler.xml.append:52
+#: src-en/data/events_special_filler.xml.append:50
 msgid ""
 "data/events_special_filler.xml.append$//event[@name=\"DISTRESS_PIRA_CIVI_GIVECOORDS\"]/text"
 msgstr ""
 "Теперь на вас обрушивается другой голос МФК - женский. \"Капитан. Похоже, у вас есть мужество\". РадиКал на мгновение затаила дыхание. \"Эта команда оказалась полезной, но мне больше не нужно скрываться.\n"
 "\tОни болтали о наших операциях, но они не с нами и даже не финансируют нас. Они только украли немного оборудования у одного из наших клиентов. Все это плохие новости, и это также причина, по которой я только что всех их убила. Теперь нам нужно больше таких капитанов, как вы. Вам стоит навестить нас, что будет взаимовыгодным, если я не ошибаюсь насчет ваших качеств\"."
 
-#: src-en/data/events_special_filler.xml.append:56
+#: src-en/data/events_special_filler.xml.append:54
 msgid ""
 "data/events_special_filler.xml.append$//event[@name=\"DISTRESS_PIRA_CIVI_GIVECOORDS\"]/choice/text"
 msgstr "У нас есть своя миссия."
 
-#: src-en/data/events_special_filler.xml.append:61
+#: src-en/data/events_special_filler.xml.append:59
 msgid ""
 "data/events_special_filler.xml.append$//event[@name=\"DISTRESS_PIRA_CIVI_GIVECOORDS\"]/choice/event/text"
 msgstr ""
 "\"Да-да, я знаю, и это не проблема. Более того, этот обходной путь, возможно, поможет вашему кораблю набрать необходимую скорость для сражения с Флагманом. Вы увидите, что мы, РК - очень хорошо осведомленные люди. У меня тоже есть другие задания, которые нужно выполнить в срочном порядке. До свидания\". Она прерывает связь.\n"
 "                Координаты сектора добавлены в ваш атлас!"
 
-#: src-en/data/events_special_filler.xml.append:67
+#: src-en/data/events_special_filler.xml.append:64
 msgid ""
 "data/events_special_filler.xml.append$//event[@name=\"DISTRESS_PIRA_CIVI_GIVECOORDS\"]/choice/event/choice/text"
 msgstr ""
 "Возможно, мы узнаем, в чем было дело, во время следующего перехода между "
 "секторами."
 
-#: src-en/data/events_special_filler.xml.append:74
+#: src-en/data/events_special_filler.xml.append:71
 msgid ""
 "data/events_special_filler.xml.append$//event[@name=\"DISTRESS_PIRA_CIVI_NOTCOORDS\"]/text"
 msgstr ""
 "\"Извини за перерыв, один из моих людей внезапно взбунтовался, но мы с этим разобрались. \n"
 "        Ну ладно, теперь мне нужно заняться вопросами лояльности, так что забирай этот приз и вали отсюда, ладно? Мы оставим твой корабль в покое, ты победил, наслаждайся, пока наш флот не превратил его в кучу металлолома\"."
 
-#: src-en/data/events_special_filler.xml.append:86
+#: src-en/data/events_special_filler.xml.append:83
 msgid ""
 "data/events_special_filler.xml.append$//event[@name=\"DISTRESS_PIRA_CIVI_NOTCOORDS_BAD\"]/text"
 msgstr ""
 "\"Извини за перерыв, один из моих людей внезапно взбунтовался, но мы с этим разобрались. В любом случае, у нас есть кое-что особенное, что я приберег для таких умников, как ты. Подожди секунду\".\n"
 "    Они только что запустили Магнитный боезаряд в ваши двигатели!"
 
-#: src-en/data/events_special_filler.xml.append:93
+#: src-en/data/events_special_filler.xml.append:90
 msgid ""
 "data/events_special_filler.xml.append$//event[@name=\"DISTRESS_PIRA_CIVI_NOTCOORDS_BAD\"]/choice/text"
 msgstr "Продолжить..."

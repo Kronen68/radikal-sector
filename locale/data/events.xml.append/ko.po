@@ -1,16 +1,9 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-10-09 11:05+0000\n"
-"Last-Translator: TrpleA <wndhkswnqls2@naver.com>\n"
-"Language-Team: Korean <https://weblate.hyperq.be/projects/radikal-sector/"
-"dataeventsxmlappend/ko/>\n"
-"Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.17.1\n"
 
 #: src-en/data/events.xml.append:208
 msgid "data/events.xml.append$//event[@name=\"RKSHOP\"]/text"
@@ -36,96 +29,100 @@ msgstr "디버그 상점."
 msgid "data/events.xml.append$//event[@name=\"RKSHOP_SYLVAN\"]/text"
 msgstr "디버그 상점."
 
-#: src-en/data/events.xml.append:233
+#: src-en/data/events.xml.append:232
+msgid "data/events.xml.append$//event[@name=\"RKSHOP_PIRATE\"]/text"
+msgstr "디버그 상점."
+
+#: src-en/data/events.xml.append:238
 msgid "data/events.xml.append$//event[@name=\"RK_DEMI\"]/text"
 msgstr "디버그 보조장비."
 
-#: src-en/data/events.xml.append:237
+#: src-en/data/events.xml.append:242
 msgid "data/events.xml.append$//event[@name=\"RK_SOM\"]/text"
 msgstr "디버그 보조장비."
 
-#: src-en/data/events.xml.append:242
+#: src-en/data/events.xml.append:247
 msgid "data/events.xml.append$//event[@name=\"DJFLEET\"]/text"
 msgstr "테스트를 위해 함대 추적이 정지되었습니다."
 
-#: src-en/data/events.xml.append:247
+#: src-en/data/events.xml.append:252
 msgid "data/events.xml.append$//event[@name=\"RKDEV\"]/text"
 msgstr ""
 "테스트 중. 기타 이벤트: DJFLEET, RKSHOP, RKSHOP_B, RKSHOP_P, RKSHOP_S, RKSHOP_SNIPER,"
 " RKSHOP_SYLVAN, RK_DEMI, DJCOORDS, DJNOHAZARDS."
 
-#: src-en/data/events.xml.append:250
+#: src-en/data/events.xml.append:255
 msgid "data/events.xml.append$//event[@name=\"RKDEV\"]/crewMember"
 msgstr "Billy"
 
-#: src-en/data/events.xml.append:260
+#: src-en/data/events.xml.append:265
 msgid "data/events.xml.append$//event[@name=\"RKDEV\"]/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events.xml.append:262
+#: src-en/data/events.xml.append:267
 msgid "data/events.xml.append$//event[@name=\"RKDEV\"]/choice/event/text"
 msgstr "테스트"
 
-#: src-en/data/events.xml.append:270
+#: src-en/data/events.xml.append:275
 msgid "data/events.xml.append$//event[@name=\"RKDEV\"]/choice/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events.xml.append:272
+#: src-en/data/events.xml.append:277
 msgid ""
 "data/events.xml.append$//event[@name=\"RKDEV\"]/choice/event/choice/event/text"
 msgstr "테스트"
 
-#: src-en/data/events.xml.append:281
+#: src-en/data/events.xml.append:286
 msgid ""
 "data/events.xml.append$//event[@name=\"RKDEV\"]/choice/event/choice/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events.xml.append:283
+#: src-en/data/events.xml.append:288
 msgid ""
 "data/events.xml.append$//event[@name=\"RKDEV\"]/choice/event/choice/event/choice/event/text"
 msgstr "테스트"
 
-#: src-en/data/events.xml.append:292
+#: src-en/data/events.xml.append:297
 msgid ""
 "data/events.xml.append$//event[@name=\"RKDEV\"]/choice/event/choice/event/choice/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events.xml.append:304
+#: src-en/data/events.xml.append:309
 msgid "data/events.xml.append$//event[@name=\"DJCOORDS\"]/text"
 msgstr "라디칼 구역 좌표 획득."
 
-#: src-en/data/events.xml.append:308
+#: src-en/data/events.xml.append:313
 msgid "data/events.xml.append$//event[@name=\"DJCOORDS_E\"]/text"
 msgstr "저택/벤트워스 혁신 본부 좌표 획득."
 
-#: src-en/data/events.xml.append:312
+#: src-en/data/events.xml.append:317
 msgid "data/events.xml.append$//event[@name=\"DJCOORDS_J\"]/text"
 msgstr "제리/제롬 보호령 좌표 획득."
 
-#: src-en/data/events.xml.append:316
+#: src-en/data/events.xml.append:321
 msgid "data/events.xml.append$//event[@name=\"DJCOORDS_N\"]/text"
 msgstr "나이츠/로열 슬러그 좌표 획득."
 
-#: src-en/data/events.xml.append:322
+#: src-en/data/events.xml.append:327
 msgid "data/events.xml.append$//event[@name=\"DJSECTOR\"]/text"
 msgstr "경로 변경 메뉴를 엽니다."
 
-#: src-en/data/events.xml.append:332
+#: src-en/data/events.xml.append:337
 msgid "data/events.xml.append$//event[@name=\"RESET_RK_BOONS\"]/text"
 msgstr "디버그: 모든 라디칼 심판관 혜택을 다시 잠급니다."
 
-#: src-en/data/events.xml.append:361
+#: src-en/data/events.xml.append:366
 msgid "data/events.xml.append$//event[@name=\"DJMOD_OPERATIVE_DIES\"]/text"
 msgstr ""
 "\"그래서.\" 새로 들어왔지만 이미 죽어가고 있는 선원의 표정이 대단히 진지합니다. \"날 고용하기 위해 대가를 지불했으니... 당신도"
 " 찾고 있는 거겠지... 우리만의 특별한 물건들을, 그렇지?\""
 
-#: src-en/data/events.xml.append:365
+#: src-en/data/events.xml.append:370
 msgid ""
 "data/events.xml.append$//event[@name=\"DJMOD_OPERATIVE_DIES\"]/choice[@req=\"DJMOD_NO_COORDS_NO_VISIT_RADIKAL_SECTOR\"]/text"
 msgstr "...그렇죠, 못 할 것도 없고요."
 
-#: src-en/data/events.xml.append:367
+#: src-en/data/events.xml.append:372
 msgid ""
 "data/events.xml.append$//event[@name=\"DJMOD_OPERATIVE_DIES\"]/choice[@req=\"DJMOD_NO_COORDS_NO_VISIT_RADIKAL_SECTOR\"]/event/text"
 msgstr ""
@@ -134,17 +131,17 @@ msgstr ""
 "\t\t\t\n"
 "\t\t\t어쩌면 다음에 한계속도 속에서 경로를 재설정할 때 이게 무슨 일이었는지 알아낼 수 있을지도 모릅니다..."
 
-#: src-en/data/events.xml.append:377
+#: src-en/data/events.xml.append:382
 msgid ""
 "data/events.xml.append$//event[@name=\"DJMOD_OPERATIVE_DIES\"]/choice[@req=\"DJMOD_NO_COORDS_NO_VISIT_RADIKAL_SECTOR\"]/event/choice/text"
 msgstr "그저 암시장 광고글처럼 보이는 것에 비하면 진기한 헌신이군."
 
-#: src-en/data/events.xml.append:384
+#: src-en/data/events.xml.append:389
 msgid ""
 "data/events.xml.append$//event[@name=\"DJMOD_OPERATIVE_DIES\"]/choice[@req=\"visited_radikal_sector\"]/text"
 msgstr "우리는 이미 라디칼 구역에 방문한 적이 있습니다. 편히 쉬십시오, 전사여."
 
-#: src-en/data/events.xml.append:386
+#: src-en/data/events.xml.append:391
 msgid ""
 "data/events.xml.append$//event[@name=\"DJMOD_OPERATIVE_DIES\"]/choice[@req=\"visited_radikal_sector\"]/event/text"
 msgstr ""
@@ -152,17 +149,17 @@ msgstr ""
 "\t\t\t\n"
 "\t\t\t\t평소처럼 이 요원은 불치병에 걸린 상태에서 라디칼 구역의 자금 모집을 홍보하고 무모한 함장들을 포섭하기 위해 자원한 인물이었기에 당신은 그리 놀라지 않습니다. 당신은 그의 몸에서 가치 있는 비품을 챙기고 시신을 처리합니다."
 
-#: src-en/data/events.xml.append:394
+#: src-en/data/events.xml.append:399
 msgid ""
 "data/events.xml.append$//event[@name=\"DJMOD_OPERATIVE_DIES\"]/choice[@req=\"visited_radikal_sector\"]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events.xml.append:401
+#: src-en/data/events.xml.append:406
 msgid ""
 "data/events.xml.append$//event[@name=\"DJMOD_OPERATIVE_DIES\"]/choice[3]/text"
 msgstr "뭐라고요? 당연히 아닙니다. 정신 차리세요!"
 
-#: src-en/data/events.xml.append:403
+#: src-en/data/events.xml.append:408
 msgid ""
 "data/events.xml.append$//event[@name=\"DJMOD_OPERATIVE_DIES\"]/choice[3]/event/text"
 msgstr ""
@@ -171,25 +168,25 @@ msgstr ""
 "\t\t\t\t시신을 수색하던 당신은 부종과 괴사를 확인하고, 이 자에게 왜 자신의 절박한 죽음보다 불법 장비를 파는 것이 더 중요했는지 의문이 듭니다. 상점 주인이 이 사실을 알고도 사기를 친 것은 아닌지 의심스럽습니다.\n"
 "\t\t\t적어도 죽은 병사의 주머니에 있던 가치 있는 비품 덕분에 손실을 다소 회복할 수 있었습니다."
 
-#: src-en/data/events.xml.append:412
+#: src-en/data/events.xml.append:417
 msgid ""
 "data/events.xml.append$//event[@name=\"DJMOD_OPERATIVE_DIES\"]/choice[3]/event/choice/text"
 msgstr "이 비밀을 다시 파헤쳐 목적지로 갈 방법은 틀림없이 다른 수단도 있을 것이다. 계속 전진한다."
 
-#: src-en/data/events.xml.append:478
+#: src-en/data/events.xml.append:483
 msgid ""
 "data/events.xml.append$/dummyroot/event[@name=\"RK_A_OUTSIDE_POLICE_INTRO_QUEST_START\"]/text"
 msgstr ""
 "엘리트 도색을 한 함선 한 척이 [style[color:ff3377]]특수 공격, 방어 및 정보 장비[[/style]]를 갖춘 채 이곳에 머무르고 있습니다.\n"
 "\t\t통신을 거는 속도로 보아 상당한 경계 태세를 유지하고 있는 것이 틀림없습니다."
 
-#: src-en/data/events.xml.append:486
+#: src-en/data/events.xml.append:491
 msgid ""
 "data/events.xml.append$/dummyroot/event[@name=\"RK_A_OUTSIDE_POLICE_INTRO_QUEST_START\"]/choice[@req=\"RK_HAS_GEAR_SURRENDERABLE_TO_RK_A\""
 " and @lvl=\"0\"]/text"
 msgstr "해제 가능한 라디칼(RK) 장비를 소지하고 있지 않습니다."
 
-#: src-en/data/events.xml.append:491
+#: src-en/data/events.xml.append:496
 msgid ""
 "data/events.xml.append$/dummyroot/event[@name=\"RK_A_OUTSIDE_POLICE_INTRO_QUEST_START\"]/choice[@req=\"RK_HAS_GEAR_SURRENDERABLE_TO_RK_A\""
 " and @lvl=\"1\"]/text"
@@ -197,22 +194,22 @@ msgstr ""
 "해제 가능한 라디칼(RK) 장비를 소지하고 있습니다. 이는 사실상 거의 모든 곳에서 불법입니다.\n"
 "\t\t\t지금 저 함선이 특별히 그 장비를 스캔하는 것으로 보이니 큰 대가를 치르게 될 수도 있습니다!"
 
-#: src-en/data/events.xml.append:498
+#: src-en/data/events.xml.append:503
 msgid ""
 "data/events.xml.append$/dummyroot/event[@name=\"RK_A_OUTSIDE_POLICE_INTRO_QUEST_START\"]/choice[3]/text"
 msgstr "통신을 받는다."
 
-#: src-en/data/events.xml.append:500
+#: src-en/data/events.xml.append:505
 msgid ""
 "data/events.xml.append$/dummyroot/event[@name=\"RK_A_OUTSIDE_POLICE_INTRO_QUEST_START\"]/choice[3]/event/text"
 msgstr "\"안녕하십니까, 시민 여러분. 라디칼 분파에 대해 뭐 아시는 것이 있습니까?\""
 
-#: src-en/data/events.xml.append:503
+#: src-en/data/events.xml.append:508
 msgid ""
 "data/events.xml.append$/dummyroot/event[@name=\"RK_A_OUTSIDE_POLICE_INTRO_QUEST_START\"]/choice[3]/event/choice/text"
 msgstr "우리가 과격파(라디칼)를 아냐고요? 딱히 그렇지는 않은데요."
 
-#: src-en/data/events.xml.append:505
+#: src-en/data/events.xml.append:510
 msgid ""
 "data/events.xml.append$/dummyroot/event[@name=\"RK_A_OUTSIDE_POLICE_INTRO_QUEST_START\"]/choice[3]/event/choice/event/text"
 msgstr ""
@@ -222,12 +219,12 @@ msgstr ""
 "\t\t\t\t\t\t\n"
 "\t\t\t\t\t\t당신들은 라디칼 관련 장비를 하나도 가지고 있지 않은 걸 보니 바른 시민처럼 보이는군요. 만약을 위해 당신들의 함선을 두 번이나 정밀 스캔해 두었습니다.\""
 
-#: src-en/data/events.xml.append:512
+#: src-en/data/events.xml.append:517
 msgid ""
 "data/events.xml.append$/dummyroot/event[@name=\"RK_A_OUTSIDE_POLICE_INTRO_QUEST_START\"]/choice[3]/event/choice/event/choice/text"
 msgstr "와, 알겠어요. 사생활 존중은 전혀 안 해주시나요?"
 
-#: src-en/data/events.xml.append:514
+#: src-en/data/events.xml.append:519
 msgid ""
 "data/events.xml.append$/dummyroot/event[@name=\"RK_A_OUTSIDE_POLICE_INTRO_QUEST_START\"]/choice[3]/event/choice/event/choice/event/text"
 msgstr ""
@@ -238,17 +235,17 @@ msgstr ""
 "\t\t\t\t\t\t\t\n"
 "\t\t\t\t\t\t\t하지만 그전에 먼저 당신들의 함선에 RK 장비가 있는지 점검해야 합니다. 신고할 물품이 있습니까?\""
 
-#: src-en/data/events.xml.append:522
+#: src-en/data/events.xml.append:527
 msgid ""
 "data/events.xml.append$/dummyroot/event[@name=\"RK_A_OUTSIDE_POLICE_INTRO_QUEST_START\"]/choice[3]/event/choice/event/choice/event/choice[1]/text"
 msgstr "(반납 가능한 RK 장비) 안 그래도 이 끔찍한 물건들을 어떻게 처분해야 할지 고민하던 참이었습니다, 경관님!"
 
-#: src-en/data/events.xml.append:528
+#: src-en/data/events.xml.append:533
 msgid ""
 "data/events.xml.append$/dummyroot/event[@name=\"RK_A_OUTSIDE_POLICE_INTRO_QUEST_START\"]/choice[3]/event/choice/event/choice/event/choice[2]/text"
 msgstr "신고할 물품은 없습니다, 경관님."
 
-#: src-en/data/events.xml.append:530
+#: src-en/data/events.xml.append:535
 msgid ""
 "data/events.xml.append$/dummyroot/event[@name=\"RK_A_OUTSIDE_POLICE_INTRO_QUEST_START\"]/choice[3]/event/choice/event/choice/event/choice[2]/event/text"
 msgstr ""
@@ -256,12 +253,12 @@ msgstr ""
 "\t\t\t\t\t\t\t\t\t\t\n"
 "\t\t\t\t\t\t\t\t\t\t\"우리를 바보로 아는 모양인데, 이 끔찍한 혼돈 동조자 테러리스트 놈들, 단죄를 받아라. 직접적인 책임이 있는 놈들을 찾을 수 없었지만, 적어도 너희는 제타-708T56-C 세쿤두스의 북쪽 달 기지에 대한 대가를 치르게 될 거다!\""
 
-#: src-en/data/events.xml.append:535
+#: src-en/data/events.xml.append:540
 msgid ""
 "data/events.xml.append$/dummyroot/event[@name=\"RK_A_OUTSIDE_POLICE_INTRO_QUEST_START\"]/choice[3]/event/choice/event/choice/event/choice[2]/event/choice/text"
 msgstr "오 이런..."
 
-#: src-en/data/events.xml.append:537
+#: src-en/data/events.xml.append:542
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_RK_DETECTED_ATTACK\"]/text"
 msgstr ""
@@ -270,30 +267,30 @@ msgstr ""
 "\t\t\t\t\t\t\t\t\t\t\t\t\n"
 "\t\t\t\t\t\t\t\t\t\t\t\t이 자들은 장난을 치는 게 아닙니다. 신속하게 전투 준비를 합니다!"
 
-#: src-en/data/events.xml.append:547
+#: src-en/data/events.xml.append:552
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_RK_DETECTED_ATTACK\"]/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events.xml.append:556
+#: src-en/data/events.xml.append:561
 msgid ""
 "data/events.xml.append$/dummyroot/event[@name=\"RK_A_OUTSIDE_POLICE_INTRO_QUEST_START\"]/choice[3]/event/choice/event/choice/event/choice[@req=\"RK_HAS_GEAR_SURRENDERABLE_TO_RK_A\""
 " and @lvl=\"0\"]/text"
 msgstr "신고할 물품은 없습니다, 경관님."
 
-#: src-en/data/events.xml.append:558
+#: src-en/data/events.xml.append:563
 msgid ""
 "data/events.xml.append$/dummyroot/event[@name=\"RK_A_OUTSIDE_POLICE_INTRO_QUEST_START\"]/choice[3]/event/choice/event/choice/event/choice[@req=\"RK_HAS_GEAR_SURRENDERABLE_TO_RK_A\""
 " and @lvl=\"0\"]/event/text"
 msgstr "\"좋습니다. 이제 우리가 무슨 말을 하고 있는지 아셨을 테니, 라디칼 분파에 대한 정보가 좀 있으신가요?"
 
-#: src-en/data/events.xml.append:561
+#: src-en/data/events.xml.append:566
 msgid ""
 "data/events.xml.append$/dummyroot/event[@name=\"RK_A_OUTSIDE_POLICE_INTRO_QUEST_START\"]/choice[3]/event/choice/event/choice/event/choice[@req=\"RK_HAS_GEAR_SURRENDERABLE_TO_RK_A\""
 " and @lvl=\"0\"]/event/choice[1]/text"
 msgstr "없습니다만, 방금 말씀하신 그 장비들을 구경해보고 싶군요."
 
-#: src-en/data/events.xml.append:563
+#: src-en/data/events.xml.append:568
 msgid ""
 "data/events.xml.append$/dummyroot/event[@name=\"RK_A_OUTSIDE_POLICE_INTRO_QUEST_START\"]/choice[3]/event/choice/event/choice/event/choice[@req=\"RK_HAS_GEAR_SURRENDERABLE_TO_RK_A\""
 " and @lvl=\"0\"]/event/choice[1]/event/text"
@@ -302,13 +299,13 @@ msgstr ""
 "\t\t\t\t\t\t\t\t\t\t\t\t\n"
 "\t\t\t\t\t\t\t\t\t\t\t\t그리고 나중에라도 그 쓰레기들을 만나게 된다면, 절대로 통신을 받지 말고, 머리를 노려 사격하십시오. 그리고 '질서가 승리하기를'.\""
 
-#: src-en/data/events.xml.append:572
+#: src-en/data/events.xml.append:577
 msgid ""
 "data/events.xml.append$/dummyroot/event[@name=\"RK_A_OUTSIDE_POLICE_INTRO_QUEST_START\"]/choice[3]/event/choice/event/choice/event/choice[@req=\"RK_HAS_GEAR_SURRENDERABLE_TO_RK_A\""
 " and @lvl=\"0\"]/event/choice[2]/text"
 msgstr "글쎄요, 그들이 저쪽으로 간 것 같은데요."
 
-#: src-en/data/events.xml.append:574
+#: src-en/data/events.xml.append:579
 msgid ""
 "data/events.xml.append$/dummyroot/event[@name=\"RK_A_OUTSIDE_POLICE_INTRO_QUEST_START\"]/choice[3]/event/choice/event/choice/event/choice[@req=\"RK_HAS_GEAR_SURRENDERABLE_TO_RK_A\""
 " and @lvl=\"0\"]/event/choice[2]/event/text"
@@ -317,13 +314,13 @@ msgstr ""
 "\t\t\t\t\t\t\t\t\t\t\t\t \n"
 "\t\t\t\t\t\t\t\t\t\t\t\t놈들은 즉시 에어록을 통해 보상 상자를 내던지고 통신을 끊습니다. 바라건대 그쪽에 진짜 라디칼 놈들이 있기를 바라거나, 다시는 이 함선을 만나지 않기를 기도하는 편이 좋을 것입니다."
 
-#: src-en/data/events.xml.append:584
+#: src-en/data/events.xml.append:589
 msgid ""
 "data/events.xml.append$/dummyroot/event[@name=\"RK_A_OUTSIDE_POLICE_INTRO_QUEST_START\"]/choice[3]/event/choice/event/choice/event/choice[@req=\"RK_HAS_GEAR_SURRENDERABLE_TO_RK_A\""
 " and @lvl=\"0\"]/event/choice[3]/text"
 msgstr "그럴 수도 있고 안 그럴 수도 있지만, 어쨌든 우리는 당신을 공격하겠습니다!"
 
-#: src-en/data/events.xml.append:586
+#: src-en/data/events.xml.append:591
 msgid ""
 "data/events.xml.append$/dummyroot/event[@name=\"RK_A_OUTSIDE_POLICE_INTRO_QUEST_START\"]/choice[3]/event/choice/event/choice/event/choice[@req=\"RK_HAS_GEAR_SURRENDERABLE_TO_RK_A\""
 " and @lvl=\"0\"]/event/choice[3]/event/text"
@@ -332,31 +329,31 @@ msgstr ""
 "\t\t\t\t\t\t\t\t\t\t\t\t\"준비되었습니다, 함장님.\"\n"
 "\t\t\t\t\t\t\t\t\t\t\t\t\"배치해라!\""
 
-#: src-en/data/events.xml.append:591
+#: src-en/data/events.xml.append:596
 msgid ""
 "data/events.xml.append$/dummyroot/event[@name=\"RK_A_OUTSIDE_POLICE_INTRO_QUEST_START\"]/choice[3]/event/choice/event/choice/event/choice[@req=\"RK_HAS_GEAR_SURRENDERABLE_TO_RK_A\""
 " and @lvl=\"0\"]/event/choice[3]/event/choice/text"
 msgstr "간다!"
 
-#: src-en/data/events.xml.append:635
+#: src-en/data/events.xml.append:640
 msgid ""
 "data/events.xml.append$/dummyroot/event[@name=\"RK_A_OUTSIDE_POLICE_INTRO_QUEST_START\"]/choice[4]/text"
 msgstr "...전혀 마음에 안 드는군요. 도망친다!"
 
-#: src-en/data/events.xml.append:665
+#: src-en/data/events.xml.append:670
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER2_QUEST_START\"]/text"
 msgstr ""
 "[style[color:ff3377]]특수 공격, 방어 및 정보 장비[[/style]]를 갖춘 함선이 이곳에 있습니다. 당신에게 신속히 "
 "통신을 보내오는 것으로 보아 최고 경계 태세를 갖추고 있는 듯합니다."
 
-#: src-en/data/events.xml.append:673
+#: src-en/data/events.xml.append:678
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER2_QUEST_START\"]/choice[@req=\"RK_HAS_GEAR_SURRENDERABLE_TO_RK_A\""
 " and @lvl=\"0\"]/text"
 msgstr "해제 가능한 라디칼(RK) 장비를 소지하고 있지 않습니다."
 
-#: src-en/data/events.xml.append:678
+#: src-en/data/events.xml.append:683
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER2_QUEST_START\"]/choice[@req=\"RK_HAS_GEAR_SURRENDERABLE_TO_RK_A\""
 " and @lvl=\"1\"]/text"
@@ -364,27 +361,27 @@ msgstr ""
 "해제 가능한 라디칼(RK) 장비를 소지하고 있습니다. 이는 사실상 거의 모든 곳에서 불법입니다.\n"
 "\t\t\t지금 저 함선이 특별히 그 장비를 스캔하는 것으로 보이니 큰 대가를 치르게 될 수도 있습니다!"
 
-#: src-en/data/events.xml.append:685
+#: src-en/data/events.xml.append:690
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER2_QUEST_START\"]/choice[3]/text"
 msgstr "통신을 받는다."
 
-#: src-en/data/events.xml.append:687
+#: src-en/data/events.xml.append:692
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER2_QUEST_START\"]/choice[3]/event/text"
 msgstr "\"시민이여, 우리는 안티 라디칼 비밀 기구(ARKSS)다. 안전하게 처분할 수 있도록 라디칼 장비를 발견한 것이 있나?\""
 
-#: src-en/data/events.xml.append:691
+#: src-en/data/events.xml.append:696
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER2_QUEST_START\"]/choice[3]/event/choice[1]/text"
 msgstr "(반납 가능한 RK 장비) 저희가 찾은 끔찍한 살상 장비의 전부입니다, 경관님."
 
-#: src-en/data/events.xml.append:697
+#: src-en/data/events.xml.append:702
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER2_QUEST_START\"]/choice[3]/event/choice[2]/text"
 msgstr "신고할 물품은 없습니다, 장교님."
 
-#: src-en/data/events.xml.append:699
+#: src-en/data/events.xml.append:704
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER2_QUEST_START\"]/choice[3]/event/choice[2]/event/text"
 msgstr ""
@@ -392,12 +389,12 @@ msgstr ""
 "\t\t\t\t\t\t\n"
 "\t\t\t\t\t\t\"틀린 답이다, 쓰레기 놈들. 너희를 이 세상에서 지워버릴 모든 준비는 끝났다. 조사는 제대로 된 결론을 내리지 못하고 끝났지만, 적어도 너희는 내 분대에 일어난 일에 대한 대가를 치르게 될 거다!\""
 
-#: src-en/data/events.xml.append:704
+#: src-en/data/events.xml.append:709
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER2_QUEST_START\"]/choice[3]/event/choice[2]/event/choice/text"
 msgstr "오 이런..."
 
-#: src-en/data/events.xml.append:706
+#: src-en/data/events.xml.append:711
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER2_RK_DETECTED_ATTACK\"]/text"
 msgstr ""
@@ -406,30 +403,30 @@ msgstr ""
 "\t\t\t\t\t\t\t\t\n"
 "\t\t\t\t\t\t\t\t이 자들은 장난을 치는 게 아닙니다. 신속하게 전투 준비를 합니다!"
 
-#: src-en/data/events.xml.append:716
+#: src-en/data/events.xml.append:721
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER2_RK_DETECTED_ATTACK\"]/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events.xml.append:725
+#: src-en/data/events.xml.append:730
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER2_QUEST_START\"]/choice[3]/event/choice[@req=\"RK_HAS_GEAR_SURRENDERABLE_TO_RK_A\""
 " and @lvl=\"0\"]/text"
 msgstr "신고할 물품은 없습니다, 경관님."
 
-#: src-en/data/events.xml.append:727
+#: src-en/data/events.xml.append:732
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER2_QUEST_START\"]/choice[3]/event/choice[@req=\"RK_HAS_GEAR_SURRENDERABLE_TO_RK_A\""
 " and @lvl=\"0\"]/event/text"
 msgstr "\"좋다. 이 구역에서 라디칼을 목격한 적이 있나?\""
 
-#: src-en/data/events.xml.append:730
+#: src-en/data/events.xml.append:735
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER2_QUEST_START\"]/choice[3]/event/choice[@req=\"RK_HAS_GEAR_SURRENDERABLE_TO_RK_A\""
 " and @lvl=\"0\"]/event/choice[1]/text"
 msgstr "없는 것 같습니다."
 
-#: src-en/data/events.xml.append:732
+#: src-en/data/events.xml.append:737
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER2_QUEST_START\"]/choice[3]/event/choice[@req=\"RK_HAS_GEAR_SURRENDERABLE_TO_RK_A\""
 " and @lvl=\"0\"]/event/choice[1]/event/text"
@@ -437,13 +434,13 @@ msgstr ""
 "\"그것 역시 좋다. 이제 대라디칼 장비를 구매하고 싶다면 마음껏 무장하도록. 우리는 이 장비를 판매할 권한을 가진 유일한 기관이다.\n"
 "\t\t\t\t\t\t\t\t'질서가 승리하기를'.\""
 
-#: src-en/data/events.xml.append:740
+#: src-en/data/events.xml.append:745
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER2_QUEST_START\"]/choice[3]/event/choice[@req=\"RK_HAS_GEAR_SURRENDERABLE_TO_RK_A\""
 " and @lvl=\"0\"]/event/choice[2]/text"
 msgstr "저쪽으로 갔습니다."
 
-#: src-en/data/events.xml.append:742
+#: src-en/data/events.xml.append:747
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER2_QUEST_START\"]/choice[3]/event/choice[@req=\"RK_HAS_GEAR_SURRENDERABLE_TO_RK_A\""
 " and @lvl=\"0\"]/event/choice[2]/event/text"
@@ -451,13 +448,13 @@ msgstr ""
 "\"협조에 감사한다.\" 그들은 즉시 에어록을 통해 표준 보상 물품을 던져주고는 떠납니다. 부디 운 좋게 그쪽에 진짜 라디칼이 있기를 "
 "바라거나, 아니면 두 번 다시 이 함선과 마주치지 않기를 바라는 편이 좋을 것입니다."
 
-#: src-en/data/events.xml.append:749
+#: src-en/data/events.xml.append:754
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER2_QUEST_START\"]/choice[3]/event/choice[@req=\"RK_HAS_GEAR_SURRENDERABLE_TO_RK_A\""
 " and @lvl=\"0\"]/event/choice[3]/text"
 msgstr "그럴 수도 있고 안 그럴 수도 있지만, 어쨌든 우리는 당신을 공격하겠습니다!"
 
-#: src-en/data/events.xml.append:751
+#: src-en/data/events.xml.append:756
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER2_QUEST_START\"]/choice[3]/event/choice[@req=\"RK_HAS_GEAR_SURRENDERABLE_TO_RK_A\""
 " and @lvl=\"0\"]/event/choice[3]/event/text"
@@ -469,31 +466,31 @@ msgstr ""
 "\t\t\t\t\t\t\t\t놈들은 무기에 전력을 공급함과 동시에 대형 엔진과 함포를 장착한 보조 함선을 방출하고, 보조 함선은 신속하게 멀어져 대공 지원을 제공합니다.\n"
 "\t\t\t\t\t\t\t\t누구든 간에, 이 자들은 장난을 치는 게 아닙니다!"
 
-#: src-en/data/events.xml.append:761
+#: src-en/data/events.xml.append:766
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER2_QUEST_START\"]/choice[3]/event/choice[@req=\"RK_HAS_GEAR_SURRENDERABLE_TO_RK_A\""
 " and @lvl=\"0\"]/event/choice[3]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events.xml.append:805
+#: src-en/data/events.xml.append:810
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER2_QUEST_START\"]/choice[4]/text"
 msgstr "...전혀 마음에 안 드는군요. 도망친다!"
 
-#: src-en/data/events.xml.append:835
+#: src-en/data/events.xml.append:840
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER3_QUEST_START\"]/text"
 msgstr ""
 "[style[color:ff3377]]특수 공격, 방어 및 정보 장비[[/style]]를 갖춘 함선이 이곳에 있습니다. 당신에게 신속히 "
 "통신을 보내오는 것으로 보아 최고 경계 태세를 갖추고 있는 듯합니다."
 
-#: src-en/data/events.xml.append:843
+#: src-en/data/events.xml.append:848
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER3_QUEST_START\"]/choice[@req=\"RK_HAS_GEAR_SURRENDERABLE_TO_RK_A\""
 " and @lvl=\"0\"]/text"
 msgstr "해제 가능한 라디칼(RK) 장비를 소지하고 있지 않습니다."
 
-#: src-en/data/events.xml.append:848
+#: src-en/data/events.xml.append:853
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER3_QUEST_START\"]/choice[@req=\"RK_HAS_GEAR_SURRENDERABLE_TO_RK_A\""
 " and @lvl=\"1\"]/text"
@@ -501,46 +498,42 @@ msgstr ""
 "해제 가능한 라디칼(RK) 장비를 소지하고 있습니다. 이는 사실상 거의 모든 곳에서 불법입니다.\n"
 "\t\t\t지금 저 함선이 특별히 그 장비를 스캔하는 것으로 보이니 큰 대가를 치르게 될 수도 있습니다!"
 
-#: src-en/data/events.xml.append:855
+#: src-en/data/events.xml.append:860
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER3_QUEST_START\"]/choice[3]/text"
 msgstr "통신을 받는다."
 
-#: src-en/data/events.xml.append:857
+#: src-en/data/events.xml.append:862
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER3_QUEST_START\"]/choice[3]/event/text"
 msgstr "\"거기 너. 나는 안티 라디칼 비밀 기구의 이단심문관 말그로다. 정의로운 파괴를 위해 보관 중인... 라디칼 장비가 있나?\""
 
-#: src-en/data/events.xml.append:861
+#: src-en/data/events.xml.append:866
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER3_QUEST_START\"]/choice[3]/event/choice[1]/text"
 msgstr "(반납 가능한 RK 장비) 저희가 찾은 끔찍한 살상 장비의 전부입니다, 심문관님."
 
-#: src-en/data/events.xml.append:867
+#: src-en/data/events.xml.append:872
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER3_QUEST_START\"]/choice[3]/event/choice[2]/text"
 msgstr "신고할 물품은 없습니다, 심문관님."
 
-#: src-en/data/events.xml.append:869
+#: src-en/data/events.xml.append:874
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER3_QUEST_START\"]/choice[3]/event/choice[2]/event/text"
 msgstr ""
-"저 함선은 당신이 도약해 들어온 그 순간부터 스캔을 돌리고 있었던 것이 "
-"틀림없습니다.\n"
+"저 함선은 당신이 도약해 들어온 그 순간부터 스캔을 돌리고 있었던 것이 틀림없습니다.\n"
 "\t\t\t\t\t\t\n"
-"\t\t\t\t\t\t\"하! 놈들은 항상 모면할 수 있을 거라 생각하지... 정의로부터 "
-"달아날 수는 없다. 이제 아무런 단서도 찾을 수 없다는 건 알지만, 적어도 너희는 "
-"내 가족에 대한 대가를 치러라, 이 미친 병ㅅ-!\"\n"
+"\t\t\t\t\t\t\"하! 놈들은 항상 모면할 수 있을 거라 생각하지... 정의로부터 달아날 수는 없다. 이제 아무런 단서도 찾을 수 없다는 건 알지만, 적어도 너희는 내 가족에 대한 대가를 치러라, 이 미친 병ㅅ-!\"\n"
 "\n"
-"\t\t\t\t\t\t당신은 통신을 차단합니다. 당신이 그들의 가족을 죽인 적은 "
-"(아마도) 없겠지만, 상대는 그런 걸 전혀 신경 쓰지 않는 게 분명합니다."
+"\t\t\t\t\t\t당신은 통신을 차단합니다. 당신이 그들의 가족을 죽인 적은 (아마도) 없겠지만, 상대는 그런 걸 전혀 신경 쓰지 않는 게 분명합니다."
 
-#: src-en/data/events.xml.append:877
+#: src-en/data/events.xml.append:882
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER3_QUEST_START\"]/choice[3]/event/choice[2]/event/choice/text"
 msgstr "오 이런..."
 
-#: src-en/data/events.xml.append:879
+#: src-en/data/events.xml.append:884
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER3_RK_DETECTED_ATTACK\"]/text"
 msgstr ""
@@ -549,30 +542,30 @@ msgstr ""
 "\t\t\t\t\t\t\t\t\n"
 "\t\t\t\t\t\t\t\t이 자들은 장난을 치는 게 아닙니다. 신속하게 전투 준비를 합니다!"
 
-#: src-en/data/events.xml.append:889
+#: src-en/data/events.xml.append:894
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER3_RK_DETECTED_ATTACK\"]/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events.xml.append:898
+#: src-en/data/events.xml.append:903
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER3_QUEST_START\"]/choice[3]/event/choice[@req=\"RK_HAS_GEAR_SURRENDERABLE_TO_RK_A\""
 " and @lvl=\"0\"]/text"
 msgstr "신고할 물품은 없습니다, 심문관님."
 
-#: src-en/data/events.xml.append:900
+#: src-en/data/events.xml.append:905
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER3_QUEST_START\"]/choice[3]/event/choice[@req=\"RK_HAS_GEAR_SURRENDERABLE_TO_RK_A\""
 " and @lvl=\"0\"]/event/text"
 msgstr "\"과연... 이 구역에서 라디칼 놈들이 어디에 숨어 있지?\""
 
-#: src-en/data/events.xml.append:903
+#: src-en/data/events.xml.append:908
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER3_QUEST_START\"]/choice[3]/event/choice[@req=\"RK_HAS_GEAR_SURRENDERABLE_TO_RK_A\""
 " and @lvl=\"0\"]/event/choice[1]/text"
 msgstr "모릅니다."
 
-#: src-en/data/events.xml.append:905
+#: src-en/data/events.xml.append:910
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER3_QUEST_START\"]/choice[3]/event/choice[@req=\"RK_HAS_GEAR_SURRENDERABLE_TO_RK_A\""
 " and @lvl=\"0\"]/event/choice[1]/event/text"
@@ -581,13 +574,13 @@ msgstr ""
 "\t\t\t\t\t\t\t\t이 독점 대라디칼 장비를 몇 개 구매해서 무죄를 증명해 보는 건 어떤가, 음?\n"
 "\t\t\t\t\t\t\t\t'질서가 승리하기를'.\""
 
-#: src-en/data/events.xml.append:914
+#: src-en/data/events.xml.append:919
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER3_QUEST_START\"]/choice[3]/event/choice[@req=\"RK_HAS_GEAR_SURRENDERABLE_TO_RK_A\""
 " and @lvl=\"0\"]/event/choice[2]/text"
-msgstr "정말입니다, 그들은 저쪽으로 갔습니다."
+msgstr "저쪽으로 갔습니다."
 
-#: src-en/data/events.xml.append:916
+#: src-en/data/events.xml.append:921
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER3_QUEST_START\"]/choice[3]/event/choice[@req=\"RK_HAS_GEAR_SURRENDERABLE_TO_RK_A\""
 " and @lvl=\"0\"]/event/choice[2]/event/text"
@@ -595,13 +588,13 @@ msgstr ""
 "\"그러한가? 너를 위해서라도 그 말이 진실이길 바라지...\" 그들은 즉시 에어록을 통해 표준 보상 물품을 던져주고는 떠납니다. 부디 "
 "운 좋게 그쪽에 진짜 라디칼이 있기를 바라거나, 아니면 두 번 다시 이 함선과 마주치지 않기를 바라는 편이 좋을 것입니다."
 
-#: src-en/data/events.xml.append:923
+#: src-en/data/events.xml.append:928
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER3_QUEST_START\"]/choice[3]/event/choice[@req=\"RK_HAS_GEAR_SURRENDERABLE_TO_RK_A\""
 " and @lvl=\"0\"]/event/choice[3]/text"
 msgstr "그럴 수도 있고 안 그럴 수도 있지만, 어쨌든 우리는 당신을 공격하겠습니다!"
 
-#: src-en/data/events.xml.append:925
+#: src-en/data/events.xml.append:930
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER3_QUEST_START\"]/choice[3]/event/choice[@req=\"RK_HAS_GEAR_SURRENDERABLE_TO_RK_A\""
 " and @lvl=\"0\"]/event/choice[3]/event/text"
@@ -610,77 +603,77 @@ msgstr ""
 "\t\t\t\t\t\t\t\t\"준비되었습니다, 함장님.\"\n"
 "\t\t\t\t\t\t\t\t\"배치해라!\""
 
-#: src-en/data/events.xml.append:930
+#: src-en/data/events.xml.append:935
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER3_QUEST_START\"]/choice[3]/event/choice[@req=\"RK_HAS_GEAR_SURRENDERABLE_TO_RK_A\""
 " and @lvl=\"0\"]/event/choice[3]/event/choice/text"
 msgstr "오 이런..."
 
-#: src-en/data/events.xml.append:1045
+#: src-en/data/events.xml.append:1050
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER3_QUEST_START\"]/choice[4]/text"
 msgstr "...전혀 마음에 안 드는군요. 도망친다!"
 
-#: src-en/data/events.xml.append:1061
+#: src-en/data/events.xml.append:1066
 msgid "data/events.xml.append$//event[@name=\"DEFEAT_RK_A_POLICE_INTRO\"]/text"
 msgstr ""
 "함선이 격파되자마자 스캐너에 내부에서 여러 개의 소형 폭약이 기폭되는 것이 감지되며 잔해의 대부분을 날려버립니다. 이 자들을 감독하는 통제관이 누구든 간에 만약의 사태를 대비해 여지를 남겨두지 않는 모양입니다.\n"
 "\t\t\n"
 "\t\t사거리 밖에 있는 보조 함선이 여전히 포격을 퍼붓고 있는 상황에서, 당신은 얼마 안 되는 약간의 스크랩을 챙깁니다."
 
-#: src-en/data/events.xml.append:1067
+#: src-en/data/events.xml.append:1072
 msgid ""
 "data/events.xml.append$//event[@name=\"DEFEAT_RK_A_POLICE_INTRO\"]/choice/text"
 msgstr "정말 혹독한 전투였다. 이것이 라디칼 장비를 사용한 진짜 대가인가? 아무렴 어때, 주변을 신속히 둘러본 뒤 이동한다!"
 
-#: src-en/data/events.xml.append:1072
+#: src-en/data/events.xml.append:1077
 msgid "data/events.xml.append$//event[@name=\"DEFEAT_RK_A_POLICE\"]/text"
 msgstr ""
 "함선이 격파되자마자 스캐너에 내부에서 여러 개의 소형 폭약이 기폭되는 것이 감지되며 잔해의 대부분을 날려버립니다. 이 자들을 감독하는 통제관이 누구든 간에 만약의 사태를 대비해 여지를 남겨두지 않는 모양입니다.\n"
 "\t\t\n"
 "\t\t사거리 밖에 있는 보조 함선이 여전히 포격을 퍼붓고 있는 상황에서, 당신은 얼마 안 되는 약간의 스크랩을 챙깁니다."
 
-#: src-en/data/events.xml.append:1078
+#: src-en/data/events.xml.append:1083
 msgid "data/events.xml.append$//event[@name=\"DEFEAT_RK_A_POLICE\"]/choice/text"
 msgstr "무법자로 살아가는 대가일 뿐이다. 주변을 신속히 둘러본 뒤 이동한다!"
 
-#: src-en/data/events.xml.append:1085
+#: src-en/data/events.xml.append:1090
 msgid ""
 "data/events.xml.append$//eventList[@name=\"DEFEAT_RK_A_POLICE_LOOT_CHANCE\"]/event[1]/text"
 msgstr ""
 "더 이상 건질 만한 가치가 있는 물건이 남아있지 않습니다.\n"
 "\t\t\t포격으로부터 신속히 도약해 벗어날 시간입니다."
 
-#: src-en/data/events.xml.append:1089
+#: src-en/data/events.xml.append:1094
 msgid ""
 "data/events.xml.append$//eventList[@name=\"DEFEAT_RK_A_POLICE_LOOT_CHANCE\"]/event[1]/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events.xml.append:1094
+#: src-en/data/events.xml.append:1099
 msgid ""
 "data/events.xml.append$//eventList[@name=\"DEFEAT_RK_A_POLICE_LOOT_CHANCE\"]/event[2]/text"
 msgstr ""
 "어떻게든 온전하게 남아있는 무기 하나를 발견하여 함선으로 가져옵니다.\n"
 "\t\t\t포격으로부터 신속히 도약해 벗어날 시간입니다."
 
-#: src-en/data/events.xml.append:1099
+#: src-en/data/events.xml.append:1104
 msgid ""
 "data/events.xml.append$//eventList[@name=\"DEFEAT_RK_A_POLICE_LOOT_CHANCE\"]/event[2]/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events.xml.append:1104
+#: src-en/data/events.xml.append:1109
 msgid ""
 "data/events.xml.append$//eventList[@name=\"DEFEAT_RK_A_POLICE_LOOT_CHANCE\"]/event[3]/text"
 msgstr ""
 "어떻게든 온전하게 남아있는 무기 하나를 발견하여 함선으로 가져옵니다.\n"
 "\t\t\t포격으로부터 신속히 도약해 벗어날 시간입니다."
 
-#: src-en/data/events.xml.append:1109
+#: src-en/data/events.xml.append:1114
 msgid ""
 "data/events.xml.append$//eventList[@name=\"DEFEAT_RK_A_POLICE_LOOT_CHANCE\"]/event[3]/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events.xml.append:1120
+#: src-en/data/events.xml.append:1125
 msgid "data/events.xml.append$//event[@name=\"RK_OUTSIDE_STORE\"]/text"
 msgstr ""
 "당신이 도약하여 떠나려던 순간, 은폐되어 있던 함선 한 척이 갑자기 모습을 드러냅니다. \"걱정 마라, 우린 같은 편이다.\"\n"
@@ -688,45 +681,42 @@ msgstr ""
 "\t\t그 말을 증명이라도 하듯, 그들은 멀리서 당신을 포격하던 보조 함선에 자신들의 장거리 무기를 발사하여 포격을 멈추게 합니다.\n"
 "\t\t그 보조 함선이 파괴되었는지는 알 수 없지만, 어쨌든 저쪽이 자가 수리를 완료할 때쯤이면 이곳에서의 볼일은 끝났을 것입니다."
 
-#: src-en/data/events.xml.append:1127
+#: src-en/data/events.xml.append:1132
 msgid "data/events.xml.append$//event[@name=\"RK_OUTSIDE_STORE\"]/choice/text"
 msgstr "같은 편이라면 왜 그렇게 오랫동안 사격하지 않고 기다린 겁니까?"
 
-#: src-en/data/events.xml.append:1129
+#: src-en/data/events.xml.append:1134
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_OUTSIDE_STORE\"]/choice/event/text"
 msgstr ""
 "\"이 특수우우 장비가 아직 충전되지 않아쓰으을 뿐이다, 바보야. 장기 은폐가 무기 충전 소오옥도를 얼마나 늦추는지 알고나 있느냐? "
 "어쨌든, 방금 전 전투는 대단했다! 당시이인이 원한다면 우리 물건을 믿고 거래해도 좋을 것 같구만.\""
 
-#: src-en/data/events.xml.append:1132
+#: src-en/data/events.xml.append:1137
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_OUTSIDE_STORE\"]/choice/event/choice[1]/text"
 msgstr "흥미롭군요. 물건을 보여주십시오."
 
-#: src-en/data/events.xml.append:1134
+#: src-en/data/events.xml.append:1139
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_OUTSIDE_STORE\"]/choice/event/choice[1]/event/text"
 msgstr ""
-"\"'RK' 태그가 붙은 물건을 소오오지한 너를 발견한 다른 ARKSS 함서어언들은 "
-"분명히 사아아사아알할 의도로 사아아격할 거다. 뭐, 딱히 시이인경 쓰으으는 것 "
-"같지도 않지만 말이다.\n"
-"\t\t\t\t\t\t그저... 놈들에게 맞지나 마라. 놈들이 혐오로 가득 찬 장비를 "
-"쓰으은다고 해도 딱히 틀린 말은 아니니까.\"\n"
+"\"'RK' 태그가 붙은 물건을 소오오지한 너를 발견한 다른 ARKSS 함서어언들은 분명히 사아아사아알할 의도로 사아아격할 거다. 뭐, 딱히 시이인경 쓰으으는 것 같지도 않지만 말이다.\n"
+"\t\t\t\t\t\t그저... 놈들에게 맞지나 마라. 놈들이 혐오로 가득 찬 장비를 쓰으은다고 해도 딱히 틀린 말은 아니니까.\"\n"
 "\n"
 "\t\t\t\t\t\t[style[color:ff3377]][경고: 구매 수량이 매우 제한적임]"
 
-#: src-en/data/events.xml.append:1141
+#: src-en/data/events.xml.append:1146
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_OUTSIDE_STORE\"]/choice/event/choice[1]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events.xml.append:1148
+#: src-en/data/events.xml.append:1153
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_OUTSIDE_STORE\"]/choice/event/choice[@req=\"DJMOD_NO_COORDS_NO_VISIT_RADIKAL_SECTOR\"]/text"
 msgstr "사실, 더 깊이 관여하고 싶습니다. 근원지로 가보고 싶군요."
 
-#: src-en/data/events.xml.append:1151
+#: src-en/data/events.xml.append:1156
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_OUTSIDE_STORE\"]/choice/event/choice[@req=\"DJMOD_NO_COORDS_NO_VISIT_RADIKAL_SECTOR\"]/event/text"
 msgstr ""
@@ -734,17 +724,17 @@ msgstr ""
 "\t\t\t\t\t\t\n"
 "\t\t\t\t\t\t명시이임해라, 절대 수우윕지 않겠지만, 그고세에에 가면 최고의 물건들을 얻을 수우우 있게 될 거다.\""
 
-#: src-en/data/events.xml.append:1163
+#: src-en/data/events.xml.append:1168
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_OUTSIDE_STORE\"]/choice/event/choice[3]/text"
 msgstr "됐습니다, 고맙지만 사양하죠."
 
-#: src-en/data/events.xml.append:1165
+#: src-en/data/events.xml.append:1170
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_OUTSIDE_STORE\"]/choice/event/choice[3]/event/text"
 msgstr "\"아수우윕군. 그래도 마음껏 ARKSS 놈들을 더 처치하라고.\""
 
-#: src-en/data/events.xml.append:1181
+#: src-en/data/events.xml.append:1186
 msgid "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/text"
 msgstr ""
 "\"보여주십시오. 당신에게 지급되는 발굴 수수료는 개당 15~ 정도입니다.\n"
@@ -753,642 +743,717 @@ msgstr ""
 "\t\t놈들의 장비로는 RK 내부 업그레이드까지 감지할 수 없을지 몰라도, 당신이 적재하고 있는 다른 모든 장비는 확실하게 파악하고 있습니다.\n"
 "\t\t놈들이 당신의 화면에 쏟아붓고 있는 문서에 따르면, 단 하나라도 제출하지 않을 경우 연방 범죄에 해당한다고 합니다!"
 
-#: src-en/data/events.xml.append:1193
+#: src-en/data/events.xml.append:1198
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_BAM_DIVINE_ARMOR\"]/text"
 msgstr "두꺼운 선체를 반납합니다."
 
-#: src-en/data/events.xml.append:1195
+#: src-en/data/events.xml.append:1200
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_BAM_DIVINE_ARMOR\"]/event/text"
 msgstr "불법 장비를 전송하자 그들은 즉시 화물창에 봉인합니다."
 
-#: src-en/data/events.xml.append:1203
+#: src-en/data/events.xml.append:1208
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_BAM_DIVINE_ARMOR\"]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events.xml.append:1209
+#: src-en/data/events.xml.append:1214
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_COMBAT_AUTO_SYS_REPAIR\"]/text"
 msgstr "AERA 재기 장치를 반납합니다."
 
-#: src-en/data/events.xml.append:1211
+#: src-en/data/events.xml.append:1216
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_COMBAT_AUTO_SYS_REPAIR\"]/event/text"
 msgstr "불법 장비를 전송하자 그들은 즉시 화물창에 봉인합니다."
 
-#: src-en/data/events.xml.append:1219
+#: src-en/data/events.xml.append:1224
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_COMBAT_AUTO_SYS_REPAIR\"]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events.xml.append:1225
+#: src-en/data/events.xml.append:1230
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"DJMOD_COMBAT_SHIPVORE_RAM\"]/text"
 msgstr "함선 포식 충각을 반납합니다."
 
-#: src-en/data/events.xml.append:1227
+#: src-en/data/events.xml.append:1232
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"DJMOD_COMBAT_SHIPVORE_RAM\"]/event/text"
 msgstr "불법 장비를 전송하자 그들은 즉시 화물창에 봉인합니다."
 
-#: src-en/data/events.xml.append:1235
+#: src-en/data/events.xml.append:1240
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"DJMOD_COMBAT_SHIPVORE_RAM\"]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events.xml.append:1241
+#: src-en/data/events.xml.append:1246
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_CREW_ARE_BOMBS_OFF\"]/text"
 msgstr "전하 벨트 (꺼짐)를 반납합니다."
 
-#: src-en/data/events.xml.append:1243
+#: src-en/data/events.xml.append:1248
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_CREW_ARE_BOMBS_OFF\"]/event/text"
 msgstr "불법 장비를 전송하자 그들은 즉시 화물창에 봉인합니다."
 
-#: src-en/data/events.xml.append:1251
+#: src-en/data/events.xml.append:1256
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_CREW_ARE_BOMBS_OFF\"]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events.xml.append:1257
+#: src-en/data/events.xml.append:1262
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_CREW_ARE_BOMBS_ON\"]/text"
 msgstr "전하 벨트 (켜짐)를 반납합니다."
 
-#: src-en/data/events.xml.append:1259
+#: src-en/data/events.xml.append:1264
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_CREW_ARE_BOMBS_ON\"]/event/text"
 msgstr "불법 장비를 전송하자 그들은 즉시 화물창에 봉인합니다."
 
-#: src-en/data/events.xml.append:1267
+#: src-en/data/events.xml.append:1272
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_CREW_ARE_BOMBS_ON\"]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events.xml.append:1273
+#: src-en/data/events.xml.append:1278
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_LEAD_TITANS\"]/text"
 msgstr "납 타이탄을 반납합니다."
 
-#: src-en/data/events.xml.append:1275
+#: src-en/data/events.xml.append:1280
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_LEAD_TITANS\"]/event/text"
 msgstr "불법 장비를 전송하자 그들은 즉시 화물창에 봉인합니다."
 
-#: src-en/data/events.xml.append:1283
+#: src-en/data/events.xml.append:1288
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_LEAD_TITANS\"]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events.xml.append:1289
+#: src-en/data/events.xml.append:1294
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_PERSISTENCE_SHIELD\"]/text"
 msgstr "지속 방어막을 반납합니다."
 
-#: src-en/data/events.xml.append:1291
+#: src-en/data/events.xml.append:1296
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_PERSISTENCE_SHIELD\"]/event/text"
 msgstr "불법 장비를 전송하자 그들은 즉시 화물창에 봉인합니다."
 
-#: src-en/data/events.xml.append:1299
+#: src-en/data/events.xml.append:1304
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_PERSISTENCE_SHIELD\"]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events.xml.append:1307
+#: src-en/data/events.xml.append:1312
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_ARROGANCE_SHIELD\"]/text"
 msgstr "오만 방어막을 반납합니다."
 
-#: src-en/data/events.xml.append:1309
+#: src-en/data/events.xml.append:1314
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_ARROGANCE_SHIELD\"]/event/text"
 msgstr "불법 장비를 전송하자 그들은 즉시 화물창에 봉인합니다."
 
-#: src-en/data/events.xml.append:1317
+#: src-en/data/events.xml.append:1322
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_ARROGANCE_SHIELD\"]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events.xml.append:1323
+#: src-en/data/events.xml.append:1328
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_COMBAT_DEFENSE_REMOVER\"]/text"
 msgstr "취약화 장치를 반납합니다."
 
-#: src-en/data/events.xml.append:1325
+#: src-en/data/events.xml.append:1330
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_COMBAT_DEFENSE_REMOVER\"]/event/text"
 msgstr "불법 장비를 전송하자 그들은 즉시 화물창에 봉인합니다."
 
-#: src-en/data/events.xml.append:1333
+#: src-en/data/events.xml.append:1338
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_COMBAT_DEFENSE_REMOVER\"]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events.xml.append:1339
+#: src-en/data/events.xml.append:1344
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_COMBAT_OFFENSE_DISABLER\"]/text"
 msgstr "공격 차단기를 반납합니다."
 
-#: src-en/data/events.xml.append:1341
+#: src-en/data/events.xml.append:1346
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_COMBAT_OFFENSE_DISABLER\"]/event/text"
 msgstr "불법 장비를 전송하자 그들은 즉시 화물창에 봉인합니다."
 
-#: src-en/data/events.xml.append:1349
+#: src-en/data/events.xml.append:1354
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_COMBAT_OFFENSE_DISABLER\"]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events.xml.append:1355
+#: src-en/data/events.xml.append:1360
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_COMBAT_HACK_FLEET\"]/text"
 msgstr "에니그마 장비을 반납합니다."
 
-#: src-en/data/events.xml.append:1357
+#: src-en/data/events.xml.append:1362
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_COMBAT_HACK_FLEET\"]/event/text"
 msgstr "불법 장비를 전송하자 그들은 즉시 화물창에 봉인합니다."
 
-#: src-en/data/events.xml.append:1365
+#: src-en/data/events.xml.append:1370
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_COMBAT_HACK_FLEET\"]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events.xml.append:1371
+#: src-en/data/events.xml.append:1376
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_DREAD_DECK\"]/text"
 msgstr "공포의 갑판을 반납합니다."
 
-#: src-en/data/events.xml.append:1373
+#: src-en/data/events.xml.append:1378
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_DREAD_DECK\"]/event/text"
 msgstr "불법 장비를 전송하자 그들은 즉시 화물창에 봉인합니다."
 
-#: src-en/data/events.xml.append:1381
+#: src-en/data/events.xml.append:1386
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_DREAD_DECK\"]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events.xml.append:1387
+#: src-en/data/events.xml.append:1392
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_SUPER_DEFENDERS\"]/text"
 msgstr "방어 장구를 반납합니다."
 
-#: src-en/data/events.xml.append:1389
+#: src-en/data/events.xml.append:1394
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_SUPER_DEFENDERS\"]/event/text"
 msgstr "불법 장비를 전송하자 그들은 즉시 화물창에 봉인합니다."
 
-#: src-en/data/events.xml.append:1397
+#: src-en/data/events.xml.append:1402
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_SUPER_DEFENDERS\"]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events.xml.append:1403
+#: src-en/data/events.xml.append:1408
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_OWN_HARMONY_ON\"]/text"
 msgstr "펑크 하모니 (켜짐)를 반납합니다."
 
-#: src-en/data/events.xml.append:1405
+#: src-en/data/events.xml.append:1410
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_OWN_HARMONY_ON\"]/event/text"
 msgstr "불법 장비를 전송하자 그들은 즉시 화물창에 봉인합니다."
 
-#: src-en/data/events.xml.append:1413
+#: src-en/data/events.xml.append:1418
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_OWN_HARMONY_ON\"]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events.xml.append:1419
+#: src-en/data/events.xml.append:1424
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_OWN_HARMONY_OFF\"]/text"
 msgstr "펑크 하모니 (꺼짐)를 반납합니다."
 
-#: src-en/data/events.xml.append:1421
+#: src-en/data/events.xml.append:1426
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_OWN_HARMONY_OFF\"]/event/text"
 msgstr "불법 장비를 전송하자 그들은 즉시 화물창에 봉인합니다."
 
-#: src-en/data/events.xml.append:1429
+#: src-en/data/events.xml.append:1434
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_OWN_HARMONY_OFF\"]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events.xml.append:1437
+#: src-en/data/events.xml.append:1442
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_SCORCH_SELF\"]/text"
 msgstr "초토화 (T1)를 반납합니다."
 
-#: src-en/data/events.xml.append:1439
+#: src-en/data/events.xml.append:1444
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_SCORCH_SELF\"]/event/text"
 msgstr "불법 장비를 전송하자 그들은 즉시 화물창에 봉인합니다."
 
-#: src-en/data/events.xml.append:1447
+#: src-en/data/events.xml.append:1452
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_SCORCH_SELF\"]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events.xml.append:1453
+#: src-en/data/events.xml.append:1458
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_SCORCH_SELF_2\"]/text"
 msgstr "불타는 땅 (T2)을 반납합니다."
 
-#: src-en/data/events.xml.append:1455
+#: src-en/data/events.xml.append:1460
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_SCORCH_SELF_2\"]/event/text"
 msgstr "불법 장비를 전송하자 그들은 즉시 화물창에 봉인합니다."
 
-#: src-en/data/events.xml.append:1463
+#: src-en/data/events.xml.append:1468
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_SCORCH_SELF_2\"]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events.xml.append:1469
+#: src-en/data/events.xml.append:1474
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_SCORCH_SELF_3\"]/text"
 msgstr "분출하는 땅 (T3)을 반납합니다."
 
-#: src-en/data/events.xml.append:1471
+#: src-en/data/events.xml.append:1476
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_SCORCH_SELF_3\"]/event/text"
 msgstr "불법 장비를 전송하자 그들은 즉시 화물창에 봉인합니다."
 
-#: src-en/data/events.xml.append:1479
+#: src-en/data/events.xml.append:1484
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_SCORCH_SELF_3\"]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events.xml.append:1485
+#: src-en/data/events.xml.append:1490
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_COMBAT_SCORCH_ENEMY\"]/text"
 msgstr "플라즈마 텔레포터를 반납합니다."
 
-#: src-en/data/events.xml.append:1487
+#: src-en/data/events.xml.append:1492
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_COMBAT_SCORCH_ENEMY\"]/event/text"
 msgstr "불법 장비를 전송하자 그들은 즉시 화물창에 봉인합니다."
 
-#: src-en/data/events.xml.append:1495
+#: src-en/data/events.xml.append:1500
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_COMBAT_SCORCH_ENEMY\"]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events.xml.append:1501
+#: src-en/data/events.xml.append:1506
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_ENEMIES_CAN_BURN\"]/text"
 msgstr "가연성 가속기-면역을 반납합니다."
 
-#: src-en/data/events.xml.append:1503
+#: src-en/data/events.xml.append:1508
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_ENEMIES_CAN_BURN\"]/event/text"
 msgstr "불법 장비를 전송하자 그들은 즉시 화물창에 봉인합니다."
 
-#: src-en/data/events.xml.append:1511
+#: src-en/data/events.xml.append:1516
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_ENEMIES_CAN_BURN\"]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events.xml.append:1517
+#: src-en/data/events.xml.append:1522
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_ENEMIES_BURN_MORE\"]/text"
 msgstr "가연성 가속기-피해를 반납합니다."
 
-#: src-en/data/events.xml.append:1519
+#: src-en/data/events.xml.append:1524
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_ENEMIES_BURN_MORE\"]/event/text"
 msgstr "불법 장비를 전송하자 그들은 즉시 화물창에 봉인합니다."
 
-#: src-en/data/events.xml.append:1527
+#: src-en/data/events.xml.append:1532
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_ENEMIES_BURN_MORE\"]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events.xml.append:1533
+#: src-en/data/events.xml.append:1538
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_COMBAT_OXYGENIZER\"]/text"
 msgstr "대기 산소화 장치를 반납합니다."
 
-#: src-en/data/events.xml.append:1535
+#: src-en/data/events.xml.append:1540
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_COMBAT_OXYGENIZER\"]/event/text"
 msgstr "불법 장비를 전송하자 그들은 즉시 화물창에 봉인합니다."
 
-#: src-en/data/events.xml.append:1543
+#: src-en/data/events.xml.append:1548
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_COMBAT_OXYGENIZER\"]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events.xml.append:1549
+#: src-en/data/events.xml.append:1554
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_SCORCH_PREIGNITER\"]/text"
 msgstr "스코치 조기 점화기를 반납합니다."
 
-#: src-en/data/events.xml.append:1551
+#: src-en/data/events.xml.append:1556
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_SCORCH_PREIGNITER\"]/event/text"
 msgstr "불법 장비를 전송하자 그들은 즉시 화물창에 봉인합니다."
 
-#: src-en/data/events.xml.append:1559
+#: src-en/data/events.xml.append:1564
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_SCORCH_PREIGNITER\"]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events.xml.append:1565
+#: src-en/data/events.xml.append:1570
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_WEAPONS_ON_FIRE\"]/text"
 msgstr "불타는 무기를 반납합니다."
 
-#: src-en/data/events.xml.append:1567
+#: src-en/data/events.xml.append:1572
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_WEAPONS_ON_FIRE\"]/event/text"
 msgstr "불법 장비를 전송하자 그들은 즉시 화물창에 봉인합니다."
 
-#: src-en/data/events.xml.append:1575
+#: src-en/data/events.xml.append:1580
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_WEAPONS_ON_FIRE\"]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events.xml.append:1583
+#: src-en/data/events.xml.append:1588
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_BPS_SURVEYOR\"]/text"
 msgstr "BPS 측량기를 반납합니다."
 
-#: src-en/data/events.xml.append:1585
+#: src-en/data/events.xml.append:1590
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_BPS_SURVEYOR\"]/event/text"
 msgstr "불법 장비를 전송하자 그들은 즉시 화물창에 봉인합니다."
 
-#: src-en/data/events.xml.append:1593
+#: src-en/data/events.xml.append:1598
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_BPS_SURVEYOR\"]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events.xml.append:1599
+#: src-en/data/events.xml.append:1604
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_BPS_SHIELD_OVER_MATTER\"]/text"
 msgstr "물질 우위 방어막을 반납합니다."
 
-#: src-en/data/events.xml.append:1601
+#: src-en/data/events.xml.append:1606
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_BPS_SHIELD_OVER_MATTER\"]/event/text"
 msgstr "불법 장비를 전송하자 그들은 즉시 화물창에 봉인합니다."
 
-#: src-en/data/events.xml.append:1609
+#: src-en/data/events.xml.append:1614
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_BPS_SHIELD_OVER_MATTER\"]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events.xml.append:1620
+#: src-en/data/events.xml.append:1625
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"DJMOD_BAM_FISSUREBEAM\"]/text"
 msgstr "바다 빔을 반납합니다."
 
-#: src-en/data/events.xml.append:1622
+#: src-en/data/events.xml.append:1627
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"DJMOD_BAM_FISSUREBEAM\"]/event/text"
 msgstr "불법 장비를 전송하자 그들은 즉시 화물창에 봉인합니다."
 
-#: src-en/data/events.xml.append:1630
+#: src-en/data/events.xml.append:1635
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"DJMOD_BAM_FISSUREBEAM\"]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events.xml.append:1636
+#: src-en/data/events.xml.append:1641
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_HEAVY_POPPER_1\"]/text"
 msgstr "헤비 포퍼 마크 I 레이저를 반납합니다."
 
-#: src-en/data/events.xml.append:1638
+#: src-en/data/events.xml.append:1643
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_HEAVY_POPPER_1\"]/event/text"
 msgstr "불법 장비를 전송하자 그들은 즉시 화물창에 봉인합니다."
 
-#: src-en/data/events.xml.append:1646
+#: src-en/data/events.xml.append:1651
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_HEAVY_POPPER_1\"]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events.xml.append:1652
+#: src-en/data/events.xml.append:1657
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_HEAVY_POPPER_2\"]/text"
 msgstr "헤비 포퍼 마크 II 레이저를 반납합니다."
 
-#: src-en/data/events.xml.append:1654
+#: src-en/data/events.xml.append:1659
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_HEAVY_POPPER_2\"]/event/text"
 msgstr "불법 장비를 전송하자 그들은 즉시 화물창에 봉인합니다."
 
-#: src-en/data/events.xml.append:1662
+#: src-en/data/events.xml.append:1667
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_HEAVY_POPPER_2\"]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events.xml.append:1668
+#: src-en/data/events.xml.append:1673
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_HEAVY_POPPER_3\"]/text"
 msgstr "헤비 포퍼 마크 III 레이저를 반납합니다."
 
-#: src-en/data/events.xml.append:1670
+#: src-en/data/events.xml.append:1675
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_HEAVY_POPPER_3\"]/event/text"
 msgstr "불법 장비를 전송하자 그들은 즉시 화물창에 봉인합니다."
 
-#: src-en/data/events.xml.append:1678
+#: src-en/data/events.xml.append:1683
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_HEAVY_POPPER_3\"]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events.xml.append:1684
+#: src-en/data/events.xml.append:1689
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_UNLOADER\"]/text"
 msgstr "미사일 하역기를 반납합니다."
 
-#: src-en/data/events.xml.append:1686
+#: src-en/data/events.xml.append:1691
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_UNLOADER\"]/event/text"
 msgstr "불법 장비를 전송하자 그들은 즉시 화물창에 봉인합니다."
 
-#: src-en/data/events.xml.append:1694
+#: src-en/data/events.xml.append:1699
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_UNLOADER\"]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events.xml.append:1701
+#: src-en/data/events.xml.append:1706
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_BOMBLAUNCHER_ANTIBIO_REPAIR\"]/text"
 msgstr "방사능 수리 폭탄을 반납합니다."
 
-#: src-en/data/events.xml.append:1703
+#: src-en/data/events.xml.append:1708
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_BOMBLAUNCHER_ANTIBIO_REPAIR\"]/event/text"
 msgstr "불법 장비를 전송하자 그들은 즉시 화물창에 봉인합니다."
 
-#: src-en/data/events.xml.append:1711
+#: src-en/data/events.xml.append:1716
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_BOMBLAUNCHER_ANTIBIO_REPAIR\"]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events.xml.append:1717
+#: src-en/data/events.xml.append:1722
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_KILLALL_BEAM\"]/text"
 msgstr "무덤확산 빔을 반납합니다."
 
-#: src-en/data/events.xml.append:1719
+#: src-en/data/events.xml.append:1724
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_KILLALL_BEAM\"]/event/text"
 msgstr "불법 장비를 전송하자 그들은 즉시 화물창에 봉인합니다."
 
-#: src-en/data/events.xml.append:1727
+#: src-en/data/events.xml.append:1732
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_KILLALL_BEAM\"]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events.xml.append:1733
+#: src-en/data/events.xml.append:1738
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_KILLALL_BEAM_ELITE\"]/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:1740
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_KILLALL_BEAM_ELITE\"]/event/text"
+msgstr "불법 장비를 전송하자 그들은 즉시 화물창에 봉인합니다."
+
+#: src-en/data/events.xml.append:1748
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_KILLALL_BEAM_ELITE\"]/event/choice/text"
+msgstr "계속..."
+
+#: src-en/data/events.xml.append:1755
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_MISSLAUNCHER_2_BATTERY\"]/text"
 msgstr "배터리 아르테미스 미사일 발사기를 반납합니다."
 
-#: src-en/data/events.xml.append:1735
+#: src-en/data/events.xml.append:1757
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_MISSLAUNCHER_2_BATTERY\"]/event/text"
 msgstr "불법 장비를 전송하자 그들은 즉시 화물창에 봉인합니다."
 
-#: src-en/data/events.xml.append:1743
+#: src-en/data/events.xml.append:1765
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_MISSLAUNCHER_2_BATTERY\"]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events.xml.append:1749
+#: src-en/data/events.xml.append:1771
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_RAIN_OF_ION\"]/text"
 msgstr "이온의 비 산탄포를 반납합니다."
 
-#: src-en/data/events.xml.append:1751
+#: src-en/data/events.xml.append:1773
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_RAIN_OF_ION\"]/event/text"
 msgstr "불법 장비를 전송하자 그들은 즉시 화물창에 봉인합니다."
 
-#: src-en/data/events.xml.append:1759
+#: src-en/data/events.xml.append:1781
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_RAIN_OF_ION\"]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events.xml.append:1765
+#: src-en/data/events.xml.append:1787
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_RAIN_OF_ION_ELITE\"]/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:1789
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_RAIN_OF_ION_ELITE\"]/event/text"
+msgstr "불법 장비를 전송하자 그들은 즉시 화물창에 봉인합니다."
+
+#: src-en/data/events.xml.append:1797
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_RAIN_OF_ION_ELITE\"]/event/choice/text"
+msgstr "계속..."
+
+#: src-en/data/events.xml.append:1803
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_SHOTPHASER\"]/text"
 msgstr "산탄관통자 산탄포를 반납합니다."
 
-#: src-en/data/events.xml.append:1767
+#: src-en/data/events.xml.append:1805
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_SHOTPHASER\"]/event/text"
 msgstr "불법 장비를 전송하자 그들은 즉시 화물창에 봉인합니다."
 
-#: src-en/data/events.xml.append:1775
+#: src-en/data/events.xml.append:1813
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_SHOTPHASER\"]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events.xml.append:1782
+#: src-en/data/events.xml.append:1820
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_BOMBLAUNCHER_OXYBOTTLE\"]/text"
 msgstr "산소 폭탄 발사기를 반납합니다."
 
-#: src-en/data/events.xml.append:1784
+#: src-en/data/events.xml.append:1822
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_BOMBLAUNCHER_OXYBOTTLE\"]/event/text"
 msgstr "불법 장비를 전송하자 그들은 즉시 화물창에 봉인합니다."
 
-#: src-en/data/events.xml.append:1792
+#: src-en/data/events.xml.append:1830
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_BOMBLAUNCHER_OXYBOTTLE\"]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events.xml.append:1799
+#: src-en/data/events.xml.append:1837
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_OXY_FIREFILL_MISSILES\"]/text"
 msgstr "굴뚝 발사기를 반납합니다."
 
-#: src-en/data/events.xml.append:1801
+#: src-en/data/events.xml.append:1839
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_OXY_FIREFILL_MISSILES\"]/event/text"
 msgstr "불법 장비를 전송하자 그들은 즉시 화물창에 봉인합니다."
 
-#: src-en/data/events.xml.append:1809
+#: src-en/data/events.xml.append:1847
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_OXY_FIREFILL_MISSILES\"]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events.xml.append:1816
+#: src-en/data/events.xml.append:1854
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_FOCUS_FIRE\"]/text"
 msgstr "핫 포커 핀포인트를 반납합니다."
 
-#: src-en/data/events.xml.append:1818
+#: src-en/data/events.xml.append:1856
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_FOCUS_FIRE\"]/event/text"
 msgstr "불법 장비를 전송하자 그들은 즉시 화물창에 봉인합니다."
 
-#: src-en/data/events.xml.append:1826
+#: src-en/data/events.xml.append:1864
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_FOCUS_FIRE\"]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events.xml.append:1833
+#: src-en/data/events.xml.append:1871
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"DJMOD_RAIN_OF_FIRE\"]/text"
 msgstr "화염의 비 발사기를 반납합니다."
 
-#: src-en/data/events.xml.append:1835
+#: src-en/data/events.xml.append:1873
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"DJMOD_RAIN_OF_FIRE\"]/event/text"
 msgstr "불법 장비를 전송하자 그들은 즉시 화물창에 봉인합니다."
 
-#: src-en/data/events.xml.append:1843
+#: src-en/data/events.xml.append:1881
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"DJMOD_RAIN_OF_FIRE\"]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events.xml.append:1850
+#: src-en/data/events.xml.append:1888
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_BPS_FOCUS_STATUS\"]/text"
 msgstr "BPS 서신 핀포인트를 반납합니다."
 
-#: src-en/data/events.xml.append:1852
+#: src-en/data/events.xml.append:1890
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_BPS_FOCUS_STATUS\"]/event/text"
 msgstr "불법 장비를 전송하자 그들은 즉시 화물창에 봉인합니다."
 
-#: src-en/data/events.xml.append:1860
+#: src-en/data/events.xml.append:1898
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_BPS_FOCUS_STATUS\"]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events.xml.append:1867
+#: src-en/data/events.xml.append:1905
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"DJMOD_LASER_BPS\"]/text"
 msgstr "BPS 전령 레이저를 반납합니다."
 
-#: src-en/data/events.xml.append:1869
+#: src-en/data/events.xml.append:1907
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"DJMOD_LASER_BPS\"]/event/text"
 msgstr "불법 장비를 전송하자 그들은 즉시 화물창에 봉인합니다."
 
-#: src-en/data/events.xml.append:1877
+#: src-en/data/events.xml.append:1915
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"DJMOD_LASER_BPS\"]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events.xml.append:1884
+#: src-en/data/events.xml.append:1922
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"DJMOD_LASER_BPS_ELITE\"]/text"
+msgstr "BPS 전령 레이저를 반납합니다."
+
+#: src-en/data/events.xml.append:1924
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"DJMOD_LASER_BPS_ELITE\"]/event/text"
+msgstr "불법 장비를 전송하자 그들은 즉시 화물창에 봉인합니다."
+
+#: src-en/data/events.xml.append:1932
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"DJMOD_LASER_BPS_ELITE\"]/event/choice/text"
+msgstr "계속..."
+
+#: src-en/data/events.xml.append:1940
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_ATKD_SHOTPHASER\"]/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:1942
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_ATKD_SHOTPHASER\"]/event/text"
+msgstr "불법 장비를 전송하자 그들은 즉시 화물창에 봉인합니다."
+
+#: src-en/data/events.xml.append:1950
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_ATKD_SHOTPHASER\"]/event/choice/text"
+msgstr "계속..."
+
+#: src-en/data/events.xml.append:1957
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_ATKD_BOMBLAUNCHER_OXYBOTTLE\"]/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:1959
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_ATKD_BOMBLAUNCHER_OXYBOTTLE\"]/event/text"
+msgstr "불법 장비를 전송하자 그들은 즉시 화물창에 봉인합니다."
+
+#: src-en/data/events.xml.append:1967
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_ATKD_BOMBLAUNCHER_OXYBOTTLE\"]/event/choice/text"
+msgstr "계속..."
+
+#: src-en/data/events.xml.append:1975
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"rk_a_outside_police_surrendered_gear\"]/text"
 msgstr "(RK 장비 반납함) 생각을 바꿔서, 남은 것들은 그냥 저희가 보관하겠습니다!"
 
-#: src-en/data/events.xml.append:1886
+#: src-en/data/events.xml.append:1977
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"rk_a_outside_police_surrendered_gear\"]/event/text"
 msgstr ""
@@ -1403,62 +1468,62 @@ msgstr ""
 "\t\t\t\t\n"
 "\t\t\t\t이 문장들에 포함된 수많은 추측을 따질 겨를이 없습니다. 배치형 화력 지원 함선을 포함해 그들의 무기 체계가 가동되고 있습니다!"
 
-#: src-en/data/events.xml.append:1901
+#: src-en/data/events.xml.append:1992
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"rk_a_outside_police_surrendered_gear\"]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events.xml.append:1903
+#: src-en/data/events.xml.append:1994
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"rk_a_outside_police_surrendered_gear\"]/event/choice/event/text"
 msgstr "갑작스러운 폭발음과 함께 귀가 먹먹해집니다. 그들이 소형 상태 이상 탄두로 당신의 엔진을 타격했습니다!"
 
-#: src-en/data/events.xml.append:1908
+#: src-en/data/events.xml.append:1999
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"rk_a_outside_police_surrendered_gear\"]/event/choice/event/choice[@req=\"rk_a_outside_police_surrendered_gear\""
 " and @lvl=\"0\"]/text"
 msgstr "계속..."
 
-#: src-en/data/events.xml.append:1910
+#: src-en/data/events.xml.append:2001
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"rk_a_outside_police_surrendered_gear\"]/event/choice/event/choice[@req=\"rk_a_outside_police_surrendered_gear\""
 " and @lvl=\"0\"]/event/text"
 msgstr ""
 "하지만 그 순간, 그들의 함선에서 마지막 폭발이 일어납니다. 방금 반납했던 장비가 알 수 없는 이유로 화물창 안에서 폭발한 모양입니다!"
 
-#: src-en/data/events.xml.append:1918
+#: src-en/data/events.xml.append:2009
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"rk_a_outside_police_surrendered_gear\"]/event/choice/event/choice[@req=\"rk_a_outside_police_surrendered_gear\""
 " and @lvl=\"0\"]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events.xml.append:1924
+#: src-en/data/events.xml.append:2015
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"rk_a_outside_police_surrendered_gear\"]/event/choice/event/choice[@req=\"rk_a_outside_police_surrendered_gear\""
 " and @lvl=\"3\"]/text"
 msgstr "계속..."
 
-#: src-en/data/events.xml.append:1926
+#: src-en/data/events.xml.append:2017
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"rk_a_outside_police_surrendered_gear\"]/event/choice/event/choice[@req=\"rk_a_outside_police_surrendered_gear\""
 " and @lvl=\"3\"]/event/text"
 msgstr ""
 "하지만 그 순간, 그들의 함선에서 마지막 폭발이 일어납니다. 방금 반납했던 장비가 알 수 없는 이유로 화물창 안에서 폭발한 모양입니다!"
 
-#: src-en/data/events.xml.append:1936
+#: src-en/data/events.xml.append:2027
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"rk_a_outside_police_surrendered_gear\"]/event/choice/event/choice[@req=\"rk_a_outside_police_surrendered_gear\""
 " and @lvl=\"3\"]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events.xml.append:1946
+#: src-en/data/events.xml.append:2037
 msgid ""
-"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[44]/text"
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[49]/text"
 msgstr "다시 생각해보니, 역시 저희가 보관하는 편이 낫겠습니다!"
 
-#: src-en/data/events.xml.append:1948
+#: src-en/data/events.xml.append:2039
 msgid ""
-"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[44]/event/text"
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[49]/event/text"
 msgstr ""
 "함장이 당신에게 깊은 실망감을 표합니다. \"비윤리적인 힘의 유혹에 그렇게 짧은 시간 만에 사로잡힌 것인가? ARKSS의 얼굴에 대고 범죄 의도를 대놓고 인정할 정도로?\"\n"
 "\t\t\t\t그들은 잠시 생각에 잠깁니다. 분명 이런 일은 처음부터 한쪽으로 결정되는 경우가 일반적이며, 수색 중간에 마음을 바꾸는 일은 흔치 않은 모양입니다.\n"
@@ -1469,27 +1534,27 @@ msgstr ""
 "\t\t\t\t\n"
 "\t\t\t\t이 문장들에 포함된 수많은 추측을 따질 겨를이 없습니다. 배치형 화력 지원 함선을 포함해 그들의 무기 체계가 가동되고 있습니다!"
 
-#: src-en/data/events.xml.append:1961
+#: src-en/data/events.xml.append:2052
 msgid ""
-"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[44]/event/choice/text"
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[49]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events.xml.append:1963
+#: src-en/data/events.xml.append:2054
 msgid ""
-"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[44]/event/choice/event/text"
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[49]/event/choice/event/text"
 msgstr "갑작스러운 폭발음과 함께 귀가 먹먹해집니다. 그들이 소형 상태 이상 탄두로 당신의 엔진을 타격했습니다!"
 
-#: src-en/data/events.xml.append:1968
+#: src-en/data/events.xml.append:2059
 msgid ""
-"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[44]/event/choice/event/choice/text"
+"data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[49]/event/choice/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events.xml.append:1977
+#: src-en/data/events.xml.append:2068
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_HAS_GEAR_SURRENDERABLE_TO_RK_A\"]/text"
 msgstr "이상입니다."
 
-#: src-en/data/events.xml.append:1979
+#: src-en/data/events.xml.append:2070
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_HAS_GEAR_SURRENDERABLE_TO_RK_A\"]/event/text"
 msgstr ""
@@ -1498,7 +1563,7 @@ msgstr ""
 "\t\t\t\n"
 "\t\t\t\t\"그리고 당신이 보안 강화에 기여할 준비가 되었음을 증명했으니, 이 커져가는 위협에 맞서 스스로를 더 잘 무장하시기 바랍니다.\""
 
-#: src-en/data/events.xml.append:2011
+#: src-en/data/events.xml.append:2102
 msgid ""
 "data/events.xml.append$//textList[@name=\"TEXT_EVENT_STORE_RADIKAL\"]/text[1]"
 msgstr ""
@@ -1506,7 +1571,7 @@ msgstr ""
 "\t\t\n"
 "\t\t[경고: 구매 수량이 제한적임]"
 
-#: src-en/data/events.xml.append:2014
+#: src-en/data/events.xml.append:2105
 msgid ""
 "data/events.xml.append$//textList[@name=\"TEXT_EVENT_STORE_RADIKAL\"]/text[2]"
 msgstr ""
@@ -1514,7 +1579,7 @@ msgstr ""
 "\t\t\n"
 "\t\t[경고: 구매 수량이 제한적임]"
 
-#: src-en/data/events.xml.append:2017
+#: src-en/data/events.xml.append:2108
 msgid ""
 "data/events.xml.append$//textList[@name=\"TEXT_EVENT_STORE_RADIKAL\"]/text[3]"
 msgstr ""
@@ -1522,7 +1587,7 @@ msgstr ""
 "\t\t\n"
 "\t\t[경고: 구매 수량이 제한적임]"
 
-#: src-en/data/events.xml.append:2020
+#: src-en/data/events.xml.append:2111
 msgid ""
 "data/events.xml.append$//textList[@name=\"TEXT_EVENT_STORE_RADIKAL\"]/text[4]"
 msgstr ""
@@ -1530,7 +1595,7 @@ msgstr ""
 "\t\t\n"
 "\t\t[경고: 구매 수량이 제한적임]"
 
-#: src-en/data/events.xml.append:2023
+#: src-en/data/events.xml.append:2114
 msgid ""
 "data/events.xml.append$//textList[@name=\"TEXT_EVENT_STORE_RADIKAL\"]/text[5]"
 msgstr ""
@@ -1538,7 +1603,7 @@ msgstr ""
 "\t\t\n"
 "\t\t[경고: 구매 수량이 제한적임]"
 
-#: src-en/data/events.xml.append:2026
+#: src-en/data/events.xml.append:2117
 msgid ""
 "data/events.xml.append$//textList[@name=\"TEXT_EVENT_STORE_RADIKAL\"]/text[6]"
 msgstr ""
@@ -1546,7 +1611,7 @@ msgstr ""
 "\t\t\n"
 "\t\t[경고: 구매 수량이 제한적임]"
 
-#: src-en/data/events.xml.append:2029
+#: src-en/data/events.xml.append:2120
 msgid ""
 "data/events.xml.append$//textList[@name=\"TEXT_EVENT_STORE_RADIKAL\"]/text[7]"
 msgstr ""
@@ -1554,15 +1619,15 @@ msgstr ""
 "\t\t\n"
 "\t\t[경고: 구매 수량이 제한적임]"
 
-#: src-en/data/events.xml.append:2039
+#: src-en/data/events.xml.append:2130
 msgid "data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED\"]/text"
 msgstr "규제가 거의 없는 탓에 노예상들이 이 구역에 아주 안락하게 자리를 잡고 있습니다. 당신은 그들 중 하나와 우연히 마주칩니다."
 
-#: src-en/data/events.xml.append:2043
+#: src-en/data/events.xml.append:2134
 msgid "data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED\"]/choice[1]/text"
 msgstr "그들이 어떤 물건을 팔고 있는지 확인합니다."
 
-#: src-en/data/events.xml.append:2045
+#: src-en/data/events.xml.append:2136
 msgid ""
 "data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED\"]/choice[1]/event/text"
 msgstr ""
@@ -1570,62 +1635,62 @@ msgstr ""
 "준비되어 있다네. 사정상... 빨리 거래하고 떠나야 해서 파격적인 할인가로 넘기지. 어떻게 하겠나?\" 당신은 할인율이 확실히 엄청나다는"
 " 것을, 어쩌면 너무 과할 정도라는 것을 눈치채셨습니다."
 
-#: src-en/data/events.xml.append:2048
+#: src-en/data/events.xml.append:2139
 msgid ""
 "data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED\"]/choice[1]/event/choice[1]/text"
 msgstr "엘리트 노예를 구입한다."
 
-#: src-en/data/events.xml.append:2050
+#: src-en/data/events.xml.append:2141
 msgid ""
 "data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED\"]/choice[1]/event/choice[1]/event/text"
 msgstr "당신은 노예상들에게 스크랩을 넘겨줍니다..."
 
-#: src-en/data/events.xml.append:2056
+#: src-en/data/events.xml.append:2147
 msgid ""
 "data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED\"]/choice[1]/event/choice[1]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events.xml.append:2063
+#: src-en/data/events.xml.append:2154
 msgid ""
 "data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED\"]/choice[1]/event/choice[2]/text"
 msgstr "거절한다."
 
-#: src-en/data/events.xml.append:2070
+#: src-en/data/events.xml.append:2161
 msgid "data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED\"]/choice[2]/text"
 msgstr "노예상들을 공격한다."
 
-#: src-en/data/events.xml.append:2072
+#: src-en/data/events.xml.append:2163
 msgid ""
 "data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED\"]/choice[2]/event/text"
 msgstr "노예제는 비열한 짓입니다! 엘리트 노예가 살아남지 못할 확률이 높다는 것을 알면서도 전투를 준비합니다."
 
-#: src-en/data/events.xml.append:2076
+#: src-en/data/events.xml.append:2167
 msgid ""
 "data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED\"]/choice[2]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events.xml.append:2083
+#: src-en/data/events.xml.append:2174
 msgid "data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED\"]/choice[3]/text"
 msgstr "그들을 무시한다."
 
-#: src-en/data/events.xml.append:2085
+#: src-en/data/events.xml.append:2176
 msgid ""
 "data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED\"]/choice[3]/event/text"
 msgstr ""
 "잠시 후 다른 함선이 들어와 노예를 매입합니다. 그러고는 얼마 지나지 않아 그 함선이 화염에 휩싸이기 시작합니다. 어쩌면 당신이 현명한 선택을 한 것일지도 모릅니다.\n"
 "\t\t\t개인적인 정비 시간을 가집니다."
 
-#: src-en/data/events.xml.append:2089
+#: src-en/data/events.xml.append:2180
 msgid ""
 "data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED\"]/choice[3]/event/choice[1]/text"
 msgstr "함선에서 무언가를 한다."
 
-#: src-en/data/events.xml.append:2093
+#: src-en/data/events.xml.append:2184
 msgid ""
 "data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED\"]/choice[3]/event/choice[2]/text"
 msgstr "아무것도 하지 않는다."
 
-#: src-en/data/events.xml.append:2119
+#: src-en/data/events.xml.append:2210
 msgid ""
 "data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED_GOODEND_LOSTSUN\"]/text"
 msgstr ""
@@ -1633,12 +1698,12 @@ msgstr ""
 " 나와 함께 갇혀 있던 거지.\" 방금 자유를 얻은 골칫거리 노예가 말합니다. 당신은 외교적으로 고개를 끄덕이며 그를 함선에 "
 "맞아들입니다."
 
-#: src-en/data/events.xml.append:2122
+#: src-en/data/events.xml.append:2213
 msgid ""
 "data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED_GOODEND_LOSTSUN\"]/choice/text"
 msgstr "우리 함선에 딱 어울릴 것 같군요."
 
-#: src-en/data/events.xml.append:2127
+#: src-en/data/events.xml.append:2218
 msgid ""
 "data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED_GOODEND_DUSKBRINGER\"]/text"
 msgstr ""
@@ -1646,12 +1711,12 @@ msgstr ""
 " 나와 함께 갇혀 있던 거지.\" 방금 자유를 얻은 골칫거리 노예가 말합니다. 당신은 외교적으로 고개를 끄덕이며 그를 함선에 "
 "맞아들입니다."
 
-#: src-en/data/events.xml.append:2130
+#: src-en/data/events.xml.append:2221
 msgid ""
 "data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED_GOODEND_DUSKBRINGER\"]/choice/text"
 msgstr "우리 함선에 딱 어울릴 것 같군요."
 
-#: src-en/data/events.xml.append:2135
+#: src-en/data/events.xml.append:2226
 msgid ""
 "data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED_GOODEND_GOUL\"]/text"
 msgstr ""
@@ -1659,12 +1724,12 @@ msgstr ""
 " 나와 함께 갇혀 있던 거지.\" 방금 자유를 얻은 골칫거리 노예가 말합니다. 당신은 외교적으로 고개를 끄덕이며 그를 함선에 "
 "맞아들입니다."
 
-#: src-en/data/events.xml.append:2138
+#: src-en/data/events.xml.append:2229
 msgid ""
 "data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED_GOODEND_GOUL\"]/choice/text"
 msgstr "우리 함선에 딱 어울릴 것 같군요."
 
-#: src-en/data/events.xml.append:2143
+#: src-en/data/events.xml.append:2234
 msgid ""
 "data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED_GOODEND_MANTIS\"]/text"
 msgstr ""
@@ -1672,24 +1737,24 @@ msgstr ""
 " 나와 함께 갇혀 있던 거지.\" 방금 자유를 얻은 골칫거리 노예가 말합니다. 당신은 외교적으로 고개를 끄덕이며 그를 함선에 "
 "맞아들입니다."
 
-#: src-en/data/events.xml.append:2146
+#: src-en/data/events.xml.append:2237
 msgid ""
 "data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED_GOODEND_MANTIS\"]/choice/text"
 msgstr "우리 함선에 딱 어울릴 것 같군요."
 
-#: src-en/data/events.xml.append:2151
+#: src-en/data/events.xml.append:2242
 msgid ""
 "data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED_GOODEND_RK_WEAPONLIKE\"]/text"
 msgstr ""
 "그들은 노예(실제로는 한 쌍)를 데려와 구속구를 풀어주며, 그들을 처분해서 안도하는 듯한 기색을 보입니다. \"출발해.\" 그들이 한 "
 "말은 그게 전부였습니다. 당신은 외교적으로 고개를 끄덕이며 그들을 함선에 맞아들입니다."
 
-#: src-en/data/events.xml.append:2154
+#: src-en/data/events.xml.append:2245
 msgid ""
 "data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED_GOODEND_RK_WEAPONLIKE\"]/choice/text"
 msgstr "우리 함선에 딱 어울릴 것 같군요."
 
-#: src-en/data/events.xml.append:2159
+#: src-en/data/events.xml.append:2250
 msgid ""
 "data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED_GOODEND_RK_FIREGHOST\"]/text"
 msgstr ""
@@ -1697,698 +1762,818 @@ msgstr ""
 " 나와 함께 갇혀 있던 거지.\" 방금 자유를 얻은 골칫거리 노예가 말합니다. 당신은 외교적으로 고개를 끄덕이며 그를 함선에 "
 "맞아들입니다."
 
-#: src-en/data/events.xml.append:2162
+#: src-en/data/events.xml.append:2253
 msgid ""
 "data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED_GOODEND_RK_FIREGHOST\"]/choice/text"
 msgstr "우리 함선에 딱 어울릴 것 같군요."
 
-#: src-en/data/events.xml.append:2168
+#: src-en/data/events.xml.append:2259
 msgid ""
 "data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED_BADEND_LOSTSUN\"]/text"
 msgstr ""
 "그들은 당신이 스크랩을 다 전송하기도 전에 서둘러 노예를 데려와 구속구를 풀어줍니다. 불행히도 이 골칫거리는 당신 선원 일부가 자신을 바라보는 시선이 마음에 들지 않았는지, 주먹을 날리기 시작합니다!\n"
 "\t당신은 스크랩 전송을 중단하고, 노예상들이 이 녀석을 당신에게 떠넘긴 채 즉시 도약해 도망치는 모습을 지켜봅니다."
 
-#: src-en/data/events.xml.append:2177
+#: src-en/data/events.xml.append:2268
 msgid ""
 "data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED_BADEND_LOSTSUN\"]/choice/text"
 msgstr "이래서 그렇게 쌌던 거군."
 
-#: src-en/data/events.xml.append:2182
+#: src-en/data/events.xml.append:2273
 msgid ""
 "data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED_BADEND_DUSKBRINGER\"]/text"
 msgstr ""
 "그들은 당신이 스크랩을 다 전송하기도 전에 서둘러 노예를 데려와 구속구를 풀어줍니다. 불행히도 이 골칫거리는 당신 선원 일부가 자신을 바라보는 시선이 마음에 들지 않았는지, 주먹을 날리기 시작합니다!\n"
 "\t당신은 스크랩 전송을 중단하고, 노예상들이 이 녀석을 당신에게 떠넘긴 채 즉시 도약해 도망치는 모습을 지켜봅니다."
 
-#: src-en/data/events.xml.append:2191
+#: src-en/data/events.xml.append:2282
 msgid ""
 "data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED_BADEND_DUSKBRINGER\"]/choice/text"
 msgstr "이래서 그렇게 쌌던 거군."
 
-#: src-en/data/events.xml.append:2196
+#: src-en/data/events.xml.append:2287
 msgid ""
 "data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED_BADEND_GOUL\"]/text"
 msgstr ""
 "그들은 당신이 스크랩을 다 전송하기도 전에 서둘러 노예를 데려와 구속구를 풀어줍니다. 불행히도 이 골칫거리는 당신 선원 일부가 자신을 바라보는 시선이 마음에 들지 않았는지, 주먹을 날리기 시작합니다!\n"
 "\t당신은 스크랩 전송을 중단하고, 노예상들이 이 녀석을 당신에게 떠넘긴 채 즉시 도약해 도망치는 모습을 지켜봅니다."
 
-#: src-en/data/events.xml.append:2205
+#: src-en/data/events.xml.append:2296
 msgid ""
 "data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED_BADEND_GOUL\"]/choice/text"
 msgstr "이래서 그렇게 쌌던 거군."
 
-#: src-en/data/events.xml.append:2210
+#: src-en/data/events.xml.append:2301
 msgid ""
 "data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED_BADEND_MANTIS\"]/text"
 msgstr ""
 "그들은 당신이 스크랩을 다 전송하기도 전에 서둘러 노예를 데려와 구속구를 풀어줍니다. 불행히도 이 골칫거리는 당신 선원 일부가 자신을 바라보는 시선이 마음에 들지 않았는지, 주먹을 날리기 시작합니다!\n"
 "\t당신은 스크랩 전송을 중단하고, 노예상들이 이 녀석을 당신에게 떠넘긴 채 즉시 도약해 도망치는 모습을 지켜봅니다."
 
-#: src-en/data/events.xml.append:2219
+#: src-en/data/events.xml.append:2310
 msgid ""
 "data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED_BADEND_MANTIS\"]/choice/text"
 msgstr "이래서 그렇게 쌌던 거군."
 
-#: src-en/data/events.xml.append:2224
+#: src-en/data/events.xml.append:2315
 msgid ""
 "data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED_BADEND_RK_WEAPONLIKE\"]/text"
 msgstr ""
 "그들은 당신이 스크랩을 다 전송하기도 전에 서둘러 노예(실제로는 한 쌍)를 데려와 구속구를 풀어줍니다. 불행히도 이 골칫거리들은 당신 선원 일부가 자신들을 바라보는 시선이 마음에 들지 않았는지, 사격을 개시합니다!\n"
 "\t당신은 스크랩 전송을 중단하고, 노예상들이 이 녀석들을 당신에게 떠넘긴 채 즉시 도약해 도망치는 모습을 지켜봅니다."
 
-#: src-en/data/events.xml.append:2233
+#: src-en/data/events.xml.append:2324
 msgid ""
 "data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED_BADEND_RK_WEAPONLIKE\"]/choice/text"
 msgstr "이래서 이렇게 쌌던 거군."
 
-#: src-en/data/events.xml.append:2238
+#: src-en/data/events.xml.append:2329
 msgid ""
 "data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED_BADEND_RK_FIREGHOST\"]/text"
 msgstr ""
 "그들은 당신이 스크랩을 다 전송하기도 전에 서둘러 노예를 데려와 구속구를 풀어줍니다. 불행히도 이 골칫거리는 당신 선원 일부가 자신을 바라보는 시선이 마음에 들지 않았는지, 주먹을 날리기 시작합니다!\n"
 "\t당신은 스크랩 전송을 중단하고, 노예상들이 이 녀석을 당신에게 떠넘긴 채 즉시 도약해 도망치는 모습을 지켜봅니다."
 
-#: src-en/data/events.xml.append:2247
+#: src-en/data/events.xml.append:2338
 msgid ""
 "data/events.xml.append$//event[@name=\"RADIKAL_ENSLAVED_BADEND_RK_FIREGHOST\"]/choice/text"
 msgstr "이래서 그렇게 쌌던 거군."
 
-#: src-en/data/events.xml.append:2264
+#: src-en/data/events.xml.append:2355
 msgid "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/text"
 msgstr "근처에 있는 신정국 함선을 발견하자, 그들이 즉시 당신에게 통신을 보내옵니다."
 
-#: src-en/data/events.xml.append:2268
+#: src-en/data/events.xml.append:2359
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/text"
 msgstr "통신을 받는다."
 
-#: src-en/data/events.xml.append:2270
+#: src-en/data/events.xml.append:2361
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/text"
 msgstr ""
 "\"반갑다, 이교도여. 우리는 라디칼 무기를 매입하고 있으며, 당신이 일부 소지하고 있다고 믿는다. 평소 구매가보다 더 많은 대가를 "
 "지불하겠다.\""
 
-#: src-en/data/events.xml.append:2273
+#: src-en/data/events.xml.append:2364
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/text"
 msgstr "\"그렇습니까?\""
 
-#: src-en/data/events.xml.append:2275
+#: src-en/data/events.xml.append:2366
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/text"
 msgstr "\"...\""
 
-#: src-en/data/events.xml.append:2278
+#: src-en/data/events.xml.append:2369
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/text"
 msgstr "\"...\""
 
-#: src-en/data/events.xml.append:2280
+#: src-en/data/events.xml.append:2371
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/text"
 msgstr "\"... ...\""
 
-#: src-en/data/events.xml.append:2283
+#: src-en/data/events.xml.append:2374
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/text"
 msgstr "\"... ... ...\""
 
-#: src-en/data/events.xml.append:2285
+#: src-en/data/events.xml.append:2376
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/text"
 msgstr "당신은 그들이 더 이상 길게 설명할 생각이 없다는 것을 깨닫고 고민하기 시작합니다. 어떻게 하시겠습니까?"
 
-#: src-en/data/events.xml.append:2289
+#: src-en/data/events.xml.append:2380
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"DJMOD_BAM_FISSUREBEAM\"]/text"
 msgstr "바다 빔을 150~에 판매한다."
 
-#: src-en/data/events.xml.append:2291
+#: src-en/data/events.xml.append:2382
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"DJMOD_BAM_FISSUREBEAM\"]/event/text"
 msgstr ""
 "그들이 과도할 정도로 큰 대가를 전송하는 동안 만족감을 숨기려 애써봅니다. 그러나 머지않은 미래에 불운한 마주침으로 인해 이 판매를 "
 "후회하게 되는 일이 없기를 바랄 뿐입니다. 그들은 아무 말 없이 떠납니다."
 
-#: src-en/data/events.xml.append:2299
+#: src-en/data/events.xml.append:2390
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"RK_HEAVY_POPPER_1\"]/text"
 msgstr "헤비 포퍼 마크 I 레이저를 90~에 판매한다."
 
-#: src-en/data/events.xml.append:2301
+#: src-en/data/events.xml.append:2392
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"RK_HEAVY_POPPER_1\"]/event/text"
 msgstr ""
 "그들이 과도할 정도로 큰 대가를 전송하는 동안 만족감을 숨기려 애써봅니다. 그러나 머지않은 미래에 불운한 마주침으로 인해 이 판매를 "
 "후회하게 되는 일이 없기를 바랄 뿐입니다. 그들은 아무 말 없이 떠납니다."
 
-#: src-en/data/events.xml.append:2309
+#: src-en/data/events.xml.append:2400
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"RK_HEAVY_POPPER_2\"]/text"
 msgstr "헤비 포퍼 마크 II 레이저를 120~에 판매한다."
 
-#: src-en/data/events.xml.append:2311
+#: src-en/data/events.xml.append:2402
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"RK_HEAVY_POPPER_2\"]/event/text"
 msgstr ""
 "그들이 과도할 정도로 큰 대가를 전송하는 동안 만족감을 숨기려 애써봅니다. 그러나 머지않은 미래에 불운한 마주침으로 인해 이 판매를 "
 "후회하게 되는 일이 없기를 바랄 뿐입니다. 그들은 아무 말 없이 떠납니다."
 
-#: src-en/data/events.xml.append:2319
+#: src-en/data/events.xml.append:2410
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"RK_HEAVY_POPPER_3\"]/text"
 msgstr "헤비 포퍼 마크 III 레이저를 180~에 판매한다."
 
-#: src-en/data/events.xml.append:2321
+#: src-en/data/events.xml.append:2412
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"RK_HEAVY_POPPER_3\"]/event/text"
 msgstr ""
 "그들이 과도할 정도로 큰 대가를 전송하는 동안 만족감을 숨기려 애써봅니다. 그러나 머지않은 미래에 불운한 마주침으로 인해 이 판매를 "
 "후회하게 되는 일이 없기를 바랄 뿐입니다. 그들은 아무 말 없이 떠납니다."
 
-#: src-en/data/events.xml.append:2329
+#: src-en/data/events.xml.append:2420
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"RK_UNLOADER\"]/text"
 msgstr "미사일 하역기를 105~에 판매합니다."
 
-#: src-en/data/events.xml.append:2331
+#: src-en/data/events.xml.append:2422
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"RK_UNLOADER\"]/event/text"
 msgstr ""
 "그들이 과도할 정도로 큰 대가를 전송하는 동안 만족감을 숨기려 애써봅니다. 그러나 머지않은 미래에 불운한 마주침으로 인해 이 판매를 "
 "후회하게 되는 일이 없기를 바랄 뿐입니다. 그들은 아무 말 없이 떠납니다."
 
-#: src-en/data/events.xml.append:2340
+#: src-en/data/events.xml.append:2431
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"RK_BOMBLAUNCHER_ANTIBIO_REPAIR\"]/text"
 msgstr "방사능 수리 폭탄을 75~에 판매합니다."
 
-#: src-en/data/events.xml.append:2342
+#: src-en/data/events.xml.append:2433
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"RK_BOMBLAUNCHER_ANTIBIO_REPAIR\"]/event/text"
 msgstr ""
 "그들이 과도할 정도로 큰 대가를 전송하는 동안 만족감을 숨기려 애써봅니다. 그러나 머지않은 미래에 불운한 마주침으로 인해 이 판매를 "
 "후회하게 되는 일이 없기를 바랄 뿐입니다. 그들은 아무 말 없이 떠납니다."
 
-#: src-en/data/events.xml.append:2350
+#: src-en/data/events.xml.append:2441
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"RK_KILLALL_BEAM\"]/text"
 msgstr "무덤확산 빔을 120~에 판매합니다."
 
-#: src-en/data/events.xml.append:2352
+#: src-en/data/events.xml.append:2443
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"RK_KILLALL_BEAM\"]/event/text"
 msgstr ""
 "그들이 과도할 정도로 큰 대가를 전송하는 동안 만족감을 숨기려 애써봅니다. 그러나 머지않은 미래에 불운한 마주침으로 인해 이 판매를 "
 "후회하게 되는 일이 없기를 바랄 뿐입니다. 그들은 아무 말 없이 떠납니다."
 
-#: src-en/data/events.xml.append:2360
+#: src-en/data/events.xml.append:2451
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"RK_KILLALL_BEAM_ELITE\"]/text"
+msgstr "무덤확산 빔을 120~에 판매합니다."
+
+#: src-en/data/events.xml.append:2453
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"RK_KILLALL_BEAM_ELITE\"]/event/text"
+msgstr ""
+"그들이 과도할 정도로 큰 대가를 전송하는 동안 만족감을 숨기려 애써봅니다. 그러나 머지않은 미래에 불운한 마주침으로 인해 이 판매를 "
+"후회하게 되는 일이 없기를 바랄 뿐입니다. 그들은 아무 말 없이 떠납니다."
+
+#: src-en/data/events.xml.append:2461
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"RK_MISSLAUNCHER_2_BATTERY\"]/text"
 msgstr "배터리 아르테미스 미사일 발사기를 105~에 판매합니다."
 
-#: src-en/data/events.xml.append:2362
+#: src-en/data/events.xml.append:2463
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"RK_MISSLAUNCHER_2_BATTERY\"]/event/text"
 msgstr ""
 "그들이 과도할 정도로 큰 대가를 전송하는 동안 만족감을 숨기려 애써봅니다. 그러나 머지않은 미래에 불운한 마주침으로 인해 이 판매를 "
 "후회하게 되는 일이 없기를 바랄 뿐입니다. 그들은 아무 말 없이 떠납니다."
 
-#: src-en/data/events.xml.append:2370
+#: src-en/data/events.xml.append:2471
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"RK_RAIN_OF_ION\"]/text"
 msgstr "이온의 비 산탄포를 180~에 판매합니다."
 
-#: src-en/data/events.xml.append:2372
+#: src-en/data/events.xml.append:2473
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"RK_RAIN_OF_ION\"]/event/text"
 msgstr ""
 "그들이 과도할 정도로 큰 대가를 전송하는 동안 만족감을 숨기려 애써봅니다. 그러나 머지않은 미래에 불운한 마주침으로 인해 이 판매를 "
 "후회하게 되는 일이 없기를 바랄 뿐입니다. 그들은 아무 말 없이 떠납니다."
 
-#: src-en/data/events.xml.append:2380
+#: src-en/data/events.xml.append:2481
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"RK_RAIN_OF_ION_ELITE\"]/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2483
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"RK_RAIN_OF_ION_ELITE\"]/event/text"
+msgstr ""
+"그들이 과도할 정도로 큰 대가를 전송하는 동안 만족감을 숨기려 애써봅니다. 그러나 머지않은 미래에 불운한 마주침으로 인해 이 판매를 "
+"후회하게 되는 일이 없기를 바랄 뿐입니다. 그들은 아무 말 없이 떠납니다."
+
+#: src-en/data/events.xml.append:2491
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"RK_SHOTPHASER\"]/text"
 msgstr "산탄관통자 산탄포를 120~에 판매합니다."
 
-#: src-en/data/events.xml.append:2382
+#: src-en/data/events.xml.append:2493
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"RK_SHOTPHASER\"]/event/text"
 msgstr ""
 "그들이 과도할 정도로 큰 대가를 전송하는 동안 만족감을 숨기려 애써봅니다. 그러나 머지않은 미래에 불운한 마주침으로 인해 이 판매를 "
 "후회하게 되는 일이 없기를 바랄 뿐입니다. 그들은 아무 말 없이 떠납니다."
 
-#: src-en/data/events.xml.append:2391
+#: src-en/data/events.xml.append:2502
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"RK_BOMBLAUNCHER_OXYBOTTLE\"]/text"
 msgstr "산소 폭탄 발사기를 75~에 판매합니다."
 
-#: src-en/data/events.xml.append:2393
+#: src-en/data/events.xml.append:2504
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"RK_BOMBLAUNCHER_OXYBOTTLE\"]/event/text"
 msgstr ""
 "그들이 과도할 정도로 큰 대가를 전송하는 동안 만족감을 숨기려 애써봅니다. 그러나 머지않은 미래에 불운한 마주침으로 인해 이 판매를 "
 "후회하게 되는 일이 없기를 바랄 뿐입니다. 그들은 아무 말 없이 떠납니다."
 
-#: src-en/data/events.xml.append:2402
+#: src-en/data/events.xml.append:2513
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"RK_OXY_FIREFILL_MISSILES\"]/text"
 msgstr "굴뚝 발사기를 105~에 판매합니다."
 
-#: src-en/data/events.xml.append:2404
+#: src-en/data/events.xml.append:2515
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"RK_OXY_FIREFILL_MISSILES\"]/event/text"
 msgstr ""
 "그들이 과도할 정도로 큰 대가를 전송하는 동안 만족감을 숨기려 애써봅니다. 그러나 머지않은 미래에 불운한 마주침으로 인해 이 판매를 "
 "후회하게 되는 일이 없기를 바랄 뿐입니다. 그들은 아무 말 없이 떠납니다."
 
-#: src-en/data/events.xml.append:2413
+#: src-en/data/events.xml.append:2524
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"RK_FOCUS_FIRE\"]/text"
 msgstr "핫 포커 핀포인트를 120~에 판매합니다."
 
-#: src-en/data/events.xml.append:2415
+#: src-en/data/events.xml.append:2526
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"RK_FOCUS_FIRE\"]/event/text"
 msgstr ""
 "그들이 과도할 정도로 큰 대가를 전송하는 동안 만족감을 숨기려 애써봅니다. 그러나 머지않은 미래에 불운한 마주침으로 인해 이 판매를 "
 "후회하게 되는 일이 없기를 바랄 뿐입니다. 그들은 아무 말 없이 떠납니다."
 
-#: src-en/data/events.xml.append:2424
+#: src-en/data/events.xml.append:2535
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"DJMOD_RAIN_OF_FIRE\"]/text"
 msgstr "화염의 비 발사기를 105~에 판매합니다."
 
-#: src-en/data/events.xml.append:2426
+#: src-en/data/events.xml.append:2537
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"DJMOD_RAIN_OF_FIRE\"]/event/text"
 msgstr ""
 "그들이 과도할 정도로 큰 대가를 전송하는 동안 만족감을 숨기려 애써봅니다. 그러나 머지않은 미래에 불운한 마주침으로 인해 이 판매를 "
 "후회하게 되는 일이 없기를 바랄 뿐입니다. 그들은 아무 말 없이 떠납니다."
 
-#: src-en/data/events.xml.append:2435
+#: src-en/data/events.xml.append:2546
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"RK_BPS_FOCUS_STATUS\"]/text"
 msgstr "BPS 서신 핀포인트를 120~에 판매합니다."
 
-#: src-en/data/events.xml.append:2437
+#: src-en/data/events.xml.append:2548
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"RK_BPS_FOCUS_STATUS\"]/event/text"
 msgstr ""
 "그들이 과도할 정도로 큰 대가를 전송하는 동안 만족감을 숨기려 애써봅니다. 그러나 머지않은 미래에 불운한 마주침으로 인해 이 판매를 "
 "후회하게 되는 일이 없기를 바랄 뿐입니다. 그들은 아무 말 없이 떠납니다."
 
-#: src-en/data/events.xml.append:2446
+#: src-en/data/events.xml.append:2557
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"DJMOD_LASER_BPS\"]/text"
 msgstr "BPS 전령 레이저를 200~에 판매합니다."
 
-#: src-en/data/events.xml.append:2448
+#: src-en/data/events.xml.append:2559
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"DJMOD_LASER_BPS\"]/event/text"
 msgstr ""
 "그들이 과도할 정도로 큰 대가를 전송하는 동안 만족감을 숨기려 애써봅니다. 그러나 머지않은 미래에 불운한 마주침으로 인해 이 판매를 "
 "후회하게 되는 일이 없기를 바랄 뿐입니다. 그들은 아무 말 없이 떠납니다."
 
-#: src-en/data/events.xml.append:2457
+#: src-en/data/events.xml.append:2568
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"DJMOD_LASER_BPS_ELITE\"]/text"
+msgstr "BPS 전령 레이저를 200~에 판매합니다."
+
+#: src-en/data/events.xml.append:2570
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"DJMOD_LASER_BPS_ELITE\"]/event/text"
+msgstr ""
+"그들이 과도할 정도로 큰 대가를 전송하는 동안 만족감을 숨기려 애써봅니다. 그러나 머지않은 미래에 불운한 마주침으로 인해 이 판매를 "
+"후회하게 되는 일이 없기를 바랄 뿐입니다. 그들은 아무 말 없이 떠납니다."
+
+#: src-en/data/events.xml.append:2580
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"RK_ATKD_SHOTPHASER\"]/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2582
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"RK_ATKD_SHOTPHASER\"]/event/text"
+msgstr ""
+"그들이 과도할 정도로 큰 대가를 전송하는 동안 만족감을 숨기려 애써봅니다. 그러나 머지않은 미래에 불운한 마주침으로 인해 이 판매를 "
+"후회하게 되는 일이 없기를 바랄 뿐입니다. 그들은 아무 말 없이 떠납니다."
+
+#: src-en/data/events.xml.append:2591
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"RK_ATKD_BOMBLAUNCHER_OXYBOTTLE\"]/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2593
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"RK_ATKD_BOMBLAUNCHER_OXYBOTTLE\"]/event/text"
+msgstr ""
+"그들이 과도할 정도로 큰 대가를 전송하는 동안 만족감을 숨기려 애써봅니다. 그러나 머지않은 미래에 불운한 마주침으로 인해 이 판매를 "
+"후회하게 되는 일이 없기를 바랄 뿐입니다. 그들은 아무 말 없이 떠납니다."
+
+#: src-en/data/events.xml.append:2603
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"rock_commando\"]/text"
 msgstr ""
 "(특공대 선원) \"그런 장비는 세뇌당한 얼간이놈들에게 줄 게 아니다. 정체와 거짓말로 가득 찬 너희 동네에나 가만히 박혀 "
 "있었어야지.\""
 
-#: src-en/data/events.xml.append:2459
+#: src-en/data/events.xml.append:2605
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"rock_commando\"]/event/text"
 msgstr ""
 "함선의 선장이 갑자기 다시 말문을 틉니다. \"하! 테러리스트들과 협력하는 꼴이라니. 형제들이여, 이단자들이 얼마나 이기적이고 폭력적인지"
 " 다시 한번 목도하라. 그들을 단죄하자!\""
 
-#: src-en/data/events.xml.append:2462
+#: src-en/data/events.xml.append:2608
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"rock_commando\"]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events.xml.append:2469
+#: src-en/data/events.xml.append:2615
 msgid ""
-"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[18]/text"
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[23]/text"
 msgstr "거절한다."
 
-#: src-en/data/events.xml.append:2471
+#: src-en/data/events.xml.append:2617
 msgid ""
-"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[18]/event/text"
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[23]/event/text"
 msgstr ""
 "이 만남을 통해 얻을 수 있었던 이익을 생각하지만, 지나가는 행인에게 무기를 파는 것은 그다지 안전한 전략이 아니라는 것도 기억합니다.\n"
 "\t\t\t\t\t\t\t\t\t\t\t\t그래도 함선 안에서 다른 일을 할 시간은 남아있습니다."
 
-#: src-en/data/events.xml.append:2476
+#: src-en/data/events.xml.append:2622
 msgid ""
-"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[18]/event/choice[1]/text"
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[23]/event/choice[1]/text"
 msgstr "함선에서 무언가를 한다."
 
-#: src-en/data/events.xml.append:2480
+#: src-en/data/events.xml.append:2626
 msgid ""
-"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[18]/event/choice[2]/text"
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[23]/event/choice[2]/text"
 msgstr "아무것도 하지 않는다."
 
-#: src-en/data/events.xml.append:2496
+#: src-en/data/events.xml.append:2642
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[2]/text"
 msgstr "그들을 무시한다."
 
-#: src-en/data/events.xml.append:2498
+#: src-en/data/events.xml.append:2644
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[2]/event/text"
 msgstr "그들이 무엇을 원하는지 알 수는 없지만, 지금으로선 신정국과의 거래에 관심이 없다는 것만큼은 확실합니다."
 
-#: src-en/data/events.xml.append:2500
+#: src-en/data/events.xml.append:2646
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[2]/event/choice[1]/text"
 msgstr "함선에서 무언가를 한다."
 
-#: src-en/data/events.xml.append:2504
+#: src-en/data/events.xml.append:2650
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[2]/event/choice[2]/text"
 msgstr "아무것도 하지 않는다."
 
-#: src-en/data/events.xml.append:2512
+#: src-en/data/events.xml.append:2658
 msgid "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/text"
 msgstr ""
 "당신이 도착한 지 얼마 지나지 않아 외지에서 온 듯한 다른 함선 한 대가 불안한 기색으로 탐사 지점에 도착합니다. 통신을 보내 무슨 "
 "일인지 물어볼 수 있습니다."
 
-#: src-en/data/events.xml.append:2515
+#: src-en/data/events.xml.append:2661
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/text"
 msgstr "통신을 보낸다."
 
-#: src-en/data/events.xml.append:2517
+#: src-en/data/events.xml.append:2663
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/text"
 msgstr "\"안녕하십니까, 군함이여. 음... 라디칼 분파로는 보이지 않는군요.\""
 
-#: src-en/data/events.xml.append:2520
+#: src-en/data/events.xml.append:2666
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/text"
 msgstr "당신도 그래 보이지는 않습니다만. 그게 무슨 상관입니까?"
 
-#: src-en/data/events.xml.append:2522
+#: src-en/data/events.xml.append:2668
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/text"
 msgstr ""
 "함장이 잠시 망설이다가 말합니다. \"저희는 지금... 무기 조사 임무라고 할 수 있겠습니다. RK 장비 샘플이 필요합니다.\"\n"
 "\t\t\t\t\t당신은 이것이 비밀 임무일 거라고 생각합니다. 내각이 불법 무기를 구매하는 일은 절대 없을 테니까요."
 
-#: src-en/data/events.xml.append:2525
+#: src-en/data/events.xml.append:2671
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/text"
 msgstr "글쎄요, 직접 가서 그 샘플들을 구해보시는 게 어떻습니까?"
 
-#: src-en/data/events.xml.append:2527
+#: src-en/data/events.xml.append:2673
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/text"
 msgstr ""
 "아마 당신이 함장에게 충분히 신뢰할 만해 보였나 봅니다. 결국 함장은 모든 것을 털어놓습니다. \n"
 "\t\t\t\t\t\t\t\"그 구역 사람들은 평판이 좋지 않아서 그들과 거래하는 모습이 발각되면 곤란할 겁니다. 게다가 저희는 그들에게서 장비를 강제로 빼앗아 살아남을 수 있는 적절한 장비를 제공받지 못했습니다...\""
 
-#: src-en/data/events.xml.append:2530
+#: src-en/data/events.xml.append:2676
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/text"
 msgstr "왜 이런 이야기를 해주는지 물어봅니다."
 
-#: src-en/data/events.xml.append:2532
+#: src-en/data/events.xml.append:2678
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/text"
 msgstr ""
 "\"혹시 소지하고 계신 게 있다면 저희에게 좀 팔아주십시오. 아마 직접 구매하셨을 가격보다 더 많은 대가를 드리겠습니다. "
 "부탁드립니다.\""
 
-#: src-en/data/events.xml.append:2536
+#: src-en/data/events.xml.append:2682
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"DJMOD_BAM_FISSUREBEAM\"]/text"
 msgstr "바다 빔을 150~에 판매한다."
 
-#: src-en/data/events.xml.append:2538
+#: src-en/data/events.xml.append:2684
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"DJMOD_BAM_FISSUREBEAM\"]/event/text"
 msgstr ""
 "그들이 과도할 정도로 큰 대가를 전송하는 동안 만족감을 숨기려 애써봅니다. 그러나 머지않은 미래에 불운한 마주침으로 인해 이 판매를 "
 "후회하게 되는 일이 없기를 바랄 뿐입니다. 그들은 아무 말 없이 떠납니다."
 
-#: src-en/data/events.xml.append:2546
+#: src-en/data/events.xml.append:2692
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_HEAVY_POPPER_1\"]/text"
 msgstr "헤비 포퍼 마크 I 레이저를 90~에 판매한다."
 
-#: src-en/data/events.xml.append:2548
+#: src-en/data/events.xml.append:2694
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_HEAVY_POPPER_1\"]/event/text"
 msgstr ""
 "그들이 과도할 정도로 큰 대가를 전송하는 동안 만족감을 숨기려 애써봅니다. 그러나 머지않은 미래에 불운한 마주침으로 인해 이 판매를 "
 "후회하게 되는 일이 없기를 바랄 뿐입니다. 그들은 아무 말 없이 떠납니다."
 
-#: src-en/data/events.xml.append:2556
+#: src-en/data/events.xml.append:2702
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_HEAVY_POPPER_2\"]/text"
 msgstr "헤비 포퍼 마크 II 레이저를 120~에 판매한다."
 
-#: src-en/data/events.xml.append:2558
+#: src-en/data/events.xml.append:2704
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_HEAVY_POPPER_2\"]/event/text"
 msgstr ""
 "그들이 과도할 정도로 큰 대가를 전송하는 동안 만족감을 숨기려 애써봅니다. 그러나 머지않은 미래에 불운한 마주침으로 인해 이 판매를 "
 "후회하게 되는 일이 없기를 바랄 뿐입니다. 그들은 아무 말 없이 떠납니다."
 
-#: src-en/data/events.xml.append:2566
+#: src-en/data/events.xml.append:2712
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_HEAVY_POPPER_3\"]/text"
 msgstr "헤비 포퍼 마크 III 레이저를 180~에 판매한다."
 
-#: src-en/data/events.xml.append:2568
+#: src-en/data/events.xml.append:2714
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_HEAVY_POPPER_3\"]/event/text"
 msgstr ""
 "그들이 과도할 정도로 큰 대가를 전송하는 동안 만족감을 숨기려 애써봅니다. 그러나 머지않은 미래에 불운한 마주침으로 인해 이 판매를 "
 "후회하게 되는 일이 없기를 바랄 뿐입니다. 그들은 아무 말 없이 떠납니다."
 
-#: src-en/data/events.xml.append:2576
+#: src-en/data/events.xml.append:2722
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_UNLOADER\"]/text"
 msgstr "미사일 하역기를 105~에 판매합니다."
 
-#: src-en/data/events.xml.append:2578
+#: src-en/data/events.xml.append:2724
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_UNLOADER\"]/event/text"
 msgstr ""
 "그들이 과도할 정도로 큰 대가를 전송하는 동안 만족감을 숨기려 애써봅니다. 그러나 머지않은 미래에 불운한 마주침으로 인해 이 판매를 "
 "후회하게 되는 일이 없기를 바랄 뿐입니다. 그들은 아무 말 없이 떠납니다."
 
-#: src-en/data/events.xml.append:2587
+#: src-en/data/events.xml.append:2733
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_BOMBLAUNCHER_ANTIBIO_REPAIR\"]/text"
 msgstr "방사능 수리 폭탄을 75~에 판매합니다."
 
-#: src-en/data/events.xml.append:2589
+#: src-en/data/events.xml.append:2735
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_BOMBLAUNCHER_ANTIBIO_REPAIR\"]/event/text"
 msgstr ""
 "그들이 과도할 정도로 큰 대가를 전송하는 동안 만족감을 숨기려 애써봅니다. 그러나 머지않은 미래에 불운한 마주침으로 인해 이 판매를 "
 "후회하게 되는 일이 없기를 바랄 뿐입니다. 그들은 아무 말 없이 떠납니다."
 
-#: src-en/data/events.xml.append:2597
+#: src-en/data/events.xml.append:2743
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_KILLALL_BEAM\"]/text"
 msgstr "무덤확산 빔을 120~에 판매합니다."
 
-#: src-en/data/events.xml.append:2599
+#: src-en/data/events.xml.append:2745
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_KILLALL_BEAM\"]/event/text"
 msgstr ""
 "그들이 과도할 정도로 큰 대가를 전송하는 동안 만족감을 숨기려 애써봅니다. 그러나 머지않은 미래에 불운한 마주침으로 인해 이 판매를 "
 "후회하게 되는 일이 없기를 바랄 뿐입니다. 그들은 아무 말 없이 떠납니다."
 
-#: src-en/data/events.xml.append:2607
+#: src-en/data/events.xml.append:2753
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_KILLALL_BEAM_ELITE\"]/text"
+msgstr "무덤확산 빔을 120~에 판매합니다."
+
+#: src-en/data/events.xml.append:2755
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_KILLALL_BEAM_ELITE\"]/event/text"
+msgstr ""
+"그들이 과도할 정도로 큰 대가를 전송하는 동안 만족감을 숨기려 애써봅니다. 그러나 머지않은 미래에 불운한 마주침으로 인해 이 판매를 "
+"후회하게 되는 일이 없기를 바랄 뿐입니다. 그들은 아무 말 없이 떠납니다."
+
+#: src-en/data/events.xml.append:2763
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_MISSLAUNCHER_2_BATTERY\"]/text"
 msgstr "배터리 아르테미스 미사일 발사기를 105~에 판매합니다."
 
-#: src-en/data/events.xml.append:2609
+#: src-en/data/events.xml.append:2765
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_MISSLAUNCHER_2_BATTERY\"]/event/text"
 msgstr ""
 "그들이 과도할 정도로 큰 대가를 전송하는 동안 만족감을 숨기려 애써봅니다. 그러나 머지않은 미래에 불운한 마주침으로 인해 이 판매를 "
 "후회하게 되는 일이 없기를 바랄 뿐입니다. 그들은 아무 말 없이 떠납니다."
 
-#: src-en/data/events.xml.append:2617
+#: src-en/data/events.xml.append:2773
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_RAIN_OF_ION\"]/text"
 msgstr "이온의 비 산탄포를 180~에 판매합니다."
 
-#: src-en/data/events.xml.append:2619
+#: src-en/data/events.xml.append:2775
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_RAIN_OF_ION\"]/event/text"
 msgstr ""
 "그들이 과도할 정도로 큰 대가를 전송하는 동안 만족감을 숨기려 애써봅니다. 그러나 머지않은 미래에 불운한 마주침으로 인해 이 판매를 "
 "후회하게 되는 일이 없기를 바랄 뿐입니다. 그들은 아무 말 없이 떠납니다."
 
-#: src-en/data/events.xml.append:2627
+#: src-en/data/events.xml.append:2783
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_RAIN_OF_ION_ELITE\"]/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2785
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_RAIN_OF_ION_ELITE\"]/event/text"
+msgstr ""
+"그들이 과도할 정도로 큰 대가를 전송하는 동안 만족감을 숨기려 애써봅니다. 그러나 머지않은 미래에 불운한 마주침으로 인해 이 판매를 "
+"후회하게 되는 일이 없기를 바랄 뿐입니다. 그들은 아무 말 없이 떠납니다."
+
+#: src-en/data/events.xml.append:2793
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_SHOTPHASER\"]/text"
 msgstr "산탄관통자 산탄포를 120~에 판매합니다."
 
-#: src-en/data/events.xml.append:2629
+#: src-en/data/events.xml.append:2795
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_SHOTPHASER\"]/event/text"
 msgstr ""
 "그들이 과도할 정도로 큰 대가를 전송하는 동안 만족감을 숨기려 애써봅니다. 그러나 머지않은 미래에 불운한 마주침으로 인해 이 판매를 "
 "후회하게 되는 일이 없기를 바랄 뿐입니다. 그들은 아무 말 없이 떠납니다."
 
-#: src-en/data/events.xml.append:2638
+#: src-en/data/events.xml.append:2804
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_BOMBLAUNCHER_OXYBOTTLE\"]/text"
 msgstr "산소 폭탄 발사기를 75~에 판매합니다."
 
-#: src-en/data/events.xml.append:2640
+#: src-en/data/events.xml.append:2806
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_BOMBLAUNCHER_OXYBOTTLE\"]/event/text"
 msgstr ""
 "그들이 과도할 정도로 큰 대가를 전송하는 동안 만족감을 숨기려 애써봅니다. 그러나 머지않은 미래에 불운한 마주침으로 인해 이 판매를 "
 "후회하게 되는 일이 없기를 바랄 뿐입니다. 그들은 아무 말 없이 떠납니다."
 
-#: src-en/data/events.xml.append:2649
+#: src-en/data/events.xml.append:2815
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_OXY_FIREFILL_MISSILES\"]/text"
 msgstr "굴뚝 발사기를 105~에 판매합니다."
 
-#: src-en/data/events.xml.append:2651
+#: src-en/data/events.xml.append:2817
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_OXY_FIREFILL_MISSILES\"]/event/text"
 msgstr ""
 "그들이 과도할 정도로 큰 대가를 전송하는 동안 만족감을 숨기려 애써봅니다. 그러나 머지않은 미래에 불운한 마주침으로 인해 이 판매를 "
 "후회하게 되는 일이 없기를 바랄 뿐입니다. 그들은 아무 말 없이 떠납니다."
 
-#: src-en/data/events.xml.append:2660
+#: src-en/data/events.xml.append:2826
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_FOCUS_FIRE\"]/text"
 msgstr "핫 포커 핀포인트를 120~에 판매합니다."
 
-#: src-en/data/events.xml.append:2662
+#: src-en/data/events.xml.append:2828
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_FOCUS_FIRE\"]/event/text"
 msgstr ""
 "그들이 과도할 정도로 큰 대가를 전송하는 동안 만족감을 숨기려 애써봅니다. 그러나 머지않은 미래에 불운한 마주침으로 인해 이 판매를 "
 "후회하게 되는 일이 없기를 바랄 뿐입니다. 그들은 아무 말 없이 떠납니다."
 
-#: src-en/data/events.xml.append:2671
+#: src-en/data/events.xml.append:2837
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"DJMOD_RAIN_OF_FIRE\"]/text"
 msgstr "화염의 비 발사기를 105~에 판매합니다."
 
-#: src-en/data/events.xml.append:2673
+#: src-en/data/events.xml.append:2839
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"DJMOD_RAIN_OF_FIRE\"]/event/text"
 msgstr ""
 "그들이 과도할 정도로 큰 대가를 전송하는 동안 만족감을 숨기려 애써봅니다. 그러나 머지않은 미래에 불운한 마주침으로 인해 이 판매를 "
 "후회하게 되는 일이 없기를 바랄 뿐입니다. 그들은 아무 말 없이 떠납니다."
 
-#: src-en/data/events.xml.append:2682
+#: src-en/data/events.xml.append:2848
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_BPS_FOCUS_STATUS\"]/text"
 msgstr "BPS 서신 핀포인트를 120~에 판매합니다."
 
-#: src-en/data/events.xml.append:2684
+#: src-en/data/events.xml.append:2850
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_BPS_FOCUS_STATUS\"]/event/text"
 msgstr ""
 "그들이 과도할 정도로 큰 대가를 전송하는 동안 만족감을 숨기려 애써봅니다. 그러나 머지않은 미래에 불운한 마주침으로 인해 이 판매를 "
 "후회하게 되는 일이 없기를 바랄 뿐입니다. 그들은 아무 말 없이 떠납니다."
 
-#: src-en/data/events.xml.append:2693
+#: src-en/data/events.xml.append:2859
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"DJMOD_LASER_BPS\"]/text"
 msgstr "BPS 전령 레이저를 200~에 판매합니다."
 
-#: src-en/data/events.xml.append:2695
+#: src-en/data/events.xml.append:2861
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"DJMOD_LASER_BPS\"]/event/text"
 msgstr ""
 "그들이 과도할 정도로 큰 대가를 전송하는 동안 만족감을 숨기려 애써봅니다. 그러나 머지않은 미래에 불운한 마주침으로 인해 이 판매를 "
 "후회하게 되는 일이 없기를 바랄 뿐입니다. 그들은 아무 말 없이 떠납니다."
 
-#: src-en/data/events.xml.append:2704
+#: src-en/data/events.xml.append:2870
 msgid ""
-"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[17]/text"
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"DJMOD_LASER_BPS_ELITE\"]/text"
+msgstr "BPS 전령 레이저를 200~에 판매합니다."
+
+#: src-en/data/events.xml.append:2872
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"DJMOD_LASER_BPS_ELITE\"]/event/text"
+msgstr ""
+"그들이 과도할 정도로 큰 대가를 전송하는 동안 만족감을 숨기려 애써봅니다. 그러나 머지않은 미래에 불운한 마주침으로 인해 이 판매를 "
+"후회하게 되는 일이 없기를 바랄 뿐입니다. 그들은 아무 말 없이 떠납니다."
+
+#: src-en/data/events.xml.append:2882
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_ATKD_SHOTPHASER\"]/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2884
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_ATKD_SHOTPHASER\"]/event/text"
+msgstr ""
+"그들이 과도할 정도로 큰 대가를 전송하는 동안 만족감을 숨기려 애써봅니다. 그러나 머지않은 미래에 불운한 마주침으로 인해 이 판매를 "
+"후회하게 되는 일이 없기를 바랄 뿐입니다. 그들은 아무 말 없이 떠납니다."
+
+#: src-en/data/events.xml.append:2893
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_ATKD_BOMBLAUNCHER_OXYBOTTLE\"]/text"
+msgstr ""
+
+#: src-en/data/events.xml.append:2895
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_ATKD_BOMBLAUNCHER_OXYBOTTLE\"]/event/text"
+msgstr ""
+"그들이 과도할 정도로 큰 대가를 전송하는 동안 만족감을 숨기려 애써봅니다. 그러나 머지않은 미래에 불운한 마주침으로 인해 이 판매를 "
+"후회하게 되는 일이 없기를 바랄 뿐입니다. 그들은 아무 말 없이 떠납니다."
+
+#: src-en/data/events.xml.append:2905
+msgid ""
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[22]/text"
 msgstr "거절한다."
 
-#: src-en/data/events.xml.append:2706
+#: src-en/data/events.xml.append:2907
 msgid ""
-"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[17]/event/text"
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[22]/event/text"
 msgstr ""
 "이 만남을 통해 얻을 수 있었던 이익을 생각하지만, 지나가는 행인에게 무기를 파는 것은 그다지 안전한 전략이 아니라는 것도 기억합니다.\n"
 "\t\t\t\t\t\t\t\t\t\t\t\t그래도 함선 안에서 다른 일을 할 시간은 남아있습니다."
 
-#: src-en/data/events.xml.append:2711
+#: src-en/data/events.xml.append:2912
 msgid ""
-"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[17]/event/choice[1]/text"
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[22]/event/choice[1]/text"
 msgstr "함선에서 무언가를 한다."
 
-#: src-en/data/events.xml.append:2715
+#: src-en/data/events.xml.append:2916
 msgid ""
-"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[17]/event/choice[2]/text"
+"data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[22]/event/choice[2]/text"
 msgstr "아무것도 하지 않는다."
 
-#: src-en/data/events.xml.append:2724
+#: src-en/data/events.xml.append:2925
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[@req=\"DJMOD_HAS_RADIKAL_GEAR\"]/text"
 msgstr "(라디칼 장비) 그들이 당신의 장비를 강제로 빼앗기 전에 무기에 전력을 공급합니다."
 
-#: src-en/data/events.xml.append:2726
+#: src-en/data/events.xml.append:2927
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[@req=\"DJMOD_HAS_RADIKAL_GEAR\"]/event/text"
 msgstr "\"알겠습니다, 알겠어요. 폭력을 쓸 필요는 없습니다. 저희는 이만 가보겠습니다.\""
 
-#: src-en/data/events.xml.append:2729
+#: src-en/data/events.xml.append:2930
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[@req=\"DJMOD_HAS_RADIKAL_GEAR\"]/event/choice[1]/text"
 msgstr "...그렇다는 건 말했던 것만큼 저들이 약하다는 뜻이니, 손쉽게 스크랩을 좀 긁어모아 보자!"
 
-#: src-en/data/events.xml.append:2731
+#: src-en/data/events.xml.append:2932
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[@req=\"DJMOD_HAS_RADIKAL_GEAR\"]/event/choice[1]/event/text"
 msgstr ""
 "\"잠깐... 잠깐! 이건 그냥 거래 요청이었단 말이에요. 어쩌다 이렇게 된 거죠? 제발!\"\n"
 "\t\t\t\t\t\t\t\t\t\t\t당신이 짐작했듯이, 그들의 임무가 은밀한 성격을 띠고 있는 걸 보면, 그들은 당신을 비난하려는 메시지를 보내는 게 아니라, 그저 도망치기 위해 시동을 걸고 있는 것뿐입니다! 범죄가 처벌받지 않는 곳을 찾은 모양이군요..."
 
-#: src-en/data/events.xml.append:2735
+#: src-en/data/events.xml.append:2936
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[@req=\"DJMOD_HAS_RADIKAL_GEAR\"]/event/choice[1]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events.xml.append:2742
+#: src-en/data/events.xml.append:2943
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[@req=\"DJMOD_HAS_RADIKAL_GEAR\"]/event/choice[2]/text"
 msgstr "위협이 되지 않는 것이 분명하니 그들을 그냥 냅둔다."
 
-#: src-en/data/events.xml.append:2753
+#: src-en/data/events.xml.append:2954
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[@req=\"DJMOD_HAS_RADIKAL_SHIP\"]/text"
 msgstr "거 참 재미있군요. RK 함선과 한 번도 마주치지 않고 어떻게 여기까지 올 수 있었던 겁니까?"
 
-#: src-en/data/events.xml.append:2755
+#: src-en/data/events.xml.append:2956
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[@req=\"DJMOD_HAS_RADIKAL_SHIP\"]/event/text"
 msgstr ""
 "네? 잠깐, 어떻게 그걸 아시는 겁니까?.. 아 그렇군요, 사실 이 함선이 라디칼 함선이었던 거군요! 저희에게... 넘겨주실 수 "
 "있겠습니까? 엄청난 보상을 해드리겠습니다."
 
-#: src-en/data/events.xml.append:2758
+#: src-en/data/events.xml.append:2959
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[@req=\"DJMOD_HAS_RADIKAL_SHIP\"]/event/choice/text"
 msgstr "흐으으음, 싫습니다."
 
-#: src-en/data/events.xml.append:2760
+#: src-en/data/events.xml.append:2961
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[@req=\"DJMOD_HAS_RADIKAL_SHIP\"]/event/choice/event/text"
 msgstr ""
@@ -2396,64 +2581,64 @@ msgstr ""
 "\n"
 "\t\t\t\t\t\t\t그들의 무기가 가동되기 시작했습니다!"
 
-#: src-en/data/events.xml.append:2766
+#: src-en/data/events.xml.append:2967
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[@req=\"DJMOD_HAS_RADIKAL_SHIP\"]/event/choice/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events.xml.append:2777
+#: src-en/data/events.xml.append:2978
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[2]/text"
 msgstr "그들을 무시한다."
 
-#: src-en/data/events.xml.append:2779
+#: src-en/data/events.xml.append:2980
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[2]/event/text"
 msgstr "그들이 어떤 문제를 겪든 내버려 두고, 대신 당신의 함선을 정비할 생각을 합니다."
 
-#: src-en/data/events.xml.append:2781
+#: src-en/data/events.xml.append:2982
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[2]/event/choice[1]/text"
 msgstr "함선에서 무언가를 한다."
 
-#: src-en/data/events.xml.append:2785
+#: src-en/data/events.xml.append:2986
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[2]/event/choice[2]/text"
 msgstr "아무것도 하지 않는다."
 
-#: src-en/data/events.xml.append:2803
+#: src-en/data/events.xml.append:3004
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN_GOTAWAY\"]/text"
 msgstr "졸탄들이 스크랩으로 살육당하기 전에 도망치고, 예상과는 달리 당신을 실제로 고발합니다. 뭐, 자업자득입니다."
 
-#: src-en/data/events.xml.append:2805
+#: src-en/data/events.xml.append:3006
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN_GOTAWAY\"]/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events.xml.append:2816
+#: src-en/data/events.xml.append:3017
 msgid "data/events.xml.append$//event[@name=\"RADIKAL_PHILO\"]/text"
 msgstr ""
 "민간 및 군수품으로 가득 찬 작은 우주 정거장에서 친절하고 활기 넘치는 노년의 은둔자를 만납니다. 겉보기에는 모든 물자를 혼자 사용하는 듯합니다. \n"
 "\t\t\"안녕하신가, 이방인. 난 이 구역에 대해 잘 알고 있네. 내 이야기도 들어보시고 차 한잔 하시겠나?\""
 
-#: src-en/data/events.xml.append:2819
+#: src-en/data/events.xml.append:3020
 msgid "data/events.xml.append$//event[@name=\"RADIKAL_PHILO\"]/choice[1]/text"
 msgstr "잠시 머무른다. 도움이 될지도 모른다."
 
-#: src-en/data/events.xml.append:2821
+#: src-en/data/events.xml.append:3022
 msgid ""
 "data/events.xml.append$//event[@name=\"RADIKAL_PHILO\"]/choice[1]/event/text"
 msgstr ""
 "\"내 이름은 브룬틸다라네. 자네도 분명 눈치채셨겠지만, 이 구역은 세 개의 주요 하위 세력이 점령하고 있으며 저마다의 개성을 지니고 "
 "있지!\""
 
-#: src-en/data/events.xml.append:2823
+#: src-en/data/events.xml.append:3024
 msgid ""
 "data/events.xml.append$//event[@name=\"RADIKAL_PHILO\"]/choice[1]/event/choice/text"
 msgstr "공손하게 말을 끊고 그 물자들이 어디서 난 것인지 물어본다."
 
-#: src-en/data/events.xml.append:2825
+#: src-en/data/events.xml.append:3026
 msgid ""
 "data/events.xml.append$//event[@name=\"RADIKAL_PHILO\"]/choice[1]/event/choice/event/text"
 msgstr ""
@@ -2461,50 +2646,50 @@ msgstr ""
 "들어온 이들을 평가하고 우리 방식을 가르쳐 줄 시간이나 인내심이 없다는 걸 깨달았지. 그래서 착한 늙은 엄마를 위해 이 일을 마련해 "
 "주었고, 내가 잘 지낼 수 있도록 항상 신경 써 주고 있단다.\""
 
-#: src-en/data/events.xml.append:2827
+#: src-en/data/events.xml.append:3028
 msgid ""
 "data/events.xml.append$//event[@name=\"RADIKAL_PHILO\"]/choice[1]/event/choice/event/choice/text"
 msgstr "그렇군요. 만나서 반갑습니다."
 
-#: src-en/data/events.xml.append:2829
+#: src-en/data/events.xml.append:3030
 msgid ""
 "data/events.xml.append$//event[@name=\"RADIKAL_PHILO\"]/choice[1]/event/choice/event/choice/event/text"
 msgstr "왜 아무도 이곳을 약탈하지 않았는지 짐작이 가는 가운데, 알아둘 만한 정보들이 있습니다. \"더 알고 싶은 게 있니, 얘야?\""
 
-#: src-en/data/events.xml.append:2831
+#: src-en/data/events.xml.append:3032
 msgid ""
 "data/events.xml.append$//event[@name=\"RADIKAL_PHILO\"]/choice[1]/event/choice/event/choice/event/choice/text"
 msgstr "몇 가지 질문을 떠올려 본다."
 
-#: src-en/data/events.xml.append:2842
+#: src-en/data/events.xml.append:3043
 msgid "data/events.xml.append$//event[@name=\"RADIKAL_PHILO\"]/choice[2]/text"
 msgstr "할머니의 \"정보\" 따위에 낭비할 시간은 없다."
 
-#: src-en/data/events.xml.append:2844
+#: src-en/data/events.xml.append:3045
 msgid ""
 "data/events.xml.append$//event[@name=\"RADIKAL_PHILO\"]/choice[2]/event/text"
 msgstr "얻은 것도 잃은 것도 없이 작별 인사를 나누는데, 생각해보면 그리 나쁜 일도 아닙니다."
 
-#: src-en/data/events.xml.append:2847
+#: src-en/data/events.xml.append:3048
 msgid ""
 "data/events.xml.append$//event[@name=\"RADIKAL_PHILO\"]/choice[2]/event/choice[1]/text"
 msgstr "함선에서 무언가를 한다."
 
-#: src-en/data/events.xml.append:2851
+#: src-en/data/events.xml.append:3052
 msgid ""
 "data/events.xml.append$//event[@name=\"RADIKAL_PHILO\"]/choice[2]/event/choice[2]/text"
 msgstr "아무것도 하지 않는다."
 
-#: src-en/data/events.xml.append:2864
+#: src-en/data/events.xml.append:3065
 msgid "data/events.xml.append$//event[@name=\"RADIKAL_PHILO_INTEL_REAL\"]/text"
 msgstr "그녀에게..."
 
-#: src-en/data/events.xml.append:2867
+#: src-en/data/events.xml.append:3068
 msgid ""
 "data/events.xml.append$//event[@name=\"RADIKAL_PHILO_INTEL_REAL\"]/choice[1]/text"
 msgstr "... 수문장들에 대해 물어봅니다."
 
-#: src-en/data/events.xml.append:2869
+#: src-en/data/events.xml.append:3070
 msgid ""
 "data/events.xml.append$//event[@name=\"RADIKAL_PHILO_INTEL_REAL\"]/choice[1]/event/text"
 msgstr ""
@@ -2519,32 +2704,32 @@ msgstr ""
 "\t\t\t\t내가 이 모든 걸 말해줬다는 걸 내 아들들에게는 절대 알리지 말거라, 히히히! 아, 그리고 정 무서우면 그냥 도망쳐도 된단다...\"\n"
 "\t\t\t\t그렇게 도망치면 할머니조차 당신을 더 이상 존중하지 않을 것 같지만, 당신이 구하고자 하는 현실에 대해서도 생각해야 합니다."
 
-#: src-en/data/events.xml.append:2882
+#: src-en/data/events.xml.append:3083
 msgid ""
 "data/events.xml.append$//event[@name=\"RADIKAL_PHILO_INTEL_REAL\"]/choice[1]/event/choice[1]/text"
 msgstr "다른 것에 대해 물어봅니다."
 
-#: src-en/data/events.xml.append:2886
+#: src-en/data/events.xml.append:3087
 msgid ""
 "data/events.xml.append$//event[@name=\"RADIKAL_PHILO_INTEL_REAL\"]/choice[1]/event/choice[2]/text"
 msgstr "떠난다."
 
-#: src-en/data/events.xml.append:2888
+#: src-en/data/events.xml.append:3089
 msgid ""
 "data/events.xml.append$//event[@name=\"RADIKAL_PHILO_INTEL_REAL\"]/choice[1]/event/choice[2]/event/text"
 msgstr "소지품을 챙깁니다."
 
-#: src-en/data/events.xml.append:2890
+#: src-en/data/events.xml.append:3091
 msgid ""
 "data/events.xml.append$//event[@name=\"RADIKAL_PHILO_INTEL_REAL\"]/choice[1]/event/choice[2]/event/choice/text"
 msgstr "알겠습니다, 저희는 이만 가보겠습니다. 차 잘 마셨습니다."
 
-#: src-en/data/events.xml.append:2898
+#: src-en/data/events.xml.append:3099
 msgid ""
 "data/events.xml.append$//event[@name=\"RADIKAL_PHILO_INTEL_REAL\"]/choice[2]/text"
 msgstr "... 하위 세력의 이름들에 대해 물어봅니다."
 
-#: src-en/data/events.xml.append:2900
+#: src-en/data/events.xml.append:3101
 msgid ""
 "data/events.xml.append$//event[@name=\"RADIKAL_PHILO_INTEL_REAL\"]/choice[2]/event/text"
 msgstr ""
@@ -2552,32 +2737,32 @@ msgstr ""
 "\n"
 "\t\t\t\"별거 없단다. 이 작은 사업이 시작될 때부터 워낙 많은 사람들이 그들을 '라디칼'이라고 불러대니, 내 아들들과 그 친구들이 그냥 그 이름을 받아들인 거지. 하위 세력들은 그저 서로를 구별할 약간의 명칭이 필요했을 뿐이고, 이 주변 사람들은 말을 길게 하는 걸 별로 안 좋아하거든. 그래서 짧고 명확하게 정한 거란다. 그리고 뭐 변수 같은 것에 관한 이야기도 들은 것 같은데... 수다 떠는 게 이렇게 즐거우니 나만 예외인 셈이지!\"</text>"
 
-#: src-en/data/events.xml.append:2905
+#: src-en/data/events.xml.append:3106
 msgid ""
 "data/events.xml.append$//event[@name=\"RADIKAL_PHILO_INTEL_REAL\"]/choice[2]/event/choice[1]/text"
 msgstr "다른 것에 대해 물어봅니다."
 
-#: src-en/data/events.xml.append:2909
+#: src-en/data/events.xml.append:3110
 msgid ""
 "data/events.xml.append$//event[@name=\"RADIKAL_PHILO_INTEL_REAL\"]/choice[2]/event/choice[2]/text"
 msgstr "떠난다."
 
-#: src-en/data/events.xml.append:2911
+#: src-en/data/events.xml.append:3112
 msgid ""
 "data/events.xml.append$//event[@name=\"RADIKAL_PHILO_INTEL_REAL\"]/choice[2]/event/choice[2]/event/text"
 msgstr "소지품을 챙깁니다."
 
-#: src-en/data/events.xml.append:2913
+#: src-en/data/events.xml.append:3114
 msgid ""
 "data/events.xml.append$//event[@name=\"RADIKAL_PHILO_INTEL_REAL\"]/choice[2]/event/choice[2]/event/choice/text"
 msgstr "알겠습니다, 저희는 이만 가보겠습니다. 차 잘 마셨습니다."
 
-#: src-en/data/events.xml.append:2921
+#: src-en/data/events.xml.append:3122
 msgid ""
 "data/events.xml.append$//event[@name=\"RADIKAL_PHILO_INTEL_REAL\"]/choice[3]/text"
 msgstr "... RK 장비의 디자인 철학에 대해 물어봅니다."
 
-#: src-en/data/events.xml.append:2923
+#: src-en/data/events.xml.append:3124
 msgid ""
 "data/events.xml.append$//event[@name=\"RADIKAL_PHILO_INTEL_REAL\"]/choice[3]/event/text"
 msgstr ""
@@ -2591,121 +2776,121 @@ msgstr ""
 "\n"
 "\t\t\t이제 궁금증이 좀 풀렸길 바란다, 젊은이!\""
 
-#: src-en/data/events.xml.append:2934
+#: src-en/data/events.xml.append:3135
 msgid ""
 "data/events.xml.append$//event[@name=\"RADIKAL_PHILO_INTEL_REAL\"]/choice[3]/event/choice[1]/text"
 msgstr "다른 것에 대해 물어봅니다."
 
-#: src-en/data/events.xml.append:2938
+#: src-en/data/events.xml.append:3139
 msgid ""
 "data/events.xml.append$//event[@name=\"RADIKAL_PHILO_INTEL_REAL\"]/choice[3]/event/choice[2]/text"
 msgstr "떠난다."
 
-#: src-en/data/events.xml.append:2940
+#: src-en/data/events.xml.append:3141
 msgid ""
 "data/events.xml.append$//event[@name=\"RADIKAL_PHILO_INTEL_REAL\"]/choice[3]/event/choice[2]/event/text"
 msgstr "소지품을 챙깁니다."
 
-#: src-en/data/events.xml.append:2942
+#: src-en/data/events.xml.append:3143
 msgid ""
 "data/events.xml.append$//event[@name=\"RADIKAL_PHILO_INTEL_REAL\"]/choice[3]/event/choice[2]/event/choice/text"
 msgstr "알겠습니다, 저희는 이만 가보겠습니다. 차 잘 마셨습니다."
 
-#: src-en/data/events.xml.append:2950
+#: src-en/data/events.xml.append:3151
 msgid ""
 "data/events.xml.append$//event[@name=\"RADIKAL_PHILO_INTEL_REAL\"]/choice[4]/text"
 msgstr "... 가격에 대해 물어봅니다."
 
-#: src-en/data/events.xml.append:2952
+#: src-en/data/events.xml.append:3153
 msgid ""
 "data/events.xml.append$//event[@name=\"RADIKAL_PHILO_INTEL_REAL\"]/choice[4]/event/text"
 msgstr ""
 "\"이렇게 은밀한 구역에 수많은 제작 재료를 비밀리에 들여오려면 수많은 특수 장비가 필요하다고 아들들이 말해주었단다. 그렇다 보니 가격이"
 " 높게 책정되지만, 물론 현지 생산품은 그리 비싸지 않지!\""
 
-#: src-en/data/events.xml.append:2955
+#: src-en/data/events.xml.append:3156
 msgid ""
 "data/events.xml.append$//event[@name=\"RADIKAL_PHILO_INTEL_REAL\"]/choice[4]/event/choice[1]/text"
 msgstr "다른 것에 대해 물어봅니다."
 
-#: src-en/data/events.xml.append:2959
+#: src-en/data/events.xml.append:3160
 msgid ""
 "data/events.xml.append$//event[@name=\"RADIKAL_PHILO_INTEL_REAL\"]/choice[4]/event/choice[2]/text"
 msgstr "떠난다."
 
-#: src-en/data/events.xml.append:2961
+#: src-en/data/events.xml.append:3162
 msgid ""
 "data/events.xml.append$//event[@name=\"RADIKAL_PHILO_INTEL_REAL\"]/choice[4]/event/choice[2]/event/text"
 msgstr "소지품을 챙깁니다."
 
-#: src-en/data/events.xml.append:2963
+#: src-en/data/events.xml.append:3164
 msgid ""
 "data/events.xml.append$//event[@name=\"RADIKAL_PHILO_INTEL_REAL\"]/choice[4]/event/choice[2]/event/choice/text"
 msgstr "알겠습니다, 저희는 이만 가보겠습니다. 차 잘 마셨습니다."
 
-#: src-en/data/events.xml.append:2994
+#: src-en/data/events.xml.append:3195
 msgid ""
 "data/events.xml.append$//event[@name=\"RADIKAL_PHILO_INTEL_REAL\"]/choice[5]/text"
 msgstr "물자를 내놓으라고 그녀를 협박한다!"
 
-#: src-en/data/events.xml.append:2996
+#: src-en/data/events.xml.append:3197
 msgid ""
 "data/events.xml.append$//event[@name=\"RADIKAL_PHILO_INTEL_REAL\"]/choice[5]/event/text"
 msgstr ""
 "그녀의 연약한 체구에 용기를 얻은 당신은, 대화 따위는 원하는 것을 강제로 빼앗는 것만큼 유용하지 않을 것이라 결론 내립니다."
 
-#: src-en/data/events.xml.append:2998
+#: src-en/data/events.xml.append:3199
 msgid ""
 "data/events.xml.append$//event[@name=\"RADIKAL_PHILO_INTEL_REAL\"]/choice[5]/event/choice/text"
 msgstr "닥치고 그 물자들을 전부 내놓는 게 어-"
 
-#: src-en/data/events.xml.append:3000
+#: src-en/data/events.xml.append:3201
 msgid ""
 "data/events.xml.append$//event[@name=\"RADIKAL_PHILO_INTEL_REAL\"]/choice[5]/event/choice/event/text"
 msgstr ""
 "비열한 협박을 채 끝내기도 전에, 은폐 중이던 보안 드론의 서늘한 단검이 목덜미를 겨누는 것이 느껴집니다. 명백히 이 장소 전체가 철통같이 방어되고 있음을 깨닫습니다.\n"
 "\t\t\t\t\t\"못 배운 악당 놈들 같으니, 웩? 또 실망스럽지만, 우리 작은 사업이 이런 부류의 인간들을 끌어들이는 건 명백하군. 좋은 차만 낭비했네. 당장 나가거라.\""
 
-#: src-en/data/events.xml.append:3004
+#: src-en/data/events.xml.append:3205
 msgid ""
 "data/events.xml.append$//event[@name=\"RADIKAL_PHILO_INTEL_REAL\"]/choice[5]/event/choice/event/choice/text"
 msgstr "잠깐만요! 믿기 힘들겠지만, 원래 저희는 이런 사람들이 아닙니다..."
 
-#: src-en/data/events.xml.append:3006
+#: src-en/data/events.xml.append:3207
 msgid ""
 "data/events.xml.append$//event[@name=\"RADIKAL_PHILO_INTEL_REAL\"]/choice[5]/event/choice/event/choice/event/text"
 msgstr ""
 "당신은 사과의 의미로 부끄럽게 약간의 물자를 \"바치고\", 왜 물자 더미가 그렇게 거대한지 깨달으며, 선원들에게 오늘 일은 절대로 다시는 입 밖에 내지 말라고 아주 엄격히 경고합니다.\n"
 "\t\t\t\t\t\t\t또한 비록 이 은밀한 구역에서 벌어진 일일지라도, 당신의 도덕성 부재에 대한 소문이 어떻게든 외부 세계로 흘러나갈 것 같은 기분을 느낍니다."
 
-#: src-en/data/events.xml.append:3024
+#: src-en/data/events.xml.append:3225
 msgid ""
 "data/events.xml.append$//event[@name=\"RADIKAL_PHILO_INTEL_REAL\"]/choice[6]/text"
 msgstr "알겠습니다, 저희는 이만 가보겠습니다. 차 잘 마셨습니다."
 
-#: src-en/data/events.xml.append:3029
+#: src-en/data/events.xml.append:3230
 msgid "data/events.xml.append$//event[@name=\"RADIKAL_PHILO_GOODBYE\"]/text"
 msgstr ""
 "그녀가 유쾌한 표정을 지어 보입니다. \"오, 고맙구나! 이 주변에서 늙은이의 말에 귀 기울여 주는 젊은이는 거의 없단다. 무슨 이유에서인지 녀석들은... 요새 아이들이 '강압적 추궁'이라고 부르는 걸 선호하는 모양이더구나. 제조법 세부사항 같은 거 말이다. 어쨌든 잘 가거라!\"\n"
 "\t물자를 나누어 주기 위해 보내진 왕복선 하나가 눈에 띕니다. 이 일은 보기보다 외로운 자리일지도 모르며, 과연 아들들이 엄마를 얼마나 자주 찾아올지 문득 궁금해집니다."
 
-#: src-en/data/events.xml.append:3035
+#: src-en/data/events.xml.append:3236
 msgid ""
 "data/events.xml.append$//event[@name=\"RADIKAL_PHILO_GOODBYE\"]/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events.xml.append:3048
+#: src-en/data/events.xml.append:3249
 msgid "data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK\"]/text"
 msgstr ""
 "이곳에 도착하자마자, 당신은 지나가는 모든 함선을 검문하고 있는 소규모 졸탄 함대에 둘러싸여 있음을 알아차립니다. 중무장한 졸탄 엘리트 함선으로부터 긴급 통신이 들어옵니다.\n"
 "\t\t말할 필요도 없이, 통신을 받지 않는다면 수상하게 보일 것입니다."
 
-#: src-en/data/events.xml.append:3056
+#: src-en/data/events.xml.append:3257
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK\"]/choice[1]/text"
 msgstr "통신에 응답한다."
 
-#: src-en/data/events.xml.append:3058
+#: src-en/data/events.xml.append:3259
 msgid "data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_MENU\"]/text"
 msgstr ""
 "\"뇌가 없는 미개인이 아니라면 이미 알고 있겠지만, 이 구역은 더스크브링어들에게 무기를 공급해 왔습니다. 우리는 최근 이 문제를 해결하기 위한 조치에 착수했습니다.\n"
@@ -2715,12 +2900,12 @@ msgstr ""
 "\t\t\t\t\n"
 "\t\t\t\t졸탄 내각에서는 이 구역을 매우 심각한 문제로 간주하고 있습니다. 만약 라디칼 장비가 적발될 경우, 소지하고 있는 수량에 따라 벌금을 지불해야 합니다."
 
-#: src-en/data/events.xml.append:3067
+#: src-en/data/events.xml.append:3268
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_MENU\"]/choice[@req=\"zoltan_peacekeeper\"]/text"
 msgstr "(졸탄 평화유지군) 장관님께서 우리를 보내셨습니다."
 
-#: src-en/data/events.xml.append:3069
+#: src-en/data/events.xml.append:3270
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_MENU\"]/choice[@req=\"zoltan_peacekeeper\"]/event/text"
 msgstr ""
@@ -2728,22 +2913,22 @@ msgstr ""
 "\t\t\t\t\t\t\n"
 "\t\t\t\t\t\t모든 \"범죄자\"가 순순히 RK 장비를 내놓지는 않겠지만, 이는 임무 수행에 큰 도움이 될 수 있습니다."
 
-#: src-en/data/events.xml.append:3076
+#: src-en/data/events.xml.append:3277
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_MENU\"]/choice[@req=\"zoltan_peacekeeper\"]/event/choice[1]/text"
 msgstr "함선에서 무언가를 한다."
 
-#: src-en/data/events.xml.append:3080
+#: src-en/data/events.xml.append:3281
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_MENU\"]/choice[@req=\"zoltan_peacekeeper\"]/event/choice[2]/text"
 msgstr "아무것도 하지 않는다."
 
-#: src-en/data/events.xml.append:3086
+#: src-en/data/events.xml.append:3287
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_MENU\"]/choice[@req=\"human_soldier\"]/text"
 msgstr "(인간 병사) 연방에서 지원을 보냈습니다."
 
-#: src-en/data/events.xml.append:3088
+#: src-en/data/events.xml.append:3289
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_MENU\"]/choice[@req=\"human_soldier\"]/event/text"
 msgstr ""
@@ -2751,22 +2936,22 @@ msgstr ""
 "\t\t\t\t\t\t\n"
 "\t\t\t\t\t\t모든 \"범죄자\"가 순순히 RK 장비를 내놓지는 않겠지만, 이는 임무 수행에 큰 도움이 될 수 있습니다."
 
-#: src-en/data/events.xml.append:3095
+#: src-en/data/events.xml.append:3296
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_MENU\"]/choice[@req=\"human_soldier\"]/event/choice[1]/text"
 msgstr "함선에서 무언가를 한다."
 
-#: src-en/data/events.xml.append:3099
+#: src-en/data/events.xml.append:3300
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_MENU\"]/choice[@req=\"human_soldier\"]/event/choice[2]/text"
 msgstr "아무것도 하지 않는다."
 
-#: src-en/data/events.xml.append:3105
+#: src-en/data/events.xml.append:3306
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_MENU\"]/choice[@req=\"engi_defender\"]/text"
 msgstr "(엔지 수비대) 하모니의 번영을 위해, 저희가 돕겠습니다."
 
-#: src-en/data/events.xml.append:3107
+#: src-en/data/events.xml.append:3308
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_MENU\"]/choice[@req=\"engi_defender\"]/event/text"
 msgstr ""
@@ -2774,22 +2959,22 @@ msgstr ""
 "\t\t\t\t\t\t\n"
 "\t\t\t\t\t\t모든 \"범죄자\"가 순순히 RK 장비를 내놓지는 않겠지만, 이는 임무 수행에 큰 도움이 될 수 있습니다."
 
-#: src-en/data/events.xml.append:3114
+#: src-en/data/events.xml.append:3315
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_MENU\"]/choice[@req=\"engi_defender\"]/event/choice[1]/text"
 msgstr "함선에서 무언가를 한다."
 
-#: src-en/data/events.xml.append:3118
+#: src-en/data/events.xml.append:3319
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_MENU\"]/choice[@req=\"engi_defender\"]/event/choice[2]/text"
 msgstr "아무것도 하지 않는다."
 
-#: src-en/data/events.xml.append:3124
+#: src-en/data/events.xml.append:3325
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_MENU\"]/choice[@req=\"orchid_praetor\"]/text"
 msgstr "(오키드 근위병) \"우리는 도우러 왔다\"는 손짓을 보냅니다."
 
-#: src-en/data/events.xml.append:3126
+#: src-en/data/events.xml.append:3327
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_MENU\"]/choice[@req=\"orchid_praetor\"]/event/text"
 msgstr ""
@@ -2797,79 +2982,79 @@ msgstr ""
 "\t\t\t\t\t\t\n"
 "\t\t\t\t\t\t모든 \"범죄자\"가 순순히 RK 장비를 내놓지는 않겠지만, 이는 임무 수행에 큰 도움이 될 수 있습니다."
 
-#: src-en/data/events.xml.append:3133
+#: src-en/data/events.xml.append:3334
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_MENU\"]/choice[@req=\"orchid_praetor\"]/event/choice[1]/text"
 msgstr "함선에서 무언가를 한다."
 
-#: src-en/data/events.xml.append:3137
+#: src-en/data/events.xml.append:3338
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_MENU\"]/choice[@req=\"orchid_praetor\"]/event/choice[2]/text"
 msgstr "아무것도 하지 않는다."
 
-#: src-en/data/events.xml.append:3144
+#: src-en/data/events.xml.append:3345
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_MENU\"]/choice[5]/text"
 msgstr "수색에 동의한다."
 
-#: src-en/data/events.xml.append:3149
+#: src-en/data/events.xml.append:3350
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_MENU\"]/choice[6]/text"
 msgstr "거부하면 어떻게 되는지 물어본다."
 
-#: src-en/data/events.xml.append:3151
+#: src-en/data/events.xml.append:3352
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_MENU\"]/choice[6]/event/text"
 msgstr ""
 "\"최근 자비롭게 개정된 개정안 3473-B 델타조항 덕분에, 함장들은 즉시 수색에 응하는 대신 이와 같은 통제선 자금 지원에 참여하고 72주기 이내에 가장 가까운 졸탄 경찰서에 신고하는 편을 선택할 수 있습니다.\"\n"
 "\t\t\t\t\t\t비록 당신이 그 우회로를 택할 의도가 없더라도, 그들은 당분간 당신을 내버려 둘 것입니다."
 
-#: src-en/data/events.xml.append:3155
+#: src-en/data/events.xml.append:3356
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_MENU\"]/choice[6]/event/choice[1]/text"
 msgstr "지불한다."
 
-#: src-en/data/events.xml.append:3157
+#: src-en/data/events.xml.append:3358
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_MENU\"]/choice[6]/event/choice[1]/event/text"
 msgstr ""
 "당신은 마지못해 스크랩을 전송하지만 화가 난 티를 내지 않으려 애씁니다. 적어도... 지금으로선 무장과 장비가 안전하다는 사실에위안을 "
 "삼습니다."
 
-#: src-en/data/events.xml.append:3165
+#: src-en/data/events.xml.append:3366
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_MENU\"]/choice[6]/event/choice[2]/text"
 msgstr "수색에 동의한다."
 
-#: src-en/data/events.xml.append:3174
+#: src-en/data/events.xml.append:3375
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK\"]/choice[2]/text"
 msgstr "무시하고 그냥 지나가려고 시도합니다."
 
-#: src-en/data/events.xml.append:3176
+#: src-en/data/events.xml.append:3377
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK\"]/choice[2]/event/text"
 msgstr ""
 "\"테러 공작을 용이하게 한 당신의 유죄 인정 진술이 기록되었으며, 생존해 있을 배우자 및 상속인의 재판을 위해 제출되었습니다. 당신은 법망을 벗어날 수 없습니다.\"\n"
 "\t\t\t\t힘든 싸움을 해야 할 것 같군요. 연방의 엘리트 관계자가 있었다면 결과가 달라졌을지도 모르겠습니다."
 
-#: src-en/data/events.xml.append:3181
+#: src-en/data/events.xml.append:3382
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK\"]/choice[2]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events.xml.append:3203
+#: src-en/data/events.xml.append:3404
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_ACCEPT\"]/text"
 msgstr "그들이 함선에 탑승하여 수색을 진행합니다..."
 
-#: src-en/data/events.xml.append:3206
+#: src-en/data/events.xml.append:3407
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_ACCEPT\"]/choice[@req=\"DJMOD_HAS_RADIKAL_GEAR\""
 " and @lvl=\"0\"]/text"
 msgstr "계속..."
 
-#: src-en/data/events.xml.append:3208
+#: src-en/data/events.xml.append:3409
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_ACCEPT\"]/choice[@req=\"DJMOD_HAS_RADIKAL_GEAR\""
 " and @lvl=\"0\"]/event/text"
@@ -2877,19 +3062,19 @@ msgstr ""
 "다행히 우려할 만한 물품은 없었고, 졸탄들은 함선에서 내린 후 아무 말 없이 즉시 통신을 끊고 다른 함선에 집중합니다. 무슨 일이었을지 "
 "의문이 듭니다. 어쨌든 시간이 꽤 지체되어, 함선에서 다른 작업을 진행하기엔 너무 늦었습니다."
 
-#: src-en/data/events.xml.append:3210
+#: src-en/data/events.xml.append:3411
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_ACCEPT\"]/choice[@req=\"DJMOD_HAS_RADIKAL_GEAR\""
 " and @lvl=\"0\"]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events.xml.append:3217
+#: src-en/data/events.xml.append:3418
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_ACCEPT\"]/choice[@req=\"DJMOD_HAS_RADIKAL_GEAR\""
 " and @lvl=\"1\"]/text"
 msgstr "계속..."
 
-#: src-en/data/events.xml.append:3219
+#: src-en/data/events.xml.append:3420
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_ACCEPT\"]/choice[@req=\"DJMOD_HAS_RADIKAL_GEAR\""
 " and @lvl=\"1\"]/event/text"
@@ -2898,25 +3083,25 @@ msgstr ""
 "몰수와 같은 필요한 제재를 가할 것임을 명심하십시오. 심문을 위해 선원 한 명을 우리 쪽에 자발적으로 넘긴다면 두 제재 모두 면제될 수 "
 "있습니다.\""
 
-#: src-en/data/events.xml.append:3221
+#: src-en/data/events.xml.append:3422
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_ACCEPT\"]/choice[@req=\"DJMOD_HAS_RADIKAL_GEAR\""
 " and @lvl=\"1\"]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events.xml.append:3229
+#: src-en/data/events.xml.append:3430
 msgid "data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_FINED\"]/text"
 msgstr ""
 "라디칼 장비를 소지하고 있었다는 사실을 잊었거나, 수색을 피할 방법을 찾지 못했을 수도 있습니다. 이유야 어찌 되었든, 그들은 이제 각 "
 "장비마다 벌금을 부과하려 합니다!"
 
-#: src-en/data/events.xml.append:3232
+#: src-en/data/events.xml.append:3433
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_FINED\"]/choice[@req=\"DJMOD_SUM_RADIKAL_EQUIPMENT\""
 " and @lvl=\"1\"]/text"
 msgstr "총벌금을 계산하도록 둔다."
 
-#: src-en/data/events.xml.append:3234
+#: src-en/data/events.xml.append:3435
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_FINED\"]/choice[@req=\"DJMOD_SUM_RADIKAL_EQUIPMENT\""
 " and @lvl=\"1\"]/event/text"
@@ -2924,13 +3109,13 @@ msgstr ""
 "\"불법 장비 한 건이군요. 경고의 의미로 이 최소 벌금만 부과하겠습니다. 만약 \"라디칼\" 장비가 그보다 더 많았다면, 처리를 위해 "
 "관할 경찰서로 이송할 수밖에 없었을 겁니다.\""
 
-#: src-en/data/events.xml.append:3245
+#: src-en/data/events.xml.append:3446
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_FINED\"]/choice[@req=\"DJMOD_SUM_RADIKAL_EQUIPMENT\""
 " and @lvl=\"2\"]/text"
 msgstr "총벌금을 계산하도록 둔다."
 
-#: src-en/data/events.xml.append:3247
+#: src-en/data/events.xml.append:3448
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_FINED\"]/choice[@req=\"DJMOD_SUM_RADIKAL_EQUIPMENT\""
 " and @lvl=\"2\"]/event/text"
@@ -2938,13 +3123,13 @@ msgstr ""
 "\"불법 장비 두 건. 힘을 얻기 위해 윤리를 버리는 짓은 자제하는 법을 익히셔야 할 겁니다.\"\n"
 "\t\t\t\t경찰서에 불법 장비를 반납하면 일부 금액을 돌려받을 수 있다고 하지만, 왠지 믿기 어렵습니다. 그래도 한번 가보는 것도 나쁘지 않을 것 같습니다."
 
-#: src-en/data/events.xml.append:3258
+#: src-en/data/events.xml.append:3459
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_FINED\"]/choice[@req=\"DJMOD_SUM_RADIKAL_EQUIPMENT\""
 " and @lvl=\"3\"]/text"
 msgstr "총벌금을 계산하도록 둔다."
 
-#: src-en/data/events.xml.append:3260
+#: src-en/data/events.xml.append:3461
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_FINED\"]/choice[@req=\"DJMOD_SUM_RADIKAL_EQUIPMENT\""
 " and @lvl=\"3\"]/event/text"
@@ -2952,13 +3137,13 @@ msgstr ""
 "\"불법 장비 세 건... 연방이 요즘은 정말 아무 쓰레기나 막 채용하는 모양이군요.\"\n"
 "\t\t\t\t경찰서에 불법 장비를 반납하면 일부 금액을 돌려받을 수 있다고 하지만, 왠지 믿기 어렵습니다. 그래도 한번 가보는 것도 나쁘지 않을 것 같습니다."
 
-#: src-en/data/events.xml.append:3273
+#: src-en/data/events.xml.append:3474
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_FINED\"]/choice[@req=\"DJMOD_SUM_RADIKAL_EQUIPMENT\""
 " and @lvl=\"4\"]/text"
 msgstr "총벌금을 계산하도록 둔다."
 
-#: src-en/data/events.xml.append:3275
+#: src-en/data/events.xml.append:3476
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_FINED\"]/choice[@req=\"DJMOD_SUM_RADIKAL_EQUIPMENT\""
 " and @lvl=\"4\"]/event/text"
@@ -2966,49 +3151,49 @@ msgstr ""
 "\"적어도 네 건 이상의 불법 장비라니! 대체... 무슨 짓인지 알고 싶지도 않군요. 참으로 끔찍한 위인이시겠습니다. 다행히도 관련 규정에 명시된 최고 벌금액이 이것입니다. 그 누구도 사회에 이보다 더 비열한 위협이 되는 자가 존재하리라곤 예견하지 못했나 봅니다.\"\n"
 "\t\t\t\t경찰서에 불법 장비를 반납하면 일부 금액을 돌려받을 수 있다고 하지만, 왠지 믿기 어렵습니다. 그래도 한번 가보는 것도 나쁘지 않을 것 같습니다."
 
-#: src-en/data/events.xml.append:3286
+#: src-en/data/events.xml.append:3487
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_FINED\"]/choice[@req=\"LIST_CHECK_ANY_CREW\"]/text"
 msgstr "대신 선원 한 명을 심문용으로 내어준다."
 
-#: src-en/data/events.xml.append:3291
+#: src-en/data/events.xml.append:3492
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_FINED\"]/choice[6]/text"
 msgstr "참견하기 좋아하는 전구 놈의 머리를 기습 사격한다. (위험함)"
 
-#: src-en/data/events.xml.append:3293
+#: src-en/data/events.xml.append:3494
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_FINED\"]/choice[6]/event/text"
 msgstr ""
 "밝은 조명을 뚫고 신속하고 정확하게 조준하여 블래스터로 경감을 명중시킨 후, 폭발을 피해 몸을 숨겼습니다! \n"
 "\t\t\t정말 통쾌한 순간이었고, 그의 배지는 고철값에 팔 수 있겠지만... 나머지 분대원들은 어떻게 처리해야 할까요?"
 
-#: src-en/data/events.xml.append:3301
+#: src-en/data/events.xml.append:3502
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICECHECK_RK_FINED\"]/choice[6]/event/choice/text"
 msgstr "모두 터뜨려버린다!"
 
-#: src-en/data/events.xml.append:3309
+#: src-en/data/events.xml.append:3510
 msgid "data/events.xml.append$//event[@name=\"RK_INTERROGATED_CREW\"]/text"
 msgstr ""
 "그들이 선원 한 명을 억류하여 이 구역에서 무엇을 하고 있었는지 진술받는 것으로 합의를 봅니다. 꽤 오랜 시간이 걸리는 절차이기에, 그 "
 "선원과 재회하기 전에 당신의 임무는 분명 끝나거나(혹은 당신이 사망하거나) 할 것입니다."
 
-#: src-en/data/events.xml.append:3312
+#: src-en/data/events.xml.append:3513
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_INTERROGATED_CREW\"]/removeCrew/text"
 msgstr "선원이 사망한 상태는 아니므로 복제될 수 없지만, 조만간 미쳐버릴 지도 모릅니다."
 
-#: src-en/data/events.xml.append:3316
+#: src-en/data/events.xml.append:3517
 msgid "data/events.xml.append$//event[@name=\"RK_INTERROGATED_CREW\"]/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events.xml.append:3334
+#: src-en/data/events.xml.append:3535
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICESTATION_RK\"]/beaconType/unvisitedTooltip"
 msgstr "졸탄 경찰이 압수한 라디칼 장비를 보관하는 장소입니다."
 
-#: src-en/data/events.xml.append:3336
+#: src-en/data/events.xml.append:3537
 msgid "data/events.xml.append$//event[@name=\"ZOLTAN_POLICESTATION_RK\"]/text"
 msgstr ""
 "이런 구역에 졸탄들이 어떻게 요새화된 경찰서를 세우고 무사히 버티고 있는지 의문이 들지만, 이는 그들의 단호한 의지를 보여주는 증거입니다.\n"
@@ -3017,131 +3202,131 @@ msgstr ""
 "\t\t진실과는 거리가 멀 수 있지만, 일단은 대충 장단을 맞춰주기로 합니다.\n"
 "\t\t\"무엇을 도와드릴까요?\""
 
-#: src-en/data/events.xml.append:3345
+#: src-en/data/events.xml.append:3546
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICESTATION_RK\"]/choice[1]/text"
 msgstr "물자를 요청합니다."
 
-#: src-en/data/events.xml.append:3347
+#: src-en/data/events.xml.append:3548
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICESTATION_RK\"]/choice[1]/event/text"
 msgstr ""
 "\"막대한 희생을 치르고 이 범죄자 무리로부터 상당한 양의 물자를 압수했습니다. 하지만 연방군인 당신은 이번 작전에서 우리의 동맹입니다."
 " 물론 동맹 물자 및 군수 법안의 한도 내에서 마음껏 가져가십시오.\""
 
-#: src-en/data/events.xml.append:3353
+#: src-en/data/events.xml.append:3554
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICESTATION_RK\"]/choice[2]/text"
 msgstr "라디칼 장비를 요청합니다."
 
-#: src-en/data/events.xml.append:3355
+#: src-en/data/events.xml.append:3556
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICESTATION_RK\"]/choice[2]/event/text"
 msgstr ""
 "경관이 나름 즐기는 듯해 보이는 가벼운 잡담을 나눈 후, 당신은 공짜 장비를 슬쩍 얻어낼 수 있을지 시도해 봅니다. 그러자 표정이라 할 만한 그의 얼굴 형상이 그 즉시 굳어집니다.\n"
 "\t\t\t\t\"아무래도 착오가 있으신 모양입니다. 이것들은 재판 증거품으로 라벨이 붙어 분류된 물품들이며, 사용 시 위험하고 비윤리적인 불법 무기이자 법과 질서에 대한 전반적인 위협입니다. 들러주셔서 감사하지만, 전 이제 처리해야 할 업무가 있어서 말이죠.\""
 
-#: src-en/data/events.xml.append:3360
+#: src-en/data/events.xml.append:3561
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICESTATION_RK\"]/choice[2]/event/choice[1]/text"
 msgstr "놀란 척합니다."
 
-#: src-en/data/events.xml.append:3362
+#: src-en/data/events.xml.append:3563
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICESTATION_RK\"]/choice[2]/event/choice[1]/event/text"
 msgstr ""
 "예상했던 반응입니다. \"음? 전달받은 바가 없었습니다. 무례한 요구를 해서 죄송하군요, 수고하십시오.\"\n"
 "\t\t\t\t\t\t졸탄 경관이 당신을 의심스러운 눈초리로 쳐다보지만, 서류 작업이 너무 밀려 있어 조사할 겨를이 없습니다. 당신은 손해 본 것은 없지만, 그렇다고 아무것도 건지지 못한 채 무사히 빠져나옵니다."
 
-#: src-en/data/events.xml.append:3367
+#: src-en/data/events.xml.append:3568
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICESTATION_RK\"]/choice[2]/event/choice[1]/event/choice/text"
 msgstr "뭐, 어쩔 수 없지."
 
-#: src-en/data/events.xml.append:3374
+#: src-en/data/events.xml.append:3575
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICESTATION_RK\"]/choice[2]/event/choice[2]/text"
 msgstr "\"그렇다면 나쁜 방법으로 해결할 수도 있습니다만...\""
 
-#: src-en/data/events.xml.append:3376
+#: src-en/data/events.xml.append:3577
 msgid ""
 "data/events.xml.append$//event[@name=\"ZOLTAN_POLICESTATION_RK\"]/choice[2]/event/choice[2]/event/text"
 msgstr ""
 "당신이 사실 도우러 온 것이 아니라고 확신한 졸탄이 경보를 울리고, 당신은 서둘러 함선으로 복귀합니다. 기지의 방어 포탑 사거리 내에서 "
 "전투가 벌어집니다!"
 
-#: src-en/data/events.xml.append:3387
+#: src-en/data/events.xml.append:3588
 msgid ""
 "data/events.xml.append$//ship[@name=\"SHIP_ZOLTAN_POLICESTATION_RK\"]/destroyed/text"
 msgstr "경찰서가 산산조각 나면서, 압수된 불법 물품들과 방대한 행정 백업 자료들이 그저 당신이 챙겨갈 스크랩 더미로 전락합니다."
 
-#: src-en/data/events.xml.append:3391
+#: src-en/data/events.xml.append:3592
 msgid ""
 "data/events.xml.append$//ship[@name=\"SHIP_ZOLTAN_POLICESTATION_RK\"]/deadCrew/text"
 msgstr "선원들을 제압한 당신은 포탑이 함선을 갈갈이 찢어발기기 전에 약간의 물자와 라벨이 붙은 상자 하나를 가까스로 낚아채냅니다."
 
-#: src-en/data/events.xml.append:3394
+#: src-en/data/events.xml.append:3595
 msgid ""
 "data/events.xml.append$//ship[@name=\"SHIP_ZOLTAN_POLICESTATION_RK\"]/deadCrew/choice/text"
 msgstr "열어본다."
 
-#: src-en/data/events.xml.append:3396
+#: src-en/data/events.xml.append:3597
 msgid ""
 "data/events.xml.append$//ship[@name=\"SHIP_ZOLTAN_POLICESTATION_RK\"]/deadCrew/choice/event/text"
 msgstr "라벨에 적힌 대로 라디칼 보조장비입니다! 관료제도 가끔은 이로운 구석이 있군요."
 
-#: src-en/data/events.xml.append:3421
+#: src-en/data/events.xml.append:3622
 msgid "data/events.xml.append$//event[@name=\"THIEVES_RK_LASERS\"]/text"
 msgstr ""
 "레이저를 장착하고 심각한 손상을 입은 라디칼 함선이 아르기온 밀수꾼에게 공격받고 있는 것으로 보입니다. 필시 특수 기술을 탈취하려는 "
 "목적일 것입니다. 거의 빈사 상태인 그들은 희박한 탈출 가능성을 쥐고 당신 곁을 지나칠 수밖에 없는 궤도로 비행 중입니다."
 
-#: src-en/data/events.xml.append:3425
+#: src-en/data/events.xml.append:3626
 msgid "data/events.xml.append$//event[@name=\"THIEVES_RK_LASERS\"]/choice[1]/text"
 msgstr "라디칼 함선을 구출한다."
 
-#: src-en/data/events.xml.append:3427
+#: src-en/data/events.xml.append:3628
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_LASERS\"]/choice[1]/event/text"
 msgstr "밀수선 앞을 막아서며 교전을 강제합니다."
 
-#: src-en/data/events.xml.append:3430
+#: src-en/data/events.xml.append:3631
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_LASERS\"]/choice[1]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events.xml.append:3437
+#: src-en/data/events.xml.append:3638
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_LASERS\"]/choice[@req=\"weapons\"]/text"
 msgstr "(고급 무기 관제실) 사냥감을 직접 차지한다."
 
-#: src-en/data/events.xml.append:3439
+#: src-en/data/events.xml.append:3640
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_LASERS\"]/choice[@req=\"weapons\"]/event/text"
 msgstr ""
 "\"우후후, 야, 잠깐, 그건 우리-\" 나머지 선원들이 압박을 가해오자 그들은 서둘러 마음을 바꿉니다. \"됐어, 제길, 장물이나 많이"
 " 챙겨라.\" 밀수꾼 입에서 나오기엔 참으로 아이러니한 말입니다. 살아남은 라디칼 함선은 손쉽게 처리됩니다."
 
-#: src-en/data/events.xml.append:3443
+#: src-en/data/events.xml.append:3644
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_LASERS\"]/choice[@req=\"weapons\"]/event/choice/text"
 msgstr "함선을 조금 더 수색해 본다."
 
-#: src-en/data/events.xml.append:3445
+#: src-en/data/events.xml.append:3646
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_LASERS\"]/choice[@req=\"weapons\"]/event/choice/event/text"
 msgstr "화물칸에 작동 가능한 라디칼 보조장비가 있었습니다! 밀수꾼들이 노리던 게 바로 이것이었나 봅니다."
 
-#: src-en/data/events.xml.append:3449
+#: src-en/data/events.xml.append:3650
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_LASERS\"]/choice[@req=\"weapons\"]/event/choice/event/choice/text"
 msgstr "이제 우리가 도둑이 된 셈이군."
 
-#: src-en/data/events.xml.append:3460
+#: src-en/data/events.xml.append:3661
 msgid "data/events.xml.append$//event[@name=\"THIEVES_RK_LASERS\"]/choice[3]/text"
 msgstr "물러서서 상황이 어떻게 흘러가는지 지켜봅니다."
 
-#: src-en/data/events.xml.append:3462
+#: src-en/data/events.xml.append:3663
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_LASERS\"]/choice[3]/event/text"
 msgstr ""
@@ -3150,60 +3335,60 @@ msgstr ""
 "사업하기가 얼마나 쉬워질지 상상이나 가시오? 모범적인 태도에 대한 대가로 연료를 좀 줄 테니, 우리는 이제 축하하러 가보겠소!\" 당신은"
 " 보상을 챙기며 무엇이 그들을 저토록 기분 좋게 만들었는지 잠시 생각합니다."
 
-#: src-en/data/events.xml.append:3470
+#: src-en/data/events.xml.append:3671
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_LASERS\"]/choice[3]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events.xml.append:3477
+#: src-en/data/events.xml.append:3678
 msgid "data/events.xml.append$//event[@name=\"THIEVES_RK_LASERS\"]/choice[4]/text"
 msgstr "그들을 무시한다."
 
-#: src-en/data/events.xml.append:3479
+#: src-en/data/events.xml.append:3680
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_LASERS\"]/choice[4]/event/text"
 msgstr "함선들이 싸우도록 내버려 두고 다음에 무엇을 할지 고민합니다."
 
-#: src-en/data/events.xml.append:3482
+#: src-en/data/events.xml.append:3683
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_LASERS\"]/choice[4]/event/choice[1]/text"
 msgstr "함선에서 무언가를 한다."
 
-#: src-en/data/events.xml.append:3486
+#: src-en/data/events.xml.append:3687
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_LASERS\"]/choice[4]/event/choice[2]/text"
 msgstr "아무것도 하지 않는다."
 
-#: src-en/data/events.xml.append:3506
+#: src-en/data/events.xml.append:3707
 msgid ""
 "data/events.xml.append$//event[@name=\"SHIP_SMUGGLER_RK_LASERS_SURRENDER\"]/choice[1]/text"
 msgstr "항복을 받아들인다."
 
-#: src-en/data/events.xml.append:3512
+#: src-en/data/events.xml.append:3713
 msgid ""
 "data/events.xml.append$//event[@name=\"SHIP_SMUGGLER_RK_LASERS_SURRENDER\"]/choice[1]/event/choice/text"
 msgstr "그들의 사냥감이 될 뻔했던 함선을 확인하러 갑니다."
 
-#: src-en/data/events.xml.append:3523
+#: src-en/data/events.xml.append:3724
 msgid "data/events.xml.append$//event[@name=\"THIEVES_RK_LASERS_REWARD\"]/text"
 msgstr "\"당신이 없었다면 우리는 완전히 끝장났을 겁니다. 감사의 의미로 이것을 받아주십시오.\""
 
-#: src-en/data/events.xml.append:3527
+#: src-en/data/events.xml.append:3728
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_LASERS_REWARD\"]/choice/text"
 msgstr "그들이 당신에게 원한 것이 무엇이었습니까?"
 
-#: src-en/data/events.xml.append:3532
+#: src-en/data/events.xml.append:3733
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_LASERS_REWARD_CREWKILL\"]/text"
 msgstr "\"당신이 없었다면 우리는 완전히 끝장났을 겁니다. 감사의 의미로 이것을 받아주십시오.\""
 
-#: src-en/data/events.xml.append:3536
+#: src-en/data/events.xml.append:3737
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_LASERS_REWARD_CREWKILL\"]/choice/text"
 msgstr "그들이 당신에게 원한 것이 무엇이었습니까?"
 
-#: src-en/data/events.xml.append:3542
+#: src-en/data/events.xml.append:3743
 msgid "data/events.xml.append$//event[@name=\"THIEVES_RK_LASERS_END\"]/text"
 msgstr ""
 "\"평범하게 이 지역의 장비를 원한 겁니다. 물론 당신에게도 그냥 거저 줄 수는 없다는 점을 이해해 주시겠지요.\"\n"
@@ -3211,617 +3396,617 @@ msgstr ""
 "\t\t\n"
 "\t\t\"하지만 RK 하위 분파의 스타일에 맞는 비-라디칼 레이저 무기 하나쯤은 제공해 드릴 수 있습니다. 그 정도가 서로에게 공평하겠지요. 어떤 것으로 하시겠습니까?\""
 
-#: src-en/data/events.xml.append:3549
+#: src-en/data/events.xml.append:3750
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_LASERS_END\"]/choice[1]/text"
 msgstr "밤"
 
-#: src-en/data/events.xml.append:3551
+#: src-en/data/events.xml.append:3752
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_LASERS_END\"]/choice[1]/event/text"
 msgstr "그들은 무기를 전송하고 안전한 여정이 되기를 기원해 줍니다."
 
-#: src-en/data/events.xml.append:3554
+#: src-en/data/events.xml.append:3755
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_LASERS_END\"]/choice[1]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events.xml.append:3561
+#: src-en/data/events.xml.append:3762
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_LASERS_END\"]/choice[2]/text"
 msgstr "펑크"
 
-#: src-en/data/events.xml.append:3563
+#: src-en/data/events.xml.append:3764
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_LASERS_END\"]/choice[2]/event/text"
 msgstr "그들은 무기를 전송하고 안전한 여정이 되기를 기원해 줍니다."
 
-#: src-en/data/events.xml.append:3566
+#: src-en/data/events.xml.append:3767
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_LASERS_END\"]/choice[2]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events.xml.append:3573
+#: src-en/data/events.xml.append:3774
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_LASERS_END\"]/choice[3]/text"
 msgstr "스코치"
 
-#: src-en/data/events.xml.append:3575
+#: src-en/data/events.xml.append:3776
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_LASERS_END\"]/choice[3]/event/text"
 msgstr "그들은 무기를 전송하고 안전한 여정이 되기를 기원해 줍니다."
 
-#: src-en/data/events.xml.append:3578
+#: src-en/data/events.xml.append:3779
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_LASERS_END\"]/choice[3]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events.xml.append:3589
+#: src-en/data/events.xml.append:3790
 msgid "data/events.xml.append$//event[@name=\"THIEVES_RK_MISSILES\"]/text"
 msgstr ""
 "미사일을 장착하고 손상을 입은 라디칼 함선이 밀수꾼에게 공격받고 있는 것으로 보입니다. 필시 특수 기술을 탈취하려는 목적일 것입니다. "
 "거의 빈사 상태인 그들은 희박한 탈출 가능성을 쥐고 당신 곁을 지나칠 수밖에 없는 궤도로 비행 중입니다."
 
-#: src-en/data/events.xml.append:3593
+#: src-en/data/events.xml.append:3794
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_MISSILES\"]/choice[1]/text"
 msgstr "라디칼 함선을 구출한다."
 
-#: src-en/data/events.xml.append:3595
+#: src-en/data/events.xml.append:3796
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_MISSILES\"]/choice[1]/event/text"
 msgstr "당신은 전속력으로 날아가 밀수선 앞을 막아서며 강제로 교전을 시작합니다."
 
-#: src-en/data/events.xml.append:3598
+#: src-en/data/events.xml.append:3799
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_MISSILES\"]/choice[1]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events.xml.append:3605
+#: src-en/data/events.xml.append:3806
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_MISSILES\"]/choice[@req=\"weapons\"]/text"
 msgstr "(고급 무기 관제실) 사냥감을 직접 차지한다."
 
-#: src-en/data/events.xml.append:3607
+#: src-en/data/events.xml.append:3808
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_MISSILES\"]/choice[@req=\"weapons\"]/event/text"
 msgstr ""
 "\"우후후, 야, 잠깐, 그건 우리-\" 나머지 선원들이 압박을 가해오자 그들은 서둘러 마음을 바꿉니다. \"됐어, 제길, 장물이나 많이"
 " 챙겨라.\" 밀수꾼 입에서 나오기엔 참으로 아이러니한 말입니다. 라디칼 함선은 신속하게 처리됩니다."
 
-#: src-en/data/events.xml.append:3611
+#: src-en/data/events.xml.append:3812
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_MISSILES\"]/choice[@req=\"weapons\"]/event/choice/text"
 msgstr "함선을 조금 더 수색해 본다."
 
-#: src-en/data/events.xml.append:3613
+#: src-en/data/events.xml.append:3814
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_MISSILES\"]/choice[@req=\"weapons\"]/event/choice/event/text"
 msgstr ""
 "화물칸에 작동 가능한 라디칼 보조장비가 있었습니다! 밀수꾼들이 노리던 게 바로 이것이었나 봅니다. 이제 당신이 도둑이 된 셈이군요."
 
-#: src-en/data/events.xml.append:3621
+#: src-en/data/events.xml.append:3822
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_MISSILES\"]/choice[3]/text"
 msgstr "그들을 무시한다."
 
-#: src-en/data/events.xml.append:3623
+#: src-en/data/events.xml.append:3824
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_MISSILES\"]/choice[3]/event/text"
 msgstr ""
 "라디칼 함선은 이내 움직임을 멈추고, 해적들은 방해하지 않아 고맙다며 다시 통신을 보내옵니다. 그들은 에어록을 통해 스크랩 주머니를 "
 "던져주고는 도약하여 떠납니다. 당신은 무엇이 그들을 저토록 기분 좋게 만들었는지 잠시 생각합니다."
 
-#: src-en/data/events.xml.append:3629
+#: src-en/data/events.xml.append:3830
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_MISSILES\"]/choice[3]/event/choice[1]/text"
 msgstr "함선에서 무언가를 한다."
 
-#: src-en/data/events.xml.append:3633
+#: src-en/data/events.xml.append:3834
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_MISSILES\"]/choice[3]/event/choice[2]/text"
 msgstr "아무것도 하지 않는다."
 
-#: src-en/data/events.xml.append:3648
+#: src-en/data/events.xml.append:3849
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_MISSILES_REWARD_SURR\"]/choice[1]/text"
 msgstr "항복을 받아들인다."
 
-#: src-en/data/events.xml.append:3653
+#: src-en/data/events.xml.append:3854
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_MISSILES_REWARD_SURR\"]/choice[1]/event/choice/text"
 msgstr "그들의 사냥감이 될 뻔했던 함선을 확인하러 갑니다."
 
-#: src-en/data/events.xml.append:3664
+#: src-en/data/events.xml.append:3865
 msgid "data/events.xml.append$//event[@name=\"THIEVES_RK_MISSILES_REWARD\"]/text"
 msgstr "\"당신이 없었다면 우리는 완전히 끝장났을 겁니다. 감사의 의미로 이것을 받아주십시오.\""
 
-#: src-en/data/events.xml.append:3668
+#: src-en/data/events.xml.append:3869
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_MISSILES_REWARD\"]/choice/text"
 msgstr "그들이 당신에게 원한 것이 무엇이었습니까?"
 
-#: src-en/data/events.xml.append:3673
+#: src-en/data/events.xml.append:3874
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_MISSILES_REWARD_CREWKILL\"]/text"
 msgstr "\"당신이 없었다면 우리는 완전히 끝장났을 겁니다. 감사의 의미로 이것을 받아주십시오.\""
 
-#: src-en/data/events.xml.append:3677
+#: src-en/data/events.xml.append:3878
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_MISSILES_REWARD_CREWKILL\"]/choice/text"
 msgstr "그들이 당신에게 원한 것이 무엇이었습니까?"
 
-#: src-en/data/events.xml.append:3683
+#: src-en/data/events.xml.append:3884
 msgid "data/events.xml.append$//event[@name=\"THIEVES_RK_MISSILES_END\"]/text"
 msgstr ""
 "\"늘 똑같죠, 현지 장비입니다. 그렇다고 저희가 그걸 당신에게 그냥 넘겨줄 수는 없다는 점도 이해하시겠지요. 하지만 화물칸에 있는 "
 "미사일 무기 중 선호하시는 라디칼 하위 세력에 맞는 것 하나를 제공해 드릴 수는 있습니다. 그게 공평하겠지요. 어느 세력의 무기를 "
 "원하십니까?\""
 
-#: src-en/data/events.xml.append:3686
+#: src-en/data/events.xml.append:3887
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_MISSILES_END\"]/choice[1]/text"
 msgstr "밤"
 
-#: src-en/data/events.xml.append:3688
+#: src-en/data/events.xml.append:3889
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_MISSILES_END\"]/choice[1]/event/text"
 msgstr "그들은 무기를 전송하고 안전한 여정이 되기를 기원해 줍니다."
 
-#: src-en/data/events.xml.append:3691
+#: src-en/data/events.xml.append:3892
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_MISSILES_END\"]/choice[1]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events.xml.append:3698
+#: src-en/data/events.xml.append:3899
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_MISSILES_END\"]/choice[2]/text"
 msgstr "펑크"
 
-#: src-en/data/events.xml.append:3700
+#: src-en/data/events.xml.append:3901
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_MISSILES_END\"]/choice[2]/event/text"
 msgstr "그들은 무기를 전송하고 안전한 여정이 되기를 기원해 줍니다."
 
-#: src-en/data/events.xml.append:3703
+#: src-en/data/events.xml.append:3904
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_MISSILES_END\"]/choice[2]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events.xml.append:3710
+#: src-en/data/events.xml.append:3911
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_MISSILES_END\"]/choice[3]/text"
 msgstr "스코치"
 
-#: src-en/data/events.xml.append:3712
+#: src-en/data/events.xml.append:3913
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_MISSILES_END\"]/choice[3]/event/text"
 msgstr "그들은 무기를 전송하고 안전한 여정이 되기를 기원해 줍니다."
 
-#: src-en/data/events.xml.append:3715
+#: src-en/data/events.xml.append:3916
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_MISSILES_END\"]/choice[3]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events.xml.append:3726
+#: src-en/data/events.xml.append:3927
 msgid "data/events.xml.append$//event[@name=\"THIEVES_RK_IONS\"]/text"
 msgstr ""
 "이온 무기를 장착하고 손상을 입은 라디칼 함선이 밀수꾼에게 공격받고 있는 것으로 보입니다. 필시 특수 기술을 탈취하려는 목적일 것입니다."
 " 거의 빈사 상태인 그들은 희박한 탈출 가능성을 쥐고 당신 곁을 지나칠 수밖에 없는 궤도로 비행 중입니다."
 
-#: src-en/data/events.xml.append:3730
+#: src-en/data/events.xml.append:3931
 msgid "data/events.xml.append$//event[@name=\"THIEVES_RK_IONS\"]/choice[1]/text"
 msgstr "라디칼 함선을 구출합니다."
 
-#: src-en/data/events.xml.append:3732
+#: src-en/data/events.xml.append:3933
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_IONS\"]/choice[1]/event/text"
 msgstr "당신은 전속력으로 날아가 밀수선 앞을 막아서며 강제로 교전을 시작합니다."
 
-#: src-en/data/events.xml.append:3735
+#: src-en/data/events.xml.append:3936
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_IONS\"]/choice[1]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events.xml.append:3742
+#: src-en/data/events.xml.append:3943
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_IONS\"]/choice[@req=\"weapons\"]/text"
 msgstr "(고급 무기 관제실) 사냥감을 직접 차지한다."
 
-#: src-en/data/events.xml.append:3744
+#: src-en/data/events.xml.append:3945
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_IONS\"]/choice[@req=\"weapons\"]/event/text"
 msgstr ""
 "\"우후후, 야, 잠깐, 그건 우리-\" 나머지 선원들이 압박을 가해오자 그들은 서둘러 마음을 바꿉니다. \"됐어, 제길, 장물이나 많이"
 " 챙겨라.\" 밀수꾼 입에서 나오기엔 참으로 아이러니한 말입니다. 라디칼 함선은 신속하게 처리됩니다."
 
-#: src-en/data/events.xml.append:3748
+#: src-en/data/events.xml.append:3949
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_IONS\"]/choice[@req=\"weapons\"]/event/choice/text"
 msgstr "함선을 조금 더 수색해 본다."
 
-#: src-en/data/events.xml.append:3750
+#: src-en/data/events.xml.append:3951
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_IONS\"]/choice[@req=\"weapons\"]/event/choice/event/text"
 msgstr ""
 "화물칸에 작동 가능한 라디칼 보조장비가 있었습니다! 밀수꾼들이 노리던 게 바로 이것이었나 봅니다. 이제 당신이 도둑이 된 셈이군요."
 
-#: src-en/data/events.xml.append:3758
+#: src-en/data/events.xml.append:3959
 msgid "data/events.xml.append$//event[@name=\"THIEVES_RK_IONS\"]/choice[3]/text"
 msgstr "그들을 무시한다."
 
-#: src-en/data/events.xml.append:3760
+#: src-en/data/events.xml.append:3961
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_IONS\"]/choice[3]/event/text"
 msgstr ""
 "라디칼 함선은 이내 움직임을 멈추고, 해적들은 방해하지 않아 고맙다며 다시 통신을 보내옵니다. 그들은 에어록을 통해 스크랩 주머니를 "
 "던져주고는 도약하여 떠납니다. 당신은 무엇이 그들을 저토록 기분 좋게 만들었는지 잠시 생각합니다."
 
-#: src-en/data/events.xml.append:3766
+#: src-en/data/events.xml.append:3967
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_IONS\"]/choice[3]/event/choice[1]/text"
 msgstr "함선에서 무언가를 한다."
 
-#: src-en/data/events.xml.append:3770
+#: src-en/data/events.xml.append:3971
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_IONS\"]/choice[3]/event/choice[2]/text"
 msgstr "아무것도 하지 않는다."
 
-#: src-en/data/events.xml.append:3785
+#: src-en/data/events.xml.append:3986
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_IONS_REWARD_SURR\"]/choice[1]/text"
 msgstr "항복을 받아들인다."
 
-#: src-en/data/events.xml.append:3790
+#: src-en/data/events.xml.append:3991
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_IONS_REWARD_SURR\"]/choice[1]/event/choice/text"
 msgstr "그들의 사냥감이 될 뻔했던 함선을 확인하러 갑니다."
 
-#: src-en/data/events.xml.append:3801
+#: src-en/data/events.xml.append:4002
 msgid "data/events.xml.append$//event[@name=\"THIEVES_RK_IONS_REWARD\"]/text"
 msgstr "\"당신이 없었다면 우리는 완전히 끝장났을 겁니다. 감사의 의미로 이것을 받아주십시오.\""
 
-#: src-en/data/events.xml.append:3805
+#: src-en/data/events.xml.append:4006
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_IONS_REWARD\"]/choice/text"
 msgstr "그들이 당신에게 원한 것이 무엇이었습니까?"
 
-#: src-en/data/events.xml.append:3810
+#: src-en/data/events.xml.append:4011
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_IONS_REWARD_CREWKILL\"]/text"
 msgstr "\"당신이 없었다면 우리는 완전히 끝장났을 겁니다. 감사의 의미로 이것을 받아주십시오.\""
 
-#: src-en/data/events.xml.append:3814
+#: src-en/data/events.xml.append:4015
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_IONS_REWARD_CREWKILL\"]/choice/text"
 msgstr "그들이 당신에게 원한 것이 무엇이었습니까?"
 
-#: src-en/data/events.xml.append:3820
+#: src-en/data/events.xml.append:4021
 msgid "data/events.xml.append$//event[@name=\"THIEVES_RK_IONS_END\"]/text"
 msgstr ""
 "\"늘 똑같죠, 현지 장비입니다. 그렇다고 저희가 그걸 당신에게 그냥 넘겨줄 수는 없다는 점도 이해하시겠지요. 하지만 화물칸에 있는 이온"
 " 무기 중 선호하시는 라디칼 하위 세력에 맞는 것 하나를 제공해 드릴 수는 있습니다. 그게 공평하겠지요. 어느 세력의 무기를 "
 "원하십니까?\""
 
-#: src-en/data/events.xml.append:3823
+#: src-en/data/events.xml.append:4024
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_IONS_END\"]/choice[1]/text"
 msgstr "밤"
 
-#: src-en/data/events.xml.append:3825
+#: src-en/data/events.xml.append:4026
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_IONS_END\"]/choice[1]/event/text"
 msgstr "그들은 무기를 전송하고 안전한 여정이 되기를 기원해 줍니다."
 
-#: src-en/data/events.xml.append:3828
+#: src-en/data/events.xml.append:4029
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_IONS_END\"]/choice[1]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events.xml.append:3835
+#: src-en/data/events.xml.append:4036
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_IONS_END\"]/choice[2]/text"
 msgstr "펑크"
 
-#: src-en/data/events.xml.append:3837
+#: src-en/data/events.xml.append:4038
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_IONS_END\"]/choice[2]/event/text"
 msgstr "그들은 무기를 전송하고 안전한 여정이 되기를 기원해 줍니다."
 
-#: src-en/data/events.xml.append:3840
+#: src-en/data/events.xml.append:4041
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_IONS_END\"]/choice[2]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events.xml.append:3847
+#: src-en/data/events.xml.append:4048
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_IONS_END\"]/choice[3]/text"
 msgstr "스코치"
 
-#: src-en/data/events.xml.append:3849
+#: src-en/data/events.xml.append:4050
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_IONS_END\"]/choice[3]/event/text"
 msgstr "그들은 무기를 전송하고 안전한 여정이 되기를 기원해 줍니다."
 
-#: src-en/data/events.xml.append:3852
+#: src-en/data/events.xml.append:4053
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_IONS_END\"]/choice[3]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events.xml.append:3863
+#: src-en/data/events.xml.append:4064
 msgid "data/events.xml.append$//event[@name=\"THIEVES_RK_BEAMS\"]/text"
 msgstr ""
 "빔 무기를 장착하고 손상을 입은 라디칼 함선이 밀수꾼에게 공격받고 있는 것으로 보입니다. 필시 특수 기술을 탈취하려는 목적일 것입니다. "
 "거의 빈사 상태인 그들은 희박한 탈출 가능성을 쥐고 당신 곁을 지나칠 수밖에 없는 궤도로 비행 중입니다."
 
-#: src-en/data/events.xml.append:3867
+#: src-en/data/events.xml.append:4068
 msgid "data/events.xml.append$//event[@name=\"THIEVES_RK_BEAMS\"]/choice[1]/text"
 msgstr "라디칼 함선을 구출한다."
 
-#: src-en/data/events.xml.append:3869
+#: src-en/data/events.xml.append:4070
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_BEAMS\"]/choice[1]/event/text"
 msgstr "당신은 전속력으로 날아가 밀수선 앞을 막아서며 강제로 교전을 시작합니다."
 
-#: src-en/data/events.xml.append:3872
+#: src-en/data/events.xml.append:4073
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_BEAMS\"]/choice[1]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events.xml.append:3879
+#: src-en/data/events.xml.append:4080
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_BEAMS\"]/choice[@req=\"weapons\"]/text"
 msgstr "(고급 무기 관제실) 사냥감을 직접 차지한다."
 
-#: src-en/data/events.xml.append:3881
+#: src-en/data/events.xml.append:4082
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_BEAMS\"]/choice[@req=\"weapons\"]/event/text"
 msgstr ""
 "\"우후후, 야, 잠깐, 그건 우리-\" 나머지 선원들이 압박을 가해오자 그들은 서둘러 마음을 바꿉니다. \"됐어, 제길, 장물이나 많이"
 " 챙겨라.\" 밀수꾼 입에서 나오기엔 참으로 아이러니한 말입니다. 라디칼 함선은 신속하게 처리됩니다."
 
-#: src-en/data/events.xml.append:3885
+#: src-en/data/events.xml.append:4086
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_BEAMS\"]/choice[@req=\"weapons\"]/event/choice/text"
 msgstr "함선을 조금 더 수색해 본다."
 
-#: src-en/data/events.xml.append:3887
+#: src-en/data/events.xml.append:4088
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_BEAMS\"]/choice[@req=\"weapons\"]/event/choice/event/text"
 msgstr ""
 "화물칸에 작동 가능한 라디칼 보조장비가 있었습니다! 밀수꾼들이 노리던 게 바로 이것이었나 봅니다. 이제 당신이 도둑이 된 셈이군요."
 
-#: src-en/data/events.xml.append:3895
+#: src-en/data/events.xml.append:4096
 msgid "data/events.xml.append$//event[@name=\"THIEVES_RK_BEAMS\"]/choice[3]/text"
 msgstr "그들을 무시한다."
 
-#: src-en/data/events.xml.append:3897
+#: src-en/data/events.xml.append:4098
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_BEAMS\"]/choice[3]/event/text"
 msgstr ""
 "라디칼 함선은 이내 움직임을 멈추고, 해적들은 방해하지 않아 고맙다며 다시 통신을 보내옵니다. 그들은 에어록을 통해 스크랩 주머니를 "
 "던져주고는 도약하여 떠납니다. 당신은 무엇이 그들을 저토록 기분 좋게 만들었는지 잠시 생각합니다."
 
-#: src-en/data/events.xml.append:3903
+#: src-en/data/events.xml.append:4104
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_BEAMS\"]/choice[3]/event/choice[1]/text"
 msgstr "함선에서 무언가를 한다."
 
-#: src-en/data/events.xml.append:3907
+#: src-en/data/events.xml.append:4108
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_BEAMS\"]/choice[3]/event/choice[2]/text"
 msgstr "아무것도 하지 않는다."
 
-#: src-en/data/events.xml.append:3922
+#: src-en/data/events.xml.append:4123
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_BEAMS_REWARD_SURR\"]/choice[1]/text"
 msgstr "항복을 받아들인다."
 
-#: src-en/data/events.xml.append:3927
+#: src-en/data/events.xml.append:4128
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_BEAMS_REWARD_SURR\"]/choice[1]/event/choice/text"
 msgstr "그들의 사냥감이 될 뻔했던 함선을 확인하러 갑니다."
 
-#: src-en/data/events.xml.append:3938
+#: src-en/data/events.xml.append:4139
 msgid "data/events.xml.append$//event[@name=\"THIEVES_RK_BEAMS_REWARD\"]/text"
 msgstr "\"당신이 없었다면 우리는 완전히 끝장났을 겁니다. 감사의 의미로 이것을 받아주십시오.\""
 
-#: src-en/data/events.xml.append:3942
+#: src-en/data/events.xml.append:4143
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_BEAMS_REWARD\"]/choice/text"
 msgstr "그들이 당신에게 원한 것이 무엇이었습니까?"
 
-#: src-en/data/events.xml.append:3947
+#: src-en/data/events.xml.append:4148
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_BEAMS_REWARD_CREWKILL\"]/text"
 msgstr "\"당신이 없었다면 우리는 완전히 끝장났을 겁니다. 감사의 의미로 이것을 받아주십시오.\""
 
-#: src-en/data/events.xml.append:3951
+#: src-en/data/events.xml.append:4152
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_BEAMS_REWARD_CREWKILL\"]/choice/text"
 msgstr "그들이 당신에게 원한 것이 무엇이었습니까?"
 
-#: src-en/data/events.xml.append:3957
+#: src-en/data/events.xml.append:4158
 msgid "data/events.xml.append$//event[@name=\"THIEVES_RK_BEAMS_END\"]/text"
 msgstr ""
 "\"늘 똑같죠, 현지 장비입니다. 그렇다고 저희가 그걸 당신에게 그냥 넘겨줄 수는 없다는 점도 이해하시겠지요. 하지만 화물칸에 있는 빔 "
 "무기 중 선호하시는 라디칼 하위 세력에 맞는 것 하나를 제공해 드릴 수는 있습니다. 그게 공평하겠지요. 어느 세력의 무기를 "
 "원하십니까?\""
 
-#: src-en/data/events.xml.append:3960
+#: src-en/data/events.xml.append:4161
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_BEAMS_END\"]/choice[1]/text"
 msgstr "밤"
 
-#: src-en/data/events.xml.append:3962
+#: src-en/data/events.xml.append:4163
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_BEAMS_END\"]/choice[1]/event/text"
 msgstr "그들은 무기를 전송하고 안전한 여정이 되기를 기원해 줍니다."
 
-#: src-en/data/events.xml.append:3965
+#: src-en/data/events.xml.append:4166
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_BEAMS_END\"]/choice[1]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events.xml.append:3972
+#: src-en/data/events.xml.append:4173
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_BEAMS_END\"]/choice[2]/text"
 msgstr "펑크"
 
-#: src-en/data/events.xml.append:3974
+#: src-en/data/events.xml.append:4175
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_BEAMS_END\"]/choice[2]/event/text"
 msgstr "그들은 무기를 전송하고 안전한 여정이 되기를 기원해 줍니다."
 
-#: src-en/data/events.xml.append:3977
+#: src-en/data/events.xml.append:4178
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_BEAMS_END\"]/choice[2]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events.xml.append:3984
+#: src-en/data/events.xml.append:4185
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_BEAMS_END\"]/choice[3]/text"
 msgstr "스코치"
 
-#: src-en/data/events.xml.append:3986
+#: src-en/data/events.xml.append:4187
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_BEAMS_END\"]/choice[3]/event/text"
 msgstr "그들은 무기를 전송하고 안전한 여정이 되기를 기원해 줍니다."
 
-#: src-en/data/events.xml.append:3989
+#: src-en/data/events.xml.append:4190
 msgid ""
 "data/events.xml.append$//event[@name=\"THIEVES_RK_BEAMS_END\"]/choice[3]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events.xml.append:4009
+#: src-en/data/events.xml.append:4210
 msgid "data/events.xml.append$//event[@name=\"EMPTY_RADIKAL\"]/choice[1]/text"
 msgstr "함선에서 무언가를 한다."
 
-#: src-en/data/events.xml.append:4013
+#: src-en/data/events.xml.append:4214
 msgid "data/events.xml.append$//event[@name=\"EMPTY_RADIKAL\"]/choice[2]/text"
 msgstr "아무것도 하지 않는다."
 
-#: src-en/data/events.xml.append:4018
+#: src-en/data/events.xml.append:4219
 msgid "data/events.xml.append$//textList[@name=\"EMPTY_RADIKAL\"]/text[1]"
 msgstr ""
 "탐사 지점에 도착한 당신은 이맘때쯤 휴식을 취할 수 있어 안도합니다. 이곳에는 당신이 어떤 기술을 가지고 있든 관심 갖는 이가 아무도 "
 "없어 보입니다."
 
-#: src-en/data/events.xml.append:4019
+#: src-en/data/events.xml.append:4220
 msgid "data/events.xml.append$//textList[@name=\"EMPTY_RADIKAL\"]/text[2]"
 msgstr "다른 함선이나 흥미로운 구조물은 찾아볼 수 없습니다. 함선을 정비하거나 선원들과 대화를 나눌 수 있는 기회입니다."
 
-#: src-en/data/events.xml.append:4020
+#: src-en/data/events.xml.append:4221
 msgid "data/events.xml.append$//textList[@name=\"EMPTY_RADIKAL\"]/text[3]"
 msgstr "이 구역가 딱히 평화롭다고 할 수는 없지만, 적어도 이곳은 주의를 끌 만한 사건이 전혀 일어나지 않고 있습니다."
 
-#: src-en/data/events.xml.append:4021
+#: src-en/data/events.xml.append:4222
 msgid "data/events.xml.append$//textList[@name=\"EMPTY_RADIKAL\"]/text[4]"
 msgstr "이 구역에서는 보기 드물게 비교적 평화로운 장소를 찾은 것 같습니다."
 
-#: src-en/data/events.xml.append:4022
+#: src-en/data/events.xml.append:4223
 msgid "data/events.xml.append$//textList[@name=\"EMPTY_RADIKAL\"]/text[5]"
 msgstr "최근 이곳 근처에서 무기 시험이 끔찍하게 실패한 것으로 보이며, 현재 이 장소는 버려진 상태입니다."
 
-#: src-en/data/events.xml.append:4028
+#: src-en/data/events.xml.append:4229
 msgid ""
 "data/events.xml.append$//event[@name=\"NEBULA_EMPTY_RADIKAL\"]/choice[1]/text"
 msgstr "함선에서 무언가를 한다."
 
-#: src-en/data/events.xml.append:4032
+#: src-en/data/events.xml.append:4233
 msgid ""
 "data/events.xml.append$//event[@name=\"NEBULA_EMPTY_RADIKAL\"]/choice[2]/text"
 msgstr "아무것도 하지 않는다."
 
-#: src-en/data/events.xml.append:4037
+#: src-en/data/events.xml.append:4238
 msgid "data/events.xml.append$//textList[@name=\"NEBULA_EMPTY_RADIKAL\"]/text[1]"
 msgstr ""
 "생명체는 존재하지 않고, 그저 가스를 채집하는 대형 무인함선들만 있을 뿐입니다. 아마 어떤 치명적인 무기의 재료일 테지만, 저들과 "
 "상대하느라 시간을 허비할 가치는 없습니다."
 
-#: src-en/data/events.xml.append:4038
+#: src-en/data/events.xml.append:4239
 msgid "data/events.xml.append$//textList[@name=\"NEBULA_EMPTY_RADIKAL\"]/text[2]"
 msgstr "이곳에서 특별한 장비를 찾을 수는 없겠지만, 매복해 있는 해적조차 없어 당신을 괴롭힐 자도 전혀 없습니다."
 
-#: src-en/data/events.xml.append:4039
+#: src-en/data/events.xml.append:4240
 msgid "data/events.xml.append$//textList[@name=\"NEBULA_EMPTY_RADIKAL\"]/text[3]"
 msgstr ""
 "보안상의 이유로 이 탐사 지점은 봉쇄되었으나, 컴퓨터가 알려주는 정보는 그게 전부입니다. 실험용 무기에 맞을 위험 없이 넋을 잃게 만드는"
 " 성운을 감상할 수 있을 것입니다."
 
-#: src-en/data/events.xml.append:4040
+#: src-en/data/events.xml.append:4241
 msgid "data/events.xml.append$//textList[@name=\"NEBULA_EMPTY_RADIKAL\"]/text[4]"
 msgstr "이 성운은 당장 숨어있기 좋은 장소로 보이며, 적대적인 반응은 감지되지 않습니다."
 
-#: src-en/data/events.xml.append:4080
+#: src-en/data/events.xml.append:4281
 msgid "data/events.xml.append$//event[@name=\"EXIT_RADIKAL_PART2\"]/text"
 msgstr "살아서 출구에 도착했습니다. 대단한 성과입니다만..."
 
-#: src-en/data/events.xml.append:4084
+#: src-en/data/events.xml.append:4285
 msgid ""
 "data/events.xml.append$//event[@name=\"EXIT_RADIKAL_PART2\"]/choice[@req=\"loc_exit_radikal\""
 " and @lvl=\"0\"]/text"
 msgstr "계속..."
 
-#: src-en/data/events.xml.append:4089
+#: src-en/data/events.xml.append:4290
 msgid ""
 "data/events.xml.append$//event[@name=\"EXIT_RADIKAL_PART2\"]/choice[@req=\"loc_exit_radikal\""
 " and @lvl=\"1\"]/text"
 msgstr "계속..."
 
-#: src-en/data/events.xml.append:4091
+#: src-en/data/events.xml.append:4292
 msgid ""
 "data/events.xml.append$//event[@name=\"EXIT_RADIKAL_PART2\"]/choice[@req=\"loc_exit_radikal\""
 " and @lvl=\"1\"]/event/text"
 msgstr "라디칼 함선들은 사라진 것 같지만, 반란군 함대가 탐사 지점을 점령했습니다! 싸워서 탈출해야 합니다!"
 
-#: src-en/data/events.xml.append:4097
+#: src-en/data/events.xml.append:4298
 msgid ""
 "data/events.xml.append$//event[@name=\"EXIT_RADIKAL_PART2\"]/choice[@req=\"loc_exit_radikal\""
 " and @lvl=\"1\"]/event/choice[1]/text"
 msgstr "계속..."
 
-#: src-en/data/events.xml.append:4101
+#: src-en/data/events.xml.append:4302
 msgid ""
 "data/events.xml.append$//event[@name=\"EXIT_RADIKAL_PART2\"]/choice[@req=\"loc_exit_radikal\""
 " and @lvl=\"1\"]/event/choice[@req=\"engines\"]/text"
 msgstr "(고급 엔진) 엘리트 함선으로부터 탈출을 시도합니다."
 
-#: src-en/data/events.xml.append:4105
+#: src-en/data/events.xml.append:4306
 msgid ""
 "data/events.xml.append$//event[@name=\"EXIT_RADIKAL_PART2\"]/choice[@req=\"loc_exit_radikal\""
 " and @lvl=\"1\"]/event/choice[@req=\"LIST_CREW_JERRY\"]/text"
 msgstr "(제리) \"안녕하세요!\""
 
-#: src-en/data/events.xml.append:4115
+#: src-en/data/events.xml.append:4316
 msgid "data/events.xml.append$//event[@name=\"EXIT_RADIKAL_PART3\"]/text"
 msgstr ""
 "하지만 아직 떠날 수 없습니다. 위협적인 세 척의 배가 당신을 기다리고 있습니다.\n"
 "\t\t선택의 여지가 없다는 것을 정확히 짐작한 당신은 통신에 응답합니다."
 
-#: src-en/data/events.xml.append:4120
+#: src-en/data/events.xml.append:4321
 msgid ""
 "data/events.xml.append$//event[@name=\"EXIT_RADIKAL_PART3\"]/choice[@req=\"RKS_TRYING_TO_SKIP_TRINITY\""
 " and @lvl=\"0\"]/text"
 msgstr "계속..."
 
-#: src-en/data/events.xml.append:4124
+#: src-en/data/events.xml.append:4325
 msgid ""
 "data/events.xml.append$//event[@name=\"EXIT_RADIKAL_PART3\"]/choice[@req=\"RKS_TRYING_TO_SKIP_TRINITY\""
 " and @lvl=\"1\"]/text"
 msgstr "계속..."
 
-#: src-en/data/events.xml.append:4176
+#: src-en/data/events.xml.append:4377
 msgid ""
 "data/events.xml.append$//event[@name=\"EXIT_RADIKAL_ACTIVATE_PIRATE_AMBUSH\"]/text"
 msgstr "무언가 중요한 일을 잊어버린 듯한 이상한 기분이 들지만... 계속 진행합니다."
 
-#: src-en/data/events.xml.append:4180
+#: src-en/data/events.xml.append:4381
 msgid ""
 "data/events.xml.append$//event[@name=\"EXIT_RADIKAL_ACTIVATE_PIRATE_AMBUSH\"]/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events.xml.append:4186
+#: src-en/data/events.xml.append:4387
 msgid "data/events.xml.append$//event[@name=\"EXIT_RADIKAL_MAIN\"]/text"
 msgstr ""
 "\"간단하게 말해주지, 우리한테도 유지해야 할 평판이라는 게 있거든. 당신이 우리 수문장 중 하나도 꺾지 못한다면, 그 무능함으로 라디칼 장비의 명성에 먹칠을 하게 둘 수는 없다.\n"
@@ -3832,173 +4017,168 @@ msgstr ""
 "\t\n"
 "\t자, 어떤 수문장을 선택하겠나?\""
 
-#: src-en/data/events.xml.append:4196
+#: src-en/data/events.xml.append:4397
 msgid ""
 "data/events.xml.append$//event[@name=\"EXIT_RADIKAL_MAIN\"]/choice[@req=\"challenge_level\""
 " and @lvl=\"0\"]/text"
 msgstr "밤, 순수한 둔기 피해와 지원군이 특징입니다."
 
-#: src-en/data/events.xml.append:4198
+#: src-en/data/events.xml.append:4399
 msgid ""
 "data/events.xml.append$//event[@name=\"EXIT_RADIKAL_MAIN\"]/choice[@req=\"challenge_level\""
 " and @lvl=\"0\"]/event/text"
 msgstr "당신의 자격을 증명하기 위해 밤 투기장으로 이송됩니다. 준비하십시오!"
 
-#: src-en/data/events.xml.append:4202
+#: src-en/data/events.xml.append:4403
 msgid ""
 "data/events.xml.append$//event[@name=\"EXIT_RADIKAL_MAIN\"]/choice[@req=\"challenge_level\""
 " and @lvl=\"0\"]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events.xml.append:4208
+#: src-en/data/events.xml.append:4409
 msgid ""
 "data/events.xml.append$//event[@name=\"EXIT_RADIKAL_MAIN\"]/choice[@req=\"challenge_level\""
 " and @lvl=\"2\"]/text"
 msgstr "밤, 순수한 둔기 피해와 지원군이 특징입니다."
 
-#: src-en/data/events.xml.append:4210
+#: src-en/data/events.xml.append:4411
 msgid ""
 "data/events.xml.append$//event[@name=\"EXIT_RADIKAL_MAIN\"]/choice[@req=\"challenge_level\""
 " and @lvl=\"2\"]/event/text"
 msgstr "당신의 자격을 증명하기 위해 밤 투기장으로 이송됩니다. 준비하십시오!"
 
-#: src-en/data/events.xml.append:4214
+#: src-en/data/events.xml.append:4415
 msgid ""
 "data/events.xml.append$//event[@name=\"EXIT_RADIKAL_MAIN\"]/choice[@req=\"challenge_level\""
 " and @lvl=\"2\"]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events.xml.append:4222
+#: src-en/data/events.xml.append:4423
 msgid "data/events.xml.append$//event[@name=\"EXIT_RADIKAL_MAIN\"]/choice[3]/text"
 msgstr "펑크, 화려한 속임수와 선원들의 교란이 특징입니다."
 
-#: src-en/data/events.xml.append:4224
+#: src-en/data/events.xml.append:4425
 msgid ""
 "data/events.xml.append$//event[@name=\"EXIT_RADIKAL_MAIN\"]/choice[3]/event/text"
 msgstr "당신의 자격을 증명하기 위해 펑크 투기장으로 이송됩니다. 준비하십시오!"
 
-#: src-en/data/events.xml.append:4228
+#: src-en/data/events.xml.append:4429
 msgid ""
 "data/events.xml.append$//event[@name=\"EXIT_RADIKAL_MAIN\"]/choice[3]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events.xml.append:4234
+#: src-en/data/events.xml.append:4435
 msgid "data/events.xml.append$//event[@name=\"EXIT_RADIKAL_MAIN\"]/choice[4]/text"
 msgstr "스코치, 화염 무기와 가속 기능이 특징입니다."
 
-#: src-en/data/events.xml.append:4236
+#: src-en/data/events.xml.append:4437
 msgid ""
 "data/events.xml.append$//event[@name=\"EXIT_RADIKAL_MAIN\"]/choice[4]/event/text"
 msgstr "당신의 자격을 증명하기 위해 스코치 투기장으로 이송됩니다. 준비하십시오!"
 
-#: src-en/data/events.xml.append:4240
+#: src-en/data/events.xml.append:4441
 msgid ""
 "data/events.xml.append$//event[@name=\"EXIT_RADIKAL_MAIN\"]/choice[4]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events.xml.append:4247
+#: src-en/data/events.xml.append:4448
 msgid ""
 "data/events.xml.append$//event[@name=\"EXIT_RADIKAL_MAIN\"]/choice[@req=\"unique_alkali\"]/text"
 msgstr "(알칼리) 알칼리가 통과 허가를 내리도록 한다."
 
-#: src-en/data/events.xml.append:4249
+#: src-en/data/events.xml.append:4450
 msgid ""
 "data/events.xml.append$//event[@name=\"EXIT_RADIKAL_MAIN\"]/choice[@req=\"unique_alkali\"]/event/text"
 msgstr ""
 "다행히 알칼리가 돌아오는 데는 몇 분밖에 걸리지 않았고, 당신은 떠나도 좋다는 허가를 받습니다. RK 펑크와 비밀리에 협력하는 천재 "
 "과학자를 함선에 태운 보람이 있군요."
 
-#: src-en/data/events.xml.append:4254
+#: src-en/data/events.xml.append:4455
 msgid ""
 "data/events.xml.append$//event[@name=\"EXIT_RADIKAL_MAIN\"]/choice[@req=\"unique_ariadne\"]/text"
 msgstr "(아리아드네) 아리아드네가 통과 허가를 내리도록 한다."
 
-#: src-en/data/events.xml.append:4256
+#: src-en/data/events.xml.append:4457
 msgid ""
 "data/events.xml.append$//event[@name=\"EXIT_RADIKAL_MAIN\"]/choice[@req=\"unique_ariadne\"]/event/text"
 msgstr ""
 "다행히 아리아드네가 돌아오는 데는 몇 분밖에 걸리지 않았고, 당신은 떠나도 좋다는 허가를 받습니다. RK 스코치와 깊은 거래 관계에 있는"
 " 존경받는 제독을 함선에 태운 보람이 있군요."
 
-#: src-en/data/events.xml.append:4261
+#: src-en/data/events.xml.append:4462
 msgid ""
 "data/events.xml.append$//event[@name=\"EXIT_RADIKAL_MAIN\"]/choice[@req=\"LIST_VARIANT_BILLY\"]/text"
 msgstr "(빌리) 빌리가 통과 허가를 내리도록 한다."
 
-#: src-en/data/events.xml.append:4263
+#: src-en/data/events.xml.append:4464
 msgid ""
 "data/events.xml.append$//event[@name=\"EXIT_RADIKAL_MAIN\"]/choice[@req=\"LIST_VARIANT_BILLY\"]/event/text"
 msgstr ""
 "다행히 빌리가 돌아오는 데는 몇 분밖에 걸리지 않았고, 당신은 떠나도 좋다는 허가를 받습니다. 군사 기술 기업의 CEO를 함선에 태운 "
 "보람이 있군요."
 
-#: src-en/data/events.xml.append:4269
+#: src-en/data/events.xml.append:4470
 msgid ""
 "data/events.xml.append$//event[@name=\"EXIT_RADIKAL_MAIN\"]/choice[@req=\"unique_dessius\"]/text"
 msgstr "(데시우스) 데시우스가 통과 허가를 내리도록 한다."
 
-#: src-en/data/events.xml.append:4271
+#: src-en/data/events.xml.append:4472
 msgid ""
 "data/events.xml.append$//event[@name=\"EXIT_RADIKAL_MAIN\"]/choice[@req=\"unique_dessius\"]/event/text"
 msgstr ""
 "다행히 데시우스가 돌아오는 데는 몇 분밖에 걸리지 않았고, 당신은 떠나도 좋다는 허가를 받습니다. RK에 막대한 인력을 공급하는 고대 "
 "지도자를 함선에 태운 보람이 있군요."
 
-#: src-en/data/events.xml.append:4276
+#: src-en/data/events.xml.append:4477
 msgid ""
 "data/events.xml.append$//event[@name=\"EXIT_RADIKAL_MAIN\"]/choice[@req=\"unique_devorak\"]/text"
 msgstr "(데보락) 데보락이 통과 허가를 내리도록 한다."
 
-#: src-en/data/events.xml.append:4278
+#: src-en/data/events.xml.append:4479
 msgid ""
 "data/events.xml.append$//event[@name=\"EXIT_RADIKAL_MAIN\"]/choice[@req=\"unique_devorak\"]/event/text"
 msgstr ""
 "다행히 데보락이 돌아오는 데는 몇 분밖에 걸리지 않았고, 당신은 떠나도 좋다는 허가를 받습니다. RK 밤이 연구할 정도로 수많은 폭발 "
 "전적을 가진 전사를 함선에 태운 보람이 있군요."
 
-#: src-en/data/events.xml.append:4283
+#: src-en/data/events.xml.append:4484
 msgid ""
 "data/events.xml.append$//event[@name=\"EXIT_RADIKAL_MAIN\"]/choice[@req=\"traitor\"]/text"
 msgstr "(메튠트) 메튠트가 통과 허가를 내리도록 한다."
 
-#: src-en/data/events.xml.append:4285
+#: src-en/data/events.xml.append:4486
 msgid ""
 "data/events.xml.append$//event[@name=\"EXIT_RADIKAL_MAIN\"]/choice[@req=\"traitor\"]/event/text"
 msgstr ""
 "다행히 메튠트가 돌아오는 데는 몇 분밖에 걸리지 않았고, 당신은 떠나도 좋다는 허가를 받습니다. 군사 기술 기업의 인사 관리자를 함선에 "
 "태운 보람이 있군요."
 
-#: src-en/data/events.xml.append:4320
+#: src-en/data/events.xml.append:4521
 msgid ""
 "data/events.xml.append$//event[@name=\"RKS_EXIT_PIRATE_TRINITY_AMBUSH\"]/text"
 msgstr ""
-"당신이 막 도약하려던 순간, 해적 도색을 한 육중한 군함 한 척이 숨어 있던 "
-"곳에서 모습을 드러내고, 그 뒤를 이어 더 많은 해적들이 나타납니다.\n"
-"\t\t\"무언가 잊은 게 없는 것 같나? 바로 당신이 요구했던 그 소소한 비즈니스 "
-"미팅 말이야! 너희에겐 명예라는 것도 없나??! 잘나신 칼잡이 패거리를 불러놓고 "
-"시간만 낭비하게 만들고 도망칠 순 없지. 죽어라, 얼간이 놈아!\""
+"당신이 막 도약하려던 순간, 해적 도색을 한 육중한 군함 한 척이 숨어 있던 곳에서 모습을 드러내고, 그 뒤를 이어 더 많은 해적들이 나타납니다.\n"
+"\t\t\"무언가 잊은 게 없는 것 같나? 바로 당신이 요구했던 그 소소한 비즈니스 미팅 말이야! 너희에겐 명예라는 것도 없나??! 잘나신 칼잡이 패거리를 불러놓고 시간만 낭비하게 만들고 도망칠 순 없지. 죽어라, 얼간이 놈아!\""
 
-#: src-en/data/events.xml.append:4330
+#: src-en/data/events.xml.append:4531
 msgid ""
 "data/events.xml.append$//event[@name=\"RKS_EXIT_PIRATE_TRINITY_AMBUSH\"]/choice/text"
 msgstr "아, 아까 느꼈던 이상한 기분이 이것 때문이었군."
 
-#: src-en/data/events.xml.append:4332
+#: src-en/data/events.xml.append:4533
 msgid ""
 "data/events.xml.append$//event[@name=\"RKS_EXIT_PIRATE_TRINITY_AMBUSH\"]/choice/event/text"
 msgstr ""
-"해적 트리니티 모임에 당신이 참석하지 않은 것에 대해 해적들이 매우 얹짢아했던 "
-"모양입니다.\n"
+"해적 트리니티 모임에 당신이 참석하지 않은 것에 대해 해적들이 매우 얹짢아했던 모양입니다.\n"
 "\t\t\t\t\n"
-"\t\t\t\t저들은 당신의 도약 추진기마저 교란하고 있습니다! 라디칼 분파가 어느 "
-"한쪽 편을 들 생각이 없어 보이므로, 이곳을 벗어나려면 저들과 싸워야만 합니다."
+"\t\t\t\t저들은 당신의 도약 추진기마저 교란하고 있습니다! 라디칼 분파가 어느 한쪽 편을 들 생각이 없어 보이므로, 이곳을 벗어나려면 저들과 싸워야만 합니다."
 
-#: src-en/data/events.xml.append:4338
+#: src-en/data/events.xml.append:4539
 msgid ""
 "data/events.xml.append$//event[@name=\"RKS_EXIT_PIRATE_TRINITY_AMBUSH\"]/choice/event/choice/text"
 msgstr "싸우는 것 말고는 방법이 없다!"
 
-#: src-en/data/events.xml.append:4359
+#: src-en/data/events.xml.append:4560
 msgid ""
 "data/events.xml.append$//ship[@name=\"SHIP_RKS_EXIT_PIRATE_AMBUSHER\"]/destroyed/text"
 msgstr ""
@@ -4013,12 +4193,12 @@ msgstr ""
 "\t\t\t\"어쨌든 이렇게 된 거, 저 잔해는 당신이 쟁취한 거니 깔끔하게 해체해서 스크랩이나 챙겨 가라고. 이 난장판을 수습하는 건 그 정도면 충분하니까. 소문이 진정될 때까지 당신이 당분간 자취를 감춰준다면 남은 일은 우리가 알아서 처리하지.\"\n"
 "\t\t\t소문이 퍼지는 것을 막을 수는 없겠지만, 라디칼 측은 이 사건을 중립적인 시각으로 포장해 줄 준비가 된 것 같습니다. 적어도 해적들 사이에서 당신의 평판이 완전히 깎여 나가는 일은 없을 것입니다."
 
-#: src-en/data/events.xml.append:4372
+#: src-en/data/events.xml.append:4573
 msgid ""
 "data/events.xml.append$//ship[@name=\"SHIP_RKS_EXIT_PIRATE_AMBUSHER\"]/destroyed/choice/text"
 msgstr "그들의 마음이 바뀌기 전에 떠날 시간입니다."
 
-#: src-en/data/events.xml.append:4377
+#: src-en/data/events.xml.append:4578
 msgid ""
 "data/events.xml.append$//ship[@name=\"SHIP_RKS_EXIT_PIRATE_AMBUSHER\"]/deadCrew/text"
 msgstr ""
@@ -4033,7 +4213,7 @@ msgstr ""
 "\t\t\t\"어쨌든 이렇게 된 거, 저 잔해는 당신이 쟁취한 거니 깔끔하게 해체해서 스크랩이나 챙겨 가라고. 이 난장판을 수습하는 건 그 정도면 충분하니까. 소문이 진정될 때까지 당신이 당분간 자취를 감춰준다면 남은 일은 우리가 알아서 처리하지.\"\n"
 "\t\t\t소문이 퍼지는 것을 막을 수는 없겠지만, 라디칼 측은 이 사건을 중립적인 시각으로 포장해 줄 준비가 된 것 같습니다. 적어도 해적들 사이에서 당신의 평판이 완전히 깎여 나가는 일은 없을 것입니다."
 
-#: src-en/data/events.xml.append:4390
+#: src-en/data/events.xml.append:4591
 msgid ""
 "data/events.xml.append$//ship[@name=\"SHIP_RKS_EXIT_PIRATE_AMBUSHER\"]/deadCrew/choice/text"
 msgstr "그들의 마음이 바뀌기 전에 떠날 시간입니다."

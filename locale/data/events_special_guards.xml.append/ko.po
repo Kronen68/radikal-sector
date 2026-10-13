@@ -340,86 +340,111 @@ msgstr ""
 
 #: src-en/data/events_special_guards.xml.append:318
 msgid ""
-"data/events_special_guards.xml.append$//event[@name=\"GUARD_RADIKAL_DEADCREW\"]/choice/text"
-msgstr "계속..."
+"data/events_special_guards.xml.append$//event[@name=\"GUARD_RADIKAL_DEADCREW\"]/choice[@req=\"DJMOD_LASER_BPS\"]/text"
+msgstr ""
 
 #: src-en/data/events_special_guards.xml.append:320
 msgid ""
-"data/events_special_guards.xml.append$//event[@name=\"GUARD_RADIKAL_DEADCREW\"]/choice/event/text"
-msgstr "예비 라디칼 장비를 발견했습니다!"
+"data/events_special_guards.xml.append$//event[@name=\"GUARD_RADIKAL_DEADCREW\"]/choice[@req=\"DJMOD_LASER_BPS\"]/event/text"
+msgstr ""
 
-#: src-en/data/events_special_guards.xml.append:323
+#: src-en/data/events_special_guards.xml.append:326
 msgid ""
-"data/events_special_guards.xml.append$//event[@name=\"GUARD_RADIKAL_DEADCREW\"]/choice/event/choice/text"
+"data/events_special_guards.xml.append$//event[@name=\"GUARD_RADIKAL_DEADCREW\"]/choice[@req=\"DJMOD_LASER_BPS\"]/event/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_special_guards.xml.append:346
+#: src-en/data/events_special_guards.xml.append:328
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"GUARD_RADIKAL_DEADCREW\"]/choice[@req=\"DJMOD_LASER_BPS\"]/event/choice/event/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:332
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"GUARD_RADIKAL_DEADCREW\"]/choice[@req=\"DJMOD_LASER_BPS\"]/event/choice/event/choice/text"
+msgstr "계속..."
+
+#: src-en/data/events_special_guards.xml.append:341
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"GUARD_RADIKAL_DEADCREW\"]/choice[2]/text"
+msgstr "계속..."
+
+#: src-en/data/events_special_guards.xml.append:343
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"GUARD_RADIKAL_DEADCREW\"]/choice[2]/event/text"
+msgstr "예비 라디칼 장비를 발견했습니다!"
+
+#: src-en/data/events_special_guards.xml.append:347
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"GUARD_RADIKAL_DEADCREW\"]/choice[2]/event/choice/text"
+msgstr "계속..."
+
+#: src-en/data/events_special_guards.xml.append:370
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"GUARD_RADIKAL_FOLLOWUP\"]/text"
 msgstr ""
 "라디칼 경비정을 처치함에 따라, 그들이 당신을 추적하기 위해 증원군을 파견했을 것이 분명합니다. 이 구역을 탐색할 때는 조심히 "
 "이동하십시오."
 
-#: src-en/data/events_special_guards.xml.append:354
+#: src-en/data/events_special_guards.xml.append:378
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"GUARD_RADIKAL_FOLLOWUP\"]/choice[1]/text"
 msgstr "함선에서 무언가를 한다."
 
-#: src-en/data/events_special_guards.xml.append:358
+#: src-en/data/events_special_guards.xml.append:382
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"GUARD_RADIKAL_FOLLOWUP\"]/choice[2]/text"
 msgstr "아무것도 하지 않는다."
 
-#: src-en/data/events_special_guards.xml.append:367
+#: src-en/data/events_special_guards.xml.append:391
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"REINFORCEMENTS_RADIKAL\"]/beaconType/unvisitedTooltip"
 msgstr "방문하지 않은 송신소입니다."
 
-#: src-en/data/events_special_guards.xml.append:368
+#: src-en/data/events_special_guards.xml.append:392
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"REINFORCEMENTS_RADIKAL\"]/beaconType/visitedTooltip"
 msgstr "이미 방문한 송신소입니다. 더 이상 흥미로운 것은 없습니다."
 
-#: src-en/data/events_special_guards.xml.append:369
+#: src-en/data/events_special_guards.xml.append:393
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"REINFORCEMENTS_RADIKAL\"]/beaconType/undiscoveredTooltip"
 msgstr "방문하지 않은 송신소입니다."
 
-#: src-en/data/events_special_guards.xml.append:371
+#: src-en/data/events_special_guards.xml.append:395
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"REINFORCEMENTS_RADIKAL\"]/text"
 msgstr ""
 "당신은 이 함선의 메시지를 쉽게 이해할 수 있습니다. 누군가는 경비 임무를 맡아야 했고, 그들은 할 일을 했을 뿐이며 위험도 알고 있었습니다. 하지만 당신 역시 마찬가지입니다!\n"
 "\t\t라디칼 증원군이 공격해옵니다!"
 
-#: src-en/data/events_special_guards.xml.append:376
+#: src-en/data/events_special_guards.xml.append:400
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"REINFORCEMENTS_RADIKAL\"]/choice/text"
 msgstr "계속..."
 
-#: src-en/data/events_special_guards.xml.append:384
+#: src-en/data/events_special_guards.xml.append:408
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"NEBULA_REINFORCEMENTS_RADIKAL\"]/beaconType/unvisitedTooltip"
 msgstr "방문하지 않은 송신소입니다."
 
-#: src-en/data/events_special_guards.xml.append:385
+#: src-en/data/events_special_guards.xml.append:409
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"NEBULA_REINFORCEMENTS_RADIKAL\"]/beaconType/visitedTooltip"
 msgstr "이미 방문한 송신소입니다. 더 이상 흥미로운 것은 없습니다."
 
-#: src-en/data/events_special_guards.xml.append:386
+#: src-en/data/events_special_guards.xml.append:410
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"NEBULA_REINFORCEMENTS_RADIKAL\"]/beaconType/undiscoveredTooltip"
 msgstr "방문하지 않은 송신소입니다."
 
-#: src-en/data/events_special_guards.xml.append:388
+#: src-en/data/events_special_guards.xml.append:412
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"NEBULA_REINFORCEMENTS_RADIKAL\"]/text"
 msgstr ""
 "당신은 이 함선의 메시지를 쉽게 이해할 수 있습니다. 누군가는 경비 임무를 맡아야 했고, 그들은 할 일을 했을 뿐이며 위험도 알고 있었습니다. 하지만 당신 역시 마찬가지입니다!\n"
 "\t\t라디칼 증원군이 공격해옵니다!"
 
-#: src-en/data/events_special_guards.xml.append:395
+#: src-en/data/events_special_guards.xml.append:419
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"NEBULA_REINFORCEMENTS_RADIKAL\"]/choice/text"
 msgstr "계속..."

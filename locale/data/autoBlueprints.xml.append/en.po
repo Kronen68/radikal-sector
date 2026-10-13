@@ -5,122 +5,122 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: src-en/data/autoBlueprints.xml.append:1207
+#: src-en/data/autoBlueprints.xml.append:1295
 msgid ""
 "data/autoBlueprints.xml.append$//shipBlueprint[@name=\"RK_A_ZOLTAN_POLICE_INTRO\"]/class"
 msgstr "A-RK.S.S. Peace-Keeping Mandator"
 
-#: src-en/data/autoBlueprints.xml.append:1268
+#: src-en/data/autoBlueprints.xml.append:1356
 msgid ""
 "data/autoBlueprints.xml.append$//shipBlueprint[@name=\"RK_A_ZOLTAN_POLICE_NUMBER2\"]/class"
 msgstr "A-RK.S.S. Peace-Keeping Quartermaster"
 
-#: src-en/data/autoBlueprints.xml.append:1327
+#: src-en/data/autoBlueprints.xml.append:1415
 msgid ""
 "data/autoBlueprints.xml.append$//shipBlueprint[@name=\"RK_A_ZOLTAN_POLICE_NUMBER3\"]/class"
 msgstr "A-RK.S.S. Peace-Keeping Inquisitor"
 
-#: src-en/data/autoBlueprints.xml.append:1393
+#: src-en/data/autoBlueprints.xml.append:1481
 msgid ""
 "data/autoBlueprints.xml.append$//shipBlueprint[@name=\"RK_A_ZOLTAN_POLICE_NUMBER_4\"]/class"
 msgstr "A-RK.S.S. Peace-Keeping Executioner"
 
-#: src-en/data/autoBlueprints.xml.append:1468
+#: src-en/data/autoBlueprints.xml.append:1556
 msgid ""
 "data/autoBlueprints.xml.append$//shipBlueprint[@name=\"DJMOD_RADIKAL_GUARD\"]/class"
 msgstr "RadiKal Guard"
 
-#: src-en/data/autoBlueprints.xml.append:1504
+#: src-en/data/autoBlueprints.xml.append:1592
 msgid ""
 "data/autoBlueprints.xml.append$//shipBlueprint[@name=\"RKS_REINFORCEMENT_DUSK_FIGHTER\"]/class"
 msgstr "RK Associate Duskbringer Fighter"
 
-#: src-en/data/autoBlueprints.xml.append:1553
+#: src-en/data/autoBlueprints.xml.append:1641
 msgid ""
 "data/autoBlueprints.xml.append$//shipBlueprint[@name=\"RKS_REINFORCEMENT_LOSTSUN_PATROL\"]/class"
 msgstr "RK Associate Lost Sun Patrol-Ship"
 
-#: src-en/data/autoBlueprints.xml.append:1610
+#: src-en/data/autoBlueprints.xml.append:1698
 msgid ""
 "data/autoBlueprints.xml.append$//shipBlueprint[@name=\"RKS_REINFORCEMENT_HACKER_MANIPULATOR\"]/class"
 msgstr "RK Associate Hacker Manipulator"
 
-#: src-en/data/autoBlueprints.xml.append:1678
+#: src-en/data/autoBlueprints.xml.append:1766
 msgid ""
 "data/autoBlueprints.xml.append$//shipBlueprint[@name=\"RKS_ZOLTAN_POLICE\"]/class"
 msgstr "A-RK.S.S. Peace-Keeping Invader"
 
-#: src-en/data/autoBlueprints.xml.append:1741
+#: src-en/data/autoBlueprints.xml.append:1829
 msgid ""
 "data/autoBlueprints.xml.append$//shipBlueprint[@name=\"RKS_LEAD_TITANS_USER_SLUG\"]/class"
 msgstr "RK Bam Titan Dropship"
 
-#: src-en/data/autoBlueprints.xml.append:1811
+#: src-en/data/autoBlueprints.xml.append:1899
 msgid ""
 "data/autoBlueprints.xml.append$//shipBlueprint[@name=\"RKS_GRAVESPRED_USER_REBELAUTO\"]/class"
 msgstr "RK Punk Auto-Depopulator"
 
-#: src-en/data/autoBlueprints.xml.append:1861
+#: src-en/data/autoBlueprints.xml.append:1949
 msgid ""
 "data/autoBlueprints.xml.append$//shipBlueprint[@name=\"RKS_WOF_USER_UNION\"]/class"
 msgstr "RK Scorch Speedster Fighter"
 
-#: src-en/data/autoBlueprints.xml.append:1924
+#: src-en/data/autoBlueprints.xml.append:2012
 msgid ""
 "data/autoBlueprints.xml.append$//shipBlueprint[@name=\"RKS_COALITION_DESTROYER_ELITE\"]/class"
 msgstr "R.U.E.S. Destroyer"
 
-#: src-en/data/autoBlueprints.xml.append:1987
+#: src-en/data/autoBlueprints.xml.append:2075
 msgid ""
 "data/autoBlueprints.xml.append$//shipBlueprint[@name=\"RKS_GARAGE_FIREBLASTER_PIRATE\"]/class"
 msgstr "Pirate Fireblaster"
 
-#: src-en/data/autoBlueprints.xml.append:2051
+#: src-en/data/autoBlueprints.xml.append:2139
 msgid ""
 "data/autoBlueprints.xml.append$//shipBlueprint[@name=\"RKS_LAB_BAM_SHELL_ELITE\"]/class"
 msgstr "Radiant Fighter"
 
-#: src-en/data/autoBlueprints.xml.append:2087
+#: src-en/data/autoBlueprints.xml.append:2175
 msgid ""
 "data/autoBlueprints.xml.append$//shipBlueprint[@name=\"RKS_LAB_PUNK_FREEMANTIS_ELITE\"]/class"
 msgstr "Warlord Dropship"
 
-#: src-en/data/autoBlueprints.xml.append:2117
+#: src-en/data/autoBlueprints.xml.append:2205
 msgid ""
 "data/autoBlueprints.xml.append$//shipBlueprint[@name=\"RKS_LAB_PUNK_FREEMANTIS_ELITE_CHALLENGE\"]/class"
 msgstr "Warlord Dropship"
 
-#: src-en/data/autoBlueprints.xml.append:2149
+#: src-en/data/autoBlueprints.xml.append:2237
 msgid ""
 "data/autoBlueprints.xml.append$//shipBlueprint[@name=\"RKS_LAB_SCORCH_ORCHID_ELITE\"]/class"
 msgstr "Praetorian Bomber"
 
-#: src-en/data/autoBlueprints.xml.append:2211
+#: src-en/data/autoBlueprints.xml.append:2299
 msgid ""
 "data/autoBlueprints.xml.append$//shipBlueprint[@name=\"DJMOD_RADIKAL_BOSS_BAM\"]/class"
 msgstr "RK Bam Gatekeeper"
 
-#: src-en/data/autoBlueprints.xml.append:2242
+#: src-en/data/autoBlueprints.xml.append:2330
 msgid ""
 "data/autoBlueprints.xml.append$//shipBlueprint[@name=\"DJMOD_RADIKAL_BOSS_BAM_CHALLENGE\"]/class"
 msgstr "RK Bam Gatekeeper"
 
-#: src-en/data/autoBlueprints.xml.append:2276
+#: src-en/data/autoBlueprints.xml.append:2364
 msgid ""
 "data/autoBlueprints.xml.append$//shipBlueprint[@name=\"DJMOD_RADIKAL_BOSS_PUNK\"]/class"
 msgstr "RK Punk Gatekeeper"
 
-#: src-en/data/autoBlueprints.xml.append:2315
+#: src-en/data/autoBlueprints.xml.append:2403
 msgid ""
 "data/autoBlueprints.xml.append$//shipBlueprint[@name=\"DJMOD_RADIKAL_BOSS_SCORCH\"]/class"
 msgstr "RK Scorch Gatekeeper"
 
-#: src-en/data/autoBlueprints.xml.append:2351
+#: src-en/data/autoBlueprints.xml.append:2439
 msgid ""
 "data/autoBlueprints.xml.append$//shipBlueprint[@name=\"RKS_EXIT_PIRATE_AMBUSHER\"]/class"
 msgstr "Associate Pirate Battleship"
 
-#: src-en/data/autoBlueprints.xml.append:2428
+#: src-en/data/autoBlueprints.xml.append:2516
 msgid ""
 "data/autoBlueprints.xml.append$//shipBlueprint[@name=\"RK_HACK_FLEET_BOSS_MFK\"]/class"
 msgstr "MFK Hacker Ace"

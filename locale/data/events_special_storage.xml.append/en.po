@@ -1489,36 +1489,36 @@ msgstr ""
 "\t[When choosing the \"Full Power\" strike, reinforcement will be lost instead of the augment. \n"
 "\tYou can still do something at the empty beacon after this.]"
 
-#: src-en/data/events_special_storage.xml.append:2355
+#: src-en/data/events_special_storage.xml.append:2356
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_COMBAT_SHIPVORE_RAM_REINFORCE\"]/choice[@req=\"shipvore_ram_reinforcement\""
 " and @lvl=\"0\"]/text"
 msgstr "Yes"
 
-#: src-en/data/events_special_storage.xml.append:2357
+#: src-en/data/events_special_storage.xml.append:2358
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_COMBAT_SHIPVORE_RAM_REINFORCE\"]/choice[@req=\"shipvore_ram_reinforcement\""
 " and @lvl=\"0\"]/event/text"
 msgstr "You reinforce the augment."
 
-#: src-en/data/events_special_storage.xml.append:2364
+#: src-en/data/events_special_storage.xml.append:2365
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_COMBAT_SHIPVORE_RAM_REINFORCE\"]/choice[@req=\"shipvore_ram_reinforcement\""
 " and @lvl=\"0\"]/event/choice/text"
 msgstr "This will give us an edge!"
 
-#: src-en/data/events_special_storage.xml.append:2371
+#: src-en/data/events_special_storage.xml.append:2372
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_COMBAT_SHIPVORE_RAM_REINFORCE\"]/choice[@req=\"shipvore_ram_reinforcement\""
 " and @lvl=\"1\"]/text"
 msgstr "Your Shipvore Ram has reinforcement."
 
-#: src-en/data/events_special_storage.xml.append:2375
+#: src-en/data/events_special_storage.xml.append:2376
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_COMBAT_SHIPVORE_RAM_REINFORCE\"]/choice[3]/text"
 msgstr "Nevermind, do something else."
 
-#: src-en/data/events_special_storage.xml.append:2382
+#: src-en/data/events_special_storage.xml.append:2383
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_PERSISTENCE_SHIELD_REBUILD_CAPACITOR\"]/text"
 msgstr ""
@@ -1526,60 +1526,60 @@ msgstr ""
 "\t[Allows you to use its active ability from the Toggle Menu again. \n"
 "\tYou can still do something at the empty beacon after this.]"
 
-#: src-en/data/events_special_storage.xml.append:2387
+#: src-en/data/events_special_storage.xml.append:2389
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_PERSISTENCE_SHIELD_REBUILD_CAPACITOR\"]/choice[@req=\"rk_persistence_shield_capacitorneed\""
 " and @lvl=\"0\"]/text"
 msgstr "The capacitor is fine."
 
-#: src-en/data/events_special_storage.xml.append:2391
+#: src-en/data/events_special_storage.xml.append:2393
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_PERSISTENCE_SHIELD_REBUILD_CAPACITOR\"]/choice[@req=\"rk_persistence_shield_capacitorneed\""
 " and @lvl=\"1\"]/text"
 msgstr "Yes"
 
-#: src-en/data/events_special_storage.xml.append:2393
+#: src-en/data/events_special_storage.xml.append:2395
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_PERSISTENCE_SHIELD_REBUILD_CAPACITOR\"]/choice[@req=\"rk_persistence_shield_capacitorneed\""
 " and @lvl=\"1\"]/event/text"
 msgstr "You rebuild the capacitor, restoring augment functionality."
 
-#: src-en/data/events_special_storage.xml.append:2400
+#: src-en/data/events_special_storage.xml.append:2402
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_PERSISTENCE_SHIELD_REBUILD_CAPACITOR\"]/choice[@req=\"rk_persistence_shield_capacitorneed\""
 " and @lvl=\"1\"]/event/choice/text"
 msgstr "This might save us!"
 
-#: src-en/data/events_special_storage.xml.append:2407
+#: src-en/data/events_special_storage.xml.append:2409
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_PERSISTENCE_SHIELD_REBUILD_CAPACITOR\"]/choice[3]/text"
 msgstr "Nevermind, do something else."
 
-#: src-en/data/events_special_storage.xml.append:2413
+#: src-en/data/events_special_storage.xml.append:2415
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"TOGGLEMENU_RK_PERSISTENCE_SHIELD\"]/text"
 msgstr ""
 "Are you sure you want to do this?\n"
 "\t[Regenerate all your Supershields. Cannot be done again until you rebuild the capacitor at an empty beacon.]"
 
-#: src-en/data/events_special_storage.xml.append:2417
+#: src-en/data/events_special_storage.xml.append:2419
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"TOGGLEMENU_RK_PERSISTENCE_SHIELD\"]/choice[@req=\"rk_persistence_shield_capacitorneed\""
 " and not(@lvl)]/text"
 msgstr "You need to rebuild the capacitor at an empty beacon first."
 
-#: src-en/data/events_special_storage.xml.append:2422
+#: src-en/data/events_special_storage.xml.append:2424
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"TOGGLEMENU_RK_PERSISTENCE_SHIELD\"]/choice[@req=\"rk_persistence_shield_capacitorneed\""
 " and @lvl=\"0\"]/text"
 msgstr "Yes, it's worth it!"
 
-#: src-en/data/events_special_storage.xml.append:2437
+#: src-en/data/events_special_storage.xml.append:2439
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"TOGGLEMENU_RK_PERSISTENCE_SHIELD\"]/choice[3]/text"
 msgstr "No need. Return to the toggle menu."
 
-#: src-en/data/events_special_storage.xml.append:2464
+#: src-en/data/events_special_storage.xml.append:2466
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/text"
 msgstr ""
@@ -1587,979 +1587,999 @@ msgstr ""
 "\t\t[Set your own ship on fire! Usually to repel boarders.]\n"
 "\t\tBurn them out of..."
 
-#: src-en/data/events_special_storage.xml.append:2469
+#: src-en/data/events_special_storage.xml.append:2471
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"artillery\"]/text"
 msgstr "The Artillery room!"
 
-#: src-en/data/events_special_storage.xml.append:2473
+#: src-en/data/events_special_storage.xml.append:2475
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"battery\"]/text"
 msgstr "The Battery room!"
 
-#: src-en/data/events_special_storage.xml.append:2477
+#: src-en/data/events_special_storage.xml.append:2479
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"cloaking\"]/text"
 msgstr "The Cloaking room!"
 
-#: src-en/data/events_special_storage.xml.append:2481
+#: src-en/data/events_special_storage.xml.append:2483
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"clonebay\"]/text"
 msgstr "The Clonebay!"
 
-#: src-en/data/events_special_storage.xml.append:2485
+#: src-en/data/events_special_storage.xml.append:2487
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"doors\"]/text"
 msgstr "The Door Control room!"
 
-#: src-en/data/events_special_storage.xml.append:2489
+#: src-en/data/events_special_storage.xml.append:2491
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"drones\"]/text"
 msgstr "The Drone Control room!"
 
-#: src-en/data/events_special_storage.xml.append:2493
+#: src-en/data/events_special_storage.xml.append:2495
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"engines\"]/text"
 msgstr "The Engines room!"
 
-#: src-en/data/events_special_storage.xml.append:2497
+#: src-en/data/events_special_storage.xml.append:2499
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"hacking\"]/text"
 msgstr "The Hacking room!"
 
-#: src-en/data/events_special_storage.xml.append:2501
+#: src-en/data/events_special_storage.xml.append:2503
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"medbay\"]/text"
 msgstr "The Medbay!"
 
-#: src-en/data/events_special_storage.xml.append:2505
+#: src-en/data/events_special_storage.xml.append:2507
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"mind\"]/text"
 msgstr "The Mind Control room!"
 
-#: src-en/data/events_special_storage.xml.append:2509
+#: src-en/data/events_special_storage.xml.append:2511
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"oxygen\"]/text"
 msgstr "The Life Support (O2) room!"
 
-#: src-en/data/events_special_storage.xml.append:2513
+#: src-en/data/events_special_storage.xml.append:2515
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"pilot\"]/text"
 msgstr "The Piloting room!"
 
-#: src-en/data/events_special_storage.xml.append:2517
+#: src-en/data/events_special_storage.xml.append:2519
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"sensors\"]/text"
 msgstr "The Sensors room!"
 
-#: src-en/data/events_special_storage.xml.append:2521
+#: src-en/data/events_special_storage.xml.append:2523
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"shields\"]/text"
 msgstr "The Shields room!"
 
-#: src-en/data/events_special_storage.xml.append:2525
+#: src-en/data/events_special_storage.xml.append:2527
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"teleporter\"]/text"
 msgstr "The Teleporter room!"
 
-#: src-en/data/events_special_storage.xml.append:2529
+#: src-en/data/events_special_storage.xml.append:2531
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"temporal\"]/text"
 msgstr "The Temporal room!"
 
-#: src-en/data/events_special_storage.xml.append:2533
+#: src-en/data/events_special_storage.xml.append:2535
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"weapons\"]/text"
 msgstr "The Weapons room!"
 
-#: src-en/data/events_special_storage.xml.append:2542
-msgid ""
-"data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"lily_ablative_armor\"]/text"
-msgstr "(LI) The Ablative Armor room!"
-
-#: src-en/data/events_special_storage.xml.append:2547
+#: src-en/data/events_special_storage.xml.append:2544
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"aea_super_shields\"]/text"
 msgstr "(OE) The Auxiliary Shields room!"
 
-#: src-en/data/events_special_storage.xml.append:2552
+#: src-en/data/events_special_storage.xml.append:2549
+msgid ""
+"data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"oe_aux_shields\"]/text"
+msgstr "(OE) The Auxiliary Shields room!"
+
+#: src-en/data/events_special_storage.xml.append:2553
+msgid ""
+"data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"oe_growth\"]/text"
+msgstr "(OE R.) The Life Bloom room!"
+
+#: src-en/data/events_special_storage.xml.append:2557
+msgid ""
+"data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"oe_grease\"]/text"
+msgstr "(OE R.) The Weapons Amplifier room!"
+
+#: src-en/data/events_special_storage.xml.append:2562
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"dd_corruptor\"]/text"
 msgstr "(DD) The Corruptor room!"
 
-#: src-en/data/events_special_storage.xml.append:2557
+#: src-en/data/events_special_storage.xml.append:2567
+msgid ""
+"data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"lily_ablative_armor\"]/text"
+msgstr "(LI) The Ablative Armor room!"
+
+#: src-en/data/events_special_storage.xml.append:2571
+msgid ""
+"data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"lily_aux_reactor\"]/text"
+msgstr "(LI) The Auxiliary Reactor room!"
+
+#: src-en/data/events_special_storage.xml.append:2575
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"lily_ecm_suite\"]/text"
 msgstr "(LI) The ECM Suite room!"
 
-#: src-en/data/events_special_storage.xml.append:2561
+#: src-en/data/events_special_storage.xml.append:2579
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"lily_fiber_liner\"]/text"
 msgstr "(LI) The Fiber Liner room!"
 
-#: src-en/data/events_special_storage.xml.append:2565
+#: src-en/data/events_special_storage.xml.append:2583
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"lily_infusion_bay\"]/text"
 msgstr "(LI) The Infusion Bay!"
 
-#: src-en/data/events_special_storage.xml.append:2569
+#: src-en/data/events_special_storage.xml.append:2587
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"lily_shock_neutralizer\"]/text"
 msgstr "(LI) The Shock Neutralizer room!"
 
-#: src-en/data/events_special_storage.xml.append:2573
+#: src-en/data/events_special_storage.xml.append:2591
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"lily_system_bracers\"]/text"
 msgstr "(LI) The System Bracers room!"
 
-#: src-en/data/events_special_storage.xml.append:2577
+#: src-en/data/events_special_storage.xml.append:2595
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"lily_targeting_core\"]/text"
 msgstr "(LI) The Targeting Core room!"
 
-#: src-en/data/events_special_storage.xml.append:2582
+#: src-en/data/events_special_storage.xml.append:2600
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"og_turret_adaptive\"]/text"
 msgstr "(OG) The adaptive Turret Control room #1!"
 
-#: src-en/data/events_special_storage.xml.append:2586
+#: src-en/data/events_special_storage.xml.append:2604
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"og_turret_adaptive_2\"]/text"
 msgstr "(OG) The adaptive Turret Control room #2!"
 
-#: src-en/data/events_special_storage.xml.append:2591
+#: src-en/data/events_special_storage.xml.append:2609
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"og_turret_mini\"]/text"
 msgstr "(OG) The micro-Turret Control room #1!"
 
-#: src-en/data/events_special_storage.xml.append:2595
+#: src-en/data/events_special_storage.xml.append:2613
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"og_turret_mini_2\"]/text"
 msgstr "(OG) The micro-Turret Control room #2!"
 
-#: src-en/data/events_special_storage.xml.append:2599
+#: src-en/data/events_special_storage.xml.append:2617
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"og_turret_mini_3\"]/text"
 msgstr "(OG) The micro-Turret Control room #3!"
 
-#: src-en/data/events_special_storage.xml.append:2603
+#: src-en/data/events_special_storage.xml.append:2621
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"og_turret_mini_4\"]/text"
 msgstr "(OG) The micro-Turret Control room #4!"
 
-#: src-en/data/events_special_storage.xml.append:2608
+#: src-en/data/events_special_storage.xml.append:2626
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"og_turret\"]/text"
 msgstr "(OG) The Turret Control room #1!"
 
-#: src-en/data/events_special_storage.xml.append:2612
+#: src-en/data/events_special_storage.xml.append:2630
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"og_turret_2\"]/text"
 msgstr "(OG) The Turret Control room #2!"
 
-#: src-en/data/events_special_storage.xml.append:2616
+#: src-en/data/events_special_storage.xml.append:2634
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"og_turret_3\"]/text"
 msgstr "(OG) The Turret Control room #3!"
 
-#: src-en/data/events_special_storage.xml.append:2620
+#: src-en/data/events_special_storage.xml.append:2638
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"og_turret_4\"]/text"
 msgstr "(OG) The Turret Control room #4!"
 
-#: src-en/data/events_special_storage.xml.append:2626
+#: src-en/data/events_special_storage.xml.append:2644
 msgid ""
-"data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[37]/text"
+"data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[41]/text"
 msgstr "Too many enemies. Light up the WHOLE ship!!"
 
-#: src-en/data/events_special_storage.xml.append:2678
+#: src-en/data/events_special_storage.xml.append:2696
 msgid ""
-"data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[38]/text"
+"data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[42]/text"
 msgstr "Return to the toggle menu."
 
-#: src-en/data/events_special_storage.xml.append:3953
+#: src-en/data/events_special_storage.xml.append:4019
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_SCORCH_SELF_UPGRADE\"]/text"
 msgstr ""
 "Are you sure you want to upgrade this augment?\n"
 "\t[More fire resistance. In fire, your crew produce O2 like 1 Orchid.]"
 
-#: src-en/data/events_special_storage.xml.append:3957
+#: src-en/data/events_special_storage.xml.append:4023
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_SCORCH_SELF_UPGRADE\"]/choice[@req=\"RK_SCORCH_SELF\"]/text"
 msgstr "Yes [-16~, -1{, -1}]"
 
-#: src-en/data/events_special_storage.xml.append:3959
+#: src-en/data/events_special_storage.xml.append:4025
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_SCORCH_SELF_UPGRADE\"]/choice[@req=\"RK_SCORCH_SELF\"]/event/text"
 msgstr "You start upgrading the augment..."
 
-#: src-en/data/events_special_storage.xml.append:3968
+#: src-en/data/events_special_storage.xml.append:4034
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_SCORCH_SELF_UPGRADE\"]/choice[@req=\"RK_SCORCH_SELF\"]/event/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_special_storage.xml.append:3970
+#: src-en/data/events_special_storage.xml.append:4036
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_SCORCH_SELF_UPGRADE\"]/choice[@req=\"RK_SCORCH_SELF\"]/event/choice/event/text"
 msgstr "You finish upgrading the augment successfully."
 
-#: src-en/data/events_special_storage.xml.append:3973
+#: src-en/data/events_special_storage.xml.append:4039
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_SCORCH_SELF_UPGRADE\"]/choice[@req=\"RK_SCORCH_SELF\"]/event/choice/event/choice/text"
 msgstr "Success!"
 
-#: src-en/data/events_special_storage.xml.append:3981
+#: src-en/data/events_special_storage.xml.append:4047
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_SCORCH_SELF_UPGRADE\"]/choice[2]/text"
 msgstr "Nevermind, do something else."
 
-#: src-en/data/events_special_storage.xml.append:3987
+#: src-en/data/events_special_storage.xml.append:4053
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_SCORCH_SELF_UPGRADE_2\"]/text"
 msgstr ""
 "Are you sure you want to upgrade this augment?\n"
 "\t[More fire resistance for your crew. In fire, your crew produce O2 like 3 Orchids.]"
 
-#: src-en/data/events_special_storage.xml.append:3991
+#: src-en/data/events_special_storage.xml.append:4057
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_SCORCH_SELF_UPGRADE_2\"]/choice[@req=\"RK_SCORCH_SELF_2\"]/text"
 msgstr "Yes [-11~, -1{, -1}, the fleet advances for 1 turn]"
 
-#: src-en/data/events_special_storage.xml.append:3993
+#: src-en/data/events_special_storage.xml.append:4059
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_SCORCH_SELF_UPGRADE_2\"]/choice[@req=\"RK_SCORCH_SELF_2\"]/event/text"
 msgstr "You start upgrading the augment..."
 
-#: src-en/data/events_special_storage.xml.append:4003
+#: src-en/data/events_special_storage.xml.append:4069
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_SCORCH_SELF_UPGRADE_2\"]/choice[@req=\"RK_SCORCH_SELF_2\"]/event/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_special_storage.xml.append:4005
+#: src-en/data/events_special_storage.xml.append:4071
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_SCORCH_SELF_UPGRADE_2\"]/choice[@req=\"RK_SCORCH_SELF_2\"]/event/choice/event/text"
 msgstr "You finish upgrading the augment successfully."
 
-#: src-en/data/events_special_storage.xml.append:4008
+#: src-en/data/events_special_storage.xml.append:4074
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_SCORCH_SELF_UPGRADE_2\"]/choice[@req=\"RK_SCORCH_SELF_2\"]/event/choice/event/choice/text"
 msgstr "Success!"
 
-#: src-en/data/events_special_storage.xml.append:4016
+#: src-en/data/events_special_storage.xml.append:4082
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_SCORCH_SELF_UPGRADE_2\"]/choice[2]/text"
 msgstr "Nevermind, do something else."
 
-#: src-en/data/events_special_storage.xml.append:4035
+#: src-en/data/events_special_storage.xml.append:4101
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"COMBAT_CHECK_RK_COMBAT_SCORCH_ENEMY\"]/text"
 msgstr ""
 "Are you sure you want to do this? (Requires a source of fire)\n"
 "\t[Starts a fire in your Life Support (O2) room if you have one, and more random fires in the enemy ship (mostly systems). Uses {]"
 
-#: src-en/data/events_special_storage.xml.append:4039
+#: src-en/data/events_special_storage.xml.append:4105
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"COMBAT_CHECK_RK_COMBAT_SCORCH_ENEMY\"]/choice[@req=\"DJMOD_COMBAT_SELF_FIRE_ANY\"]/text"
 msgstr ""
 "You do not have any tier of the Scorched Earth augment for free activation."
 
-#: src-en/data/events_special_storage.xml.append:4044
+#: src-en/data/events_special_storage.xml.append:4110
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"COMBAT_CHECK_RK_COMBAT_SCORCH_ENEMY\"]/choice[2]/text"
 msgstr "(Scorched Earth) Yes! [A few fires in the enemy ship]"
 
-#: src-en/data/events_special_storage.xml.append:4048
+#: src-en/data/events_special_storage.xml.append:4114
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"COMBAT_CHECK_RK_COMBAT_SCORCH_ENEMY\"]/choice[3]/text"
 msgstr "(Scorched Earth) Strong activation! [More fires in both ships]"
 
-#: src-en/data/events_special_storage.xml.append:4053
+#: src-en/data/events_special_storage.xml.append:4119
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"COMBAT_CHECK_RK_COMBAT_SCORCH_ENEMY\"]/choice[@req=\"RK_COMBAT_SCORCH_ENEMY\"]/text"
 msgstr "Yes [Requires a fire source which may be consumed]"
 
-#: src-en/data/events_special_storage.xml.append:4058
+#: src-en/data/events_special_storage.xml.append:4124
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"COMBAT_CHECK_RK_COMBAT_SCORCH_ENEMY\"]/choice[5]/text"
 msgstr "Do something else instead."
 
-#: src-en/data/events_special_storage.xml.append:4062
+#: src-en/data/events_special_storage.xml.append:4128
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"COMBAT_CHECK_RK_COMBAT_SCORCH_ENEMY\"]/choice[6]/text"
 msgstr "Nevermind, let's fight!"
 
-#: src-en/data/events_special_storage.xml.append:4064
+#: src-en/data/events_special_storage.xml.append:4130
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"COMBAT_CHECK_RK_COMBAT_SCORCH_ENEMY\"]/choice[6]/event/text"
 msgstr "You decide not to do anything and prepare to fight."
 
-#: src-en/data/events_special_storage.xml.append:4075
+#: src-en/data/events_special_storage.xml.append:4141
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY\"]/text"
 msgstr "What fire source shall we use?"
 
-#: src-en/data/events_special_storage.xml.append:4078
+#: src-en/data/events_special_storage.xml.append:4144
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY\"]/choice[1]/text"
 msgstr "Fire-starting crew for a strong activation! [Will die, can be cloned]"
 
-#: src-en/data/events_special_storage.xml.append:4083
+#: src-en/data/events_special_storage.xml.append:4149
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY\"]/choice[2]/text"
 msgstr "1{ + 1}. Weak activation, but it will do."
 
-#: src-en/data/events_special_storage.xml.append:4085
+#: src-en/data/events_special_storage.xml.append:4151
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY\"]/choice[2]/event/text"
 msgstr "You insert the missiles..."
 
-#: src-en/data/events_special_storage.xml.append:4092
+#: src-en/data/events_special_storage.xml.append:4158
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY\"]/choice[2]/event/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_special_storage.xml.append:4099
+#: src-en/data/events_special_storage.xml.append:4165
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY\"]/choice[3]/text"
 msgstr "Do something else instead."
 
-#: src-en/data/events_special_storage.xml.append:4103
+#: src-en/data/events_special_storage.xml.append:4169
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY\"]/choice[4]/text"
 msgstr "Nevermind, let's fight!"
 
-#: src-en/data/events_special_storage.xml.append:4105
+#: src-en/data/events_special_storage.xml.append:4171
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY\"]/choice[4]/event/text"
 msgstr "You decide not to do anything and prepare to fight."
 
-#: src-en/data/events_special_storage.xml.append:4138
+#: src-en/data/events_special_storage.xml.append:4204
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW\"]/text"
 msgstr "What type of crew?"
 
-#: src-en/data/events_special_storage.xml.append:4141
+#: src-en/data/events_special_storage.xml.append:4207
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW\"]/choice[@req=\"DJMOD_HAS_CREW_ARE_BOMBS_AND_CREW\"]/text"
 msgstr "(Charged Belts) Anyone! Draw straws."
 
-#: src-en/data/events_special_storage.xml.append:4143
+#: src-en/data/events_special_storage.xml.append:4209
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW\"]/choice[@req=\"DJMOD_HAS_CREW_ARE_BOMBS_AND_CREW\"]/event/text"
 msgstr ""
 "The least lucky crew is consumed for the greater good, strongly activating "
 "the augment!"
 
-#: src-en/data/events_special_storage.xml.append:4150
+#: src-en/data/events_special_storage.xml.append:4216
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW\"]/choice[@req=\"DJMOD_HAS_CREW_ARE_BOMBS_AND_CREW\"]/event/removeCrew/text"
 msgstr "Your clonebay successfully revived your crew."
 
-#: src-en/data/events_special_storage.xml.append:4154
+#: src-en/data/events_special_storage.xml.append:4220
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW\"]/choice[@req=\"DJMOD_HAS_CREW_ARE_BOMBS_AND_CREW\"]/event/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_special_storage.xml.append:4160
+#: src-en/data/events_special_storage.xml.append:4226
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW\"]/choice[@req=\"DJMOD_HAS_DEATH_VESTS_AND_CREW\"]/text"
 msgstr "(Martyr Vests) Anybody! Draw straws."
 
-#: src-en/data/events_special_storage.xml.append:4162
+#: src-en/data/events_special_storage.xml.append:4228
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW\"]/choice[@req=\"DJMOD_HAS_DEATH_VESTS_AND_CREW\"]/event/text"
 msgstr ""
 "The least lucky crew is consumed for the greater good, strongly activating "
 "the augment!"
 
-#: src-en/data/events_special_storage.xml.append:4169
+#: src-en/data/events_special_storage.xml.append:4235
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW\"]/choice[@req=\"DJMOD_HAS_DEATH_VESTS_AND_CREW\"]/event/removeCrew/text"
 msgstr "Your clonebay successfully revived your crew."
 
-#: src-en/data/events_special_storage.xml.append:4173
+#: src-en/data/events_special_storage.xml.append:4239
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW\"]/choice[@req=\"DJMOD_HAS_DEATH_VESTS_AND_CREW\"]/event/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_special_storage.xml.append:4183
+#: src-en/data/events_special_storage.xml.append:4249
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW\"]/choice[@req=\"LIST_CREW_SHELL\"]/text"
 msgstr "A Shell (choose a type)"
 
-#: src-en/data/events_special_storage.xml.append:4187
+#: src-en/data/events_special_storage.xml.append:4253
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW\"]/choice[@req=\"LIST_CREW_ZOLTAN\"]/text"
 msgstr "A Zoltan (choose a type)"
 
-#: src-en/data/events_special_storage.xml.append:4192
+#: src-en/data/events_special_storage.xml.append:4258
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW\"]/choice[@req=\"LIST_CREW_SOLAR\"]/text"
 msgstr "An Enkindled Lanius (choose a type)"
 
-#: src-en/data/events_special_storage.xml.append:4197
+#: src-en/data/events_special_storage.xml.append:4263
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW\"]/choice[@req=\"rock_commando\"]/text"
 msgstr "A random Lost Sun Commando"
 
-#: src-en/data/events_special_storage.xml.append:4199
+#: src-en/data/events_special_storage.xml.append:4265
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW\"]/choice[@req=\"rock_commando\"]/event/text"
 msgstr ""
 "The crew is consumed for the greater good, strongly activating the augment!"
 
-#: src-en/data/events_special_storage.xml.append:4206
+#: src-en/data/events_special_storage.xml.append:4272
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW\"]/choice[@req=\"rock_commando\"]/event/removeCrew/text"
 msgstr "Your clonebay successfully revived your crew."
 
-#: src-en/data/events_special_storage.xml.append:4210
+#: src-en/data/events_special_storage.xml.append:4276
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW\"]/choice[@req=\"rock_commando\"]/event/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_special_storage.xml.append:4217
+#: src-en/data/events_special_storage.xml.append:4283
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW\"]/choice[@req=\"phantom_goul\"]/text"
 msgstr "A random Goul"
 
-#: src-en/data/events_special_storage.xml.append:4219
+#: src-en/data/events_special_storage.xml.append:4285
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW\"]/choice[@req=\"phantom_goul\"]/event/text"
 msgstr ""
 "The crew is consumed for the greater good, strongly activating the augment!"
 
-#: src-en/data/events_special_storage.xml.append:4226
+#: src-en/data/events_special_storage.xml.append:4292
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW\"]/choice[@req=\"phantom_goul\"]/event/removeCrew/text"
 msgstr "Your clonebay successfully revived your crew."
 
-#: src-en/data/events_special_storage.xml.append:4230
+#: src-en/data/events_special_storage.xml.append:4296
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW\"]/choice[@req=\"phantom_goul\"]/event/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_special_storage.xml.append:4237
+#: src-en/data/events_special_storage.xml.append:4303
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW\"]/choice[@req=\"phantom_goul_alpha\"]/text"
 msgstr "A random Alpha Goul"
 
-#: src-en/data/events_special_storage.xml.append:4239
+#: src-en/data/events_special_storage.xml.append:4305
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW\"]/choice[@req=\"phantom_goul_alpha\"]/event/text"
 msgstr ""
 "The Alpha Goul is consumed for the greater good, strongly activating the "
 "augment!"
 
-#: src-en/data/events_special_storage.xml.append:4246
+#: src-en/data/events_special_storage.xml.append:4312
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW\"]/choice[@req=\"phantom_goul_alpha\"]/event/removeCrew/text"
 msgstr "Your clonebay successfully revived your crew."
 
-#: src-en/data/events_special_storage.xml.append:4250
+#: src-en/data/events_special_storage.xml.append:4316
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW\"]/choice[@req=\"phantom_goul_alpha\"]/event/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_special_storage.xml.append:4252
+#: src-en/data/events_special_storage.xml.append:4318
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW\"]/choice[@req=\"phantom_goul_alpha\"]/event/choice/event/text"
 msgstr "A normal Goul is also produced!"
 
-#: src-en/data/events_special_storage.xml.append:4256
+#: src-en/data/events_special_storage.xml.append:4322
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW\"]/choice[@req=\"phantom_goul_alpha\"]/event/choice/event/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_special_storage.xml.append:4265
+#: src-en/data/events_special_storage.xml.append:4331
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW\"]/choice[@req=\"rk_fireghost\"]/text"
 msgstr "A random RK Uptor"
 
-#: src-en/data/events_special_storage.xml.append:4267
+#: src-en/data/events_special_storage.xml.append:4333
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW\"]/choice[@req=\"rk_fireghost\"]/event/text"
 msgstr ""
 "The Uptor is consumed for the greater good, strongly activating the augment!"
 
-#: src-en/data/events_special_storage.xml.append:4274
+#: src-en/data/events_special_storage.xml.append:4340
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW\"]/choice[@req=\"rk_fireghost\"]/event/removeCrew/text"
 msgstr "Your clonebay successfully revived your crew."
 
-#: src-en/data/events_special_storage.xml.append:4278
+#: src-en/data/events_special_storage.xml.append:4344
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW\"]/choice[@req=\"rk_fireghost\"]/event/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_special_storage.xml.append:4280
+#: src-en/data/events_special_storage.xml.append:4346
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW\"]/choice[@req=\"rk_fireghost\"]/event/choice/event/text"
 msgstr "An Alpha Goul is also produced!"
 
-#: src-en/data/events_special_storage.xml.append:4284
+#: src-en/data/events_special_storage.xml.append:4350
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW\"]/choice[@req=\"rk_fireghost\"]/event/choice/event/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_special_storage.xml.append:4294
+#: src-en/data/events_special_storage.xml.append:4360
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW\"]/choice[10]/text"
 msgstr "Do something else instead."
 
-#: src-en/data/events_special_storage.xml.append:4300
+#: src-en/data/events_special_storage.xml.append:4366
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_SHELLS\"]/text"
 msgstr "What type of shell? [Will be consumed, can be cloned]"
 
-#: src-en/data/events_special_storage.xml.append:4303
+#: src-en/data/events_special_storage.xml.append:4369
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_SHELLS\"]/choice[@req=\"shell\"]/text"
 msgstr "A random normal shell"
 
-#: src-en/data/events_special_storage.xml.append:4305
+#: src-en/data/events_special_storage.xml.append:4371
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_SHELLS\"]/choice[@req=\"shell\"]/event/text"
 msgstr ""
 "The crew is consumed for the greater good, strongly activating the augment!"
 
-#: src-en/data/events_special_storage.xml.append:4312
+#: src-en/data/events_special_storage.xml.append:4378
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_SHELLS\"]/choice[@req=\"shell\"]/event/removeCrew/text"
 msgstr "Your clonebay successfully revived your crew."
 
-#: src-en/data/events_special_storage.xml.append:4316
+#: src-en/data/events_special_storage.xml.append:4382
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_SHELLS\"]/choice[@req=\"shell\"]/event/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_special_storage.xml.append:4322
+#: src-en/data/events_special_storage.xml.append:4388
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_SHELLS\"]/choice[@req=\"shell_mechanic\"]/text"
 msgstr "A random Shell Mechanic"
 
-#: src-en/data/events_special_storage.xml.append:4324
+#: src-en/data/events_special_storage.xml.append:4390
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_SHELLS\"]/choice[@req=\"shell_mechanic\"]/event/text"
 msgstr ""
 "The crew is consumed for the greater good, strongly activating the augment!"
 
-#: src-en/data/events_special_storage.xml.append:4331
+#: src-en/data/events_special_storage.xml.append:4397
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_SHELLS\"]/choice[@req=\"shell_mechanic\"]/event/removeCrew/text"
 msgstr "Your clonebay successfully revived your crew."
 
-#: src-en/data/events_special_storage.xml.append:4335
+#: src-en/data/events_special_storage.xml.append:4401
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_SHELLS\"]/choice[@req=\"shell_mechanic\"]/event/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_special_storage.xml.append:4341
+#: src-en/data/events_special_storage.xml.append:4407
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_SHELLS\"]/choice[@req=\"shell_scientist\"]/text"
 msgstr "A random Shell Scientist"
 
-#: src-en/data/events_special_storage.xml.append:4343
+#: src-en/data/events_special_storage.xml.append:4409
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_SHELLS\"]/choice[@req=\"shell_scientist\"]/event/text"
 msgstr ""
 "The crew is consumed for the greater good, strongly activating the augment!"
 
-#: src-en/data/events_special_storage.xml.append:4350
+#: src-en/data/events_special_storage.xml.append:4416
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_SHELLS\"]/choice[@req=\"shell_scientist\"]/event/removeCrew/text"
 msgstr "Your clonebay successfully revived your crew."
 
-#: src-en/data/events_special_storage.xml.append:4354
+#: src-en/data/events_special_storage.xml.append:4420
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_SHELLS\"]/choice[@req=\"shell_scientist\"]/event/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_special_storage.xml.append:4360
+#: src-en/data/events_special_storage.xml.append:4426
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_SHELLS\"]/choice[@req=\"shell_guardian\"]/text"
 msgstr "A random Shell Guardian"
 
-#: src-en/data/events_special_storage.xml.append:4362
+#: src-en/data/events_special_storage.xml.append:4428
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_SHELLS\"]/choice[@req=\"shell_guardian\"]/event/text"
 msgstr ""
 "The crew is consumed for the greater good, strongly activating the augment!"
 
-#: src-en/data/events_special_storage.xml.append:4369
+#: src-en/data/events_special_storage.xml.append:4435
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_SHELLS\"]/choice[@req=\"shell_guardian\"]/event/removeCrew/text"
 msgstr "Your clonebay successfully revived your crew."
 
-#: src-en/data/events_special_storage.xml.append:4373
+#: src-en/data/events_special_storage.xml.append:4439
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_SHELLS\"]/choice[@req=\"shell_guardian\"]/event/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_special_storage.xml.append:4379
+#: src-en/data/events_special_storage.xml.append:4445
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_SHELLS\"]/choice[@req=\"shell_radiant\"]/text"
 msgstr "A random Shell Radiant"
 
-#: src-en/data/events_special_storage.xml.append:4381
+#: src-en/data/events_special_storage.xml.append:4447
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_SHELLS\"]/choice[@req=\"shell_radiant\"]/event/text"
 msgstr ""
 "The crew is consumed for the greater good, strongly activating the augment!"
 
-#: src-en/data/events_special_storage.xml.append:4388
+#: src-en/data/events_special_storage.xml.append:4454
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_SHELLS\"]/choice[@req=\"shell_radiant\"]/event/removeCrew/text"
 msgstr "Your clonebay successfully revived your crew."
 
-#: src-en/data/events_special_storage.xml.append:4392
+#: src-en/data/events_special_storage.xml.append:4458
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_SHELLS\"]/choice[@req=\"shell_radiant\"]/event/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_special_storage.xml.append:4398
+#: src-en/data/events_special_storage.xml.append:4464
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_SHELLS\"]/choice[@req=\"unique_alkali\"]/text"
 msgstr "Alkali"
 
-#: src-en/data/events_special_storage.xml.append:4400
+#: src-en/data/events_special_storage.xml.append:4466
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_SHELLS\"]/choice[@req=\"unique_alkali\"]/event/text"
 msgstr ""
 "Alkali is reluctantly consumed for the greater good, strongly activating the"
 " augment!"
 
-#: src-en/data/events_special_storage.xml.append:4407
+#: src-en/data/events_special_storage.xml.append:4473
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_SHELLS\"]/choice[@req=\"unique_alkali\"]/event/removeCrew/text"
 msgstr "Your clonebay successfully revived your crew."
 
-#: src-en/data/events_special_storage.xml.append:4411
+#: src-en/data/events_special_storage.xml.append:4477
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_SHELLS\"]/choice[@req=\"unique_alkali\"]/event/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_special_storage.xml.append:4418
+#: src-en/data/events_special_storage.xml.append:4484
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_SHELLS\"]/choice[7]/text"
 msgstr "Do something else instead."
 
-#: src-en/data/events_special_storage.xml.append:4424
+#: src-en/data/events_special_storage.xml.append:4490
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_ZOLTANS\"]/text"
 msgstr "What type of zoltan? [Will be consumed, can be cloned]"
 
-#: src-en/data/events_special_storage.xml.append:4427
+#: src-en/data/events_special_storage.xml.append:4493
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_ZOLTANS\"]/choice[@req=\"zoltan\"]/text"
 msgstr "A random common zoltan"
 
-#: src-en/data/events_special_storage.xml.append:4429
+#: src-en/data/events_special_storage.xml.append:4495
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_ZOLTANS\"]/choice[@req=\"zoltan\"]/event/text"
 msgstr ""
 "The crew is consumed for the greater good, strongly activating the augment!"
 
-#: src-en/data/events_special_storage.xml.append:4436
+#: src-en/data/events_special_storage.xml.append:4502
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_ZOLTANS\"]/choice[@req=\"zoltan\"]/event/removeCrew/text"
 msgstr "Your clonebay successfully revived your crew."
 
-#: src-en/data/events_special_storage.xml.append:4440
+#: src-en/data/events_special_storage.xml.append:4506
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_ZOLTANS\"]/choice[@req=\"zoltan\"]/event/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_special_storage.xml.append:4446
+#: src-en/data/events_special_storage.xml.append:4512
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_ZOLTANS\"]/choice[@req=\"zoltan_monk\"]/text"
 msgstr "A random zoltan monk"
 
-#: src-en/data/events_special_storage.xml.append:4448
+#: src-en/data/events_special_storage.xml.append:4514
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_ZOLTANS\"]/choice[@req=\"zoltan_monk\"]/event/text"
 msgstr ""
 "The crew is peacefully consumed for the greater good, strongly activating "
 "the augment!"
 
-#: src-en/data/events_special_storage.xml.append:4455
+#: src-en/data/events_special_storage.xml.append:4521
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_ZOLTANS\"]/choice[@req=\"zoltan_monk\"]/event/removeCrew/text"
 msgstr "Your clonebay successfully revived your crew."
 
-#: src-en/data/events_special_storage.xml.append:4459
+#: src-en/data/events_special_storage.xml.append:4525
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_ZOLTANS\"]/choice[@req=\"zoltan_monk\"]/event/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_special_storage.xml.append:4465
+#: src-en/data/events_special_storage.xml.append:4531
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_ZOLTANS\"]/choice[@req=\"zoltan_peacekeeper\"]/text"
 msgstr "A random Zoltan Peacekeeper"
 
-#: src-en/data/events_special_storage.xml.append:4467
+#: src-en/data/events_special_storage.xml.append:4533
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_ZOLTANS\"]/choice[@req=\"zoltan_peacekeeper\"]/event/text"
 msgstr ""
 "The crew is consumed for the greater good, strongly activating the augment!"
 
-#: src-en/data/events_special_storage.xml.append:4474
+#: src-en/data/events_special_storage.xml.append:4540
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_ZOLTANS\"]/choice[@req=\"zoltan_peacekeeper\"]/event/removeCrew/text"
 msgstr "Your clonebay successfully revived your crew."
 
-#: src-en/data/events_special_storage.xml.append:4478
+#: src-en/data/events_special_storage.xml.append:4544
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_ZOLTANS\"]/choice[@req=\"zoltan_peacekeeper\"]/event/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_special_storage.xml.append:4484
+#: src-en/data/events_special_storage.xml.append:4550
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_ZOLTANS\"]/choice[@req=\"zoltan_devotee\"]/text"
 msgstr "A random Duskbringer"
 
-#: src-en/data/events_special_storage.xml.append:4486
+#: src-en/data/events_special_storage.xml.append:4552
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_ZOLTANS\"]/choice[@req=\"zoltan_devotee\"]/event/text"
 msgstr ""
 "The crew is gladly consumed for the greater good, strongly activating the "
 "augment!"
 
-#: src-en/data/events_special_storage.xml.append:4493
+#: src-en/data/events_special_storage.xml.append:4559
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_ZOLTANS\"]/choice[@req=\"zoltan_devotee\"]/event/removeCrew/text"
 msgstr "Your clonebay successfully revived your crew."
 
-#: src-en/data/events_special_storage.xml.append:4497
+#: src-en/data/events_special_storage.xml.append:4563
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_ZOLTANS\"]/choice[@req=\"zoltan_devotee\"]/event/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_special_storage.xml.append:4503
+#: src-en/data/events_special_storage.xml.append:4569
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_ZOLTANS\"]/choice[@req=\"zoltan_martyr\"]/text"
 msgstr "A random Duskbringer Martyr"
 
-#: src-en/data/events_special_storage.xml.append:4505
+#: src-en/data/events_special_storage.xml.append:4571
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_ZOLTANS\"]/choice[@req=\"zoltan_martyr\"]/event/text"
 msgstr ""
 "The crew is gladly consumed for the greater good, strongly activating the "
 "augment!"
 
-#: src-en/data/events_special_storage.xml.append:4512
+#: src-en/data/events_special_storage.xml.append:4578
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_ZOLTANS\"]/choice[@req=\"zoltan_martyr\"]/event/removeCrew/text"
 msgstr "Your clonebay successfully revived your crew."
 
-#: src-en/data/events_special_storage.xml.append:4516
+#: src-en/data/events_special_storage.xml.append:4582
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_ZOLTANS\"]/choice[@req=\"zoltan_martyr\"]/event/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_special_storage.xml.append:4522
+#: src-en/data/events_special_storage.xml.append:4588
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_ZOLTANS\"]/choice[@req=\"zoltan_infernum\"]/text"
 msgstr "A random Infernum Monk"
 
-#: src-en/data/events_special_storage.xml.append:4524
+#: src-en/data/events_special_storage.xml.append:4590
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_ZOLTANS\"]/choice[@req=\"zoltan_infernum\"]/event/text"
 msgstr ""
 "The crew is gladly consumed for the greater good, strongly activating the "
 "augment!"
 
-#: src-en/data/events_special_storage.xml.append:4531
+#: src-en/data/events_special_storage.xml.append:4597
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_ZOLTANS\"]/choice[@req=\"zoltan_infernum\"]/event/removeCrew/text"
 msgstr "Your clonebay successfully revived your crew."
 
-#: src-en/data/events_special_storage.xml.append:4535
+#: src-en/data/events_special_storage.xml.append:4601
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_ZOLTANS\"]/choice[@req=\"zoltan_infernum\"]/event/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_special_storage.xml.append:4541
+#: src-en/data/events_special_storage.xml.append:4607
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_ZOLTANS\"]/choice[@req=\"unique_devorak\"]/text"
 msgstr "Devorak"
 
-#: src-en/data/events_special_storage.xml.append:4543
+#: src-en/data/events_special_storage.xml.append:4609
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_ZOLTANS\"]/choice[@req=\"unique_devorak\"]/event/text"
 msgstr ""
 "Devorak is gladly consumed for the greater good, strongly activating the "
 "augment!"
 
-#: src-en/data/events_special_storage.xml.append:4550
+#: src-en/data/events_special_storage.xml.append:4616
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_ZOLTANS\"]/choice[@req=\"unique_devorak\"]/event/removeCrew/text"
 msgstr "Your clonebay successfully revived your crew."
 
-#: src-en/data/events_special_storage.xml.append:4554
+#: src-en/data/events_special_storage.xml.append:4620
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_ZOLTANS\"]/choice[@req=\"unique_devorak\"]/event/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_special_storage.xml.append:4560
+#: src-en/data/events_special_storage.xml.append:4626
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_ZOLTANS\"]/choice[@req=\"symbiote\"]/text"
 msgstr "Symbiote"
 
-#: src-en/data/events_special_storage.xml.append:4562
+#: src-en/data/events_special_storage.xml.append:4628
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_ZOLTANS\"]/choice[@req=\"symbiote\"]/event/text"
 msgstr ""
 "The symbiotic horror lets out a sigh of relief as they are consumed for the "
 "greater good, strongly activating the augment!"
 
-#: src-en/data/events_special_storage.xml.append:4569
+#: src-en/data/events_special_storage.xml.append:4635
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_ZOLTANS\"]/choice[@req=\"symbiote\"]/event/removeCrew/text"
 msgstr "Your clonebay successfully revived your crew."
 
-#: src-en/data/events_special_storage.xml.append:4573
+#: src-en/data/events_special_storage.xml.append:4639
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_ZOLTANS\"]/choice[@req=\"symbiote\"]/event/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_special_storage.xml.append:4580
+#: src-en/data/events_special_storage.xml.append:4646
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_ZOLTANS\"]/choice[9]/text"
 msgstr "Do something else instead."
 
-#: src-en/data/events_special_storage.xml.append:4586
+#: src-en/data/events_special_storage.xml.append:4652
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_LANIUS_FIRE\"]/text"
 msgstr "What type of Enkindled? [Will be consumed, can be cloned]"
 
-#: src-en/data/events_special_storage.xml.append:4589
+#: src-en/data/events_special_storage.xml.append:4655
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_LANIUS_FIRE\"]/choice[@req=\"solar_lanius\"]/text"
 msgstr "A random common Enkindled"
 
-#: src-en/data/events_special_storage.xml.append:4591
+#: src-en/data/events_special_storage.xml.append:4657
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_LANIUS_FIRE\"]/choice[@req=\"solar_lanius\"]/event/text"
 msgstr ""
 "The crew is consumed for the greater good, strongly activating the augment!"
 
-#: src-en/data/events_special_storage.xml.append:4598
+#: src-en/data/events_special_storage.xml.append:4664
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_LANIUS_FIRE\"]/choice[@req=\"solar_lanius\"]/event/removeCrew/text"
 msgstr "Your clonebay successfully revived your crew."
 
-#: src-en/data/events_special_storage.xml.append:4602
+#: src-en/data/events_special_storage.xml.append:4668
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_LANIUS_FIRE\"]/choice[@req=\"solar_lanius\"]/event/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_special_storage.xml.append:4610
+#: src-en/data/events_special_storage.xml.append:4676
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_LANIUS_FIRE\"]/choice[@req=\"midnight_lanius\"]/text"
 msgstr "A random Luminary"
 
-#: src-en/data/events_special_storage.xml.append:4612
+#: src-en/data/events_special_storage.xml.append:4678
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_LANIUS_FIRE\"]/choice[@req=\"midnight_lanius\"]/event/text"
 msgstr ""
 "The crew is consumed for the greater good, strongly activating the augment!"
 
-#: src-en/data/events_special_storage.xml.append:4619
+#: src-en/data/events_special_storage.xml.append:4685
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_LANIUS_FIRE\"]/choice[@req=\"midnight_lanius\"]/event/removeCrew/text"
 msgstr "Your clonebay successfully revived your crew."
 
-#: src-en/data/events_special_storage.xml.append:4623
+#: src-en/data/events_special_storage.xml.append:4689
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_LANIUS_FIRE\"]/choice[@req=\"midnight_lanius\"]/event/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_special_storage.xml.append:4629
+#: src-en/data/events_special_storage.xml.append:4695
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_LANIUS_FIRE\"]/choice[@req=\"midnight_lantern\"]/text"
 msgstr "A random Luminary"
 
-#: src-en/data/events_special_storage.xml.append:4631
+#: src-en/data/events_special_storage.xml.append:4697
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_LANIUS_FIRE\"]/choice[@req=\"midnight_lantern\"]/event/text"
 msgstr ""
 "The crew is consumed for the greater good, strongly activating the augment!"
 
-#: src-en/data/events_special_storage.xml.append:4638
+#: src-en/data/events_special_storage.xml.append:4704
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_LANIUS_FIRE\"]/choice[@req=\"midnight_lantern\"]/event/removeCrew/text"
 msgstr "Your clonebay successfully revived your crew."
 
-#: src-en/data/events_special_storage.xml.append:4642
+#: src-en/data/events_special_storage.xml.append:4708
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_LANIUS_FIRE\"]/choice[@req=\"midnight_lantern\"]/event/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_special_storage.xml.append:4649
+#: src-en/data/events_special_storage.xml.append:4715
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_LANIUS_FIRE\"]/choice[@req=\"unique_corona\"]/text"
 msgstr "Corona"
 
-#: src-en/data/events_special_storage.xml.append:4651
+#: src-en/data/events_special_storage.xml.append:4717
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_LANIUS_FIRE\"]/choice[@req=\"unique_corona\"]/event/text"
 msgstr ""
 "Corona is gladly consumed for the greater good, strongly activating the "
 "augment!"
 
-#: src-en/data/events_special_storage.xml.append:4658
+#: src-en/data/events_special_storage.xml.append:4724
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_LANIUS_FIRE\"]/choice[@req=\"unique_corona\"]/event/removeCrew/text"
 msgstr "Your clonebay successfully revived your crew."
 
-#: src-en/data/events_special_storage.xml.append:4662
+#: src-en/data/events_special_storage.xml.append:4728
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_LANIUS_FIRE\"]/choice[@req=\"unique_corona\"]/event/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_special_storage.xml.append:4668
+#: src-en/data/events_special_storage.xml.append:4734
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_LANIUS_FIRE\"]/choice[@req=\"unique_corona_masked\"]/text"
 msgstr "Corona"
 
-#: src-en/data/events_special_storage.xml.append:4670
+#: src-en/data/events_special_storage.xml.append:4736
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_LANIUS_FIRE\"]/choice[@req=\"unique_corona_masked\"]/event/text"
 msgstr ""
 "Corona is gladly consumed for the greater good, strongly activating the "
 "augment!"
 
-#: src-en/data/events_special_storage.xml.append:4677
+#: src-en/data/events_special_storage.xml.append:4743
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_LANIUS_FIRE\"]/choice[@req=\"unique_corona_masked\"]/event/removeCrew/text"
 msgstr "Your clonebay successfully revived your crew."
 
-#: src-en/data/events_special_storage.xml.append:4681
+#: src-en/data/events_special_storage.xml.append:4747
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_LANIUS_FIRE\"]/choice[@req=\"unique_corona_masked\"]/event/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_special_storage.xml.append:4688
+#: src-en/data/events_special_storage.xml.append:4754
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_SCORCH_ENEMY_PAY_CREW_LANIUS_FIRE\"]/choice[6]/text"
 msgstr "Do something else instead."
 
-#: src-en/data/events_special_storage.xml.append:4805
+#: src-en/data/events_special_storage.xml.append:4871
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_OXYGENIZER_ACTIVATE\"]/text"
 msgstr ""
 "Are you sure you want to do this?\n"
 "\t[Will envelop both ships in an O2 atmosphere, protecting fires and crew from venting and breaches. Costs 2}]"
 
-#: src-en/data/events_special_storage.xml.append:4809
+#: src-en/data/events_special_storage.xml.append:4875
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_OXYGENIZER_ACTIVATE\"]/choice[@req=\"loc_environment_atmosphere\""
 " and @lvl=\"0\"]/text"
 msgstr "Yes."
 
-#: src-en/data/events_special_storage.xml.append:4811
+#: src-en/data/events_special_storage.xml.append:4877
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_OXYGENIZER_ACTIVATE\"]/choice[@req=\"loc_environment_atmosphere\""
 " and @lvl=\"0\"]/event/text"
@@ -2567,42 +2587,42 @@ msgstr ""
 "You fire the flash-release ultracompressed O2 grenades, enveloping the whole"
 " area in just enough atmosphere to breathe... or sustain fires!"
 
-#: src-en/data/events_special_storage.xml.append:4821
+#: src-en/data/events_special_storage.xml.append:4887
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_OXYGENIZER_ACTIVATE\"]/choice[@req=\"loc_environment_atmosphere\""
 " and @lvl=\"0\"]/event/choice/text"
 msgstr "This will give us the advantage!"
 
-#: src-en/data/events_special_storage.xml.append:4827
+#: src-en/data/events_special_storage.xml.append:4893
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_OXYGENIZER_ACTIVATE\"]/choice[@req=\"loc_environment_atmosphere\""
 " and not(@lvl)]/text"
 msgstr "You're already in atmosphere!"
 
-#: src-en/data/events_special_storage.xml.append:4832
+#: src-en/data/events_special_storage.xml.append:4898
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_OXYGENIZER_ACTIVATE\"]/choice[3]/text"
 msgstr "Do something else instead."
 
-#: src-en/data/events_special_storage.xml.append:4836
+#: src-en/data/events_special_storage.xml.append:4902
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_OXYGENIZER_ACTIVATE\"]/choice[4]/text"
 msgstr "Nevermind, let's fight!"
 
-#: src-en/data/events_special_storage.xml.append:4869
+#: src-en/data/events_special_storage.xml.append:4935
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_OXYGENIZER_ACTIVATE_IN_EMPTY\"]/text"
 msgstr ""
 "Are you sure you want to do this?\n"
 "\t[Will envelop your ship in an O2 atmosphere, protecting fires and crew from venting and breaches. Costs 1}]"
 
-#: src-en/data/events_special_storage.xml.append:4873
+#: src-en/data/events_special_storage.xml.append:4939
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_OXYGENIZER_ACTIVATE_IN_EMPTY\"]/choice[@req=\"loc_environment_atmosphere\""
 " and @lvl=\"0\"]/text"
 msgstr "Yes."
 
-#: src-en/data/events_special_storage.xml.append:4875
+#: src-en/data/events_special_storage.xml.append:4941
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_OXYGENIZER_ACTIVATE_IN_EMPTY\"]/choice[@req=\"loc_environment_atmosphere\""
 " and @lvl=\"0\"]/event/text"
@@ -2610,122 +2630,122 @@ msgstr ""
 "You fire the flash-release ultracompressed O2 grenades, enveloping the whole"
 " area in just enough atmosphere to breathe... or sustain fires!"
 
-#: src-en/data/events_special_storage.xml.append:4885
+#: src-en/data/events_special_storage.xml.append:4951
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_OXYGENIZER_ACTIVATE_IN_EMPTY\"]/choice[@req=\"loc_environment_atmosphere\""
 " and @lvl=\"0\"]/event/choice/text"
 msgstr "Ahhh, fresh air!"
 
-#: src-en/data/events_special_storage.xml.append:4891
+#: src-en/data/events_special_storage.xml.append:4957
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_OXYGENIZER_ACTIVATE_IN_EMPTY\"]/choice[@req=\"loc_environment_atmosphere\""
 " and not(@lvl)]/text"
 msgstr "You're already in atmosphere!"
 
-#: src-en/data/events_special_storage.xml.append:4896
+#: src-en/data/events_special_storage.xml.append:4962
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_OXYGENIZER_ACTIVATE_IN_EMPTY\"]/choice[3]/text"
 msgstr "Nevermind, do something else."
 
-#: src-en/data/events_special_storage.xml.append:4913
+#: src-en/data/events_special_storage.xml.append:4979
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_CHECK_AUTO_SYS_REPAIR\"]/text"
 msgstr ""
 "Are you sure you want to do this?\n"
 "\t[If hull reaches 9 points or less, get full system repairs, 15 hull repair, and lose the augment. Uses 1 power.]"
 
-#: src-en/data/events_special_storage.xml.append:4917
+#: src-en/data/events_special_storage.xml.append:4983
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_CHECK_AUTO_SYS_REPAIR\"]/choice[@req=\"reactor\"]/text"
 msgstr "Yes"
 
-#: src-en/data/events_special_storage.xml.append:4919
+#: src-en/data/events_special_storage.xml.append:4985
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_CHECK_AUTO_SYS_REPAIR\"]/choice[@req=\"reactor\"]/event/text"
 msgstr "You activate the augment..."
 
-#: src-en/data/events_special_storage.xml.append:4931
+#: src-en/data/events_special_storage.xml.append:4997
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_CHECK_AUTO_SYS_REPAIR\"]/choice[@req=\"reactor\"]/event/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_special_storage.xml.append:4940
+#: src-en/data/events_special_storage.xml.append:5006
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_CHECK_AUTO_SYS_REPAIR\"]/choice[@req=\"DEBUG_GENERATOR\"]/text"
 msgstr "Power the augment with the Emergency Generator."
 
-#: src-en/data/events_special_storage.xml.append:4942
+#: src-en/data/events_special_storage.xml.append:5008
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_CHECK_AUTO_SYS_REPAIR\"]/choice[@req=\"DEBUG_GENERATOR\"]/event/text"
 msgstr "You activate the augment, fully powered by the Emergency Generator..."
 
-#: src-en/data/events_special_storage.xml.append:4949
+#: src-en/data/events_special_storage.xml.append:5015
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_CHECK_AUTO_SYS_REPAIR\"]/choice[@req=\"DEBUG_GENERATOR\"]/event/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_special_storage.xml.append:4956
+#: src-en/data/events_special_storage.xml.append:5022
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_CHECK_AUTO_SYS_REPAIR\"]/choice[3]/text"
 msgstr "Do something else instead."
 
-#: src-en/data/events_special_storage.xml.append:4960
+#: src-en/data/events_special_storage.xml.append:5026
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_CHECK_AUTO_SYS_REPAIR\"]/choice[4]/text"
 msgstr "Nevermind, let's fight!"
 
-#: src-en/data/events_special_storage.xml.append:4962
+#: src-en/data/events_special_storage.xml.append:5028
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_CHECK_AUTO_SYS_REPAIR\"]/choice[4]/event/text"
 msgstr "You decide not to do anything and prepare to fight."
 
-#: src-en/data/events_special_storage.xml.append:4980
+#: src-en/data/events_special_storage.xml.append:5046
 msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/event[@name=\"RK_COMBAT_AUTO_SYS_REPAIR_TRIGGERED_SUCCESS\"]/text"
 msgstr ""
 "All throughout your ship, you suddenly hear the reassuring sound of "
 "\"A.E.R.A Second Wind\" nanomachine bursts instantly repairing your systems!"
 
-#: src-en/data/events_special_storage.xml.append:4986
+#: src-en/data/events_special_storage.xml.append:5052
 msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/event[@name=\"RK_COMBAT_AUTO_SYS_REPAIR_TRIGGERED_SUCCESS\"]/choice[@req=\"pilot\"]/text"
 msgstr "That's good."
 
-#: src-en/data/events_special_storage.xml.append:4989
+#: src-en/data/events_special_storage.xml.append:5055
 msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/event[@name=\"RK_COMBAT_AUTO_SYS_REPAIR_TRIGGERED_SUCCESS\"]/choice[@req=\"pilot\"]/event/text"
 msgstr ""
 "The rest of the nanomachines hastily patch up your hull before ceasing to "
 "function."
 
-#: src-en/data/events_special_storage.xml.append:4995
+#: src-en/data/events_special_storage.xml.append:5061
 msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/event[@name=\"RK_COMBAT_AUTO_SYS_REPAIR_TRIGGERED_SUCCESS\"]/choice[@req=\"pilot\"]/event/choice/text"
 msgstr "Continue to the fight!"
 
-#: src-en/data/events_special_storage.xml.append:5021
+#: src-en/data/events_special_storage.xml.append:5087
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_ACTIVATE\"]/text"
 msgstr ""
 "Are you sure you want to do this?\n"
 "\t[Attempt special hacking to delay the Rebel fleet]"
 
-#: src-en/data/events_special_storage.xml.append:5025
+#: src-en/data/events_special_storage.xml.append:5091
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_ACTIVATE\"]/choice[1]/text"
 msgstr "Yes, free 17 seconds hack."
 
-#: src-en/data/events_special_storage.xml.append:5027
+#: src-en/data/events_special_storage.xml.append:5093
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_ACTIVATE\"]/choice[1]/event/text"
 msgstr "You activate the augment..."
 
-#: src-en/data/events_special_storage.xml.append:5030
+#: src-en/data/events_special_storage.xml.append:5096
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_ACTIVATE\"]/choice[1]/event/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_special_storage.xml.append:5037
+#: src-en/data/events_special_storage.xml.append:5103
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_ACTIVATE\"]/choice[@req=\"HAS_HACKING_OR_LILY_ECM\""
 " and @lvl=\"0\"]/text"
@@ -2733,207 +2753,207 @@ msgstr ""
 "Install a Hacking system (or ECM Suite from \"Lily's Innovations\") for more"
 " options."
 
-#: src-en/data/events_special_storage.xml.append:5043
+#: src-en/data/events_special_storage.xml.append:5109
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_ACTIVATE\"]/choice[3]/text"
 msgstr "(Hacking level 1, 1|) 14 seconds hack."
 
-#: src-en/data/events_special_storage.xml.append:5045
+#: src-en/data/events_special_storage.xml.append:5111
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_ACTIVATE\"]/choice[3]/event/text"
 msgstr "You activate the augment..."
 
-#: src-en/data/events_special_storage.xml.append:5054
+#: src-en/data/events_special_storage.xml.append:5120
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_ACTIVATE\"]/choice[3]/event/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_special_storage.xml.append:5061
+#: src-en/data/events_special_storage.xml.append:5127
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_ACTIVATE\"]/choice[@req=\"HAS_HACKING_OR_LILY_ECM\""
 " and @lvl=\"2\"]/text"
 msgstr "(Hacking level 2, 2|) 9 seconds hack."
 
-#: src-en/data/events_special_storage.xml.append:5063
+#: src-en/data/events_special_storage.xml.append:5129
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_ACTIVATE\"]/choice[@req=\"HAS_HACKING_OR_LILY_ECM\""
 " and @lvl=\"2\"]/event/text"
 msgstr "You activate the augment..."
 
-#: src-en/data/events_special_storage.xml.append:5072
+#: src-en/data/events_special_storage.xml.append:5138
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_ACTIVATE\"]/choice[@req=\"HAS_HACKING_OR_LILY_ECM\""
 " and @lvl=\"2\"]/event/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_special_storage.xml.append:5079
+#: src-en/data/events_special_storage.xml.append:5145
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_ACTIVATE\"]/choice[5]/text"
 msgstr "You need a stronger Hacking (or ECM Suite) system for more options."
 
-#: src-en/data/events_special_storage.xml.append:5084
+#: src-en/data/events_special_storage.xml.append:5150
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_ACTIVATE\"]/choice[@req=\"HAS_HACKING_OR_LILY_ECM\""
 " and @lvl=\"3\"]/text"
 msgstr "(Hacking level 3, 3|) instant hack."
 
-#: src-en/data/events_special_storage.xml.append:5086
+#: src-en/data/events_special_storage.xml.append:5152
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_ACTIVATE\"]/choice[@req=\"HAS_HACKING_OR_LILY_ECM\""
 " and @lvl=\"3\"]/event/text"
 msgstr "You activate the augment..."
 
-#: src-en/data/events_special_storage.xml.append:5094
+#: src-en/data/events_special_storage.xml.append:5160
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_ACTIVATE\"]/choice[@req=\"HAS_HACKING_OR_LILY_ECM\""
 " and @lvl=\"3\"]/event/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_special_storage.xml.append:5101
+#: src-en/data/events_special_storage.xml.append:5167
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_ACTIVATE\"]/choice[7]/text"
 msgstr "Do something else instead."
 
-#: src-en/data/events_special_storage.xml.append:5105
+#: src-en/data/events_special_storage.xml.append:5171
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_ACTIVATE\"]/choice[8]/text"
 msgstr "Nevermind, let's fight!"
 
-#: src-en/data/events_special_storage.xml.append:5107
+#: src-en/data/events_special_storage.xml.append:5173
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_ACTIVATE\"]/choice[8]/event/text"
 msgstr "You decide not to do anything and prepare to fight."
 
-#: src-en/data/events_special_storage.xml.append:5113
+#: src-en/data/events_special_storage.xml.append:5179
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_TIMER_START\"]/text"
 msgstr ""
 "You start breaking into the enemy's comms. Now survive without defeating the"
 " enemy too fast..."
 
-#: src-en/data/events_special_storage.xml.append:5119
+#: src-en/data/events_special_storage.xml.append:5185
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_TIMER_START\"]/triggeredEvent/triggeredEventBox/tooltip"
 msgstr ""
 "The fleet delaying hack succeeds or fails in this amount of time. Cancelled "
 "if you defeat the enemy."
 
-#: src-en/data/events_special_storage.xml.append:5129
+#: src-en/data/events_special_storage.xml.append:5195
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_TIMER_START\"]/choice/text"
 msgstr "Continue to the fight!"
 
-#: src-en/data/events_special_storage.xml.append:5134
+#: src-en/data/events_special_storage.xml.append:5200
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_TIMER_END\"]/text"
 msgstr "The process is complete!"
 
-#: src-en/data/events_special_storage.xml.append:5141
+#: src-en/data/events_special_storage.xml.append:5207
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_TIMER_END\"]/choice/text"
 msgstr "Let's see if it worked..."
 
-#: src-en/data/events_special_storage.xml.append:5178
+#: src-en/data/events_special_storage.xml.append:5244
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_TIMER_START_BONUS1\"]/text"
 msgstr ""
 "You start breaking into the enemy's comms. Now survive without defeating the"
 " enemy too fast..."
 
-#: src-en/data/events_special_storage.xml.append:5184
+#: src-en/data/events_special_storage.xml.append:5250
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_TIMER_START_BONUS1\"]/triggeredEvent/triggeredEventBox/tooltip"
 msgstr ""
 "The fleet delaying hack succeeds or fails in this amount of time. Cancelled "
 "if you defeat the enemy."
 
-#: src-en/data/events_special_storage.xml.append:5194
+#: src-en/data/events_special_storage.xml.append:5260
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_TIMER_START_BONUS1\"]/choice/text"
 msgstr "Continue to the fight!"
 
-#: src-en/data/events_special_storage.xml.append:5199
+#: src-en/data/events_special_storage.xml.append:5265
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_TIMER_END_BONUS1\"]/text"
 msgstr "The process is complete!"
 
-#: src-en/data/events_special_storage.xml.append:5206
+#: src-en/data/events_special_storage.xml.append:5272
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_TIMER_END_BONUS1\"]/choice/text"
 msgstr "Let's see if it worked..."
 
-#: src-en/data/events_special_storage.xml.append:5244
+#: src-en/data/events_special_storage.xml.append:5310
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_TIMER_START_BONUS2\"]/text"
 msgstr ""
 "You start breaking into the enemy's comms. Now survive without defeating the"
 " enemy too fast..."
 
-#: src-en/data/events_special_storage.xml.append:5250
+#: src-en/data/events_special_storage.xml.append:5316
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_TIMER_START_BONUS2\"]/triggeredEvent/triggeredEventBox/tooltip"
 msgstr ""
 "The fleet delaying hack succeeds or fails in this amount of time. Cancelled "
 "if you defeat the enemy."
 
-#: src-en/data/events_special_storage.xml.append:5260
+#: src-en/data/events_special_storage.xml.append:5326
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_TIMER_START_BONUS2\"]/choice/text"
 msgstr "Continue to the fight!"
 
-#: src-en/data/events_special_storage.xml.append:5265
+#: src-en/data/events_special_storage.xml.append:5331
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_TIMER_END_BONUS2\"]/text"
 msgstr "The process is complete!"
 
-#: src-en/data/events_special_storage.xml.append:5272
+#: src-en/data/events_special_storage.xml.append:5338
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_TIMER_END_BONUS2\"]/choice/text"
 msgstr "Let's see if it worked..."
 
-#: src-en/data/events_special_storage.xml.append:5342
+#: src-en/data/events_special_storage.xml.append:5408
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_OUTCOME_GOOD_CRITICAL\"]/text"
 msgstr "Hehe, they really bought it! This hack gives us a solid advance."
 
-#: src-en/data/events_special_storage.xml.append:5345
+#: src-en/data/events_special_storage.xml.append:5411
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_OUTCOME_GOOD_CRITICAL\"]/choice/text"
 msgstr "Continue to the fight!"
 
-#: src-en/data/events_special_storage.xml.append:5350
+#: src-en/data/events_special_storage.xml.append:5416
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_OUTCOME_GOOD\"]/text"
 msgstr "They fell for it! At least we get some rest out of this."
 
-#: src-en/data/events_special_storage.xml.append:5353
+#: src-en/data/events_special_storage.xml.append:5419
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_OUTCOME_GOOD\"]/choice/text"
 msgstr "Continue to the fight!"
 
-#: src-en/data/events_special_storage.xml.append:5358
+#: src-en/data/events_special_storage.xml.append:5424
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_OUTCOME_NEUTRAL\"]/text"
 msgstr "Unfortunately, they didn't fall for the hack this time."
 
-#: src-en/data/events_special_storage.xml.append:5360
+#: src-en/data/events_special_storage.xml.append:5426
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_OUTCOME_NEUTRAL\"]/choice/text"
 msgstr "Continue to the fight!"
 
-#: src-en/data/events_special_storage.xml.append:5365
+#: src-en/data/events_special_storage.xml.append:5431
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_OUTCOME_BAD\"]/text"
 msgstr ""
 "This hack went terribly wrong, and their comms countered by giving away our "
 "location!"
 
-#: src-en/data/events_special_storage.xml.append:5368
+#: src-en/data/events_special_storage.xml.append:5434
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_OUTCOME_BAD\"]/choice/text"
 msgstr "Continue to the fight!"
 
-#: src-en/data/events_special_storage.xml.append:5373
+#: src-en/data/events_special_storage.xml.append:5439
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_OUTCOME_BOSS\"]/text"
 msgstr ""
@@ -2941,19 +2961,19 @@ msgstr ""
 "\t\t\n"
 "\t\tSomeone interfered, and sent us strange coordinates with this attached: \"N00bs!!1!\"."
 
-#: src-en/data/events_special_storage.xml.append:5380
+#: src-en/data/events_special_storage.xml.append:5446
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_HACK_FLEET_OUTCOME_BOSS\"]/choice/text"
 msgstr "Weird, but we'll deal with that later. Continue to the fight!"
 
-#: src-en/data/events_special_storage.xml.append:5410
+#: src-en/data/events_special_storage.xml.append:5476
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_HACK_FLEET_BOSS\"]/beaconType/unvisitedTooltip"
 msgstr ""
 "Someone dangerous enough to stop a strong RK Enigmashin hack dares you to "
 "come!"
 
-#: src-en/data/events_special_storage.xml.append:5413
+#: src-en/data/events_special_storage.xml.append:5479
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_HACK_FLEET_BOSS\"]/text"
 msgstr ""
@@ -2965,12 +2985,12 @@ msgstr ""
 "\n"
 "\t\tSo as a show of friendly rivalry, let me show you how it's done! Right before we murder you.\""
 
-#: src-en/data/events_special_storage.xml.append:5424
+#: src-en/data/events_special_storage.xml.append:5490
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_HACK_FLEET_BOSS\"]/choice[1]/text"
 msgstr "A challenge, then? Let's go!"
 
-#: src-en/data/events_special_storage.xml.append:5426
+#: src-en/data/events_special_storage.xml.append:5492
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_HACK_FLEET_BOSS\"]/choice[1]/event/text"
 msgstr ""
@@ -2978,34 +2998,34 @@ msgstr ""
 "\n"
 "\t\t\t\tYou immediately notice malfunctions in many of your ship's systems! They must be using a combat augment! You probably expected that a hacker ship wouldn't play fair, but if you didn't, it's high time to consider a quick escape before something [style[color:ff3377]]worse[[/style]] happens."
 
-#: src-en/data/events_special_storage.xml.append:5441
+#: src-en/data/events_special_storage.xml.append:5507
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_HACK_FLEET_BOSS\"]/choice[1]/event/choice[1]/text"
 msgstr "Continue..."
 
-#: src-en/data/events_special_storage.xml.append:5446
+#: src-en/data/events_special_storage.xml.append:5512
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_HACK_FLEET_BOSS\"]/choice[1]/event/choice[@req=\"ANTI_VIRUS\"]/text"
 msgstr "(Anti-Virus) Restore your systems."
 
-#: src-en/data/events_special_storage.xml.append:5448
+#: src-en/data/events_special_storage.xml.append:5514
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_HACK_FLEET_BOSS\"]/choice[1]/event/choice[@req=\"ANTI_VIRUS\"]/event/text"
 msgstr "Your systems are restored to full power."
 
-#: src-en/data/events_special_storage.xml.append:5458
+#: src-en/data/events_special_storage.xml.append:5524
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_HACK_FLEET_BOSS\"]/choice[1]/event/choice[@req=\"ANTI_VIRUS\"]/event/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_special_storage.xml.append:5467
+#: src-en/data/events_special_storage.xml.append:5533
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_HACK_FLEET_BOSS\"]/choice[2]/text"
 msgstr ""
 "We have learned our lesson, we beg you to let us go! Here's tribute for you "
 "and the Rebellion as proof."
 
-#: src-en/data/events_special_storage.xml.append:5479
+#: src-en/data/events_special_storage.xml.append:5545
 msgid ""
 "data/events_special_storage.xml.append$//ship[@name=\"SHIP_RK_HACK_FLEET_BOSS\"]/surrender/text"
 msgstr ""
@@ -3013,39 +3033,39 @@ msgstr ""
 "\n"
 "\t\t\tStronger malfunctions affect even more of your ship's systems!"
 
-#: src-en/data/events_special_storage.xml.append:5518
+#: src-en/data/events_special_storage.xml.append:5584
 msgid ""
 "data/events_special_storage.xml.append$//ship[@name=\"SHIP_RK_HACK_FLEET_BOSS\"]/surrender/choice[1]/text"
 msgstr "Continue..."
 
-#: src-en/data/events_special_storage.xml.append:5523
+#: src-en/data/events_special_storage.xml.append:5589
 msgid ""
 "data/events_special_storage.xml.append$//ship[@name=\"SHIP_RK_HACK_FLEET_BOSS\"]/surrender/choice[@req=\"ANTI_VIRUS\"]/text"
 msgstr "(Anti-Virus) Restore your systems."
 
-#: src-en/data/events_special_storage.xml.append:5525
+#: src-en/data/events_special_storage.xml.append:5591
 msgid ""
 "data/events_special_storage.xml.append$//ship[@name=\"SHIP_RK_HACK_FLEET_BOSS\"]/surrender/choice[@req=\"ANTI_VIRUS\"]/event/text"
 msgstr "Your systems are restored to full power."
 
-#: src-en/data/events_special_storage.xml.append:5559
+#: src-en/data/events_special_storage.xml.append:5625
 msgid ""
 "data/events_special_storage.xml.append$//ship[@name=\"SHIP_RK_HACK_FLEET_BOSS\"]/surrender/choice[@req=\"ANTI_VIRUS\"]/event/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_special_storage.xml.append:5566
+#: src-en/data/events_special_storage.xml.append:5632
 msgid ""
 "data/events_special_storage.xml.append$//ship[@name=\"SHIP_RK_HACK_FLEET_BOSS\"]/destroyed/text"
 msgstr ""
 "The MFK Hacker breaks apart and you quickly salvage a great amount of "
 "things!"
 
-#: src-en/data/events_special_storage.xml.append:5604
+#: src-en/data/events_special_storage.xml.append:5670
 msgid ""
 "data/events_special_storage.xml.append$//ship[@name=\"SHIP_RK_HACK_FLEET_BOSS\"]/destroyed/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_special_storage.xml.append:5606
+#: src-en/data/events_special_storage.xml.append:5672
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"SHIP_RK_HACK_FLEET_BOSS_REWARD_CHOICES\"]/text"
 msgstr ""
@@ -3054,595 +3074,595 @@ msgstr ""
 "\t\t\t\t\tAnalyzing the wreck, you understand that an internal apparatus can let you extract something from the ship, but then everything will blow up.\n"
 "\t\t\t\t\tWhat do you pick?"
 
-#: src-en/data/events_special_storage.xml.append:5613
+#: src-en/data/events_special_storage.xml.append:5679
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"SHIP_RK_HACK_FLEET_BOSS_REWARD_CHOICES\"]/choice[1]/text"
 msgstr "\"Gungnir\""
 
-#: src-en/data/events_special_storage.xml.append:5615
+#: src-en/data/events_special_storage.xml.append:5681
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"SHIP_RK_HACK_FLEET_BOSS_REWARD_CHOICES\"]/choice[1]/event/text"
 msgstr "You extract the weapon and get away before everything blows up."
 
-#: src-en/data/events_special_storage.xml.append:5619
+#: src-en/data/events_special_storage.xml.append:5685
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"SHIP_RK_HACK_FLEET_BOSS_REWARD_CHOICES\"]/choice[1]/event/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_special_storage.xml.append:5626
+#: src-en/data/events_special_storage.xml.append:5692
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"SHIP_RK_HACK_FLEET_BOSS_REWARD_CHOICES\"]/choice[2]/text"
 msgstr "\"Hacker Ace's Console\""
 
-#: src-en/data/events_special_storage.xml.append:5628
+#: src-en/data/events_special_storage.xml.append:5694
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"SHIP_RK_HACK_FLEET_BOSS_REWARD_CHOICES\"]/choice[2]/event/text"
 msgstr "You extract the augment and get away before everything blows up."
 
-#: src-en/data/events_special_storage.xml.append:5632
+#: src-en/data/events_special_storage.xml.append:5698
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"SHIP_RK_HACK_FLEET_BOSS_REWARD_CHOICES\"]/choice[2]/event/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_special_storage.xml.append:5639
+#: src-en/data/events_special_storage.xml.append:5705
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"SHIP_RK_HACK_FLEET_BOSS_REWARD_CHOICES\"]/choice[3]/text"
 msgstr "Nothing"
 
-#: src-en/data/events_special_storage.xml.append:5646
+#: src-en/data/events_special_storage.xml.append:5712
 msgid ""
 "data/events_special_storage.xml.append$//ship[@name=\"SHIP_RK_HACK_FLEET_BOSS\"]/deadCrew/text"
 msgstr ""
 "With the crew dead you quickly salvage a great amount of things from the MFK"
 " Hacker ship!"
 
-#: src-en/data/events_special_storage.xml.append:5684
+#: src-en/data/events_special_storage.xml.append:5750
 msgid ""
 "data/events_special_storage.xml.append$//ship[@name=\"SHIP_RK_HACK_FLEET_BOSS\"]/deadCrew/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_special_storage.xml.append:5701
+#: src-en/data/events_special_storage.xml.append:5767
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_ACE_CONSOLE_ACTIVATE\"]/text"
 msgstr ""
 "Are you sure you want to do this?\n"
 "\t[Limit multiple enemy systems for the rest of the fight]"
 
-#: src-en/data/events_special_storage.xml.append:5705
+#: src-en/data/events_special_storage.xml.append:5771
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_ACE_CONSOLE_ACTIVATE\"]/choice[1]/text"
 msgstr "Yes, free limiting."
 
-#: src-en/data/events_special_storage.xml.append:5707
+#: src-en/data/events_special_storage.xml.append:5773
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_ACE_CONSOLE_ACTIVATE\"]/choice[1]/event/text"
 msgstr "You activate the augment..."
 
-#: src-en/data/events_special_storage.xml.append:5710
+#: src-en/data/events_special_storage.xml.append:5776
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_ACE_CONSOLE_ACTIVATE\"]/choice[1]/event/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_special_storage.xml.append:5718
+#: src-en/data/events_special_storage.xml.append:5784
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_ACE_CONSOLE_ACTIVATE\"]/choice[2]/text"
 msgstr "Yes, strong limiting! [Uses 3| and 2 reactor power]"
 
-#: src-en/data/events_special_storage.xml.append:5720
+#: src-en/data/events_special_storage.xml.append:5786
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_ACE_CONSOLE_ACTIVATE\"]/choice[2]/event/text"
 msgstr "You activate the augment..."
 
-#: src-en/data/events_special_storage.xml.append:5728
+#: src-en/data/events_special_storage.xml.append:5794
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_ACE_CONSOLE_ACTIVATE\"]/choice[2]/event/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_special_storage.xml.append:5734
+#: src-en/data/events_special_storage.xml.append:5800
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_ACE_CONSOLE_ACTIVATE\"]/choice[@req=\"DEBUG_GENERATOR\"]/text"
 msgstr "Power the augment with the Emergency Generator."
 
-#: src-en/data/events_special_storage.xml.append:5736
+#: src-en/data/events_special_storage.xml.append:5802
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_ACE_CONSOLE_ACTIVATE\"]/choice[@req=\"DEBUG_GENERATOR\"]/event/text"
 msgstr "You activate the augment..."
 
-#: src-en/data/events_special_storage.xml.append:5742
+#: src-en/data/events_special_storage.xml.append:5808
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_ACE_CONSOLE_ACTIVATE\"]/choice[@req=\"DEBUG_GENERATOR\"]/event/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_special_storage.xml.append:5749
+#: src-en/data/events_special_storage.xml.append:5815
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_ACE_CONSOLE_ACTIVATE\"]/choice[4]/text"
 msgstr "Do something else instead."
 
-#: src-en/data/events_special_storage.xml.append:5753
+#: src-en/data/events_special_storage.xml.append:5819
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_ACE_CONSOLE_ACTIVATE\"]/choice[5]/text"
 msgstr "Nevermind, let's fight!"
 
-#: src-en/data/events_special_storage.xml.append:5755
+#: src-en/data/events_special_storage.xml.append:5821
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_ACE_CONSOLE_ACTIVATE\"]/choice[5]/event/text"
 msgstr "You decide not to do anything and prepare to fight."
 
-#: src-en/data/events_special_storage.xml.append:5847
+#: src-en/data/events_special_storage.xml.append:5913
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_COMBAT_CHECK_OFFENSE_DISABLER\"]/text"
 msgstr ""
 "Are you sure you want to do this?\n"
 "\t[Disables enemy offensive systems, then the effect weakens increasingly quickly. Uses 2 | and 3 reactor power]"
 
-#: src-en/data/events_special_storage.xml.append:5851
+#: src-en/data/events_special_storage.xml.append:5917
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_COMBAT_CHECK_OFFENSE_DISABLER\"]/choice[@req=\"reactor\"]/text"
 msgstr "Yes"
 
-#: src-en/data/events_special_storage.xml.append:5853
+#: src-en/data/events_special_storage.xml.append:5919
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_COMBAT_CHECK_OFFENSE_DISABLER\"]/choice[@req=\"reactor\"]/event/text"
 msgstr "You activate the augment..."
 
-#: src-en/data/events_special_storage.xml.append:5861
+#: src-en/data/events_special_storage.xml.append:5927
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_COMBAT_CHECK_OFFENSE_DISABLER\"]/choice[@req=\"reactor\"]/event/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_special_storage.xml.append:5867
+#: src-en/data/events_special_storage.xml.append:5933
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_COMBAT_CHECK_OFFENSE_DISABLER\"]/choice[@req=\"DEBUG_GENERATOR\"]/text"
 msgstr "Power the augment with the Emergency Generator."
 
-#: src-en/data/events_special_storage.xml.append:5869
+#: src-en/data/events_special_storage.xml.append:5935
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_COMBAT_CHECK_OFFENSE_DISABLER\"]/choice[@req=\"DEBUG_GENERATOR\"]/event/text"
 msgstr "You activate the augment..."
 
-#: src-en/data/events_special_storage.xml.append:5875
+#: src-en/data/events_special_storage.xml.append:5941
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_COMBAT_CHECK_OFFENSE_DISABLER\"]/choice[@req=\"DEBUG_GENERATOR\"]/event/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_special_storage.xml.append:5882
+#: src-en/data/events_special_storage.xml.append:5948
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_COMBAT_CHECK_OFFENSE_DISABLER\"]/choice[3]/text"
 msgstr "Do something else instead."
 
-#: src-en/data/events_special_storage.xml.append:5886
+#: src-en/data/events_special_storage.xml.append:5952
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_COMBAT_CHECK_OFFENSE_DISABLER\"]/choice[4]/text"
 msgstr "Nevermind, let's fight!"
 
-#: src-en/data/events_special_storage.xml.append:5888
+#: src-en/data/events_special_storage.xml.append:5954
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_COMBAT_CHECK_OFFENSE_DISABLER\"]/choice[4]/event/text"
 msgstr "You decide not to do anything and prepare to fight."
 
-#: src-en/data/events_special_storage.xml.append:5894
+#: src-en/data/events_special_storage.xml.append:5960
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_OFFENSE_DISABLER_TIMER_START\"]/text"
 msgstr "The enemy's offense is disabled, make it count..."
 
-#: src-en/data/events_special_storage.xml.append:5904
+#: src-en/data/events_special_storage.xml.append:5970
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_OFFENSE_DISABLER_TIMER_START\"]/triggeredEvent/triggeredEventBox/tooltip"
 msgstr "The enemy's offense is fully restored in this amount of time."
 
-#: src-en/data/events_special_storage.xml.append:5913
+#: src-en/data/events_special_storage.xml.append:5979
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_OFFENSE_DISABLER_TIMER_START\"]/choice/text"
 msgstr "Continue to the fight!"
 
-#: src-en/data/events_special_storage.xml.append:6072
+#: src-en/data/events_special_storage.xml.append:6138
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_COMBAT_CHECK_DEFENSE_REMOVER\"]/text"
 msgstr ""
 "Are you sure you want to do this?\n"
 "\t[Reduces enemy Engines, Shields, and Ablative Armor (from Lily's Innovations) every 3 to 7 seconds (at random). Uses 3 reactor power]"
 
-#: src-en/data/events_special_storage.xml.append:6076
+#: src-en/data/events_special_storage.xml.append:6142
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_COMBAT_CHECK_DEFENSE_REMOVER\"]/choice[1]/text"
 msgstr "Power the augment with the Emergency Generator, for 40 seconds."
 
-#: src-en/data/events_special_storage.xml.append:6078
+#: src-en/data/events_special_storage.xml.append:6144
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_COMBAT_CHECK_DEFENSE_REMOVER\"]/choice[1]/event/text"
 msgstr "You activate the augment..."
 
-#: src-en/data/events_special_storage.xml.append:6084
+#: src-en/data/events_special_storage.xml.append:6150
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_COMBAT_CHECK_DEFENSE_REMOVER\"]/choice[1]/event/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_special_storage.xml.append:6090
+#: src-en/data/events_special_storage.xml.append:6156
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_COMBAT_CHECK_DEFENSE_REMOVER\"]/choice[2]/text"
 msgstr "Yes, for 40 seconds"
 
-#: src-en/data/events_special_storage.xml.append:6092
+#: src-en/data/events_special_storage.xml.append:6158
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_COMBAT_CHECK_DEFENSE_REMOVER\"]/choice[2]/event/text"
 msgstr "You activate the augment..."
 
-#: src-en/data/events_special_storage.xml.append:6100
+#: src-en/data/events_special_storage.xml.append:6166
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_COMBAT_CHECK_DEFENSE_REMOVER\"]/choice[2]/event/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_special_storage.xml.append:6107
+#: src-en/data/events_special_storage.xml.append:6173
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_COMBAT_CHECK_DEFENSE_REMOVER\"]/choice[3]/text"
 msgstr "Power the augment with the Emergency Generator, for 75 seconds."
 
-#: src-en/data/events_special_storage.xml.append:6109
+#: src-en/data/events_special_storage.xml.append:6175
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_COMBAT_CHECK_DEFENSE_REMOVER\"]/choice[3]/event/text"
 msgstr "You activate the augment..."
 
-#: src-en/data/events_special_storage.xml.append:6115
+#: src-en/data/events_special_storage.xml.append:6181
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_COMBAT_CHECK_DEFENSE_REMOVER\"]/choice[3]/event/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_special_storage.xml.append:6121
+#: src-en/data/events_special_storage.xml.append:6187
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_COMBAT_CHECK_DEFENSE_REMOVER\"]/choice[4]/text"
 msgstr "Yes, for 75 seconds"
 
-#: src-en/data/events_special_storage.xml.append:6123
+#: src-en/data/events_special_storage.xml.append:6189
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_COMBAT_CHECK_DEFENSE_REMOVER\"]/choice[4]/event/text"
 msgstr "You activate the augment..."
 
-#: src-en/data/events_special_storage.xml.append:6131
+#: src-en/data/events_special_storage.xml.append:6197
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_COMBAT_CHECK_DEFENSE_REMOVER\"]/choice[4]/event/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_special_storage.xml.append:6138
+#: src-en/data/events_special_storage.xml.append:6204
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_COMBAT_CHECK_DEFENSE_REMOVER\"]/choice[5]/text"
 msgstr "Do something else instead."
 
-#: src-en/data/events_special_storage.xml.append:6142
+#: src-en/data/events_special_storage.xml.append:6208
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_COMBAT_CHECK_DEFENSE_REMOVER\"]/choice[6]/text"
 msgstr "Nevermind, let's fight!"
 
-#: src-en/data/events_special_storage.xml.append:6144
+#: src-en/data/events_special_storage.xml.append:6210
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_COMBAT_CHECK_DEFENSE_REMOVER\"]/choice[6]/event/text"
 msgstr "You decide not to do anything and prepare to fight."
 
-#: src-en/data/events_special_storage.xml.append:6150
+#: src-en/data/events_special_storage.xml.append:6216
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_DEFENSE_REMOVER_TIMER_START_LOW\"]/text"
 msgstr "The enemy's defense will slowly be removed. Survive!"
 
-#: src-en/data/events_special_storage.xml.append:6157
+#: src-en/data/events_special_storage.xml.append:6223
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_DEFENSE_REMOVER_TIMER_START_LOW\"]/triggeredEvent/triggeredEventBox/tooltip"
 msgstr "The enemy's defenses stop being limited in this amount of time."
 
-#: src-en/data/events_special_storage.xml.append:6166
+#: src-en/data/events_special_storage.xml.append:6232
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_DEFENSE_REMOVER_TIMER_START_LOW\"]/choice/text"
 msgstr "Continue to the fight!"
 
-#: src-en/data/events_special_storage.xml.append:6174
+#: src-en/data/events_special_storage.xml.append:6240
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_DEFENSE_REMOVER_TIMER_START_HIGH\"]/text"
 msgstr "The enemy's defense will slowly be removed. Survive!"
 
-#: src-en/data/events_special_storage.xml.append:6181
+#: src-en/data/events_special_storage.xml.append:6247
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_DEFENSE_REMOVER_TIMER_START_HIGH\"]/triggeredEvent/triggeredEventBox/tooltip"
 msgstr "The enemy's defenses stop being limited in this amount of time."
 
-#: src-en/data/events_special_storage.xml.append:6190
+#: src-en/data/events_special_storage.xml.append:6256
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_COMBAT_DEFENSE_REMOVER_TIMER_START_HIGH\"]/choice/text"
 msgstr "Continue to the fight!"
 
-#: src-en/data/events_special_storage.xml.append:6385
+#: src-en/data/events_special_storage.xml.append:6451
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_FLAMMABILIZER_IMMUNE\"]/text"
 msgstr ""
 "What power do you want to set the augment to?\n"
 "\tCurrent mode: Removes fire immunity"
 
-#: src-en/data/events_special_storage.xml.append:6388
+#: src-en/data/events_special_storage.xml.append:6454
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_FLAMMABILIZER_IMMUNE\"]/choice[1]/text"
 msgstr "Set the augment to Damage Mode. [Enemies take more fire damage]"
 
-#: src-en/data/events_special_storage.xml.append:6390
+#: src-en/data/events_special_storage.xml.append:6456
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_FLAMMABILIZER_IMMUNE\"]/choice[1]/event/text"
 msgstr "You start calibrating the augment..."
 
-#: src-en/data/events_special_storage.xml.append:6393
+#: src-en/data/events_special_storage.xml.append:6459
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_FLAMMABILIZER_IMMUNE\"]/choice[1]/event/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_special_storage.xml.append:6395
+#: src-en/data/events_special_storage.xml.append:6461
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_FLAMMABILIZER_IMMUNE\"]/choice[1]/event/choice/event/text"
 msgstr "You finish calibrating the augment successfully."
 
-#: src-en/data/events_special_storage.xml.append:6398
+#: src-en/data/events_special_storage.xml.append:6464
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_FLAMMABILIZER_IMMUNE\"]/choice[1]/event/choice/event/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_special_storage.xml.append:6406
+#: src-en/data/events_special_storage.xml.append:6472
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_FLAMMABILIZER_IMMUNE\"]/choice[2]/text"
 msgstr "Return to the toggle menu."
 
-#: src-en/data/events_special_storage.xml.append:6411
+#: src-en/data/events_special_storage.xml.append:6477
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_FLAMMABILIZER_DAMAGE\"]/text"
 msgstr ""
 "What power do you want to set the augment to?\n"
 "\tCurrent mode: Enemies take more fire damage"
 
-#: src-en/data/events_special_storage.xml.append:6414
+#: src-en/data/events_special_storage.xml.append:6480
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_FLAMMABILIZER_DAMAGE\"]/choice[1]/text"
 msgstr "Set the augment to Immune Mode. [Removes fire immunity]"
 
-#: src-en/data/events_special_storage.xml.append:6416
+#: src-en/data/events_special_storage.xml.append:6482
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_FLAMMABILIZER_DAMAGE\"]/choice[1]/event/text"
 msgstr "You start calibrating the augment..."
 
-#: src-en/data/events_special_storage.xml.append:6419
+#: src-en/data/events_special_storage.xml.append:6485
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_FLAMMABILIZER_DAMAGE\"]/choice[1]/event/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_special_storage.xml.append:6421
+#: src-en/data/events_special_storage.xml.append:6487
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_FLAMMABILIZER_DAMAGE\"]/choice[1]/event/choice/event/text"
 msgstr "You finish calibrating the augment successfully."
 
-#: src-en/data/events_special_storage.xml.append:6424
+#: src-en/data/events_special_storage.xml.append:6490
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_FLAMMABILIZER_DAMAGE\"]/choice[1]/event/choice/event/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_special_storage.xml.append:6432
+#: src-en/data/events_special_storage.xml.append:6498
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_FLAMMABILIZER_DAMAGE\"]/choice[2]/text"
 msgstr "Return to the toggle menu."
 
-#: src-en/data/events_special_storage.xml.append:6448
+#: src-en/data/events_special_storage.xml.append:6514
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_HARMONY_ON\"]/text"
 msgstr ""
 "What power do you want to set the augment to?\n"
 "\tCurrent mode: Enabled (On)"
 
-#: src-en/data/events_special_storage.xml.append:6451
+#: src-en/data/events_special_storage.xml.append:6517
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_HARMONY_ON\"]/choice[1]/text"
 msgstr "Turn off the augment."
 
-#: src-en/data/events_special_storage.xml.append:6453
+#: src-en/data/events_special_storage.xml.append:6519
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_HARMONY_ON\"]/choice[1]/event/text"
 msgstr "You start calibrating the augment..."
 
-#: src-en/data/events_special_storage.xml.append:6456
+#: src-en/data/events_special_storage.xml.append:6522
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_HARMONY_ON\"]/choice[1]/event/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_special_storage.xml.append:6458
+#: src-en/data/events_special_storage.xml.append:6524
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_HARMONY_ON\"]/choice[1]/event/choice/event/text"
 msgstr "You finish calibrating the augment successfully."
 
-#: src-en/data/events_special_storage.xml.append:6461
+#: src-en/data/events_special_storage.xml.append:6527
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_HARMONY_ON\"]/choice[1]/event/choice/event/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_special_storage.xml.append:6470
+#: src-en/data/events_special_storage.xml.append:6536
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_HARMONY_ON\"]/choice[2]/text"
 msgstr "Return to the toggle menu."
 
-#: src-en/data/events_special_storage.xml.append:6475
+#: src-en/data/events_special_storage.xml.append:6541
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_HARMONY_OFF\"]/text"
 msgstr ""
 "What power do you want to set the augment to?\n"
 "\tCurrent mode: Disabled (Off)"
 
-#: src-en/data/events_special_storage.xml.append:6478
+#: src-en/data/events_special_storage.xml.append:6544
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_HARMONY_OFF\"]/choice[1]/text"
 msgstr "Turn on the augment."
 
-#: src-en/data/events_special_storage.xml.append:6480
+#: src-en/data/events_special_storage.xml.append:6546
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_HARMONY_OFF\"]/choice[1]/event/text"
 msgstr "You start calibrating the augment..."
 
-#: src-en/data/events_special_storage.xml.append:6483
+#: src-en/data/events_special_storage.xml.append:6549
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_HARMONY_OFF\"]/choice[1]/event/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_special_storage.xml.append:6485
+#: src-en/data/events_special_storage.xml.append:6551
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_HARMONY_OFF\"]/choice[1]/event/choice/event/text"
 msgstr "You finish calibrating the augment successfully."
 
-#: src-en/data/events_special_storage.xml.append:6488
+#: src-en/data/events_special_storage.xml.append:6554
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_HARMONY_OFF\"]/choice[1]/event/choice/event/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_special_storage.xml.append:6497
+#: src-en/data/events_special_storage.xml.append:6563
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_HARMONY_OFF\"]/choice[2]/text"
 msgstr "Return to the toggle menu."
 
-#: src-en/data/events_special_storage.xml.append:6504
+#: src-en/data/events_special_storage.xml.append:6570
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_OWN_HARMONY_GROW_ENGI_SEPARATIST\"]/text"
 msgstr ""
 "Are you sure you want to grow a Separatist Engi crew?\n"
 "\t[The Rebel fleet accelerates for 1 turn.]"
 
-#: src-en/data/events_special_storage.xml.append:6508
+#: src-en/data/events_special_storage.xml.append:6574
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_OWN_HARMONY_GROW_ENGI_SEPARATIST\"]/choice[1]/text"
 msgstr "Yes"
 
-#: src-en/data/events_special_storage.xml.append:6510
+#: src-en/data/events_special_storage.xml.append:6576
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_OWN_HARMONY_GROW_ENGI_SEPARATIST\"]/choice[1]/event/text"
 msgstr ""
 "You take the time to speed-grow your new crew, ready to be automated by your"
 " ship's Harmony!"
 
-#: src-en/data/events_special_storage.xml.append:6519
+#: src-en/data/events_special_storage.xml.append:6585
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_OWN_HARMONY_GROW_ENGI_SEPARATIST\"]/choice[1]/event/crewMember"
 msgstr "Starboy"
 
-#: src-en/data/events_special_storage.xml.append:6522
+#: src-en/data/events_special_storage.xml.append:6588
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_OWN_HARMONY_GROW_ENGI_SEPARATIST\"]/choice[1]/event/choice/text"
 msgstr "This will bolster our ranks nicely."
 
-#: src-en/data/events_special_storage.xml.append:6529
+#: src-en/data/events_special_storage.xml.append:6595
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_OWN_HARMONY_GROW_ENGI_SEPARATIST\"]/choice[2]/text"
 msgstr "Make it 2 since that takes the same amount of time"
 
-#: src-en/data/events_special_storage.xml.append:6531
+#: src-en/data/events_special_storage.xml.append:6597
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_OWN_HARMONY_GROW_ENGI_SEPARATIST\"]/choice[2]/event/text"
 msgstr ""
 "You take the time to speed-grow your new crew, to be automated by your "
 "ship's Harmony..."
 
-#: src-en/data/events_special_storage.xml.append:6540
+#: src-en/data/events_special_storage.xml.append:6606
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_OWN_HARMONY_GROW_ENGI_SEPARATIST\"]/choice[2]/event/crewMember"
 msgstr "MTFKN"
 
-#: src-en/data/events_special_storage.xml.append:6543
+#: src-en/data/events_special_storage.xml.append:6609
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_OWN_HARMONY_GROW_ENGI_SEPARATIST\"]/choice[2]/event/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_special_storage.xml.append:6545
+#: src-en/data/events_special_storage.xml.append:6611
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_OWN_HARMONY_GROW_ENGI_SEPARATIST\"]/choice[2]/event/choice/event/text"
 msgstr "Both of your new crew are ready!"
 
-#: src-en/data/events_special_storage.xml.append:6546
+#: src-en/data/events_special_storage.xml.append:6612
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_OWN_HARMONY_GROW_ENGI_SEPARATIST\"]/choice[2]/event/choice/event/crewMember"
 msgstr "Starboy"
 
-#: src-en/data/events_special_storage.xml.append:6549
+#: src-en/data/events_special_storage.xml.append:6615
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_OWN_HARMONY_GROW_ENGI_SEPARATIST\"]/choice[2]/event/choice/event/choice/text"
 msgstr "Automation rising!"
 
-#: src-en/data/events_special_storage.xml.append:6558
+#: src-en/data/events_special_storage.xml.append:6624
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_OWN_HARMONY_GROW_ENGI_SEPARATIST\"]/choice[3]/text"
 msgstr "Nevermind, do something else."
 
-#: src-en/data/events_special_storage.xml.append:6572
+#: src-en/data/events_special_storage.xml.append:6638
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_CREW_ARE_BOMBS_OFF\"]/text"
 msgstr ""
 "Are you sure to want to turn On this augment? WARNING: It cannot be turned Off, but can scrap itself at an empty beacon, or be sold normally.\n"
 "\tCurrent mode: Disabled (Off)"
 
-#: src-en/data/events_special_storage.xml.append:6575
+#: src-en/data/events_special_storage.xml.append:6641
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_CREW_ARE_BOMBS_OFF\"]/choice[1]/text"
 msgstr "Turn on the augment."
 
-#: src-en/data/events_special_storage.xml.append:6577
+#: src-en/data/events_special_storage.xml.append:6643
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_CREW_ARE_BOMBS_OFF\"]/choice[1]/event/text"
 msgstr "You start calibrating the augment..."
 
-#: src-en/data/events_special_storage.xml.append:6580
+#: src-en/data/events_special_storage.xml.append:6646
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_CREW_ARE_BOMBS_OFF\"]/choice[1]/event/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_special_storage.xml.append:6582
+#: src-en/data/events_special_storage.xml.append:6648
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_CREW_ARE_BOMBS_OFF\"]/choice[1]/event/choice/event/text"
 msgstr "You finish calibrating the augment successfully."
 
-#: src-en/data/events_special_storage.xml.append:6585
+#: src-en/data/events_special_storage.xml.append:6651
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_CREW_ARE_BOMBS_OFF\"]/choice[1]/event/choice/event/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_special_storage.xml.append:6594
+#: src-en/data/events_special_storage.xml.append:6660
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLE_CREW_ARE_BOMBS_OFF\"]/choice[2]/text"
 msgstr "Return to the toggle menu."
 
-#: src-en/data/events_special_storage.xml.append:6600
+#: src-en/data/events_special_storage.xml.append:6666
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_CREW_ARE_BOMBS_ON_SELFSCRAP\"]/text"
 msgstr ""
 "Are you sure you want to scrap this augment for half value?\n"
 "\t[Only way to turn it Off if you can't sell or discard it right now.]"
 
-#: src-en/data/events_special_storage.xml.append:6604
+#: src-en/data/events_special_storage.xml.append:6670
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_CREW_ARE_BOMBS_ON_SELFSCRAP\"]/choice[1]/text"
 msgstr "Yes, it's too dangerous."
 
-#: src-en/data/events_special_storage.xml.append:6615
+#: src-en/data/events_special_storage.xml.append:6681
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_CREW_ARE_BOMBS_ON_SELFSCRAP\"]/choice[2]/text"
 msgstr "Yes, but turn it into explosives."
 
-#: src-en/data/events_special_storage.xml.append:6625
+#: src-en/data/events_special_storage.xml.append:6691
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_CREW_ARE_BOMBS_ON_SELFSCRAP\"]/choice[3]/text"
 msgstr "Nevermind, do something else."
 
-#: src-en/data/events_special_storage.xml.append:6638
+#: src-en/data/events_special_storage.xml.append:6704
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_LEAD_TITANS_SELFSCRAP\"]/text"
 msgstr ""
 "Are you sure you want to scrap this augment for half value?\n"
 "\t[Only way to turn it Off if you can't sell or discard it right now.]"
 
-#: src-en/data/events_special_storage.xml.append:6642
+#: src-en/data/events_special_storage.xml.append:6708
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_LEAD_TITANS_SELFSCRAP\"]/choice[@req=\"RK_LEAD_TITANS\"]/text"
 msgstr "Yes, it's too dangerous."
 
-#: src-en/data/events_special_storage.xml.append:6654
+#: src-en/data/events_special_storage.xml.append:6720
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_LEAD_TITANS_SELFSCRAP\"]/choice[2]/text"
 msgstr "Nevermind, do something else."
 
-#: src-en/data/events_special_storage.xml.append:6669
+#: src-en/data/events_special_storage.xml.append:6735
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_BPS_SURVEYOR_ACTIVATE\"]/text"
 msgstr ""
@@ -3650,12 +3670,12 @@ msgstr ""
 "\t[Spend resources to send out deep-scouting looter drones. They find a random weapon and augment.\n"
 "\tYou can choose one to retrieve at the cost of 1 fleet acceleration, or leave with a small refund.]"
 
-#: src-en/data/events_special_storage.xml.append:6674
+#: src-en/data/events_special_storage.xml.append:6740
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_BPS_SURVEYOR_ACTIVATE\"]/choice[@req=\"RK_BPS_SURVEYOR\"]/text"
 msgstr "Yes"
 
-#: src-en/data/events_special_storage.xml.append:6676
+#: src-en/data/events_special_storage.xml.append:6742
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_BPS_SURVEYOR_ACTIVATE\"]/choice[@req=\"RK_BPS_SURVEYOR\"]/event/text"
 msgstr ""
@@ -3666,152 +3686,152 @@ msgstr ""
 "\t\t\t\t\n"
 "\t\t\t\tIf you choose to retrieve anything the fleet will gain 1 turn on you."
 
-#: src-en/data/events_special_storage.xml.append:6691
+#: src-en/data/events_special_storage.xml.append:6757
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_BPS_SURVEYOR_ACTIVATE\"]/choice[@req=\"RK_BPS_SURVEYOR\"]/event/choice[1]/text"
 msgstr "Retrieve the random weapon."
 
-#: src-en/data/events_special_storage.xml.append:6693
+#: src-en/data/events_special_storage.xml.append:6759
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_BPS_SURVEYOR_ACTIVATE\"]/choice[@req=\"RK_BPS_SURVEYOR\"]/event/choice[1]/event/text"
 msgstr "You take the time to meet the drone halfway to retrieve that."
 
-#: src-en/data/events_special_storage.xml.append:6703
+#: src-en/data/events_special_storage.xml.append:6769
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_BPS_SURVEYOR_ACTIVATE\"]/choice[@req=\"RK_BPS_SURVEYOR\"]/event/choice[1]/event/choice/text"
 msgstr "Good find! Nice catch Dronno, nice!"
 
-#: src-en/data/events_special_storage.xml.append:6710
+#: src-en/data/events_special_storage.xml.append:6776
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_BPS_SURVEYOR_ACTIVATE\"]/choice[@req=\"RK_BPS_SURVEYOR\"]/event/choice[2]/text"
 msgstr "Retrieve the random augment."
 
-#: src-en/data/events_special_storage.xml.append:6712
+#: src-en/data/events_special_storage.xml.append:6778
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_BPS_SURVEYOR_ACTIVATE\"]/choice[@req=\"RK_BPS_SURVEYOR\"]/event/choice[2]/event/text"
 msgstr "You take the time to meet the drone halfway to retrieve that."
 
-#: src-en/data/events_special_storage.xml.append:6722
+#: src-en/data/events_special_storage.xml.append:6788
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_BPS_SURVEYOR_ACTIVATE\"]/choice[@req=\"RK_BPS_SURVEYOR\"]/event/choice[2]/event/choice/text"
 msgstr "Who's a good beepboop? You are, yes you are!"
 
-#: src-en/data/events_special_storage.xml.append:6730
+#: src-en/data/events_special_storage.xml.append:6796
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_BPS_SURVEYOR_ACTIVATE\"]/choice[@req=\"RK_BPS_SURVEYOR\"]/event/choice[3]/text"
 msgstr "Lady Luck wasn't with us, forget it."
 
-#: src-en/data/events_special_storage.xml.append:6732
+#: src-en/data/events_special_storage.xml.append:6798
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_BPS_SURVEYOR_ACTIVATE\"]/choice[@req=\"RK_BPS_SURVEYOR\"]/event/choice[3]/event/text"
 msgstr "You cut your losses, recycle the drones and move on."
 
-#: src-en/data/events_special_storage.xml.append:6739
+#: src-en/data/events_special_storage.xml.append:6805
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_BPS_SURVEYOR_ACTIVATE\"]/choice[@req=\"RK_BPS_SURVEYOR\"]/event/choice[3]/event/choice/text"
 msgstr "Better luck next time."
 
-#: src-en/data/events_special_storage.xml.append:6747
+#: src-en/data/events_special_storage.xml.append:6813
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_BPS_SURVEYOR_ACTIVATE\"]/choice[2]/text"
 msgstr "Nevermind, do something else."
 
-#: src-en/data/events_special_storage.xml.append:6902
+#: src-en/data/events_special_storage.xml.append:6968
 msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/mod:findName[27]/mod-"
 "append:choice/text"
 msgstr "RadiKal tech. [You have none. Open to see requirements]"
 
-#: src-en/data/events_special_storage.xml.append:6908
+#: src-en/data/events_special_storage.xml.append:6974
 msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/mod:findName[28]/mod-"
 "append:choice/text"
 msgstr "RadiKal tech."
 
-#: src-en/data/events_special_storage.xml.append:6934
+#: src-en/data/events_special_storage.xml.append:7000
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_INVENTORY_UPGRADES\"]/mod-"
 "append:choice[1]/text"
 msgstr "Calibrator [X2]"
 
-#: src-en/data/events_special_storage.xml.append:6938
+#: src-en/data/events_special_storage.xml.append:7004
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_INVENTORY_UPGRADES\"]/mod-"
 "append:choice[2]/text"
 msgstr "Calibrator [X1]"
 
-#: src-en/data/events_special_storage.xml.append:6942
+#: src-en/data/events_special_storage.xml.append:7008
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_INVENTORY_UPGRADES\"]/mod-"
 "append:choice[3]/text"
 msgstr "Calibrator [Not Installed]"
 
-#: src-en/data/events_special_storage.xml.append:6947
+#: src-en/data/events_special_storage.xml.append:7013
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_INVENTORY_UPGRADES\"]/mod-"
 "append:choice[4]/text"
 msgstr "Choking F.I.N.E. [Installed]"
 
-#: src-en/data/events_special_storage.xml.append:6951
+#: src-en/data/events_special_storage.xml.append:7017
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_INVENTORY_UPGRADES\"]/mod-"
 "append:choice[5]/text"
 msgstr "Choking F.I.N.E. [Not Installed]"
 
-#: src-en/data/events_special_storage.xml.append:6957
+#: src-en/data/events_special_storage.xml.append:7023
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_INVENTORY_UPGRADES\"]/mod-"
 "append:choice[6]/text"
 msgstr "Demicloners [Installed]"
 
-#: src-en/data/events_special_storage.xml.append:6961
+#: src-en/data/events_special_storage.xml.append:7027
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_INVENTORY_UPGRADES\"]/mod-"
 "append:choice[7]/text"
 msgstr "Demicloners [Not Installed]"
 
-#: src-en/data/events_special_storage.xml.append:6966
+#: src-en/data/events_special_storage.xml.append:7032
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_INVENTORY_UPGRADES\"]/mod-"
 "append:choice[8]/text"
 msgstr "Mind Cooler [Installed]"
 
-#: src-en/data/events_special_storage.xml.append:6970
+#: src-en/data/events_special_storage.xml.append:7036
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_INVENTORY_UPGRADES\"]/mod-"
 "append:choice[9]/text"
 msgstr "Mind Cooler [Not Installed]"
 
-#: src-en/data/events_special_storage.xml.append:6976
+#: src-en/data/events_special_storage.xml.append:7042
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_INVENTORY_UPGRADES\"]/mod-"
 "append:choice[10]/text"
 msgstr "Hellion Wraps [Installed]"
 
-#: src-en/data/events_special_storage.xml.append:6980
+#: src-en/data/events_special_storage.xml.append:7046
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_INVENTORY_UPGRADES\"]/mod-"
 "append:choice[11]/text"
 msgstr "Hellion Wraps [Not Installed]"
 
-#: src-en/data/events_special_storage.xml.append:6985
+#: src-en/data/events_special_storage.xml.append:7051
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_INVENTORY_UPGRADES\"]/mod-"
 "append:choice[12]/text"
 msgstr "Mind Heater [Installed]"
 
-#: src-en/data/events_special_storage.xml.append:6989
+#: src-en/data/events_special_storage.xml.append:7055
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_INVENTORY_UPGRADES\"]/mod-"
 "append:choice[13]/text"
 msgstr "Mind Heater [Not Installed]"
 
-#: src-en/data/events_special_storage.xml.append:6997
+#: src-en/data/events_special_storage.xml.append:7063
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL\"]/text"
 msgstr "What upgrade do you want to install?"
 
-#: src-en/data/events_special_storage.xml.append:7015
+#: src-en/data/events_special_storage.xml.append:7081
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL\"]/choice[@req=\"INTERNAL_RK_CALIBRATOR\""
 " and @lvl=\"2\"]/text"
@@ -3819,19 +3839,19 @@ msgstr ""
 "RK Bam \"Calibrator\": Your weapons have +10% accuracy and 4% increased fire rate.\n"
 "\t\t\tCan be installed twice. [ALREADY INSTALLED: You already have the max of this upgrade]"
 
-#: src-en/data/events_special_storage.xml.append:7020
+#: src-en/data/events_special_storage.xml.append:7086
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL\"]/choice[@req=\"INTERNAL_RK_CALIBRATOR\""
 " and @lvl=\"1\"]/text"
 msgstr "Calibrator Lvl 2. [Cost: 45~, 1|]"
 
-#: src-en/data/events_special_storage.xml.append:7024
+#: src-en/data/events_special_storage.xml.append:7090
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL\"]/choice[@req=\"INTERNAL_RK_CALIBRATOR\""
 " and @lvl=\"0\"]/text"
 msgstr "Calibrator Lvl 1. [Cost: 45~ 1|]"
 
-#: src-en/data/events_special_storage.xml.append:7029
+#: src-en/data/events_special_storage.xml.append:7095
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL\"]/choice[@req=\"INTERNAL_RK_CHOKING_IS_FINE\""
 " and @lvl=\"1\"]/text"
@@ -3839,13 +3859,13 @@ msgstr ""
 "RK Bam \"Choking F.I.N.E.\": Your crew take 0.75x suffocation damage.\n"
 "\t\tWhile suffocating, they move, sabotage, repair and fight 1.4x better. Does not affect suffocation immune crew. [ALREADY INSTALLED]"
 
-#: src-en/data/events_special_storage.xml.append:7034
+#: src-en/data/events_special_storage.xml.append:7100
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL\"]/choice[@req=\"INTERNAL_RK_CHOKING_IS_FINE\""
 " and @lvl=\"0\"]/text"
 msgstr "Choking F.I.N.E. [Cost: 55~, 1}, 1|]"
 
-#: src-en/data/events_special_storage.xml.append:7039
+#: src-en/data/events_special_storage.xml.append:7105
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL\"]/choice[@req=\"INTERNAL_DJMOD_DEMICLONER\""
 " and @lvl=\"1\"]/text"
@@ -3853,13 +3873,13 @@ msgstr ""
 "RK Punk \"Demicloners\": With no Clonebay, your dying crew resurrect as a lesser version (Soldier = default Human, etc.)\n"
 "\t\t\tIf none exists, they become Morphs. When Morphs die, nothing happens. Does not work for event deaths. [ALREADY INSTALLED]"
 
-#: src-en/data/events_special_storage.xml.append:7044
+#: src-en/data/events_special_storage.xml.append:7110
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL\"]/choice[@req=\"INTERNAL_DJMOD_DEMICLONER\""
 " and @lvl=\"0\"]/text"
 msgstr "Demicloners. [Cost: 35~, 2|]"
 
-#: src-en/data/events_special_storage.xml.append:7049
+#: src-en/data/events_special_storage.xml.append:7115
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL\"]/choice[@req=\"INTERNAL_DJMOD_MC_PARALYZER\""
 " and @lvl=\"1\"]/text"
@@ -3868,13 +3888,13 @@ msgstr ""
 "cannot fight, sabotage, use abilities, or teleport away. Works on both "
 "ships. [ALREADY INSTALLED]"
 
-#: src-en/data/events_special_storage.xml.append:7053
+#: src-en/data/events_special_storage.xml.append:7119
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL\"]/choice[@req=\"INTERNAL_DJMOD_MC_PARALYZER\""
 " and @lvl=\"0\"]/text"
 msgstr "Mind Cooler. [Cost: 30~, 1|]"
 
-#: src-en/data/events_special_storage.xml.append:7059
+#: src-en/data/events_special_storage.xml.append:7125
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL\"]/choice[@req=\"INTERNAL_RK_IN_FIRE_CREWBOOSTS\""
 " and @lvl=\"1\"]/text"
@@ -3883,13 +3903,13 @@ msgstr ""
 "sabotage speed, and deal 1.75x combat and door damage, on both ships. "
 "[ALREADY INSTALLED]"
 
-#: src-en/data/events_special_storage.xml.append:7063
+#: src-en/data/events_special_storage.xml.append:7129
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL\"]/choice[@req=\"INTERNAL_RK_IN_FIRE_CREWBOOSTS\""
 " and @lvl=\"0\"]/text"
 msgstr "Hellion Wraps. [Cost: 55~, 1{, 1}]"
 
-#: src-en/data/events_special_storage.xml.append:7068
+#: src-en/data/events_special_storage.xml.append:7134
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL\"]/choice[@req=\"INTERNAL_DJMOD_MC_IMMUNE_FROM_FIRE\""
 " and @lvl=\"1\"]/text"
@@ -3898,18 +3918,18 @@ msgstr ""
 " cured from it, stunned 50% shorter, and reveal adjacent rooms, on both "
 "ships. [ALREADY INSTALLED]"
 
-#: src-en/data/events_special_storage.xml.append:7072
+#: src-en/data/events_special_storage.xml.append:7138
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL\"]/choice[@req=\"INTERNAL_DJMOD_MC_IMMUNE_FROM_FIRE\""
 " and @lvl=\"0\"]/text"
 msgstr "Mind Heater. [Cost: 30~, 1{, 1|]"
 
-#: src-en/data/events_special_storage.xml.append:7077
+#: src-en/data/events_special_storage.xml.append:7143
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL\"]/choice[14]/text"
 msgstr "Nevermind."
 
-#: src-en/data/events_special_storage.xml.append:7118
+#: src-en/data/events_special_storage.xml.append:7184
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_RK_CALIBRATOR\"]/text"
 msgstr ""
@@ -3917,7 +3937,7 @@ msgstr ""
 "\t[Effects: Your weapons have +10 accuracy and 4% increased fire rate. \n"
 "\tCan be installed twice.]"
 
-#: src-en/data/events_special_storage.xml.append:7135
+#: src-en/data/events_special_storage.xml.append:7201
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_RK_CALIBRATOR\"]/choice[@req=\"DJMOD_HAS_RADIKAL_BAM_GEAR\""
 " and @lvl=\"0\"]/text"
@@ -3925,30 +3945,30 @@ msgstr ""
 "This upgrade is unavailable. You need any RadiKal Bam (or BPS) "
 "weapon/augment/crew/ship."
 
-#: src-en/data/events_special_storage.xml.append:7140
+#: src-en/data/events_special_storage.xml.append:7206
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_RK_CALIBRATOR\"]/choice[@req=\"DJMOD_HAS_RADIKAL_BAM_GEAR\""
 " and @lvl=\"1\"]/text"
 msgstr "Perform the upgrade. [Cost: 45~, 1|]"
 
-#: src-en/data/events_special_storage.xml.append:7142
+#: src-en/data/events_special_storage.xml.append:7208
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_RK_CALIBRATOR\"]/choice[@req=\"DJMOD_HAS_RADIKAL_BAM_GEAR\""
 " and @lvl=\"1\"]/event/text"
 msgstr "You install the upgrade."
 
-#: src-en/data/events_special_storage.xml.append:7148
+#: src-en/data/events_special_storage.xml.append:7214
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_RK_CALIBRATOR\"]/choice[@req=\"DJMOD_HAS_RADIKAL_BAM_GEAR\""
 " and @lvl=\"1\"]/event/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_special_storage.xml.append:7155
+#: src-en/data/events_special_storage.xml.append:7221
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_RK_CALIBRATOR\"]/choice[@req=\"pilot\"]/text"
 msgstr "Nevermind."
 
-#: src-en/data/events_special_storage.xml.append:7166
+#: src-en/data/events_special_storage.xml.append:7232
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_RK_CHOKING_IS_FINE\"]/text"
 msgstr ""
@@ -3956,22 +3976,22 @@ msgstr ""
 "\t[Effects: Your crew take 0.75x suffocation damage.\n"
 "\t\tWhile suffocating, they move, sabotage, repair and fight 1.4x better. Does not affect suffocation immune crew.]"
 
-#: src-en/data/events_special_storage.xml.append:7171
+#: src-en/data/events_special_storage.xml.append:7237
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_RK_CHOKING_IS_FINE\"]/choice[@req=\"EX_RK_CHOKING_IS_FINE\"]/text"
 msgstr "Install the External Augment internally."
 
-#: src-en/data/events_special_storage.xml.append:7173
+#: src-en/data/events_special_storage.xml.append:7239
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_RK_CHOKING_IS_FINE\"]/choice[@req=\"EX_RK_CHOKING_IS_FINE\"]/event/text"
 msgstr "You install the upgrade."
 
-#: src-en/data/events_special_storage.xml.append:7176
+#: src-en/data/events_special_storage.xml.append:7242
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_RK_CHOKING_IS_FINE\"]/choice[@req=\"EX_RK_CHOKING_IS_FINE\"]/event/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_special_storage.xml.append:7183
+#: src-en/data/events_special_storage.xml.append:7249
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_RK_CHOKING_IS_FINE\"]/choice[@req=\"DJMOD_HAS_RADIKAL_BAM_GEAR\""
 " and @lvl=\"0\"]/text"
@@ -3979,30 +3999,30 @@ msgstr ""
 "This upgrade is unavailable. You need any RadiKal Bam (or BPS) "
 "weapon/augment/crew/ship."
 
-#: src-en/data/events_special_storage.xml.append:7188
+#: src-en/data/events_special_storage.xml.append:7254
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_RK_CHOKING_IS_FINE\"]/choice[@req=\"DJMOD_HAS_RADIKAL_BAM_GEAR\""
 " and @lvl=\"1\"]/text"
 msgstr "Perform the upgrade. [Cost: 55~, 1}, 1|]"
 
-#: src-en/data/events_special_storage.xml.append:7190
+#: src-en/data/events_special_storage.xml.append:7256
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_RK_CHOKING_IS_FINE\"]/choice[@req=\"DJMOD_HAS_RADIKAL_BAM_GEAR\""
 " and @lvl=\"1\"]/event/text"
 msgstr "You install the upgrade."
 
-#: src-en/data/events_special_storage.xml.append:7197
+#: src-en/data/events_special_storage.xml.append:7263
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_RK_CHOKING_IS_FINE\"]/choice[@req=\"DJMOD_HAS_RADIKAL_BAM_GEAR\""
 " and @lvl=\"1\"]/event/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_special_storage.xml.append:7204
+#: src-en/data/events_special_storage.xml.append:7270
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_RK_CHOKING_IS_FINE\"]/choice[@req=\"pilot\"]/text"
 msgstr "Nevermind."
 
-#: src-en/data/events_special_storage.xml.append:7215
+#: src-en/data/events_special_storage.xml.append:7281
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_DJMOD_DEMICLONER\"]/text"
 msgstr ""
@@ -4010,22 +4030,22 @@ msgstr ""
 "\t[Effects: The RadiKal Punk infused these backpack-clonebay prototypes with dark energies. These try to resurrect your crew if they die (not in events) when you don't have a real Clonebay.\n"
 "\t\tAt best, crew resurrect as their own lesser version (Soldier = default Human, etc.) If no lesser version exists, they become Morphs. When Morphs die, nothing happens.]"
 
-#: src-en/data/events_special_storage.xml.append:7221
+#: src-en/data/events_special_storage.xml.append:7287
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_DJMOD_DEMICLONER\"]/choice[@req=\"EX_DJMOD_DEMICLONER\"]/text"
 msgstr "Install the External Augment internally."
 
-#: src-en/data/events_special_storage.xml.append:7223
+#: src-en/data/events_special_storage.xml.append:7289
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_DJMOD_DEMICLONER\"]/choice[@req=\"EX_DJMOD_DEMICLONER\"]/event/text"
 msgstr "You install the upgrade."
 
-#: src-en/data/events_special_storage.xml.append:7226
+#: src-en/data/events_special_storage.xml.append:7292
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_DJMOD_DEMICLONER\"]/choice[@req=\"EX_DJMOD_DEMICLONER\"]/event/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_special_storage.xml.append:7233
+#: src-en/data/events_special_storage.xml.append:7299
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_DJMOD_DEMICLONER\"]/choice[@req=\"DJMOD_HAS_RADIKAL_PUNK_GEAR\""
 " and @lvl=\"0\"]/text"
@@ -4033,37 +4053,37 @@ msgstr ""
 "This upgrade is unavailable. You need any RadiKal Punk (or BPS) "
 "weapon/augment/crew/ship."
 
-#: src-en/data/events_special_storage.xml.append:7238
+#: src-en/data/events_special_storage.xml.append:7304
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_DJMOD_DEMICLONER\"]/choice[@req=\"DJMOD_HAS_RADIKAL_PUNK_GEAR\""
 " and @lvl=\"1\"]/text"
 msgstr "Perform the upgrade. [Cost: 35~, 2|]"
 
-#: src-en/data/events_special_storage.xml.append:7240
+#: src-en/data/events_special_storage.xml.append:7306
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_DJMOD_DEMICLONER\"]/choice[@req=\"DJMOD_HAS_RADIKAL_PUNK_GEAR\""
 " and @lvl=\"1\"]/event/text"
 msgstr "You install the upgrade."
 
-#: src-en/data/events_special_storage.xml.append:7246
+#: src-en/data/events_special_storage.xml.append:7312
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_DJMOD_DEMICLONER\"]/choice[@req=\"DJMOD_HAS_RADIKAL_PUNK_GEAR\""
 " and @lvl=\"1\"]/event/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_special_storage.xml.append:7253
+#: src-en/data/events_special_storage.xml.append:7319
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_DJMOD_DEMICLONER\"]/choice[@req=\"pilot\"]/text"
 msgstr "Nevermind."
 
-#: src-en/data/events_special_storage.xml.append:7264
+#: src-en/data/events_special_storage.xml.append:7330
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_DJMOD_MC_PARALYZER\"]/text"
 msgstr ""
 "You are about to install the Mind Cooler upgrade.\n"
 "\t[Effects: When under the effects of Mind Control, your crew cannot fight, sabotage, use abilities, or teleport away. Works on both ships.]"
 
-#: src-en/data/events_special_storage.xml.append:7268
+#: src-en/data/events_special_storage.xml.append:7334
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_DJMOD_MC_PARALYZER\"]/choice[@req=\"DJMOD_HAS_RADIKAL_PUNK_GEAR\""
 " and @lvl=\"0\"]/text"
@@ -4071,37 +4091,37 @@ msgstr ""
 "This upgrade is unavailable. You need any RadiKal Punk (or BPS) "
 "weapon/augment/crew/ship."
 
-#: src-en/data/events_special_storage.xml.append:7272
+#: src-en/data/events_special_storage.xml.append:7338
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_DJMOD_MC_PARALYZER\"]/choice[@req=\"DJMOD_HAS_RADIKAL_PUNK_GEAR\""
 " and @lvl=\"1\"]/text"
 msgstr "Perform the upgrade. [Cost: 30~, 1|]"
 
-#: src-en/data/events_special_storage.xml.append:7274
+#: src-en/data/events_special_storage.xml.append:7340
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_DJMOD_MC_PARALYZER\"]/choice[@req=\"DJMOD_HAS_RADIKAL_PUNK_GEAR\""
 " and @lvl=\"1\"]/event/text"
 msgstr "You install the upgrade."
 
-#: src-en/data/events_special_storage.xml.append:7280
+#: src-en/data/events_special_storage.xml.append:7346
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_DJMOD_MC_PARALYZER\"]/choice[@req=\"DJMOD_HAS_RADIKAL_PUNK_GEAR\""
 " and @lvl=\"1\"]/event/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_special_storage.xml.append:7287
+#: src-en/data/events_special_storage.xml.append:7353
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_DJMOD_MC_PARALYZER\"]/choice[@req=\"pilot\"]/text"
 msgstr "Nevermind."
 
-#: src-en/data/events_special_storage.xml.append:7299
+#: src-en/data/events_special_storage.xml.append:7365
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_RK_IN_FIRE_CREWBOOSTS\"]/text"
 msgstr ""
 "You are about to install the Hellion Wraps upgrade.\n"
 "\t[Effects: In fire, your crew have 1.75x movement and sabotage speed, and deal 1.75x combat and door damage, on both ships.]"
 
-#: src-en/data/events_special_storage.xml.append:7303
+#: src-en/data/events_special_storage.xml.append:7369
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_RK_IN_FIRE_CREWBOOSTS\"]/choice[@req=\"DJMOD_HAS_RADIKAL_SCORCH_GEAR\""
 " and @lvl=\"0\"]/text"
@@ -4109,37 +4129,37 @@ msgstr ""
 "This upgrade is unavailable. You need any RadiKal Scorch (or BPS) "
 "weapon/augment/crew/ship."
 
-#: src-en/data/events_special_storage.xml.append:7307
+#: src-en/data/events_special_storage.xml.append:7373
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_RK_IN_FIRE_CREWBOOSTS\"]/choice[@req=\"DJMOD_HAS_RADIKAL_SCORCH_GEAR\""
 " and @lvl=\"1\"]/text"
 msgstr "Perform the upgrade. [Cost: 55~, 1{, 1}]"
 
-#: src-en/data/events_special_storage.xml.append:7309
+#: src-en/data/events_special_storage.xml.append:7375
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_RK_IN_FIRE_CREWBOOSTS\"]/choice[@req=\"DJMOD_HAS_RADIKAL_SCORCH_GEAR\""
 " and @lvl=\"1\"]/event/text"
 msgstr "You install the upgrade."
 
-#: src-en/data/events_special_storage.xml.append:7316
+#: src-en/data/events_special_storage.xml.append:7382
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_RK_IN_FIRE_CREWBOOSTS\"]/choice[@req=\"DJMOD_HAS_RADIKAL_SCORCH_GEAR\""
 " and @lvl=\"1\"]/event/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_special_storage.xml.append:7323
+#: src-en/data/events_special_storage.xml.append:7389
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_RK_IN_FIRE_CREWBOOSTS\"]/choice[@req=\"pilot\"]/text"
 msgstr "Nevermind."
 
-#: src-en/data/events_special_storage.xml.append:7334
+#: src-en/data/events_special_storage.xml.append:7400
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_DJMOD_MC_IMMUNE_FROM_FIRE\"]/text"
 msgstr ""
 "You are about to install the Mind Heater upgrade.\n"
 "\t[Effects: In fire, your crew are immune to Mind Control and cured from it, stunned 50% shorter, and reveal adjacent rooms, on both ships.]"
 
-#: src-en/data/events_special_storage.xml.append:7338
+#: src-en/data/events_special_storage.xml.append:7404
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_DJMOD_MC_IMMUNE_FROM_FIRE\"]/choice[@req=\"DJMOD_HAS_RADIKAL_SCORCH_GEAR\""
 " and @lvl=\"0\"]/text"
@@ -4147,25 +4167,25 @@ msgstr ""
 "This upgrade is unavailable. You need any RadiKal Scorch (or BPS) "
 "weapon/augment/crew/ship."
 
-#: src-en/data/events_special_storage.xml.append:7342
+#: src-en/data/events_special_storage.xml.append:7408
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_DJMOD_MC_IMMUNE_FROM_FIRE\"]/choice[@req=\"DJMOD_HAS_RADIKAL_SCORCH_GEAR\""
 " and @lvl=\"1\"]/text"
 msgstr "Perform the upgrade. [Cost: 30~, 1{, 1|]"
 
-#: src-en/data/events_special_storage.xml.append:7344
+#: src-en/data/events_special_storage.xml.append:7410
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_DJMOD_MC_IMMUNE_FROM_FIRE\"]/choice[@req=\"DJMOD_HAS_RADIKAL_SCORCH_GEAR\""
 " and @lvl=\"1\"]/event/text"
 msgstr "You install the upgrade."
 
-#: src-en/data/events_special_storage.xml.append:7351
+#: src-en/data/events_special_storage.xml.append:7417
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_DJMOD_MC_IMMUNE_FROM_FIRE\"]/choice[@req=\"DJMOD_HAS_RADIKAL_SCORCH_GEAR\""
 " and @lvl=\"1\"]/event/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_special_storage.xml.append:7358
+#: src-en/data/events_special_storage.xml.append:7424
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL_INTERNAL_DJMOD_MC_IMMUNE_FROM_FIRE\"]/choice[@req=\"pilot\"]/text"
 msgstr "Nevermind."

@@ -55,16 +55,96 @@ msgstr ""
 
 #: src-en/data/events_ships.xml.append:105
 msgid ""
+"data/events_ships.xml.append$//ship[@name=\"SHIP_RK_PUNK_EXIT_BOSS\"]/destroyed/choice[@req=\"RK_RAIN_OF_ION\"]/text"
+msgstr ""
+
+#: src-en/data/events_ships.xml.append:107
+msgid ""
+"data/events_ships.xml.append$//ship[@name=\"SHIP_RK_PUNK_EXIT_BOSS\"]/destroyed/choice[@req=\"RK_RAIN_OF_ION\"]/event/text"
+msgstr ""
+
+#: src-en/data/events_ships.xml.append:113
+msgid ""
+"data/events_ships.xml.append$//ship[@name=\"SHIP_RK_PUNK_EXIT_BOSS\"]/destroyed/choice[@req=\"RK_RAIN_OF_ION\"]/event/choice/text"
+msgstr "继续。"
+
+#: src-en/data/events_ships.xml.append:115
+msgid ""
+"data/events_ships.xml.append$//ship[@name=\"SHIP_RK_PUNK_EXIT_BOSS\"]/destroyed/choice[@req=\"RK_RAIN_OF_ION\"]/event/choice/event/text"
+msgstr ""
+
+#: src-en/data/events_ships.xml.append:119
+msgid ""
+"data/events_ships.xml.append$//ship[@name=\"SHIP_RK_PUNK_EXIT_BOSS\"]/destroyed/choice[@req=\"RK_RAIN_OF_ION\"]/event/choice/event/choice/text"
+msgstr "继续。"
+
+#: src-en/data/events_ships.xml.append:128
+msgid ""
+"data/events_ships.xml.append$//ship[@name=\"SHIP_RK_PUNK_EXIT_BOSS\"]/destroyed/choice[2]/text"
+msgstr "继续。"
+
+#: src-en/data/events_ships.xml.append:130
+msgid ""
+"data/events_ships.xml.append$//ship[@name=\"SHIP_RK_PUNK_EXIT_BOSS\"]/destroyed/choice[2]/event/text"
+msgstr ""
+
+#: src-en/data/events_ships.xml.append:134
+msgid ""
+"data/events_ships.xml.append$//ship[@name=\"SHIP_RK_PUNK_EXIT_BOSS\"]/destroyed/choice[2]/event/choice/text"
+msgstr "继续。"
+
+#: src-en/data/events_ships.xml.append:142
+msgid ""
 "data/events_ships.xml.append$//ship[@name=\"SHIP_RK_PUNK_EXIT_BOSS\"]/deadCrew/text"
 msgstr "既然你已经通过了测试，其他的守卫允许你离开这个星区，并暗示既然你甚至能让飞船完好无损地离开，你会得到一个免费的随机甲板水手！"
 
-#: src-en/data/events_ships.xml.append:122
+#: src-en/data/events_ships.xml.append:149
+msgid ""
+"data/events_ships.xml.append$//ship[@name=\"SHIP_RK_PUNK_EXIT_BOSS\"]/deadCrew/choice[@req=\"RK_RAIN_OF_ION\"]/text"
+msgstr ""
+
+#: src-en/data/events_ships.xml.append:151
+msgid ""
+"data/events_ships.xml.append$//ship[@name=\"SHIP_RK_PUNK_EXIT_BOSS\"]/deadCrew/choice[@req=\"RK_RAIN_OF_ION\"]/event/text"
+msgstr ""
+
+#: src-en/data/events_ships.xml.append:157
+msgid ""
+"data/events_ships.xml.append$//ship[@name=\"SHIP_RK_PUNK_EXIT_BOSS\"]/deadCrew/choice[@req=\"RK_RAIN_OF_ION\"]/event/choice/text"
+msgstr "继续。"
+
+#: src-en/data/events_ships.xml.append:159
+msgid ""
+"data/events_ships.xml.append$//ship[@name=\"SHIP_RK_PUNK_EXIT_BOSS\"]/deadCrew/choice[@req=\"RK_RAIN_OF_ION\"]/event/choice/event/text"
+msgstr ""
+
+#: src-en/data/events_ships.xml.append:163
+msgid ""
+"data/events_ships.xml.append$//ship[@name=\"SHIP_RK_PUNK_EXIT_BOSS\"]/deadCrew/choice[@req=\"RK_RAIN_OF_ION\"]/event/choice/event/choice/text"
+msgstr "继续。"
+
+#: src-en/data/events_ships.xml.append:172
+msgid ""
+"data/events_ships.xml.append$//ship[@name=\"SHIP_RK_PUNK_EXIT_BOSS\"]/deadCrew/choice[2]/text"
+msgstr "继续。"
+
+#: src-en/data/events_ships.xml.append:174
+msgid ""
+"data/events_ships.xml.append$//ship[@name=\"SHIP_RK_PUNK_EXIT_BOSS\"]/deadCrew/choice[2]/event/text"
+msgstr ""
+
+#: src-en/data/events_ships.xml.append:178
+msgid ""
+"data/events_ships.xml.append$//ship[@name=\"SHIP_RK_PUNK_EXIT_BOSS\"]/deadCrew/choice[2]/event/choice/text"
+msgstr "继续。"
+
+#: src-en/data/events_ships.xml.append:195
 msgid ""
 "data/events_ships.xml.append$//ship[@name=\"SHIP_RK_SCORCH_EXIT_BOSS\"]/destroyed/text"
 msgstr ""
 "飞船被摧毁了。其他守卫肃然点头。“无论谁把我们的坐标传递给你们，都做出了正确的选择，你们来到这里也是如此。你们可以自由离开了！再免费给你们修修船。”"
 
-#: src-en/data/events_ships.xml.append:128
+#: src-en/data/events_ships.xml.append:201
 msgid ""
 "data/events_ships.xml.append$//ship[@name=\"SHIP_RK_SCORCH_EXIT_BOSS\"]/deadCrew/text"
 msgstr "既然你已经通过了测试，其他的守卫允许你离开这个星区，并暗示既然你甚至能让飞船完好无损地离开，你可以从残骸中取回一份特殊的星舰蓝图！"
