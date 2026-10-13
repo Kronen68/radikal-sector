@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "PO-Revision-Date: 2026-10-13 17:26+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Last-Translator: TrpleA <wndhkswnqls2@naver.com>\n"
 "Language-Team: Korean <https://weblate.hyperq.be/projects/radikal-sector/"
 "dataevents_sector_radikalxml/ko/>\n"
 "Language: ko\n"
@@ -2279,12 +2279,14 @@ msgid ""
 msgstr "라디칼 밤 장비를 보유하고 있지 않습니다."
 
 #: src-en/data/events_sector_radikal.xml:2531
+#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM\"]/choice[@req=\"DJMOD_HAS_RADIKAL_BAM_GEAR\""
 " and not(@lvl)]/text"
 msgstr "(라디칼 밤 장비) 강타..."
 
 #: src-en/data/events_sector_radikal.xml:2533
+#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM\"]/choice[@req=\"DJMOD_HAS_RADIKAL_BAM_GEAR\""
 " and not(@lvl)]/event/text"
@@ -2848,12 +2850,14 @@ msgid ""
 msgstr "라디칼 펑크 장비를 보유하고 있지 않습니다."
 
 #: src-en/data/events_sector_radikal.xml:3089
+#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK\"]/choice[@req=\"DJMOD_HAS_RADIKAL_PUNK_GEAR\""
 " and not(@lvl)]/text"
 msgstr "(라디칼 펑크 장비) 명석함을 유지하라..."
 
 #: src-en/data/events_sector_radikal.xml:3091
+#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK\"]/choice[@req=\"DJMOD_HAS_RADIKAL_PUNK_GEAR\""
 " and not(@lvl)]/event/text"
@@ -3458,16 +3462,20 @@ msgid ""
 msgstr "라디칼 스코치 장비를 보유하고 있지 않습니다."
 
 #: src-en/data/events_sector_radikal.xml:3672
+#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH\"]/choice[@req=\"DJMOD_HAS_RADIKAL_SCORCH_GEAR\""
 " and not(@lvl)]/text"
 msgstr "(라디칼 스코치 장비) 밝게 타오르라..."
 
 #: src-en/data/events_sector_radikal.xml:3674
+#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH\"]/choice[@req=\"DJMOD_HAS_RADIKAL_SCORCH_GEAR\""
 " and not(@lvl)]/event/text"
-msgstr "\"... 자기. 우리 식구를 보는 건 언제나 마음을 따뜻하게 해주지. 여기 환영 선물이다. 착륙을 허가한다.\""
+msgstr ""
+"\"... 자기. 우리 식구를 보는 건 언제나 마음을 따뜻하게 해주지. 여기 환영 "
+"선물이다. 착륙을 허가한다.\""
 
 #: src-en/data/events_sector_radikal.xml:3678
 msgid ""
@@ -4076,13 +4084,20 @@ msgid ""
 msgstr "해적들이 당신의 스크랩을 기다리고 있습니다. 어떤 이유로든 놈들을 실망하게 만든다면 그 위험은 본인 책임입니다!"
 
 #: src-en/data/events_sector_radikal.xml:4276
+#, fuzzy
 msgid "data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY\"]/text"
 msgstr ""
-"해적 클랜들이 항상 뜻을 같이하는 것은 아니지만, 큰 돈을 벌 기회가 생기면 처신하는 법을 잘 압니다. 이곳에서 당신을 맞이하는 엘리트는 거래를 감독하는 책임을 맡고 있는 것으로 보입니다.\n"
-"\t\t\"흐으으음, 네놈이 바로 합법쩍인 쌂을 버리고 우리와 어울리려는 짤나씬 연방 쏜님인가? 기분 나쁘게 듣찌는 말라고, 쏠찍히 난 너 같은 놈 안 믿거든. 네놈이 찐씸인찌 어디 한번 보짜고...\"\n"
+"해적 클랜들이 항상 뜻을 같이하는 것은 아니지만, 큰 돈을 벌 기회가 생기면 "
+"처신하는 법을 잘 압니다. 이곳에서 당신을 맞이하는 엘리트는 거래를 감독하는 "
+"책임을 맡고 있는 것으로 보입니다.\n"
+"\t\t\"흐으으음, 네놈이 바로 합법쩍인 쌂을 버리고 우리와 어울리려는 짤나씬 "
+"연방 쏜님인가? 기분 나쁘게 듣찌는 말라고, 쏠찍히 난 너 같은 놈 안 믿거든. "
+"네놈이 찐씸인찌 어디 한번 보짜고...\"\n"
 "\t\t\n"
-"\t\t이 슬러그 놈과 그 잔혹한 패거리들을 분노하게 만들고 싶지 않다면, 해적 하위 분파 모두에게서 무엇이든 하나씩은 구매하는 편이 좋을 것입니다.\n"
-"\t\t전부 사거나, 아니면 아예 안 사거나 둘 중 하나지만, 만약 성공해 낸다면 우주 전체의 해적들이 당신을 그만큼 훨씬 더 존경하게 될 것입니다!"
+"\t\t이 슬러그 놈과 그 잔혹한 패거리들을 분노하게 만들고 싶지 않다면, 해적 "
+"하위 분파 모두에게서 무엇이든 하나씩은 구매하는 편이 좋을 것입니다.\n"
+"\t\t전부 사거나, 아니면 아예 안 사거나 둘 중 하나지만, 만약 성공해 낸다면 "
+"우주 전체의 해적들이 당신을 그만큼 훨씬 더 존경하게 될 것입니다!"
 
 #: src-en/data/events_sector_radikal.xml:4288
 msgid ""
@@ -4227,13 +4242,21 @@ msgid ""
 msgstr "있잖아, 웃긴 건 우리가 거지라는 거야..."
 
 #: src-en/data/events_sector_radikal.xml:4442
+#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_SLAVER\"]/choice/event/choice[4]/event/text"
 msgstr ""
-"\"말이 심하군 연방 함장, 말을 좀 더 가려했어야지. 무엇보다 스크랩을 가져왔어야 했고.\" 당신 앞에 있는 해적선은 이런 상황을 분명 예상했다는 듯 즉시 전투 태세를 갖춥니다. \n"
+"\"말이 심하군 연방 함장, 말을 좀 더 가려했어야지. 무엇보다 스크랩을 "
+"가져왔어야 했고.\" 당신 앞에 있는 해적선은 이런 상황을 분명 예상했다는 듯 "
+"즉시 전투 태세를 갖춥니다. \n"
 "\t\t\t\t\t\t\n"
-"\t\t\t\t\t\t감독관인 슬러그가 극도로 분노한 것인지, 아니면 자신의 예상이 맞아 기뻐하는 것인지, 아니면 둘 다인지 구분하기 어렵습니다. \"하! 내 이럴 쭐 알아찌이이. 영웅이라도 된 양 해쩍 패거리를 한 번에 쏘탕하고 앂었나 본데. 이짢아, 우리가 그렇게 멍청하찐 않거든! 야 커트, 쓰크랩 내놔. 내가 내기에써 이겼다.\"\n"
-"\t\t\t\t\t\t말이 끝나기 무섭게 놈들과 다른 해적선들은 도약으로 빠져나가고, 당신은 노예상과 상대하도록 남겨집니다!"
+"\t\t\t\t\t\t감독관인 슬러그가 극도로 분노한 것인지, 아니면 자신의 예상이 "
+"맞아 기뻐하는 것인지, 아니면 둘 다인지 구분하기 어렵습니다. \"하! 내 이럴 쭐 "
+"알아찌이이. 영웅이라도 된 양 해쩍 패거리를 한 번에 쏘탕하고 앂었나 본데. "
+"이짢아, 우리가 그렇게 멍청하찐 않거든! 야 커트, 쓰크랩 내놔. 내가 내기에써 "
+"이겼다.\"\n"
+"\t\t\t\t\t\t말이 끝나기 무섭게 놈들과 다른 해적선들은 도약으로 빠져나가고, "
+"당신은 노예상과 상대하도록 남겨집니다!"
 
 #: src-en/data/events_sector_radikal.xml:4449
 msgid ""
@@ -4293,13 +4316,20 @@ msgid ""
 msgstr "있잖아, 웃긴 건 우리가 거지라는 거야..."
 
 #: src-en/data/events_sector_radikal.xml:4507
+#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_MERCENARY\"]/choice/event/choice[3]/event/text"
 msgstr ""
-"\"나쁜 선택이다, 함장. 스크랩을 가져왔어야지.\" 당신 앞에 있는 해적선은 이런 상황을 분명 예상했다는 듯 즉시 전투 태세를 갖춥니다. \n"
+"\"나쁜 선택이다, 함장. 스크랩을 가져왔어야지.\" 당신 앞에 있는 해적선은 이런 "
+"상황을 분명 예상했다는 듯 즉시 전투 태세를 갖춥니다. \n"
 "\t\t\t\t\t\t\n"
-"\t\t\t\t\t\t감독관인 슬러그가 극도로 분노한 것인지, 아니면 자신의 예상이 맞아 기뻐하는 것인지, 아니면 둘 다인지 구분하기 어렵습니다. \"하! 내 이럴 쭐 알아찌이이. 영웅이라도 된 양 해쩍 패거리를 한 번에 쏘탕하고 앂었나 본데. 이짢아, 우리가 그렇게 멍청하찐 않거든! 야 커트, 쓰크랩 내놔. 내가 내기에써 이겼다.\"\n"
-"\t\t\t\t\t\t말이 끝나기 무섭게 놈들과 다른 해적선들은 도약으로 빠져나가고, 당신은 용병과 상대하도록 남겨집니다!"
+"\t\t\t\t\t\t감독관인 슬러그가 극도로 분노한 것인지, 아니면 자신의 예상이 "
+"맞아 기뻐하는 것인지, 아니면 둘 다인지 구분하기 어렵습니다. \"하! 내 이럴 쭐 "
+"알아찌이이. 영웅이라도 된 양 해쩍 패거리를 한 번에 쏘탕하고 앂었나 본데. "
+"이짢아, 우리가 그렇게 멍청하찐 않거든! 야 커트, 쓰크랩 내놔. 내가 내기에써 "
+"이겼다.\"\n"
+"\t\t\t\t\t\t말이 끝나기 무섭게 놈들과 다른 해적선들은 도약으로 빠져나가고, "
+"당신은 용병과 상대하도록 남겨집니다!"
 
 #: src-en/data/events_sector_radikal.xml:4514
 msgid ""
@@ -4374,13 +4404,20 @@ msgid ""
 msgstr "있잖아, 웃긴 건 우리가 거지라는 거야..."
 
 #: src-en/data/events_sector_radikal.xml:4588
+#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_SMUGGLER\"]/choice/event/choice[4]/event/text"
 msgstr ""
-"\"유감이군, 농담꾼인 줄은 몰랐는데. 스크랩을 가져왔어야지.\" 당신 앞에 있는 해적선은 이런 상황을 분명 예상했다는 듯 즉시 전투 태세를 갖춥니다. \n"
+"\"유감이군, 농담꾼인 줄은 몰랐는데. 스크랩을 가져왔어야지.\" 당신 앞에 있는 "
+"해적선은 이런 상황을 분명 예상했다는 듯 즉시 전투 태세를 갖춥니다. \n"
 "\t\t\t\t\t\t\n"
-"\t\t\t\t\t\t감독관인 슬러그가 극도로 분노한 것인지, 아니면 자신의 예상이 맞아 기뻐하는 것인지, 아니면 둘 다인지 구분하기 어렵습니다. \"하! 내 이럴 쭐 알아찌이이. 영웅이라도 된 양 해쩍 패거리를 한 번에 쏘탕하고 앂었나 본데. 이짢아, 우리가 그렇게 멍청하찐 않거든! 야 커트, 쓰크랩 내놔. 내가 내기에써 이겼다.\"\n"
-"\t\t\t\t\t\t말이 끝나기 무섭게 놈들과 다른 해적선들은 도약으로 빠져나가고, 당신은 밀수업자와 상대하도록 남겨집니다!"
+"\t\t\t\t\t\t감독관인 슬러그가 극도로 분노한 것인지, 아니면 자신의 예상이 "
+"맞아 기뻐하는 것인지, 아니면 둘 다인지 구분하기 어렵습니다. \"하! 내 이럴 쭐 "
+"알아찌이이. 영웅이라도 된 양 해쩍 패거리를 한 번에 쏘탕하고 앂었나 본데. "
+"이짢아, 우리가 그렇게 멍청하찐 않거든! 야 커트, 쓰크랩 내놔. 내가 내기에써 "
+"이겼다.\"\n"
+"\t\t\t\t\t\t말이 끝나기 무섭게 놈들과 다른 해적선들은 도약으로 빠져나가고, "
+"당신은 밀수업자와 상대하도록 남겨집니다!"
 
 #: src-en/data/events_sector_radikal.xml:4595
 msgid ""
