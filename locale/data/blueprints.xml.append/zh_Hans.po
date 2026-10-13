@@ -1,9 +1,16 @@
 #
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2026-10-13 17:26+0000\n"
+"Last-Translator: 土豆老年人 <2685455659@qq.com>\n"
+"Language-Team: Chinese (Simplified Han script) <https://weblate.hyperq.be/"
+"projects/radikal-sector/datablueprintsxmlappend/zh_Hans/>\n"
+"Language: zh_Hans\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.17.1\n"
 
 #: src-en/data/blueprints.xml.append:39
 msgid ""
@@ -268,15 +275,20 @@ msgid ""
 msgstr "充能腰带（关）"
 
 #: src-en/data/blueprints.xml.append:269
+#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_CREW_ARE_BOMBS_OFF\"]/desc"
 msgstr ""
 "（RK巴姆装备）此增强部件当前为关闭状态，可随时开启。开启时：\n"
 "\n"
-"\t[这件双刃剑增强部件为你的船员配备了腰带，[style[color:ff3377]]使其生命值降低10%（注意漂浪群）[[/style]]，并在死亡时爆炸，在所处舱室和飞船内引发火灾并造成伤害，在无系统舱室中造成额外伤害。[style[color:ff3377]]有友军伤害。[[/style]]\n"
+"\t[这件双刃剑增强部件为你的船员配备了腰带，[style[color:ff3377]]使其生命值降"
+"低10%（注意漂浪群）[[/style]]，并在死亡时爆炸，在所处舱室和飞船内引发火灾并造"
+"成伤害，在无系统舱室中造成额外伤害。[style[color:ff3377]]有友军伤害。[[/"
+"style]]\n"
 "\t可与已有的死亡效果叠加。\n"
 "\t\n"
-"\t[style[color:ff3377]]警告：无法关闭。[[/style]]可在空信标处将其拆解为 ~ 或 }。\n"
+"\t[style[color:ff3377]]警告：无法关闭。[[/style]]可在空信标处将其拆解为 ~ "
+"或 }。\n"
 "\n"
 "\t组合：使任意船员成为等离子传送器的火源。]"
 
@@ -335,10 +347,12 @@ msgid ""
 msgstr "强化船体"
 
 #: src-en/data/blueprints.xml.append:327
+#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_BAM_DIVINE_ARMOR\"]/desc"
 msgstr ""
-"（RK巴姆装备）拉迪卡尔星区对从俘获的神权审圣骑士星舰身上获取的极其罕见的装甲进行了逆向工程，制成了这种稍微更易获得但不太完美的装甲。\n"
+"（RK巴姆装备）拉迪卡尔星区对从俘获的神权审圣骑士星舰身上获取的极其罕见的装甲"
+"进行了逆向工程，制成了这种稍微更易获得但不太完美的装甲。\n"
 "\t\t\n"
 "\t\t[style[color:ff3377]]武器充能速度降低5%。[[/style]]\n"
 "\t\t造成1点的伤害有40%几率被抵消，所有其他伤害减少1点。"
@@ -349,10 +363,12 @@ msgid ""
 msgstr "持久护盾"
 
 #: src-en/data/blueprints.xml.append:342
+#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_PERSISTENCE_SHIELD\"]/desc"
 msgstr ""
-"（RK巴姆装备）这是依赖护盾的高端飞船的标配，得益于对许多再也没有回家的超能族侦察兵进行的压力测试。\n"
+"（RK巴姆装备）这是依赖护盾的高端飞船的标配，得益于对许多再也没有回家的超能族"
+"侦察兵进行的压力测试。\n"
 "\t\t\n"
 "\t\t增加一个 4 耐久的能量护盾。可与其他能量护盾叠加，但不能与自身叠加。\n"
 "\t\t同时提高50%的护盾充能速度。\n"
@@ -1225,6 +1241,7 @@ msgid ""
 msgstr "你永远不应该看到这条信息。为避免因 AI 瞄准方式导致（射击数 > 玩家飞船舱室数）时游戏卡死，射击次数限制为 3 次且冷却时间已缩短。"
 
 #: src-en/data/blueprints.xml.append:2741
+#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_BPS_FOCUS_STATUS\"]/title"
 msgstr "BPS 匕首光点"
