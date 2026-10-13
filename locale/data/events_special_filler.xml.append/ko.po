@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-10-13 17:26+0000\n"
+"PO-Revision-Date: 2026-10-13 21:01+0000\n"
 "Last-Translator: TrpleA <wndhkswnqls2@naver.com>\n"
 "Language-Team: Korean <https://weblate.hyperq.be/projects/radikal-sector/"
 "dataevents_special_fillerxmlappend/ko/>\n"
@@ -31,7 +31,6 @@ msgid ""
 msgstr "...방금 그건 대체 뭐였지?"
 
 #: src-en/data/events_special_filler.xml.append:50
-#, fuzzy
 msgid ""
 "data/events_special_filler.xml.append$//event[@name=\"DISTRESS_PIRA_CIVI_GIVECOORDS\"]/text"
 msgstr ""
@@ -50,15 +49,15 @@ msgid ""
 msgstr "우리도 우리만의 임무가 있다"
 
 #: src-en/data/events_special_filler.xml.append:59
-#, fuzzy
 msgid ""
 "data/events_special_filler.xml.append$//event[@name=\"DISTRESS_PIRA_CIVI_GIVECOORDS\"]/choice/event/text"
 msgstr ""
 "\"그래 그래, 알고 있다. 문제될 건 없지. 오히려 우회해서 가는 편이 당신 배를 "
 "기함이라는 도전에 맞서기 딱 좋은 성능으로 끌어올려 줄지도 모르니까. 우리 "
 "라디칼(RK)들이 정보 하나는 아주 빠삭하다는 걸 알게 될 거다. 나도 급히 "
-"처리해야 할 다른 임무가 있어서 말이지. 그럼 작별이다.\" 그녀가 통신을 "
-"끊습니다.\n"
+"처리해야 할 다른 임무가 있어서 말이지. 그럼 작별이다. 그리고 만약 우리가 "
+"제일 마지막에 서로 맞닥뜨리게 된다면, 글쎄, 더 뛰어난 쪽이 이기길 바라지.\" "
+"그녀가 통신을 끊습니다.\n"
 "\t\t\t\t구역 좌표가 아틀라스에 추가되었습니다!"
 
 #: src-en/data/events_special_filler.xml.append:64
