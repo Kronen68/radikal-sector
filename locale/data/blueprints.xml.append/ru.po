@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "PO-Revision-Date: 2026-10-13 17:26+0000\n"
-"Last-Translator: Ukn <bbg100bbg@gmail.com>\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Russian <https://weblate.hyperq.be/projects/radikal-sector/"
 "datablueprintsxmlappend/ru/>\n"
 "Language: ru\n"
@@ -1335,6 +1335,7 @@ msgid ""
 msgstr ""
 
 #: src-en/data/blueprints.xml.append:2876
+#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"DJMOD_LASER_BPS_ELITE\"]/short"
 msgstr "БПС Месс."
