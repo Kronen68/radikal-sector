@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "PO-Revision-Date: 2026-10-13 17:26+0000\n"
-"Last-Translator: TrpleA <wndhkswnqls2@naver.com>\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Korean <https://weblate.hyperq.be/projects/radikal-sector/"
 "dataeventsxmlappend/ko/>\n"
 "Language: ko\n"
@@ -1413,6 +1413,7 @@ msgid ""
 msgstr "계속..."
 
 #: src-en/data/events.xml.append:1922
+#, fuzzy
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"DJMOD_LASER_BPS_ELITE\"]/text"
 msgstr "BPS 전령 레이저를 반납합니다."
@@ -1979,6 +1980,7 @@ msgstr ""
 "후회하게 되는 일이 없기를 바랄 뿐입니다. 그들은 아무 말 없이 떠납니다."
 
 #: src-en/data/events.xml.append:2451
+#, fuzzy
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"RK_KILLALL_BEAM_ELITE\"]/text"
 msgstr "무덤확산 빔을 120~에 판매합니다."
@@ -2111,6 +2113,7 @@ msgstr ""
 "후회하게 되는 일이 없기를 바랄 뿐입니다. 그들은 아무 말 없이 떠납니다."
 
 #: src-en/data/events.xml.append:2568
+#, fuzzy
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"DJMOD_LASER_BPS_ELITE\"]/text"
 msgstr "BPS 전령 레이저를 200~에 판매합니다."
@@ -2344,6 +2347,7 @@ msgstr ""
 "후회하게 되는 일이 없기를 바랄 뿐입니다. 그들은 아무 말 없이 떠납니다."
 
 #: src-en/data/events.xml.append:2753
+#, fuzzy
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_KILLALL_BEAM_ELITE\"]/text"
 msgstr "무덤확산 빔을 120~에 판매합니다."
@@ -2476,6 +2480,7 @@ msgstr ""
 "후회하게 되는 일이 없기를 바랄 뿐입니다. 그들은 아무 말 없이 떠납니다."
 
 #: src-en/data/events.xml.append:2870
+#, fuzzy
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"DJMOD_LASER_BPS_ELITE\"]/text"
 msgstr "BPS 전령 레이저를 200~에 판매합니다."
