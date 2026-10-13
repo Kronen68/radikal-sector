@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-10-13 17:26+0000\n"
+"PO-Revision-Date: 2026-10-13 21:01+0000\n"
 "Last-Translator: TrpleA <wndhkswnqls2@naver.com>\n"
 "Language-Team: Korean <https://weblate.hyperq.be/projects/radikal-sector/"
 "dataevents_sector_radikalxml/ko/>\n"
@@ -413,12 +413,14 @@ msgstr ""
 #: src-en/data/events_sector_radikal.xml:492
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_GRAVESPRED_USER_REBELAUTO\"]/destroyed/choice[@req=\"RK_KILLALL_BEAM\"]/text"
-msgstr ""
+msgstr "(무덤확산) 장비가 자체 업그레이드 키트를 감지합니다."
 
 #: src-en/data/events_sector_radikal.xml:494
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_GRAVESPRED_USER_REBELAUTO\"]/destroyed/choice[@req=\"RK_KILLALL_BEAM\"]/event/text"
 msgstr ""
+"모든 것이 폭발하기 전에 업그레이드 키트를 추출하여 탈출합니다.\n"
+"\t\t\t\t\t회수한 키트를 즉시 장비에 적용합니다..."
 
 #: src-en/data/events_sector_radikal.xml:500
 msgid ""
@@ -428,7 +430,7 @@ msgstr "계속..."
 #: src-en/data/events_sector_radikal.xml:502
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_GRAVESPRED_USER_REBELAUTO\"]/destroyed/choice[@req=\"RK_KILLALL_BEAM\"]/event/choice/event/text"
-msgstr ""
+msgstr "장비가 엘리트 등급으로 업그레이드되었습니다!"
 
 #: src-en/data/events_sector_radikal.xml:506
 msgid ""
@@ -650,7 +652,7 @@ msgstr "계속..."
 #: src-en/data/events_sector_radikal.xml:781
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_WOF_USER_UNION\"]/deadCrew/choice[2]/text"
-msgstr "\"불타는 지구\""
+msgstr "\"불타는 대지\""
 
 #: src-en/data/events_sector_radikal.xml:783
 msgid ""
@@ -1595,31 +1597,56 @@ msgstr ""
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_GARAGE_PUNK_LIMIT\"]/text"
 msgstr ""
+"인근의 펄서가 잠시 주의를 흩뜨리는 사이, 기묘한 형태의 정비소에서 통신이 "
+"걸려옵니다.\n"
+"\n"
+"\t\t\"존귀하신 손님 여러분, RK 펑크의 '무자비한 개조 정비소(B.I.G.)'에 오신 "
+"것을 환영합니다.\n"
+"\t\t저희는 당신의 함선을 확장하여 시스템을 추가로 설치할 수 있도록 만들어 "
+"드릴 수 있습니다!\n"
+"\t\t그 대가로, 저희는 함상 전투 데이터에 관심이 있습니다.\n"
+"\t\t\n"
+"\t\t유전자 실험의 생명이 다할 때까지 사용할 [style[color:ff3377]]무작위 선원 "
+"한 명[[/style]]을 넘겨주십시오.\n"
+"\t\t또한 [style[color:ff3377]]함선 내부에서 모프들과 벌이는 소규모 전투[[/"
+"style]]에 참여하셔야 합니다.\n"
+"\n"
+"\t\t당신이 패배한다면 저희는 데이터를 공짜로 얻는 셈이죠, 히히히. 패배하지 "
+"않는다면 업그레이드를 진행해 드리겠습니다.\n"
+"\t\t이로 얻을 수 있는 잠재적 이득을 생각해 보십시오!\"\n"
+"\n"
+"\t\t살면서 이보다 더 악질적인 제안을 들어본 적이 있을지도 모릅니다. 하지만 "
+"선원들은 단언컨대 없다고 믿는 눈치입니다.\n"
+"\t\t어떻게 하시겠습니까?"
 
 #: src-en/data/events_sector_radikal.xml:1832
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_GARAGE_PUNK_LIMIT\"]/choice[1]/text"
-msgstr ""
+msgstr "우린 어떤 시련이든 감당할 수 있다, 덤벼라!"
 
 #: src-en/data/events_sector_radikal.xml:1834
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_GARAGE_PUNK_LIMIT\"]/choice[1]/event/text"
 msgstr ""
+"라니우스에게 무기를 겨눕니다. 무기를 겨누는 순간, 놈이 광란 상태에 빠집니다. "
+"전투가 벌어집니다! 고스트들은 당신을 돕기는커녕 엄폐물을 찾아 달아납니다."
 
 #: src-en/data/events_sector_radikal.xml:1845
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_GARAGE_PUNK_LIMIT\"]/choice[2]/text"
-msgstr ""
+msgstr "거절하겠습니다. 대신 연구용으로 더 이상 필요 없는 선원이라도 받아가겠습니다."
 
 #: src-en/data/events_sector_radikal.xml:1847
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_GARAGE_PUNK_LIMIT\"]/choice[2]/event/text"
 msgstr ""
+"\"배회자도 소문만큼 대단하진 않나 보군요, 안 그렇습니까? 뭐 좋습니다, 저기 "
+"있는 애슐리나 데려가십시오. 우리는 이제 저 친구한테 볼일 끝났습니다.\""
 
 #: src-en/data/events_sector_radikal.xml:1848
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_GARAGE_PUNK_LIMIT\"]/choice[2]/event/crewMember"
-msgstr ""
+msgstr "Ashley"
 
 #: src-en/data/events_sector_radikal.xml:1851
 msgid ""
@@ -1640,16 +1667,18 @@ msgstr "절대 안 되지, 일말의 기대조차 주지 말고 도약한다!"
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_GARAGE_PUNK_LIMIT_WIN\"]/text"
 msgstr ""
+"\"오, 진짜로 해낸 건가? 어.. 제 말은, 아주 훌륭한 전투였다는 뜻입니다! 어 "
+"음, 이제 업그레이드를 고를 자격이 생긴 것 같군요.\""
 
 #: src-en/data/events_sector_radikal.xml:1872
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_GARAGE_PUNK_LIMIT_WIN\"]/choice[1]/text"
-msgstr ""
+msgstr "시스템 설치 제한 횟수 1개 증가."
 
 #: src-en/data/events_sector_radikal.xml:1877
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_GARAGE_PUNK_LIMIT_WIN\"]/choice[2]/text"
-msgstr ""
+msgstr "선원 정원 제한 2명 증가."
 
 #: src-en/data/events_sector_radikal.xml:1887
 msgid ""
@@ -2118,13 +2147,12 @@ msgstr "계속..."
 #: src-en/data/events_sector_radikal.xml:2354
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS_SHUTTLE\"]/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_ATKD_BOMBLAUNCHER_OXYBOTTLE\"]/text"
-msgstr ""
+msgstr "(산소 폭격기 드론) 호흡을 돕는다."
 
 #: src-en/data/events_sector_radikal.xml:2356
-#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS_SHUTTLE\"]/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_ATKD_BOMBLAUNCHER_OXYBOTTLE\"]/event/text"
-msgstr "적절한 무기 덕분에 일촉즉발의 순간에 생명체를 구출해 냅니다."
+msgstr "적절한 드론 덕분에 일촉즉발의 순간에 생명체를 구출해 냅니다."
 
 #: src-en/data/events_sector_radikal.xml:2362
 msgid ""
@@ -2279,18 +2307,18 @@ msgid ""
 msgstr "라디칼 밤 장비를 보유하고 있지 않습니다."
 
 #: src-en/data/events_sector_radikal.xml:2531
-#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM\"]/choice[@req=\"DJMOD_HAS_RADIKAL_BAM_GEAR\""
 " and not(@lvl)]/text"
-msgstr "(라디칼 밤 장비) 강타..."
+msgstr "(라디칼 밤 장비) ''화끈하게..."
 
 #: src-en/data/events_sector_radikal.xml:2533
-#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM\"]/choice[@req=\"DJMOD_HAS_RADIKAL_BAM_GEAR\""
 " and not(@lvl)]/event/text"
-msgstr "\"... 형씨! 바로 그거야. 여기 환영 선물 받아. 얼른 건너와서 거래하자고!\""
+msgstr ""
+"\"... 쳐라, 형씨!' 바로 그거야. 여기 환영 선물 받아. 얼른 건너와서 "
+"거래하자고!\""
 
 #: src-en/data/events_sector_radikal.xml:2537
 msgid ""
@@ -2850,18 +2878,16 @@ msgid ""
 msgstr "라디칼 펑크 장비를 보유하고 있지 않습니다."
 
 #: src-en/data/events_sector_radikal.xml:3089
-#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK\"]/choice[@req=\"DJMOD_HAS_RADIKAL_PUNK_GEAR\""
 " and not(@lvl)]/text"
-msgstr "(라디칼 펑크 장비) 명석함을 유지하라..."
+msgstr "(라디칼 펑크 장비) '늘 영리하게..."
 
 #: src-en/data/events_sector_radikal.xml:3091
-#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK\"]/choice[@req=\"DJMOD_HAS_RADIKAL_PUNK_GEAR\""
 " and not(@lvl)]/event/text"
-msgstr "\"... 학살자. 히히. 드론이 환영 선물을 전달할 거다. 기다리고 있겠다.\""
+msgstr "\"... 도륙하라!' 히히. 드론이 환영 선물을 전달할 거다. 기다리고 있겠다.\""
 
 #: src-en/data/events_sector_radikal.xml:3095
 msgid ""
@@ -3462,20 +3488,18 @@ msgid ""
 msgstr "라디칼 스코치 장비를 보유하고 있지 않습니다."
 
 #: src-en/data/events_sector_radikal.xml:3672
-#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH\"]/choice[@req=\"DJMOD_HAS_RADIKAL_SCORCH_GEAR\""
 " and not(@lvl)]/text"
-msgstr "(라디칼 스코치 장비) 밝게 타오르라..."
+msgstr "(라디칼 스코치 장비) '밝게 태워라..."
 
 #: src-en/data/events_sector_radikal.xml:3674
-#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH\"]/choice[@req=\"DJMOD_HAS_RADIKAL_SCORCH_GEAR\""
 " and not(@lvl)]/event/text"
 msgstr ""
-"\"... 자기. 우리 식구를 보는 건 언제나 마음을 따뜻하게 해주지. 여기 환영 "
-"선물이다. 착륙을 허가한다.\""
+"\"... 불꽃처럼!' 우리 식구를 보는 건 언제나 마음을 따뜻하게 해주지. 여기 "
+"환영 선물이다. 착륙을 허가한다.\""
 
 #: src-en/data/events_sector_radikal.xml:3678
 msgid ""
@@ -4084,7 +4108,6 @@ msgid ""
 msgstr "해적들이 당신의 스크랩을 기다리고 있습니다. 어떤 이유로든 놈들을 실망하게 만든다면 그 위험은 본인 책임입니다!"
 
 #: src-en/data/events_sector_radikal.xml:4276
-#, fuzzy
 msgid "data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY\"]/text"
 msgstr ""
 "해적 클랜들이 항상 뜻을 같이하는 것은 아니지만, 큰 돈을 벌 기회가 생기면 "
@@ -4096,8 +4119,9 @@ msgstr ""
 "\t\t\n"
 "\t\t이 슬러그 놈과 그 잔혹한 패거리들을 분노하게 만들고 싶지 않다면, 해적 "
 "하위 분파 모두에게서 무엇이든 하나씩은 구매하는 편이 좋을 것입니다.\n"
-"\t\t전부 사거나, 아니면 아예 안 사거나 둘 중 하나지만, 만약 성공해 낸다면 "
-"우주 전체의 해적들이 당신을 그만큼 훨씬 더 존경하게 될 것입니다!"
+"\t\t[style[color:ff3377]]전부 사거나, 아니면 아예 안 사거나 둘 중 하나지만[[/"
+"style]], 만약 성공해 낸다면 우주 전체의 해적들이 당신을 그만큼 훨씬 더 "
+"존경하게 될 것입니다!"
 
 #: src-en/data/events_sector_radikal.xml:4288
 msgid ""
@@ -4242,7 +4266,6 @@ msgid ""
 msgstr "있잖아, 웃긴 건 우리가 거지라는 거야..."
 
 #: src-en/data/events_sector_radikal.xml:4442
-#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_SLAVER\"]/choice/event/choice[4]/event/text"
 msgstr ""
@@ -4316,7 +4339,6 @@ msgid ""
 msgstr "있잖아, 웃긴 건 우리가 거지라는 거야..."
 
 #: src-en/data/events_sector_radikal.xml:4507
-#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_MERCENARY\"]/choice/event/choice[3]/event/text"
 msgstr ""
@@ -4404,7 +4426,6 @@ msgid ""
 msgstr "있잖아, 웃긴 건 우리가 거지라는 거야..."
 
 #: src-en/data/events_sector_radikal.xml:4588
-#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_SMUGGLER\"]/choice/event/choice[4]/event/text"
 msgstr ""
