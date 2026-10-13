@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "PO-Revision-Date: 2026-10-13 17:26+0000\n"
-"Last-Translator: TrpleA <wndhkswnqls2@naver.com>\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Korean <https://weblate.hyperq.be/projects/radikal-sector/"
 "dataevents_special_storagexmlappend/ko/>\n"
 "Language: ko\n"
@@ -1634,6 +1634,7 @@ msgid ""
 msgstr "(OE) 보조 방어막실!"
 
 #: src-en/data/events_special_storage.xml.append:2549
+#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"oe_aux_shields\"]/text"
 msgstr "(OE) 보조 방어막실!"
