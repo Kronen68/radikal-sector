@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-10-13 17:26+0000\n"
+"PO-Revision-Date: 2026-10-15 03:06+0000\n"
 "Last-Translator: Ukn <bbg100bbg@gmail.com>\n"
 "Language-Team: Russian <https://weblate.hyperq.be/projects/radikal-sector/"
 "datahyperspace-xml-append/ru/>\n"
@@ -562,37 +562,37 @@ msgstr ""
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod:findLike/mod-"
 "append:category[1]/customTitle"
-msgstr ""
+msgstr "ВАМ ПОВЕЗЛО!"
 
 #: src-en/data/hyperspace.xml.append:3691
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod:findLike/mod-"
 "append:category[2]/customTitle"
-msgstr ""
+msgstr "ВАМ ПОВЕЗЛО!"
 
 #: src-en/data/hyperspace.xml.append:3707
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod:findLike/mod-"
 "append:category[3]/customTitle"
-msgstr ""
+msgstr "ВАМ ПОВЕЗЛО!"
 
 #: src-en/data/hyperspace.xml.append:3727
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod:findLike/mod-"
 "append:category[4]/customTitle"
-msgstr ""
+msgstr "ВАМ ПОВЕЗЛО!"
 
 #: src-en/data/hyperspace.xml.append:3738
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod:findLike/mod-"
 "append:category[5]/customTitle"
-msgstr ""
+msgstr "ВАМ ПОВЕЗЛО! (ПАРТНЕРЫ)"
 
 #: src-en/data/hyperspace.xml.append:3759
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod:findLike/mod-"
 "append:category[6]/customTitle"
-msgstr ""
+msgstr "ВАМ ПОВЕЗЛО!"
 
 #: src-en/data/hyperspace.xml.append:3777
 msgid ""
@@ -613,11 +613,10 @@ msgid ""
 msgstr "БПС МОДУЛИ"
 
 #: src-en/data/hyperspace.xml.append:3824
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[1]/category[4]/customTitle"
-msgstr "МОДУЛИ РАДИКАЛ"
+msgstr "МОДУЛИ ПОДФРАКЦИИ РК"
 
 #: src-en/data/hyperspace.xml.append:3843
 msgid ""
@@ -629,7 +628,7 @@ msgstr "РАДИКАЛЫ"
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[1]/category[6]/customTitle"
-msgstr ""
+msgstr "ДРОНЫ РАДИКАЛОВ"
 
 #: src-en/data/hyperspace.xml.append:3883
 msgid ""
@@ -731,7 +730,7 @@ msgstr "БПС МОДУЛИ"
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[4]/category[15]/customTitle"
-msgstr ""
+msgstr "ДРОНЫ РАДИКАЛОВ"
 
 #: src-en/data/hyperspace.xml.append:4256
 msgid ""
@@ -884,11 +883,10 @@ msgid ""
 msgstr "ТОП РК БAM МОДУЛИ"
 
 #: src-en/data/hyperspace.xml.append:4807
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[6]/category[14]/customTitle"
-msgstr "Э К С К Л Ю З И В Н О"
+msgstr "ГАРАНТИРОВАННО - РИСКОВАННО"
 
 #: src-en/data/hyperspace.xml.append:4840
 msgid ""
@@ -1017,11 +1015,10 @@ msgid ""
 msgstr "ТОП СКОРЧ МОДУЛИ"
 
 #: src-en/data/hyperspace.xml.append:5317
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[9]/mod-"
 "append:customStore[8]/category[15]/customTitle"
-msgstr "Э К С К Л Ю З И В Н О"
+msgstr "ГАРАНТИРОВАННО - РИСКОВАННО"
 
 #: src-en/data/hyperspace.xml.append:5354
 msgid ""
