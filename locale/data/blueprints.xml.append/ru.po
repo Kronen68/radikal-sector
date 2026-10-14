@@ -1,8 +1,8 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-10-13 17:26+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2026-10-15 03:06+0000\n"
+"Last-Translator: Ukn <bbg100bbg@gmail.com>\n"
 "Language-Team: Russian <https://weblate.hyperq.be/projects/radikal-sector/"
 "datablueprintsxmlappend/ru/>\n"
 "Language: ru\n"
@@ -290,7 +290,6 @@ msgid ""
 msgstr "Заряженные пояса (Выкл)"
 
 #: src-en/data/blueprints.xml.append:269
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_CREW_ARE_BOMBS_OFF\"]/desc"
 msgstr ""
@@ -365,18 +364,19 @@ msgid ""
 msgstr "Утолщенная обшивка"
 
 #: src-en/data/blueprints.xml.append:327
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_BAM_DIVINE_ARMOR\"]/desc"
 msgstr ""
-"(Оборудование РК Бам) РадиКал провели реинжиниринг крайне редкой брони, "
+"(Оборудование РК Бам) РадиКалы провели реинжиниринг крайне редкой брони, "
 "захваченной у инквизиторов Теократии, и превратила их в эту чуть более "
 "доступную и менее совершенную броню.\n"
 "\n"
 "\t\t[style[color:ff3377]]Снижает скорость перезарядки оружия на 5%.[[/"
 "style]]\n"
 "\t\tСнаряды, наносящие 1 урон, имеют 40% шанс быть отраженными, а весь "
-"остальной урон уменьшается на 1."
+"остальной урон уменьшается на 1.\n"
+"\n"
+"\t\tКОМБО: ваше оружие типа Тяжелый поппер не наносит вам урона."
 
 #: src-en/data/blueprints.xml.append:341
 msgid ""
@@ -384,7 +384,6 @@ msgid ""
 msgstr "Щит стойкости"
 
 #: src-en/data/blueprints.xml.append:342
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_PERSISTENCE_SHIELD\"]/desc"
 msgstr ""
@@ -399,7 +398,7 @@ msgstr ""
 "\t\tАктивируйте из меню переключения, чтобы мгновенно восстановить все слои "
 "суперщита. [Использует 1 {]\n"
 "\t\tНевозможно активировать повторно, пока вы не восстановите его "
-"конденсатор на пустом маяке за 7~ ."
+"конденсатор на пустом маяке за 7~ . [Не использует пустой маяк]"
 
 #: src-en/data/blueprints.xml.append:394
 msgid ""
@@ -1112,17 +1111,23 @@ msgstr ""
 #: src-en/data/blueprints.xml.append:1854
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_KILLALL_BEAM_ELITE\"]/title"
-msgstr ""
+msgstr "Элитный Рад-луч \"Грейвспред\""
 
 #: src-en/data/blueprints.xml.append:1855
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_KILLALL_BEAM_ELITE\"]/short"
-msgstr ""
+msgstr "Грейвспр.+"
 
 #: src-en/data/blueprints.xml.append:1856
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_KILLALL_BEAM_ELITE\"]/desc"
 msgstr ""
+"(Оборудование РК Панк) Эта элитная версия \"Грейвспред\" заряжается быстрее "
+"и наносит больше цепных действий. (Макс. урон экипажу - 135)\n"
+"\t\tПробивает 2 щита +1 за каждую цепь. (Макс. 8 пробиваний. Игнорируйте "
+"подсказку)\n"
+"\t\t[style[color:ff3377]]ВНИМАНИЕ: Наносит 15 урона всем членам экипажа на "
+"вашем корабле за каждую цепь![[/style]] (Макс. 90)"
 
 #: src-en/data/blueprints.xml.append:1901
 msgid ""
@@ -1162,7 +1167,7 @@ msgstr ""
 #: src-en/data/blueprints.xml.append:2184
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_RAIN_OF_ION_ELITE\"]/title"
-msgstr ""
+msgstr "Элитный \"Дождь ионов\""
 
 #: src-en/data/blueprints.xml.append:2185
 msgid ""
@@ -1173,6 +1178,10 @@ msgstr "Дождь ионов"
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_RAIN_OF_ION_ELITE\"]/desc"
 msgstr ""
+"(Оборудование РК Панк) Ускоренный \"Дождь ионов\", который позволяет дважды "
+"подряд использовать способность без перерыва. Напоминание о более безумных "
+"временах.\n"
+"\t\tЕще больше синих опций с этим оружием!"
 
 #: src-en/data/blueprints.xml.append:2253
 msgid ""
@@ -1292,10 +1301,9 @@ msgstr ""
 "особенностей наведения ИИ."
 
 #: src-en/data/blueprints.xml.append:2741
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_BPS_FOCUS_STATUS\"]/title"
-msgstr "БПС Письмо"
+msgstr "\"БПС Письмо\""
 
 #: src-en/data/blueprints.xml.append:2742
 msgid ""
@@ -1318,7 +1326,7 @@ msgstr "\"БПС Мессенджер\""
 #: src-en/data/blueprints.xml.append:2813
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"DJMOD_LASER_BPS\"]/short"
-msgstr "БПС Месс."
+msgstr "БПС Пис."
 
 #: src-en/data/blueprints.xml.append:2814
 msgid ""
@@ -1332,18 +1340,19 @@ msgstr ""
 #: src-en/data/blueprints.xml.append:2875
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"DJMOD_LASER_BPS_ELITE\"]/title"
-msgstr ""
+msgstr "Элитный \"БПС Мессенджер\""
 
 #: src-en/data/blueprints.xml.append:2876
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"DJMOD_LASER_BPS_ELITE\"]/short"
-msgstr "БПС Месс."
+msgstr "БПС Пис.+"
 
 #: src-en/data/blueprints.xml.append:2877
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"DJMOD_LASER_BPS_ELITE\"]/desc"
 msgstr ""
+"(Оборудование РК БПС) Более быстрый и потрясающий Мессенджер. Таких больше "
+"не делают."
 
 #: src-en/data/blueprints.xml.append:2942
 msgid "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_A_LASER_1\"]/title"
