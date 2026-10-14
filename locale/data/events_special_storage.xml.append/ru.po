@@ -1,8 +1,8 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-10-13 17:26+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2026-10-15 03:06+0000\n"
+"Last-Translator: Ukn <bbg100bbg@gmail.com>\n"
 "Language-Team: Russian <https://weblate.hyperq.be/projects/radikal-sector/"
 "dataevents_special_storagexmlappend/ru/>\n"
 "Language: ru\n"
@@ -1541,13 +1541,13 @@ msgid ""
 msgstr "Хорошо."
 
 #: src-en/data/events_special_storage.xml.append:2350
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_COMBAT_SHIPVORE_RAM_REINFORCE\"]/text"
 msgstr ""
 "Вы уверены, что хотите укрепить этот модуль?\n"
 "\t[При выборе удара \"Полная мощность\" вместо модуля будет утрачено "
 "укрепление.\n"
+"\t\n"
 "\tПосле этого вы все равно сможете что-то сделать у пустого маяка]"
 
 #: src-en/data/events_special_storage.xml.append:2356
@@ -1580,13 +1580,13 @@ msgid ""
 msgstr "Неважно, заняться чем-то еще."
 
 #: src-en/data/events_special_storage.xml.append:2383
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"RK_PERSISTENCE_SHIELD_REBUILD_CAPACITOR\"]/text"
 msgstr ""
 "Вы уверены, что хотите перестроить конденсатор Щита стойкости?\n"
 "\t[Это позволит вам снова использовать его активную способность из меню "
 "переключения.\n"
+"\t\n"
 "\tПосле этого вы сможете продолжить действия у пустого маяка]"
 
 #: src-en/data/events_special_storage.xml.append:2389
@@ -1742,20 +1742,19 @@ msgid ""
 msgstr "(The Outer Expansion) Отсека Вспомогательной щитов!"
 
 #: src-en/data/events_special_storage.xml.append:2549
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"oe_aux_shields\"]/text"
-msgstr "(The Outer Expansion) Отсека Вспомогательной щитов!"
+msgstr "(OE R.) Отсека Вспомогательной щитов!"
 
 #: src-en/data/events_special_storage.xml.append:2553
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"oe_growth\"]/text"
-msgstr ""
+msgstr "(OE R.) Помещение Расцвета жизни!"
 
 #: src-en/data/events_special_storage.xml.append:2557
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"oe_grease\"]/text"
-msgstr ""
+msgstr "(OE R.) Помещение Усилителя оружия!"
 
 #: src-en/data/events_special_storage.xml.append:2562
 msgid ""
@@ -1770,7 +1769,7 @@ msgstr "(Lily's Innovations) Отсека Абляционной брони!"
 #: src-en/data/events_special_storage.xml.append:2571
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"DJMOD_TOGGLEMENU_SCORCH_SELF\"]/choice[@req=\"lily_aux_reactor\"]/text"
-msgstr ""
+msgstr "(LI) Помещение Вспомогательного реактора!"
 
 #: src-en/data/events_special_storage.xml.append:2575
 msgid ""
@@ -3921,18 +3920,16 @@ msgstr ""
 "\t\t\tМожно установить дважды. [УЖЕ УСТАНОВЛЕНО: у вас уже установлено максимальное количество этого улучшения]"
 
 #: src-en/data/events_special_storage.xml.append:7086
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL\"]/choice[@req=\"INTERNAL_RK_CALIBRATOR\""
 " and @lvl=\"1\"]/text"
-msgstr "Калибратор 2-го уровня. [Цена: 45~, 1|]"
+msgstr "[RK Bam] Калибратор 2-го уровня. [Цена: 45~, 1|]"
 
 #: src-en/data/events_special_storage.xml.append:7090
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL\"]/choice[@req=\"INTERNAL_RK_CALIBRATOR\""
 " and @lvl=\"0\"]/text"
-msgstr "Калибратор 1-го уровня. [Цена: 45~ 1|]"
+msgstr "[RK Bam] Калибратор 1-го уровня. [Цена: 45~ 1|]"
 
 #: src-en/data/events_special_storage.xml.append:7095
 msgid ""
@@ -3943,11 +3940,10 @@ msgstr ""
 "\t\tВ состоянии удушья они передвигаются, саботируют, ремонтируют и сражаются в 1.4х эффективнее. Не влияет на экипаж, обладающий иммунитетом к удушью. [УЖЕ УСТАНОВЛЕНО]"
 
 #: src-en/data/events_special_storage.xml.append:7100
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL\"]/choice[@req=\"INTERNAL_RK_CHOKING_IS_FINE\""
 " and @lvl=\"0\"]/text"
-msgstr "Удушонайзер Н.С.В.Ф.У. [Цена: 55~, 1}, 1|]"
+msgstr "[RK Bam] Удушонайзер Н.С.В.Ф.У. [Цена: 55~, 1}, 1|]"
 
 #: src-en/data/events_special_storage.xml.append:7105
 msgid ""
@@ -3958,11 +3954,10 @@ msgstr ""
 "\t\t\tЕсли таких персонажей нет, они превращаются в морфов. Когда морфы гибнут, ничего не происходит. Не работает при гибели в результате событий. [УЖЕ УСТАНОВЛЕНО]"
 
 #: src-en/data/events_special_storage.xml.append:7110
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL\"]/choice[@req=\"INTERNAL_DJMOD_DEMICLONER\""
 " and @lvl=\"0\"]/text"
-msgstr "Демиклонеры. [Цена: 35~, 2|]"
+msgstr "[РК Панк] Демиклонеры. [Цена: 35~, 2|]"
 
 #: src-en/data/events_special_storage.xml.append:7115
 msgid ""
@@ -3974,11 +3969,10 @@ msgstr ""
 "телепортироваться. Действует на обоих кораблях. [УЖЕ УСТАНОВЛЕНО]"
 
 #: src-en/data/events_special_storage.xml.append:7119
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL\"]/choice[@req=\"INTERNAL_DJMOD_MC_PARALYZER\""
 " and @lvl=\"0\"]/text"
-msgstr "Успокоитель разума. [Цена: 30~, 1|]"
+msgstr "[РК Панк] Успокоитель разума. [Цена: 30~, 1|]"
 
 #: src-en/data/events_special_storage.xml.append:7125
 msgid ""
@@ -3990,11 +3984,10 @@ msgstr ""
 "до 1.75x на обоих кораблях. [УЖЕ УСТАНОВЛЕНО]"
 
 #: src-en/data/events_special_storage.xml.append:7129
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL\"]/choice[@req=\"INTERNAL_RK_IN_FIRE_CREWBOOSTS\""
 " and @lvl=\"0\"]/text"
-msgstr "Огненные повязки [Цена: 55~, 1{, 1}]"
+msgstr "[РК Скорч] Огненные повязки [Цена: 55~, 1{, 1}]"
 
 #: src-en/data/events_special_storage.xml.append:7134
 msgid ""
@@ -4007,11 +4000,10 @@ msgstr ""
 "начинаете видеть соседние помещения. [УЖЕ УСТАНОВЛЕНО]"
 
 #: src-en/data/events_special_storage.xml.append:7138
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_DJMOD_RADIKAL\"]/choice[@req=\"INTERNAL_DJMOD_MC_IMMUNE_FROM_FIRE\""
 " and @lvl=\"0\"]/text"
-msgstr "Разогреватель разума. [Цена: 30~, 1{]"
+msgstr "[РК Скорч] Разогреватель разума. [Цена: 30~, 1{]"
 
 #: src-en/data/events_special_storage.xml.append:7143
 msgid ""
