@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-10-13 17:26+0000\n"
+"PO-Revision-Date: 2026-10-15 03:06+0000\n"
 "Last-Translator: Ukn <bbg100bbg@gmail.com>\n"
 "Language-Team: Russian <https://weblate.hyperq.be/projects/radikal-sector/"
 "dataevents_sector_radikalxml/ru/>\n"
@@ -448,11 +448,16 @@ msgstr ""
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_GRAVESPRED_USER_REBELAUTO\"]/destroyed/choice[@req=\"RK_KILLALL_BEAM\"]/text"
 msgstr ""
+"(Грейвспред) Ваше оборудование РК обнаруживает собственный комплект "
+"модернизации."
 
 #: src-en/data/events_sector_radikal.xml:494
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_GRAVESPRED_USER_REBELAUTO\"]/destroyed/choice[@req=\"RK_KILLALL_BEAM\"]/event/text"
 msgstr ""
+"Вы достаете комплект для модернизации и уноситесь прочь, пока все не "
+"взорвалось.\n"
+"\t\t\t\t\t Вы сразу же устанавливаете его на свое оборудование..."
 
 #: src-en/data/events_sector_radikal.xml:500
 msgid ""
@@ -462,7 +467,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_sector_radikal.xml:502
 msgid ""
 "data/events_sector_radikal.xml$//ship[@name=\"SHIP_RKS_GRAVESPRED_USER_REBELAUTO\"]/destroyed/choice[@req=\"RK_KILLALL_BEAM\"]/event/choice/event/text"
-msgstr ""
+msgstr "Теперь ваше оборудование стало элитным!"
 
 #: src-en/data/events_sector_radikal.xml:506
 msgid ""
@@ -1697,31 +1702,59 @@ msgstr ""
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_GARAGE_PUNK_LIMIT\"]/text"
 msgstr ""
+"Находящийся поблизости пульсар на мгновение отвлекает ваше внимание, прежде "
+"чем вас вызывает странная мастерская.\n"
+"\n"
+"\t\t\"Уважаемые гости, вы нашли \"Гараж брутального усовершенствований\" "
+"(Г.Б.У.) от РК Панк.\n"
+"\t\tМы можем модернизировать ваш корабль, чтобы он получил дополнительную "
+"систему!\n"
+"\t\tВзамен нас интересуют данные о боях на борту корабля.\n"
+"\t\t\n"
+"\t\tПожалуйста, [style[color:ff3377]]предоставьте нам случайного члена "
+"экипажа[[/style]] для генетических экспериментов до тех пор, пока он не "
+"перестанет жить.\n"
+"\t\tМы также попросим вас принять участие в небольшом "
+"[style[color:ff3377]]сражении с морфами на борту вашего корабля[[/style]].\n"
+"\n"
+"\t\tЕсли вы проиграете, мы получим наши данные бесплатно, хе-хе-хе. В "
+"противном случае мы приступим к модернизации.\n"
+"\t\tПодумайте о потенциальных выгодах!\"\n"
+"\n"
+"\t\tВозможно, вы слышали в своей жизни и худшие предложения. Ваш экипаж "
+"твердо убежден, что это не так.\n"
+"\t\tЧто вы решите?"
 
 #: src-en/data/events_sector_radikal.xml:1832
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_GARAGE_PUNK_LIMIT\"]/choice[1]/text"
-msgstr ""
+msgstr "Мы справимся с чем угодно, вперед!"
 
 #: src-en/data/events_sector_radikal.xml:1834
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_GARAGE_PUNK_LIMIT\"]/choice[1]/event/text"
 msgstr ""
+"Вы направляете оружие на ланиусов. Как только вы это делаете, они впадают в "
+"ярость. Начинается сражение! Призраки прячутся, вместо того чтобы помочь вам."
 
 #: src-en/data/events_sector_radikal.xml:1845
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_GARAGE_PUNK_LIMIT\"]/choice[2]/text"
 msgstr ""
+"Нет, но мы с удовольствием примем любой экипаж, который вам больше не нужен, "
+"для научных исследований."
 
 #: src-en/data/events_sector_radikal.xml:1847
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_GARAGE_PUNK_LIMIT\"]/choice[2]/event/text"
 msgstr ""
+"Эти Ренегаты на самом деле не такие уж и крутые, как о них говорят, да? Ну и "
+"ладно, пусть Эшли перейдет к ним, с ними мы уже покончили\"."
 
 #: src-en/data/events_sector_radikal.xml:1848
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_GARAGE_PUNK_LIMIT\"]/choice[2]/event/crewMember"
-msgstr ""
+msgstr "Эшли"
 
 #: src-en/data/events_sector_radikal.xml:1851
 msgid ""
@@ -1742,16 +1775,18 @@ msgstr "Ни за что на свете, не дать им даже попыт
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_GARAGE_PUNK_LIMIT_WIN\"]/text"
 msgstr ""
+"\"О, вы действительно справились? Э-э-э... то есть, отлично сражались! Ну "
+"что ж. Полагаю, теперь вы можете выбрать себе улучшение\"."
 
 #: src-en/data/events_sector_radikal.xml:1872
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_GARAGE_PUNK_LIMIT_WIN\"]/choice[1]/text"
-msgstr ""
+msgstr "Увеличить системный предел на 1."
 
 #: src-en/data/events_sector_radikal.xml:1877
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_GARAGE_PUNK_LIMIT_WIN\"]/choice[2]/text"
-msgstr ""
+msgstr "Увеличить системный предел на 2."
 
 #: src-en/data/events_sector_radikal.xml:1887
 msgid ""
@@ -2241,13 +2276,12 @@ msgstr "Продолжить..."
 #: src-en/data/events_sector_radikal.xml:2354
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS_SHUTTLE\"]/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_ATKD_BOMBLAUNCHER_OXYBOTTLE\"]/text"
-msgstr ""
+msgstr "(Дрон \"Кислородный бомбер\") Помочь ему дышать."
 
 #: src-en/data/events_sector_radikal.xml:2356
-#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_DEFROMORIUS_SHUTTLE\"]/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_ATKD_BOMBLAUNCHER_OXYBOTTLE\"]/event/text"
-msgstr "С помощью подходящего оружия вы спасаете существо в последний момент."
+msgstr "С помощью подходящего дрона вы спасаете существо в последний момент."
 
 #: src-en/data/events_sector_radikal.xml:2362
 msgid ""
@@ -2408,19 +2442,17 @@ msgid ""
 msgstr "У вас нет снаряжения РК Бам."
 
 #: src-en/data/events_sector_radikal.xml:2531
-#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM\"]/choice[@req=\"DJMOD_HAS_RADIKAL_BAM_GEAR\""
 " and not(@lvl)]/text"
-msgstr "(Оборудование РК Бам) Ловко парировать его выпад..."
+msgstr "(Оборудование РК Бам) 'Ловко парировать его выпад..."
 
 #: src-en/data/events_sector_radikal.xml:2533
-#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_BAM\"]/choice[@req=\"DJMOD_HAS_RADIKAL_BAM_GEAR\""
 " and not(@lvl)]/event/text"
 msgstr ""
-"\"... Брат! Вот о чем я и говорю. Вот тебе приветственный подарок. "
+"\"... Брат'! Вот о чем я и говорю. Вот тебе приветственный подарок. "
 "Поторопись и заходи, чтобы мы могли торговать!\""
 
 #: src-en/data/events_sector_radikal.xml:2537
@@ -3028,19 +3060,17 @@ msgid ""
 msgstr "У вас нет снаряжения РК Панк."
 
 #: src-en/data/events_sector_radikal.xml:3089
-#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK\"]/choice[@req=\"DJMOD_HAS_RADIKAL_PUNK_GEAR\""
 " and not(@lvl)]/text"
-msgstr "(Оборудование РК Панк) Сообразить что к чему..."
+msgstr "(Оборудование РК Панк) 'Сообразить что к чему..."
 
 #: src-en/data/events_sector_radikal.xml:3091
-#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_PUNK\"]/choice[@req=\"DJMOD_HAS_RADIKAL_PUNK_GEAR\""
 " and not(@lvl)]/event/text"
 msgstr ""
-"\"...Убийца. Хе-хе. Дрон доставит вам приветственный подарок. Мы ждем вас\"."
+"\"...Убийца'. Хе-хе. Дрон доставит вам приветственный подарок. Мы ждем вас\"."
 
 #: src-en/data/events_sector_radikal.xml:3095
 msgid ""
@@ -3691,19 +3721,17 @@ msgid ""
 msgstr "У вас нет снаряжения РК Скорч."
 
 #: src-en/data/events_sector_radikal.xml:3672
-#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH\"]/choice[@req=\"DJMOD_HAS_RADIKAL_SCORCH_GEAR\""
 " and not(@lvl)]/text"
-msgstr "(Оборудование РК Скорч) Ярко засиять..."
+msgstr "(Оборудование РК Скорч) 'Ярко засиять..."
 
 #: src-en/data/events_sector_radikal.xml:3674
-#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_QUEST_LAB_SCORCH\"]/choice[@req=\"DJMOD_HAS_RADIKAL_SCORCH_GEAR\""
 " and not(@lvl)]/event/text"
 msgstr ""
-"\"... Малыш. Всегда приятно видеть одного из нас. Вот тебе приветственный "
+"\"... Малыш'. Всегда приятно видеть одного из нас. Вот тебе приветственный "
 "подарок. Можешь приземляться\"."
 
 #: src-en/data/events_sector_radikal.xml:3678
@@ -4366,7 +4394,6 @@ msgid ""
 msgstr "Пираты ждут вашего лом. Разочаровывать их - рискованная идея!"
 
 #: src-en/data/events_sector_radikal.xml:4276
-#, fuzzy
 msgid "data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY\"]/text"
 msgstr ""
 "Пиратские кланы не всегда ладят друг с другом, но когда на кону стоят "
@@ -4378,8 +4405,8 @@ msgstr ""
 "\t\t\n"
 "\t\tЕсли не хотите разозлить слизня и его безжалостных подельников, вам "
 "лучше купить что-нибудь у каждой из пиратских подфракций.\n"
-"Это все или ничего, но если вы это сделаете, пираты повсюду будут уважать "
-"вас еще больше!"
+"\t\t[style[color:ff3377]]Это все или ничего[[/style]], но если вы это "
+"сделаете, пираты повсюду будут уважать вас еще больше!"
 
 #: src-en/data/events_sector_radikal.xml:4288
 msgid ""
@@ -4530,7 +4557,6 @@ msgid ""
 msgstr "Знаешь, что, самое смешное, что мы на мели..."
 
 #: src-en/data/events_sector_radikal.xml:4442
-#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_SLAVER\"]/choice/event/choice[4]/event/text"
 msgstr ""
@@ -4603,7 +4629,6 @@ msgid ""
 msgstr "Знаешь, что, самое смешное, что мы на мели..."
 
 #: src-en/data/events_sector_radikal.xml:4507
-#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_MERCENARY\"]/choice/event/choice[3]/event/text"
 msgstr ""
@@ -4690,7 +4715,6 @@ msgid ""
 msgstr "Знаешь, что, самое смешное, что мы на мели..."
 
 #: src-en/data/events_sector_radikal.xml:4588
-#, fuzzy
 msgid ""
 "data/events_sector_radikal.xml$//event[@name=\"RKS_PIRATE_TRINITY_CHOOSE_SMUGGLER\"]/choice/event/choice[4]/event/text"
 msgstr ""
