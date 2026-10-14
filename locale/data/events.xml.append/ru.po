@@ -1,8 +1,8 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-10-13 17:26+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2026-10-15 03:06+0000\n"
+"Last-Translator: Ukn <bbg100bbg@gmail.com>\n"
 "Language-Team: Russian <https://weblate.hyperq.be/projects/radikal-sector/"
 "dataeventsxmlappend/ru/>\n"
 "Language: ru\n"
@@ -612,11 +612,10 @@ msgstr ""
 "\t\t\t\t\t\t\t\t\"Да восторжествует порядок\"\""
 
 #: src-en/data/events.xml.append:919
-#, fuzzy
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER3_QUEST_START\"]/choice[3]/event/choice[@req=\"RK_HAS_GEAR_SURRENDERABLE_TO_RK_A\""
 " and @lvl=\"0\"]/event/choice[2]/text"
-msgstr "Они пошли туда."
+msgstr "Они пошли туда!"
 
 #: src-en/data/events.xml.append:921
 msgid ""
@@ -630,11 +629,10 @@ msgstr ""
 "сталкиваться с этим кораблем."
 
 #: src-en/data/events.xml.append:928
-#, fuzzy
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_A_OUTSIDE_POLICE_NUMBER3_QUEST_START\"]/choice[3]/event/choice[@req=\"RK_HAS_GEAR_SURRENDERABLE_TO_RK_A\""
 " and @lvl=\"0\"]/event/choice[3]/text"
-msgstr "Может быть, а может и нет, но мы на вас нападаем!"
+msgstr "Может, я знаю, а может, и нет, но мы нападаем на вас!"
 
 #: src-en/data/events.xml.append:930
 msgid ""
@@ -1356,7 +1354,7 @@ msgstr "Продолжить..."
 #: src-en/data/events.xml.append:1738
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_KILLALL_BEAM_ELITE\"]/text"
-msgstr ""
+msgstr "Сдать свой элитный луч \"Грейвспред\"."
 
 #: src-en/data/events.xml.append:1740
 msgid ""
@@ -1407,7 +1405,7 @@ msgstr "Продолжить..."
 #: src-en/data/events.xml.append:1787
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_RAIN_OF_ION_ELITE\"]/text"
-msgstr ""
+msgstr "Сдать свою элитную пушку \"Дождь ионов\"."
 
 #: src-en/data/events.xml.append:1789
 msgid ""
@@ -1526,7 +1524,7 @@ msgstr "Продолжить..."
 #: src-en/data/events.xml.append:1905
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"DJMOD_LASER_BPS\"]/text"
-msgstr "Сдать свой лазер БПС Мессенджер."
+msgstr "Сдать свой лазер \"БПС Мессенджер\"."
 
 #: src-en/data/events.xml.append:1907
 msgid ""
@@ -1541,10 +1539,9 @@ msgid ""
 msgstr "Продолжить..."
 
 #: src-en/data/events.xml.append:1922
-#, fuzzy
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"DJMOD_LASER_BPS_ELITE\"]/text"
-msgstr "Сдать свой лазер БПС Мессенджер."
+msgstr "Сдать свой элитный лазер \"БПС Мессенджер\"."
 
 #: src-en/data/events.xml.append:1924
 msgid ""
@@ -1561,7 +1558,7 @@ msgstr "Продолжить..."
 #: src-en/data/events.xml.append:1940
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_ATKD_SHOTPHASER\"]/text"
-msgstr ""
+msgstr "Сдать свой дрон \"Шотфазер\"."
 
 #: src-en/data/events.xml.append:1942
 msgid ""
@@ -1578,7 +1575,7 @@ msgstr "Продолжить..."
 #: src-en/data/events.xml.append:1957
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_SURRENDER_GEAR_TO_RK_A\"]/choice[@req=\"RK_ATKD_BOMBLAUNCHER_OXYBOTTLE\"]/text"
-msgstr ""
+msgstr "Сдать свой дрон \"Кислородный бомбер\"."
 
 #: src-en/data/events.xml.append:1959
 msgid ""
@@ -2154,10 +2151,9 @@ msgstr ""
 "сказав ни слова."
 
 #: src-en/data/events.xml.append:2451
-#, fuzzy
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"RK_KILLALL_BEAM_ELITE\"]/text"
-msgstr "Продать им свой луч \"Грейвспред\" за 120~."
+msgstr "Продать им свой элитный луч \"Грейвспред\" за 150~."
 
 #: src-en/data/events.xml.append:2453
 msgid ""
@@ -2199,7 +2195,7 @@ msgstr ""
 #: src-en/data/events.xml.append:2481
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"RK_RAIN_OF_ION_ELITE\"]/text"
-msgstr ""
+msgstr "Продать им свою элитную пушку \"Дождь ионов\" за 270~."
 
 #: src-en/data/events.xml.append:2483
 msgid ""
@@ -2297,7 +2293,7 @@ msgstr ""
 #: src-en/data/events.xml.append:2557
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"DJMOD_LASER_BPS\"]/text"
-msgstr "Продать им свой лазер БПС Мессенджер за 200~."
+msgstr "Продать им свой лазер \"БПС Мессенджер\" за 200~."
 
 #: src-en/data/events.xml.append:2559
 msgid ""
@@ -2309,10 +2305,9 @@ msgstr ""
 "сказав ни слова."
 
 #: src-en/data/events.xml.append:2568
-#, fuzzy
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"DJMOD_LASER_BPS_ELITE\"]/text"
-msgstr "Продать им свой лазер БПС Мессенджер за 200~."
+msgstr "Продать им свой элитный лазер \"БПС Мессенджер\" за 280~."
 
 #: src-en/data/events.xml.append:2570
 msgid ""
@@ -2326,7 +2321,7 @@ msgstr ""
 #: src-en/data/events.xml.append:2580
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"RK_ATKD_SHOTPHASER\"]/text"
-msgstr ""
+msgstr "Продать им свой дрон \"Шотфазер\" за 135~."
 
 #: src-en/data/events.xml.append:2582
 msgid ""
@@ -2340,7 +2335,7 @@ msgstr ""
 #: src-en/data/events.xml.append:2591
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ROCKMAN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice[@req=\"RK_ATKD_BOMBLAUNCHER_OXYBOTTLE\"]/text"
-msgstr ""
+msgstr "Продать им свой дрон \"Кислородный бомбер\" за 105~."
 
 #: src-en/data/events.xml.append:2593
 msgid ""
@@ -2567,10 +2562,9 @@ msgstr ""
 "сказав ни слова."
 
 #: src-en/data/events.xml.append:2753
-#, fuzzy
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_KILLALL_BEAM_ELITE\"]/text"
-msgstr "Продать им свой луч \"Грейвспред\" за 120~."
+msgstr "Продать им свой элитный луч \"Грейвспред\" за 150~."
 
 #: src-en/data/events.xml.append:2755
 msgid ""
@@ -2612,7 +2606,7 @@ msgstr ""
 #: src-en/data/events.xml.append:2783
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_RAIN_OF_ION_ELITE\"]/text"
-msgstr ""
+msgstr "Продать им свою элитную пушку \"Дождь ионов\" за 270~."
 
 #: src-en/data/events.xml.append:2785
 msgid ""
@@ -2710,7 +2704,7 @@ msgstr ""
 #: src-en/data/events.xml.append:2859
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"DJMOD_LASER_BPS\"]/text"
-msgstr "Продать им свой лазер БПС Мессенджер за 200~."
+msgstr "Продать им свой лазер \"БПС Мессенджер\" за 200~."
 
 #: src-en/data/events.xml.append:2861
 msgid ""
@@ -2722,10 +2716,9 @@ msgstr ""
 "сказав ни слова."
 
 #: src-en/data/events.xml.append:2870
-#, fuzzy
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"DJMOD_LASER_BPS_ELITE\"]/text"
-msgstr "Продать им свой лазер БПС Мессенджер за 200~."
+msgstr "Продать им свой элитный лазер \"БПС Мессенджер\" за 280~."
 
 #: src-en/data/events.xml.append:2872
 msgid ""
@@ -2739,7 +2732,7 @@ msgstr ""
 #: src-en/data/events.xml.append:2882
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_ATKD_SHOTPHASER\"]/text"
-msgstr ""
+msgstr "Продать им свой дрон \"Шотфазер\" за 135~."
 
 #: src-en/data/events.xml.append:2884
 msgid ""
@@ -2753,7 +2746,7 @@ msgstr ""
 #: src-en/data/events.xml.append:2893
 msgid ""
 "data/events.xml.append$//event[@name=\"RK_GEAR_BUYER_ZOLTAN\"]/choice[1]/event/choice[1]/event/choice/event/choice[1]/event/choice[@req=\"RK_ATKD_BOMBLAUNCHER_OXYBOTTLE\"]/text"
-msgstr ""
+msgstr "Продать им свой дрон \"Кислородный бомбер\" за 105~."
 
 #: src-en/data/events.xml.append:2895
 msgid ""
