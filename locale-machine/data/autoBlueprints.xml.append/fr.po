@@ -8,22 +8,22 @@ msgstr ""
 #: src-en/data/autoBlueprints.xml.append:1295
 msgid ""
 "data/autoBlueprints.xml.append$//shipBlueprint[@name=\"RK_A_ZOLTAN_POLICE_INTRO\"]/class"
-msgstr "Mandataire du maintien de la paix A-RK.S.S."
+msgstr "A-RK.S.S. Mandataire de maintien de la paix"
 
 #: src-en/data/autoBlueprints.xml.append:1356
 msgid ""
 "data/autoBlueprints.xml.append$//shipBlueprint[@name=\"RK_A_ZOLTAN_POLICE_NUMBER2\"]/class"
-msgstr "Quartier-maître du maintien de la paix A-RK.S.S."
+msgstr "A-RK.S.S. Quartier-maître de maintien de la paix"
 
 #: src-en/data/autoBlueprints.xml.append:1415
 msgid ""
 "data/autoBlueprints.xml.append$//shipBlueprint[@name=\"RK_A_ZOLTAN_POLICE_NUMBER3\"]/class"
-msgstr "Inquisiteur du maintien de la paix A-RK.S.S."
+msgstr "A-RK.S.S. Inquisiteur de maintien de la paix"
 
 #: src-en/data/autoBlueprints.xml.append:1481
 msgid ""
 "data/autoBlueprints.xml.append$//shipBlueprint[@name=\"RK_A_ZOLTAN_POLICE_NUMBER_4\"]/class"
-msgstr "Exécuteur du maintien de la paix A-RK.S.S."
+msgstr "A-RK.S.S. Exécuteur de maintien de la paix"
 
 #: src-en/data/autoBlueprints.xml.append:1556
 msgid ""
@@ -33,67 +33,67 @@ msgstr ""
 #: src-en/data/autoBlueprints.xml.append:1592
 msgid ""
 "data/autoBlueprints.xml.append$//shipBlueprint[@name=\"RKS_REINFORCEMENT_DUSK_FIGHTER\"]/class"
-msgstr "Chasseur Crépusculeur associé RK"
+msgstr "RK Associé Chasseur Crépusculeur"
 
 #: src-en/data/autoBlueprints.xml.append:1641
 msgid ""
 "data/autoBlueprints.xml.append$//shipBlueprint[@name=\"RKS_REINFORCEMENT_LOSTSUN_PATROL\"]/class"
-msgstr "Vaisseau de patrouille Lost Sun associé RK"
+msgstr "RK Associé Vaisseau de patrouille Lost Sun"
 
 #: src-en/data/autoBlueprints.xml.append:1698
 msgid ""
 "data/autoBlueprints.xml.append$//shipBlueprint[@name=\"RKS_REINFORCEMENT_HACKER_MANIPULATOR\"]/class"
-msgstr "Manipulateur hacker associé RK"
+msgstr "RK Associé Manipulateur Hacker"
 
 #: src-en/data/autoBlueprints.xml.append:1766
 msgid ""
 "data/autoBlueprints.xml.append$//shipBlueprint[@name=\"RKS_ZOLTAN_POLICE\"]/class"
-msgstr "Envahisseur du maintien de la paix A-RK.S.S."
+msgstr "A-RK.S.S. Envahisseur de maintien de la paix"
 
 #: src-en/data/autoBlueprints.xml.append:1829
 msgid ""
 "data/autoBlueprints.xml.append$//shipBlueprint[@name=\"RKS_LEAD_TITANS_USER_SLUG\"]/class"
-msgstr "Vaisseau d'abordage Titan Bam RK"
+msgstr "RK Bam Vaisseau d'abordage Titan"
 
 #: src-en/data/autoBlueprints.xml.append:1899
 msgid ""
 "data/autoBlueprints.xml.append$//shipBlueprint[@name=\"RKS_GRAVESPRED_USER_REBELAUTO\"]/class"
-msgstr "Auto-dépopulateur Punk RK"
+msgstr "RK Punk Auto-Dépopulateur"
 
 #: src-en/data/autoBlueprints.xml.append:1949
 msgid ""
 "data/autoBlueprints.xml.append$//shipBlueprint[@name=\"RKS_WOF_USER_UNION\"]/class"
-msgstr "Chasseur speedster Scorch RK"
+msgstr "RK Scorch Chasseur Speedster"
 
 #: src-en/data/autoBlueprints.xml.append:2012
 msgid ""
 "data/autoBlueprints.xml.append$//shipBlueprint[@name=\"RKS_COALITION_DESTROYER_ELITE\"]/class"
-msgstr "Destroyer E.E.U.R."
+msgstr "R.U.E.S. Destroyer"
 
 #: src-en/data/autoBlueprints.xml.append:2075
 msgid ""
 "data/autoBlueprints.xml.append$//shipBlueprint[@name=\"RKS_GARAGE_FIREBLASTER_PIRATE\"]/class"
-msgstr "Lance-feu pirate"
+msgstr "Pirate Lance-feu"
 
 #: src-en/data/autoBlueprints.xml.append:2139
 msgid ""
 "data/autoBlueprints.xml.append$//shipBlueprint[@name=\"RKS_LAB_BAM_SHELL_ELITE\"]/class"
-msgstr "Chasseur Radiant"
+msgstr "Radiant Chasseur"
 
 #: src-en/data/autoBlueprints.xml.append:2175
 msgid ""
 "data/autoBlueprints.xml.append$//shipBlueprint[@name=\"RKS_LAB_PUNK_FREEMANTIS_ELITE\"]/class"
-msgstr "Vaisseau d'abordage Seigneur de guerre"
+msgstr "Seigneur de guerre Vaisseau d'abordage"
 
 #: src-en/data/autoBlueprints.xml.append:2205
 msgid ""
 "data/autoBlueprints.xml.append$//shipBlueprint[@name=\"RKS_LAB_PUNK_FREEMANTIS_ELITE_CHALLENGE\"]/class"
-msgstr "Vaisseau d'abordage Seigneur de guerre"
+msgstr "Seigneur de guerre Vaisseau d'abordage"
 
 #: src-en/data/autoBlueprints.xml.append:2237
 msgid ""
 "data/autoBlueprints.xml.append$//shipBlueprint[@name=\"RKS_LAB_SCORCH_ORCHID_ELITE\"]/class"
-msgstr "Bombardier Jardinier"
+msgstr "Jardinier Bombardier"
 
 #: src-en/data/autoBlueprints.xml.append:2299
 msgid ""
@@ -118,7 +118,7 @@ msgstr ""
 #: src-en/data/autoBlueprints.xml.append:2439
 msgid ""
 "data/autoBlueprints.xml.append$//shipBlueprint[@name=\"RKS_EXIT_PIRATE_AMBUSHER\"]/class"
-msgstr "Vaisseau de combat pirate associé"
+msgstr "Associé Pirate Vaisseau de combat"
 
 #: src-en/data/autoBlueprints.xml.append:2516
 msgid ""

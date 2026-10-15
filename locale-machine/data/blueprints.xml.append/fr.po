@@ -45,15 +45,15 @@ msgstr "Subit 0,7x dégâts de combat et 0,6x des incendies"
 #: src-en/data/blueprints.xml.append:69
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"human_soldier_operative\"]/powerList/power[3]"
-msgstr "Apprend les compétences beaucoup plus vite"
+msgstr "Apprend les compétences beaucoup plus rapidement"
 
 #: src-en/data/blueprints.xml.append:96
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"rk_weaponlike\"]/desc"
 msgstr ""
-"(RK Bam) Les Vexopathes sont créés en appliquant des électrochocs à un technopathe baigné dans l'acide et fourré avec une bombe. Cela le rend fou et incapable de changer de forme, mais capable de lancer des bombes.\n"
-"\t\tNe compte plus comme un Technopathe ou un Morphe.\n"
+"(RK Bam) Les Vexopathes sont créés en appliquant des chocs électriques à un technopathe baigné dans l'acide et bourré d'une bombe. Cela le rend fou et incapable de changer de forme, mais capable de lancer des bombes.\n"
+"\t\tNe compte plus comme Technopathe ou Morphe.\n"
 "\n"
-"\tStats héritées : prend 0,5 emplacement d'équipage, immunisé contre la suffocation, 75% de résistance aux dégâts de feu et à l'étourdissement, 0,8x vitesse de déplacement."
+"\tStats héritées : occupe 0,5 emplacement d'équipage, immunisé à la suffocation, 75 % de résistance aux dégâts de feu et à l'étourdissement, 0,8x vitesse de déplacement."
 
 #: src-en/data/blueprints.xml.append:101
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"rk_weaponlike\"]/title"
@@ -75,18 +75,17 @@ msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"rk_weaponlike\"]/powerList/power[2]"
 msgstr ""
 "Capacité active : Faire détoner une bombe de 1 dégât ici même, une fois par "
-"saut [style[color:ff3377]](Tirs alliés activés)[[/style]]"
+"saut [style[color:ff3377]](Tirs alliés)[[/style]]"
 
 #: src-en/data/blueprints.xml.append:107
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"rk_weaponlike\"]/powerList/power[3]"
-msgstr "Santé maximale de 80. Cloné à 2x vitesse"
+msgstr "Santé max de 80. Est cloné à 2x la vitesse"
 
 #: src-en/data/blueprints.xml.append:108
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"rk_weaponlike\"]/powerList/power[4]"
-msgstr ""
-"Peut seulement se déplacer, piloter, combattre, saboter, se téléporter"
+msgstr "Ne peut que se déplacer, piloter, combattre, saboter, se téléporter"
 
 #: src-en/data/blueprints.xml.append:109
 msgid ""
@@ -97,10 +96,10 @@ msgstr "Apprend les Armes et le Combat extrêmement vite"
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"unique_rk_defromorius\"]/desc"
 msgstr ""
-"(RK Punk) Un Défenseur Engi a accidentellement fusionné avec de la mélasse de Rocailleux-Morphe et des morceaux de Lanius. Est devenu un RadiKal pour échapper à la torture de l'Harmonie. Le corps draine l'air dont la tête a besoin.\n"
-"\t\tCompte comme un Défenseur Engi renégat.\n"
+"(RK Punk) Un Engi Défenseur a fusionné accidentellement avec de la glu de Rocailleux-Morphe et des morceaux de Lanius. Devenu un RadiKal pour échapper à la torture de l'Harmonie. Le corps draine l'air dont la tête a besoin.\n"
+"\t\tCompte comme un Engi Défenseur renégat.\n"
 "\n"
-"\tStats héritées : 0,5x étourdissement et vitesse de déplacement, 2,7x vitesse de réparation, draine l'oxygène."
+"\tStats héritées : 0,5x vitesse d'étourdissement et de déplacement, 2,7x vitesse de réparation, draine l'oxygène."
 
 #: src-en/data/blueprints.xml.append:132
 msgid ""
@@ -123,30 +122,30 @@ msgstr ""
 #: src-en/data/blueprints.xml.append:137
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"unique_rk_defromorius\"]/powerList/power[2]"
-msgstr "Santé augmentée à 311. Cloné à 0,5x vitesse"
+msgstr "Santé augmentée à 311. Est cloné à 0,5x la vitesse"
 
 #: src-en/data/blueprints.xml.append:138
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"unique_rk_defromorius\"]/powerList/power[3]"
-msgstr "Subit 0,2x dégâts des risques environnementaux"
+msgstr "Subit 0,2x dégâts des dangers"
 
 #: src-en/data/blueprints.xml.append:139
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"unique_rk_defromorius\"]/powerList/power[4]"
-msgstr "Attaque en combat rapproché à 2x vitesse"
+msgstr "Attaque au corps à corps à 2x la vitesse"
 
 #: src-en/data/blueprints.xml.append:140
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"unique_rk_defromorius\"]/powerList/power[5]"
-msgstr "Reste contrôlable avec l'Harmonie Punk"
+msgstr "Reste contrôlable avec Punk Harmonie"
 
 #: src-en/data/blueprints.xml.append:156
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"rk_fireghost\"]/desc"
 msgstr ""
-"(RK Scorch) Un Uptor est constitué d'Alpha Goules méga-compressées ensemble. Peut causer des yoctoflares solaires depuis son propre corps souvent.\n"
+"(RK Scorch) Un Uptor est constitué de Goules Alpha méga-compressées. Peut causer des yoctoflares solaires depuis son propre corps souvent.\n"
 "\t\tCompte comme un Fantôme mais pas comme une Goule ou un Vagabond.\n"
 "\n"
-"\tStats héritées d'Alpha Goule : immunité aux risques environnementaux, ignore les portes, 2x vitesse de sabotage."
+"\tStats de Goule Alpha héritées : immunisé aux dangers, ignore les portes, 2x vitesse de sabotage."
 
 #: src-en/data/blueprints.xml.append:161
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"rk_fireghost\"]/title"
@@ -160,14 +159,14 @@ msgstr "Uptor"
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"rk_fireghost\"]/powerList/power[1]"
 msgstr ""
-"Capacité active : Allumer un feu dans une pièce aléatoire "
-"[style[color:ff3377]]sur les deux vaisseaux[[/style]]. Temps de recharge "
-"court"
+"Capacité active : Allumer un feu dans une salle aléatoire "
+"[style[color:ff3377]]sur les deux vaisseaux[[/style]]. Court temps de "
+"recharge"
 
 #: src-en/data/blueprints.xml.append:168
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"rk_fireghost\"]/powerList/power[2]"
-msgstr "Santé maximale augmentée à 165"
+msgstr "Santé max augmentée à 165"
 
 #: src-en/data/blueprints.xml.append:169
 msgid ""
@@ -213,7 +212,7 @@ msgstr "Remplit l'oxygène très rapidement"
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"rk_bottledoxygen\"]/powerList/power[2]"
 msgstr ""
-"Peut exploser pour 30 dégâts à l'équipage et 60% de chance d'allumer un feu"
+"Peut exploser pour 30 dégâts d'équipage et 60 % de chance d'allumer un feu"
 
 #: src-en/data/blueprints.xml.append:196
 msgid ""
@@ -228,7 +227,7 @@ msgstr "Ne peut rien faire d'autre"
 #: src-en/data/blueprints.xml.append:198
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"rk_bottledoxygen\"]/powerList/power[5]"
-msgstr "Santé maximale de 50, immunisé contre les risques"
+msgstr "Santé max de 50, immunisé aux dangers"
 
 #: src-en/data/blueprints.xml.append:228
 msgid ""
@@ -239,6 +238,19 @@ msgstr "Bélier Vorace"
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"DJMOD_COMBAT_SHIPVORE_RAM\"]/desc"
 msgstr ""
+"(RK Bam gear) Éperonnez l'ennemi à plusieurs reprises pour des dégâts garantis, souvent des réparations gratuites, et parfois d'autres choses.\n"
+"\t\t[Voir bonus/combos dans le menu à bascule]\n"
+"\n"
+"\t\tÉperonnage normal : (coût 1{)\n"
+"\t\t2-3 dégâts, [style[color:ff3377]]25 % de mauvais résultats ![[/style]]\n"
+"\n"
+"\t\tPleine puissance : (coût 4{, [style[color:ff3377]]détruit l'augmentation[[/style]]) \n"
+"\t\t6-7 dégâts, [style[color:ff3377]]20 % d'autres mauvais résultats ![[/style]]\n"
+"\t\t\n"
+"\t\tGénérateur de secours peut s'appliquer sur la première frappe.\n"
+"\t\tConserve-carburant peut s'appliquer sur chaque frappe normale.\n"
+"\n"
+"\t\tPeut être renforcé aux balises vides pour ~ , pour survivre à la prochaine utilisation de Pleine puissance. (N'utilise pas la balise)"
 
 #: src-en/data/blueprints.xml.append:248
 msgid ""
@@ -249,28 +261,36 @@ msgstr "Bélier Vorace"
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"LOCKED_DJMOD_COMBAT_SHIPVORE_RAM\"]/desc"
 msgstr ""
-"(RK Bam équipement) Éperonnez l'ennemi à plusieurs reprises pour des dégâts garantis, souvent des réparations gratuites, et parfois d'autres choses.\n"
-"\t\t[Voir les bonus/combos dans le menu à bascule]\n"
+"(RK Bam gear) Éperonnez l'ennemi à plusieurs reprises pour des dégâts garantis, souvent des réparations gratuites, et parfois d'autres choses.\n"
+"\t\t[Voir bonus/combos dans le menu à bascule]\n"
 "\n"
 "\t\tÉperonnage normal : (coût {)\n"
-"\t\t2-3 dégâts, [style[color:ff3377]]25% de mauvais résultats![[/style]]\n"
+"\t\t2-3 dégâts, [style[color:ff3377]]25 % de mauvais résultats ![[/style]]\n"
 "\n"
 "\t\tPleine puissance : (coût 4{, [style[color:ff3377]]détruit l'augmentation[[/style]]) \n"
-"\t\t6-7 dégâts, [style[color:ff3377]]20% de mauvais résultats![[/style]]\n"
+"\t\t6-7 dégâts, [style[color:ff3377]]20 % de mauvais résultats ![[/style]]\n"
 "\t\t\n"
-"\t\tGénérateur d'urgence et Conserve-carburant peuvent s'appliquer.\n"
+"\t\tGénérateur de secours et Conserve-carburant peuvent s'appliquer.\n"
 "\n"
-"\t\tLe vaisseau a été construit autour de cette version verrouillée qui survit à l'utilisation à pleine puissance. Donne également une recharge des boucliers 9% plus rapide et une chance d'ignorer les dégâts à la coque."
+"\t\tLe vaisseau a été construit autour de cette version verrouillée qui survit à l'utilisation de Pleine puissance. Donne aussi 9 % de recharge de bouclier plus rapide et une chance d'ignorer les dégâts à la coque."
 
 #: src-en/data/blueprints.xml.append:268
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_CREW_ARE_BOMBS_OFF\"]/title"
-msgstr "Ceintures Chargées (Désactivé)"
+msgstr "Ceintures Chargées (Off)"
 
 #: src-en/data/blueprints.xml.append:269
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_CREW_ARE_BOMBS_OFF\"]/desc"
 msgstr ""
+"(RK Bam gear) Cette augmentation est Off mais peut être activée à tout moment. Quand On :\n"
+"\n"
+"\t[ Cette augmentation à double tranchant équipe votre équipage de ceintures qui [style[color:ff3377]]réduisent leurs PV de 10 % (attention aux Vagabonds)[[/style]] et explosent quand ils meurent, causant un feu et infligeant des dégâts à la salle et au vaisseau dans lesquels ils se trouvent, avec des dégâts supplémentaires dans les salles sans système. [style[color:ff3377]]Tirs alliés.[[/style]]\n"
+"\tSe cumule avec les effets de mort déjà existants.\n"
+"\t\n"
+"\t[style[color:ff3377]]ATTENTION : Ne peut pas être désactivée.[[/style]] Peut se démonter en ~ ou } aux balises vides.\n"
+"\n"
+"\tCOMBO : Fait de n'importe quel membre d'équipage une source de feu pour le Téléporteur plasmatique. ]"
 
 #: src-en/data/blueprints.xml.append:282
 msgid ""
@@ -281,28 +301,28 @@ msgstr "Ceintures Chargées"
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_CREW_ARE_BOMBS_ON\"]/desc"
 msgstr ""
-"(RK Bam équipement) Cette augmentation à double tranchant équipe votre équipage de ceintures qui [style[color:ff3377]]réduisent leurs PV de 10% (attention aux Vagabonds)[[/style]] et explosent quand ils meurent, causant un feu et infligeant des dégâts à la pièce et au vaisseau où ils se trouvent, avec des dégâts supplémentaires dans les pièces sans système. [style[color:ff3377]]Tirs alliés activés.[[/style]]\n"
+"(RK Bam gear) Cette augmentation à double tranchant équipe votre équipage de ceintures qui [style[color:ff3377]]réduisent leurs PV de 10 % (attention aux Vagabonds)[[/style]] et explosent quand ils meurent, causant un feu et infligeant des dégâts à la salle et au vaisseau dans lesquels ils se trouvent, avec des dégâts supplémentaires dans les salles sans système. [style[color:ff3377]]Tirs alliés.[[/style]]\n"
 "\tSe cumule avec les effets de mort déjà existants.\n"
 "\t\n"
-"\t[style[color:ff3377]]ATTENTION : Ne peut pas être Désactivée.[[/style]] Peut se démonter en ~ ou } aux balises vides.\n"
+"\t[style[color:ff3377]]ATTENTION : Ne peut pas être désactivée.[[/style]] Peut se démonter en ~ ou } aux balises vides.\n"
 "\n"
-"\tCOMBO : Fait de n'importe quel membre d'équipage une source de feu pour le Téléporteur Plasmatique."
+"\tCOMBO : Fait de n'importe quel membre d'équipage une source de feu pour le Téléporteur plasmatique."
 
 #: src-en/data/blueprints.xml.append:296
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_COMBAT_AUTO_SYS_REPAIR\"]/title"
-msgstr "Second Souffle A.E.R.A."
+msgstr "A.E.R.A. Second Souffle"
 
 #: src-en/data/blueprints.xml.append:297
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_COMBAT_AUTO_SYS_REPAIR\"]/desc"
 msgstr ""
-"(RK Bam équipement) 'Automated Emergency Repair Augment'.\n"
+"(RK Bam gear) 'Augmentation de réparation d'urgence automatisée'.\n"
 "\n"
-"\t\tLorsque vous activez cette augmentation de combat, si votre vaisseau est presque détruit pendant le combat (9 de Coque ou moins), une décharge de nanomachines est déclenchée, réparant complètement vos systèmes et 15 points de Coque. [L'activation utilise 1 énergie, Générateur d'urgence peut s'appliquer]\n"
-"\t\t[style[color:ff3377]]L'effet détruit également l'augmentation. Aucun effet si votre coque atteint instantanément 0.[[/style]]\n"
+"\t\tQuand vous activez cette augmentation de combat, si votre vaisseau est presque détruit pendant le combat (9 Coque ou moins), une décharge de nanomachines est déclenchée, réparant entièrement vos systèmes et 15 points de Coque. [L'activation utilise 1 énergie, Générateur de secours peut s'appliquer]\n"
+"\t\t[style[color:ff3377]]L'effet détruit aussi l'augmentation. Aucun effet si votre coque atteint instantanément 0.[[/style]]\n"
 "\t\t\n"
-"\t\tVous pouvez également déclencher ceci via le menu à bascule à tout moment pour 1{."
+"\t\tVous pouvez aussi déclencher ceci via le menu à bascule à tout moment pour 1{."
 
 #: src-en/data/blueprints.xml.append:310
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"RK_LEAD_TITANS\"]/title"
@@ -311,45 +331,63 @@ msgstr "Titans de Plomb"
 #: src-en/data/blueprints.xml.append:311
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"RK_LEAD_TITANS\"]/desc"
 msgstr ""
-"(RK Bam équipement) Quelqu'un a eu l'idée folle de tisser des fibres de plomb motiles dans les muscles. \n"
+"(RK Bam gear) Quelqu'un a eu l'idée folle de tisser du plomb-fibre motile dans les muscles. \n"
 "\t\t\n"
-"\t\tVotre 'gros' équipage (Cristaliens, Lanius, Rocailleux, Salins) a : 2,5x résistance à tout, inflige 2,5x dégâts à tout.\n"
-"\t\t[style[color:ff3377]]Le poids les fait prendre 2 emplacements d'équipage, créer des brèches en marchant, et ils ne peuvent pas réparer.[[/style]]\n"
-"\t\tVotre autre équipage obtient un bonus fixe de +75% de vitesse de réparation grâce aux fibres plus petites.\n"
+"\t\tVotre équipage 'gros' (Cristaliens, Lanius, Rocailleux, Salins) a : 2,5x résistance à tout, inflige 2,5x dégâts à tout.\n"
+"\t\t[style[color:ff3377]]Le poids leur fait prendre 2 emplacements d'équipage, crée des brèches en marchant, et ils ne peuvent pas réparer.[[/style]]\n"
+"\t\tVotre autre équipage obtient un bonus fixe de +75 % de vitesse de réparation grâce aux fibres plus petites.\n"
 "\n"
-"\t\tTout votre équipage gagne un bonus fixe de +40% de vitesse de déplacement.\n"
+"\t\tTout votre équipage gagne un bonus fixe de +40 % de vitesse de déplacement.\n"
 "\t\n"
-"\t\t[style[color:ff3377]]ATTENTION : Ne peut pas être Désactivé.[[/style]] Peut se démonter aux balises vides."
+"\t\t[style[color:ff3377]]ATTENTION : Ne peut pas être désactivée.[[/style]] Peut se démonter aux balises vides."
 
 #: src-en/data/blueprints.xml.append:326
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_BAM_DIVINE_ARMOR\"]/title"
-msgstr "Blindage Épais"
+msgstr "Coque renforcée"
 
 #: src-en/data/blueprints.xml.append:327
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_BAM_DIVINE_ARMOR\"]/desc"
 msgstr ""
+"(RK Bam gear) Les RadiKals ont fait de l'ingénierie inverse sur une armure très rare provenant d'inquisiteurs de la Théocratie capturés pour créer cette armure légèrement plus accessible et moins parfaite.\n"
+"\t\t\n"
+"\t\t[style[color:ff3377]]Réduit la vitesse de recharge des armes de 5 %. [[/style]]\n"
+"\t\tLes impacts qui infligent 1 dégât ont 40 % de chance d'être annulés, et tous les autres dégâts sont réduits de 1.\n"
+"\n"
+"\t\tCOMBO : vos armes Heavy Popper ne vous infligent pas de dégâts."
 
 #: src-en/data/blueprints.xml.append:341
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_PERSISTENCE_SHIELD\"]/title"
-msgstr "Bouclier de Persistance"
+msgstr "Bouclier de persistance"
 
 #: src-en/data/blueprints.xml.append:342
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_PERSISTENCE_SHIELD\"]/desc"
 msgstr ""
+"(RK Bam gear) Un classique des vaisseaux haut de gamme reposant sur les boucliers, rendu possible par des tests de résistance sur de nombreux éclaireurs Zoltans qui ne sont jamais rentrés chez eux.\n"
+"\t\t\n"
+"\t\tAjoute un Super Bouclier de 4 points de vie. Se cumule avec d'autres Super Boucliers, mais pas avec lui-même.\n"
+"\t\tAugmente aussi la vitesse de recharge des boucliers de 20 %.\n"
+"\t\t\n"
+"\t\tActivez depuis le menu à bascule pour restaurer instantanément toutes vos couches de Super Bouclier. [Utilise 1 {]\n"
+"\t\tNe peut pas être réactivé avant d'avoir reconstruit son condensateur à une balise vide pour 7~. [Ne consomme pas la balise vide]"
 
 #: src-en/data/blueprints.xml.append:394
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_ARROGANCE_SHIELD\"]/title"
-msgstr "Bouclier d'Arrogance"
+msgstr "Bouclier de l'arrogance"
 
 #: src-en/data/blueprints.xml.append:395
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_ARROGANCE_SHIELD\"]/desc"
 msgstr ""
+"(RK Punk gear) Risqué pour vos Boucliers mais pourrait vous rendre intouchable. Des cubes étranges sont morts pour ça.\n"
+"\t\t\n"
+"\t\tAjoute un Super Bouclier de 8 points de vie. Se cumule avec d'autres Super Boucliers, mais pas avec lui-même.\n"
+"\t\tSur votre vaisseau, vos membres d'équipage-drones gagnent aussi 3 PV/seconde tandis que les drones-équipage ennemis perdent autant.\n"
+"\t\t[style[color:ff3377]]ATTENTION : Réduit la vitesse de recharge des boucliers de 30 % et la vitesse de recharge des armes de 8 %.[[/style]]"
 
 #: src-en/data/blueprints.xml.append:406
 msgid ""
@@ -360,29 +398,29 @@ msgstr "Vulnérabilisateur"
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_COMBAT_DEFENSE_REMOVER\"]/desc"
 msgstr ""
-"(RK Punk équipement) Cette augmentation de combat affaiblit lentement les défenses de l'ennemi. Les boss détestent ça.\n"
+"(RK Punk gear) Cette augmentation de combat affaiblit lentement les défenses de l'ennemi. Les boss détestent ça.\n"
 "\t\t\n"
-"\t\tToutes les 3 à 7 secondes (au hasard), limite les Moteurs, Boucliers et Armure ablative (de Lily's Innovations) ennemis de 1 puissance. Cet effet se cumule jusqu'à 16 fois avec de la chance.\n"
-"\t\tTous les effets prennent fin après 40 à 75 secondes, selon le nombre de pièces de drones que vous choisissez d'utiliser.\n"
-"\t\t[Utilise 1-2 | et 3 puissance de réacteur. Générateur d'urgence peut s'appliquer.]"
+"\t\tToutes les 3 à 7 secondes (au hasard), limite les Moteurs, Boucliers et Armure ablative de l'ennemi (provenant de Lily's Innovations) de 1 énergie. Cet effet se cumule jusqu'à 16 fois si vous avez de la chance.\n"
+"\t\tTous les effets se terminent après 40 à 75 secondes, selon le nombre de pièces de drones que vous choisissez d'utiliser.\n"
+"\t\t[Utilise 1-2 | et 3 énergies de réacteur. Générateur de secours peut s'appliquer.]"
 
 #: src-en/data/blueprints.xml.append:419
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_COMBAT_OFFENSE_DISABLER\"]/title"
-msgstr "Neutralisateur offensif"
+msgstr "Neutraliseur offensif"
 
 #: src-en/data/blueprints.xml.append:420
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_COMBAT_OFFENSE_DISABLER\"]/desc"
 msgstr ""
-"(RK Punk équipement) Cette augmentation de combat peut totalement désactiver l'offensive ennemie pendant 6 secondes. Ensuite, l'effet s'affaiblit jusqu'à disparaître à 18 secondes (vous serez averti). Parfait contre les ennemis agressifs !\n"
-"\t\t[Utilise 2| et 3 puissance de réacteur. Générateur d'urgence peut s'appliquer.]\n"
+"(RK Punk gear) Cette augmentation de combat peut totalement neutraliser l'offensive ennemie pendant 6 secondes. Ensuite, l'effet devient plus faible jusqu'à disparaître à 18 secondes (vous serez prévenu). Parfait contre les ennemis agressifs !\n"
+"\t\t[Utilise 2| et 3 énergies de réacteur. Générateur de secours peut s'appliquer.]\n"
 "\n"
 "\t\tSystèmes affectés :\n"
 "\t\tArmes, Contrôle des drones, Contrôle mental,\n"
 "\t\tPiratage, Téléporteur, toutes les Artilleries,\n"
-"\t\tCorrupteur (de \"Darkest Desire\"),\n"
-"\t\tet Tourelles (de \"The Old Guard\")."
+"\t\tCorrupteur (provenant de \"Darkest Desire\"),\n"
+"\t\tet Tourelles (provenant de \"The Old Guard\")."
 
 #: src-en/data/blueprints.xml.append:448
 msgid ""
@@ -393,16 +431,16 @@ msgstr "Énigmachine"
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_COMBAT_HACK_FLEET\"]/desc"
 msgstr ""
-"(RK Punk équipement) Cette augmentation de combat tente d'envoyer des renseignements deepfake aux rebelles via les communications d'un ennemi pour plus de crédibilité.\n"
+"(RK Punk gear) Cette augmentation de combat tente d'envoyer des renseignements deepfake aux rebelles via les communications d'un ennemi pour plus de crédibilité.\n"
 "\t\t\n"
-"\t\t\"Succès\" retarde la flotte de 1 (\"Critique\" de 2), échec ne fait rien, [style[color:ff3377]]\"Critique-échec\" accélère la flotte de 1[[/style]].\n"
+"\t\t\"Succès\" retarde la flotte de 1 (\"Critique\" de 2), l'échec ne fait rien, [style[color:ff3377]]\"Échec critique\" accélère la flotte de 1[[/style]].\n"
 "\t\tL'utilisation gratuite prend 17 secondes. Limitez votre système de Piratage et utilisez des pièces de drones pour des résultats plus rapides et meilleurs. [style[color:ff3377]](Quelqu'un pourrait remarquer)[[/style]]\n"
 "\t\t\n"
-"\t\tChances : (Succès / Critique / Critique-échec)\n"
-"\t\t0| + pas de piratage = 55% / 5% / 15%\n"
-"\t\t1| + piratage 1 = 60% / 10% / 10%\n"
-"\t\t2| + piratage 2 = 65% / 15% / 5% / +?\n"
-"\t\t3| + piratage 3 = 45% / 30% / 5% / +???"
+"\t\tChances : (Succès / Critique / Échec critique)\n"
+"\t\t0| + pas de piratage = 55 % / 5 % / 15 %\n"
+"\t\t1| + piratage 1 = 60 % / 10 % / 10 %\n"
+"\t\t2| + piratage 2 = 65 % / 15 % / 5 % / +?\n"
+"\t\t3| + piratage 3 = 45 % / 30 % / 5 % / +???"
 
 #: src-en/data/blueprints.xml.append:465
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"RK_DREAD_DECK\"]/title"
@@ -411,11 +449,11 @@ msgstr ""
 #: src-en/data/blueprints.xml.append:466
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"RK_DREAD_DECK\"]/desc"
 msgstr ""
-"(RK Punk équipement) Ne fait rien directement, mais l'équipage chevronné commence à prier et à pratiquer la distanciation sociale dès que cette augmentation apparaît.\n"
+"(Équipement RK Punk) Ne fait rien directement, mais les membres d'équipage chevronnés commencent à prier et à respecter la distanciation sociale dès que cette augmentation apparaît.\n"
 "\n"
 "\t\tLes ennemis à bord de votre vaisseau subissent 1,7x dégâts de tout.\n"
-"\t\tVotre équipage a 1,6x guérison de la plupart des sources, 2x vitesse de clonage, et ne perd aucune compétence lors du clonage.\n"
-"\t\t[style[color:ff3377]]ATTENTION : Tout équipage dans la même pièce qu'un membre de votre équipage a 0,5x guérison[[/style]] (ne se cumule pas) [style[color:ff3377]]et ne peut être cloné![[/style]] [Ce malus est une fumée violette]"
+"\t\tVotre équipage bénéficie de 1,6x de soin provenant de la plupart des sources, de 2x de vitesse de clonage, et ne perd aucune compétence lors du clonage.\n"
+"\t\t[style[color:ff3377]]ATTENTION : Tout membre d'équipage dans la même pièce qu'un membre de votre équipage bénéficie de 0,5x de soin[[/style]] (ne se cumule pas) [style[color:ff3377]]et ne peut pas être cloné ![[/style]] [Ce malus est une fumée violette]"
 
 #: src-en/data/blueprints.xml.append:477
 msgid ""
@@ -426,9 +464,9 @@ msgstr "Kits de défense"
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_SUPER_DEFENDERS\"]/desc"
 msgstr ""
-"(RK Punk équipement) Avec tous les risques qu'ils prennent, les RadiKals ont parfois besoin d'une survie supplémentaire. Ces kits incluent une armure motorisée légère pour toutes les formes et tailles, des médicaments et d'autres équipements médicaux.\n"
+"(Équipement RK Punk) Avec tous les risques qu'ils prennent, les RadiKals ont parfois besoin d'une meilleure survie. Ces kits incluent une armure motorisée légère pour toutes les formes et tailles, des drogues et d'autres équipements médicaux.\n"
 "\n"
-"\t\tSur votre vaisseau, votre équipage subit 0,75x dégâts, a 1,3x vitesse de réparation, 1,3x vitesse de déplacement, et une guérison de 4 PV/seconde quand il est inactif (même pas en train de piloter)."
+"\t\tSur votre vaisseau, votre équipage subit 0,75x dégâts, a 1,3x vitesse de réparation, 1,3x vitesse de déplacement, et soigne 4 PV/seconde au repos (même sans occuper de poste)."
 
 #: src-en/data/blueprints.xml.append:488
 msgid ""
@@ -439,30 +477,30 @@ msgstr "Harmonie Punk"
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_OWN_HARMONY_ON\"]/desc"
 msgstr ""
-"(RK Punk équipement) Des punks RadiKals stupides ont créé leur propre Harmonie. [style[color:ff3377]]Contrôle vos Engis[[/style]] sur votre vaisseau, leur donnant une immunité au (futur) contrôle mental et +40% de résistance aux dégâts et à l'étourdissement. Les niveaux de puissance en Piratage ou Contrôle mental ajoutent 5/10/20/40/80/160% de dégâts de combat, de vitesse de réparation et de vitesse de déplacement.\n"
+"(Équipement RK Punk) Des Punks RadiKals stupides ont créé leur propre Harmonie. [style[color:ff3377]]Contrôle vos Engis[[/style]] sur votre vaisseau, leur conférant une immunité au contrôle mental (et ses effets ultérieurs) et +40% de résistance aux dégâts et à l'étourdissement. Les niveaux d'alimentation en Piratage ou en Contrôle Mental ajoutent 5/10/20/40/80/160% de dégâts de combat, de vitesse de réparation et de vitesse de déplacement.\n"
 "\t\n"
-"\tEn bref, les rend plus durs, meilleurs, plus rapides, plus forts et automatisés.\n"
+"\tEn bref, les rend plus résistants, meilleurs, plus rapides, plus forts et automatisés.\n"
 "\t\n"
 "\tPeut être désactivé à tout moment.\n"
 "\n"
-"\tAux balises vides, vous pouvez faire pousser un Séparatiste pour 25~, 1{ et 1| (ou deux Séparatistes pour plus de ressources), mais [style[color:ff3377]]la flotte rebelle accélère d'un tour[[/style]]"
+"\tAux balises vides, vous pouvez cultiver un Séparatiste pour 25~, 1{ et 1| (ou deux Séparatistes pour plus de ressources), mais [style[color:ff3377]]la flotte rebelle accélère de 1 tour[[/style]]"
 
 #: src-en/data/blueprints.xml.append:501
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_OWN_HARMONY_OFF\"]/title"
-msgstr "Harmonie Punk (DÉSACTIVÉ)"
+msgstr "Harmonie Punk (DÉSACTIVÉE)"
 
 #: src-en/data/blueprints.xml.append:502
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_OWN_HARMONY_OFF\"]/desc"
 msgstr ""
-"(RK Punk équipement) Des punks RadiKals stupides ont créé leur propre Harmonie. [style[color:ff3377]]Contrôle vos Engis[[/style]] sur votre vaisseau, leur donnant une immunité au (futur) contrôle mental et +40% de résistance aux dégâts et à l'étourdissement. Les niveaux de puissance en Piratage ou Contrôle mental ajoutent 5/10/20/40/80/160% de dégâts de combat, de vitesse de réparation et de vitesse de déplacement.\n"
+"(Équipement RK Punk) Des Punks RadiKals stupides ont créé leur propre Harmonie. [style[color:ff3377]]Contrôle vos Engis[[/style]] sur votre vaisseau, leur conférant une immunité au contrôle mental (et ses effets ultérieurs) et +40% de résistance aux dégâts et à l'étourdissement. Les niveaux d'alimentation en Piratage ou en Contrôle Mental ajoutent 5/10/20/40/80/160% de dégâts de combat, de vitesse de réparation et de vitesse de déplacement.\n"
 "\t\n"
-"\tEn bref, les rend plus durs, meilleurs, plus rapides, plus forts et automatisés.\n"
+"\tEn bref, les rend plus résistants, meilleurs, plus rapides, plus forts et automatisés.\n"
 "\t\n"
 "\tPeut être activé à tout moment.\n"
 "\n"
-"\tAux balises vides, vous pouvez faire pousser un Séparatiste pour 25~, 1{ et 1|, mais [style[color:ff3377]]la flotte rebelle accélère d'un tour[[/style]]"
+"\tAux balises vides, vous pouvez cultiver un Séparatiste pour 25~, 1{ et 1|, mais [style[color:ff3377]]la flotte rebelle accélère de 1 tour[[/style]]"
 
 #: src-en/data/blueprints.xml.append:529
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FIRE_IMMUNITY\"]/title"
@@ -474,14 +512,14 @@ msgstr "Les systèmes subissent 100% de dégâts de feu en moins."
 
 #: src-en/data/blueprints.xml.append:541
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"RK_SCORCH_SELF\"]/title"
-msgstr "Terre Calcinée (Niv. 1)"
+msgstr "Terre Calcinée (N1)"
 
 #: src-en/data/blueprints.xml.append:542
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"RK_SCORCH_SELF\"]/desc"
 msgstr ""
-"(RK Scorch équipement) Votre équipage subit 0,6x dégâts de feu et obtient 3x vitesse d'extinction. Pendant qu'ils éteignent, ils guérissent également 2 PV/seconde, +2 par niveau de puissance en O2.\n"
+"(Équipement RK Scorch) Votre équipage subit 0,6x de dégâts de feu et a 3x de vitesse d'extinction. Pendant l'extinction, ils soignent aussi 2 PV/seconde, +2 par niveau d'alimentation en O2.\n"
 "\t\n"
-"\tActivez depuis le menu à bascule pour mettre toute salle de système [style[color:ff3377]]sur votre vaisseau[[/style]] (ou tout le vaisseau) en feu pour combattre les intrus.\n"
+"\tActivez depuis le menu des Options pour mettre n'importe quelle salle de système [style[color:ff3377]]sur votre vaisseau[[/style]] (ou tout le vaisseau) en feu pour combattre les intrus.\n"
 "\t\n"
 "\tCOMBO : Peut activer le Téléporteur Plasmatique sans coût supplémentaire.\n"
 "\t\n"
@@ -490,15 +528,15 @@ msgstr ""
 #: src-en/data/blueprints.xml.append:558
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_SCORCH_SELF_2\"]/title"
-msgstr "Terre du brasier (Niv. 2)"
+msgstr "Terre Ardente (N2)"
 
 #: src-en/data/blueprints.xml.append:559
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"RK_SCORCH_SELF_2\"]/desc"
 msgstr ""
-"(RK Scorch équipement) [Terre Calcinée Niv. 2] Votre équipage subit 0,45x dégâts de feu et obtient 3x vitesse d'extinction. Pendant qu'ils éteignent, ils guérissent également 2 PV/seconde, +2 par niveau de puissance en O2.\n"
+"(Équipement RK Scorch) [Terre Calcinée Niveau 2] Votre équipage subit 0,45x de dégâts de feu et a 3x de vitesse d'extinction. Pendant l'extinction, ils soignent aussi 2 PV/seconde, +2 par niveau d'alimentation en O2.\n"
 "\t\tDans le feu, ils produisent aussi de l'O2 comme 1 Orchidée.\n"
 "\t\n"
-"\tActivez depuis le menu à bascule pour mettre toute salle de système [style[color:ff3377]]sur votre vaisseau[[/style]] (ou tout le vaisseau) en feu pour combattre les intrus.\n"
+"\tActivez depuis le menu des Options pour mettre n'importe quelle salle de système [style[color:ff3377]]sur votre vaisseau[[/style]] (ou tout le vaisseau) en feu pour combattre les intrus.\n"
 "\t\n"
 "\tCOMBO : Peut activer le Téléporteur Plasmatique sans coût supplémentaire.\n"
 "\t\n"
@@ -507,15 +545,15 @@ msgstr ""
 #: src-en/data/blueprints.xml.append:577
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_SCORCH_SELF_3\"]/title"
-msgstr "Terre en Éruption (Niv. 3)"
+msgstr "Terre Éruptive (N3)"
 
 #: src-en/data/blueprints.xml.append:578
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"RK_SCORCH_SELF_3\"]/desc"
 msgstr ""
-"(RK Scorch équipement) [Terre Calcinée Niv. 3] Votre équipage subit 0,3x dégâts de feu et obtient 3x vitesse d'extinction. Pendant qu'ils éteignent, ils guérissent également 2 PV/seconde, +2 par niveau de puissance en O2.\n"
+"(Équipement RK Scorch) [Terre Calcinée Niveau 3] Votre équipage subit 0,3x de dégâts de feu et a 3x de vitesse d'extinction. Pendant l'extinction, ils soignent aussi 2 PV/seconde, +2 par niveau d'alimentation en O2.\n"
 "\t\tDans le feu, ils produisent aussi de l'O2 comme 3 Orchidées.\n"
 "\t\n"
-"\tActivez depuis le menu à bascule pour mettre toute salle de système [style[color:ff3377]]sur votre vaisseau[[/style]] (ou tout le vaisseau) en feu pour combattre les intrus.\n"
+"\tActivez depuis le menu des Options pour mettre n'importe quelle salle de système [style[color:ff3377]]sur votre vaisseau[[/style]] (ou tout le vaisseau) en feu pour combattre les intrus.\n"
 "\t\n"
 "\tCOMBO : Peut activer le Téléporteur Plasmatique sans coût supplémentaire."
 
@@ -528,38 +566,47 @@ msgstr "Téléporteur Plasmatique"
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_COMBAT_SCORCH_ENEMY\"]/desc"
 msgstr ""
+"(Équipement RK Scorch) Cette augmentation de combat peut mettre le vaisseau ennemi en feu au début du combat, gagnant certains combats immédiatement.\n"
+"\n"
+"\t\tNécessite une source de feu : 1} (effet faible),\n"
+"\t\tou : Uptor/Goule/Lost Sun/Coquille/Zoltan ([style[color:ff3377]]ils meurent[[/style]], peuvent être clonés, effet fort).\n"
+"\t\tUtiliser un Fantôme a un effet supplémentaire.\n"
+"\t\t[Utilise 1{, [style[color:ff3377]]enflamme votre système d'O2[[/style]].]\n"
+"\n"
+"\tCOMBO : Les Ceintures Chargées / Vestes de Martyre font de tout l'équipage des sources de feu.\n"
+"\tCOMBO : n'importe quelle Terre Calcinée vous permet de choisir la force de l'effet, sans avoir besoin d'une source de feu."
 
 #: src-en/data/blueprints.xml.append:609
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_ENEMIES_CAN_BURN\"]/title"
-msgstr "Flammabilisateur-Immunité"
+msgstr "Inflammabilisateur-Immunité"
 
 #: src-en/data/blueprints.xml.append:610
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_ENEMIES_CAN_BURN\"]/desc"
 msgstr ""
-"(RK Scorch équipement) Supprime passivement l'immunité au feu des ennemis et limite leur résistance au feu à 0%. Les ennemis qui inversent les dégâts de feu arrêtent de le faire. Les ennemis vulnérables (comme les Orchidées) ne sont pas affectés.\n"
+"(Équipement RK Scorch) Supprime passivement l'immunité au feu des ennemis et limite leur résistance au feu à 0%. Les ennemis qui inversent les dégâts de feu cessent de le faire. Les ennemis vulnérables (comme les Orchidées) ne sont pas affectés.\n"
 "\tFonctionne sur les deux vaisseaux.\n"
 "\n"
-"\tPeut être basculé à tout moment pour que les ennemis non-ignifugés subissent plus de dégâts de feu à la place.\n"
+"\tPeut être alterné à tout moment pour faire subir plus de dégâts de feu aux ennemis non ignifugés.\n"
 "\n"
-"\tLes deux modes de bascule rendent les ennemis 15% plus lents dans le feu (jusqu'à 60% avec 3 puissance en O2) [Ne se cumule pas]."
+"\tLes deux modes réduisent la vitesse de déplacement des ennemis de 15% dans le feu (jusqu'à 60% avec 3 d'alimentation en O2) [Ne se cumule pas]."
 
 #: src-en/data/blueprints.xml.append:621
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_ENEMIES_BURN_MORE\"]/title"
-msgstr "Flammabilisateur-Dégâts"
+msgstr "Inflammabilisateur-Dégâts"
 
 #: src-en/data/blueprints.xml.append:622
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_ENEMIES_BURN_MORE\"]/desc"
 msgstr ""
-"(RK Scorch équipement) Rend passivement les ennemis qui peuvent brûler vulnérables à 40% de plus de dégâts de feu, allant jusqu'à 160% avec 3+ puissance dans votre système de survie (O2).\n"
+"(Équipement RK Scorch) Rend passivement les ennemis inflammables vulnérables à 40% de dégâts de feu supplémentaires, montant jusqu'à 160% avec 3+ d'alimentation dans votre système de survie (O2).\n"
 "\tFonctionne sur les deux vaisseaux.\n"
 "\t\n"
-"\tPeut être basculé à tout moment pour rendre les ennemis ignifugés, résistants au feu et guérissant par le feu vulnérables au feu à la place.\n"
+"\tPeut être alterné à tout moment pour rendre les ennemis ignifugés, résistants au feu ou se soignant par le feu vulnérables au feu.\n"
 "\n"
-"\tLes deux modes de bascule rendent les ennemis 15% plus lents dans le feu (jusqu'à 60% avec 3 puissance en O2) [Ne se cumule pas]."
+"\tLes deux modes réduisent la vitesse de déplacement des ennemis de 15% dans le feu (jusqu'à 60% avec 3 d'alimentation en O2) [Ne se cumule pas]."
 
 #: src-en/data/blueprints.xml.append:634
 msgid ""
@@ -570,21 +617,25 @@ msgstr "Oxygéniseur"
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_COMBAT_OXYGENIZER\"]/desc"
 msgstr ""
+"(Équipement RK Scorch) Cette petite augmentation de combat peut projeter des conteneurs géants d'O2 ultra-comprimé induisant la gravité pour remplir le vide spatial au début d'un combat. Certains le surnomment \"Air en boîte\". Des situations cocasses s'ensuivent.\n"
+"\t\n"
+"\tPlace les deux vaisseaux dans une atmosphère, faisant en sorte que les brèches et les évents ouverts remplissent l'oxygène au lieu de le vider. [Utilise 2}]\n"
+"\tPeut aussi être fait aux balises vides. [Utilise 1}]"
 
 #: src-en/data/blueprints.xml.append:645
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_SCORCH_PREIGNITER\"]/title"
-msgstr "Pré-Chargeur Scorch"
+msgstr "Pré-chargeur Scorch"
 
 #: src-en/data/blueprints.xml.append:646
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_SCORCH_PREIGNITER\"]/desc"
 msgstr ""
-"(RK Scorch équipement) Vos armes sont immédiatement disponibles après un saut SPL mais [style[color:ff3377]]elles allument un feu dans la salle des Armes à chaque fois qu'elles tirent un projectile ou un rayon[[/style]].\n"
+"(Équipement RK Scorch) Vos armes sont immédiatement disponibles après un saut SPL, mais [style[color:ff3377]]elles allument un feu dans la salle des Armes à chaque fois qu'elles tirent un projectile ou un rayon[[/style]].\n"
 "\t\t\n"
-"\t\tCette variante du célèbre Pré-chargeur d'armes est défectueuse et ne compte pas comme tel pour les événements ou les exigences technologiques Éther, mais elle est au moins plus accessible.\n"
+"\t\tCette variante des célèbres pré-chargeurs d'armes est défectueuse et ne compte pas comme tel pour les événements ou les prérequis de technologie Éther, mais elle est au moins plus accessible.\n"
 "\t\t\n"
-"\t\tCOMBO : Augmente le bonus max supplémentaire de l'augmentation \"Weapons On Fire\" à 20%"
+"\t\tCOMBO : Augmente le bonus maximum de l'augmentation \"Armes en feu\" à 20%"
 
 #: src-en/data/blueprints.xml.append:657
 msgid ""
@@ -595,12 +646,12 @@ msgstr "Armes en feu"
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_WEAPONS_ON_FIRE\"]/desc"
 msgstr ""
-"(RK Scorch équipement) La cadence de tir de vos Armes et Artilleries est améliorée de 25%.\n"
+"(Équipement RK Scorch) La cadence de tir de vos Armes et Artilleries est améliorée de 25%.\n"
 "\t\t\n"
-"\t\tGagnez 1% de cadence de tir supplémentaire à chaque fois qu'elles tirent un projectile ou un rayon (jusqu'à 10% - ne se cumule pas avec plusieurs \"Weapons On Fire\"), mais en même temps il y a une [style[color:ff3377]]15% de chance d'allumer un feu dans votre Contrôle des Armes et toute salle d'Artillerie[[/style]].\n"
-"\t\tLe bonus supplémentaire est réinitialisé à chaque saut.\n"
+"\t\tGagnez 1% de cadence de tir supplémentaire à chaque fois qu'elles tirent un projectile ou un rayon (jusqu'à 10% - ne se cumule pas avec plusieurs \"Armes en feu\"), mais en même temps, il y a [style[color:ff3377]]15% de chance d'allumer un feu dans votre Contrôle des Armes et toutes les salles d'Artillerie[[/style]].\n"
+"\t\tLe bonus supplémentaire est réinitialisé lors du saut.\n"
 "\n"
-"\t\tCOMBO : Le Pré-chargeur Scorch augmente le bonus max supplémentaire à 20%"
+"\t\tCOMBO : Le Pré-chargeur Scorch augmente le bonus maximum à 20%"
 
 #: src-en/data/blueprints.xml.append:670
 msgid ""
@@ -614,11 +665,15 @@ msgstr "VOUS NE DEVRIEZ JAMAIS VOIR CECI 1% cadence de tir d'arme."
 
 #: src-en/data/blueprints.xml.append:689
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"RK_BPS_SURVEYOR\"]/title"
-msgstr "Explorateur RK"
+msgstr "Arpenteur RK"
 
 #: src-en/data/blueprints.xml.append:690
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"RK_BPS_SURVEYOR\"]/desc"
 msgstr ""
+"(Équipement RK BPS) L'ingéniosité des RadiKals de toutes les sous-factions vous permet d'effectuer une recherche approfondie sur la plupart des balises vides, à un coût non négligeable.\n"
+"\t\t\n"
+"\t\tVous pouvez choisir de récupérer/voler l'arme ou l'augmentation aléatoire trouvée, [style[color:ff3377]]accélérant la flotte de 1 tour[[/style]].\n"
+"\t\tOu simplement la laisser là sans affecter la flotte, en récupérant une partie du coût."
 
 #: src-en/data/blueprints.xml.append:701
 msgid ""
@@ -629,23 +684,26 @@ msgstr "Bouclier sur Matière"
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_BPS_SHIELD_OVER_MATTER\"]/desc"
 msgstr ""
+"(Équipement RK BPS) Fournit un Bouclier d'Énergie avec une intégrité de 10 points de vie. (Ne se cumule pas avec lui-même ou d'autres Boucliers d'Énergie non cumulables)\n"
+"\t\t\n"
+"\t\tChaque fois que vous subissez des dégâts de coque, il a 50% de chance de restaurer 1 couche de Boucliers d'Énergie, mais [style[color:ff3377]]la pièce touchée prend également feu (en plus de toute chance de feu de l'arme ayant causé les dégâts)[[/style]]."
 
 #: src-en/data/blueprints.xml.append:730
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_COMBAT_ACE_CONSOLE\"]/title"
-msgstr "Console de l'As Hacker"
+msgstr "Console de Hacker Ace"
 
 #: src-en/data/blueprints.xml.append:731
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_COMBAT_ACE_CONSOLE\"]/desc"
 msgstr ""
-"(RK Punk équipement) Développée secrètement pour la Rébellion qui nie son existence, la Console de l'As Hacker peut faire 2 choses au début d'un combat :\n"
+"(Équipement RK Punk) Développée secrètement pour la Rébellion qui nie son existence, la console H.A.C. peut faire 2 choses au début d'un combat :\n"
 "\t\t\n"
-"\t\tLimiter les Moteurs, Boucliers et Armes ennemis de 1 pour tout le combat [Gratuit],\n"
+"\t\tLimiter les Moteurs, Boucliers et Armes ennemis de 1 pendant tout le combat [Gratuit],\n"
 "\t\t\n"
-"\t\tOu limiter les Boucliers ennemis de 3, les Moteurs et Armes de 2, et le Camouflage, Corrupteur (de \"Darkest Desire\"), Contrôle des drones, Contrôle mental, Oxygène, Pilotage et Contrôles des tourelles (de \"The Old Guard\") de 1 pour tout le combat. [Utilise 3| et 2 puissance de réacteur. Générateur d'urgence peut s'appliquer.]\n"
+"\t\tOu limiter les Boucliers ennemis de 3, les Moteurs et Armes de 2, et le Camouflage, le Corrupteur (de \"Désir le plus sombre\"), le Contrôle des Drones, le Contrôle Mental, l'Oxygène, le Pilotage et les Contrôles de Tourelles (de \"La Vieille Garde\") de 1 pendant tout le combat. [Utilise 3| et 2 d'énergie de réacteur. Le Générateur d'urgence peut s'appliquer.]\n"
 "\t\n"
-"\t\tVous l'avez pillée sur un As Hacker MFK."
+"\t\tVous avez pillé ceci sur un Hacker Ace du MFK."
 
 #: src-en/data/blueprints.xml.append:755
 msgid ""
@@ -656,24 +714,24 @@ msgstr "Équipement standard Anti-RK"
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RK_A_STANDARD_SUITE\"]/desc"
 msgstr ""
-"Traquer les RadiKals n'est pas une occupation sûre, donc les chasseurs les plus zélés reçoivent ceci pour augmenter leurs taux de survie... et les forcer à faire le travail.\n"
+"Traquer les RadiKals n'est pas une occupation sûre, c'est pourquoi les chasseurs les plus zélés reçoivent ceci pour augmenter leurs taux de survie... et les forcer à faire le travail.\n"
 "\t\t\n"
-"\t\t15% de chance de résister aux dégâts de Coque, Système et Ion.\n"
+"\t\t15% de chance de résister aux dégâts de Coque, de Système et Ioniques.\n"
 "\t\tRépare lentement les brèches et les incendies automatiquement.\n"
-"\t\tL'équipage a 40% plus de santé.\n"
-"\t\t[style[color:ff3377]]Vitesse de charge du saut SPL réduite de 90%.\n"
+"\t\tL'équipage a 40% de santé en plus.\n"
+"\t\t[style[color:ff3377]]Vitesse de charge SPL réduite de 90%.\n"
 "\t\tNe peut pas se rendre, négocier ou désobéir.[[/style]]"
 
 #: src-en/data/blueprints.xml.append:770
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RKS_POLICE_WARRANT\"]/title"
-msgstr "Mandat de Police Z."
+msgstr "Mandat de la Police Z."
 
 #: src-en/data/blueprints.xml.append:771
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"RKS_POLICE_WARRANT\"]/desc"
 msgstr ""
-"La présence de la Police Zoltan dans le Secteur RadiKal vous a donné cette autorisation pour fouiller les passants suspects pour leur équipement RK. Vous pouvez aussi le vendre.\n"
+"Le pied-à-terre de la Police Zoltan dans le Secteur RadiKal vous a donné cette autorisation pour fouiller les passants suspects afin de trouver leur équipement RK. Vous pouvez aussi le vendre.\n"
 "\t[Fournit des options bleues dans certaines balises du Secteur RadiKal.]"
 
 #: src-en/data/blueprints.xml.append:788
@@ -727,39 +785,39 @@ msgstr "Calibreur"
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"INTERNAL_RK_CALIBRATOR\"]/desc"
 msgstr ""
-"(RK Bam équipement) Vos armes ont +10% de précision et 4% de cadence de tir "
+"(Équipement RK Bam) Vos armes ont +10% de précision et 4% de cadence de tir "
 "augmentée. Peut être installé deux fois."
 
 #: src-en/data/blueprints.xml.append:917
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"EX_RK_CHOKING_IS_FINE\"]/title"
-msgstr "[X] F.I.N.E. asphyxiant"
+msgstr "[X] F.I.N.E. Asphyxiant"
 
 #: src-en/data/blueprints.xml.append:918
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"EX_RK_CHOKING_IS_FINE\"]/desc"
 msgstr ""
-"(RK Bam équipement) Hors-la-loi dans de nombreux endroits comme la plupart de l'équipement RK, les \"Choking Fetish-Inducing Neural Entrancers\" sont souvent demandés.\n"
+"(Équipement RK Bam) Interdits dans de nombreux endroits comme la plupart des équipements RK, les \"Entraineurs Neuronaux Inducteurs de Fétichisme Asphyxiant\" sont souvent en demande.\n"
 "\t\t\n"
-"\t\tVotre équipage subit 0,75x dégâts de suffocation.\n"
-"\t\tEn cas de suffocation, ils se déplacent, sabotent, réparent et combattent 1,4x mieux. N'affecte pas l'équipage immunisé contre la suffocation.\n"
+"\t\tVotre équipage subit 0,75x de dégâts de suffocation.\n"
+"\t\tTout en suffoquant, ils se déplacent, sabotent, réparent et combattent 1,4x mieux. N'affecte pas l'équipage immunisé contre la suffocation.\n"
 "\t\t\n"
-"\t[X] - En tant qu'amélioration de système externe, cette augmentation fournira son effet normal mais prendra un emplacement d'augmentation. Peut être converti gratuitement en version interne dans le menu d'amélioration interne.\n"
+"\t[X] - En tant qu'amélioration de système externe, cette augmentation fournira son effet normal mais occupera un emplacement d'augmentation. Peut être convertie gratuitement en version interne dans le menu des améliorations internes.\n"
 "\tNe se cumule pas avec elle-même, mais se cumule avec la version interne..."
 
 #: src-en/data/blueprints.xml.append:930
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"INTERNAL_RK_CHOKING_IS_FINE\"]/title"
-msgstr "F.I.N.E. asphyxiant"
+msgstr "F.I.N.E. Asphyxiant"
 
 #: src-en/data/blueprints.xml.append:931
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"INTERNAL_RK_CHOKING_IS_FINE\"]/desc"
 msgstr ""
-"(RK Bam équipement) Hors-la-loi dans de nombreux endroits comme la plupart de l'équipement RK, les \"Choking Fetish-Inducing Neural Entrancers\" sont souvent demandés.\n"
+"(Équipement RK Bam) Interdits dans de nombreux endroits comme la plupart des équipements RK, les \"Entraineurs Neuronaux Inducteurs de Fétichisme Asphyxiant\" sont souvent en demande.\n"
 "\t\t\n"
-"\t\tVotre équipage subit 0,75x dégâts de suffocation.\n"
-"\t\tEn cas de suffocation, ils se déplacent, sabotent, réparent et combattent 1,4x mieux. N'affecte pas l'équipage immunisé contre la suffocation."
+"\t\tVotre équipage subit 0,75x de dégâts de suffocation.\n"
+"\t\tTout en suffoquant, ils se déplacent, sabotent, réparent et combattent 1,4x mieux. N'affecte pas l'équipage immunisé contre la suffocation."
 
 #: src-en/data/blueprints.xml.append:941
 msgid ""
@@ -770,8 +828,8 @@ msgstr "Demicloneurs"
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"INTERNAL_DJMOD_DEMICLONER\"]/desc"
 msgstr ""
-"(RK Punk équipement) Ces prototypes de cloneur dorsal sont infusés d'énergies sombres. Ils essaient de ressusciter votre équipage s'il meurt (pas dans les événements) quand vous n'avez pas de vrai Cloneur.\n"
-"\t\tAu mieux, l'équipage ressuscite dans sa version inférieure (Soldat = Humain par défaut, etc.) Si aucune version inférieure n'existe, ils deviennent des Morphes. Quand les Morphes meurent, rien ne se passe."
+"(Équipement RK Punk) Ces prototypes de sacs-infirmeries à clones sont imprégnés d'énergies sombres. Ils tentent de ressusciter votre équipage s'il meurt (pas dans les événements) alors que vous n'avez pas de véritable Salle des clones.\n"
+"\t\tAu mieux, l'équipage ressuscite en tant que version inférieure (Soldat = Humain par défaut, etc.). Si aucune version inférieure n'existe, ils deviennent des Morphes. Quand les Morphes meurent, rien ne se passe."
 
 #: src-en/data/blueprints.xml.append:950
 msgid ""
@@ -782,46 +840,49 @@ msgstr "[X] Demicloneurs"
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"EX_DJMOD_DEMICLONER\"]/desc"
 msgstr ""
-"Le RadiKal Punk a infusé ces prototypes de cloneur dorsal avec des énergies sombres. Ils essaient de ressusciter votre équipage s'il meurt (pas dans les événements) quand vous n'avez pas de vrai Cloneur.\n"
-"\t\tAu mieux, l'équipage ressuscite dans sa version inférieure (Soldat = Humain par défaut, etc.) Si aucune version inférieure n'existe, ils deviennent des Morphes. Quand les Morphes meurent, rien ne se passe.\n"
+"Les Punks RadiKals ont imprégné ces prototypes de sacs-infirmeries à clones d'énergies sombres. Ils tentent de ressusciter votre équipage s'il meurt (pas dans les événements) alors que vous n'avez pas de véritable Salle des clones.\n"
+"\t\tAu mieux, l'équipage ressuscite en tant que version inférieure (Soldat = Humain par défaut, etc.). Si aucune version inférieure n'existe, ils deviennent des Morphes. Quand les Morphes meurent, rien ne se passe.\n"
 "\t\t\n"
-"\t[X] - En tant qu'amélioration de système externe, cette augmentation fournira son effet normal mais prendra un emplacement d'augmentation. Peut être converti gratuitement en version interne dans le menu d'amélioration interne.\n"
+"\t[X] - En tant qu'amélioration de système externe, cette augmentation fournira son effet normal mais occupera un emplacement d'augmentation. Peut être convertie gratuitement en version interne dans le menu des améliorations internes.\n"
 "\tNe se cumule pas avec elle-même, mais se cumule avec la version interne..."
 
 #: src-en/data/blueprints.xml.append:963
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"INTERNAL_DJMOD_MC_PARALYZER\"]/title"
-msgstr "Refroidisseur mental"
+msgstr "Refroidisseur Mental"
 
 #: src-en/data/blueprints.xml.append:964
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"INTERNAL_DJMOD_MC_PARALYZER\"]/desc"
 msgstr ""
+"Lorsqu'il est sous l'effet du Contrôle Mental, votre équipage ne peut pas "
+"combattre, saboter, utiliser de capacités ou se téléporter. Fonctionne sur "
+"les deux vaisseaux."
 
 #: src-en/data/blueprints.xml.append:972
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"INTERNAL_RK_IN_FIRE_CREWBOOSTS\"]/title"
-msgstr "Bandages d'enfer"
+msgstr "Bandages d'Hellion"
 
 #: src-en/data/blueprints.xml.append:973
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"INTERNAL_RK_IN_FIRE_CREWBOOSTS\"]/desc"
 msgstr ""
-"Dans le feu, votre équipage a 1,75x vitesse de déplacement et de sabotage, "
-"et inflige 1,75x dégâts de combat et aux portes, sur les deux vaisseaux."
+"Dans le feu, votre équipage a 1,75x de vitesse de mouvement et de sabotage, "
+"et inflige 1,75x de dégâts de combat et de porte, sur les deux vaisseaux."
 
 #: src-en/data/blueprints.xml.append:981
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"INTERNAL_DJMOD_MC_IMMUNE_FROM_FIRE\"]/title"
-msgstr "Chauffeur mental"
+msgstr "Chauffeur Mental"
 
 #: src-en/data/blueprints.xml.append:982
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"INTERNAL_DJMOD_MC_IMMUNE_FROM_FIRE\"]/desc"
 msgstr ""
-"Dans le feu, votre équipage est immunisé contre le Contrôle mental et en est"
-" guéri, étourdi 50% moins longtemps, et révèle les pièces adjacentes. "
-"Fonctionne sur les deux vaisseaux."
+"Dans le feu, votre équipage est immunisé au Contrôle Mental et en est guéri,"
+" étourdi 50% moins longtemps, et révèle les pièces adjacentes. Fonctionne "
+"sur les deux vaisseaux."
 
 #: src-en/data/blueprints.xml.append:1035
 msgid ""
@@ -831,7 +892,7 @@ msgstr "Faveur du RK Bam"
 #: src-en/data/blueprints.xml.append:1036
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"JUDGE_BOON_RK_BAM_CREW\"]/desc"
-msgstr "Les RadiKals gagnent 29 PV de plus et 1,1x dégâts de combat."
+msgstr "Les RadiKals gagnent 29 PV de plus et 1,1x de dégâts de combat."
 
 #: src-en/data/blueprints.xml.append:1042
 msgid ""
@@ -841,7 +902,7 @@ msgstr "Faveur du RK Punk"
 #: src-en/data/blueprints.xml.append:1043
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"JUDGE_BOON_RK_PUNK_CREW\"]/desc"
-msgstr "Les RadiKals guérissent et sont clonés 40% plus vite."
+msgstr "Les RadiKals se soignent et sont clonés 40% plus rapidement."
 
 #: src-en/data/blueprints.xml.append:1049
 msgid ""
@@ -852,58 +913,58 @@ msgstr "Faveur du RK Scorch"
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"JUDGE_BOON_RK_SCORCH_CREW\"]/desc"
 msgstr ""
-"Dans le feu, les RadiKals gagnent 1,3x vitesse de déplacement et dégâts de "
-"combat."
+"Dans le feu, les RadiKals gagnent 1,3x de vitesse de déplacement et de "
+"dégâts de combat."
 
 #: src-en/data/blueprints.xml.append:1109
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"JUDGE_BOON_RK_BAM_EQUIPMENT\"]/title"
-msgstr "Bénédiction de la Robustesse RadiKal"
+msgstr "Bénédiction de Résistance RadiKal"
 
 #: src-en/data/blueprints.xml.append:1110
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"JUDGE_BOON_RK_BAM_EQUIPMENT\"]/desc"
 msgstr ""
-"+8% de chance de résister aux dégâts de coque, système et ion des armes "
-"ennemies."
+"+8% de chance de résister aux dégâts de coque, système et ioniques des armes"
+" ennemies."
 
 #: src-en/data/blueprints.xml.append:1117
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"JUDGE_BOON_RK_PUNK_EQUIPMENT\"]/title"
-msgstr "Bénédiction de la Ruse RadiKal"
+msgstr "Bénédiction de Ruse RadiKal"
 
 #: src-en/data/blueprints.xml.append:1118
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"JUDGE_BOON_RK_PUNK_EQUIPMENT\"]/desc"
-msgstr "Vos systèmes sont réparés à x1,3 vitesse."
+msgstr "Vos systèmes sont réparés à une vitesse de 1,3x."
 
 #: src-en/data/blueprints.xml.append:1124
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"JUDGE_BOON_RK_SCORCH_EQUIPMENT\"]/title"
-msgstr "Bénédiction de la Fièvre RadiKal"
+msgstr "Bénédiction de Fièvre RadiKal"
 
 #: src-en/data/blueprints.xml.append:1125
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"JUDGE_BOON_RK_SCORCH_EQUIPMENT\"]/desc"
-msgstr "+8% vitesse de recharge des armes et esquive."
+msgstr "+8% de vitesse de charge d'arme et d'évasion."
 
 #: src-en/data/blueprints.xml.append:1131
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"JUDGE_BOON_RK_BPS_EQUIPMENT\"]/title"
-msgstr "Bénédiction des Projets RadiKal"
+msgstr "Bénédiction de Projets RadiKal"
 
 #: src-en/data/blueprints.xml.append:1132
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"JUDGE_BOON_RK_BPS_EQUIPMENT\"]/desc"
 msgstr ""
-"+4% de chance de résister aux dégâts de coque, système et ion des armes "
-"ennemies, vos systèmes sont réparés à 1,15x vitesse, +4% vitesse de recharge"
-" des armes et esquive."
+"+4% de chance de résister aux dégâts de coque, système et ioniques des armes"
+" ennemies, vos systèmes sont réparés à 1,15x de vitesse, +4% de vitesse de "
+"charge d'arme et d'évasion."
 
 #: src-en/data/blueprints.xml.append:1234
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"DJMOD_BAM_FISSUREBEAM\"]/title"
-msgstr "Rayon de Fissure 'Bada'"
+msgstr "Rayon Fissurant 'Bada'"
 
 #: src-en/data/blueprints.xml.append:1235
 msgid ""
@@ -914,62 +975,62 @@ msgstr "Rayon 'Bada'"
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"DJMOD_BAM_FISSUREBEAM\"]/desc"
 msgstr ""
-"(RK Bam équipement) Peut toucher 3-5 tuiles, assez fort pour détruire des systèmes ou des vaisseaux.\n"
-"\t\tLes Rayons de Fissure infligent des dégâts par tuile plutôt que par pièce."
+"(Équipement RK Bam) Peut toucher 3-5 tuiles, assez fort pour détruire des systèmes ou des vaisseaux.\n"
+"\t\tLes Rayons Fissurants infligent des dégâts par tuile plutôt que par pièce."
 
 #: src-en/data/blueprints.xml.append:1291
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_HEAVY_POPPER_1\"]/title"
-msgstr "Super Éclateur Ver. 1"
+msgstr "Heavy Popper Ver. 1"
 
 #: src-en/data/blueprints.xml.append:1292
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_HEAVY_POPPER_1\"]/short"
-msgstr "S. Écl. 1"
+msgstr "H. Pop. 1"
 
 #: src-en/data/blueprints.xml.append:1293
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_HEAVY_POPPER_1\"]/desc"
 msgstr ""
-"(RK Bam équipement) Les dégâts par seconde d'un Laser Rafale 3, à 1 énergie !\n"
-"\t\t[style[color:ff3377]]Chacun de vos systèmes a 5% de chance de subir 1 dégât système à chaque tir![[/style]]\n"
-"\t\tLes Super Éclateurs sont imprécis et lents mais éclatent 2 boucliers et peuvent créer des brèches supplémentaires."
+"(Équipement RK Bam) Les dégâts par seconde d'un Laser Rafale 3, à 1 d'énergie !\n"
+"\t\t[style[color:ff3377]]Chacun de vos systèmes a 5% de chance de subir 1 dégât à chaque tir ![[/style]]\n"
+"\t\tLes Heavy Poppers sont imprécis et lents mais brisent 2 boucliers et peuvent infliger des brèches supplémentaires."
 
 #: src-en/data/blueprints.xml.append:1349
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_HEAVY_POPPER_2\"]/title"
-msgstr "Super Éclateur Ver. 2"
+msgstr "Heavy Popper Ver. 2"
 
 #: src-en/data/blueprints.xml.append:1350
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_HEAVY_POPPER_2\"]/short"
-msgstr "S. Écl. 2"
+msgstr "H. Pop. 2"
 
 #: src-en/data/blueprints.xml.append:1351
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_HEAVY_POPPER_2\"]/desc"
 msgstr ""
-"(RK Bam équipement) Assez de force pour briser le bouclier de la plupart des ennemis, et/ou blesser gravement.\n"
-"\t\t[style[color:ff3377]]Chacun de vos systèmes a 4% de chance de subir 1 dégât système à chaque tir![[/style]]\n"
-"\t\tLes Super Éclateurs sont imprécis et lents mais éclatent 2 boucliers et peuvent créer des brèches supplémentaires."
+"(Équipement RK Bam) Assez de force pour briser le bouclier de la plupart des ennemis, et/ou faire très mal.\n"
+"\t\t[style[color:ff3377]]Chacun de vos systèmes a 4% de chance de subir 1 dégât à chaque tir ![[/style]]\n"
+"\t\tLes Heavy Poppers sont imprécis et lents mais brisent 2 boucliers et peuvent infliger des brèches supplémentaires."
 
 #: src-en/data/blueprints.xml.append:1449
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_HEAVY_POPPER_3\"]/title"
-msgstr "Super Éclateur Ver. 3"
+msgstr "Heavy Popper Ver. 3"
 
 #: src-en/data/blueprints.xml.append:1450
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_HEAVY_POPPER_3\"]/short"
-msgstr "S. Écl. 3"
+msgstr "H. Pop. 3"
 
 #: src-en/data/blueprints.xml.append:1451
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_HEAVY_POPPER_3\"]/desc"
 msgstr ""
-"(RK Bam équipement) Puissance de type Fleetgun pour briser les Boucliers et écraser. Tuer. Détruire.\n"
-"\t\t[style[color:ff3377]]Chacun de vos systèmes a 3% de chance de subir 1 dégât système à chaque tir![[/style]]\n"
-"\t\tLes Super Éclateurs sont imprécis et lents mais éclatent 2 boucliers et peuvent créer des brèches supplémentaires."
+"(Équipement RK Bam) Une puissance type Fleetgun pour briser les Boucliers et écraser. Tuer. Détruire.\n"
+"\t\t[style[color:ff3377]]Chacun de vos systèmes a 3% de chance de subir 1 dégât à chaque tir ![[/style]]\n"
+"\t\tLes Heavy Poppers sont imprécis et lents mais brisent 2 boucliers et peuvent infliger des brèches supplémentaires."
 
 #: src-en/data/blueprints.xml.append:1507
 msgid "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_UNLOADER\"]/title"
@@ -982,27 +1043,27 @@ msgstr ""
 #: src-en/data/blueprints.xml.append:1509
 msgid "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_UNLOADER\"]/desc"
 msgstr ""
-"(RK Bam équipement) Les gens demandent \"Pourquoi tous ces Letos pré-"
+"(Équipement RK Bam) Les gens demandent \"Pourquoi tous ces Letos pré-"
 "énergisés dans un chargeur de missiles rotatif super-refroidissant ?\" et "
-"les Bam répondent \"On a eu une super promo.\""
+"les Bam répondent \"On a eu une super réduction en gros.\""
 
 #: src-en/data/blueprints.xml.append:1555
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_BOMBLAUNCHER_ANTIBIO_REPAIR\"]/title"
-msgstr "Bombe de réparation radiative"
+msgstr "Bombe de Réparation Radiante"
 
 #: src-en/data/blueprints.xml.append:1556
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_BOMBLAUNCHER_ANTIBIO_REPAIR\"]/short"
-msgstr "Bombe Rép."
+msgstr "Rép. Rad."
 
 #: src-en/data/blueprints.xml.append:1558
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_BOMBLAUNCHER_ANTIBIO_REPAIR\"]/desc"
 msgstr ""
-"(RK Punk équipement) Utilise des composés interdits pour réparer les systèmes, mais [style[color:ff3377]]inflige des dégâts à l'équipage, handicapant temporairement l'équipage[[/style]].\n"
+"(Équipement RK Punk) Utilise des composés interdits pour réparer les systèmes, mais [style[color:ff3377]]inflige des dégâts à l'équipage, le handicapant temporairement[[/style]].\n"
 "\t\t\n"
-"\t\tPeut viser votre propre vaisseau. Les armes conservatrices n'utilisent pas d'énergie par elles-mêmes mais nécessitent que le système lui-même soit alimenté."
+"\t\tPeut viser votre propre vaisseau. Les armes conservatrices n'utilisent pas d'énergie elles-mêmes mais nécessitent que le système lui-même soit alimenté."
 
 #: src-en/data/blueprints.xml.append:1804
 msgid ""
@@ -1018,41 +1079,44 @@ msgstr "Gravespred"
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_KILLALL_BEAM\"]/desc"
 msgstr ""
-"(RK Punk équipement) Ce rayon de radiation veut tout le monde mort. Inflige +15 dégâts à l'équipage par chaîne. (Max 105 dégâts à l'équipage)\n"
-"\t\tPerce 2 boucliers +1 par chaîne. (Max 6 perforation. Ignorez l'infobulle)\n"
-"\t\t[style[color:ff3377]]ATTENTION : Inflige 15 dégâts à tout l'équipage sur votre vaisseau par chaîne![[/style]] (Max 60)"
+"(Équipement RK Punk) Ce rayon radiant veut que tout le monde meure. Inflige +15 dégâts à l'équipage par chaîne. (Max 105 dégâts à l'équipage)\n"
+"\t\tPerce 2 boucliers +1 par chaîne. (Max 6 de perforation. Ignorez l'info-bulle)\n"
+"\t\t[style[color:ff3377]]ATTENTION : Inflige 15 dégâts à tout l'équipage sur votre vaisseau par chaîne ![[/style]] (Max 60)"
 
 #: src-en/data/blueprints.xml.append:1854
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_KILLALL_BEAM_ELITE\"]/title"
-msgstr ""
+msgstr "Rayon Radiant 'Gravespred' Élite"
 
 #: src-en/data/blueprints.xml.append:1855
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_KILLALL_BEAM_ELITE\"]/short"
-msgstr ""
+msgstr "Gravespr.+"
 
 #: src-en/data/blueprints.xml.append:1856
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_KILLALL_BEAM_ELITE\"]/desc"
 msgstr ""
+"(Équipement RK Punk) Cette version élite du Gravespred se charge plus vite et s'enchaîne davantage. (Max 135 dégâts à l'équipage)\n"
+"\t\tPerce 2 boucliers +1 par chaîne. (Max 8 de perforation. Ignorez l'info-bulle)\n"
+"\t\t[style[color:ff3377]]ATTENTION : Inflige 15 dégâts à tout l'équipage sur votre vaisseau par chaîne ![[/style]] (Max 90)"
 
 #: src-en/data/blueprints.xml.append:1901
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_MISSLAUNCHER_2_BATTERY\"]/title"
-msgstr "Missiles 'Battery Artemis'"
+msgstr "Missiles 'Artémis Batterie'"
 
 #: src-en/data/blueprints.xml.append:1902
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_MISSLAUNCHER_2_BATTERY\"]/short"
-msgstr "'B. Artemis.'"
+msgstr "'B. Artémis.'"
 
 #: src-en/data/blueprints.xml.append:1903
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_MISSLAUNCHER_2_BATTERY\"]/desc"
 msgstr ""
-"(RK Punk équipement) Le classique Artemis amélioré pour fournir de "
-"l'énergie, au prix d'une certaine performance."
+"(Équipement RK Punk) L'Artémis classique amélioré pour fournir de l'énergie,"
+" au prix d'une certaine performance."
 
 #: src-en/data/blueprints.xml.append:2105
 msgid ""
@@ -1062,29 +1126,31 @@ msgstr "Pluie d'Ions"
 #: src-en/data/blueprints.xml.append:2106
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_RAIN_OF_ION\"]/short"
-msgstr "Pluie d'Ions"
+msgstr "Pluie Ions"
 
 #: src-en/data/blueprints.xml.append:2108
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_RAIN_OF_ION\"]/desc"
 msgstr ""
-"(RK Punk équipement) Ce fusil à pompe lourd tire un ion de phase accéléré, un ion lourd, un ion de feu, un ion normal, un ion étourdissant et un radion (du plus rapide au plus lent) tous en même temps. Refroidit les chaînes.\n"
-"\t\tBeaucoup d'armes valent des options bleues !"
+"(Équipement RK Punk) Ce fusil à pompe robuste tire un ion de phase accéléré, un ion lourd, un ion de feu, un ion normal, un ion étourdissant et un radion (du plus rapide au plus lent) en même temps. Chaîne de temps de recharge.\n"
+"\t\tBeaucoup d'options bleues en valent la peine !"
 
 #: src-en/data/blueprints.xml.append:2184
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_RAIN_OF_ION_ELITE\"]/title"
-msgstr ""
+msgstr "Pluie d'Ions Élite"
 
 #: src-en/data/blueprints.xml.append:2185
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_RAIN_OF_ION_ELITE\"]/short"
-msgstr "Pluie d'Ions"
+msgstr "Pluie Ions"
 
 #: src-en/data/blueprints.xml.append:2187
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_RAIN_OF_ION_ELITE\"]/desc"
 msgstr ""
+"(Équipement RK Punk) Une 'Pluie d'Ions' plus rapide, qui peut enchaîner le temps de recharge deux fois plus. Un rappel de temps plus fous.\n"
+"\t\tToujours beaucoup d'options bleues en valent la peine !"
 
 #: src-en/data/blueprints.xml.append:2253
 msgid ""
@@ -1099,28 +1165,28 @@ msgstr ""
 #: src-en/data/blueprints.xml.append:2256
 msgid "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_SHOTPHASER\"]/desc"
 msgstr ""
-"(RK Punk équipement) Ce fusil à pompe tire 3 ions de phase grandement accélérés dans un rayon, avec une chance décente d'étourdir.\n"
+"(Équipement RK Punk) Ce fusil à pompe tire 3 ions de phase grandement accélérés dans un rayon, avec une chance décente d'étourdissement.\n"
 "\t\tLes Phaseurs percent les boucliers, infligeant des dégâts ioniques à la première couche de boucliers, ainsi que des dégâts supplémentaires au système touché."
 
 #: src-en/data/blueprints.xml.append:2320
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_BOMBLAUNCHER_OXYBOTTLE\"]/title"
-msgstr "Bombe à Oxygène"
+msgstr ""
 
 #: src-en/data/blueprints.xml.append:2321
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_BOMBLAUNCHER_OXYBOTTLE\"]/short"
-msgstr "Bombe O2"
+msgstr "B. O2."
 
 #: src-en/data/blueprints.xml.append:2323
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_BOMBLAUNCHER_OXYBOTTLE\"]/desc"
 msgstr ""
-"(RK Scorch équipement) Un favori des preneurs d'otages partout.\n"
+"(Équipement RK Scorch) Un favori des preneurs d'otages partout.\n"
 "\n"
-"\t\tDispositif d'auto-téléportation rapide qui déploie 1 Oxygène en bouteille avec une durée de vie de 15 secondes. Il a 50 PV, remplit rapidement l'oxygène et peut être détoné à distance pour 30 dégâts à l'équipage et 60% de chance de feu.\n"
+"\t\tDispositif auto-téléportant rapide qui déploie 1 Oxygène en bouteille avec une durée de vie de 15 secondes. Il a 50 PV, remplit rapidement l'oxygène et peut être détoné à distance pour 30 dégâts à l'équipage et 60% de chance de feu.\n"
 "\t\t\n"
-"\t\tPeut viser votre propre vaisseau. Les armes conservatrices n'utilisent pas d'énergie par elles-mêmes mais nécessitent que le système lui-même soit alimenté."
+"\t\tPeut viser votre propre vaisseau. Les armes conservatrices n'utilisent pas d'énergie elles-mêmes mais nécessitent que le système lui-même soit alimenté."
 
 #: src-en/data/blueprints.xml.append:2354
 msgid ""
@@ -1141,6 +1207,8 @@ msgstr "Cheminée"
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_OXY_FIREFILL_MISSILES\"]/desc"
 msgstr ""
+"(Équipement RK Scorch) Surrempli de feu. Lâche aussi un Oxygène en bouteille. [style[color:ff3377]]Chaque tir enflamme votre salle des Armes ![[/style]]\n"
+"\t\tLes Scorch ont un dicton : \"Des problèmes ? Envoyez-les simplement par la Cheminée !\""
 
 #: src-en/data/blueprints.xml.append:2455
 msgid ""
@@ -1160,6 +1228,10 @@ msgstr "'Tisonnier'"
 #: src-en/data/blueprints.xml.append:2533
 msgid "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_FOCUS_FIRE\"]/desc"
 msgstr ""
+"(Équipement RK Scorch) Qui a dit que les aiguillons avaient besoin de précision ? Certainement pas celui qui a fabriqué cet Aiguillon à Particules de Souffle de Feu.\n"
+"\n"
+"\t\tEn plus des dégâts au système, met la pièce complètement en feu.\n"
+"\t\t[Souffle de Feu : Si la pièce touchée était en feu, les pièces adjacentes (diagonales incluses) subissent : 1 dégât système et 15 dégâts à l'équipage, et un feu. Ne touchez pas vos abordeurs !]"
 
 #: src-en/data/blueprints.xml.append:2627
 msgid ""
@@ -1169,14 +1241,14 @@ msgstr "Pluie de Feu"
 #: src-en/data/blueprints.xml.append:2628
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"DJMOD_RAIN_OF_FIRE\"]/short"
-msgstr "Pluie de Feu"
+msgstr "Pluie Feu"
 
 #: src-en/data/blueprints.xml.append:2629
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"DJMOD_RAIN_OF_FIRE\"]/desc"
 msgstr ""
-"(RK Scorch équipement) Ce lanceur rôtit si bien qu'il peut garder les pièces sans air en feu lorsqu'il est complètement enchaîné.\n"
-"\t\tPas de dégâts mais perce les boucliers et les super boucliers."
+"(Équipement RK Scorch) Ce lanceur rôtit si bien qu'il peut maintenir des pièces sans air en feu lorsqu'il est complètement enchaîné.\n"
+"\t\tPas de dégâts mais perce les boucliers et super-boucliers."
 
 #: src-en/data/blueprints.xml.append:2688
 msgid ""
@@ -1186,30 +1258,32 @@ msgstr "Pluie de feu"
 #: src-en/data/blueprints.xml.append:2689
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"DJMOD_RAIN_OF_FIRE_ENEMYFIX\"]/short"
-msgstr "PluieDeFeu"
+msgstr "PluieFeu"
 
 #: src-en/data/blueprints.xml.append:2690
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"DJMOD_RAIN_OF_FIRE_ENEMYFIX\"]/desc"
 msgstr ""
 "VOUS NE DEVRIEZ JAMAIS VOIR CECI. Tirs limités à 3 et temps de recharge "
-"réduit pour éviter le gel du jeu quand : (tirs > pièces du vaisseau du "
-"joueur) à cause de la façon dont l'IA cible."
+"réduit pour éviter le gel du jeu lorsque : (tirs > pièces du vaisseau "
+"joueur) en raison de la façon dont l'IA cible."
 
 #: src-en/data/blueprints.xml.append:2741
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_BPS_FOCUS_STATUS\"]/title"
-msgstr ""
+msgstr "'Lettre BPS'"
 
 #: src-en/data/blueprints.xml.append:2742
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_BPS_FOCUS_STATUS\"]/short"
-msgstr ""
+msgstr "'Lett. BPS'"
 
 #: src-en/data/blueprints.xml.append:2743
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_BPS_FOCUS_STATUS\"]/desc"
 msgstr ""
+"(Équipement RK BPS) Un Dirk plus faible mais plus ennuyeux, d'une équipe "
+"RadiKal commune : allume des feux, perce, étourdit et pirate tout à la fois."
 
 #: src-en/data/blueprints.xml.append:2812
 msgid ""
@@ -1219,27 +1293,33 @@ msgstr "'Messager BPS'"
 #: src-en/data/blueprints.xml.append:2813
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"DJMOD_LASER_BPS\"]/short"
-msgstr "'Messager BPS'"
+msgstr "'Mess. BPS'"
 
 #: src-en/data/blueprints.xml.append:2814
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"DJMOD_LASER_BPS\"]/desc"
 msgstr ""
+"(Équipement RK BPS) Heavy Percant ajusté dans le Secteur RadiKal : les Bam "
+"ont remplacé l'étourdissement par le brise-coque, les Punk ont ajouté des "
+"dégâts ioniques et à l'équipage, et les Scorch l'ont fait allumer des feux "
+"et s'enchaîner mais pas percer."
 
 #: src-en/data/blueprints.xml.append:2875
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"DJMOD_LASER_BPS_ELITE\"]/title"
-msgstr ""
+msgstr "'Messager BPS' Élite"
 
 #: src-en/data/blueprints.xml.append:2876
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"DJMOD_LASER_BPS_ELITE\"]/short"
-msgstr ""
+msgstr "'Mess. BPS'+"
 
 #: src-en/data/blueprints.xml.append:2877
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"DJMOD_LASER_BPS_ELITE\"]/desc"
 msgstr ""
+"(Équipement RK BPS) Un Messager plus rapide et étourdissant. Ils n'en "
+"fabriquent plus des comme ça."
 
 #: src-en/data/blueprints.xml.append:2942
 msgid "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_A_LASER_1\"]/title"
@@ -1252,10 +1332,10 @@ msgstr "\"Décence\""
 #: src-en/data/blueprints.xml.append:2944
 msgid "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_A_LASER_1\"]/desc"
 msgstr ""
-"(Anti-RK équipement) Refroidit les chaînes beaucoup mais lentement, et inflige +1 dégât pour chaque arme RK sur la cible.\n"
+"(Équipement Anti-RK) Enchaîne beaucoup le temps de recharge mais lentement, et inflige +1 dégât pour chaque arme RK sur la cible.\n"
 "\t\t'Que l'Ordre Prévale.'\n"
 "\t\t\n"
-"\t\tLes armes conservatrices n'utilisent pas d'énergie par elles-mêmes mais nécessitent que le système lui-même soit alimenté."
+"\t\tLes armes conservatrices n'utilisent pas d'énergie elles-mêmes mais nécessitent que le système lui-même soit alimenté."
 
 #: src-en/data/blueprints.xml.append:3034
 msgid ""
@@ -1271,10 +1351,10 @@ msgstr "'Mesure'"
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_A_MISSLAUNCHER\"]/desc"
 msgstr ""
-"(Anti-RK équipement) Refroidit les chaînes rapidement, et inflige +1 dégât système pour chaque arme RK sur la cible.\n"
+"(Équipement Anti-RK) Enchaîne rapidement le temps de recharge, et inflige +1 dégât système pour chaque arme RK sur la cible.\n"
 "\t\t'Que l'Ordre Prévale.'\n"
 "\n"
-"\t\tCe lanceur spécialisé convertit les ressources inutiles en missiles. Cependant, il ne peut tirer qu'un nombre limité de fois par combat."
+"\t\tCe lanceur spécialisé convertit les ressources inutiles en missiles. Cependant, il ne peut tirer qu'un nombre limité de fois à chaque combat."
 
 #: src-en/data/blueprints.xml.append:3137
 msgid ""
@@ -1296,7 +1376,7 @@ msgstr ""
 #: src-en/data/blueprints.xml.append:3185
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"DJMOD_ARTILLERY_LASER_PARTICLE\"]/title"
-msgstr "Artillerie à particules"
+msgstr "Artillerie à Particules"
 
 #: src-en/data/blueprints.xml.append:3186
 msgid ""
@@ -1307,7 +1387,7 @@ msgstr "Artillerie"
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"DJMOD_ARTILLERY_LASER_PARTICLE\"]/desc"
 msgstr ""
-"Artillerie : Tire 6 lasers à particules qui font 2 dégâts système et 15 dégâts d'équipage chacun, percent 1 bouclier et ne manquent jamais.\n"
+"Artillerie : Tire 6 lasers à particules qui font 2 dégâts système et 15 dégâts à l'équipage chacun, percent 1 bouclier et ne manquent jamais.\n"
 "\tTemps de recharge de base : 25"
 
 #: src-en/data/blueprints.xml.append:3189
@@ -1315,13 +1395,13 @@ msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"DJMOD_ARTILLERY_LASER_PARTICLE\"]/tooltip"
 msgstr ""
 "Artillerie : [Temps de recharge : 25s] Tire 6 lasers à particules qui font 2"
-" dégâts système et 15 dégâts d'équipage chacun, percent 1 bouclier et ne "
+" dégâts système et 15 dégâts à l'équipage chacun, percent 1 bouclier et ne "
 "manquent jamais."
 
 #: src-en/data/blueprints.xml.append:3228
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"DJMOD_ARTILLERY_MISSILE_FIRE\"]/title"
-msgstr "Artillerie de missiles de feu"
+msgstr "Artillerie de Missiles de Feu"
 
 #: src-en/data/blueprints.xml.append:3229
 msgid ""
@@ -1350,7 +1430,7 @@ msgstr ""
 #: src-en/data/blueprints.xml.append:3441
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_DRONE_BOMBLAUNCHER_OXYBOTTLE\"]/title"
-msgstr "Bombe à Oxygène"
+msgstr ""
 
 #: src-en/data/blueprints.xml.append:3456
 msgid ""
@@ -1360,19 +1440,19 @@ msgstr "OXY"
 #: src-en/data/blueprints.xml.append:3526
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_WEAPONLIKE_SURGEBOMB\"]/title"
-msgstr "SURGDEBOMBE"
+msgstr "SURGEBOMBE"
 
 #: src-en/data/blueprints.xml.append:3527
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_WEAPONLIKE_SURGEBOMB\"]/short"
-msgstr "SURGDEBOMBE"
+msgstr "SURGEBOMBE"
 
 #: src-en/data/blueprints.xml.append:3528
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"RK_WEAPONLIKE_SURGEBOMB\"]/desc"
 msgstr ""
-"NE DEVRIEZ JAMAIS VOIR CECI. Pour la capacité d'équipage alimentée par "
-"surtension. Basé sur ANCIENT_BOMB."
+"NE DEVRAIT JAMAIS VOIR. Pour la capacité d'équipage alimentée par une "
+"poussée. Basé sur ANCIENT_BOMB."
 
 #: src-en/data/blueprints.xml.append:3574
 msgid ""
@@ -1388,7 +1468,7 @@ msgstr "Éperonneur"
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_DJMOD_RAMMER\"]/desc"
 msgstr ""
-"Le vaisseau amiral des RadiKal Bam a un espace limité pour les armes, mais est équipé pour foncer en toute sécurité* dans les vaisseaux ennemis, puis les manger !\r\n"
+"Le vaisseau amiral des RadiKal Bam a un espace limité pour les armes, mais est équipé pour s'écraser en toute sécurité* contre les vaisseaux ennemis, puis les manger !\r\n"
 "\t*(Citation nécessaire)"
 
 #: src-en/data/blueprints.xml.append:3653
@@ -1406,8 +1486,8 @@ msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_DJMOD_RAMMER_2\"]/desc"
 msgstr ""
 "Ce vaisseau amiral RadiKal Bam sacrifie diverses défenses pour une "
-"destruction rapide, aveugle et difficilement durable. Puissance max des "
-"armes : 10."
+"destruction rapide, aveugle et difficilement durable. Puissance maximale des"
+" armes : 10."
 
 #: src-en/data/blueprints.xml.append:3734
 msgid ""
@@ -1424,9 +1504,9 @@ msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_DJMOD_PUNKER\"]/desc"
 msgstr ""
 "Un accélérateur de particules orbital transformé en croiseur est le vaisseau"
-" amiral RadiKal Punk. Utilisez son réacteur agrandi avec des améliorations "
-"moins chères pour le piratage et l'artillerie à particules, avant que des "
-"difficultés internes ne vous fassent démonter."
+" amiral RadiKal Punk. Utilisez son réacteur élargi avec des améliorations "
+"moins chères pour le piratage et l'artillerie à particules, avant que les "
+"difficultés internes ne vous fassent démanteler."
 
 #: src-en/data/blueprints.xml.append:3810
 msgid ""
@@ -1442,10 +1522,10 @@ msgstr ""
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_DJMOD_PUNKER_2\"]/desc"
 msgstr ""
-"L'Harmonie bootleg qui a redessiné ce vaisseau sans y être invitée insiste "
-"sur le fait qu'il s'agit d'un \"design de pointe que c'est triste que vous, "
-"taches biologiques, ne puissiez pas apprécier !!\". Tenez-vous à l'écart de "
-"la véritable Harmonie Engi. Supprimez après la victoire."
+"L'Harmonie de contrefaçon qui a redessiné ce vaisseau sans y être invitée "
+"insiste sur le fait que c'est \"Le summum du design qu'il est triste que "
+"vous, taches biologiques, ne puissiez pas apprécier !!\". Tenez-vous à "
+"l'écart de la véritable Harmonie Engi. Supprimez après la victoire."
 
 #: src-en/data/blueprints.xml.append:3886
 msgid ""
@@ -1461,9 +1541,9 @@ msgstr "Calcinateur"
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_RK_SCORCHER\"]/desc"
 msgstr ""
-"Le vaisseau amiral des RadiKal Scorch a des vulnérabilités structurelles "
-"claires, mais compense cela par l'utilisation mortelle de leur technologie "
-"si vous vous y engagez."
+"Le vaisseau amiral des RadiKal Scorch présente des vulnérabilités "
+"structurelles claires, mais compense par une utilisation mortelle de leur "
+"technologie si vous vous y engagez."
 
 #: src-en/data/blueprints.xml.append:3961
 msgid ""
@@ -1473,7 +1553,7 @@ msgstr "Croiseur RadiKal Scorch"
 #: src-en/data/blueprints.xml.append:3962
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_RK_SCORCHER_2\"]/name"
-msgstr "BrûleEtSuffoque"
+msgstr "Chokanburn"
 
 #: src-en/data/blueprints.xml.append:3964
 msgid ""
@@ -1481,7 +1561,7 @@ msgid ""
 msgstr ""
 "L'équipage stellaire dirigeant ce vaisseau autodéfensif a eu du mal à "
 "recruter d'autres personnes pour leur grande invasion. Espérons que les "
-"intrus ennemis meurent avant de casser quelque chose."
+"intrus ennemis meurent avant de casser quoi que ce soit."
 
 #: src-en/data/blueprints.xml.append:4037
 msgid ""
@@ -1497,10 +1577,10 @@ msgstr "Phénix de l'Air"
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_RK_SCORCHER_3\"]/desc"
 msgstr ""
-"Un assistant a dit \"Pourquoi ça ne peut pas avoir de système d'Oxygène ? Le"
-" vaisseau a l'air d'avoir besoin de sauter ou de s'effondrer très vite. Et "
-"ne trouvez-vous pas que cet oiseau ressemble un peu à MFK ?\" Leur corps n'a"
-" jamais été retrouvé. Puissance max des armes : 10."
+"Un assistant a dit \"Pourquoi ce vaisseau ne peut-il pas avoir de système "
+"d'Oxygène ? Il a l'air de devoir sauter ou s'effondrer très vite. Et ne "
+"trouvez-vous pas que cet oiseau ressemble un peu au MFK ?\" Leur corps n'a "
+"jamais été retrouvé. Puissance maximale des armes : 10."
 
 #: src-en/data/blueprints.xml.append:4111
 msgid ""
@@ -1510,7 +1590,7 @@ msgstr "Croiseur RadiKal Scorch"
 #: src-en/data/blueprints.xml.append:4112
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_DJMOD_SCORCH\"]/name"
-msgstr "Prototype Calcinateur"
+msgstr "Prototype de Calcinateur"
 
 #: src-en/data/blueprints.xml.append:4114
 msgid ""
@@ -1522,20 +1602,20 @@ msgstr ""
 #: src-en/data/blueprints.xml.append:4187
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_RK_LEAD_TITANS_USER\"]/class"
-msgstr "Vaisseau d'abordage Titan Bam RK"
+msgstr "RK Bam Vaisseau d'abordage Titan"
 
 #: src-en/data/blueprints.xml.append:4188
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_RK_LEAD_TITANS_USER\"]/name"
-msgstr "Sursaut de Nébuleuse"
+msgstr "Jumpscare de Nébuleuse"
 
 #: src-en/data/blueprints.xml.append:4189
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_RK_LEAD_TITANS_USER\"]/desc"
 msgstr ""
-"Quand les RadiKals trouvent des fortifications concurrentes ou policières, "
-"les Titans descendent pour intimider l'opposition. Faites-le fonctionner "
-"pour une bonne cause pour une fois."
+"Lorsque les RadiKals trouvent des fortifications de concurrents ou de la "
+"police, les Titans descendent pour intimider l'opposition. Faites-le "
+"fonctionner pour une bonne cause pour une fois."
 
 #: src-en/data/blueprints.xml.append:4190
 msgid ""
@@ -1545,19 +1625,24 @@ msgstr "Tuez l'équipage d'un ennemi dangereux dans le Secteur RadiKal."
 #: src-en/data/blueprints.xml.append:4264
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_RK_GRAVESPRED_USER\"]/class"
-msgstr ""
+msgstr "Dépopulateur RK Punk"
 
 #: src-en/data/blueprints.xml.append:4265
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_RK_GRAVESPRED_USER\"]/name"
-msgstr ""
+msgstr "Tabula Rasa"
 
 #: src-en/data/blueprints.xml.append:4266
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_RK_GRAVESPRED_USER\"]/desc"
 msgstr ""
+"Petit. Tue les gens. Ne ressent rien. Envoyé quand les RadiKals doivent "
+"rompre les liens avec d'anciens alliés. Malheureusement, il ne peut pas "
+"accueillir les systèmes habituels."
 
 #: src-en/data/blueprints.xml.append:4267
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_RK_GRAVESPRED_USER\"]/unlock"
 msgstr ""
+"Détruisez un ennemi dangereux dans le Secteur RadiKal, puis choisissez "
+"correctement."

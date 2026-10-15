@@ -10,7 +10,7 @@ msgid ""
 "data/events_ships.xml.append$//ship[@name=\"SHIP_RK_BAM_EXIT_BOSS\"]/surrender/text"
 msgstr ""
 "Tout à coup, l'ennemi restaure complètement ses Super Boucliers ! C'est "
-"probablement une exception."
+"probablement un cas unique."
 
 #: src-en/data/events_ships.xml.append:32
 msgid ""
@@ -22,25 +22,25 @@ msgid ""
 "data/events_ships.xml.append$//ship[@name=\"SHIP_RK_BAM_EXIT_BOSS\"]/destroyed/text"
 msgstr ""
 "Le vaisseau est détruit. Les autres gardiens font un signe de tête solennel."
-" \"Quiconque t'a transmis nos coordonnées a fait un bon choix, et toi aussi "
-"en venant ici. Tu es libre de partir ! Profite aussi de quelques réparations"
-" gratuites.\""
+" \"Quiconque vous a transmis nos coordonnées a fait un bon choix, tout comme"
+" vous en venant ici. Vous êtes libre de partir ! Prenez aussi quelques "
+"réparations gratuites.\""
 
 #: src-en/data/events_ships.xml.append:43
 msgid ""
 "data/events_ships.xml.append$//ship[@name=\"SHIP_RK_BAM_EXIT_BOSS\"]/deadCrew/text"
 msgstr ""
-"Maintenant que tu as passé le test, les autres gardiens te laissent sortir "
-"du secteur, et laissent entendre que puisque tu as même réussi à quitter le "
-"vaisseau en un seul morceau, tu obtiens un membre d'équipage aléatoire "
-"gratuit !"
+"Maintenant que vous avez passé le test, les autres gardiens vous laissent "
+"sortir du secteur, et laissent entendre que puisque vous avez même réussi à "
+"quitter le vaisseau en un seul morceau, vous obtenez un membre d'équipage "
+"aléatoire gratuit !"
 
 #: src-en/data/events_ships.xml.append:63
 msgid ""
 "data/events_ships.xml.append$//ship[@name=\"SHIP_RK_BAM_EXIT_BOSS_CHALLENGE\"]/surrender/text"
 msgstr ""
 "Tout à coup, l'ennemi restaure complètement ses Super Boucliers ! C'est "
-"probablement une exception."
+"probablement un cas unique."
 
 #: src-en/data/events_ships.xml.append:67
 msgid ""
@@ -52,37 +52,40 @@ msgid ""
 "data/events_ships.xml.append$//ship[@name=\"SHIP_RK_BAM_EXIT_BOSS_CHALLENGE\"]/destroyed/text"
 msgstr ""
 "Le vaisseau est détruit. Les autres gardiens font un signe de tête solennel."
-" \"Quiconque t'a transmis nos coordonnées a fait un bon choix, et toi aussi "
-"en venant ici. Tu es libre de partir ! Profite aussi de quelques réparations"
-" gratuites.\""
+" \"Quiconque vous a transmis nos coordonnées a fait un bon choix, tout comme"
+" vous en venant ici. Vous êtes libre de partir ! Prenez aussi quelques "
+"réparations gratuites.\""
 
 #: src-en/data/events_ships.xml.append:78
 msgid ""
 "data/events_ships.xml.append$//ship[@name=\"SHIP_RK_BAM_EXIT_BOSS_CHALLENGE\"]/deadCrew/text"
 msgstr ""
-"Maintenant que tu as passé le test, les autres gardiens te laissent sortir "
-"du secteur, et laissent entendre que puisque tu as même réussi à quitter le "
-"vaisseau en un seul morceau, tu obtiens un membre d'équipage aléatoire "
-"gratuit !"
+"Maintenant que vous avez passé le test, les autres gardiens vous laissent "
+"sortir du secteur, et laissent entendre que puisque vous avez même réussi à "
+"quitter le vaisseau en un seul morceau, vous obtenez un membre d'équipage "
+"aléatoire gratuit !"
 
 #: src-en/data/events_ships.xml.append:99
 msgid ""
 "data/events_ships.xml.append$//ship[@name=\"SHIP_RK_PUNK_EXIT_BOSS\"]/destroyed/text"
 msgstr ""
 "Le vaisseau est détruit. Les autres gardiens font un signe de tête solennel."
-" \"Quiconque t'a transmis nos coordonnées a fait un bon choix, et toi aussi "
-"en venant ici. Tu es libre de partir ! Profite aussi de quelques réparations"
-" gratuites.\""
+" \"Quiconque vous a transmis nos coordonnées a fait un bon choix, tout comme"
+" vous en venant ici. Vous êtes libre de partir ! Prenez aussi quelques "
+"réparations gratuites.\""
 
 #: src-en/data/events_ships.xml.append:105
 msgid ""
 "data/events_ships.xml.append$//ship[@name=\"SHIP_RK_PUNK_EXIT_BOSS\"]/destroyed/choice[@req=\"RK_RAIN_OF_ION\"]/text"
 msgstr ""
+"(Pluie d'ions) Votre équipement RK détecte son propre kit d'amélioration."
 
 #: src-en/data/events_ships.xml.append:107
 msgid ""
 "data/events_ships.xml.append$//ship[@name=\"SHIP_RK_PUNK_EXIT_BOSS\"]/destroyed/choice[@req=\"RK_RAIN_OF_ION\"]/event/text"
 msgstr ""
+"Vous extrayez le kit d'amélioration et vous vous échappez.\n"
+"\t\t\t\t\tVous l'appliquez immédiatement à votre équipement..."
 
 #: src-en/data/events_ships.xml.append:113
 msgid ""
@@ -92,7 +95,7 @@ msgstr ""
 #: src-en/data/events_ships.xml.append:115
 msgid ""
 "data/events_ships.xml.append$//ship[@name=\"SHIP_RK_PUNK_EXIT_BOSS\"]/destroyed/choice[@req=\"RK_RAIN_OF_ION\"]/event/choice/event/text"
-msgstr ""
+msgstr "Votre équipement est maintenant d'élite !"
 
 #: src-en/data/events_ships.xml.append:119
 msgid ""
@@ -107,7 +110,7 @@ msgstr ""
 #: src-en/data/events_ships.xml.append:130
 msgid ""
 "data/events_ships.xml.append$//ship[@name=\"SHIP_RK_PUNK_EXIT_BOSS\"]/destroyed/choice[2]/event/text"
-msgstr ""
+msgstr "Il y a aussi une arme qui n'a pas explosé !"
 
 #: src-en/data/events_ships.xml.append:134
 msgid ""
@@ -118,20 +121,23 @@ msgstr ""
 msgid ""
 "data/events_ships.xml.append$//ship[@name=\"SHIP_RK_PUNK_EXIT_BOSS\"]/deadCrew/text"
 msgstr ""
-"Maintenant que tu as passé le test, les autres gardiens te laissent sortir "
-"du secteur, et laissent entendre que puisque tu as même réussi à quitter le "
-"vaisseau en un seul morceau, tu obtiens un membre d'équipage aléatoire "
-"gratuit !"
+"Maintenant que vous avez passé le test, les autres gardiens vous laissent "
+"sortir du secteur, et laissent entendre que puisque vous avez même réussi à "
+"quitter le vaisseau en un seul morceau, vous obtenez un membre d'équipage "
+"aléatoire gratuit !"
 
 #: src-en/data/events_ships.xml.append:149
 msgid ""
 "data/events_ships.xml.append$//ship[@name=\"SHIP_RK_PUNK_EXIT_BOSS\"]/deadCrew/choice[@req=\"RK_RAIN_OF_ION\"]/text"
 msgstr ""
+"(Pluie d'ions) Votre équipement RK détecte son propre kit d'amélioration."
 
 #: src-en/data/events_ships.xml.append:151
 msgid ""
 "data/events_ships.xml.append$//ship[@name=\"SHIP_RK_PUNK_EXIT_BOSS\"]/deadCrew/choice[@req=\"RK_RAIN_OF_ION\"]/event/text"
 msgstr ""
+"Vous extrayez le kit d'amélioration et vous vous échappez.\n"
+"\t\t\t\t\tVous l'appliquez immédiatement à votre équipement..."
 
 #: src-en/data/events_ships.xml.append:157
 msgid ""
@@ -141,7 +147,7 @@ msgstr ""
 #: src-en/data/events_ships.xml.append:159
 msgid ""
 "data/events_ships.xml.append$//ship[@name=\"SHIP_RK_PUNK_EXIT_BOSS\"]/deadCrew/choice[@req=\"RK_RAIN_OF_ION\"]/event/choice/event/text"
-msgstr ""
+msgstr "Votre équipement est maintenant d'élite !"
 
 #: src-en/data/events_ships.xml.append:163
 msgid ""
@@ -156,7 +162,7 @@ msgstr ""
 #: src-en/data/events_ships.xml.append:174
 msgid ""
 "data/events_ships.xml.append$//ship[@name=\"SHIP_RK_PUNK_EXIT_BOSS\"]/deadCrew/choice[2]/event/text"
-msgstr ""
+msgstr "Il y a aussi une arme qui n'a pas explosé !"
 
 #: src-en/data/events_ships.xml.append:178
 msgid ""
@@ -168,15 +174,15 @@ msgid ""
 "data/events_ships.xml.append$//ship[@name=\"SHIP_RK_SCORCH_EXIT_BOSS\"]/destroyed/text"
 msgstr ""
 "Le vaisseau est détruit. Les autres gardiens font un signe de tête solennel."
-" \"Quiconque t'a transmis nos coordonnées a fait un bon choix, et toi aussi "
-"en venant ici. Tu es libre de partir ! Profite aussi de quelques réparations"
-" gratuites.\""
+" \"Quiconque vous a transmis nos coordonnées a fait un bon choix, tout comme"
+" vous en venant ici. Vous êtes libre de partir ! Prenez aussi quelques "
+"réparations gratuites.\""
 
 #: src-en/data/events_ships.xml.append:201
 msgid ""
 "data/events_ships.xml.append$//ship[@name=\"SHIP_RK_SCORCH_EXIT_BOSS\"]/deadCrew/text"
 msgstr ""
-"Maintenant que tu as passé le test, les autres gardiens te laissent sortir "
-"du secteur, et laissent entendre que puisque tu as même réussi à quitter le "
-"vaisseau en un seul morceau, tu peux récupérer un plan spécial de croiseur "
-"dans l'épave !"
+"Maintenant que vous avez passé le test, les autres gardiens vous laissent "
+"sortir du secteur, et laissent entendre que puisque vous avez même réussi à "
+"quitter le vaisseau en un seul morceau, vous pouvez récupérer un plan de "
+"croiseur spécial dans l'épave !"

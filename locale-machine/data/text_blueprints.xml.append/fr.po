@@ -13,7 +13,7 @@ msgstr ""
 #: src-en/data/text_blueprints.xml.append:19
 msgid ""
 "data/text_blueprints.xml.append$//text[@name=\"ship_PLAYER_SHIP_DJMOD_PUNKER_unlock\"]"
-msgstr "Atteindre le secteur 8 avec le Croiseur RadiKal Bam (Bélier)."
+msgstr "Atteignez le secteur 8 avec le Croiseur RadiKal Bam (Rammer)."
 
 #: src-en/data/text_blueprints.xml.append:20
 msgid ""
@@ -23,7 +23,7 @@ msgstr ""
 #: src-en/data/text_blueprints.xml.append:22
 msgid ""
 "data/text_blueprints.xml.append$//text[@name=\"ship_PLAYER_SHIP_RK_SCORCHER_unlock\"]"
-msgstr "Gagner avec le layout B du Croiseur RadiKal Punk (\"NuH4RM0NY\")."
+msgstr "Gagnez avec la disposition B du Croiseur RadiKal Punk (\"NuH4RM0NY\")."
 
 #: src-en/data/text_blueprints.xml.append:23
 msgid ""
@@ -39,5 +39,5 @@ msgstr ""
 msgid ""
 "data/text_blueprints.xml.append$//text[@name=\"ship_PLAYER_SHIP_DJMOD_SCORCH_unlock\"]"
 msgstr ""
-"Tuer l'équipage du Gardien Scorch à la fin du Secteur RadiKal pour débloquer"
+"Tuez l'équipage du Gardien Scorch à la fin du Secteur RadiKal pour débloquer"
 " ce vaisseau."

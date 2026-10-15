@@ -17,22 +17,22 @@ msgstr ""
 msgid ""
 "data/events_special_standard.xml.append$//event[@name=\"TRYGET_COORDS_RADIKAL\"]/text"
 msgstr ""
-"Tu fabriques le mannequin et ordonnes à ton équipage de s'entraîner au tir à"
-" tour de rôle."
+"Vous fabriquez le mannequin et ordonnez à votre équipage de s'entraîner à "
+"tour de rôle à la visée."
 
 #: src-en/data/events_special_standard.xml.append:47
 msgid ""
 "data/events_special_standard.xml.append$//event[@name=\"TRYGET_COORDS_RADIKAL\"]/choice/text"
-msgstr "Ils méritent un peu de plaisir."
+msgstr "Ils méritent un peu d'amusement."
 
 #: src-en/data/events_special_standard.xml.append:59
 msgid ""
 "data/events_special_standard.xml.append$//event[@name=\"GET_COORDS_RADIKAL\"]/text"
 msgstr ""
-"Soudain, le mannequin heurte quelque chose de petit lors d'une manœuvre d'évitement, que tu finis par trouver en calculant les trajectoires et en regardant attentivement autour, car c'est trop petit pour être détecté.\n"
+"Soudain, le mannequin heurte quelque chose de petit lors d'une manœuvre d'évitement, que vous finissez par trouver en calculant les trajectoires et en regardant attentivement autour car c'est trop petit pour être détecté.\n"
 "\t\n"
-"\tCe n'est qu'un morceau de vêtement déchiré qui appartenait probablement à quelqu'un décédé près de cette balise récemment. Il y a une poche.\n"
-"\tÀ l'intérieur, figée dans du sang congelé, se trouve une carte de données que tu ne mets pas longtemps à nettoyer et décrypter, contenant des coordonnées de saut SPL..."
+"\tCe n'est qu'un morceau de vêtement déchiré qui appartenait probablement à quelqu'un mort près de cette balise récemment. Il y a une poche.\n"
+"\tÀ l'intérieur, encastrée dans du sang gelé, se trouve une carte de données que vous ne tardez pas à nettoyer et décrypter, contenant des coordonnées de saut SPL..."
 
 #: src-en/data/events_special_standard.xml.append:67
 msgid ""
@@ -43,24 +43,24 @@ msgstr ""
 msgid ""
 "data/events_special_standard.xml.append$//event[@name=\"GET_COORDS_RADIKAL\"]/choice/event/text"
 msgstr ""
-"Le secteur de destination ne correspond à rien dans ta base de données (ce qui n'est pas rassurant) et n'est pas étiqueté (ce qui n'est pas légal).\n"
+"Le secteur de destination ne correspond à rien dans votre base de données (ce qui n'est pas rassurant) et n'est pas étiqueté (ce qui n'est pas légal).\n"
 "\t\t\t\n"
 "\t\t\tLe seul indice est un logo avec les lettres \"RK\" au dos de la carte.\n"
 "\t\t\t\n"
-"\t\t\tTu pourras y changer d'itinéraire la prochaine fois que tu changeras de secteur, sachant que débarquer sans invitation quelque part que tu ne connais pas est toujours une manœuvre risquée."
+"\t\t\tVous pourrez y changer d'itinéraire la prochaine fois que vous changerez de secteur, en sachant que débarquer sans invitation quelque part que vous ne connaissez pas est toujours un mouvement risqué."
 
 #: src-en/data/events_special_standard.xml.append:75
 msgid ""
 "data/events_special_standard.xml.append$//event[@name=\"GET_COORDS_RADIKAL\"]/choice/event/choice/text"
-msgstr "On verra."
+msgstr "On verra bien."
 
 #: src-en/data/events_special_standard.xml.append:83
 msgid ""
 "data/events_special_standard.xml.append$//event[@name=\"NOTGET_COORDS_RADIKAL\"]/text"
 msgstr ""
-"Ton équipage profite de l'exercice, faisant semblant d'utiliser des tactiques radicales pour combattre les ennemis. \n"
-"\tÀ un moment donné, tu te dis qu'il y a probablement 50 % de chances que quelque chose de spécial soit sorti de cette activité récréative...\n"
-"\tPuis tu en restes là et tu recommences à te concentrer sur ta mission."
+"Votre équipage apprécie l'exercice, prétendant qu'ils utilisent des tactiques radicales pour combattre les ennemis. \n"
+"\tÀ un moment donné, vous vous dites qu'il y a probablement 50 % de chances que quelque chose de spécial aurait pu sortir de cette activité récréative...\n"
+"\tPuis vous en restez là et recommencez à vous concentrer sur votre mission."
 
 #: src-en/data/events_special_standard.xml.append:87
 msgid ""
